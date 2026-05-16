@@ -1,0 +1,32 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: quizup-theme
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quizup_theme
+    username: postgres
+    password: postgres
+
+  flyway:
+    locations: classpath:db/migration/theme
+
+axon:
+  distributed:
+    enabled: true
+
+microservice:
+  swagger:
+    description: QuizUp Theme Module - Quiz Topics and Questions management
+  websocket:
+    enabled: false
+
+app:
+  seed-data:
+    enabled: true
+
+logging:
+  level:
+    io.github.quizup: DEBUG
