@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/quizup-organization/quizup-theme/compare/v1.0.1...v1.0.2) (2026-05-16)
+
+### Bug Fixes
+
+* add distribution management ([529f81f](https://github.com/quizup-organization/quizup-theme/commit/529f81fb10da858522f13a01e772b1d37ffe3c82))
+
 ## [1.0.1](https://github.com/quizup-organization/quizup-theme/compare/v1.0.0...v1.0.1) (2026-05-16)
 
 ### Bug Fixes
