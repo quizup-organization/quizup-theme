@@ -1,0 +1,21 @@
+server:
+  port: 8086
+
+spring:
+  config:
+    activate:
+      on-profile: local
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quizup_theme
+    username: postgres
+    password: postgres
+
+app:
+  seed-data:
+    enabled: true
+
+logging:
+  level:
+    io.github.quizup: DEBUG
+

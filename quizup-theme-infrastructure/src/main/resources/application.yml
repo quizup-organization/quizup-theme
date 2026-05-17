@@ -1,14 +1,8 @@
-server:
-  port: 8086
-
 spring:
   application:
     name: quizup-theme
-
-  datasource:
-    url: jdbc:postgresql://localhost:5432/quizup_theme
-    username: postgres
-    password: postgres
+  profiles:
+    default: local
 
   flyway:
     locations: classpath:db/migration/theme
@@ -25,8 +19,8 @@ microservice:
 
 app:
   seed-data:
-    enabled: true
+    enabled: false
 
 logging:
   level:
-    io.github.quizup: DEBUG
+    io.github.quizup: ${QUIZUP_LOG_LEVEL:INFO}
