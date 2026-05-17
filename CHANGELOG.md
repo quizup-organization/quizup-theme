@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/quizup-organization/quizup-theme/compare/v1.0.2...v1.0.3) (2026-05-17)
+
+### Bug Fixes
+
+* profiles yml ([6e472b5](https://github.com/quizup-organization/quizup-theme/commit/6e472b59f099c5e1219a535209c478b5c1c0f3dc))
+
 ## [1.0.2](https://github.com/quizup-organization/quizup-theme/compare/v1.0.1...v1.0.2) (2026-05-16)
 
 ### Bug Fixes
