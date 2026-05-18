@@ -7,5 +7,5 @@ Structure cible en 2 sous-modules Maven :
 
 Seul `quizup-theme-domain` est importable inter-services.
 
-Le code applicatif reste organise sous `io.github.quizup.topic.application.*` dans le module infrastructure.
+Le code applicatif reste organise sous `io.github.quizup.theme.application.*` dans le module infrastructure.
 

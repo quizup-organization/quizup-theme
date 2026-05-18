@@ -31,7 +31,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>io.github.quizup.topic.ThemeServiceApplication</mainClass>
+                    <mainClass>io.github.quizup.theme.ThemeServiceApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
