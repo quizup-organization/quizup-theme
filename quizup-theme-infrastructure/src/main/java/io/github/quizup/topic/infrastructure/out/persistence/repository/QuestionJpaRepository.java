@@ -15,7 +15,7 @@ import java.util.List;
 @Repository
 public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, String>, JpaSpecificationExecutor<QuestionEntity> {
 
-    @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = io.github.quizup.common.domain.model.question.QuestionStatus.APPROVED")
+    @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = io.github.quizup.topic.domain.model.QuestionStatus.APPROVED")
     int countApprovedByTopicId(@Param("topicId") String topicId);
 
     @Query(value = "SELECT * FROM question_entry WHERE topic_id = :topicId AND status = 'APPROVED' ORDER BY RANDOM() LIMIT :count", nativeQuery = true)
