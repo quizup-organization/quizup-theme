@@ -8,7 +8,6 @@ import java.util.Optional;
 
 public interface TopicRepositoryPort {
     void save(Topic topic);
-
     Optional<Topic> findById(String topicId);
     boolean existsById(String topicId);
     PageResult<Topic> findAll(SearchCriteria searchCriteria);

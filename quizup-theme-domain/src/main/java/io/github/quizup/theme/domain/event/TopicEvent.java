@@ -29,5 +29,6 @@ public interface TopicEvent {
             Instant publishedAt
     ) implements TopicEvent {
     }
+
 }
 

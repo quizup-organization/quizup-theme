@@ -13,6 +13,10 @@
 
     <artifactId>quizup-theme-infrastructure</artifactId>
 
+    <properties>
+        <quizup-social-domain.version>1.1.1-SNAPSHOT</quizup-social-domain.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>io.github.quizup</groupId>
@@ -22,6 +26,11 @@
         <dependency>
             <groupId>io.github.quizup</groupId>
             <artifactId>quizup-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.quizup</groupId>
+            <artifactId>quizup-social-domain</artifactId>
+            <version>1.1.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

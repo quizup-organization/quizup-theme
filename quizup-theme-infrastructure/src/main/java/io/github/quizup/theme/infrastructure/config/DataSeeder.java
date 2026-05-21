@@ -2,7 +2,10 @@ package io.github.quizup.theme.infrastructure.config;
 
 import io.github.quizup.common.domain.constant.QuizUpConstants;
 import io.github.quizup.theme.domain.model.QuestionChoice;
+import io.github.quizup.theme.domain.model.QuestionStatus;
+import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicCategory;
+import io.github.quizup.theme.domain.port.in.GetTopicUseCase;
 import io.github.quizup.theme.domain.port.in.CreateQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.ApproveQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.CheckTopicUseCase;
@@ -16,6 +19,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.Map;
 import java.util.UUID;
+
+import static io.github.quizup.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PUBLISH;
 
 /**
  * DataSeeder - Initialise les topics et questions de test au demarrage.
@@ -35,6 +40,7 @@ public class DataSeeder implements CommandLineRunner {
     private final CreateQuestionUseCase createQuestionUseCase;
     private final ApproveQuestionUseCase approveQuestionUseCase;
     private final PublishTopicUseCase publishTopicUseCase;
+    private final GetTopicUseCase getTopicUseCase;
 
     @Value("${app.seed-data.enabled:false}")
     private boolean seedDataEnabled;
@@ -43,12 +49,14 @@ public class DataSeeder implements CommandLineRunner {
                       CreateTopicUseCase createTopicUseCase,
                       CreateQuestionUseCase createQuestionUseCase,
                       ApproveQuestionUseCase approveQuestionUseCase,
-                      PublishTopicUseCase publishTopicUseCase) {
+                      PublishTopicUseCase publishTopicUseCase,
+                      GetTopicUseCase getTopicUseCase) {
         this.checkTopicUseCase = checkTopicUseCase;
         this.createTopicUseCase = createTopicUseCase;
         this.createQuestionUseCase = createQuestionUseCase;
         this.approveQuestionUseCase = approveQuestionUseCase;
         this.publishTopicUseCase = publishTopicUseCase;
+        this.getTopicUseCase = getTopicUseCase;
     }
 
     @Override
@@ -97,6 +105,7 @@ public class DataSeeder implements CommandLineRunner {
             approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
         }
 
+        awaitApprovedQuestionsCounter(topicId, MIN_QUESTIONS_TO_PUBLISH);
         publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
 
         logger.info("✓ Science topic created and published: {}", topicId);
@@ -164,10 +173,11 @@ public class DataSeeder implements CommandLineRunner {
         String[] questionIds = addHistoryQuestions(topicId);
 
         for (String qId : questionIds) {
-            approveQuestionUseCase.approve(qId, QuizUpConstants.ADMIN_USER_ID).join();
+            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
         }
 
-        publishTopicUseCase.publish(topicId, QuizUpConstants.ADMIN_USER_ID).join();
+        awaitApprovedQuestionsCounter(topicId, MIN_QUESTIONS_TO_PUBLISH);
+        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
         logger.info("✓ History topic created and published: {}", topicId);
     }
 
@@ -198,14 +208,14 @@ public class DataSeeder implements CommandLineRunner {
 
         for (int i = 0; i < questions.length; i++) {
             ids[i] = UUID.randomUUID().toString();
-            createQuestionUseCase.create(
+            createQuestionUseCase.createAndWait(
                     ids[i],
                     topicId,
                     (String) questions[i][0],
                     (Map<QuestionChoice, String>) questions[i][1],
                     (QuestionChoice) questions[i][2],
                     QuizUpConstants.ADMIN_USER_ID
-            ).join();
+            );
         }
         return ids;
     }
@@ -213,7 +223,7 @@ public class DataSeeder implements CommandLineRunner {
     private void seedPokemonGen1Topic() {
         String topicId = "topic-pokemon-gen1-001";
 
-        boolean exists = checkTopicUseCase.existsById(topicId).join();
+        boolean exists = checkTopicUseCase.existsByIdAndWait(topicId);
 
         if (exists) {
             logger.info("Pokemon Gen1 topic already exists, skipping creation");
@@ -222,20 +232,21 @@ public class DataSeeder implements CommandLineRunner {
 
         logger.info("Creating Pokemon Gen1 topic...");
 
-        createTopicUseCase.create(
+        createTopicUseCase.createAndWait(
                 topicId,
                 "Pokémon 1G",
                 "Attrapez-les tous ! Testez vos connaissances sur la 1ère génération Pokémon !",
                 TopicCategory.GAMES,
                 QuizUpConstants.ADMIN_USER_ID
-        ).join();
+        );
 
         String[] questionIds = addPokemonGen1Questions(topicId);
         for (String qId : questionIds) {
-            approveQuestionUseCase.approve(qId, QuizUpConstants.ADMIN_USER_ID).join();
+            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
         }
 
-        publishTopicUseCase.publish(topicId, QuizUpConstants.ADMIN_USER_ID).join();
+        awaitApprovedQuestionsCounter(topicId, MIN_QUESTIONS_TO_PUBLISH);
+        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
         logger.info("✓ Pokemon Gen1 topic created and published: {}", topicId);
     }
 
@@ -266,14 +277,14 @@ public class DataSeeder implements CommandLineRunner {
 
         for (int i = 0; i < questions.length; i++) {
             ids[i] = UUID.randomUUID().toString();
-            createQuestionUseCase.create(
+            createQuestionUseCase.createAndWait(
                     ids[i],
                     topicId,
                     (String) questions[i][0],
                     (Map<QuestionChoice, String>) questions[i][1],
                     (QuestionChoice) questions[i][2],
                     QuizUpConstants.ADMIN_USER_ID
-            ).join();
+            );
         }
         return ids;
     }
@@ -282,7 +293,7 @@ public class DataSeeder implements CommandLineRunner {
     private void seedPokemonGen2Topic() {
         String topicId = "topic-pokemon-gen2-001";
 
-        boolean exists = checkTopicUseCase.existsById(topicId).join();
+        boolean exists = checkTopicUseCase.existsByIdAndWait(topicId);
 
         if (exists) {
             logger.info("Pokemon Gen2 topic already exists, skipping creation");
@@ -291,21 +302,46 @@ public class DataSeeder implements CommandLineRunner {
 
         logger.info("Creating Pokemon Gen2 topic...");
 
-        createTopicUseCase.create(
+        createTopicUseCase.createAndWait(
                 topicId,
                 "Pokémon 2G",
                 "Attrapez-les tous ! Testez vos connaissances sur la 2nd génération Pokémon !",
                 TopicCategory.GAMES,
                 QuizUpConstants.ADMIN_USER_ID
-        ).join();
+        );
 
         String[] questionIds = addPokemonGen2Questions(topicId);
         for (String qId : questionIds) {
-            approveQuestionUseCase.approve(qId, QuizUpConstants.ADMIN_USER_ID).join();
+            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
         }
 
-        publishTopicUseCase.publish(topicId, QuizUpConstants.ADMIN_USER_ID).join();
+        awaitApprovedQuestionsCounter(topicId, MIN_QUESTIONS_TO_PUBLISH);
+        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
         logger.info("✓ Pokemon Gen2 topic created and published: {}", topicId);
+    }
+
+    private void awaitApprovedQuestionsCounter(String topicId, int requiredApprovedCount) {
+        long deadlineMs = System.currentTimeMillis() + 15_000;
+
+        while (System.currentTimeMillis() < deadlineMs) {
+            Topic topic = getTopicUseCase.getById(topicId).join();
+            int approvedCount = topic.questionsCounter() == null
+                    ? 0
+                    : topic.questionsCounter().getOrDefault(QuestionStatus.APPROVED, 0);
+
+            if (approvedCount >= requiredApprovedCount) {
+                return;
+            }
+
+            try {
+                Thread.sleep(150);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                throw new IllegalStateException("Interrupted while waiting for counters sync", e);
+            }
+        }
+
+        throw new IllegalStateException("Timeout while waiting approved questions counter for topic " + topicId);
     }
 
     private String[] addPokemonGen2Questions(String topicId) {
@@ -335,14 +371,14 @@ public class DataSeeder implements CommandLineRunner {
 
         for (int i = 0; i < questions.length; i++) {
             ids[i] = UUID.randomUUID().toString();
-            createQuestionUseCase.create(
+            createQuestionUseCase.createAndWait(
                     ids[i],
                     topicId,
                     (String) questions[i][0],
                     (Map<QuestionChoice, String>) questions[i][1],
                     (QuestionChoice) questions[i][2],
                     QuizUpConstants.ADMIN_USER_ID
-            ).join();
+            );
         }
         return ids;
     }

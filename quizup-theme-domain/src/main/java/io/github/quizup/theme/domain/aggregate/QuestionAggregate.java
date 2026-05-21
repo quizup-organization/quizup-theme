@@ -69,6 +69,7 @@ public class QuestionAggregate {
                 new QuestionEvent.QuestionApprovedEvent(
                         command.questionId(),
                         this.topicId,
+                        this.status,
                         command.requesterId(),
                         Instant.now()
                 ));
@@ -84,6 +85,7 @@ public class QuestionAggregate {
                 new QuestionEvent.QuestionRejectedEvent(
                         command.questionId(),
                         this.topicId,
+                        this.status,
                         command.reason(),
                         command.requesterId(),
                         Instant.now()

@@ -22,7 +22,8 @@ public final class TopicResponseMapper {
                 topic.status(),
                 topic.creatorId(),
                 topic.updatedBy(),
-                topic.questionCount(),
+                topic.followersCounter(),
+                topic.questionsCounter(),
                 topic.createdAt(),
                 topic.updatedAt()
         );

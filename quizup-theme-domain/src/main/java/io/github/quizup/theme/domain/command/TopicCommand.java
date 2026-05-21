@@ -27,5 +27,6 @@ public interface TopicCommand {
             String requesterId
     ) implements TopicCommand {
     }
+
 }
 

@@ -2,6 +2,7 @@ package io.github.quizup.theme.domain.event;
 
 
 import io.github.quizup.theme.domain.model.QuestionChoice;
+import io.github.quizup.theme.domain.model.QuestionStatus;
 
 import java.time.Instant;
 import java.util.Map;
@@ -29,6 +30,7 @@ public interface QuestionEvent {
     record QuestionApprovedEvent(
             String questionId,
             String topicId,
+            QuestionStatus previousStatus,
             String updatedBy,
             Instant approvedAt
     ) implements QuestionEvent {
@@ -40,6 +42,7 @@ public interface QuestionEvent {
     record QuestionRejectedEvent(
             String questionId,
             String topicId,
+            QuestionStatus previousStatus,
             String reason,
             String updatedBy,
             Instant rejectedAt

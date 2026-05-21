@@ -17,7 +17,8 @@ public final class TopicEntityMapper {
                 entity.getStatus(),
                 entity.getCreatorId(),
                 entity.getUpdatedBy(),
-                entity.getQuestionCount(),
+                entity.getFollowersCounter(),
+                entity.getQuestionsCounter(),
                 entity.getCreatedAt(),
                 entity.getUpdatedAt()
         );
@@ -32,7 +33,8 @@ public final class TopicEntityMapper {
         topicEntity.setStatus(topic.status());
         topicEntity.setCreatorId(topic.creatorId());
         topicEntity.setUpdatedBy(topic.updatedBy());
-        topicEntity.setQuestionCount(topic.questionCount());
+        topicEntity.setFollowersCounter(topic.followersCounter());
+        topicEntity.setQuestionsCounter(topic.questionsCounter());
         topicEntity.setCreatedAt(topic.createdAt());
         topicEntity.setUpdatedAt(topic.updatedAt());
         return topicEntity;

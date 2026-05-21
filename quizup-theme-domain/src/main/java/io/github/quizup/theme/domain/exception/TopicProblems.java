@@ -1,6 +1,7 @@
 package io.github.quizup.theme.domain.exception;
 
 import io.github.quizup.common.domain.exception.ProblemCategory;
+import io.github.quizup.theme.domain.model.QuestionStatus;
 
 import java.util.Map;
 
@@ -24,7 +25,7 @@ public final class TopicProblems {
 
     public static class TopicCategoryEmptyProblem extends TopicProblem {
         public TopicCategoryEmptyProblem(String topicId) {
-            super(topicId, "urn:quizup:topic:categoryEmpty", "Topic name cannot be empty");
+            super(topicId, "urn:quizup:topic:categoryEmpty", "Topic category cannot be empty");
         }
     }
 
@@ -65,6 +66,36 @@ public final class TopicProblems {
                     "Unauthorized topic access",
                     "User " + requesterId + " is not authorized to modify topic " + topicId,
                     Map.of("requesterId", requesterId));
+        }
+    }
+
+    public static class TopicFollowersCounterUnderflowProblem extends TopicProblem {
+        public TopicFollowersCounterUnderflowProblem(String topicId) {
+            super(topicId, "urn:quizup:topic:followersCounter:underflow",
+                    ProblemCategory.BUSINESS_INVALID_COMMAND,
+                    "Followers counter underflow",
+                    "Followers counter cannot be negative for topic " + topicId,
+                    null);
+        }
+    }
+
+    public static class TopicQuestionStatusRequiredProblem extends TopicProblem {
+        public TopicQuestionStatusRequiredProblem(String topicId) {
+            super(topicId, "urn:quizup:topic:questionStatus:required",
+                    ProblemCategory.BUSINESS_INVALID_COMMAND,
+                    "Question status is required",
+                    "A question status is required to update topic question counters",
+                    null);
+        }
+    }
+
+    public static class TopicQuestionsCounterUnderflowProblem extends TopicProblem {
+        public TopicQuestionsCounterUnderflowProblem(String topicId, QuestionStatus questionStatus) {
+            super(topicId, "urn:quizup:topic:questionsCounter:underflow",
+                    ProblemCategory.BUSINESS_INVALID_COMMAND,
+                    "Questions counter underflow",
+                    "Questions counter cannot be negative for status " + questionStatus + " on topic " + topicId,
+                    Map.of("questionStatus", questionStatus));
         }
     }
 }

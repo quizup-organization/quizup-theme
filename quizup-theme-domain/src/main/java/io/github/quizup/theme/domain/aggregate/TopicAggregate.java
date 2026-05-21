@@ -85,6 +85,7 @@ public class TopicAggregate {
                 ));
     }
 
+
     @EventSourcingHandler
     public void on(TopicEvent.TopicCreatedEvent event) {
         this.topicId = event.topicId();
@@ -104,4 +105,5 @@ public class TopicAggregate {
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.publishedAt();
     }
+
 }

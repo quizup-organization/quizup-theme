@@ -2,6 +2,7 @@ package io.github.quizup.theme.infrastructure.out.persistence.entity;
 
 import io.github.quizup.common.domain.model.search.FieldType;
 import io.github.quizup.common.domain.model.search.Searchable;
+import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.domain.model.TopicStatus;
 import jakarta.persistence.*;
@@ -9,6 +10,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.Instant;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * TopicEntity - Entité JPA pour la projection read-only du thème
@@ -52,8 +55,15 @@ public class TopicEntity {
     private String creatorId;
 
     @Searchable(type = FieldType.NUMBER)
-    @Column(name = "question_count", nullable = false)
-    private int questionCount = 0;
+    @Column(name = "followers_counter")
+    private Integer followersCounter;
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    @CollectionTable(name = "topic_questions_counter", joinColumns = @JoinColumn(name = "topic_id"))
+    @MapKeyEnumerated(EnumType.STRING)
+    @MapKeyColumn(name = "question_status")
+    @Column(name = "counter", nullable = false)
+    private Map<QuestionStatus, Integer> questionsCounter = new HashMap<>();
 
     @Searchable(type = FieldType.DATE)
     @Column(name = "created_at", nullable = false)
