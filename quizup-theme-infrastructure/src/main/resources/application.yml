@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: quizup-theme
+  profiles:
+    default: local
+
+  flyway:
+    locations: classpath:db/migration/theme
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+microservice:
+  swagger:
+    description: QuizUp Theme Module - Quiz Topics and Questions management
+  websocket:
+    enabled: false
+
+app:
+  seed-data:
+    enabled: false
+
+logging:
+  level:
+    io.github.quizup: ${QUIZUP_LOG_LEVEL:INFO}
