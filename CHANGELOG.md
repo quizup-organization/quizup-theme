@@ -1,3 +1,9 @@
+## [1.4.5](https://github.com/quizup-organization/quizup-theme/compare/v1.4.4...v1.4.5) (2026-09-20)
+
+### Bug Fixes
+
+* **config:** align prod service URLs with quizup-* names ([de46b58](https://github.com/quizup-organization/quizup-theme/commit/de46b589c0d1063abf6a0c707831fdf2dd5abc0c))
+
 ## [1.4.4](https://github.com/quizup-organization/quizup-theme/compare/v1.4.3...v1.4.4) (2026-09-20)
 
 ### Bug Fixes
