@@ -1,3 +1,9 @@
+## [1.4.3](https://github.com/quizup-organization/quizup-theme/compare/v1.4.2...v1.4.3) (2026-09-20)
+
+### Bug Fixes
+
+* **system:** use the unified system account ([b3faace](https://github.com/quizup-organization/quizup-theme/commit/b3faacea9631e51ac5cfac5fbeb11bd7662016cb))
+
 ## [1.4.2](https://github.com/quizup-organization/quizup-theme/compare/v1.4.1...v1.4.2) (2026-09-20)
 
 ### Bug Fixes
