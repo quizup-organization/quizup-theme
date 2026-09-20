@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/quizup-organization/quizup-theme/compare/v1.3.0...v1.4.0) (2026-09-20)
+
+### Features
+
+* **observability:** consume quizup-sdk 1.4.0 (Axon activity metrics) ([09f9edf](https://github.com/quizup-organization/quizup-theme/commit/09f9edf6ecaa8aa86f9c77818c47191b80b6cc9a))
+
 ## [1.3.0](https://github.com/quizup-organization/quizup-theme/compare/v1.2.0...v1.3.0) (2026-09-20)
 
 ### Features
