@@ -2105,16 +2105,16 @@ public class DataSeeder implements CommandLineRunner {
                 "Sciences Générales",
                 "Testez vos connaissances scientifiques !",
                 TopicCategory.SCIENCE,
-                QuizUpConstants.ADMIN_USER_ID
+                QuizUpConstants.SYSTEM_USER_ID
         );
 
         String[] questionIds = addScienceQuestions(topicId);
 
         for (String qId : questionIds) {
-            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
+            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.SYSTEM_USER_ID);
         }
 
-        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
+        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.SYSTEM_USER_ID);
 
         logger.info("✓ Science topic created and published: {}", topicId);
     }
@@ -2152,7 +2152,7 @@ public class DataSeeder implements CommandLineRunner {
                     (String) questions[i][0],
                     (Map<QuestionChoice, String>) questions[i][1],
                     (QuestionChoice) questions[i][2],
-                    QuizUpConstants.ADMIN_USER_ID
+                    QuizUpConstants.SYSTEM_USER_ID
             );
         }
         return ids;
@@ -2175,16 +2175,16 @@ public class DataSeeder implements CommandLineRunner {
                 "Histoire Mondiale",
                 "Connaissez-vous l'histoire ?",
                 TopicCategory.HISTORY,
-                QuizUpConstants.ADMIN_USER_ID
+                QuizUpConstants.SYSTEM_USER_ID
         );
 
         String[] questionIds = addHistoryQuestions(topicId);
 
         for (String qId : questionIds) {
-            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
+            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.SYSTEM_USER_ID);
         }
 
-        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
+        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.SYSTEM_USER_ID);
         logger.info("✓ History topic created and published: {}", topicId);
     }
 
@@ -2221,7 +2221,7 @@ public class DataSeeder implements CommandLineRunner {
                     (String) questions[i][0],
                     (Map<QuestionChoice, String>) questions[i][1],
                     (QuestionChoice) questions[i][2],
-                    QuizUpConstants.ADMIN_USER_ID
+                    QuizUpConstants.SYSTEM_USER_ID
             );
         }
         return ids;
@@ -2244,15 +2244,15 @@ public class DataSeeder implements CommandLineRunner {
                 "Pokémon 1G",
                 "Attrapez-les tous ! Testez vos connaissances sur la 1ère génération Pokémon !",
                 TopicCategory.GAMES,
-                QuizUpConstants.ADMIN_USER_ID
+                QuizUpConstants.SYSTEM_USER_ID
         );
 
         String[] questionIds = addPokemonGen1Questions(topicId);
         for (String qId : questionIds) {
-            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
+            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.SYSTEM_USER_ID);
         }
 
-        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
+        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.SYSTEM_USER_ID);
         logger.info("✓ Pokemon Gen1 topic created and published: {}", topicId);
     }
 
@@ -2289,7 +2289,7 @@ public class DataSeeder implements CommandLineRunner {
                     (String) questions[i][0],
                     (Map<QuestionChoice, String>) questions[i][1],
                     (QuestionChoice) questions[i][2],
-                    QuizUpConstants.ADMIN_USER_ID
+                    QuizUpConstants.SYSTEM_USER_ID
             );
         }
         return ids;
@@ -2313,15 +2313,15 @@ public class DataSeeder implements CommandLineRunner {
                 "Pokémon 2G",
                 "Attrapez-les tous ! Testez vos connaissances sur la 2nd génération Pokémon !",
                 TopicCategory.GAMES,
-                QuizUpConstants.ADMIN_USER_ID
+                QuizUpConstants.SYSTEM_USER_ID
         );
 
         String[] questionIds = addPokemonGen2Questions(topicId);
         for (String qId : questionIds) {
-            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.ADMIN_USER_ID);
+            approveQuestionUseCase.approveAndWait(qId, QuizUpConstants.SYSTEM_USER_ID);
         }
 
-        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.ADMIN_USER_ID);
+        publishTopicUseCase.publishAndWait(topicId, QuizUpConstants.SYSTEM_USER_ID);
         logger.info("✓ Pokemon Gen2 topic created and published: {}", topicId);
     }
 
@@ -2358,7 +2358,7 @@ public class DataSeeder implements CommandLineRunner {
                     (String) questions[i][0],
                     (Map<QuestionChoice, String>) questions[i][1],
                     (QuestionChoice) questions[i][2],
-                    QuizUpConstants.ADMIN_USER_ID
+                    QuizUpConstants.SYSTEM_USER_ID
             );
         }
         return ids;

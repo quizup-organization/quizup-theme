@@ -54,7 +54,7 @@ public class QuestionDifficultyProjection {
 
         // Exclut les réponses synthétiques (bot et fantôme) : seule une réponse humaine compte.
         if (event.playerType() != GamePlayerType.HUMAN
-                || QuizUpConstants.BOT_USER_ID.equals(event.playerId())) {
+                || QuizUpConstants.SYSTEM_USER_ID.equals(event.playerId())) {
             return;
         }
 
