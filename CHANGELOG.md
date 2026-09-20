@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/quizup-organization/quizup-theme/compare/v1.1.0...v1.2.0) (2026-09-20)
+
+### Features
+
+* **observability:** consume quizup-sdk 1.2.0 (structured logs + tracing) ([a42bb96](https://github.com/quizup-organization/quizup-theme/commit/a42bb96ec92d63f25f19de9908a6f9dd8addf354))
+
 ## [1.1.0](https://github.com/quizup-organization/quizup-theme/compare/v1.0.0...v1.1.0) (2026-09-20)
 
 ### Features
