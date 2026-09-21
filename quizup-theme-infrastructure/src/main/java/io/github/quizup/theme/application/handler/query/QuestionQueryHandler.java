@@ -31,11 +31,6 @@ public class QuestionQueryHandler {
     }
 
     @QueryHandler
-    public Integer handle(QuestionQuery.CountApprovedQuestionsByTopicQuery query) {
-        return questionRepositoryPort.countApprovedByTopicId(query.topicId());
-    }
-
-    @QueryHandler
     public PageResult<Question> handle(QuestionQuery.QuestionSearchQuery query) {
         return questionRepositoryPort.findAll(query);
     }

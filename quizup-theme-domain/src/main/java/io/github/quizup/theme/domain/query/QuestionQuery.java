@@ -32,9 +32,4 @@ public interface QuestionQuery {
             int count
     ) {
     }
-
-    record CountApprovedQuestionsByTopicQuery(
-            String topicId
-    ) {
-    }
 }

@@ -4,19 +4,16 @@ import io.github.quizup.microservice.core.infrastructure.axon.QueryResponseTypes
 import io.github.quizup.microservice.core.domain.model.search.PageResult;
 import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.model.Question;
-import io.github.quizup.theme.domain.port.in.CountApprovedQuestionsByTopicUseCase;
-import io.github.quizup.theme.domain.port.in.GetRandomApprovedQuestionsUseCase;
 import io.github.quizup.theme.domain.port.in.GetQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.SearchQuestionUseCase;
 import io.github.quizup.theme.domain.query.QuestionQuery;
 import org.axonframework.queryhandling.QueryGateway;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @Service
-public class QuestionQueryService implements GetQuestionUseCase, SearchQuestionUseCase, GetRandomApprovedQuestionsUseCase, CountApprovedQuestionsByTopicUseCase {
+public class QuestionQueryService implements GetQuestionUseCase, SearchQuestionUseCase {
 
     private final QueryGateway queryGateway;
 
@@ -31,16 +28,6 @@ public class QuestionQueryService implements GetQuestionUseCase, SearchQuestionU
     @Override
     public CompletableFuture<Question> getById(QuestionQuery.GetQuestionByIdQuery query) throws QuestionProblems.QuestionNotFoundProblem {
         return queryGateway.query(query, QueryResponseTypes.instanceOf(Question.class));
-    }
-
-    @Override
-    public CompletableFuture<List<Question>> getRandomApprovedQuestions(QuestionQuery.GetRandomApprovedQuestionsQuery query) {
-        return queryGateway.query(query, QueryResponseTypes.multipleInstancesOf(Question.class));
-    }
-
-    @Override
-    public CompletableFuture<Integer> countApprovedQuestionsByTopic(QuestionQuery.CountApprovedQuestionsByTopicQuery query) {
-        return queryGateway.query(query, QueryResponseTypes.instanceOf(Integer.class));
     }
 }
 
