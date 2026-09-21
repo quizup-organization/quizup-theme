@@ -1,9 +1,6 @@
 package io.github.quizup.theme.domain.exception;
 
 import io.github.quizup.microservice.core.domain.exception.ProblemCategory;
-import io.github.quizup.theme.domain.model.QuestionStatus;
-
-import java.util.Map;
 
 /**
  * Exceptions spécifiques au domaine des thèmes, encapsulant les problèmes liés à la gestion des thèmes.
@@ -41,61 +38,12 @@ public final class TopicProblems {
         }
     }
 
-    public static class TopicAlreadyPublishedProblem extends TopicProblem {
-        public TopicAlreadyPublishedProblem(String topicId) {
-            super(topicId, "urn:quizup:topic:alreadyPublished",
-                    ProblemCategory.BUSINESS_INVALID_COMMAND,
-                    "Topic already published",
-                    "The topic " + topicId + " is already published", null);
-        }
-    }
-
     public static class TopicNotInDraftProblem extends TopicProblem {
         public TopicNotInDraftProblem(String topicId) {
             super(topicId, "urn:quizup:topic:notInDraft",
                     ProblemCategory.BUSINESS_INVALID_COMMAND,
                     "Topic not in draft status",
                     "The topic " + topicId + " must be in DRAFT status to be published", null);
-        }
-    }
-
-    public static class TopicUnauthorizedAccessProblem extends TopicProblem {
-        public TopicUnauthorizedAccessProblem(String topicId, String requesterId) {
-            super(topicId, "urn:quizup:topic:unauthorized",
-                    ProblemCategory.BUSINESS_INVALID_COMMAND,
-                    "Unauthorized topic access",
-                    "User " + requesterId + " is not authorized to modify topic " + topicId,
-                    Map.of("requesterId", requesterId));
-        }
-    }
-
-    public static class TopicFollowersCounterUnderflowProblem extends TopicProblem {
-        public TopicFollowersCounterUnderflowProblem(String topicId) {
-            super(topicId, "urn:quizup:topic:followersCounter:underflow",
-                    ProblemCategory.BUSINESS_INVALID_COMMAND,
-                    "Followers counter underflow",
-                    "Followers counter cannot be negative for topic " + topicId,
-                    null);
-        }
-    }
-
-    public static class TopicQuestionStatusRequiredProblem extends TopicProblem {
-        public TopicQuestionStatusRequiredProblem(String topicId) {
-            super(topicId, "urn:quizup:topic:questionStatus:required",
-                    ProblemCategory.BUSINESS_INVALID_COMMAND,
-                    "Question status is required",
-                    "A question status is required to update topic question counters",
-                    null);
-        }
-    }
-
-    public static class TopicQuestionsCounterUnderflowProblem extends TopicProblem {
-        public TopicQuestionsCounterUnderflowProblem(String topicId, QuestionStatus questionStatus) {
-            super(topicId, "urn:quizup:topic:questionsCounter:underflow",
-                    ProblemCategory.BUSINESS_INVALID_COMMAND,
-                    "Questions counter underflow",
-                    "Questions counter cannot be negative for status " + questionStatus + " on topic " + topicId,
-                    Map.of("questionStatus", questionStatus));
         }
     }
 }

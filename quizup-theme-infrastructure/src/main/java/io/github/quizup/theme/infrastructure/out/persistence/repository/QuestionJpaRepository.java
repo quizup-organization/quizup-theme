@@ -1,5 +1,6 @@
 package io.github.quizup.theme.infrastructure.out.persistence.repository;
 
+import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.infrastructure.out.persistence.entity.QuestionEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
@@ -17,6 +18,9 @@ public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, Str
 
     @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = io.github.quizup.theme.domain.model.QuestionStatus.APPROVED")
     int countApprovedByTopicId(@Param("topicId") String topicId);
+
+    @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = :status")
+    int countByTopicIdAndStatus(@Param("topicId") String topicId, @Param("status") QuestionStatus status);
 
     @Query(value = "SELECT * FROM question_entry WHERE topic_id = :topicId AND status = 'APPROVED' ORDER BY RANDOM() LIMIT :count", nativeQuery = true)
     List<QuestionEntity> findRandomApprovedByTopicId(@Param("topicId") String topicId, @Param("count") int count);

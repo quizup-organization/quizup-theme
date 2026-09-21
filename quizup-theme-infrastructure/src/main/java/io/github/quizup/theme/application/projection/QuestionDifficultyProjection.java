@@ -8,6 +8,7 @@ import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.model.QuestionAnswerStats;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.QuestionRules;
+import io.github.quizup.theme.domain.port.out.QuestionAnswerRecordPort;
 import io.github.quizup.theme.domain.port.out.QuestionAnswerStatsRepositoryPort;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import org.axonframework.commandhandling.gateway.CommandGateway;
@@ -39,9 +40,12 @@ public class QuestionDifficultyProjection {
     private final CommandGateway commandGateway;
 
     private final QuestionAnswerStatsRepositoryPort statsRepositoryPort;
+    private final QuestionAnswerRecordPort answerRecordPort;
     public QuestionDifficultyProjection(CommandGateway commandGateway,
-                                        QuestionAnswerStatsRepositoryPort statsRepositoryPort) {
+                                        QuestionAnswerStatsRepositoryPort statsRepositoryPort,
+                                        QuestionAnswerRecordPort answerRecordPort) {
         this.statsRepositoryPort = statsRepositoryPort;
+        this.answerRecordPort = answerRecordPort;
         this.commandGateway = commandGateway;
     }
 
@@ -55,6 +59,16 @@ public class QuestionDifficultyProjection {
         // Exclut les réponses synthétiques (bot et fantôme) : seule une réponse humaine compte.
         if (event.playerType() != GamePlayerType.HUMAN
                 || QuizUpConstants.SYSTEM_USER_ID.equals(event.playerId())) {
+            return;
+        }
+
+        // Dédup par clé métier (gameId, round, playerId) : un rejeu ne recompte pas la réponse.
+        if (!answerRecordPort.record(
+                event.gameId(),
+                event.round().name(),
+                event.playerId(),
+                event.questionId(),
+                event.correct())) {
             return;
         }
 

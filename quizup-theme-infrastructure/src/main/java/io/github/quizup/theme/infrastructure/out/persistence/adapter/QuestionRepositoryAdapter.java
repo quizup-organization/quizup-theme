@@ -5,6 +5,7 @@ import io.github.quizup.microservice.core.domain.model.search.SearchCriteria;
 import io.github.quizup.microservice.core.infrastructure.adapter.AnnotationSearchableEntity;
 import io.github.quizup.microservice.core.infrastructure.adapter.JpaSearchAdapter;
 import io.github.quizup.theme.domain.model.Question;
+import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import io.github.quizup.theme.infrastructure.out.persistence.entity.QuestionEntity;
 import io.github.quizup.theme.infrastructure.out.persistence.mapper.QuestionEntityMapper;
@@ -44,6 +45,12 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
     @Transactional(readOnly = true)
     public int countApprovedByTopicId(String topicId) {
         return questionJpaRepository.countApprovedByTopicId(topicId);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public int countByTopicIdAndStatus(String topicId, QuestionStatus status) {
+        return questionJpaRepository.countByTopicIdAndStatus(topicId, status);
     }
 
     @Override

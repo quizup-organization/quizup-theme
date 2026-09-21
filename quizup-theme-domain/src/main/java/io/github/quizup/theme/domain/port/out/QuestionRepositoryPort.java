@@ -3,6 +3,7 @@ package io.github.quizup.theme.domain.port.out;
 import io.github.quizup.microservice.core.domain.model.search.PageResult;
 import io.github.quizup.microservice.core.domain.model.search.SearchCriteria;
 import io.github.quizup.theme.domain.model.Question;
+import io.github.quizup.theme.domain.model.QuestionStatus;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,6 +15,8 @@ public interface QuestionRepositoryPort {
     Optional<Question> findById(String questionId);
 
     int countApprovedByTopicId(String topicId);
+
+    int countByTopicIdAndStatus(String topicId, QuestionStatus status);
 
     List<Question> findRandomApprovedByTopicId(String topicId, int count);
 

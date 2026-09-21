@@ -57,6 +57,17 @@ CREATE TABLE IF NOT EXISTS topic_questions_counter (
 
 CREATE INDEX IF NOT EXISTS idx_topic_questions_counter_topic ON topic_questions_counter(topic_id);
 
+-- Ensemble des abonnes d'un theme (cle naturelle). Source du recalcul de topic_entry.followers_counter.
+CREATE TABLE IF NOT EXISTS topic_follower_ref (
+	topic_id VARCHAR(255) NOT NULL,
+	user_id VARCHAR(255) NOT NULL,
+	PRIMARY KEY (topic_id, user_id),
+	CONSTRAINT fk_topic_follower_ref_topic
+		FOREIGN KEY (topic_id) REFERENCES topic_entry(topic_id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_topic_follower_ref_topic ON topic_follower_ref(topic_id);
+
 CREATE TABLE IF NOT EXISTS question_entry (
 	question_id VARCHAR(255) PRIMARY KEY,
 	topic_id VARCHAR(255) NOT NULL,
@@ -104,6 +115,21 @@ CREATE TABLE IF NOT EXISTS question_answer_stats (
 	CONSTRAINT chk_question_correct_count_non_negative CHECK (correct_count >= 0),
 	CONSTRAINT chk_question_correct_lte_answers CHECK (correct_count <= answer_count)
 );
+
+-- Journal des reponses humaines deja comptees pour la difficulte (dedup par cle metier).
+CREATE TABLE IF NOT EXISTS question_answer_record (
+	game_id VARCHAR(255) NOT NULL,
+	round VARCHAR(32) NOT NULL,
+	player_id VARCHAR(255) NOT NULL,
+	question_id VARCHAR(255) NOT NULL,
+	correct BOOLEAN NOT NULL,
+	answered_at TIMESTAMP NOT NULL,
+	PRIMARY KEY (game_id, round, player_id),
+	CONSTRAINT fk_question_answer_record_question
+		FOREIGN KEY (question_id) REFERENCES question_entry(question_id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_question_answer_record_question ON question_answer_record(question_id);
 
 COMMENT ON TABLE topic_entry IS 'Table des themes - projection read-only mise a jour via Event Handlers';
 COMMENT ON COLUMN topic_entry.topic_id IS 'Identifiant unique du theme';

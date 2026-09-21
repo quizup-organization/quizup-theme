@@ -6,21 +6,37 @@ import io.github.quizup.theme.domain.event.TopicEvent;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicStatus;
+import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
+import io.github.quizup.theme.domain.port.out.TopicFollowerRefRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicRepositoryPort;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.Instant;
 import java.util.EnumMap;
 import java.util.Map;
 
+/**
+ * Projection des thèmes.
+ *
+ * <p>Les compteurs ({@code followersCounter}, {@code questionsCounter}) sont <b>recalculés</b>
+ * à partir de leur source (ensemble d'abonnés / questions par statut) plutôt qu'incrémentés :
+ * l'opération est idempotente et rejouable sans dérive.</p>
+ */
 @Component
 public class TopicProjection {
 
     private final TopicRepositoryPort topicRepositoryPort;
+    private final TopicFollowerRefRepositoryPort followerRefRepositoryPort;
+    private final QuestionRepositoryPort questionRepositoryPort;
 
-    public TopicProjection(TopicRepositoryPort topicRepositoryPort) {
+    public TopicProjection(TopicRepositoryPort topicRepositoryPort,
+                           TopicFollowerRefRepositoryPort followerRefRepositoryPort,
+                           QuestionRepositoryPort questionRepositoryPort) {
         this.topicRepositoryPort = topicRepositoryPort;
+        this.followerRefRepositoryPort = followerRefRepositoryPort;
+        this.questionRepositoryPort = questionRepositoryPort;
     }
 
     @EventHandler
@@ -62,93 +78,59 @@ public class TopicProjection {
                 ));
     }
 
-
     @EventHandler
     @Transactional
     public void on(QuestionEvent.QuestionCreatedEvent event) {
-        topicRepositoryPort.findById(event.topicId())
-                .ifPresent(topic -> {
-                    Map<QuestionStatus, Integer> updatedCounters = copyCounters(topic.questionsCounter());
-                    updatedCounters.merge(QuestionStatus.PENDING, 1, Integer::sum);
-                    topicRepositoryPort.save(
-                            topic.toBuilder()
-                                    .questionsCounter(updatedCounters)
-                                    .updatedAt(event.createdAt())
-                                    .build()
-                    );
-                });
+        refreshQuestionsCounter(event.topicId(), event.createdAt());
     }
 
     @EventHandler
     @Transactional
     public void on(QuestionEvent.QuestionApprovedEvent event) {
-        topicRepositoryPort.findById(event.topicId())
-                .ifPresent(topic -> {
-                    Map<QuestionStatus, Integer> updatedCounters = copyCounters(topic.questionsCounter());
-                    updatedCounters.compute(event.previousStatus(), (_, count) -> Math.max(0, safeCount(count) - 1));
-                    updatedCounters.merge(QuestionStatus.APPROVED, 1, Integer::sum);
-                    topicRepositoryPort.save(
-                            topic.toBuilder()
-                                    .questionsCounter(updatedCounters)
-                                    .updatedAt(event.approvedAt())
-                                    .build()
-                    );
-                });
+        refreshQuestionsCounter(event.topicId(), event.approvedAt());
     }
 
     @EventHandler
     @Transactional
     public void on(QuestionEvent.QuestionRejectedEvent event) {
-        topicRepositoryPort.findById(event.topicId())
-                .ifPresent(topic -> {
-                    Map<QuestionStatus, Integer> updatedCounters = copyCounters(topic.questionsCounter());
-                    updatedCounters.compute(event.previousStatus(), (_, count) -> Math.max(0, safeCount(count) - 1));
-                    updatedCounters.merge(QuestionStatus.REJECTED, 1, Integer::sum);
-                    topicRepositoryPort.save(
-                            topic.toBuilder()
-                                    .questionsCounter(updatedCounters)
-                                    .updatedAt(event.rejectedAt())
-                                    .build()
-                    );
-                });
+        refreshQuestionsCounter(event.topicId(), event.rejectedAt());
     }
 
     @EventHandler
     @Transactional
-    public void TopicFollowedEvent(TopicFollowerEvent.TopicFollowedEvent event) {
-        topicRepositoryPort.findById(event.topicId())
-                .ifPresent(topic -> topicRepositoryPort.save(
-                        topic.toBuilder()
-                                .followersCounter(topic.followersCounter() + 1)
-                                .updatedAt(event.followedAt())
-                                .build()
-                ));
+    public void on(TopicFollowerEvent.TopicFollowedEvent event) {
+        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> {
+            followerRefRepositoryPort.add(event.topicId(), event.userId());
+            topicRepositoryPort.save(topic.toBuilder()
+                    .followersCounter(followerRefRepositoryPort.countByTopicId(event.topicId()))
+                    .updatedAt(event.followedAt())
+                    .build());
+        });
     }
 
     @EventHandler
     @Transactional
-    public void TopicFollowedEvent(TopicFollowerEvent.TopicUnfollowedEvent event) {
-        topicRepositoryPort.findById(event.topicId())
-                .ifPresent(topic -> topicRepositoryPort.save(
-                        topic.toBuilder()
-                                .followersCounter(topic.followersCounter() - 1)
-                                .updatedAt(event.unfollowedAt())
-                                .build()
-                ));
+    public void on(TopicFollowerEvent.TopicUnfollowedEvent event) {
+        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> {
+            followerRefRepositoryPort.remove(event.topicId(), event.userId());
+            topicRepositoryPort.save(topic.toBuilder()
+                    .followersCounter(followerRefRepositoryPort.countByTopicId(event.topicId()))
+                    .updatedAt(event.unfollowedAt())
+                    .build());
+        });
     }
 
-    private static Map<QuestionStatus, Integer> copyCounters(Map<QuestionStatus, Integer> current) {
+    private void refreshQuestionsCounter(String topicId, Instant updatedAt) {
         Map<QuestionStatus, Integer> counters = new EnumMap<>(QuestionStatus.class);
-        counters.put(QuestionStatus.PENDING, 0);
-        counters.put(QuestionStatus.APPROVED, 0);
-        counters.put(QuestionStatus.REJECTED, 0);
-        if (current != null) {
-            counters.putAll(current);
+        for (QuestionStatus status : QuestionStatus.values()) {
+            counters.put(status, questionRepositoryPort.countByTopicIdAndStatus(topicId, status));
         }
-        return counters;
-    }
-
-    private static int safeCount(Integer count) {
-        return count == null ? 0 : count;
+        topicRepositoryPort.findById(topicId)
+                .ifPresent(topic -> topicRepositoryPort.save(
+                        topic.toBuilder()
+                                .questionsCounter(counters)
+                                .updatedAt(updatedAt)
+                                .build()
+                ));
     }
 }
