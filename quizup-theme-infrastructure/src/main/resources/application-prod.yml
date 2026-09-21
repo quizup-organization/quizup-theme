@@ -6,3 +6,7 @@ spring:
     import: optional:classpath:quizup-prod.yml
     activate:
       on-profile: prod
+
+app:
+  seed-data:
+    enabled: ${QUIZUP_SEED_DATA_ENABLED:false}
