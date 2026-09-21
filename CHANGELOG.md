@@ -1,3 +1,13 @@
+## [1.5.0](https://github.com/quizup-organization/quizup-theme/compare/v1.4.6...v1.5.0) (2026-09-21)
+
+### Features
+
+* **projection:** replay-safe counters and idempotent difficulty ([cad26e6](https://github.com/quizup-organization/quizup-theme/commit/cad26e61b99505e0304c18916c9e4478c1c6bb57))
+
+### Bug Fixes
+
+* **observability:** keep readable console logs in local ([874d249](https://github.com/quizup-organization/quizup-theme/commit/874d2499103f3f55f89dcbec6ec0bccbd3cf28d1))
+
 ## [1.4.6](https://github.com/quizup-organization/quizup-theme/compare/v1.4.5...v1.4.6) (2026-09-20)
 
 ### Bug Fixes
