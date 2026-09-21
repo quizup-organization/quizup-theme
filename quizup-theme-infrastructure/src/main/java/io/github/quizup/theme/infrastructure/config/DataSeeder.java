@@ -11,9 +11,9 @@ import io.github.quizup.theme.domain.port.in.ApproveQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.CheckTopicUseCase;
 import io.github.quizup.theme.domain.port.in.CreateTopicUseCase;
 import io.github.quizup.theme.domain.port.in.PublishTopicUseCase;
+import io.github.quizup.theme.infrastructure.properties.AppProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -41,22 +41,22 @@ public class DataSeeder implements CommandLineRunner {
     private final ApproveQuestionUseCase approveQuestionUseCase;
     private final PublishTopicUseCase publishTopicUseCase;
     private final GetTopicUseCase getTopicUseCase;
-
-    @Value("${app.seed-data.enabled:false}")
-    private boolean seedDataEnabled;
+    private final boolean seedDataEnabled;
 
     public DataSeeder(CheckTopicUseCase checkTopicUseCase,
                       CreateTopicUseCase createTopicUseCase,
                       CreateQuestionUseCase createQuestionUseCase,
                       ApproveQuestionUseCase approveQuestionUseCase,
                       PublishTopicUseCase publishTopicUseCase,
-                      GetTopicUseCase getTopicUseCase) {
+                      GetTopicUseCase getTopicUseCase,
+                      AppProperties properties) {
         this.checkTopicUseCase = checkTopicUseCase;
         this.createTopicUseCase = createTopicUseCase;
         this.createQuestionUseCase = createQuestionUseCase;
         this.approveQuestionUseCase = approveQuestionUseCase;
         this.publishTopicUseCase = publishTopicUseCase;
         this.getTopicUseCase = getTopicUseCase;
+        this.seedDataEnabled = properties.seedData().enabled();
     }
 
     @Override
