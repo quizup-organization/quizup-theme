@@ -1,4 +1,6 @@
 spring:
+  config:
+    import: optional:classpath:quizup-defaults.yml
   application:
     name: quizup-theme
   profiles:
@@ -22,6 +24,4 @@ app:
   seed-data:
     enabled: false
 
-logging:
-  level:
-    io.github.quizup: ${QUIZUP_LOG_LEVEL:INFO}
+
