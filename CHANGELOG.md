@@ -1,3 +1,9 @@
+## [1.6.4](https://github.com/quizup-organization/quizup-theme/compare/v1.6.3...v1.6.4) (2026-09-22)
+
+### Bug Fixes
+
+* **quizup-theme:** upgrade quizup-parent to 2.3.4 ([03ca7ad](https://github.com/quizup-organization/quizup-theme/commit/03ca7ad0c165813e689e970e69ef5ee4839d6a62))
+
 ## [1.6.3](https://github.com/quizup-organization/quizup-theme/compare/v1.6.2...v1.6.3) (2026-09-22)
 
 ### Bug Fixes
