@@ -4,10 +4,12 @@ import io.github.quizup.theme.domain.event.QuestionEvent;
 import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
+import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
 
 @Component
+@ProcessingGroup("question-projection")
 public class QuestionProjection {
 
     private final QuestionRepositoryPort questionRepositoryPort;

@@ -12,6 +12,7 @@ import io.github.quizup.theme.domain.port.out.QuestionAnswerRecordPort;
 import io.github.quizup.theme.domain.port.out.QuestionAnswerStatsRepositoryPort;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import org.axonframework.commandhandling.gateway.CommandGateway;
+import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,6 +34,7 @@ import org.springframework.transaction.annotation.Transactional;
  * {@code QuestionDifficultyUpdatedEvent}, et {@code QuestionProjection} met à jour le read model.
  */
 @Component
+@ProcessingGroup("question-difficulty-projection")
 public class QuestionDifficultyProjection {
 
     private static final Logger logger = LoggerFactory.getLogger(QuestionDifficultyProjection.class);

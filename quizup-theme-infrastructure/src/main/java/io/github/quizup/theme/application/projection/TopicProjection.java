@@ -9,6 +9,7 @@ import io.github.quizup.theme.domain.model.TopicStatus;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicFollowerRefRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicRepositoryPort;
+import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,6 +26,7 @@ import java.util.Map;
  * l'opération est idempotente et rejouable sans dérive.</p>
  */
 @Component
+@ProcessingGroup("topic-projection")
 public class TopicProjection {
 
     private final TopicRepositoryPort topicRepositoryPort;
