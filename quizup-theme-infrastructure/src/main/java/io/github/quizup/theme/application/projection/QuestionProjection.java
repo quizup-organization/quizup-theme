@@ -9,7 +9,7 @@ import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
 
 @Component
-@ProcessingGroup("question-projection")
+@ProcessingGroup("theme-projection")
 public class QuestionProjection {
 
     private final QuestionRepositoryPort questionRepositoryPort;

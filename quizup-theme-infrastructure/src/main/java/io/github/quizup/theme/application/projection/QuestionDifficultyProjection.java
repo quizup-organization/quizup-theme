@@ -34,7 +34,7 @@ import org.springframework.transaction.annotation.Transactional;
  * {@code QuestionDifficultyUpdatedEvent}, et {@code QuestionProjection} met à jour le read model.
  */
 @Component
-@ProcessingGroup("question-difficulty-projection")
+@ProcessingGroup("theme-projection")
 public class QuestionDifficultyProjection {
 
     private static final Logger logger = LoggerFactory.getLogger(QuestionDifficultyProjection.class);

@@ -26,7 +26,7 @@ import java.util.Map;
  * l'opération est idempotente et rejouable sans dérive.</p>
  */
 @Component
-@ProcessingGroup("topic-projection")
+@ProcessingGroup("theme-projection")
 public class TopicProjection {
 
     private final TopicRepositoryPort topicRepositoryPort;
