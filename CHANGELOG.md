@@ -1,3 +1,9 @@
+## [1.6.1](https://github.com/quizup-organization/quizup-theme/compare/v1.6.0...v1.6.1) (2026-09-22)
+
+### Bug Fixes
+
+* **theme:** group dependent projections to preserve write-model ordering and upgrade quizup-parent to 2.3.1 ([f54d864](https://github.com/quizup-organization/quizup-theme/commit/f54d86471e9fa1ebc81c6bad46fb70c3aa23172b))
+
 ## [1.6.0](https://github.com/quizup-organization/quizup-theme/compare/v1.5.1...v1.6.0) (2026-09-22)
 
 ### Features
