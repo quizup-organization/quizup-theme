@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/quizup-organization/quizup-theme/compare/v1.5.1...v1.6.0) (2026-09-22)
+
+### Features
+
+* **theme:** explicit Axon processing groups ([e93f93e](https://github.com/quizup-organization/quizup-theme/commit/e93f93e2149d0b7b9c6a811aa6a35a6851037eca))
+
 ## [1.5.1](https://github.com/quizup-organization/quizup-theme/compare/v1.5.0...v1.5.1) (2026-09-21)
 
 ### Bug Fixes
