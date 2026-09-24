@@ -1,3 +1,9 @@
+## [1.6.5](https://github.com/quizup-organization/quizup-theme/compare/v1.6.4...v1.6.5) (2026-09-24)
+
+### Bug Fixes
+
+* **deps:** bump quizup-parent to 2.4.2 (search criteria type info) ([40ff3f0](https://github.com/quizup-organization/quizup-theme/commit/40ff3f04e7c4d8970789aab4a991303b1a7777f4))
+
 ## [1.6.4](https://github.com/quizup-organization/quizup-theme/compare/v1.6.3...v1.6.4) (2026-09-22)
 
 ### Bug Fixes
