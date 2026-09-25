@@ -1,7 +1,7 @@
 package io.github.quizup.theme.domain.port.out;
 
-import io.github.quizup.microservice.core.domain.model.search.PageResult;
-import io.github.quizup.microservice.core.domain.model.search.SearchCriteria;
+import io.github.quizup.microservice.core.infrastructure.in.api.request.SearchRequest;
+import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 
@@ -20,5 +20,5 @@ public interface QuestionRepositoryPort {
 
     List<Question> findRandomApprovedByTopicId(String topicId, int count);
 
-    PageResult<Question> findAll(SearchCriteria searchCriteria);
+    SearchResponse<Question> findAll(SearchRequest request);
 }

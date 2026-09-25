@@ -1,7 +1,7 @@
 package io.github.quizup.theme.application.service;
 
 import io.github.quizup.microservice.core.infrastructure.axon.QueryResponseTypes;
-import io.github.quizup.microservice.core.domain.model.search.PageResult;
+import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.port.in.GetQuestionUseCase;
@@ -22,8 +22,8 @@ public class QuestionQueryService implements GetQuestionUseCase, SearchQuestionU
     }
 
     @Override
-    public CompletableFuture<PageResult<Question>> search(QuestionQuery.QuestionSearchQuery query) {
-        return queryGateway.query(query, QueryResponseTypes.pageResultOf(Question.class));
+    public CompletableFuture<SearchResponse<Question>> search(QuestionQuery.QuestionSearchQuery query) {
+        return queryGateway.query(query, QueryResponseTypes.searchResponseOf(Question.class));
     }
     @Override
     public CompletableFuture<Question> getById(QuestionQuery.GetQuestionByIdQuery query) throws QuestionProblems.QuestionNotFoundProblem {

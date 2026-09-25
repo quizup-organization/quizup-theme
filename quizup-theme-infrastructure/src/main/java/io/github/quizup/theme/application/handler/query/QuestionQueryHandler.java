@@ -1,6 +1,6 @@
 package io.github.quizup.theme.application.handler.query;
 
-import io.github.quizup.microservice.core.domain.model.search.PageResult;
+import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
@@ -31,7 +31,7 @@ public class QuestionQueryHandler {
     }
 
     @QueryHandler
-    public PageResult<Question> handle(QuestionQuery.QuestionSearchQuery query) {
-        return questionRepositoryPort.findAll(query);
+    public SearchResponse<Question> handle(QuestionQuery.QuestionSearchQuery query) {
+        return questionRepositoryPort.findAll(query.request());
     }
 }

@@ -1,7 +1,7 @@
 package io.github.quizup.theme.application.service;
 
 import io.github.quizup.microservice.core.infrastructure.axon.QueryResponseTypes;
-import io.github.quizup.microservice.core.domain.model.search.PageResult;
+import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.exception.TopicProblems;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.port.in.CheckTopicUseCase;
@@ -33,7 +33,7 @@ public class TopicQueryService implements GetTopicUseCase, SearchTopicUseCase, C
     }
 
     @Override
-    public CompletableFuture<PageResult<Topic>> search(TopicQuery.TopicSearchQuery query) {
-        return queryGateway.query(query, QueryResponseTypes.pageResultOf(Topic.class));
+    public CompletableFuture<SearchResponse<Topic>> search(TopicQuery.TopicSearchQuery query) {
+        return queryGateway.query(query, QueryResponseTypes.searchResponseOf(Topic.class));
     }
 }

@@ -1,7 +1,7 @@
 package io.github.quizup.theme.infrastructure.out.persistence.adapter;
 
-import io.github.quizup.microservice.core.domain.model.search.PageResult;
-import io.github.quizup.microservice.core.domain.model.search.SearchCriteria;
+import io.github.quizup.microservice.core.infrastructure.in.api.request.SearchRequest;
+import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.microservice.core.infrastructure.adapter.AnnotationSearchableEntity;
 import io.github.quizup.microservice.core.infrastructure.adapter.JpaSearchAdapter;
 import io.github.quizup.theme.domain.model.Topic;
@@ -46,8 +46,8 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
 
     @Override
     @Transactional(readOnly = true)
-    public PageResult<Topic> findAll(SearchCriteria searchCriteria) {
-        return topicJpaSearchAdapter.findAll(searchCriteria)
+    public SearchResponse<Topic> findAll(SearchRequest request) {
+        return topicJpaSearchAdapter.findAll(request)
                 .map(TopicEntityMapper::toDomain);
     }
 }

@@ -18,49 +18,12 @@ recherche paginée, modération (approve/reject), publication d'un topic. **Four
 
 ---
 
-## 2. Endpoints REST
+## 2. Surface (headless)
 
-### `QuestionController` — `/api/questions`
-
-| Méthode | Chemin                                | Handler                                         | Response                         |
-|---------|---------------------------------------|-------------------------------------------------|----------------------------------|
-| POST    | `/api/questions/search`               | `search(SearchRequest)`                         | `PageResponse<QuestionResponse>` |
-| POST    | `/api/questions`                      | `createQuestion(CreateQuestionRequest)`         | `IdResponse`                     |
-| GET     | `/api/questions/{questionId}`         | `getQuestionById(String)`                       | `QuestionResponse`               |
-| POST    | `/api/questions/{questionId}/approve` | `approveQuestion(String)`                       | `IdResponse`                     |
-| POST    | `/api/questions/{questionId}/reject`  | `rejectQuestion(String, RejectQuestionRequest)` | `IdResponse`                     |
-
-### `TopicController` — `/api/topics`
-
-| Méthode | Chemin                          | Handler                           | Response                      |
-|---------|---------------------------------|-----------------------------------|-------------------------------|
-| POST    | `/api/topics/search`            | `search(SearchRequest)`           | `PageResponse<TopicResponse>` |
-| POST    | `/api/topics`                   | `createTopic(CreateTopicRequest)` | `IdResponse`                  |
-| POST    | `/api/topics/{topicId}/publish` | `publishTopic(String)`            | `IdResponse`                  |
-| GET     | `/api/topics/{topicId}`         | `getTopicById(String)`            | `TopicResponse`               |
-
-**DTO** :
-
--
-`QuestionResponse(questionId, topicId, text, imageUrl, Map<QuestionChoice,String> answers, QuestionChoice correctAnswer, QuestionStatus status, QuestionDifficulty difficulty, creatorId, updatedBy, createdAt, updatedAt)`
-- `CreateQuestionRequest` accepte un `imageUrl` optionnel (URL externe, ≤ 1024, validé `@Size`).
-- `TopicResponse(topicId, name, description, TopicCategory category, status, creatorId, updatedBy, **`Integer
-  followersCounter`**, **`Map<QuestionStatus,Integer> questionsCounter`**, createdAt, updatedAt)`
-
-> **Illustration** : `Question.imageUrl` optionnelle (colonne `question_entry.image_url`, schéma
-> `V1__create_theme_schema.sql`). Côté client, une question illustrée affiche l'image puis les
-> réponses en **grille 2×2** ; sinon en colonne.
-
-> **Difficulté** : `Question.difficulty` (`EASY`/`MEDIUM`/`HARD`/`EXPERT`, colonne
-> `question_entry.difficulty`, schéma `V1__create_theme_schema.sql`) est **déduite** du taux
-> de bonnes réponses par `QuestionRules` (seuils `≥80 %` / `60–79 %` / `40–59 %` / `<40 %`,
-> minimum 10 réponses — sinon `null`). La difficulté appartient à l'**état de l'agrégat**
-> `QuestionAggregate` : `QuestionDifficultyProjection` envoie une
-> `QuestionCommand.UpdateQuestionDifficultyCommand` (idempotente), l'agrégat applique
-> `QuestionDifficultyUpdatedEvent`, et `QuestionProjection` met à jour le read model (voir § 4).
-
----
-
+Service **headless** : aucun contrôleur REST ni WebSocket. La surface applicative unique est le
+**`quizup-bff`** (`/api/**` + `/ws`) ; il interroge ce service via le **query bus** Axon et consomme
+ses événements. Les handlers de requête/commande, sagas et projections restent la seule surface
+exposée par le service.
 ## 3. Use cases (ports entrants — `domain/port/in/`)
 
 - `CreateTopicUseCase` / `GetTopicUseCase` / `CheckTopicUseCase` / `SearchTopicUseCase` / `PublishTopicUseCase`
