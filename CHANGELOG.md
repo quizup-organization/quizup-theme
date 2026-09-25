@@ -1,3 +1,15 @@
+## [2.0.0](https://github.com/quizup-organization/quizup-theme/compare/v1.6.7...v2.0.0) (2026-09-25)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** the service no longer exposes its REST API (the BFF is the
+sole surface) and the search use cases now use the SDK SearchRequest/
+SearchResponse DTOs.
+
+### Features
+
+* **theme:** headless service (REST removed) + SDK search contracts ([ae375f8](https://github.com/quizup-organization/quizup-theme/commit/ae375f80dad287de0c53be733a37f22f2ed88720))
+
 ## [1.6.7](https://github.com/quizup-organization/quizup-theme/compare/v1.6.6...v1.6.7) (2026-09-24)
 
 ### Bug Fixes
