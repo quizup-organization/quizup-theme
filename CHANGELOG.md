@@ -1,3 +1,9 @@
+## [2.2.1](https://github.com/quizup-organization/quizup-theme/compare/v2.2.0...v2.2.1) (2026-09-27)
+
+### Bug Fixes
+
+* **theme:** autowire the Spring seed loader constructor ([929228f](https://github.com/quizup-organization/quizup-theme/commit/929228f4c053baa1e869f3d0aa43887b4b15243a))
+
 ## [2.2.0](https://github.com/quizup-organization/quizup-theme/compare/v2.1.0...v2.2.0) (2026-09-27)
 
 ### Features
