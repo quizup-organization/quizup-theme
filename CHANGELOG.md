@@ -1,3 +1,10 @@
+## [2.2.0](https://github.com/quizup-organization/quizup-theme/compare/v2.1.0...v2.2.0) (2026-09-27)
+
+### Features
+
+* **theme:** topic cover image (imageUrl) from command to projection ([594c723](https://github.com/quizup-organization/quizup-theme/commit/594c7238a635ac5598521483d6ed1ed2ac9052af))
+* **theme:** yaml multi-file seed (20 themes) with self-healing repair ([0a61207](https://github.com/quizup-organization/quizup-theme/commit/0a612078e25997328087857da052b4a45afaf820))
+
 ## [2.1.0](https://github.com/quizup-organization/quizup-theme/compare/v2.0.0...v2.1.0) (2026-09-27)
 
 ### Features
