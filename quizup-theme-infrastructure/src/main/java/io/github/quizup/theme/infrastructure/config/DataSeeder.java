@@ -21,7 +21,8 @@ import io.github.quizup.theme.infrastructure.properties.AppProperties;
 import org.axonframework.modelling.command.AggregateStreamCreationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.event.EventListener;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
@@ -45,15 +46,19 @@ import java.util.concurrent.CompletionException;
  *   approuvees puis publication) ;
  * - un echec sur un theme est isole et n'empeche pas le seeding des suivants.
  * <p>
+ * Le seeding demarre apres {@link ApplicationReadyEvent}, dans un thread dedie : le readiness
+ * de l'application n'attend pas la fin du seed (indispensable quand le catalogue est volumineux,
+ * sinon les probes Kubernetes tuent le pod en plein seed).
+ * <p>
  * Active uniquement si app.seed-data.enabled=true.
  */
 @Component
-public class DataSeeder implements CommandLineRunner {
+public class DataSeeder {
 
     private static final Logger logger = LoggerFactory.getLogger(DataSeeder.class);
 
-    private static final int COUNTER_WAIT_TIMEOUT_MS = 30_000;
-    private static final int COUNTER_POLL_INTERVAL_MS = 150;
+    private static final int APPROVAL_WAIT_TIMEOUT_MS = 30_000;
+    private static final int APPROVAL_POLL_INTERVAL_MS = 150;
     private static final int TOPIC_READ_TIMEOUT_MS = 10_000;
 
     private final CheckTopicUseCase checkTopicUseCase;
@@ -86,8 +91,19 @@ public class DataSeeder implements CommandLineRunner {
         this.seedDataEnabled = properties.seedData().enabled();
     }
 
-    @Override
-    public void run(String... args) {
+    /**
+     * Lance le seeding en arriere-plan une fois l'application prete : le readiness n'est pas
+     * bloque par la duree du seed.
+     */
+    @EventListener(ApplicationReadyEvent.class)
+    public void onApplicationReady() {
+        if (!seedDataEnabled) {
+            return;
+        }
+        Thread.ofVirtual().name("theme-data-seeder").start(this::run);
+    }
+
+    public void run() {
         if (!seedDataEnabled) {
             logger.info("Data seeding is disabled (app.seed-data.enabled=false)");
             return;
@@ -172,7 +188,7 @@ public class DataSeeder implements CommandLineRunner {
             }
         }
 
-        awaitApprovedQuestionsCounter(topicId, definition.questions().size());
+        awaitApprovedQuestions(topicId, definition.questions().size());
 
         Topic refreshed = awaitTopic(topicId);
         if (refreshed.status() == TopicStatus.DRAFT) {
@@ -250,27 +266,32 @@ public class DataSeeder implements CommandLineRunner {
                 if (!isTopicNotFound(e)) {
                     throw e;
                 }
-                sleep(COUNTER_POLL_INTERVAL_MS);
+                sleep(APPROVAL_POLL_INTERVAL_MS);
             }
         }
 
         throw new IllegalStateException("Timeout while waiting for topic " + topicId + " projection");
     }
 
-    private void awaitApprovedQuestionsCounter(String topicId, int expectedApprovedCount) {
-        long deadlineMs = System.currentTimeMillis() + COUNTER_WAIT_TIMEOUT_MS;
+    /**
+     * Attend que le read-model contienne {@code expectedApprovedCount} questions approuvees.
+     * Le compteur agrege {@code topic_entry.questions_counter} est volontairement ignore : il peut
+     * etre transitoirement desynchronise pendant un rollout, alors que le statut des questions
+     * (source de verite de la publication) est fiable.
+     */
+    private void awaitApprovedQuestions(String topicId, int expectedApprovedCount) {
+        long deadlineMs = System.currentTimeMillis() + APPROVAL_WAIT_TIMEOUT_MS;
 
         while (System.currentTimeMillis() < deadlineMs) {
-            Topic topic = getTopicUseCase.getById(topicId).join();
-            int approvedCount = topic.questionsCounter() == null
-                    ? 0
-                    : topic.questionsCounter().getOrDefault(QuestionStatus.APPROVED, 0);
+            long approvedCount = getQuestionUseCase.getByTopicId(topicId).join().stream()
+                    .filter(question -> question.status() == QuestionStatus.APPROVED)
+                    .count();
 
             if (approvedCount >= expectedApprovedCount) {
                 return;
             }
 
-            sleep(COUNTER_POLL_INTERVAL_MS);
+            sleep(APPROVAL_POLL_INTERVAL_MS);
         }
 
         throw new IllegalStateException(

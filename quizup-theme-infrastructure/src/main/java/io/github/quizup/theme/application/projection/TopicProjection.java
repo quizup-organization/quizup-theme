@@ -74,6 +74,7 @@ public class TopicProjection {
         topicRepositoryPort.findById(event.topicId())
                 .ifPresent(topic -> topicRepositoryPort.save(
                         topic.toBuilder()
+                                .questionsCounter(countQuestions(event.topicId()))
                                 .status(TopicStatus.PUBLISHED)
                                 .updatedBy(event.updatedBy())
                                 .updatedAt(event.publishedAt())
@@ -124,10 +125,7 @@ public class TopicProjection {
     }
 
     private void refreshQuestionsCounter(String topicId, Instant updatedAt) {
-        Map<QuestionStatus, Integer> counters = new EnumMap<>(QuestionStatus.class);
-        for (QuestionStatus status : QuestionStatus.values()) {
-            counters.put(status, questionRepositoryPort.countByTopicIdAndStatus(topicId, status));
-        }
+        Map<QuestionStatus, Integer> counters = countQuestions(topicId);
         topicRepositoryPort.findById(topicId)
                 .ifPresent(topic -> topicRepositoryPort.save(
                         topic.toBuilder()
@@ -135,5 +133,13 @@ public class TopicProjection {
                                 .updatedAt(updatedAt)
                                 .build()
                 ));
+    }
+
+    private Map<QuestionStatus, Integer> countQuestions(String topicId) {
+        Map<QuestionStatus, Integer> counters = new EnumMap<>(QuestionStatus.class);
+        for (QuestionStatus status : QuestionStatus.values()) {
+            counters.put(status, questionRepositoryPort.countByTopicIdAndStatus(topicId, status));
+        }
+        return counters;
     }
 }

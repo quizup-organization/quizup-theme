@@ -94,7 +94,10 @@ class DataSeederTest {
         when(getTopicUseCase.getById("topic-new"))
                 .thenReturn(CompletableFuture.completedFuture(topic("topic-new", TopicStatus.DRAFT, 2)));
         when(getQuestionUseCase.getByTopicId("topic-new"))
-                .thenReturn(CompletableFuture.completedFuture(List.of()));
+                .thenReturn(CompletableFuture.completedFuture(List.of()))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED),
+                        question("q-2", "Q2 ?", QuestionStatus.APPROVED))));
 
         seeder(true).run();
 
@@ -130,7 +133,11 @@ class DataSeederTest {
         when(getQuestionUseCase.getByTopicId("topic-draft"))
                 .thenReturn(CompletableFuture.completedFuture(List.of(
                         question("q-1", "Q1 ?", QuestionStatus.APPROVED),
-                        question("q-2", "Q2 ?", QuestionStatus.PENDING))));
+                        question("q-2", "Q2 ?", QuestionStatus.PENDING))))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED),
+                        question("q-2", "Q2 ?", QuestionStatus.APPROVED),
+                        question("q-3", "Q3 ?", QuestionStatus.APPROVED))));
 
         seeder(true).run();
 
@@ -151,7 +158,9 @@ class DataSeederTest {
         when(getTopicUseCase.getById("topic-lag"))
                 .thenReturn(CompletableFuture.completedFuture(topic("topic-lag", TopicStatus.DRAFT, 1)));
         when(getQuestionUseCase.getByTopicId("topic-lag"))
-                .thenReturn(CompletableFuture.completedFuture(List.of()));
+                .thenReturn(CompletableFuture.completedFuture(List.of()))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED))));
 
         seeder(true).run();
 
@@ -171,7 +180,9 @@ class DataSeederTest {
         when(getTopicUseCase.getById("topic-2"))
                 .thenReturn(CompletableFuture.completedFuture(topic("topic-2", TopicStatus.DRAFT, 1)));
         when(getQuestionUseCase.getByTopicId("topic-2"))
-                .thenReturn(CompletableFuture.completedFuture(List.of()));
+                .thenReturn(CompletableFuture.completedFuture(List.of()))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-2", "Q2 ?", QuestionStatus.APPROVED))));
 
         seeder(true).run();
 
