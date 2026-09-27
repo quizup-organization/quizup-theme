@@ -57,11 +57,16 @@ lorsque la difficulté calculée change, la projection envoie une
 
 ### Enrichissements catalogue
 
-- `GET /api/topics/categories` — les 17 `TopicCategory` + libellé FR (`TopicCategory.label()`).
-- **Aucun endpoint dérivé** (facettes, suggestions) : le client s'appuie sur
-  `POST /api/topics/search` + filtres/sorts et calcule (compteurs = `totalElements`).
+- `TopicQuery.GetTopicPageQuery(nameQuery, category, sort, page, size)` → `TopicPage` : page du
+  catalogue publié (tri `POPULAR|ALPHA`), filtre texte normalisé côté handler.
+- `TopicQuery.TopicFacetsQuery(nameQuery, topicIds)` → `List<TopicFacetCount>` : compteurs par
+  catégorie (facettes) appliqués aux mêmes filtres, `topicIds` pour le périmètre « suivis ».
+- `TopicQuery.GetTopicsByIdsQuery(topicIds)` → `List<Topic>` : résolution batch (accueil, suivis).
+- `TopicQuery.TopicSearchQuery` (pattern SDK) reste pour les **futures surfaces d'administration** ;
+  les vues web n'y font plus appel.
+- `GET /api/topic-categories` (BFF) — les 17 `TopicCategory` + libellé FR (`TopicCategory.label()`).
 - `Topic` porte `emoji` + `color` (données éditoriales) : agrégat, événements, commande,
   `TopicEntity` (colonnes `emoji`/`color`), DTO.
 - **Recherche insensible aux accents/casse** : `TopicEntity.name_normalized` (schéma
   `V1__create_theme_schema.sql`) dérivé de `name` par `TopicEntityMapper`
-  (`SearchText.normalize`, domaine). Le client filtre `nameNormalized CONTAINS normalize(q)`.
+  (`SearchText.normalize`, domaine).
