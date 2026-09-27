@@ -28,6 +28,19 @@ public interface CreateTopicUseCase {
             String color,
             String creatorId
     ) {
+        return create(topicId, name, description, category, emoji, color, null, creatorId);
+    }
+
+    default CompletableFuture<String> create(
+            String topicId,
+            String name,
+            String description,
+            TopicCategory category,
+            String emoji,
+            String color,
+            String imageUrl,
+            String creatorId
+    ) {
         return create(
                 new TopicCommand.CreateTopicCommand(
                         topicId,
@@ -36,6 +49,7 @@ public interface CreateTopicUseCase {
                         category,
                         emoji,
                         color,
+                        imageUrl,
                         creatorId
                 )
         );
@@ -49,6 +63,19 @@ public interface CreateTopicUseCase {
             String creatorId
     ) {
         create(topicId, name, description, category, creatorId).join();
+    }
+
+    default void createAndWait(
+            String topicId,
+            String name,
+            String description,
+            TopicCategory category,
+            String emoji,
+            String color,
+            String imageUrl,
+            String creatorId
+    ) {
+        create(topicId, name, description, category, emoji, color, imageUrl, creatorId).join();
     }
 }
 

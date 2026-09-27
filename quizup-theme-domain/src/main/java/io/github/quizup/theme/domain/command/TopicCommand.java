@@ -16,6 +16,7 @@ public interface TopicCommand {
             TopicCategory category,
             String emoji,
             String color,
+            String imageUrl,
             String creatorId
     ) implements TopicCommand {
     }

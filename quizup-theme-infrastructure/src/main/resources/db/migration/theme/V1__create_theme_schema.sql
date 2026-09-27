@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS topic_entry (
 	followers_counter INTEGER DEFAULT 0,
 	emoji VARCHAR(16),
 	color VARCHAR(16),
+	image_url VARCHAR(1024),
 	created_at TIMESTAMP NOT NULL,
 	updated_by VARCHAR(255),
 	updated_at TIMESTAMP,

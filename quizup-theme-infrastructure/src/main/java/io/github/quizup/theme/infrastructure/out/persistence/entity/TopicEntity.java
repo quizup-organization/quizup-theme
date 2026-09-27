@@ -69,6 +69,10 @@ public class TopicEntity {
     @Column(name = "color", length = 16)
     private String color;
 
+    /** Illustration de couverture : URL externe (http/https), longueur max 1024. */
+    @Column(name = "image_url", length = 1024)
+    private String imageUrl;
+
     @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "topic_questions_counter", joinColumns = @JoinColumn(name = "topic_id"))
     @MapKeyEnumerated(EnumType.STRING)

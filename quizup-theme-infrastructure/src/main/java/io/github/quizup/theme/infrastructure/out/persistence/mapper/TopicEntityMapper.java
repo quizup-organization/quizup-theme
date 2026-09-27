@@ -22,6 +22,7 @@ public final class TopicEntityMapper {
                 entity.getQuestionsCounter(),
                 entity.getEmoji(),
                 entity.getColor(),
+                entity.getImageUrl(),
                 entity.getCreatedAt(),
                 entity.getUpdatedAt()
         );
@@ -41,6 +42,7 @@ public final class TopicEntityMapper {
         topicEntity.setQuestionsCounter(topic.questionsCounter());
         topicEntity.setEmoji(topic.emoji());
         topicEntity.setColor(topic.color());
+        topicEntity.setImageUrl(topic.imageUrl());
         topicEntity.setCreatedAt(topic.createdAt());
         topicEntity.setUpdatedAt(topic.updatedAt());
         return topicEntity;

@@ -61,6 +61,7 @@ public class TopicProjection {
                 questionsCounters,
                 event.emoji(),
                 event.color(),
+                event.imageUrl(),
                 event.createdAt(),
                 event.createdAt()
         );

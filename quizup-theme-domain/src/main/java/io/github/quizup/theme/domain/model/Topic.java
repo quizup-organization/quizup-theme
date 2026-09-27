@@ -21,6 +21,7 @@ public record Topic(
         Map<QuestionStatus, Integer> questionsCounter,
         String emoji,
         String color,
+        String imageUrl,
         Instant createdAt,
         Instant updatedAt
 ) {

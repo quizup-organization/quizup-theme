@@ -30,6 +30,7 @@ public class TopicAggregate {
     private TopicCategory category;
     private String emoji;
     private String color;
+    private String imageUrl;
     private TopicStatus status;
     private String creatorId;
     private Instant createdAt;
@@ -61,6 +62,7 @@ public class TopicAggregate {
                 command.category(),
                 command.emoji(),
                 command.color(),
+                command.imageUrl(),
                 command.creatorId(),
                 Instant.now()
         ));
@@ -98,6 +100,7 @@ public class TopicAggregate {
         this.category = event.category();
         this.emoji = event.emoji();
         this.color = event.color();
+        this.imageUrl = event.imageUrl();
         this.status = TopicStatus.DRAFT;
         this.creatorId = event.creatorId();
         this.createdAt = event.createdAt();

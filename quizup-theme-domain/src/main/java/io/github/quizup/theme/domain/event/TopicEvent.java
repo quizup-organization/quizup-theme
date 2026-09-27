@@ -17,6 +17,7 @@ public interface TopicEvent {
             TopicCategory category,
             String emoji,
             String color,
+            String imageUrl,
             String creatorId,
             Instant createdAt
     ) implements TopicEvent {
