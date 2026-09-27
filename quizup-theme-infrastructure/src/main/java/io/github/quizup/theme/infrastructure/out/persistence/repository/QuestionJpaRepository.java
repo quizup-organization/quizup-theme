@@ -22,6 +22,8 @@ public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, Str
     @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = :status")
     int countByTopicIdAndStatus(@Param("topicId") String topicId, @Param("status") QuestionStatus status);
 
+    List<QuestionEntity> findByTopicId(String topicId);
+
     @Query(value = "SELECT * FROM question_entry WHERE topic_id = :topicId AND status = 'APPROVED' ORDER BY RANDOM() LIMIT :count", nativeQuery = true)
     List<QuestionEntity> findRandomApprovedByTopicId(@Param("topicId") String topicId, @Param("count") int count);
 }

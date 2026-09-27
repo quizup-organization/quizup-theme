@@ -1,0 +1,152 @@
+topic:
+  id: topic-jeux-de-societe
+  name: "Jeux de société"
+  description: "Échecs, dames, cartes et dés : explorez l'histoire, les règles et les secrets des jeux de société qui traversent les siècles et rassemblent les générations autour d'une table."
+  category: GAMES
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Staunton_chess_set.jpg?width=800
+questions:
+  - text: "Quel jeu de stratégie se joue avec les pièces représentées sur cette image, sur un plateau de 64 cases ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Staunton_chess_set.jpg?width=800
+    answers:
+      A: "Le jeu de dames"
+      B: "Le backgammon"
+      C: "Le go"
+      D: "Les échecs"
+    correctAnswer: D
+  - text: "Combien de pièces chaque joueur possède-t-il au début d'une partie d'échecs ?"
+    answers:
+      A: "12"
+      B: "14"
+      C: "16"
+      D: "18"
+    correctAnswer: C
+  - text: "Quelle pièce du jeu d'échecs ne peut se déplacer qu'en diagonale ?"
+    answers:
+      A: "La tour"
+      B: "Le cavalier"
+      C: "Le fou"
+      D: "Le pion"
+    correctAnswer: C
+  - text: "Quelle est la pièce la plus puissante du jeu d'échecs, qui combine les déplacements de la tour et du fou ?"
+    answers:
+      A: "La reine"
+      B: "Le roi"
+      C: "Le cavalier"
+      D: "Le pion"
+    correctAnswer: A
+  - text: "Comment appelle-t-on la situation où le roi est attaqué et ne peut plus s'échapper ?"
+    answers:
+      A: "Le pat"
+      B: "L'échec"
+      C: "Le mat"
+      D: "La prise"
+    correctAnswer: C
+  - text: "Combien de faces possède chacun des dés cubiques représentés sur cette image ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Two_red_dice_01.svg?width=800
+    answers:
+      A: "6"
+      B: "4"
+      C: "8"
+      D: "12"
+    correctAnswer: A
+  - text: "Sur un dé classique à six faces, combien de points montre la face opposée à celle qui porte un seul point ?"
+    answers:
+      A: "2"
+      B: "3"
+      C: "5"
+      D: "6"
+    correctAnswer: D
+  - text: "Combien de points montre cette face de dé à jouer ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dice-6.svg?width=800
+    answers:
+      A: "5"
+      B: "6"
+      C: "4"
+      D: "3"
+    correctAnswer: B
+  - text: "Combien de cartes compte l'ensemble représenté sur cette image ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/English_pattern_playing_cards_deck.svg?width=800
+    answers:
+      A: "32"
+      B: "52"
+      C: "40"
+      D: "54"
+    correctAnswer: B
+  - text: "Quelles sont les quatre couleurs d'un jeu de cartes français traditionnel ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Playing_cards.jpg?width=800
+    answers:
+      A: "Roi, dame, valet, as"
+      B: "Rouge, bleu, vert, jaune"
+      C: "Pique, cœur, étoile, trèfle"
+      D: "Pique, cœur, carreau, trèfle"
+    correctAnswer: D
+  - text: "Combien de cases compte un damier de dames internationales, composé de dix lignes sur dix colonnes ?"
+    answers:
+      A: "64"
+      B: "81"
+      C: "100"
+      D: "121"
+    correctAnswer: C
+  - text: "De combien de cases un pion peut-il avancer au maximum lors de son premier coup aux échecs ?"
+    answers:
+      A: "Deux cases"
+      B: "Une case"
+      C: "Trois cases"
+      D: "Quatre cases"
+    correctAnswer: A
+  - text: "Au jeu de dames, comment un pion capture-t-il une pièce adverse ?"
+    answers:
+      A: "En la poussant"
+      B: "En sautant par-dessus"
+      C: "En l'entourant"
+      D: "En la touchant"
+    correctAnswer: B
+  - text: "Quel jeu se joue avec deux dés et des pions sur un plateau de 24 flèches ?"
+    answers:
+      A: "Le jeu de l'oie"
+      B: "Les petits chevaux"
+      C: "Le Monopoly"
+      D: "Le backgammon"
+    correctAnswer: D
+  - text: "Combien de faces compte un dé à vingt faces utilisé dans les jeux de rôle ?"
+    answers:
+      A: "10"
+      B: "20"
+      C: "12"
+      D: "24"
+    correctAnswer: B
+  - text: "Quel jeu de cartes traditionnel français se joue avec un jeu de 32 cartes ?"
+    answers:
+      A: "La belote"
+      B: "Le bridge"
+      C: "Le tarot"
+      D: "Le rami"
+    correctAnswer: A
+  - text: "En quelle année Charles Darrow a-t-il obtenu le brevet du jeu Monopoly ?"
+    answers:
+      A: "1925"
+      B: "1945"
+      C: "1955"
+      D: "1935"
+    correctAnswer: D
+  - text: "Quel jeu traditionnel japonais se joue avec des pierres noires et blanches sur une grille de 19 lignes ?"
+    answers:
+      A: "Le shogi"
+      B: "Le go"
+      C: "Le mah-jong"
+      D: "Les échecs"
+    correctAnswer: B
+  - text: "Combien de joueurs s'affrontent dans une partie classique de go ?"
+    answers:
+      A: "Trois"
+      B: "Quatre"
+      C: "Six"
+      D: "Deux"
+    correctAnswer: D
+  - text: "Quel accessoire faut-il pour jouer au jeu de l'oie ?"
+    answers:
+      A: "Un échiquier"
+      B: "Un dé et des pions"
+      C: "Un jeu de cartes"
+      D: "Des dominos"
+    correctAnswer: B

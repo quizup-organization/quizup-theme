@@ -43,6 +43,15 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
 
     @Override
     @Transactional(readOnly = true)
+    public List<Question> findByTopicId(String topicId) {
+        return questionJpaRepository.findByTopicId(topicId)
+                .stream()
+                .map(QuestionEntityMapper::toDomain)
+                .toList();
+    }
+
+    @Override
+    @Transactional(readOnly = true)
     public int countApprovedByTopicId(String topicId) {
         return questionJpaRepository.countApprovedByTopicId(topicId);
     }

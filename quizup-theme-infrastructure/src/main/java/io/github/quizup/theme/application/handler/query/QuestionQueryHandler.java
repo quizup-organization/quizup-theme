@@ -26,6 +26,11 @@ public class QuestionQueryHandler {
     }
 
     @QueryHandler
+    public List<Question> handle(QuestionQuery.GetQuestionsByTopicIdQuery query) {
+        return questionRepositoryPort.findByTopicId(query.topicId());
+    }
+
+    @QueryHandler
     public List<Question> handle(QuestionQuery.GetRandomApprovedQuestionsQuery query) {
         return questionRepositoryPort.findRandomApprovedByTopicId(query.topicId(), query.count());
     }

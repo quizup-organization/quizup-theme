@@ -1,0 +1,153 @@
+topic:
+  id: topic-football
+  name: "Football"
+  description: "Des règles du jeu aux légendes de la Coupe du monde : découvrez l'histoire, les records et la culture du football, le sport le plus populaire de la planète."
+  category: SPORTS
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Soccerball.svg?width=800
+questions:
+  - text: "Combien de joueurs compte une équipe de football sur le terrain, gardien inclus ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Soccerball.svg?width=800
+    answers:
+      A: "11"
+      B: "10"
+      C: "9"
+      D: "12"
+    correctAnswer: A
+  - text: "Ce schéma coté en mètres représente le terrain d'un sport collectif. Lequel ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Football_pitch_metric.svg?width=800
+    answers:
+      A: "Le rugby"
+      B: "Le football"
+      C: "Le handball"
+      D: "Le hockey sur gazon"
+    correctAnswer: B
+  - text: "Ce drapeau est celui du pays qui a remporté la première Coupe du monde en 1930. De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uruguay.svg?width=800
+    answers:
+      A: "Argentine"
+      B: "Brésil"
+      C: "Uruguay"
+      D: "Italie"
+    correctAnswer: C
+  - text: "Quel pays représenté par ce drapeau détient le record de cinq victoires en Coupe du monde ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg?width=800
+    answers:
+      A: "Argentine"
+      B: "Brésil"
+      C: "Allemagne"
+      D: "Italie"
+    correctAnswer: B
+  - text: "Quel pays, dont voici le drapeau, a remporté quatre Coupes du monde (1934, 1938, 1982, 2006) ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Italy.svg?width=800
+    answers:
+      A: "France"
+      B: "Espagne"
+      C: "Argentine"
+      D: "Italie"
+    correctAnswer: D
+  - text: "Lors d'un match, quel geste est interdit aux joueurs de champ, hors remise en jeu ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Football_iu_1996.jpg?width=800
+    answers:
+      A: "Toucher le ballon de la main"
+      B: "Faire une passe"
+      C: "Tirer au but"
+      D: "Tacler le ballon"
+    correctAnswer: A
+  - text: "Combien de minutes compte un match de football réglementaire, hors arrêts de jeu ?"
+    answers:
+      A: "60"
+      B: "80"
+      C: "90"
+      D: "120"
+    correctAnswer: C
+  - text: "Combien de mi-temps compose un match de football ?"
+    answers:
+      A: "2"
+      B: "3"
+      C: "4"
+      D: "1"
+    correctAnswer: A
+  - text: "Quelle est la plus prestigieuse compétition de football entre sélections nationales ?"
+    answers:
+      A: "L'Euro"
+      B: "La Copa América"
+      C: "La Coupe du monde"
+      D: "La Coupe d'Afrique des nations"
+    correctAnswer: C
+  - text: "Quel pays a remporté la Coupe du monde 1998, organisée en France ?"
+    answers:
+      A: "Brésil"
+      B: "France"
+      C: "Italie"
+      D: "Allemagne"
+    correctAnswer: B
+  - text: "Quel pays a remporté la Coupe du monde 2022 organisée au Qatar ?"
+    answers:
+      A: "France"
+      B: "Croatie"
+      C: "Maroc"
+      D: "Argentine"
+    correctAnswer: D
+  - text: "En quelle année la France a-t-elle remporté sa deuxième Coupe du monde ?"
+    answers:
+      A: "1998"
+      B: "2006"
+      C: "2010"
+      D: "2018"
+    correctAnswer: D
+  - text: "Combien de points vaut un but marqué dans le cours normal du jeu ?"
+    answers:
+      A: "1"
+      B: "2"
+      C: "3"
+      D: "5"
+    correctAnswer: A
+  - text: "Quelle est la durée totale d'une prolongation en cas d'égalité à la fin du temps réglementaire ?"
+    answers:
+      A: "10 minutes"
+      B: "20 minutes"
+      C: "30 minutes"
+      D: "45 minutes"
+    correctAnswer: C
+  - text: "Comment appelle-t-on la zone rectangulaire devant chaque but où le gardien peut utiliser ses mains ?"
+    answers:
+      A: "Le rond central"
+      B: "La ligne de touche"
+      C: "La surface de réparation"
+      D: "La zone de corner"
+    correctAnswer: C
+  - text: "Quel poste porte traditionnellement le numéro 1 dans une équipe de football ?"
+    answers:
+      A: "L'attaquant"
+      B: "Le gardien de but"
+      C: "Le capitaine"
+      D: "Le libéro"
+    correctAnswer: B
+  - text: "Que reçoit un joueur qui écope d'un deuxième carton jaune dans le même match ?"
+    answers:
+      A: "Un carton rouge et une expulsion"
+      B: "Un simple avertissement"
+      C: "Un penalty"
+      D: "Rien du tout"
+    correctAnswer: A
+  - text: "Quelle sélection a remporté la Coupe du monde 1934, organisée pour la première fois en Europe ?"
+    answers:
+      A: "Hongrie"
+      B: "Tchécoslovaquie"
+      C: "Allemagne"
+      D: "Italie"
+    correctAnswer: D
+  - text: "Quel pays a remporté la Coupe du monde 2014 organisée au Brésil ?"
+    answers:
+      A: "Allemagne"
+      B: "Argentine"
+      C: "Pays-Bas"
+      D: "Brésil"
+    correctAnswer: A
+  - text: "Dans quel pays se trouve le stade de Wembley, temple historique du football ?"
+    answers:
+      A: "Écosse"
+      B: "Angleterre"
+      C: "Pays de Galles"
+      D: "Irlande"
+    correctAnswer: B

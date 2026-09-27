@@ -1,0 +1,153 @@
+topic:
+  id: topic-gastronomie-du-monde
+  name: "Gastronomie du monde"
+  description: "Un tour du monde gourmand : plats emblématiques, spécialités régionales françaises, fromages et épices. De la paella valenciana au sushi japonais, du couscous marocain au bœuf bourguignon, découvrez les origines et les ingrédients des grandes cuisines du globe."
+  category: FOOD_AND_DRINK
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Paella_valenciana.jpg?width=800
+questions:
+  - text: "Quel plat espagnol à base de riz safrané, originaire de la région de Valence, est photographié ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Paella_de_marisco.jpg?width=800
+    answers:
+      A: "Le risotto"
+      B: "Le couscous"
+      C: "La paella"
+      D: "Le pa amb tomàquet"
+    correctAnswer: C
+  - text: "Quel est ce plat japonais composé de riz vinaigré accompagné de poisson ou de fruits de mer ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sushi_platter.jpg?width=800
+    answers:
+      A: "Le sushi"
+      B: "Le ramen"
+      C: "Le pad thaï"
+      D: "Le dim sum"
+    correctAnswer: A
+  - text: "Quelle pizza italienne est garnie de tomate, de mozzarella et de basilic ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pizza_Margherita.jpg?width=800
+    answers:
+      A: "La pizza quatre fromages"
+      B: "La pizza au pepperoni"
+      C: "La pizza reine"
+      D: "La pizza margherita"
+    correctAnswer: D
+  - text: "Quel plat d'Afrique du Nord est composé de semoule, de légumes et de viande ou de poisson ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Couscous.jpg?width=800
+    answers:
+      A: "Le tajine"
+      B: "Le couscous"
+      C: "La pastilla"
+      D: "La chakchouka"
+    correctAnswer: B
+  - text: "Quel plat grec est un gratin d'aubergines et de viande hachée nappé de béchamel ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Moussaka.jpg?width=800
+    answers:
+      A: "Les dolmades"
+      B: "Le souvlaki"
+      C: "La moussaka"
+      D: "Le tzatziki"
+    correctAnswer: C
+  - text: "Quelle soupe d'Europe de l'Est doit sa couleur rouge à la betterave ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Borscht.jpg?width=800
+    answers:
+      A: "Le bortsch"
+      B: "La soupe à l'oignon"
+      C: "Le minestrone"
+      D: "Le gaspacho"
+    correctAnswer: A
+  - text: "Le cassoulet, spécialité à base de haricots blancs et de viande, est originaire de quelle région française ?"
+    answers:
+      A: "La Bretagne"
+      B: "L'Alsace"
+      C: "La Provence"
+      D: "Le Languedoc"
+    correctAnswer: D
+  - text: "Quel plat bourguignon est un bœuf mijoté au vin rouge avec des lardons et des champignons ?"
+    answers:
+      A: "La choucroute"
+      B: "Le bœuf bourguignon"
+      C: "La blanquette de veau"
+      D: "Le coq au vin"
+    correctAnswer: B
+  - text: "Quelle spécialité alsacienne est composée de chou fermenté servi avec de la charcuterie et des pommes de terre ?"
+    answers:
+      A: "La choucroute"
+      B: "La ratatouille"
+      C: "La quiche lorraine"
+      D: "Le gratin dauphinois"
+    correctAnswer: A
+  - text: "Quel fromage italien à pâte filée garnit traditionnellement une pizza margherita ?"
+    answers:
+      A: "Le gorgonzola"
+      B: "Le parmesan"
+      C: "La mozzarella"
+      D: "Le pecorino"
+    correctAnswer: C
+  - text: "Quel fromage français à pâte persillée est affiné dans les caves de l'Aveyron ?"
+    answers:
+      A: "Le camembert"
+      B: "Le roquefort"
+      C: "Le comté"
+      D: "Le reblochon"
+    correctAnswer: B
+  - text: "Quelle épice jaune, tirée d'une racine, donne sa couleur au curry ?"
+    answers:
+      A: "Le cumin"
+      B: "Le gingembre"
+      C: "Le paprika"
+      D: "Le curcuma"
+    correctAnswer: D
+  - text: "Quel plat vietnamien est un bouillon parfumé servi avec des nouilles de riz et du bœuf ?"
+    answers:
+      A: "Le pho"
+      B: "Le bò bún"
+      C: "Le nasi goreng"
+      D: "Le laksa"
+    correctAnswer: A
+  - text: "De quel pays le kimchi, condiment de chou fermenté et pimenté, est-il originaire ?"
+    answers:
+      A: "Le Japon"
+      B: "La Thaïlande"
+      C: "La Corée"
+      D: "La Chine"
+    correctAnswer: C
+  - text: "Quel plat indien est un poulet mariné aux épices et cuit dans un four d'argile appelé tandoor ?"
+    answers:
+      A: "Le butter chicken"
+      B: "Le poulet tandoori"
+      C: "Le biryani"
+      D: "Le tikka massala"
+    correctAnswer: B
+  - text: "Dans quel pays le fish and chips, vendu dans des fish and chips shops, est-il né ?"
+    answers:
+      A: "L'Irlande"
+      B: "Les États-Unis"
+      C: "L'Australie"
+      D: "Le Royaume-Uni"
+    correctAnswer: D
+  - text: "Quel plat hongrois est un ragoût de bœuf parfumé au paprika ?"
+    answers:
+      A: "Le bortsch"
+      B: "La paella"
+      C: "Le goulash"
+      D: "Le couscous"
+    correctAnswer: C
+  - text: "Quelle spécialité niçoise est une galette de farine de pois chiches cuite au four ?"
+    answers:
+      A: "La socca"
+      B: "La pissaladière"
+      C: "La tapenade"
+      D: "La ratatouille"
+    correctAnswer: A
+  - text: "Quel plat péruvien est composé de poisson cru mariné dans du jus de citron vert ?"
+    answers:
+      A: "L'empanada"
+      B: "L'arepa"
+      C: "Le guacamole"
+      D: "Le ceviche"
+    correctAnswer: D
+  - text: "Quel plat marocain cuit à l'étouffée doit son nom au récipient en terre cuite à couvercle conique ?"
+    answers:
+      A: "La pastilla"
+      B: "Le tajine"
+      C: "Le méchoui"
+      D: "La harira"
+    correctAnswer: B

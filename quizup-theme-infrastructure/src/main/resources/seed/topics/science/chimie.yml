@@ -1,0 +1,151 @@
+topic:
+  id: topic-chimie
+  name: "Chimie"
+  description: "Des atomes aux réactions : découvrez les éléments, le tableau périodique, les états de la matière et les grands scientifiques de la chimie."
+  category: SCIENCE
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dmitri_Mendeleev_1890s.jpg?width=800
+questions:
+  - text: "Quelle est la formule chimique de l'eau ?"
+    answers:
+      A: "H2O"
+      B: "CO2"
+      C: "O2"
+      D: "NaCl"
+    correctAnswer: A
+  - text: "Quel est le symbole chimique du fer ?"
+    answers:
+      A: "F"
+      B: "Fe"
+      C: "Ir"
+      D: "Fr"
+    correctAnswer: B
+  - text: "Quel est le symbole chimique de l'or ?"
+    answers:
+      A: "Ag"
+      B: "Oz"
+      C: "Or"
+      D: "Au"
+    correctAnswer: D
+  - text: "Combien d'éléments chimiques compte aujourd'hui le tableau périodique ?"
+    answers:
+      A: "118"
+      B: "92"
+      C: "100"
+      D: "127"
+    correctAnswer: A
+  - text: "Quel scientifique a proposé le tableau périodique des éléments ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dmitri_Mendeleev_1890s.jpg?width=800
+    answers:
+      A: "Dmitri Mendeleïev"
+      B: "Antoine Lavoisier"
+      C: "John Dalton"
+      D: "Ernest Rutherford"
+    correctAnswer: A
+  - text: "Quelle scientifique a reçu deux prix Nobel, en physique puis en chimie ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c._1920s.jpg?width=800
+    answers:
+      A: "Rosalind Franklin"
+      B: "Lise Meitner"
+      C: "Marie Curie"
+      D: "Irène Joliot-Curie"
+    correctAnswer: C
+  - text: "Quel est le symbole chimique du sodium ?"
+    answers:
+      A: "So"
+      B: "Na"
+      C: "Sd"
+      D: "Sn"
+    correctAnswer: B
+  - text: "Quel est le symbole chimique de l'oxygène ?"
+    answers:
+      A: "O"
+      B: "Ox"
+      C: "Og"
+      D: "Om"
+    correctAnswer: A
+  - text: "Quels sont les trois états physiques usuels de la matière ?"
+    answers:
+      A: "Froid, tiède et chaud"
+      B: "Dur, mou et fluide"
+      C: "Solide, liquide et gazeux"
+      D: "Acide, neutre et basique"
+    correctAnswer: C
+  - text: "Quel gaz les plantes absorbent-elles pour la photosynthèse ?"
+    answers:
+      A: "L'oxygène"
+      B: "Le dioxyde de carbone"
+      C: "L'azote"
+      D: "L'hydrogène"
+    correctAnswer: B
+  - text: "Quel est l'élément le plus abondant dans l'atmosphère terrestre ?"
+    answers:
+      A: "L'oxygène"
+      B: "Le dioxyde de carbone"
+      C: "L'hydrogène"
+      D: "L'azote"
+    correctAnswer: D
+  - text: "Quelle particule porte une charge électrique négative ?"
+    answers:
+      A: "Le proton"
+      B: "Le neutron"
+      C: "L'électron"
+      D: "Le photon"
+    correctAnswer: C
+  - text: "Où sont concentrés les protons et les neutrons d'un atome ?"
+    answers:
+      A: "Dans le noyau"
+      B: "Dans le nuage électronique"
+      C: "Dans les liaisons chimiques"
+      D: "Dans le vide"
+    correctAnswer: A
+  - text: "Quelle molécule ce modèle représente-t-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Water-3D-balls.png?width=800
+    answers:
+      A: "Le méthane"
+      B: "L'eau"
+      C: "Le dioxyde de carbone"
+      D: "L'ammoniac"
+    correctAnswer: B
+  - text: "Quel est le pH d'une solution neutre à température ambiante ?"
+    answers:
+      A: "0"
+      B: "10"
+      C: "7"
+      D: "14"
+    correctAnswer: C
+  - text: "Quel acide est naturellement présent dans le citron ?"
+    answers:
+      A: "L'acide acétique"
+      B: "L'acide lactique"
+      C: "L'acide sulfurique"
+      D: "L'acide citrique"
+    correctAnswer: D
+  - text: "Quel métal est liquide à température ambiante ?"
+    answers:
+      A: "Le fer"
+      B: "Le mercure"
+      C: "L'aluminium"
+      D: "Le cuivre"
+    correctAnswer: B
+  - text: "Quel est le symbole chimique du carbone ?"
+    answers:
+      A: "Ca"
+      B: "Co"
+      C: "Cr"
+      D: "C"
+    correctAnswer: D
+  - text: "Qui est considéré comme le père de la chimie moderne ?"
+    answers:
+      A: "Louis Pasteur"
+      B: "Antoine Lavoisier"
+      C: "Dmitri Mendeleïev"
+      D: "Niels Bohr"
+    correctAnswer: B
+  - text: "Quel scientifique britannique a proposé la théorie atomique moderne ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/John_Dalton_by_Charles_Turner.jpg?width=800
+    answers:
+      A: "Isaac Newton"
+      B: "Michael Faraday"
+      C: "Robert Boyle"
+      D: "John Dalton"
+    correctAnswer: D

@@ -65,8 +65,26 @@ lorsque la difficulté calculée change, la projection envoie une
 - `TopicQuery.TopicSearchQuery` (pattern SDK) reste pour les **futures surfaces d'administration** ;
   les vues web n'y font plus appel.
 - `GET /api/topic-categories` (BFF) — les 17 `TopicCategory` + libellé FR (`TopicCategory.label()`).
-- `Topic` porte `emoji` + `color` (données éditoriales) : agrégat, événements, commande,
-  `TopicEntity` (colonnes `emoji`/`color`), DTO.
+- `Topic` porte `emoji` + `color` + `imageUrl` (données éditoriales) : agrégat, événements, commande,
+  `TopicEntity` (colonnes `emoji`/`color`/`image_url`), DTO. Le seed ne renseigne plus `emoji`/`color`
+  (fallback UI) et utilise `imageUrl` comme visuel de couverture.
 - **Recherche insensible aux accents/casse** : `TopicEntity.name_normalized` (schéma
   `V1__create_theme_schema.sql`) dérivé de `name` par `TopicEntityMapper`
   (`SearchText.normalize`, domaine).
+
+### Seed initial (YAML)
+
+- **Un fichier par thème**, rangé par catégorie : `src/main/resources/seed/topics/<categorie>/<theme>.yml`
+  (20 thèmes, 20 questions chacun). Découverte via `app.seed-data.location`
+  (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
+- Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
+  `imageUrl` optionnelle) + `questions` (20 × `text` ≤ 255 unique, `answers` A–D, `correctAnswer`,
+  `imageUrl` optionnelle). Validation par `SeedDataLoader` ; un fichier invalide est loggé et ignoré
+  sans bloquer les autres.
+- **Seeder auto-réparateur** (`DataSeeder`) : thème absent → création + questions + approbation +
+  publication ; `PUBLISHED` → skip ; `DRAFT` → création des questions manquantes (clé stable = texte,
+  les IDs de questions étant aléatoires), approbation des non-approuvées puis publication ;
+  `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées par thème.
+- **Images externes libres de droit** (Wikimedia Commons, `Special:FilePath` + `?width=800`) :
+  source et licence listées dans `src/main/resources/seed/CREDITS.md`. Aucun binaire dans le repo,
+  aucune image sous copyright (logos, affiches, captures, personnages officiels exclus).

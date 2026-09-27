@@ -1,0 +1,153 @@
+topic:
+  id: topic-musique-classique
+  name: "Musique classique"
+  description: "Compositeurs, œuvres et instruments qui ont marqué l'histoire de la musique classique, du baroque à l'époque moderne."
+  category: MUSIC
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Sebastian_Bach.jpg?width=800
+questions:
+  - text: "Qui a composé la célèbre Toccata et fugue en ré mineur ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Sebastian_Bach.jpg?width=800
+    answers:
+      A: "Georg Friedrich Haendel"
+      B: "Antonio Vivaldi"
+      C: "Jean-Sébastien Bach"
+      D: "Joseph Haydn"
+    correctAnswer: C
+  - text: "Qui a composé l'opéra La Flûte enchantée ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang-amadeus-mozart_1.jpg?width=800
+    answers:
+      A: "Wolfgang Amadeus Mozart"
+      B: "Ludwig van Beethoven"
+      C: "Giuseppe Verdi"
+      D: "Richard Wagner"
+    correctAnswer: A
+  - text: "Qui a composé la Neuvième Symphonie, dont le final reprend l'Ode à la joie ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Beethoven.jpg?width=800
+    answers:
+      A: "Johannes Brahms"
+      B: "Franz Schubert"
+      C: "Hector Berlioz"
+      D: "Ludwig van Beethoven"
+    correctAnswer: D
+  - text: "Quel compositeur polonais est célèbre pour ses nocturnes et ses polonaises ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Frederic_Chopin_photo.jpeg?width=800
+    answers:
+      A: "Franz Liszt"
+      B: "Frédéric Chopin"
+      C: "Antonín Dvořák"
+      D: "Bedřich Smetana"
+    correctAnswer: B
+  - text: "Qui a composé Les Quatre Saisons ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Vivaldi.jpg?width=800
+    answers:
+      A: "Antonio Vivaldi"
+      B: "Jean-Sébastien Bach"
+      C: "Georg Friedrich Haendel"
+      D: "Claudio Monteverdi"
+    correctAnswer: A
+  - text: "Qui a composé le ballet Le Lac des cygnes ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pyotr_Ilyich_Tchaikovsky.jpg?width=800
+    answers:
+      A: "Serge Prokofiev"
+      B: "Igor Stravinsky"
+      C: "Pyotr Ilitch Tchaïkovski"
+      D: "Modeste Moussorgski"
+    correctAnswer: C
+  - text: "Combien de symphonies Ludwig van Beethoven a-t-il achevées ?"
+    answers:
+      A: "Cinq"
+      B: "Sept"
+      C: "Douze"
+      D: "Neuf"
+    correctAnswer: D
+  - text: "Qui a composé l'opéra La Traviata ?"
+    answers:
+      A: "Giacomo Puccini"
+      B: "Giuseppe Verdi"
+      C: "Richard Wagner"
+      D: "Charles Gounod"
+    correctAnswer: B
+  - text: "Qui a composé l'opéra Carmen ?"
+    answers:
+      A: "Georges Bizet"
+      B: "Jules Massenet"
+      C: "Charles Gounod"
+      D: "Camille Saint-Saëns"
+    correctAnswer: A
+  - text: "Quel instrument de musique possède 88 touches ?"
+    answers:
+      A: "L'orgue"
+      B: "Le clavecin"
+      C: "Le piano"
+      D: "L'accordéon"
+    correctAnswer: C
+  - text: "Quelle famille d'instruments regroupe le violon, l'alto et le violoncelle ?"
+    answers:
+      A: "Les bois"
+      B: "Les cuivres"
+      C: "Les percussions"
+      D: "Les cordes"
+    correctAnswer: D
+  - text: "Qui a composé le Boléro, créé en 1928 ?"
+    answers:
+      A: "Claude Debussy"
+      B: "Maurice Ravel"
+      C: "Erik Satie"
+      D: "Francis Poulenc"
+    correctAnswer: B
+  - text: "En musique, que désigne le mot tempo ?"
+    answers:
+      A: "La vitesse d'exécution d'un morceau"
+      B: "La hauteur des notes"
+      C: "Le volume sonore"
+      D: "La durée d'un silence"
+    correctAnswer: A
+  - text: "Quel compositeur autrichien a écrit la Symphonie n° 94 dite « La Surprise » ?"
+    answers:
+      A: "Wolfgang Amadeus Mozart"
+      B: "Franz Schubert"
+      C: "Joseph Haydn"
+      D: "Gustav Mahler"
+    correctAnswer: C
+  - text: "Qui a composé la Marche nuptiale du Songe d'une nuit d'été ?"
+    answers:
+      A: "Richard Wagner"
+      B: "Johann Strauss"
+      C: "Johannes Brahms"
+      D: "Felix Mendelssohn"
+    correctAnswer: D
+  - text: "Quel instrument à vent en bois utilise une anche double ?"
+    answers:
+      A: "La clarinette"
+      B: "Le hautbois"
+      C: "La flûte traversière"
+      D: "Le saxophone"
+    correctAnswer: B
+  - text: "Quelle grande période musicale succède à l'époque baroque ?"
+    answers:
+      A: "Le classicisme"
+      B: "Le romantisme"
+      C: "La Renaissance"
+      D: "L'époque moderne"
+    correctAnswer: A
+  - text: "Qui a composé Le Sacre du printemps ?"
+    answers:
+      A: "Dmitri Chostakovitch"
+      B: "Serge Rachmaninov"
+      C: "Igor Stravinsky"
+      D: "Béla Bartók"
+    correctAnswer: C
+  - text: "Qui a composé la tétralogie L'Anneau du Nibelung ?"
+    answers:
+      A: "Giuseppe Verdi"
+      B: "Giacomo Puccini"
+      C: "Franz Liszt"
+      D: "Richard Wagner"
+    correctAnswer: D
+  - text: "Qui a composé le Clair de lune pour piano, troisième mouvement de la Suite bergamasque ?"
+    answers:
+      A: "Maurice Ravel"
+      B: "Claude Debussy"
+      C: "Gabriel Fauré"
+      D: "Erik Satie"
+    correctAnswer: B

@@ -1,0 +1,152 @@
+topic:
+  id: topic-livres-et-mythes
+  name: "Livres & mythes"
+  description: "Des grandes œuvres de la littérature mondiale aux légendes de la mythologie grecque, romaine et nordique : auteurs, héros et créatures fabuleuses."
+  category: LITERATURE
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=800
+questions:
+  - text: "Qui a écrit la tragédie Roméo et Juliette ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare.jpg?width=800
+    answers:
+      A: "Molière"
+      B: "William Shakespeare"
+      C: "Christopher Marlowe"
+      D: "Jean Racine"
+    correctAnswer: B
+  - text: "Qui a écrit le roman Don Quichotte ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Miguel_de_Cervantes_2.jpg?width=800
+    answers:
+      A: "Lope de Vega"
+      B: "Federico García Lorca"
+      C: "Pablo Neruda"
+      D: "Miguel de Cervantès"
+    correctAnswer: D
+  - text: "Quel poète de la Grèce antique est traditionnellement considéré comme l'auteur de l'Odyssée ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Homer_British_Museum.jpg?width=800
+    answers:
+      A: "Homère"
+      B: "Sophocle"
+      C: "Euripide"
+      D: "Hésiode"
+    correctAnswer: A
+  - text: "Qui a peint ce tableau représentant la naissance de Vénus ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=800
+    answers:
+      A: "Raphaël"
+      B: "Michel-Ange"
+      C: "Sandro Botticelli"
+      D: "Le Titien"
+    correctAnswer: C
+  - text: "Dans la mythologie nordique, quel dieu brandit le marteau Mjöllnir ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mårten_Eskil_Winge_-_Tor's_Fight_with_the_Giants_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Odin"
+      B: "Thor"
+      C: "Loki"
+      D: "Freyr"
+    correctAnswer: B
+  - text: "Qui a écrit Les Misérables ?"
+    answers:
+      A: "Émile Zola"
+      B: "Honoré de Balzac"
+      C: "Gustave Flaubert"
+      D: "Victor Hugo"
+    correctAnswer: D
+  - text: "Qui a écrit Madame Bovary ?"
+    answers:
+      A: "Gustave Flaubert"
+      B: "Émile Zola"
+      C: "Guy de Maupassant"
+      D: "Stendhal"
+    correctAnswer: A
+  - text: "Qui a écrit Le Petit Prince ?"
+    answers:
+      A: "Albert Camus"
+      B: "Marcel Pagnol"
+      C: "Antoine de Saint-Exupéry"
+      D: "Jules Renard"
+    correctAnswer: C
+  - text: "Qui a écrit La Ferme des animaux et 1984 ?"
+    answers:
+      A: "Aldous Huxley"
+      B: "George Orwell"
+      C: "Ray Bradbury"
+      D: "H. G. Wells"
+    correctAnswer: B
+  - text: "Qui a écrit La Divine Comédie ?"
+    answers:
+      A: "Pétrarque"
+      B: "Boccace"
+      C: "Virgile"
+      D: "Dante Alighieri"
+    correctAnswer: D
+  - text: "Dans la mythologie grecque, qui est le roi des dieux ?"
+    answers:
+      A: "Zeus"
+      B: "Poséidon"
+      C: "Hadès"
+      D: "Apollon"
+    correctAnswer: A
+  - text: "Quel héros grec a accompli les douze travaux ?"
+    answers:
+      A: "Achille"
+      B: "Ulysse"
+      C: "Héraclès"
+      D: "Persée"
+    correctAnswer: C
+  - text: "Quel monstre mi-homme mi-taureau était enfermé dans le labyrinthe de Crète ?"
+    answers:
+      A: "Le Sphinx"
+      B: "Le Minotaure"
+      C: "Le Cyclope"
+      D: "La Chimère"
+    correctAnswer: B
+  - text: "Comment s'appelle le batelier qui fait traverser les âmes des morts aux Enfers ?"
+    answers:
+      A: "Thanatos"
+      B: "Hadès"
+      C: "Cerbère"
+      D: "Charon"
+    correctAnswer: D
+  - text: "Dans la mythologie grecque, quel dieu est le messager de l'Olympe ?"
+    answers:
+      A: "Hermès"
+      B: "Apollon"
+      C: "Arès"
+      D: "Héphaïstos"
+    correctAnswer: A
+  - text: "Dans la mythologie nordique, qui est le roi des dieux et le père de Thor ?"
+    answers:
+      A: "Loki"
+      B: "Baldr"
+      C: "Odin"
+      D: "Tyr"
+    correctAnswer: C
+  - text: "Quelle créature de la mythologie grecque pétrifie quiconque croise son regard ?"
+    answers:
+      A: "La Gorgone Euryale"
+      B: "Méduse"
+      C: "L'Hydre de Lerne"
+      D: "Circé"
+    correctAnswer: B
+  - text: "Qui a écrit Vingt Mille Lieues sous les mers ?"
+    answers:
+      A: "Alexandre Dumas"
+      B: "Victor Hugo"
+      C: "Émile Zola"
+      D: "Jules Verne"
+    correctAnswer: D
+  - text: "Dans la mythologie grecque, quel dieu règne sur les mers ?"
+    answers:
+      A: "Poséidon"
+      B: "Zeus"
+      C: "Hadès"
+      D: "Triton"
+    correctAnswer: A
+  - text: "Quelle déesse grecque est associée à la sagesse et à la guerre ?"
+    answers:
+      A: "Héra"
+      B: "Aphrodite"
+      C: "Athéna"
+      D: "Artémis"
+    correctAnswer: C

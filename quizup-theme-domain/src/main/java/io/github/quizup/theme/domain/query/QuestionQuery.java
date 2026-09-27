@@ -16,6 +16,14 @@ public interface QuestionQuery {
     }
 
     /**
+     * Query pour récupérer toutes les questions d'un thème (seed, réparation)
+     */
+    record GetQuestionsByTopicIdQuery(
+            String topicId
+    ) {
+    }
+
+    /**
      * Query pour récupérer des questions aléatoires approuvées pour un duel
      */
     record GetRandomApprovedQuestionsQuery(

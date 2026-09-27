@@ -4,6 +4,7 @@ import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.query.QuestionQuery;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public interface GetQuestionUseCase {
@@ -14,6 +15,16 @@ public interface GetQuestionUseCase {
         return getById(
                 new QuestionQuery.GetQuestionByIdQuery(
                         questionId
+                )
+        );
+    }
+
+    CompletableFuture<List<Question>> getByTopicId(QuestionQuery.GetQuestionsByTopicIdQuery query);
+
+    default CompletableFuture<List<Question>> getByTopicId(String topicId) {
+        return getByTopicId(
+                new QuestionQuery.GetQuestionsByTopicIdQuery(
+                        topicId
                 )
         );
     }

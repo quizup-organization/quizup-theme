@@ -14,6 +14,8 @@ public interface QuestionRepositoryPort {
 
     Optional<Question> findById(String questionId);
 
+    List<Question> findByTopicId(String topicId);
+
     int countApprovedByTopicId(String topicId);
 
     int countByTopicIdAndStatus(String topicId, QuestionStatus status);

@@ -1,0 +1,151 @@
+topic:
+  id: topic-informatique
+  name: "Informatique"
+  description: "De la machine de Turing à Internet : histoire de l'informatique, composants, langages de programmation et algorithmes expliqués simplement."
+  category: TECHNOLOGY
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Lovelace_portrait.jpg?width=800
+questions:
+  - text: "Quel mathématicien britannique est considéré comme le père de l'informatique ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Turing_Aged_16.jpg?width=800
+    answers:
+      A: "Alan Turing"
+      B: "Charles Babbage"
+      C: "John von Neumann"
+      D: "Blaise Pascal"
+    correctAnswer: A
+  - text: "Qui a écrit le premier programme destiné à une machine au XIXe siècle ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Lovelace_portrait.jpg?width=800
+    answers:
+      A: "Grace Hopper"
+      B: "Ada Lovelace"
+      C: "Hedy Lamarr"
+      D: "Marie Curie"
+    correctAnswer: B
+  - text: "Que signifie le sigle CPU ?"
+    answers:
+      A: "Computer Power Unit"
+      B: "Central Program Utility"
+      C: "Central Processing Unit"
+      D: "Control Processing Unit"
+    correctAnswer: C
+  - text: "Quelle unité représente 1024 mégaoctets ?"
+    answers:
+      A: "Un kilooctet"
+      B: "Un téraoctet"
+      C: "Un pétabyte"
+      D: "Un gigaoctet"
+    correctAnswer: D
+  - text: "Quel langage sert à structurer les pages web ?"
+    answers:
+      A: "Python"
+      B: "HTML"
+      C: "Java"
+      D: "SQL"
+    correctAnswer: B
+  - text: "Que signifie le sigle WWW ?"
+    answers:
+      A: "World Wide Web"
+      B: "Web World Wide"
+      C: "Wide World Web"
+      D: "World Web Wide"
+    correctAnswer: A
+  - text: "Quel langage de programmation a été créé par Guido van Rossum ?"
+    answers:
+      A: "Java"
+      B: "C++"
+      C: "Python"
+      D: "Ruby"
+    correctAnswer: C
+  - text: "Dans la plupart des logiciels, que fait le raccourci Ctrl+C ?"
+    answers:
+      A: "Coller"
+      B: "Couper"
+      C: "Annuler"
+      D: "Copier"
+    correctAnswer: D
+  - text: "Qu'est-ce qu'un algorithme ?"
+    answers:
+      A: "Un composant électronique"
+      B: "Une suite finie d'instructions pour résoudre un problème"
+      C: "Un langage de programmation"
+      D: "Un virus informatique"
+    correctAnswer: B
+  - text: "Quel système d'exploitation open source repose sur le noyau Linux ?"
+    answers:
+      A: "Windows"
+      B: "macOS"
+      C: "Ubuntu"
+      D: "iOS"
+    correctAnswer: C
+  - text: "Quel protocole sécurise les échanges sur le Web ?"
+    answers:
+      A: "HTTP"
+      B: "FTP"
+      C: "SMTP"
+      D: "HTTPS"
+    correctAnswer: D
+  - text: "Combien de bits contient un octet ?"
+    answers:
+      A: "Quatre"
+      B: "Huit"
+      C: "Seize"
+      D: "Trente-deux"
+    correctAnswer: B
+  - text: "Comment s'appelait l'un des premiers ordinateurs électroniques, dévoilé en 1946 ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Eniac.jpg?width=800
+    answers:
+      A: "ENIAC"
+      B: "IBM PC"
+      C: "Apple II"
+      D: "ZX Spectrum"
+    correctAnswer: A
+  - text: "Qui a cofondé Microsoft avec Paul Allen ?"
+    answers:
+      A: "Steve Jobs"
+      B: "Steve Wozniak"
+      C: "Larry Page"
+      D: "Bill Gates"
+    correctAnswer: D
+  - text: "Que signifie le sigle IA ?"
+    answers:
+      A: "Intelligence artificielle"
+      B: "Interface avancée"
+      C: "Internet avancé"
+      D: "Information automatique"
+    correctAnswer: A
+  - text: "Quel composant conserve les données même lorsque l'ordinateur est éteint ?"
+    answers:
+      A: "La mémoire RAM"
+      B: "Le processeur"
+      C: "La carte graphique"
+      D: "Le disque dur ou le SSD"
+    correctAnswer: D
+  - text: "Quel système de numération est utilisé en interne par les ordinateurs ?"
+    answers:
+      A: "Le système binaire"
+      B: "Le système décimal"
+      C: "Le système romain"
+      D: "Le système hexadécimal"
+    correctAnswer: A
+  - text: "Quel réseau social a été fondé par Mark Zuckerberg ?"
+    answers:
+      A: "Twitter"
+      B: "Instagram"
+      C: "Facebook"
+      D: "LinkedIn"
+    correctAnswer: C
+  - text: "Qu'est-ce qu'un bug informatique ?"
+    answers:
+      A: "Un logiciel antivirus"
+      B: "Une erreur dans un programme"
+      C: "Un composant matériel"
+      D: "Un type de réseau"
+    correctAnswer: B
+  - text: "Qui a conçu la machine analytique, considérée comme un ancêtre de l'ordinateur ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Babbage_1860.jpg?width=800
+    answers:
+      A: "Alan Turing"
+      B: "Blaise Pascal"
+      C: "Charles Babbage"
+      D: "Gottfried Leibniz"
+    correctAnswer: C

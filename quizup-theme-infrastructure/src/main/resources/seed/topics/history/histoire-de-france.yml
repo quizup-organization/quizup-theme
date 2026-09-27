@@ -1,0 +1,153 @@
+topic:
+  id: topic-histoire-de-france
+  name: "Histoire de France"
+  description: "Des Gaulois à la Ve République : rois, révolutions, empires et républiques. Retrouvez les grands personnages et les événements qui ont façonné la France, de Vercingétorix à Charles de Gaulle, en passant par Louis XIV et Napoléon."
+  category: HISTORY
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Prise_de_la_Bastille.jpg?width=800
+questions:
+  - text: "Quel chef gaulois a unifié les tribus face à Jules César avant la défaite d'Alésia en 52 av. J.-C. ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vercingetorix_statue.jpg?width=800
+    answers:
+      A: "Vercingétorix"
+      B: "Brennus"
+      C: "Ambiorix"
+      D: "Boduognat"
+    correctAnswer: A
+  - text: "Quel roi des Francs est baptisé à Reims par saint Remy, comme le montre cette enluminure ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Bapt%C3%AAme_de_Clovis.jpg?width=800
+    answers:
+      A: "Dagobert Ier"
+      B: "Clotaire Ier"
+      C: "Chilpéric Ier"
+      D: "Clovis Ier"
+    correctAnswer: D
+  - text: "Quelle figure de la guerre de Cent Ans cette statue tenant une bannière représente-t-elle ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jeanne_d%27Arc.jpg?width=800
+    answers:
+      A: "Aliénor d'Aquitaine"
+      B: "Jeanne d'Arc"
+      C: "Catherine de Médicis"
+      D: "Anne de Bretagne"
+    correctAnswer: B
+  - text: "Quel roi de France, surnommé le Roi-Soleil, a régné de 1643 à 1715 et fait construire Versailles ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Louis_XIV.jpg?width=800
+    answers:
+      A: "Louis XIII"
+      B: "Henri IV"
+      C: "Louis XIV"
+      D: "Louis XV"
+    correctAnswer: C
+  - text: "Quelle reine de France, épouse de Louis XVI, a été exécutée en 1793 ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Antoinette.jpg?width=800
+    answers:
+      A: "Joséphine de Beauharnais"
+      B: "Catherine de Médicis"
+      C: "Anne d'Autriche"
+      D: "Marie-Antoinette"
+    correctAnswer: D
+  - text: "Quel empereur des Français a été sacré à Notre-Dame de Paris en 1804 ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg?width=800
+    answers:
+      A: "Napoléon Ier"
+      B: "Napoléon III"
+      C: "Louis XVIII"
+      D: "Charles X"
+    correctAnswer: A
+  - text: "Quel roi a été sacré à Reims en 987, fondant ainsi la dynastie capétienne ?"
+    answers:
+      A: "Philippe Auguste"
+      B: "Louis IX"
+      C: "Hugues Capet"
+      D: "Robert II"
+    correctAnswer: C
+  - text: "En quelle année Charlemagne a-t-il été couronné empereur par le pape Léon III ?"
+    answers:
+      A: "496"
+      B: "800"
+      C: "987"
+      D: "1099"
+    correctAnswer: B
+  - text: "Quel édit signé par Henri IV en 1598 a accordé la liberté de culte aux protestants ?"
+    answers:
+      A: "L'édit de Milan"
+      B: "L'édit de Fontainebleau"
+      C: "L'édit de Roussillon"
+      D: "L'édit de Nantes"
+    correctAnswer: D
+  - text: "Quel roi de France a été guillotiné place de la Révolution à Paris le 21 janvier 1793 ?"
+    answers:
+      A: "Charles IX"
+      B: "Louis XVI"
+      C: "Henri III"
+      D: "François II"
+    correctAnswer: B
+  - text: "Après sa défaite à Waterloo en 1815, sur quelle île Napoléon a-t-il été exilé ?"
+    answers:
+      A: "L'île d'Elbe"
+      B: "L'île de Malte"
+      C: "L'île de Sainte-Hélène"
+      D: "La Corse"
+    correctAnswer: C
+  - text: "Quelle bataille François Ier a-t-il remportée en Italie en 1515 ?"
+    answers:
+      A: "Marignan"
+      B: "Pavie"
+      C: "Azincourt"
+      D: "Bouvines"
+    correctAnswer: A
+  - text: "Quel ministre de Louis XIV a développé les manufactures et le commerce au XVIIe siècle ?"
+    answers:
+      A: "Armand du Plessis de Richelieu"
+      B: "Jean-Baptiste Colbert"
+      C: "Jules Mazarin"
+      D: "Jacques Necker"
+    correctAnswer: B
+  - text: "Quelle guerre a opposé la France et l'Angleterre de 1337 à 1453 ?"
+    answers:
+      A: "La guerre de Trente Ans"
+      B: "La guerre de Sept Ans"
+      C: "La guerre de Succession d'Espagne"
+      D: "La guerre de Cent Ans"
+    correctAnswer: D
+  - text: "Quel massacre de protestants a eu lieu à Paris le 24 août 1572 ?"
+    answers:
+      A: "Le massacre de la Saint-Barthélemy"
+      B: "Le massacre de la Saint-Michel"
+      C: "La journée des Dupes"
+      D: "La Fronde"
+    correctAnswer: A
+  - text: "Quelle république a été proclamée en France en 1870 après la chute de Napoléon III ?"
+    answers:
+      A: "La Deuxième République"
+      B: "La Quatrième République"
+      C: "La Troisième République"
+      D: "La Cinquième République"
+    correctAnswer: C
+  - text: "Quel général a lancé l'appel du 18 juin 1940 depuis Londres ?"
+    answers:
+      A: "Philippe Pétain"
+      B: "Jean Moulin"
+      C: "Philippe Leclerc de Hauteclocque"
+      D: "Charles de Gaulle"
+    correctAnswer: D
+  - text: "En quelle année Paris a-t-elle été libérée de l'occupation allemande ?"
+    answers:
+      A: "1943"
+      B: "1945"
+      C: "1944"
+      D: "1946"
+    correctAnswer: C
+  - text: "Quel roi de France a été surnommé Saint Louis ?"
+    answers:
+      A: "Louis IX"
+      B: "Louis VII"
+      C: "Philippe II Auguste"
+      D: "Charles V"
+    correctAnswer: A
+  - text: "Quelle loi de 1905 a établi la séparation des Églises et de l'État en France ?"
+    answers:
+      A: "La loi sur la liberté de la presse"
+      B: "La loi de séparation des Églises et de l'État"
+      C: "La loi Jules Ferry"
+      D: "La loi sur les associations"
+    correctAnswer: B

@@ -11,6 +11,7 @@ public record AppProperties(
         @DefaultValue SeedData seedData) {
 
     public record SeedData(
-            @DefaultValue("false") boolean enabled) {
+            @DefaultValue("false") boolean enabled,
+            @DefaultValue("classpath*:seed/topics/*/*.yml") String location) {
     }
 }

@@ -1,0 +1,12 @@
+topic:
+  id: topic-test-invalid
+  name: "Invalid"
+  category: NOT_A_CATEGORY
+questions:
+  - text: "Question invalide ?"
+    answers:
+      A: "a"
+      B: "b"
+      C: "c"
+      D: "d"
+    correctAnswer: A

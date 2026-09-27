@@ -1,0 +1,152 @@
+topic:
+  id: topic-astronomie
+  name: "Astronomie"
+  description: "Explorez les planètes, les étoiles et les grands objets célestes : système solaire, Lune, missions spatiales et galaxies."
+  category: SCIENCE
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Earth_seen_from_Apollo_17.jpg?width=800
+questions:
+  - text: "Quelle planète est surnommée la planète bleue ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Earth_seen_from_Apollo_17.jpg?width=800
+    answers:
+      A: "Jupiter"
+      B: "Mars"
+      C: "Vénus"
+      D: "La Terre"
+    correctAnswer: D
+  - text: "Combien de planètes compte le système solaire ?"
+    answers:
+      A: "Six"
+      B: "Sept"
+      C: "Huit"
+      D: "Neuf"
+    correctAnswer: C
+  - text: "Quelle est la plus grande planète du système solaire ?"
+    answers:
+      A: "Saturne"
+      B: "Neptune"
+      C: "Jupiter"
+      D: "Uranus"
+    correctAnswer: C
+  - text: "Quel est le seul satellite naturel de la Terre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/FullMoon2010.jpg?width=800
+    answers:
+      A: "La Lune"
+      B: "Phobos"
+      C: "Titan"
+      D: "Europe"
+    correctAnswer: A
+  - text: "Quelle planète est la plus proche du Soleil ?"
+    answers:
+      A: "Vénus"
+      B: "Mercure"
+      C: "Mars"
+      D: "La Terre"
+    correctAnswer: B
+  - text: "Quelle planète est surnommée la planète rouge ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/OSIRIS_Mars_true_color.jpg?width=800
+    answers:
+      A: "Mars"
+      B: "Jupiter"
+      C: "Vénus"
+      D: "Mercure"
+    correctAnswer: A
+  - text: "Quel est le nom de notre étoile ?"
+    answers:
+      A: "Sirius"
+      B: "Alpha du Centaure"
+      C: "Le Soleil"
+      D: "Proxima du Centaure"
+    correctAnswer: C
+  - text: "Quelle mission a permis à l'Homme de marcher sur la Lune pour la première fois ?"
+    answers:
+      A: "Apollo 8"
+      B: "Apollo 11"
+      C: "Apollo 13"
+      D: "Gemini 4"
+    correctAnswer: B
+  - text: "En quelle année l'Homme a-t-il marché sur la Lune pour la première fois ?"
+    answers:
+      A: "1959"
+      B: "1965"
+      C: "1969"
+      D: "1972"
+    correctAnswer: C
+  - text: "Combien de temps la Terre met-elle environ pour faire un tour complet du Soleil ?"
+    answers:
+      A: "24 heures"
+      B: "30 jours"
+      C: "10 ans"
+      D: "365 jours"
+    correctAnswer: D
+  - text: "Quelle est cette planète aux anneaux les plus spectaculaires ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Saturn_during_Equinox.jpg?width=800
+    answers:
+      A: "Jupiter"
+      B: "Saturne"
+      C: "Uranus"
+      D: "Neptune"
+    correctAnswer: B
+  - text: "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?"
+    answers:
+      A: "8 minutes"
+      B: "8 secondes"
+      C: "8 heures"
+      D: "1 jour"
+    correctAnswer: A
+  - text: "Quelle galaxie abrite le système solaire ?"
+    answers:
+      A: "Andromède"
+      B: "La Voie lactée"
+      C: "Le Grand Nuage de Magellan"
+      D: "La galaxie du Sombrero"
+    correctAnswer: B
+  - text: "Qui a été la première femme à voyager dans l'espace ?"
+    answers:
+      A: "Sally Ride"
+      B: "Christa McAuliffe"
+      C: "Svetlana Savitskaya"
+      D: "Valentina Terechkova"
+    correctAnswer: D
+  - text: "Qui a été le premier être humain à voyager dans l'espace ?"
+    answers:
+      A: "Neil Armstrong"
+      B: "Youri Gagarine"
+      C: "Alan Shepard"
+      D: "John Glenn"
+    correctAnswer: B
+  - text: "Quelle planète est la plus chaude du système solaire ?"
+    answers:
+      A: "Mercure"
+      B: "Vénus"
+      C: "Mars"
+      D: "Jupiter"
+    correctAnswer: B
+  - text: "Qu'est-ce qu'une comète ?"
+    answers:
+      A: "Une étoile filante"
+      B: "Un astéroïde géant"
+      C: "Un corps glacé qui orbite autour du Soleil"
+      D: "Un satellite de Jupiter"
+    correctAnswer: C
+  - text: "Quel télescope spatial a été lancé en 1990 ?"
+    answers:
+      A: "Hubble"
+      B: "James Webb"
+      C: "Spitzer"
+      D: "Chandra"
+    correctAnswer: A
+  - text: "Quelle planète est la plus éloignée du Soleil ?"
+    answers:
+      A: "Uranus"
+      B: "Saturne"
+      C: "Jupiter"
+      D: "Neptune"
+    correctAnswer: D
+  - text: "Quelle est cette planète à la Grande Tache rouge ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jupiter_and_its_shrunken_Great_Red_Spot.jpg?width=800
+    answers:
+      A: "Jupiter"
+      B: "Saturne"
+      C: "Mars"
+      D: "Neptune"
+    correctAnswer: A

@@ -1,0 +1,56 @@
+topic:
+  id: topic-test-fixture
+  name: "Fixture"
+  description: "Thème de test du loader."
+  category: general
+questions:
+  - text: "Question de test 1 ?"
+    answers:
+      A: "Réponse 1A"
+      B: "Réponse 1B"
+      C: "Réponse 1C"
+      D: "Réponse 1D"
+    correctAnswer: A
+  - text: "Question de test 2 ?"
+    answers:
+      A: "Réponse 2A"
+      B: "Réponse 2B"
+      C: "Réponse 2C"
+      D: "Réponse 2D"
+    correctAnswer: B
+  - text: "Question de test 3 ?"
+    answers:
+      A: "Réponse 3A"
+      B: "Réponse 3B"
+      C: "Réponse 3C"
+      D: "Réponse 3D"
+    correctAnswer: C
+  - text: "Question de test 4 ?"
+    answers:
+      A: "Réponse 4A"
+      B: "Réponse 4B"
+      C: "Réponse 4C"
+      D: "Réponse 4D"
+    correctAnswer: D
+  - text: "Question de test 5 ?"
+    answers:
+      A: "Réponse 5A"
+      B: "Réponse 5B"
+      C: "Réponse 5C"
+      D: "Réponse 5D"
+    correctAnswer: A
+  - text: "Question de test 6 ?"
+    answers:
+      A: "Réponse 6A"
+      B: "Réponse 6B"
+      C: "Réponse 6C"
+      D: "Réponse 6D"
+    correctAnswer: B
+  - text: "Question de test 7 ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=800"
+    answers:
+      A: "Réponse 7A"
+      B: "Réponse 7B"
+      C: "Réponse 7C"
+      D: "Réponse 7D"
+    correctAnswer: C

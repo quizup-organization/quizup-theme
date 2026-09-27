@@ -10,6 +10,7 @@ import io.github.quizup.theme.domain.query.QuestionQuery;
 import org.axonframework.queryhandling.QueryGateway;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @Service
@@ -25,9 +26,15 @@ public class QuestionQueryService implements GetQuestionUseCase, SearchQuestionU
     public CompletableFuture<SearchResponse<Question>> search(QuestionQuery.QuestionSearchQuery query) {
         return queryGateway.query(query, QueryResponseTypes.searchResponseOf(Question.class));
     }
+
     @Override
     public CompletableFuture<Question> getById(QuestionQuery.GetQuestionByIdQuery query) throws QuestionProblems.QuestionNotFoundProblem {
         return queryGateway.query(query, QueryResponseTypes.instanceOf(Question.class));
+    }
+
+    @Override
+    public CompletableFuture<List<Question>> getByTopicId(QuestionQuery.GetQuestionsByTopicIdQuery query) {
+        return queryGateway.query(query, QueryResponseTypes.multipleInstancesOf(Question.class));
     }
 }
 

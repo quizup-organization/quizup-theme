@@ -1,0 +1,153 @@
+topic:
+  id: topic-chefs-doeuvre-peinture
+  name: "Chefs-d'œuvre"
+  description: "De la Joconde aux Nymphéas, un voyage à travers les plus grands tableaux de l'histoire de l'art et les peintres qui les ont créés."
+  category: ARTS
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800
+questions:
+  - text: "Qui a peint La Joconde, également appelée Mona Lisa ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800
+    answers:
+      A: "Michel-Ange"
+      B: "Léonard de Vinci"
+      C: "Raphaël"
+      D: "Sandro Botticelli"
+    correctAnswer: B
+  - text: "Dans quel musée parisien La Joconde est-elle exposée ?"
+    answers:
+      A: "Le musée d'Orsay"
+      B: "Le Centre Pompidou"
+      C: "Le musée du Louvre"
+      D: "Le Grand Palais"
+    correctAnswer: C
+  - text: "Qui a peint La Nuit étoilée, célèbre tableau aux tourbillons bleus ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Vincent van Gogh"
+      B: "Claude Monet"
+      C: "Paul Gauguin"
+      D: "Paul Cézanne"
+    correctAnswer: A
+  - text: "Dans quel pays Vincent van Gogh a-t-il peint la plupart de ses œuvres les plus célèbres ?"
+    answers:
+      A: "Les Pays-Bas"
+      B: "La Belgique"
+      C: "L'Espagne"
+      D: "La France"
+    correctAnswer: D
+  - text: "Qui a peint Les Ménines, grand tableau de la cour d'Espagne ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg?width=800
+    answers:
+      A: "Francisco de Goya"
+      B: "Le Greco"
+      C: "Diego Vélasquez"
+      D: "Pablo Picasso"
+    correctAnswer: C
+  - text: "Dans quel musée se trouve le tableau Les Ménines ?"
+    answers:
+      A: "Le musée du Prado à Madrid"
+      B: "Le musée du Louvre à Paris"
+      C: "Le Rijksmuseum à Amsterdam"
+      D: "La National Gallery à Londres"
+    correctAnswer: A
+  - text: "Qui a peint Le Baiser, célèbre tableau doré de la Sécession viennoise ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?width=800
+    answers:
+      A: "Egon Schiele"
+      B: "Edvard Munch"
+      C: "Oskar Kokoschka"
+      D: "Gustav Klimt"
+    correctAnswer: D
+  - text: "Dans quel pays se trouve le palais du Belvédère, qui abrite Le Baiser de Klimt ?"
+    answers:
+      A: "L'Allemagne"
+      B: "L'Autriche"
+      C: "La Suisse"
+      D: "La Hongrie"
+    correctAnswer: B
+  - text: "Qui a peint La Jeune Fille à la perle ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Girl_with_a_Pearl_Earring.jpg?width=800
+    answers:
+      A: "Rembrandt"
+      B: "Frans Hals"
+      C: "Johannes Vermeer"
+      D: "Jan van Eyck"
+    correctAnswer: C
+  - text: "Comment surnomme-t-on souvent La Jeune Fille à la perle de Vermeer ?"
+    answers:
+      A: "La Joconde du Nord"
+      B: "La Dame à l'hermine"
+      C: "La Belle Ferronnière"
+      D: "La Dame en bleu"
+    correctAnswer: A
+  - text: "Qui a peint La Ronde de nuit, célèbre tableau exposé à Amsterdam ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Night_Watch_-_HD.jpg?width=800
+    answers:
+      A: "Johannes Vermeer"
+      B: "Rembrandt"
+      C: "Pierre Paul Rubens"
+      D: "Antoine van Dyck"
+    correctAnswer: B
+  - text: "Dans quelle ville se trouve le Rijksmuseum, qui expose La Ronde de nuit ?"
+    answers:
+      A: "Bruxelles"
+      B: "Rotterdam"
+      C: "Anvers"
+      D: "Amsterdam"
+    correctAnswer: D
+  - text: "Qui a peint La Liberté guidant le peuple, inspiré des journées de juillet 1830 ?"
+    answers:
+      A: "Théodore Géricault"
+      B: "Jean-Auguste-Dominique Ingres"
+      C: "Eugène Delacroix"
+      D: "Antoine-Jean Gros"
+    correctAnswer: C
+  - text: "Quel peintre français a créé la série des Nymphéas dans son jardin de Giverny ?"
+    answers:
+      A: "Auguste Renoir"
+      B: "Claude Monet"
+      C: "Edgar Degas"
+      D: "Camille Pissarro"
+    correctAnswer: B
+  - text: "Quel mouvement artistique tire son nom du tableau Impression, soleil levant de Monet ?"
+    answers:
+      A: "Le réalisme"
+      B: "Le romantisme"
+      C: "Le pointillisme"
+      D: "L'impressionnisme"
+    correctAnswer: D
+  - text: "Qui a peint le plafond de la chapelle Sixtine à Rome ?"
+    answers:
+      A: "Michel-Ange"
+      B: "Raphaël"
+      C: "Le Bernin"
+      D: "Le Caravage"
+    correctAnswer: A
+  - text: "Qui a peint Guernica, œuvre dénonçant le bombardement d'une ville espagnole ?"
+    answers:
+      A: "Salvador Dalí"
+      B: "Joan Miró"
+      C: "Francisco de Goya"
+      D: "Pablo Picasso"
+    correctAnswer: D
+  - text: "Quel artiste a sculpté Le Penseur ?"
+    answers:
+      A: "Camille Claudel"
+      B: "Auguste Rodin"
+      C: "Antoine Bourdelle"
+      D: "Aristide Maillol"
+    correctAnswer: B
+  - text: "Quel tableau de Sandro Botticelli montre la déesse de l'amour née de l'écume ?"
+    answers:
+      A: "Le Printemps"
+      B: "Vénus et Mars"
+      C: "La Naissance de Vénus"
+      D: "La Calomnie d'Apelle"
+    correctAnswer: C
+  - text: "Quel peintre français a été le chef de file du fauvisme ?"
+    answers:
+      A: "Henri Matisse"
+      B: "Georges Braque"
+      C: "Maurice de Vlaminck"
+      D: "Paul Signac"
+    correctAnswer: A

@@ -1,0 +1,153 @@
+topic:
+  id: topic-desserts-patisserie
+  name: "Desserts & pâtisserie"
+  description: "Un voyage sucré à travers les desserts et pâtisseries emblématiques de France et du monde : éclairs, macarons, tarte Tatin, crème brûlée, tiramisu, baklava ou cheesecake. Découvrez leurs origines, leurs ingrédients et les techniques qui les rendent irrésistibles."
+  category: FOOD_AND_DRINK
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cremebrulee.jpg?width=800
+questions:
+  - text: "Comment appelle-t-on cette tarte aux pommes caramélisées, servie retournée, spécialité de la Sologne ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tarte_tatin.jpg?width=800
+    answers:
+      A: "La tarte Tatin"
+      B: "La tarte normande"
+      C: "Le clafoutis"
+      D: "La tarte au sucre"
+    correctAnswer: A
+  - text: "Quel est ce dessert constitué d'une crème vanillée recouverte d'une fine croûte de caramel craquant ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cremebrulee.jpg?width=800
+    answers:
+      A: "L'île flottante"
+      B: "La crème brûlée"
+      C: "La panna cotta"
+      D: "La mousse au chocolat"
+    correctAnswer: B
+  - text: "Quels sont ces petits gâteaux ronds et colorés, formés de deux coques et d'une garniture crémeuse ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Macaron_Paris.jpg?width=800
+    answers:
+      A: "Les cupcakes"
+      B: "Les meringues"
+      C: "Les macarons"
+      D: "Les canelés"
+    correctAnswer: C
+  - text: "De quel pays européen le tiramisu, dessert au café et au mascarpone, est-il originaire ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tiramisu_dessert.jpg?width=800
+    answers:
+      A: "La Grèce"
+      B: "L'Espagne"
+      C: "Le Portugal"
+      D: "L'Italie"
+    correctAnswer: D
+  - text: "Quel est ce dessert feuilleté au miel et aux fruits à coque, emblématique de la cuisine ottomane ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Baklava.jpg?width=800
+    answers:
+      A: "Le strudel"
+      B: "Le baklava"
+      C: "Le cannoli"
+      D: "La profiterole"
+    correctAnswer: B
+  - text: "Quel est ce gâteau crémeux à base de fromage frais, emblème de la pâtisserie new-yorkaise ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cheesecake.jpg?width=800
+    answers:
+      A: "Le tiramisu"
+      B: "La panna cotta"
+      C: "Le flan pâtissier"
+      D: "Le cheesecake"
+    correctAnswer: D
+  - text: "Quelle crème, faite d'œufs, de sucre, de lait et de vanille, garnit traditionnellement les éclairs et les mille-feuilles ?"
+    answers:
+      A: "La crème pâtissière"
+      B: "La crème chantilly"
+      C: "La crème anglaise"
+      D: "La crème fraîche"
+    correctAnswer: A
+  - text: "Comment nomme-t-on la pâte utilisée pour confectionner les choux, les éclairs et les religieuses ?"
+    answers:
+      A: "La pâte sablée"
+      B: "La pâte brisée"
+      C: "La pâte à choux"
+      D: "La pâte feuilletée"
+    correctAnswer: C
+  - text: "Quel ingrédient, en plus des blancs d'œufs et du sucre, compose la coque du macaron parisien ?"
+    answers:
+      A: "La noix de coco"
+      B: "La poudre d'amandes"
+      C: "La farine de blé"
+      D: "Le beurre"
+    correctAnswer: B
+  - text: "Quel ingrédient, intercalé en couches dans la pâte, donne son feuilletage au mille-feuille ?"
+    answers:
+      A: "Le sucre glace"
+      B: "La crème fraîche"
+      C: "La levure"
+      D: "Le beurre"
+    correctAnswer: D
+  - text: "D'où le Paris-Brest, créé en 1910, tire-t-il son nom ?"
+    answers:
+      A: "D'une gare parisienne"
+      B: "D'un fromage de Brest"
+      C: "D'une course cycliste entre Paris et Brest"
+      D: "D'un roi de France"
+    correctAnswer: C
+  - text: "Quelle pâtisserie sicilienne est un tube frit garni de ricotta sucrée ?"
+    answers:
+      A: "Le cannoli"
+      B: "La sfogliatella"
+      C: "Le babà"
+      D: "La cassata"
+    correctAnswer: A
+  - text: "De quel pays le strudel aux pommes est-il une spécialité traditionnelle ?"
+    answers:
+      A: "L'Italie"
+      B: "La Grèce"
+      C: "Le Danemark"
+      D: "L'Autriche"
+    correctAnswer: D
+  - text: "Dans quelle ville française est né le canelé, petit gâteau caramélisé à la vanille et au rhum ?"
+    answers:
+      A: "Lyon"
+      B: "Bordeaux"
+      C: "Strasbourg"
+      D: "Lille"
+    correctAnswer: B
+  - text: "Dans quelle région française est né le kouign-amann, à base de pâte levée, de beurre et de sucre ?"
+    answers:
+      A: "La Bretagne"
+      B: "La Normandie"
+      C: "L'Alsace"
+      D: "Le Périgord"
+    correctAnswer: A
+  - text: "De quel pays le pastel de nata, flan pâtissier à la crème, est-il originaire ?"
+    answers:
+      A: "L'Espagne"
+      B: "Le Brésil"
+      C: "Le Portugal"
+      D: "Le Maroc"
+    correctAnswer: C
+  - text: "Quel fruit garnit traditionnellement le clafoutis limousin ?"
+    answers:
+      A: "La pomme"
+      B: "L'abricot"
+      C: "La prune"
+      D: "La cerise"
+    correctAnswer: D
+  - text: "Quelle plante produit les gousses qui parfument la crème anglaise et la crème brûlée ?"
+    answers:
+      A: "La vanille"
+      B: "La cannelle"
+      C: "La muscade"
+      D: "Le safran"
+    correctAnswer: A
+  - text: "Quel dessert à la frangipane est partagé chaque année à l'occasion de l'Épiphanie ?"
+    answers:
+      A: "La bûche de Noël"
+      B: "La galette des rois"
+      C: "La tarte Tatin"
+      D: "Le far breton"
+    correctAnswer: B
+  - text: "Quelle pâtisserie oblongue en pâte à choux est garnie de crème et recouverte d'un glaçage ?"
+    answers:
+      A: "Le muffin"
+      B: "Le cookie"
+      C: "L'éclair"
+      D: "Le brownie"
+    correctAnswer: C

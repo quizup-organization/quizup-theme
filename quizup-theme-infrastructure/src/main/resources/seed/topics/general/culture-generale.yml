@@ -1,0 +1,151 @@
+topic:
+  id: topic-culture-generale
+  name: "Culture générale"
+  description: "Géographie, sciences, arts, sport et société : un mélange de questions variées pour tester votre culture générale sur tous les sujets."
+  category: GENERAL
+questions:
+  - text: "Quelle mission spatiale a permis de prendre cette photographie de la Terre en 1972 ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Earth_seen_from_Apollo_17.jpg?width=800"
+    answers:
+      A: "Apollo 11"
+      B: "Apollo 13"
+      C: "Apollo 17"
+      D: "Gemini 4"
+    correctAnswer: C
+  - text: "Qui a peint ce portrait de femme exposé au musée du Louvre ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800"
+    answers:
+      A: "Michel-Ange"
+      B: "Léonard de Vinci"
+      C: "Raphaël"
+      D: "Sandro Botticelli"
+    correctAnswer: B
+  - text: "Quel peintre est l'auteur de ce tableau, La Nuit étoilée ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800"
+    answers:
+      A: "Claude Monet"
+      B: "Paul Gauguin"
+      C: "Paul Cézanne"
+      D: "Vincent van Gogh"
+    correctAnswer: D
+  - text: "Quel artiste japonais a réalisé cette estampe, La Grande Vague de Kanagawa ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Great_Wave_off_Kanagawa.jpg?width=800"
+    answers:
+      A: "Hokusai"
+      B: "Hiroshige"
+      C: "Sharaku"
+      D: "Utamaro"
+    correctAnswer: A
+  - text: "Quelle planète du système solaire est photographiée ici par la sonde Cassini ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Saturn_during_Equinox.jpg?width=800"
+    answers:
+      A: "Jupiter"
+      B: "Uranus"
+      C: "Neptune"
+      D: "Saturne"
+    correctAnswer: D
+  - text: "Quel est le plus long fleuve de France ?"
+    answers:
+      A: "La Seine"
+      B: "La Loire"
+      C: "Le Rhône"
+      D: "La Garonne"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Australie ?"
+    answers:
+      A: "Sydney"
+      B: "Melbourne"
+      C: "Canberra"
+      D: "Perth"
+    correctAnswer: C
+  - text: "Combien de joueurs compte une équipe de football sur le terrain ?"
+    answers:
+      A: "9"
+      B: "10"
+      C: "11"
+      D: "12"
+    correctAnswer: C
+  - text: "Quel est le plus grand organe du corps humain ?"
+    answers:
+      A: "Le foie"
+      B: "La peau"
+      C: "Le cerveau"
+      D: "Les poumons"
+    correctAnswer: B
+  - text: "Quel gaz les plantes absorbent-elles pour réaliser la photosynthèse ?"
+    answers:
+      A: "Le dioxyde de carbone"
+      B: "L'oxygène"
+      C: "L'azote"
+      D: "L'hélium"
+    correctAnswer: A
+  - text: "Qui a écrit le roman Les Misérables ?"
+    answers:
+      A: "Émile Zola"
+      B: "Victor Hugo"
+      C: "Honoré de Balzac"
+      D: "Gustave Flaubert"
+    correctAnswer: B
+  - text: "En quelle année a débuté la Révolution française ?"
+    answers:
+      A: "1492"
+      B: "1648"
+      C: "1789"
+      D: "1848"
+    correctAnswer: C
+  - text: "Quel est le plus grand océan du monde ?"
+    answers:
+      A: "L'Atlantique"
+      B: "L'océan Indien"
+      C: "L'océan Arctique"
+      D: "Le Pacifique"
+    correctAnswer: D
+  - text: "Quel est le plus haut sommet du monde ?"
+    answers:
+      A: "L'Everest"
+      B: "Le K2"
+      C: "Le mont Blanc"
+      D: "Le Kilimandjaro"
+    correctAnswer: A
+  - text: "Quelle est la langue officielle du Brésil ?"
+    answers:
+      A: "L'espagnol"
+      B: "Le français"
+      C: "Le portugais"
+      D: "L'anglais"
+    correctAnswer: C
+  - text: "Quel est le plus grand mammifère du monde ?"
+    answers:
+      A: "L'éléphant d'Afrique"
+      B: "Le cachalot"
+      C: "La baleine bleue"
+      D: "La girafe"
+    correctAnswer: C
+  - text: "Quel métal est liquide à température ambiante ?"
+    answers:
+      A: "Le mercure"
+      B: "Le fer"
+      C: "Le plomb"
+      D: "L'étain"
+    correctAnswer: A
+  - text: "Qui a formulé la théorie de la relativité ?"
+    answers:
+      A: "Isaac Newton"
+      B: "Galilée"
+      C: "Nikola Tesla"
+      D: "Albert Einstein"
+    correctAnswer: D
+  - text: "Dans quelle ville se trouve le siège de l'Organisation des Nations unies ?"
+    answers:
+      A: "Genève"
+      B: "New York"
+      C: "Paris"
+      D: "Bruxelles"
+    correctAnswer: B
+  - text: "Quelle est la monnaie officielle du Japon ?"
+    answers:
+      A: "Le yen"
+      B: "Le won"
+      C: "Le yuan"
+      D: "Le baht"
+    correctAnswer: A
