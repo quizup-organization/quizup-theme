@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/quizup-organization/quizup-theme/compare/v2.0.0...v2.1.0) (2026-09-27)
+
+### Features
+
+* **theme:** dedicated page/facets/by-ids queries for the BFF views ([d686902](https://github.com/quizup-organization/quizup-theme/commit/d686902f3fe4e5171f06fa03b7243412cef34a74))
+
 ## [2.0.0](https://github.com/quizup-organization/quizup-theme/compare/v1.6.7...v2.0.0) (2026-09-25)
 
 ### ⚠ BREAKING CHANGES
