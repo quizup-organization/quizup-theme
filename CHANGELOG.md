@@ -1,3 +1,9 @@
+## [2.2.2](https://github.com/quizup-organization/quizup-theme/compare/v2.2.1...v2.2.2) (2026-09-27)
+
+### Bug Fixes
+
+* **theme:** background seed and read-model based approval wait ([fcf201f](https://github.com/quizup-organization/quizup-theme/commit/fcf201fb7a2f28bd200b6c547b20364d199e08ce))
+
 ## [2.2.1](https://github.com/quizup-organization/quizup-theme/compare/v2.2.0...v2.2.1) (2026-09-27)
 
 ### Bug Fixes
