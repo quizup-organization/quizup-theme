@@ -7,6 +7,7 @@ import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.infrastructure.properties.AppProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
@@ -49,6 +50,7 @@ public class SeedDataLoader {
     private final ObjectMapper yamlMapper;
     private final String locationPattern;
 
+    @Autowired
     public SeedDataLoader(AppProperties properties) {
         this(properties.seedData().location(), new PathMatchingResourcePatternResolver());
     }
