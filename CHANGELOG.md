@@ -1,3 +1,10 @@
+## [2.3.0](https://github.com/quizup-organization/quizup-theme/compare/v2.2.2...v2.3.0) (2026-09-28)
+
+### Features
+
+* **theme:** expand seed catalogs and repair Commons image URLs ([80e68a9](https://github.com/quizup-organization/quizup-theme/commit/80e68a9d101cbc267df0b4b5dde01b09085d9acc))
+* **theme:** key seed repair by (text, imageUrl) identity ([78c1fd3](https://github.com/quizup-organization/quizup-theme/commit/78c1fd3e4b7e1e390f4121745cd4b342163e1176))
+
 ## [2.2.2](https://github.com/quizup-organization/quizup-theme/compare/v2.2.1...v2.2.2) (2026-09-27)
 
 ### Bug Fixes
