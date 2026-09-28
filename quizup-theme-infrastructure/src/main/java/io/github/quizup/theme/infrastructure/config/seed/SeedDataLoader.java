@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.EnumMap;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
@@ -35,6 +36,10 @@ import static io.github.quizup.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PU
  * <p>Un fichier = un thème, rangé par catégorie ({@code seed/topics/<categorie>/<theme>.yml}).
  * Chaque fichier est validé indépendamment : un fichier invalide est loggé puis ignoré,
  * les autres restent chargés.</p>
+ *
+ * <p>Les textes de questions peuvent être dupliqués (questions visuelles) ; l'unicité de la
+ * paire {@code (text, imageUrl)} est en revanche validée par fichier : c'est la clé de
+ * réparation stable utilisée par {@code DataSeeder}.</p>
  */
 @Component
 public class SeedDataLoader {
@@ -134,7 +139,7 @@ public class SeedDataLoader {
         }
 
         List<QuestionSeedDefinition> questions = new ArrayList<>(rawQuestions.size());
-        Set<String> seenTexts = new HashSet<>();
+        Map<QuestionIdentity, Integer> seenQuestions = new HashMap<>();
         for (int i = 0; i < rawQuestions.size(); i++) {
             RawSeedQuestion raw = rawQuestions.get(i);
             if (raw == null) {
@@ -145,9 +150,6 @@ public class SeedDataLoader {
             if (text.length() > MAX_QUESTION_TEXT_LENGTH) {
                 throw new SeedDataValidationException(context + ".text exceeds " + MAX_QUESTION_TEXT_LENGTH + " characters");
             }
-            if (!seenTexts.add(text)) {
-                throw new SeedDataValidationException(context + ".text is duplicated: " + text);
-            }
 
             Map<QuestionChoice, String> answers = validateAnswers(raw.answers(), context);
             QuestionChoice correctAnswer = parseChoice(raw.correctAnswer(), context + ".correctAnswer");
@@ -155,11 +157,14 @@ public class SeedDataLoader {
                 throw new SeedDataValidationException(context + ".correctAnswer must match one of the answers");
             }
 
-            questions.add(new QuestionSeedDefinition(
-                    text,
-                    answers,
-                    correctAnswer,
-                    validateImageUrl(raw.imageUrl(), context + ".imageUrl")));
+            QuestionIdentity identity = new QuestionIdentity(text, validateImageUrl(raw.imageUrl(), context + ".imageUrl"));
+            Integer firstIndex = seenQuestions.putIfAbsent(identity, i);
+            if (firstIndex != null) {
+                throw new SeedDataValidationException(
+                        context + ".text/.imageUrl is duplicated (same text and imageUrl as questions[" + firstIndex + "]): " + text);
+            }
+
+            questions.add(new QuestionSeedDefinition(text, answers, correctAnswer, identity.imageUrl()));
         }
 
         return new TopicSeedDefinition(topicId, name, description, category, topicImageUrl, List.copyOf(questions));

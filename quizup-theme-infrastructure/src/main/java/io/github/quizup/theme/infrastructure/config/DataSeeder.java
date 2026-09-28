@@ -14,6 +14,7 @@ import io.github.quizup.theme.domain.port.in.CreateTopicUseCase;
 import io.github.quizup.theme.domain.port.in.GetQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.GetTopicUseCase;
 import io.github.quizup.theme.domain.port.in.PublishTopicUseCase;
+import io.github.quizup.theme.infrastructure.config.seed.QuestionIdentity;
 import io.github.quizup.theme.infrastructure.config.seed.QuestionSeedDefinition;
 import io.github.quizup.theme.infrastructure.config.seed.SeedDataLoader;
 import io.github.quizup.theme.infrastructure.config.seed.TopicSeedDefinition;
@@ -172,12 +173,12 @@ public class DataSeeder {
             return TopicSeedOutcome.SKIPPED;
         }
 
-        Map<String, Question> existingByText = findQuestionsByText(topicId);
+        Map<QuestionIdentity, Question> existingByIdentity = findQuestionsByIdentity(topicId);
         int createdQuestions = 0;
         int approvedQuestions = 0;
 
         for (QuestionSeedDefinition question : definition.questions()) {
-            Question existing = existingByText.get(question.text());
+            Question existing = existingByIdentity.remove(QuestionIdentity.of(question));
             if (existing == null) {
                 if (createQuestion(topicId, question)) {
                     createdQuestions++;
@@ -246,14 +247,15 @@ public class DataSeeder {
     }
 
     /**
-     * Charge les questions du theme (read-model) indexees par texte : cle stable de reparation,
-     * les identifiants de questions etant aleatoires.
+     * Charge les questions du theme (read-model) indexees par identite (texte, imageUrl) :
+     * cle stable de reparation, les identifiants de questions etant aleatoires. Les textes
+     * peuvent etre dupliques (questions visuelles), la paire (texte, imageUrl) est unique.
      */
-    private Map<String, Question> findQuestionsByText(String topicId) {
-        Map<String, Question> byText = new HashMap<>();
+    private Map<QuestionIdentity, Question> findQuestionsByIdentity(String topicId) {
+        Map<QuestionIdentity, Question> byIdentity = new HashMap<>();
         getQuestionUseCase.getByTopicId(topicId).join()
-                .forEach(question -> byText.put(question.text(), question));
-        return byText;
+                .forEach(question -> byIdentity.putIfAbsent(QuestionIdentity.of(question), question));
+        return byIdentity;
     }
 
     private Topic awaitTopic(String topicId) {

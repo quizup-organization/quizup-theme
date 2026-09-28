@@ -75,16 +75,18 @@ lorsque la difficulté calculée change, la projection envoie une
 ### Seed initial (YAML)
 
 - **Un fichier par thème**, rangé par catégorie : `src/main/resources/seed/topics/<categorie>/<theme>.yml`
-  (20 thèmes, 20 questions chacun). Découverte via `app.seed-data.location`
+  (21 thèmes, 20 à ~190 questions chacun). Découverte via `app.seed-data.location`
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
-  `imageUrl` optionnelle) + `questions` (20 × `text` ≤ 255 unique, `answers` A–D, `correctAnswer`,
-  `imageUrl` optionnelle). Validation par `SeedDataLoader` ; un fichier invalide est loggé et ignoré
-  sans bloquer les autres.
+  `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
+  `correctAnswer`, `imageUrl` optionnelle). Validation par `SeedDataLoader` : l'unicité de la paire
+  `(text, imageUrl)` est exigée par fichier (clé de réparation), un fichier invalide est loggé et
+  ignoré sans bloquer les autres.
 - **Seeder auto-réparateur** (`DataSeeder`) : thème absent → création + questions + approbation +
-  publication ; `PUBLISHED` → skip ; `DRAFT` → création des questions manquantes (clé stable = texte,
-  les IDs de questions étant aléatoires), approbation des non-approuvées puis publication ;
-  `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées par thème.
+  publication ; `PUBLISHED` → skip ; `DRAFT` → création des questions manquantes (clé stable =
+  `(text, imageUrl)`, les IDs de questions étant aléatoires), approbation des non-approuvées puis
+  publication ; `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées
+  par thème.
 - **Images externes libres de droit** (Wikimedia Commons, `Special:FilePath` + `?width=800`) :
   source et licence listées dans `src/main/resources/seed/CREDITS.md`. Aucun binaire dans le repo,
   aucune image sous copyright (logos, affiches, captures, personnages officiels exclus).

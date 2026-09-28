@@ -37,7 +37,9 @@ class SeedDataLoaderTest {
             assertThat(definition.name()).isNotBlank().hasSizeLessThanOrEqualTo(25);
             assertThat(definition.category()).isNotNull();
             assertThat(definition.questions()).hasSizeGreaterThanOrEqualTo(7);
-            assertThat(definition.questions()).extracting(QuestionSeedDefinition::text).doesNotHaveDuplicates();
+            assertThat(definition.questions())
+                    .extracting(question -> question.text() + "|" + question.imageUrl())
+                    .doesNotHaveDuplicates();
             assertThat(definition.questions()).allSatisfy(question -> {
                 assertThat(question.answers()).hasSize(4);
                 assertThat(question.answers()).containsKey(question.correctAnswer());
@@ -72,9 +74,20 @@ class SeedDataLoaderTest {
     }
 
     @Test
-    void rejectsDuplicateQuestionTexts(@TempDir Path tempDir) throws IOException {
-        Resource resource = writeYaml(tempDir, yamlWithQuestions(
-                "Q1 ?", "Q2 ?", "Q3 ?", "Q1 ?", "Q5 ?", "Q6 ?", "Q7 ?"));
+    void acceptsDuplicateQuestionTextsWithDifferentImageUrls(@TempDir Path tempDir) throws IOException {
+        Resource resource = writeYaml(tempDir, yamlWithSameTextAndImages("Quel est ce pays ?", 7));
+
+        TopicSeedDefinition definition = loader.load(resource);
+
+        assertThat(definition.questions()).hasSize(7);
+        assertThat(definition.questions())
+                .extracting(QuestionSeedDefinition::text)
+                .containsOnly("Quel est ce pays ?");
+    }
+
+    @Test
+    void rejectsDuplicateQuestionIdentity(@TempDir Path tempDir) throws IOException {
+        Resource resource = writeYaml(tempDir, yamlWithRepeatedIdentity());
 
         assertThatThrownBy(() -> loader.load(resource))
                 .isInstanceOf(SeedDataValidationException.class)
@@ -148,6 +161,44 @@ class SeedDataLoaderTest {
                         answers: { A: a, B: b, C: c, D: d }
                         correctAnswer: A
                     """.formatted(text));
+        }
+        return yaml.toString();
+    }
+
+    private static String yamlWithSameTextAndImages(String text, int count) {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  name: "X"
+                  category: GENERAL
+                questions:
+                """);
+        for (int i = 1; i <= count; i++) {
+            yaml.append("""
+                      - text: "%s"
+                        imageUrl: "https://example.com/image-%d.png"
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(text, i));
+        }
+        return yaml.toString();
+    }
+
+    private static String yamlWithRepeatedIdentity() {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  name: "X"
+                  category: GENERAL
+                questions:
+                """);
+        for (int i = 1; i <= 7; i++) {
+            yaml.append("""
+                      - text: "Q ?"
+                        imageUrl: "https://example.com/same.png"
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """);
         }
         return yaml.toString();
     }

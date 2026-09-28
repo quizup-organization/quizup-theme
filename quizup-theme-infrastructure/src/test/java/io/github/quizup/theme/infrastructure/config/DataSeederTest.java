@@ -149,6 +149,35 @@ class DataSeederTest {
     }
 
     @Test
+    void repairsDraftTopicWithDuplicateQuestionTexts() {
+        String text = "Quel est ce pays ?";
+        when(seedDataLoader.loadAll()).thenReturn(List.of(definitionWith("topic-flags", List.of(
+                seedQuestion(text, "https://example.com/flag-1.png"),
+                seedQuestion(text, "https://example.com/flag-2.png"),
+                seedQuestion(text, "https://example.com/flag-3.png")))));
+        when(checkTopicUseCase.existsByIdAndWait("topic-flags")).thenReturn(true);
+        when(getTopicUseCase.getById("topic-flags"))
+                .thenReturn(CompletableFuture.completedFuture(topic("topic-flags", TopicStatus.DRAFT, 3)));
+        when(getQuestionUseCase.getByTopicId("topic-flags"))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", text, "https://example.com/flag-1.png", QuestionStatus.APPROVED),
+                        question("q-2", text, "https://example.com/flag-2.png", QuestionStatus.PENDING))))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", text, "https://example.com/flag-1.png", QuestionStatus.APPROVED),
+                        question("q-2", text, "https://example.com/flag-2.png", QuestionStatus.APPROVED),
+                        question("q-3", text, "https://example.com/flag-3.png", QuestionStatus.APPROVED))));
+
+        seeder(true).run();
+
+        verify(createQuestionUseCase, times(1)).createAndWait(
+                anyString(), eq("topic-flags"), eq(text), anyMap(), eq(QuestionChoice.A),
+                eq("https://example.com/flag-3.png"), eq(SYSTEM));
+        verify(approveQuestionUseCase).approveAndWait("q-2", SYSTEM);
+        verify(approveQuestionUseCase, never()).approveAndWait("q-1", SYSTEM);
+        verify(publishTopicUseCase).publishAndWait("topic-flags", SYSTEM);
+    }
+
+    @Test
     void toleratesAggregateStreamCreationExceptionOnTopicCreation() {
         when(seedDataLoader.loadAll()).thenReturn(List.of(definition("topic-lag", "Q1 ?")));
         when(checkTopicUseCase.existsByIdAndWait("topic-lag")).thenReturn(false);
@@ -191,19 +220,22 @@ class DataSeederTest {
     }
 
     private static TopicSeedDefinition definition(String topicId, String... texts) {
-        List<QuestionSeedDefinition> questions = List.of(texts).stream()
-                .map(DataSeederTest::seedQuestion)
-                .toList();
+        return definitionWith(topicId, List.of(texts).stream()
+                .map(text -> seedQuestion(text, null))
+                .toList());
+    }
+
+    private static TopicSeedDefinition definitionWith(String topicId, List<QuestionSeedDefinition> questions) {
         return new TopicSeedDefinition(topicId, "Nom", "Description", TopicCategory.GENERAL, null, questions);
     }
 
-    private static QuestionSeedDefinition seedQuestion(String text) {
+    private static QuestionSeedDefinition seedQuestion(String text, String imageUrl) {
         Map<QuestionChoice, String> answers = new EnumMap<>(QuestionChoice.class);
         answers.put(QuestionChoice.A, "a");
         answers.put(QuestionChoice.B, "b");
         answers.put(QuestionChoice.C, "c");
         answers.put(QuestionChoice.D, "d");
-        return new QuestionSeedDefinition(text, answers, QuestionChoice.A, null);
+        return new QuestionSeedDefinition(text, answers, QuestionChoice.A, imageUrl);
     }
 
     private static Topic topic(String topicId, TopicStatus status, int approvedCount) {
@@ -224,10 +256,15 @@ class DataSeederTest {
     }
 
     private static Question question(String questionId, String text, QuestionStatus status) {
+        return question(questionId, text, null, status);
+    }
+
+    private static Question question(String questionId, String text, String imageUrl, QuestionStatus status) {
         return Question.builder()
                 .questionId(questionId)
                 .topicId("topic-draft")
                 .text(text)
+                .imageUrl(imageUrl)
                 .answers(Map.of())
                 .correctAnswer(QuestionChoice.A)
                 .status(status)
