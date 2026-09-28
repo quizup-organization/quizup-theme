@@ -1,146 +1,140 @@
 topic:
   id: topic-cinema
   name: "Cinéma"
-  description: "Des frères Lumière aux superproductions modernes : réalisateurs, films cultes, récompenses et vocabulaire du septième art."
+  description: "Des frères Lumière aux blockbusters d'aujourd'hui : réalisateurs cultes, répliques mythiques, films récompensés et grands classiques du septième art."
   category: MOVIES
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Film_reel.svg?width=800
 questions:
-  - text: "Qui a réalisé le film Titanic, sorti en 1997 ?"
+  - text: "Quel film de James Cameron sorti en 1997 raconte l'histoire d'amour de Jack et Rose à bord d'un paquebot ?"
     answers:
-      A: "Ridley Scott"
-      B: "James Cameron"
-      C: "Steven Spielberg"
-      D: "Martin Scorsese"
-    correctAnswer: B
-  - text: "En quelle année les frères Lumière ont-ils organisé la première projection publique payante ?"
-    answers:
-      A: "1895"
-      B: "1888"
-      C: "1902"
-      D: "1912"
+      A: "Titanic"
+      B: "Avatar"
+      C: "Abyss"
+      D: "Terminator 2"
     correctAnswer: A
-  - text: "Qui a réalisé E.T. l'extra-terrestre ?"
-    answers:
-      A: "George Lucas"
-      B: "Robert Zemeckis"
-      C: "Tim Burton"
-      D: "Steven Spielberg"
-    correctAnswer: D
-  - text: "Quel film sud-coréen a remporté l'Oscar du meilleur film en 2020 ?"
-    answers:
-      A: "Old Boy"
-      B: "Snowpiercer"
-      C: "Parasite"
-      D: "Train to Busan"
-    correctAnswer: C
-  - text: "Quel acteur incarne le capitaine Jack Sparrow dans Pirates des Caraïbes ?"
-    answers:
-      A: "Brad Pitt"
-      B: "Johnny Depp"
-      C: "Orlando Bloom"
-      D: "Antonio Banderas"
-    correctAnswer: B
-  - text: "Qui a réalisé Le Parrain, sorti en 1972 ?"
+  - text: "Qui a réalisé le film « Pulp Fiction » ?"
     answers:
       A: "Martin Scorsese"
-      B: "Brian De Palma"
-      C: "Sergio Leone"
+      B: "Quentin Tarantino"
+      C: "David Fincher"
+      D: "Steven Spielberg"
+    correctAnswer: B
+  - text: "Comment s'appelle la statuette remise lors de la cérémonie annuelle de récompenses du cinéma américain ?"
+    answers:
+      A: "Le César"
+      B: "Le Lion d'or"
+      C: "L'Oscar"
+      D: "La Palme d'or"
+    correctAnswer: C
+  - text: "Quel acteur incarne Jack Sparrow dans la saga « Pirates des Caraïbes » ?"
+    answers:
+      A: "Orlando Bloom"
+      B: "Brad Pitt"
+      C: "Tom Cruise"
+      D: "Johnny Depp"
+    correctAnswer: D
+  - text: "Dans quelle ville se déroule chaque année le célèbre festival remettant la Palme d'or ?"
+    answers:
+      A: "Cannes"
+      B: "Venise"
+      C: "Berlin"
+      D: "Deauville"
+    correctAnswer: A
+  - text: "Quel réalisateur est à l'origine des films « Les Dents de la mer » et « E.T. » ?"
+    answers:
+      A: "George Lucas"
+      B: "Ridley Scott"
+      C: "Steven Spielberg"
       D: "Francis Ford Coppola"
-    correctAnswer: D
-  - text: "Comment appelle-t-on la musique composée spécialement pour un film ?"
-    answers:
-      A: "Le générique"
-      B: "Le montage sonore"
-      C: "La bande originale"
-      D: "Le doublage"
     correctAnswer: C
-  - text: "Quel festival de cinéma décerne la Palme d'or ?"
+  - text: "Quelle réplique célèbre est prononcée par Dark Vador dans « L'Empire contre-attaque » ?"
     answers:
-      A: "Le Festival de Cannes"
-      B: "La Mostra de Venise"
-      C: "La Berlinale"
-      D: "Le Festival de Sundance"
-    correctAnswer: A
-  - text: "Qui a réalisé le thriller Psychose, sorti en 1960 ?"
-    answers:
-      A: "Billy Wilder"
-      B: "Orson Welles"
-      C: "Stanley Kubrick"
-      D: "Alfred Hitchcock"
-    correctAnswer: D
-  - text: "Dans la saga Star Wars, quelle arme emblématique les Jedi utilisent-ils ?"
-    answers:
-      A: "Le pistolet blaster"
-      B: "Le sabre laser"
-      C: "L'arc énergétique"
-      D: "Le bâton de force"
+      A: "« Que la Force soit avec toi »"
+      B: "« Je suis ton père »"
+      C: "« Je reviendrai »"
+      D: "« Bienvenue dans la jungle »"
     correctAnswer: B
-  - text: "Qui a réalisé Pulp Fiction ?"
-    answers:
-      A: "David Fincher"
-      B: "Guy Ritchie"
-      C: "Quentin Tarantino"
-      D: "Joel Coen"
-    correctAnswer: C
-  - text: "Quel acteur incarne Forrest Gump dans le film de 1994 ?"
-    answers:
-      A: "Tom Hanks"
-      B: "Kevin Costner"
-      C: "Robin Williams"
-      D: "Bill Murray"
-    correctAnswer: A
-  - text: "Quelle récompense est remise chaque année par l'Academy of Motion Picture Arts and Sciences ?"
-    answers:
-      A: "Les César"
-      B: "Les BAFTA"
-      C: "Les Golden Globes"
-      D: "Les Oscars"
-    correctAnswer: D
-  - text: "Qui a réalisé Inception, sorti en 2010 ?"
-    answers:
-      A: "Denis Villeneuve"
-      B: "Christopher Nolan"
-      C: "J. J. Abrams"
-      D: "James Cameron"
-    correctAnswer: B
-  - text: "Dans Star Wars, quel personnage déclare à Luke : « Je suis ton père » ?"
-    answers:
-      A: "Dark Vador"
-      B: "Obi-Wan Kenobi"
-      C: "L'Empereur Palpatine"
-      D: "Yoda"
-    correctAnswer: A
-  - text: "Quel film d'animation Pixar raconte l'histoire de jouets qui prennent vie ?"
+  - text: "Quel film d'animation Pixar met en scène un cow-boy et un astronaute en jouets ?"
     answers:
       A: "Cars"
-      B: "Nemo"
-      C: "Toy Story"
-      D: "Là-haut"
-    correctAnswer: C
-  - text: "Quelle actrice joue Hermione Granger dans la saga Harry Potter ?"
-    answers:
-      A: "Emma Stone"
-      B: "Emma Watson"
-      C: "Keira Knightley"
-      D: "Natalie Portman"
+      B: "Toy Story"
+      C: "Monstres & Cie"
+      D: "Ratatouille"
     correctAnswer: B
-  - text: "Quel est le premier long métrage d'animation des studios Disney, sorti en 1937 ?"
+  - text: "Qui joue le rôle de Vito Corleone dans le film « Le Parrain » ?"
     answers:
-      A: "Pinocchio"
-      B: "Bambi"
-      C: "Cendrillon"
-      D: "Blanche-Neige et les Sept Nains"
-    correctAnswer: D
-  - text: "Qui a réalisé 2001, l'Odyssée de l'espace ?"
-    answers:
-      A: "Ridley Scott"
-      B: "George Lucas"
-      C: "Stanley Kubrick"
-      D: "Andreï Tarkovski"
+      A: "Al Pacino"
+      B: "Robert De Niro"
+      C: "Marlon Brando"
+      D: "James Caan"
     correctAnswer: C
-  - text: "Quel réalisateur français a signé Le Fabuleux Destin d'Amélie Poulain ?"
+  - text: "Quel film de Christopher Nolan se déroule à l'intérieur des rêves, avec Leonardo DiCaprio ?"
     answers:
-      A: "Jean-Pierre Jeunet"
-      B: "Luc Besson"
-      C: "Michel Gondry"
-      D: "Jacques Audiard"
+      A: "Interstellar"
+      B: "Memento"
+      C: "Tenet"
+      D: "Inception"
+    correctAnswer: D
+  - text: "Comment s'appelle le sorcier gris incarné par Ian McKellen dans « Le Seigneur des anneaux » ?"
+    answers:
+      A: "Gandalf"
+      B: "Saruman"
+      C: "Radagast"
+      D: "Elrond"
+    correctAnswer: A
+  - text: "Quel réalisateur français a signé « Le Fabuleux Destin d'Amélie Poulain » ?"
+    answers:
+      A: "Luc Besson"
+      B: "Jean-Pierre Jeunet"
+      C: "François Truffaut"
+      D: "Michel Gondry"
+    correctAnswer: B
+  - text: "Quel film de 1994 met en scène Tom Hanks assis sur un banc, racontant sa vie et ses courses ?"
+    answers:
+      A: "Seul au monde"
+      B: "Il faut sauver le soldat Ryan"
+      C: "Forrest Gump"
+      D: "La Ligne verte"
+    correctAnswer: C
+  - text: "Quel est le nom du studio d'animation japonais fondé par Hayao Miyazaki ?"
+    answers:
+      A: "Toei Animation"
+      B: "Madhouse"
+      C: "Sunrise"
+      D: "Studio Ghibli"
+    correctAnswer: D
+  - text: "Quel acteur incarne Iron Man dans l'univers cinématographique Marvel ?"
+    answers:
+      A: "Robert Downey Jr."
+      B: "Chris Evans"
+      C: "Chris Hemsworth"
+      D: "Mark Ruffalo"
+    correctAnswer: A
+  - text: "Dans quel film entend-on la phrase « Houston, nous avons un problème » ?"
+    answers:
+      A: "Gravity"
+      B: "Apollo 13"
+      C: "Armageddon"
+      D: "Seul sur Mars"
+    correctAnswer: B
+  - text: "Quel réalisateur est célèbre pour ses films noirs en costume comme « Psychose » et « Les Oiseaux » ?"
+    answers:
+      A: "Orson Welles"
+      B: "Billy Wilder"
+      C: "Alfred Hitchcock"
+      D: "Stanley Kubrick"
+    correctAnswer: C
+  - text: "Quel film de 2019, réalisé par Bong Joon-ho, a remporté l'Oscar du meilleur film ?"
+    answers:
+      A: "Joker"
+      B: "1917"
+      C: "Once Upon a Time... in Hollywood"
+      D: "Parasite"
+    correctAnswer: D
+  - text: "Quel personnage de fiction porte un chapeau melon et tient un rôle de pilier de la comédie muette de Charlie Chaplin ?"
+    answers:
+      A: "Charlot"
+      B: "Buster"
+      C: "Harold"
+      D: "Fatty"
     correctAnswer: A

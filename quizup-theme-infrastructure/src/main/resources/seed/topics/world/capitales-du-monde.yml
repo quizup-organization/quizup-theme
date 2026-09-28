@@ -1,114 +1,507 @@
 topic:
   id: topic-capitales-du-monde
   name: "Capitales du monde"
-  description: "Des monuments célèbres aux grandes métropoles : retrouvez les capitales des pays du monde, associez chaque nation à sa ville capitale et voyagez d'un continent à l'autre."
+  description: "Paris, Canberra, Ouagadougou, Astana : retrouvez la capitale de chaque pays du monde et faites le tour des cinq continents."
   category: WORLD
-  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tour_Eiffel_Wikimedia_Commons.jpg?width=800
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Nations.svg?width=800
 questions:
-  - text: "Dans quelle ville se trouve le Colisée, l'amphithéâtre antique représenté sur cette photo ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Colosseum_in_Rome,_Italy_-_April_2007.jpg?width=800
+  - text: "Quelle est la capitale du Brunei ?"
     answers:
-      A: "Naples"
-      B: "Milan"
-      C: "Athènes"
-      D: "Rome"
-    correctAnswer: D
-  - text: "Quel pays a pour capitale la ville où se dresse cette tour ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tour_Eiffel_Wikimedia_Commons.jpg?width=800
-    answers:
-      A: "Belgique"
-      B: "Suisse"
-      C: "France"
-      D: "Italie"
-    correctAnswer: C
-  - text: "Dans quel pays se trouve le Taj Mahal, dont la capitale est New Delhi ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal_(Edited).jpeg?width=800
-    answers:
-      A: "Pakistan"
-      B: "Bangladesh"
-      C: "Népal"
-      D: "Inde"
-    correctAnswer: D
-  - text: "Dans quel pays se trouve la statue de la Liberté, dont la capitale est Washington ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Liberty_7.jpg?width=800
-    answers:
-      A: "États-Unis"
-      B: "Canada"
-      C: "Royaume-Uni"
-      D: "France"
-    correctAnswer: A
-  - text: "Dans quel pays d'Amérique du Sud se trouvent les ruines du Machu Picchu, dont la capitale est Lima ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Machu_Picchu,_Peru.jpg?width=800
-    answers:
-      A: "Pérou"
-      B: "Bolivie"
-      C: "Équateur"
-      D: "Chili"
-    correctAnswer: A
-  - text: "Quelle est la capitale du pays où serpente ce mur millénaire ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Great_Wall_of_China_July_2006.JPG?width=800
-    answers:
-      A: "Shanghai"
-      B: "Hong Kong"
-      C: "Pékin"
-      D: "Xi'an"
-    correctAnswer: C
-  - text: "Quelle est la capitale de l'Espagne ?"
-    answers:
-      A: "Barcelone"
-      B: "Madrid"
-      C: "Séville"
-      D: "Valence"
+      A: "Jakarta"
+      B: "Bandar Seri Begawan"
+      C: "Kuala Lumpur"
+      D: "Kuala Belait"
     correctAnswer: B
-  - text: "Quelle est la capitale de l'Italie ?"
+  - text: "Quelle est la capitale de la Gambie ?"
     answers:
-      A: "Milan"
-      B: "Venise"
-      C: "Naples"
-      D: "Rome"
-    correctAnswer: D
-  - text: "Quelle est la capitale du Royaume-Uni ?"
-    answers:
-      A: "Londres"
-      B: "Manchester"
-      C: "Édimbourg"
-      D: "Liverpool"
-    correctAnswer: A
-  - text: "Quelle est la capitale des États-Unis ?"
-    answers:
-      A: "New York"
-      B: "Washington D.C."
-      C: "Los Angeles"
-      D: "Chicago"
+      A: "Bissau"
+      B: "Banjul"
+      C: "Serekunda"
+      D: "Dakar"
     correctAnswer: B
+  - text: "Quelle est la capitale du Cap-Vert ?"
+    answers:
+      A: "Dakar"
+      B: "Praia"
+      C: "Mindelo"
+      D: "Banjul"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Cambodge ?"
+    answers:
+      A: "Hô Chi Minh-Ville"
+      B: "Siem Reap"
+      C: "Vientiane"
+      D: "Phnom Penh"
+    correctAnswer: D
+  - text: "Quelle est la capitale des Îles Marshall ?"
+    answers:
+      A: "Tarawa-Sud"
+      B: "Funafuti"
+      C: "Ebeye"
+      D: "Majuro"
+    correctAnswer: D
+  - text: "Quelle est la capitale de Sainte-Lucie ?"
+    answers:
+      A: "Vieux Fort"
+      B: "Roseau"
+      C: "Bridgetown"
+      D: "Castries"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Guinée-Bissau ?"
+    answers:
+      A: "Conakry"
+      B: "Bafatá"
+      C: "Dakar"
+      D: "Bissau"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Liban ?"
+    answers:
+      A: "Damas"
+      B: "Tripoli"
+      C: "Saïda"
+      D: "Beyrouth"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Syrie ?"
+    answers:
+      A: "Damas"
+      B: "Beyrouth"
+      C: "Homs"
+      D: "Alep"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Yémen ?"
+    answers:
+      A: "Sanaa"
+      B: "Aden"
+      C: "Mascate"
+      D: "Riyad"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Croatie ?"
+    answers:
+      A: "Belgrade"
+      B: "Dubrovnik"
+      C: "Split"
+      D: "Zagreb"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Géorgie ?"
+    answers:
+      A: "Tbilissi"
+      B: "Erevan"
+      C: "Batoumi"
+      D: "Koutaïssi"
+    correctAnswer: A
   - text: "Quelle est la capitale du Japon ?"
     answers:
-      A: "Osaka"
+      A: "Tokyo"
       B: "Kyoto"
-      C: "Tokyo"
+      C: "Osaka"
       D: "Nagoya"
-    correctAnswer: C
-  - text: "Quelle est la capitale de l'Égypte ?"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Togo ?"
     answers:
-      A: "Alexandrie"
-      B: "Louxor"
+      A: "Sokodé"
+      B: "Lomé"
+      C: "Cotonou"
+      D: "Accra"
+    correctAnswer: B
+  - text: "Quelle est la capitale de Trinité-et-Tobago ?"
+    answers:
+      A: "Port-d'Espagne"
+      B: "San Fernando"
+      C: "Bridgetown"
+      D: "Kingston"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Kirghizistan ?"
+    answers:
+      A: "Bichkek"
+      B: "Tachkent"
+      C: "Och"
+      D: "Douchanbé"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Soudan ?"
+    answers:
+      A: "Khartoum"
+      B: "Juba"
       C: "Le Caire"
-      D: "Assouan"
+      D: "Omdourman"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Lesotho ?"
+    answers:
+      A: "Mbabane"
+      B: "Bloemfontein"
+      C: "Maseru"
+      D: "Teyateyaneng"
     correctAnswer: C
-  - text: "Sur quel continent se trouve l'Égypte ?"
+  - text: "Quelle est la capitale des Émirats arabes unis ?"
     answers:
-      A: "Afrique"
-      B: "Asie"
-      C: "Europe"
-      D: "Océanie"
+      A: "Doha"
+      B: "Dubaï"
+      C: "Charjah"
+      D: "Abou Dabi"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la République tchèque ?"
+    answers:
+      A: "Prague"
+      B: "Brno"
+      C: "Bratislava"
+      D: "Ostrava"
     correctAnswer: A
-  - text: "Quelle est la capitale du Kenya ?"
+  - text: "Quelle est la capitale du Cameroun ?"
     answers:
-      A: "Nairobi"
-      B: "Mombasa"
-      C: "Kampala"
+      A: "Yaoundé"
+      B: "Bafoussam"
+      C: "Douala"
+      D: "Libreville"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Liberia ?"
+    answers:
+      A: "Conakry"
+      B: "Buchanan"
+      C: "Monrovia"
+      D: "Freetown"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Grenade ?"
+    answers:
+      A: "Saint-Georges"
+      B: "Kingstown"
+      C: "Castries"
+      D: "Gouyave"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Portugal ?"
+    answers:
+      A: "Lisbonne"
+      B: "Porto"
+      C: "Madrid"
+      D: "Coimbra"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Maroc ?"
+    answers:
+      A: "Casablanca"
+      B: "Fès"
+      C: "Rabat"
+      D: "Marrakech"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Libye ?"
+    answers:
+      A: "Misrata"
+      B: "Tripoli"
+      C: "Tunis"
+      D: "Benghazi"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Bénin ?"
+    answers:
+      A: "Parakou"
+      B: "Lomé"
+      C: "Cotonou"
+      D: "Porto-Novo"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?"
+    answers:
+      A: "Honiara"
+      B: "Port Moresby"
+      C: "Jakarta"
+      D: "Lae"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Lituanie ?"
+    answers:
+      A: "Vilnius"
+      B: "Kaunas"
+      C: "Riga"
+      D: "Tallinn"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Turkménistan ?"
+    answers:
+      A: "Tachkent"
+      B: "Achgabat"
+      C: "Türkmenabat"
+      D: "Téhéran"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Costa Rica ?"
+    answers:
+      A: "Managua"
+      B: "Alajuela"
+      C: "Panama"
+      D: "San José"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Monténégro ?"
+    answers:
+      A: "Podgorica"
+      B: "Cetinje"
+      C: "Belgrade"
+      D: "Tirana"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Iran ?"
+    answers:
+      A: "Téhéran"
+      B: "Tabriz"
+      C: "Ispahan"
+      D: "Chiraz"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Belize ?"
+    answers:
+      A: "Belmopan"
+      B: "San Ignacio"
+      C: "Guatemala"
+      D: "Belize City"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Mexique ?"
+    answers:
+      A: "Guadalajara"
+      B: "Monterrey"
+      C: "Mexico"
+      D: "Cancún"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Tadjikistan ?"
+    answers:
+      A: "Douchanbé"
+      B: "Tachkent"
+      C: "Khodjent"
+      D: "Bichkek"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Estonie ?"
+    answers:
+      A: "Tartu"
+      B: "Riga"
+      C: "Tallinn"
+      D: "Helsinki"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Congo ?"
+    answers:
+      A: "Brazzaville"
+      B: "Pointe-Noire"
+      C: "Libreville"
+      D: "Kinshasa"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Thaïlande ?"
+    answers:
+      A: "Bangkok"
+      B: "Phuket"
+      C: "Chiang Mai"
+      D: "Hanoï"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Burkina Faso ?"
+    answers:
+      A: "Niamey"
+      B: "Bobo-Dioulasso"
+      C: "Ouagadougou"
+      D: "Bamako"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Guinée ?"
+    answers:
+      A: "Conakry"
+      B: "Kankan"
+      C: "Freetown"
+      D: "Dakar"
+    correctAnswer: A
+  - text: "Quelle est la capitale d'Oman ?"
+    answers:
+      A: "Mascate"
+      B: "Salalah"
+      C: "Sanaa"
+      D: "Abou Dabi"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Bulgarie ?"
+    answers:
+      A: "Bucarest"
+      B: "Varna"
+      C: "Sofia"
+      D: "Plovdiv"
+    correctAnswer: C
+  - text: "Quelle est la capitale des Kiribati ?"
+    answers:
+      A: "Tarawa-Sud"
+      B: "Suva"
+      C: "Betio"
+      D: "Majuro"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Côte d'Ivoire ?"
+    answers:
+      A: "Bouaké"
+      B: "Abidjan"
+      C: "Yamoussoukro"
+      D: "Accra"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Guinée équatoriale ?"
+    answers:
+      A: "Bata"
+      B: "Libreville"
+      C: "Malabo"
+      D: "Yaoundé"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Nigeria ?"
+    answers:
+      A: "Abuja"
+      B: "Kano"
+      C: "Accra"
+      D: "Lagos"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Suriname ?"
+    answers:
+      A: "Nieuw Nickerie"
+      B: "Georgetown"
+      C: "Cayenne"
+      D: "Paramaribo"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Liechtenstein ?"
+    answers:
+      A: "Berne"
+      B: "Schaan"
+      C: "Vaduz"
+      D: "Innsbruck"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Soudan du Sud ?"
+    answers:
+      A: "Addis-Abeba"
+      B: "Malakal"
+      C: "Khartoum"
+      D: "Djouba"
+    correctAnswer: D
+  - text: "Quelle est la capitale de l'Ouzbékistan ?"
+    answers:
+      A: "Boukhara"
+      B: "Tachkent"
+      C: "Samarcande"
+      D: "Bichkek"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Azerbaïdjan ?"
+    answers:
+      A: "Tbilissi"
+      B: "Erevan"
+      C: "Bakou"
+      D: "Gandja"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Grèce ?"
+    answers:
+      A: "Thessalonique"
+      B: "Athènes"
+      C: "Héraklion"
+      D: "Patras"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Espagne ?"
+    answers:
+      A: "Valence"
+      B: "Madrid"
+      C: "Barcelone"
+      D: "Séville"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Allemagne ?"
+    answers:
+      A: "Munich"
+      B: "Francfort"
+      C: "Berlin"
+      D: "Hambourg"
+    correctAnswer: C
+  - text: "Quelle est la capitale de l'Italie ?"
+    answers:
+      A: "Venise"
+      B: "Naples"
+      C: "Milan"
+      D: "Rome"
+    correctAnswer: D
+  - text: "Quelle est la capitale des Samoa ?"
+    answers:
+      A: "Nuku'alofa"
+      B: "Apia"
+      C: "Pago Pago"
+      D: "Suva"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Indonésie ?"
+    answers:
+      A: "Surabaya"
+      B: "Bandung"
+      C: "Kuala Lumpur"
+      D: "Jakarta"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Tanzanie ?"
+    answers:
+      A: "Arusha"
+      B: "Dodoma"
+      C: "Nairobi"
       D: "Dar es Salaam"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Malaisie ?"
+    answers:
+      A: "Kuala Lumpur"
+      B: "Singapour"
+      C: "George Town"
+      D: "Johor Bahru"
     correctAnswer: A
+  - text: "Quelle est la capitale de l'Irlande ?"
+    answers:
+      A: "Belfast"
+      B: "Cork"
+      C: "Dublin"
+      D: "Galway"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Hongrie ?"
+    answers:
+      A: "Szeged"
+      B: "Budapest"
+      C: "Debrecen"
+      D: "Vienne"
+    correctAnswer: B
+  - text: "Quelle est la capitale d'Israël ?"
+    answers:
+      A: "Jérusalem"
+      B: "Haïfa"
+      C: "Amman"
+      D: "Tel Aviv"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Eswatini ?"
+    answers:
+      A: "Mbabane"
+      B: "Maseru"
+      C: "Maputo"
+      D: "Manzini"
+    correctAnswer: A
+  - text: "Quelle est la capitale de Saint-Kitts-et-Nevis ?"
+    answers:
+      A: "Roseau"
+      B: "Saint John's"
+      C: "Charlestown"
+      D: "Basseterre"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Belgique ?"
+    answers:
+      A: "Anvers"
+      B: "Liège"
+      C: "Bruges"
+      D: "Bruxelles"
+    correctAnswer: D
+  - text: "Quelle est la capitale d'Andorre ?"
+    answers:
+      A: "Toulouse"
+      B: "Barcelone"
+      C: "Escaldes-Engordany"
+      D: "Andorre-la-Vieille"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Lettonie ?"
+    answers:
+      A: "Riga"
+      B: "Vilnius"
+      C: "Tallinn"
+      D: "Daugavpils"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Timor oriental ?"
+    answers:
+      A: "Jakarta"
+      B: "Baucau"
+      C: "Dili"
+      D: "Darwin"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Tchad ?"
+    answers:
+      A: "Moundou"
+      B: "Niamey"
+      C: "Khartoum"
+      D: "N'Djamena"
+    correctAnswer: D
+  - text: "Quelle est la capitale de Nauru ?"
+    answers:
+      A: "Tarawa-Sud"
+      B: "Yaren"
+      C: "Aiwo"
+      D: "Honiara"
+    correctAnswer: B
   - text: "Quelle est la capitale de la Turquie ?"
     answers:
       A: "Istanbul"
@@ -116,38 +509,794 @@ questions:
       C: "Ankara"
       D: "Bursa"
     correctAnswer: C
+  - text: "Quelle est la capitale de Chypre ?"
+    answers:
+      A: "Athènes"
+      B: "Larnaca"
+      C: "Nicosie"
+      D: "Limassol"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Mali ?"
+    answers:
+      A: "Tombouctou"
+      B: "Bamako"
+      C: "Ouagadougou"
+      D: "Dakar"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Vanuatu ?"
+    answers:
+      A: "Honiara"
+      B: "Luganville"
+      C: "Nouméa"
+      D: "Port-Vila"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Roumanie ?"
+    answers:
+      A: "Timișoara"
+      B: "Cluj-Napoca"
+      C: "Sofia"
+      D: "Bucarest"
+    correctAnswer: D
+  - text: "Quelle est la capitale de Maurice ?"
+    answers:
+      A: "Antananarivo"
+      B: "Port-Louis"
+      C: "Curepipe"
+      D: "Victoria"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Moldavie ?"
+    answers:
+      A: "Bucarest"
+      B: "Chisinau"
+      C: "Tiraspol"
+      D: "Kiev"
+    correctAnswer: B
+  - text: "Quelle est la capitale des Bahamas ?"
+    answers:
+      A: "Kingston"
+      B: "Freeport"
+      C: "La Havane"
+      D: "Nassau"
+    correctAnswer: D
+  - text: "Quelle est la capitale de l'Ouganda ?"
+    answers:
+      A: "Kigali"
+      B: "Nairobi"
+      C: "Kampala"
+      D: "Entebbe"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Micronésie ?"
+    answers:
+      A: "Majuro"
+      B: "Tarawa-Sud"
+      C: "Kolonia"
+      D: "Palikir"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Slovénie ?"
+    answers:
+      A: "Maribor"
+      B: "Ljubljana"
+      C: "Zagreb"
+      D: "Vienne"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Jordanie ?"
+    answers:
+      A: "Aqaba"
+      B: "Damas"
+      C: "Amman"
+      D: "Petra"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la République centrafricaine ?"
+    answers:
+      A: "Yaoundé"
+      B: "Brazzaville"
+      C: "Bangui"
+      D: "Bimbo"
+    correctAnswer: C
+  - text: "Quelle est la capitale des États-Unis ?"
+    answers:
+      A: "Los Angeles"
+      B: "Chicago"
+      C: "Washington"
+      D: "New York"
+    correctAnswer: C
+  - text: "Quelle est la capitale des Tonga ?"
+    answers:
+      A: "Apia"
+      B: "Suva"
+      C: "Nuku'alofa"
+      D: "Neiafu"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la République démocratique du Congo ?"
+    answers:
+      A: "Lubumbashi"
+      B: "Kinshasa"
+      C: "Goma"
+      D: "Brazzaville"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Biélorussie ?"
+    answers:
+      A: "Vilnius"
+      B: "Gomel"
+      C: "Brest"
+      D: "Minsk"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Gabon ?"
+    answers:
+      A: "Yaoundé"
+      B: "Libreville"
+      C: "Port-Gentil"
+      D: "Franceville"
+    correctAnswer: B
+  - text: "Quelle est la capitale de Saint-Vincent-et-les-Grenadines ?"
+    answers:
+      A: "Castries"
+      B: "Bridgetown"
+      C: "Kingstown"
+      D: "Bequia"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Pologne ?"
+    answers:
+      A: "Gdansk"
+      B: "Varsovie"
+      C: "Cracovie"
+      D: "Wrocław"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Macédoine du Nord ?"
+    answers:
+      A: "Tirana"
+      B: "Skopje"
+      C: "Sofia"
+      D: "Ohrid"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Autriche ?"
+    answers:
+      A: "Vienne"
+      B: "Salzbourg"
+      C: "Innsbruck"
+      D: "Graz"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Salvador ?"
+    answers:
+      A: "Guatemala"
+      B: "Santa Ana"
+      C: "Tégucigalpa"
+      D: "San Salvador"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Burundi ?"
+    answers:
+      A: "Bujumbura"
+      B: "Kigali"
+      C: "Dodoma"
+      D: "Gitega"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Venezuela ?"
+    answers:
+      A: "Valencia"
+      B: "Caracas"
+      C: "Maracaibo"
+      D: "Bogota"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Slovaquie ?"
+    answers:
+      A: "Bratislava"
+      B: "Vienne"
+      C: "Prague"
+      D: "Košice"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Équateur ?"
+    answers:
+      A: "Cuenca"
+      B: "Bogota"
+      C: "Quito"
+      D: "Guayaquil"
+    correctAnswer: C
   - text: "Quelle est la capitale de la Russie ?"
     answers:
-      A: "Saint-Pétersbourg"
-      B: "Moscou"
-      C: "Kiev"
-      D: "Minsk"
+      A: "Kiev"
+      B: "Novossibirsk"
+      C: "Saint-Pétersbourg"
+      D: "Moscou"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Corée du Nord ?"
+    answers:
+      A: "Hamhung"
+      B: "Pyongyang"
+      C: "Kaesong"
+      D: "Séoul"
     correctAnswer: B
-  - text: "Quelle est la capitale de l'Argentine ?"
+  - text: "Quelle est la capitale de la Colombie ?"
     answers:
-      A: "Buenos Aires"
-      B: "Córdoba"
-      C: "Montevideo"
-      D: "Santiago"
+      A: "Cali"
+      B: "Quito"
+      C: "Medellín"
+      D: "Bogota"
+    correctAnswer: D
+  - text: "Quelle est la capitale de l'Australie ?"
+    answers:
+      A: "Canberra"
+      B: "Melbourne"
+      C: "Perth"
+      D: "Sydney"
     correctAnswer: A
-  - text: "Quelle est la capitale de la Norvège ?"
+  - text: "Quelle est la capitale de la Corée du Sud ?"
     answers:
-      A: "Bergen"
+      A: "Pyongyang"
+      B: "Incheon"
+      C: "Séoul"
+      D: "Busan"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Canada ?"
+    answers:
+      A: "Montréal"
+      B: "Toronto"
+      C: "Ottawa"
+      D: "Vancouver"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Kazakhstan ?"
+    answers:
+      A: "Astana"
+      B: "Tachkent"
+      C: "Almaty"
+      D: "Bichkek"
+    correctAnswer: A
+  - text: "Quelle est la capitale de Madagascar ?"
+    answers:
+      A: "Antananarivo"
+      B: "Port-Louis"
+      C: "Majunga"
+      D: "Tamatave"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Bosnie-Herzégovine ?"
+    answers:
+      A: "Banja Luka"
+      B: "Sarajevo"
+      C: "Zagreb"
+      D: "Mostar"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Sri Lanka ?"
+    answers:
+      A: "Colombo"
+      B: "Malé"
+      C: "Sri Jayawardenapura Kotte"
+      D: "Kandy"
+    correctAnswer: C
+  - text: "Quelle est la capitale d'Haïti ?"
+    answers:
+      A: "Cap-Haïtien"
+      B: "Port-au-Prince"
+      C: "Kingston"
+      D: "Saint-Domingue"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Sierra Leone ?"
+    answers:
+      A: "Bo"
+      B: "Freetown"
+      C: "Monrovia"
+      D: "Conakry"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Érythrée ?"
+    answers:
+      A: "Asmara"
+      B: "Djibouti"
+      C: "Massaoua"
+      D: "Addis-Abeba"
+    correctAnswer: A
+  - text: "Quelle est la capitale des Salomon ?"
+    answers:
+      A: "Gizo"
+      B: "Port Moresby"
+      C: "Honiara"
+      D: "Suva"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Laos ?"
+    answers:
+      A: "Hanoï"
+      B: "Vientiane"
+      C: "Bangkok"
+      D: "Luang Prabang"
+    correctAnswer: B
+  - text: "Quelle est la capitale des Seychelles ?"
+    answers:
+      A: "Victoria"
+      B: "Port-Louis"
+      C: "Moroni"
+      D: "Anse Boileau"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Finlande ?"
+    answers:
+      A: "Tampere"
       B: "Stockholm"
+      C: "Helsinki"
+      D: "Turku"
+    correctAnswer: C
+  - text: "Quelle est la capitale de l'Angola ?"
+    answers:
+      A: "Huambo"
+      B: "Luanda"
+      C: "Lusaka"
+      D: "Lubango"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Botswana ?"
+    answers:
+      A: "Windhoek"
+      B: "Gaborone"
+      C: "Francistown"
+      D: "Maun"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Zambie ?"
+    answers:
+      A: "Lusaka"
+      B: "Harare"
+      C: "Ndola"
+      D: "Lilongwe"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Afghanistan ?"
+    answers:
+      A: "Hérat"
+      B: "Islamabad"
+      C: "Kaboul"
+      D: "Kandahar"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Kenya ?"
+    answers:
+      A: "Nairobi"
+      B: "Dar es Salaam"
+      C: "Mombasa"
+      D: "Kampala"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Pakistan ?"
+    answers:
+      A: "Islamabad"
+      B: "Karachi"
+      C: "Lahore"
+      D: "New Delhi"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Albanie ?"
+    answers:
+      A: "Tirana"
+      B: "Skopje"
+      C: "Durrës"
+      D: "Podgorica"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Nouvelle-Zélande ?"
+    answers:
+      A: "Auckland"
+      B: "Christchurch"
+      C: "Wellington"
+      D: "Sydney"
+    correctAnswer: C
+  - text: "Quelle est la capitale de l'Arabie saoudite ?"
+    answers:
+      A: "Djeddah"
+      B: "Riyad"
+      C: "Dammam"
+      D: "La Mecque"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Dominique ?"
+    answers:
+      A: "Castries"
+      B: "Roseau"
+      C: "Basseterre"
+      D: "Portsmouth"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Chine ?"
+    answers:
+      A: "Hong Kong"
+      B: "Shanghai"
+      C: "Pékin"
+      D: "Canton"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Mauritanie ?"
+    answers:
+      A: "Nouadhibou"
+      B: "Bamako"
+      C: "Nouakchott"
+      D: "Dakar"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Paraguay ?"
+    answers:
+      A: "La Paz"
+      B: "Ciudad del Este"
+      C: "Montevideo"
+      D: "Asunción"
+    correctAnswer: D
+  - text: "Quelle est la capitale des Maldives ?"
+    answers:
+      A: "Port-Louis"
+      B: "Addu"
+      C: "Malé"
+      D: "Colombo"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Brésil ?"
+    answers:
+      A: "São Paulo"
+      B: "Rio de Janeiro"
+      C: "Brasilia"
+      D: "Salvador"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la Barbade ?"
+    answers:
+      A: "Castries"
+      B: "Kingstown"
+      C: "Bridgetown"
+      D: "Speightstown"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Sénégal ?"
+    answers:
+      A: "Saint-Louis"
+      B: "Dakar"
+      C: "Banjul"
+      D: "Thiès"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Honduras ?"
+    answers:
+      A: "Managua"
+      B: "San Salvador"
+      C: "Tégucigalpa"
+      D: "San Pedro Sula"
+    correctAnswer: C
+  - text: "Quelle est la capitale des Tuvalu ?"
+    answers:
+      A: "Apia"
+      B: "Vaitupu"
+      C: "Tarawa-Sud"
+      D: "Funafuti"
+    correctAnswer: D
+  - text: "Quelle est la capitale de l'Éthiopie ?"
+    answers:
+      A: "Asmara"
+      B: "Nairobi"
+      C: "Addis-Abeba"
+      D: "Dire Dawa"
+    correctAnswer: C
+  - text: "Quelle est la capitale de l'Islande ?"
+    answers:
+      A: "Reykjavik"
+      B: "Akureyri"
       C: "Oslo"
       D: "Copenhague"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Ghana ?"
+    answers:
+      A: "Lomé"
+      B: "Accra"
+      C: "Kumasi"
+      D: "Tamale"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Royaume-Uni ?"
+    answers:
+      A: "Manchester"
+      B: "Édimbourg"
+      C: "Londres"
+      D: "Liverpool"
     correctAnswer: C
-  - text: "Quelle est la capitale de la Grèce ?"
+  - text: "Quelle est la capitale de Malte ?"
     answers:
-      A: "Thessalonique"
-      B: "Sparte"
-      C: "Patras"
-      D: "Athènes"
-    correctAnswer: D
-  - text: "Quelle est la capitale du Portugal ?"
+      A: "Tunis"
+      B: "La Valette"
+      C: "Sliema"
+      D: "Catane"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Guyana ?"
     answers:
-      A: "Porto"
-      B: "Madrid"
-      C: "Coimbra"
-      D: "Lisbonne"
+      A: "Paramaribo"
+      B: "Linden"
+      C: "Cayenne"
+      D: "Georgetown"
     correctAnswer: D
+  - text: "Quelle est la capitale du Népal ?"
+    answers:
+      A: "Pokhara"
+      B: "New Delhi"
+      C: "Katmandou"
+      D: "Thimphou"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Bhoutan ?"
+    answers:
+      A: "Katmandou"
+      B: "Thimphou"
+      C: "Paro"
+      D: "Dacca"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Afrique du Sud ?"
+    answers:
+      A: "Pretoria"
+      B: "Johannesburg"
+      C: "Le Cap"
+      D: "Durban"
+    correctAnswer: A
+  - text: "Quelle est la capitale des Palaos ?"
+    answers:
+      A: "Palikir"
+      B: "Koror"
+      C: "Ngerulmud"
+      D: "Majuro"
+    correctAnswer: C
+  - text: "Quelle est la capitale de l'Inde ?"
+    answers:
+      A: "Calcutta"
+      B: "Bangalore"
+      C: "Mumbai"
+      D: "New Delhi"
+    correctAnswer: D
+  - text: "Quelle est la capitale des Fidji ?"
+    answers:
+      A: "Lautoka"
+      B: "Nadi"
+      C: "Apia"
+      D: "Suva"
+    correctAnswer: D
+  - text: "Quelle est la capitale des Philippines ?"
+    answers:
+      A: "Cebu"
+      B: "Manille"
+      C: "Jakarta"
+      D: "Davao"
+    correctAnswer: B
+  - text: "Quelle est la capitale de l'Égypte ?"
+    answers:
+      A: "Le Caire"
+      B: "Assouan"
+      C: "Alexandrie"
+      D: "Louxor"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Mongolie ?"
+    answers:
+      A: "Astana"
+      B: "Pékin"
+      C: "Erdenet"
+      D: "Oulan-Bator"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Jamaïque ?"
+    answers:
+      A: "Port-au-Prince"
+      B: "La Havane"
+      C: "Montego Bay"
+      D: "Kingston"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Nicaragua ?"
+    answers:
+      A: "León"
+      B: "Managua"
+      C: "Tégucigalpa"
+      D: "San José"
+    correctAnswer: B
+  - text: "Quelle est la capitale d'Antigua-et-Barbuda ?"
+    answers:
+      A: "Bridgetown"
+      B: "Castries"
+      C: "Basseterre"
+      D: "Saint John's"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la France ?"
+    answers:
+      A: "Paris"
+      B: "Marseille"
+      C: "Lyon"
+      D: "Bordeaux"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Uruguay ?"
+    answers:
+      A: "Buenos Aires"
+      B: "Punta del Este"
+      C: "Asunción"
+      D: "Montevideo"
+    correctAnswer: D
+  - text: "Quelle est la capitale de l'Argentine ?"
+    answers:
+      A: "Córdoba"
+      B: "Rosario"
+      C: "Mendoza"
+      D: "Buenos Aires"
+    correctAnswer: D
+  - text: "Quelle est la capitale de Bahreïn ?"
+    answers:
+      A: "Koweït"
+      B: "Manama"
+      C: "Doha"
+      D: "Muharraq"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Bangladesh ?"
+    answers:
+      A: "Khulna"
+      B: "Dacca"
+      C: "Chittagong"
+      D: "Katmandou"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Qatar ?"
+    answers:
+      A: "Doha"
+      B: "Koweït"
+      C: "Al Khor"
+      D: "Manama"
+    correctAnswer: A
+  - text: "Quelle est la capitale de l'Algérie ?"
+    answers:
+      A: "Oran"
+      B: "Tunis"
+      C: "Constantine"
+      D: "Alger"
+    correctAnswer: D
+  - text: "Quelle est la capitale des Comores ?"
+    answers:
+      A: "Victoria"
+      B: "Antananarivo"
+      C: "Mutsamudu"
+      D: "Moroni"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Tunisie ?"
+    answers:
+      A: "Tunis"
+      B: "Sousse"
+      C: "Sfax"
+      D: "Alger"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Viêt Nam ?"
+    answers:
+      A: "Hô Chi Minh-Ville"
+      B: "Bangkok"
+      C: "Da Nang"
+      D: "Hanoï"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Malawi ?"
+    answers:
+      A: "Blantyre"
+      B: "Lilongwe"
+      C: "Dodoma"
+      D: "Lusaka"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Serbie ?"
+    answers:
+      A: "Novi Sad"
+      B: "Niš"
+      C: "Belgrade"
+      D: "Zagreb"
+    correctAnswer: C
+  - text: "Quelle est la capitale de l'Arménie ?"
+    answers:
+      A: "Gyumri"
+      B: "Tbilissi"
+      C: "Bakou"
+      D: "Erevan"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Suisse ?"
+    answers:
+      A: "Zurich"
+      B: "Bâle"
+      C: "Berne"
+      D: "Genève"
+    correctAnswer: C
+  - text: "Quelle est la capitale de la République dominicaine ?"
+    answers:
+      A: "Saint-Domingue"
+      B: "Santiago"
+      C: "San Juan"
+      D: "Port-au-Prince"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Birmanie ?"
+    answers:
+      A: "Rangoun"
+      B: "Naypyidaw"
+      C: "Mandalay"
+      D: "Bangkok"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Chili ?"
+    answers:
+      A: "Valparaíso"
+      B: "Concepción"
+      C: "Lima"
+      D: "Santiago"
+    correctAnswer: D
+  - text: "Quelle est la capitale de l'Irak ?"
+    answers:
+      A: "Mossoul"
+      B: "Damas"
+      C: "Bassorah"
+      D: "Bagdad"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Mozambique ?"
+    answers:
+      A: "Lusaka"
+      B: "Harare"
+      C: "Beira"
+      D: "Maputo"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Bolivie ?"
+    answers:
+      A: "Cochabamba"
+      B: "Santa Cruz"
+      C: "Sucre"
+      D: "Lima"
+    correctAnswer: C
+  - text: "Quelle est la capitale de l'Ukraine ?"
+    answers:
+      A: "Kharkiv"
+      B: "Kiev"
+      C: "Minsk"
+      D: "Odessa"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Somalie ?"
+    answers:
+      A: "Mogadiscio"
+      B: "Nairobi"
+      C: "Djibouti"
+      D: "Hargeisa"
+    correctAnswer: A
+  - text: "Quelle est la capitale de la Suède ?"
+    answers:
+      A: "Göteborg"
+      B: "Stockholm"
+      C: "Malmö"
+      D: "Oslo"
+    correctAnswer: B
+  - text: "Quelle est la capitale de la Norvège ?"
+    answers:
+      A: "Oslo"
+      B: "Copenhague"
+      C: "Stockholm"
+      D: "Bergen"
+    correctAnswer: A
+  - text: "Quelle est la capitale du Pérou ?"
+    answers:
+      A: "Lima"
+      B: "Arequipa"
+      C: "Quito"
+      D: "Cusco"
+    correctAnswer: A
+  - text: "Quelle est la capitale de Cuba ?"
+    answers:
+      A: "Santiago de Cuba"
+      B: "Kingston"
+      C: "La Havane"
+      D: "Camagüey"
+    correctAnswer: C
+  - text: "Quelle est la capitale du Danemark ?"
+    answers:
+      A: "Oslo"
+      B: "Aarhus"
+      C: "Odense"
+      D: "Copenhague"
+    correctAnswer: D
+  - text: "Quelle est la capitale de Sao Tomé-et-Principe ?"
+    answers:
+      A: "Libreville"
+      B: "Malabo"
+      C: "São Tomé"
+      D: "Santo António"
+    correctAnswer: C
+  - text: "Quelle est la capitale des Pays-Bas ?"
+    answers:
+      A: "Rotterdam"
+      B: "Amsterdam"
+      C: "La Haye"
+      D: "Utrecht"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Zimbabwe ?"
+    answers:
+      A: "Lusaka"
+      B: "Harare"
+      C: "Gaborone"
+      D: "Bulawayo"
+    correctAnswer: B
+  - text: "Quelle est la capitale du Niger ?"
+    answers:
+      A: "Ouagadougou"
+      B: "Zinder"
+      C: "Bamako"
+      D: "Niamey"
+    correctAnswer: D
+  - text: "Quelle est la capitale du Rwanda ?"
+    answers:
+      A: "Bujumbura"
+      B: "Kampala"
+      C: "Butare"
+      D: "Kigali"
+    correctAnswer: D
+  - text: "Quelle est la capitale de la Namibie ?"
+    answers:
+      A: "Lusaka"
+      B: "Walvis Bay"
+      C: "Windhoek"
+      D: "Gaborone"
+    correctAnswer: C

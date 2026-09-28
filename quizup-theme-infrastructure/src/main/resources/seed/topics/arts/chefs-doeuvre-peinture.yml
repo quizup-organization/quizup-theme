@@ -1,153 +1,1103 @@
 topic:
   id: topic-chefs-doeuvre-peinture
   name: "Chefs-d'œuvre"
-  description: "De la Joconde aux Nymphéas, un voyage à travers les plus grands tableaux de l'histoire de l'art et les peintres qui les ont créés."
+  description: "De la Joconde à Guernica, reconnaissez les plus grands tableaux de l'histoire de l'art, leurs peintres et les musées qui les abritent."
   category: ARTS
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800
 questions:
-  - text: "Qui a peint La Joconde, également appelée Mona Lisa ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg?width=800
     answers:
-      A: "Michel-Ange"
-      B: "Léonard de Vinci"
-      C: "Raphaël"
-      D: "Sandro Botticelli"
+      A: "Norman Rockwell"
+      B: "Andrew Wyeth"
+      C: "Grant Wood"
+      D: "Edward Hopper"
+    correctAnswer: C
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg?width=800
+    answers:
+      A: "La Nuit étoilée"
+      B: "Les Tournesols"
+      C: "Les Iris"
+      D: "Le Champ de coquelicots"
     correctAnswer: B
-  - text: "Dans quel musée parisien La Joconde est-elle exposée ?"
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg?width=800
+    answers:
+      A: "Le musée de l'Orangerie"
+      B: "Le Petit Palais"
+      C: "Le musée d'Orsay"
+      D: "Le Louvre"
+    correctAnswer: A
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le Petit Palais"
+      B: "L'Orangerie"
+      C: "Le Louvre"
+      D: "Le musée d'Orsay"
+    correctAnswer: D
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tableau_I,_by_Piet_Mondriaan.jpg?width=800
+    answers:
+      A: "Vassily Kandinsky"
+      B: "Kazimir Malevitch"
+      C: "Piet Mondrian"
+      D: "Paul Klee"
+    correctAnswer: C
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=800
+    answers:
+      A: "La galerie Borghèse"
+      B: "Les musées du Vatican"
+      C: "Le Louvre"
+      D: "La galerie des Offices de Florence"
+    correctAnswer: D
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Les_Demoiselles_d'Avignon_(7925004644).jpg?width=800
+    answers:
+      A: "Le MoMA de New York"
+      B: "Le musée Reina Sofía"
+      C: "Le musée Picasso de Paris"
+      D: "Le Louvre"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg?width=800
+    answers:
+      A: "Le Bain turc"
+      B: "La Naissance de Vénus"
+      C: "La Grande Odalisque"
+      D: "Olympia"
+    correctAnswer: C
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Gauguin_-_D'ou_venons-nous_Que_sommes-nous_Ou_allons-nous.jpg?width=800
+    answers:
+      A: "Henri Rousseau"
+      B: "Paul Cézanne"
+      C: "Paul Gauguin"
+      D: "Vincent van Gogh"
+    correctAnswer: C
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Turner_-_The_Fighting_Temeraire.jpg?width=800
+    answers:
+      A: "Le Naufrage"
+      B: "Le Dernier Voyage du Téméraire"
+      C: "Impression, soleil levant"
+      D: "Pluie, vapeur et vitesse"
+    correctAnswer: B
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nighthawks_by_Edward_Hopper_1942.jpg?width=800
+    answers:
+      A: "Norman Rockwell"
+      B: "Edward Hopper"
+      C: "Grant Wood"
+      D: "Andrew Wyeth"
+    correctAnswer: B
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mural_del_Gernika.jpg?width=800
+    answers:
+      A: "Le musée Picasso de Paris"
+      B: "Le musée Reina Sofía de Madrid"
+      C: "Le MoMA"
+      D: "Le Prado"
+    correctAnswer: B
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg?width=800
+    answers:
+      A: "La Cène"
+      B: "Le Christ aux outrages"
+      C: "Le Repas de Cana"
+      D: "La Dernière Communion"
+    correctAnswer: A
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg?width=800
+    answers:
+      A: "Théodore Géricault"
+      B: "Jean-Auguste-Dominique Ingres"
+      C: "Édouard Manet"
+      D: "Eugène Delacroix"
+    correctAnswer: B
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Girl_with_a_Pearl_Earring.jpg?width=800
+    answers:
+      A: "Le Mauritshuis de La Haye"
+      B: "Le Rijksmuseum"
+      C: "Le Louvre"
+      D: "La National Gallery"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg?width=800
+    answers:
+      A: "Nana"
+      B: "Olympia"
+      C: "Le Déjeuner sur l'herbe"
+      D: "La Grande Odalisque"
+    correctAnswer: B
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?width=800
     answers:
       A: "Le musée d'Orsay"
-      B: "Le Centre Pompidou"
-      C: "Le musée du Louvre"
-      D: "Le Grand Palais"
+      B: "Le Kunsthistorisches Museum"
+      C: "Le Louvre"
+      D: "Le palais du Belvédère de Vienne"
+    correctAnswer: D
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Nighthawks"
+      B: "American Gothic"
+      C: "Les Glaneuses"
+      D: "Le Christ du monde"
+    correctAnswer: B
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?width=800
+    answers:
+      A: "Le Baiser"
+      B: "Judith"
+      C: "Les Amants"
+      D: "Adèle Bloch-Bauer"
+    correctAnswer: A
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/La_danse_(I)_by_Matisse.jpg?width=800
+    answers:
+      A: "Maurice de Vlaminck"
+      B: "Henri Matisse"
+      C: "André Derain"
+      D: "Georges Braque"
+    correctAnswer: B
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Courbet-L'Origine_du_Monde-1866.jpg?width=800
+    answers:
+      A: "Jean-François Millet"
+      B: "Gustave Courbet"
+      C: "Camille Corot"
+      D: "Édouard Manet"
+    correctAnswer: B
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio_-_La_vocazione_di_San_Matteo.jpg?width=800
+    answers:
+      A: "Le Caravage"
+      B: "Le Greco"
+      C: "Le Tintoret"
+      D: "Le Titien"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo_-_Creation_of_Adam_(cropped).jpg?width=800
+    answers:
+      A: "La Chute d'Adam"
+      B: "La Pietà"
+      C: "La Création d'Adam"
+      D: "Le Jugement dernier"
     correctAnswer: C
-  - text: "Qui a peint La Nuit étoilée, célèbre tableau aux tourbillons bleus ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Eyck_-_Arnolfini_Portrait.jpg?width=800
+    answers:
+      A: "Le musée Groeninge"
+      B: "La National Gallery de Londres"
+      C: "Le Louvre"
+      D: "Le Rijksmuseum"
+    correctAnswer: B
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Death_of_Marat_by_David.jpg?width=800
+    answers:
+      A: "Le musée d'Orsay"
+      B: "Le Louvre"
+      C: "Le château de Versailles"
+      D: "Les Musées royaux des Beaux-Arts de Belgique"
+    correctAnswer: D
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg?width=800
+    answers:
+      A: "Francisco de Goya"
+      B: "Le Greco"
+      C: "Pablo Picasso"
+      D: "Diego Vélasquez"
+    correctAnswer: D
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg?width=800
+    answers:
+      A: "La National Gallery"
+      B: "Le Louvre"
+      C: "Le Rijksmuseum"
+      D: "Le musée du Prado"
+    correctAnswer: D
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Scream.jpg?width=800
+    answers:
+      A: "Vincent van Gogh"
+      B: "Gustav Klimt"
+      C: "Egon Schiele"
+      D: "Edvard Munch"
+    correctAnswer: D
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet,_Impression,_soleil_levant,_1872.jpg?width=800
+    answers:
+      A: "Claude Monet"
+      B: "Auguste Renoir"
+      C: "Camille Pissarro"
+      D: "Edgar Degas"
+    correctAnswer: A
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Whistlers_Mother_high_res.jpg?width=800
+    answers:
+      A: "John Singer Sargent"
+      B: "Edward Hopper"
+      C: "James Whistler"
+      D: "Winslow Homer"
+    correctAnswer: C
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg?width=800
+    answers:
+      A: "Francisco de Goya"
+      B: "Diego Vélasquez"
+      C: "Le Greco"
+      D: "Jérôme Bosch"
+    correctAnswer: A
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800
+    answers:
+      A: "Léonard de Vinci"
+      B: "Michel-Ange"
+      C: "Sandro Botticelli"
+      D: "Raphaël"
+    correctAnswer: A
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg?width=800
+    answers:
+      A: "La National Gallery"
+      B: "Le musée du Prado"
+      C: "Le Rijksmuseum"
+      D: "Le Louvre"
+    correctAnswer: B
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg?width=800
+    answers:
+      A: "Pablo Picasso"
+      B: "Diego Vélasquez"
+      C: "Le Greco"
+      D: "Francisco de Goya"
+    correctAnswer: D
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Night_Watch_-_HD.jpg?width=800
+    answers:
+      A: "Rembrandt"
+      B: "Pierre Paul Rubens"
+      C: "Antoine van Dyck"
+      D: "Johannes Vermeer"
+    correctAnswer: A
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg?width=800
+    answers:
+      A: "Le Rijksmuseum"
+      B: "Le musée d'Orsay"
+      C: "Le Louvre"
+      D: "Le musée Van Gogh d'Amsterdam"
+    correctAnswer: D
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mural_del_Gernika.jpg?width=800
+    answers:
+      A: "Joan Miró"
+      B: "Francisco de Goya"
+      C: "Salvador Dalí"
+      D: "Pablo Picasso"
+    correctAnswer: D
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le Tintoret"
+      B: "Giorgione"
+      C: "Le Titien"
+      D: "Botticelli"
+    correctAnswer: C
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=800
+    answers:
+      A: "Léonard de Vinci"
+      B: "Sandro Botticelli"
+      C: "Michel-Ange"
+      D: "Raphaël"
+    correctAnswer: B
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Scream.jpg?width=800
+    answers:
+      A: "Vampire"
+      B: "Le Cri"
+      C: "Madonna"
+      D: "L'Angoisse"
+    correctAnswer: B
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg?width=800
+    answers:
+      A: "Léonard de Vinci"
+      B: "Michel-Ange"
+      C: "Raphaël"
+      D: "Le Tintoret"
+    correctAnswer: A
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Courbet-L'Origine_du_Monde-1866.jpg?width=800
+    answers:
+      A: "L'Orangerie"
+      B: "Le Petit Palais"
+      C: "Le musée d'Orsay"
+      D: "Le Louvre"
+    correctAnswer: C
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dargenta_%26_Salvador_Dali_The_persistance_of_Memory.png?width=800
+    answers:
+      A: "René Magritte"
+      B: "Max Ernst"
+      C: "Salvador Dalí"
+      D: "Joan Miró"
+    correctAnswer: C
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg?width=800
+    answers:
+      A: "Les Nymphéas"
+      B: "La Cathédrale de Rouen"
+      C: "Impression, soleil levant"
+      D: "Les Coquelicots"
+    correctAnswer: A
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800
+    answers:
+      A: "Le musée d'Orsay"
+      B: "Le musée du Louvre"
+      C: "Le Prado"
+      D: "Le Centre Pompidou"
+    correctAnswer: B
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg?width=800
+    answers:
+      A: "Napoléon franchissant les Alpes"
+      B: "Le Serment des Horaces"
+      C: "La Mort de Marat"
+      D: "Le Sacre de Napoléon"
+    correctAnswer: D
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg?width=800
+    answers:
+      A: "Edgar Degas"
+      B: "Camille Pissarro"
+      C: "Claude Monet"
+      D: "Auguste Renoir"
+    correctAnswer: C
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le Louvre"
+      B: "Le Petit Palais"
+      C: "L'Orangerie"
+      D: "Le musée d'Orsay"
+    correctAnswer: D
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg?width=800
+    answers:
+      A: "Le musée du Louvre"
+      B: "Le musée d'Orsay"
+      C: "Le château de Versailles"
+      D: "Les Invalides"
+    correctAnswer: A
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/El_Greco_-_The_Burial_of_the_Count_of_Orgaz_-_WGA10486.jpg?width=800
+    answers:
+      A: "Le Greco"
+      B: "Le Caravage"
+      C: "Diego Vélasquez"
+      D: "Francisco de Goya"
+    correctAnswer: A
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?width=800
+    answers:
+      A: "Oskar Kokoschka"
+      B: "Egon Schiele"
+      C: "Gustav Klimt"
+      D: "Edvard Munch"
+    correctAnswer: C
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg?width=800
+    answers:
+      A: "Les musées du Vatican"
+      B: "Le Louvre"
+      C: "La galerie des Offices"
+      D: "Le couvent Santa Maria delle Grazie de Milan"
+    correctAnswer: D
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "La Vénus d'Urbin"
+      B: "La Naissance de Vénus"
+      C: "Vénus endormie"
+      D: "L'Amour sacré et l'Amour profane"
+    correctAnswer: A
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le MoMA"
+      B: "Le Louvre"
+      C: "La Phillips Collection de Washington"
+      D: "Le musée d'Orsay"
+    correctAnswer: C
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=800
+    answers:
+      A: "Vénus et Mars"
+      B: "La Naissance de Vénus"
+      C: "Le Printemps"
+      D: "La Calomnie d'Apelle"
+    correctAnswer: B
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg?width=800
+    answers:
+      A: "La galerie des Offices"
+      B: "Le Louvre"
+      C: "La galerie Borghèse"
+      D: "Les musées du Vatican"
+    correctAnswer: D
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg?width=800
+    answers:
+      A: "Le musée Kröller-Müller d'Otterlo"
+      B: "Le musée d'Orsay"
+      C: "Le Louvre"
+      D: "Le Rijksmuseum"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dargenta_%26_Salvador_Dali_The_persistance_of_Memory.png?width=800
+    answers:
+      A: "Le Rêve"
+      B: "Les Horloges molles"
+      C: "La Persistance de la mémoire"
+      D: "Cygnes reflétant des éléphants"
+    correctAnswer: C
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg?width=800
+    answers:
+      A: "Le Chariot de foin"
+      B: "Le Jardin des délices"
+      C: "La Tour de Babel"
+      D: "La Tentation de saint Antoine"
+    correctAnswer: B
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Sunflowers_-_VGM_F458.jpg?width=800
     answers:
       A: "Vincent van Gogh"
       B: "Claude Monet"
       C: "Paul Gauguin"
       D: "Paul Cézanne"
     correctAnswer: A
-  - text: "Dans quel pays Vincent van Gogh a-t-il peint la plupart de ses œuvres les plus célèbres ?"
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio_-_La_vocazione_di_San_Matteo.jpg?width=800
     answers:
-      A: "Les Pays-Bas"
-      B: "La Belgique"
-      C: "L'Espagne"
-      D: "La France"
-    correctAnswer: D
-  - text: "Qui a peint Les Ménines, grand tableau de la cour d'Espagne ?"
+      A: "Les musées du Vatican"
+      B: "L'église San Luigi dei Francesi de Rome"
+      C: "Le Louvre"
+      D: "La galerie Borghèse"
+    correctAnswer: B
+  - text: "Quel est ce tableau ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg?width=800
     answers:
-      A: "Francisco de Goya"
-      B: "Le Greco"
-      C: "Diego Vélasquez"
-      D: "Pablo Picasso"
+      A: "Le Christ en croix"
+      B: "La Reddition de Breda"
+      C: "Les Ménines"
+      D: "Les Fileuses"
     correctAnswer: C
-  - text: "Dans quel musée se trouve le tableau Les Ménines ?"
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg?width=800
     answers:
-      A: "Le musée du Prado à Madrid"
-      B: "Le musée du Louvre à Paris"
-      C: "Le Rijksmuseum à Amsterdam"
-      D: "La National Gallery à Londres"
-    correctAnswer: A
-  - text: "Qui a peint Le Baiser, célèbre tableau doré de la Sécession viennoise ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?width=800
+      A: "Jean-Auguste-Dominique Ingres"
+      B: "Jacques-Louis David"
+      C: "Eugène Delacroix"
+      D: "Théodore Géricault"
+    correctAnswer: C
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg?width=800
     answers:
-      A: "Egon Schiele"
-      B: "Edvard Munch"
-      C: "Oskar Kokoschka"
-      D: "Gustav Klimt"
+      A: "Les Chasseurs dans la neige"
+      B: "Le Jardin des délices"
+      C: "Les Jeux d'enfants"
+      D: "La Tour de Babel"
     correctAnswer: D
-  - text: "Dans quel pays se trouve le palais du Belvédère, qui abrite Le Baiser de Klimt ?"
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Les_Demoiselles_d'Avignon_(7925004644).jpg?width=800
     answers:
-      A: "L'Allemagne"
-      B: "L'Autriche"
-      C: "La Suisse"
-      D: "La Hongrie"
+      A: "Guernica"
+      B: "Les Demoiselles d'Avignon"
+      C: "La Vie"
+      D: "Le Vieux Guitariste"
     correctAnswer: B
-  - text: "Qui a peint La Jeune Fille à la perle ?"
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Girl_with_a_Pearl_Earring.jpg?width=800
+    answers:
+      A: "La Dentellière"
+      B: "Le Géographe"
+      C: "La Laitière"
+      D: "La Jeune Fille à la perle"
+    correctAnswer: D
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dargenta_%26_Salvador_Dali_The_persistance_of_Memory.png?width=800
+    answers:
+      A: "La Tate Modern"
+      B: "Le Louvre"
+      C: "Le musée Reina Sofía"
+      D: "Le MoMA de New York"
+    correctAnswer: D
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "La galerie Borghèse"
+      B: "Le Prado"
+      C: "La galerie des Offices de Florence"
+      D: "Le Louvre"
+    correctAnswer: C
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le musée d'Orsay"
+      B: "L'Art Institute de Chicago"
+      C: "Le Louvre"
+      D: "Le MoMA"
+    correctAnswer: B
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg?width=800
+    answers:
+      A: "Raphaël"
+      B: "Michel-Ange"
+      C: "Léonard de Vinci"
+      D: "Le Titien"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet,_Impression,_soleil_levant,_1872.jpg?width=800
+    answers:
+      A: "Les Nymphéas"
+      B: "Impression, soleil levant"
+      C: "La Cathédrale de Rouen"
+      D: "Le Déjeuner sur l'herbe"
+    correctAnswer: B
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg?width=800
+    answers:
+      A: "La Maja nue"
+      B: "Les Ménines"
+      C: "Saturne dévorant son fils"
+      D: "Le 3 mai 1808"
+    correctAnswer: C
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Composition_VII_-_Wassily_Kandinsky,_GAC.jpg?width=800
+    answers:
+      A: "Piet Mondrian"
+      B: "Vassily Kandinsky"
+      C: "Kazimir Malevitch"
+      D: "Paul Klee"
+    correctAnswer: B
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg?width=800
+    answers:
+      A: "Le Petit Palais"
+      B: "Le musée d'Orsay"
+      C: "L'Orangerie"
+      D: "Le Louvre"
+    correctAnswer: B
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet,_Impression,_soleil_levant,_1872.jpg?width=800
+    answers:
+      A: "Le musée Marmottan Monet"
+      B: "Le musée d'Orsay"
+      C: "Le Louvre"
+      D: "Le Petit Palais"
+    correctAnswer: A
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tableau_I,_by_Piet_Mondriaan.jpg?width=800
+    answers:
+      A: "Broadway Boogie Woogie"
+      B: "Composition VII"
+      C: "Bleu du ciel"
+      D: "Composition en rouge, bleu et jaune"
+    correctAnswer: D
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg?width=800
+    answers:
+      A: "John Constable"
+      B: "Caspar David Friedrich"
+      C: "William Turner"
+      D: "Eugène Delacroix"
+    correctAnswer: B
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Death_of_Marat_by_David.jpg?width=800
+    answers:
+      A: "Le Sacre de Napoléon"
+      B: "La Mort de Marat"
+      C: "La Mort de Sénèque"
+      D: "Le Serment des Horaces"
+    correctAnswer: B
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Composition_VII_-_Wassily_Kandinsky,_GAC.jpg?width=800
+    answers:
+      A: "Bleu du ciel"
+      B: "Jaune-rouge-bleu"
+      C: "Composition VII"
+      D: "Improvisation"
+    correctAnswer: C
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg?width=800
+    answers:
+      A: "La Dispute du Saint-Sacrement"
+      B: "Le Parnasse"
+      C: "L'École d'Athènes"
+      D: "La Madone Sixtine"
+    correctAnswer: C
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Théodore_Géricault_-_Le_Radeau_de_la_Méduse.jpg?width=800
+    answers:
+      A: "Le Radeau de la Méduse"
+      B: "La Liberté guidant le peuple"
+      C: "La Grande Odalisque"
+      D: "Le Serment des Horaces"
+    correctAnswer: A
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le Rêve"
+      B: "Le Charmeur de serpents"
+      C: "La Guerre"
+      D: "Tigre dans une tempête tropicale"
+    correctAnswer: A
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo_-_Creation_of_Adam_(cropped).jpg?width=800
+    answers:
+      A: "Léonard de Vinci"
+      B: "Le Caravage"
+      C: "Raphaël"
+      D: "Michel-Ange"
+    correctAnswer: D
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Death_of_Marat_by_David.jpg?width=800
+    answers:
+      A: "Jacques-Louis David"
+      B: "Jean-Auguste-Dominique Ingres"
+      C: "Théodore Géricault"
+      D: "Eugène Delacroix"
+    correctAnswer: A
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/La_danse_(I)_by_Matisse.jpg?width=800
+    answers:
+      A: "La Danse"
+      B: "Luxe, calme et volupté"
+      C: "La Musique"
+      D: "La Desserte rouge"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le Semeur"
+      B: "Les Tournesols"
+      C: "Le Café de nuit"
+      D: "La Nuit étoilée"
+    correctAnswer: D
+  - text: "Quel artiste a peint cette œuvre ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Girl_with_a_Pearl_Earring.jpg?width=800
     answers:
       A: "Rembrandt"
-      B: "Frans Hals"
-      C: "Johannes Vermeer"
-      D: "Jan van Eyck"
-    correctAnswer: C
-  - text: "Comment surnomme-t-on souvent La Jeune Fille à la perle de Vermeer ?"
+      B: "Johannes Vermeer"
+      C: "Jan van Eyck"
+      D: "Frans Hals"
+    correctAnswer: B
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nighthawks_by_Edward_Hopper_1942.jpg?width=800
     answers:
-      A: "La Joconde du Nord"
-      B: "La Dame à l'hermine"
-      C: "La Belle Ferronnière"
-      D: "La Dame en bleu"
-    correctAnswer: A
-  - text: "Qui a peint La Ronde de nuit, célèbre tableau exposé à Amsterdam ?"
+      A: "Gas"
+      B: "Automat"
+      C: "Nighthawks"
+      D: "Chop Suey"
+    correctAnswer: C
+  - text: "Où se trouve ce tableau ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Night_Watch_-_HD.jpg?width=800
     answers:
-      A: "Johannes Vermeer"
-      B: "Rembrandt"
-      C: "Pierre Paul Rubens"
-      D: "Antoine van Dyck"
-    correctAnswer: B
-  - text: "Dans quelle ville se trouve le Rijksmuseum, qui expose La Ronde de nuit ?"
-    answers:
-      A: "Bruxelles"
-      B: "Rotterdam"
-      C: "Anvers"
-      D: "Amsterdam"
+      A: "Le Louvre"
+      B: "La National Gallery"
+      C: "Le Mauritshuis"
+      D: "Le Rijksmuseum d'Amsterdam"
     correctAnswer: D
-  - text: "Qui a peint La Liberté guidant le peuple, inspiré des journées de juillet 1830 ?"
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Théodore_Géricault_-_Le_Radeau_de_la_Méduse.jpg?width=800
+    answers:
+      A: "Le musée Carnavalet"
+      B: "Le musée du Louvre"
+      C: "Le Petit Palais"
+      D: "Le musée d'Orsay"
+    correctAnswer: B
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Courbet-L'Origine_du_Monde-1866.jpg?width=800
+    answers:
+      A: "L'Atelier du peintre"
+      B: "L'Origine du monde"
+      C: "Un enterrement à Ornans"
+      D: "Les Casseurs de pierres"
+    correctAnswer: B
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Les_Joueurs_de_cartes,_par_C%C3%A9zanne,_Mus%C3%A9e_d'Orsay,_Paris_(35486997484).jpg?width=800
+    answers:
+      A: "Les Grandes Baigneuses"
+      B: "La Montagne Sainte-Victoire"
+      C: "Nature morte à la corbeille"
+      D: "Les Joueurs de cartes"
+    correctAnswer: D
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Théodore_Géricault_-_Le_Radeau_de_la_Méduse.jpg?width=800
     answers:
       A: "Théodore Géricault"
-      B: "Jean-Auguste-Dominique Ingres"
+      B: "Jacques-Louis David"
       C: "Eugène Delacroix"
-      D: "Antoine-Jean Gros"
-    correctAnswer: C
-  - text: "Quel peintre français a créé la série des Nymphéas dans son jardin de Giverny ?"
-    answers:
-      A: "Auguste Renoir"
-      B: "Claude Monet"
-      C: "Edgar Degas"
-      D: "Camille Pissarro"
-    correctAnswer: B
-  - text: "Quel mouvement artistique tire son nom du tableau Impression, soleil levant de Monet ?"
-    answers:
-      A: "Le réalisme"
-      B: "Le romantisme"
-      C: "Le pointillisme"
-      D: "L'impressionnisme"
-    correctAnswer: D
-  - text: "Qui a peint le plafond de la chapelle Sixtine à Rome ?"
-    answers:
-      A: "Michel-Ange"
-      B: "Raphaël"
-      C: "Le Bernin"
-      D: "Le Caravage"
+      D: "Jean-Auguste-Dominique Ingres"
     correctAnswer: A
-  - text: "Qui a peint Guernica, œuvre dénonçant le bombardement d'une ville espagnole ?"
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg?width=800
     answers:
-      A: "Salvador Dalí"
-      B: "Joan Miró"
-      C: "Francisco de Goya"
+      A: "Paul Cézanne"
+      B: "Claude Monet"
+      C: "Paul Gauguin"
+      D: "Vincent van Gogh"
+    correctAnswer: D
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg?width=800
+    answers:
+      A: "Saturne dévorant son fils"
+      B: "Les Ménines"
+      C: "Le 3 mai 1808"
+      D: "La Maja nue"
+    correctAnswer: C
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Eyck_-_Arnolfini_Portrait.jpg?width=800
+    answers:
+      A: "La Jeune Fille à la perle"
+      B: "Le Jardin des délices"
+      C: "Les Époux Arnolfini"
+      D: "La Madone du chancelier Rolin"
+    correctAnswer: C
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Les Glaneuses"
+      B: "Les Casseurs de pierres"
+      C: "Le Semeur"
+      D: "L'Angélus"
+    correctAnswer: A
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Gauguin_-_D'ou_venons-nous_Que_sommes-nous_Ou_allons-nous.jpg?width=800
+    answers:
+      A: "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?"
+      B: "Le Christ jaune"
+      C: "La Orana Maria"
+      D: "Femmes de Tahiti"
+    correctAnswer: A
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le Bal du moulin de la Galette"
+      B: "Le Déjeuner des canotiers"
+      C: "La Parade de cirque"
+      D: "Un dimanche après-midi à l'île de la Grande Jatte"
+    correctAnswer: D
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Les_Joueurs_de_cartes,_par_C%C3%A9zanne,_Mus%C3%A9e_d'Orsay,_Paris_(35486997484).jpg?width=800
+    answers:
+      A: "Le Petit Palais"
+      B: "L'Orangerie"
+      C: "Le musée d'Orsay"
+      D: "Le Louvre"
+    correctAnswer: C
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Turner_-_The_Fighting_Temeraire.jpg?width=800
+    answers:
+      A: "La Tate Britain"
+      B: "Le Rijksmuseum"
+      C: "La National Gallery de Londres"
+      D: "Le Louvre"
+    correctAnswer: C
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Scream.jpg?width=800
+    answers:
+      A: "Le Louvre"
+      B: "Le Prado"
+      C: "La Tate Modern"
+      D: "La Galerie nationale d'Oslo"
+    correctAnswer: D
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le MoMA de New York"
+      B: "Le Rijksmuseum"
+      C: "Le Louvre"
+      D: "Le musée d'Orsay"
+    correctAnswer: A
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Gustave Courbet"
+      B: "Camille Corot"
+      C: "Honoré Daumier"
+      D: "Jean-François Millet"
+    correctAnswer: D
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg?width=800
+    answers:
+      A: "Pieter Bruegel l'Ancien"
+      B: "Rubens"
+      C: "Jan van Eyck"
+      D: "Jérôme Bosch"
+    correctAnswer: A
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg?width=800
+    answers:
+      A: "Le musée Carnavalet"
+      B: "Le musée d'Orsay"
+      C: "Le Petit Palais"
+      D: "Le musée du Louvre"
+    correctAnswer: D
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg?width=800
+    answers:
+      A: "Le Louvre"
+      B: "Le musée du Prado"
+      C: "La National Gallery"
+      D: "Le Rijksmuseum"
+    correctAnswer: B
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg?width=800
+    answers:
+      A: "Le Kunsthistorisches Museum de Vienne"
+      B: "Le Prado"
+      C: "Le Louvre"
+      D: "Le Rijksmuseum"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mural_del_Gernika.jpg?width=800
+    answers:
+      A: "La Vie"
+      B: "Les Demoiselles d'Avignon"
+      C: "Guernica"
+      D: "Le Vieux Guitariste"
+    correctAnswer: C
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800
+    answers:
+      A: "La Vierge aux rochers"
+      B: "La Dame à l'hermine"
+      C: "La Joconde"
+      D: "La Belle Ferronnière"
+    correctAnswer: C
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Paul Cézanne"
+      B: "Paul Gauguin"
+      C: "Henri Rousseau"
+      D: "Henri Matisse"
+    correctAnswer: C
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg?width=800
+    answers:
+      A: "La Chambre à Arles"
+      B: "Le Café de nuit"
+      C: "La Nuit étoilée"
+      D: "Terrasse du café le soir"
+    correctAnswer: D
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Les_Joueurs_de_cartes,_par_C%C3%A9zanne,_Mus%C3%A9e_d'Orsay,_Paris_(35486997484).jpg?width=800
+    answers:
+      A: "Vincent van Gogh"
+      B: "Claude Monet"
+      C: "Paul Cézanne"
+      D: "Paul Gauguin"
+    correctAnswer: C
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/El_Greco_-_The_Burial_of_the_Count_of_Orgaz_-_WGA10486.jpg?width=800
+    answers:
+      A: "L'église Santo Tomé de Tolède"
+      B: "La cathédrale de Séville"
+      C: "Le Louvre"
+      D: "Le Prado"
+    correctAnswer: A
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg?width=800
+    answers:
+      A: "Le musée du Prado"
+      B: "Le musée Reina Sofía"
+      C: "La National Gallery"
+      D: "Le Louvre"
+    correctAnswer: A
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg?width=800
+    answers:
+      A: "La Liberté guidant le peuple"
+      B: "Le Radeau de la Méduse"
+      C: "La Nuit étoilée"
+      D: "Le Voyageur contemplant une mer de nuages"
+    correctAnswer: D
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo_-_Creation_of_Adam_(cropped).jpg?width=800
+    answers:
+      A: "Le Louvre"
+      B: "La chapelle Sixtine"
+      C: "La basilique Saint-Pierre"
+      D: "La galerie des Offices"
+    correctAnswer: B
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Eugène_Delacroix_-_Le_28_Juillet._La_Liberté_guidant_le_peuple.jpg?width=800
+    answers:
+      A: "Le Sacre de Napoléon"
+      B: "Le Radeau de la Méduse"
+      C: "Le Serment des Horaces"
+      D: "La Liberté guidant le peuple"
+    correctAnswer: D
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/El_Greco_-_The_Burial_of_the_Count_of_Orgaz_-_WGA10486.jpg?width=800
+    answers:
+      A: "L'Assomption de la Vierge"
+      B: "Vue de Tolède"
+      C: "L'Enterrement du comte d'Orgaz"
+      D: "Le Christ au jardin des oliviers"
+    correctAnswer: C
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Les_Demoiselles_d'Avignon_(7925004644).jpg?width=800
+    answers:
+      A: "Paul Cézanne"
+      B: "Henri Matisse"
+      C: "Georges Braque"
       D: "Pablo Picasso"
     correctAnswer: D
-  - text: "Quel artiste a sculpté Le Penseur ?"
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg?width=800
     answers:
-      A: "Camille Claudel"
-      B: "Auguste Rodin"
-      C: "Antoine Bourdelle"
-      D: "Aristide Maillol"
+      A: "Le Déjeuner sur l'herbe"
+      B: "Le Déjeuner des canotiers"
+      C: "La Balançoire"
+      D: "Le Bal du moulin de la Galette"
     correctAnswer: B
-  - text: "Quel tableau de Sandro Botticelli montre la déesse de l'amour née de l'écume ?"
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Whistlers_Mother_high_res.jpg?width=800
     answers:
-      A: "Le Printemps"
-      B: "Vénus et Mars"
-      C: "La Naissance de Vénus"
-      D: "La Calomnie d'Apelle"
-    correctAnswer: C
-  - text: "Quel peintre français a été le chef de file du fauvisme ?"
+      A: "Le Cri"
+      B: "Le Baiser"
+      C: "American Gothic"
+      D: "La Mère de Whistler"
+    correctAnswer: D
+  - text: "Quel est ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg?width=800
     answers:
-      A: "Henri Matisse"
-      B: "Georges Braque"
-      C: "Maurice de Vlaminck"
-      D: "Paul Signac"
+      A: "Olympia"
+      B: "Le Déjeuner sur l'herbe"
+      C: "Le Balcon"
+      D: "Le Bar aux Folies-Bergère"
+    correctAnswer: B
+  - text: "Comment s'appelle cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio_-_La_vocazione_di_San_Matteo.jpg?width=800
+    answers:
+      A: "La Vocation de saint Matthieu"
+      B: "Le Repas à Emmaüs"
+      C: "Judith décapitant Holopherne"
+      D: "La Mort de la Vierge"
     correctAnswer: A
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Claude Monet"
+      B: "Gustave Courbet"
+      C: "Auguste Renoir"
+      D: "Édouard Manet"
+    correctAnswer: D
+  - text: "Où se trouve ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Le Louvre"
+      B: "Le Centre Pompidou"
+      C: "Le MoMA de New York"
+      D: "Le musée d'Orsay"
+    correctAnswer: C
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Eyck_-_Arnolfini_Portrait.jpg?width=800
+    answers:
+      A: "Jan van Eyck"
+      B: "Rogier van der Weyden"
+      C: "Pieter Bruegel"
+      D: "Hans Memling"
+    correctAnswer: A
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Claude Monet"
+      B: "Auguste Renoir"
+      C: "Édouard Manet"
+      D: "Edgar Degas"
+    correctAnswer: B
+  - text: "Où est exposé ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg?width=800
+    answers:
+      A: "Le musée du Louvre"
+      B: "La Wallace Collection"
+      C: "Le musée d'Orsay"
+      D: "Le Petit Palais"
+    correctAnswer: A
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg?width=800
+    answers:
+      A: "Auguste Renoir"
+      B: "Edgar Degas"
+      C: "Édouard Manet"
+      D: "Claude Monet"
+    correctAnswer: C
+  - text: "Dans quel musée voit-on ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg?width=800
+    answers:
+      A: "La Tate Britain"
+      B: "Le Louvre"
+      C: "La Kunsthalle de Hambourg"
+      D: "La National Gallery"
+    correctAnswer: C
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Claude Monet"
+      B: "Paul Gauguin"
+      C: "Vincent van Gogh"
+      D: "Paul Cézanne"
+    correctAnswer: C
+  - text: "Quelle est cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Night_Watch_-_HD.jpg?width=800
+    answers:
+      A: "La Ronde de nuit"
+      B: "Le Bœuf écorché"
+      C: "Les Syndics des drapiers"
+      D: "La Leçon d'anatomie"
+    correctAnswer: A
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Turner_-_The_Fighting_Temeraire.jpg?width=800
+    answers:
+      A: "Caspar David Friedrich"
+      B: "William Turner"
+      C: "Claude Monet"
+      D: "John Constable"
+    correctAnswer: B
+  - text: "Qui a peint ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg?width=800
+    answers:
+      A: "Hans Memling"
+      B: "Jan van Eyck"
+      C: "Jérôme Bosch"
+      D: "Pieter Bruegel l'Ancien"
+    correctAnswer: C
+  - text: "Quel artiste a peint cette œuvre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg?width=800
+    answers:
+      A: "Paul Signac"
+      B: "Camille Pissarro"
+      C: "Claude Monet"
+      D: "Georges Seurat"
+    correctAnswer: D
+  - text: "Qui est l'auteur de ce tableau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg?width=800
+    answers:
+      A: "Antoine-Jean Gros"
+      B: "Jacques-Louis David"
+      C: "Eugène Delacroix"
+      D: "Jean-Auguste-Dominique Ingres"
+    correctAnswer: B

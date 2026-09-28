@@ -1,153 +1,1559 @@
 topic:
   id: topic-drapeaux-du-monde
   name: "Drapeaux du monde"
-  description: "Reconnaissez les drapeaux des pays du monde, leurs couleurs et leurs symboles, et associez chaque nation à sa capitale. Un tour du globe en images pour tester votre mémoire visuelle et vos connaissances en géographie."
+  description: "Reconnaissez les drapeaux des 193 États membres de l'ONU et du Vatican. Un tour du globe en images pour tester votre mémoire visuelle et vos connaissances en géographie."
   category: WORLD
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Nations.svg?width=800
 questions:
-  - text: "Quel pays est représenté par ce drapeau blanc à disque rouge ?"
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Equatorial_Guinea.svg?width=800
+    answers:
+      A: "Vatican"
+      B: "Guinée équatoriale"
+      C: "Guatemala"
+      D: "Mongolie"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iceland.svg?width=800
+    answers:
+      A: "Islande"
+      B: "Finlande"
+      C: "Danemark"
+      D: "Norvège"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Czech_Republic.svg?width=800
+    answers:
+      A: "Israël"
+      B: "République tchèque"
+      C: "Barbade"
+      D: "Nicaragua"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Lebanon.svg?width=800
+    answers:
+      A: "Niger"
+      B: "Soudan du Sud"
+      C: "Chine"
+      D: "Liban"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Panama.svg?width=800
+    answers:
+      A: "Azerbaïdjan"
+      B: "Panama"
+      C: "Nigeria"
+      D: "Danemark"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Japan.svg?width=800
     answers:
-      A: "Japon"
-      B: "Chine"
-      C: "Corée du Sud"
-      D: "Viêt Nam"
-    correctAnswer: A
-  - text: "À quelle nation appartient ce drapeau vert à losange jaune ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg?width=800
-    answers:
-      A: "Argentine"
-      B: "Portugal"
-      C: "Brésil"
-      D: "Colombie"
-    correctAnswer: C
-  - text: "Quel pays arbore ce drapeau rouge marqué d'une feuille d'érable ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada.svg?width=800
-    answers:
-      A: "Canada"
-      B: "États-Unis"
-      C: "Norvège"
-      D: "Suisse"
-    correctAnswer: A
-  - text: "Ce drapeau rouge au croissant et à l'étoile blanches est celui de quel pays ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkey.svg?width=800
-    answers:
-      A: "Tunisie"
-      B: "Turquie"
-      C: "Algérie"
-      D: "Pakistan"
-    correctAnswer: B
-  - text: "Quel pays ce drapeau tricolore au chakra bleu représente-t-il ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_India.svg?width=800
-    answers:
-      A: "Indonésie"
-      B: "Irlande"
-      C: "Iran"
-      D: "Inde"
+      A: "Suède"
+      B: "Pologne"
+      C: "Mauritanie"
+      D: "Japon"
     correctAnswer: D
-  - text: "Quel pays ce drapeau à l'Union Jack et aux étoiles du Sud représente-t-il ?"
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guatemala.svg?width=800
+    answers:
+      A: "Îles Marshall"
+      B: "Guatemala"
+      C: "Pays-Bas"
+      D: "Burkina Faso"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Liberia.svg?width=800
+    answers:
+      A: "États-Unis"
+      B: "Liberia"
+      C: "Malaisie"
+      D: "Nicaragua"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nicaragua.svg?width=800
+    answers:
+      A: "Royaume-Uni"
+      B: "Ghana"
+      C: "Nicaragua"
+      D: "Israël"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uzbekistan.svg?width=800
+    answers:
+      A: "Malawi"
+      B: "Bahreïn"
+      C: "Ghana"
+      D: "Ouzbékistan"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nauru.svg?width=800
+    answers:
+      A: "Nauru"
+      B: "Iran"
+      C: "Monaco"
+      D: "Guinée"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Africa.svg?width=800
+    answers:
+      A: "Danemark"
+      B: "Luxembourg"
+      C: "Afrique du Sud"
+      D: "Vatican"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Central_African_Republic.svg?width=800
+    answers:
+      A: "Togo"
+      B: "Sri Lanka"
+      C: "République centrafricaine"
+      D: "Costa Rica"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Madagascar.svg?width=800
+    answers:
+      A: "Belize"
+      B: "Madagascar"
+      C: "Botswana"
+      D: "Jordanie"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Myanmar.svg?width=800
+    answers:
+      A: "Bosnie-Herzégovine"
+      B: "Birmanie"
+      C: "Singapour"
+      D: "Rwanda"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Republic_of_the_Congo.svg?width=800
+    answers:
+      A: "Guinée"
+      B: "Congo"
+      C: "Ghana"
+      D: "Burkina Faso"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkmenistan.svg?width=800
+    answers:
+      A: "Malaisie"
+      B: "Corée du Nord"
+      C: "Turkménistan"
+      D: "Portugal"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Somalia.svg?width=800
+    answers:
+      A: "Somalie"
+      B: "Suède"
+      C: "Afrique du Sud"
+      D: "Botswana"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Romania.svg?width=800
+    answers:
+      A: "Tchad"
+      B: "Roumanie"
+      C: "Botswana"
+      D: "Belgique"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mauritius.svg?width=800
+    answers:
+      A: "Bhoutan"
+      B: "Suriname"
+      C: "Pologne"
+      D: "Maurice"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Côte_d%27Ivoire.svg?width=800
+    answers:
+      A: "Irlande"
+      B: "Côte d'Ivoire"
+      C: "Inde"
+      D: "Syrie"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_The_Gambia.svg?width=800
+    answers:
+      A: "Singapour"
+      B: "Australie"
+      C: "Gambie"
+      D: "Kazakhstan"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Dominican_Republic.svg?width=800
+    answers:
+      A: "République dominicaine"
+      B: "Grenade"
+      C: "Portugal"
+      D: "Estonie"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Slovakia.svg?width=800
+    answers:
+      A: "Serbie"
+      B: "Slovaquie"
+      C: "Luxembourg"
+      D: "Slovénie"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Solomon_Islands.svg?width=800
+    answers:
+      A: "Salomon"
+      B: "Tuvalu"
+      C: "Nouvelle-Zélande"
+      D: "Fidji"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Benin.svg?width=800
+    answers:
+      A: "Guinée"
+      B: "Congo"
+      C: "Mali"
+      D: "Bénin"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Peru.svg?width=800
+    answers:
+      A: "Finlande"
+      B: "Guyana"
+      C: "Autriche"
+      D: "Pérou"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Rwanda.svg?width=800
+    answers:
+      A: "Kirghizistan"
+      B: "Turkménistan"
+      C: "Rwanda"
+      D: "Allemagne"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Honduras.svg?width=800
+    answers:
+      A: "Honduras"
+      B: "Australie"
+      C: "Saint-Kitts-et-Nevis"
+      D: "Russie"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Malta.svg?width=800
+    answers:
+      A: "Émirats arabes unis"
+      B: "Malte"
+      C: "Afghanistan"
+      D: "Zambie"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Grenada.svg?width=800
+    answers:
+      A: "Danemark"
+      B: "Grenade"
+      C: "Afrique du Sud"
+      D: "Érythrée"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Angola.svg?width=800
+    answers:
+      A: "Éthiopie"
+      B: "Iran"
+      C: "Samoa"
+      D: "Angola"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Pakistan.svg?width=800
+    answers:
+      A: "Pakistan"
+      B: "Guinée équatoriale"
+      C: "Lettonie"
+      D: "Panama"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Vietnam.svg?width=800
+    answers:
+      A: "Viêt Nam"
+      B: "Bolivie"
+      C: "Vatican"
+      D: "Chine"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Niger.svg?width=800
+    answers:
+      A: "Liban"
+      B: "Qatar"
+      C: "Niger"
+      D: "Corée du Sud"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kuwait.svg?width=800
+    answers:
+      A: "Koweït"
+      B: "Émirats arabes unis"
+      C: "Lituanie"
+      D: "Haïti"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Thailand.svg?width=800
+    answers:
+      A: "Lettonie"
+      B: "Thaïlande"
+      C: "Pakistan"
+      D: "Croatie"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bahrain.svg?width=800
+    answers:
+      A: "Danemark"
+      B: "Samoa"
+      C: "Bahreïn"
+      D: "Émirats arabes unis"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia.svg?width=800
     answers:
       A: "Nouvelle-Zélande"
-      B: "Royaume-Uni"
-      C: "Australie"
+      B: "Australie"
+      C: "Tuvalu"
       D: "Fidji"
-    correctAnswer: C
-  - text: "Quel pays a pour capitale Séoul ?"
-    answers:
-      A: "La Corée du Nord"
-      B: "Le Japon"
-      C: "La Thaïlande"
-      D: "La Corée du Sud"
-    correctAnswer: D
-  - text: "Quel pays d'Afrique de l'Est a pour capitale Nairobi ?"
-    answers:
-      A: "La Tanzanie"
-      B: "L'Ouganda"
-      C: "Le Kenya"
-      D: "L'Éthiopie"
-    correctAnswer: C
-  - text: "Quelle est la capitale de l'Australie ?"
-    answers:
-      A: "Sydney"
-      B: "Melbourne"
-      C: "Perth"
-      D: "Canberra"
-    correctAnswer: D
-  - text: "Combien d'étoiles figurent sur le drapeau des États-Unis ?"
-    answers:
-      A: "13"
-      B: "50"
-      C: "48"
-      D: "52"
     correctAnswer: B
-  - text: "Quelles sont les deux couleurs du drapeau de la Grèce ?"
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guyana.svg?width=800
     answers:
-      A: "Bleu et jaune"
-      B: "Rouge et blanc"
-      C: "Bleu et blanc"
-      D: "Vert et blanc"
+      A: "Niger"
+      B: "Salomon"
+      C: "Guyana"
+      D: "Égypte"
     correctAnswer: C
-  - text: "Le drapeau de quel pays est un carré rouge portant une croix blanche ?"
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Andorra.svg?width=800
     answers:
-      A: "Danemark"
-      B: "Suisse"
-      C: "Autriche"
-      D: "Malte"
+      A: "Équateur"
+      B: "Andorre"
+      C: "Venezuela"
+      D: "Colombie"
     correctAnswer: B
-  - text: "Outre la Suisse, quel État souverain arbore un drapeau national de forme carrée ?"
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Colombia.svg?width=800
     answers:
-      A: "Monaco"
-      B: "Saint-Marin"
-      C: "Le Vatican"
-      D: "Andorre"
-    correctAnswer: C
-  - text: "Quel pays d'Amérique du Sud a un drapeau à bandes bleu ciel et blanches avec un soleil doré au centre ?"
-    answers:
-      A: "Uruguay"
-      B: "Argentine"
-      C: "Chili"
-      D: "Pérou"
-    correctAnswer: B
-  - text: "Le drapeau du Royaume-Uni combine les croix de trois saints. Lesquels ?"
-    answers:
-      A: "Saint Georges, saint André et saint Patrick"
-      B: "Saint Georges, saint David et saint Pierre"
-      C: "Saint Michel, saint André et saint Patrick"
-      D: "Saint Georges, saint Paul et saint Jacques"
+      A: "Colombie"
+      B: "Moldavie"
+      C: "Équateur"
+      D: "Lituanie"
     correctAnswer: A
-  - text: "Combien d'étoiles compte le drapeau de l'Union européenne ?"
-    answers:
-      A: "12"
-      B: "15"
-      C: "27"
-      D: "28"
-    correctAnswer: A
-  - text: "Quel ancien État avait pour drapeau une faucille et un marteau jaunes sur fond rouge ?"
-    answers:
-      A: "La Yougoslavie"
-      B: "La Chine"
-      C: "Cuba"
-      D: "L'URSS"
-    correctAnswer: D
-  - text: "Quelle est la capitale du Brésil ?"
-    answers:
-      A: "Rio de Janeiro"
-      B: "São Paulo"
-      C: "Brasília"
-      D: "Salvador"
-    correctAnswer: C
-  - text: "Quelle est la capitale du Canada ?"
-    answers:
-      A: "Toronto"
-      B: "Ottawa"
-      C: "Montréal"
-      D: "Vancouver"
-    correctAnswer: B
-  - text: "Quel pays a pour capitale Lisbonne ?"
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Dominica.svg?width=800
     answers:
       A: "Espagne"
-      B: "Portugal"
+      B: "Maurice"
+      C: "Indonésie"
+      D: "Dominique"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Azerbaijan.svg?width=800
+    answers:
+      A: "Gambie"
+      B: "Suède"
+      C: "Azerbaïdjan"
+      D: "Malaisie"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_North_Macedonia.svg?width=800
+    answers:
+      A: "Islande"
+      B: "Inde"
+      C: "Liban"
+      D: "Macédoine du Nord"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Jamaica.svg?width=800
+    answers:
+      A: "Vatican"
+      B: "Nicaragua"
+      C: "Oman"
+      D: "Jamaïque"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Algeria.svg?width=800
+    answers:
+      A: "Algérie"
+      B: "Mali"
+      C: "Pologne"
+      D: "Mexique"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tunisia.svg?width=800
+    answers:
+      A: "Tuvalu"
+      B: "Turquie"
+      C: "Singapour"
+      D: "Tunisie"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Antigua_and_Barbuda.svg?width=800
+    answers:
+      A: "Pays-Bas"
+      B: "Malawi"
+      C: "Antigua-et-Barbuda"
+      D: "Soudan du Sud"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tajikistan.svg?width=800
+    answers:
+      A: "Guyana"
+      B: "Liban"
+      C: "Tadjikistan"
+      D: "Bénin"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guinea.svg?width=800
+    answers:
+      A: "Cameroun"
+      B: "Congo"
+      C: "Guinée"
+      D: "Burkina Faso"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Zambia.svg?width=800
+    answers:
+      A: "Zambie"
+      B: "Îles Marshall"
+      C: "Trinité-et-Tobago"
+      D: "Zimbabwe"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Norway.svg?width=800
+    answers:
+      A: "Finlande"
+      B: "Danemark"
+      C: "Suède"
+      D: "Norvège"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bolivia.svg?width=800
+    answers:
+      A: "Espagne"
+      B: "Bolivie"
+      C: "Italie"
+      D: "Slovénie"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Oman.svg?width=800
+    answers:
+      A: "Bolivie"
+      B: "Oman"
+      C: "Uruguay"
+      D: "Finlande"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mongolia.svg?width=800
+    answers:
+      A: "Mongolie"
+      B: "Lesotho"
+      C: "Liban"
+      D: "Eswatini"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sudan.svg?width=800
+    answers:
+      A: "Syrie"
+      B: "Égypte"
+      C: "Yémen"
+      D: "Soudan"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Albania.svg?width=800
+    answers:
+      A: "Norvège"
+      B: "Croatie"
+      C: "Albanie"
+      D: "Somalie"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Trinidad_and_Tobago.svg?width=800
+    answers:
+      A: "Somalie"
+      B: "Trinité-et-Tobago"
+      C: "Malaisie"
+      D: "Royaume-Uni"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Portugal.svg?width=800
+    answers:
+      A: "Portugal"
+      B: "Suisse"
+      C: "Mongolie"
+      D: "Salvador"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Lesotho.svg?width=800
+    answers:
+      A: "Lituanie"
+      B: "Bahreïn"
+      C: "Vatican"
+      D: "Lesotho"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Denmark.svg?width=800
+    answers:
+      A: "Islande"
+      B: "Finlande"
+      C: "Norvège"
+      D: "Danemark"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Philippines.svg?width=800
+    answers:
+      A: "Philippines"
+      B: "Albanie"
+      C: "Mauritanie"
+      D: "Guinée équatoriale"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Comoros.svg?width=800
+    answers:
+      A: "Gambie"
+      B: "Comores"
+      C: "Moldavie"
+      D: "Rwanda"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_East_Timor.svg?width=800
+    answers:
+      A: "Timor oriental"
+      B: "Colombie"
+      C: "Portugal"
+      D: "Albanie"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Georgia.svg?width=800
+    answers:
+      A: "Géorgie"
+      B: "Samoa"
+      C: "Jordanie"
+      D: "Malte"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Lithuania.svg?width=800
+    answers:
+      A: "Arménie"
+      B: "Venezuela"
+      C: "Moldavie"
+      D: "Lituanie"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Senegal.svg?width=800
+    answers:
+      A: "Sénégal"
+      B: "Mali"
+      C: "Cameroun"
+      D: "Guinée-Bissau"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=800
+    answers:
+      A: "Népal"
+      B: "Bahamas"
+      C: "Finlande"
+      D: "Saint-Vincent-et-les-Grenadines"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg?width=800
+    answers:
+      A: "Chine"
+      B: "Guyana"
       C: "Brésil"
-      D: "Angola"
+      D: "Zimbabwe"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nigeria.svg?width=800
+    answers:
+      A: "Syrie"
+      B: "Nigeria"
+      C: "Yémen"
+      D: "Chypre"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Luxembourg.svg?width=800
+    answers:
+      A: "Slovaquie"
+      B: "Luxembourg"
+      C: "Pays-Bas"
+      D: "Slovénie"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint_Kitts_and_Nevis.svg?width=800
+    answers:
+      A: "Bolivie"
+      B: "Costa Rica"
+      C: "Angola"
+      D: "Saint-Kitts-et-Nevis"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cambodia.svg?width=800
+    answers:
+      A: "Sainte-Lucie"
+      B: "Éthiopie"
+      C: "Cambodge"
+      D: "Maurice"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Guinea-Bissau.svg?width=800
+    answers:
+      A: "Mali"
+      B: "Burkina Faso"
+      C: "Guinée"
+      D: "Guinée-Bissau"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Barbados.svg?width=800
+    answers:
+      A: "Ouzbékistan"
+      B: "Irlande"
+      C: "Guatemala"
+      D: "Barbade"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Samoa.svg?width=800
+    answers:
+      A: "Samoa"
+      B: "Guyana"
+      C: "Afrique du Sud"
+      D: "Gabon"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Indonesia.svg?width=800
+    answers:
+      A: "Laos"
+      B: "Pologne"
+      C: "Indonésie"
+      D: "Monaco"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cyprus.svg?width=800
+    answers:
+      A: "Angola"
+      B: "Monténégro"
+      C: "Érythrée"
+      D: "Chypre"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Argentina.svg?width=800
+    answers:
+      A: "Botswana"
+      B: "Argentine"
+      C: "Uruguay"
+      D: "Israël"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Federated_States_of_Micronesia.svg?width=800
+    answers:
+      A: "Slovaquie"
+      B: "Micronésie"
+      C: "Bangladesh"
+      D: "Viêt Nam"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ecuador.svg?width=800
+    answers:
+      A: "Équateur"
+      B: "Andorre"
+      C: "Venezuela"
+      D: "Colombie"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Chad.svg?width=800
+    answers:
+      A: "Tchad"
+      B: "Belgique"
+      C: "Roumanie"
+      D: "Norvège"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tuvalu.svg?width=800
+    answers:
+      A: "Salomon"
+      B: "Tuvalu"
+      C: "Australie"
+      D: "Fidji"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Finland.svg?width=800
+    answers:
+      A: "Islande"
+      B: "Norvège"
+      C: "Danemark"
+      D: "Finlande"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Zimbabwe.svg?width=800
+    answers:
+      A: "Trinité-et-Tobago"
+      B: "Uruguay"
+      C: "Zimbabwe"
+      D: "Costa Rica"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Venezuela.svg?width=800
+    answers:
+      A: "Équateur"
+      B: "Moldavie"
+      C: "Venezuela"
+      D: "Colombie"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mexico.svg?width=800
+    answers:
+      A: "Chili"
+      B: "Mexique"
+      C: "Turkménistan"
+      D: "Suisse"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint_Lucia.svg?width=800
+    answers:
+      A: "Congo"
+      B: "République démocratique du Congo"
+      C: "Bolivie"
+      D: "Sainte-Lucie"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Latvia.svg?width=800
+    answers:
+      A: "Singapour"
+      B: "Mexique"
+      C: "Hongrie"
+      D: "Lettonie"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Chile.svg?width=800
+    answers:
+      A: "Chili"
+      B: "Sénégal"
+      C: "Madagascar"
+      D: "Cuba"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bosnia_and_Herzegovina.svg?width=800
+    answers:
+      A: "Bosnie-Herzégovine"
+      B: "Suriname"
+      C: "Indonésie"
+      D: "Panama"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Qatar.svg?width=800
+    answers:
+      A: "Guatemala"
+      B: "Japon"
+      C: "Albanie"
+      D: "Qatar"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bulgaria.svg?width=800
+    answers:
+      A: "Rwanda"
+      B: "Fidji"
+      C: "Bulgarie"
+      D: "Cameroun"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Costa_Rica.svg?width=800
+    answers:
+      A: "Lettonie"
+      B: "Bolivie"
+      C: "Nigeria"
+      D: "Costa Rica"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Burkina_Faso.svg?width=800
+    answers:
+      A: "Sénégal"
+      B: "Congo"
+      C: "Ghana"
+      D: "Burkina Faso"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Moldova.svg?width=800
+    answers:
+      A: "Équateur"
+      B: "Arménie"
+      C: "Moldavie"
+      D: "Andorre"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Estonia.svg?width=800
+    answers:
+      A: "Indonésie"
+      B: "Hongrie"
+      C: "Estonie"
+      D: "Pologne"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Switzerland.svg?width=800
+    answers:
+      A: "Salomon"
+      B: "Brésil"
+      C: "Suisse"
+      D: "Paraguay"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Taliban.svg?width=800
+    answers:
+      A: "Afghanistan"
+      B: "Bénin"
+      C: "Liberia"
+      D: "Suède"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Belarus.svg?width=800
+    answers:
+      A: "Papouasie-Nouvelle-Guinée"
+      B: "République centrafricaine"
+      C: "Biélorussie"
+      D: "Congo"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Austria.svg?width=800
+    answers:
+      A: "Autriche"
+      B: "Pérou"
+      C: "Micronésie"
+      D: "République dominicaine"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saudi_Arabia.svg?width=800
+    answers:
+      A: "Arabie saoudite"
+      B: "Saint-Kitts-et-Nevis"
+      C: "Chypre"
+      D: "Équateur"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mauritania.svg?width=800
+    answers:
+      A: "Bahamas"
+      B: "Cap-Vert"
+      C: "Mauritanie"
+      D: "Bénin"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Haiti.svg?width=800
+    answers:
+      A: "Lituanie"
+      B: "Haïti"
+      C: "Inde"
+      D: "Corée du Nord"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Botswana.svg?width=800
+    answers:
+      A: "Botswana"
+      B: "Uruguay"
+      C: "Hongrie"
+      D: "Australie"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Monaco.svg?width=800
+    answers:
+      A: "Indonésie"
+      B: "Pologne"
+      C: "Libye"
+      D: "Monaco"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bangladesh.svg?width=800
+    answers:
+      A: "Zambie"
+      B: "Bosnie-Herzégovine"
+      C: "Bangladesh"
+      D: "Cameroun"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Libya.svg?width=800
+    answers:
+      A: "Turkménistan"
+      B: "Libye"
+      C: "Arménie"
+      D: "Mali"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sierra_Leone.svg?width=800
+    answers:
+      A: "Corée du Nord"
+      B: "Sierra Leone"
+      C: "Panama"
+      D: "Hongrie"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Jordan.svg?width=800
+    answers:
+      A: "Malawi"
+      B: "Jordanie"
+      C: "Tonga"
+      D: "Pakistan"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bhutan.svg?width=800
+    answers:
+      A: "Bhoutan"
+      B: "Vatican"
+      C: "Burkina Faso"
+      D: "Luxembourg"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Marshall_Islands.svg?width=800
+    answers:
+      A: "Îles Marshall"
+      B: "Antigua-et-Barbuda"
+      C: "Kazakhstan"
+      D: "Sénégal"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Suriname.svg?width=800
+    answers:
+      A: "Andorre"
+      B: "Antigua-et-Barbuda"
+      C: "Philippines"
+      D: "Suriname"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kiribati.svg?width=800
+    answers:
+      A: "Tuvalu"
+      B: "Nouvelle-Zélande"
+      C: "Kiribati"
+      D: "Inde"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tonga.svg?width=800
+    answers:
+      A: "Barbade"
+      B: "Haïti"
+      C: "Tonga"
+      D: "Bahamas"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_North_Korea.svg?width=800
+    answers:
+      A: "Iran"
+      B: "Sri Lanka"
+      C: "Corée du Nord"
+      D: "Hongrie"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Korea.svg?width=800
+    answers:
+      A: "Zimbabwe"
+      B: "Bolivie"
+      C: "Corée du Sud"
+      D: "Comores"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Tanzania.svg?width=800
+    answers:
+      A: "Tanzanie"
+      B: "Barbade"
+      C: "Mongolie"
+      D: "Belgique"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Djibouti.svg?width=800
+    answers:
+      A: "Ouganda"
+      B: "Djibouti"
+      C: "Liban"
+      D: "Malaisie"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cameroon.svg?width=800
+    answers:
+      A: "Cameroun"
+      B: "Éthiopie"
+      C: "Sénégal"
+      D: "Burkina Faso"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Belgium.svg?width=800
+    answers:
+      A: "Tchad"
+      B: "Belgique"
+      C: "Laos"
+      D: "Roumanie"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iran.svg?width=800
+    answers:
+      A: "Iran"
+      B: "Samoa"
+      C: "Belize"
+      D: "Roumanie"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Paraguay.svg?width=800
+    answers:
+      A: "Malaisie"
+      B: "Paraguay"
+      C: "Cambodge"
+      D: "Sri Lanka"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Hungary.svg?width=800
+    answers:
+      A: "Mexique"
+      B: "Suriname"
+      C: "Corée du Sud"
+      D: "Hongrie"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Gabon.svg?width=800
+    answers:
+      A: "Gambie"
+      B: "Kiribati"
+      C: "Gabon"
+      D: "Chine"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cuba.svg?width=800
+    answers:
+      A: "Chili"
+      B: "Cuba"
+      C: "Australie"
+      D: "Éthiopie"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Saint_Vincent_and_the_Grenadines.svg?width=800
+    answers:
+      A: "Portugal"
+      B: "Burundi"
+      C: "Bahamas"
+      D: "Saint-Vincent-et-les-Grenadines"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada.svg?width=800
+    answers:
+      A: "Maroc"
+      B: "Palaos"
+      C: "Canada"
+      D: "Rwanda"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Laos.svg?width=800
+    answers:
+      A: "Sénégal"
+      B: "Yémen"
+      C: "Laos"
+      D: "Cameroun"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Montenegro.svg?width=800
+    answers:
+      A: "Tuvalu"
+      B: "Somalie"
+      C: "Monténégro"
+      D: "Nouvelle-Zélande"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Fiji.svg?width=800
+    answers:
+      A: "Tuvalu"
+      B: "Nouvelle-Zélande"
+      C: "Fidji"
+      D: "Australie"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ethiopia.svg?width=800
+    answers:
+      A: "Sao Tomé-et-Principe"
+      B: "Ghana"
+      C: "Éthiopie"
+      D: "Bénin"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_San_Marino.svg?width=800
+    answers:
+      A: "Saint-Marin"
+      B: "Canada"
+      C: "Trinité-et-Tobago"
+      D: "Syrie"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brunei.svg?width=800
+    answers:
+      A: "Birmanie"
+      B: "Guatemala"
+      C: "Ouzbékistan"
+      D: "Brunei"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mali.svg?width=800
+    answers:
+      A: "Mali"
+      B: "Burkina Faso"
+      C: "Ghana"
+      D: "Éthiopie"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Kingdom.svg?width=800
+    answers:
+      A: "Saint-Marin"
+      B: "Royaume-Uni"
+      C: "Djibouti"
+      D: "Algérie"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uganda.svg?width=800
+    answers:
+      A: "Bangladesh"
+      B: "Inde"
+      C: "Ouganda"
+      D: "Tchad"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ghana.svg?width=800
+    answers:
+      A: "Cameroun"
+      B: "Mali"
+      C: "Ghana"
+      D: "Éthiopie"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Germany.svg?width=800
+    answers:
+      A: "Birmanie"
+      B: "Costa Rica"
+      C: "Sierra Leone"
+      D: "Allemagne"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Eswatini.svg?width=800
+    answers:
+      A: "Arménie"
+      B: "France"
+      C: "Eswatini"
+      D: "Portugal"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Armenia.svg?width=800
+    answers:
+      A: "Arménie"
+      B: "Moldavie"
+      C: "Andorre"
+      D: "Venezuela"
+    correctAnswer: A
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sweden.svg?width=800
+    answers:
+      A: "Danemark"
+      B: "Suède"
+      C: "Finlande"
+      D: "Islande"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_States.svg?width=800
+    answers:
+      A: "Liberia"
+      B: "Suriname"
+      C: "Malaisie"
+      D: "États-Unis"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Yemen.svg?width=800
+    answers:
+      A: "Égypte"
+      B: "Soudan"
+      C: "Yémen"
+      D: "Syrie"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Slovenia.svg?width=800
+    answers:
+      A: "Slovaquie"
+      B: "Russie"
+      C: "Slovénie"
+      D: "Pays-Bas"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Democratic_Republic_of_the_Congo.svg?width=800
+    answers:
+      A: "Namibie"
+      B: "États-Unis"
+      C: "Trinité-et-Tobago"
+      D: "République démocratique du Congo"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ireland.svg?width=800
+    answers:
+      A: "Suisse"
+      B: "Inde"
+      C: "Côte d'Ivoire"
+      D: "Irlande"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Serbia.svg?width=800
+    answers:
+      A: "Luxembourg"
+      B: "Slovénie"
+      C: "Russie"
+      D: "Serbie"
+    correctAnswer: D
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Morocco.svg?width=800
+    answers:
+      A: "Barbade"
+      B: "Maroc"
+      C: "Philippines"
+      D: "Roumanie"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_El_Salvador.svg?width=800
+    answers:
+      A: "Norvège"
+      B: "République centrafricaine"
+      C: "Mozambique"
+      D: "Salvador"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Vatican_City.svg?width=800
+    answers:
+      A: "Géorgie"
+      B: "Dominique"
+      C: "Vatican"
+      D: "Éthiopie"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kazakhstan.svg?width=800
+    answers:
+      A: "Samoa"
+      B: "Kazakhstan"
+      C: "Hongrie"
+      D: "Finlande"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Syria.svg?width=800
+    answers:
+      A: "Irak"
+      B: "Syrie"
+      C: "Soudan"
+      D: "Yémen"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Liechtenstein.svg?width=800
+    answers:
+      A: "Malawi"
+      B: "Andorre"
+      C: "Sao Tomé-et-Principe"
+      D: "Liechtenstein"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Israel.svg?width=800
+    answers:
+      A: "Canada"
+      B: "Israël"
+      C: "Sao Tomé-et-Principe"
+      D: "Belgique"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Cape_Verde.svg?width=800
+    answers:
+      A: "Andorre"
+      B: "Cap-Vert"
+      C: "Salvador"
+      D: "Mongolie"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Burundi.svg?width=800
+    answers:
+      A: "Turkménistan"
+      B: "Gambie"
+      C: "Saint-Kitts-et-Nevis"
+      D: "Burundi"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sri_Lanka.svg?width=800
+    answers:
+      A: "Lesotho"
+      B: "Sri Lanka"
+      C: "Azerbaïdjan"
+      D: "Somalie"
+    correctAnswer: B
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Togo.svg?width=800
+    answers:
+      A: "Togo"
+      B: "Éthiopie"
+      C: "Sao Tomé-et-Principe"
+      D: "Burkina Faso"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Seychelles.svg?width=800
+    answers:
+      A: "Pérou"
+      B: "Kazakhstan"
+      C: "Seychelles"
+      D: "Népal"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kenya.svg?width=800
+    answers:
+      A: "Macédoine du Nord"
+      B: "Kenya"
+      C: "Bulgarie"
+      D: "Papouasie-Nouvelle-Guinée"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Bahamas.svg?width=800
+    answers:
+      A: "Bahamas"
+      B: "Indonésie"
+      C: "Guinée"
+      D: "Namibie"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Malawi.svg?width=800
+    answers:
+      A: "Madagascar"
+      B: "Liechtenstein"
+      C: "Malawi"
+      D: "Kazakhstan"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Eritrea.svg?width=800
+    answers:
+      A: "Tunisie"
+      B: "Érythrée"
+      C: "Afghanistan"
+      D: "Mongolie"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Vanuatu.svg?width=800
+    answers:
+      A: "Pays-Bas"
+      B: "Vanuatu"
+      C: "Israël"
+      D: "Autriche"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_People%27s_Republic_of_China.svg?width=800
+    answers:
+      A: "Chine"
+      B: "Haïti"
+      C: "Viêt Nam"
+      D: "Eswatini"
+    correctAnswer: A
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Sudan.svg?width=800
+    answers:
+      A: "Soudan du Sud"
+      B: "Autriche"
+      C: "Turkménistan"
+      D: "Philippines"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mozambique.svg?width=800
+    answers:
+      A: "Mozambique"
+      B: "Maurice"
+      C: "Vatican"
+      D: "Salvador"
+    correctAnswer: A
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_Arab_Emirates.svg?width=800
+    answers:
+      A: "Kiribati"
+      B: "Saint-Kitts-et-Nevis"
+      C: "Émirats arabes unis"
+      D: "République dominicaine"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Belize.svg?width=800
+    answers:
+      A: "Népal"
+      B: "Sierra Leone"
+      C: "Belize"
+      D: "Émirats arabes unis"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Palau.svg?width=800
+    answers:
+      A: "Monaco"
+      B: "Syrie"
+      C: "Vatican"
+      D: "Palaos"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Italy.svg?width=800
+    answers:
+      A: "Bolivie"
+      B: "Espagne"
+      C: "Italie"
+      D: "Autriche"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Poland.svg?width=800
+    answers:
+      A: "Indonésie"
+      B: "Albanie"
+      C: "Pologne"
+      D: "Monaco"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iraq.svg?width=800
+    answers:
+      A: "Yémen"
+      B: "Syrie"
+      C: "Irak"
+      D: "Égypte"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Spain.svg?width=800
+    answers:
+      A: "Biélorussie"
+      B: "Bolivie"
+      C: "Espagne"
+      D: "Italie"
+    correctAnswer: C
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_São_Tomé_and_Príncipe.svg?width=800
+    answers:
+      A: "Sénégal"
+      B: "Ghana"
+      C: "Sao Tomé-et-Principe"
+      D: "Burkina Faso"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Papua_New_Guinea.svg?width=800
+    answers:
+      A: "États-Unis"
+      B: "Macédoine du Nord"
+      C: "Papouasie-Nouvelle-Guinée"
+      D: "Autriche"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Maldives.svg?width=800
+    answers:
+      A: "Autriche"
+      B: "Nigeria"
+      C: "Maldives"
+      D: "Madagascar"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Kyrgyzstan.svg?width=800
+    answers:
+      A: "Palaos"
+      B: "Kirghizistan"
+      C: "Bhoutan"
+      D: "Turquie"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_New_Zealand.svg?width=800
+    answers:
+      A: "Australie"
+      B: "Salomon"
+      C: "Nouvelle-Zélande"
+      D: "Fidji"
+    correctAnswer: C
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Singapore.svg?width=800
+    answers:
+      A: "Tunisie"
+      B: "Singapour"
+      C: "Turquie"
+      D: "Chypre"
+    correctAnswer: B
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=800
+    answers:
+      A: "Slovaquie"
+      B: "Luxembourg"
+      C: "France"
+      D: "Pays-Bas"
+    correctAnswer: C
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Netherlands.svg?width=800
+    answers:
+      A: "Slovaquie"
+      B: "Pays-Bas"
+      C: "Russie"
+      D: "France"
+    correctAnswer: B
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Greece.svg?width=800
+    answers:
+      A: "Guinée"
+      B: "Grèce"
+      C: "Jordanie"
+      D: "Burundi"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkey.svg?width=800
+    answers:
+      A: "Singapour"
+      B: "Islande"
+      C: "Tunisie"
+      D: "Turquie"
+    correctAnswer: D
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Malaysia.svg?width=800
+    answers:
+      A: "Liberia"
+      B: "États-Unis"
+      C: "Italie"
+      D: "Malaisie"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ukraine.svg?width=800
+    answers:
+      A: "Ukraine"
+      B: "Ouzbékistan"
+      C: "Somalie"
+      D: "Albanie"
+    correctAnswer: A
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Egypt.svg?width=800
+    answers:
+      A: "Syrie"
+      B: "Égypte"
+      C: "Irak"
+      D: "Soudan"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_India.svg?width=800
+    answers:
+      A: "Irlande"
+      B: "Côte d'Ivoire"
+      C: "Inde"
+      D: "Bosnie-Herzégovine"
+    correctAnswer: C
+  - text: "De quel pays s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Russia.svg?width=800
+    answers:
+      A: "Pays-Bas"
+      B: "Slovaquie"
+      C: "France"
+      D: "Russie"
+    correctAnswer: D
+  - text: "Ce drapeau est celui de quel pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uruguay.svg?width=800
+    answers:
+      A: "Lesotho"
+      B: "République centrafricaine"
+      C: "Ukraine"
+      D: "Uruguay"
+    correctAnswer: D
+  - text: "Quel est ce pays ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Croatia.svg?width=800
+    answers:
+      A: "Thaïlande"
+      B: "Croatie"
+      C: "Bénin"
+      D: "Cambodge"
+    correctAnswer: B
+  - text: "À quel pays appartient ce drapeau ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Namibia.svg?width=800
+    answers:
+      A: "Serbie"
+      B: "Namibie"
+      C: "Guinée"
+      D: "Dominique"
     correctAnswer: B

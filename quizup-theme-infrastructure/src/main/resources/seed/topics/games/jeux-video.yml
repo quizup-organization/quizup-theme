@@ -1,146 +1,370 @@
 topic:
   id: topic-jeux-video
   name: "Jeux vidéo"
-  description: "Des débuts de Pong aux consoles modernes : consoles, créateurs, genres et notions de game design, pour les passionnés de l'histoire du jeu vidéo."
+  description: "Consoles mythiques, bornes d'arcade, créateurs et personnages cultes : de Pong à la Nintendo Switch, retracez l'histoire du jeu vidéo."
   category: GAMES
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/NES-Console-Set.jpg?width=800
 questions:
-  - text: "Quelle entreprise a créé la console Game Boy en 1989 ?"
+  - text: "Comment s'appelle le héros de la série The Legend of Zelda ?"
     answers:
-      A: "Sega"
-      B: "Sony"
-      C: "Atari"
-      D: "Nintendo"
+      A: "Zelda"
+      B: "Ganon"
+      C: "Épona"
+      D: "Link"
     correctAnswer: D
-  - text: "En quelle année est sorti le jeu d'arcade Pong d'Atari ?"
+  - text: "Comment s'appelle le héros de la série Half-Life ?"
     answers:
-      A: "1962"
-      B: "1966"
-      C: "1972"
-      D: "1980"
+      A: "Master Chief"
+      B: "Gordon Freeman"
+      C: "Marcus Fenix"
+      D: "Duke Nukem"
+    correctAnswer: B
+  - text: "Quelle console Nintendo de 2001, en forme de cube, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/GameCube-Set.jpg?width=800
+    answers:
+      A: "La Nintendo 64"
+      B: "La Wii"
+      C: "La Xbox"
+      D: "La GameCube"
+    correctAnswer: D
+  - text: "Quelle borne d'arcade de 1980 voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pac-Man_arcade_machine,_De_Notaris_Schaijk.jpg?width=800
+    answers:
+      A: "Pac-Man"
+      B: "Donkey Kong"
+      C: "Galaga"
+      D: "Space Invaders"
+    correctAnswer: A
+  - text: "Quelle console de 2006 utilise des manettes à détection de mouvement ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Wii-console.jpg?width=800
+    answers:
+      A: "La Wii U"
+      B: "La Xbox 360"
+      C: "La GameCube"
+      D: "La Nintendo Wii"
+    correctAnswer: D
+  - text: "Quelle console de Sony sortie en 2006 voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sony-PlayStation-3-CECHA01-wController-L.jpg?width=800
+    answers:
+      A: "La Xbox 360"
+      B: "La PlayStation 4"
+      C: "La PlayStation 3"
+      D: "La PlayStation 2"
     correctAnswer: C
-  - text: "Qui a créé le personnage de Mario ?"
+  - text: "Quelle console 16 bits de Sega, appelée Mega Drive en Europe, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Genesis-Mod1-Set.jpg?width=800
     answers:
-      A: "Shigeru Miyamoto"
-      B: "Hideo Kojima"
-      C: "Sid Meier"
-      D: "Gabe Newell"
-    correctAnswer: A
-  - text: "Quelle entreprise a créé la première PlayStation ?"
+      A: "La Neo Geo"
+      B: "La Super Nintendo"
+      C: "La Sega Genesis"
+      D: "La PC Engine"
+    correctAnswer: C
+  - text: "Quelle console de Nintendo, sortie en 1996, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/N64-Console-Set.jpg?width=800
     answers:
-      A: "Nintendo"
-      B: "Sony"
-      C: "Sega"
-      D: "Microsoft"
+      A: "La Super Nintendo"
+      B: "La GameCube"
+      C: "La PlayStation"
+      D: "La Nintendo 64"
+    correctAnswer: D
+  - text: "Quelle console portable PC de Valve voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Steam_Deck_(front).png?width=800
+    answers:
+      A: "La PSP"
+      B: "La Steam Deck"
+      C: "La Nintendo Switch"
+      D: "La ROG Ally"
     correctAnswer: B
-  - text: "Quelle entreprise a créé la console Xbox ?"
+  - text: "Quel jeu de construction en blocs est développé par Mojang ?"
     answers:
-      A: "Microsoft"
-      B: "Sony"
-      C: "Nintendo"
-      D: "Sega"
-    correctAnswer: A
-  - text: "Dans quel genre classe-t-on le jeu Tetris ?"
+      A: "Lego Worlds"
+      B: "Roblox"
+      C: "Minecraft"
+      D: "Terraria"
+    correctAnswer: C
+  - text: "Que désigne un easter egg dans un jeu vidéo ?"
     answers:
-      A: "Jeu de tir"
-      B: "Jeu de puzzle"
-      C: "Jeu de course"
-      D: "Jeu de sport"
+      A: "Un bogue graphique"
+      B: "Un niveau bonus payant"
+      C: "Un clin d'œil caché des développeurs"
+      D: "Un mode multijoueur"
+    correctAnswer: C
+  - text: "Quelle console portable à double écran voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-DS-Lite-Black-Open.jpg?width=800
+    answers:
+      A: "La PSP"
+      B: "La Nintendo Switch"
+      C: "La Game Boy Advance"
+      D: "La Nintendo DS"
+    correctAnswer: D
+  - text: "Quelle dernière console de Sega, sortie en 1998, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-Console-Set.png?width=800
+    answers:
+      A: "La Saturn"
+      B: "La Mega Drive"
+      C: "La Dreamcast"
+      D: "La Game Gear"
+    correctAnswer: C
+  - text: "Quelle console de Sega, sortie en 1994, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Saturn-Console-Set-Mk1.jpg?width=800
+    answers:
+      A: "La Mega Drive"
+      B: "La Sega Saturn"
+      C: "La Dreamcast"
+      D: "La Nintendo 64"
     correctAnswer: B
-  - text: "Quel studio suédois a développé Minecraft ?"
+  - text: "Quel est le prénom du frère de Mario ?"
     answers:
-      A: "DICE"
-      B: "Rovio"
-      C: "King"
-      D: "Mojang"
+      A: "Yoshi"
+      B: "Toad"
+      C: "Wario"
+      D: "Luigi"
     correctAnswer: D
   - text: "Que désigne le sigle FPS dans le jeu vidéo ?"
     answers:
-      A: "Un jeu de plateforme rapide"
-      B: "Un jeu de football professionnel"
-      C: "Un jeu de tir en vue subjective"
-      D: "Un jeu de stratégie en temps réel"
-    correctAnswer: C
-  - text: "En quelle année la PlayStation est-elle sortie au Japon ?"
-    answers:
-      A: "1988"
-      B: "1990"
-      C: "1994"
-      D: "1998"
-    correctAnswer: C
-  - text: "Quel jeu de 1978 de la société Taito met en scène des extraterrestres en rangs ?"
-    answers:
-      A: "Space Invaders"
-      B: "Asteroids"
-      C: "Pac-Man"
-      D: "Galaga"
-    correctAnswer: A
-  - text: "Quel créateur américain a donné son nom à la série de jeux Civilization ?"
-    answers:
-      A: "Will Wright"
-      B: "John Carmack"
-      C: "Peter Molyneux"
-      D: "Sid Meier"
+      A: "Un jeu de football professionnel"
+      B: "Un jeu de plateforme rapide"
+      C: "Un jeu de stratégie en temps réel"
+      D: "Un jeu de tir en vue subjective"
     correctAnswer: D
-  - text: "Quelle console de Sony est la plus vendue de l'histoire ?"
+  - text: "Dans quel pays a été fondée l'entreprise Nintendo en 1889 ?"
     answers:
-      A: "PlayStation"
-      B: "PlayStation 2"
-      C: "PlayStation 3"
-      D: "PSP"
-    correctAnswer: B
+      A: "Le Japon"
+      B: "La Chine"
+      C: "Les États-Unis"
+      D: "La Corée du Sud"
+    correctAnswer: A
+  - text: "Quelle console portable couleur de Sega voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Game-Gear-Handheld.jpg?width=800
+    answers:
+      A: "La Game Gear"
+      B: "La Game Boy"
+      C: "La Lynx"
+      D: "La Neo Geo Pocket"
+    correctAnswer: A
+  - text: "Quelle première console de Microsoft voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Xbox-console.jpg?width=800
+    answers:
+      A: "La PlayStation 2"
+      B: "La GameCube"
+      C: "La Xbox"
+      D: "La Xbox 360"
+    correctAnswer: C
+  - text: "Quelle console portable de Sony, sortie en 2004, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sony-PSP-1000-Body.png?width=800
+    answers:
+      A: "La PSP"
+      B: "La Game Boy Advance"
+      C: "La PS Vita"
+      D: "La Nintendo DS"
+    correctAnswer: A
+  - text: "Qui a créé le personnage de Mario ?"
+    answers:
+      A: "Hideo Kojima"
+      B: "Sid Meier"
+      C: "Shigeru Miyamoto"
+      D: "Gabe Newell"
+    correctAnswer: C
+  - text: "Quelle console iconique de la fin des années 1970 voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Atari-2600-Wood-4Sw-Set.jpg?width=800
+    answers:
+      A: "L'Atari 2600"
+      B: "La NES"
+      C: "L'Intellivision"
+      D: "La Colecovision"
+    correctAnswer: A
   - text: "Quel studio polonais a développé The Witcher 3 ?"
     answers:
       A: "CD Projekt Red"
-      B: "Ubisoft"
-      C: "Techland"
-      D: "Bohemia Interactive"
+      B: "Techland"
+      C: "Bohemia Interactive"
+      D: "Ubisoft"
     correctAnswer: A
-  - text: "Quel studio français est à l'origine de la série Rayman ?"
+  - text: "Quelle console 16 bits de Nintendo voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/SNES-Mod1-Console-Set.png?width=800
     answers:
-      A: "Quantic Dream"
-      B: "Arkane Studios"
-      C: "Ubisoft"
-      D: "Asobo Studio"
+      A: "La Nintendo 64"
+      B: "La NES"
+      C: "La Super Nintendo"
+      D: "La Sega Genesis"
     correctAnswer: C
+  - text: "Quelle borne d'arcade d'Atari, sortie en 1972, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Atari_Pong_arcade_game_cabinet.jpg?width=800
+    answers:
+      A: "Pong"
+      B: "Asteroids"
+      C: "Space Invaders"
+      D: "Breakout"
+    correctAnswer: A
+  - text: "Quelle borne d'arcade de Nintendo, sortie en 1981, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Donkey_Kong_arcade_-_zapwizard_34102189.jpg?width=800
+    answers:
+      A: "Frogger"
+      B: "Donkey Kong"
+      C: "Galaga"
+      D: "Pac-Man"
+    correctAnswer: B
+  - text: "Quelle console portable de Nintendo, sortie en 1989, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-FL.jpg?width=800
+    answers:
+      A: "La Game Boy Advance"
+      B: "La Game Boy"
+      C: "La Lynx"
+      D: "La Game Gear"
+    correctAnswer: B
+  - text: "Quelle console hybride Nintendo est visible ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-Switch-Console-Docked-wJoyConRB.jpg?width=800
+    answers:
+      A: "La Steam Deck"
+      B: "La Nintendo Switch"
+      C: "La Nintendo 3DS"
+      D: "La Wii U"
+    correctAnswer: B
+  - text: "Quel jeu de Rockstar se déroule à Los Santos ?"
+    answers:
+      A: "Grand Theft Auto V"
+      B: "Watch Dogs"
+      C: "Saints Row"
+      D: "Red Dead Redemption"
+    correctAnswer: A
+  - text: "Dans quelle série de jeux incarne-t-on le Master Chief ?"
+    answers:
+      A: "Halo"
+      B: "Destiny"
+      C: "Gears of War"
+      D: "Doom"
+    correctAnswer: A
   - text: "Qui a créé la série de jeux Metal Gear ?"
     answers:
       A: "Shigeru Miyamoto"
       B: "Hideo Kojima"
-      C: "Hironobu Sakaguchi"
-      D: "Yu Suzuki"
+      C: "Yu Suzuki"
+      D: "Hironobu Sakaguchi"
     correctAnswer: B
-  - text: "Dans quel pays a été fondée l'entreprise Nintendo en 1889 ?"
+  - text: "Quelle borne d'arcade de Taito, sortie en 1978, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Space_Invaders.JPG?width=800
     answers:
-      A: "Chine"
-      B: "Corée du Sud"
-      C: "États-Unis"
-      D: "Japon"
-    correctAnswer: D
+      A: "Pac-Man"
+      B: "Space Invaders"
+      C: "Galaga"
+      D: "Asteroids"
+    correctAnswer: B
   - text: "Que signifie le sigle RPG en jeu vidéo ?"
     answers:
-      A: "Jeu de rôle"
+      A: "Jeu de réflexion"
       B: "Jeu de course"
-      C: "Jeu de rythme"
-      D: "Jeu de réflexion"
+      C: "Jeu de rôle"
+      D: "Jeu de rythme"
+    correctAnswer: C
+  - text: "Quelle est cette console de salon sortie en 1985 aux États-Unis ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/NES-Console-Set.jpg?width=800
+    answers:
+      A: "La NES"
+      B: "La Master System"
+      C: "La Super Nintendo"
+      D: "L'Atari 2600"
     correctAnswer: A
+  - text: "Quelle console de Microsoft sortie en 2005 voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft-Xbox-360-Pro-Console-FL.jpg?width=800
+    answers:
+      A: "La Xbox One"
+      B: "La Xbox 360"
+      C: "La PlayStation 3"
+      D: "La Xbox"
+    correctAnswer: B
   - text: "Quel jeu de battle royale a été développé par Epic Games ?"
     answers:
-      A: "PUBG"
-      B: "Apex Legends"
-      C: "Fortnite"
-      D: "Call of Duty: Warzone"
-    correctAnswer: C
-  - text: "Que désigne un easter egg dans un jeu vidéo ?"
-    answers:
-      A: "Un niveau bonus payant"
-      B: "Un bogue graphique"
-      C: "Un mode multijoueur"
-      D: "Un clin d'œil caché des développeurs"
+      A: "Call of Duty: Warzone"
+      B: "PUBG"
+      C: "Apex Legends"
+      D: "Fortnite"
     correctAnswer: D
-  - text: "Quelle console Nintendo est sortie en 2017 ?"
+  - text: "Comment s'appelle la princesse que Mario doit sauver ?"
     answers:
-      A: "Wii U"
-      B: "Nintendo Switch"
-      C: "Nintendo 3DS"
-      D: "GameCube"
+      A: "Daisy"
+      B: "Zelda"
+      C: "Rosalina"
+      D: "Peach"
+    correctAnswer: D
+  - text: "Quelle console de Sony est la plus vendue de l'histoire ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/PS2-Fat-Console-Set.jpg?width=800
+    answers:
+      A: "La PlayStation"
+      B: "La PlayStation 2"
+      C: "La Xbox"
+      D: "La PlayStation 3"
+    correctAnswer: B
+  - text: "Quel studio français est à l'origine de la série Rayman ?"
+    answers:
+      A: "Ubisoft"
+      B: "Arkane Studios"
+      C: "Quantic Dream"
+      D: "Asobo Studio"
+    correctAnswer: A
+  - text: "Comment s'appelle le Pokémon jaune, mascotte de la franchise ?"
+    answers:
+      A: "Pikachu"
+      B: "Raichu"
+      C: "Salamèche"
+      D: "Carapuce"
+    correctAnswer: A
+  - text: "Quelle console de Sony sortie en 2013 voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sony-PlayStation-4-PS4-Console-FL.jpg?width=800
+    answers:
+      A: "La PlayStation 3"
+      B: "La Xbox One"
+      C: "La PlayStation 5"
+      D: "La PlayStation 4"
+    correctAnswer: D
+  - text: "Quel créateur américain a donné son nom à la série Civilization ?"
+    answers:
+      A: "John Carmack"
+      B: "Peter Molyneux"
+      C: "Sid Meier"
+      D: "Will Wright"
+    correctAnswer: C
+  - text: "Quelle console de luxe de SNK voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Neo-Geo-AES-Console-Set.jpg?width=800
+    answers:
+      A: "La PC Engine"
+      B: "La Mega Drive"
+      C: "La Neo Geo"
+      D: "La Super Nintendo"
+    correctAnswer: C
+  - text: "Quel hérisson bleu est la mascotte de Sega ?"
+    answers:
+      A: "Shadow"
+      B: "Knuckles"
+      C: "Sonic"
+      D: "Tails"
+    correctAnswer: C
+  - text: "Quel jeu de Valve se joue à deux équipes avec des portails ?"
+    answers:
+      A: "Team Fortress"
+      B: "Left 4 Dead"
+      C: "Half-Life"
+      D: "Portal"
+    correctAnswer: D
+  - text: "Quel est le nom du monde imaginaire de The Elder Scrolls V ?"
+    answers:
+      A: "Azeroth"
+      B: "Bordeciel"
+      C: "Tamriel"
+      D: "Hyrule"
+    correctAnswer: B
+  - text: "Quel célèbre jeu de puzzle à briques voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tetris_on_Game_Boy.jpg?width=800
+    answers:
+      A: "Columns"
+      B: "Dr. Mario"
+      C: "Puyo Puyo"
+      D: "Tetris"
+    correctAnswer: D
+  - text: "Quelle console de Sony, sortie en 1994, voit-on ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/PSX-Console-wController.jpg?width=800
+    answers:
+      A: "La Xbox"
+      B: "La PlayStation"
+      C: "La Nintendo 64"
+      D: "La Sega Saturn"
     correctAnswer: B

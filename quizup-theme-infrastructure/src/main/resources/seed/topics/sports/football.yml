@@ -1,153 +1,147 @@
 topic:
   id: topic-football
   name: "Football"
-  description: "Des règles du jeu aux légendes de la Coupe du monde : découvrez l'histoire, les records et la culture du football, le sport le plus populaire de la planète."
+  description: "Coupes du monde, légendes du ballon rond, clubs mythiques et règles du jeu : prouvez que vous êtes un vrai passionné du sport le plus populaire de la planète."
   category: SPORTS
-  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Soccerball.svg?width=800
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Football_(soccer_ball).svg?width=800
 questions:
-  - text: "Combien de joueurs compte une équipe de football sur le terrain, gardien inclus ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Soccerball.svg?width=800
+  - text: "Combien de joueurs composent une équipe de football sur le terrain, gardien compris ?"
     answers:
       A: "11"
-      B: "10"
-      C: "9"
+      B: "9"
+      C: "10"
       D: "12"
     correctAnswer: A
-  - text: "Ce schéma coté en mètres représente le terrain d'un sport collectif. Lequel ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Football_pitch_metric.svg?width=800
+  - text: "Quel pays a remporté la Coupe du monde de football en 1998 ?"
     answers:
-      A: "Le rugby"
-      B: "Le football"
-      C: "Le handball"
-      D: "Le hockey sur gazon"
-    correctAnswer: B
-  - text: "Ce drapeau est celui du pays qui a remporté la première Coupe du monde en 1930. De quel pays s'agit-il ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Uruguay.svg?width=800
-    answers:
-      A: "Argentine"
-      B: "Brésil"
-      C: "Uruguay"
-      D: "Italie"
-    correctAnswer: C
-  - text: "Quel pays représenté par ce drapeau détient le record de cinq victoires en Coupe du monde ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg?width=800
-    answers:
-      A: "Argentine"
-      B: "Brésil"
-      C: "Allemagne"
-      D: "Italie"
-    correctAnswer: B
-  - text: "Quel pays, dont voici le drapeau, a remporté quatre Coupes du monde (1934, 1938, 1982, 2006) ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Italy.svg?width=800
-    answers:
-      A: "France"
-      B: "Espagne"
-      C: "Argentine"
-      D: "Italie"
+      A: "Le Brésil"
+      B: "L'Italie"
+      C: "L'Allemagne"
+      D: "La France"
     correctAnswer: D
-  - text: "Lors d'un match, quel geste est interdit aux joueurs de champ, hors remise en jeu ?"
-    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Football_iu_1996.jpg?width=800
+  - text: "Quel joueur est surnommé « la Pulga » ?"
     answers:
-      A: "Toucher le ballon de la main"
-      B: "Faire une passe"
-      C: "Tirer au but"
-      D: "Tacler le ballon"
-    correctAnswer: A
-  - text: "Combien de minutes compte un match de football réglementaire, hors arrêts de jeu ?"
-    answers:
-      A: "60"
-      B: "80"
-      C: "90"
-      D: "120"
-    correctAnswer: C
-  - text: "Combien de mi-temps compose un match de football ?"
-    answers:
-      A: "2"
-      B: "3"
-      C: "4"
-      D: "1"
-    correctAnswer: A
-  - text: "Quelle est la plus prestigieuse compétition de football entre sélections nationales ?"
-    answers:
-      A: "L'Euro"
-      B: "La Copa América"
-      C: "La Coupe du monde"
-      D: "La Coupe d'Afrique des nations"
-    correctAnswer: C
-  - text: "Quel pays a remporté la Coupe du monde 1998, organisée en France ?"
-    answers:
-      A: "Brésil"
-      B: "France"
-      C: "Italie"
-      D: "Allemagne"
+      A: "Cristiano Ronaldo"
+      B: "Lionel Messi"
+      C: "Neymar"
+      D: "Ronaldinho"
     correctAnswer: B
-  - text: "Quel pays a remporté la Coupe du monde 2022 organisée au Qatar ?"
+  - text: "Combien de temps dure un match de football, hors prolongations et temps additionnel ?"
     answers:
-      A: "France"
-      B: "Croatie"
-      C: "Maroc"
-      D: "Argentine"
-    correctAnswer: D
-  - text: "En quelle année la France a-t-elle remporté sa deuxième Coupe du monde ?"
-    answers:
-      A: "1998"
-      B: "2006"
-      C: "2010"
-      D: "2018"
-    correctAnswer: D
-  - text: "Combien de points vaut un but marqué dans le cours normal du jeu ?"
-    answers:
-      A: "1"
-      B: "2"
-      C: "3"
-      D: "5"
-    correctAnswer: A
-  - text: "Quelle est la durée totale d'une prolongation en cas d'égalité à la fin du temps réglementaire ?"
-    answers:
-      A: "10 minutes"
-      B: "20 minutes"
-      C: "30 minutes"
-      D: "45 minutes"
+      A: "80 minutes"
+      B: "100 minutes"
+      C: "90 minutes"
+      D: "120 minutes"
     correctAnswer: C
-  - text: "Comment appelle-t-on la zone rectangulaire devant chaque but où le gardien peut utiliser ses mains ?"
+  - text: "Quel pays a remporté le plus de Coupes du monde masculines de football ?"
     answers:
-      A: "Le rond central"
-      B: "La ligne de touche"
-      C: "La surface de réparation"
-      D: "La zone de corner"
-    correctAnswer: C
-  - text: "Quel poste porte traditionnellement le numéro 1 dans une équipe de football ?"
-    answers:
-      A: "L'attaquant"
-      B: "Le gardien de but"
-      C: "Le capitaine"
-      D: "Le libéro"
-    correctAnswer: B
-  - text: "Que reçoit un joueur qui écope d'un deuxième carton jaune dans le même match ?"
-    answers:
-      A: "Un carton rouge et une expulsion"
-      B: "Un simple avertissement"
-      C: "Un penalty"
-      D: "Rien du tout"
+      A: "Le Brésil"
+      B: "L'Allemagne"
+      C: "L'Italie"
+      D: "L'Argentine"
     correctAnswer: A
-  - text: "Quelle sélection a remporté la Coupe du monde 1934, organisée pour la première fois en Europe ?"
+  - text: "Quelle couleur de carton un arbitre montre-t-il pour exclure un joueur ?"
     answers:
-      A: "Hongrie"
-      B: "Tchécoslovaquie"
-      C: "Allemagne"
-      D: "Italie"
+      A: "Jaune"
+      B: "Bleu"
+      C: "Blanc"
+      D: "Rouge"
     correctAnswer: D
-  - text: "Quel pays a remporté la Coupe du monde 2014 organisée au Brésil ?"
+  - text: "Dans quel club Zinédine Zidane a-t-il évolué avant de rejoindre le Real Madrid ?"
     answers:
-      A: "Allemagne"
-      B: "Argentine"
-      C: "Pays-Bas"
-      D: "Brésil"
+      A: "L'Olympique de Marseille"
+      B: "Le Paris Saint-Germain"
+      C: "La Juventus de Turin"
+      D: "Le FC Barcelone"
+    correctAnswer: C
+  - text: "Quelle est la compétition qui oppose chaque année les meilleurs clubs européens ?"
+    answers:
+      A: "La Ligue des champions"
+      B: "La Copa Libertadores"
+      C: "La Coupe des confédérations"
+      D: "La Gold Cup"
     correctAnswer: A
-  - text: "Dans quel pays se trouve le stade de Wembley, temple historique du football ?"
+  - text: "Quel pays a organisé la Coupe du monde de football 2022 ?"
     answers:
-      A: "Écosse"
-      B: "Angleterre"
-      C: "Pays de Galles"
-      D: "Irlande"
+      A: "La Russie"
+      B: "Le Qatar"
+      C: "Le Brésil"
+      D: "L'Afrique du Sud"
     correctAnswer: B
+  - text: "Comment s'appelle le trophée individuel décerné au meilleur joueur du monde par France Football ?"
+    answers:
+      A: "Le Soulier d'or"
+      B: "Le Ballon de bronze"
+      C: "Le Ballon d'or"
+      D: "La Coupe Puskás"
+    correctAnswer: C
+  - text: "Quel joueur français a inscrit un triplé en finale de la Coupe du monde 2022 ?"
+    answers:
+      A: "Antoine Griezmann"
+      B: "Olivier Giroud"
+      C: "Ousmane Dembélé"
+      D: "Kylian Mbappé"
+    correctAnswer: D
+  - text: "Quel joueur brésilien a remporté trois Coupes du monde avec sa sélection ?"
+    answers:
+      A: "Pelé"
+      B: "Zico"
+      C: "Romário"
+      D: "Ronaldo"
+    correctAnswer: A
+  - text: "Sur quel continent se trouve le pays qui a remporté la Coupe du monde 2010 ?"
+    answers:
+      A: "Amérique du Sud"
+      B: "Asie"
+      C: "Europe"
+      D: "Afrique"
+    correctAnswer: C
+  - text: "Quelle règle sanctionne un joueur situé plus près de la ligne de but adverse que le ballon et l'avant-dernier défenseur au moment de la passe ?"
+    answers:
+      A: "Le hors-jeu"
+      B: "La faute de main"
+      C: "Le coup franc indirect"
+      D: "Le carton blanc"
+    correctAnswer: A
+  - text: "Quel est le surnom de l'équipe nationale d'Italie ?"
+    answers:
+      A: "Les Bleus"
+      B: "La Roja"
+      C: "La Nazionale Azzurra"
+      D: "La Seleção"
+    correctAnswer: C
+  - text: "Quel club anglais joue ses matchs à domicile à Old Trafford ?"
+    answers:
+      A: "Manchester United"
+      B: "Manchester City"
+      C: "Liverpool"
+      D: "Arsenal"
+    correctAnswer: A
+  - text: "Quel joueur a inscrit la célèbre « main de Dieu » lors de la Coupe du monde 1986 ?"
+    answers:
+      A: "Pelé"
+      B: "Johan Cruyff"
+      C: "Diego Maradona"
+      D: "Michel Platini"
+    correctAnswer: C
+  - text: "À quelle distance du but est tiré un penalty, en mètres ?"
+    answers:
+      A: "9 mètres"
+      B: "11 mètres"
+      C: "13 mètres"
+      D: "15 mètres"
+    correctAnswer: B
+  - text: "Quelle sélection nationale a remporté l'Euro 2016 ?"
+    answers:
+      A: "La France"
+      B: "L'Allemagne"
+      C: "L'Espagne"
+      D: "Le Portugal"
+    correctAnswer: D
+  - text: "Quel club espagnol est surnommé les « Blaugranas » ?"
+    answers:
+      A: "Le Real Madrid"
+      B: "L'Atlético de Madrid"
+      C: "Le Séville FC"
+      D: "Le FC Barcelone"
+    correctAnswer: D
