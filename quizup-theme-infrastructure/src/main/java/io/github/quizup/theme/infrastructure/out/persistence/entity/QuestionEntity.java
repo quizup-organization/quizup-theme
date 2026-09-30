@@ -36,6 +36,10 @@ public class QuestionEntity {
     @Column(name = "topic_id", length = 255, nullable = false)
     private String topicId;
 
+    /** Code ISO 639-1 de la langue source du contenu (les traductions vivent dans question_translation). */
+    @Column(name = "source_language", length = 5, nullable = false)
+    private String sourceLanguage;
+
     @Column(name = "text", length = 255, nullable = false)
     private String text;
 

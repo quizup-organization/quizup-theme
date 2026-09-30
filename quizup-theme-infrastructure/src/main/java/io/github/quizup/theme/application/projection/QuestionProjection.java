@@ -1,12 +1,17 @@
 package io.github.quizup.theme.application.projection;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.event.QuestionEvent;
 import io.github.quizup.theme.domain.model.Question;
+import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
+
+import java.util.EnumMap;
+import java.util.Map;
 
 @Component
 @ProcessingGroup("theme-projection")
@@ -21,21 +26,41 @@ public class QuestionProjection {
 
     @EventHandler
     public void on(QuestionEvent.QuestionCreatedEvent event) {
-        Question question = new Question(
-                event.questionId(),
-                event.topicId(),
-                event.text(),
-                event.imageUrl(),
-                event.answers(),
-                event.correctAnswer(),
-                QuestionStatus.PENDING,
-                null,
-                event.creatorId(),
-                event.creatorId(),
-                event.createdAt(),
-                event.createdAt()
-        );
+        Language sourceLanguage = event.sourceLanguage() == null ? Language.FR : event.sourceLanguage();
+
+        Map<Language, QuestionContent> translations = new EnumMap<>(Language.class);
+        translations.put(sourceLanguage, new QuestionContent(event.text(), event.answers()));
+
+        Question question = Question.builder()
+                .questionId(event.questionId())
+                .topicId(event.topicId())
+                .sourceLanguage(sourceLanguage)
+                .translations(translations)
+                .imageUrl(event.imageUrl())
+                .correctAnswer(event.correctAnswer())
+                .status(QuestionStatus.PENDING)
+                .difficulty(null)
+                .creatorId(event.creatorId())
+                .updatedBy(event.creatorId())
+                .createdAt(event.createdAt())
+                .updatedAt(event.createdAt())
+                .build();
         questionRepositoryPort.save(question);
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionTranslationAddedEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> {
+                    Map<Language, QuestionContent> translations = new EnumMap<>(question.translations());
+                    translations.put(event.language(), new QuestionContent(event.text(), event.answers()));
+
+                    questionRepositoryPort.save(question.toBuilder()
+                            .translations(translations)
+                            .updatedBy(event.updatedBy())
+                            .updatedAt(event.updatedAt())
+                            .build());
+                });
     }
 
     @EventHandler

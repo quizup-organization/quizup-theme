@@ -2,7 +2,9 @@ package io.github.quizup.theme.infrastructure.config.seed;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.QuestionChoice;
+import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.infrastructure.properties.AppProperties;
 import org.slf4j.Logger;
@@ -146,6 +148,7 @@ public class SeedDataLoader {
                 throw new SeedDataValidationException("questions[" + i + "] is empty");
             }
             String context = "questions[" + i + "]";
+            Language sourceLanguage = parseLanguageOrDefault(raw.sourceLanguage(), context + ".sourceLanguage");
             String text = requireNonBlank(raw.text(), context + ".text");
             if (text.length() > MAX_QUESTION_TEXT_LENGTH) {
                 throw new SeedDataValidationException(context + ".text exceeds " + MAX_QUESTION_TEXT_LENGTH + " characters");
@@ -156,6 +159,7 @@ public class SeedDataLoader {
             if (!answers.containsKey(correctAnswer)) {
                 throw new SeedDataValidationException(context + ".correctAnswer must match one of the answers");
             }
+            Map<Language, QuestionContent> translations = validateTranslations(raw.translations(), sourceLanguage, context);
 
             QuestionIdentity identity = new QuestionIdentity(text, validateImageUrl(raw.imageUrl(), context + ".imageUrl"));
             Integer firstIndex = seenQuestions.putIfAbsent(identity, i);
@@ -164,14 +168,61 @@ public class SeedDataLoader {
                         context + ".text/.imageUrl is duplicated (same text and imageUrl as questions[" + firstIndex + "]): " + text);
             }
 
-            questions.add(new QuestionSeedDefinition(text, answers, correctAnswer, identity.imageUrl()));
+            questions.add(new QuestionSeedDefinition(
+                    sourceLanguage, text, answers, correctAnswer, identity.imageUrl(), translations));
         }
 
         return new TopicSeedDefinition(topicId, name, description, category, topicImageUrl, List.copyOf(questions));
     }
 
-    private Map<QuestionChoice, String> validateAnswers(Map<String, String> rawAnswers, String context) {
-        if (rawAnswers == null || rawAnswers.size() != QuestionChoice.values().length) {
+    private Map<Language, QuestionContent> validateTranslations(Map<String, RawSeedTranslation> rawTranslations,
+                                                                Language sourceLanguage,
+                                                                String context) {
+        if (rawTranslations == null || rawTranslations.isEmpty()) {
+            return Map.of();
+        }
+
+        Map<Language, QuestionContent> translations = new EnumMap<>(Language.class);
+        for (Map.Entry<String, RawSeedTranslation> entry : rawTranslations.entrySet()) {
+            String translationContext = context + ".translations." + entry.getKey();
+            Language language = parseLanguage(entry.getKey(), translationContext);
+            if (language == sourceLanguage) {
+                throw new SeedDataValidationException(
+                        translationContext + " is the source language of the question");
+            }
+            RawSeedTranslation raw = entry.getValue();
+            if (raw == null) {
+                throw new SeedDataValidationException(translationContext + " is empty");
+            }
+
+            String text = requireNonBlank(raw.text(), translationContext + ".text");
+            if (text.length() > MAX_QUESTION_TEXT_LENGTH) {
+                throw new SeedDataValidationException(
+                        translationContext + ".text exceeds " + MAX_QUESTION_TEXT_LENGTH + " characters");
+            }
+            translations.put(language, new QuestionContent(text, validateAnswers(raw.answers(), translationContext)));
+        }
+        return translations;
+    }
+
+    private Language parseLanguageOrDefault(String rawLanguage, String context) {
+        if (rawLanguage == null || rawLanguage.isBlank()) {
+            return Language.FR;
+        }
+        return parseLanguage(rawLanguage, context);
+    }
+
+    private Language parseLanguage(String rawLanguage, String context) {
+        String value = requireNonBlank(rawLanguage, context);
+        try {
+            return Language.fromCode(value);
+        } catch (RuntimeException e) {
+            throw new SeedDataValidationException(
+                    context + " '" + value + "' is invalid (allowed: fr, en)", e);
+        }
+    }
+
+    private Map<QuestionChoice, String> validateAnswers(Map<String, String> rawAnswers, String context) {        if (rawAnswers == null || rawAnswers.size() != QuestionChoice.values().length) {
             throw new SeedDataValidationException(
                     context + ".answers must define exactly the choices " + List.of(QuestionChoice.values()));
         }
@@ -239,6 +290,14 @@ public class SeedDataLoader {
     record RawSeedTopic(String id, String name, String description, String category, String imageUrl) {
     }
 
-    record RawSeedQuestion(String text, String imageUrl, Map<String, String> answers, String correctAnswer) {
+    record RawSeedQuestion(String sourceLanguage,
+                           String text,
+                           String imageUrl,
+                           Map<String, String> answers,
+                           String correctAnswer,
+                           Map<String, RawSeedTranslation> translations) {
+    }
+
+    record RawSeedTranslation(String text, Map<String, String> answers) {
     }
 }

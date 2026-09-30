@@ -39,6 +39,8 @@ exposée par le service.
 
 - `quizup-social` → `TopicRepositoryPort` → `TopicQuery.TopicExistsByIdQuery`
 - `quizup-game` → `QuestionRepositoryPort` → `QuestionQuery.GetRandomApprovedQuestionsQuery`
+  (la `Question` retournée porte **toutes ses traductions** ; le snapshot de duel est multilingue,
+  le client choisit sa langue)
 
 **Conso (événements)** : `quizup-theme-infrastructure` → `quizup-game-domain` (artifact Maven) —
 `QuestionDifficultyProjection` (`@EventHandler`) consomme `GameEvent.QuestionAnsweredEvent` du bus
@@ -79,14 +81,16 @@ lorsque la difficulté calculée change, la projection envoie une
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
   `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
-  `correctAnswer`, `imageUrl` optionnelle). Validation par `SeedDataLoader` : l'unicité de la paire
-  `(text, imageUrl)` est exigée par fichier (clé de réparation), un fichier invalide est loggé et
-  ignoré sans bloquer les autres.
+  `correctAnswer`, `imageUrl` optionnelle, `sourceLanguage` optionnelle (défaut `fr`),
+  `translations` optionnelle : `{ en: { text, answers } }`). Validation par `SeedDataLoader` :
+  l'unicité de la paire `(text, imageUrl)` est exigée par fichier (clé de réparation), une
+  traduction ne peut pas viser la langue source, un fichier invalide est loggé et ignoré sans
+  bloquer les autres.
 - **Seeder auto-réparateur** (`DataSeeder`) : thème absent → création + questions + approbation +
-  publication ; `PUBLISHED` → skip ; `DRAFT` → création des questions manquantes (clé stable =
-  `(text, imageUrl)`, les IDs de questions étant aléatoires), approbation des non-approuvées puis
-  publication ; `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées
-  par thème.
+  publication ; `PUBLISHED` → remplissage des traductions manquantes ; `DRAFT` → création des
+  questions manquantes (clé stable = `(text, imageUrl)`, les IDs de questions étant aléatoires),
+  approbation des non-approuvées, traductions manquantes puis publication ;
+  `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées par thème.
 - **Images externes libres de droit** (Wikimedia Commons, `Special:FilePath` + `?width=800`) :
   source et licence listées dans `src/main/resources/seed/CREDITS.md`. Aucun binaire dans le repo,
   aucune image sous copyright (logos, affiches, captures, personnages officiels exclus).

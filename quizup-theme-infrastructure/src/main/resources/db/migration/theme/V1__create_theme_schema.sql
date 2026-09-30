@@ -72,6 +72,7 @@ CREATE INDEX IF NOT EXISTS idx_topic_follower_ref_topic ON topic_follower_ref(to
 CREATE TABLE IF NOT EXISTS question_entry (
 	question_id VARCHAR(255) PRIMARY KEY,
 	topic_id VARCHAR(255) NOT NULL,
+	source_language VARCHAR(5) NOT NULL DEFAULT 'fr',
 	text VARCHAR(255) NOT NULL,
 	image_url VARCHAR(1024),
 	difficulty VARCHAR(255),
@@ -105,6 +106,35 @@ CREATE TABLE IF NOT EXISTS question_answer_entry (
 );
 
 CREATE INDEX IF NOT EXISTS idx_question_answer_entry_question_id ON question_answer_entry(question_id);
+
+-- Traductions (hors langue source, qui vit dans question_entry/question_answer_entry).
+CREATE TABLE IF NOT EXISTS question_translation (
+	id BIGSERIAL PRIMARY KEY,
+	question_id VARCHAR(255) NOT NULL,
+	language VARCHAR(5) NOT NULL,
+	text VARCHAR(255) NOT NULL,
+	CONSTRAINT fk_question_translation_question
+		FOREIGN KEY (question_id) REFERENCES question_entry(question_id) ON DELETE CASCADE,
+	CONSTRAINT uq_question_translation UNIQUE (question_id, language),
+	CONSTRAINT chk_question_translation_language CHECK (language IN ('fr', 'en')),
+	CONSTRAINT chk_question_translation_text_not_blank CHECK (char_length(trim(text)) > 0)
+);
+
+CREATE INDEX IF NOT EXISTS idx_question_translation_question ON question_translation(question_id);
+
+CREATE TABLE IF NOT EXISTS question_answer_translation (
+	translation_id BIGINT NOT NULL,
+	choice VARCHAR(1) NOT NULL,
+	answer_text VARCHAR(255) NOT NULL,
+	CONSTRAINT fk_question_answer_translation_translation
+		FOREIGN KEY (translation_id) REFERENCES question_translation(id) ON DELETE CASCADE,
+	CONSTRAINT pk_question_answer_translation PRIMARY KEY (translation_id, choice),
+	CONSTRAINT chk_question_answer_translation_choice CHECK (choice IN ('A', 'B', 'C', 'D')),
+	CONSTRAINT chk_question_answer_translation_text_not_blank CHECK (char_length(trim(answer_text)) > 0)
+);
+
+CREATE INDEX IF NOT EXISTS idx_question_answer_translation_translation
+	ON question_answer_translation(translation_id);
 
 CREATE TABLE IF NOT EXISTS question_answer_stats (
 	question_id VARCHAR(255) PRIMARY KEY,
@@ -153,7 +183,8 @@ COMMENT ON COLUMN topic_questions_counter.counter IS 'Nombre de questions avec c
 COMMENT ON TABLE question_entry IS 'Table des questions - projection read-only mise a jour via Event Handlers';
 COMMENT ON COLUMN question_entry.question_id IS 'Identifiant unique de la question';
 COMMENT ON COLUMN question_entry.topic_id IS 'Reference vers topic_entry';
-COMMENT ON COLUMN question_entry.text IS 'Texte de la question';
+COMMENT ON COLUMN question_entry.source_language IS 'Langue source du contenu (code ISO 639-1, defaut fr)';
+COMMENT ON COLUMN question_entry.text IS 'Texte de la question dans la langue source';
 COMMENT ON COLUMN question_entry.image_url IS 'URL externe optionnelle de l''illustration de la question';
 COMMENT ON COLUMN question_entry.difficulty IS 'Difficulte deduite du taux de bonnes reponses (EASY, MEDIUM, HARD, EXPERT), NULL tant que l''echantillon est insuffisant';
 COMMENT ON COLUMN question_entry.correct_answer IS 'Bonne reponse (A, B, C ou D)';
@@ -163,10 +194,18 @@ COMMENT ON COLUMN question_entry.created_at IS 'Date de creation de la question'
 COMMENT ON COLUMN question_entry.updated_by IS 'Identifiant du dernier acteur ayant modifie la question';
 COMMENT ON COLUMN question_entry.updated_at IS 'Date de derniere mise a jour de la question';
 
-COMMENT ON TABLE question_answer_entry IS 'Reponses possibles des questions (QCM)';
+COMMENT ON TABLE question_answer_entry IS 'Reponses possibles des questions (QCM) - langue source';
 COMMENT ON COLUMN question_answer_entry.question_id IS 'Reference vers question_entry';
 COMMENT ON COLUMN question_answer_entry.choice IS 'Choix de reponse (A, B, C ou D)';
-COMMENT ON COLUMN question_answer_entry.answer_text IS 'Texte de la reponse';
+COMMENT ON COLUMN question_answer_entry.answer_text IS 'Texte de la reponse (langue source)';
+
+COMMENT ON TABLE question_translation IS 'Traductions des questions (hors langue source)';
+COMMENT ON COLUMN question_translation.language IS 'Code ISO 639-1 de la traduction (fr, en)';
+COMMENT ON COLUMN question_translation.text IS 'Texte de la question traduit';
+
+COMMENT ON TABLE question_answer_translation IS 'Reponses possibles des questions traduites (QCM)';
+COMMENT ON COLUMN question_answer_translation.choice IS 'Choix de reponse (A, B, C ou D)';
+COMMENT ON COLUMN question_answer_translation.answer_text IS 'Texte de la reponse traduit';
 
 COMMENT ON TABLE question_answer_stats IS 'Compteurs de reponses par question (base du calcul de difficulte)';
 COMMENT ON COLUMN question_answer_stats.question_id IS 'Reference vers question_entry';

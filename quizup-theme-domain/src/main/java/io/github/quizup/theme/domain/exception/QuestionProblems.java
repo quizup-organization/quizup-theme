@@ -46,6 +46,23 @@ public final class QuestionProblems {
         }
     }
 
+    public static class QuestionTranslationLanguageMissingProblem extends QuestionProblem {
+        public QuestionTranslationLanguageMissingProblem(String questionId) {
+            super(questionId, "urn:quizup:question:translationLanguageMissing",
+                    "Translation language missing",
+                    "The translation language must be provided");
+        }
+    }
+
+    public static class QuestionTranslationIsSourceProblem extends QuestionProblem {
+        public QuestionTranslationIsSourceProblem(String questionId, Enum<?> language) {
+            super(questionId, "urn:quizup:question:translationIsSource",
+                    "Translation language is the source language",
+                    "The source language (" + language + ") cannot be added as a translation",
+                    Map.of("language", language.name()));
+        }
+    }
+
     public static class QuestionAlreadyApprovedProblem extends QuestionProblem {
         public QuestionAlreadyApprovedProblem(String questionId) {
             super(questionId, "urn:quizup:question:alreadyApproved",

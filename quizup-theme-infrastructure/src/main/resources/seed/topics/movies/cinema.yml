@@ -12,6 +12,14 @@ questions:
       C: "Abyss"
       D: "Terminator 2"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which 1997 James Cameron film tells the love story of Jack and Rose aboard an ocean liner?"
+        answers:
+          A: "Titanic"
+          B: "Avatar"
+          C: "The Abyss"
+          D: "Terminator 2"
   - text: "Qui a réalisé le film « Pulp Fiction » ?"
     answers:
       A: "Martin Scorsese"
@@ -19,6 +27,14 @@ questions:
       C: "David Fincher"
       D: "Steven Spielberg"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who directed the film \"Pulp Fiction\"?"
+        answers:
+          A: "Martin Scorsese"
+          B: "Quentin Tarantino"
+          C: "David Fincher"
+          D: "Steven Spielberg"
   - text: "Comment s'appelle la statuette remise lors de la cérémonie annuelle de récompenses du cinéma américain ?"
     answers:
       A: "Le César"
@@ -26,6 +42,14 @@ questions:
       C: "L'Oscar"
       D: "La Palme d'or"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the statuette awarded at the annual American film awards ceremony?"
+        answers:
+          A: "The César"
+          B: "The Golden Lion"
+          C: "The Oscar"
+          D: "The Palme d'Or"
   - text: "Quel acteur incarne Jack Sparrow dans la saga « Pirates des Caraïbes » ?"
     answers:
       A: "Orlando Bloom"
@@ -33,6 +57,14 @@ questions:
       C: "Tom Cruise"
       D: "Johnny Depp"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Jack Sparrow in the \"Pirates of the Caribbean\" saga?"
+        answers:
+          A: "Orlando Bloom"
+          B: "Brad Pitt"
+          C: "Tom Cruise"
+          D: "Johnny Depp"
   - text: "Dans quelle ville se déroule chaque année le célèbre festival remettant la Palme d'or ?"
     answers:
       A: "Cannes"
@@ -40,6 +72,14 @@ questions:
       C: "Berlin"
       D: "Deauville"
     correctAnswer: A
+    translations:
+      en:
+        text: "In which city is the famous festival awarding the Palme d'Or held every year?"
+        answers:
+          A: "Cannes"
+          B: "Venice"
+          C: "Berlin"
+          D: "Deauville"
   - text: "Quel réalisateur est à l'origine des films « Les Dents de la mer » et « E.T. » ?"
     answers:
       A: "George Lucas"
@@ -47,6 +87,14 @@ questions:
       C: "Steven Spielberg"
       D: "Francis Ford Coppola"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which director is behind the films \"Jaws\" and \"E.T.\"?"
+        answers:
+          A: "George Lucas"
+          B: "Ridley Scott"
+          C: "Steven Spielberg"
+          D: "Francis Ford Coppola"
   - text: "Quelle réplique célèbre est prononcée par Dark Vador dans « L'Empire contre-attaque » ?"
     answers:
       A: "« Que la Force soit avec toi »"
@@ -54,6 +102,14 @@ questions:
       C: "« Je reviendrai »"
       D: "« Bienvenue dans la jungle »"
     correctAnswer: B
+    translations:
+      en:
+        text: "What famous line is spoken by Darth Vader in \"The Empire Strikes Back\"?"
+        answers:
+          A: "\"May the Force be with you\""
+          B: "\"I am your father\""
+          C: "\"I'll be back\""
+          D: "\"Welcome to the jungle\""
   - text: "Quel film d'animation Pixar met en scène un cow-boy et un astronaute en jouets ?"
     answers:
       A: "Cars"
@@ -61,6 +117,14 @@ questions:
       C: "Monstres & Cie"
       D: "Ratatouille"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which Pixar animated film features a cowboy and a space ranger as toys?"
+        answers:
+          A: "Cars"
+          B: "Toy Story"
+          C: "Monsters, Inc."
+          D: "Ratatouille"
   - text: "Qui joue le rôle de Vito Corleone dans le film « Le Parrain » ?"
     answers:
       A: "Al Pacino"
@@ -68,6 +132,14 @@ questions:
       C: "Marlon Brando"
       D: "James Caan"
     correctAnswer: C
+    translations:
+      en:
+        text: "Who plays Vito Corleone in the film \"The Godfather\"?"
+        answers:
+          A: "Al Pacino"
+          B: "Robert De Niro"
+          C: "Marlon Brando"
+          D: "James Caan"
   - text: "Quel film de Christopher Nolan se déroule à l'intérieur des rêves, avec Leonardo DiCaprio ?"
     answers:
       A: "Interstellar"
@@ -75,6 +147,14 @@ questions:
       C: "Tenet"
       D: "Inception"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which Christopher Nolan film takes place inside dreams, starring Leonardo DiCaprio?"
+        answers:
+          A: "Interstellar"
+          B: "Memento"
+          C: "Tenet"
+          D: "Inception"
   - text: "Comment s'appelle le sorcier gris incarné par Ian McKellen dans « Le Seigneur des anneaux » ?"
     answers:
       A: "Gandalf"
@@ -82,6 +162,14 @@ questions:
       C: "Radagast"
       D: "Elrond"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the grey wizard played by Ian McKellen in \"The Lord of the Rings\"?"
+        answers:
+          A: "Gandalf"
+          B: "Saruman"
+          C: "Radagast"
+          D: "Elrond"
   - text: "Quel réalisateur français a signé « Le Fabuleux Destin d'Amélie Poulain » ?"
     answers:
       A: "Luc Besson"
@@ -89,6 +177,14 @@ questions:
       C: "François Truffaut"
       D: "Michel Gondry"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which French director made \"Amélie\"?"
+        answers:
+          A: "Luc Besson"
+          B: "Jean-Pierre Jeunet"
+          C: "François Truffaut"
+          D: "Michel Gondry"
   - text: "Quel film de 1994 met en scène Tom Hanks assis sur un banc, racontant sa vie et ses courses ?"
     answers:
       A: "Seul au monde"
@@ -96,6 +192,14 @@ questions:
       C: "Forrest Gump"
       D: "La Ligne verte"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which 1994 film features Tom Hanks sitting on a bench, telling his life story and his runs?"
+        answers:
+          A: "Cast Away"
+          B: "Saving Private Ryan"
+          C: "Forrest Gump"
+          D: "The Green Mile"
   - text: "Quel est le nom du studio d'animation japonais fondé par Hayao Miyazaki ?"
     answers:
       A: "Toei Animation"
@@ -103,6 +207,14 @@ questions:
       C: "Sunrise"
       D: "Studio Ghibli"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Japanese animation studio founded by Hayao Miyazaki?"
+        answers:
+          A: "Toei Animation"
+          B: "Madhouse"
+          C: "Sunrise"
+          D: "Studio Ghibli"
   - text: "Quel acteur incarne Iron Man dans l'univers cinématographique Marvel ?"
     answers:
       A: "Robert Downey Jr."
@@ -110,6 +222,14 @@ questions:
       C: "Chris Hemsworth"
       D: "Mark Ruffalo"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Iron Man in the Marvel Cinematic Universe?"
+        answers:
+          A: "Robert Downey Jr."
+          B: "Chris Evans"
+          C: "Chris Hemsworth"
+          D: "Mark Ruffalo"
   - text: "Dans quel film entend-on la phrase « Houston, nous avons un problème » ?"
     answers:
       A: "Gravity"
@@ -117,6 +237,14 @@ questions:
       C: "Armageddon"
       D: "Seul sur Mars"
     correctAnswer: B
+    translations:
+      en:
+        text: "In which film is the line \"Houston, we have a problem\" heard?"
+        answers:
+          A: "Gravity"
+          B: "Apollo 13"
+          C: "Armageddon"
+          D: "The Martian"
   - text: "Quel réalisateur est célèbre pour ses films noirs en costume comme « Psychose » et « Les Oiseaux » ?"
     answers:
       A: "Orson Welles"
@@ -124,6 +252,14 @@ questions:
       C: "Alfred Hitchcock"
       D: "Stanley Kubrick"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which director is famous for his dark, suited thrillers such as \"Psycho\" and \"The Birds\"?"
+        answers:
+          A: "Orson Welles"
+          B: "Billy Wilder"
+          C: "Alfred Hitchcock"
+          D: "Stanley Kubrick"
   - text: "Quel film de 2019, réalisé par Bong Joon-ho, a remporté l'Oscar du meilleur film ?"
     answers:
       A: "Joker"
@@ -131,6 +267,14 @@ questions:
       C: "Once Upon a Time... in Hollywood"
       D: "Parasite"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which 2019 film, directed by Bong Joon-ho, won the Oscar for Best Picture?"
+        answers:
+          A: "Joker"
+          B: "1917"
+          C: "Once Upon a Time... in Hollywood"
+          D: "Parasite"
   - text: "Quel personnage de fiction porte un chapeau melon et tient un rôle de pilier de la comédie muette de Charlie Chaplin ?"
     answers:
       A: "Charlot"
@@ -138,3 +282,11 @@ questions:
       C: "Harold"
       D: "Fatty"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which fictional character wears a bowler hat and is a pillar of Charlie Chaplin's silent comedy?"
+        answers:
+          A: "The Tramp"
+          B: "Buster"
+          C: "Harold"
+          D: "Fatty"

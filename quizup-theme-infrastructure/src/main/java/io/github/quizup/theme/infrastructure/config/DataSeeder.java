@@ -1,12 +1,16 @@
 package io.github.quizup.theme.infrastructure.config;
 
 import io.github.quizup.microservice.core.domain.constant.QuizUpConstants;
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
+import io.github.quizup.theme.domain.command.QuestionCommand;
 import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.exception.TopicProblems;
 import io.github.quizup.theme.domain.model.Question;
+import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicStatus;
+import io.github.quizup.theme.domain.port.in.AddQuestionTranslationUseCase;
 import io.github.quizup.theme.domain.port.in.ApproveQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.CheckTopicUseCase;
 import io.github.quizup.theme.domain.port.in.CreateQuestionUseCase;
@@ -65,6 +69,7 @@ public class DataSeeder {
     private final CheckTopicUseCase checkTopicUseCase;
     private final CreateTopicUseCase createTopicUseCase;
     private final CreateQuestionUseCase createQuestionUseCase;
+    private final AddQuestionTranslationUseCase addQuestionTranslationUseCase;
     private final ApproveQuestionUseCase approveQuestionUseCase;
     private final PublishTopicUseCase publishTopicUseCase;
     private final GetTopicUseCase getTopicUseCase;
@@ -75,6 +80,7 @@ public class DataSeeder {
     public DataSeeder(CheckTopicUseCase checkTopicUseCase,
                       CreateTopicUseCase createTopicUseCase,
                       CreateQuestionUseCase createQuestionUseCase,
+                      AddQuestionTranslationUseCase addQuestionTranslationUseCase,
                       ApproveQuestionUseCase approveQuestionUseCase,
                       PublishTopicUseCase publishTopicUseCase,
                       GetTopicUseCase getTopicUseCase,
@@ -84,6 +90,7 @@ public class DataSeeder {
         this.checkTopicUseCase = checkTopicUseCase;
         this.createTopicUseCase = createTopicUseCase;
         this.createQuestionUseCase = createQuestionUseCase;
+        this.addQuestionTranslationUseCase = addQuestionTranslationUseCase;
         this.approveQuestionUseCase = approveQuestionUseCase;
         this.publishTopicUseCase = publishTopicUseCase;
         this.getTopicUseCase = getTopicUseCase;
@@ -164,28 +171,43 @@ public class DataSeeder {
         }
 
         Topic topic = awaitTopic(topicId);
-        if (topic.status() == TopicStatus.PUBLISHED) {
-            logger.info("Topic {} is already published, skipping", topicId);
-            return TopicSeedOutcome.SKIPPED;
-        }
         if (topic.status() == TopicStatus.ARCHIVED) {
             logger.warn("Topic {} is archived, skipping", topicId);
             return TopicSeedOutcome.SKIPPED;
         }
 
         Map<QuestionIdentity, Question> existingByIdentity = findQuestionsByIdentity(topicId);
+
+        if (topic.status() == TopicStatus.PUBLISHED) {
+            int translationsAdded = 0;
+            for (QuestionSeedDefinition question : definition.questions()) {
+                Question existing = existingByIdentity.get(QuestionIdentity.of(question));
+                if (existing != null) {
+                    translationsAdded += addMissingTranslations(existing, question);
+                }
+            }
+            logger.info("Topic {} is already published ({} translation(s) added)", topicId, translationsAdded);
+            return translationsAdded > 0 ? TopicSeedOutcome.REPAIRED : TopicSeedOutcome.SKIPPED;
+        }
+
         int createdQuestions = 0;
         int approvedQuestions = 0;
+        int translationsAdded = 0;
 
         for (QuestionSeedDefinition question : definition.questions()) {
             Question existing = existingByIdentity.remove(QuestionIdentity.of(question));
             if (existing == null) {
-                if (createQuestion(topicId, question)) {
+                String questionId = createQuestion(topicId, question);
+                if (questionId != null) {
                     createdQuestions++;
+                    translationsAdded += addTranslations(questionId, question);
                 }
-            } else if (existing.status() != QuestionStatus.APPROVED) {
-                approveQuestion(existing.questionId());
-                approvedQuestions++;
+            } else {
+                if (existing.status() != QuestionStatus.APPROVED) {
+                    approveQuestion(existing.questionId());
+                    approvedQuestions++;
+                }
+                translationsAdded += addMissingTranslations(existing, question);
             }
         }
 
@@ -202,23 +224,24 @@ public class DataSeeder {
             }
         }
 
-        logger.info("Seeded topic '{}' ({}): {} question(s) created, {} question(s) approved",
-                definition.name(), topicId, createdQuestions, approvedQuestions);
+        logger.info("Seeded topic '{}' ({}): {} question(s) created, {} question(s) approved, {} translation(s) added",
+                definition.name(), topicId, createdQuestions, approvedQuestions, translationsAdded);
 
         if (createdTopic) {
             return TopicSeedOutcome.CREATED;
         }
-        return createdQuestions > 0 || approvedQuestions > 0
+        return createdQuestions > 0 || approvedQuestions > 0 || translationsAdded > 0
                 ? TopicSeedOutcome.REPAIRED
                 : TopicSeedOutcome.SKIPPED;
     }
 
-    private boolean createQuestion(String topicId, QuestionSeedDefinition question) {
+    private String createQuestion(String topicId, QuestionSeedDefinition question) {
         String questionId = UUID.randomUUID().toString();
         try {
             createQuestionUseCase.createAndWait(
                     questionId,
                     topicId,
+                    question.sourceLanguage(),
                     question.text(),
                     question.answers(),
                     question.correctAnswer(),
@@ -229,11 +252,42 @@ public class DataSeeder {
             if (!isAggregateAlreadyExists(e)) {
                 throw e;
             }
-            return false;
+            return null;
         }
 
         approveQuestion(questionId);
-        return true;
+        return questionId;
+    }
+
+    private int addTranslations(String questionId, QuestionSeedDefinition question) {
+        int added = 0;
+        for (Map.Entry<Language, QuestionContent> translation : question.translations().entrySet()) {
+            addTranslation(questionId, translation.getKey(), translation.getValue());
+            added++;
+        }
+        return added;
+    }
+
+    private int addMissingTranslations(Question existing, QuestionSeedDefinition question) {
+        int added = 0;
+        for (Map.Entry<Language, QuestionContent> translation : question.translations().entrySet()) {
+            if (existing.translations().containsKey(translation.getKey())) {
+                continue;
+            }
+            addTranslation(existing.questionId(), translation.getKey(), translation.getValue());
+            added++;
+        }
+        return added;
+    }
+
+    private void addTranslation(String questionId, Language language, QuestionContent content) {
+        addQuestionTranslationUseCase.add(new QuestionCommand.AddQuestionTranslationCommand(
+                questionId,
+                language,
+                content.text(),
+                content.answers(),
+                QuizUpConstants.SYSTEM_USER_ID
+        )).join();
     }
 
     private void approveQuestion(String questionId) {

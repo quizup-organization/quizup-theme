@@ -1,5 +1,6 @@
 package io.github.quizup.theme.infrastructure.config.seed;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
@@ -48,6 +49,23 @@ class SeedDataLoaderTest {
                     .extracting(QuestionSeedDefinition::imageUrl)
                     .filteredOn(Objects::nonNull)
                     .allSatisfy(url -> assertThat(url).startsWith("http"));
+        });
+    }
+
+    @Test
+    void parsesEnglishTranslationsOfPilotTopic() {
+        TopicSeedDefinition cinema = loader.loadAll().stream()
+                .filter(definition -> "topic-cinema".equals(definition.topicId()))
+                .findFirst()
+                .orElseThrow();
+
+        assertThat(cinema.questions()).allSatisfy(question -> {
+            assertThat(question.sourceLanguage()).isEqualTo(Language.FR);
+            assertThat(question.translations()).containsKey(Language.EN);
+            assertThat(question.translations().get(Language.EN).text()).isNotBlank();
+            assertThat(question.translations().get(Language.EN).answers())
+                    .hasSize(4)
+                    .containsKey(question.correctAnswer());
         });
     }
 
