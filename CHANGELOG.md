@@ -1,3 +1,13 @@
+## [4.0.0](https://github.com/quizup-organization/quizup-theme/compare/v3.0.0...v4.0.0) (2026-09-30)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** Question carries a Map<Language, QuestionContent> contents (no sourceLanguage); CreateQuestionCommand takes localized contents; V1 migration normalized (question_content/question_answer_content); GetRandomApprovedQuestionsQuery filters strictly on required languages; new count query for availability guards.
+
+### Code Refactoring
+
+* **theme:** normalized contents map without source language and strict language selection ([dd47783](https://github.com/quizup-organization/quizup-theme/commit/dd47783e2942f0423e28874bf7ceabf6196f4fac))
+
 ## [3.0.0](https://github.com/quizup-organization/quizup-theme/compare/v2.3.0...v3.0.0) (2026-09-30)
 
 ### ⚠ BREAKING CHANGES
