@@ -1,3 +1,13 @@
+## [3.0.0](https://github.com/quizup-organization/quizup-theme/compare/v2.3.0...v3.0.0) (2026-09-30)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** Question carries sourceLanguage + translations; QuestionCreatedEvent and query models changed; V1 migration edited (DB reset required); seed schema supports translations; GetRandomApprovedQuestionsQuery returns all translations.
+
+### Features
+
+* **theme:** multilingual questions with translations snapshot ([a69e363](https://github.com/quizup-organization/quizup-theme/commit/a69e36387fb9a5ded7247eb02c5badbbe3e3009f))
+
 ## [2.3.0](https://github.com/quizup-organization/quizup-theme/compare/v2.2.2...v2.3.0) (2026-09-28)
 
 ### Features
