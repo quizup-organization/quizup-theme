@@ -10,12 +10,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.Instant;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
- * QuestionEntity - Entité JPA pour la projection read-only des questions
- * Mise à jour via les Event Handlers (projection)
+ * QuestionEntity - Entité JPA de la projection read-only des questions (métadonnées seules ;
+ * les contenus localisés vivent dans {@code question_content}).
  */
 @Setter
 @Getter
@@ -36,23 +34,9 @@ public class QuestionEntity {
     @Column(name = "topic_id", length = 255, nullable = false)
     private String topicId;
 
-    /** Code ISO 639-1 de la langue source du contenu (les traductions vivent dans question_translation). */
-    @Column(name = "source_language", length = 5, nullable = false)
-    private String sourceLanguage;
-
-    @Column(name = "text", length = 255, nullable = false)
-    private String text;
-
     /** Illustration optionnelle : URL externe (http/https), longueur max 1024. */
     @Column(name = "image_url", length = 1024)
     private String imageUrl;
-
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name = "question_answer_entry", joinColumns = @JoinColumn(name = "question_id"))
-    @MapKeyEnumerated(EnumType.STRING)
-    @MapKeyColumn(name = "choice")
-    @Column(name = "answer_text", length = 255, nullable = false)
-    private Map<QuestionChoice, String> answers = new HashMap<>();
 
     @Enumerated(EnumType.STRING)
     @Column(name = "correct_answer", nullable = false)
@@ -86,4 +70,3 @@ public class QuestionEntity {
     private Instant updatedAt;
 
 }
-

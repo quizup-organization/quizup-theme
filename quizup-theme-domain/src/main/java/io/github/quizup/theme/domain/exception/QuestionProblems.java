@@ -1,6 +1,7 @@
 package io.github.quizup.theme.domain.exception;
 
 import io.github.quizup.microservice.core.domain.exception.ProblemCategory;
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 
 import java.util.Map;
 
@@ -46,20 +47,20 @@ public final class QuestionProblems {
         }
     }
 
-    public static class QuestionTranslationLanguageMissingProblem extends QuestionProblem {
-        public QuestionTranslationLanguageMissingProblem(String questionId) {
-            super(questionId, "urn:quizup:question:translationLanguageMissing",
-                    "Translation language missing",
-                    "The translation language must be provided");
+    public static class QuestionContentsEmptyProblem extends QuestionProblem {
+        public QuestionContentsEmptyProblem(String questionId) {
+            super(questionId, "urn:quizup:question:contentsEmpty",
+                    "Question contents are required",
+                    "A question must have at least one localized content");
         }
     }
 
-    public static class QuestionTranslationIsSourceProblem extends QuestionProblem {
-        public QuestionTranslationIsSourceProblem(String questionId, Enum<?> language) {
-            super(questionId, "urn:quizup:question:translationIsSource",
-                    "Translation language is the source language",
-                    "The source language (" + language + ") cannot be added as a translation",
-                    Map.of("language", language.name()));
+    public static class QuestionContentLanguageMismatchProblem extends QuestionProblem {
+        public QuestionContentLanguageMismatchProblem(String questionId, Language key, Language contentLanguage) {
+            super(questionId, "urn:quizup:question:languageMismatch",
+                    "Content language mismatch",
+                    "The content language must match its map key",
+                    Map.of("key", String.valueOf(key), "contentLanguage", String.valueOf(contentLanguage)));
         }
     }
 

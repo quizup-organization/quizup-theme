@@ -1,7 +1,7 @@
 package io.github.quizup.theme.application.service;
 
 import io.github.quizup.theme.domain.command.QuestionCommand;
-import io.github.quizup.theme.domain.port.in.AddQuestionTranslationUseCase;
+import io.github.quizup.theme.domain.port.in.AddQuestionTranslationsUseCase;
 import io.github.quizup.theme.domain.port.in.ApproveQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.CreateQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.RejectQuestionUseCase;
@@ -12,7 +12,7 @@ import java.util.concurrent.CompletableFuture;
 
 @Service
 public class QuestionCommandService implements CreateQuestionUseCase, ApproveQuestionUseCase, RejectQuestionUseCase,
-        AddQuestionTranslationUseCase {
+        AddQuestionTranslationsUseCase {
 
     private final CommandGateway commandGateway;
 
@@ -27,7 +27,7 @@ public class QuestionCommandService implements CreateQuestionUseCase, ApproveQue
     }
 
     @Override
-    public CompletableFuture<String> add(QuestionCommand.AddQuestionTranslationCommand command) {
+    public CompletableFuture<String> add(QuestionCommand.AddQuestionTranslationsCommand command) {
         return commandGateway.send(command);
     }
 
@@ -40,4 +40,3 @@ public class QuestionCommandService implements CreateQuestionUseCase, ApproveQue
         return commandGateway.send(command);
     }
 }
-

@@ -2,6 +2,7 @@ package io.github.quizup.theme.domain.command;
 
 import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.QuestionChoice;
+import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
@@ -11,40 +12,25 @@ public interface QuestionCommand {
     String questionId();
 
     /**
-     * Commande pour ajouter une question à un thème, avec sa langue source.
+     * Commande pour ajouter une question à un thème, avec un contenu par langue
+     * (français, anglais, ou les deux).
      */
     record CreateQuestionCommand(
             @TargetAggregateIdentifier String questionId,
             String topicId,
-            Language sourceLanguage,
-            String text,
-            Map<QuestionChoice, String> answers,
+            Map<Language, QuestionContent> contents,
             QuestionChoice correctAnswer,
             String imageUrl,
             String creatorId
     ) implements QuestionCommand {
-
-        /** Compatibilité : source en français par défaut. */
-        public CreateQuestionCommand(String questionId,
-                                     String topicId,
-                                     String text,
-                                     Map<QuestionChoice, String> answers,
-                                     QuestionChoice correctAnswer,
-                                     String imageUrl,
-                                     String creatorId) {
-            this(questionId, topicId, Language.FR, text, answers, correctAnswer, imageUrl, creatorId);
-        }
     }
 
     /**
-     * Commande d'ajout (ou remplacement) d'une traduction de question. La langue source ne peut
-     * pas être traduite : elle est portée par la création.
+     * Commande d'ajout (ou remplacement) de contenus localisés d'une question existante.
      */
-    record AddQuestionTranslationCommand(
+    record AddQuestionTranslationsCommand(
             @TargetAggregateIdentifier String questionId,
-            Language language,
-            String text,
-            Map<QuestionChoice, String> answers,
+            Map<Language, QuestionContent> contents,
             String updatedBy
     ) implements QuestionCommand {
     }

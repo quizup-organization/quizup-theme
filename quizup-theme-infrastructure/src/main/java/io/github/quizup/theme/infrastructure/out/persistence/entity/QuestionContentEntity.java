@@ -5,6 +5,7 @@ import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -21,16 +22,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Traduction d'une question (hors langue source) : texte + réponses A-D.
- * La langue source vit dans {@code question_entry} / {@code question_answer_entry}.
+ * Contenu localisé d'une question (une ligne par langue disponible : fr, en).
+ * La disponibilité d'une langue pour une question = présence de la ligne (question_id, language).
  */
 @Setter
 @Getter
 @Entity
-@Table(name = "question_translation", uniqueConstraints = {
-        @UniqueConstraint(name = "uq_question_translation", columnNames = {"question_id", "language"})
+@Table(name = "question_content", uniqueConstraints = {
+        @UniqueConstraint(name = "uq_question_content", columnNames = {"question_id", "language"})
 })
-public class QuestionTranslationEntity {
+public class QuestionContentEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -48,9 +49,9 @@ public class QuestionTranslationEntity {
     private String text;
 
     @ElementCollection(fetch = FetchType.LAZY)
-    @CollectionTable(name = "question_answer_translation",
-            joinColumns = @JoinColumn(name = "translation_id"))
-    @MapKeyEnumerated(jakarta.persistence.EnumType.STRING)
+    @CollectionTable(name = "question_answer_content",
+            joinColumns = @JoinColumn(name = "content_id"))
+    @MapKeyEnumerated(EnumType.STRING)
     @MapKeyColumn(name = "choice")
     @Column(name = "answer_text", length = 255, nullable = false)
     private Map<QuestionChoice, String> answers = new HashMap<>();

@@ -3,6 +3,7 @@ package io.github.quizup.theme.domain.event;
 
 import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.QuestionChoice;
+import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 
@@ -13,14 +14,12 @@ public interface QuestionEvent {
     String questionId();
 
     /**
-     * Événement émis lors de l'ajout d'une question à un thème (contenu source).
+     * Événement émis lors de l'ajout d'une question à un thème (un contenu par langue fournie).
      */
     record QuestionCreatedEvent(
             String questionId,
             String topicId,
-            Language sourceLanguage,
-            String text,
-            Map<QuestionChoice, String> answers,
+            Map<Language, QuestionContent> contents,
             QuestionChoice correctAnswer,
             String imageUrl,
             String creatorId,
@@ -29,13 +28,11 @@ public interface QuestionEvent {
     }
 
     /**
-     * Événement émis lors de l'ajout (ou du remplacement) d'une traduction de question.
+     * Événement émis lors de l'ajout (ou du remplacement) de contenus localisés.
      */
-    record QuestionTranslationAddedEvent(
+    record QuestionTranslationsAddedEvent(
             String questionId,
-            Language language,
-            String text,
-            Map<QuestionChoice, String> answers,
+            Map<Language, QuestionContent> contents,
             String updatedBy,
             Instant updatedAt
     ) implements QuestionEvent {

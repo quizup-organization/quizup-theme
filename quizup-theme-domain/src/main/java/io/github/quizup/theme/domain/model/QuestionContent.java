@@ -1,5 +1,7 @@
 package io.github.quizup.theme.domain.model;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
+
 import java.util.Map;
 
 /**
@@ -8,6 +10,7 @@ import java.util.Map;
  * entre les langues.
  */
 public record QuestionContent(
+        Language language,
         String text,
         Map<QuestionChoice, String> answers
 ) {

@@ -32,7 +32,12 @@ public class QuestionQueryHandler {
 
     @QueryHandler
     public List<Question> handle(QuestionQuery.GetRandomApprovedQuestionsQuery query) {
-        return questionRepositoryPort.findRandomApprovedByTopicId(query.topicId(), query.count());
+        return questionRepositoryPort.findRandomApprovedByTopicId(query.topicId(), query.count(), query.languages());
+    }
+
+    @QueryHandler
+    public Integer handle(QuestionQuery.CountApprovedQuestionsByTopicAndLanguagesQuery query) {
+        return questionRepositoryPort.countApprovedByTopicAndLanguages(query.topicId(), query.languages());
     }
 
     @QueryHandler

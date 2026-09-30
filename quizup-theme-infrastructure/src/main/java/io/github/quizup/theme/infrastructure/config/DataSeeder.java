@@ -10,7 +10,7 @@ import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicStatus;
-import io.github.quizup.theme.domain.port.in.AddQuestionTranslationUseCase;
+import io.github.quizup.theme.domain.port.in.AddQuestionTranslationsUseCase;
 import io.github.quizup.theme.domain.port.in.ApproveQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.CheckTopicUseCase;
 import io.github.quizup.theme.domain.port.in.CreateQuestionUseCase;
@@ -30,6 +30,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.stereotype.Component;
 
+import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -69,7 +70,7 @@ public class DataSeeder {
     private final CheckTopicUseCase checkTopicUseCase;
     private final CreateTopicUseCase createTopicUseCase;
     private final CreateQuestionUseCase createQuestionUseCase;
-    private final AddQuestionTranslationUseCase addQuestionTranslationUseCase;
+    private final AddQuestionTranslationsUseCase addQuestionTranslationsUseCase;
     private final ApproveQuestionUseCase approveQuestionUseCase;
     private final PublishTopicUseCase publishTopicUseCase;
     private final GetTopicUseCase getTopicUseCase;
@@ -80,7 +81,7 @@ public class DataSeeder {
     public DataSeeder(CheckTopicUseCase checkTopicUseCase,
                       CreateTopicUseCase createTopicUseCase,
                       CreateQuestionUseCase createQuestionUseCase,
-                      AddQuestionTranslationUseCase addQuestionTranslationUseCase,
+                      AddQuestionTranslationsUseCase addQuestionTranslationsUseCase,
                       ApproveQuestionUseCase approveQuestionUseCase,
                       PublishTopicUseCase publishTopicUseCase,
                       GetTopicUseCase getTopicUseCase,
@@ -90,7 +91,7 @@ public class DataSeeder {
         this.checkTopicUseCase = checkTopicUseCase;
         this.createTopicUseCase = createTopicUseCase;
         this.createQuestionUseCase = createQuestionUseCase;
-        this.addQuestionTranslationUseCase = addQuestionTranslationUseCase;
+        this.addQuestionTranslationsUseCase = addQuestionTranslationsUseCase;
         this.approveQuestionUseCase = approveQuestionUseCase;
         this.publishTopicUseCase = publishTopicUseCase;
         this.getTopicUseCase = getTopicUseCase;
@@ -200,7 +201,6 @@ public class DataSeeder {
                 String questionId = createQuestion(topicId, question);
                 if (questionId != null) {
                     createdQuestions++;
-                    translationsAdded += addTranslations(questionId, question);
                 }
             } else {
                 if (existing.status() != QuestionStatus.APPROVED) {
@@ -241,9 +241,7 @@ public class DataSeeder {
             createQuestionUseCase.createAndWait(
                     questionId,
                     topicId,
-                    question.sourceLanguage(),
-                    question.text(),
-                    question.answers(),
+                    question.contents(),
                     question.correctAnswer(),
                     question.imageUrl(),
                     QuizUpConstants.SYSTEM_USER_ID
@@ -259,35 +257,23 @@ public class DataSeeder {
         return questionId;
     }
 
-    private int addTranslations(String questionId, QuestionSeedDefinition question) {
-        int added = 0;
-        for (Map.Entry<Language, QuestionContent> translation : question.translations().entrySet()) {
-            addTranslation(questionId, translation.getKey(), translation.getValue());
-            added++;
-        }
-        return added;
-    }
-
     private int addMissingTranslations(Question existing, QuestionSeedDefinition question) {
-        int added = 0;
-        for (Map.Entry<Language, QuestionContent> translation : question.translations().entrySet()) {
-            if (existing.translations().containsKey(translation.getKey())) {
-                continue;
+        Map<Language, QuestionContent> missing = new EnumMap<>(Language.class);
+        for (Map.Entry<Language, QuestionContent> content : question.contents().entrySet()) {
+            if (!existing.contents().containsKey(content.getKey())) {
+                missing.put(content.getKey(), content.getValue());
             }
-            addTranslation(existing.questionId(), translation.getKey(), translation.getValue());
-            added++;
         }
-        return added;
-    }
+        if (missing.isEmpty()) {
+            return 0;
+        }
 
-    private void addTranslation(String questionId, Language language, QuestionContent content) {
-        addQuestionTranslationUseCase.add(new QuestionCommand.AddQuestionTranslationCommand(
-                questionId,
-                language,
-                content.text(),
-                content.answers(),
+        addQuestionTranslationsUseCase.add(new QuestionCommand.AddQuestionTranslationsCommand(
+                existing.questionId(),
+                missing,
                 QuizUpConstants.SYSTEM_USER_ID
         )).join();
+        return missing.size();
     }
 
     private void approveQuestion(String questionId) {

@@ -5,17 +5,18 @@ import lombok.Builder;
 
 import java.time.Instant;
 import java.util.Map;
+import java.util.Set;
 
 /**
- * Modèle domaine d'une question multilingue : un contenu source
- * ({@link #sourceLanguage()}) et ses traductions ({@link #translations()}, source incluse).
+ * Modèle domaine d'une question multilingue : un contenu par langue disponible
+ * ({@link #contents()}), sans langue source explicite. Le repli de lecture est déterministe :
+ * langue demandée, puis français, puis anglais, puis premier contenu disponible.
  */
 @Builder(toBuilder = true)
 public record Question(
         String questionId,
         String topicId,
-        Language sourceLanguage,
-        Map<Language, QuestionContent> translations,
+        Map<Language, QuestionContent> contents,
         String imageUrl,
         QuestionChoice correctAnswer,
         QuestionStatus status,
@@ -26,22 +27,39 @@ public record Question(
         Instant updatedAt
 ) {
 
-    /**
-     * Contenu dans la langue demandée, avec repli sur la langue source si la traduction
-     * n'existe pas encore.
-     */
+    /** Langues pour lesquelles un contenu est disponible. */
+    public Set<Language> availableLanguages() {
+        return Set.copyOf(contents.keySet());
+    }
+
+    public boolean hasLanguage(Language language) {
+        return contents.containsKey(language);
+    }
+
+    /** Contenu dans la langue demandée, avec repli déterministe (FR, puis EN, puis premier). */
     public QuestionContent content(Language language) {
-        QuestionContent content = translations.get(language);
-        return content != null ? content : translations.get(sourceLanguage);
+        QuestionContent content = contents.get(language);
+        if (content != null) {
+            return content;
+        }
+        content = contents.get(Language.FR);
+        if (content != null) {
+            return content;
+        }
+        content = contents.get(Language.EN);
+        if (content != null) {
+            return content;
+        }
+        return contents.values().iterator().next();
     }
 
-    /** Texte dans la langue source (compatibilité lecture). */
+    /** Texte de repli (FR prioritaire), utilisé par les vues historiques. */
     public String text() {
-        return content(sourceLanguage).text();
+        return content(Language.FR).text();
     }
 
-    /** Réponses dans la langue source (compatibilité lecture). */
+    /** Réponses de repli (FR prioritaire), utilisées par les vues historiques. */
     public Map<QuestionChoice, String> answers() {
-        return content(sourceLanguage).answers();
+        return content(Language.FR).answers();
     }
 }

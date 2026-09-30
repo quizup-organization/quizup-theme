@@ -38,9 +38,11 @@ exposée par le service.
 **Aucune dépendance sortante** au niveau contrat (queries). Theme est un **fournisseur** :
 
 - `quizup-social` → `TopicRepositoryPort` → `TopicQuery.TopicExistsByIdQuery`
-- `quizup-game` → `QuestionRepositoryPort` → `QuestionQuery.GetRandomApprovedQuestionsQuery`
-  (la `Question` retournée porte **toutes ses traductions** ; le snapshot de duel est multilingue,
-  le client choisit sa langue)
+- `quizup-game` → `QuestionRepositoryPort` → `QuestionQuery.GetRandomApprovedQuestionsQuery(topicId, count, languages)`
+  (sélection **stricte** : la question doit avoir un contenu dans **toutes** les langues demandées ;
+  la `Question` retournée porte ses contenus localisés, le client choisit le sien)
+- `quizup-matchmaking` / `quizup-social` → `QuestionQuery.CountApprovedQuestionsByTopicAndLanguagesQuery`
+  (gardes de disponibilité linguistique avant d'ouvrir/apparier/valider un duel)
 
 **Conso (événements)** : `quizup-theme-infrastructure` → `quizup-game-domain` (artifact Maven) —
 `QuestionDifficultyProjection` (`@EventHandler`) consomme `GameEvent.QuestionAnsweredEvent` du bus
@@ -81,11 +83,11 @@ lorsque la difficulté calculée change, la projection envoie une
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
   `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
-  `correctAnswer`, `imageUrl` optionnelle, `sourceLanguage` optionnelle (défaut `fr`),
-  `translations` optionnelle : `{ en: { text, answers } }`). Validation par `SeedDataLoader` :
-  l'unicité de la paire `(text, imageUrl)` est exigée par fichier (clé de réparation), une
-  traduction ne peut pas viser la langue source, un fichier invalide est loggé et ignoré sans
-  bloquer les autres.
+  `correctAnswer`, `imageUrl` optionnelle, `translations` optionnelle : `{ en: { text, answers } }`).
+  Le texte de premier niveau est **le contenu français** ; `translations` porte les autres langues
+  (pas de langue source explicite). Validation par `SeedDataLoader` : l'unicité de la paire
+  `(text, imageUrl)` est exigée par fichier (clé de réparation), une traduction `fr` est refusée,
+  un fichier invalide est loggé et ignoré sans bloquer les autres.
 - **Seeder auto-réparateur** (`DataSeeder`) : thème absent → création + questions + approbation +
   publication ; `PUBLISHED` → remplissage des traductions manquantes ; `DRAFT` → création des
   questions manquantes (clé stable = `(text, imageUrl)`, les IDs de questions étant aléatoires),

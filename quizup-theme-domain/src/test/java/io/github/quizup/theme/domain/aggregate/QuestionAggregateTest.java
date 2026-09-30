@@ -6,11 +6,13 @@ import io.github.quizup.theme.domain.command.QuestionCommand;
 import io.github.quizup.theme.domain.event.QuestionEvent;
 import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.model.QuestionChoice;
+import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import org.axonframework.test.aggregate.AggregateTestFixture;
 import org.junit.jupiter.api.Test;
 
 import java.time.Instant;
+import java.util.EnumMap;
 import java.util.Map;
 
 /**
@@ -27,19 +29,48 @@ class QuestionAggregateTest {
 
     @Test
     void createQuestion_appliesQuestionCreatedEvent() {
-        // validateQuestionData() exige 4 réponses (A/B/C/D) : l'agrégat applique
-        // QuestionCreatedEvent uniquement quand la validation passe.
         fixture.givenNoPriorActivity()
                 .when(new QuestionCommand.CreateQuestionCommand(
-                        "q-1", "topic-1", "Capital of France?", answers(), QuestionChoice.A,
+                        "q-1", "topic-1", frenchContents(), QuestionChoice.A,
                         "https://example.com/france.png", "creator-1"))
                 .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
                         QuestionEvent.QuestionCreatedEvent.class,
                         e -> "q-1".equals(((QuestionEvent.QuestionCreatedEvent) e).questionId())
                                 && "topic-1".equals(((QuestionEvent.QuestionCreatedEvent) e).topicId())
-                                && Language.FR == ((QuestionEvent.QuestionCreatedEvent) e).sourceLanguage()
+                                && Language.FR == ((QuestionEvent.QuestionCreatedEvent) e).contents()
+                                        .get(Language.FR).language()
                                 && "https://example.com/france.png"
                                         .equals(((QuestionEvent.QuestionCreatedEvent) e).imageUrl())));
+    }
+
+    @Test
+    void createQuestion_withFrenchAndEnglish_appliesBothContents() {
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1", frenchAndEnglishContents(), QuestionChoice.A,
+                        null, "creator-1"))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionCreatedEvent.class,
+                        e -> ((QuestionEvent.QuestionCreatedEvent) e).contents().keySet()
+                                .containsAll(java.util.Set.of(Language.FR, Language.EN))));
+    }
+
+    @Test
+    void createQuestion_withoutContents_rejects() {
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1", Map.of(), QuestionChoice.A, null, "creator-1"))
+                .expectException(QuestionProblems.QuestionContentsEmptyProblem.class);
+    }
+
+    @Test
+    void createQuestion_withLanguageMismatch_rejects() {
+        fixture.givenNoPriorActivity()
+                .when(new QuestionCommand.CreateQuestionCommand(
+                        "q-1", "topic-1",
+                        Map.of(Language.FR, new QuestionContent(Language.EN, "Capital of France?", answers())),
+                        QuestionChoice.A, null, "creator-1"))
+                .expectException(QuestionProblems.QuestionContentLanguageMismatchProblem.class);
     }
 
     @Test
@@ -50,48 +81,36 @@ class QuestionAggregateTest {
 
         fixture.givenNoPriorActivity()
                 .when(new QuestionCommand.CreateQuestionCommand(
-                        "q-bad", "topic-1", "Capital of France?", badAnswers, QuestionChoice.A,
-                        null, "creator-1"))
+                        "q-bad", "topic-1",
+                        Map.of(Language.FR, new QuestionContent(Language.FR, "Capital of France?", badAnswers)),
+                        QuestionChoice.A, null, "creator-1"))
                 .expectException(QuestionProblems.QuestionAnswersInvalidProblem.class);
     }
 
     @Test
-    void addTranslation_appliesQuestionTranslationAddedEvent() {
+    void addTranslations_appliesQuestionTranslationsAddedEvent() {
         fixture.given(createdQuestion())
-                .when(new QuestionCommand.AddQuestionTranslationCommand(
-                        "q-1", Language.EN, "What is the capital of France?", englishAnswers(), "editor-1"))
+                .when(new QuestionCommand.AddQuestionTranslationsCommand(
+                        "q-1", englishOnlyContents(), "editor-1"))
                 .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
-                        QuestionEvent.QuestionTranslationAddedEvent.class,
-                        e -> Language.EN == ((QuestionEvent.QuestionTranslationAddedEvent) e).language()
-                                && "What is the capital of France?"
-                                        .equals(((QuestionEvent.QuestionTranslationAddedEvent) e).text())
-                                && "editor-1".equals(((QuestionEvent.QuestionTranslationAddedEvent) e).updatedBy())));
+                        QuestionEvent.QuestionTranslationsAddedEvent.class,
+                        e -> ((QuestionEvent.QuestionTranslationsAddedEvent) e).contents().containsKey(Language.EN)
+                                && "editor-1".equals(((QuestionEvent.QuestionTranslationsAddedEvent) e).updatedBy())));
     }
 
     @Test
-    void addTranslationWithSourceLanguage_rejects() {
+    void addTranslations_withSameContent_emitsNoEvent() {
         fixture.given(createdQuestion())
-                .when(new QuestionCommand.AddQuestionTranslationCommand(
-                        "q-1", Language.FR, "Capital of France?", answers(), "editor-1"))
-                .expectException(QuestionProblems.QuestionTranslationIsSourceProblem.class);
-    }
-
-    @Test
-    void addTranslationWithSameContent_emitsNoEvent() {
-        fixture.given(createdQuestion(),
-                        new QuestionEvent.QuestionTranslationAddedEvent(
-                                "q-1", Language.EN, "What is the capital of France?", englishAnswers(), "editor-1", NOW))
-                .when(new QuestionCommand.AddQuestionTranslationCommand(
-                        "q-1", Language.EN, "What is the capital of France?", englishAnswers(), "editor-1"))
+                .when(new QuestionCommand.AddQuestionTranslationsCommand(
+                        "q-1", frenchContents(), "editor-1"))
                 .expectNoEvents();
     }
 
     @Test
-    void addTranslationWithMissingLanguage_rejects() {
+    void addTranslations_withoutContents_rejects() {
         fixture.given(createdQuestion())
-                .when(new QuestionCommand.AddQuestionTranslationCommand(
-                        "q-1", null, "What is the capital of France?", englishAnswers(), "editor-1"))
-                .expectException(QuestionProblems.QuestionTranslationLanguageMissingProblem.class);
+                .when(new QuestionCommand.AddQuestionTranslationsCommand("q-1", Map.of(), "editor-1"))
+                .expectException(QuestionProblems.QuestionContentsEmptyProblem.class);
     }
 
     @Test
@@ -117,19 +136,27 @@ class QuestionAggregateTest {
 
     private QuestionEvent.QuestionCreatedEvent createdQuestion() {
         return new QuestionEvent.QuestionCreatedEvent(
-                "q-1", "topic-1", Language.FR, "Capital of France?", answers(), QuestionChoice.A,
+                "q-1", "topic-1", frenchContents(), QuestionChoice.A,
                 null, "creator-1", NOW);
     }
 
-    private Map<QuestionChoice, String> answers() {
-        return Map.of(
-                QuestionChoice.A, "Paris",
-                QuestionChoice.B, "Lyon",
-                QuestionChoice.C, "Marseille",
-                QuestionChoice.D, "Toulouse");
+    private Map<Language, QuestionContent> frenchContents() {
+        return Map.of(Language.FR, new QuestionContent(Language.FR, "Capitale de la France ?", answers()));
     }
 
-    private Map<QuestionChoice, String> englishAnswers() {
+    private Map<Language, QuestionContent> englishOnlyContents() {
+        return Map.of(Language.EN,
+                new QuestionContent(Language.EN, "What is the capital of France?", answers()));
+    }
+
+    private Map<Language, QuestionContent> frenchAndEnglishContents() {
+        Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
+        contents.put(Language.FR, new QuestionContent(Language.FR, "Capitale de la France ?", answers()));
+        contents.put(Language.EN, new QuestionContent(Language.EN, "What is the capital of France?", answers()));
+        return contents;
+    }
+
+    private Map<QuestionChoice, String> answers() {
         return Map.of(
                 QuestionChoice.A, "Paris",
                 QuestionChoice.B, "Lyon",

@@ -9,7 +9,7 @@ import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.domain.model.TopicStatus;
-import io.github.quizup.theme.domain.port.in.AddQuestionTranslationUseCase;
+import io.github.quizup.theme.domain.port.in.AddQuestionTranslationsUseCase;
 import io.github.quizup.theme.domain.port.in.ApproveQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.CheckTopicUseCase;
 import io.github.quizup.theme.domain.port.in.CreateQuestionUseCase;
@@ -58,7 +58,7 @@ class DataSeederTest {
     @Mock
     private CreateQuestionUseCase createQuestionUseCase;
     @Mock
-    private AddQuestionTranslationUseCase addQuestionTranslationUseCase;
+    private AddQuestionTranslationsUseCase addQuestionTranslationsUseCase;
     @Mock
     private ApproveQuestionUseCase approveQuestionUseCase;
     @Mock
@@ -75,7 +75,7 @@ class DataSeederTest {
                 checkTopicUseCase,
                 createTopicUseCase,
                 createQuestionUseCase,
-                addQuestionTranslationUseCase,
+                addQuestionTranslationsUseCase,
                 approveQuestionUseCase,
                 publishTopicUseCase,
                 getTopicUseCase,
@@ -89,7 +89,7 @@ class DataSeederTest {
         seeder(false).run();
 
         verifyNoInteractions(checkTopicUseCase, createTopicUseCase, createQuestionUseCase,
-                addQuestionTranslationUseCase, approveQuestionUseCase, publishTopicUseCase, getTopicUseCase,
+                addQuestionTranslationsUseCase, approveQuestionUseCase, publishTopicUseCase, getTopicUseCase,
                 getQuestionUseCase, seedDataLoader);
     }
 
@@ -111,7 +111,7 @@ class DataSeederTest {
                 eq("topic-new"), eq("Nom"), eq("Description"), eq(TopicCategory.GENERAL),
                 isNull(), isNull(), isNull(), eq(SYSTEM));
         verify(createQuestionUseCase, times(2)).createAndWait(
-                anyString(), eq("topic-new"), eq(Language.FR), anyString(), anyMap(),
+                anyString(), eq("topic-new"), anyMap(),
                 eq(QuestionChoice.A), isNull(), eq(SYSTEM));
         verify(approveQuestionUseCase, times(2)).approveAndWait(anyString(), eq(SYSTEM));
         verify(publishTopicUseCase).publishAndWait("topic-new", SYSTEM);
@@ -129,7 +129,7 @@ class DataSeederTest {
         seeder(true).run();
 
         verifyNoInteractions(createTopicUseCase, createQuestionUseCase, approveQuestionUseCase,
-                publishTopicUseCase, addQuestionTranslationUseCase);
+                publishTopicUseCase, addQuestionTranslationsUseCase);
     }
 
     @Test
@@ -151,7 +151,7 @@ class DataSeederTest {
         seeder(true).run();
 
         verify(createQuestionUseCase, times(1)).createAndWait(
-                anyString(), eq("topic-draft"), eq(Language.FR), eq("Q3 ?"), anyMap(),
+                anyString(), eq("topic-draft"), anyMap(),
                 eq(QuestionChoice.A), isNull(), eq(SYSTEM));
         verify(approveQuestionUseCase, times(2)).approveAndWait(anyString(), eq(SYSTEM));
         verify(approveQuestionUseCase).approveAndWait("q-2", SYSTEM);
@@ -180,7 +180,7 @@ class DataSeederTest {
         seeder(true).run();
 
         verify(createQuestionUseCase, times(1)).createAndWait(
-                anyString(), eq("topic-flags"), eq(Language.FR), eq(text), anyMap(), eq(QuestionChoice.A),
+                anyString(), eq("topic-flags"), anyMap(), eq(QuestionChoice.A),
                 eq("https://example.com/flag-3.png"), eq(SYSTEM));
         verify(approveQuestionUseCase).approveAndWait("q-2", SYSTEM);
         verify(approveQuestionUseCase, never()).approveAndWait("q-1", SYSTEM);
@@ -245,7 +245,10 @@ class DataSeederTest {
         answers.put(QuestionChoice.B, "b");
         answers.put(QuestionChoice.C, "c");
         answers.put(QuestionChoice.D, "d");
-        return new QuestionSeedDefinition(Language.FR, text, answers, QuestionChoice.A, imageUrl, Map.of());
+
+        Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
+        contents.put(Language.FR, new QuestionContent(Language.FR, text, answers));
+        return new QuestionSeedDefinition(contents, QuestionChoice.A, imageUrl);
     }
 
     private static Topic topic(String topicId, TopicStatus status, int approvedCount) {
@@ -277,13 +280,12 @@ class DataSeederTest {
         answers.put(QuestionChoice.D, "d");
 
         Map<Language, QuestionContent> translations = new EnumMap<>(Language.class);
-        translations.put(Language.FR, new QuestionContent(text, answers));
+        translations.put(Language.FR, new QuestionContent(Language.FR, text, answers));
 
         return Question.builder()
                 .questionId(questionId)
                 .topicId("topic-draft")
-                .sourceLanguage(Language.FR)
-                .translations(translations)
+                .contents(translations)
                 .imageUrl(imageUrl)
                 .correctAnswer(QuestionChoice.A)
                 .status(status)

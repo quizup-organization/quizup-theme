@@ -39,11 +39,11 @@ class SeedDataLoaderTest {
             assertThat(definition.category()).isNotNull();
             assertThat(definition.questions()).hasSizeGreaterThanOrEqualTo(7);
             assertThat(definition.questions())
-                    .extracting(question -> question.text() + "|" + question.imageUrl())
+                    .extracting(question -> question.contents().get(Language.FR).text() + "|" + question.imageUrl())
                     .doesNotHaveDuplicates();
             assertThat(definition.questions()).allSatisfy(question -> {
-                assertThat(question.answers()).hasSize(4);
-                assertThat(question.answers()).containsKey(question.correctAnswer());
+                assertThat(question.contents().get(Language.FR).answers()).hasSize(4);
+                assertThat(question.contents().get(Language.FR).answers()).containsKey(question.correctAnswer());
             });
             assertThat(definition.questions())
                     .extracting(QuestionSeedDefinition::imageUrl)
@@ -60,10 +60,10 @@ class SeedDataLoaderTest {
                 .orElseThrow();
 
         assertThat(cinema.questions()).allSatisfy(question -> {
-            assertThat(question.sourceLanguage()).isEqualTo(Language.FR);
-            assertThat(question.translations()).containsKey(Language.EN);
-            assertThat(question.translations().get(Language.EN).text()).isNotBlank();
-            assertThat(question.translations().get(Language.EN).answers())
+            assertThat(question.contents()).containsKey(Language.FR);
+            assertThat(question.contents()).containsKey(Language.EN);
+            assertThat(question.contents().get(Language.EN).text()).isNotBlank();
+            assertThat(question.contents().get(Language.EN).answers())
                     .hasSize(4)
                     .containsKey(question.correctAnswer());
         });
@@ -99,7 +99,7 @@ class SeedDataLoaderTest {
 
         assertThat(definition.questions()).hasSize(7);
         assertThat(definition.questions())
-                .extracting(QuestionSeedDefinition::text)
+                .extracting(question -> question.contents().get(Language.FR).text())
                 .containsOnly("Quel est ce pays ?");
     }
 

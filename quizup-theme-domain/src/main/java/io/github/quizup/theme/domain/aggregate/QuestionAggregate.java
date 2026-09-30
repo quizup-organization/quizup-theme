@@ -19,6 +19,11 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * Agrégat multilingue d'une question : un contenu par langue disponible (FR, EN, ou les deux).
+ * Aucune langue source explicite : la disponibilité est portée par les clés de
+ * {@link #contents}.
+ */
 @Aggregate
 public class QuestionAggregate {
 
@@ -26,9 +31,8 @@ public class QuestionAggregate {
     private String questionId;
     private String topicId;
 
-    /** Langue du contenu de création ; les autres langues sont des traductions. */
-    private Language sourceLanguage;
-    private Map<Language, QuestionContent> translations = new EnumMap<>(Language.class);
+    /** Contenus localisés disponibles (langue → contenu). */
+    private Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
 
     private String imageUrl;
     private QuestionChoice correctAnswer;
@@ -45,16 +49,13 @@ public class QuestionAggregate {
 
     @CommandHandler
     public QuestionAggregate(QuestionCommand.CreateQuestionCommand command) {
-        Language source = command.sourceLanguage() == null ? Language.FR : command.sourceLanguage();
-        validateContent(command.questionId(), command.text(), command.answers(), command.correctAnswer());
+        validateContents(command.questionId(), command.contents(), command.correctAnswer());
 
         AggregateLifecycle.apply(
                 new QuestionEvent.QuestionCreatedEvent(
                         command.questionId(),
                         command.topicId(),
-                        source,
-                        command.text(),
-                        command.answers(),
+                        command.contents(),
                         command.correctAnswer(),
                         command.imageUrl(),
                         command.creatorId(),
@@ -63,32 +64,27 @@ public class QuestionAggregate {
     }
 
     /**
-     * Ajoute (ou remplace) une traduction. Idempotent : aucun événement si le contenu est identique.
-     * La langue source ne peut pas être traduite.
+     * Ajoute (ou remplace) des contenus localisés. Idempotent : aucun événement si tous les
+     * contenus fournis sont déjà identiques.
      */
     @CommandHandler
-    public void handle(QuestionCommand.AddQuestionTranslationCommand command) {
-        if (command.language() == null) {
-            throw new QuestionProblems.QuestionTranslationLanguageMissingProblem(command.questionId());
-        }
-        if (command.language() == this.sourceLanguage) {
-            throw new QuestionProblems.QuestionTranslationIsSourceProblem(command.questionId(), command.language());
-        }
-        validateContent(command.questionId(), command.text(), command.answers(), this.correctAnswer);
+    public void handle(QuestionCommand.AddQuestionTranslationsCommand command) {
+        validateContents(command.questionId(), command.contents(), this.correctAnswer);
 
-        QuestionContent existing = this.translations.get(command.language());
-        if (existing != null
-                && Objects.equals(existing.text(), command.text())
-                && Objects.equals(existing.answers(), command.answers())) {
+        Map<Language, QuestionContent> changed = new EnumMap<>(Language.class);
+        for (Map.Entry<Language, QuestionContent> entry : command.contents().entrySet()) {
+            if (!Objects.equals(this.contents.get(entry.getKey()), entry.getValue())) {
+                changed.put(entry.getKey(), entry.getValue());
+            }
+        }
+        if (changed.isEmpty()) {
             return;
         }
 
         AggregateLifecycle.apply(
-                new QuestionEvent.QuestionTranslationAddedEvent(
+                new QuestionEvent.QuestionTranslationsAddedEvent(
                         command.questionId(),
-                        command.language(),
-                        command.text(),
-                        command.answers(),
+                        changed,
                         command.updatedBy(),
                         Instant.now()
                 ));
@@ -149,10 +145,8 @@ public class QuestionAggregate {
     public void on(QuestionEvent.QuestionCreatedEvent event) {
         this.questionId = event.questionId();
         this.topicId = event.topicId();
-        this.sourceLanguage = event.sourceLanguage() == null ? Language.FR : event.sourceLanguage();
-        this.translations = new EnumMap<>(Language.class);
-        this.translations.put(this.sourceLanguage,
-                new QuestionContent(event.text(), event.answers()));
+        this.contents = new EnumMap<>(Language.class);
+        this.contents.putAll(event.contents());
         this.imageUrl = event.imageUrl();
         this.correctAnswer = event.correctAnswer();
         this.status = QuestionStatus.PENDING;
@@ -163,11 +157,11 @@ public class QuestionAggregate {
     }
 
     @EventSourcingHandler
-    public void on(QuestionEvent.QuestionTranslationAddedEvent event) {
-        if (this.translations == null) {
-            this.translations = new EnumMap<>(Language.class);
+    public void on(QuestionEvent.QuestionTranslationsAddedEvent event) {
+        if (this.contents == null) {
+            this.contents = new EnumMap<>(Language.class);
         }
-        this.translations.put(event.language(), new QuestionContent(event.text(), event.answers()));
+        this.contents.putAll(event.contents());
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
     }
@@ -192,17 +186,32 @@ public class QuestionAggregate {
         this.updatedAt = event.updatedAt();
     }
 
+    private static void validateContents(String questionId,
+                                         Map<Language, QuestionContent> contents,
+                                         QuestionChoice correctAnswer) {
+        if (contents == null || contents.isEmpty()) {
+            throw new QuestionProblems.QuestionContentsEmptyProblem(questionId);
+        }
+        for (Map.Entry<Language, QuestionContent> entry : contents.entrySet()) {
+            validateContent(questionId, entry.getKey(), entry.getValue(), correctAnswer);
+        }
+    }
+
     private static void validateContent(String questionId,
-                                        String text,
-                                        Map<QuestionChoice, String> answers,
+                                        Language language,
+                                        QuestionContent content,
                                         QuestionChoice correctAnswer) {
-        if (text == null || text.isBlank()) {
+        if (language == null || content == null || content.language() != language) {
+            throw new QuestionProblems.QuestionContentLanguageMismatchProblem(
+                    questionId, language, content == null ? null : content.language());
+        }
+        if (content.text() == null || content.text().isBlank()) {
             throw new QuestionProblems.QuestionTextEmptyProblem(questionId);
         }
-        if (answers == null || answers.size() != 4) {
+        if (content.answers() == null || content.answers().size() != 4) {
             throw new QuestionProblems.QuestionAnswersInvalidProblem(questionId);
         }
-        if (correctAnswer == null || !answers.containsKey(correctAnswer)) {
+        if (correctAnswer == null || !content.answers().containsKey(correctAnswer)) {
             throw new QuestionProblems.QuestionCorrectAnswerMissingProblem(questionId);
         }
     }

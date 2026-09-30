@@ -8,13 +8,10 @@ import java.util.Map;
 
 /**
  * Définition validée d'une question issue d'un fichier de seed YAML :
- * contenu source (+ sa langue) et traductions.
+ * un contenu par langue disponible (le français est toujours présent, l'anglais optionnel).
  */
 public record QuestionSeedDefinition(
-        Language sourceLanguage,
-        String text,
-        Map<QuestionChoice, String> answers,
+        Map<Language, QuestionContent> contents,
         QuestionChoice correctAnswer,
-        String imageUrl,
-        Map<Language, QuestionContent> translations) {
+        String imageUrl) {
 }

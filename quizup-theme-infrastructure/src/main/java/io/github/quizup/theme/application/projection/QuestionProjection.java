@@ -26,16 +26,10 @@ public class QuestionProjection {
 
     @EventHandler
     public void on(QuestionEvent.QuestionCreatedEvent event) {
-        Language sourceLanguage = event.sourceLanguage() == null ? Language.FR : event.sourceLanguage();
-
-        Map<Language, QuestionContent> translations = new EnumMap<>(Language.class);
-        translations.put(sourceLanguage, new QuestionContent(event.text(), event.answers()));
-
         Question question = Question.builder()
                 .questionId(event.questionId())
                 .topicId(event.topicId())
-                .sourceLanguage(sourceLanguage)
-                .translations(translations)
+                .contents(new EnumMap<>(event.contents()))
                 .imageUrl(event.imageUrl())
                 .correctAnswer(event.correctAnswer())
                 .status(QuestionStatus.PENDING)
@@ -49,14 +43,14 @@ public class QuestionProjection {
     }
 
     @EventHandler
-    public void on(QuestionEvent.QuestionTranslationAddedEvent event) {
+    public void on(QuestionEvent.QuestionTranslationsAddedEvent event) {
         questionRepositoryPort.findById(event.questionId())
                 .ifPresent(question -> {
-                    Map<Language, QuestionContent> translations = new EnumMap<>(question.translations());
-                    translations.put(event.language(), new QuestionContent(event.text(), event.answers()));
+                    Map<Language, QuestionContent> contents = new EnumMap<>(question.contents());
+                    contents.putAll(event.contents());
 
                     questionRepositoryPort.save(question.toBuilder()
-                            .translations(translations)
+                            .contents(contents)
                             .updatedBy(event.updatedBy())
                             .updatedAt(event.updatedAt())
                             .build());
