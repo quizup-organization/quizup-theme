@@ -33,5 +33,70 @@ public interface TopicEvent {
     ) implements TopicEvent {
     }
 
-}
+    /**
+     * Événement émis lors du changement de nom du thème.
+     */
+    record TopicNameUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            String name,
+            Instant updatedAt
+    ) implements TopicEvent {
+    }
 
+    /**
+     * Événement émis lors du changement de description du thème.
+     */
+    record TopicDescriptionUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            String description,
+            Instant updatedAt
+    ) implements TopicEvent {
+    }
+
+    /**
+     * Événement émis lors du changement de catégorie du thème.
+     */
+    record TopicCategoryUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            TopicCategory category,
+            Instant updatedAt
+    ) implements TopicEvent {
+    }
+
+    /**
+     * Événement émis lors du changement d'emoji du thème.
+     */
+    record TopicEmojiUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            String emoji,
+            Instant updatedAt
+    ) implements TopicEvent {
+    }
+
+    /**
+     * Événement émis lors du changement de couleur du thème.
+     */
+    record TopicColorUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            String color,
+            Instant updatedAt
+    ) implements TopicEvent {
+    }
+
+    /**
+     * Événement émis lors du changement d'illustration du thème.
+     */
+    record TopicImageUrlUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            String imageUrl,
+            Instant updatedAt
+    ) implements TopicEvent {
+    }
+
+}

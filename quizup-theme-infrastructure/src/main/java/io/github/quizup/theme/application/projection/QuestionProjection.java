@@ -10,8 +10,10 @@ import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.stereotype.Component;
 
+import java.time.Instant;
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.function.UnaryOperator;
 
 @Component
 @ProcessingGroup("theme-projection")
@@ -58,6 +60,54 @@ public class QuestionProjection {
     }
 
     @EventHandler
+    public void on(QuestionEvent.QuestionTranslationAddedEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> {
+                    Map<Language, QuestionContent> contents = new EnumMap<>(question.contents());
+                    contents.put(event.language(),
+                            new QuestionContent(event.language(), event.text(), event.answers()));
+
+                    questionRepositoryPort.save(question.toBuilder()
+                            .contents(contents)
+                            .updatedBy(event.updatedBy())
+                            .updatedAt(event.updatedAt())
+                            .build());
+                });
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionTextUpdatedEvent event) {
+        updateContent(event.questionId(), event.language(), event.updatedBy(), event.updatedAt(),
+                content -> new QuestionContent(content.language(), event.text(), content.answers()));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionAnswersUpdatedEvent event) {
+        updateContent(event.questionId(), event.language(), event.updatedBy(), event.updatedAt(),
+                content -> new QuestionContent(content.language(), content.text(), event.answers()));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionCorrectAnswerUpdatedEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> questionRepositoryPort.save(question.toBuilder()
+                        .correctAnswer(event.correctAnswer())
+                        .updatedBy(event.updatedBy())
+                        .updatedAt(event.updatedAt())
+                        .build()));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionImageUrlUpdatedEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> questionRepositoryPort.save(question.toBuilder()
+                        .imageUrl(event.imageUrl())
+                        .updatedBy(event.updatedBy())
+                        .updatedAt(event.updatedAt())
+                        .build()));
+    }
+
+    @EventHandler
     public void on(QuestionEvent.QuestionApprovedEvent event) {
         questionRepositoryPort.findById(event.questionId())
                 .ifPresent(question -> questionRepositoryPort.save(
@@ -91,5 +141,26 @@ public class QuestionProjection {
                                 .updatedAt(event.updatedAt())
                                 .build()
                 ));
+    }
+
+    private void updateContent(String questionId,
+                               Language language,
+                               String updatedBy,
+                               Instant updatedAt,
+                               UnaryOperator<QuestionContent> change) {
+        questionRepositoryPort.findById(questionId).ifPresent(question -> {
+            QuestionContent content = question.contents().get(language);
+            if (content == null) {
+                return;
+            }
+            Map<Language, QuestionContent> contents = new EnumMap<>(question.contents());
+            contents.put(language, change.apply(content));
+
+            questionRepositoryPort.save(question.toBuilder()
+                    .contents(contents)
+                    .updatedBy(updatedBy)
+                    .updatedAt(updatedAt)
+                    .build());
+        });
     }
 }

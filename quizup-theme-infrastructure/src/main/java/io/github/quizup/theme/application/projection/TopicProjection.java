@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.Instant;
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.function.UnaryOperator;
 
 /**
  * Projection des thèmes.
@@ -84,6 +85,48 @@ public class TopicProjection {
 
     @EventHandler
     @Transactional
+    public void on(TopicEvent.TopicNameUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.name(event.name()));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicDescriptionUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.description(event.description()));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicCategoryUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.category(event.category()));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicEmojiUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.emoji(event.emoji()));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicColorUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.color(event.color()));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicImageUrlUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.imageUrl(event.imageUrl()));
+    }
+
+    @EventHandler
+    @Transactional
     public void on(QuestionEvent.QuestionCreatedEvent event) {
         refreshQuestionsCounter(event.topicId(), event.createdAt());
     }
@@ -122,6 +165,17 @@ public class TopicProjection {
                     .updatedAt(event.unfollowedAt())
                     .build());
         });
+    }
+
+    private void updateTopic(String topicId,
+                             String updatedBy,
+                             Instant updatedAt,
+                             UnaryOperator<Topic.TopicBuilder> change) {
+        topicRepositoryPort.findById(topicId).ifPresent(topic -> topicRepositoryPort.save(
+                change.apply(topic.toBuilder())
+                        .updatedBy(updatedBy)
+                        .updatedAt(updatedAt)
+                        .build()));
     }
 
     private void refreshQuestionsCounter(String topicId, Instant updatedAt) {

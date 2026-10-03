@@ -33,6 +33,17 @@ public interface TopicQuery {
     }
 
     /**
+     * Page des thèmes créés par un utilisateur (tous statuts), du plus récemment modifié
+     * au plus ancien.
+     */
+    record GetTopicsByCreatorQuery(
+            String creatorId,
+            int page,
+            int size
+    ) implements TopicQuery {
+    }
+
+    /**
      * Récupération batch de thèmes ; l'ordre demandé est préservé.
      */
     record GetTopicsByIdsQuery(List<String> topicIds) implements TopicQuery {

@@ -31,6 +31,15 @@ exposée par le service.
 - `ApproveQuestionUseCase` / `RejectQuestionUseCase`
 - `CountApprovedQuestionsByTopicUseCase`
 
+**Édition champ par champ (surface d'auteur du BFF)** : commandes directes sur les agrégats
+(sans port `UseCase` dédié) — `TopicCommand.UpdateTopicName|Description|Category|Emoji|Color|ImageUrlCommand`
+et `QuestionCommand.AddQuestionTranslation|UpdateQuestionText|Answers|CorrectAnswer|ImageUrlCommand`.
+Toutes sont **propriétaire uniquement** (le `TopicAggregate` vérifie `requestedBy == creatorId` ;
+les questions sont gardées côté BFF), **idempotentes** (aucun événement si la valeur est
+inchangée) et validées par les règles (`TopicRules` : nom ≤ 25, description ≤ 500, emoji/couleur
+≤ 16, URL ≤ 1024 ; `QuestionRules` : texte ≤ 255, URL ≤ 1024, 4 réponses, bonne réponse présente
+dans chaque langue). La publication vérifie aussi le propriétaire.
+
 ---
 
 ## 4. Dépendances inter-services
@@ -63,6 +72,9 @@ lorsque la difficulté calculée change, la projection envoie une
 
 - `TopicQuery.GetTopicPageQuery(nameQuery, category, sort, page, size)` → `TopicPage` : page du
   catalogue publié (tri `POPULAR|ALPHA`), filtre texte normalisé côté handler.
+- `TopicQuery.GetTopicsByCreatorQuery(creatorId, page, size)` → `TopicPage` : sujets créés par un
+  utilisateur (tous statuts, brouillons compris), tri `updatedAt desc` — alimente la vue
+  « mes sujets » du BFF (`?mine=true`).
 - `TopicQuery.TopicFacetsQuery(nameQuery, topicIds)` → `List<TopicFacetCount>` : compteurs par
   catégorie (facettes) appliqués aux mêmes filtres, `topicIds` pour le périmètre « suivis ».
 - `TopicQuery.GetTopicsByIdsQuery(topicIds)` → `List<Topic>` : résolution batch (accueil, suivis).

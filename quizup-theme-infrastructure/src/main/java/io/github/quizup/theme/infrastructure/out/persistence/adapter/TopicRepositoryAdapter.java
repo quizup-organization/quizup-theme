@@ -96,6 +96,20 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
                 .build();
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public TopicPage findByCreatorId(String creatorId, int page, int size) {
+        Page<TopicEntity> result = topicJpaRepository.findByCreatorIdOrderByUpdatedAtDesc(
+                creatorId, PageRequest.of(page, size));
+        return TopicPage.builder()
+                .topics(result.getContent().stream().map(TopicEntityMapper::toDomain).toList())
+                .page(result.getNumber())
+                .size(result.getSize())
+                .totalElements(result.getTotalElements())
+                .totalPages(result.getTotalPages())
+                .build();
+    }
+
     private Specification<TopicEntity> publishedFilter(String normalizedName, TopicCategory category) {
         return (root, query, cb) -> {
             List<Predicate> predicates = new ArrayList<>();

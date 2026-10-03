@@ -39,6 +39,65 @@ public interface QuestionEvent {
     }
 
     /**
+     * Événement émis lors de l'ajout d'un contenu localisé.
+     */
+    record QuestionTranslationAddedEvent(
+            String questionId,
+            Language language,
+            String text,
+            Map<QuestionChoice, String> answers,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement de texte d'un contenu localisé.
+     */
+    record QuestionTextUpdatedEvent(
+            String questionId,
+            Language language,
+            String text,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement des réponses d'un contenu localisé.
+     */
+    record QuestionAnswersUpdatedEvent(
+            String questionId,
+            Language language,
+            Map<QuestionChoice, String> answers,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement de la bonne réponse.
+     */
+    record QuestionCorrectAnswerUpdatedEvent(
+            String questionId,
+            QuestionChoice correctAnswer,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
+     * Événement émis lors du changement d'illustration de la question.
+     */
+    record QuestionImageUrlUpdatedEvent(
+            String questionId,
+            String imageUrl,
+            String updatedBy,
+            Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    /**
      * Événement émis lors de l'approbation d'une question
      */
     record QuestionApprovedEvent(

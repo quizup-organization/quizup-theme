@@ -36,6 +36,60 @@ public interface QuestionCommand {
     }
 
     /**
+     * Commande d'ajout d'un contenu localisé à une question qui ne le possède pas encore.
+     */
+    record AddQuestionTranslationCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            Language language,
+            String text,
+            Map<QuestionChoice, String> answers
+    ) implements QuestionCommand {
+    }
+
+    /**
+     * Mise à jour du texte d'un contenu localisé existant.
+     */
+    record UpdateQuestionTextCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            Language language,
+            String text
+    ) implements QuestionCommand {
+    }
+
+    /**
+     * Mise à jour des réponses d'un contenu localisé existant.
+     */
+    record UpdateQuestionAnswersCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            Language language,
+            Map<QuestionChoice, String> answers
+    ) implements QuestionCommand {
+    }
+
+    /**
+     * Mise à jour de la bonne réponse, partagée entre les langues.
+     */
+    record UpdateQuestionCorrectAnswerCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            QuestionChoice correctAnswer
+    ) implements QuestionCommand {
+    }
+
+    /**
+     * Mise à jour de l'illustration de la question.
+     */
+    record UpdateQuestionImageUrlCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            String imageUrl
+    ) implements QuestionCommand {
+    }
+
+    /**
      * Commande pour approuver une question (PENDING -> APPROVED)
      */
     record ApproveQuestionCommand(

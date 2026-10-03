@@ -12,6 +12,12 @@ public interface QuestionRules {
     /** Nombre minimal de réponses avant de publier une difficulté. */
     int MIN_ANSWERS_FOR_DIFFICULTY = 10;
 
+    /** Longueur maximale du texte d'un contenu localisé (colonne DB). */
+    int MAX_TEXT_LENGTH = 255;
+
+    /** Longueur maximale d'une URL d'illustration (colonne DB). */
+    int MAX_IMAGE_URL_LENGTH = 1024;
+
     int EASY_THRESHOLD = 80;
     int MEDIUM_THRESHOLD = 60;
     int HARD_THRESHOLD = 40;

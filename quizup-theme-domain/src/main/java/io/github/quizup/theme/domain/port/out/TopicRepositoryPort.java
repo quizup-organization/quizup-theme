@@ -35,6 +35,12 @@ public interface TopicRepositoryPort {
     TopicPage findPage(String normalizedName, TopicCategory category, TopicSort sort, int page, int size);
 
     /**
+     * Page des thèmes créés par un utilisateur (tous statuts), triés par dernière
+     * modification décroissante.
+     */
+    TopicPage findByCreatorId(String creatorId, int page, int size);
+
+    /**
      * Récupération batch ; l'ordre demandé est préservé, les ids inconnus sont ignorés.
      */
     List<Topic> findAllByIds(List<String> topicIds);

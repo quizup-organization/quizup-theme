@@ -134,6 +134,129 @@ class QuestionAggregateTest {
                 .expectNoEvents();
     }
 
+    @Test
+    void addTranslation_appliesQuestionTranslationAddedEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationCommand(
+                        "q-1", "editor-1", Language.EN,
+                        "What is the capital of France?", answers()))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionTranslationAddedEvent.class,
+                        e -> Language.EN == ((QuestionEvent.QuestionTranslationAddedEvent) e).language()
+                                && "editor-1".equals(((QuestionEvent.QuestionTranslationAddedEvent) e).updatedBy())));
+    }
+
+    @Test
+    void addTranslation_withExistingLanguage_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationCommand(
+                        "q-1", "editor-1", Language.FR, "Autre texte", answers()))
+                .expectException(QuestionProblems.QuestionTranslationAlreadyExistsProblem.class);
+    }
+
+    @Test
+    void addTranslation_withTextTooLong_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.AddQuestionTranslationCommand(
+                        "q-1", "editor-1", Language.EN, "a".repeat(256), answers()))
+                .expectException(QuestionProblems.QuestionTextTooLongProblem.class);
+    }
+
+    @Test
+    void updateText_appliesEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionTextCommand(
+                        "q-1", "editor-1", Language.FR, "Quelle est la capitale de la France ?"))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionTextUpdatedEvent.class,
+                        e -> "Quelle est la capitale de la France ?"
+                                .equals(((QuestionEvent.QuestionTextUpdatedEvent) e).text())));
+    }
+
+    @Test
+    void updateText_withUnknownLanguage_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionTextCommand(
+                        "q-1", "editor-1", Language.EN, "What is the capital of France?"))
+                .expectException(QuestionProblems.QuestionLanguageNotFoundProblem.class);
+    }
+
+    @Test
+    void updateText_withSameValue_emitsNoEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionTextCommand(
+                        "q-1", "editor-1", Language.FR, "Capitale de la France ?"))
+                .expectNoEvents();
+    }
+
+    @Test
+    void updateAnswers_appliesEvent() {
+        Map<QuestionChoice, String> answers = Map.of(
+                QuestionChoice.A, "Paris",
+                QuestionChoice.B, "Lyon",
+                QuestionChoice.C, "Marseille",
+                QuestionChoice.D, "Lille");
+
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionAnswersCommand(
+                        "q-1", "editor-1", Language.FR, answers))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionAnswersUpdatedEvent.class,
+                        e -> "Lille".equals(((QuestionEvent.QuestionAnswersUpdatedEvent) e).answers()
+                                .get(QuestionChoice.D))));
+    }
+
+    @Test
+    void updateAnswers_withThreeAnswers_rejects() {
+        Map<QuestionChoice, String> answers = Map.of(
+                QuestionChoice.A, "Paris",
+                QuestionChoice.B, "Lyon",
+                QuestionChoice.C, "Marseille");
+
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionAnswersCommand(
+                        "q-1", "editor-1", Language.FR, answers))
+                .expectException(QuestionProblems.QuestionAnswersInvalidProblem.class);
+    }
+
+    @Test
+    void updateCorrectAnswer_appliesEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionCorrectAnswerCommand(
+                        "q-1", "editor-1", QuestionChoice.B))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionCorrectAnswerUpdatedEvent.class,
+                        e -> QuestionChoice.B == ((QuestionEvent.QuestionCorrectAnswerUpdatedEvent) e)
+                                .correctAnswer()));
+    }
+
+    @Test
+    void updateCorrectAnswer_withSameValue_emitsNoEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionCorrectAnswerCommand(
+                        "q-1", "editor-1", QuestionChoice.A))
+                .expectNoEvents();
+    }
+
+    @Test
+    void updateImageUrl_appliesEvent() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionImageUrlCommand(
+                        "q-1", "editor-1", "https://example.com/new.png"))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionImageUrlUpdatedEvent.class,
+                        e -> "https://example.com/new.png"
+                                .equals(((QuestionEvent.QuestionImageUrlUpdatedEvent) e).imageUrl())));
+    }
+
+    @Test
+    void updateImageUrl_withTooLongValue_rejects() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.UpdateQuestionImageUrlCommand(
+                        "q-1", "editor-1", "https://x.test/" + "a".repeat(1100)))
+                .expectException(QuestionProblems.QuestionImageUrlTooLongProblem.class);
+    }
+
     private QuestionEvent.QuestionCreatedEvent createdQuestion() {
         return new QuestionEvent.QuestionCreatedEvent(
                 "q-1", "topic-1", frenchContents(), QuestionChoice.A,

@@ -88,5 +88,52 @@ public final class QuestionProblems {
                     Map.of("current", current, "required", required));
         }
     }
+
+    public static class QuestionLanguageMissingProblem extends QuestionProblem {
+        public QuestionLanguageMissingProblem(String questionId) {
+            super(questionId, "urn:quizup:question:languageMissing",
+                    ProblemCategory.VALIDATION,
+                    "Question language missing",
+                    "A language is required", null);
+        }
+    }
+
+    public static class QuestionTranslationAlreadyExistsProblem extends QuestionProblem {
+        public QuestionTranslationAlreadyExistsProblem(String questionId, Language language) {
+            super(questionId, "urn:quizup:question:translationExists",
+                    ProblemCategory.VALIDATION,
+                    "Question translation already exists",
+                    "A content already exists for language " + language,
+                    Map.of("language", language));
+        }
+    }
+
+    public static class QuestionLanguageNotFoundProblem extends QuestionProblem {
+        public QuestionLanguageNotFoundProblem(String questionId, Language language) {
+            super(questionId, "urn:quizup:question:languageNotFound",
+                    ProblemCategory.BUSINESS_RESOURCE_MISSING,
+                    "Question content not found",
+                    "No content exists for language " + language + " on question " + questionId,
+                    Map.of("language", language));
+        }
+    }
+
+    public static class QuestionTextTooLongProblem extends QuestionProblem {
+        public QuestionTextTooLongProblem(String questionId, int maxLength) {
+            super(questionId, "urn:quizup:question:textTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Question text too long",
+                    "The question text must not exceed " + maxLength + " characters", null);
+        }
+    }
+
+    public static class QuestionImageUrlTooLongProblem extends QuestionProblem {
+        public QuestionImageUrlTooLongProblem(String questionId, int maxLength) {
+            super(questionId, "urn:quizup:question:imageUrlTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Question image URL too long",
+                    "The question image URL must not exceed " + maxLength + " characters", null);
+        }
+    }
 }
 

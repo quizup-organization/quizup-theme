@@ -3,6 +3,7 @@ package io.github.quizup.theme.application.handler.query;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.domain.model.TopicFacetCount;
+import io.github.quizup.theme.domain.model.TopicPage;
 import io.github.quizup.theme.domain.port.out.TopicRepositoryPort;
 import io.github.quizup.theme.domain.query.TopicQuery;
 import org.junit.jupiter.api.Test;
@@ -47,5 +48,20 @@ class TopicQueryHandlerTest {
 
         assertThat(handler.handle(new TopicQuery.GetTopicsByIdsQuery(List.of("t1"))))
                 .containsExactly(topic);
+    }
+
+    @Test
+    void topics_by_creator_delegates_to_repository() {
+        TopicPage page = TopicPage.builder()
+                .topics(List.of())
+                .page(0)
+                .size(20)
+                .totalElements(0)
+                .totalPages(0)
+                .build();
+        when(repository.findByCreatorId("u1", 0, 20)).thenReturn(page);
+
+        assertThat(handler.handle(new TopicQuery.GetTopicsByCreatorQuery("u1", 0, 20)))
+                .isSameAs(page);
     }
 }

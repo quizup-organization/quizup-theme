@@ -14,7 +14,13 @@ import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 
 import java.time.Instant;
+import java.util.Objects;
 
+import static io.github.quizup.theme.domain.model.TopicRules.MAX_COLOR_LENGTH;
+import static io.github.quizup.theme.domain.model.TopicRules.MAX_DESCRIPTION_LENGTH;
+import static io.github.quizup.theme.domain.model.TopicRules.MAX_EMOJI_LENGTH;
+import static io.github.quizup.theme.domain.model.TopicRules.MAX_IMAGE_URL_LENGTH;
+import static io.github.quizup.theme.domain.model.TopicRules.MAX_NAME_LENGTH;
 import static io.github.quizup.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PUBLISH;
 
 /**
@@ -43,9 +49,11 @@ public class TopicAggregate {
 
     @CommandHandler
     public TopicAggregate(TopicCommand.CreateTopicCommand command) {
-        if (command.name() == null || command.name().isBlank()) {
-            throw new TopicProblems.TopicNameEmptyProblem(command.topicId());
-        }
+        validateName(command.topicId(), command.name());
+        validateDescription(command.topicId(), command.description());
+        validateEmoji(command.topicId(), command.emoji());
+        validateColor(command.topicId(), command.color());
+        validateImageUrl(command.topicId(), command.imageUrl());
 
         if (command.category() == null) {
             throw new TopicProblems.TopicCategoryEmptyProblem(command.topicId());
@@ -70,6 +78,8 @@ public class TopicAggregate {
 
     @CommandHandler
     public void handle(TopicCommand.PublishTopicCommand command, QuestionRepositoryPort questionRepositoryPort) {
+        requireOwner(command.requesterId());
+
         if (this.status != TopicStatus.DRAFT) {
             throw new TopicProblems.TopicNotInDraftProblem(this.topicId);
         }
@@ -91,6 +101,79 @@ public class TopicAggregate {
                 ));
     }
 
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicNameCommand command) {
+        requireOwner(command.requestedBy());
+        validateName(command.topicId(), command.name());
+        if (Objects.equals(command.name(), this.name)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicNameUpdatedEvent(
+                command.topicId(), command.requestedBy(), command.name(), Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicDescriptionCommand command) {
+        requireOwner(command.requestedBy());
+        validateDescription(command.topicId(), command.description());
+        if (Objects.equals(command.description(), this.description)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicDescriptionUpdatedEvent(
+                command.topicId(), command.requestedBy(), command.description(), Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicCategoryCommand command) {
+        requireOwner(command.requestedBy());
+        if (command.category() == null) {
+            throw new TopicProblems.TopicCategoryEmptyProblem(command.topicId());
+        }
+        if (command.category() == this.category) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicCategoryUpdatedEvent(
+                command.topicId(), command.requestedBy(), command.category(), Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicEmojiCommand command) {
+        requireOwner(command.requestedBy());
+        validateEmoji(command.topicId(), command.emoji());
+        if (Objects.equals(command.emoji(), this.emoji)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicEmojiUpdatedEvent(
+                command.topicId(), command.requestedBy(), command.emoji(), Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicColorCommand command) {
+        requireOwner(command.requestedBy());
+        validateColor(command.topicId(), command.color());
+        if (Objects.equals(command.color(), this.color)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicColorUpdatedEvent(
+                command.topicId(), command.requestedBy(), command.color(), Instant.now()));
+    }
+
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicImageUrlCommand command) {
+        requireOwner(command.requestedBy());
+        validateImageUrl(command.topicId(), command.imageUrl());
+        if (Objects.equals(command.imageUrl(), this.imageUrl)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicImageUrlUpdatedEvent(
+                command.topicId(), command.requestedBy(), command.imageUrl(), Instant.now()));
+    }
 
     @EventSourcingHandler
     public void on(TopicEvent.TopicCreatedEvent event) {
@@ -113,6 +196,87 @@ public class TopicAggregate {
         this.status = TopicStatus.PUBLISHED;
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.publishedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicNameUpdatedEvent event) {
+        this.name = event.name();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicDescriptionUpdatedEvent event) {
+        this.description = event.description();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicCategoryUpdatedEvent event) {
+        this.category = event.category();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicEmojiUpdatedEvent event) {
+        this.emoji = event.emoji();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicColorUpdatedEvent event) {
+        this.color = event.color();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicImageUrlUpdatedEvent event) {
+        this.imageUrl = event.imageUrl();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
+    private void requireOwner(String requestedBy) {
+        if (!Objects.equals(this.creatorId, requestedBy)) {
+            throw new TopicProblems.TopicNotOwnerProblem(this.topicId, requestedBy);
+        }
+    }
+
+    private static void validateName(String topicId, String name) {
+        if (name == null || name.isBlank()) {
+            throw new TopicProblems.TopicNameEmptyProblem(topicId);
+        }
+        if (name.length() > MAX_NAME_LENGTH) {
+            throw new TopicProblems.TopicNameTooLongProblem(topicId, MAX_NAME_LENGTH);
+        }
+    }
+
+    private static void validateDescription(String topicId, String description) {
+        if (description != null && description.length() > MAX_DESCRIPTION_LENGTH) {
+            throw new TopicProblems.TopicDescriptionTooLongProblem(topicId, MAX_DESCRIPTION_LENGTH);
+        }
+    }
+
+    private static void validateEmoji(String topicId, String emoji) {
+        if (emoji != null && emoji.length() > MAX_EMOJI_LENGTH) {
+            throw new TopicProblems.TopicEmojiTooLongProblem(topicId, MAX_EMOJI_LENGTH);
+        }
+    }
+
+    private static void validateColor(String topicId, String color) {
+        if (color != null && color.length() > MAX_COLOR_LENGTH) {
+            throw new TopicProblems.TopicColorTooLongProblem(topicId, MAX_COLOR_LENGTH);
+        }
+    }
+
+    private static void validateImageUrl(String topicId, String imageUrl) {
+        if (imageUrl != null && imageUrl.length() > MAX_IMAGE_URL_LENGTH) {
+            throw new TopicProblems.TopicImageUrlTooLongProblem(topicId, MAX_IMAGE_URL_LENGTH);
+        }
     }
 
 }

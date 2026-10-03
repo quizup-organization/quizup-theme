@@ -60,6 +60,11 @@ public class TopicQueryHandler {
         return topicRepositoryPort.findAllByIds(query.topicIds());
     }
 
+    @QueryHandler
+    public TopicPage handle(TopicQuery.GetTopicsByCreatorQuery query) {
+        return topicRepositoryPort.findByCreatorId(query.creatorId(), query.page(), query.size());
+    }
+
     private static String normalize(String nameQuery) {
         return nameQuery == null || nameQuery.isBlank() ? null : SearchText.normalize(nameQuery);
     }

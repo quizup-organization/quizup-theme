@@ -2,6 +2,8 @@ package io.github.quizup.theme.infrastructure.out.persistence.repository;
 
 import io.github.quizup.theme.domain.model.TopicStatus;
 import io.github.quizup.theme.infrastructure.out.persistence.entity.TopicEntity;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
@@ -38,4 +40,6 @@ public interface TopicJpaRepository extends JpaRepository<TopicEntity, String>, 
     List<Object[]> countByCategoryInIds(@Param("status") TopicStatus status,
                                         @Param("normalizedName") String normalizedName,
                                         @Param("topicIds") Collection<String> topicIds);
+
+    Page<TopicEntity> findByCreatorIdOrderByUpdatedAtDesc(String creatorId, Pageable pageable);
 }
