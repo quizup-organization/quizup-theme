@@ -1,3 +1,9 @@
+## [4.1.0](https://github.com/quizup-organization/quizup-theme/compare/v4.0.0...v4.1.0) (2026-10-03)
+
+### Features
+
+* **theme:** per-field topic and question authoring ([5838ba9](https://github.com/quizup-organization/quizup-theme/commit/5838ba9e02f1b14221b2683dafbbd1cac599b3e9))
+
 ## [4.0.0](https://github.com/quizup-organization/quizup-theme/compare/v3.0.0...v4.0.0) (2026-09-30)
 
 ### ⚠ BREAKING CHANGES
