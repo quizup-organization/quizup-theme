@@ -13,6 +13,14 @@ questions:
       C: "La loutre"
       D: "Le phoque"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The beaver"
+          B: "The mink"
+          C: "The otter"
+          D: "The seal"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Red-eyed_Tree_Frog_(Agalychnis_callidryas).jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "La salamandre"
       D: "La grenouille verte"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do you see?"
+        answers:
+          A: "The red-eyed tree frog"
+          B: "The toad"
+          C: "The salamander"
+          D: "The green frog"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_photograph_of_an_Iguana_iguana.jpg?width=800
     answers:
@@ -29,6 +45,14 @@ questions:
       C: "Le gecko"
       D: "L'iguane vert"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The basilisk"
+          B: "The chameleon"
+          C: "The gecko"
+          D: "The green iguana"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Great_spotted_woodpecker_(Dendrocopos_major)_female_Drenthe.jpg?width=800
     answers:
@@ -37,6 +61,14 @@ questions:
       C: "Le pinson"
       D: "La mésange"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The great spotted woodpecker"
+          B: "The jay"
+          C: "The finch"
+          D: "The tit"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/European_praying_mantis_(Mantis_religiosa)_green_female_Dobruja.jpg?width=800
     answers:
@@ -45,6 +77,14 @@ questions:
       C: "La sauterelle"
       D: "Le phasme"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do you see?"
+        answers:
+          A: "The praying mantis"
+          B: "The cricket"
+          C: "The grasshopper"
+          D: "The stick insect"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mute_swan_(Cygnus_olor)_looking_for_food_in_waves,_Windermere,_England.jpg?width=800
     answers:
@@ -53,6 +93,14 @@ questions:
       C: "Le canard"
       D: "L'oie"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The swan"
+          B: "The pelican"
+          C: "The duck"
+          D: "The goose"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sperm_whale_(Physeter_macrocephalus)_diving,_S%C3%A3o_Miguel_Island,_Azores,_Portugal_(PPL1-Corrected).jpg?width=800
     answers:
@@ -61,6 +109,14 @@ questions:
       C: "L'orque"
       D: "La baleine à bosse"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The sperm whale"
+          B: "The blue whale"
+          C: "The orca"
+          D: "The humpback whale"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Llama_(Lama_glama),_Tierpark_Hellabrunn,_M%C3%BAnich,_Alemania,_2012-06-17,_DD_01.JPG?width=800
     answers:
@@ -69,6 +125,14 @@ questions:
       C: "Le dromadaire"
       D: "L'alpaga"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which animal do you see?"
+        answers:
+          A: "The mouflon"
+          B: "The llama"
+          C: "The dromedary"
+          D: "The alpaca"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Apteryx_mantelli_-Rotorua,_North_Island,_New_Zealand-8a.jpg?width=800
     answers:
@@ -77,6 +141,14 @@ questions:
       C: "L'autruche"
       D: "Le pluvier"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The kiwi"
+          B: "The chick"
+          C: "The ostrich"
+          D: "The plover"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Barn_owl_(Tyto_alba).jpg?width=800
     answers:
@@ -85,6 +157,14 @@ questions:
       C: "La chouette harfang"
       D: "L'effraie des clochers"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The owl"
+          B: "The buzzard"
+          C: "The snowy owl"
+          D: "The barn owl"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Puffin_(Fratercula_arctica).jpg?width=800
     answers:
@@ -93,6 +173,14 @@ questions:
       C: "Le pingouin"
       D: "Le pigeon"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do you see?"
+        answers:
+          A: "The puffin"
+          B: "The penguin"
+          C: "The auk"
+          D: "The pigeon"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Whale_(Balaenoptera_musculus)_(16108163937).jpg?width=800
     answers:
@@ -101,6 +189,14 @@ questions:
       C: "Le rorqual à bosse"
       D: "La baleine bleue"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The sperm whale"
+          B: "The orca"
+          C: "The humpback rorqual"
+          D: "The blue whale"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/2017-09-09_(140)_Bubo_scandiacus_(Snowy_owl)_at_castle_Oberkapfenberg.jpg?width=800
     answers:
@@ -109,6 +205,14 @@ questions:
       C: "Le faucon"
       D: "La chouette harfang"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The eagle owl"
+          B: "The barn owl"
+          C: "The falcon"
+          D: "The snowy owl"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Chimpanzee_(Pan_troglodytes).jpg?width=800
     answers:
@@ -117,6 +221,14 @@ questions:
       C: "Le gorille"
       D: "Le bonobo"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which animal do you see?"
+        answers:
+          A: "The orangutan"
+          B: "The chimpanzee"
+          C: "The gorilla"
+          D: "The bonobo"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Zebra_Botswana_edit02.jpg?width=800
     answers:
@@ -125,6 +237,14 @@ questions:
       C: "L'âne"
       D: "L'okapi"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The zebra"
+          B: "The horse"
+          C: "The donkey"
+          D: "The okapi"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Lion_waiting_in_Namibia.jpg?width=800
     answers:
@@ -133,6 +253,14 @@ questions:
       C: "Le guépard"
       D: "Le puma"
     correctAnswer: B
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "Tiger"
+          B: "Lion"
+          C: "Cheetah"
+          D: "Puma"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Komodo_dragon_(Varanus_komodoensis).jpg?width=800
     answers:
@@ -141,6 +269,14 @@ questions:
       C: "Le dragon de Komodo"
       D: "Le crocodile"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "Iguana"
+          B: "Nile monitor"
+          C: "Komodo dragon"
+          D: "Crocodile"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Platypus.jpg?width=800
     answers:
@@ -149,6 +285,14 @@ questions:
       C: "Le rat musqué"
       D: "La loutre"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "Beaver"
+          B: "Platypus"
+          C: "Muskrat"
+          D: "Otter"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Trenggiling_Sunda_Sunda_Pangolin_Manis_javanica.jpg?width=800
     answers:
@@ -157,6 +301,14 @@ questions:
       C: "Le pangolin"
       D: "Le tamanoir"
     correctAnswer: C
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "Armadillo"
+          B: "Hedgehog"
+          C: "Pangolin"
+          D: "Anteater"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Clownfish_saying_hello_to_the_camera.jpg?width=800
     answers:
@@ -165,6 +317,14 @@ questions:
       C: "Le poisson-clown"
       D: "Le poisson-lune"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "Angelfish"
+          B: "Seahorse"
+          C: "Clownfish"
+          D: "Ocean sunfish"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Toco_Toucan_(Ramphastos_toco)_-_48153967707.jpg?width=800
     answers:
@@ -173,6 +333,14 @@ questions:
       C: "Le calao"
       D: "L'ara"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "Toucan"
+          B: "Parrot"
+          C: "Hornbill"
+          D: "Macaw"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Grosser_Panda.JPG?width=800
     answers:
@@ -181,6 +349,14 @@ questions:
       C: "Le koala"
       D: "Le panda roux"
     correctAnswer: A
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "Giant panda"
+          B: "Raccoon"
+          C: "Koala"
+          D: "Red panda"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/A_domestic_yak_(Bos_grunniens)_captured_in_Sikkim,_India.jpg?width=800
     answers:
@@ -189,6 +365,14 @@ questions:
       C: "Le bison"
       D: "Le buffle"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "Cow"
+          B: "Yak"
+          C: "Bison"
+          D: "Buffalo"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Arctic_Wolf_(Canis_lupus_arctos)_2.jpg?width=800
     answers:
@@ -197,6 +381,14 @@ questions:
       C: "Le coyote"
       D: "Le loup arctique"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "Arctic fox"
+          B: "Husky dog"
+          C: "Coyote"
+          D: "Arctic wolf"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Walrus_(Odobenus_rosmarus)_resting_in_a_crowd_on_Wahlberg%C3%B8ya,_Svalbard_(2).jpg?width=800
     answers:
@@ -205,6 +397,14 @@ questions:
       C: "L'éléphant de mer"
       D: "Le lion de mer"
     correctAnswer: A
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "Walrus"
+          B: "Seal"
+          C: "Elephant seal"
+          D: "Sea lion"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Myrmecophaga_tridactyla_86003248.jpg?width=800
     answers:
@@ -213,6 +413,14 @@ questions:
       C: "Le pangolin"
       D: "Le paresseux"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "Anteater"
+          B: "Armadillo"
+          C: "Pangolin"
+          D: "Sloth"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Honeybee_(Apis_mellifera).jpg?width=800
     answers:
@@ -221,6 +429,14 @@ questions:
       C: "L'abeille"
       D: "Le frelon"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "Bumblebee"
+          B: "Wasp"
+          C: "Bee"
+          D: "Hornet"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Common_starfish_IMG_1708.png?width=800
     answers:
@@ -229,6 +445,14 @@ questions:
       C: "La méduse"
       D: "L'oursin"
     correctAnswer: B
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "Sea cucumber"
+          B: "Starfish"
+          C: "Jellyfish"
+          D: "Sea urchin"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Emperor_scorpion_or_Imperial_scorpion_(Pandinus_imperator).jpg?width=800
     answers:
@@ -237,6 +461,14 @@ questions:
       C: "La pince-oreille"
       D: "Le crabe"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "Scorpion"
+          B: "Tarantula"
+          C: "Earwig"
+          D: "Crab"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Veiled_chameleon_(Chamaeleo_calyptratus),_Entomica_1.jpg?width=800
     answers:
@@ -245,6 +477,14 @@ questions:
       C: "Le caméléon"
       D: "Le varan"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "Gecko"
+          B: "Iguana"
+          C: "Chameleon"
+          D: "Monitor lizard"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Orca_Orcinus_orca_sulla_costa_di_Telegraph_Cove_Vancouver_Island_02.jpg?width=800
     answers:
@@ -253,6 +493,14 @@ questions:
       C: "Le marsouin"
       D: "Le béluga"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The dolphin"
+          B: "The orca"
+          C: "The porpoise"
+          D: "The beluga"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Artis_Fennec_fox_(11114753056).jpg?width=800
     answers:
@@ -261,6 +509,14 @@ questions:
       C: "Le renard roux"
       D: "Le fennec"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The rabbit"
+          B: "The jackal"
+          C: "The red fox"
+          D: "The fennec"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Siberian_Tiger_by_Malene_Th.jpg?width=800
     answers:
@@ -269,6 +525,14 @@ questions:
       C: "Le guépard"
       D: "Le léopard"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The tiger"
+          B: "The lion"
+          C: "The cheetah"
+          D: "The leopard"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Capybara_(Hydrochoerus_hydrochaeris).JPG?width=800
     answers:
@@ -277,6 +541,14 @@ questions:
       C: "Le capybara"
       D: "Le porc-épic"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The muskrat"
+          B: "The beaver"
+          C: "The capybara"
+          D: "The porcupine"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Vicugna_pacos_-_Karlsruhe_Zoo.jpg?width=800
     answers:
@@ -285,6 +557,14 @@ questions:
       C: "La chèvre"
       D: "Le lama"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The sheep"
+          B: "The alpaca"
+          C: "The goat"
+          D: "The llama"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Manta_birostris-Thailand.jpg?width=800
     answers:
@@ -293,6 +573,14 @@ questions:
       C: "Le poisson-lune"
       D: "La raie pastenague"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The whale shark"
+          B: "The manta ray"
+          C: "The sunfish"
+          D: "The stingray"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos_Laguna_Colorada.jpg?width=800
     answers:
@@ -301,6 +589,14 @@ questions:
       C: "Le héron"
       D: "L'ibis"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The flamingo"
+          B: "The stork"
+          C: "The heron"
+          D: "The ibis"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Great_white_pelican_(Pelecanus_onocrotalus)_head.jpg?width=800
     answers:
@@ -309,6 +605,14 @@ questions:
       C: "Le pélican"
       D: "Le cygne"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The flamingo"
+          B: "The stork"
+          C: "The pelican"
+          D: "The swan"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Harbor_seal_(Phoca_vitulina)_at_Magdalen_fjord,_Svalbard_(2).jpg?width=800
     answers:
@@ -317,6 +621,14 @@ questions:
       C: "Le lion de mer"
       D: "La loutre"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The walrus"
+          B: "The harbor seal"
+          C: "The sea lion"
+          D: "The otter"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ailurus_fulgens_(Panda_roux)_-_128.jpg?width=800
     answers:
@@ -325,6 +637,14 @@ questions:
       C: "Le panda roux"
       D: "Le renard"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The lemur"
+          B: "The raccoon"
+          C: "The red panda"
+          D: "The fox"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Bald_Eagle_Portrait.jpg?width=800
     answers:
@@ -333,6 +653,14 @@ questions:
       C: "Le pygargue à tête blanche"
       D: "Le faucon"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The vulture"
+          B: "The buzzard"
+          C: "The bald eagle"
+          D: "The falcon"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Griffon_vulture_(Gyps_fulvus).jpg?width=800
     answers:
@@ -341,6 +669,14 @@ questions:
       C: "Le faucon"
       D: "L'aigle"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The griffon vulture"
+          B: "The condor"
+          C: "The falcon"
+          D: "The eagle"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Orang_Utan,_Semenggok_Forest_Reserve,_Sarawak,_Borneo,_Malaysia.JPG?width=800
     answers:
@@ -349,6 +685,14 @@ questions:
       C: "L'orang-outan"
       D: "Le chimpanzé"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The gibbon"
+          B: "The gorilla"
+          C: "The orangutan"
+          D: "The chimpanzee"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nine-banded_armadillo_(Dasypus_novemcinctus)_(29884473785).jpg?width=800
     answers:
@@ -357,6 +701,14 @@ questions:
       C: "Le hérisson"
       D: "Le pangolin"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The armadillo"
+          B: "The anteater"
+          C: "The hedgehog"
+          D: "The pangolin"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/King_Cobra_(Ophiophagus_hannah)_hunting_Sungei_Buloh_Wetland_Reserve_(Singapore,_May_27,_2023).jpg?width=800
     answers:
@@ -365,6 +717,14 @@ questions:
       C: "Le mamba noir"
       D: "Le cobra royal"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The viper"
+          B: "The python"
+          C: "The black mamba"
+          D: "The king cobra"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Spotted_seahorse_(Hippocampus_kuda)_(40554459970).jpg?width=800
     answers:
@@ -373,6 +733,14 @@ questions:
       C: "L'hippocampe"
       D: "Le poisson-clown"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The needlefish"
+          B: "The sunfish"
+          C: "The seahorse"
+          D: "The clownfish"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg?width=800
     answers:
@@ -381,6 +749,14 @@ questions:
       C: "La tortue verte"
       D: "La tortue de Floride"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The leatherback turtle"
+          B: "The giant tortoise"
+          C: "The green turtle"
+          D: "The red-eared slider"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Koala_climbing_tree.jpg?width=800
     answers:
@@ -389,6 +765,14 @@ questions:
       C: "Le kangourou"
       D: "Le koala"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The panda"
+          B: "The sloth"
+          C: "The kangaroo"
+          D: "The koala"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Reno_(Rangifer_tarandus),_Honningsv%C3%A5g,_Noruega,_2019-09-03,_DD_37.jpg?width=800
     answers:
@@ -397,6 +781,14 @@ questions:
       C: "Le cerf"
       D: "Le chevreuil"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The moose"
+          B: "The reindeer"
+          C: "The deer"
+          D: "The roe deer"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Meerkat_(Suricata_suricatta)_with_3_young.jpg?width=800
     answers:
@@ -405,6 +797,14 @@ questions:
       C: "Le suricate"
       D: "Le chien de prairie"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The squirrel"
+          B: "The mongoose"
+          C: "The meerkat"
+          D: "The prairie dog"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pulpo_com%C3%BAn_(Octopus_vulgaris),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2020-07-21,_DD_46.jpg?width=800
     answers:
@@ -413,6 +813,14 @@ questions:
       C: "La seiche"
       D: "Le calmar"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The jellyfish"
+          B: "The octopus"
+          C: "The cuttlefish"
+          D: "The squid"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Gorilla_gorilla_gorilla4.jpg?width=800
     answers:
@@ -421,6 +829,14 @@ questions:
       C: "Le babouin"
       D: "L'orang-outan"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The gorilla"
+          B: "The chimpanzee"
+          C: "The baboon"
+          D: "The orangutan"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Monarch_Butterfly_Danaus_plexippus_Male_3931.jpg?width=800
     answers:
@@ -429,6 +845,14 @@ questions:
       C: "Le papillon monarque"
       D: "Le machaon"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The morpho"
+          B: "The peacock butterfly"
+          C: "The monarch butterfly"
+          D: "The swallowtail"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Moose_(Alces_alces),_Male_-_Algonquin_Provincial_Park,_Ontario.jpg?width=800
     answers:
@@ -437,6 +861,14 @@ questions:
       C: "Le bison"
       D: "L'élan"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The reindeer"
+          B: "The deer"
+          C: "The bison"
+          D: "The moose"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/West_European_Hedgehog_(Erinaceus_europaeus)1.jpg?width=800
     answers:
@@ -445,6 +877,14 @@ questions:
       C: "Le hérisson"
       D: "Le porc-épic"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The anteater"
+          B: "The armadillo"
+          C: "The hedgehog"
+          D: "The porcupine"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Seven-spotted_ladybug_(Coccinella_septempunctata).jpg?width=800
     answers:
@@ -453,6 +893,14 @@ questions:
       C: "La coccinelle"
       D: "Le scarabée"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The stink bug"
+          B: "The cockchafer"
+          C: "The ladybug"
+          D: "The beetle"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Morpho.jpg?width=800
     answers:
@@ -461,6 +909,14 @@ questions:
       C: "Le machaon"
       D: "Le paon du jour"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The blue morpho"
+          B: "The monarch butterfly"
+          C: "The swallowtail"
+          D: "The peacock butterfly"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/African_Bush_Elephant.jpg?width=800
     answers:
@@ -469,6 +925,14 @@ questions:
       C: "Le rhinocéros"
       D: "L'hippopotame"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The African elephant"
+          B: "The Asian elephant"
+          C: "The rhinoceros"
+          D: "The hippopotamus"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Manatee_trichechus_manatus_latirostris_close_up_underwater_photo.jpg?width=800
     answers:
@@ -477,6 +941,14 @@ questions:
       C: "Le morse"
       D: "Le lamantin"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The dugong"
+          B: "The seal"
+          C: "The walrus"
+          D: "The manatee"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Hippopotamus_amphibius_Whipsnade_Zoo.jpg?width=800
     answers:
@@ -485,6 +957,14 @@ questions:
       C: "Le buffle"
       D: "L'éléphant"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The rhinoceros"
+          B: "The hippopotamus"
+          C: "The buffalo"
+          D: "The elephant"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Emperor_Penguin_Manchot_empereur.jpg?width=800
     answers:
@@ -493,6 +973,14 @@ questions:
       C: "Le manchot empereur"
       D: "Le pingouin"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The Adélie penguin"
+          B: "The puffin"
+          C: "The emperor penguin"
+          D: "The penguin"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Decorated_one-humped_Camel,_Camelus_dromedarius,_at_Puri_Sea_Beach,_Odisha,_India.jpg?width=800
     answers:
@@ -501,6 +989,14 @@ questions:
       C: "Le dromadaire"
       D: "Le lama"
     correctAnswer: C
+    translations:
+      en:
+        text: "What animal do you see?"
+        answers:
+          A: "The alpaca"
+          B: "The Bactrian camel"
+          C: "The dromedary"
+          D: "The llama"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Galapagos_Tortoise.jpg?width=800
     answers:
@@ -509,6 +1005,14 @@ questions:
       C: "La tortue luth"
       D: "La tortue verte"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The Florida turtle"
+          B: "The Galápagos giant tortoise"
+          C: "The leatherback turtle"
+          D: "The green turtle"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tapir.jpg?width=800
     answers:
@@ -517,6 +1021,14 @@ questions:
       C: "Le cochon"
       D: "Le tapir"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The wild boar"
+          B: "The anteater"
+          C: "The pig"
+          D: "The tapir"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Rhinoc%C3%A9ros_blanc_du_Sud_(Ceratotherium_simum_simum)_(1).jpg?width=800
     answers:
@@ -525,6 +1037,14 @@ questions:
       C: "L'éléphant"
       D: "L'hippopotame"
     correctAnswer: A
+    translations:
+      en:
+        text: "What animal do you see?"
+        answers:
+          A: "The rhinoceros"
+          B: "The buffalo"
+          C: "The elephant"
+          D: "The hippopotamus"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Macaca_fuscata_juvenile_yawning.jpg?width=800
     answers:
@@ -533,6 +1053,14 @@ questions:
       C: "Le macaque japonais"
       D: "Le mandrill"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The chimpanzee"
+          B: "The baboon"
+          C: "The Japanese macaque"
+          D: "The mandrill"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Whale_shark_Georgia_aquarium.jpg?width=800
     answers:
@@ -541,6 +1069,14 @@ questions:
       C: "Le requin-baleine"
       D: "La baleine bleue"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The hammerhead shark"
+          B: "The great white shark"
+          C: "The whale shark"
+          D: "The blue whale"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Bison_bison.jpg?width=800
     answers:
@@ -549,6 +1085,14 @@ questions:
       C: "Le buffle"
       D: "La vache"
     correctAnswer: B
+    translations:
+      en:
+        text: "What animal do you see?"
+        answers:
+          A: "The yak"
+          B: "The bison"
+          C: "The buffalo"
+          D: "The cow"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nile_crocodile_head.jpg?width=800
     answers:
@@ -557,6 +1101,14 @@ questions:
       C: "Le caïman"
       D: "Le crocodile du Nil"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The gharial"
+          B: "The alligator"
+          C: "The caiman"
+          D: "The Nile crocodile"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Aurelia_aurita_(Cnidaria)_Luc_Viatour.jpg?width=800
     answers:
@@ -565,6 +1117,14 @@ questions:
       C: "La méduse"
       D: "L'anémone de mer"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The octopus"
+          B: "The squid"
+          C: "The jellyfish"
+          D: "The sea anemone"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Peacock_Plumage.jpg?width=800
     answers:
@@ -573,6 +1133,14 @@ questions:
       C: "La dinde"
       D: "Le paon"
     correctAnswer: D
+    translations:
+      en:
+        text: "What animal do you see?"
+        answers:
+          A: "The pheasant"
+          B: "The rooster"
+          C: "The turkey"
+          D: "The peacock"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe_Mikumi_National_Park.jpg?width=800
     answers:
@@ -581,6 +1149,14 @@ questions:
       C: "L'okapi"
       D: "La girafe"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The ostrich"
+          B: "The dromedary"
+          C: "The okapi"
+          D: "The giraffe"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Greater_Flying_Fox_(Pteropus_vampyrus)_on_the_Elevala_River_(48742819348).jpg?width=800
     answers:
@@ -589,6 +1165,14 @@ questions:
       C: "Le hibou"
       D: "L'écureuil volant"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The flying fox"
+          B: "The lemur"
+          C: "The owl"
+          D: "The flying squirrel"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/California_sea_lion_in_La_Jolla_(70568).jpg?width=800
     answers:
@@ -597,6 +1181,14 @@ questions:
       C: "Le morse"
       D: "La loutre"
     correctAnswer: B
+    translations:
+      en:
+        text: "What animal do you see?"
+        answers:
+          A: "The seal"
+          B: "The sea lion"
+          C: "The walrus"
+          D: "The otter"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kangaroo_and_joey03.jpg?width=800
     answers:
@@ -605,6 +1197,14 @@ questions:
       C: "Le lapin"
       D: "Le kangourou"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The koala"
+          B: "The wallaby"
+          C: "The rabbit"
+          D: "The kangaroo"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/North_American_Beaver_(Castor_canadensis)_-_Algonquin_Provincial_Park,_Ontario_01.jpg?width=800
     answers:
@@ -613,6 +1213,14 @@ questions:
       C: "La loutre"
       D: "Le castor"
     correctAnswer: D
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "The muskrat"
+          B: "The coypu"
+          C: "The otter"
+          D: "The beaver"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Great_White_Shark_(Carcharodon_carcharias)_(32872284396).jpg?width=800
     answers:
@@ -621,6 +1229,14 @@ questions:
       C: "Le requin-marteau"
       D: "Le requin tigre"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The whale shark"
+          B: "The great white shark"
+          C: "The hammerhead shark"
+          D: "The tiger shark"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Beluga_or_white_whale,_Delphinapterus_leucas_courtship_(6182461448).jpg?width=800
     answers:
@@ -629,6 +1245,14 @@ questions:
       C: "L'orque"
       D: "Le béluga"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The narwhal"
+          B: "The dolphin"
+          C: "The orca"
+          D: "The beluga"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tarantula_(Theraphosidae)_(27080144695).jpg?width=800
     answers:
@@ -637,6 +1261,14 @@ questions:
       C: "L'araignée d'eau"
       D: "Le scorpion"
     correctAnswer: A
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "The tarantula"
+          B: "The black widow"
+          C: "The diving bell spider"
+          D: "The scorpion"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Bottlenose_Dolphin.jpg?width=800
     answers:
@@ -645,6 +1277,14 @@ questions:
       C: "L'orque"
       D: "Le grand dauphin"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The porpoise"
+          B: "The beluga"
+          C: "The orca"
+          D: "The bottlenose dolphin"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Common_wombat.jpg?width=800
     answers:
@@ -653,6 +1293,14 @@ questions:
       C: "Le tatou"
       D: "Le castor"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The badger"
+          B: "The wombat"
+          C: "The armadillo"
+          D: "The beaver"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ring-tailed_lemur.jpg?width=800
     answers:
@@ -661,6 +1309,14 @@ questions:
       C: "Le singe capucin"
       D: "Le raton laveur"
     correctAnswer: B
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "The meerkat"
+          B: "The ring-tailed lemur"
+          C: "The capuchin monkey"
+          D: "The raccoon"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cheetah_(Acinonyx_jubatus)_female_2.jpg?width=800
     answers:
@@ -669,6 +1325,14 @@ questions:
       C: "Le lynx"
       D: "Le léopard"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The cheetah"
+          B: "The jaguar"
+          C: "The lynx"
+          D: "The leopard"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kingfisher_(Alcedo_atthis).jpg?width=800
     answers:
@@ -677,6 +1341,14 @@ questions:
       C: "Le rouge-gorge"
       D: "Le martin-pêcheur"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The hummingbird"
+          B: "The jay"
+          C: "The robin"
+          D: "The kingfisher"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Scarlet_macaw_(Ara_macao_cyanopterus)_head_Copan.jpg?width=800
     answers:
@@ -685,6 +1357,14 @@ questions:
       C: "Le toucan"
       D: "L'ara rouge"
     correctAnswer: D
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "The cockatoo"
+          B: "The African grey parrot"
+          C: "The toucan"
+          D: "The scarlet macaw"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Lucanus_cervus_male_2017_G1.jpg?width=800
     answers:
@@ -693,6 +1373,14 @@ questions:
       C: "Le scarabée rhinocéros"
       D: "Le lucane cerf-volant"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The cockchafer"
+          B: "The cockroach"
+          C: "The rhinoceros beetle"
+          D: "The stag beetle"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Polar_Bear_-_Alaska_(cropped).jpg?width=800
     answers:
@@ -701,6 +1389,14 @@ questions:
       C: "L'ours brun"
       D: "Le loup arctique"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The Arctic fox"
+          B: "The polar bear"
+          C: "The brown bear"
+          D: "The Arctic wolf"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Red_deer_(Cervus_elaphus).jpg?width=800
     answers:
@@ -709,6 +1405,14 @@ questions:
       C: "Le renne"
       D: "Le cerf élaphe"
     correctAnswer: D
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "The roe deer"
+          B: "The fallow deer"
+          C: "The reindeer"
+          D: "The red deer"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pod_Monodon_monoceros.jpg?width=800
     answers:
@@ -717,6 +1421,14 @@ questions:
       C: "Le béluga"
       D: "Le narval"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The dolphin"
+          B: "The orca"
+          C: "The beluga"
+          D: "The narwhal"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Trochilidae_-_Barrancabermeja,_Santander,_Colombia_-_13_Jul_2025_-_Diferoch.jpg?width=800
     answers:
@@ -725,6 +1437,14 @@ questions:
       C: "L'hirondelle"
       D: "Le martin-pêcheur"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The sparrow"
+          B: "The hummingbird"
+          C: "The swallow"
+          D: "The kingfisher"
   - text: "Quel est cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Humpback_Whale_Breaching_in_Hervey_Bay,_Alaska.jpg?width=800
     answers:
@@ -733,6 +1453,14 @@ questions:
       C: "L'orque"
       D: "Le cachalot"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this animal?"
+        answers:
+          A: "The blue whale"
+          B: "The humpback whale"
+          C: "The orca"
+          D: "The sperm whale"
   - text: "Quel animal voit-on ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Masai_ostrich_(Struthio_camelus_massaicus)_female_Serengeti.jpg?width=800
     answers:
@@ -741,6 +1469,14 @@ questions:
       C: "Le nandou"
       D: "L'émeu"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The cassowary"
+          B: "The ostrich"
+          C: "The rhea"
+          D: "The emu"
   - text: "Comment s'appelle cet animal ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mandrillus_sphinx(Mandrill)_side.jpg?width=800
     answers:
@@ -749,3 +1485,11 @@ questions:
       C: "Le mandrill"
       D: "Le macaque"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The baboon"
+          B: "The gorilla"
+          C: "The mandrill"
+          D: "The macaque"

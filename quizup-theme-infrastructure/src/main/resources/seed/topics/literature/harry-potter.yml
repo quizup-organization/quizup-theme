@@ -12,6 +12,14 @@ questions:
       C: "Durmstrang"
       D: "Ilvermorny"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the wizarding school that Harry Potter attends?"
+        answers:
+          A: "Beauxbatons"
+          B: "Hogwarts"
+          C: "Durmstrang"
+          D: "Ilvermorny"
   - text: "Quel est le nom de la chouette blanche de Harry Potter ?"
     answers:
       A: "Hedwige"
@@ -19,6 +27,14 @@ questions:
       C: "Errol"
       D: "Pattenrond"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Harry Potter's white owl?"
+        answers:
+          A: "Hedwig"
+          B: "Pigwidgeon"
+          C: "Errol"
+          D: "Crookshanks"
   - text: "Quelle est la forme de la cicatrice de Harry Potter ?"
     answers:
       A: "Une étoile"
@@ -26,6 +42,14 @@ questions:
       C: "Un cercle"
       D: "Un éclair"
     correctAnswer: D
+    translations:
+      en:
+        text: "What shape is Harry Potter's scar?"
+        answers:
+          A: "A star"
+          B: "A snake"
+          C: "A circle"
+          D: "A lightning bolt"
   - text: "Quel est le nom de l'ami roux de Harry Potter ?"
     answers:
       A: "Ronald Weasley"
@@ -33,6 +57,14 @@ questions:
       C: "Draco Malefoy"
       D: "Seamus Finnigan"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Harry Potter's red-haired friend?"
+        answers:
+          A: "Ronald Weasley"
+          B: "Neville Longbottom"
+          C: "Draco Malfoy"
+          D: "Seamus Finnigan"
   - text: "Comment s'appelle la meilleure amie de Harry et Ron ?"
     answers:
       A: "Ginny Weasley"
@@ -40,6 +72,14 @@ questions:
       C: "Hermione Granger"
       D: "Cho Chang"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Harry and Ron's best friend?"
+        answers:
+          A: "Ginny Weasley"
+          B: "Luna Lovegood"
+          C: "Hermione Granger"
+          D: "Cho Chang"
   - text: "Quel est le nom du directeur de Poudlard dans les premiers tomes ?"
     answers:
       A: "Severus Rogue"
@@ -47,6 +87,14 @@ questions:
       C: "Minerva McGonagall"
       D: "Cornelius Fudge"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the headmaster of Hogwarts in the early books?"
+        answers:
+          A: "Severus Snape"
+          B: "Albus Dumbledore"
+          C: "Minerva McGonagall"
+          D: "Cornelius Fudge"
   - text: "Quelle voie permet aux élèves d'accéder au Poudlard Express depuis la gare de King's Cross ?"
     answers:
       A: "Le quai 13"
@@ -54,6 +102,14 @@ questions:
       C: "Le quai 9 3/4"
       D: "Le quai 10"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which platform lets students access the Hogwarts Express from King's Cross station?"
+        answers:
+          A: "Platform 13"
+          B: "Platform 7"
+          C: "Platform 9 3/4"
+          D: "Platform 10"
   - text: "Quel sport les sorciers pratiquent-ils à dos de balai ?"
     answers:
       A: "Le quidditch"
@@ -61,6 +117,14 @@ questions:
       C: "Le polo"
       D: "Le hockey"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which sport do wizards play on broomsticks?"
+        answers:
+          A: "Quidditch"
+          B: "Cricket"
+          C: "Polo"
+          D: "Hockey"
   - text: "Quelle petite balle dorée l'Attrapeur doit-il capturer pour mettre fin à un match de quidditch ?"
     answers:
       A: "Le Cognard"
@@ -68,6 +132,14 @@ questions:
       C: "Le Vif d'or"
       D: "Le Cracmol"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which small golden ball must the Seeker catch to end a Quidditch match?"
+        answers:
+          A: "The Bludger"
+          B: "The Quaffle"
+          C: "The Golden Snitch"
+          D: "The Squib"
   - text: "Quel objet permet de répartir les nouveaux élèves dans les maisons de Poudlard ?"
     answers:
       A: "La Coupe de feu"
@@ -75,6 +147,14 @@ questions:
       C: "Le Miroir du Riséd"
       D: "La Pensine"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which object sorts new students into the Hogwarts houses?"
+        answers:
+          A: "The Goblet of Fire"
+          B: "The Sorting Hat"
+          C: "The Mirror of Erised"
+          D: "The Pensieve"
   - text: "Quelle est la maison de Poudlard dont l'emblème est le lion ?"
     answers:
       A: "Serpentard"
@@ -82,6 +162,14 @@ questions:
       C: "Poufsouffle"
       D: "Gryffondor"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which Hogwarts house has the lion as its emblem?"
+        answers:
+          A: "Slytherin"
+          B: "Ravenclaw"
+          C: "Hufflepuff"
+          D: "Gryffindor"
   - text: "Quel est le nom du seigneur des ténèbres qui a tué les parents de Harry ?"
     answers:
       A: "Grindelwald"
@@ -89,6 +177,14 @@ questions:
       C: "Peter Pettigrow"
       D: "Bellatrix Lestrange"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Dark Lord who killed Harry's parents?"
+        answers:
+          A: "Grindelwald"
+          B: "Voldemort"
+          C: "Peter Pettigrew"
+          D: "Bellatrix Lestrange"
   - text: "Quel sortilège permet de désarmer un adversaire ?"
     answers:
       A: "Expelliarmus"
@@ -96,6 +192,14 @@ questions:
       C: "Endoloris"
       D: "Riddikulus"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which spell disarms an opponent?"
+        answers:
+          A: "Expelliarmus"
+          B: "Stupefy"
+          C: "Crucio"
+          D: "Riddikulus"
   - text: "Comment s'appelle le demi-géant gardien des clés et des lieux de Poudlard ?"
     answers:
       A: "Firenze"
@@ -103,6 +207,14 @@ questions:
       C: "Argus Rusard"
       D: "Filius Flitwick"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the half-giant keeper of keys and grounds at Hogwarts?"
+        answers:
+          A: "Firenze"
+          B: "Rubeus Hagrid"
+          C: "Argus Filch"
+          D: "Filius Flitwick"
   - text: "Quel est le prénom du parrain de Harry Potter, injustement emprisonné à Azkaban ?"
     answers:
       A: "Remus"
@@ -110,6 +222,14 @@ questions:
       C: "Sirius"
       D: "Regulus"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of Harry Potter's godfather, wrongly imprisoned in Azkaban?"
+        answers:
+          A: "Remus"
+          B: "Peter"
+          C: "Sirius"
+          D: "Regulus"
   - text: "Comment s'appelle la banque des sorciers, située sur le Chemin de Traverse ?"
     answers:
       A: "Gringotts"
@@ -117,6 +237,14 @@ questions:
       C: "Ollivander"
       D: "Fleury et Bott"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the wizarding bank located on Diagon Alley?"
+        answers:
+          A: "Gringotts"
+          B: "Borgin and Burkes"
+          C: "Ollivanders"
+          D: "Flourish and Blotts"
   - text: "Quel animal représente la maison Serpentard ?"
     answers:
       A: "Le blaireau"
@@ -124,6 +252,14 @@ questions:
       C: "Le lion"
       D: "Le serpent"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which animal represents the Slytherin house?"
+        answers:
+          A: "The badger"
+          B: "The eagle"
+          C: "The lion"
+          D: "The serpent"
   - text: "Quel professeur enseigne les potions dans les premiers tomes ?"
     answers:
       A: "Severus Rogue"
@@ -131,6 +267,14 @@ questions:
       C: "Gilderoy Lockhart"
       D: "Horace Slughorn"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which professor teaches Potions in the early books?"
+        answers:
+          A: "Severus Snape"
+          B: "Quirinus Quirrell"
+          C: "Gilderoy Lockhart"
+          D: "Horace Slughorn"
   - text: "Combien de Horcruxes Voldemort a-t-il créés volontairement, sans compter l'accidentel ?"
     answers:
       A: "Cinq"
@@ -138,6 +282,14 @@ questions:
       C: "Sept"
       D: "Huit"
     correctAnswer: B
+    translations:
+      en:
+        text: "How many Horcruxes did Voldemort intentionally create, not counting the accidental one?"
+        answers:
+          A: "Five"
+          B: "Six"
+          C: "Seven"
+          D: "Eight"
   - text: "Quel est le titre du premier tome de la saga Harry Potter ?"
     answers:
       A: "Harry Potter et la Chambre des secrets"
@@ -145,3 +297,11 @@ questions:
       C: "Harry Potter à l'école des sorciers"
       D: "Harry Potter et la Coupe de feu"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the first book in the Harry Potter series?"
+        answers:
+          A: "Harry Potter and the Chamber of Secrets"
+          B: "Harry Potter and the Prisoner of Azkaban"
+          C: "Harry Potter and the Philosopher's Stone"
+          D: "Harry Potter and the Goblet of Fire"

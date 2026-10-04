@@ -12,6 +12,14 @@ questions:
       C: "10"
       D: "12"
     correctAnswer: A
+    translations:
+      en:
+        text: "How many players make up a football team on the field, including the goalkeeper?"
+        answers:
+          A: "11"
+          B: "9"
+          C: "10"
+          D: "12"
   - text: "Quel pays a remporté la Coupe du monde de football en 1998 ?"
     answers:
       A: "Le Brésil"
@@ -19,6 +27,14 @@ questions:
       C: "L'Allemagne"
       D: "La France"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which country won the 1998 FIFA World Cup?"
+        answers:
+          A: "Brazil"
+          B: "Italy"
+          C: "Germany"
+          D: "France"
   - text: "Quel joueur est surnommé « la Pulga » ?"
     answers:
       A: "Cristiano Ronaldo"
@@ -26,6 +42,14 @@ questions:
       C: "Neymar"
       D: "Ronaldinho"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which player is nicknamed \"la Pulga\"?"
+        answers:
+          A: "Cristiano Ronaldo"
+          B: "Lionel Messi"
+          C: "Neymar"
+          D: "Ronaldinho"
   - text: "Combien de temps dure un match de football, hors prolongations et temps additionnel ?"
     answers:
       A: "80 minutes"
@@ -33,6 +57,14 @@ questions:
       C: "90 minutes"
       D: "120 minutes"
     correctAnswer: C
+    translations:
+      en:
+        text: "How long does a football match last, excluding extra time and stoppage time?"
+        answers:
+          A: "80 minutes"
+          B: "100 minutes"
+          C: "90 minutes"
+          D: "120 minutes"
   - text: "Quel pays a remporté le plus de Coupes du monde masculines de football ?"
     answers:
       A: "Le Brésil"
@@ -40,6 +72,14 @@ questions:
       C: "L'Italie"
       D: "L'Argentine"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which country has won the most men's FIFA World Cups?"
+        answers:
+          A: "Brazil"
+          B: "Germany"
+          C: "Italy"
+          D: "Argentina"
   - text: "Quelle couleur de carton un arbitre montre-t-il pour exclure un joueur ?"
     answers:
       A: "Jaune"
@@ -47,6 +87,14 @@ questions:
       C: "Blanc"
       D: "Rouge"
     correctAnswer: D
+    translations:
+      en:
+        text: "What color card does a referee show to send a player off?"
+        answers:
+          A: "Yellow"
+          B: "Blue"
+          C: "White"
+          D: "Red"
   - text: "Dans quel club Zinédine Zidane a-t-il évolué avant de rejoindre le Real Madrid ?"
     answers:
       A: "L'Olympique de Marseille"
@@ -54,6 +102,14 @@ questions:
       C: "La Juventus de Turin"
       D: "Le FC Barcelone"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which club did Zinédine Zidane play for before joining Real Madrid?"
+        answers:
+          A: "Olympique de Marseille"
+          B: "Paris Saint-Germain"
+          C: "Juventus"
+          D: "FC Barcelona"
   - text: "Quelle est la compétition qui oppose chaque année les meilleurs clubs européens ?"
     answers:
       A: "La Ligue des champions"
@@ -61,6 +117,14 @@ questions:
       C: "La Coupe des confédérations"
       D: "La Gold Cup"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which competition pits the best European clubs against each other every year?"
+        answers:
+          A: "UEFA Champions League"
+          B: "Copa Libertadores"
+          C: "FIFA Confederations Cup"
+          D: "Gold Cup"
   - text: "Quel pays a organisé la Coupe du monde de football 2022 ?"
     answers:
       A: "La Russie"
@@ -68,6 +132,14 @@ questions:
       C: "Le Brésil"
       D: "L'Afrique du Sud"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 2022 FIFA World Cup?"
+        answers:
+          A: "Russia"
+          B: "Qatar"
+          C: "Brazil"
+          D: "South Africa"
   - text: "Comment s'appelle le trophée individuel décerné au meilleur joueur du monde par France Football ?"
     answers:
       A: "Le Soulier d'or"
@@ -75,6 +147,14 @@ questions:
       C: "Le Ballon d'or"
       D: "La Coupe Puskás"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the individual trophy awarded to the world's best player by France Football called?"
+        answers:
+          A: "Golden Boot"
+          B: "Bronze Ball"
+          C: "Ballon d'Or"
+          D: "Puskás Award"
   - text: "Quel joueur français a inscrit un triplé en finale de la Coupe du monde 2022 ?"
     answers:
       A: "Antoine Griezmann"
@@ -82,6 +162,14 @@ questions:
       C: "Ousmane Dembélé"
       D: "Kylian Mbappé"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which French player scored a hat-trick in the 2022 World Cup final?"
+        answers:
+          A: "Antoine Griezmann"
+          B: "Olivier Giroud"
+          C: "Ousmane Dembélé"
+          D: "Kylian Mbappé"
   - text: "Quel joueur brésilien a remporté trois Coupes du monde avec sa sélection ?"
     answers:
       A: "Pelé"
@@ -89,6 +177,14 @@ questions:
       C: "Romário"
       D: "Ronaldo"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Brazilian player won three World Cups with his national team?"
+        answers:
+          A: "Pelé"
+          B: "Zico"
+          C: "Romário"
+          D: "Ronaldo"
   - text: "Sur quel continent se trouve le pays qui a remporté la Coupe du monde 2010 ?"
     answers:
       A: "Amérique du Sud"
@@ -96,6 +192,14 @@ questions:
       C: "Europe"
       D: "Afrique"
     correctAnswer: C
+    translations:
+      en:
+        text: "On which continent is the country that won the 2010 World Cup located?"
+        answers:
+          A: "South America"
+          B: "Asia"
+          C: "Europe"
+          D: "Africa"
   - text: "Quelle règle sanctionne un joueur situé plus près de la ligne de but adverse que le ballon et l'avant-dernier défenseur au moment de la passe ?"
     answers:
       A: "Le hors-jeu"
@@ -103,6 +207,14 @@ questions:
       C: "Le coup franc indirect"
       D: "Le carton blanc"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which rule penalizes a player positioned closer to the opponent's goal line than the ball and the second-to-last defender at the moment of the pass?"
+        answers:
+          A: "Offside"
+          B: "Handball"
+          C: "Indirect free kick"
+          D: "White card"
   - text: "Quel est le surnom de l'équipe nationale d'Italie ?"
     answers:
       A: "Les Bleus"
@@ -110,6 +222,14 @@ questions:
       C: "La Nazionale Azzurra"
       D: "La Seleção"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the nickname of the Italy national team?"
+        answers:
+          A: "Les Bleus"
+          B: "La Roja"
+          C: "La Nazionale Azzurra"
+          D: "La Seleção"
   - text: "Quel club anglais joue ses matchs à domicile à Old Trafford ?"
     answers:
       A: "Manchester United"
@@ -117,6 +237,14 @@ questions:
       C: "Liverpool"
       D: "Arsenal"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which English club plays its home matches at Old Trafford?"
+        answers:
+          A: "Manchester United"
+          B: "Manchester City"
+          C: "Liverpool"
+          D: "Arsenal"
   - text: "Quel joueur a inscrit la célèbre « main de Dieu » lors de la Coupe du monde 1986 ?"
     answers:
       A: "Pelé"
@@ -124,6 +252,14 @@ questions:
       C: "Diego Maradona"
       D: "Michel Platini"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which player scored the famous \"Hand of God\" at the 1986 World Cup?"
+        answers:
+          A: "Pelé"
+          B: "Johan Cruyff"
+          C: "Diego Maradona"
+          D: "Michel Platini"
   - text: "À quelle distance du but est tiré un penalty, en mètres ?"
     answers:
       A: "9 mètres"
@@ -131,6 +267,14 @@ questions:
       C: "13 mètres"
       D: "15 mètres"
     correctAnswer: B
+    translations:
+      en:
+        text: "At what distance from the goal is a penalty taken, in meters?"
+        answers:
+          A: "9 meters"
+          B: "11 meters"
+          C: "13 meters"
+          D: "15 meters"
   - text: "Quelle sélection nationale a remporté l'Euro 2016 ?"
     answers:
       A: "La France"
@@ -138,6 +282,14 @@ questions:
       C: "L'Espagne"
       D: "Le Portugal"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which national team won Euro 2016?"
+        answers:
+          A: "France"
+          B: "Germany"
+          C: "Spain"
+          D: "Portugal"
   - text: "Quel club espagnol est surnommé les « Blaugranas » ?"
     answers:
       A: "Le Real Madrid"
@@ -145,3 +297,11 @@ questions:
       C: "Le Séville FC"
       D: "Le FC Barcelone"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which Spanish club is nicknamed the \"Blaugranas\"?"
+        answers:
+          A: "Real Madrid"
+          B: "Atlético de Madrid"
+          C: "Sevilla FC"
+          D: "FC Barcelona"

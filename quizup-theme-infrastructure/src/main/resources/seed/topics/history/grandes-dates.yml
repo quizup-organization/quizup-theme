@@ -13,6 +13,14 @@ questions:
       C: "Nicolas Copernic"
       D: "Galilée"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who developed the movable-type printing press in Europe around 1450?"
+        answers:
+          A: "Leonardo da Vinci"
+          B: "Johannes Gutenberg"
+          C: "Nicolaus Copernicus"
+          D: "Galileo"
   - text: "Quel navigateur a lancé en 1519 la première expédition qui a fait le tour du monde ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Magellan.jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "Vasco de Gama"
       D: "Francis Drake"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which navigator launched the first expedition to circumnavigate the globe in 1519?"
+        answers:
+          A: "Ferdinand Magellan"
+          B: "Christopher Columbus"
+          C: "Vasco da Gama"
+          D: "Francis Drake"
   - text: "Quel texte fondateur a été adopté par le Congrès américain le 4 juillet 1776 ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Declaration_of_Independence_(1819),_by_John_Trumbull.jpg?width=800
     answers:
@@ -29,6 +45,14 @@ questions:
       C: "Le traité de Paris"
       D: "La Déclaration d'indépendance des États-Unis"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which founding document was adopted by the American Congress on July 4, 1776?"
+        answers:
+          A: "The U.S. Constitution"
+          B: "The Bill of Rights"
+          C: "The Treaty of Paris"
+          D: "The United States Declaration of Independence"
   - text: "Quel événement du 14 juillet 1789 marque le début de la Révolution française ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Prise_de_la_Bastille.jpg?width=800
     answers:
@@ -37,6 +61,14 @@ questions:
       C: "La prise de la Bastille"
       D: "Le serment du Jeu de paume"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which event on July 14, 1789 marks the beginning of the French Revolution?"
+        answers:
+          A: "The coronation of Napoleon"
+          B: "The Festival of the Federation"
+          C: "The storming of the Bastille"
+          D: "The Tennis Court Oath"
   - text: "Quel paquebot britannique a sombré dans l'Atlantique après avoir heurté un iceberg en 1912 ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/RMS_Titanic_3.jpg?width=800
     answers:
@@ -45,6 +77,14 @@ questions:
       C: "Le Britannic"
       D: "Le Carpathia"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which British ocean liner sank in the Atlantic after hitting an iceberg in 1912?"
+        answers:
+          A: "The Titanic"
+          B: "The Lusitania"
+          C: "The Britannic"
+          D: "The Carpathia"
   - text: "Quel astronaute de la mission Apollo 11 est photographié ici sur la Lune en 1969 ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Aldrin_Apollo_11.jpg?width=800
     answers:
@@ -53,6 +93,14 @@ questions:
       C: "Buzz Aldrin"
       D: "Youri Gagarine"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Apollo 11 astronaut is photographed here on the Moon in 1969?"
+        answers:
+          A: "Neil Armstrong"
+          B: "Michael Collins"
+          C: "Buzz Aldrin"
+          D: "Yuri Gagarin"
   - text: "En quelle année l'Empire romain d'Occident s'effondre-t-il avec la déposition de Romulus Augustule ?"
     answers:
       A: "395"
@@ -60,6 +108,14 @@ questions:
       C: "800"
       D: "1453"
     correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Western Roman Empire collapse with the deposition of Romulus Augustulus?"
+        answers:
+          A: "395"
+          B: "476"
+          C: "800"
+          D: "1453"
   - text: "Quelle bataille de 732 Charles Martel a-t-il remportée contre les Omeyyades ?"
     answers:
       A: "La bataille de Marignan"
@@ -67,6 +123,14 @@ questions:
       C: "La bataille d'Hastings"
       D: "La bataille de Poitiers"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which battle in 732 did Charles Martel win against the Umayyads?"
+        answers:
+          A: "The Battle of Marignano"
+          B: "The Battle of Bouvines"
+          C: "The Battle of Hastings"
+          D: "The Battle of Poitiers"
   - text: "En quelle année Constantinople tombe-t-elle aux mains des Ottomans ?"
     answers:
       A: "1204"
@@ -74,6 +138,14 @@ questions:
       C: "1453"
       D: "1492"
     correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Constantinople fall to the Ottomans?"
+        answers:
+          A: "1204"
+          B: "1450"
+          C: "1453"
+          D: "1492"
   - text: "Quel navigateur génois atteint l'Amérique en 1492 pour le compte de l'Espagne ?"
     answers:
       A: "Christophe Colomb"
@@ -81,6 +153,14 @@ questions:
       C: "James Cook"
       D: "Amerigo Vespucci"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Genoese navigator reached America in 1492 on behalf of Spain?"
+        answers:
+          A: "Christopher Columbus"
+          B: "Vasco da Gama"
+          C: "James Cook"
+          D: "Amerigo Vespucci"
   - text: "En quelle année Martin Luther publie-t-il ses 95 thèses ?"
     answers:
       A: "1453"
@@ -88,6 +168,14 @@ questions:
       C: "1515"
       D: "1517"
     correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Martin Luther publish his 95 theses?"
+        answers:
+          A: "1453"
+          B: "1492"
+          C: "1515"
+          D: "1517"
   - text: "Quel attentat de juin 1914 a servi de prétexte au déclenchement de la Première Guerre mondiale ?"
     answers:
       A: "L'attentat de Munich"
@@ -95,6 +183,14 @@ questions:
       C: "L'incendie du Reichstag"
       D: "L'affaire Dreyfus"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which June 1914 assassination served as the pretext for the outbreak of World War I?"
+        answers:
+          A: "The Munich assassination"
+          B: "The Sarajevo assassination"
+          C: "The Reichstag fire"
+          D: "The Dreyfus affair"
   - text: "En quelle année l'armistice met-il fin à la Première Guerre mondiale ?"
     answers:
       A: "1918"
@@ -102,6 +198,14 @@ questions:
       C: "1919"
       D: "1920"
     correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the armistice end World War I?"
+        answers:
+          A: "1918"
+          B: "1917"
+          C: "1919"
+          D: "1920"
   - text: "Quelle pandémie a fait des millions de morts entre 1918 et 1919 ?"
     answers:
       A: "La peste noire"
@@ -109,6 +213,14 @@ questions:
       C: "La variole"
       D: "La grippe espagnole"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which pandemic killed millions between 1918 and 1919?"
+        answers:
+          A: "The Black Death"
+          B: "Cholera"
+          C: "Smallpox"
+          D: "The Spanish flu"
   - text: "En quelle année la Seconde Guerre mondiale a-t-elle débuté en Europe ?"
     answers:
       A: "1938"
@@ -116,6 +228,14 @@ questions:
       C: "1940"
       D: "1941"
     correctAnswer: B
+    translations:
+      en:
+        text: "In what year did World War II begin in Europe?"
+        answers:
+          A: "1938"
+          B: "1939"
+          C: "1940"
+          D: "1941"
   - text: "Quelle organisation internationale a été fondée en 1945 pour maintenir la paix ?"
     answers:
       A: "La Société des Nations"
@@ -123,6 +243,14 @@ questions:
       C: "L'Organisation des Nations unies"
       D: "Le Conseil de l'Europe"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which international organization was founded in 1945 to maintain peace?"
+        answers:
+          A: "The League of Nations"
+          B: "UNESCO"
+          C: "The United Nations"
+          D: "The Council of Europe"
   - text: "Quelle ville japonaise a été frappée par la première bombe atomique le 6 août 1945 ?"
     answers:
       A: "Tokyo"
@@ -130,6 +258,14 @@ questions:
       C: "Osaka"
       D: "Hiroshima"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese city was hit by the first atomic bomb on August 6, 1945?"
+        answers:
+          A: "Tokyo"
+          B: "Nagasaki"
+          C: "Osaka"
+          D: "Hiroshima"
   - text: "Quel président américain a été assassiné à Dallas en 1963 ?"
     answers:
       A: "John F. Kennedy"
@@ -137,6 +273,14 @@ questions:
       C: "Harry S. Truman"
       D: "Richard Nixon"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which American president was assassinated in Dallas in 1963?"
+        answers:
+          A: "John F. Kennedy"
+          B: "Franklin D. Roosevelt"
+          C: "Harry S. Truman"
+          D: "Richard Nixon"
   - text: "En quelle année le mur de Berlin est-il tombé ?"
     answers:
       A: "1968"
@@ -144,6 +288,14 @@ questions:
       C: "1989"
       D: "1991"
     correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Berlin Wall fall?"
+        answers:
+          A: "1968"
+          B: "1979"
+          C: "1989"
+          D: "1991"
   - text: "En quelle année Nelson Mandela est-il devenu président de l'Afrique du Sud ?"
     answers:
       A: "1990"
@@ -151,3 +303,11 @@ questions:
       C: "1996"
       D: "1999"
     correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Nelson Mandela become president of South Africa?"
+        answers:
+          A: "1990"
+          B: "1994"
+          C: "1996"
+          D: "1999"

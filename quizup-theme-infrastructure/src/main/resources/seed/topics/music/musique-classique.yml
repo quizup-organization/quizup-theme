@@ -13,6 +13,14 @@ questions:
       C: "Jean-Sébastien Bach"
       D: "Joseph Haydn"
     correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the famous Toccata and Fugue in D minor?"
+        answers:
+          A: "George Frideric Handel"
+          B: "Antonio Vivaldi"
+          C: "Johann Sebastian Bach"
+          D: "Joseph Haydn"
   - text: "Qui a composé l'opéra La Flûte enchantée ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang-amadeus-mozart_1.jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "Giuseppe Verdi"
       D: "Richard Wagner"
     correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the opera The Magic Flute?"
+        answers:
+          A: "Wolfgang Amadeus Mozart"
+          B: "Ludwig van Beethoven"
+          C: "Giuseppe Verdi"
+          D: "Richard Wagner"
   - text: "Qui a composé la Neuvième Symphonie, dont le final reprend l'Ode à la joie ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Beethoven.jpg?width=800
     answers:
@@ -29,6 +45,14 @@ questions:
       C: "Hector Berlioz"
       D: "Ludwig van Beethoven"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the Ninth Symphony, whose finale features the Ode to Joy?"
+        answers:
+          A: "Johannes Brahms"
+          B: "Franz Schubert"
+          C: "Hector Berlioz"
+          D: "Ludwig van Beethoven"
   - text: "Quel compositeur polonais est célèbre pour ses nocturnes et ses polonaises ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Frederic_Chopin_photo.jpeg?width=800
     answers:
@@ -37,6 +61,14 @@ questions:
       C: "Antonín Dvořák"
       D: "Bedřich Smetana"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which Polish composer is famous for his nocturnes and polonaises?"
+        answers:
+          A: "Franz Liszt"
+          B: "Frédéric Chopin"
+          C: "Antonín Dvořák"
+          D: "Bedřich Smetana"
   - text: "Qui a composé Les Quatre Saisons ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Vivaldi.jpg?width=800
     answers:
@@ -45,6 +77,14 @@ questions:
       C: "Georg Friedrich Haendel"
       D: "Claudio Monteverdi"
     correctAnswer: A
+    translations:
+      en:
+        text: "Who composed The Four Seasons?"
+        answers:
+          A: "Antonio Vivaldi"
+          B: "Johann Sebastian Bach"
+          C: "George Frideric Handel"
+          D: "Claudio Monteverdi"
   - text: "Qui a composé le ballet Le Lac des cygnes ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pyotr_Ilyich_Tchaikovsky.jpg?width=800
     answers:
@@ -53,6 +93,14 @@ questions:
       C: "Pyotr Ilitch Tchaïkovski"
       D: "Modeste Moussorgski"
     correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the ballet Swan Lake?"
+        answers:
+          A: "Sergei Prokofiev"
+          B: "Igor Stravinsky"
+          C: "Pyotr Ilyich Tchaikovsky"
+          D: "Modest Mussorgsky"
   - text: "Combien de symphonies Ludwig van Beethoven a-t-il achevées ?"
     answers:
       A: "Cinq"
@@ -60,6 +108,14 @@ questions:
       C: "Douze"
       D: "Neuf"
     correctAnswer: D
+    translations:
+      en:
+        text: "How many symphonies did Ludwig van Beethoven complete?"
+        answers:
+          A: "Five"
+          B: "Seven"
+          C: "Twelve"
+          D: "Nine"
   - text: "Qui a composé l'opéra La Traviata ?"
     answers:
       A: "Giacomo Puccini"
@@ -67,6 +123,14 @@ questions:
       C: "Richard Wagner"
       D: "Charles Gounod"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who composed the opera La Traviata?"
+        answers:
+          A: "Giacomo Puccini"
+          B: "Giuseppe Verdi"
+          C: "Richard Wagner"
+          D: "Charles Gounod"
   - text: "Qui a composé l'opéra Carmen ?"
     answers:
       A: "Georges Bizet"
@@ -74,6 +138,14 @@ questions:
       C: "Charles Gounod"
       D: "Camille Saint-Saëns"
     correctAnswer: A
+    translations:
+      en:
+        text: "Who composed the opera Carmen?"
+        answers:
+          A: "Georges Bizet"
+          B: "Jules Massenet"
+          C: "Charles Gounod"
+          D: "Camille Saint-Saëns"
   - text: "Quel instrument de musique possède 88 touches ?"
     answers:
       A: "L'orgue"
@@ -81,6 +153,14 @@ questions:
       C: "Le piano"
       D: "L'accordéon"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which musical instrument has 88 keys?"
+        answers:
+          A: "The organ"
+          B: "The harpsichord"
+          C: "The piano"
+          D: "The accordion"
   - text: "Quelle famille d'instruments regroupe le violon, l'alto et le violoncelle ?"
     answers:
       A: "Les bois"
@@ -88,6 +168,14 @@ questions:
       C: "Les percussions"
       D: "Les cordes"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which instrument family includes the violin, viola and cello?"
+        answers:
+          A: "Woodwinds"
+          B: "Brass"
+          C: "Percussion"
+          D: "Strings"
   - text: "Qui a composé le Boléro, créé en 1928 ?"
     answers:
       A: "Claude Debussy"
@@ -95,6 +183,14 @@ questions:
       C: "Erik Satie"
       D: "Francis Poulenc"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who composed Boléro, first performed in 1928?"
+        answers:
+          A: "Claude Debussy"
+          B: "Maurice Ravel"
+          C: "Erik Satie"
+          D: "Francis Poulenc"
   - text: "En musique, que désigne le mot tempo ?"
     answers:
       A: "La vitesse d'exécution d'un morceau"
@@ -102,6 +198,14 @@ questions:
       C: "Le volume sonore"
       D: "La durée d'un silence"
     correctAnswer: A
+    translations:
+      en:
+        text: "In music, what does the word tempo refer to?"
+        answers:
+          A: "The speed at which a piece is played"
+          B: "The pitch of the notes"
+          C: "The sound volume"
+          D: "The length of a rest"
   - text: "Quel compositeur autrichien a écrit la Symphonie n° 94 dite « La Surprise » ?"
     answers:
       A: "Wolfgang Amadeus Mozart"
@@ -109,6 +213,14 @@ questions:
       C: "Joseph Haydn"
       D: "Gustav Mahler"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Austrian composer wrote Symphony No. 94, known as the 'Surprise' Symphony?"
+        answers:
+          A: "Wolfgang Amadeus Mozart"
+          B: "Franz Schubert"
+          C: "Joseph Haydn"
+          D: "Gustav Mahler"
   - text: "Qui a composé la Marche nuptiale du Songe d'une nuit d'été ?"
     answers:
       A: "Richard Wagner"
@@ -116,6 +228,14 @@ questions:
       C: "Johannes Brahms"
       D: "Felix Mendelssohn"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the Wedding March from A Midsummer Night's Dream?"
+        answers:
+          A: "Richard Wagner"
+          B: "Johann Strauss"
+          C: "Johannes Brahms"
+          D: "Felix Mendelssohn"
   - text: "Quel instrument à vent en bois utilise une anche double ?"
     answers:
       A: "La clarinette"
@@ -123,6 +243,14 @@ questions:
       C: "La flûte traversière"
       D: "Le saxophone"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which woodwind instrument uses a double reed?"
+        answers:
+          A: "The clarinet"
+          B: "The oboe"
+          C: "The transverse flute"
+          D: "The saxophone"
   - text: "Quelle grande période musicale succède à l'époque baroque ?"
     answers:
       A: "Le classicisme"
@@ -130,6 +258,14 @@ questions:
       C: "La Renaissance"
       D: "L'époque moderne"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which major musical period follows the Baroque era?"
+        answers:
+          A: "Classicism"
+          B: "Romanticism"
+          C: "The Renaissance"
+          D: "The modern era"
   - text: "Qui a composé Le Sacre du printemps ?"
     answers:
       A: "Dmitri Chostakovitch"
@@ -137,6 +273,14 @@ questions:
       C: "Igor Stravinsky"
       D: "Béla Bartók"
     correctAnswer: C
+    translations:
+      en:
+        text: "Who composed The Rite of Spring?"
+        answers:
+          A: "Dmitri Shostakovich"
+          B: "Sergei Rachmaninoff"
+          C: "Igor Stravinsky"
+          D: "Béla Bartók"
   - text: "Qui a composé la tétralogie L'Anneau du Nibelung ?"
     answers:
       A: "Giuseppe Verdi"
@@ -144,6 +288,14 @@ questions:
       C: "Franz Liszt"
       D: "Richard Wagner"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who composed the tetralogy The Ring of the Nibelung?"
+        answers:
+          A: "Giuseppe Verdi"
+          B: "Giacomo Puccini"
+          C: "Franz Liszt"
+          D: "Richard Wagner"
   - text: "Qui a composé le Clair de lune pour piano, troisième mouvement de la Suite bergamasque ?"
     answers:
       A: "Maurice Ravel"
@@ -151,3 +303,11 @@ questions:
       C: "Gabriel Fauré"
       D: "Erik Satie"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who composed Clair de lune for piano, the third movement of the Suite bergamasque?"
+        answers:
+          A: "Maurice Ravel"
+          B: "Claude Debussy"
+          C: "Gabriel Fauré"
+          D: "Erik Satie"

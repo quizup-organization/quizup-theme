@@ -11,6 +11,14 @@ questions:
       C: "Nike"
       D: "Puma"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which company uses the slogan \"Just Do It\"?"
+        answers:
+          A: "Adidas"
+          B: "Reebok"
+          C: "Nike"
+          D: "Puma"
   - text: "Quelle marque de cosmétiques utilise le slogan « Parce que vous le valez bien » ?"
     answers:
       A: "L'Oréal"
@@ -18,6 +26,14 @@ questions:
       C: "Garnier"
       D: "Lancôme"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which cosmetics brand uses the slogan \"Because you're worth it\"?"
+        answers:
+          A: "L'Oréal"
+          B: "Nivea"
+          C: "Garnier"
+          D: "Lancôme"
   - text: "Qui a cofondé Apple avec Steve Jobs et Ronald Wayne en 1976 ?"
     answers:
       A: "Bill Gates"
@@ -25,6 +41,14 @@ questions:
       C: "Jeff Bezos"
       D: "Larry Ellison"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who co-founded Apple with Steve Jobs and Ronald Wayne in 1976?"
+        answers:
+          A: "Bill Gates"
+          B: "Steve Wozniak"
+          C: "Jeff Bezos"
+          D: "Larry Ellison"
   - text: "Qui a fondé Amazon en 1994 ?"
     answers:
       A: "Elon Musk"
@@ -32,6 +56,14 @@ questions:
       C: "Reed Hastings"
       D: "Jeff Bezos"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who founded Amazon in 1994?"
+        answers:
+          A: "Elon Musk"
+          B: "Jack Ma"
+          C: "Reed Hastings"
+          D: "Jeff Bezos"
   - text: "Qui a cofondé Microsoft avec Paul Allen en 1975 ?"
     answers:
       A: "Steve Ballmer"
@@ -39,6 +71,14 @@ questions:
       C: "Satya Nadella"
       D: "Mark Cuban"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who co-founded Microsoft with Paul Allen in 1975?"
+        answers:
+          A: "Steve Ballmer"
+          B: "Bill Gates"
+          C: "Satya Nadella"
+          D: "Mark Cuban"
   - text: "Dans quel secteur d'activité l'entreprise Michelin est-elle historiquement spécialisée ?"
     answers:
       A: "L'agroalimentaire"
@@ -46,6 +86,14 @@ questions:
       C: "Le pneumatique"
       D: "La banque"
     correctAnswer: C
+    translations:
+      en:
+        text: "In which industry has Michelin historically specialized?"
+        answers:
+          A: "Food processing"
+          B: "Luxury goods"
+          C: "Tires"
+          D: "Banking"
   - text: "Que signifie le sigle PDG dans une entreprise ?"
     answers:
       A: "Président-directeur général"
@@ -53,6 +101,14 @@ questions:
       C: "Produit de grande consommation"
       D: "Poste de direction générale"
     correctAnswer: A
+    translations:
+      en:
+        text: "What does the abbreviation PDG mean in a company?"
+        answers:
+          A: "Chairman and CEO"
+          B: "Global development plan"
+          C: "Fast-moving consumer good"
+          D: "General management position"
   - text: "Que mesure le produit intérieur brut (PIB) d'un pays ?"
     answers:
       A: "La dette publique"
@@ -60,6 +116,14 @@ questions:
       C: "La production de biens et de services"
       D: "Le nombre de salariés"
     correctAnswer: C
+    translations:
+      en:
+        text: "What does a country's gross domestic product (GDP) measure?"
+        answers:
+          A: "Public debt"
+          B: "Unemployment rate"
+          C: "Production of goods and services"
+          D: "Number of employees"
   - text: "Dans quelle ville américaine se trouve le siège social de Coca-Cola ?"
     answers:
       A: "New York"
@@ -67,6 +131,14 @@ questions:
       C: "Dallas"
       D: "Atlanta"
     correctAnswer: D
+    translations:
+      en:
+        text: "In which American city is Coca-Cola headquartered?"
+        answers:
+          A: "New York"
+          B: "Chicago"
+          C: "Dallas"
+          D: "Atlanta"
   - text: "Qui a fondé Facebook en 2004 ?"
     answers:
       A: "Mark Zuckerberg"
@@ -74,6 +146,14 @@ questions:
       C: "Jack Dorsey"
       D: "Kevin Systrom"
     correctAnswer: A
+    translations:
+      en:
+        text: "Who founded Facebook in 2004?"
+        answers:
+          A: "Mark Zuckerberg"
+          B: "Evan Spiegel"
+          C: "Jack Dorsey"
+          D: "Kevin Systrom"
   - text: "Quelle entreprise a utilisé le slogan « Think different » ?"
     answers:
       A: "IBM"
@@ -81,6 +161,14 @@ questions:
       C: "Sony"
       D: "Google"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which company used the slogan \"Think different\"?"
+        answers:
+          A: "IBM"
+          B: "Apple"
+          C: "Sony"
+          D: "Google"
   - text: "Quelle chaîne de restauration rapide utilise le slogan « I'm lovin' it » ?"
     answers:
       A: "Burger King"
@@ -88,6 +176,14 @@ questions:
       C: "McDonald's"
       D: "Subway"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which fast-food chain uses the slogan \"I'm lovin' it\"?"
+        answers:
+          A: "Burger King"
+          B: "KFC"
+          C: "McDonald's"
+          D: "Subway"
   - text: "Qui a fondé l'entreprise suédoise IKEA en 1943 ?"
     answers:
       A: "Bernard Arnault"
@@ -95,6 +191,14 @@ questions:
       C: "Stefan Persson"
       D: "Ingvar Kamprad"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who founded the Swedish company IKEA in 1943?"
+        answers:
+          A: "Bernard Arnault"
+          B: "Amancio Ortega"
+          C: "Stefan Persson"
+          D: "Ingvar Kamprad"
   - text: "Quel homme d'affaires espagnol a fondé le groupe de mode Inditex, propriétaire de Zara ?"
     answers:
       A: "Amancio Ortega"
@@ -102,6 +206,14 @@ questions:
       C: "Isak Andic"
       D: "Pablo Isla"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Spanish businessman founded the fashion group Inditex, owner of Zara?"
+        answers:
+          A: "Amancio Ortega"
+          B: "Juan Roig"
+          C: "Isak Andic"
+          D: "Pablo Isla"
   - text: "Que signifie le sigle PME ?"
     answers:
       A: "Plan de modernisation économique"
@@ -109,6 +221,14 @@ questions:
       C: "Produit manufacturé exporté"
       D: "Programme de management européen"
     correctAnswer: B
+    translations:
+      en:
+        text: "What does the abbreviation SME stand for?"
+        answers:
+          A: "Economic modernization plan"
+          B: "Small and medium-sized enterprise"
+          C: "Exported manufactured product"
+          D: "European management program"
   - text: "Quel groupe de luxe français possède la marque Louis Vuitton ?"
     answers:
       A: "Kering"
@@ -116,6 +236,14 @@ questions:
       C: "Hermès"
       D: "LVMH"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which French luxury group owns the Louis Vuitton brand?"
+        answers:
+          A: "Kering"
+          B: "Chanel"
+          C: "Hermès"
+          D: "LVMH"
   - text: "Que désigne le terme « start-up » ?"
     answers:
       A: "Une jeune entreprise innovante"
@@ -123,6 +251,14 @@ questions:
       C: "Une filiale de banque"
       D: "Une organisation internationale"
     correctAnswer: A
+    translations:
+      en:
+        text: "What does the term \"start-up\" refer to?"
+        answers:
+          A: "A young innovative company"
+          B: "A large public company"
+          C: "A bank subsidiary"
+          D: "An international organization"
   - text: "Que désigne le terme « e-commerce » ?"
     answers:
       A: "Le commerce équitable"
@@ -130,6 +266,14 @@ questions:
       C: "Le commerce en ligne"
       D: "Le commerce de gros"
     correctAnswer: C
+    translations:
+      en:
+        text: "What does the term \"e-commerce\" refer to?"
+        answers:
+          A: "Fair trade"
+          B: "Maritime trade"
+          C: "Online commerce"
+          D: "Wholesale trade"
   - text: "Qui a fondé la Ford Motor Company en 1903 ?"
     answers:
       A: "John D. Rockefeller"
@@ -137,6 +281,14 @@ questions:
       C: "Thomas Edison"
       D: "Henry Ford"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who founded the Ford Motor Company in 1903?"
+        answers:
+          A: "John D. Rockefeller"
+          B: "Andrew Carnegie"
+          C: "Thomas Edison"
+          D: "Henry Ford"
   - text: "Quel pharmacien a inventé la boisson Coca-Cola en 1886 ?"
     answers:
       A: "Asa Candler"
@@ -144,3 +296,11 @@ questions:
       C: "Caleb Bradham"
       D: "Jacob Schweppe"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which pharmacist invented the drink Coca-Cola in 1886?"
+        answers:
+          A: "Asa Candler"
+          B: "John Pemberton"
+          C: "Caleb Bradham"
+          D: "Jacob Schweppe"

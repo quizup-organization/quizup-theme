@@ -13,6 +13,14 @@ questions:
       C: "Le go"
       D: "Les échecs"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which strategy game is played with the pieces shown in this image, on a board of 64 squares?"
+        answers:
+          A: "Checkers"
+          B: "Backgammon"
+          C: "Go"
+          D: "Chess"
   - text: "Combien de pièces chaque joueur possède-t-il au début d'une partie d'échecs ?"
     answers:
       A: "12"
@@ -20,6 +28,14 @@ questions:
       C: "16"
       D: "18"
     correctAnswer: C
+    translations:
+      en:
+        text: "How many pieces does each player have at the start of a game of chess?"
+        answers:
+          A: "12"
+          B: "14"
+          C: "16"
+          D: "18"
   - text: "Quelle pièce du jeu d'échecs ne peut se déplacer qu'en diagonale ?"
     answers:
       A: "La tour"
@@ -27,6 +43,14 @@ questions:
       C: "Le fou"
       D: "Le pion"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which chess piece can only move diagonally?"
+        answers:
+          A: "The rook"
+          B: "The knight"
+          C: "The bishop"
+          D: "The pawn"
   - text: "Quelle est la pièce la plus puissante du jeu d'échecs, qui combine les déplacements de la tour et du fou ?"
     answers:
       A: "La reine"
@@ -34,6 +58,14 @@ questions:
       C: "Le cavalier"
       D: "Le pion"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which is the most powerful piece in chess, combining the moves of the rook and the bishop?"
+        answers:
+          A: "The queen"
+          B: "The king"
+          C: "The knight"
+          D: "The pawn"
   - text: "Comment appelle-t-on la situation où le roi est attaqué et ne peut plus s'échapper ?"
     answers:
       A: "Le pat"
@@ -41,6 +73,14 @@ questions:
       C: "Le mat"
       D: "La prise"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the situation called where the king is attacked and can no longer escape?"
+        answers:
+          A: "Stalemate"
+          B: "Check"
+          C: "Checkmate"
+          D: "Capture"
   - text: "Combien de faces possède chacun des dés cubiques représentés sur cette image ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Two_red_dice_01.svg?width=800
     answers:
@@ -49,6 +89,14 @@ questions:
       C: "8"
       D: "12"
     correctAnswer: A
+    translations:
+      en:
+        text: "How many faces does each of the cube dice shown in this image have?"
+        answers:
+          A: "6"
+          B: "4"
+          C: "8"
+          D: "12"
   - text: "Sur un dé classique à six faces, combien de points montre la face opposée à celle qui porte un seul point ?"
     answers:
       A: "2"
@@ -56,6 +104,14 @@ questions:
       C: "5"
       D: "6"
     correctAnswer: D
+    translations:
+      en:
+        text: "On a classic six-sided die, how many pips are on the face opposite the one with a single pip?"
+        answers:
+          A: "2"
+          B: "3"
+          C: "5"
+          D: "6"
   - text: "Combien de points montre cette face de dé à jouer ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dice-6.svg?width=800
     answers:
@@ -64,6 +120,14 @@ questions:
       C: "4"
       D: "3"
     correctAnswer: B
+    translations:
+      en:
+        text: "How many pips does this face of a playing die show?"
+        answers:
+          A: "5"
+          B: "6"
+          C: "4"
+          D: "3"
   - text: "Combien de cartes compte l'ensemble représenté sur cette image ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/English_pattern_playing_cards_deck.svg?width=800
     answers:
@@ -72,6 +136,14 @@ questions:
       C: "40"
       D: "54"
     correctAnswer: B
+    translations:
+      en:
+        text: "How many cards are in the set shown in this image?"
+        answers:
+          A: "32"
+          B: "52"
+          C: "40"
+          D: "54"
   - text: "Quelles sont les quatre couleurs d'un jeu de cartes français traditionnel ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Playing_cards.jpg?width=800
     answers:
@@ -80,6 +152,14 @@ questions:
       C: "Pique, cœur, étoile, trèfle"
       D: "Pique, cœur, carreau, trèfle"
     correctAnswer: D
+    translations:
+      en:
+        text: "What are the four suits of a traditional French deck of cards?"
+        answers:
+          A: "King, queen, jack, ace"
+          B: "Red, blue, green, yellow"
+          C: "Spade, heart, star, club"
+          D: "Spade, heart, diamond, club"
   - text: "Combien de cases compte un damier de dames internationales, composé de dix lignes sur dix colonnes ?"
     answers:
       A: "64"
@@ -87,6 +167,14 @@ questions:
       C: "100"
       D: "121"
     correctAnswer: C
+    translations:
+      en:
+        text: "How many squares are on an international draughts board, made up of ten rows by ten columns?"
+        answers:
+          A: "64"
+          B: "81"
+          C: "100"
+          D: "121"
   - text: "De combien de cases un pion peut-il avancer au maximum lors de son premier coup aux échecs ?"
     answers:
       A: "Deux cases"
@@ -94,6 +182,14 @@ questions:
       C: "Trois cases"
       D: "Quatre cases"
     correctAnswer: A
+    translations:
+      en:
+        text: "At most, how many squares can a pawn advance on its first move in chess?"
+        answers:
+          A: "Two squares"
+          B: "One square"
+          C: "Three squares"
+          D: "Four squares"
   - text: "Au jeu de dames, comment un pion capture-t-il une pièce adverse ?"
     answers:
       A: "En la poussant"
@@ -101,6 +197,14 @@ questions:
       C: "En l'entourant"
       D: "En la touchant"
     correctAnswer: B
+    translations:
+      en:
+        text: "In checkers, how does a piece capture an opponent's piece?"
+        answers:
+          A: "By pushing it"
+          B: "By jumping over it"
+          C: "By surrounding it"
+          D: "By touching it"
   - text: "Quel jeu se joue avec deux dés et des pions sur un plateau de 24 flèches ?"
     answers:
       A: "Le jeu de l'oie"
@@ -108,6 +212,14 @@ questions:
       C: "Le Monopoly"
       D: "Le backgammon"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which game is played with two dice and pieces on a board of 24 points?"
+        answers:
+          A: "The Game of the Goose"
+          B: "Ludo"
+          C: "Monopoly"
+          D: "Backgammon"
   - text: "Combien de faces compte un dé à vingt faces utilisé dans les jeux de rôle ?"
     answers:
       A: "10"
@@ -115,6 +227,14 @@ questions:
       C: "12"
       D: "24"
     correctAnswer: B
+    translations:
+      en:
+        text: "How many faces does a twenty-sided die used in role-playing games have?"
+        answers:
+          A: "10"
+          B: "20"
+          C: "12"
+          D: "24"
   - text: "Quel jeu de cartes traditionnel français se joue avec un jeu de 32 cartes ?"
     answers:
       A: "La belote"
@@ -122,6 +242,14 @@ questions:
       C: "Le tarot"
       D: "Le rami"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which traditional French card game is played with a 32-card deck?"
+        answers:
+          A: "Belote"
+          B: "Bridge"
+          C: "Tarot"
+          D: "Rummy"
   - text: "En quelle année Charles Darrow a-t-il obtenu le brevet du jeu Monopoly ?"
     answers:
       A: "1925"
@@ -129,6 +257,14 @@ questions:
       C: "1955"
       D: "1935"
     correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Charles Darrow obtain the patent for the game Monopoly?"
+        answers:
+          A: "1925"
+          B: "1945"
+          C: "1955"
+          D: "1935"
   - text: "Quel jeu traditionnel japonais se joue avec des pierres noires et blanches sur une grille de 19 lignes ?"
     answers:
       A: "Le shogi"
@@ -136,6 +272,14 @@ questions:
       C: "Le mah-jong"
       D: "Les échecs"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which traditional Japanese game is played with black and white stones on a 19-line grid?"
+        answers:
+          A: "Shogi"
+          B: "Go"
+          C: "Mahjong"
+          D: "Chess"
   - text: "Combien de joueurs s'affrontent dans une partie classique de go ?"
     answers:
       A: "Trois"
@@ -143,6 +287,14 @@ questions:
       C: "Six"
       D: "Deux"
     correctAnswer: D
+    translations:
+      en:
+        text: "How many players compete in a classic game of Go?"
+        answers:
+          A: "Three"
+          B: "Four"
+          C: "Six"
+          D: "Two"
   - text: "Quel accessoire faut-il pour jouer au jeu de l'oie ?"
     answers:
       A: "Un échiquier"
@@ -150,3 +302,11 @@ questions:
       C: "Un jeu de cartes"
       D: "Des dominos"
     correctAnswer: B
+    translations:
+      en:
+        text: "What accessory is needed to play the Game of the Goose?"
+        answers:
+          A: "A chessboard"
+          B: "A die and pawns"
+          C: "A deck of cards"
+          D: "Dominoes"

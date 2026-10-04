@@ -13,6 +13,14 @@ questions:
       C: "La paella"
       D: "Le pa amb tomàquet"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Spanish dish made with saffron rice, originally from the Valencia region, is shown here?"
+        answers:
+          A: "Risotto"
+          B: "Couscous"
+          C: "Paella"
+          D: "Pa amb tomàquet"
   - text: "Quel est ce plat japonais composé de riz vinaigré accompagné de poisson ou de fruits de mer ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sushi_platter.jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "Le pad thaï"
       D: "Le dim sum"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this Japanese dish made of vinegared rice accompanied by fish or seafood?"
+        answers:
+          A: "Sushi"
+          B: "Ramen"
+          C: "Pad Thai"
+          D: "Dim sum"
   - text: "Quelle pizza italienne est garnie de tomate, de mozzarella et de basilic ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pizza_Margherita.jpg?width=800
     answers:
@@ -29,6 +45,14 @@ questions:
       C: "La pizza reine"
       D: "La pizza margherita"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian pizza is topped with tomato, mozzarella and basil?"
+        answers:
+          A: "Four cheese pizza"
+          B: "Pepperoni pizza"
+          C: "Pizza reine"
+          D: "Pizza margherita"
   - text: "Quel plat d'Afrique du Nord est composé de semoule, de légumes et de viande ou de poisson ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Couscous.jpg?width=800
     answers:
@@ -37,6 +61,14 @@ questions:
       C: "La pastilla"
       D: "La chakchouka"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which North African dish is made of semolina, vegetables and meat or fish?"
+        answers:
+          A: "Tagine"
+          B: "Couscous"
+          C: "Pastilla"
+          D: "Shakshuka"
   - text: "Quel plat grec est un gratin d'aubergines et de viande hachée nappé de béchamel ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Moussaka.jpg?width=800
     answers:
@@ -45,6 +77,14 @@ questions:
       C: "La moussaka"
       D: "Le tzatziki"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek dish is a baked casserole of eggplant and ground meat topped with béchamel?"
+        answers:
+          A: "Dolmades"
+          B: "Souvlaki"
+          C: "Moussaka"
+          D: "Tzatziki"
   - text: "Quelle soupe d'Europe de l'Est doit sa couleur rouge à la betterave ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Borscht.jpg?width=800
     answers:
@@ -53,6 +93,14 @@ questions:
       C: "Le minestrone"
       D: "Le gaspacho"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Eastern European soup gets its red color from beetroot?"
+        answers:
+          A: "Borscht"
+          B: "French onion soup"
+          C: "Minestrone"
+          D: "Gazpacho"
   - text: "Le cassoulet, spécialité à base de haricots blancs et de viande, est originaire de quelle région française ?"
     answers:
       A: "La Bretagne"
@@ -60,6 +108,14 @@ questions:
       C: "La Provence"
       D: "Le Languedoc"
     correctAnswer: D
+    translations:
+      en:
+        text: "Cassoulet, a specialty made with white beans and meat, originates from which French region?"
+        answers:
+          A: "Brittany"
+          B: "Alsace"
+          C: "Provence"
+          D: "Languedoc"
   - text: "Quel plat bourguignon est un bœuf mijoté au vin rouge avec des lardons et des champignons ?"
     answers:
       A: "La choucroute"
@@ -67,6 +123,14 @@ questions:
       C: "La blanquette de veau"
       D: "Le coq au vin"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which Burgundian dish is beef simmered in red wine with bacon bits and mushrooms?"
+        answers:
+          A: "Choucroute"
+          B: "Beef bourguignon"
+          C: "Blanquette de veau"
+          D: "Coq au vin"
   - text: "Quelle spécialité alsacienne est composée de chou fermenté servi avec de la charcuterie et des pommes de terre ?"
     answers:
       A: "La choucroute"
@@ -74,6 +138,14 @@ questions:
       C: "La quiche lorraine"
       D: "Le gratin dauphinois"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Alsatian specialty is made of fermented cabbage served with charcuterie and potatoes?"
+        answers:
+          A: "Choucroute"
+          B: "Ratatouille"
+          C: "Quiche lorraine"
+          D: "Gratin dauphinois"
   - text: "Quel fromage italien à pâte filée garnit traditionnellement une pizza margherita ?"
     answers:
       A: "Le gorgonzola"
@@ -81,6 +153,14 @@ questions:
       C: "La mozzarella"
       D: "Le pecorino"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian stretched-curd cheese traditionally tops a pizza margherita?"
+        answers:
+          A: "Gorgonzola"
+          B: "Parmesan"
+          C: "Mozzarella"
+          D: "Pecorino"
   - text: "Quel fromage français à pâte persillée est affiné dans les caves de l'Aveyron ?"
     answers:
       A: "Le camembert"
@@ -88,6 +168,14 @@ questions:
       C: "Le comté"
       D: "Le reblochon"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which French blue cheese is aged in the caves of Aveyron?"
+        answers:
+          A: "Camembert"
+          B: "Roquefort"
+          C: "Comté"
+          D: "Reblochon"
   - text: "Quelle épice jaune, tirée d'une racine, donne sa couleur au curry ?"
     answers:
       A: "Le cumin"
@@ -95,6 +183,14 @@ questions:
       C: "Le paprika"
       D: "Le curcuma"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which yellow spice, derived from a root, gives curry its color?"
+        answers:
+          A: "Cumin"
+          B: "Ginger"
+          C: "Paprika"
+          D: "Turmeric"
   - text: "Quel plat vietnamien est un bouillon parfumé servi avec des nouilles de riz et du bœuf ?"
     answers:
       A: "Le pho"
@@ -102,6 +198,14 @@ questions:
       C: "Le nasi goreng"
       D: "Le laksa"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Vietnamese dish is a fragrant broth served with rice noodles and beef?"
+        answers:
+          A: "Pho"
+          B: "Bò bún"
+          C: "Nasi goreng"
+          D: "Laksa"
   - text: "De quel pays le kimchi, condiment de chou fermenté et pimenté, est-il originaire ?"
     answers:
       A: "Le Japon"
@@ -109,6 +213,14 @@ questions:
       C: "La Corée"
       D: "La Chine"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which country does kimchi, a fermented and spicy cabbage condiment, originate from?"
+        answers:
+          A: "Japan"
+          B: "Thailand"
+          C: "Korea"
+          D: "China"
   - text: "Quel plat indien est un poulet mariné aux épices et cuit dans un four d'argile appelé tandoor ?"
     answers:
       A: "Le butter chicken"
@@ -116,6 +228,14 @@ questions:
       C: "Le biryani"
       D: "Le tikka massala"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which Indian dish is chicken marinated in spices and cooked in a clay oven called a tandoor?"
+        answers:
+          A: "Butter chicken"
+          B: "Tandoori chicken"
+          C: "Biryani"
+          D: "Tikka masala"
   - text: "Dans quel pays le fish and chips, vendu dans des fish and chips shops, est-il né ?"
     answers:
       A: "L'Irlande"
@@ -123,6 +243,14 @@ questions:
       C: "L'Australie"
       D: "Le Royaume-Uni"
     correctAnswer: D
+    translations:
+      en:
+        text: "In which country was fish and chips, sold in fish and chips shops, born?"
+        answers:
+          A: "Ireland"
+          B: "The United States"
+          C: "Australia"
+          D: "The United Kingdom"
   - text: "Quel plat hongrois est un ragoût de bœuf parfumé au paprika ?"
     answers:
       A: "Le bortsch"
@@ -130,6 +258,14 @@ questions:
       C: "Le goulash"
       D: "Le couscous"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Hungarian dish is a beef stew flavored with paprika?"
+        answers:
+          A: "Borscht"
+          B: "Paella"
+          C: "Goulash"
+          D: "Couscous"
   - text: "Quelle spécialité niçoise est une galette de farine de pois chiches cuite au four ?"
     answers:
       A: "La socca"
@@ -137,6 +273,14 @@ questions:
       C: "La tapenade"
       D: "La ratatouille"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Nice specialty is a chickpea flour flatbread baked in the oven?"
+        answers:
+          A: "Socca"
+          B: "Pissaladière"
+          C: "Tapenade"
+          D: "Ratatouille"
   - text: "Quel plat péruvien est composé de poisson cru mariné dans du jus de citron vert ?"
     answers:
       A: "L'empanada"
@@ -144,6 +288,14 @@ questions:
       C: "Le guacamole"
       D: "Le ceviche"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which Peruvian dish consists of raw fish marinated in lime juice?"
+        answers:
+          A: "Empanada"
+          B: "Arepa"
+          C: "Guacamole"
+          D: "Ceviche"
   - text: "Quel plat marocain cuit à l'étouffée doit son nom au récipient en terre cuite à couvercle conique ?"
     answers:
       A: "La pastilla"
@@ -151,3 +303,11 @@ questions:
       C: "Le méchoui"
       D: "La harira"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which Moroccan stewed dish gets its name from the earthenware pot with a conical lid?"
+        answers:
+          A: "Pastilla"
+          B: "Tagine"
+          C: "Mechoui"
+          D: "Harira"

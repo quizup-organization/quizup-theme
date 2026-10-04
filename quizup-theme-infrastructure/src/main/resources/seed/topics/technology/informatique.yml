@@ -13,6 +13,14 @@ questions:
       C: "John von Neumann"
       D: "Blaise Pascal"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which British mathematician is considered the father of computer science?"
+        answers:
+          A: "Alan Turing"
+          B: "Charles Babbage"
+          C: "John von Neumann"
+          D: "Blaise Pascal"
   - text: "Qui a écrit le premier programme destiné à une machine au XIXe siècle ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Lovelace_portrait.jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "Hedy Lamarr"
       D: "Marie Curie"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the first program intended for a machine in the 19th century?"
+        answers:
+          A: "Grace Hopper"
+          B: "Ada Lovelace"
+          C: "Hedy Lamarr"
+          D: "Marie Curie"
   - text: "Que signifie le sigle CPU ?"
     answers:
       A: "Computer Power Unit"
@@ -28,6 +44,14 @@ questions:
       C: "Central Processing Unit"
       D: "Control Processing Unit"
     correctAnswer: C
+    translations:
+      en:
+        text: "What does the acronym CPU stand for?"
+        answers:
+          A: "Computer Power Unit"
+          B: "Central Program Utility"
+          C: "Central Processing Unit"
+          D: "Control Processing Unit"
   - text: "Quelle unité représente 1024 mégaoctets ?"
     answers:
       A: "Un kilooctet"
@@ -35,6 +59,14 @@ questions:
       C: "Un pétabyte"
       D: "Un gigaoctet"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which unit represents 1024 megabytes?"
+        answers:
+          A: "A kilobyte"
+          B: "A terabyte"
+          C: "A petabyte"
+          D: "A gigabyte"
   - text: "Quel langage sert à structurer les pages web ?"
     answers:
       A: "Python"
@@ -42,6 +74,14 @@ questions:
       C: "Java"
       D: "SQL"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which language is used to structure web pages?"
+        answers:
+          A: "Python"
+          B: "HTML"
+          C: "Java"
+          D: "SQL"
   - text: "Que signifie le sigle WWW ?"
     answers:
       A: "World Wide Web"
@@ -49,6 +89,14 @@ questions:
       C: "Wide World Web"
       D: "World Web Wide"
     correctAnswer: A
+    translations:
+      en:
+        text: "What does the acronym WWW stand for?"
+        answers:
+          A: "World Wide Web"
+          B: "Web World Wide"
+          C: "Wide World Web"
+          D: "World Web Wide"
   - text: "Quel langage de programmation a été créé par Guido van Rossum ?"
     answers:
       A: "Java"
@@ -56,6 +104,14 @@ questions:
       C: "Python"
       D: "Ruby"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which programming language was created by Guido van Rossum?"
+        answers:
+          A: "Java"
+          B: "C++"
+          C: "Python"
+          D: "Ruby"
   - text: "Dans la plupart des logiciels, que fait le raccourci Ctrl+C ?"
     answers:
       A: "Coller"
@@ -63,6 +119,14 @@ questions:
       C: "Annuler"
       D: "Copier"
     correctAnswer: D
+    translations:
+      en:
+        text: "In most software, what does the Ctrl+C shortcut do?"
+        answers:
+          A: "Paste"
+          B: "Cut"
+          C: "Undo"
+          D: "Copy"
   - text: "Qu'est-ce qu'un algorithme ?"
     answers:
       A: "Un composant électronique"
@@ -70,6 +134,14 @@ questions:
       C: "Un langage de programmation"
       D: "Un virus informatique"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is an algorithm?"
+        answers:
+          A: "An electronic component"
+          B: "A finite sequence of instructions for solving a problem"
+          C: "A programming language"
+          D: "A computer virus"
   - text: "Quel système d'exploitation open source repose sur le noyau Linux ?"
     answers:
       A: "Windows"
@@ -77,6 +149,14 @@ questions:
       C: "Ubuntu"
       D: "iOS"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which open-source operating system is based on the Linux kernel?"
+        answers:
+          A: "Windows"
+          B: "macOS"
+          C: "Ubuntu"
+          D: "iOS"
   - text: "Quel protocole sécurise les échanges sur le Web ?"
     answers:
       A: "HTTP"
@@ -84,6 +164,14 @@ questions:
       C: "SMTP"
       D: "HTTPS"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which protocol secures exchanges on the Web?"
+        answers:
+          A: "HTTP"
+          B: "FTP"
+          C: "SMTP"
+          D: "HTTPS"
   - text: "Combien de bits contient un octet ?"
     answers:
       A: "Quatre"
@@ -91,6 +179,14 @@ questions:
       C: "Seize"
       D: "Trente-deux"
     correctAnswer: B
+    translations:
+      en:
+        text: "How many bits are in a byte?"
+        answers:
+          A: "Four"
+          B: "Eight"
+          C: "Sixteen"
+          D: "Thirty-two"
   - text: "Comment s'appelait l'un des premiers ordinateurs électroniques, dévoilé en 1946 ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Eniac.jpg?width=800
     answers:
@@ -99,6 +195,14 @@ questions:
       C: "Apple II"
       D: "ZX Spectrum"
     correctAnswer: A
+    translations:
+      en:
+        text: "What was the name of one of the first electronic computers, unveiled in 1946?"
+        answers:
+          A: "ENIAC"
+          B: "IBM PC"
+          C: "Apple II"
+          D: "ZX Spectrum"
   - text: "Qui a cofondé Microsoft avec Paul Allen ?"
     answers:
       A: "Steve Jobs"
@@ -106,6 +210,14 @@ questions:
       C: "Larry Page"
       D: "Bill Gates"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who co-founded Microsoft with Paul Allen?"
+        answers:
+          A: "Steve Jobs"
+          B: "Steve Wozniak"
+          C: "Larry Page"
+          D: "Bill Gates"
   - text: "Que signifie le sigle IA ?"
     answers:
       A: "Intelligence artificielle"
@@ -113,6 +225,14 @@ questions:
       C: "Internet avancé"
       D: "Information automatique"
     correctAnswer: A
+    translations:
+      en:
+        text: "What does the acronym AI stand for?"
+        answers:
+          A: "Artificial intelligence"
+          B: "Advanced interface"
+          C: "Advanced internet"
+          D: "Automatic information"
   - text: "Quel composant conserve les données même lorsque l'ordinateur est éteint ?"
     answers:
       A: "La mémoire RAM"
@@ -120,6 +240,14 @@ questions:
       C: "La carte graphique"
       D: "Le disque dur ou le SSD"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which component keeps data even when the computer is turned off?"
+        answers:
+          A: "RAM"
+          B: "The processor"
+          C: "The graphics card"
+          D: "The hard drive or SSD"
   - text: "Quel système de numération est utilisé en interne par les ordinateurs ?"
     answers:
       A: "Le système binaire"
@@ -127,6 +255,14 @@ questions:
       C: "Le système romain"
       D: "Le système hexadécimal"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which number system is used internally by computers?"
+        answers:
+          A: "The binary system"
+          B: "The decimal system"
+          C: "The Roman system"
+          D: "The hexadecimal system"
   - text: "Quel réseau social a été fondé par Mark Zuckerberg ?"
     answers:
       A: "Twitter"
@@ -134,6 +270,14 @@ questions:
       C: "Facebook"
       D: "LinkedIn"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which social network was founded by Mark Zuckerberg?"
+        answers:
+          A: "Twitter"
+          B: "Instagram"
+          C: "Facebook"
+          D: "LinkedIn"
   - text: "Qu'est-ce qu'un bug informatique ?"
     answers:
       A: "Un logiciel antivirus"
@@ -141,6 +285,14 @@ questions:
       C: "Un composant matériel"
       D: "Un type de réseau"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is a computer bug?"
+        answers:
+          A: "An antivirus software"
+          B: "An error in a program"
+          C: "A hardware component"
+          D: "A type of network"
   - text: "Qui a conçu la machine analytique, considérée comme un ancêtre de l'ordinateur ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Babbage_1860.jpg?width=800
     answers:
@@ -149,3 +301,11 @@ questions:
       C: "Charles Babbage"
       D: "Gottfried Leibniz"
     correctAnswer: C
+    translations:
+      en:
+        text: "Who designed the Analytical Engine, considered an ancestor of the computer?"
+        answers:
+          A: "Alan Turing"
+          B: "Blaise Pascal"
+          C: "Charles Babbage"
+          D: "Gottfried Leibniz"

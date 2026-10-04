@@ -92,3 +92,7 @@ docker-compose.override.yml
 # Generated files
 generated/
 nul
+
+# Python (outils de seed : check-images.py, translate-seed.py)
+__pycache__/
+*.pyc

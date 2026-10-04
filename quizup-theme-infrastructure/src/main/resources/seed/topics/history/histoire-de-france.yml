@@ -13,6 +13,14 @@ questions:
       C: "Ambiorix"
       D: "Boduognat"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Gallic chieftain united the tribes against Julius Caesar before the defeat at Alesia in 52 BC?"
+        answers:
+          A: "Vercingetorix"
+          B: "Brennus"
+          C: "Ambiorix"
+          D: "Boduognatus"
   - text: "Quel roi des Francs est baptisé à Reims par saint Remy, comme le montre cette enluminure ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Bapt%C3%AAme_de_Clovis.jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "Chilpéric Ier"
       D: "Clovis Ier"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which king of the Franks was baptized in Reims by Saint Remy, as shown in this illumination?"
+        answers:
+          A: "Dagobert I"
+          B: "Chlothar I"
+          C: "Chilperic I"
+          D: "Clovis I"
   - text: "Quelle figure de la guerre de Cent Ans cette statue tenant une bannière représente-t-elle ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jeanne_d%27Arc.jpg?width=800
     answers:
@@ -29,6 +45,14 @@ questions:
       C: "Catherine de Médicis"
       D: "Anne de Bretagne"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which figure from the Hundred Years' War does this statue holding a banner represent?"
+        answers:
+          A: "Eleanor of Aquitaine"
+          B: "Joan of Arc"
+          C: "Catherine de' Medici"
+          D: "Anne of Brittany"
   - text: "Quel roi de France, surnommé le Roi-Soleil, a régné de 1643 à 1715 et fait construire Versailles ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Louis_XIV.jpg?width=800
     answers:
@@ -37,6 +61,14 @@ questions:
       C: "Louis XIV"
       D: "Louis XV"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which King of France, known as the Sun King, reigned from 1643 to 1715 and built Versailles?"
+        answers:
+          A: "Louis XIII"
+          B: "Henry IV"
+          C: "Louis XIV"
+          D: "Louis XV"
   - text: "Quelle reine de France, épouse de Louis XVI, a été exécutée en 1793 ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Antoinette.jpg?width=800
     answers:
@@ -45,6 +77,14 @@ questions:
       C: "Anne d'Autriche"
       D: "Marie-Antoinette"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which Queen of France, wife of Louis XVI, was executed in 1793?"
+        answers:
+          A: "Joséphine de Beauharnais"
+          B: "Catherine de' Medici"
+          C: "Anne of Austria"
+          D: "Marie Antoinette"
   - text: "Quel empereur des Français a été sacré à Notre-Dame de Paris en 1804 ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg?width=800
     answers:
@@ -53,6 +93,14 @@ questions:
       C: "Louis XVIII"
       D: "Charles X"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Emperor of the French was crowned at Notre-Dame de Paris in 1804?"
+        answers:
+          A: "Napoleon I"
+          B: "Napoleon III"
+          C: "Louis XVIII"
+          D: "Charles X"
   - text: "Quel roi a été sacré à Reims en 987, fondant ainsi la dynastie capétienne ?"
     answers:
       A: "Philippe Auguste"
@@ -60,6 +108,14 @@ questions:
       C: "Hugues Capet"
       D: "Robert II"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which king was crowned in Reims in 987, thus founding the Capetian dynasty?"
+        answers:
+          A: "Philip Augustus"
+          B: "Louis IX"
+          C: "Hugh Capet"
+          D: "Robert II"
   - text: "En quelle année Charlemagne a-t-il été couronné empereur par le pape Léon III ?"
     answers:
       A: "496"
@@ -67,6 +123,14 @@ questions:
       C: "987"
       D: "1099"
     correctAnswer: B
+    translations:
+      en:
+        text: "In what year was Charlemagne crowned emperor by Pope Leo III?"
+        answers:
+          A: "496"
+          B: "800"
+          C: "987"
+          D: "1099"
   - text: "Quel édit signé par Henri IV en 1598 a accordé la liberté de culte aux protestants ?"
     answers:
       A: "L'édit de Milan"
@@ -74,6 +138,14 @@ questions:
       C: "L'édit de Roussillon"
       D: "L'édit de Nantes"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which edict signed by Henry IV in 1598 granted freedom of worship to Protestants?"
+        answers:
+          A: "The Edict of Milan"
+          B: "The Edict of Fontainebleau"
+          C: "The Edict of Roussillon"
+          D: "The Edict of Nantes"
   - text: "Quel roi de France a été guillotiné place de la Révolution à Paris le 21 janvier 1793 ?"
     answers:
       A: "Charles IX"
@@ -81,6 +153,14 @@ questions:
       C: "Henri III"
       D: "François II"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which King of France was guillotined at the Place de la Révolution in Paris on January 21, 1793?"
+        answers:
+          A: "Charles IX"
+          B: "Louis XVI"
+          C: "Henry III"
+          D: "Francis II"
   - text: "Après sa défaite à Waterloo en 1815, sur quelle île Napoléon a-t-il été exilé ?"
     answers:
       A: "L'île d'Elbe"
@@ -88,6 +168,14 @@ questions:
       C: "L'île de Sainte-Hélène"
       D: "La Corse"
     correctAnswer: C
+    translations:
+      en:
+        text: "After his defeat at Waterloo in 1815, to which island was Napoleon exiled?"
+        answers:
+          A: "Elba"
+          B: "Malta"
+          C: "Saint Helena"
+          D: "Corsica"
   - text: "Quelle bataille François Ier a-t-il remportée en Italie en 1515 ?"
     answers:
       A: "Marignan"
@@ -95,6 +183,14 @@ questions:
       C: "Azincourt"
       D: "Bouvines"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which battle did Francis I win in Italy in 1515?"
+        answers:
+          A: "Marignano"
+          B: "Pavia"
+          C: "Agincourt"
+          D: "Bouvines"
   - text: "Quel ministre de Louis XIV a développé les manufactures et le commerce au XVIIe siècle ?"
     answers:
       A: "Armand du Plessis de Richelieu"
@@ -102,6 +198,14 @@ questions:
       C: "Jules Mazarin"
       D: "Jacques Necker"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which minister of Louis XIV developed manufacturing and trade in the 17th century?"
+        answers:
+          A: "Armand du Plessis de Richelieu"
+          B: "Jean-Baptiste Colbert"
+          C: "Jules Mazarin"
+          D: "Jacques Necker"
   - text: "Quelle guerre a opposé la France et l'Angleterre de 1337 à 1453 ?"
     answers:
       A: "La guerre de Trente Ans"
@@ -109,6 +213,14 @@ questions:
       C: "La guerre de Succession d'Espagne"
       D: "La guerre de Cent Ans"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which war pitted France against England from 1337 to 1453?"
+        answers:
+          A: "The Thirty Years' War"
+          B: "The Seven Years' War"
+          C: "The War of the Spanish Succession"
+          D: "The Hundred Years' War"
   - text: "Quel massacre de protestants a eu lieu à Paris le 24 août 1572 ?"
     answers:
       A: "Le massacre de la Saint-Barthélemy"
@@ -116,6 +228,14 @@ questions:
       C: "La journée des Dupes"
       D: "La Fronde"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which massacre of Protestants took place in Paris on August 24, 1572?"
+        answers:
+          A: "The St. Bartholomew's Day massacre"
+          B: "The St. Michael's Day massacre"
+          C: "The Day of Dupes"
+          D: "The Fronde"
   - text: "Quelle république a été proclamée en France en 1870 après la chute de Napoléon III ?"
     answers:
       A: "La Deuxième République"
@@ -123,6 +243,14 @@ questions:
       C: "La Troisième République"
       D: "La Cinquième République"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which republic was proclaimed in France in 1870 after the fall of Napoleon III?"
+        answers:
+          A: "The Second Republic"
+          B: "The Fourth Republic"
+          C: "The Third Republic"
+          D: "The Fifth Republic"
   - text: "Quel général a lancé l'appel du 18 juin 1940 depuis Londres ?"
     answers:
       A: "Philippe Pétain"
@@ -130,6 +258,14 @@ questions:
       C: "Philippe Leclerc de Hauteclocque"
       D: "Charles de Gaulle"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which general launched the appeal of 18 June 1940 from London?"
+        answers:
+          A: "Philippe Pétain"
+          B: "Jean Moulin"
+          C: "Philippe Leclerc de Hauteclocque"
+          D: "Charles de Gaulle"
   - text: "En quelle année Paris a-t-elle été libérée de l'occupation allemande ?"
     answers:
       A: "1943"
@@ -137,6 +273,14 @@ questions:
       C: "1944"
       D: "1946"
     correctAnswer: C
+    translations:
+      en:
+        text: "In what year was Paris liberated from German occupation?"
+        answers:
+          A: "1943"
+          B: "1945"
+          C: "1944"
+          D: "1946"
   - text: "Quel roi de France a été surnommé Saint Louis ?"
     answers:
       A: "Louis IX"
@@ -144,6 +288,14 @@ questions:
       C: "Philippe II Auguste"
       D: "Charles V"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which king of France was nicknamed Saint Louis?"
+        answers:
+          A: "Louis IX"
+          B: "Louis VII"
+          C: "Philip II Augustus"
+          D: "Charles V"
   - text: "Quelle loi de 1905 a établi la séparation des Églises et de l'État en France ?"
     answers:
       A: "La loi sur la liberté de la presse"
@@ -151,3 +303,11 @@ questions:
       C: "La loi Jules Ferry"
       D: "La loi sur les associations"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which 1905 law established the separation of Church and State in France?"
+        answers:
+          A: "The law on freedom of the press"
+          B: "The law on the separation of Church and State"
+          C: "The Jules Ferry law"
+          D: "The law on associations"

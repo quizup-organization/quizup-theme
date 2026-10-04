@@ -12,6 +12,14 @@ questions:
       C: "Apollo 17"
       D: "Gemini 4"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which space mission took this photograph of Earth in 1972?"
+        answers:
+          A: "Apollo 11"
+          B: "Apollo 13"
+          C: "Apollo 17"
+          D: "Gemini 4"
   - text: "Qui a peint ce portrait de femme exposé au musée du Louvre ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800"
     answers:
@@ -20,6 +28,14 @@ questions:
       C: "Raphaël"
       D: "Sandro Botticelli"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who painted this portrait of a woman exhibited at the Louvre Museum?"
+        answers:
+          A: "Michelangelo"
+          B: "Leonardo da Vinci"
+          C: "Raphael"
+          D: "Sandro Botticelli"
   - text: "Quel peintre est l'auteur de ce tableau, La Nuit étoilée ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800"
     answers:
@@ -28,6 +44,14 @@ questions:
       C: "Paul Cézanne"
       D: "Vincent van Gogh"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which painter created this painting, The Starry Night?"
+        answers:
+          A: "Claude Monet"
+          B: "Paul Gauguin"
+          C: "Paul Cézanne"
+          D: "Vincent van Gogh"
   - text: "Quel artiste japonais a réalisé cette estampe, La Grande Vague de Kanagawa ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Great_Wave_off_Kanagawa.jpg?width=800"
     answers:
@@ -36,6 +60,14 @@ questions:
       C: "Sharaku"
       D: "Utamaro"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese artist created this print, The Great Wave off Kanagawa?"
+        answers:
+          A: "Hokusai"
+          B: "Hiroshige"
+          C: "Sharaku"
+          D: "Utamaro"
   - text: "Quelle planète du système solaire est photographiée ici par la sonde Cassini ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Saturn_during_Equinox.jpg?width=800"
     answers:
@@ -44,6 +76,14 @@ questions:
       C: "Neptune"
       D: "Saturne"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which planet in the solar system is photographed here by the Cassini probe?"
+        answers:
+          A: "Jupiter"
+          B: "Uranus"
+          C: "Neptune"
+          D: "Saturn"
   - text: "Quel est le plus long fleuve de France ?"
     answers:
       A: "La Seine"
@@ -51,6 +91,14 @@ questions:
       C: "Le Rhône"
       D: "La Garonne"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is the longest river in France?"
+        answers:
+          A: "The Seine"
+          B: "The Loire"
+          C: "The Rhône"
+          D: "The Garonne"
   - text: "Quelle est la capitale de l'Australie ?"
     answers:
       A: "Sydney"
@@ -58,6 +106,14 @@ questions:
       C: "Canberra"
       D: "Perth"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the capital of Australia?"
+        answers:
+          A: "Sydney"
+          B: "Melbourne"
+          C: "Canberra"
+          D: "Perth"
   - text: "Combien de joueurs compte une équipe de football sur le terrain ?"
     answers:
       A: "9"
@@ -65,6 +121,14 @@ questions:
       C: "11"
       D: "12"
     correctAnswer: C
+    translations:
+      en:
+        text: "How many players are on a football team on the field?"
+        answers:
+          A: "9"
+          B: "10"
+          C: "11"
+          D: "12"
   - text: "Quel est le plus grand organe du corps humain ?"
     answers:
       A: "Le foie"
@@ -72,6 +136,14 @@ questions:
       C: "Le cerveau"
       D: "Les poumons"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is the largest organ in the human body?"
+        answers:
+          A: "The liver"
+          B: "The skin"
+          C: "The brain"
+          D: "The lungs"
   - text: "Quel gaz les plantes absorbent-elles pour réaliser la photosynthèse ?"
     answers:
       A: "Le dioxyde de carbone"
@@ -79,6 +151,14 @@ questions:
       C: "L'azote"
       D: "L'hélium"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which gas do plants absorb to perform photosynthesis?"
+        answers:
+          A: "Carbon dioxide"
+          B: "Oxygen"
+          C: "Nitrogen"
+          D: "Helium"
   - text: "Qui a écrit le roman Les Misérables ?"
     answers:
       A: "Émile Zola"
@@ -86,6 +166,14 @@ questions:
       C: "Honoré de Balzac"
       D: "Gustave Flaubert"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the novel Les Misérables?"
+        answers:
+          A: "Émile Zola"
+          B: "Victor Hugo"
+          C: "Honoré de Balzac"
+          D: "Gustave Flaubert"
   - text: "En quelle année a débuté la Révolution française ?"
     answers:
       A: "1492"
@@ -93,6 +181,14 @@ questions:
       C: "1789"
       D: "1848"
     correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the French Revolution begin?"
+        answers:
+          A: "1492"
+          B: "1648"
+          C: "1789"
+          D: "1848"
   - text: "Quel est le plus grand océan du monde ?"
     answers:
       A: "L'Atlantique"
@@ -100,6 +196,14 @@ questions:
       C: "L'océan Arctique"
       D: "Le Pacifique"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is the largest ocean in the world?"
+        answers:
+          A: "The Atlantic"
+          B: "The Indian Ocean"
+          C: "The Arctic Ocean"
+          D: "The Pacific"
   - text: "Quel est le plus haut sommet du monde ?"
     answers:
       A: "L'Everest"
@@ -107,6 +211,14 @@ questions:
       C: "Le mont Blanc"
       D: "Le Kilimandjaro"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is the highest peak in the world?"
+        answers:
+          A: "Everest"
+          B: "K2"
+          C: "Mont Blanc"
+          D: "Kilimanjaro"
   - text: "Quelle est la langue officielle du Brésil ?"
     answers:
       A: "L'espagnol"
@@ -114,6 +226,14 @@ questions:
       C: "Le portugais"
       D: "L'anglais"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the official language of Brazil?"
+        answers:
+          A: "Spanish"
+          B: "French"
+          C: "Portuguese"
+          D: "English"
   - text: "Quel est le plus grand mammifère du monde ?"
     answers:
       A: "L'éléphant d'Afrique"
@@ -121,6 +241,14 @@ questions:
       C: "La baleine bleue"
       D: "La girafe"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the largest mammal in the world?"
+        answers:
+          A: "The African elephant"
+          B: "The sperm whale"
+          C: "The blue whale"
+          D: "The giraffe"
   - text: "Quel métal est liquide à température ambiante ?"
     answers:
       A: "Le mercure"
@@ -128,6 +256,14 @@ questions:
       C: "Le plomb"
       D: "L'étain"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which metal is liquid at room temperature?"
+        answers:
+          A: "Mercury"
+          B: "Iron"
+          C: "Lead"
+          D: "Tin"
   - text: "Qui a formulé la théorie de la relativité ?"
     answers:
       A: "Isaac Newton"
@@ -135,6 +271,14 @@ questions:
       C: "Nikola Tesla"
       D: "Albert Einstein"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who formulated the theory of relativity?"
+        answers:
+          A: "Isaac Newton"
+          B: "Galileo"
+          C: "Nikola Tesla"
+          D: "Albert Einstein"
   - text: "Dans quelle ville se trouve le siège de l'Organisation des Nations unies ?"
     answers:
       A: "Genève"
@@ -142,6 +286,14 @@ questions:
       C: "Paris"
       D: "Bruxelles"
     correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the headquarters of the United Nations?"
+        answers:
+          A: "Geneva"
+          B: "New York"
+          C: "Paris"
+          D: "Brussels"
   - text: "Quelle est la monnaie officielle du Japon ?"
     answers:
       A: "Le yen"
@@ -149,3 +301,11 @@ questions:
       C: "Le yuan"
       D: "Le baht"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is the official currency of Japan?"
+        answers:
+          A: "The yen"
+          B: "The won"
+          C: "The yuan"
+          D: "The baht"

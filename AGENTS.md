@@ -108,3 +108,8 @@ lorsque la difficulté calculée change, la projection envoie une
 - **Images externes libres de droit** (Wikimedia Commons, `Special:FilePath` + `?width=800`) :
   source et licence listées dans `src/main/resources/seed/CREDITS.md`. Aucun binaire dans le repo,
   aucune image sous copyright (logos, affiches, captures, personnages officiels exclus).
+- **Traductions EN** : chaque question porte `translations.en` (les duels bilingues ne sélectionnent
+  que les questions disponibles dans **toutes** les langues demandées). Générées via
+  `seed/translate-seed.py` (API DeepSeek, validation identique au loader, insertion textuelle à
+  diff minimal, modes `--check`/`--dry-run`). Le thème `orthographe-grammaire` est volontairement
+  **FR-only** (exercice intraduisible). Garde-fou : `SeedEnTranslationCoverageTest`.

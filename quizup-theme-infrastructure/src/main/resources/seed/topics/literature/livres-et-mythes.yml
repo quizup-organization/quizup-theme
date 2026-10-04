@@ -13,6 +13,14 @@ questions:
       C: "Christopher Marlowe"
       D: "Jean Racine"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the tragedy Romeo and Juliet?"
+        answers:
+          A: "Molière"
+          B: "William Shakespeare"
+          C: "Christopher Marlowe"
+          D: "Jean Racine"
   - text: "Qui a écrit le roman Don Quichotte ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Miguel_de_Cervantes_2.jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "Pablo Neruda"
       D: "Miguel de Cervantès"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the novel Don Quixote?"
+        answers:
+          A: "Lope de Vega"
+          B: "Federico García Lorca"
+          C: "Pablo Neruda"
+          D: "Miguel de Cervantes"
   - text: "Quel poète de la Grèce antique est traditionnellement considéré comme l'auteur de l'Odyssée ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Homer_British_Museum.jpg?width=800
     answers:
@@ -29,6 +45,14 @@ questions:
       C: "Euripide"
       D: "Hésiode"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which poet of ancient Greece is traditionally considered the author of the Odyssey?"
+        answers:
+          A: "Homer"
+          B: "Sophocles"
+          C: "Euripides"
+          D: "Hesiod"
   - text: "Qui a peint ce tableau représentant la naissance de Vénus ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=800
     answers:
@@ -37,6 +61,14 @@ questions:
       C: "Sandro Botticelli"
       D: "Le Titien"
     correctAnswer: C
+    translations:
+      en:
+        text: "Who painted this painting depicting the birth of Venus?"
+        answers:
+          A: "Raphael"
+          B: "Michelangelo"
+          C: "Sandro Botticelli"
+          D: "Titian"
   - text: "Dans la mythologie nordique, quel dieu brandit le marteau Mjöllnir ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mårten_Eskil_Winge_-_Tor's_Fight_with_the_Giants_-_Google_Art_Project.jpg?width=800
     answers:
@@ -45,6 +77,14 @@ questions:
       C: "Loki"
       D: "Freyr"
     correctAnswer: B
+    translations:
+      en:
+        text: "In Norse mythology, which god wields the hammer Mjöllnir?"
+        answers:
+          A: "Odin"
+          B: "Thor"
+          C: "Loki"
+          D: "Freyr"
   - text: "Qui a écrit Les Misérables ?"
     answers:
       A: "Émile Zola"
@@ -52,6 +92,14 @@ questions:
       C: "Gustave Flaubert"
       D: "Victor Hugo"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Les Misérables?"
+        answers:
+          A: "Émile Zola"
+          B: "Honoré de Balzac"
+          C: "Gustave Flaubert"
+          D: "Victor Hugo"
   - text: "Qui a écrit Madame Bovary ?"
     answers:
       A: "Gustave Flaubert"
@@ -59,6 +107,14 @@ questions:
       C: "Guy de Maupassant"
       D: "Stendhal"
     correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Madame Bovary?"
+        answers:
+          A: "Gustave Flaubert"
+          B: "Émile Zola"
+          C: "Guy de Maupassant"
+          D: "Stendhal"
   - text: "Qui a écrit Le Petit Prince ?"
     answers:
       A: "Albert Camus"
@@ -66,6 +122,14 @@ questions:
       C: "Antoine de Saint-Exupéry"
       D: "Jules Renard"
     correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote The Little Prince?"
+        answers:
+          A: "Albert Camus"
+          B: "Marcel Pagnol"
+          C: "Antoine de Saint-Exupéry"
+          D: "Jules Renard"
   - text: "Qui a écrit La Ferme des animaux et 1984 ?"
     answers:
       A: "Aldous Huxley"
@@ -73,6 +137,14 @@ questions:
       C: "Ray Bradbury"
       D: "H. G. Wells"
     correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote Animal Farm and 1984?"
+        answers:
+          A: "Aldous Huxley"
+          B: "George Orwell"
+          C: "Ray Bradbury"
+          D: "H. G. Wells"
   - text: "Qui a écrit La Divine Comédie ?"
     answers:
       A: "Pétrarque"
@@ -80,6 +152,14 @@ questions:
       C: "Virgile"
       D: "Dante Alighieri"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote The Divine Comedy?"
+        answers:
+          A: "Petrarch"
+          B: "Boccaccio"
+          C: "Virgil"
+          D: "Dante Alighieri"
   - text: "Dans la mythologie grecque, qui est le roi des dieux ?"
     answers:
       A: "Zeus"
@@ -87,6 +167,14 @@ questions:
       C: "Hadès"
       D: "Apollon"
     correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, who is the king of the gods?"
+        answers:
+          A: "Zeus"
+          B: "Poseidon"
+          C: "Hades"
+          D: "Apollo"
   - text: "Quel héros grec a accompli les douze travaux ?"
     answers:
       A: "Achille"
@@ -94,6 +182,14 @@ questions:
       C: "Héraclès"
       D: "Persée"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek hero performed the twelve labors?"
+        answers:
+          A: "Achilles"
+          B: "Odysseus"
+          C: "Heracles"
+          D: "Perseus"
   - text: "Quel monstre mi-homme mi-taureau était enfermé dans le labyrinthe de Crète ?"
     answers:
       A: "Le Sphinx"
@@ -101,6 +197,14 @@ questions:
       C: "Le Cyclope"
       D: "La Chimère"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which monster, half-man and half-bull, was imprisoned in the labyrinth of Crete?"
+        answers:
+          A: "The Sphinx"
+          B: "The Minotaur"
+          C: "The Cyclops"
+          D: "The Chimera"
   - text: "Comment s'appelle le batelier qui fait traverser les âmes des morts aux Enfers ?"
     answers:
       A: "Thanatos"
@@ -108,6 +212,14 @@ questions:
       C: "Cerbère"
       D: "Charon"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the ferryman who carries the souls of the dead across to the Underworld?"
+        answers:
+          A: "Thanatos"
+          B: "Hades"
+          C: "Cerberus"
+          D: "Charon"
   - text: "Dans la mythologie grecque, quel dieu est le messager de l'Olympe ?"
     answers:
       A: "Hermès"
@@ -115,6 +227,14 @@ questions:
       C: "Arès"
       D: "Héphaïstos"
     correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, which god is the messenger of Olympus?"
+        answers:
+          A: "Hermes"
+          B: "Apollo"
+          C: "Ares"
+          D: "Hephaestus"
   - text: "Dans la mythologie nordique, qui est le roi des dieux et le père de Thor ?"
     answers:
       A: "Loki"
@@ -122,6 +242,14 @@ questions:
       C: "Odin"
       D: "Tyr"
     correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, who is the king of the gods and the father of Thor?"
+        answers:
+          A: "Loki"
+          B: "Baldr"
+          C: "Odin"
+          D: "Tyr"
   - text: "Quelle créature de la mythologie grecque pétrifie quiconque croise son regard ?"
     answers:
       A: "La Gorgone Euryale"
@@ -129,6 +257,14 @@ questions:
       C: "L'Hydre de Lerne"
       D: "Circé"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which creature from Greek mythology turns anyone who meets its gaze to stone?"
+        answers:
+          A: "The Gorgon Euryale"
+          B: "Medusa"
+          C: "The Lernaean Hydra"
+          D: "Circe"
   - text: "Qui a écrit Vingt Mille Lieues sous les mers ?"
     answers:
       A: "Alexandre Dumas"
@@ -136,6 +272,14 @@ questions:
       C: "Émile Zola"
       D: "Jules Verne"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Twenty Thousand Leagues Under the Seas?"
+        answers:
+          A: "Alexandre Dumas"
+          B: "Victor Hugo"
+          C: "Émile Zola"
+          D: "Jules Verne"
   - text: "Dans la mythologie grecque, quel dieu règne sur les mers ?"
     answers:
       A: "Poséidon"
@@ -143,6 +287,14 @@ questions:
       C: "Hadès"
       D: "Triton"
     correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, which god rules the seas?"
+        answers:
+          A: "Poseidon"
+          B: "Zeus"
+          C: "Hades"
+          D: "Triton"
   - text: "Quelle déesse grecque est associée à la sagesse et à la guerre ?"
     answers:
       A: "Héra"
@@ -150,3 +302,11 @@ questions:
       C: "Athéna"
       D: "Artémis"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek goddess is associated with wisdom and war?"
+        answers:
+          A: "Hera"
+          B: "Aphrodite"
+          C: "Athena"
+          D: "Artemis"

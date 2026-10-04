@@ -13,6 +13,14 @@ questions:
       C: "Le clafoutis"
       D: "La tarte au sucre"
     correctAnswer: A
+    translations:
+      en:
+        text: "What is this caramelized apple tart, served upside down, a specialty of Sologne, called?"
+        answers:
+          A: "Tarte Tatin"
+          B: "Normandy tart"
+          C: "Clafoutis"
+          D: "Sugar tart"
   - text: "Quel est ce dessert constitué d'une crème vanillée recouverte d'une fine croûte de caramel craquant ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cremebrulee.jpg?width=800
     answers:
@@ -21,6 +29,14 @@ questions:
       C: "La panna cotta"
       D: "La mousse au chocolat"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this dessert made of vanilla custard topped with a thin crust of crunchy caramel?"
+        answers:
+          A: "Floating island"
+          B: "Crème brûlée"
+          C: "Panna cotta"
+          D: "Chocolate mousse"
   - text: "Quels sont ces petits gâteaux ronds et colorés, formés de deux coques et d'une garniture crémeuse ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Macaron_Paris.jpg?width=800
     answers:
@@ -29,6 +45,14 @@ questions:
       C: "Les macarons"
       D: "Les canelés"
     correctAnswer: C
+    translations:
+      en:
+        text: "What are these small, round, colorful cookies made of two shells and a creamy filling?"
+        answers:
+          A: "Cupcakes"
+          B: "Meringues"
+          C: "Macarons"
+          D: "Canelés"
   - text: "De quel pays européen le tiramisu, dessert au café et au mascarpone, est-il originaire ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tiramisu_dessert.jpg?width=800
     answers:
@@ -37,6 +61,14 @@ questions:
       C: "Le Portugal"
       D: "L'Italie"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which European country does tiramisu, a coffee and mascarpone dessert, come from?"
+        answers:
+          A: "Greece"
+          B: "Spain"
+          C: "Portugal"
+          D: "Italy"
   - text: "Quel est ce dessert feuilleté au miel et aux fruits à coque, emblématique de la cuisine ottomane ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Baklava.jpg?width=800
     answers:
@@ -45,6 +77,14 @@ questions:
       C: "Le cannoli"
       D: "La profiterole"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is this flaky dessert with honey and nuts, emblematic of Ottoman cuisine?"
+        answers:
+          A: "Strudel"
+          B: "Baklava"
+          C: "Cannoli"
+          D: "Profiterole"
   - text: "Quel est ce gâteau crémeux à base de fromage frais, emblème de la pâtisserie new-yorkaise ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cheesecake.jpg?width=800
     answers:
@@ -53,6 +93,14 @@ questions:
       C: "Le flan pâtissier"
       D: "Le cheesecake"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is this creamy cake made from fresh cheese, an emblem of New York pastry?"
+        answers:
+          A: "Tiramisu"
+          B: "Panna cotta"
+          C: "Flan pâtissier"
+          D: "Cheesecake"
   - text: "Quelle crème, faite d'œufs, de sucre, de lait et de vanille, garnit traditionnellement les éclairs et les mille-feuilles ?"
     answers:
       A: "La crème pâtissière"
@@ -60,6 +108,14 @@ questions:
       C: "La crème anglaise"
       D: "La crème fraîche"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which cream, made of eggs, sugar, milk and vanilla, traditionally fills éclairs and mille-feuilles?"
+        answers:
+          A: "Pastry cream"
+          B: "Chantilly cream"
+          C: "Crème anglaise"
+          D: "Crème fraîche"
   - text: "Comment nomme-t-on la pâte utilisée pour confectionner les choux, les éclairs et les religieuses ?"
     answers:
       A: "La pâte sablée"
@@ -67,6 +123,14 @@ questions:
       C: "La pâte à choux"
       D: "La pâte feuilletée"
     correctAnswer: C
+    translations:
+      en:
+        text: "What is the dough used to make choux, éclairs and religieuses called?"
+        answers:
+          A: "Shortcrust pastry"
+          B: "Pie dough"
+          C: "Choux pastry"
+          D: "Puff pastry"
   - text: "Quel ingrédient, en plus des blancs d'œufs et du sucre, compose la coque du macaron parisien ?"
     answers:
       A: "La noix de coco"
@@ -74,6 +138,14 @@ questions:
       C: "La farine de blé"
       D: "Le beurre"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which ingredient, besides egg whites and sugar, makes up the shell of the Parisian macaron?"
+        answers:
+          A: "Coconut"
+          B: "Almond powder"
+          C: "Wheat flour"
+          D: "Butter"
   - text: "Quel ingrédient, intercalé en couches dans la pâte, donne son feuilletage au mille-feuille ?"
     answers:
       A: "Le sucre glace"
@@ -81,6 +153,14 @@ questions:
       C: "La levure"
       D: "Le beurre"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which ingredient, layered into the dough, gives mille-feuille its flaky texture?"
+        answers:
+          A: "Icing sugar"
+          B: "Crème fraîche"
+          C: "Yeast"
+          D: "Butter"
   - text: "D'où le Paris-Brest, créé en 1910, tire-t-il son nom ?"
     answers:
       A: "D'une gare parisienne"
@@ -88,6 +168,14 @@ questions:
       C: "D'une course cycliste entre Paris et Brest"
       D: "D'un roi de France"
     correctAnswer: C
+    translations:
+      en:
+        text: "Where does the Paris-Brest, created in 1910, get its name?"
+        answers:
+          A: "From a Paris train station"
+          B: "From a cheese from Brest"
+          C: "From a bicycle race between Paris and Brest"
+          D: "From a king of France"
   - text: "Quelle pâtisserie sicilienne est un tube frit garni de ricotta sucrée ?"
     answers:
       A: "Le cannoli"
@@ -95,6 +183,14 @@ questions:
       C: "Le babà"
       D: "La cassata"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which Sicilian pastry is a fried tube filled with sweet ricotta?"
+        answers:
+          A: "Cannoli"
+          B: "Sfogliatella"
+          C: "Babà"
+          D: "Cassata"
   - text: "De quel pays le strudel aux pommes est-il une spécialité traditionnelle ?"
     answers:
       A: "L'Italie"
@@ -102,6 +198,14 @@ questions:
       C: "Le Danemark"
       D: "L'Autriche"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which country is apple strudel a traditional specialty of?"
+        answers:
+          A: "Italy"
+          B: "Greece"
+          C: "Denmark"
+          D: "Austria"
   - text: "Dans quelle ville française est né le canelé, petit gâteau caramélisé à la vanille et au rhum ?"
     answers:
       A: "Lyon"
@@ -109,6 +213,14 @@ questions:
       C: "Strasbourg"
       D: "Lille"
     correctAnswer: B
+    translations:
+      en:
+        text: "In which French city was the canelé, a small caramelized cake with vanilla and rum, born?"
+        answers:
+          A: "Lyon"
+          B: "Bordeaux"
+          C: "Strasbourg"
+          D: "Lille"
   - text: "Dans quelle région française est né le kouign-amann, à base de pâte levée, de beurre et de sucre ?"
     answers:
       A: "La Bretagne"
@@ -116,6 +228,14 @@ questions:
       C: "L'Alsace"
       D: "Le Périgord"
     correctAnswer: A
+    translations:
+      en:
+        text: "In which French region was kouign-amann, made with leavened dough, butter and sugar, born?"
+        answers:
+          A: "Brittany"
+          B: "Normandy"
+          C: "Alsace"
+          D: "Périgord"
   - text: "De quel pays le pastel de nata, flan pâtissier à la crème, est-il originaire ?"
     answers:
       A: "L'Espagne"
@@ -123,6 +243,14 @@ questions:
       C: "Le Portugal"
       D: "Le Maroc"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which country does pastel de nata, a custard pastry, originate from?"
+        answers:
+          A: "Spain"
+          B: "Brazil"
+          C: "Portugal"
+          D: "Morocco"
   - text: "Quel fruit garnit traditionnellement le clafoutis limousin ?"
     answers:
       A: "La pomme"
@@ -130,6 +258,14 @@ questions:
       C: "La prune"
       D: "La cerise"
     correctAnswer: D
+    translations:
+      en:
+        text: "Which fruit traditionally fills the Limousin clafoutis?"
+        answers:
+          A: "Apple"
+          B: "Apricot"
+          C: "Plum"
+          D: "Cherry"
   - text: "Quelle plante produit les gousses qui parfument la crème anglaise et la crème brûlée ?"
     answers:
       A: "La vanille"
@@ -137,6 +273,14 @@ questions:
       C: "La muscade"
       D: "Le safran"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which plant produces the pods that flavor custard and crème brûlée?"
+        answers:
+          A: "Vanilla"
+          B: "Cinnamon"
+          C: "Nutmeg"
+          D: "Saffron"
   - text: "Quel dessert à la frangipane est partagé chaque année à l'occasion de l'Épiphanie ?"
     answers:
       A: "La bûche de Noël"
@@ -144,6 +288,14 @@ questions:
       C: "La tarte Tatin"
       D: "Le far breton"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which frangipane dessert is shared each year on Epiphany?"
+        answers:
+          A: "Yule log"
+          B: "King cake"
+          C: "Tarte Tatin"
+          D: "Far breton"
   - text: "Quelle pâtisserie oblongue en pâte à choux est garnie de crème et recouverte d'un glaçage ?"
     answers:
       A: "Le muffin"
@@ -151,3 +303,11 @@ questions:
       C: "L'éclair"
       D: "Le brownie"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which oblong choux pastry is filled with cream and topped with icing?"
+        answers:
+          A: "Muffin"
+          B: "Cookie"
+          C: "Éclair"
+          D: "Brownie"
