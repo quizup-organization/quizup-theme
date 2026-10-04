@@ -1,3 +1,9 @@
+## [4.2.0](https://github.com/quizup-organization/quizup-theme/compare/v4.1.0...v4.2.0) (2026-10-04)
+
+### Features
+
+* **seed:** traductions anglaises des questions ([942ff3e](https://github.com/quizup-organization/quizup-theme/commit/942ff3e9980044b50498ffc36dde5a33092c9e81))
+
 ## [4.1.0](https://github.com/quizup-organization/quizup-theme/compare/v4.0.0...v4.1.0) (2026-10-03)
 
 ### Features
