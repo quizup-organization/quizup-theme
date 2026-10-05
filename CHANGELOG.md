@@ -1,3 +1,9 @@
+## [4.4.1](https://github.com/quizup-organization/quizup-theme/compare/v4.4.0...v4.4.1) (2026-10-05)
+
+### Bug Fixes
+
+* **theme:** migration contrainte categorie RELIGION ([f398b27](https://github.com/quizup-organization/quizup-theme/commit/f398b27f572784e4e9a49936d4ab63bc3a92663d))
+
 ## [4.4.0](https://github.com/quizup-organization/quizup-theme/compare/v4.3.0...v4.4.0) (2026-10-05)
 
 ### Features
