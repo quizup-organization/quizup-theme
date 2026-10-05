@@ -1,3 +1,9 @@
+## [4.3.0](https://github.com/quizup-organization/quizup-theme/compare/v4.2.0...v4.3.0) (2026-10-05)
+
+### Features
+
+* **theme:** categorie Religions & spiritualite ([82c5264](https://github.com/quizup-organization/quizup-theme/commit/82c5264a2e970d769e0b9ca100954749a7cb94b0))
+
 ## [4.2.0](https://github.com/quizup-organization/quizup-theme/compare/v4.1.0...v4.2.0) (2026-10-04)
 
 ### Features
