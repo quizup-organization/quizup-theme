@@ -1,3 +1,9 @@
+## [4.5.0](https://github.com/quizup-organization/quizup-theme/compare/v4.4.1...v4.5.0) (2026-10-05)
+
+### Features
+
+* **theme:** theme Breaking Bad (100 questions FR/EN, images libres) ([38ecff3](https://github.com/quizup-organization/quizup-theme/commit/38ecff3da6a30f114f63b66f315d183738b23a4d))
+
 ## [4.4.1](https://github.com/quizup-organization/quizup-theme/compare/v4.4.0...v4.4.1) (2026-10-05)
 
 ### Bug Fixes
