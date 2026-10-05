@@ -80,7 +80,7 @@ lorsque la difficulté calculée change, la projection envoie une
 - `TopicQuery.GetTopicsByIdsQuery(topicIds)` → `List<Topic>` : résolution batch (accueil, suivis).
 - `TopicQuery.TopicSearchQuery` (pattern SDK) reste pour les **futures surfaces d'administration** ;
   les vues web n'y font plus appel.
-- `GET /api/topic-categories` (BFF) — les 17 `TopicCategory` + libellé FR (`TopicCategory.label()`).
+- `GET /api/topic-categories` (BFF) — les 18 `TopicCategory` + libellé FR (`TopicCategory.label()`).
 - `Topic` porte `emoji` + `color` + `imageUrl` (données éditoriales) : agrégat, événements, commande,
   `TopicEntity` (colonnes `emoji`/`color`/`image_url`), DTO. Le seed ne renseigne plus `emoji`/`color`
   (fallback UI) et utilise `imageUrl` comme visuel de couverture.

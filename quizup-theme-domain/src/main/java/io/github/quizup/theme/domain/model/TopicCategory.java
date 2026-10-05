@@ -13,6 +13,7 @@ public enum TopicCategory {
     MOVIES("Cinéma"),
     MUSIC("Musique"),
     NATURE("Nature & animaux"),
+    RELIGION("Religions & spiritualité"),
     SCIENCE("Sciences"),
     SPORTS("Sport"),
     TELEVISION("Séries & TV"),
