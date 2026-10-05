@@ -1,0 +1,781 @@
+topic:
+  id: topic-christianisme
+  name: "Christianisme"
+  description: "Des origines de Jésus de Nazareth à l'art des cathédrales : textes, fêtes, sacrements, grandes figures et lieux saints du christianisme à travers les siècles."
+  category: RELIGION
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem_Holy_Sepulchre_BW_22.JPG?width=800
+questions:
+  - text: "Dans quelle ville Jésus est-il né selon les Évangiles ?"
+    answers:
+      A: "Nazareth"
+      B: "Bethléem"
+      C: "Jérusalem"
+      D: "Capharnaüm"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city was Jesus born according to the Gospels?"
+        answers:
+          A: "Nazareth"
+          B: "Bethlehem"
+          C: "Jerusalem"
+          D: "Capernaum"
+  - text: "Dans quelle ville Jésus a-t-il grandi ?"
+    answers:
+      A: "Bethléem"
+      B: "Nazareth"
+      C: "Jéricho"
+      D: "Tibériade"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city did Jesus grow up?"
+        answers:
+          A: "Bethlehem"
+          B: "Nazareth"
+          C: "Jericho"
+          D: "Tiberias"
+  - text: "Combien d'Évangiles sont reconnus dans le Nouveau Testament ?"
+    answers:
+      A: "2"
+      B: "3"
+      C: "4"
+      D: "12"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many Gospels are recognized in the New Testament?"
+        answers:
+          A: "2"
+          B: "3"
+          C: "4"
+          D: "12"
+  - text: "Combien d'apôtres Jésus a-t-il choisis ?"
+    answers:
+      A: "7"
+      B: "10"
+      C: "12"
+      D: "72"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many apostles did Jesus choose?"
+        answers:
+          A: "7"
+          B: "10"
+          C: "12"
+          D: "72"
+  - text: "Qui a baptisé Jésus dans le Jourdain ?"
+    answers:
+      A: "Pierre"
+      B: "Jean-Baptiste"
+      C: "Paul"
+      D: "André"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who baptized Jesus in the Jordan?"
+        answers:
+          A: "Peter"
+          B: "John the Baptist"
+          C: "Paul"
+          D: "Andrew"
+  - text: "Quel fleuve est associé au baptême de Jésus ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_river_baptism_cue.jpg?width=800
+    answers:
+      A: "Le Nil"
+      B: "L'Euphrate"
+      C: "Le Jourdain"
+      D: "Le Tigre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which river is associated with the baptism of Jesus?"
+        answers:
+          A: "The Nile"
+          B: "The Euphrates"
+          C: "The Jordan"
+          D: "The Tigris"
+  - text: "Quel lieu de Jérusalem est vénéré comme le site de la crucifixion ?"
+    answers:
+      A: "Le Golgotha"
+      B: "Le mont des Oliviers"
+      C: "Le Cénacle"
+      D: "Le mont Sion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which place in Jerusalem is venerated as the site of the crucifixion?"
+        answers:
+          A: "Golgotha"
+          B: "The Mount of Olives"
+          C: "The Cenacle"
+          D: "Mount Zion"
+  - text: "Quelle fête célèbre la résurrection de Jésus ?"
+    answers:
+      A: "Noël"
+      B: "Pâques"
+      C: "La Pentecôte"
+      D: "L'Épiphanie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which holiday celebrates the resurrection of Jesus?"
+        answers:
+          A: "Christmas"
+          B: "Easter"
+          C: "Pentecost"
+          D: "Epiphany"
+  - text: "Quelle basilique de Jérusalem abrite selon la tradition le tombeau du Christ ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem_Holy_Sepulchre_BW_22.JPG?width=800
+    answers:
+      A: "La basilique du Saint-Sépulcre"
+      B: "La basilique de la Nativité"
+      C: "La basilique de l'Annonciation"
+      D: "La basilique de la Dormition"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Jerusalem basilica traditionally houses the tomb of Christ?"
+        answers:
+          A: "The Church of the Holy Sepulchre"
+          B: "The Church of the Nativity"
+          C: "The Church of the Annunciation"
+          D: "The Church of the Dormition"
+  - text: "Que commémore la basilique de la Nativité à Bethléem ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_the_Nativity_(Bethlehem)_04.jpg?width=800
+    answers:
+      A: "La naissance de Jésus"
+      B: "Le baptême de Jésus"
+      C: "La crucifixion"
+      D: "La résurrection"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the Church of the Nativity in Bethlehem commemorate?"
+        answers:
+          A: "The birth of Jesus"
+          B: "The baptism of Jesus"
+          C: "The crucifixion"
+          D: "The resurrection"
+  - text: "De combien de livres se compose le Nouveau Testament ?"
+    answers:
+      A: "21"
+      B: "27"
+      C: "39"
+      D: "46"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many books make up the New Testament?"
+        answers:
+          A: "21"
+          B: "27"
+          C: "39"
+          D: "46"
+  - text: "Quelle est la première partie de la Bible chrétienne ?"
+    answers:
+      A: "L'Ancien Testament"
+      B: "Le Nouveau Testament"
+      C: "Les Évangiles"
+      D: "Les Actes des Apôtres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first part of the Christian Bible?"
+        answers:
+          A: "The Old Testament"
+          B: "The New Testament"
+          C: "The Gospels"
+          D: "The Acts of the Apostles"
+  - text: "Qui a traduit la Bible en latin, dans la Vulgate ?"
+    answers:
+      A: "Jérôme"
+      B: "Augustin"
+      C: "Ambroise"
+      D: "Grégoire le Grand"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who translated the Bible into Latin, in the Vulgate?"
+        answers:
+          A: "Jerome"
+          B: "Augustine"
+          C: "Ambrose"
+          D: "Gregory the Great"
+  - text: "Qui a peint le plafond de la chapelle Sixtine ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/CAPPELLA_SISTINA_Ceiling.jpg?width=800
+    answers:
+      A: "Raphaël"
+      B: "Michel-Ange"
+      C: "Léonard de Vinci"
+      D: "Le Titien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who painted the ceiling of the Sistine Chapel?"
+        answers:
+          A: "Raphael"
+          B: "Michelangelo"
+          C: "Leonardo da Vinci"
+          D: "Titian"
+  - text: "Qui a peint La Cène ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg?width=800
+    answers:
+      A: "Léonard de Vinci"
+      B: "Michel-Ange"
+      C: "Raphaël"
+      D: "Botticelli"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who painted The Last Supper?"
+        answers:
+          A: "Leonardo da Vinci"
+          B: "Michelangelo"
+          C: "Raphael"
+          D: "Botticelli"
+  - text: "Dans quelle ville se trouve la basilique Saint-Pierre ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg?width=800
+    answers:
+      A: "Rome"
+      B: "Florence"
+      C: "Milan"
+      D: "Naples"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is St. Peter's Basilica located?"
+        answers:
+          A: "Rome"
+          B: "Florence"
+          C: "Milan"
+          D: "Naples"
+  - text: "Quel État indépendant entoure la basilique Saint-Pierre ?"
+    answers:
+      A: "Saint-Marin"
+      B: "Le Vatican"
+      C: "Monaco"
+      D: "Le Liechtenstein"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which independent state surrounds St. Peter's Basilica?"
+        answers:
+          A: "San Marino"
+          B: "Vatican City"
+          C: "Monaco"
+          D: "Liechtenstein"
+  - text: "Dans quelle ville se trouve Notre-Dame de Paris ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/NotreDameDeParis.jpg?width=800
+    answers:
+      A: "Paris"
+      B: "Lyon"
+      C: "Reims"
+      D: "Rouen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is Notre-Dame de Paris located?"
+        answers:
+          A: "Paris"
+          B: "Lyon"
+          C: "Reims"
+          D: "Rouen"
+  - text: "Dans quel pays se trouve la cathédrale de Cologne ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kölner_Dom_nachts_2013.jpg?width=800
+    answers:
+      A: "L'Autriche"
+      B: "L'Allemagne"
+      C: "La Belgique"
+      D: "Les Pays-Bas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country is Cologne Cathedral located?"
+        answers:
+          A: "Austria"
+          B: "Germany"
+          C: "Belgium"
+          D: "The Netherlands"
+  - text: "Qu'est-ce qu'une rosace comme celle de la cathédrale de Chartres ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cathédrale_de_Chartres_-_rosace_ouest,_extérieur.JPG?width=800
+    answers:
+      A: "Un grand vitrail circulaire"
+      B: "Une sculpture"
+      C: "Une fresque"
+      D: "Un portail"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is a rose window like the one at Chartres Cathedral?"
+        answers:
+          A: "A large circular stained-glass window"
+          B: "A sculpture"
+          C: "A fresco"
+          D: "A portal"
+  - text: "Quel est le principal symbole du christianisme ?"
+    answers:
+      A: "La croix"
+      B: "La ménorah"
+      C: "L'étoile de David"
+      D: "Le croissant"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the main symbol of Christianity?"
+        answers:
+          A: "The cross"
+          B: "The menorah"
+          C: "The Star of David"
+          D: "The crescent"
+  - text: "Comment appelle-t-on ce type d'image sacrée, courante dans l'Église orthodoxe ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Christ_Pantocrator_in_the.jpg?width=800
+    answers:
+      A: "Une icône"
+      B: "Une fresque"
+      C: "Une mosaïque"
+      D: "Un vitrail"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this type of sacred image, common in the Orthodox Church, called?"
+        answers:
+          A: "An icon"
+          B: "A fresco"
+          C: "A mosaic"
+          D: "A stained-glass window"
+  - text: "Qui est représentée avec l'Enfant sur ce tableau de Bellini ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Madonna_and_child_with_St_Peter_and_St._Sebastian_by_Giovanni_Bellini_-_Louvre_(MI_231).jpg?width=800
+    answers:
+      A: "La Vierge Marie"
+      B: "Marie-Madeleine"
+      C: "Sainte Anne"
+      D: "Sainte Cécile"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is depicted with the Child in this painting by Bellini?"
+        answers:
+          A: "The Virgin Mary"
+          B: "Mary Magdalene"
+          C: "Saint Anne"
+          D: "Saint Cecilia"
+  - text: "Comment appelle-t-on la scène de la Nativité installée à Noël ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Marktzeuln_Christmas_crib-20190106-RM-164712.jpg?width=800
+    answers:
+      A: "La crèche"
+      B: "Le retable"
+      C: "Le calvaire"
+      D: "Le ciboire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the Nativity scene set up at Christmas called?"
+        answers:
+          A: "The crib"
+          B: "The altarpiece"
+          C: "The calvary"
+          D: "The ciborium"
+  - text: "Quel jour Noël est-il célébré en Occident ?"
+    answers:
+      A: "Le 24 décembre"
+      B: "Le 25 décembre"
+      C: "Le 6 janvier"
+      D: "Le 1er novembre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which day is Christmas celebrated in the West?"
+        answers:
+          A: "December 24"
+          B: "December 25"
+          C: "January 6"
+          D: "November 1"
+  - text: "Que fête l'Épiphanie ?"
+    answers:
+      A: "La visite des mages"
+      B: "La résurrection"
+      C: "La Pentecôte"
+      D: "L'Annonciation"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does Epiphany celebrate?"
+        answers:
+          A: "The visit of the Magi"
+          B: "The resurrection"
+          C: "Pentecost"
+          D: "The Annunciation"
+  - text: "Combien de jours dure le Carême ?"
+    answers:
+      A: "7"
+      B: "20"
+      C: "40"
+      D: "50"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many days does Lent last?"
+        answers:
+          A: "7"
+          B: "20"
+          C: "40"
+          D: "50"
+  - text: "Quelle fête suit Pâques cinquante jours plus tard ?"
+    answers:
+      A: "La Pentecôte"
+      B: "L'Ascension"
+      C: "La Toussaint"
+      D: "L'Avent"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which feast follows Easter fifty days later?"
+        answers:
+          A: "Pentecost"
+          B: "Ascension"
+          C: "All Saints' Day"
+          D: "Advent"
+  - text: "Quel apôtre, d'abord persécuteur, a écrit de nombreuses épîtres ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Paul._Detail_of_the_mosaic_in_Arian_Baptistery._Ravenna,_Italy.jpg?width=800
+    answers:
+      A: "Paul"
+      B: "Pierre"
+      C: "Jean"
+      D: "Jacques"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which apostle, once a persecutor, wrote many epistles?"
+        answers:
+          A: "Paul"
+          B: "Peter"
+          C: "John"
+          D: "James"
+  - text: "Quel apôtre est considéré comme le premier chef de l'Église ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Peter%27s_Statue_Saint_Peter%27s_Basilica_Vatican_City_cropped.jpg?width=800
+    answers:
+      A: "Pierre"
+      B: "Paul"
+      C: "Jean"
+      D: "André"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which apostle is considered the first head of the Church?"
+        answers:
+          A: "Peter"
+          B: "Paul"
+          C: "John"
+          D: "Andrew"
+  - text: "Quel Père de l'Église a écrit Les Confessions ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Augustine_Lateran.jpg?width=800
+    answers:
+      A: "Augustin"
+      B: "Jérôme"
+      C: "Ambroise"
+      D: "Athanase"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Church Father wrote the Confessions?"
+        answers:
+          A: "Augustine"
+          B: "Jerome"
+          C: "Ambrose"
+          D: "Athanasius"
+  - text: "Quel théologien médiéval a écrit la Somme théologique ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/St-thomas-aquinas.jpg?width=800
+    answers:
+      A: "Thomas d'Aquin"
+      B: "Albert le Grand"
+      C: "Bonaventure"
+      D: "Anselme"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which medieval theologian wrote the Summa Theologica?"
+        answers:
+          A: "Thomas Aquinas"
+          B: "Albert the Great"
+          C: "Bonaventure"
+          D: "Anselm"
+  - text: "En quelle année le concile de Nicée a-t-il défini le Credo ?"
+    answers:
+      A: "313"
+      B: "325"
+      C: "381"
+      D: "431"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which year did the Council of Nicaea define the Creed?"
+        answers:
+          A: "313"
+          B: "325"
+          C: "381"
+          D: "431"
+  - text: "Quel empereur a légalisé le christianisme par l'édit de Milan ?"
+    answers:
+      A: "Néron"
+      B: "Constantin"
+      C: "Théodose"
+      D: "Trajan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which emperor legalized Christianity through the Edict of Milan?"
+        answers:
+          A: "Nero"
+          B: "Constantine"
+          C: "Theodosius"
+          D: "Trajan"
+  - text: "En quelle année a eu lieu le schisme entre Orient et Occident ?"
+    answers:
+      A: "800"
+      B: "1054"
+      C: "1204"
+      D: "1378"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which year did the East-West Schism take place?"
+        answers:
+          A: "800"
+          B: "1054"
+          C: "1204"
+          D: "1378"
+  - text: "Qui a lancé la Réforme en publiant ses 95 thèses en 1517 ?"
+    answers:
+      A: "Martin Luther"
+      B: "Jean Calvin"
+      C: "Henri VIII"
+      D: "Érasme"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who launched the Reformation by publishing his 95 theses in 1517?"
+        answers:
+          A: "Martin Luther"
+          B: "John Calvin"
+          C: "Henry VIII"
+          D: "Erasmus"
+  - text: "Quel réformateur est représenté sur ce portrait peint par Cranach ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Lucas_Cranach_d.Ä._-_Martin_Luther,_1528_(Veste_Coburg).jpg?width=800
+    answers:
+      A: "Martin Luther"
+      B: "Jean Calvin"
+      C: "Philippe Mélanchthon"
+      D: "Ulrich Zwingli"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which reformer is depicted in this portrait painted by Cranach?"
+        answers:
+          A: "Martin Luther"
+          B: "John Calvin"
+          C: "Philip Melanchthon"
+          D: "Ulrich Zwingli"
+  - text: "Quel réformateur a organisé l'Église à Genève ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/John_Calvin_Titian_B.jpg?width=800
+    answers:
+      A: "Jean Calvin"
+      B: "Martin Luther"
+      C: "John Knox"
+      D: "Menno Simons"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which reformer organized the church in Geneva?"
+        answers:
+          A: "John Calvin"
+          B: "Martin Luther"
+          C: "John Knox"
+          D: "Menno Simons"
+  - text: "Quelle Église est née de la rupture d'Henri VIII avec Rome ?"
+    answers:
+      A: "L'Église anglicane"
+      B: "L'Église luthérienne"
+      C: "L'Église calviniste"
+      D: "L'Église orthodoxe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which church arose from Henry VIII's break with Rome?"
+        answers:
+          A: "The Anglican Church"
+          B: "The Lutheran Church"
+          C: "The Calvinist Church"
+          D: "The Orthodox Church"
+  - text: "Quels sont les trois grands rameaux du christianisme ?"
+    answers:
+      A: "Catholique, orthodoxe et protestant"
+      B: "Catholique, juif et musulman"
+      C: "Latin, grec et slave"
+      D: "Romain, byzantin et copte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What are the three main branches of Christianity?"
+        answers:
+          A: "Catholic, Orthodox and Protestant"
+          B: "Catholic, Jewish and Muslim"
+          C: "Latin, Greek and Slavic"
+          D: "Roman, Byzantine and Coptic"
+  - text: "Quel sacrement marque l'entrée dans la communauté chrétienne ?"
+    answers:
+      A: "Le baptême"
+      B: "L'eucharistie"
+      C: "Le mariage"
+      D: "L'ordination"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sacrament marks entry into the Christian community?"
+        answers:
+          A: "Baptism"
+          B: "The Eucharist"
+          C: "Marriage"
+          D: "Ordination"
+  - text: "Que commémore l'eucharistie ?"
+    answers:
+      A: "Le dernier repas de Jésus"
+      B: "La naissance de Jésus"
+      C: "Le baptême de Jésus"
+      D: "La Pentecôte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the Eucharist commemorate?"
+        answers:
+          A: "The Last Supper of Jesus"
+          B: "The birth of Jesus"
+          C: "The baptism of Jesus"
+          D: "Pentecost"
+  - text: "Comment appelle-t-on ce collier de prière ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Rosary_2006-01-16.jpg?width=800
+    answers:
+      A: "Le chapelet"
+      B: "Le scapulaire"
+      C: "Le ciboire"
+      D: "Le calice"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this prayer necklace called?"
+        answers:
+          A: "The rosary"
+          B: "The scapular"
+          C: "The ciborium"
+          D: "The chalice"
+  - text: "Dans quel pays se trouvent ces monastères perchés de Météores ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Roussanou_Monastery,_Meteora.jpg?width=800
+    answers:
+      A: "En Grèce"
+      B: "En Italie"
+      C: "En Espagne"
+      D: "En Égypte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which country are these perched Meteora monasteries located?"
+        answers:
+          A: "Greece"
+          B: "Italy"
+          C: "Spain"
+          D: "Egypt"
+  - text: "Vers quelle ville converge le pèlerinage représenté par cette cathédrale ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/2010-Catedral_de_Santiago_de_Compostela-Galicia_(Spain)_3.jpg?width=800
+    answers:
+      A: "Saint-Jacques-de-Compostelle"
+      B: "Rome"
+      C: "Jérusalem"
+      D: "Lourdes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "To which city does the pilgrimage represented by this cathedral lead?"
+        answers:
+          A: "Santiago de Compostela"
+          B: "Rome"
+          C: "Jerusalem"
+          D: "Lourdes"
+  - text: "Dans quelle ville se trouve la cathédrale Saint-Basile ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/St_Basils_Cathedral-500px.jpg?width=800
+    answers:
+      A: "Moscou"
+      B: "Kiev"
+      C: "Saint-Pétersbourg"
+      D: "Sofia"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is St. Basil's Cathedral located?"
+        answers:
+          A: "Moscow"
+          B: "Kyiv"
+          C: "Saint Petersburg"
+          D: "Sofia"
+  - text: "Quel livre a été imprimé par Gutenberg au XVe siècle ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg?width=800
+    answers:
+      A: "La Bible"
+      B: "Le Coran"
+      C: "Les Métamorphoses"
+      D: "La Somme théologique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which book was printed by Gutenberg in the 15th century?"
+        answers:
+          A: "The Bible"
+          B: "The Quran"
+          C: "The Metamorphoses"
+          D: "The Summa Theologica"
+  - text: "Quel compositeur a écrit la Passion selon saint Matthieu ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Sebastian_Bach_1746.jpg?width=800
+    answers:
+      A: "Jean-Sébastien Bach"
+      B: "Georg Friedrich Haendel"
+      C: "Wolfgang Amadeus Mozart"
+      D: "Antonio Vivaldi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which composer wrote the St Matthew Passion?"
+        answers:
+          A: "Johann Sebastian Bach"
+          B: "George Frideric Handel"
+          C: "Wolfgang Amadeus Mozart"
+          D: "Antonio Vivaldi"
+  - text: "Comment appelle-t-on le chant liturgique monodique de l'Église latine ?"
+    answers:
+      A: "Le chant grégorien"
+      B: "Le chant byzantin"
+      C: "Le motet"
+      D: "Le psaume"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the monophonic liturgical chant of the Latin Church called?"
+        answers:
+          A: "Gregorian chant"
+          B: "Byzantine chant"
+          C: "The motet"
+          D: "The psalm"
+  - text: "Quel apôtre est enterré selon la tradition sous la basilique Saint-Pierre ?"
+    answers:
+      A: "Pierre"
+      B: "Paul"
+      C: "Jean"
+      D: "Thomas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which apostle is traditionally buried beneath St. Peter's Basilica?"
+        answers:
+          A: "Peter"
+          B: "Paul"
+          C: "John"
+          D: "Thomas"

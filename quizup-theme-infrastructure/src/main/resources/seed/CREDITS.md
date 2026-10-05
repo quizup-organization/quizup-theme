@@ -333,4 +333,77 @@ libre avec attribution). Cette page liste, par thème, l'auteur et la licence de
   author) — Public domain
 - [`Flag of India.svg`](https://commons.wikimedia.org/wiki/File:Flag_of_India.svg) — Government of India — Public domain
 - [`Flag of Australia.svg`](https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg) — Original: Ivor Evans,
-  Leslie John Hawkins, Egbert John Nuttall, Annie Dorrington and William Stevens Vector: Ian Fieggen — Public domain
+  Leslie John Hawkins, Egbert John Nuttall, Annie Dorrington and William Stevens  Vector: Ian Fieggen — Public domain
+
+## Islam (`religion/islam.yml`)
+
+- [`Kaaba, Makkah3.jpg`](https://commons.wikimedia.org/wiki/File:Kaaba,_Makkah3.jpg) — Moataz Egbaria — CC BY-SA 3.0
+- [`Supplicating Pilgrim at Masjid Al Haram. Mecca, Saudi Arabia.jpg`](https://commons.wikimedia.org/wiki/File:Supplicating_Pilgrim_at_Masjid_Al_Haram._Mecca,_Saudi_Arabia.jpg) — Ali Mansuri — CC BY-SA 2.5
+- [`Al Masjid an Nabawi 3.jpg`](https://commons.wikimedia.org/wiki/File:Al_Masjid_an_Nabawi_3.jpg) — Aymanzaid2 — CC BY-SA 4.0
+- [`Jerusalem-2013-Temple Mount-Al-Aqsa Mosque 01.jpg`](https://commons.wikimedia.org/wiki/File:Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_01.jpg) — Godot13 — CC BY-SA 4.0
+- [`Jerusalem-2013(2)-Temple Mount-Dome of the Rock (SE exposure).jpg`](https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg) — Godot13 — CC BY-SA 4.0
+- [`Blue Mosque (Istanbul).jpg`](https://commons.wikimedia.org/wiki/File:Blue_Mosque_(Istanbul).jpg) — Bernard Gagnon — CC BY-SA 3.0
+- [`Mosque of Cordoba Spain.jpg`](https://commons.wikimedia.org/wiki/File:Mosque_of_Cordoba_Spain.jpg) — Steven J. Dunlop — CC BY-SA 3.0
+- [`Alhambra in the evening.jpg`](https://commons.wikimedia.org/wiki/File:Alhambra_in_the_evening.jpg) — Jebulon — Public domain
+- [`Birmingham Quran manuscript.jpg`](https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript.jpg) — Anonymous — Public domain
+- [`Sulaiman in Islamic calligraphy (2).png`](https://commons.wikimedia.org/wiki/File:Sulaiman_in_Islamic_calligraphy_(2).png) — عبدالعزيز علي — Public domain
+- [`Islamic geometric patterns (Aydar kadi mosque, Bitola, Macedonia).jpg`](https://commons.wikimedia.org/wiki/File:Islamic_geometric_patterns_(Aydar_kadi_mosque,_Bitola,_Macedonia).jpg) — Petar Milošević — CC BY-SA 4.0
+- [`Wazir khan mosque, tile art1.jpg`](https://commons.wikimedia.org/wiki/File:Wazir_khan_mosque,_tile_art1.jpg) — Atif Gulzar — CC BY-SA 3.0
+- [`Ramadan lantern.jpg`](https://commons.wikimedia.org/wiki/File:Ramadan_lantern.jpg) — Pshahma — CC BY-SA 4.0
+- [`Eid al-Fitr prayer at the Al-Hikmah Kebonsari Mosque.jpg`](https://commons.wikimedia.org/wiki/File:Eid_al-Fitr_prayer_at_the_Al-Hikmah_Kebonsari_Mosque.jpg) — Mumun96 — CC BY-SA 4.0
+- [`Hajj pilgrims - Flickr - Al Jazeera English.jpg`](https://commons.wikimedia.org/wiki/File:Hajj_pilgrims_-_Flickr_-_Al_Jazeera_English.jpg) — Omar Chatriwala — CC BY-SA 2.0
+- [`Jabal-e-Rehmat Mount of Mercy Mount Arafat.jpg`](https://commons.wikimedia.org/wiki/File:Jabal-e-Rehmat_Mount_of_Mercy_Mount_Arafat.jpg) — Fahad Faisal — CC BY-SA 4.0
+- [`Prayer rug, moia.jpg`](https://commons.wikimedia.org/wiki/File:Prayer_rug,_moia.jpg) — Sodabottle — CC BY-SA 3.0
+- [`Muslim Prayer Beads.jpg`](https://commons.wikimedia.org/wiki/File:Muslim_Prayer_Beads.jpg) — Muhammad Rehan — CC BY-SA 2.0
+- [`Whirling dervish whirling.jpg`](https://commons.wikimedia.org/wiki/File:Whirling_dervish_whirling.jpg) — Valeria Kikvidze — CC BY-SA 4.0
+- [`Umayyad Mosque, Damascus.jpg`](https://commons.wikimedia.org/wiki/File:Umayyad_Mosque,_Damascus.jpg) — Bernard Gagnon — CC BY-SA 3.0
+- [`Great Mosque of Samarra - Dec 27, 2017 10.jpg`](https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Samarra_-_Dec_27,_2017_10.jpg) — Mahdi Almasi — CC BY 4.0
+
+## Judaïsme (`religion/judaisme.yml`)
+
+- [`Westen (Wailing) Wall, Jerusalem, 2007.jpg`](https://commons.wikimedia.org/wiki/File:Westen_(Wailing)_Wall,_Jerusalem,_2007.jpg) — Godot13 — CC BY-SA 4.0
+- [`Two Torah scrolls.jpg`](https://commons.wikimedia.org/wiki/File:Two_Torah_scrolls.jpg) — Davidbena — CC BY-SA 4.0
+- [`Praha Spanish Synagogue Interior 01.jpg`](https://commons.wikimedia.org/wiki/File:Praha_Spanish_Synagogue_Interior_01.jpg) — Uoaei1 — CC BY-SA 4.0
+- [`The temple menorah on the Magdala Stone (replica).png`](https://commons.wikimedia.org/wiki/File:The_temple_menorah_on_the_Magdala_Stone_(replica).png) — Mariamnei — CC0
+- [`Rostov-on-Don, Hanukkah Jewish festival, Hanukkah menorah, Judaism in Russia.jpg`](https://commons.wikimedia.org/wiki/File:Rostov-on-Don,_Hanukkah_Jewish_festival,_Hanukkah_menorah,_Judaism_in_Russia.jpg) — Vyacheslav Argenberg — CC BY 4.0
+- [`Star of David 2021.jpg`](https://commons.wikimedia.org/wiki/File:Star_of_David_2021.jpg) — Unknown — Public domain
+- [`Shabbat Candles.jpg`](https://commons.wikimedia.org/wiki/File:Shabbat_Candles.jpg) — Olaf.herfurth — CC BY-SA 3.0
+- [`Challah Bread Six Braid 1.JPG`](https://commons.wikimedia.org/wiki/File:Challah_Bread_Six_Braid_1.JPG) — Aviv Hod — CC BY 3.0
+- [`Passover Seder plate, original.jpg`](https://commons.wikimedia.org/wiki/File:Passover_Seder_plate,_original.jpg) — Edsel Little — CC BY-SA 2.0
+- [`Matzah.jpg`](https://commons.wikimedia.org/wiki/File:Matzah.jpg) — Jonathunder — GFDL 1.2
+- [`Shofar-16-Zachi-Evenor.jpg`](https://commons.wikimedia.org/wiki/File:Shofar-16-Zachi-Evenor.jpg) — Zachi Evenor — CC BY 2.0
+- [`Maurycy Gottlieb - Jews Praying in the Synagogue on Yom Kippur.jpg`](https://commons.wikimedia.org/wiki/File:Maurycy_Gottlieb_-_Jews_Praying_in_the_Synagogue_on_Yom_Kippur.jpg) — Maurycy Gottlieb — Public domain
+- [`Mezuzah IMG 2124.JPG`](https://commons.wikimedia.org/wiki/File:Mezuzah_IMG_2124.JPG) — Deror_avi — CC BY-SA 3.0
+- [`Tefillin.JPG`](https://commons.wikimedia.org/wiki/File:Tefillin.JPG) — Chesdovi — Public domain
+- [`Prayer Shawl Tallit gadol.jpg`](https://commons.wikimedia.org/wiki/File:Prayer_Shawl_Tallit_gadol.jpg) — Munjanja — CC BY-SA 4.0
+- [`Kipa.jpg`](https://commons.wikimedia.org/wiki/File:Kipa.jpg) — H. Pellikka — CC BY 2.5
+- [`Psalms Scroll.jpg`](https://commons.wikimedia.org/wiki/File:Psalms_Scroll.jpg) — Israel Antiquities Authority — Public domain
+- [`Israel-2013-Aerial 21-Masada.jpg`](https://commons.wikimedia.org/wiki/File:Israel-2013-Aerial_21-Masada.jpg) — Godot13 — CC BY-SA 4.0
+- [`Alefbet Hebrew.png`](https://commons.wikimedia.org/wiki/File:Alefbet_Hebrew.png) — Immanuel Giel — CC0
+
+## Christianisme (`religion/christianisme.yml`)
+
+- [`Jerusalem Holy Sepulchre BW 22.JPG`](https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_22.JPG) — Berthold Werner — CC BY-SA 3.0
+- [`Church of the Nativity (Bethlehem) 04.jpg`](https://commons.wikimedia.org/wiki/File:Church_of_the_Nativity_(Bethlehem)_04.jpg) — Immanuel Giel — CC BY-SA 4.0
+- [`Basilica di San Pietro in Vaticano September 2015-1a.jpg`](https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg) — Alvesgaspar — CC BY-SA 4.0
+- [`CAPPELLA SISTINA Ceiling.jpg`](https://commons.wikimedia.org/wiki/File:CAPPELLA_SISTINA_Ceiling.jpg) — Michelangelo — CC BY-SA 3.0
+- [`Leonardo da Vinci (1452-1519) - The Last Supper (1495-1498).jpg`](https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg) — Leonardo da Vinci — Public domain
+- [`NotreDameDeParis.jpg`](https://commons.wikimedia.org/wiki/File:NotreDameDeParis.jpg) — Sanchezn — CC BY-SA 3.0
+- [`Kölner Dom nachts 2013.jpg`](https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_nachts_2013.jpg) — Thomas Wolf — CC BY-SA 3.0 de
+- [`Cathédrale de Chartres - rosace ouest, extérieur.JPG`](https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Chartres_-_rosace_ouest,_ext%C3%A9rieur.JPG) — Eusebius — CC BY 3.0
+- [`Christ Pantocrator in the.jpg`](https://commons.wikimedia.org/wiki/File:Christ_Pantocrator_in_the.jpg) — Szilas — CC BY-SA 3.0
+- [`Madonna and child with St Peter and St. Sebastian by Giovanni Bellini - Louvre (MI 231).jpg`](https://commons.wikimedia.org/wiki/File:Madonna_and_child_with_St_Peter_and_St._Sebastian_by_Giovanni_Bellini_-_Louvre_(MI_231).jpg) — Giovanni Bellini — Public domain
+- [`Marktzeuln Christmas crib-20190106-RM-164712.jpg`](https://commons.wikimedia.org/wiki/File:Marktzeuln_Christmas_crib-20190106-RM-164712.jpg) — Ermell — CC BY-SA 4.0
+- [`Saint Paul. Detail of the mosaic in Arian Baptistery. Ravenna, Italy.jpg`](https://commons.wikimedia.org/wiki/File:Saint_Paul._Detail_of_the_mosaic_in_Arian_Baptistery._Ravenna,_Italy.jpg) — Ввласенко — CC BY-SA 3.0
+- [`Saint Peter's Statue Saint Peter's Basilica Vatican City cropped.jpg`](https://commons.wikimedia.org/wiki/File:Saint_Peter%27s_Statue_Saint_Peter%27s_Basilica_Vatican_City_cropped.jpg) — Jebulon — CC0
+- [`Augustine Lateran.jpg`](https://commons.wikimedia.org/wiki/File:Augustine_Lateran.jpg) — Unknown — Public domain
+- [`St-thomas-aquinas.jpg`](https://commons.wikimedia.org/wiki/File:St-thomas-aquinas.jpg) — Carlo Crivelli — Public domain
+- [`Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg`](https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg) — Lucas Cranach the Elder — Public domain
+- [`John Calvin Titian B.jpg`](https://commons.wikimedia.org/wiki/File:John_Calvin_Titian_B.jpg) — After Cristofano dell'Altissimo — Public domain
+- [`Johann Sebastian Bach 1746.jpg`](https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_1746.jpg) — Elias Gottlob Haussmann — Public domain
+- [`Gutenberg Bible, Lenox Copy, New York Public Library, 2009. Pic 01.jpg`](https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg) — NYC Wanderer (Kevin Eng) — CC BY-SA 2.0
+- [`Roussanou Monastery, Meteora.jpg`](https://commons.wikimedia.org/wiki/File:Roussanou_Monastery,_Meteora.jpg) — Bernard Gagnon — CC BY-SA 4.0
+- [`2010-Catedral de Santiago de Compostela-Galicia (Spain) 3.jpg`](https://commons.wikimedia.org/wiki/File:2010-Catedral_de_Santiago_de_Compostela-Galicia_(Spain)_3.jpg) — Luis Miguel Bugallo Sánchez — CC BY-SA 3.0
+- [`St Basils Cathedral-500px.jpg`](https://commons.wikimedia.org/wiki/File:St_Basils_Cathedral-500px.jpg) — David Crawshaw — CC BY-SA 3.0
+- [`Rosary 2006-01-16.jpg`](https://commons.wikimedia.org/wiki/File:Rosary_2006-01-16.jpg) — Daniel Tibi — Public domain
+- [`Jordan river baptism cue.jpg`](https://commons.wikimedia.org/wiki/File:Jordan_river_baptism_cue.jpg) — Bantosh — CC BY-SA 2.5

@@ -1,0 +1,778 @@
+topic:
+  id: topic-islam
+  name: "Islam"
+  description: "Les fondements, les lieux saints et l'histoire de l'islam : piliers de la foi, Coran, grandes mosquées, pèlerinage de La Mecque et dynasties qui ont marqué le monde musulman."
+  category: RELIGION
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kaaba,_Makkah3.jpg?width=800
+questions:
+  - text: "Combien de piliers compte l'islam ?"
+    answers:
+      A: "3"
+      B: "5"
+      C: "7"
+      D: "10"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many pillars does Islam have?"
+        answers:
+          A: "3"
+          B: "5"
+          C: "7"
+          D: "10"
+  - text: "Quelle est la profession de foi de l'islam ?"
+    answers:
+      A: "La chahada"
+      B: "La zakât"
+      C: "Le hajj"
+      D: "L'adhan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the profession of faith in Islam?"
+        answers:
+          A: "The shahada"
+          B: "The zakat"
+          C: "The hajj"
+          D: "The adhan"
+  - text: "Combien de prières quotidiennes un musulman doit-il accomplir ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "5"
+      D: "7"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many daily prayers must a Muslim perform?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "5"
+          D: "7"
+  - text: "Comment appelle-t-on l'aumône obligatoire ?"
+    answers:
+      A: "La zakât"
+      B: "La sadâqa"
+      C: "L'iftar"
+      D: "Le waqf"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is obligatory almsgiving called?"
+        answers:
+          A: "The zakat"
+          B: "The sadaqa"
+          C: "The iftar"
+          D: "The waqf"
+  - text: "Quel est le mois de jeûne dans le calendrier musulman ?"
+    answers:
+      A: "Rajab"
+      B: "Chaabane"
+      C: "Ramadan"
+      D: "Mouharram"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which month is the fasting month in the Muslim calendar?"
+        answers:
+          A: "Rajab"
+          B: "Sha'ban"
+          C: "Ramadan"
+          D: "Muharram"
+  - text: "Quel pèlerinage constitue le cinquième pilier de l'islam ?"
+    answers:
+      A: "Le hajj à La Mecque"
+      B: "La omra à Médine"
+      C: "Le pèlerinage à Al-Aqsa"
+      D: "Le pèlerinage à Kairouan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pilgrimage is the fifth pillar of Islam?"
+        answers:
+          A: "The hajj to Mecca"
+          B: "The umrah to Medina"
+          C: "The pilgrimage to Al-Aqsa"
+          D: "The pilgrimage to Kairouan"
+  - text: "Dans quelle ville se trouve ce monument cubique ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kaaba,_Makkah3.jpg?width=800
+    answers:
+      A: "Médine"
+      B: "La Mecque"
+      C: "Jérusalem"
+      D: "Damas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is this cube-shaped monument located?"
+        answers:
+          A: "Medina"
+          B: "Mecca"
+          C: "Jerusalem"
+          D: "Damascus"
+  - text: "Quel grand sanctuaire entoure la Kaaba ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Supplicating_Pilgrim_at_Masjid_Al_Haram._Mecca,_Saudi_Arabia.jpg?width=800
+    answers:
+      A: "La mosquée du Prophète"
+      B: "La mosquée Al-Aqsa"
+      C: "La Grande Mosquée de La Mecque"
+      D: "La mosquée des Omeyyades"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which great sanctuary surrounds the Kaaba?"
+        answers:
+          A: "The Prophet's Mosque"
+          B: "The Al-Aqsa Mosque"
+          C: "The Great Mosque of Mecca"
+          D: "The Umayyad Mosque"
+  - text: "Dans quelle ville se trouve cette mosquée, deuxième lieu saint de l'islam ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Al_Masjid_an_Nabawi_3.jpg?width=800
+    answers:
+      A: "La Mecque"
+      B: "Médine"
+      C: "Kairouan"
+      D: "Fès"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is this mosque, the second holiest site in Islam?"
+        answers:
+          A: "Mecca"
+          B: "Medina"
+          C: "Kairouan"
+          D: "Fez"
+  - text: "Dans quelle ville se trouve la mosquée Al-Aqsa ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_01.jpg?width=800
+    answers:
+      A: "Jérusalem"
+      B: "Bethléem"
+      C: "Amman"
+      D: "Beyrouth"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is the Al-Aqsa Mosque located?"
+        answers:
+          A: "Jerusalem"
+          B: "Bethlehem"
+          C: "Amman"
+          D: "Beirut"
+  - text: "Quel monument de Jérusalem est reconnaissable à son dôme doré ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg?width=800
+    answers:
+      A: "La mosquée Al-Aqsa"
+      B: "Le Dôme du Rocher"
+      C: "La tour de David"
+      D: "Le Saint-Sépulcre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Jerusalem monument is recognizable by its golden dome?"
+        answers:
+          A: "The Al-Aqsa Mosque"
+          B: "The Dome of the Rock"
+          C: "The Tower of David"
+          D: "The Holy Sepulchre"
+  - text: "Dans quelle ville se trouve la mosquée Bleue ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Mosque_(Istanbul).jpg?width=800
+    answers:
+      A: "Ankara"
+      B: "Istanbul"
+      C: "Izmir"
+      D: "Bursa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the Blue Mosque located?"
+        answers:
+          A: "Ankara"
+          B: "Istanbul"
+          C: "Izmir"
+          D: "Bursa"
+  - text: "Dans quel pays se trouve la mosquée-cathédrale de Cordoue ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mosque_of_Cordoba_Spain.jpg?width=800
+    answers:
+      A: "Le Maroc"
+      B: "L'Espagne"
+      C: "Le Portugal"
+      D: "L'Italie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country is the Mosque-Cathedral of Córdoba?"
+        answers:
+          A: "Morocco"
+          B: "Spain"
+          C: "Portugal"
+          D: "Italy"
+  - text: "Dans quelle ville andalouse se trouve l'Alhambra ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Alhambra_in_the_evening.jpg?width=800
+    answers:
+      A: "Séville"
+      B: "Grenade"
+      C: "Cordoue"
+      D: "Tolède"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which Andalusian city is the Alhambra located?"
+        answers:
+          A: "Seville"
+          B: "Granada"
+          C: "Córdoba"
+          D: "Toledo"
+  - text: "Dans quelle langue le Coran a-t-il été révélé ?"
+    answers:
+      A: "L'hébreu"
+      B: "L'arabe"
+      C: "Le persan"
+      D: "Le turc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which language was the Quran revealed?"
+        answers:
+          A: "Hebrew"
+          B: "Arabic"
+          C: "Persian"
+          D: "Turkish"
+  - text: "Combien de sourates compte le Coran ?"
+    answers:
+      A: "99"
+      B: "104"
+      C: "114"
+      D: "120"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many surahs does the Quran contain?"
+        answers:
+          A: "99"
+          B: "104"
+          C: "114"
+          D: "120"
+  - text: "Quelle est la première sourate du Coran ?"
+    answers:
+      A: "Al-Fâtiha"
+      B: "Al-Baqara"
+      C: "Al-Ikhlâs"
+      D: "Yâ-Sîn"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first surah of the Quran?"
+        answers:
+          A: "Al-Fatiha"
+          B: "Al-Baqara"
+          C: "Al-Ikhlas"
+          D: "Ya-Sin"
+  - text: "Quelle est la plus longue sourate du Coran ?"
+    answers:
+      A: "Al-Fâtiha"
+      B: "Al-Baqara"
+      C: "An-Nisâ"
+      D: "Al-Kahf"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the longest surah of the Quran?"
+        answers:
+          A: "Al-Fatiha"
+          B: "Al-Baqara"
+          C: "An-Nisa"
+          D: "Al-Kahf"
+  - text: "Que contient le célèbre manuscrit du Coran conservé à Birmingham ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham_Quran_manuscript.jpg?width=800
+    answers:
+      A: "Des versets du Coran"
+      B: "La Torah"
+      C: "Les Évangiles"
+      D: "Les Hadiths"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the famous Quran manuscript kept in Birmingham contain?"
+        answers:
+          A: "Verses of the Quran"
+          B: "The Torah"
+          C: "The Gospels"
+          D: "The Hadiths"
+  - text: "Comment appelle-t-on l'art de la belle écriture dans la culture islamique ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sulaiman_in_Islamic_calligraphy_(2).png?width=800
+    answers:
+      A: "La calligraphie"
+      B: "La mosaïque"
+      C: "La fresque"
+      D: "La gravure"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the art of beautiful writing called in Islamic culture?"
+        answers:
+          A: "Calligraphy"
+          B: "Mosaic"
+          C: "Fresco"
+          D: "Engraving"
+  - text: "Quel type de décor orne fréquemment les mosquées et les palais ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Islamic_geometric_patterns_(Aydar_kadi_mosque,_Bitola,_Macedonia).jpg?width=800
+    answers:
+      A: "Des motifs géométriques"
+      B: "Des portraits"
+      C: "Des scènes de chasse"
+      D: "Des paysages"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What type of decoration frequently adorns mosques and palaces?"
+        answers:
+          A: "Geometric patterns"
+          B: "Portraits"
+          C: "Hunting scenes"
+          D: "Landscapes"
+  - text: "Quel matériau décoratif recouvre ces murs de la mosquée Wazir Khan ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Wazir_khan_mosque,_tile_art1.jpg?width=800
+    answers:
+      A: "Des carreaux de céramique"
+      B: "Des vitraux"
+      C: "Du marbre gravé"
+      D: "Des tapisseries"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What decorative material covers these walls of the Wazir Khan Mosque?"
+        answers:
+          A: "Ceramic tiles"
+          B: "Stained glass"
+          C: "Carved marble"
+          D: "Tapestries"
+  - text: "Quel objet illumine les rues et les maisons pendant le Ramadan ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ramadan_lantern.jpg?width=800
+    answers:
+      A: "Le fanoûs (lanterne)"
+      B: "Le chandelier"
+      C: "Le brasero"
+      D: "La torche"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which object lights up streets and homes during Ramadan?"
+        answers:
+          A: "The fanous (lantern)"
+          B: "The candelabra"
+          C: "The brazier"
+          D: "The torch"
+  - text: "Quelle fête marque la fin du mois de Ramadan ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Eid_al-Fitr_prayer_at_the_Al-Hikmah_Kebonsari_Mosque.jpg?width=800
+    answers:
+      A: "L'Aïd el-Fitr"
+      B: "L'Aïd el-Adha"
+      C: "Le Mawlid"
+      D: "Achoura"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which holiday marks the end of the month of Ramadan?"
+        answers:
+          A: "Eid al-Fitr"
+          B: "Eid al-Adha"
+          C: "Mawlid"
+          D: "Ashura"
+  - text: "Quelle fête commémore le sacrifice d'Abraham ?"
+    answers:
+      A: "L'Aïd el-Adha"
+      B: "L'Aïd el-Fitr"
+      C: "Le Mawlid"
+      D: "L'Isrâ"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which holiday commemorates Abraham's sacrifice?"
+        answers:
+          A: "Eid al-Adha"
+          B: "Eid al-Fitr"
+          C: "Mawlid"
+          D: "Isra"
+  - text: "Quel événement rassemble ces pèlerins autour de la Kaaba ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Hajj_pilgrims_-_Flickr_-_Al_Jazeera_English.jpg?width=800
+    answers:
+      A: "Le hajj"
+      B: "La omra"
+      C: "L'Aïd"
+      D: "Le Mawlid"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which event gathers these pilgrims around the Kaaba?"
+        answers:
+          A: "The hajj"
+          B: "The umrah"
+          C: "Eid"
+          D: "Mawlid"
+  - text: "Sur quelle montagne les pèlerins se rassemblent-ils pendant le hajj ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jabal-e-Rehmat_Mount_of_Mercy_Mount_Arafat.jpg?width=800
+    answers:
+      A: "Le mont Sinaï"
+      B: "Le mont Arafat"
+      C: "Le mont des Oliviers"
+      D: "Le mont Nebo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which mountain do pilgrims gather during the hajj?"
+        answers:
+          A: "Mount Sinai"
+          B: "Mount Arafat"
+          C: "The Mount of Olives"
+          D: "Mount Nebo"
+  - text: "Comment appelle-t-on ce tapis utilisé pour la prière ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Prayer_rug,_moia.jpg?width=800
+    answers:
+      A: "Un tapis de prière (sajjâda)"
+      B: "Un kilim"
+      C: "Un tapis persan"
+      D: "Une natte de paille"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is this rug used for prayer called?"
+        answers:
+          A: "A prayer rug (sajjadah)"
+          B: "A kilim"
+          C: "A Persian carpet"
+          D: "A straw mat"
+  - text: "Comment appelle-t-on ce chapelet de prière ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Muslim_Prayer_Beads.jpg?width=800
+    answers:
+      A: "Le misbaha"
+      B: "Le rosaire"
+      C: "Le scapulaire"
+      D: "Le pendentif"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What are these prayer beads called?"
+        answers:
+          A: "Misbaha"
+          B: "Rosary"
+          C: "Scapular"
+          D: "Pendant"
+  - text: "À quel ordre soufi appartiennent les derviches tourneurs ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Whirling_dervish_whirling.jpg?width=800
+    answers:
+      A: "Les mevlevis"
+      B: "Les chaféites"
+      C: "Les salafistes"
+      D: "Les mutazilites"
+    correctAnswer: A
+    translations:
+      en:
+        text: "To which Sufi order do the whirling dervishes belong?"
+        answers:
+          A: "The Mevlevis"
+          B: "The Shafi'is"
+          C: "The Salafists"
+          D: "The Mu'tazilites"
+  - text: "Dans quelle ville se trouve la grande mosquée des Omeyyades ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Umayyad_Mosque,_Damascus.jpg?width=800
+    answers:
+      A: "Bagdad"
+      B: "Damas"
+      C: "Le Caire"
+      D: "Tunis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the Great Umayyad Mosque located?"
+        answers:
+          A: "Baghdad"
+          B: "Damascus"
+          C: "Cairo"
+          D: "Tunis"
+  - text: "Quelle forme caractéristique a le minaret de la grande mosquée de Samarra ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Great_Mosque_of_Samarra_-_Dec_27,_2017_10.jpg?width=800
+    answers:
+      A: "Une spirale"
+      B: "Un octogone"
+      C: "Deux tours jumelles"
+      D: "Un toit de bois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What characteristic shape does the minaret of the Great Mosque of Samarra have?"
+        answers:
+          A: "A spiral"
+          B: "An octagon"
+          C: "Twin towers"
+          D: "A wooden roof"
+  - text: "Qui fut le premier calife après la mort du Prophète ?"
+    answers:
+      A: "Ali"
+      B: "Omar"
+      C: "Abou Bakr"
+      D: "Othman"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the first caliph after the Prophet's death?"
+        answers:
+          A: "Ali"
+          B: "Umar"
+          C: "Abu Bakr"
+          D: "Uthman"
+  - text: "Qui fut le quatrième calife, cousin et gendre du Prophète ?"
+    answers:
+      A: "Abou Bakr"
+      B: "Ali"
+      C: "Omar"
+      D: "Othman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who was the fourth caliph, the Prophet's cousin and son-in-law?"
+        answers:
+          A: "Abu Bakr"
+          B: "Ali"
+          C: "Umar"
+          D: "Uthman"
+  - text: "Quelle fut la première épouse du Prophète Muhammad ?"
+    answers:
+      A: "Aïcha"
+      B: "Khadîja"
+      C: "Fatima"
+      D: "Hafsa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who was the Prophet Muhammad's first wife?"
+        answers:
+          A: "Aisha"
+          B: "Khadija"
+          C: "Fatima"
+          D: "Hafsa"
+  - text: "En quelle année a eu lieu l'Hégire, le départ vers Médine ?"
+    answers:
+      A: "570"
+      B: "610"
+      C: "622"
+      D: "632"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which year did the Hijra, the departure to Medina, take place?"
+        answers:
+          A: "570"
+          B: "610"
+          C: "622"
+          D: "632"
+  - text: "Vers quelle ville le Prophète a-t-il émigré lors de l'Hégire ?"
+    answers:
+      A: "La Mecque"
+      B: "Médine"
+      C: "Taïf"
+      D: "Jérusalem"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which city did the Prophet migrate during the Hijra?"
+        answers:
+          A: "Mecca"
+          B: "Medina"
+          C: "Taif"
+          D: "Jerusalem"
+  - text: "Sur quel type de calendrier repose l'année musulmane ?"
+    answers:
+      A: "Solaire"
+      B: "Lunaire"
+      C: "Julien"
+      D: "Grégorien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What type of calendar is the Muslim year based on?"
+        answers:
+          A: "Solar"
+          B: "Lunar"
+          C: "Julian"
+          D: "Gregorian"
+  - text: "Comment appelle-t-on la direction de la prière vers La Mecque ?"
+    answers:
+      A: "La qibla"
+      B: "La sunna"
+      C: "La fatwa"
+      D: "La fitna"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the direction of prayer toward Mecca called?"
+        answers:
+          A: "The qibla"
+          B: "The sunna"
+          C: "The fatwa"
+          D: "The fitna"
+  - text: "Comment nomme-t-on la personne qui appelle à la prière ?"
+    answers:
+      A: "L'imam"
+      B: "Le muezzin"
+      C: "Le mufti"
+      D: "Le cheikh"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the person who calls to prayer called?"
+        answers:
+          A: "The imam"
+          B: "The muezzin"
+          C: "The mufti"
+          D: "The sheikh"
+  - text: "Le jeûne quotidien du Ramadan s'étend…"
+    answers:
+      A: "Du lever au coucher du soleil"
+      B: "De l'aube au coucher du soleil"
+      C: "De midi à minuit"
+      D: "Du coucher au lever du soleil"
+    correctAnswer: B
+    translations:
+      en:
+        text: "The daily Ramadan fast lasts…"
+        answers:
+          A: "From sunrise to sunset"
+          B: "From dawn to sunset"
+          C: "From noon to midnight"
+          D: "From sunset to sunrise"
+  - text: "Quelle nuit du Ramadan est considérée comme la plus sacrée ?"
+    answers:
+      A: "La nuit du Destin"
+      B: "La nuit de l'Hégire"
+      C: "La nuit du Mi'raj"
+      D: "La nuit d'Achoura"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which night of Ramadan is considered the holiest?"
+        answers:
+          A: "The Night of Destiny"
+          B: "The Night of the Hijra"
+          C: "The Night of Mi'raj"
+          D: "The Night of Ashura"
+  - text: "Quel ange, selon la tradition, a transmis la révélation à Muhammad ?"
+    answers:
+      A: "Mikâïl"
+      B: "Jibrîl"
+      C: "Isrâfîl"
+      D: "Azrâïl"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which angel, according to tradition, brought the revelation to Muhammad?"
+        answers:
+          A: "Mika'il"
+          B: "Jibril"
+          C: "Israfil"
+          D: "Azra'il"
+  - text: "Que signifie le mot « islam » ?"
+    answers:
+      A: "Soumission à Dieu"
+      B: "Paix seulement"
+      C: "Révélation"
+      D: "Communauté"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the word \"Islam\" mean?"
+        answers:
+          A: "Submission to God"
+          B: "Peace only"
+          C: "Revelation"
+          D: "Community"
+  - text: "Quelles sont les deux grandes branches de l'islam ?"
+    answers:
+      A: "Le sunnisme et le chiisme"
+      B: "Le soufisme et le chiisme"
+      C: "Le kharidjisme et le sunnisme"
+      D: "L'alaouisme et le sunnisme"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What are the two main branches of Islam?"
+        answers:
+          A: "Sunni and Shia"
+          B: "Sufi and Shia"
+          C: "Kharijite and Sunni"
+          D: "Alawite and Sunni"
+  - text: "Quel chef militaire est connu pour avoir repris Jérusalem en 1187 ?"
+    answers:
+      A: "Saladin"
+      B: "Baïbars"
+      C: "Haroun al-Rachid"
+      D: "Soliman le Magnifique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which military leader is known for recapturing Jerusalem in 1187?"
+        answers:
+          A: "Saladin"
+          B: "Baibars"
+          C: "Harun al-Rashid"
+          D: "Suleiman the Magnificent"
+  - text: "Quelle dynastie a fondé Bagdad comme capitale en 762 ?"
+    answers:
+      A: "Les Omeyyades"
+      B: "Les Abbassides"
+      C: "Les Fatimides"
+      D: "Les Ottomans"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which dynasty founded Baghdad as its capital in 762?"
+        answers:
+          A: "The Umayyads"
+          B: "The Abbasids"
+          C: "The Fatimids"
+          D: "The Ottomans"
+  - text: "Quel empire a conquis Constantinople en 1453 ?"
+    answers:
+      A: "Le califat abbasside"
+      B: "Le califat omeyyade"
+      C: "L'Empire ottoman"
+      D: "Les Seldjoukides"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which empire conquered Constantinople in 1453?"
+        answers:
+          A: "The Abbasid Caliphate"
+          B: "The Umayyad Caliphate"
+          C: "The Ottoman Empire"
+          D: "The Seljuks"
+  - text: "Que désigne l'Al-Andalus ?"
+    answers:
+      A: "Les territoires musulmans de la péninsule Ibérique"
+      B: "Le Maghreb"
+      C: "La Sicile"
+      D: "L'Égypte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does Al-Andalus refer to?"
+        answers:
+          A: "The Muslim territories of the Iberian Peninsula"
+          B: "The Maghreb"
+          C: "Sicily"
+          D: "Egypt"
+  - text: "Quel livre rapporte les paroles et les actes du Prophète ?"
+    answers:
+      A: "Le Coran"
+      B: "La Sunna et les hadiths"
+      C: "La Torah"
+      D: "Le Talmud"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which book records the Prophet's words and deeds?"
+        answers:
+          A: "The Quran"
+          B: "The Sunna and the hadiths"
+          C: "The Torah"
+          D: "The Talmud"
