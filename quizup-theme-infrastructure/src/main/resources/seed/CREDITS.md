@@ -407,3 +407,32 @@ libre avec attribution). Cette page liste, par thème, l'auteur et la licence de
 - [`St Basils Cathedral-500px.jpg`](https://commons.wikimedia.org/wiki/File:St_Basils_Cathedral-500px.jpg) — David Crawshaw — CC BY-SA 3.0
 - [`Rosary 2006-01-16.jpg`](https://commons.wikimedia.org/wiki/File:Rosary_2006-01-16.jpg) — Daniel Tibi — Public domain
 - [`Jordan river baptism cue.jpg`](https://commons.wikimedia.org/wiki/File:Jordan_river_baptism_cue.jpg) — Bantosh — CC BY-SA 2.5
+
+## Breaking Bad (`television/breaking-bad.yml`)
+
+- [`Breaking Bad 1986 Fleetwood Bounder, Diecast Convention, Mexico 2017.jpg`](https://commons.wikimedia.org/wiki/File:Breaking_Bad_1986_Fleetwood_Bounder,_Diecast_Convention,_Mexico_2017.jpg) — Kenyirotsuru — CC BY-SA 4.0
+- [`Vince Gilligan PaleyFest 2010.jpg`](https://commons.wikimedia.org/wiki/File:Vince_Gilligan_PaleyFest_2010.jpg) — pop culture geek — CC BY 2.0
+- [`Breaking Bad Season 4 (5610151969).jpg`](https://commons.wikimedia.org/wiki/File:Breaking_Bad_Season_4_(5610151969).jpg) — Irmin Wehmeier — CC BY-SA 2.0
+- [`Dry brush portrait of Walter White from Breaking Bad by SD (2015).jpg`](https://commons.wikimedia.org/wiki/File:Dry_brush_portrait_of_Walter_White_from_Breaking_Bad_by_SD_(2015).jpg) — Slobadava Darya — CC BY-SA 4.0
+- [`Bryan Cranston PaleyFest 2010.jpg`](https://commons.wikimedia.org/wiki/File:Bryan_Cranston_PaleyFest_2010.jpg) — pop culture geek — CC BY 2.0
+- [`SDCC 2014 - Heisenberg (14812213561).jpg`](https://commons.wikimedia.org/wiki/File:SDCC_2014_-_Heisenberg_(14812213561).jpg) — chrisjortiz — CC BY 2.0
+- [`"Leaves of Grass" prop from "Breaking Bad" on exhibit at the Museum of Moving Image in Astoria, NY.jpg`](https://commons.wikimedia.org/wiki/File:%22Leaves_of_Grass%22_prop_from_%22Breaking_Bad%22_on_exhibit_at_the_Museum_of_Moving_Image_in_Astoria,_NY.jpg) — Kinglight25 — CC BY-SA 4.0
+- [`Aaron Paul at the 68th Annual Peabody Awards for Breaking Bad.jpg`](https://commons.wikimedia.org/wiki/File:Aaron_Paul_at_the_68th_Annual_Peabody_Awards_for_Breaking_Bad.jpg) — The Peabody Awards — CC BY 2.0
+- [`Dragon Con 2013 - Breaking Bad (9680705630).jpg`](https://commons.wikimedia.org/wiki/File:Dragon_Con_2013_-_Breaking_Bad_(9680705630).jpg) — Pat Loika — CC BY 2.0
+- [`Albuquerque, New Mexico, USA (48598079817).jpg`](https://commons.wikimedia.org/wiki/File:Albuquerque,_New_Mexico,_USA_(48598079817).jpg) — Pom' — CC BY-SA 2.0
+- [`322 16th Street SW, Albuquerque, New Mexico - front facade - May 2026.jpg`](https://commons.wikimedia.org/wiki/File:322_16th_Street_SW,_Albuquerque,_New_Mexico_-_front_facade_-_May_2026.jpg) — Christian David — CC BY-SA 4.0
+- [`323 Terrace Street SE, Albuquerque, New Mexico - May 2026.jpg`](https://commons.wikimedia.org/wiki/File:323_Terrace_Street_SE,_Albuquerque,_New_Mexico_-_May_2026.jpg) — Christian David — CC BY-SA 4.0
+- [`4901 Cumbre del Sur Court NE, Albuquerque, New Mexico - May 2026.jpg`](https://commons.wikimedia.org/wiki/File:4901_Cumbre_del_Sur_Court_NE,_Albuquerque,_New_Mexico_-_May_2026.jpg) — Christian David — CC BY-SA 4.0
+- [`Pyrkon 2026 23 - Los Pollos Hermanos.jpg`](https://commons.wikimedia.org/wiki/File:Pyrkon_2026_23_-_Los_Pollos_Hermanos.jpg) — Rose Abrams — CC BY 4.0
+- [`Bob Odenkirk and Lavell Crawford Breaking Bad.jpg`](https://commons.wikimedia.org/wiki/File:Bob_Odenkirk_and_Lavell_Crawford_Breaking_Bad.jpg) — Irmin Wehmeier (iwpfw) — CC BY-SA 2.0
+- [`Bob Odenkirk Lavell Crawford during shooting Breaking Bad.jpg`](https://commons.wikimedia.org/wiki/File:Bob_Odenkirk_Lavell_Crawford_during_shooting_Breaking_Bad.jpg) — Irmin Wehmeier — CC BY-SA 2.0
+- [`2014 Dragon Con Cosplay - Hector Salamanca (14937129410).jpg`](https://commons.wikimedia.org/wiki/File:2014_Dragon_Con_Cosplay_-_Hector_Salamanca_(14937129410).jpg) — Amy — CC BY 2.0
+- [`Giancarlo Esposito Breaking Bad.jpg`](https://commons.wikimedia.org/wiki/File:Giancarlo_Esposito_Breaking_Bad.jpg) — Daniel Benavides — CC BY 2.0
+- [`Breaking Bad - Dean Norris.jpg`](https://commons.wikimedia.org/wiki/File:Breaking_Bad_-_Dean_Norris.jpg) — popculturegeek.com — CC BY 2.0
+- [`Anna Gunn PaleyFest 2010.jpg`](https://commons.wikimedia.org/wiki/File:Anna_Gunn_PaleyFest_2010.jpg) — pop culture geek — CC BY 2.0
+- [`38th Annual Saturn Awards - RJ Mitte from Breaking Bad (13971794539).jpg`](https://commons.wikimedia.org/wiki/File:38th_Annual_Saturn_Awards_-_RJ_Mitte_from_Breaking_Bad_(13971794539).jpg) — The Conmunity - Pop Culture Geek — CC BY 2.0
+- [`Charles Baker 2016.jpg`](https://commons.wikimedia.org/wiki/File:Charles_Baker_2016.jpg) — The Hollywood Social Lounge — CC BY 3.0
+- [`Hazmat suit and mask worn by Walter White in the T.V. show "Breaking Bad".jpg`](https://commons.wikimedia.org/wiki/File:Hazmat_suit_and_mask_worn_by_Walter_White_in_the_T.V._show_%22Breaking_Bad%22.jpg) — National Museum of American History — Public domain
+- [`Breaking Bad gas mask.jpg`](https://commons.wikimedia.org/wiki/File:Breaking_Bad_gas_mask.jpg) — APK — CC BY-SA 4.0
+- [`BCN - 20150817 - 8 (21767191479).jpg`](https://commons.wikimedia.org/wiki/File:BCN_-_20150817_-_8_(21767191479).jpg) — r2hox — CC BY-SA 2.0
+- [`SDCC 2014 - Pinkman and White (14818260795).jpg`](https://commons.wikimedia.org/wiki/File:SDCC_2014_-_Pinkman_and_White_(14818260795).jpg) — Chris Favero — CC BY-SA 2.0
