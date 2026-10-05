@@ -1,3 +1,9 @@
+## [4.4.0](https://github.com/quizup-organization/quizup-theme/compare/v4.3.0...v4.4.0) (2026-10-05)
+
+### Features
+
+* **theme:** themes Islam, Judaisme et Christianisme (50 questions FR/EN, images) ([8893e20](https://github.com/quizup-organization/quizup-theme/commit/8893e2057304ae21ff949ef7d7f88276ec7e718f))
+
 ## [4.3.0](https://github.com/quizup-organization/quizup-theme/compare/v4.2.0...v4.3.0) (2026-10-05)
 
 ### Features
