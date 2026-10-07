@@ -23,13 +23,18 @@ import io.github.quizup.theme.infrastructure.config.seed.QuestionSeedDefinition;
 import io.github.quizup.theme.infrastructure.config.seed.SeedDataLoader;
 import io.github.quizup.theme.infrastructure.config.seed.TopicSeedDefinition;
 import io.github.quizup.theme.infrastructure.properties.AppProperties;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
+import org.axonframework.commandhandling.distributed.CommandDispatchException;
 import org.axonframework.modelling.command.AggregateStreamCreationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.event.EventListener;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.stereotype.Component;
+import org.springframework.web.client.ResourceAccessException;
 
+import java.net.ConnectException;
 import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
@@ -66,6 +71,8 @@ public class DataSeeder {
     private static final int APPROVAL_WAIT_TIMEOUT_MS = 30_000;
     private static final int APPROVAL_POLL_INTERVAL_MS = 150;
     private static final int TOPIC_READ_TIMEOUT_MS = 10_000;
+    private static final int SEED_MAX_ATTEMPTS = 4;
+    private static final long SEED_RETRY_DELAY_INCREMENT_MS = 2_000;
 
     private final CheckTopicUseCase checkTopicUseCase;
     private final CreateTopicUseCase createTopicUseCase;
@@ -77,6 +84,11 @@ public class DataSeeder {
     private final GetQuestionUseCase getQuestionUseCase;
     private final SeedDataLoader seedDataLoader;
     private final boolean seedDataEnabled;
+    private final Counter createdTopicsCounter;
+    private final Counter repairedTopicsCounter;
+    private final Counter skippedTopicsCounter;
+    private final Counter failedTopicsCounter;
+    private final Counter retriesCounter;
 
     public DataSeeder(CheckTopicUseCase checkTopicUseCase,
                       CreateTopicUseCase createTopicUseCase,
@@ -87,6 +99,7 @@ public class DataSeeder {
                       GetTopicUseCase getTopicUseCase,
                       GetQuestionUseCase getQuestionUseCase,
                       SeedDataLoader seedDataLoader,
+                      MeterRegistry meterRegistry,
                       AppProperties properties) {
         this.checkTopicUseCase = checkTopicUseCase;
         this.createTopicUseCase = createTopicUseCase;
@@ -98,6 +111,20 @@ public class DataSeeder {
         this.getQuestionUseCase = getQuestionUseCase;
         this.seedDataLoader = seedDataLoader;
         this.seedDataEnabled = properties.seedData().enabled();
+        this.createdTopicsCounter = seedOutcomeCounter(meterRegistry, "created");
+        this.repairedTopicsCounter = seedOutcomeCounter(meterRegistry, "repaired");
+        this.skippedTopicsCounter = seedOutcomeCounter(meterRegistry, "skipped");
+        this.failedTopicsCounter = seedOutcomeCounter(meterRegistry, "failed");
+        this.retriesCounter = Counter.builder("quizup.theme.seed.retries")
+                .description("Tentatives supplementaires du seeder apres un echec transitoire")
+                .register(meterRegistry);
+    }
+
+    private static Counter seedOutcomeCounter(MeterRegistry meterRegistry, String outcome) {
+        return Counter.builder("quizup.theme.seed.topics")
+                .description("Themes traites par le seeder, par resultat")
+                .tag("outcome", outcome)
+                .register(meterRegistry);
     }
 
     /**
@@ -129,20 +156,58 @@ public class DataSeeder {
 
         for (TopicSeedDefinition definition : definitions) {
             try {
-                TopicSeedOutcome outcome = seedTopic(definition);
+                TopicSeedOutcome outcome = seedTopicWithRetry(definition);
                 switch (outcome) {
-                    case CREATED -> created++;
-                    case REPAIRED -> repaired++;
-                    case SKIPPED -> skipped++;
+                    case CREATED -> {
+                        created++;
+                        createdTopicsCounter.increment();
+                    }
+                    case REPAIRED -> {
+                        repaired++;
+                        repairedTopicsCounter.increment();
+                    }
+                    case SKIPPED -> {
+                        skipped++;
+                        skippedTopicsCounter.increment();
+                    }
                 }
             } catch (Exception e) {
                 failed++;
+                failedTopicsCounter.increment();
                 logger.error("Failed to seed topic {} ({})", definition.topicId(), definition.name(), e);
             }
         }
 
         logger.info("=== Theme Data Seeding Completed: {} created, {} repaired, {} skipped, {} failed in {} ms ===",
                 created, repaired, skipped, failed, System.currentTimeMillis() - startedAt);
+    }
+
+    /**
+     * Rejoue le seeding du theme lorsque l'echec est transitoire (instance Axon indisponible
+     * pendant un rollout, connexion refusee) : le seeding est idempotent, un nouvel essai
+     * reprend les questions manquantes sans doublon.
+     */
+    private TopicSeedOutcome seedTopicWithRetry(TopicSeedDefinition definition) {
+        for (int attempt = 1; ; attempt++) {
+            try {
+                return seedTopic(definition);
+            } catch (RuntimeException e) {
+                if (attempt >= SEED_MAX_ATTEMPTS || !isTransientFailure(e)) {
+                    throw e;
+                }
+                retriesCounter.increment();
+                long delayMs = SEED_RETRY_DELAY_INCREMENT_MS * attempt;
+                logger.warn("Transient failure while seeding topic {} ({}) - attempt {}/{}, retrying in {} ms: {}",
+                        definition.topicId(), definition.name(), attempt, SEED_MAX_ATTEMPTS, delayMs, e.getMessage());
+                sleep(delayMs);
+            }
+        }
+    }
+
+    private boolean isTransientFailure(Throwable throwable) {
+        return hasCause(throwable, CommandDispatchException.class)
+                || hasCause(throwable, ResourceAccessException.class)
+                || hasCause(throwable, ConnectException.class);
     }
 
     private TopicSeedOutcome seedTopic(TopicSeedDefinition definition) {

@@ -91,7 +91,7 @@ lorsque la difficulté calculée change, la projection envoie une
 ### Seed initial (YAML)
 
 - **Un fichier par thème**, rangé par catégorie : `src/main/resources/seed/topics/<categorie>/<theme>.yml`
-  (21 thèmes, 20 à ~190 questions chacun). Découverte via `app.seed-data.location`
+  (25 thèmes, 20 à ~190 questions chacun). Découverte via `app.seed-data.location`
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
   `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
@@ -105,6 +105,11 @@ lorsque la difficulté calculée change, la projection envoie une
   questions manquantes (clé stable = `(text, imageUrl)`, les IDs de questions étant aléatoires),
   approbation des non-approuvées, traductions manquantes puis publication ;
   `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées par thème.
+  **Échec transitoire** (`CommandDispatchException`/connection refusée — instance Axon périmée
+  pendant un rollout) → jusqu'à 4 tentatives du thème (backoff 2s×n) ; le seeding étant
+  idempotent, un essai ultérieur reprend les questions manquantes. Résultats exposés via
+  `quizup_theme_seed_topics_total{outcome}` + `quizup_theme_seed_retries_total` (alerte
+  `QuizupThemeSeedFailures` si `outcome="failed"`).
 - **Images externes libres de droit** (Wikimedia Commons, `Special:FilePath` + `?width=800`) :
   source et licence listées dans `src/main/resources/seed/CREDITS.md`. Aucun binaire dans le repo,
   aucune image sous copyright (logos, affiches, captures, personnages officiels exclus).

@@ -20,6 +20,8 @@ import io.github.quizup.theme.domain.port.in.PublishTopicUseCase;
 import io.github.quizup.theme.infrastructure.config.seed.QuestionSeedDefinition;
 import io.github.quizup.theme.infrastructure.config.seed.SeedDataLoader;
 import io.github.quizup.theme.infrastructure.config.seed.TopicSeedDefinition;
+import io.micrometer.core.instrument.simple.SimpleMeterRegistry;
+import org.axonframework.commandhandling.distributed.CommandDispatchException;
 import org.axonframework.modelling.command.AggregateStreamCreationException;
 import io.github.quizup.theme.infrastructure.properties.AppProperties;
 import org.junit.jupiter.api.Test;
@@ -34,6 +36,7 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionException;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyMap;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -70,6 +73,8 @@ class DataSeederTest {
     @Mock
     private SeedDataLoader seedDataLoader;
 
+    private final SimpleMeterRegistry meterRegistry = new SimpleMeterRegistry();
+
     private DataSeeder seeder(boolean enabled) {
         return new DataSeeder(
                 checkTopicUseCase,
@@ -81,7 +86,12 @@ class DataSeederTest {
                 getTopicUseCase,
                 getQuestionUseCase,
                 seedDataLoader,
+                meterRegistry,
                 new AppProperties(new AppProperties.SeedData(enabled, "ignored")));
+    }
+
+    private double seedOutcomeCount(String outcome) {
+        return meterRegistry.get("quizup.theme.seed.topics").tag("outcome", outcome).counter().count();
     }
 
     @Test
@@ -207,6 +217,31 @@ class DataSeederTest {
     }
 
     @Test
+    void retriesTopicOnTransientDispatchFailure() {
+        when(seedDataLoader.loadAll()).thenReturn(List.of(definition("topic-retry", "Q1 ?")));
+        when(checkTopicUseCase.existsByIdAndWait("topic-retry")).thenReturn(false);
+        doThrow(new CompletionException(new CommandDispatchException("connection refused")))
+                .doNothing()
+                .when(createTopicUseCase).createAndWait(
+                        eq("topic-retry"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
+        when(getTopicUseCase.getById("topic-retry"))
+                .thenReturn(CompletableFuture.completedFuture(topic("topic-retry", TopicStatus.DRAFT, 1)));
+        when(getQuestionUseCase.getByTopicId("topic-retry"))
+                .thenReturn(CompletableFuture.completedFuture(List.of()))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED))));
+
+        seeder(true).run();
+
+        verify(createTopicUseCase, times(2)).createAndWait(
+                eq("topic-retry"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
+        verify(publishTopicUseCase).publishAndWait("topic-retry", SYSTEM);
+        assertThat(seedOutcomeCount("created")).isEqualTo(1.0);
+        assertThat(seedOutcomeCount("failed")).isZero();
+        assertThat(meterRegistry.get("quizup.theme.seed.retries").counter().count()).isEqualTo(1.0);
+    }
+
+    @Test
     void isolatesFailureBetweenTopics() {
         when(seedDataLoader.loadAll()).thenReturn(List.of(
                 definition("topic-1", "Q1 ?"),
@@ -225,8 +260,11 @@ class DataSeederTest {
 
         seeder(true).run();
 
+        verify(createTopicUseCase, times(1)).createAndWait(
+                eq("topic-1"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
         verify(publishTopicUseCase).publishAndWait("topic-2", SYSTEM);
         verify(publishTopicUseCase, never()).publishAndWait(eq("topic-1"), anyString());
+        assertThat(seedOutcomeCount("failed")).isEqualTo(1.0);
     }
 
     private static TopicSeedDefinition definition(String topicId, String... texts) {
