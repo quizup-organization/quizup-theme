@@ -1,3 +1,9 @@
+## [4.5.2](https://github.com/quizup-organization/quizup-theme/compare/v4.5.1...v4.5.2) (2026-10-07)
+
+### Bug Fixes
+
+* **theme:** pinne quizup-game-domain 5.2.0 (5.0.0 purge par prune-packages) ([f64340a](https://github.com/quizup-organization/quizup-theme/commit/f64340a9c91d7a9d779541f527f2e69133ef29f8))
+
 ## [4.5.1](https://github.com/quizup-organization/quizup-theme/compare/v4.5.0...v4.5.1) (2026-10-07)
 
 ### Bug Fixes
