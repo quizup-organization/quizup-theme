@@ -1,3 +1,9 @@
+## [4.5.1](https://github.com/quizup-organization/quizup-theme/compare/v4.5.0...v4.5.1) (2026-10-07)
+
+### Bug Fixes
+
+* **theme:** retry des seeds sur echec transitoire (dispatch Axon) et metriques de seeding ([f3b21ed](https://github.com/quizup-organization/quizup-theme/commit/f3b21ede47f8a7d808e15876cbf536a861e65bc2))
+
 ## [4.5.0](https://github.com/quizup-organization/quizup-theme/compare/v4.4.1...v4.5.0) (2026-10-05)
 
 ### Features
