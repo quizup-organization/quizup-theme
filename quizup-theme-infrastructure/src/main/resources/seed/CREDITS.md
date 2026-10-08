@@ -436,3 +436,47 @@ libre avec attribution). Cette page liste, par thème, l'auteur et la licence de
 - [`Breaking Bad gas mask.jpg`](https://commons.wikimedia.org/wiki/File:Breaking_Bad_gas_mask.jpg) — APK — CC BY-SA 4.0
 - [`BCN - 20150817 - 8 (21767191479).jpg`](https://commons.wikimedia.org/wiki/File:BCN_-_20150817_-_8_(21767191479).jpg) — r2hox — CC BY-SA 2.0
 - [`SDCC 2014 - Pinkman and White (14818260795).jpg`](https://commons.wikimedia.org/wiki/File:SDCC_2014_-_Pinkman_and_White_(14818260795).jpg) — Chris Favero — CC BY-SA 2.0
+
+## Game of Thrones (`television/game-of-thrones.yml`)
+
+- [`Trono de Hierro, CIFP Carlos III (20200909 085438).jpg`](https://commons.wikimedia.org/wiki/File:Trono_de_Hierro,_CIFP_Carlos_III_(20200909_085438).jpg) — P4K1T0 — CC BY-SA 4.0
+- [`David Benioff & D. B. Weiss (27963816763).jpg`](https://commons.wikimedia.org/wiki/File:David_Benioff_%26_D._B._Weiss_(27963816763).jpg) — Gage Skidmore from Peoria, AZ, United States of America — CC BY-SA 2.0
+- [`George R. R. Martin (54743091101).jpg`](https://commons.wikimedia.org/wiki/File:George_R._R._Martin_(54743091101).jpg) — Gage Skidmore from Surprise, AZ, United States of America — CC BY-SA 4.0
+- [`Peter Dinklage by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Peter_Dinklage_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Emilia Clarke Comic Con 2011 (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Emilia_Clarke_Comic_Con_2011_(cropped).jpg) — Ajgonzalez — CC BY-SA 3.0
+- [`Kit Harington 2011 cropped.jpg`](https://commons.wikimedia.org/wiki/File:Kit_Harington_2011_cropped.jpg) — Kit_Harington_2011.jpg: Kevin Dougherty from San Diego, United States — CC BY 2.0
+- [`Lena headey gcc 2019.jpg`](https://commons.wikimedia.org/wiki/File:Lena_headey_gcc_2019.jpg) — German Comic Con — CC BY 3.0
+- [`Sophie Turner (40553144273) (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Sophie_Turner_(40553144273)_(cropped).jpg) — Gage Skidmore from Peoria, AZ, United States of America — CC BY-SA 2.0
+- [`Maisie Williams by Gage Skidmore 3.jpg`](https://commons.wikimedia.org/wiki/File:Maisie_Williams_by_Gage_Skidmore_3.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Nikolaj Coster-Waldau by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Nikolaj_Coster-Waldau_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Jason Momoa by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Jason_Momoa_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Gwendoline Christie by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Gwendoline_Christie_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Charles Dance 2012 (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Charles_Dance_2012_(cropped).jpg) — Alan Chang — CC BY-SA 2.0
+- [`Natalie Dormer by Gage Skidmore 2.jpg`](https://commons.wikimedia.org/wiki/File:Natalie_Dormer_by_Gage_Skidmore_2.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Iain Glen.jpg`](https://commons.wikimedia.org/wiki/File:Iain_Glen.jpg) — uberpixelphoto (Alan Chang) — CC BY-SA 2.0
+- [`Aidan Gillen (headshot).jpg`](https://commons.wikimedia.org/wiki/File:Aidan_Gillen_(headshot).jpg) — Raura — CC BY-SA 3.0
+- [`Alfie Allen by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Alfie_Allen_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Rory McCann SDCC 2014.jpg`](https://commons.wikimedia.org/wiki/File:Rory_McCann_SDCC_2014.jpg) — Gage Skidmore — CC BY-SA 2.0
+- [`Conleth Hill by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Conleth_Hill_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Kristian Nairn 2014.jpg`](https://commons.wikimedia.org/wiki/File:Kristian_Nairn_2014.jpg) — GabboT — CC BY-SA 2.0
+- [`Isaac Hempstead Wright by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Isaac_Hempstead_Wright_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Sean Bean September 2015.jpg`](https://commons.wikimedia.org/wiki/File:Sean_Bean_September_2015.jpg) — GabboT — CC BY-SA 2.0
+- [`Michelle Fairley by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Michelle_Fairley_by_Gage_Skidmore.jpg) — Gage Skidmore from Peoria, AZ, United States of America — CC BY-SA 2.0
+- [`Richard Madden by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Richard_Madden_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Jerome Flynn 2013 (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Jerome_Flynn_2013_(cropped).jpg) — dalekhelen — CC BY-SA 2.0
+- [`Diana Rigg at the Entertainment Media Show, London, October 2011.jpg`](https://commons.wikimedia.org/wiki/File:Diana_Rigg_at_the_Entertainment_Media_Show,_London,_October_2011.jpg) — BennyOnTheLoose — CC BY-SA 4.0
+- [`Liam Cunningham by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Liam_Cunningham_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Carice van Houten by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Carice_van_Houten_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`John Bradley by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:John_Bradley_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Cosplay at Lucca Comics & Games 2021 - Game of Thrones characters.jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_at_Lucca_Comics_%26_Games_2021_-_Game_of_Thrones_characters.jpg) — Syrio — CC BY-SA 4.0
+- [`Pyrkon 2017 GoT Cosplay White Walker.jpg`](https://commons.wikimedia.org/wiki/File:Pyrkon_2017_GoT_Cosplay_White_Walker.jpg) — Klapi — CC BY-SA 4.0
+- [`NYCC 2017 Daenerys Targaryen and Jon Snow Cosplay.jpg`](https://commons.wikimedia.org/wiki/File:NYCC_2017_Daenerys_Targaryen_and_Jon_Snow_Cosplay.jpg) — LostplanetKD73 — CC BY-SA 4.0
+- [`Cosplay of Khal Drogo and Daenerys Targaryen at Japan Expo 2016 (27779482023).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Khal_Drogo_and_Daenerys_Targaryen_at_Japan_Expo_2016_(27779482023).jpg) — Miguel Discart — CC BY-SA 2.0
+- [`Cersei Lannister cosplayer (35679923826).jpg`](https://commons.wikimedia.org/wiki/File:Cersei_Lannister_cosplayer_(35679923826).jpg) — Gage Skidmore from Peoria, AZ, United States of America — CC BY-SA 2.0
+- [`Arya Stark & Jaqen H'ghar cosplayer (35718287895).jpg`](https://commons.wikimedia.org/wiki/File:Arya_Stark_%26_Jaqen_H%27ghar_cosplayer_(35718287895).jpg) — Gage Skidmore from Peoria, AZ, United States of America — CC BY-SA 2.0
+- [`NYCC 2017 Cosplay of Game of Thrones.jpg`](https://commons.wikimedia.org/wiki/File:NYCC_2017_Cosplay_of_Game_of_Thrones.jpg) — LostplanetKD73 — CC BY-SA 4.0
+- [`Dubrovnik Old Town From Minčeta Tower.jpg`](https://commons.wikimedia.org/wiki/File:Dubrovnik_Old_Town_From_Min%C4%8Deta_Tower.jpg) — Sumitsurai — CC BY-SA 4.0
+- [`Malta Mdina BW 2011-10-05 13-02-11 1.JPG`](https://commons.wikimedia.org/wiki/File:Malta_Mdina_BW_2011-10-05_13-02-11_1.JPG) — Berthold Werner — CC BY-SA 3.0
+- [`The Dark Hedges.jpg`](https://commons.wikimedia.org/wiki/File:The_Dark_Hedges.jpg) — Jriley17 — CC0
+- [`Game of Thrones Oslo exhibition 2014 - Daenerys's blue dress.jpg`](https://commons.wikimedia.org/wiki/File:Game_of_Thrones_Oslo_exhibition_2014_-_Daenerys%27s_blue_dress.jpg) — Benjamin Skinstad — CC BY 3.0
+- [`Game of Thrones Tapestry.jpg`](https://commons.wikimedia.org/wiki/File:Game_of_Thrones_Tapestry.jpg) — Kal242382 — CC BY-SA 4.0
