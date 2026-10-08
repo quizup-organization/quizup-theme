@@ -1,3 +1,9 @@
+## [4.6.0](https://github.com/quizup-organization/quizup-theme/compare/v4.5.2...v4.6.0) (2026-10-08)
+
+### Features
+
+* **theme:** theme Game of Thrones (100 questions FR/EN, images libres) ([e61e327](https://github.com/quizup-organization/quizup-theme/commit/e61e3272e113a8bc37e155adf982522c1be0cd9d))
+
 ## [4.5.2](https://github.com/quizup-organization/quizup-theme/compare/v4.5.1...v4.5.2) (2026-10-07)
 
 ### Bug Fixes
