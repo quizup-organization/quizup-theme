@@ -3,7 +3,7 @@
 > Service de **thèmes (topics) et questions** du quiz. Architecture : Axon Framework (CQRS/EDA) +
 > JPA (projections). **Fournisseur** de données pour les autres services.
 > Pour les règles de patterns : [
-`../../best-practices/.backend/hexagonal-architecture.md`](../../best-practices/.backend/hexagonal-architecture.md).
+`../../best-practices/.backend/folder-structure.md`](../../best-practices/.backend/folder-structure.md).
 
 ---
 
