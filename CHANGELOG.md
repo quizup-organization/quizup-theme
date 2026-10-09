@@ -1,3 +1,9 @@
+## [4.8.0](https://github.com/quizup-organization/quizup-theme/compare/v4.7.1...v4.8.0) (2026-10-09)
+
+### Features
+
+* **theme:** theme Desperate Housewives (100 questions, 40 avec images) ([57b3148](https://github.com/quizup-organization/quizup-theme/commit/57b3148c93b27f20044dd7f4c1fadfb933209f53))
+
 ## [4.7.1](https://github.com/quizup-organization/quizup-theme/compare/v4.7.0...v4.7.1) (2026-10-09)
 
 ### Bug Fixes
