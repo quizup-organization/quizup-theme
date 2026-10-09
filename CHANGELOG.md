@@ -1,3 +1,9 @@
+## [4.10.0](https://github.com/quizup-organization/quizup-theme/compare/v4.9.0...v4.10.0) (2026-10-09)
+
+### Features
+
+* **theme:** noms de theme multilingues FR/EN + migration V3 ([842c471](https://github.com/quizup-organization/quizup-theme/commit/842c47123268246f36054b8f35518c84e8d929c3))
+
 ## [4.9.0](https://github.com/quizup-organization/quizup-theme/compare/v4.8.0...v4.9.0) (2026-10-09)
 
 ### Features
