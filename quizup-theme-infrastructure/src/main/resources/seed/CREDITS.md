@@ -437,6 +437,30 @@ libre avec attribution). Cette page liste, par thème, l'auteur et la licence de
 - [`BCN - 20150817 - 8 (21767191479).jpg`](https://commons.wikimedia.org/wiki/File:BCN_-_20150817_-_8_(21767191479).jpg) — r2hox — CC BY-SA 2.0
 - [`SDCC 2014 - Pinkman and White (14818260795).jpg`](https://commons.wikimedia.org/wiki/File:SDCC_2014_-_Pinkman_and_White_(14818260795).jpg) — Chris Favero — CC BY-SA 2.0
 
+## Desperate Housewives (`television/desperate-housewives.yml`)
+
+- [`4351 Wisteria Lane Colonial Street Universal Studios Hollywood.jpg`](https://commons.wikimedia.org/wiki/File:4351_Wisteria_Lane_Colonial_Street_Universal_Studios_Hollywood.jpg) — TaurusEmerald — CC BY-SA 4.0
+- [`Teri Hatcher- World of Color Premiere 21.jpg`](https://commons.wikimedia.org/wiki/File:Teri_Hatcher-_World_of_Color_Premiere_21.jpg) — hyku — CC BY-SA 2.0
+- [`Felicity Huffman (3537158531).jpg`](https://commons.wikimedia.org/wiki/File:Felicity_Huffman_(3537158531).jpg) — angela n. — CC BY 2.0
+- [`MarciaCrossApr08.jpg`](https://commons.wikimedia.org/wiki/File:MarciaCrossApr08.jpg) — Kirk Weaver — CC BY 3.0
+- [`Eva Longoria SZ9 1450 (52476848986) (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Eva_Longoria_SZ9_1450_(52476848986)_(cropped).jpg) — Web Summit — CC BY 2.0
+- [`Nicollette Sheridan at the Beowulf premiere.jpg`](https://commons.wikimedia.org/wiki/File:Nicollette_Sheridan_at_the_Beowulf_premiere.jpg) — current events — CC BY 2.0
+- [`Ricardo Chavira Cannes.jpg`](https://commons.wikimedia.org/wiki/File:Ricardo_Chavira_Cannes.jpg) — Wames — CC BY 2.5
+- [`2014 AHA Hero Dog Awards Celebrity Hosts James Denton and Beth Stern cropped.jpg`](https://commons.wikimedia.org/wiki/File:2014_AHA_Hero_Dog_Awards_Celebrity_Hosts_James_Denton_and_Beth_Stern_cropped.jpg) — State Farm — CC BY 2.0
+- [`Doug Savant 2009.jpg`](https://commons.wikimedia.org/wiki/File:Doug_Savant_2009.jpg) — Kristin Dos Santos — CC BY-SA 2.0
+- [`Kyle MacLachlan.jpg`](https://commons.wikimedia.org/wiki/File:Kyle_MacLachlan.jpg) — Alan Light — CC BY 2.0
+- [`Dana Delany.jpg`](https://commons.wikimedia.org/wiki/File:Dana_Delany.jpg) — Scott Harms — CC BY 2.0
+- [`Vanessa Williams homezfoo.jpg`](https://commons.wikimedia.org/wiki/File:Vanessa_Williams_homezfoo.jpg) — motfemme / Tabercil — CC BY 2.0
+- [`Alfre Woodard - 2019 02.jpg`](https://commons.wikimedia.org/wiki/File:Alfre_Woodard_-_2019_02.jpg) — United States House of Representatives — Public domain
+- [`Brenda Strong at PaleyFest 2013.jpg`](https://commons.wikimedia.org/wiki/File:Brenda_Strong_at_PaleyFest_2013.jpg) — iDominick — CC BY-SA 2.0
+- [`Shawn Pyfrom at 2007 GLAAD Awards.jpg`](https://commons.wikimedia.org/wiki/File:Shawn_Pyfrom_at_2007_GLAAD_Awards.jpg) — Greg in Hollywood — CC BY-SA 2.0
+- [`Andrea Bowen (2010).jpg`](https://commons.wikimedia.org/wiki/File:Andrea_Bowen_(2010).jpg) — Red Carpet Report — CC BY-SA 2.0
+- [`Mark Moses 2008.jpg`](https://commons.wikimedia.org/wiki/File:Mark_Moses_2008.jpg) — watchwithkristin — CC BY-SA 2.0
+- [`Kathryn Joosten 2009.jpg`](https://commons.wikimedia.org/wiki/File:Kathryn_Joosten_2009.jpg) — Kristin Dos Santos — CC BY-SA 2.0
+- [`Drea De Matteo 02 (16462583178).jpg`](https://commons.wikimedia.org/wiki/File:Drea_De_Matteo_02_(16462583178).jpg) — GabboT — CC BY-SA 2.0
+- [`Jesse Metcalfe at PaleyFest 2013.jpg`](https://commons.wikimedia.org/wiki/File:Jesse_Metcalfe_at_PaleyFest_2013.jpg) — iDominick — CC BY-SA 2.0
+- [`Joy Lauren.JPG`](https://commons.wikimedia.org/wiki/File:Joy_Lauren.JPG) — lukeford.net — CC BY-SA 2.5
+
 ## Game of Thrones (`television/game-of-thrones.yml`)
 
 - [`Trono de Hierro, CIFP Carlos III (20200909 085438).jpg`](https://commons.wikimedia.org/wiki/File:Trono_de_Hierro,_CIFP_Carlos_III_(20200909_085438).jpg) — P4K1T0 — CC BY-SA 4.0
