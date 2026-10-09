@@ -1,6 +1,8 @@
 topic:
   id: topic-chimie
-  name: "Chimie"
+  names:
+    fr: "Chimie"
+    en: "Chemistry"
   description: "Des atomes aux réactions : découvrez les éléments, le tableau périodique, les états de la matière et les grands scientifiques de la chimie."
   category: SCIENCE
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dmitri_Mendeleev_1890s.jpg?width=800

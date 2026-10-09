@@ -23,7 +23,7 @@ public interface TopicJpaRepository extends JpaRepository<TopicEntity, String>, 
             select t.category, count(t)
             from TopicEntity t
             where t.status = :status
-              and (:normalizedName is null or t.nameNormalized like concat('%', cast(:normalizedName as string), '%'))
+              and (:normalizedName is null or t.nameFrNormalized like concat('%', cast(:normalizedName as string), '%') or t.nameEnNormalized like concat('%', cast(:normalizedName as string), '%'))
             group by t.category
             """)
     List<Object[]> countByCategory(@Param("status") TopicStatus status,
@@ -33,7 +33,7 @@ public interface TopicJpaRepository extends JpaRepository<TopicEntity, String>, 
             select t.category, count(t)
             from TopicEntity t
             where t.status = :status
-              and (:normalizedName is null or t.nameNormalized like concat('%', cast(:normalizedName as string), '%'))
+              and (:normalizedName is null or t.nameFrNormalized like concat('%', cast(:normalizedName as string), '%') or t.nameEnNormalized like concat('%', cast(:normalizedName as string), '%'))
               and t.topicId in :topicIds
             group by t.category
             """)

@@ -1,6 +1,8 @@
 topic:
   id: topic-cinema
-  name: "Cinéma"
+  names:
+    fr: "Cinéma"
+    en: "Cinema"
   description: "Des frères Lumière aux blockbusters d'aujourd'hui : réalisateurs cultes, répliques mythiques, films récompensés et grands classiques du septième art."
   category: MOVIES
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Film_reel.svg?width=800

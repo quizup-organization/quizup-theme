@@ -1,5 +1,6 @@
 package io.github.quizup.theme.domain.aggregate;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.command.TopicCommand;
 import io.github.quizup.theme.domain.event.TopicEvent;
 import io.github.quizup.theme.domain.exception.QuestionProblems;
@@ -14,6 +15,8 @@ import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 
 import java.time.Instant;
+import java.util.EnumMap;
+import java.util.Map;
 import java.util.Objects;
 
 import static io.github.quizup.theme.domain.model.TopicRules.MAX_COLOR_LENGTH;
@@ -31,7 +34,7 @@ public class TopicAggregate {
 
     @AggregateIdentifier
     private String topicId;
-    private String name;
+    private Map<Language, String> names = new EnumMap<>(Language.class);
     private String description;
     private TopicCategory category;
     private String emoji;
@@ -49,7 +52,7 @@ public class TopicAggregate {
 
     @CommandHandler
     public TopicAggregate(TopicCommand.CreateTopicCommand command) {
-        validateName(command.topicId(), command.name());
+        validateNames(command.topicId(), command.names());
         validateDescription(command.topicId(), command.description());
         validateEmoji(command.topicId(), command.emoji());
         validateColor(command.topicId(), command.color());
@@ -65,7 +68,7 @@ public class TopicAggregate {
 
         AggregateLifecycle.apply(new TopicEvent.TopicCreatedEvent(
                 command.topicId(),
-                command.name(),
+                new EnumMap<>(command.names()),
                 command.description(),
                 command.category(),
                 command.emoji(),
@@ -104,13 +107,16 @@ public class TopicAggregate {
     @CommandHandler
     public void handle(TopicCommand.UpdateTopicNameCommand command) {
         requireOwner(command.requestedBy());
+        if (command.language() == null) {
+            throw new TopicProblems.TopicNameEmptyProblem(command.topicId());
+        }
         validateName(command.topicId(), command.name());
-        if (Objects.equals(command.name(), this.name)) {
+        if (Objects.equals(command.name(), this.names.get(command.language()))) {
             return;
         }
 
         AggregateLifecycle.apply(new TopicEvent.TopicNameUpdatedEvent(
-                command.topicId(), command.requestedBy(), command.name(), Instant.now()));
+                command.topicId(), command.requestedBy(), command.language(), command.name(), Instant.now()));
     }
 
     @CommandHandler
@@ -178,7 +184,7 @@ public class TopicAggregate {
     @EventSourcingHandler
     public void on(TopicEvent.TopicCreatedEvent event) {
         this.topicId = event.topicId();
-        this.name = event.name();
+        this.names = new EnumMap<>(event.names());
         this.description = event.description();
         this.category = event.category();
         this.emoji = event.emoji();
@@ -200,7 +206,10 @@ public class TopicAggregate {
 
     @EventSourcingHandler
     public void on(TopicEvent.TopicNameUpdatedEvent event) {
-        this.name = event.name();
+        if (this.names == null) {
+            this.names = new EnumMap<>(Language.class);
+        }
+        this.names.put(event.language(), event.name());
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.updatedAt();
     }
@@ -244,6 +253,18 @@ public class TopicAggregate {
         if (!Objects.equals(this.creatorId, requestedBy)) {
             throw new TopicProblems.TopicNotOwnerProblem(this.topicId, requestedBy);
         }
+    }
+
+    private static void validateNames(String topicId, Map<Language, String> names) {
+        if (names == null || names.isEmpty() || names.get(Language.FR) == null || names.get(Language.FR).isBlank()) {
+            throw new TopicProblems.TopicNameEmptyProblem(topicId);
+        }
+        names.forEach((language, name) -> {
+            if (language == null) {
+                throw new TopicProblems.TopicNameEmptyProblem(topicId);
+            }
+            validateName(topicId, name);
+        });
     }
 
     private static void validateName(String topicId, String name) {

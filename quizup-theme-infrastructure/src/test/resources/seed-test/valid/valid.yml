@@ -1,6 +1,8 @@
 topic:
   id: topic-test-fixture
-  name: "Fixture"
+  names:
+    fr: "Fixture"
+    en: "Fixture"
   description: "Thème de test du loader."
   category: general
 questions:

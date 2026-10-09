@@ -174,7 +174,7 @@ public class DataSeeder {
             } catch (Exception e) {
                 failed++;
                 failedTopicsCounter.increment();
-                logger.error("Failed to seed topic {} ({})", definition.topicId(), definition.name(), e);
+                logger.error("Failed to seed topic {} ({})", definition.topicId(), definition.displayName(), e);
             }
         }
 
@@ -198,7 +198,7 @@ public class DataSeeder {
                 retriesCounter.increment();
                 long delayMs = SEED_RETRY_DELAY_INCREMENT_MS * attempt;
                 logger.warn("Transient failure while seeding topic {} ({}) - attempt {}/{}, retrying in {} ms: {}",
-                        definition.topicId(), definition.name(), attempt, SEED_MAX_ATTEMPTS, delayMs, e.getMessage());
+                        definition.topicId(), definition.displayName(), attempt, SEED_MAX_ATTEMPTS, delayMs, e.getMessage());
                 sleep(delayMs);
             }
         }
@@ -218,7 +218,7 @@ public class DataSeeder {
             try {
                 createTopicUseCase.createAndWait(
                         topicId,
-                        definition.name(),
+                        definition.names(),
                         definition.description(),
                         definition.category(),
                         null,
@@ -227,7 +227,7 @@ public class DataSeeder {
                         QuizUpConstants.SYSTEM_USER_ID
                 );
                 createdTopic = true;
-                logger.info("Created topic '{}' ({})", definition.name(), topicId);
+                logger.info("Created topic '{}' ({})", definition.displayName(), topicId);
             } catch (CompletionException e) {
                 if (!isAggregateAlreadyExists(e)) {
                     throw e;
@@ -290,7 +290,7 @@ public class DataSeeder {
         }
 
         logger.info("Seeded topic '{}' ({}): {} question(s) created, {} question(s) approved, {} translation(s) added",
-                definition.name(), topicId, createdQuestions, approvedQuestions, translationsAdded);
+                definition.displayName(), topicId, createdQuestions, approvedQuestions, translationsAdded);
 
         if (createdTopic) {
             return TopicSeedOutcome.CREATED;

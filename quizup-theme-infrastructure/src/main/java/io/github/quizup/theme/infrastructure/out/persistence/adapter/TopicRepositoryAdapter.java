@@ -115,7 +115,10 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
             List<Predicate> predicates = new ArrayList<>();
             predicates.add(cb.equal(root.get("status"), TopicStatus.PUBLISHED));
             if (normalizedName != null) {
-                predicates.add(cb.like(root.get("nameNormalized"), "%" + normalizedName + "%"));
+                String pattern = "%" + normalizedName + "%";
+                predicates.add(cb.or(
+                        cb.like(root.get("nameFrNormalized"), pattern),
+                        cb.like(root.get("nameEnNormalized"), pattern)));
             }
             if (category != null) {
                 predicates.add(cb.equal(root.get("category"), category));
@@ -126,13 +129,13 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
 
     private Sort sortFor(TopicSort sort) {
         if (sort == TopicSort.ALPHA) {
-            return Sort.by("name").ascending();
+            return Sort.by("nameFr").ascending();
         }
         if (sort == TopicSort.RECENT) {
             // Publication et modifications de contenu (questions) mettent à jour `updatedAt`.
-            return Sort.by(Sort.Order.desc("updatedAt"), Sort.Order.asc("name"));
+            return Sort.by(Sort.Order.desc("updatedAt"), Sort.Order.asc("nameFr"));
         }
-        return Sort.by(Sort.Order.desc("followersCounter"), Sort.Order.asc("name"));
+        return Sort.by(Sort.Order.desc("followersCounter"), Sort.Order.asc("nameFr"));
     }
 
     @Override

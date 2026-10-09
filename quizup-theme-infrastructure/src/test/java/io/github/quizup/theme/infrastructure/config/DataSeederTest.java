@@ -118,7 +118,7 @@ class DataSeederTest {
         seeder(true).run();
 
         verify(createTopicUseCase).createAndWait(
-                eq("topic-new"), eq("Nom"), eq("Description"), eq(TopicCategory.GENERAL),
+                eq("topic-new"), eq(Map.of(Language.FR, "Nom")), eq("Description"), eq(TopicCategory.GENERAL),
                 isNull(), isNull(), isNull(), eq(SYSTEM));
         verify(createQuestionUseCase, times(2)).createAndWait(
                 anyString(), eq("topic-new"), anyMap(),
@@ -203,7 +203,7 @@ class DataSeederTest {
         when(checkTopicUseCase.existsByIdAndWait("topic-lag")).thenReturn(false);
         doThrow(new CompletionException(new AggregateStreamCreationException("topic-lag")))
                 .when(createTopicUseCase).createAndWait(
-                        eq("topic-lag"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
+                        eq("topic-lag"), anyMap(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
         when(getTopicUseCase.getById("topic-lag"))
                 .thenReturn(CompletableFuture.completedFuture(topic("topic-lag", TopicStatus.DRAFT, 1)));
         when(getQuestionUseCase.getByTopicId("topic-lag"))
@@ -223,7 +223,7 @@ class DataSeederTest {
         doThrow(new CompletionException(new CommandDispatchException("connection refused")))
                 .doNothing()
                 .when(createTopicUseCase).createAndWait(
-                        eq("topic-retry"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
+                        eq("topic-retry"), anyMap(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
         when(getTopicUseCase.getById("topic-retry"))
                 .thenReturn(CompletableFuture.completedFuture(topic("topic-retry", TopicStatus.DRAFT, 1)));
         when(getQuestionUseCase.getByTopicId("topic-retry"))
@@ -234,7 +234,7 @@ class DataSeederTest {
         seeder(true).run();
 
         verify(createTopicUseCase, times(2)).createAndWait(
-                eq("topic-retry"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
+                eq("topic-retry"), anyMap(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
         verify(publishTopicUseCase).publishAndWait("topic-retry", SYSTEM);
         assertThat(seedOutcomeCount("created")).isEqualTo(1.0);
         assertThat(seedOutcomeCount("failed")).isZero();
@@ -250,7 +250,7 @@ class DataSeederTest {
         when(checkTopicUseCase.existsByIdAndWait("topic-2")).thenReturn(false);
         doThrow(new RuntimeException("boom"))
                 .when(createTopicUseCase).createAndWait(
-                        eq("topic-1"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
+                        eq("topic-1"), anyMap(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
         when(getTopicUseCase.getById("topic-2"))
                 .thenReturn(CompletableFuture.completedFuture(topic("topic-2", TopicStatus.DRAFT, 1)));
         when(getQuestionUseCase.getByTopicId("topic-2"))
@@ -261,7 +261,7 @@ class DataSeederTest {
         seeder(true).run();
 
         verify(createTopicUseCase, times(1)).createAndWait(
-                eq("topic-1"), anyString(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
+                eq("topic-1"), anyMap(), anyString(), any(), isNull(), isNull(), isNull(), eq(SYSTEM));
         verify(publishTopicUseCase).publishAndWait("topic-2", SYSTEM);
         verify(publishTopicUseCase, never()).publishAndWait(eq("topic-1"), anyString());
         assertThat(seedOutcomeCount("failed")).isEqualTo(1.0);
@@ -274,7 +274,7 @@ class DataSeederTest {
     }
 
     private static TopicSeedDefinition definitionWith(String topicId, List<QuestionSeedDefinition> questions) {
-        return new TopicSeedDefinition(topicId, "Nom", "Description", TopicCategory.GENERAL, null, questions);
+        return new TopicSeedDefinition(topicId, Map.of(Language.FR, "Nom"), "Description", TopicCategory.GENERAL, null, questions);
     }
 
     private static QuestionSeedDefinition seedQuestion(String text, String imageUrl) {
@@ -294,7 +294,7 @@ class DataSeederTest {
         counters.put(QuestionStatus.APPROVED, approvedCount);
         return Topic.builder()
                 .topicId(topicId)
-                .name("Nom")
+                .names(Map.of(Language.FR, "Nom"))
                 .description("Description")
                 .category(TopicCategory.GENERAL)
                 .status(status)

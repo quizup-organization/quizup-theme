@@ -35,7 +35,7 @@ class SeedDataLoaderTest {
         assertThat(definitions).hasSameSizeAs(resources);
         assertThat(definitions).extracting(TopicSeedDefinition::topicId).doesNotHaveDuplicates();
         assertThat(definitions).allSatisfy(definition -> {
-            assertThat(definition.name()).isNotBlank().hasSizeLessThanOrEqualTo(25);
+            assertThat(definition.names().get(Language.FR)).isNotBlank().hasSizeLessThanOrEqualTo(255);
             assertThat(definition.category()).isNotNull();
             assertThat(definition.questions()).hasSizeGreaterThanOrEqualTo(7);
             assertThat(definition.questions())
@@ -117,7 +117,8 @@ class SeedDataLoaderTest {
         String yaml = """
                 topic:
                   id: topic-x
-                  name: "X"
+                  names:
+                    fr: "X"
                   category: GENERAL
                 questions:
                 """;
@@ -141,7 +142,8 @@ class SeedDataLoaderTest {
         Resource resource = writeYaml(tempDir, """
                 topic:
                   id: topic-x
-                  name: "X"
+                  names:
+                    fr: "X"
                   category: NOT_A_CATEGORY
                 questions:
                 """);
@@ -155,7 +157,8 @@ class SeedDataLoaderTest {
     void rejectsBlankTopicId(@TempDir Path tempDir) throws IOException {
         Resource resource = writeYaml(tempDir, """
                 topic:
-                  name: "X"
+                  names:
+                    fr: "X"
                   category: GENERAL
                 questions:
                 """);
@@ -169,7 +172,8 @@ class SeedDataLoaderTest {
         StringBuilder yaml = new StringBuilder("""
                 topic:
                   id: topic-x
-                  name: "X"
+                  names:
+                    fr: "X"
                   category: GENERAL
                 questions:
                 """);
@@ -187,7 +191,8 @@ class SeedDataLoaderTest {
         StringBuilder yaml = new StringBuilder("""
                 topic:
                   id: topic-x
-                  name: "X"
+                  names:
+                    fr: "X"
                   category: GENERAL
                 questions:
                 """);
@@ -206,7 +211,8 @@ class SeedDataLoaderTest {
         StringBuilder yaml = new StringBuilder("""
                 topic:
                   id: topic-x
-                  name: "X"
+                  names:
+                    fr: "X"
                   category: GENERAL
                 questions:
                 """);

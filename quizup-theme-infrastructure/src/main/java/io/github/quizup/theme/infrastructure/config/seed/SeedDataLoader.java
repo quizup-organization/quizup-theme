@@ -30,6 +30,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
+import static io.github.quizup.theme.domain.model.TopicRules.MAX_NAME_LENGTH;
 import static io.github.quizup.theme.domain.model.TopicRules.MIN_QUESTIONS_TO_PUBLISH;
 
 /**
@@ -48,7 +49,6 @@ public class SeedDataLoader {
 
     private static final Logger logger = LoggerFactory.getLogger(SeedDataLoader.class);
 
-    private static final int MAX_NAME_LENGTH = 25;
     private static final int MAX_DESCRIPTION_LENGTH = 500;
     private static final int MAX_QUESTION_TEXT_LENGTH = 255;
     private static final int MAX_IMAGE_URL_LENGTH = 1024;
@@ -120,10 +120,7 @@ public class SeedDataLoader {
 
         RawSeedTopic rawTopic = file.topic();
         String topicId = requireNonBlank(rawTopic.id(), "topic.id");
-        String name = requireNonBlank(rawTopic.name(), "topic.name");
-        if (name.length() > MAX_NAME_LENGTH) {
-            throw new SeedDataValidationException("topic.name exceeds " + MAX_NAME_LENGTH + " characters");
-        }
+        Map<Language, String> names = validateNames(rawTopic.names());
         String description = rawTopic.description();
         if (description != null && description.length() > MAX_DESCRIPTION_LENGTH) {
             throw new SeedDataValidationException("topic.description exceeds " + MAX_DESCRIPTION_LENGTH + " characters");
@@ -173,7 +170,7 @@ public class SeedDataLoader {
             questions.add(new QuestionSeedDefinition(contents, correctAnswer, identity.imageUrl()));
         }
 
-        return new TopicSeedDefinition(topicId, name, description, category, topicImageUrl, List.copyOf(questions));
+        return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl, List.copyOf(questions));
     }
 
     private Map<Language, QuestionContent> validateTranslations(Map<String, RawSeedTranslation> rawTranslations,
@@ -232,6 +229,26 @@ public class SeedDataLoader {
         return Collections.unmodifiableMap(answers);
     }
 
+    private Map<Language, String> validateNames(Map<String, String> rawNames) {
+        if (rawNames == null || rawNames.isEmpty()) {
+            throw new SeedDataValidationException("topic.names is required (at least fr)");
+        }
+        Map<Language, String> names = new EnumMap<>(Language.class);
+        for (Map.Entry<String, String> entry : rawNames.entrySet()) {
+            String context = "topic.names." + entry.getKey();
+            Language language = parseLanguage(entry.getKey(), context);
+            String value = requireNonBlank(entry.getValue(), context);
+            if (value.length() > MAX_NAME_LENGTH) {
+                throw new SeedDataValidationException(context + " exceeds " + MAX_NAME_LENGTH + " characters");
+            }
+            names.put(language, value);
+        }
+        if (!names.containsKey(Language.FR)) {
+            throw new SeedDataValidationException("topic.names must define the French name (fr)");
+        }
+        return names;
+    }
+
     private TopicCategory parseCategory(String rawCategory) {
         String value = requireNonBlank(rawCategory, "topic.category");
         try {
@@ -281,7 +298,7 @@ public class SeedDataLoader {
     record RawSeedFile(RawSeedTopic topic, List<RawSeedQuestion> questions) {
     }
 
-    record RawSeedTopic(String id, String name, String description, String category, String imageUrl) {
+    record RawSeedTopic(String id, Map<String, String> names, String description, String category, String imageUrl) {
     }
 
     record RawSeedQuestion(String text,

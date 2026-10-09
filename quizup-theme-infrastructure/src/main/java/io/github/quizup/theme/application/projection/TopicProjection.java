@@ -1,5 +1,6 @@
 package io.github.quizup.theme.application.projection;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.social.domain.event.TopicFollowerEvent;
 import io.github.quizup.theme.domain.event.QuestionEvent;
 import io.github.quizup.theme.domain.event.TopicEvent;
@@ -52,7 +53,7 @@ public class TopicProjection {
 
         Topic topic = new Topic(
                 event.topicId(),
-                event.name(),
+                new EnumMap<>(event.names()),
                 event.description(),
                 event.category(),
                 TopicStatus.DRAFT,
@@ -86,8 +87,18 @@ public class TopicProjection {
     @EventHandler
     @Transactional
     public void on(TopicEvent.TopicNameUpdatedEvent event) {
-        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
-                builder -> builder.name(event.name()));
+        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> {
+            Map<Language, String> names = new EnumMap<>(Language.class);
+            if (topic.names() != null) {
+                names.putAll(topic.names());
+            }
+            names.put(event.language(), event.name());
+            topicRepositoryPort.save(topic.toBuilder()
+                    .names(names)
+                    .updatedBy(event.updatedBy())
+                    .updatedAt(event.updatedAt())
+                    .build());
+        });
     }
 
     @EventHandler

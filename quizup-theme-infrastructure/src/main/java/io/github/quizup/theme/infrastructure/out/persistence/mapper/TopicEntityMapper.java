@@ -1,8 +1,12 @@
 package io.github.quizup.theme.infrastructure.out.persistence.mapper;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.util.SearchText;
 import io.github.quizup.theme.infrastructure.out.persistence.entity.TopicEntity;
+
+import java.util.EnumMap;
+import java.util.Map;
 
 public final class TopicEntityMapper {
 
@@ -10,9 +14,16 @@ public final class TopicEntityMapper {
     }
 
     public static Topic toDomain(TopicEntity entity) {
+        Map<Language, String> names = new EnumMap<>(Language.class);
+        if (entity.getNameFr() != null) {
+            names.put(Language.FR, entity.getNameFr());
+        }
+        if (entity.getNameEn() != null) {
+            names.put(Language.EN, entity.getNameEn());
+        }
         return new Topic(
                 entity.getTopicId(),
-                entity.getName(),
+                names,
                 entity.getDescription(),
                 entity.getCategory(),
                 entity.getStatus(),
@@ -31,8 +42,13 @@ public final class TopicEntityMapper {
     public static TopicEntity toEntity(Topic topic) {
         TopicEntity topicEntity = new TopicEntity();
         topicEntity.setTopicId(topic.topicId());
-        topicEntity.setName(topic.name());
-        topicEntity.setNameNormalized(SearchText.normalize(topic.name()));
+        Map<Language, String> names = topic.names() == null ? Map.of() : topic.names();
+        String fr = names.get(Language.FR);
+        String en = names.get(Language.EN);
+        topicEntity.setNameFr(fr);
+        topicEntity.setNameFrNormalized(SearchText.normalize(fr));
+        topicEntity.setNameEn(en);
+        topicEntity.setNameEnNormalized(SearchText.normalize(en));
         topicEntity.setDescription(topic.description());
         topicEntity.setCategory(topic.category());
         topicEntity.setStatus(topic.status());
@@ -48,4 +64,3 @@ public final class TopicEntityMapper {
         return topicEntity;
     }
 }
-

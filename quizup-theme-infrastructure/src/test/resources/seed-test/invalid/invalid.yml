@@ -1,6 +1,8 @@
 topic:
   id: topic-test-invalid
-  name: "Invalid"
+  names:
+    fr: "Invalid"
+    en: "Invalid"
   category: NOT_A_CATEGORY
 questions:
   - text: "Question invalide ?"

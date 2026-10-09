@@ -1,6 +1,8 @@
 topic:
   id: topic-chefs-doeuvre-peinture
-  name: "Chefs-d'œuvre"
+  names:
+    fr: "Chefs-d'œuvre"
+    en: "Masterpieces of Painting"
   description: "De la Joconde à Guernica, reconnaissez les plus grands tableaux de l'histoire de l'art, leurs peintres et les musées qui les abritent."
   category: ARTS
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800

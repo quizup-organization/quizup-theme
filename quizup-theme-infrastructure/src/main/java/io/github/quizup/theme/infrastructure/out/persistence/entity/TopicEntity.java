@@ -32,14 +32,25 @@ public class TopicEntity {
     @Column(name = "topic_id", length = 255, nullable = false)
     private String topicId;
 
+    /** Nom français (référence, toujours présent). */
     @Searchable(type = FieldType.STRING)
-    @Column(name = "name", length = 25, nullable = false)
-    private String name;
+    @Column(name = "name_fr", length = 255, nullable = false)
+    private String nameFr;
 
-    /** `name` normalisé (minuscules, sans accents) — cible des recherches textuelles. */
+    /** Nom anglais (optionnel — repli FR). */
     @Searchable(type = FieldType.STRING)
-    @Column(name = "name_normalized", length = 25)
-    private String nameNormalized;
+    @Column(name = "name_en", length = 255)
+    private String nameEn;
+
+    /** `name_fr` normalisé (minuscules, sans accents) — cible des recherches textuelles. */
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "name_fr_normalized", length = 255)
+    private String nameFrNormalized;
+
+    /** `name_en` normalisé (minuscules, sans accents) — cible des recherches textuelles. */
+    @Searchable(type = FieldType.STRING)
+    @Column(name = "name_en_normalized", length = 255)
+    private String nameEnNormalized;
 
     @Searchable(type = FieldType.STRING)
     @Column(name = "description", length = 500)

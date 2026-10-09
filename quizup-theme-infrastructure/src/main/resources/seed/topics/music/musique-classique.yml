@@ -1,6 +1,8 @@
 topic:
   id: topic-musique-classique
-  name: "Musique classique"
+  names:
+    fr: "Musique classique"
+    en: "Classical Music"
   description: "Compositeurs, œuvres et instruments qui ont marqué l'histoire de la musique classique, du baroque à l'époque moderne."
   category: MUSIC
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Sebastian_Bach.jpg?width=800

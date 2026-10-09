@@ -1,6 +1,8 @@
 topic:
   id: topic-harry-potter
-  name: "Harry Potter"
+  names:
+    fr: "Harry Potter"
+    en: "Harry Potter"
   description: "Poudlard, quidditch, sortilèges et créatures fantastiques : plongez dans l'univers magique du célèbre sorcier à lunettes et testez vos connaissances de la saga."
   category: LITERATURE
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Alnwick_Castle_from_the_east_-_October_2024.jpg?width=800

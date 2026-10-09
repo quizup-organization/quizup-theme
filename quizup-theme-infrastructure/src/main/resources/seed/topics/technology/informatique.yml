@@ -1,6 +1,8 @@
 topic:
   id: topic-informatique
-  name: "Informatique"
+  names:
+    fr: "Informatique"
+    en: "Computer Science"
   description: "De la machine de Turing à Internet : histoire de l'informatique, composants, langages de programmation et algorithmes expliqués simplement."
   category: TECHNOLOGY
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Lovelace_portrait.jpg?width=800

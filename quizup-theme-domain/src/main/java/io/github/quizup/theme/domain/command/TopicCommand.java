@@ -1,17 +1,21 @@
 package io.github.quizup.theme.domain.command;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
+
+import java.util.Map;
 
 public interface TopicCommand {
     String topicId();
 
     /**
-     * Commande pour créer un nouveau thème de quiz
+     * Commande pour créer un nouveau thème de quiz. {@code names} porte un nom par langue
+     * (FR obligatoire, EN optionnel).
      */
     record CreateTopicCommand(
             @TargetAggregateIdentifier String topicId,
-            String name,
+            Map<Language, String> names,
             String description,
             TopicCategory category,
             String emoji,
@@ -32,11 +36,12 @@ public interface TopicCommand {
     }
 
     /**
-     * Mise à jour du nom (propriétaire du thème uniquement).
+     * Mise à jour du nom d'une langue (propriétaire du thème uniquement).
      */
     record UpdateTopicNameCommand(
             @TargetAggregateIdentifier String topicId,
             String requestedBy,
+            Language language,
             String name
     ) implements TopicCommand {
     }

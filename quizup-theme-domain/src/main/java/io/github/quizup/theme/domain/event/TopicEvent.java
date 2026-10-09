@@ -1,18 +1,20 @@
 package io.github.quizup.theme.domain.event;
 
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.TopicCategory;
 
 import java.time.Instant;
+import java.util.Map;
 
 public interface TopicEvent {
     String topicId();
 
     /**
-     * Événement émis lors de la création d'un thème
+     * Événement émis lors de la création d'un thème (un nom par langue).
      */
     record TopicCreatedEvent(
             String topicId,
-            String name,
+            Map<Language, String> names,
             String description,
             TopicCategory category,
             String emoji,
@@ -34,11 +36,12 @@ public interface TopicEvent {
     }
 
     /**
-     * Événement émis lors du changement de nom du thème.
+     * Événement émis lors du changement du nom d'une langue du thème.
      */
     record TopicNameUpdatedEvent(
             String topicId,
             String updatedBy,
+            Language language,
             String name,
             Instant updatedAt
     ) implements TopicEvent {

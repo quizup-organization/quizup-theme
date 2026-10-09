@@ -43,7 +43,7 @@ class TopicQueryHandlerTest {
 
     @Test
     void topics_by_ids_delegates_to_repository() {
-        Topic topic = Topic.builder().topicId("t1").name("Pokémon").build();
+        Topic topic = Topic.builder().topicId("t1").names(java.util.Map.of(io.github.quizup.microservice.core.domain.model.i18n.Language.FR, "Pokémon")).build();
         when(repository.findAllByIds(List.of("t1"))).thenReturn(List.of(topic));
 
         assertThat(handler.handle(new TopicQuery.GetTopicsByIdsQuery(List.of("t1"))))

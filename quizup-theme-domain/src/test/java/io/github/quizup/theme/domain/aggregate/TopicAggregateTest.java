@@ -1,6 +1,7 @@
 package io.github.quizup.theme.domain.aggregate;
 
 import io.github.quizup.axon.test.QuizUpAxonMatchers;
+import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.command.TopicCommand;
 import io.github.quizup.theme.domain.event.TopicEvent;
 import io.github.quizup.theme.domain.exception.QuestionProblems;
@@ -12,6 +13,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.Instant;
+import java.util.Map;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -56,7 +58,7 @@ class TopicAggregateTest {
     @Test
     void createTopic_withNameTooLong_rejects() {
         fixture.givenNoPriorActivity()
-                .when(createCommand("a".repeat(26), null))
+                .when(createCommand("a".repeat(256), null))
                 .expectException(TopicProblems.TopicNameTooLongProblem.class);
     }
 
@@ -97,7 +99,7 @@ class TopicAggregateTest {
     @Test
     void updateName_byOwner_appliesEvent() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, "Séries"))
+                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, Language.FR, "Séries"))
                 .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
                         TopicEvent.TopicNameUpdatedEvent.class,
                         e -> "Séries".equals(((TopicEvent.TopicNameUpdatedEvent) e).name())));
@@ -106,21 +108,21 @@ class TopicAggregateTest {
     @Test
     void updateName_byNonOwner_rejects() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, "intruder", "Séries"))
+                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, "intruder", Language.FR, "Séries"))
                 .expectException(TopicProblems.TopicNotOwnerProblem.class);
     }
 
     @Test
     void updateName_withSameValue_emitsNoEvent() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, "Cinéma"))
+                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, Language.FR, "Cinéma"))
                 .expectNoEvents();
     }
 
     @Test
     void updateName_withTooLongValue_rejects() {
         fixture.given(createdTopic())
-                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, "a".repeat(26)))
+                .when(new TopicCommand.UpdateTopicNameCommand(TOPIC_ID, OWNER, Language.FR, "a".repeat(256)))
                 .expectException(TopicProblems.TopicNameTooLongProblem.class);
     }
 
@@ -150,12 +152,12 @@ class TopicAggregateTest {
 
     private TopicCommand.CreateTopicCommand createCommand(String name, String description) {
         return new TopicCommand.CreateTopicCommand(
-                TOPIC_ID, name, description, TopicCategory.MOVIES, null, null, null, OWNER);
+                TOPIC_ID, Map.of(Language.FR, name), description, TopicCategory.MOVIES, null, null, null, OWNER);
     }
 
     private TopicEvent.TopicCreatedEvent createdTopic() {
         return new TopicEvent.TopicCreatedEvent(
-                TOPIC_ID, "Cinéma", "Tout le cinéma", TopicCategory.MOVIES,
+                TOPIC_ID, Map.of(Language.FR, "Cinéma"), "Tout le cinéma", TopicCategory.MOVIES,
                 null, null, null, OWNER, NOW);
     }
 }
