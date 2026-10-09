@@ -71,7 +71,8 @@ lorsque la difficulté calculée change, la projection envoie une
 ### Enrichissements catalogue
 
 - `TopicQuery.GetTopicPageQuery(nameQuery, category, sort, page, size)` → `TopicPage` : page du
-  catalogue publié (tri `POPULAR|ALPHA`), filtre texte normalisé côté handler.
+  catalogue publié (tri `POPULAR|ALPHA|RECENT` — `RECENT` = `updatedAt desc`, alimente la section
+  « nouveaux thèmes » de l'accueil), filtre texte normalisé côté handler.
 - `TopicQuery.GetTopicsByCreatorQuery(creatorId, page, size)` → `TopicPage` : sujets créés par un
   utilisateur (tous statuts, brouillons compris), tri `updatedAt desc` — alimente la vue
   « mes sujets » du BFF (`?mine=true`).

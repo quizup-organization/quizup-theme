@@ -7,5 +7,7 @@ public enum TopicSort {
     /** Les plus suivis d'abord. */
     POPULAR,
     /** Ordre alphabétique. */
-    ALPHA
+    ALPHA,
+    /** Les plus récemment publiés / mis à jour d'abord (accueil « nouveaux thèmes »). */
+    RECENT
 }
