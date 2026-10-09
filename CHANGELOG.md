@@ -1,3 +1,9 @@
+## [4.7.1](https://github.com/quizup-organization/quizup-theme/compare/v4.7.0...v4.7.1) (2026-10-09)
+
+### Bug Fixes
+
+* **theme:** un follow ne met plus a jour updatedAt ([5a56b20](https://github.com/quizup-organization/quizup-theme/commit/5a56b20a17d4930a0c1cb64774375eb9ea0b01dd))
+
 ## [4.7.0](https://github.com/quizup-organization/quizup-theme/compare/v4.6.0...v4.7.0) (2026-10-09)
 
 ### Features
