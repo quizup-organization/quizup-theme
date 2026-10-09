@@ -143,6 +143,9 @@ public class TopicProjection {
         refreshQuestionsCounter(event.topicId(), event.rejectedAt());
     }
 
+    // Un suivi modifie le compteur d'abonnés mais **pas** `updatedAt` : « dernière mise à jour »
+    // doit refléter un changement de contenu (publication, édition, questions), pas une activité
+    // sociale — sinon la section « nouveaux thèmes » de l'accueil serait polluée par les follows.
     @EventHandler
     @Transactional
     public void on(TopicFollowerEvent.TopicFollowedEvent event) {
@@ -150,7 +153,6 @@ public class TopicProjection {
             followerRefRepositoryPort.add(event.topicId(), event.userId());
             topicRepositoryPort.save(topic.toBuilder()
                     .followersCounter(followerRefRepositoryPort.countByTopicId(event.topicId()))
-                    .updatedAt(event.followedAt())
                     .build());
         });
     }
@@ -162,7 +164,6 @@ public class TopicProjection {
             followerRefRepositoryPort.remove(event.topicId(), event.userId());
             topicRepositoryPort.save(topic.toBuilder()
                     .followersCounter(followerRefRepositoryPort.countByTopicId(event.topicId()))
-                    .updatedAt(event.unfollowedAt())
                     .build());
         });
     }
