@@ -504,3 +504,46 @@ libre avec attribution). Cette page liste, par thème, l'auteur et la licence de
 - [`The Dark Hedges.jpg`](https://commons.wikimedia.org/wiki/File:The_Dark_Hedges.jpg) — Jriley17 — CC0
 - [`Game of Thrones Oslo exhibition 2014 - Daenerys's blue dress.jpg`](https://commons.wikimedia.org/wiki/File:Game_of_Thrones_Oslo_exhibition_2014_-_Daenerys%27s_blue_dress.jpg) — Benjamin Skinstad — CC BY 3.0
 - [`Game of Thrones Tapestry.jpg`](https://commons.wikimedia.org/wiki/File:Game_of_Thrones_Tapestry.jpg) — Kal242382 — CC BY-SA 4.0
+
+## Harry Potter (films) (`movies/harry-potter-*.yml`)
+
+- [`Daniel Radcliffe in July 2015.jpg`](https://commons.wikimedia.org/wiki/File:Daniel_Radcliffe_in_July_2015.jpg) — Gage Skidmore — CC BY-SA 2.0
+- [`Emma Watson 2013.jpg`](https://commons.wikimedia.org/wiki/File:Emma_Watson_2013.jpg) — Georges Biard — CC BY-SA 3.0
+- [`RupertGrint2018.jpg`](https://commons.wikimedia.org/wiki/File:RupertGrint2018.jpg) — Sidewalks Entertainment — CC BY 3.0
+- [`Tom Felton 1.jpg`](https://commons.wikimedia.org/wiki/File:Tom_Felton_1.jpg) — vivek jena — CC BY 2.0
+- [`Alan Rickman by David Shankbone - 2.jpg`](https://commons.wikimedia.org/wiki/File:Alan_Rickman_by_David_Shankbone_-_2.jpg) — David Shankbone / Suzelfe — CC BY-SA 3.0
+- [`Maggie Smith - Vintage.jpg`](https://commons.wikimedia.org/wiki/File:Maggie_Smith_-_Vintage.jpg) — studio — Public domain
+- [`Robbiecoltrane (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Robbiecoltrane_(cropped).jpg) — clogdancer — CC BY-SA 2.0
+- [`Richard Harris 1985 (1).jpg`](https://commons.wikimedia.org/wiki/File:Richard_Harris_1985_(1).jpg) — City of Boston Archives — CC BY 2.0
+- [`Michael Gambon cropped.jpg`](https://commons.wikimedia.org/wiki/File:Michael_Gambon_cropped.jpg) — IamIrishwikiuser — CC BY-SA 3.0
+- [`Ralph Fiennes 2024.jpg`](https://commons.wikimedia.org/wiki/File:Ralph_Fiennes_2024.jpg) — Steve Disenhof — CC BY-SA 4.0
+- [`Helena Bonham Carter 2011 AA.jpg`](https://commons.wikimedia.org/wiki/File:Helena_Bonham_Carter_2011_AA.jpg) — David Torcivia — CC BY-SA 3.0
+- [`Gary Oldman by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Gary_Oldman_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Jason Isaacs 2014.jpg`](https://commons.wikimedia.org/wiki/File:Jason_Isaacs_2014.jpg) — DoD News Features — CC BY 2.0
+- [`Matthew Lewis Photo Op GalaxyCon Richmond 2020.jpg`](https://commons.wikimedia.org/wiki/File:Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg) — Super Festivals — CC BY 2.0
+- [`Bonnie Wright crop2.jpg`](https://commons.wikimedia.org/wiki/File:Bonnie_Wright_crop2.jpg) — Chris Dotson — CC BY-SA 2.0
+- [`Evanna Lynch (51693246964).jpg`](https://commons.wikimedia.org/wiki/File:Evanna_Lynch_(51693246964).jpg) — Miguel Discart — CC BY-SA 2.0
+- [`Julie Walters at the Paddington Premiere.jpg`](https://commons.wikimedia.org/wiki/File:Julie_Walters_at_the_Paddington_Premiere.jpg) — Ibsan73 — CC BY 2.0
+- [`Mark Williams at BBSE.jpg`](https://commons.wikimedia.org/wiki/File:Mark_Williams_at_BBSE.jpg) — Alex Caut — CC BY-SA 4.0
+- [`David Thewlis 2008.jpg`](https://commons.wikimedia.org/wiki/File:David_Thewlis_2008.jpg) — Andreas Tai / RanZag — CC BY-SA 3.0
+- [`Brendan Gleeson.jpg`](https://commons.wikimedia.org/wiki/File:Brendan_Gleeson.jpg) — Mario Antonio Pena Zapatería — CC BY-SA 2.0
+- [`Imelda Staunton, October 2019.jpg`](https://commons.wikimedia.org/wiki/File:Imelda_Staunton,_October_2019.jpg) — Lega Nerd — CC BY 3.0
+- [`Emma Thompson at the 78th Locarno Film Festival photocall 01.jpg`](https://commons.wikimedia.org/wiki/File:Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg) — Kalai Ramu — CC BY-SA 4.0
+- [`Warwick Davis interviewed 2.jpg`](https://commons.wikimedia.org/wiki/File:Warwick_Davis_interviewed_2.jpg) — Official Star Wars Blog — CC BY 2.0
+- [`John Cleese 2008.jpg`](https://commons.wikimedia.org/wiki/File:John_Cleese_2008.jpg) — Paul Boxley — CC BY-SA 2.0
+- [`J. K. Rowling 2010.jpg`](https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010.jpg) — Daniel Ogren — CC BY 2.0
+- [`Chris Columbus.jpg`](https://commons.wikimedia.org/wiki/File:Chris_Columbus.jpg) — Nightscream — CC BY 3.0
+- [`David Yates 2010 Cropped.jpg`](https://commons.wikimedia.org/wiki/File:David_Yates_2010_Cropped.jpg) — Joella Marano — CC BY-SA 2.0
+- [`Alfonso Cuarón (2013) cropped.jpg`](https://commons.wikimedia.org/wiki/File:Alfonso_Cuar%C3%B3n_(2013)_cropped.jpg) — Gage Skidmore / César — CC BY-SA 2.0
+- [`Mike Newell.jpg`](https://commons.wikimedia.org/wiki/File:Mike_Newell.jpg) — BrokenSphere — CC BY-SA 3.0
+- [`Alnwick Castle 2011.JPG`](https://commons.wikimedia.org/wiki/File:Alnwick_Castle_2011.JPG) — Dr.Haus — CC BY-SA 3.0
+- [`Jacobite on Glenfinnan Viaduct 2 20211024.jpg`](https://commons.wikimedia.org/wiki/File:Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg) — Daniel Kraft — CC BY-SA 3.0
+- [`King's Cross Western Concourse.jpg`](https://commons.wikimedia.org/wiki/File:King%27s_Cross_Western_Concourse.jpg) — Colin — CC BY-SA 3.0
+- [`Divinity School Interior 3, Bodleian Library, Oxford, UK - Diliff.jpg`](https://commons.wikimedia.org/wiki/File:Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg) — Diliff — CC BY-SA 3.0
+- [`Christ Church, Oxford, The Grand Staircase.jpg`](https://commons.wikimedia.org/wiki/File:Christ_Church,_Oxford,_The_Grand_Staircase.jpg) — Jonas Magnus Lystad — CC0
+- [`Durham Cathedral Cloister (7166957256).jpg`](https://commons.wikimedia.org/wiki/File:Durham_Cathedral_Cloister_(7166957256).jpg) — Michael Beckwith — CC BY 2.0
+- [`The Cloisters at Gloucester Cathedral.jpg`](https://commons.wikimedia.org/wiki/File:The_Cloisters_at_Gloucester_Cathedral.jpg) — Christopher JT Cherrington — CC BY-SA 4.0
+- [`Leadenhall Market In London - Feb 2006.jpg`](https://commons.wikimedia.org/wiki/File:Leadenhall_Market_In_London_-_Feb_2006.jpg) — Diliff — CC BY 2.5
+- [`The Jacobite (now "Hogwarts Express" train, Loch Eilt - geograph.org.uk - 607750.jpg`](https://commons.wikimedia.org/wiki/File:The_Jacobite_(now_%22Hogwarts_Express%22_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg) — sylvia duckworth — CC BY-SA 2.0
+- [`Platform 9 3-4 (King's Cross station, London, 2014).jpg`](https://commons.wikimedia.org/wiki/File:Platform_9_3-4_(King%27s_Cross_station,_London,_2014).jpg) — Bert Seghers — CC0
+- [`Wizarding World of Harry Potter - Hogsmeade & Hogwarts sign (5014150830).jpg`](https://commons.wikimedia.org/wiki/File:Wizarding_World_of_Harry_Potter_-_Hogsmeade_%26_Hogwarts_sign_(5014150830).jpg) — The Conmunity Pop Culture Geek — CC BY 2.0
