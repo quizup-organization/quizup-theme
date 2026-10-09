@@ -1,3 +1,9 @@
+## [4.7.0](https://github.com/quizup-organization/quizup-theme/compare/v4.6.0...v4.7.0) (2026-10-09)
+
+### Features
+
+* **theme:** tri RECENT des themes (updatedAt desc) ([3b03d96](https://github.com/quizup-organization/quizup-theme/commit/3b03d965ee8e8938f9718c3eac575432d61ab7e8))
+
 ## [4.6.0](https://github.com/quizup-organization/quizup-theme/compare/v4.5.2...v4.6.0) (2026-10-08)
 
 ### Features
