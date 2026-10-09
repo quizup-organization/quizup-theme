@@ -1,3 +1,15 @@
+## [4.9.0](https://github.com/quizup-organization/quizup-theme/compare/v4.8.0...v4.9.0) (2026-10-09)
+
+### Features
+
+* **theme:** film Harry Potter 3 - Prisonnier d'Azkaban (100 q, 40 images) ([3e9bcb0](https://github.com/quizup-organization/quizup-theme/commit/3e9bcb06a176c8288803147e05f48318739814c5))
+* **theme:** film Harry Potter 4 - La Coupe de feu (100 q, 40 images) ([b87614f](https://github.com/quizup-organization/quizup-theme/commit/b87614f6c53d419094065fed2a2097a79aa18a4d))
+* **theme:** film Harry Potter 5 - L'Ordre du Phenix (100 q, 40 images) ([d50bdeb](https://github.com/quizup-organization/quizup-theme/commit/d50bdeb009151162b62b99ba34663318524e7644))
+* **theme:** film Harry Potter 6 - Prince de sang-mele (100 q, 40 images) ([7ad78c9](https://github.com/quizup-organization/quizup-theme/commit/7ad78c9d94f24fc2c0de0727920fa38e190e3415))
+* **theme:** film Harry Potter 7 - Reliques de la Mort 1 (100 q, 40 images) ([2b7571d](https://github.com/quizup-organization/quizup-theme/commit/2b7571dfd5fe4bcf851bab9a4d4b8ec590e81805))
+* **theme:** film Harry Potter 8 - Reliques de la Mort 2 (100 q, 40 images) ([b2b7bb5](https://github.com/quizup-organization/quizup-theme/commit/b2b7bb5ebefd20eea64ef1d9782b1aa53dfd1076))
+* **theme:** films Harry Potter 1-2 (100 questions FR/EN, 40 images chacun) ([af050e0](https://github.com/quizup-organization/quizup-theme/commit/af050e0eecafae56083b419f84332ca35b257676))
+
 ## [4.8.0](https://github.com/quizup-organization/quizup-theme/compare/v4.7.1...v4.8.0) (2026-10-09)
 
 ### Features
