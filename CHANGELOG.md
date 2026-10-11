@@ -1,3 +1,9 @@
+## [4.10.1](https://github.com/quizup-organization/quizup-theme/compare/v4.10.0...v4.10.1) (2026-10-11)
+
+### Bug Fixes
+
+* **theme:** éditions de questions → updatedAt du thème (nouveaux thèmes) ([f09e9c6](https://github.com/quizup-organization/quizup-theme/commit/f09e9c63cc404ac5819173c417ac2c5c0dba8420))
+
 ## [4.10.0](https://github.com/quizup-organization/quizup-theme/compare/v4.9.0...v4.10.0) (2026-10-09)
 
 ### Features
