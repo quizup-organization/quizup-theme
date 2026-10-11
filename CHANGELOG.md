@@ -1,3 +1,13 @@
+## [5.0.0](https://github.com/quizup-organization/quizup-theme/compare/v4.10.1...v5.0.0) (2026-10-11)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** tirage filtré par difficulté cible et questions déjà jouées
+
+### Features
+
+* **theme:** tirage filtré par difficulté cible et questions déjà jouées ([2253a2c](https://github.com/quizup-organization/quizup-theme/commit/2253a2c8d9042be871c76e4a6632f14f0b8b66c7))
+
 ## [4.10.1](https://github.com/quizup-organization/quizup-theme/compare/v4.10.0...v4.10.1) (2026-10-11)
 
 ### Bug Fixes
