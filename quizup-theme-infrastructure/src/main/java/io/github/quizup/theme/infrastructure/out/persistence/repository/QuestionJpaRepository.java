@@ -29,6 +29,11 @@ public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, Str
 
     List<QuestionEntity> findByTopicId(String topicId);
 
+    /**
+     * Tirage best-effort : langues strictes, puis préférences de tri — jamais jouées d'abord,
+     * puis difficulté cible, puis difficulté inconnue, puis les autres ; aléatoire à chaque rang.
+     * Les préférences arrivent en CSV (vide = neutre) pour éviter le binding de tableaux.
+     */
     @Query(value = """
             SELECT q.* FROM question_entry q
             WHERE q.topic_id = :topicId
@@ -39,13 +44,24 @@ public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, Str
                   GROUP BY c.question_id
                   HAVING COUNT(DISTINCT c.language) = :languageCount
               )
-            ORDER BY RANDOM()
+            ORDER BY (
+                CASE WHEN q.question_id = ANY(string_to_array(NULLIF(:excludedCsv, ''), ',')) THEN 1 ELSE 0 END
+            ) ASC,
+            (
+                CASE WHEN q.difficulty = ANY(string_to_array(NULLIF(:difficultiesCsv, ''), ',')) THEN 0 ELSE 1 END
+            ) ASC,
+            (
+                CASE WHEN q.difficulty IS NULL THEN 0 ELSE 1 END
+            ) ASC,
+            RANDOM()
             LIMIT :count
             """, nativeQuery = true)
     List<QuestionEntity> findRandomApprovedByTopicId(@Param("topicId") String topicId,
                                                      @Param("count") int count,
                                                      @Param("languages") Collection<String> languages,
-                                                     @Param("languageCount") long languageCount);
+                                                     @Param("languageCount") long languageCount,
+                                                     @Param("excludedCsv") String excludedCsv,
+                                                     @Param("difficultiesCsv") String difficultiesCsv);
 
     @Query(value = """
             SELECT COUNT(*) FROM question_entry q

@@ -7,6 +7,7 @@ import io.github.quizup.microservice.core.infrastructure.in.api.request.SearchRe
 import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.model.QuestionContent;
+import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import io.github.quizup.theme.infrastructure.out.persistence.entity.QuestionContentEntity;
@@ -101,13 +102,27 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
 
     @Override
     @Transactional(readOnly = true)
-    public List<Question> findRandomApprovedByTopicId(String topicId, int count, Set<Language> languages) {
+    public List<Question> findRandomApprovedByTopicId(String topicId, int count, Set<Language> languages,
+                                                      Set<QuestionDifficulty> difficulties,
+                                                      Set<String> excludeQuestionIds) {
         if (languages == null || languages.isEmpty()) {
             return List.of();
         }
         List<String> languageCodes = languages.stream().map(Language::code).toList();
         return withContents(questionJpaRepository.findRandomApprovedByTopicId(
-                topicId, count, languageCodes, languages.size()));
+                topicId,
+                count,
+                languageCodes,
+                languages.size(),
+                csv(excludeQuestionIds),
+                csv(difficulties == null
+                        ? Set.of()
+                        : difficulties.stream().map(Enum::name).collect(Collectors.toSet()))));
+    }
+
+    /** Préférences sérialisées en CSV (vide = neutre) pour le tri best-effort du tirage. */
+    private static String csv(Set<String> values) {
+        return values == null || values.isEmpty() ? "" : String.join(",", values);
     }
 
     @Override

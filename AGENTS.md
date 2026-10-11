@@ -47,9 +47,11 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
 **Aucune dépendance sortante** au niveau contrat (queries). Theme est un **fournisseur** :
 
 - `quizup-social` → `TopicRepositoryPort` → `TopicQuery.TopicExistsByIdQuery`
-- `quizup-game` → `QuestionRepositoryPort` → `QuestionQuery.GetRandomApprovedQuestionsQuery(topicId, count, languages)`
-  (sélection **stricte** : la question doit avoir un contenu dans **toutes** les langues demandées ;
-  la `Question` retournée porte ses contenus localisés, le client choisit le sien)
+- `quizup-matchmaking` → `QuestionDrawPort` → `QuestionQuery.GetRandomApprovedQuestionsQuery(topicId, count, languages, difficulties, excludeQuestionIds)`
+  (sélection **stricte** sur les langues : la question doit avoir un contenu dans **toutes** les
+  langues demandées ; `difficulties`/`excludeQuestionIds` sont des **préférences de tri**
+  best-effort — jamais-jouées &gt; difficulté cible &gt; difficulté inconnue &gt; autres — et la
+  `Question` retournée porte ses contenus localisés, le client choisit le sien)
 - `quizup-matchmaking` / `quizup-social` → `QuestionQuery.CountApprovedQuestionsByTopicAndLanguagesQuery`
   (gardes de disponibilité linguistique avant d'ouvrir/apparier/valider un duel)
 
