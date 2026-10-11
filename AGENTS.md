@@ -72,7 +72,10 @@ lorsque la difficulté calculée change, la projection envoie une
 
 - `TopicQuery.GetTopicPageQuery(nameQuery, category, sort, page, size)` → `TopicPage` : page du
   catalogue publié (tri `POPULAR|ALPHA|RECENT` — `RECENT` = `updatedAt desc`, alimente la section
-  « nouveaux thèmes » de l'accueil), filtre texte normalisé côté handler.
+  « nouveaux thèmes » de l'accueil), filtre texte normalisé côté handler. `updatedAt` = dernière
+  mise à jour **de contenu** : publication, édition du sujet **et éditions de questions**
+  (traduction/texte/réponses/bonne réponse/image — `TopicProjection`) ; jamais les follows ni la
+  difficulté auto-calculée (`QuestionDifficultyUpdatedEvent` ignoré).
 - `TopicQuery.GetTopicsByCreatorQuery(creatorId, page, size)` → `TopicPage` : sujets créés par un
   utilisateur (tous statuts, brouillons compris), tri `updatedAt desc` — alimente la vue
   « mes sujets » du BFF (`?mine=true`).

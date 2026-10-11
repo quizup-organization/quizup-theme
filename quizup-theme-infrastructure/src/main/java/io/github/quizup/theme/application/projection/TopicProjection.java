@@ -154,6 +154,50 @@ public class TopicProjection {
         refreshQuestionsCounter(event.topicId(), event.rejectedAt());
     }
 
+    /**
+     * Éditions de contenu d'une question : le thème remonte dans « nouveaux thèmes » de l'accueil
+     * (`updatedAt`). Ces événements ne portent que `questionId` : le thème est résolu via la
+     * question, déjà projetée (événement d'édition d'une question existante) — pas de recalcul des
+     * compteurs, les statuts ne changent pas. La difficulté auto-calculée
+     * (`QuestionDifficultyUpdatedEvent`) est volontairement ignorée : ce n'est pas une édition
+     * d'auteur et elle ne doit pas polluer l'accueil.
+     */
+    @EventHandler
+    @Transactional
+    public void on(QuestionEvent.QuestionTranslationsAddedEvent event) {
+        touchTopicOfQuestion(event.questionId(), event.updatedAt());
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(QuestionEvent.QuestionTranslationAddedEvent event) {
+        touchTopicOfQuestion(event.questionId(), event.updatedAt());
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(QuestionEvent.QuestionTextUpdatedEvent event) {
+        touchTopicOfQuestion(event.questionId(), event.updatedAt());
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(QuestionEvent.QuestionAnswersUpdatedEvent event) {
+        touchTopicOfQuestion(event.questionId(), event.updatedAt());
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(QuestionEvent.QuestionCorrectAnswerUpdatedEvent event) {
+        touchTopicOfQuestion(event.questionId(), event.updatedAt());
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(QuestionEvent.QuestionImageUrlUpdatedEvent event) {
+        touchTopicOfQuestion(event.questionId(), event.updatedAt());
+    }
+
     // Un suivi modifie le compteur d'abonnés mais **pas** `updatedAt` : « dernière mise à jour »
     // doit refléter un changement de contenu (publication, édition, questions), pas une activité
     // sociale — sinon la section « nouveaux thèmes » de l'accueil serait polluée par les follows.
@@ -196,6 +240,17 @@ public class TopicProjection {
                 .ifPresent(topic -> topicRepositoryPort.save(
                         topic.toBuilder()
                                 .questionsCounter(counters)
+                                .updatedAt(updatedAt)
+                                .build()
+                ));
+    }
+
+    /** Bump `updatedAt` d'un thème à partir d'une édition de question (statuts inchangés). */
+    private void touchTopicOfQuestion(String questionId, Instant updatedAt) {
+        questionRepositoryPort.findById(questionId)
+                .flatMap(question -> topicRepositoryPort.findById(question.topicId()))
+                .ifPresent(topic -> topicRepositoryPort.save(
+                        topic.toBuilder()
                                 .updatedAt(updatedAt)
                                 .build()
                 ));
