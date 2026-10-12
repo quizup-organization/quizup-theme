@@ -547,3 +547,139 @@ libre avec attribution). Cette page liste, par thème, l'auteur et la licence de
 - [`The Jacobite (now "Hogwarts Express" train, Loch Eilt - geograph.org.uk - 607750.jpg`](https://commons.wikimedia.org/wiki/File:The_Jacobite_(now_%22Hogwarts_Express%22_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg) — sylvia duckworth — CC BY-SA 2.0
 - [`Platform 9 3-4 (King's Cross station, London, 2014).jpg`](https://commons.wikimedia.org/wiki/File:Platform_9_3-4_(King%27s_Cross_station,_London,_2014).jpg) — Bert Seghers — CC0
 - [`Wizarding World of Harry Potter - Hogsmeade & Hogwarts sign (5014150830).jpg`](https://commons.wikimedia.org/wiki/File:Wizarding_World_of_Harry_Potter_-_Hogsmeade_%26_Hogwarts_sign_(5014150830).jpg) — The Conmunity Pop Culture Geek — CC BY 2.0
+
+## disney-et-pixar (`disney-et-pixar.yml`)
+
+- [`Sleeping Beauty Castle Disneyland Anaheim 2013.jpg`](https://commons.wikimedia.org/wiki/File:Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg) — Tuxyso — CC BY-SA 3.0
+
+## star-wars (`star-wars.yml`)
+
+- [`Cosplay of Aayla Secura at Star Wars Celebration 2017.jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Aayla_Secura_at_Star_Wars_Celebration_2017.jpg) — MediaGamut — CC BY 2.0
+
+## le-seigneur-des-anneaux (`le-seigneur-des-anneaux.yml`)
+
+- [`Hobbiton Movie Set, Matamata.jpg`](https://commons.wikimedia.org/wiki/File:Hobbiton_Movie_Set,_Matamata.jpg) — Andres Iga — CC0
+
+## friends (`friends.yml`)
+
+- [`Friends exterior.jpg`](https://commons.wikimedia.org/wiki/File:Friends_exterior.jpg) — User:Staini — CC BY-SA 3.0
+
+## les-simpson (`les-simpson.yml`)
+
+- [`The Simpsons, Universal Studios, Orlando.jpg`](https://commons.wikimedia.org/wiki/File:The_Simpsons,_Universal_Studios,_Orlando.jpg) — apasciuto — CC BY 2.0
+
+## the-walking-dead (`the-walking-dead.yml`)
+
+- [`The Walking Dead cast at Comic-Con 2013.jpg`](https://commons.wikimedia.org/wiki/File:The_Walking_Dead_cast_at_Comic-Con_2013.jpg) — Gage Skidmore from Peoria, AZ, United States of America — CC BY-SA 2.0
+
+## pokemon (`pokemon.yml`)
+
+- [`Cosplay of Pikachu from Pokemon at GalaxyCon Richmond 2020 (49666783502).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Pikachu_from_Pokemon_at_GalaxyCon_Richmond_2020_(49666783502).jpg) — Super Festivals from Ft. Lauderdale, USA — CC BY 2.0
+
+## minecraft (`minecraft.yml`)
+
+- [`MineCon2015ExpoHall.jpg`](https://commons.wikimedia.org/wiki/File:MineCon2015ExpoHall.jpg) — ChrisTheDude at English Wikipedia — CC BY-SA 3.0
+
+## culture-manga-anime (`culture-manga-anime.yml`)
+
+- [`Cosplay of Naruto Uzumaki and Monkey D. Luffy at Japan Expo 2016 (27685175793).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Naruto_Uzumaki_and_Monkey_D._Luffy_at_Japan_Expo_2016_(27685175793).jpg) — Miguel Discart — CC BY-SA 2.0
+
+## marvel-super-heros (`marvel-super-heros.yml`)
+
+- [`Cosplay of Captain Marvel at Brussels Comic Con 2019 (33424675048).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Captain_Marvel_at_Brussels_Comic_Con_2019_(33424675048).jpg) — Miguel Discart — CC BY-SA 2.0
+
+## stranger-things (`stranger-things.yml`)
+
+- [`Millie Bobby Brown (29895755373).jpg`](https://commons.wikimedia.org/wiki/File:Millie_Bobby_Brown_(29895755373).jpg) — Gage Skidmore from Peoria, AZ, United States of America — CC BY-SA 2.0
+
+## the-big-bang-theory (`the-big-bang-theory.yml`)
+
+- [`Jim Parsons at PaleyFest 2013.jpg`](https://commons.wikimedia.org/wiki/File:Jim_Parsons_at_PaleyFest_2013.jpg) — iDominick — CC BY-SA 2.0
+
+## annees-90 (`annees-90.yml`)
+
+- [`Sony WM-B52 Sports Walkman cassette Player (51879107619).jpg`](https://commons.wikimedia.org/wiki/File:Sony_WM-B52_Sports_Walkman_cassette_Player_(51879107619).jpg) — Joost J. Bakker  IJmuiden — CC BY 2.0
+
+## mythologie-grecque (`mythologie-grecque.yml`)
+
+- [`Jacob van der Ulft - The Phidian statue of Zeus at Olympia, with olympic games taking place at its feet, l19038-b3tws-1.jpg`](https://commons.wikimedia.org/wiki/File:Jacob_van_der_Ulft_-_The_Phidian_statue_of_Zeus_at_Olympia,_with_olympic_games_taking_place_at_its_feet,_l19038-b3tws-1.jpg) — Jacob van der Ulft — Public domain
+
+## dinosaures (`dinosaures.yml`)
+
+- [`Tyrannosaurus rex skeleton (cast of specimen MOR 555) at Cleveland Museum of Natural History.jpg`](https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_skeleton_(cast_of_specimen_MOR_555)_at_Cleveland_Museum_of_Natural_History.jpg) — Robosorne — CC BY-SA 3.0
+
+## corps-humain (`corps-humain.yml`)
+
+- [`Human anatomy planes, labeled.jpg`](https://commons.wikimedia.org/wiki/File:Human_anatomy_planes,_labeled.jpg) — David Richfield and Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest:  None
+Mikael Häggström, M.D. — CC BY-SA 4.0
+
+## monuments-du-monde (`monuments-du-monde.yml`)
+
+- [`80 - Machu Picchu - Juin 2009 - edit.jpg`](https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg) — Martin St-Amant (S23678) — CC BY-SA 3.0
+
+## egypte-antique (`egypte-antique.yml`)
+
+- [`Great Sphinx of Giza (2).jpg`](https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_(2).jpg) — Hamerani — CC BY-SA 4.0
+
+## rome-antique (`rome-antique.yml`)
+
+- [`Colosseum of Rome, Italy.jpg`](https://commons.wikimedia.org/wiki/File:Colosseum_of_Rome,_Italy.jpg) — Wilfredor — CC0
+
+## legendes-du-rock (`legendes-du-rock.yml`)
+
+- [`Freddie Mercury - Montreux 01.jpg`](https://commons.wikimedia.org/wiki/File:Freddie_Mercury_-_Montreux_01.jpg) — Llez — CC BY-SA 3.0
+
+## expressions-et-proverbes (`expressions-et-proverbes.yml`)
+
+- [`Hyacinthe Rigaud - Portrait de Jean de La Fontaine (1621-1695), poète - P2441 - Musée Carnavalet.jpg`](https://commons.wikimedia.org/wiki/File:Hyacinthe_Rigaud_-_Portrait_de_Jean_de_La_Fontaine_(1621-1695),_po%C3%A8te_-_P2441_-_Mus%C3%A9e_Carnavalet.jpg) — Hyacinthe Rigaud — Public domain
+
+
+## Visuels de questions — Expressions & proverbes (`expressions-et-proverbes.yml`)
+
+- [`Hyacinthe_Rigaud_-_Portrait_de_Jean_de_La_Fontaine_(1621-1695),_poète_-_P2441_-_Musée_Carnavalet.jpg`](https://commons.wikimedia.org/wiki/File:Hyacinthe_Rigaud_-_Portrait_de_Jean_de_La_Fontaine_(1621-1695),_po%C3%A8te_-_P2441_-_Mus%C3%A9e_Carnavalet.jpg) — Auteur inconnu — ?
+
+
+## Visuels de questions — Pokémon (`pokemon.yml`)
+
+- [`Anime_Expo_2013_-_Charmander_Cosplay_(9228423198).jpg`](https://commons.wikimedia.org/wiki/File:Anime_Expo_2013_-_Charmander_Cosplay_(9228423198).jpg) — Auteur inconnu — ?
+- [`Cosplay_of_Bulbasaur,_Anime_Expo_2010_(4837249076).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Bulbasaur,_Anime_Expo_2010_(4837249076).jpg) — Auteur inconnu — ?
+- [`WonderCon_2013_-_Squirtle_Cosplayer.jpg`](https://commons.wikimedia.org/wiki/File:WonderCon_2013_-_Squirtle_Cosplayer.jpg) — Auteur inconnu — ?
+- [`Pokémon_cosplay_at_SDCCI_2018_Nintendo_lounge_-_2_(cropped_Eevee).jpg`](https://commons.wikimedia.org/wiki/File:Pok%C3%A9mon_cosplay_at_SDCCI_2018_Nintendo_lounge_-_2_(cropped_Eevee).jpg) — Auteur inconnu — ?
+- [`Cosplay_of_Magikarp_at_Japan_Expo_2023_(53148537816).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Magikarp_at_Japan_Expo_2023_(53148537816).jpg) — Auteur inconnu — ?
+
+
+## Visuels de questions — Égypte antique (`egypte-antique.yml`)
+
+- [`All_Gizah_Pyramids.jpg`](https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg) — Auteur inconnu — ?
+- [`Nofretete_Neues_Museum.jpg`](https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg) — Auteur inconnu — ?
+- [`Tutanchamun_Maske.jpg`](https://commons.wikimedia.org/wiki/File:Tutanchamun_Maske.jpg) — Auteur inconnu — ?
+- [`Abu_Simbel_Temple_May_30_2007.jpg`](https://commons.wikimedia.org/wiki/File:Abu_Simbel_Temple_May_30_2007.jpg) — Auteur inconnu — ?
+- [`Karnak_Hypostyle_Hall_R01.jpg`](https://commons.wikimedia.org/wiki/File:Karnak_Hypostyle_Hall_R01.jpg) — Auteur inconnu — ?
+
+
+## Visuels de questions — Marvel & super-héros (`marvel-super-heros.yml`)
+
+- [`Cosplay_of_Iron_Man_Expotaku.jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Iron_Man_Expotaku.jpg) — Auteur inconnu — ?
+- [`Captain_America_-_Cosplay_at_2009_Comic-Con_International.jpg`](https://commons.wikimedia.org/wiki/File:Captain_America_-_Cosplay_at_2009_Comic-Con_International.jpg) — Auteur inconnu — ?
+- [`Cosplay_of_Spider-Man_at_Brussels_Comic_Con_2019_(33424792408).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Spider-Man_at_Brussels_Comic_Con_2019_(33424792408).jpg) — Auteur inconnu — ?
+- [`Batman_Cosplay_at_NYCC_2017.jpg`](https://commons.wikimedia.org/wiki/File:Batman_Cosplay_at_NYCC_2017.jpg) — Auteur inconnu — ?
+- [`Cosplay_of_Wonder_Woman_at_GalaxyCon_Richmond_2020_(49666455796).jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Wonder_Woman_at_GalaxyCon_Richmond_2020_(49666455796).jpg) — Auteur inconnu — ?
+
+
+## Visuels de questions — Star Wars (`star-wars.yml`)
+
+- [`Lightsaber_demo_by_Les_Gardiens_de_la_Force_at_Brussels_Comic_Con_2019_(33420891878).jpg`](https://commons.wikimedia.org/wiki/File:Lightsaber_demo_by_Les_Gardiens_de_la_Force_at_Brussels_Comic_Con_2019_(33420891878).jpg) — Auteur inconnu — ?
+- [`Ewok_jedi_Cosplay_from_Star_Wars_Celebration_2017.jpg`](https://commons.wikimedia.org/wiki/File:Ewok_jedi_Cosplay_from_Star_Wars_Celebration_2017.jpg) — Auteur inconnu — ?
+- [`Ahsoka_Tano_Cosplayer_at_Star_Wars_Celebration_2017.jpg`](https://commons.wikimedia.org/wiki/File:Ahsoka_Tano_Cosplayer_at_Star_Wars_Celebration_2017.jpg) — Auteur inconnu — ?
+- [`Tusken_Raider_Cosplay_at_Star_Wars_Celebration_V.jpg`](https://commons.wikimedia.org/wiki/File:Tusken_Raider_Cosplay_at_Star_Wars_Celebration_V.jpg) — Auteur inconnu — ?
+- [`Mandalorian_Cosplay_at_Star_Wars_Celebration_2017_02.jpg`](https://commons.wikimedia.org/wiki/File:Mandalorian_Cosplay_at_Star_Wars_Celebration_2017_02.jpg) — Auteur inconnu — ?
+
+
+## Visuels de questions — Dinosaures (`dinosaures.yml`)
+
+- [`FMNH_Tyrannosaurus_rex_Sue.jpg`](https://commons.wikimedia.org/wiki/File:FMNH_Tyrannosaurus_rex_Sue.jpg) — Auteur inconnu — ?
+- [`Triceratops_Skeleton_-_National_Museum_of_Natural_History_(14611729991)a.jpg`](https://commons.wikimedia.org/wiki/File:Triceratops_Skeleton_-_National_Museum_of_Natural_History_(14611729991)a.jpg) — Auteur inconnu — ?
+- [`Stegosaurus_in_the_Natural_History_Museum_London.jpg`](https://commons.wikimedia.org/wiki/File:Stegosaurus_in_the_Natural_History_Museum_London.jpg) — Auteur inconnu — ?
+- [`LACM_Velociraptor_mongoliensis_cast_01.jpg`](https://commons.wikimedia.org/wiki/File:LACM_Velociraptor_mongoliensis_cast_01.jpg) — Auteur inconnu — ?
+- [`Archaeopteryx_lithographica_(Berlin_specimen).jpg`](https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_(Berlin_specimen).jpg) — Auteur inconnu — ?
+
