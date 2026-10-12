@@ -39,21 +39,22 @@ questions:
           C: "Ant"
           D: "Bumblebee"
     difficulty: EASY
-  - text: "En quoi se transforme une chenille ?"
+  - text: "Quel papillon aux ailes jaunes et noires, posé sur une fleur, voit-on sur cette image ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Papilio_machaon_Mitterbach_01.jpg?width=800
     answers:
-      A: "Papillon"
-      B: "Coccinelle"
-      C: "Libellule"
-      D: "Abeille"
+      A: "Le machaon"
+      B: "Le monarque"
+      C: "Le paon du jour"
+      D: "Le citron"
     correctAnswer: A
     translations:
       en:
-        text: "What does a caterpillar turn into?"
+        text: "Which butterfly with yellow and black wings, perched on a flower, can be seen in this image?"
         answers:
-          A: "Butterfly"
-          B: "Ladybug"
-          C: "Dragonfly"
-          D: "Bee"
+          A: "The swallowtail"
+          B: "The monarch"
+          C: "The peacock butterfly"
+          D: "The brimstone"
     difficulty: EASY
   - text: "Combien de pattes possède un insecte adulte ?"
     answers:
@@ -71,21 +72,22 @@ questions:
           C: "8"
           D: "12"
     difficulty: EASY
-  - text: "Quel petit insecte rouge à points noirs est un allié du jardinier ?"
+  - text: "Quel insecte rouge à points noirs est posé sur cette feuille ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Coccinella_septempunctata_Luc_Viatour.JPG?width=800
     answers:
-      A: "Doryphore"
-      B: "Punaise"
-      C: "Hanneton"
-      D: "Coccinelle"
+      A: "Le doryphore"
+      B: "La punaise"
+      C: "Le hanneton"
+      D: "La coccinelle"
     correctAnswer: D
     translations:
       en:
-        text: "Which small red insect with black spots is a gardener's ally?"
+        text: "Which red insect with black spots is perched on this leaf?"
         answers:
-          A: "Colorado potato beetle"
-          B: "Stink bug"
-          C: "June bug"
-          D: "Ladybug"
+          A: "The Colorado potato beetle"
+          B: "The stink bug"
+          C: "The cockchafer"
+          D: "The ladybug"
     difficulty: EASY
   - text: "Quel insecte femelle pique pour sucer le sang ?"
     answers:
@@ -999,36 +1001,38 @@ questions:
           C: "The louse"
           D: "The termite"
     difficulty: EASY
-  - text: "Quel insecte replie ses pattes avant comme pour prier ?"
+  - text: "Quel insecte vert aux pattes avant repliées comme pour prier est photographié ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mante_religieuse_FR_2012.jpg?width=800
     answers:
-      A: "La libellule"
+      A: "Le phasme"
       B: "La mante religieuse"
-      C: "Le phasme"
-      D: "La cigale"
+      C: "Le criquet"
+      D: "La sauterelle"
     correctAnswer: B
     translations:
       en:
-        text: "Which insect folds its front legs as if praying?"
+        text: "Which green insect with its front legs folded as if in prayer is photographed here?"
         answers:
-          A: "The dragonfly"
+          A: "The stick insect"
           B: "The praying mantis"
-          C: "The stick insect"
-          D: "The cicada"
+          C: "The locust"
+          D: "The grasshopper"
     difficulty: MEDIUM
-  - text: "Quel insecte se camoufle en brindille ou en feuille ?"
+  - text: "Quel insecte au corps allongé, visible sur cette image, ressemble à une brindille ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Indische_Stabschrecke_Carausius_morosus_2.jpg?width=800
     answers:
-      A: "Le lucane"
+      A: "La mante religieuse"
       B: "Le phasme"
-      C: "Le bousier"
+      C: "Le lucane cerf-volant"
       D: "Le gerris"
     correctAnswer: B
     translations:
       en:
-        text: "Which insect camouflages itself as a twig or leaf?"
+        text: "Which insect with an elongated body, visible in this image, looks like a twig?"
         answers:
-          A: "The stag beetle"
+          A: "The praying mantis"
           B: "The stick insect"
-          C: "The dung beetle"
+          C: "The stag beetle"
           D: "The water strider"
     difficulty: MEDIUM
   - text: "Quel coléoptère porte de grandes mandibules en forme de bois de cerf ?"
@@ -1287,20 +1291,21 @@ questions:
           C: "Homochromy"
           D: "Aposematism"
     difficulty: HARD
-  - text: "Quel insecte est le plus rapide en vol ?"
+  - text: "Quel insecte aux quatre ailes transparentes, posé sur une tige, est le plus rapide en vol ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Anax_imperator_qtl2.jpg?width=800
     answers:
-      A: "Le bourdon"
-      B: "La mouche domestique"
-      C: "Le monarque"
+      A: "La demoiselle"
+      B: "L'éphémère"
+      C: "Le moustique"
       D: "La libellule"
     correctAnswer: D
     translations:
       en:
-        text: "Which insect is the fastest in flight?"
+        text: "Which insect with four transparent wings, perched on a stem, is the fastest in flight?"
         answers:
-          A: "The bumblebee"
-          B: "The housefly"
-          C: "The monarch"
+          A: "The damselfly"
+          B: "The mayfly"
+          C: "The mosquito"
           D: "The dragonfly"
     difficulty: HARD
   - text: "Quel insecte social cultive un champignon dans son nid pour se nourrir ?"

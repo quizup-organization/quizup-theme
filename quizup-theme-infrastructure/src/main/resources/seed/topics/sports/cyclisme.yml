@@ -23,7 +23,7 @@ questions:
           C: "White"
           D: "Yellow"
     difficulty: EASY
-  - text: "Que porte le meilleur grimpeur du Tour de France ?"
+  - text: "Comme le montre ce maillot couvert de pois rouges, que porte le meilleur grimpeur du Tour de France ?"
     answers:
       A: "Le maillot vert"
       B: "Le maillot à pois"
@@ -32,12 +32,13 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What does the best climber in the Tour de France wear?"
+        text: "As shown by this jersey covered in red polka dots, what does the best climber of the Tour de France wear?"
         answers:
           A: "The green jersey"
-          B: "The polka-dot jersey"
+          B: "The polka dot jersey"
           C: "The yellow jersey"
           D: "The white jersey"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Usoa_Ostolaza_on_the_podium_for_polka_dot_jersey_of_TFIP_2024_stage_2.jpg?width=800
     difficulty: EASY
   - text: "À quoi correspond le maillot vert du Tour de France ?"
     answers:
@@ -135,7 +136,7 @@ questions:
           C: "The Tour of Flanders"
           D: "Liège-Bastogne-Liège"
     difficulty: EASY
-  - text: "Comment appelle-t-on le groupe principal des coureurs dans une course ?"
+  - text: "Cette photo montre le groupe principal des coureurs : comment appelle-t-on ce groupe ?"
     answers:
       A: "Le peloton"
       B: "L'échappée"
@@ -144,12 +145,13 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "What is the main group of riders in a race called?"
+        text: "This photo shows the main group of riders: what is this group called?"
         answers:
           A: "The peloton"
           B: "The breakaway"
           C: "The echelon"
           D: "The gruppetto"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Peloton_of_Tour_de_France_2023_in_Tourmalet.jpg?width=800
     difficulty: EASY
   - text: "Durant quel mois se déroule habituellement le Tour de France ?"
     answers:
@@ -263,7 +265,7 @@ questions:
           C: "Jacques Anquetil"
           D: "Miguel Indurain"
     difficulty: MEDIUM
-  - text: "Quel col mythique des Alpes se gravit par 21 virages ?"
+  - text: "Comme le montrent les lacets de cette photo, quel col mythique des Alpes se gravit par 21 virages ?"
     answers:
       A: "L'Alpe d'Huez"
       B: "Le col du Galibier"
@@ -272,12 +274,13 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Which legendary Alpine pass is climbed via 21 hairpin bends?"
+        text: "As shown by the hairpin bends in this photo, which legendary Alpine pass is climbed via 21 switchbacks?"
         answers:
-          A: "L'Alpe d'Huez"
+          A: "Alpe d'Huez"
           B: "Col du Galibier"
           C: "Col de l'Izoard"
           D: "Col de la Madeleine"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/TDFF24_virages_Alpe_d%27Huez.jpg?width=800
     difficulty: MEDIUM
   - text: "Quel est le col le plus célèbre des Pyrénées sur le Tour de France ?"
     answers:
@@ -311,21 +314,22 @@ questions:
           C: "A breakaway"
           D: "A split"
     difficulty: MEDIUM
-  - text: "Qu'est-ce qu'un contre-la-montre ?"
+  - text: "Ce coureur s'élance seul sur un vélo profilé : comment appelle-t-on cette épreuve chronométrée ?"
     answers:
-      A: "Une course chronométrée individuelle"
+      A: "Un contre-la-montre"
       B: "Une course par équipes"
       C: "Une étape de montagne"
       D: "Un sprint final"
     correctAnswer: A
     translations:
       en:
-        text: "What is a time trial?"
+        text: "This rider sets off alone on an aerodynamic bike: what is this timed event called?"
         answers:
-          A: "An individual timed race"
+          A: "A time trial"
           B: "A team race"
           C: "A mountain stage"
           D: "A final sprint"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jonas_Vingegaard_Time_Trial_-_Tour_de_France_2023_%28cropped%29.jpg?width=800
     difficulty: MEDIUM
   - text: "De quelle couleur est le maillot du leader du classement général de la Vuelta ?"
     answers:
@@ -1436,7 +1440,7 @@ questions:
           D: "The triathlon handlebar"
     difficulty: HARD
 
-  - text: "Sur les pentes de quelle ascension Tom Simpson est-il mort lors du Tour de France 1967 ?"
+  - text: "Comme le montre ce sommet dénudé de Provence, sur les pentes de quelle ascension Tom Simpson est-il mort lors du Tour de France 1967 ?"
     answers:
       A: "Le col du Galibier"
       B: "L'Alpe d'Huez"
@@ -1445,12 +1449,13 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "On the slopes of which climb did Tom Simpson die during the 1967 Tour de France?"
+        text: "As shown by this bare Provençal summit, on the slopes of which climb did Tom Simpson die during the 1967 Tour de France?"
         answers:
           A: "Col du Galibier"
           B: "Alpe d'Huez"
           C: "Mont Ventoux"
           D: "Puy de Dôme"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mont_Ventoux_jt01.jpg?width=800
     difficulty: EXPERT
 
   - text: "En quelle année le Tour de France a-t-il gravi le mont Ventoux pour la première fois ?"

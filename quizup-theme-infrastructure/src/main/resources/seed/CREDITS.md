@@ -687,111 +687,251 @@ Mikael Häggström, M.D. — CC BY-SA 4.0
 ## Tennis (`tennis.yml`)
 
 - [`Court Philippe-Chatrier 2023.jpg`](https://commons.wikimedia.org/wiki/File:Court_Philippe-Chatrier_2023.jpg) — Remi Mathis — CC BY-SA 4.0
+- [`Suzanne Lenglen Court, Roland Garros, 2 June 2019.jpg`](https://commons.wikimedia.org/wiki/File:Suzanne_Lenglen_Court,_Roland_Garros,_2_June_2019.jpg) — Benh LIEU SONG (Flickr) — CC BY-SA 2.0
+- [`Centre Court, 28 March 2012.jpg`](https://commons.wikimedia.org/wiki/File:Centre_Court,_28_March_2012.jpg) — Daniel from United Kingdom — CC BY 2.0
+- [`Tennis ball 01.jpg`](https://commons.wikimedia.org/wiki/File:Tennis_ball_01.jpg) — Fcb981 at English Wikipedia — CC BY 2.5
+- [`Flickr - Carine06 - Djokovic overhead.jpg`](https://commons.wikimedia.org/wiki/File:Flickr_-_Carine06_-_Djokovic_overhead.jpg) — Carine06 from UK — CC BY-SA 2.0
+- [`Coupe des Mousquetaires (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Coupe_des_Mousquetaires_(cropped).jpg) — Chabe01 (derivative work: Kacir) — CC BY-SA 4.0
 
 ## Formule 1 (`formule-1.yml`)
 
 - [`2017 FIA Masters Historic Formula One Championship, Circuit Gilles Villeneuve (37994472814).jpg`](https://commons.wikimedia.org/wiki/File:2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_Gilles_Villeneuve_(37994472814).jpg) — https://www.flickr.com/photos/steve-melnyk/ — CC BY 2.0
+- [`Monza banking 2003.JPG`](https://commons.wikimedia.org/wiki/File:Monza_banking_2003.JPG) — Dino246 — Public domain
+- [`Kurve Eau Rouge-Raidillon.jpg`](https://commons.wikimedia.org/wiki/File:Kurve_Eau_Rouge-Raidillon.jpg) — Cutkiller2018 — CC BY-SA 4.0
+- [`Monaco Harbour on F1 RaceDay (27333999194).jpg`](https://commons.wikimedia.org/wiki/File:Monaco_Harbour_on_F1_RaceDay_(27333999194).jpg) — 35mmMan — CC BY 2.0
+- [`ScheckterJody1976-07-31Tyrrell-FordP34.jpg`](https://commons.wikimedia.org/wiki/File:ScheckterJody1976-07-31Tyrrell-FordP34.jpg) — Lothar Spurzem — CC BY-SA 2.0 de
+- [`Ferrari 312T (19817663389).jpg`](https://commons.wikimedia.org/wiki/File:Ferrari_312T_(19817663389).jpg) — Neil — CC BY 2.0
 
 ## Rugby (`rugby.yml`)
 
 - [`Fiji national rugby union team, 2013 IRB Pacific Nations Cup Champions.jpg`](https://commons.wikimedia.org/wiki/File:Fiji_national_rugby_union_team,_2013_IRB_Pacific_Nations_Cup_Champions.jpg) — Dɐ — CC0
+- [`Rhino Rugby Ball (4022791854).jpg`](https://commons.wikimedia.org/wiki/File:Rhino_Rugby_Ball_(4022791854).jpg) — Vegansoldier — CC BY-SA 2.0
+- [`CSA Steaua București - Timișoara Saracens Rugby Scrum 2017.jpg`](https://commons.wikimedia.org/wiki/File:CSA_Steaua_Bucure%C8%99ti_-_Timi%C8%99oara_Saracens_Rugby_Scrum_2017.jpg) — Gabinho — CC BY-SA 4.0
+- [`Goal posts and stand, St Ives Rugby Club, Cornwall - August 2025.jpg`](https://commons.wikimedia.org/wiki/File:Goal_posts_and_stand,_St_Ives_Rugby_Club,_Cornwall_-_August_2025.jpg) — Mutney — CC BY 4.0
+- [`Twickenham Stadium - May 2012.jpg`](https://commons.wikimedia.org/wiki/File:Twickenham_Stadium_-_May_2012.jpg) — Diliff — CC BY-SA 3.0
+- [`Murrayfield Stadium - May 2017.jpg`](https://commons.wikimedia.org/wiki/File:Murrayfield_Stadium_-_May_2017.jpg) — Cs-wolves — CC BY-SA 4.0
 
 ## Cyclisme & Tour de France (`cyclisme.yml`)
 
 - [`Peloton during Simacourbe climb of Tour de France 2024 stage 13.jpg`](https://commons.wikimedia.org/wiki/File:Peloton_during_Simacourbe_climb_of_Tour_de_France_2024_stage_13.jpg) — Hugo LUC — CC BY-SA 4.0
+- [`Peloton of Tour de France 2023 in Tourmalet.jpg`](https://commons.wikimedia.org/wiki/File:Peloton_of_Tour_de_France_2023_in_Tourmalet.jpg) — Hugo LUC — CC BY-SA 4.0
+- [`Usoa Ostolaza on the podium for polka dot jersey of TFIP 2024 stage 2.jpg`](https://commons.wikimedia.org/wiki/File:Usoa_Ostolaza_on_the_podium_for_polka_dot_jersey_of_TFIP_2024_stage_2.jpg) — Hugo LUC — CC BY-SA 4.0
+- [`TDFF24 virages Alpe d'Huez.jpg`](https://commons.wikimedia.org/wiki/File:TDFF24_virages_Alpe_d%27Huez.jpg) — MFonzatti — CC BY-SA 4.0
+- [`Jonas Vingegaard Time Trial - Tour de France 2023 (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Jonas_Vingegaard_Time_Trial_-_Tour_de_France_2023_(cropped).jpg) — Wompratte — CC BY-SA 4.0
+- [`Mont Ventoux jt01.jpg`](https://commons.wikimedia.org/wiki/File:Mont_Ventoux_jt01.jpg) — Joel Takv — CC BY-SA 2.5
 
 ## Jeux olympiques (`jeux-olympiques.yml`)
 
 - [`Atlanta, Olympic rings near stadium.jpg`](https://commons.wikimedia.org/wiki/File:Atlanta,_Olympic_rings_near_stadium.jpg) — Samuel Mann — CC BY 2.0
+- [`Olympic Park with Olympic Rings 2012.jpg`](https://commons.wikimedia.org/wiki/File:Olympic_Park_with_Olympic_Rings_2012.jpg) — Neil Thompson — CC BY-SA 2.0
+- [`Temple of Hera in Olympia.jpg`](https://commons.wikimedia.org/wiki/File:Temple_of_Hera_in_Olympia.jpg) — George Skouloudis — CC BY-SA 4.0
+- [`Panathenaic stadium Athens Greece.jpg`](https://commons.wikimedia.org/wiki/File:Panathenaic_stadium_Athens_Greece.jpg) — Jebulon — CC0
+- [`Olympic Cauldron lit at 2010 Winter Olympics opening ceremony 2.jpg`](https://commons.wikimedia.org/wiki/File:Olympic_Cauldron_lit_at_2010_Winter_Olympics_opening_ceremony_2.jpg) — Tim Hipps — Public domain
+- [`Olympic Torch 2010.jpg`](https://commons.wikimedia.org/wiki/File:Olympic_Torch_2010.jpg) — Waerfelu — CC BY 3.0
 
 ## Basketball & NBA (`basketball.yml`)
 
 - [`Basketball game in Jerusalem Israel`s new Pais Arena.jpg`](https://commons.wikimedia.org/wiki/File:Basketball_game_in_Jerusalem_Israel%60s_new_Pais_Arena.jpg) — Orenrosenfeld — CC BY-SA 4.0
+- [`Basketball hoop.jpg`](https://commons.wikimedia.org/wiki/File:Basketball_hoop.jpg) — Washington and Jefferson College — CC BY-SA 3.0
+- [`Arkansas State vs. UT Arlington men's basketball 2022 57 (free throw).jpg`](https://commons.wikimedia.org/wiki/File:Arkansas_State_vs._UT_Arlington_men%27s_basketball_2022_57_%28free_throw%29.jpg) — Michael Barera — CC BY-SA 4.0
+- [`Hunter's Pt Community Pk td (2019-04-11) 25.jpg`](https://commons.wikimedia.org/wiki/File:Hunter%27s_Pt_Community_Pk_td_%282019-04-11%29_25.jpg) — Tdorante10 — CC BY-SA 4.0
+- [`Bill Russell dribbling Boston Celtics.jpg`](https://commons.wikimedia.org/wiki/File:Bill_Russell_dribbling_Boston_Celtics.jpg) — Auteur inconnu — Public domain
+- [`Greg kelser slam dunk michigan state.jpg`](https://commons.wikimedia.org/wiki/File:Greg_kelser_slam_dunk_michigan_state.jpg) — Auteur inconnu — Public domain
 
 ## Kaamelott (`kaamelott.yml`)
 
 - [`Dédicaces du DVD du Livre VI de Kaamelott.jpg`](https://commons.wikimedia.org/wiki/File:D%C3%A9dicaces_du_DVD_du_Livre_VI_de_Kaamelott.jpg) — Mathieu BROSSAIS — CC BY 4.0
+- [`A Astier Dedicace octobre 2018.jpg`](https://commons.wikimedia.org/wiki/File:A_Astier_Dedicace_octobre_2018.jpg) — Naheu — CC BY-SA 4.0
+- [`Lionnel Astier 2012.JPG`](https://commons.wikimedia.org/wiki/File:Lionnel_Astier_2012.JPG) — Mireille Dubreuil — CC BY-SA 4.0
+- [`Jacques Chambon.jpg`](https://commons.wikimedia.org/wiki/File:Jacques_Chambon.jpg) — DJadca — CC BY-SA 4.0
+- [`Anne girouard cropped.jpg`](https://commons.wikimedia.org/wiki/File:Anne_girouard_cropped.jpg) — Georges Seguin — CC BY-SA 2.5
+- [`Alexandre Astier - ExoConférence.jpg`](https://commons.wikimedia.org/wiki/File:Alexandre_Astier_-_ExoConf%C3%A9rence.jpg) — Grégory Viénot — CC BY-SA 4.0
 
 ## The Office (US) (`the-office.yml`)
 
 - [`Downtown Scranton.JPG`](https://commons.wikimedia.org/wiki/File:Downtown_Scranton.JPG) — Christopher Seliga — CC BY-SA 3.0
+- [`Electric City sign daylight Scranton PA.JPG`](https://commons.wikimedia.org/wiki/File:Electric_City_sign_daylight_Scranton_PA.JPG) — Smallbones — CC0
+- [`Pennsylvania Paper & Supply Company tower.jpg`](https://commons.wikimedia.org/wiki/File:Pennsylvania_Paper_%26_Supply_Company_tower.jpg) — Daniel Case — CC BY-SA 3.0
+- [`John Krasinski 2022.jpg`](https://commons.wikimedia.org/wiki/File:John_Krasinski_2022.jpg) — Prime Video AU & NZ — CC BY 3.0
+- [`Steve Carell November 2014.jpg`](https://commons.wikimedia.org/wiki/File:Steve_Carell_November_2014.jpg) — Montclair Film Festival — CC BY 2.0
+- [`38th Annual Saturn Awards - Leslie David Baker aka Stanley from the Office (14158460045).jpg`](https://commons.wikimedia.org/wiki/File:38th_Annual_Saturn_Awards_-_Leslie_David_Baker_aka_Stanley_from_the_Office_(14158460045).jpg) — The Conmunity - Pop Culture Geek — CC BY 2.0
 
 ## La Casa de Papel (`la-casa-de-papel.yml`)
 
 - [`Casa de Papel at Patras Carnival (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Casa_de_Papel_at_Patras_Carnival_(cropped).jpg) — theodoritsis — CC BY 2.0
+- [`La casa de papel en Halloween cropped.jpg`](https://commons.wikimedia.org/wiki/File:La_casa_de_papel_en_Halloween_cropped.jpg) — ProtoplasmaKid — CC BY-SA 4.0
+- [`Fan of La casa de papel 2.jpg`](https://commons.wikimedia.org/wiki/File:Fan_of_La_casa_de_papel_2.jpg) — Tomáš Hrabec — CC BY-SA 4.0
+- [`Puerta de Alcalá, Madrid, España, 2017-05-18, DD 14.jpg`](https://commons.wikimedia.org/wiki/File:Puerta_de_Alcal%C3%A1,_Madrid,_Espa%C3%B1a,_2017-05-18,_DD_14.jpg) — Diego Delso — CC BY-SA 4.0
+- [`Banco de España (Madrid) 01.jpg`](https://commons.wikimedia.org/wiki/File:Banco_de_Espa%C3%B1a_%28Madrid%29_01.jpg) — Luis García (Zaqarbal) — CC BY-SA 3.0
+- [`Protestas en Chile 20191025 27.jpg`](https://commons.wikimedia.org/wiki/File:Protestas_en_Chile_20191025_27.jpg) — Carlos Figueroa — CC BY-SA 4.0
 
 ## James Bond (`james-bond.yml`)
 
 - [`1964 Aston Martin DB5 4.0 Front.jpg`](https://commons.wikimedia.org/wiki/File:1964_Aston_Martin_DB5_4.0_Front.jpg) — Vauxford — CC BY-SA 4.0
+- [`Aston Martin DB5 (Skyfall).jpg`](https://commons.wikimedia.org/wiki/File:Aston_Martin_DB5_(Skyfall).jpg) — DeFacto — CC BY-SA 4.0
+- [`Piz Gloria.jpg`](https://commons.wikimedia.org/wiki/File:Piz_Gloria.jpg) — Jackph — Public domain
+- [`Sean Connery as James Bond at Switzerland 1964 (two thirds crop).jpg`](https://commons.wikimedia.org/wiki/File:Sean_Connery_as_James_Bond_at_Switzerland_1964_(two_thirds_crop).jpg) — Auteur inconnu (Comet Photo AG, Zürich) — CC BY-SA 4.0
+- [`Ursula Andress Cannes 2010.jpg`](https://commons.wikimedia.org/wiki/File:Ursula_Andress_Cannes_2010.jpg) — Georges Biard — CC BY-SA 3.0
+- [`Verzasca Dam Bungee.jpg`](https://commons.wikimedia.org/wiki/File:Verzasca_Dam_Bungee.jpg) — Hollerz — CC BY-SA 3.0
 
 ## Comédies françaises (`comedies-francaises.yml`)
 
 - [`Louis de Funès 1970.jpg`](https://commons.wikimedia.org/wiki/File:Louis_de_Fun%C3%A8s_1970.jpg) — Auteur inconnu — Public domain
+- [`Gendarmerie Saint-Tropez 2012.jpg`](https://commons.wikimedia.org/wiki/File:Gendarmerie_Saint-Tropez_2012.jpg) — Jakob Montrasio — CC BY 2.0
+- [`Louis de Funès — L'Homme orchestre (1970) (recadré).jpg`](https://commons.wikimedia.org/wiki/File:Louis_de_Fun%C3%A8s_%E2%80%94_L%27Homme_orchestre_%281970%29_%28recadr%C3%A9%29.jpg) — Marisa Rastellini (Mondadori Publishers) — Public domain
+- [`Bourvil, années 1940 ou 1950.png`](https://commons.wikimedia.org/wiki/File:Bourvil,_ann%C3%A9es_1940_ou_1950.png) — Auteur inconnu — Public domain
+- [`Paris Opera full frontal architecture, May 2009.jpg`](https://commons.wikimedia.org/wiki/File:Paris_Opera_full_frontal_architecture,_May_2009.jpg) — Peter Rivera — CC BY 2.0
+- [`Citroen 2CV AZ.jpg`](https://commons.wikimedia.org/wiki/File:Citroen_2CV_AZ.jpg) — Krzysztof Golik — CC BY-SA 4.0
 
 ## Bande dessinée franco-belge (`bande-dessinee-franco-belge.yml`)
 
 - [`Comic wall Asterix & Obelix, Goscinny and Uderzo. Brussels.jpg`](https://commons.wikimedia.org/wiki/File:Comic_wall_Asterix_%26_Obelix,_Goscinny_and_Uderzo._Brussels.jpg) — Auteur inconnu — CC BY-SA 3.0
+- [`Comic Mural Tintin, Hergé, Brussels.jpg`](https://commons.wikimedia.org/wiki/File:Comic_Mural_Tintin,_Herg%C3%A9,_Brussels.jpg) — Ferran Cornellà — CC BY-SA 3.0
+- [`Comic Wall Lucky Luke, Morris. Brussels.jpg`](https://commons.wikimedia.org/wiki/File:Comic_Wall_Lucky_Luke,_Morris._Brussels.jpg) — Ferran Cornellà — CC BY-SA 3.0
+- [`Comic wall Blake & Mortimer 4. Edgar P. Jacobs. Brussels.jpg`](https://commons.wikimedia.org/wiki/File:Comic_wall_Blake_%26_Mortimer_4._Edgar_P._Jacobs._Brussels.jpg) — Ferran Cornellà — CC BY-SA 3.0
+- [`Statue Hergé Louvain-la-Neuve.jpg`](https://commons.wikimedia.org/wiki/File:Statue_Herg%C3%A9_Louvain-la-Neuve.jpg) — Delsaut — CC BY-SA 4.0
+- [`Smurfs mural-Brussels.jpg`](https://commons.wikimedia.org/wiki/File:Smurfs_mural-Brussels.jpg) — Haggis MacHaggis — CC0
 
 ## Chansons françaises (`chansons-francaises.yml`)
 
 - [`Edith Piaf zingt in ons land, Bestanddeelnr 914-6438.jpg`](https://commons.wikimedia.org/wiki/File:Edith_Piaf_zingt_in_ons_land,_Bestanddeelnr_914-6438.jpg) — Eric Koch for Anefo — CC0
+- [`Edith Piaf Harcourt 1950 1.jpg`](https://commons.wikimedia.org/wiki/File:Edith_Piaf_Harcourt_1950_1.jpg) — Studio Harcourt — Public domain
+- [`Jacques Brel portrait (1962).jpg`](https://commons.wikimedia.org/wiki/File:Jacques_Brel_portrait_%281962%29.jpg) — Jack de Nijs for Anefo — CC BY-SA 3.0
+- [`Charles Aznavour 1961.jpg`](https://commons.wikimedia.org/wiki/File:Charles_Aznavour_1961.jpg) — Joop van Bilsen for Anefo — CC0
+- [`Brassens TNP 1966.jpg`](https://commons.wikimedia.org/wiki/File:Brassens_TNP_1966.jpg) — Roger Pic — Public domain
+- [`Olympia Paris 6.jpg`](https://commons.wikimedia.org/wiki/File:Olympia_Paris_6.jpg) — Chabe01 — CC BY-SA 4.0
 
 ## Cuisine française (`cuisine-francaise.yml`)
 
 - [`Coq au vin, Linden.jpg`](https://commons.wikimedia.org/wiki/File:Coq_au_vin,_Linden.jpg) — Gerda Arendt — CC0
+- [`Bullabessa.jpg`](https://commons.wikimedia.org/wiki/File:Bullabessa.jpg) — Slastic — CC BY 3.0
+- [`Beef bourguignon-01.jpg`](https://commons.wikimedia.org/wiki/File:Beef_bourguignon-01.jpg) — balise42 — CC BY-SA 2.0
+- [`Ratatouille.jpg`](https://commons.wikimedia.org/wiki/File:Ratatouille.jpg) — Marcus Guimarães — CC BY 2.0
+- [`Quiche Lorraine - Massachusetts.jpg`](https://commons.wikimedia.org/wiki/File:Quiche_Lorraine_-_Massachusetts.jpg) — Daderot — CC0
+- [`Cassoulet toulousain.jpg`](https://commons.wikimedia.org/wiki/File:Cassoulet_toulousain.jpg) — Guilhem06 — Public domain
 
 ## Fromages & terroirs (`fromages-et-terroirs.yml`)
 
 - [`(20251230) Camembert cheese 01.jpg`](https://commons.wikimedia.org/wiki/File:(20251230)_Camembert_cheese_01.jpg) — Roy Zuo — CC BY-SA 4.0
+- [`Camembert1.jpg`](https://commons.wikimedia.org/wiki/File:Camembert1.jpg) — Abanima — CC BY-SA 3.0
+- [`Munster (cheese).JPG`](https://commons.wikimedia.org/wiki/File:Munster_(cheese).JPG) — Arnaud 25 — CC BY-SA 3.0
+- [`Cave à Roquefort 6.JPG`](https://commons.wikimedia.org/wiki/File:Cave_%C3%A0_Roquefort_6.JPG) — Fantafluflu — CC BY-SA 3.0
+- [`Le Banon - un fromage de chèvre AOP.jpg`](https://commons.wikimedia.org/wiki/File:Le_Banon_-_un_fromage_de_ch%C3%A8vre_AOP.jpg) — ANICAP 2 — CC BY-SA 4.0
+- [`Sainte-maure-de-touraine cut.jpg`](https://commons.wikimedia.org/wiki/File:Sainte-maure-de-touraine_cut.jpg) — Tangopaso — Public domain
 
 ## Eurovision (`eurovision.yml`)
 
 - [`Eurovision Song Contest 2025 Stage.jpg`](https://commons.wikimedia.org/wiki/File:Eurovision_Song_Contest_2025_Stage.jpg) — MrSilesian — CC0
+- [`St Jakobshalle Basel.JPG`](https://commons.wikimedia.org/wiki/File:St_Jakobshalle_Basel.JPG) — Wladyslaw Disk. — CC BY-SA 3.0
+- [`Flag of Sweden.svg`](https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg) — Jon Harald Søby and others — Public domain
+- [`Malmo arena ext 2024.jpg`](https://commons.wikimedia.org/wiki/File:Malmo_arena_ext_2024.jpg) — AR·NO — CC BY-SA 4.0
+- [`POR Lisbon Altice Arena 01.jpg`](https://commons.wikimedia.org/wiki/File:POR_Lisbon_Altice_Arena_01.jpg) — -wuppertaler — CC BY-SA 4.0
+- [`Pala Alpitour (Turin, ITA).jpg`](https://commons.wikimedia.org/wiki/File:Pala_Alpitour_(Turin,_ITA).jpg) — Rap57 — CC BY-SA 4.0
 
 ## Culture internet & memes (`culture-internet-et-memes.yml`)
 
 - [`A Shiba Inu.jpg`](https://commons.wikimedia.org/wiki/File:A_Shiba_Inu.jpg) — Nancy Wong — CC BY-SA 4.0
+- [`Shiba inu taiki.jpg`](https://commons.wikimedia.org/wiki/File:Shiba_inu_taiki.jpg) — Roberto Vasarri — Public domain
+- [`Grumpy Cat by Gage Skidmore.jpg`](https://commons.wikimedia.org/wiki/File:Grumpy_Cat_by_Gage_Skidmore.jpg) — Gage Skidmore — CC BY-SA 3.0
+- [`Cynomys ludovicianus GNP 21.jpg`](https://commons.wikimedia.org/wiki/File:Cynomys_ludovicianus_GNP_21.jpg) — Cephas — CC BY-SA 4.0
+- [`European Common Frog Rana temporaria.jpg`](https://commons.wikimedia.org/wiki/File:European_Common_Frog_Rana_temporaria.jpg) — Richard Bartz — CC BY-SA 2.5
+- [`Data center infrastructure in the United States.jpg`](https://commons.wikimedia.org/wiki/File:Data_center_infrastructure_in_the_United_States.jpg) — DOE/National Renewable Energy Laboratory (NREL) — Public domain
 
 ## Physique & grands scientifiques (`physique.yml`)
 
 - [`CERN Large Hadron Collider.jpg`](https://commons.wikimedia.org/wiki/File:CERN_Large_Hadron_Collider.jpg) — Chris Mitchell — CC BY-SA 4.0
+- [`GodfreyKneller-IsaacNewton-1689.jpg`](https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg) — Godfrey Kneller — Public domain
+- [`Albert Einstein Head.jpg`](https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head.jpg) — Orren Jack Turner — Public domain
+- [`Marie Curie c. 1920s.jpg`](https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg) — Henri Manuel — Public domain
+- [`First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg`](https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg) — Wilhelm Röntgen — Public domain
+- [`ATLAS.jpg`](https://commons.wikimedia.org/wiki/File:ATLAS.jpg) — CERN — CC BY 4.0
 
 ## Mathématiques (`mathematiques.yml`)
 
 - [`Pythagorean Theorem Proof with Algebra.png`](https://commons.wikimedia.org/wiki/File:Pythagorean_Theorem_Proof_with_Algebra.png) — Mohit Hasan — CC BY-SA 4.0
+- [`Kapitolinischer Pythagoras.jpg`](https://commons.wikimedia.org/wiki/File:Kapitolinischer_Pythagoras.jpg) — Galilea — CC BY-SA 3.0
+- [`Euklid-von-Alexandria 1.jpg`](https://commons.wikimedia.org/wiki/File:Euklid-von-Alexandria_1.jpg) — Auteur inconnu — Public domain
+- [`Golden ratio line.svg`](https://commons.wikimedia.org/wiki/File:Golden_ratio_line.svg) — Stannered — Public domain
+- [`Pythagorean theorem.svg`](https://commons.wikimedia.org/wiki/File:Pythagorean_theorem.svg) — Anynobody — CC BY-SA 3.0
+- [`Decagon.svg`](https://commons.wikimedia.org/wiki/File:Decagon.svg) — ChrisRuvolo — Public domain
 
 ## Mer & océans (`mer-et-oceans.yml`)
 
 - [`Coral (Galaxea fascicularis), mar Rojo, Egipto, 2023-04-18, DD 128.jpg`](https://commons.wikimedia.org/wiki/File:Coral_(Galaxea_fascicularis),_mar_Rojo,_Egipto,_2023-04-18,_DD_128.jpg) — Diego Delso — CC BY-SA 4.0
+- [`Anim1754 - Flickr - NOAA Photo Library.jpg`](https://commons.wikimedia.org/wiki/File:Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg) — NOAA Photo Library — Public domain
+- [`Green turtle swimming over coral reefs in Kona.jpg`](https://commons.wikimedia.org/wiki/File:Green_turtle_swimming_over_coral_reefs_in_Kona.jpg) — Brocken Inaglory — CC BY-SA 3.0
+- [`Coral Outcrop Flynn Reef.jpg`](https://commons.wikimedia.org/wiki/File:Coral_Outcrop_Flynn_Reef.jpg) — Toby Hudson — CC BY-SA 3.0
+- [`Chrysaora quinquecirrha.jpg`](https://commons.wikimedia.org/wiki/File:Chrysaora_quinquecirrha.jpg) — Antoine Taveneaux — CC BY-SA 3.0
+- [`White shark.jpg`](https://commons.wikimedia.org/wiki/File:White_shark.jpg) — Terry Goss (Pterantula) — CC BY 2.5
 
 ## Insectes & petites bêtes (`insectes.yml`)
 
 - [`Adalia bipunctata (2007-04-08).jpg`](https://commons.wikimedia.org/wiki/File:Adalia_bipunctata_(2007-04-08).jpg) — Entomart — Attribution
+- [`Papilio machaon Mitterbach 01.jpg`](https://commons.wikimedia.org/wiki/File:Papilio_machaon_Mitterbach_01.jpg) — Uoaei1 — CC BY-SA 4.0
+- [`Coccinella septempunctata Luc Viatour.JPG`](https://commons.wikimedia.org/wiki/File:Coccinella_septempunctata_Luc_Viatour.JPG) — Luc Viatour — CC BY-SA 3.0
+- [`Mante religieuse FR 2012.jpg`](https://commons.wikimedia.org/wiki/File:Mante_religieuse_FR_2012.jpg) — JLPC — CC BY-SA 3.0
+- [`Indische Stabschrecke Carausius morosus 2.jpg`](https://commons.wikimedia.org/wiki/File:Indische_Stabschrecke_Carausius_morosus_2.jpg) — Holger Krisp — CC BY 4.0
+- [`Anax imperator qtl2.jpg`](https://commons.wikimedia.org/wiki/File:Anax_imperator_qtl2.jpg) — Quartl — CC BY 3.0
 
 ## Seconde Guerre mondiale (`seconde-guerre-mondiale.yml`)
 
 - [`'D-Day' Normandy Landings, 6 June 1944 (42410920432).jpg`](https://commons.wikimedia.org/wiki/File:'D-Day'_Normandy_Landings,_6_June_1944_(42410920432).jpg) — Archives New Zealand from New Zealand — CC BY 2.0
+- [`Into the Jaws of Death 23-0455M edit.jpg`](https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg) — Robert F. Sargent, US Coast Guard — Public domain
+- [`Sir Winston S Churchill.jpg`](https://commons.wikimedia.org/wiki/File:Sir_Winston_S_Churchill.jpg) — United Nations Information Office, New York — Public domain
+- [`RIAN archive 2383 The ruins of Stalingrad.jpg`](https://commons.wikimedia.org/wiki/File:RIAN_archive_2383_The_ruins_of_Stalingrad.jpg) — Georgy Zelma (RIA Novosti archive) — CC BY-SA 3.0
+- [`T-34 tanks of 32nd tank brigade near Tula.jpg`](https://commons.wikimedia.org/wiki/File:T-34_tanks_of_32nd_tank_brigade_near_Tula.jpg) — Auteur inconnu — Public domain
+- [`Messerschmitt Me 262A at the National Museum of the USAF.jpg`](https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF.jpg) — USAF museum — Public domain
 
 ## Moyen Âge & chevaliers (`moyen-age.yml`)
 
 - [`Castle of Carcassonne.jpg`](https://commons.wikimedia.org/wiki/File:Castle_of_Carcassonne.jpg) — Krzysztof Golik — CC BY-SA 4.0
+- [`KHM Wien B 74 - Great helm of Albert von Prankh, 14th century, front.jpg`](https://commons.wikimedia.org/wiki/File:KHM_Wien_B_74_-_Great_helm_of_Albert_von_Prankh,_14th_century,_front.jpg) — Auteur inconnu — CC BY 3.0
+- [`Château de Pierrefonds exterior Oise.jpg`](https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Pierrefonds_exterior_Oise.jpg) — Jebulon — CC0
+- [`German - Sword - Walters 51497.jpg`](https://commons.wikimedia.org/wiki/File:German_-_Sword_-_Walters_51497.jpg) — German (?) — Public domain
+- [`South rose window of Chartres Cathedral.jpg`](https://commons.wikimedia.org/wiki/File:South_rose_window_of_Chartres_Cathedral.jpg) — Ludwig Schneider / Wikimedia — CC BY-SA 3.0
+- [`Chronicle of Froissart - 72 A 25 - 002r.jpg`](https://commons.wikimedia.org/wiki/File:Chronicle_of_Froissart_-_72_A_25_-_002r.jpg) — Auteur inconnu — Public domain
 
 ## Nintendo (`nintendo.yml`)
 
 - [`Game-Boy-Original.jpg`](https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg) — Auteur inconnu — Public domain
+- [`Nintendo-Switch-wJoyCons-BlRd-Standing-FL.png`](https://commons.wikimedia.org/wiki/File:Nintendo-Switch-wJoyCons-BlRd-Standing-FL.png) — Evan-Amos — Public domain
+- [`Nintendo-Wii-Remote-wNunchuk.jpg`](https://commons.wikimedia.org/wiki/File:Nintendo-Wii-Remote-wNunchuk.jpg) — Evan-Amos — Public domain
+- [`Nintendo-Entertainment-System-NES-Zapper-Gray-L.jpg`](https://commons.wikimedia.org/wiki/File:Nintendo-Entertainment-System-NES-Zapper-Gray-L.jpg) — Evan-Amos — Public domain
+- [`Nintendo-Famicom-Disk-System.jpg`](https://commons.wikimedia.org/wiki/File:Nintendo-Famicom-Disk-System.jpg) — Evan-Amos — Public domain
+- [`N64-Controller-Gray.jpg`](https://commons.wikimedia.org/wiki/File:N64-Controller-Gray.jpg) — Evan-Amos — Public domain
 
 ## E-sport & jeux en ligne (`esport.yml`)
 
 - [`GAME CITY 2019.jpg`](https://commons.wikimedia.org/wiki/File:GAME_CITY_2019.jpg) — Haselman — CC BY-SA 4.0
+- [`Katowice - Spodek by night.jpg`](https://commons.wikimedia.org/wiki/File:Katowice_-_Spodek_by_night.jpg) — Lestat (Jan Mehlich) — CC BY-SA 3.0
+- [`Cherry MX keyboard.jpg`](https://commons.wikimedia.org/wiki/File:Cherry_MX_keyboard.jpg) — Revital Salomon — CC BY-SA 4.0
+- [`LAN party in France in 2003.jpg`](https://commons.wikimedia.org/wiki/File:LAN_party_in_France_in_2003.jpg) — Syced — CC0
+- [`Crowds ramming Hall D for Opening Ceremony1.jpg`](https://commons.wikimedia.org/wiki/File:Crowds_ramming_Hall_D_for_Opening_Ceremony1.jpg) — andytb — CC BY-SA 2.0
+- [`Razer DeathAdder Elite-front oblique-ar 16to10-fs PNr°0465.jpg`](https://commons.wikimedia.org/wiki/File:Razer_DeathAdder_Elite-front_oblique-ar_16to10-fs_PNr%C2%B00465.jpg) — D-Kuru — CC BY-SA 3.0 at
 
 ## Jeux d'arcade (`jeux-arcade.yml`)
 
 - [`Borne arcade Pacman.png`](https://commons.wikimedia.org/wiki/File:Borne_arcade_Pacman.png) — Fan de Rétro — CC BY 4.0
+- [`Space Invader Cabinet.jpg`](https://commons.wikimedia.org/wiki/File:Space_Invader_Cabinet.jpg) — Scalleja — CC BY-SA 2.0
+- [`Full machine photo of the Getaway Pinball machine..JPG`](https://commons.wikimedia.org/wiki/File:Full_machine_photo_of_the_Getaway_Pinball_machine..JPG) — Furutanian — CC BY-SA 3.0
+- [`Donkey Kong arcade.jpg`](https://commons.wikimedia.org/wiki/File:Donkey_Kong_arcade.jpg) — Joshua Driggs (ZapWizard) (take photo), bayo (remove the background) — CC BY-SA 2.0
+- [`Electronics---Arcade-Machine---Joystick---Detailed---(Gentry).jpg`](https://commons.wikimedia.org/wiki/File:Electronics---Arcade-Machine---Joystick---Detailed---(Gentry).jpg) — Sole Creator and Copyright Holder: Alfred Hutter aka Gentry — Attribution
+- [`Takadanobaba Game Center Mikado front 2024-09-05.jpg`](https://commons.wikimedia.org/wiki/File:Takadanobaba_Game_Center_Mikado_front_2024-09-05.jpg) — Asanagi — CC0
 
 ## Internet & intelligence artificielle (`internet-et-ia.yml`)
 
 - [`BalticServers data center.jpg`](https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg) — BalticServers.com — CC BY-SA 3.0
+- [`Tim Berners-Lee.jpg`](https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee.jpg) — Uldis Bojārs — CC BY-SA 2.0
+- [`Alan Turing (1951).jpg`](https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg) — Elliott &amp; Fry — Public domain
+- [`Virginia Tech - data center.jpg`](https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg) — Christopher Bowns — CC BY-SA 2.0
+- [`ASIMO.jpg`](https://commons.wikimedia.org/wiki/File:ASIMO.jpg) — Corsario CL — CC BY-SA 4.0
+- [`Atlas frontview 2013.jpg`](https://commons.wikimedia.org/wiki/File:Atlas_frontview_2013.jpg) — DARPA — Public domain
 
 ## Squid Game (`squid-game.yml`)
 
 - [`Promotional event for イカゲーム (Squid Game) in Shibuya.jpg`](https://commons.wikimedia.org/wiki/File:Promotional_event_for_%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0_(Squid_Game)_in_Shibuya.jpg) — Auteur inconnu — CC0
+- [`Squid Game player cosplay, Shibuya Halloween 2021 (October 31).jpg`](https://commons.wikimedia.org/wiki/File:Squid_Game_player_cosplay,_Shibuya_Halloween_2021_(October_31).jpg) — Dick Thomas Johnson — CC BY 2.0
+- [`Cosplay of Squid Game Guards at Sutera Cosplay Fest 2021.jpg`](https://commons.wikimedia.org/wiki/File:Cosplay_of_Squid_Game_Guards_at_Sutera_Cosplay_Fest_2021.jpg) — Chongkian — CC BY-SA 4.0
+- [`Supanova 2022 Squid Game.jpg`](https://commons.wikimedia.org/wiki/File:Supanova_2022_Squid_Game.jpg) — Paul Carmona — CC0
+- [`Netflix House Dallas, 2 Squid Game guards by Young-hee (full).png`](https://commons.wikimedia.org/wiki/File:Netflix_House_Dallas,_2_Squid_Game_guards_by_Young-hee_(full).png) — Violet Adazé, Netflix — CC BY 4.0
+- [`In a Squid Game costume on Halloween night 2021 in Waikiki, Hawaii.jpg`](https://commons.wikimedia.org/wiki/File:In_a_Squid_Game_costume_on_Halloween_night_2021_in_Waikiki,_Hawaii.jpg) — Flip Flops Hawaii — CC BY-SA 2.0

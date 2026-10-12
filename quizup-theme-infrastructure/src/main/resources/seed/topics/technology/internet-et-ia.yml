@@ -23,7 +23,8 @@ questions:
           C: "Web World Wide"
           D: "Wide World Web"
     difficulty: EASY
-  - text: "Qui a inventé le World Wide Web ?"
+  - text: "Quel pionnier britannique, photographié ci-dessous, a inventé le World Wide Web au CERN ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tim_Berners-Lee.jpg?width=800
     answers:
       A: "Tim Berners-Lee"
       B: "Bill Gates"
@@ -32,14 +33,15 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Who invented the World Wide Web?"
+        text: "Which British pioneer, pictured below, invented the World Wide Web at CERN?"
         answers:
           A: "Tim Berners-Lee"
           B: "Bill Gates"
           C: "Steve Jobs"
           D: "Vint Cerf"
     difficulty: EASY
-  - text: "Qui a proposé le test de Turing, destiné à évaluer la capacité d'une machine à imiter la conversation humaine ?"
+  - text: "Qui est le mathématicien britannique représenté sur cette photo, auteur du test éponyme destiné à évaluer la capacité d'une machine à imiter la conversation humaine ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Turing_%281951%29.jpg?width=800
     answers:
       A: "Marvin Minsky"
       B: "Claude Shannon"
@@ -48,7 +50,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Who proposed the Turing test, designed to assess a machine's ability to imitate human conversation?"
+        text: "Who is the British mathematician shown in this photo, author of the eponymous test designed to assess a machine's ability to imitate human conversation?"
         answers:
           A: "Marvin Minsky"
           B: "Claude Shannon"
@@ -295,7 +297,8 @@ questions:
           C: "Automatic learning"
           D: "Data storage"
     difficulty: MEDIUM
-  - text: "Qu'est-ce que le « cloud computing » ?"
+  - text: "Comme l'illustre ce centre de données, qu'est-ce que le « cloud computing » ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Virginia_Tech_-_data_center.jpg?width=800
     answers:
       A: "Un logiciel de retouche photo"
       B: "L'accès à des services informatiques via Internet"
@@ -304,9 +307,9 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What is 'cloud computing'?"
+        text: "As illustrated by this data center, what is \"cloud computing\"?"
         answers:
-          A: "Photo editing software"
+          A: "A photo editing software"
           B: "Access to IT services via the Internet"
           C: "A type of network cable"
           D: "An email protocol"
@@ -951,7 +954,8 @@ questions:
           C: "Poker"
           D: "Checkers"
     difficulty: EASY
-  - text: "Quel constructeur japonais a développé le robot humanoïde ASIMO ?"
+  - text: "Quel constructeur japonais a développé le robot humanoïde ASIMO, visible sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/ASIMO.jpg?width=800
     answers:
       A: "Toyota"
       B: "Honda"
@@ -960,7 +964,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which Japanese manufacturer developed the humanoid robot ASIMO?"
+        text: "Which Japanese manufacturer developed the humanoid robot ASIMO, visible in this photo?"
         answers:
           A: "Toyota"
           B: "Honda"
@@ -1303,7 +1307,8 @@ questions:
           C: "ILOVEYOU"
           D: "Code Red"
     difficulty: HARD
-  - text: "Quel robot bipède de Boston Dynamics est célèbre pour ses saltations et ses backflips ?"
+  - text: "Quel robot bipède de Boston Dynamics, montré sur cette image, est célèbre pour ses saltations et ses backflips ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Atlas_frontview_2013.jpg?width=800
     answers:
       A: "Curiosity"
       B: "Pepper"
@@ -1312,7 +1317,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which Boston Dynamics bipedal robot is famous for its jumps and backflips?"
+        text: "Which bipedal robot from Boston Dynamics, shown in this image, is famous for its jumps and backflips?"
         answers:
           A: "Curiosity"
           B: "Pepper"

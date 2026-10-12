@@ -103,7 +103,8 @@ questions:
           C: "A shortened link"
           D: "A photo filter"
     difficulty: EASY
-  - text: "Quelle race de chien est la vedette du célèbre meme « Doge » ?"
+  - text: "Comme sur cette photo, quelle race de chien au regard devenu culte est la vedette du célèbre meme « Doge » ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Shiba_inu_taiki.jpg?width=800
     answers:
       A: "Un corgi"
       B: "Un husky"
@@ -112,7 +113,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which dog breed stars in the famous \"Doge\" meme?"
+        text: "As in this photo, which breed of dog with a now-iconic gaze stars in the famous \"Doge\" meme?"
         answers:
           A: "A corgi"
           B: "A husky"
@@ -135,7 +136,8 @@ questions:
           C: "Take On Me by a-ha"
           D: "Sweet Dreams by Eurythmics"
     difficulty: MEDIUM
-  - text: "Quel est le vrai nom de Grumpy Cat, la chatte grognon devenue une star des memes ?"
+  - text: "Cette chatte au regard grognon, star des memes, est Grumpy Cat : quel est son vrai nom ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Grumpy_Cat_by_Gage_Skidmore.jpg?width=800
     answers:
       A: "Maru"
       B: "Lil Bub"
@@ -144,7 +146,7 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "What is the real name of Grumpy Cat, the grumpy cat who became a meme star?"
+        text: "This grumpy-looking cat, a meme star, is Grumpy Cat: what is her real name?"
         answers:
           A: "Maru"
           B: "Lil Bub"
@@ -215,7 +217,8 @@ questions:
           C: "All My Answers"
           D: "Answer Me Again"
     difficulty: MEDIUM
-  - text: "Le meme « Dramatic Chipmunk » met en scène quel animal en réalité ?"
+  - text: "Sur cette photo, quel rongeur est en réalité la vedette du meme « Dramatic Chipmunk » ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cynomys_ludovicianus_GNP_21.jpg?width=800
     answers:
       A: "Un chien de prairie"
       B: "Une marmotte"
@@ -224,7 +227,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "The \"Dramatic Chipmunk\" meme actually features which animal?"
+        text: "In this photo, which rodent actually stars in the \"Dramatic Chipmunk\" meme?"
         answers:
           A: "A prairie dog"
           B: "A marmot"
@@ -343,7 +346,8 @@ questions:
           C: "2008"
           D: "2014"
     difficulty: EXPERT
-  - text: "Qui a créé le personnage de Pepe the Frog en 2005 ?"
+  - text: "Cette grenouille photographiée évoque Pepe : quel dessinateur a créé le personnage de meme en 2005 ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/European_Common_Frog_Rana_temporaria.jpg?width=800
     answers:
       A: "Chris Torres"
       B: "David Firth"
@@ -352,7 +356,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Who created the character Pepe the Frog in 2005?"
+        text: "This photographed frog resembles Pepe: which artist created the meme character in 2005?"
         answers:
           A: "Chris Torres"
           B: "David Firth"
@@ -1511,7 +1515,8 @@ questions:
           C: "Snapster"
           D: "Burbn"
     difficulty: EXPERT
-  - text: "Quel ver informatique a paralysé une partie d'Internet en 1988 ?"
+  - text: "Quel ver informatique, qui a paralysé une partie des serveurs comme ceux de cette image, a frappé Internet en 1988 ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Data_center_infrastructure_in_the_United_States.jpg?width=800
     answers:
       A: "Le ver ILOVEYOU"
       B: "Le ver Morris"
@@ -1520,7 +1525,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which computer worm crippled part of the Internet in 1988?"
+        text: "Which computer worm, which crippled some servers like those in this image, hit the Internet in 1988?"
         answers:
           A: "The ILOVEYOU worm"
           B: "The Morris worm"

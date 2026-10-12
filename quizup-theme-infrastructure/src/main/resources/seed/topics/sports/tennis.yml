@@ -24,7 +24,8 @@ questions:
           D: "1"
     difficulty: EASY
 
-  - text: "Sur quelle surface se joue le tournoi de Roland-Garros ?"
+  - text: "Comme le montre cette vue du court Suzanne-Lenglen, sur quelle surface se joue le tournoi de Roland-Garros ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Suzanne_Lenglen_Court%2C_Roland_Garros%2C_2_June_2019.jpg?width=800
     answers:
       A: "Gazon"
       B: "Terre battue"
@@ -33,7 +34,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "On which surface is the Roland-Garros tournament played?"
+        text: "As shown in this view of the Suzanne-Lenglen court, what surface is the Roland-Garros tournament played on?"
         answers:
           A: "Grass"
           B: "Clay"
@@ -41,7 +42,8 @@ questions:
           D: "Carpet"
     difficulty: EASY
 
-  - text: "Sur quelle surface se joue le tournoi de Wimbledon ?"
+  - text: "Comme le montre cette photo prise à Wimbledon, sur quelle surface se joue ce tournoi du Grand Chelem ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Centre_Court%2C_28_March_2012.jpg?width=800
     answers:
       A: "Gazon"
       B: "Terre battue"
@@ -50,7 +52,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "On which surface is the Wimbledon tournament played?"
+        text: "As shown in this photo taken at Wimbledon, what surface is this Grand Slam tournament played on?"
         answers:
           A: "Grass"
           B: "Clay"
@@ -984,7 +986,8 @@ questions:
           C: "Lindsay Davenport"
           D: "Jennifer Capriati"
     difficulty: EASY
-  - text: "De quelle couleur sont traditionnellement les balles de tennis ?"
+  - text: "De quelle couleur sont traditionnellement les balles de tennis, comme celle visible sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tennis_ball_01.jpg?width=800
     answers:
       A: "Jaunes"
       B: "Oranges"
@@ -993,7 +996,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "What color are tennis balls traditionally?"
+        text: "What color are tennis balls traditionally, like the one visible in this photo?"
         answers:
           A: "Yellow"
           B: "Orange"
@@ -1208,7 +1211,8 @@ questions:
           C: "The Davis Cup"
           D: "The Fed Cup"
     difficulty: MEDIUM
-  - text: "Qu'appelle-t-on un « smash » au tennis ?"
+  - text: "Comme le montre cette image, qu'appelle-t-on un « smash » au tennis ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Carine06_-_Djokovic_overhead.jpg?width=800
     answers:
       A: "Un service raté"
       B: "Un coup entre les jambes"
@@ -1217,12 +1221,12 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "What is a 'smash' in tennis?"
+        text: "As shown in this image, what is a \"smash\" in tennis?"
         answers:
           A: "A missed serve"
           B: "A shot between the legs"
           C: "A hard shot hit above the head"
-          D: "A ball that touches the net"
+          D: "A ball that hits the net"
     difficulty: MEDIUM
   - text: "Quelle surface de court est généralement considérée comme la plus lente ?"
     answers:
@@ -1320,7 +1324,8 @@ questions:
           C: "Ivan Lendl"
           D: "Jimmy Connors"
     difficulty: HARD
-  - text: "Comment s'appelle le trophée remis au vainqueur masculin de Roland-Garros ?"
+  - text: "Quel trophée, visible sur cette photo, est remis au vainqueur masculin de Roland-Garros ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Coupe_des_Mousquetaires_%28cropped%29.jpg?width=800
     answers:
       A: "La Coupe des Mousquetaires"
       B: "La Coupe Davis"
@@ -1329,7 +1334,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "What is the name of the trophy awarded to the men's singles winner at Roland-Garros?"
+        text: "Which trophy, visible in this photo, is awarded to the men's winner of Roland-Garros?"
         answers:
           A: "The Coupe des Mousquetaires"
           B: "The Davis Cup"

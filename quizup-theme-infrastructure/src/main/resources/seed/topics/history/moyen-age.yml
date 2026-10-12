@@ -135,21 +135,22 @@ questions:
           C: "Charles Martel"
           D: "Charlemagne"
     difficulty: EASY
-  - text: "Quelle pièce d'armure protège la tête du chevalier ?"
+  - text: "Quelle pièce d'armure, visible sur cette image, protège entièrement la tête du chevalier ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/KHM_Wien_B_74_-_Great_helm_of_Albert_von_Prankh%2C_14th_century%2C_front.jpg?width=800
     answers:
       A: "Le haubert"
-      B: "La cotte de mailles"
+      B: "Le gorgerin"
       C: "Le heaume"
-      D: "Le gorgerin"
+      D: "La genouillère"
     correctAnswer: C
     translations:
       en:
-        text: "Which piece of armor protects a knight's head?"
+        text: "Which piece of armor, visible in this image, fully protects the knight's head?"
         answers:
           A: "The hauberk"
-          B: "The chainmail"
+          B: "The gorget"
           C: "The helm"
-          D: "The gorget"
+          D: "The knee guard"
     difficulty: EASY
   - text: "Quelle bataille de 1415 a été remportée par les Anglais pendant la guerre de Cent Ans ?"
     answers:
@@ -199,21 +200,22 @@ questions:
           C: "Hugh Capet"
           D: "Louis IX"
     difficulty: EASY
-  - text: "Comment appelle-t-on la résidence fortifiée d'un seigneur au Moyen Âge ?"
+  - text: "Quel château fort de l'Oise, restauré par Viollet-le-Duc au XIXe siècle, est visible sur cette photographie ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A2teau_de_Pierrefonds_exterior_Oise.jpg?width=800
     answers:
-      A: "Le palais"
-      B: "Le château fort"
-      C: "La villa"
-      D: "La basilique"
+      A: "Le château de Vincennes"
+      B: "Le château de Pierrefonds"
+      C: "Le château de Coucy"
+      D: "Le château de Bonaguil"
     correctAnswer: B
     translations:
       en:
-        text: "What is the fortified residence of a lord in the Middle Ages called?"
+        text: "Which fortified castle in the Oise, restored by Viollet-le-Duc in the 19th century, is visible in this photograph?"
         answers:
-          A: "The palace"
-          B: "The castle"
-          C: "The villa"
-          D: "The basilica"
+          A: "The Château de Vincennes"
+          B: "The Château de Pierrefonds"
+          C: "The Château de Coucy"
+          D: "The Château de Bonaguil"
     difficulty: EASY
   - text: "Quel roi de France a remporté la bataille de Bouvines en 1214 ?"
     answers:
@@ -391,21 +393,22 @@ questions:
           C: "The Louvre"
           D: "Carcassonne"
     difficulty: MEDIUM
-  - text: "Comment appelle-t-on la tour principale d'un château fort ?"
+  - text: "Sur cette photographie d'une épée médiévale, comment appelle-t-on la partie transversale entre la lame et la poignée ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/German_-_Sword_-_Walters_51497.jpg?width=800
     answers:
-      A: "Le beffroi"
-      B: "Le donjon"
-      C: "La courtine"
-      D: "La poterne"
+      A: "Le pommeau"
+      B: "La garde"
+      C: "Le fourreau"
+      D: "La fusée"
     correctAnswer: B
     translations:
       en:
-        text: "What is the main tower of a castle called?"
+        text: "In this photograph of a medieval sword, what is the crosspiece between the blade and the handle called?"
         answers:
-          A: "The belfry"
-          B: "The keep"
-          C: "The curtain wall"
-          D: "The postern"
+          A: "The pommel"
+          B: "The guard"
+          C: "The scabbard"
+          D: "The grip"
     difficulty: MEDIUM
   - text: "En quelle année Charlemagne est-il mort à Aix-la-Chapelle ?"
     answers:
@@ -695,7 +698,8 @@ questions:
           C: "Louis XI"
           D: "Philip the Fair"
     difficulty: EXPERT
-  - text: "Quel chroniqueur a raconté la guerre de Cent Ans dans ses « Chroniques » ?"
+  - text: "Le manuscrit enluminé montré sur cette image contient les « Chroniques » de quel auteur médiéval ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Chronicle_of_Froissart_-_72_A_25_-_002r.jpg?width=800
     answers:
       A: "Jean de Joinville"
       B: "Jean Froissart"
@@ -704,7 +708,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which chronicler recounted the Hundred Years' War in his \"Chronicles\"?"
+        text: "The illuminated manuscript shown in this image contains the \"Chronicles\" of which medieval author?"
         answers:
           A: "Jean de Joinville"
           B: "Jean Froissart"
@@ -1317,7 +1321,8 @@ questions:
           D: "Rococo"
     difficulty: HARD
 
-  - text: "Comment appelle-t-on le grand vitrail circulaire des cathédrales gothiques ?"
+  - text: "Comment appelle-t-on le grand vitrail circulaire orné de motifs, visible sur cette image d'une cathédrale gothique ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/South_rose_window_of_Chartres_Cathedral.jpg?width=800
     answers:
       A: "La rosace"
       B: "Le tympan"
@@ -1326,7 +1331,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "What is the large circular stained-glass window of Gothic cathedrals called?"
+        text: "What is the large circular stained-glass window decorated with patterns, visible in this image of a Gothic cathedral, called?"
         answers:
           A: "The rose window"
           B: "The tympanum"

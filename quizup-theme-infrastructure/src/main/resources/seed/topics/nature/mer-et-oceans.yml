@@ -23,7 +23,8 @@ questions:
           C: "The Indian Ocean"
           D: "The Pacific Ocean"
     difficulty: EASY
-  - text: "Quel est le plus grand animal vivant sur Terre ?"
+  - text: "L'image montre le plus grand animal vivant sur Terre : de quel animal s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg?width=800
     answers:
       A: "L'éléphant d'Afrique"
       B: "Le grand requin blanc"
@@ -32,7 +33,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "What is the largest living animal on Earth?"
+        text: "The image shows the largest living animal on Earth: which animal is it?"
         answers:
           A: "The African elephant"
           B: "The great white shark"
@@ -87,7 +88,8 @@ questions:
           C: "The Arctic Ocean"
           D: "The Pacific Ocean"
     difficulty: EASY
-  - text: "Où les tortues marines viennent-elles pondre leurs œufs ?"
+  - text: "L'image montre une tortue marine : où vient-elle pondre ses œufs ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Green_turtle_swimming_over_coral_reefs_in_Kona.jpg?width=800
     answers:
       A: "Dans les abysses"
       B: "Sur les plages de sable"
@@ -96,7 +98,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Where do sea turtles come to lay their eggs?"
+        text: "The image shows a sea turtle: where does it come to lay its eggs?"
         answers:
           A: "In the deep sea"
           B: "On sandy beaches"
@@ -263,7 +265,8 @@ questions:
           C: "Deep currents"
           D: "Wind"
     difficulty: MEDIUM
-  - text: "Quels organismes construisent les récifs coralliens ?"
+  - text: "L'image montre un récif corallien : quels organismes construisent ces structures ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Coral_Outcrop_Flynn_Reef.jpg?width=800
     answers:
       A: "Des éponges"
       B: "Des algues unicellulaires"
@@ -272,10 +275,10 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which organisms build coral reefs?"
+        text: "The image shows a coral reef: which organisms build these structures?"
         answers:
           A: "Sponges"
-          B: "Unicellular algae"
+          B: "Single-celled algae"
           C: "Crustaceans"
           D: "Polyps"
     difficulty: MEDIUM
@@ -551,7 +554,8 @@ questions:
           C: "The giant jellyfish"
           D: "The giant lobster"
     difficulty: HARD
-  - text: "À quel embranchement appartiennent les méduses ?"
+  - text: "L'image montre une méduse : à quel embranchement appartient-elle ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Chrysaora_quinquecirrha.jpg?width=800
     answers:
       A: "Les mollusques"
       B: "Les cnidaires"
@@ -560,7 +564,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "To which phylum do jellyfish belong?"
+        text: "The image shows a jellyfish: to which phylum does it belong?"
         answers:
           A: "Mollusks"
           B: "Cnidarians"
@@ -647,7 +651,8 @@ questions:
           C: "Statocysts"
           D: "Ampullae of Lorenzini"
     difficulty: EXPERT
-  - text: "Quel est le nom scientifique du grand requin blanc ?"
+  - text: "L'image montre un grand requin blanc : quel est son nom scientifique ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/White_shark.jpg?width=800
     answers:
       A: "Galeocerdo cuvier"
       B: "Carcharodon carcharias"
@@ -656,7 +661,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What is the scientific name of the great white shark?"
+        text: "The image shows a great white shark: what is its scientific name?"
         answers:
           A: "Galeocerdo cuvier"
           B: "Carcharodon carcharias"

@@ -23,7 +23,7 @@ questions:
           C: "China"
           D: "South Korea"
     difficulty: EASY
-  - text: "Quel est le numéro de joueur de Seong Gi-hun ?"
+  - text: "Quel numéro de joueur apparaît dans le dos du joueur au centre de cette photo ?"
     answers:
       A: "001"
       B: "067"
@@ -32,12 +32,13 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "What is Seong Gi-hun's player number?"
+        text: "What player number appears on the back of the player in the center of this photo?"
         answers:
           A: "001"
           B: "067"
           C: "456"
           D: "218"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Squid_Game_player_cosplay%2C_Shibuya_Halloween_2021_%28October_31%29.jpg?width=800"
     difficulty: EASY
   - text: "Quel jeu d'enfance constitue la première épreuve de la série ?"
     answers:
@@ -119,7 +120,7 @@ questions:
           C: "Lee Jung-jae"
           D: "O Yeong-su"
     difficulty: EASY
-  - text: "De quelle couleur sont les combinaisons des gardes ?"
+  - text: "Sur ce cosplay d'un garde, de quelle couleur est la combinaison ?"
     answers:
       A: "Rose"
       B: "Bleu"
@@ -128,12 +129,13 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "What color are the guards' jumpsuits?"
+        text: "On this guard cosplay, what color is the jumpsuit?"
         answers:
           A: "Pink"
           B: "Blue"
           C: "Green"
           D: "Yellow"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Supanova_2022_Squid_Game.jpg?width=800"
     difficulty: EASY
   - text: "Quel joueur porte le numéro 001 ?"
     answers:
@@ -663,21 +665,22 @@ questions:
           C: "240"
           D: "111"
     difficulty: EXPERT
-  - text: "Quel symbole orne le masque des soldats armés ?"
+  - text: "Sur cette photo de deux gardes en cosplay, quels symboles ornent leurs masques noirs ?"
     answers:
-      A: "Le cercle"
-      B: "Le carré"
-      C: "Le triangle"
-      D: "L'étoile"
+      A: "Deux triangles"
+      B: "Un triangle et un cercle"
+      C: "Un cercle et un carré"
+      D: "Deux carrés"
     correctAnswer: C
     translations:
       en:
-        text: "What symbol adorns the masks of the armed soldiers?"
+        text: "In this photo of two guards in cosplay, what symbols adorn their black masks?"
         answers:
-          A: "The circle"
-          B: "The square"
-          C: "The triangle"
-          D: "The star"
+          A: "Two triangles"
+          B: "A triangle and a circle"
+          C: "A circle and a square"
+          D: "Two squares"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cosplay_of_Squid_Game_Guards_at_Sutera_Cosplay_Fest_2021.jpg?width=800"
     difficulty: EXPERT
   - text: "Combien d'heures de visionnage la saison 1 a-t-elle cumulées sur Netflix en 28 jours ?"
     answers:
@@ -1223,7 +1226,7 @@ questions:
           C: "Six"
           D: "Thirty"
     difficulty: EASY
-  - text: "Quel est le nom de la poupée géante de la première épreuve ?"
+  - text: "Quel est le nom de la poupée géante visible sur cette photo de reconstitution du premier jeu ?"
     answers:
       A: "Geum-ja"
       B: "Young-hee"
@@ -1232,12 +1235,13 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What is the name of the giant doll in the first game?"
+        text: "What is the name of the giant doll visible in this photo from the reenactment of the first game?"
         answers:
           A: "Geum-ja"
           B: "Young-hee"
           C: "Jun-hee"
           D: "Mi-nyeo"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Netflix_House_Dallas%2C_2_Squid_Game_guards_by_Young-hee_%28full%29.png?width=800"
     difficulty: HARD
   - text: "Quel choix le Recruteur offre-t-il aux sans-abri dans le premier épisode de la saison 2 ?"
     answers:
@@ -1255,21 +1259,22 @@ questions:
           C: "A coffee or a cigarette"
           D: "A bread or a scratch card"
     difficulty: MEDIUM
-  - text: "De quelle couleur sont les masques des gardes ?"
+  - text: "Sur cette photo prise à Halloween, de quelle couleur est le masque de ce garde costumé ?"
     answers:
-      A: "Blancs"
-      B: "Dorés"
-      C: "Noirs"
-      D: "Rouges"
+      A: "Blanc"
+      B: "Doré"
+      C: "Noir"
+      D: "Rouge"
     correctAnswer: C
     translations:
       en:
-        text: "What color are the guards' masks?"
+        text: "In this photo taken at Halloween, what color is the mask of this costumed guard?"
         answers:
           A: "White"
           B: "Gold"
           C: "Black"
           D: "Red"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/In_a_Squid_Game_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg?width=800"
     difficulty: EASY
   - text: "Quelle première historique la saison 1 a-t-elle réalisée aux Emmy Awards 2022 ?"
     answers:

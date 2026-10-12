@@ -55,7 +55,7 @@ questions:
           C: "John le Carré"
           D: "Ian Fleming"
     difficulty: EASY
-  - text: "Quel acteur incarne James Bond dans le film James Bond 007 contre Dr No (1962) ?"
+  - text: "Cet acteur incarne James Bond dans le film James Bond 007 contre Dr No (1962) : de qui s'agit-il ?"
     answers:
       A: "Roger Moore"
       B: "Pierce Brosnan"
@@ -64,12 +64,13 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which actor plays James Bond in Dr. No (1962)?"
+        text: "This actor plays James Bond in the film Dr. No (1962): who is it?"
         answers:
           A: "Roger Moore"
           B: "Pierce Brosnan"
           C: "Sean Connery"
           D: "Timothy Dalton"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sean_Connery_as_James_Bond_at_Switzerland_1964_%28two_thirds_crop%29.jpg?width=800
     difficulty: EASY
   - text: "Quelle marque de voiture est emblématique de James Bond ?"
     answers:
@@ -295,7 +296,7 @@ questions:
           C: "Hugo Drax"
           D: "Francisco Scaramanga"
     difficulty: MEDIUM
-  - text: "Quel gadget emblématique équipe l'Aston Martin DB5 dans Goldfinger ?"
+  - text: "Cette Aston Martin DB5, vedette de Goldfinger, est équipée d'un gadget devenu culte : lequel ?"
     answers:
       A: "Un missile sous-marin"
       B: "Un laser"
@@ -304,12 +305,13 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which iconic gadget is equipped on the Aston Martin DB5 in Goldfinger?"
+        text: "This Aston Martin DB5, star of Goldfinger, is equipped with a gadget that became iconic: which one?"
         answers:
           A: "An underwater missile"
           B: "A laser"
           C: "An ejector seat"
           D: "A snow cannon"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Aston_Martin_DB5_%28Skyfall%29.jpg?width=800
     difficulty: MEDIUM
   - text: "Quelle actrice joue Moneypenny dans les films de Daniel Craig ?"
     answers:
@@ -871,7 +873,7 @@ questions:
           C: "Rowan Atkinson"
           D: "Leslie Nielsen"
     difficulty: EASY
-  - text: "Quelle actrice incarne Honey Ryder dans James Bond contre Dr No (1962) ?"
+  - text: "Cette actrice incarne Honey Ryder dans James Bond contre Dr No (1962) : qui est-ce ?"
     answers:
       A: "Ursula Andress"
       B: "Honor Blackman"
@@ -880,12 +882,13 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Which actress plays Honey Ryder in Dr. No (1962)?"
+        text: "This actress plays Honey Ryder in Dr. No (1962): who is she?"
         answers:
           A: "Ursula Andress"
           B: "Honor Blackman"
           C: "Diana Rigg"
           D: "Britt Ekland"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ursula_Andress_Cannes_2010.jpg?width=800
     difficulty: EASY
   - text: "Quel est le nom du méchant principal de Goldfinger ?"
     answers:
@@ -1143,7 +1146,7 @@ questions:
           C: "David Arnold"
           D: "Hans Zimmer"
     difficulty: MEDIUM
-  - text: "Dans quel pays se situe Piz Gloria, le repaire de Blofeld dans Au service secret de Sa Majesté ?"
+  - text: "Sur cette photo du Piz Gloria, dans quel pays se situe le repaire de Blofeld dans Au service secret de Sa Majesté ?"
     answers:
       A: "Autriche"
       B: "Suisse"
@@ -1152,12 +1155,13 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "In which country is Piz Gloria, Blofeld's hideout in On Her Majesty's Secret Service?"
+        text: "In this photo of Piz Gloria, in which country is Blofeld's hideout in On Her Majesty's Secret Service?"
         answers:
           A: "Austria"
           B: "Switzerland"
           C: "Germany"
           D: "Italy"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Piz_Gloria.jpg?width=800
     difficulty: MEDIUM
   - text: "Qui chante le générique de GoldenEye (1995) ?"
     answers:
@@ -1367,21 +1371,22 @@ questions:
           C: "Hans Zimmer"
           D: "Thomas Newman"
     difficulty: HARD
-  - text: "Dans quel pays a été tourné le saut en bungee du pré-générique de GoldenEye ?"
+  - text: "Sur ce barrage suisse a été tourné le saut en bungee du pré-générique de quel film de James Bond ?"
     answers:
-      A: "Autriche"
-      B: "Norvège"
-      C: "Suisse"
-      D: "Italie"
+      A: "Skyfall"
+      B: "Casino Royale"
+      C: "GoldenEye"
+      D: "Spectre"
     correctAnswer: C
     translations:
       en:
-        text: "In which country was the pre-title bungee jump in GoldenEye filmed?"
+        text: "This Swiss dam was used for the bungee jump in the pre-title sequence of which James Bond film?"
         answers:
-          A: "Austria"
-          B: "Norway"
-          C: "Switzerland"
-          D: "Italy"
+          A: "Skyfall"
+          B: "Casino Royale"
+          C: "GoldenEye"
+          D: "Spectre"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Verzasca_Dam_Bungee.jpg?width=800
     difficulty: HARD
   - text: "Quel acteur joue Francisco Scaramanga dans L'Homme au pistolet d'or ?"
     answers:

@@ -567,7 +567,8 @@ questions:
           C: "7"
           D: "6"
     difficulty: MEDIUM
-  - text: "Dans quelle ville polonaise se déroule l'IEM, l'un des plus grands tournois de Counter-Strike ?"
+  - text: "Cette arène en forme de soucoupe accueille chaque année l'IEM, un grand tournoi de Counter-Strike : de quelle ville s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Katowice_-_Spodek_by_night.jpg?width=800
     answers:
       A: "Gdańsk"
       B: "Cracovie"
@@ -576,10 +577,10 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "In which Polish city is IEM held, one of the biggest Counter-Strike tournaments?"
+        text: "This saucer-shaped arena hosts the IEM, a major Counter-Strike tournament, every year: which city is it in?"
         answers:
-          A: "Gdansk"
-          B: "Krakow"
+          A: "Gdańsk"
+          B: "Kraków"
           C: "Warsaw"
           D: "Katowice"
     difficulty: MEDIUM
@@ -903,7 +904,8 @@ questions:
           C: "Vimeo"
           D: "Twitch"
     difficulty: EASY
-  - text: "Quelle catégorie de clavier, dotée d'un interrupteur indépendant par touche, est très prisée des joueurs ?"
+  - text: "Cette photo montre un clavier dont chaque touche possède son propre interrupteur : de quel type de clavier s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cherry_MX_keyboard.jpg?width=800
     answers:
       A: "Le clavier virtuel"
       B: "Le clavier à membrane"
@@ -912,12 +914,12 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which type of keyboard, with an independent switch per key, is highly prized by gamers?"
+        text: "This photo shows a keyboard where each key has its own switch: what type of keyboard is it?"
         answers:
-          A: "The virtual keyboard"
-          B: "The membrane keyboard"
-          C: "The mechanical keyboard"
-          D: "The folding keyboard"
+          A: "A virtual keyboard"
+          B: "A membrane keyboard"
+          C: "A mechanical keyboard"
+          D: "A folding keyboard"
     difficulty: EASY
   - text: "Que signifie l'abréviation AFK, très utilisée par les joueurs en ligne ?"
     answers:
@@ -983,7 +985,8 @@ questions:
           C: "Faker"
           D: "Ruler"
     difficulty: EASY
-  - text: "Comment appelle-t-on un rassemblement de joueurs qui connectent leurs ordinateurs sur un même réseau local ?"
+  - text: "Cette salle remplie d'ordinateurs reliés sur un même réseau local illustre quel type de rassemblement de joueurs ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/LAN_party_in_France_in_2003.jpg?width=800
     answers:
       A: "Une game jam"
       B: "Une LAN party"
@@ -992,7 +995,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What do you call a gathering of players who connect their computers on the same local network?"
+        text: "This room full of computers connected on the same local network illustrates what type of gathering of players?"
         answers:
           A: "A game jam"
           B: "A LAN party"
@@ -1319,7 +1322,8 @@ questions:
           C: "ScreaM"
           D: "KQLY"
     difficulty: HARD
-  - text: "Quel rassemblement LAN suédois, créé en 1994, est devenu le plus grand événement de ce type au monde ?"
+  - text: "Cette foule se masse à la cérémonie d'ouverture de quel festival LAN suédois créé en 1994, le plus grand événement de ce type au monde ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Crowds_ramming_Hall_D_for_Opening_Ceremony1.jpg?width=800
     answers:
       A: "DreamHack"
       B: "The Gathering"
@@ -1328,14 +1332,15 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Which Swedish LAN gathering, created in 1994, became the largest event of its kind in the world?"
+        text: "This crowd gathers at the opening ceremony of which Swedish LAN festival created in 1994, the largest event of its kind in the world?"
         answers:
           A: "DreamHack"
           B: "The Gathering"
           C: "Assembly"
           D: "QuakeCon"
     difficulty: HARD
-  - text: "Quelle souris de la marque Razer, sortie en 2006, est l'une des plus emblématiques du gaming ?"
+  - text: "Cette souris de la marque Razer, ici en version Elite, est sortie en 2006 et compte parmi les plus emblématiques du gaming : quel est son nom ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Razer_DeathAdder_Elite-front_oblique-ar_16to10-fs_PNr%C2%B00465.jpg?width=800
     answers:
       A: "La MX518"
       B: "La G502"
@@ -1344,7 +1349,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which Razer mouse, released in 2006, is one of the most iconic in gaming?"
+        text: "This Razer mouse, here in its Elite version, was released in 2006 and is among the most iconic in gaming: what is its name?"
         answers:
           A: "The MX518"
           B: "The G502"

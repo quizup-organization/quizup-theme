@@ -39,7 +39,8 @@ questions:
           C: "the pascal"
           D: "the joule"
     difficulty: EASY
-  - text: "Qui a formulé la loi de la gravitation universelle ?"
+  - text: "Ce portrait représente le savant qui a formulé la loi de la gravitation universelle. Qui est-ce ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/GodfreyKneller-IsaacNewton-1689.jpg?width=800
     answers:
       A: "Isaac Newton"
       B: "Galilée"
@@ -48,14 +49,15 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Who formulated the law of universal gravitation?"
+        text: "This portrait shows the scientist who formulated the law of universal gravitation. Who is it?"
         answers:
           A: "Isaac Newton"
           B: "Galileo"
           C: "Albert Einstein"
           D: "Johannes Kepler"
     difficulty: EASY
-  - text: "Qui est l'auteur de la célèbre équation E = mc² ?"
+  - text: "Ce portrait montre le physicien auteur de la célèbre équation E = mc². Qui est-ce ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Einstein_Head.jpg?width=800
     answers:
       A: "Albert Einstein"
       B: "Max Planck"
@@ -64,7 +66,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Who is the author of the famous equation E = mc²?"
+        text: "This portrait shows the physicist who authored the famous equation E = mc². Who is it?"
         answers:
           A: "Albert Einstein"
           B: "Max Planck"
@@ -151,7 +153,8 @@ questions:
           C: "magnetic force"
           D: "gravity"
     difficulty: EASY
-  - text: "Qui a reçu deux prix Nobel, l'un de physique et l'autre de chimie ?"
+  - text: "Ce portrait montre la scientifique qui a reçu deux prix Nobel, l'un de physique et l'autre de chimie. Qui est-ce ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c._1920s.jpg?width=800
     answers:
       A: "Marie Curie"
       B: "Albert Einstein"
@@ -160,7 +163,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Who received two Nobel Prizes, one in physics and one in chemistry?"
+        text: "This portrait shows the scientist who received two Nobel Prizes, one in physics and one in chemistry. Who is it?"
         answers:
           A: "Marie Curie"
           B: "Albert Einstein"
@@ -1287,7 +1290,8 @@ questions:
           C: "The periscope"
           D: "The endoscope"
     difficulty: EASY
-  - text: "Qui a découvert les rayons X en 1895 ?"
+  - text: "Cette radiographie de la main d'Anna Bertha Röntgen, datée de 1895, est la première jamais réalisée. Qui a découvert les rayons X cette année-là ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg?width=800
     answers:
       A: "Marie Curie"
       B: "Wilhelm Röntgen"
@@ -1296,7 +1300,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Who discovered X-rays in 1895?"
+        text: "This X-ray of Anna Bertha Röntgen's hand, dated 1895, is the first ever taken. Who discovered X-rays that year?"
         answers:
           A: "Marie Curie"
           B: "Wilhelm Röntgen"
@@ -1591,7 +1595,8 @@ questions:
           C: "650 nm"
           D: "750 nm"
     difficulty: EXPERT
-  - text: "Quel détecteur du LHC a découvert le boson de Higgs en même temps que CMS ?"
+  - text: "Ce détecteur géant, installé sur le LHC, a découvert le boson de Higgs en 2012 aux côtés de CMS. De quel détecteur s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/ATLAS.jpg?width=800
     answers:
       A: "ALICE"
       B: "ATLAS"
@@ -1600,7 +1605,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which LHC detector discovered the Higgs boson at the same time as CMS?"
+        text: "This giant detector, installed on the LHC, discovered the Higgs boson in 2012 alongside CMS. Which detector is it?"
         answers:
           A: "ALICE"
           B: "ATLAS"

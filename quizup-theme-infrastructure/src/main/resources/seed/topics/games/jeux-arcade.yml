@@ -23,21 +23,22 @@ questions:
           C: "Squash"
           D: "Racquetball"
     difficulty: EASY
-  - text: "Dans Space Invaders, quel est l'objectif du joueur ?"
+  - text: "Cette borne d'arcade de Taito expose un classique de 1978 : quel jeu de tir spatial est-ce ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Space_Invader_Cabinet.jpg?width=800
     answers:
-      A: "Sauver une princesse"
-      B: "Construire une station spatiale"
-      C: "Collecter des pièces d'or"
-      D: "Détruire des rangées d'extraterrestres"
+      A: "Pac-Man"
+      B: "Galaga"
+      C: "Asteroids"
+      D: "Space Invaders"
     correctAnswer: D
     translations:
       en:
-        text: "In Space Invaders, what is the player's objective?"
+        text: "This Taito arcade cabinet showcases a 1978 classic: which space shooter is it?"
         answers:
-          A: "Save a princess"
-          B: "Build a space station"
-          C: "Collect gold coins"
-          D: "Destroy rows of aliens"
+          A: "Pac-Man"
+          B: "Galaga"
+          C: "Asteroids"
+          D: "Space Invaders"
     difficulty: EASY
   - text: "Dans Pac-Man, que mange le personnage jaune pour marquer des points ?"
     answers:
@@ -87,21 +88,22 @@ questions:
           C: "Cyan"
           D: "Orange"
     difficulty: EASY
-  - text: "Quel est l'objectif principal dans Tetris ?"
+  - text: "Quel appareil d'arcade, visible sur cette photo, se joue avec des batteurs et une bille métallique ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Full_machine_photo_of_the_Getaway_Pinball_machine..JPG?width=800
     answers:
-      A: "Éliminer des aliens"
-      B: "Battre un adversaire en duel"
-      C: "Sortir d'un labyrinthe"
-      D: "Compléter des lignes de blocs"
+      A: "Un baby-foot"
+      B: "Un billard"
+      C: "Un bowling"
+      D: "Un flipper"
     correctAnswer: D
     translations:
       en:
-        text: "What is the main objective in Tetris?"
+        text: "Which arcade machine, visible in this photo, is played with flippers and a metal ball?"
         answers:
-          A: "Eliminate aliens"
-          B: "Defeat an opponent in a duel"
-          C: "Escape a maze"
-          D: "Complete lines of blocks"
+          A: "A foosball table"
+          B: "A billiard table"
+          C: "A bowling alley"
+          D: "A pinball machine"
     difficulty: EASY
   - text: "Quelle entreprise japonaise a créé Pac-Man ?"
     answers:
@@ -135,7 +137,8 @@ questions:
           C: "Platformer"
           D: "Fighting"
     difficulty: EASY
-  - text: "Quel type de créature Donkey Kong est-il ?"
+  - text: "Sur cette borne de Nintendo, quel animal est le personnage principal du jeu Donkey Kong ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Donkey_Kong_arcade.jpg?width=800
     answers:
       A: "Un dinosaure"
       B: "Un gorille"
@@ -144,7 +147,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What type of creature is Donkey Kong?"
+        text: "On this Nintendo cabinet, which animal is the main character of the game Donkey Kong?"
         answers:
           A: "A dinosaur"
           B: "A gorilla"
@@ -855,7 +858,8 @@ questions:
           C: "A bonus level"
           D: "A secret character"
     difficulty: EASY
-  - text: "Quel accessoire sert à diriger la plupart des personnages sur une borne d'arcade ?"
+  - text: "Sur cette photo prise sur une borne d'arcade, quel accessoire à poignée sert à diriger le personnage ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Electronics---Arcade-Machine---Joystick---Detailed---%28Gentry%29.jpg?width=800
     answers:
       A: "Le clavier d'ordinateur"
       B: "La souris"
@@ -864,7 +868,7 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which accessory is used to control most characters on an arcade cabinet?"
+        text: "In this photo taken at an arcade cabinet, which handled accessory is used to control the character?"
         answers:
           A: "The computer keyboard"
           B: "The mouse"
@@ -1287,21 +1291,22 @@ questions:
           C: "A helicopter"
           D: "A laser cannon"
     difficulty: EASY
-  - text: "Dans quel pays la culture des salles d'arcade et des game centers s'est-elle le plus développée ?"
+  - text: "Cette façade photographiée à Tokyo est celle d'un établissement de quel type ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Takadanobaba_Game_Center_Mikado_front_2024-09-05.jpg?width=800
     answers:
-      A: "Les États-Unis"
-      B: "Le Royaume-Uni"
-      C: "L'Allemagne"
-      D: "Le Japon"
+      A: "Un cinéma"
+      B: "Un karaoké"
+      C: "Un magasin de jouets"
+      D: "Une salle d'arcade"
     correctAnswer: D
     translations:
       en:
-        text: "In which country did arcade and game center culture develop the most?"
+        text: "This storefront photographed in Tokyo belongs to which type of establishment?"
         answers:
-          A: "The United States"
-          B: "The United Kingdom"
-          C: "Germany"
-          D: "Japan"
+          A: "A cinema"
+          B: "A karaoke bar"
+          C: "A toy store"
+          D: "An arcade"
     difficulty: EASY
   - text: "Quel jeu d'arcade de Konami met en scène une grenouille qui traverse une route et une rivière ?"
     answers:

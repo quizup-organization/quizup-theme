@@ -71,21 +71,22 @@ questions:
           C: "4"
           D: "3"
     difficulty: EASY
-  - text: "Quelle est la forme traditionnelle du ballon de rugby ?"
+  - text: "Sur cette photo, quelle est la forme du ballon de rugby ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Rhino_Rugby_Ball_%284022791854%29.jpg?width=800
     answers:
       A: "Ovale"
       B: "Ronde"
       C: "Carrée"
-      D: "Allongée"
+      D: "Triangulaire"
     correctAnswer: A
     translations:
       en:
-        text: "What is the traditional shape of a rugby ball?"
+        text: "In this photo, what is the shape of the rugby ball?"
         answers:
           A: "Oval"
           B: "Round"
           C: "Square"
-          D: "Elongated"
+          D: "Triangular"
     difficulty: EASY
   - text: "Quelle équipe nationale de rugby est surnommée les All Blacks ?"
     answers:
@@ -295,7 +296,8 @@ questions:
           C: "Owen Farrell"
           D: "Jonny Wilkinson"
     difficulty: MEDIUM
-  - text: "Combien de joueurs de chaque équipe participent à une mêlée fermée ?"
+  - text: "Sur cette photo d'une mêlée, combien de joueurs compte le pack de chaque équipe ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/CSA_Steaua_Bucure%C8%99ti_-_Timi%C8%99oara_Saracens_Rugby_Scrum_2017.jpg?width=800
     answers:
       A: "5"
       B: "8"
@@ -304,7 +306,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "How many players from each team take part in a scrum?"
+        text: "In this photo of a scrum, how many players are in each team's pack?"
         answers:
           A: "5"
           B: "8"
@@ -935,7 +937,8 @@ questions:
           C: "Marseille"
           D: "Lyon"
     difficulty: EASY
-  - text: "Quelle forme ont les poteaux des buts sur un terrain de rugby ?"
+  - text: "Quelle forme ont les poteaux de rugby visibles sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Goal_posts_and_stand%2C_St_Ives_Rugby_Club%2C_Cornwall_-_August_2025.jpg?width=800
     answers:
       A: "La forme d'un U"
       B: "La forme d'un H"
@@ -944,7 +947,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What shape are the goalposts on a rugby field?"
+        text: "What shape are the rugby posts visible in this photo?"
         answers:
           A: "U-shaped"
           B: "H-shaped"
@@ -1111,7 +1114,8 @@ questions:
           C: "A scrum"
           D: "A quick lineout"
     difficulty: MEDIUM
-  - text: "Dans quel stade l'équipe d'Angleterre joue-t-elle ses matchs à domicile ?"
+  - text: "Quel stade de rugby anglais est visible sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Twickenham_Stadium_-_May_2012.jpg?width=800
     answers:
       A: "Wembley"
       B: "Twickenham"
@@ -1120,7 +1124,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "In which stadium does the England team play its home matches?"
+        text: "Which English rugby stadium is visible in this photo?"
         answers:
           A: "Wembley"
           B: "Twickenham"
@@ -1239,7 +1243,8 @@ questions:
           C: "The Bouclier de Brennus"
           D: "The Bouclier de Guillaume"
     difficulty: HARD
-  - text: "Dans quel stade l'équipe d'Écosse joue-t-elle ses matchs à domicile à Édimbourg ?"
+  - text: "Quel stade écossais de rugby est visible sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Murrayfield_Stadium_-_May_2017.jpg?width=800
     answers:
       A: "Murrayfield"
       B: "Ibrox Stadium"
@@ -1248,7 +1253,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "In which stadium does the Scotland team play its home matches in Edinburgh?"
+        text: "Which Scottish rugby stadium is visible in this photo?"
         answers:
           A: "Murrayfield"
           B: "Ibrox Stadium"

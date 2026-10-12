@@ -7,7 +7,8 @@ topic:
   category: SPORTS
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Atlanta%2C_Olympic_rings_near_stadium.jpg?width=800
 questions:
-  - text: "Combien d'anneaux figurent sur le drapeau olympique ?"
+  - text: "Combien d'anneaux compte l'emblème olympique visible sur cette image ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Olympic_Park_with_Olympic_Rings_2012.jpg?width=800
     answers:
       A: "4"
       B: "5"
@@ -16,7 +17,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "How many rings are on the Olympic flag?"
+        text: "How many rings are on the Olympic emblem shown in this image?"
         answers:
           A: "4"
           B: "5"
@@ -583,7 +584,8 @@ questions:
           C: "Abebe Bikila"
           D: "Frank Shorter"
     difficulty: HARD
-  - text: "Quel stade a accueilli les épreuves des Jeux olympiques d'Athènes en 1896 ?"
+  - text: "Quel stade, visible sur cette image, a accueilli les épreuves des Jeux olympiques d'Athènes en 1896 ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Panathenaic_stadium_Athens_Greece.jpg?width=800
     answers:
       A: "Stade olympique d'Athènes"
       B: "Stade panathénaïque"
@@ -592,7 +594,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which stadium hosted the events of the 1896 Athens Olympic Games?"
+        text: "Which stadium, shown in this image, hosted the events of the 1896 Athens Olympic Games?"
         answers:
           A: "Athens Olympic Stadium"
           B: "Panathenaic Stadium"
@@ -1143,7 +1145,8 @@ questions:
           C: "Biathlon and luge"
           D: "Skating and curling"
     difficulty: MEDIUM
-  - text: "Dans quel pays la flamme olympique est-elle allumée avant chaque édition ?"
+  - text: "Dans quel pays se trouve le site de l'allumage de la flamme olympique dont les ruines sont visibles sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Temple_of_Hera_in_Olympia.jpg?width=800
     answers:
       A: "Italie"
       B: "France"
@@ -1152,7 +1155,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "In which country is the Olympic flame lit before each edition?"
+        text: "In which country is the Olympic flame lighting site whose ruins are visible in this photo?"
         answers:
           A: "Italy"
           B: "France"
@@ -1223,7 +1226,8 @@ questions:
           C: "1968"
           D: "1960"
     difficulty: HARD
-  - text: "Qui a été la première femme à allumer la vasque olympique ?"
+  - text: "Comme lors de cette cérémonie d'ouverture, la vasque olympique est allumée : qui a été la première femme à l'allumer ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Olympic_Cauldron_lit_at_2010_Winter_Olympics_opening_ceremony_2.jpg?width=800
     answers:
       A: "Nadia Comaneci"
       B: "Cathy Freeman"
@@ -1232,7 +1236,7 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Who was the first woman to light the Olympic cauldron?"
+        text: "As in this opening ceremony, the Olympic cauldron is lit: who was the first woman to light it?"
         answers:
           A: "Nadia Comaneci"
           B: "Cathy Freeman"
@@ -1415,7 +1419,8 @@ questions:
           C: "Avery Brundage"
           D: "Pierre de Coubertin"
     difficulty: EXPERT
-  - text: "Comment la flamme olympique est-elle allumée à Olympie ?"
+  - text: "Comment la flamme olympique est-elle allumée lors de la cérémonie visible sur cette image ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Olympic_Torch_2010.jpg?width=800
     answers:
       A: "À l'aide d'un éclair capté en altitude"
       B: "Avec un briquet cérémoniel"
@@ -1424,9 +1429,9 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "How is the Olympic flame lit in Olympia?"
+        text: "How is the Olympic flame lit during the ceremony shown in this image?"
         answers:
-          A: "Using a lightning bolt captured at high altitude"
+          A: "Using lightning captured at high altitude"
           B: "With a ceremonial lighter"
           C: "By friction of two flints"
           D: "Using the sun's rays concentrated by a parabolic mirror"

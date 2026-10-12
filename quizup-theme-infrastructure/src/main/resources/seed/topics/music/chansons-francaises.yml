@@ -7,7 +7,8 @@ topic:
   category: MUSIC
   imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edith_Piaf_zingt_in_ons_land%2C_Bestanddeelnr_914-6438.jpg?width=800
 questions:
-  - text: "Qui interprète « La Vie en rose » ?"
+  - text: "Quelle chanteuse, sur ce portrait, interprète « La Vie en rose » ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Edith_Piaf_Harcourt_1950_1.jpg?width=800
     answers:
       A: "Juliette Gréco"
       B: "Édith Piaf"
@@ -16,14 +17,15 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Who performs \"La Vie en rose\"?"
+        text: "Which singer, in this portrait, performs \"La Vie en rose\"?"
         answers:
           A: "Juliette Gréco"
           B: "Édith Piaf"
           C: "Dalida"
           D: "Barbara"
     difficulty: EASY
-  - text: "Qui chante « Ne me quitte pas » ?"
+  - text: "Quel chanteur, photographié ici en 1962, interprète « Ne me quitte pas » ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jacques_Brel_portrait_%281962%29.jpg?width=800
     answers:
       A: "Georges Brassens"
       B: "Charles Aznavour"
@@ -32,7 +34,7 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Who sings \"Ne me quitte pas\"?"
+        text: "Which singer, photographed here in 1962, performs \"Ne me quitte pas\"?"
         answers:
           A: "Georges Brassens"
           B: "Charles Aznavour"
@@ -87,7 +89,8 @@ questions:
           C: "Michel Sardou"
           D: "Serge Lama"
     difficulty: EASY
-  - text: "Qui chante « La Bohème » ?"
+  - text: "Quel artiste, immortalisé sur ce portrait de 1961, chante « La Bohème » ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Aznavour_1961.jpg?width=800
     answers:
       A: "Gilbert Bécaud"
       B: "Jacques Brel"
@@ -96,14 +99,15 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Who sings \"La Bohème\"?"
+        text: "Which artist, immortalized in this 1961 portrait, sings \"La Bohème\"?"
         answers:
           A: "Gilbert Bécaud"
           B: "Jacques Brel"
           C: "Yves Montand"
           D: "Charles Aznavour"
     difficulty: EASY
-  - text: "Qui interprète « Les Copains d'abord » ?"
+  - text: "Ce chanteur à la guitare, photographié en 1966, interprète « Les Copains d'abord » : qui est-ce ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Brassens_TNP_1966.jpg?width=800
     answers:
       A: "Jacques Brel"
       B: "Léo Ferré"
@@ -112,7 +116,7 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Who performs \"Les Copains d'abord\"?"
+        text: "This singer with a guitar, photographed in 1966, performs \"Les Copains d'abord\": who is it?"
         answers:
           A: "Jacques Brel"
           B: "Léo Ferré"
@@ -503,21 +507,22 @@ questions:
           C: "Monique Morelli"
           D: "Catherine Sauvage"
     difficulty: HARD
-  - text: "Qui a composé la musique de « L'Hymne à l'amour » ?"
+  - text: "Quelle salle de music-hall du 28, boulevard des Capucines, où Édith Piaf a triomphé, reconnaît-on sur cette photographie ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Olympia_Paris_6.jpg?width=800
     answers:
-      A: "Louiguy"
-      B: "Édith Piaf"
-      C: "Michel Emer"
-      D: "Marguerite Monnot"
+      A: "Bobino"
+      B: "Le Lido"
+      C: "Le Moulin Rouge"
+      D: "L'Olympia"
     correctAnswer: D
     translations:
       en:
-        text: "Who composed the music for \"L'Hymne à l'amour\"?"
+        text: "Which music hall at 28, boulevard des Capucines, where Édith Piaf triumphed, can be recognized in this photograph?"
         answers:
-          A: "Louiguy"
-          B: "Édith Piaf"
-          C: "Michel Emer"
-          D: "Marguerite Monnot"
+          A: "Bobino"
+          B: "Le Lido"
+          C: "Le Moulin Rouge"
+          D: "L'Olympia"
     difficulty: HARD
   - text: "Qui a mis en musique « Le Pont Mirabeau » de Guillaume Apollinaire ?"
     answers:

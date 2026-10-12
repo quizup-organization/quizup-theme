@@ -23,7 +23,7 @@ questions:
           C: "Tokyo"
           D: "Moscow"
     difficulty: EASY
-  - text: "De quelle couleur sont les combinaisons que portent les braqueurs ?"
+  - text: "Sur cette photo de cosplay, de quelle couleur sont les combinaisons portées par les personnes déguisées ?"
     answers:
       A: "Noire"
       B: "Rouge"
@@ -32,14 +32,15 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "What color are the jumpsuits worn by the robbers?"
+        text: "In this cosplay photo, what color are the jumpsuits worn by the people in costume?"
         answers:
           A: "Black"
           B: "Red"
           C: "Blue"
           D: "Green"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/La_casa_de_papel_en_Halloween_cropped.jpg?width=800
     difficulty: EASY
-  - text: "Quel peintre surréaliste est représenté sur les masques des braqueurs ?"
+  - text: "Le masque porté par la personne sur cette photo représente le visage de quel peintre surréaliste ?"
     answers:
       A: "Pablo Picasso"
       B: "Joan Miró"
@@ -48,12 +49,13 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which surrealist painter is depicted on the robbers' masks?"
+        text: "The mask worn by the person in this photo represents the face of which surrealist painter?"
         answers:
           A: "Pablo Picasso"
           B: "Joan Miró"
           C: "Salvador Dalí"
           D: "Francisco Goya"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Fan_of_La_casa_de_papel_2.jpg?width=800
     difficulty: EASY
   - text: "Dans quel pays se déroule principalement l'intrigue de la série ?"
     answers:
@@ -199,7 +201,7 @@ questions:
           C: "The Madrid Stock Exchange"
           D: "The Royal Mint"
     difficulty: EASY
-  - text: "Dans quelle ville espagnole se déroule l'essentiel de l'action ?"
+  - text: "Dans quelle ville se trouve le monument représenté sur cette image, où se déroule l'essentiel de l'action ?"
     answers:
       A: "Barcelone"
       B: "Séville"
@@ -208,12 +210,13 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "In which Spanish city does most of the action take place?"
+        text: "In which city is the monument shown in this image, where most of the action takes place?"
         answers:
           A: "Barcelona"
           B: "Seville"
           C: "Madrid"
           D: "Valencia"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Puerta_de_Alcal%C3%A1%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_14.jpg?width=800
     difficulty: EASY
   - text: "En quelle année la série a-t-elle été diffusée pour la première fois ?"
     answers:
@@ -359,7 +362,7 @@ questions:
           C: "Alicia Sierra"
           D: "Mónica Gaztambide"
     difficulty: MEDIUM
-  - text: "Quel établissement la bande attaque-t-elle dans les parties 3 et 4 ?"
+  - text: "Quel établissement, dont le siège apparaît sur cette image, la bande attaque-t-elle dans les parties 3 et 4 ?"
     answers:
       A: "La Maison de la Monnaie"
       B: "La Bourse de Madrid"
@@ -368,12 +371,13 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which institution does the gang rob in Parts 3 and 4?"
+        text: "Which institution, whose headquarters appears in this image, does the gang attack in parts 3 and 4?"
         answers:
-          A: "The Royal Mint of Spain"
+          A: "The Royal Mint"
           B: "The Madrid Stock Exchange"
           C: "The Bank of Spain"
           D: "The Royal Palace"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Banco_de_Espa%C3%B1a_%28Madrid%29_01.jpg?width=800
     difficulty: MEDIUM
   - text: "Quel personnage dirige la bande à l'intérieur de la Maison de la Monnaie et meurt à la fin de la partie 2 ?"
     answers:
@@ -1143,7 +1147,7 @@ questions:
           C: "Pamplona"
           D: "Marseille"
     difficulty: MEDIUM
-  - text: "Que sont devenus les masques de Dalí après le succès mondial de la série ?"
+  - text: "Comme le montre cette photo de manifestation, que sont devenus les masques de Dalí après le succès mondial de la série ?"
     answers:
       A: "Des symboles de protestation et de déguisement"
       B: "Des objets de musée"
@@ -1152,12 +1156,13 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "What became of the Dalí masks after the series' global success?"
+        text: "As this protest photo shows, what did the Dalí masks become after the series' global success?"
         answers:
           A: "Symbols of protest and disguise"
           B: "Museum objects"
           C: "Children's toys"
           D: "Brand logos"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Protestas_en_Chile_20191025_27.jpg?width=800
     difficulty: MEDIUM
   - text: "Quel pays a produit un remake de la série en 2022 ?"
     answers:

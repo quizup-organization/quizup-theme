@@ -71,21 +71,22 @@ questions:
           C: "Canada"
           D: "Switzerland"
     difficulty: EASY
-  - text: "L'Eurovision est avant tout un concours de quoi ?"
+  - text: "Quelle ville suisse a accueilli l'Eurovision 2025 dans cette salle ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/St_Jakobshalle_Basel.JPG?width=800
     answers:
-      A: "Chanson"
-      B: "Danse"
-      C: "Cinéma"
-      D: "Cuisine"
+      A: "Bâle"
+      B: "Genève"
+      C: "Zurich"
+      D: "Lausanne"
     correctAnswer: A
     translations:
       en:
-        text: "Eurovision is primarily a contest of what?"
+        text: "Which Swiss city hosted Eurovision 2025 in this venue?"
         answers:
-          A: "Song"
-          B: "Dance"
-          C: "Cinema"
-          D: "Cooking"
+          A: "Basel"
+          B: "Geneva"
+          C: "Zurich"
+          D: "Lausanne"
     difficulty: EASY
   - text: "À quelle fréquence le Concours Eurovision de la chanson est-il organisé ?"
     answers:
@@ -151,21 +152,22 @@ questions:
           C: "Marie Myriam"
           D: "Anne-Marie David"
     difficulty: EASY
-  - text: "Quel pays a remporté l'Eurovision 2023 grâce à Loreen ?"
+  - text: "Quel pays, dont voici le drapeau, a remporté l'Eurovision 2023 grâce à Loreen ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Sweden.svg?width=800
     answers:
-      A: "Finlande"
-      B: "Israël"
+      A: "Danemark"
+      B: "Norvège"
       C: "Suède"
-      D: "Italie"
+      D: "Finlande"
     correctAnswer: C
     translations:
       en:
-        text: "Which country won Eurovision 2023 thanks to Loreen?"
+        text: "Which country, whose flag is shown here, won Eurovision 2023 thanks to Loreen?"
         answers:
-          A: "Finland"
-          B: "Israel"
+          A: "Denmark"
+          B: "Norway"
           C: "Sweden"
-          D: "Italy"
+          D: "Finland"
     difficulty: EASY
   - text: "Quel organisme organise le Concours Eurovision de la chanson ?"
     answers:
@@ -391,21 +393,22 @@ questions:
           C: "“Ne partez pas sans moi”"
           D: "“L'amour existe encore”"
     difficulty: MEDIUM
-  - text: "Quel pays a remporté l'Eurovision 2024 à Malmö ?"
+  - text: "Dans quelle ville se trouve cette salle, qui a accueilli l'Eurovision 2024 ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Malmo_arena_ext_2024.jpg?width=800
     answers:
-      A: "Croatie"
-      B: "Ukraine"
-      C: "Suisse"
-      D: "France"
+      A: "Göteborg"
+      B: "Stockholm"
+      C: "Malmö"
+      D: "Copenhague"
     correctAnswer: C
     translations:
       en:
-        text: "Which country won Eurovision 2024 in Malmö?"
+        text: "In which city is this venue, which hosted Eurovision 2024?"
         answers:
-          A: "Croatia"
-          B: "Ukraine"
-          C: "Switzerland"
-          D: "France"
+          A: "Gothenburg"
+          B: "Stockholm"
+          C: "Malmö"
+          D: "Copenhagen"
     difficulty: MEDIUM
   - text: "Combien de fois le Royaume-Uni a-t-il remporté l'Eurovision ?"
     answers:
@@ -1143,21 +1146,22 @@ questions:
           C: "France"
           D: "Belgium"
     difficulty: MEDIUM
-  - text: "Quel pays a remporté l'Eurovision 2007 avec Marija Šerifović et 'Molitva' ?"
+  - text: "Cette salle a accueilli l'Eurovision 2018 : de quelle ville s'agit-il ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/POR_Lisbon_Altice_Arena_01.jpg?width=800
     answers:
-      A: "Croatie"
-      B: "Serbie"
-      C: "Slovénie"
-      D: "Bosnie-Herzégovine"
+      A: "Porto"
+      B: "Lisbonne"
+      C: "Madrid"
+      D: "Faro"
     correctAnswer: B
     translations:
       en:
-        text: "Which country won Eurovision 2007 with Marija Šerifović and 'Molitva'?"
+        text: "This venue hosted Eurovision 2018: which city is it?"
         answers:
-          A: "Croatia"
-          B: "Serbia"
-          C: "Slovenia"
-          D: "Bosnia and Herzegovina"
+          A: "Porto"
+          B: "Lisbon"
+          C: "Madrid"
+          D: "Faro"
     difficulty: MEDIUM
   - text: "Quelle chanson de Netta a remporté l'Eurovision 2018 pour Israël ?"
     answers:
@@ -1319,21 +1323,22 @@ questions:
           C: "Ell & Nikki"
           D: "Alexander Rybak"
     difficulty: HARD
-  - text: "Quelle ville a accueilli l'Eurovision 2012 après la victoire de l'Azerbaïdjan ?"
+  - text: "Quelle ville italienne a accueilli l'Eurovision 2022 dans cette salle ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pala_Alpitour_%28Turin%2C_ITA%29.jpg?width=800
     answers:
-      A: "Istanbul"
-      B: "Tbilissi"
-      C: "Erevan"
-      D: "Bakou"
+      A: "Milan"
+      B: "Rome"
+      C: "Bologne"
+      D: "Turin"
     correctAnswer: D
     translations:
       en:
-        text: "Which city hosted Eurovision 2012 after Azerbaijan's victory?"
+        text: "Which Italian city hosted Eurovision 2022 in this venue?"
         answers:
-          A: "Istanbul"
-          B: "Tbilisi"
-          C: "Yerevan"
-          D: "Baku"
+          A: "Milan"
+          B: "Rome"
+          C: "Bologna"
+          D: "Turin"
     difficulty: HARD
   - text: "Quel pays a signé sa première victoire à l'Eurovision en 1961 avec Jean-Claude Pascal ?"
     answers:

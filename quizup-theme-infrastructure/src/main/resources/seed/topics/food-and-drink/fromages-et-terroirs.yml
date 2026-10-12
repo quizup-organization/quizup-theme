@@ -103,7 +103,8 @@ questions:
           C: "sheep"
           D: "goat and sheep"
     difficulty: EASY
-  - text: "Quel fromage normand est traditionnellement vendu dans une boîte ronde en bois ?"
+  - text: "Sur cette photo, quel fromage normand est présenté avec sa traditionnelle boîte ronde en bois ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Camembert1.jpg?width=800
     answers:
       A: "Le livarot"
       B: "Le pont-l'évêque"
@@ -112,10 +113,10 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which Norman cheese is traditionally sold in a round wooden box?"
+        text: "In this photo, which Norman cheese is presented with its traditional round wooden box?"
         answers:
           A: "Livarot"
-          B: "Pont-l'évêque"
+          B: "Pont-l'Évêque"
           C: "Neufchâtel"
           D: "Camembert"
     difficulty: EASY
@@ -327,7 +328,8 @@ questions:
           C: "raw"
           D: "micro-filtered"
     difficulty: MEDIUM
-  - text: "Où le roquefort est-il traditionnellement affiné ?"
+  - text: "Comme le montre cette galerie d'affinage, où le roquefort est-il traditionnellement affiné ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cave_%C3%A0_Roquefort_6.JPG?width=800
     answers:
       A: "Dans les caves de Laguiole"
       B: "Dans les caves naturelles de Roquefort-sur-Soulzon"
@@ -336,7 +338,7 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Where is Roquefort traditionally ripened?"
+        text: "As shown in this ripening gallery, where is Roquefort traditionally ripened?"
         answers:
           A: "In the caves of Laguiole"
           B: "In the natural caves of Roquefort-sur-Soulzon"
@@ -791,7 +793,8 @@ questions:
           C: "haymaking"
           D: "summer grazing"
     difficulty: EXPERT
-  - text: "Sous quelle forme se présente le sainte-maure de Touraine AOP ?"
+  - text: "Sous quelle forme se présente le sainte-maure de Touraine AOP, visible sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sainte-maure-de-touraine_cut.jpg?width=800
     answers:
       A: "Une boule"
       B: "Une pyramide"
@@ -800,11 +803,11 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "What shape does Sainte-Maure de Touraine AOP come in?"
+        text: "What form does Sainte-Maure de Touraine AOP take, as visible in this photo?"
         answers:
           A: "A ball"
           B: "A pyramid"
-          C: "A log pierced by a straw"
+          C: "A log pierced with a straw"
           D: "A square"
     difficulty: EXPERT
   - text: "Quel fruit frais accompagne classiquement un plateau de fromages ?"
@@ -1095,7 +1098,8 @@ questions:
           C: "Bordeaux"
           D: "Loire"
     difficulty: MEDIUM
-  - text: "Quelle épice parfume traditionnellement le munster ?"
+  - text: "Quelle épice parfume le munster visible sur cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Munster_%28cheese%29.JPG?width=800
     answers:
       A: "Le cumin"
       B: "Le safran"
@@ -1104,7 +1108,7 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Which spice traditionally flavors munster?"
+        text: "Which spice flavors the Munster visible in this photo?"
         answers:
           A: "Cumin"
           B: "Saffron"
@@ -1287,7 +1291,8 @@ questions:
           C: "Goat's milk"
           D: "Sheep's milk"
     difficulty: HARD
-  - text: "Dans quelles feuilles le banon est-il traditionnellement enveloppé ?"
+  - text: "Comme sur cette photo, dans quelles feuilles le banon est-il traditionnellement enveloppé ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Le_Banon_-_un_fromage_de_ch%C3%A8vre_AOP.jpg?width=800
     answers:
       A: "Des feuilles de figuier"
       B: "Des feuilles de vigne"
@@ -1296,7 +1301,7 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "In which leaves is Banon traditionally wrapped?"
+        text: "As in this photo, in which leaves is Banon traditionally wrapped?"
         answers:
           A: "Fig leaves"
           B: "Vine leaves"

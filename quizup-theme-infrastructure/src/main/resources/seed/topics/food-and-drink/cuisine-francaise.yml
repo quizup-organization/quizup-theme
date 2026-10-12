@@ -23,21 +23,22 @@ questions:
           C: "Pork"
           D: "Veal"
     difficulty: EASY
-  - text: "De quelle ville la bouillabaisse est-elle la spécialité ?"
+  - text: "Quel plat traditionnel marseillais est représenté sur cette photographie ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Bullabessa.jpg?width=800
     answers:
-      A: "Lyon"
-      B: "Bordeaux"
-      C: "Marseille"
-      D: "Lille"
+      A: "La quenelle de brochet"
+      B: "La choucroute"
+      C: "La bouillabaisse"
+      D: "Le pot-au-feu"
     correctAnswer: C
     translations:
       en:
-        text: "Which city is bouillabaisse the specialty of?"
+        text: "Which traditional Marseille dish is shown in this photograph?"
         answers:
-          A: "Lyon"
-          B: "Bordeaux"
-          C: "Marseille"
-          D: "Lille"
+          A: "Pike quenelle"
+          B: "Choucroute"
+          C: "Bouillabaisse"
+          D: "Pot-au-feu"
     difficulty: EASY
   - text: "Quel légume fermenté est à la base de la choucroute ?"
     answers:
@@ -55,53 +56,56 @@ questions:
           C: "Leek"
           D: "Carrot"
     difficulty: EASY
-  - text: "Dans quelle région française le bœuf bourguignon est-il traditionnel ?"
+  - text: "Quel plat de bœuf mijoté au vin rouge est illustré par cette photo ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Beef_bourguignon-01.jpg?width=800
     answers:
-      A: "La Bretagne"
-      B: "L'Alsace"
-      C: "La Normandie"
-      D: "La Bourgogne"
+      A: "Le pot-au-feu"
+      B: "La blanquette de veau"
+      C: "Le cassoulet"
+      D: "Le bœuf bourguignon"
     correctAnswer: D
     translations:
       en:
-        text: "In which French region is bœuf bourguignon traditional?"
+        text: "Which beef dish simmered in red wine is shown in this photo?"
         answers:
-          A: "Brittany"
-          B: "Alsace"
-          C: "Normandy"
-          D: "Burgundy"
+          A: "Pot-au-feu"
+          B: "Blanquette de veau"
+          C: "Cassoulet"
+          D: "Beef bourguignon"
     difficulty: EASY
-  - text: "La ratatouille est une spécialité de quelle région ?"
+  - text: "Quel plat de légumes provençal reconnaît-on sur cette image ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Ratatouille.jpg?width=800
     answers:
-      A: "La Picardie"
-      B: "La Provence"
-      C: "La Lorraine"
-      D: "L'Auvergne"
+      A: "Le gratin dauphinois"
+      B: "La ratatouille"
+      C: "La choucroute"
+      D: "La soupe à l'oignon"
     correctAnswer: B
     translations:
       en:
-        text: "Ratatouille is a specialty of which region?"
+        text: "Which Provençal vegetable dish can be recognized in this image?"
         answers:
-          A: "Picardy"
-          B: "Provence"
-          C: "Lorraine"
-          D: "Auvergne"
+          A: "Gratin dauphinois"
+          B: "Ratatouille"
+          C: "Choucroute"
+          D: "French onion soup"
     difficulty: EASY
-  - text: "De quelle région la quiche lorraine est-elle originaire ?"
+  - text: "Quelle spécialité lorraine est photographiée ci-dessus ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Quiche_Lorraine_-_Massachusetts.jpg?width=800
     answers:
-      A: "Le Périgord"
-      B: "La Savoie"
-      C: "La Lorraine"
-      D: "La Vendée"
+      A: "La tartiflette"
+      B: "La pissaladière"
+      C: "La quiche lorraine"
+      D: "La socca"
     correctAnswer: C
     translations:
       en:
-        text: "Which region does quiche lorraine originate from?"
+        text: "Which Lorraine specialty is photographed above?"
         answers:
-          A: "Périgord"
-          B: "Savoie"
-          C: "Lorraine"
-          D: "Vendée"
+          A: "Tartiflette"
+          B: "Pissaladière"
+          C: "Quiche lorraine"
+          D: "Socca"
     difficulty: EASY
   - text: "Quel vin est traditionnellement utilisé pour cuisiner le coq au vin ?"
     answers:
@@ -215,21 +219,22 @@ questions:
           C: "Comté"
           D: "Tomme"
     difficulty: EASY
-  - text: "Quels haricots sont traditionnellement utilisés dans le cassoulet ?"
+  - text: "Quel plat du Sud-Ouest aux haricots blancs voit-on sur cette image ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cassoulet_toulousain.jpg?width=800
     answers:
-      A: "Des haricots rouges"
-      B: "Des haricots noirs"
-      C: "Des pois chiches"
-      D: "Des haricots blancs"
+      A: "La garbure"
+      B: "Le pot-au-feu"
+      C: "La bouillabaisse"
+      D: "Le cassoulet"
     correctAnswer: D
     translations:
       en:
-        text: "Which beans are traditionally used in cassoulet?"
+        text: "Which Southwestern dish with white beans can be seen in this image?"
         answers:
-          A: "Red beans"
-          B: "Black beans"
-          C: "Chickpeas"
-          D: "White beans"
+          A: "Garbure"
+          B: "Pot-au-feu"
+          C: "Bouillabaisse"
+          D: "Cassoulet"
     difficulty: MEDIUM
   - text: "Quelle épice donne sa couleur et son parfum à la bouillabaisse ?"
     answers:
