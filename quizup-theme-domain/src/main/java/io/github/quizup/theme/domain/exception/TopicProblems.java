@@ -103,4 +103,14 @@ public final class TopicProblems {
                     "The topic image URL must not exceed " + maxLength + " characters", null);
         }
     }
+
+    /** Bannière de la fiche sujet (visuel panoramique distinct de la couverture). */
+    public static class TopicBannerUrlTooLongProblem extends TopicProblem {
+        public TopicBannerUrlTooLongProblem(String topicId, int maxLength) {
+            super(topicId, "urn:quizup:topic:bannerUrlTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Topic banner URL too long",
+                    "The topic banner URL must not exceed " + maxLength + " characters", null);
+        }
+    }
 }

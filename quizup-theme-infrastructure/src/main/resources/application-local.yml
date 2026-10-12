@@ -15,3 +15,4 @@ spring:
 app:
   seed-data:
     enabled: true
+    image-base-url: ${QUIZUP_SEED_IMAGE_BASE_URL:http://localhost:9000/quizup-media/}

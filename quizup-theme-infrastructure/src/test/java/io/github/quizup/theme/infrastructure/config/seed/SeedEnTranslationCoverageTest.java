@@ -21,7 +21,8 @@ class SeedEnTranslationCoverageTest {
     @Test
     void everySeedQuestionHasEnglishTranslation() {
         SeedDataLoader loader = new SeedDataLoader(
-                "classpath*:seed/topics/*/*.yml", new PathMatchingResourcePatternResolver());
+                "classpath*:seed/topics/*/*.yml", "https://media.example.test/quizup-media/",
+                new PathMatchingResourcePatternResolver());
 
         List<TopicSeedDefinition> topics = loader.loadAll();
         assertThat(topics).hasSizeGreaterThanOrEqualTo(20);

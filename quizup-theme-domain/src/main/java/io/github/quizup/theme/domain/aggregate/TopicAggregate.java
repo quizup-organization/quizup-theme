@@ -19,6 +19,7 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Objects;
 
+import static io.github.quizup.theme.domain.model.TopicRules.MAX_BANNER_URL_LENGTH;
 import static io.github.quizup.theme.domain.model.TopicRules.MAX_COLOR_LENGTH;
 import static io.github.quizup.theme.domain.model.TopicRules.MAX_DESCRIPTION_LENGTH;
 import static io.github.quizup.theme.domain.model.TopicRules.MAX_EMOJI_LENGTH;
@@ -40,6 +41,7 @@ public class TopicAggregate {
     private String emoji;
     private String color;
     private String imageUrl;
+    private String bannerUrl;
     private TopicStatus status;
     private String creatorId;
     private Instant createdAt;
@@ -181,6 +183,18 @@ public class TopicAggregate {
                 command.topicId(), command.requestedBy(), command.imageUrl(), Instant.now()));
     }
 
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicBannerUrlCommand command) {
+        requireOwner(command.requestedBy());
+        validateBannerUrl(command.topicId(), command.bannerUrl());
+        if (Objects.equals(command.bannerUrl(), this.bannerUrl)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicBannerUrlUpdatedEvent(
+                command.topicId(), command.requestedBy(), command.bannerUrl(), Instant.now()));
+    }
+
     @EventSourcingHandler
     public void on(TopicEvent.TopicCreatedEvent event) {
         this.topicId = event.topicId();
@@ -249,6 +263,13 @@ public class TopicAggregate {
         this.updatedAt = event.updatedAt();
     }
 
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicBannerUrlUpdatedEvent event) {
+        this.bannerUrl = event.bannerUrl();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
+    }
+
     private void requireOwner(String requestedBy) {
         if (!Objects.equals(this.creatorId, requestedBy)) {
             throw new TopicProblems.TopicNotOwnerProblem(this.topicId, requestedBy);
@@ -297,6 +318,12 @@ public class TopicAggregate {
     private static void validateImageUrl(String topicId, String imageUrl) {
         if (imageUrl != null && imageUrl.length() > MAX_IMAGE_URL_LENGTH) {
             throw new TopicProblems.TopicImageUrlTooLongProblem(topicId, MAX_IMAGE_URL_LENGTH);
+        }
+    }
+
+    private static void validateBannerUrl(String topicId, String bannerUrl) {
+        if (bannerUrl != null && bannerUrl.length() > MAX_BANNER_URL_LENGTH) {
+            throw new TopicProblems.TopicBannerUrlTooLongProblem(topicId, MAX_BANNER_URL_LENGTH);
         }
     }
 

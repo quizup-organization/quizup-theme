@@ -64,6 +64,7 @@ public class TopicProjection {
                 event.emoji(),
                 event.color(),
                 event.imageUrl(),
+                null,
                 event.createdAt(),
                 event.createdAt()
         );
@@ -134,6 +135,13 @@ public class TopicProjection {
     public void on(TopicEvent.TopicImageUrlUpdatedEvent event) {
         updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
                 builder -> builder.imageUrl(event.imageUrl()));
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicBannerUrlUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.bannerUrl(event.bannerUrl()));
     }
 
     @EventHandler

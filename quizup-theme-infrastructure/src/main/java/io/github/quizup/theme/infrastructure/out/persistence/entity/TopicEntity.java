@@ -84,6 +84,10 @@ public class TopicEntity {
     @Column(name = "image_url", length = 1024)
     private String imageUrl;
 
+    /** Bannière de la fiche sujet (panoramique, distincte de la couverture) : URL max 1024. */
+    @Column(name = "banner_url", length = 1024)
+    private String bannerUrl;
+
     @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "topic_questions_counter", joinColumns = @JoinColumn(name = "topic_id"))
     @MapKeyEnumerated(EnumType.STRING)

@@ -21,9 +21,10 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 class SeedDataLoaderTest {
 
     private static final String ALL_TOPICS_PATTERN = "classpath*:seed/topics/*/*.yml";
+    private static final String IMAGE_BASE_URL = "https://media.example.test/quizup-media/";
 
     private final SeedDataLoader loader =
-            new SeedDataLoader(ALL_TOPICS_PATTERN, new PathMatchingResourcePatternResolver());
+            new SeedDataLoader(ALL_TOPICS_PATTERN, IMAGE_BASE_URL, new PathMatchingResourcePatternResolver());
 
     @Test
     void loadsAndValidatesEveryBundledSeedFile() throws IOException {
@@ -129,8 +130,8 @@ class SeedDataLoaderTest {
 
     @Test
     void loadAllSkipsInvalidFilesAndKeepsValidOnes() {
-        SeedDataLoader isolated =
-                new SeedDataLoader("classpath*:seed-test/*/*.yml", new PathMatchingResourcePatternResolver());
+        SeedDataLoader isolated = new SeedDataLoader(
+                "classpath*:seed-test/*/*.yml", IMAGE_BASE_URL, new PathMatchingResourcePatternResolver());
 
         List<TopicSeedDefinition> definitions = isolated.loadAll();
 
@@ -224,6 +225,57 @@ class SeedDataLoaderTest {
         assertThatThrownBy(() -> loader.load(resource))
                 .isInstanceOf(SeedDataValidationException.class)
                 .hasMessageContaining("topic.id");
+    }
+
+    @Test
+    void rejectsRelativeImageUrlWithoutBase(@TempDir Path tempDir) throws IOException {
+        SeedDataLoader withoutBase =
+                new SeedDataLoader(ALL_TOPICS_PATTERN, "", new PathMatchingResourcePatternResolver());
+        Resource resource = writeYaml(tempDir, yamlWithRelativeImages());
+
+        assertThatThrownBy(() -> withoutBase.load(resource))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("image-base-url");
+    }
+
+    @Test
+    void resolvesRelativeImageUrlsWithConfiguredBase(@TempDir Path tempDir) throws IOException {
+        TopicSeedDefinition definition = loader.load(writeYaml(tempDir, yamlWithRelativeImages()));
+
+        assertThat(definition.imageUrl()).isEqualTo(IMAGE_BASE_URL + "wikipedia/general/cover.jpg");
+        assertThat(definition.questions()).extracting(QuestionSeedDefinition::imageUrl)
+                .containsExactlyElementsOf(java.util.stream.IntStream.rangeClosed(1, 7)
+                        .mapToObj(i -> IMAGE_BASE_URL + "wikipedia/general/image-" + i + ".png")
+                        .toList());
+    }
+
+    @Test
+    void resolvesRelativeImageUrlsIdempotentlyForDuplicateIdentity(@TempDir Path tempDir) throws IOException {
+        TopicSeedDefinition definition = loader.load(writeYaml(tempDir, yamlWithRelativeImages()));
+
+        assertThat(definition.questions()).extracting(QuestionSeedDefinition::imageUrl)
+                .doesNotHaveDuplicates();
+    }
+
+    private static String yamlWithRelativeImages() {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                  imageUrl: wikipedia/general/cover.jpg
+                questions:
+                """);
+        for (int i = 1; i <= 7; i++) {
+            yaml.append("""
+                      - text: "Q%d ?"
+                        imageUrl: wikipedia/general/image-%d.png
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(i, i));
+        }
+        return yaml.toString();
     }
 
     private static String yamlWithQuestions(String... texts) {

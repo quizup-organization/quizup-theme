@@ -8,4 +8,5 @@ public interface TopicRules {
      int MAX_EMOJI_LENGTH = 16;
      int MAX_COLOR_LENGTH = 16;
      int MAX_IMAGE_URL_LENGTH = 1024;
+     int MAX_BANNER_URL_LENGTH = 1024;
 }

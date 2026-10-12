@@ -102,4 +102,15 @@ public interface TopicEvent {
     ) implements TopicEvent {
     }
 
+    /**
+     * Événement émis lors du changement de bannière de la fiche sujet (distincte de la couverture).
+     */
+    record TopicBannerUrlUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            String bannerUrl,
+            Instant updatedAt
+    ) implements TopicEvent {
+    }
+
 }

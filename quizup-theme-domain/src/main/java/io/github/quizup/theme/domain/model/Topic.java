@@ -26,6 +26,7 @@ public record Topic(
         String emoji,
         String color,
         String imageUrl,
+        String bannerUrl,
         Instant createdAt,
         Instant updatedAt
 ) {

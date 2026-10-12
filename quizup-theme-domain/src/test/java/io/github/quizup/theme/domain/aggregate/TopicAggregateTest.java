@@ -150,6 +150,48 @@ class TopicAggregateTest {
                 .expectException(TopicProblems.TopicImageUrlTooLongProblem.class);
     }
 
+    @Test
+    void updateBannerUrl_appliesEvent() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, "https://media.test/banner.jpg"))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        TopicEvent.TopicBannerUrlUpdatedEvent.class,
+                        e -> "https://media.test/banner.jpg"
+                                .equals(((TopicEvent.TopicBannerUrlUpdatedEvent) e).bannerUrl())));
+    }
+
+    @Test
+    void updateBannerUrl_withSameValue_isNoOp() {
+        fixture.given(createdTopic(), new TopicEvent.TopicBannerUrlUpdatedEvent(
+                        TOPIC_ID, OWNER, "https://media.test/banner.jpg", NOW))
+                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, "https://media.test/banner.jpg"))
+                .expectNoEvents();
+    }
+
+    @Test
+    void updateBannerUrl_withNull_clearsBanner() {
+        fixture.given(createdTopic(), new TopicEvent.TopicBannerUrlUpdatedEvent(
+                        TOPIC_ID, OWNER, "https://media.test/banner.jpg", NOW))
+                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, null))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        TopicEvent.TopicBannerUrlUpdatedEvent.class,
+                        e -> ((TopicEvent.TopicBannerUrlUpdatedEvent) e).bannerUrl() == null));
+    }
+
+    @Test
+    void updateBannerUrl_withTooLongValue_rejects() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, OWNER, "https://x.test/" + "a".repeat(1100)))
+                .expectException(TopicProblems.TopicBannerUrlTooLongProblem.class);
+    }
+
+    @Test
+    void updateBannerUrl_byNonOwner_rejects() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.UpdateTopicBannerUrlCommand(TOPIC_ID, "intruder", "https://media.test/banner.jpg"))
+                .expectException(TopicProblems.TopicNotOwnerProblem.class);
+    }
+
     private TopicCommand.CreateTopicCommand createCommand(String name, String description) {
         return new TopicCommand.CreateTopicCommand(
                 TOPIC_ID, Map.of(Language.FR, name), description, TopicCategory.MOVIES, null, null, null, OWNER);

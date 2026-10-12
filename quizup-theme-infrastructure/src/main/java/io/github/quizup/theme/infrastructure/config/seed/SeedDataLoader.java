@@ -57,14 +57,17 @@ public class SeedDataLoader {
     private final ResourcePatternResolver resourcePatternResolver;
     private final ObjectMapper yamlMapper;
     private final String locationPattern;
+    private final String imageBaseUrl;
 
     @Autowired
     public SeedDataLoader(AppProperties properties) {
-        this(properties.seedData().location(), new PathMatchingResourcePatternResolver());
+        this(properties.seedData().location(), properties.seedData().imageBaseUrl(),
+                new PathMatchingResourcePatternResolver());
     }
 
-    SeedDataLoader(String locationPattern, ResourcePatternResolver resourcePatternResolver) {
+    SeedDataLoader(String locationPattern, String imageBaseUrl, ResourcePatternResolver resourcePatternResolver) {
         this.locationPattern = locationPattern;
+        this.imageBaseUrl = imageBaseUrl == null ? "" : imageBaseUrl.trim();
         this.resourcePatternResolver = resourcePatternResolver;
         this.yamlMapper = new ObjectMapper(new YAMLFactory());
     }
@@ -287,24 +290,42 @@ public class SeedDataLoader {
         }
     }
 
+    /**
+     * Valide un {@code imageUrl} : URL absolue http(s), ou chemin relatif (ex.
+     * {@code wikipedia/<categorie>/<fichier>}) résolu via {@code app.seed-data.image-base-url}.
+     * Les binaires du seed vivent dans {@code quizup-workspace/product/wikipedia} (voir
+     * {@code scripts/seed-images.py}).
+     */
     private String validateImageUrl(String rawUrl, String context) {
         if (rawUrl == null || rawUrl.isBlank()) {
             return null;
         }
         String url = rawUrl.trim();
-        if (url.length() > MAX_IMAGE_URL_LENGTH) {
-            throw new SeedDataValidationException(context + " exceeds " + MAX_IMAGE_URL_LENGTH + " characters");
-        }
         try {
             URI uri = URI.create(url);
             String scheme = uri.getScheme();
-            if (scheme == null || !(scheme.equalsIgnoreCase("http") || scheme.equalsIgnoreCase("https"))) {
-                throw new SeedDataValidationException(context + " must be an http(s) URL");
+            if (scheme == null) {
+                url = resolveRelativeImageUrl(url, context);
+            } else if (!(scheme.equalsIgnoreCase("http") || scheme.equalsIgnoreCase("https"))) {
+                throw new SeedDataValidationException(context + " must be an http(s) URL or a relative seed path");
             }
         } catch (IllegalArgumentException e) {
             throw new SeedDataValidationException(context + " is not a valid URL: " + url, e);
         }
+        if (url.length() > MAX_IMAGE_URL_LENGTH) {
+            throw new SeedDataValidationException(context + " exceeds " + MAX_IMAGE_URL_LENGTH + " characters");
+        }
         return url;
+    }
+
+    private String resolveRelativeImageUrl(String relativePath, String context) {
+        if (imageBaseUrl.isBlank()) {
+            throw new SeedDataValidationException(context + " is relative ('" + relativePath
+                    + "') but app.seed-data.image-base-url is not configured");
+        }
+        String base = imageBaseUrl.endsWith("/") ? imageBaseUrl : imageBaseUrl + "/";
+        String path = relativePath.startsWith("/") ? relativePath.substring(1) : relativePath;
+        return base + path;
     }
 
     private String requireNonBlank(String value, String context) {

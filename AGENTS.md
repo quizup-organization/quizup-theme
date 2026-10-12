@@ -32,7 +32,7 @@ exposée par le service.
 - `CountApprovedQuestionsByTopicUseCase`
 
 **Édition champ par champ (surface d'auteur du BFF)** : commandes directes sur les agrégats
-(sans port `UseCase` dédié) — `TopicCommand.UpdateTopicName|Description|Category|Emoji|Color|ImageUrlCommand`
+(sans port `UseCase` dédié) — `TopicCommand.UpdateTopicName|Description|Category|Emoji|Color|ImageUrl|BannerUrlCommand`
 et `QuestionCommand.AddQuestionTranslation|UpdateQuestionText|Answers|CorrectAnswer|ImageUrlCommand`.
 Toutes sont **propriétaire uniquement** (le `TopicAggregate` vérifie `requestedBy == creatorId` ;
 les questions sont gardées côté BFF), **idempotentes** (aucun événement si la valeur est
@@ -92,8 +92,10 @@ lorsque la difficulté calculée change, la projection envoie une
 - `TopicQuery.TopicSearchQuery` (pattern SDK) reste pour les **futures surfaces d'administration** ;
   les vues web n'y font plus appel.
 - `GET /api/topic-categories` (BFF) — les 18 `TopicCategory` + libellé FR (`TopicCategory.label()`).
-- `Topic` porte `emoji` + `color` + `imageUrl` (données éditoriales) : agrégat, événements, commande,
-  `TopicEntity` (colonnes `emoji`/`color`/`image_url`), DTO. Le seed ne renseigne plus `emoji`/`color`
+- `Topic` porte `emoji` + `color` + `imageUrl` + `bannerUrl` (données éditoriales) : agrégat,
+  événements, commande, `TopicEntity` (colonnes `emoji`/`color`/`image_url`/`banner_url`), DTO.
+  La **bannière** (`banner-url`, migration `V4__add_topic_banner_url.sql`) est un visuel
+  panoramique de la fiche sujet, distinct de la couverture. Le seed ne renseigne plus `emoji`/`color`
   (fallback UI) et utilise `imageUrl` comme visuel de couverture.
 - **Recherche insensible aux accents/casse** : `TopicEntity.name_normalized` (schéma
   `V1__create_theme_schema.sql`) dérivé de `name` par `TopicEntityMapper`
@@ -113,6 +115,9 @@ lorsque la difficulté calculée change, la projection envoie une
   (pas de langue source explicite). Validation par `SeedDataLoader` : l'unicité de la paire
   `(text, imageUrl)` est exigée par fichier (clé de réparation), une traduction `fr` est refusée,
   un fichier invalide est loggé et ignoré sans bloquer les autres.
+  `imageUrl` est un **chemin relatif** (`wikipedia/<categorie>/<fichier>`, ex.
+  `wikipedia/technology/Ada_Lovelace_portrait.jpg`), résolu par `SeedDataLoader` en
+  `app.seed-data.image-base-url + chemin` (les URLs absolues http(s) restent acceptées).
 - **Difficulté initiale du seed** : la difficulté par défaut est **calculée** depuis les statistiques
   de réponses (`QuestionRules.difficultyFor`, seuils 80/60/40 %, min. 10 réponses —
   `QuestionDifficultyProjection`). Le seed porte une difficulté **initiale optionnelle**, posée par
@@ -131,9 +136,13 @@ lorsque la difficulté calculée change, la projection envoie une
   idempotent, un essai ultérieur reprend les questions manquantes. Résultats exposés via
   `quizup_theme_seed_topics_total{outcome}` + `quizup_theme_seed_retries_total` (alerte
   `QuizupThemeSeedFailures` si `outcome="failed"`).
-- **Images externes libres de droit** (Wikimedia Commons, `Special:FilePath` + `?width=800`) :
-  source et licence listées dans `src/main/resources/seed/CREDITS.md`. Aucun binaire dans le repo,
-  aucune image sous copyright (logos, affiches, captures, personnages officiels exclus).
+- **Images libres de droit mirorées** : les binaires (copie **octet-pour-octet** des rendus
+  Wikimedia Commons `Special:FilePath/<fichier>?width=800`) vivent dans le repo
+  **quizup-workspace** : `product/wikipedia/<categorie>/<fichier>` (+ `manifest.json`,
+  + `CREDITS.md` pour l'auteur/licence). Aucun binaire dans ce repo ; aucune image sous
+  copyright (logos, affiches, captures, personnages officiels exclus). Outillage workspace :
+  `python3 scripts/seed-images.py {fetch,normalize,rewrite,check,publish}` (`make seed-images
+  ACTION=…`), publié vers MinIO (bucket `quizup-media`, préfixe `wikipedia/`).
 - **Traductions EN** : chaque question porte `translations.en` (les duels bilingues ne sélectionnent
   que les questions disponibles dans **toutes** les langues demandées). Générées via
   `seed/translate-seed.py` (API DeepSeek, validation identique au loader, insertion textuelle à
@@ -151,9 +160,11 @@ lorsque la difficulté calculée change, la projection envoie une
 - **Couverture unique par thème** : deux thèmes ne partagent jamais le même `topic.imageUrl` (le
   catalogue les affiche côte à côte) ; un thème peut ne pas en avoir (fallback UI). Garde-fou :
   `SeedTopicCoverUniquenessTest`.
-- **Images** : exclusivement Wikimedia Commons libres de droit ; toute nouvelle URL de couverture
-  ou de question doit figurer dans `seed/CREDITS.md` (auteur + licence).
-- **Seed déjà publié en prod** : le seeder est idempotent par `(text, imageUrl)` et peut **compléter**
-  un thème publié (questions manquantes, traductions, difficulté initiale) sans reset ; en revanche
-  **modifier** les réponses, les textes ou la couverture d'un thème existant exige un **reset
-  data** (`devops/quizup-gitops/scripts/reset.sh`, § 7 du AGENTS gitops) coordonné avec la release.
+- **Images** : exclusivement Wikimedia Commons libres de droit ; toute nouvelle image doit être
+  rapatriée dans `product/wikipedia/` (workspace) et figurer dans `product/wikipedia/CREDITS.md`
+  (auteur + licence), puis référencée en chemin relatif dans le YAML.
+- **Seed déjà publié en prod** : le seeder est idempotent par `(text, imageUrl)` (URL **résolue**
+  via la base) et peut **compléter** un thème publié (questions manquantes, traductions, difficulté
+  initiale) sans reset ; en revanche **modifier** les réponses, les textes, la couverture ou la
+  base d'images exige un **reset data** (`devops/quizup-gitops/scripts/reset.sh`, § 7 du AGENTS
+  gitops) coordonné avec la release.

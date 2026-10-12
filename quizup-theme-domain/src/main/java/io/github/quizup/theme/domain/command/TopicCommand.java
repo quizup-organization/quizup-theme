@@ -96,4 +96,15 @@ public interface TopicCommand {
     ) implements TopicCommand {
     }
 
+    /**
+     * Mise à jour de la bannière de la fiche sujet, distincte de la couverture
+     * (propriétaire du thème uniquement).
+     */
+    record UpdateTopicBannerUrlCommand(
+            @TargetAggregateIdentifier String topicId,
+            String requestedBy,
+            String bannerUrl
+    ) implements TopicCommand {
+    }
+
 }

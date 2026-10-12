@@ -12,6 +12,12 @@ public record AppProperties(
 
     public record SeedData(
             @DefaultValue("false") boolean enabled,
-            @DefaultValue("classpath*:seed/topics/*/*.yml") String location) {
+            @DefaultValue("classpath*:seed/topics/*/*.yml") String location,
+            /**
+             * Base publique des images du seed : les {@code imageUrl} relatifs des YAML
+             * (ex. {@code wikipedia/<categorie>/<fichier>}) sont résolus en {@code base + chemin}.
+             * Les URLs absolues http(s) restent acceptées telles quelles.
+             */
+            @DefaultValue("") String imageBaseUrl) {
     }
 }
