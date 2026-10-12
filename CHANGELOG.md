@@ -1,3 +1,11 @@
+## [5.5.0](https://github.com/quizup-organization/quizup-theme/compare/v5.4.0...v5.5.0) (2026-10-12)
+
+### Features
+
+* **console:** consume quizup-sdk 4.7.0 (lag, commandes en vol, snapshots, scheduled) ([d3648ee](https://github.com/quizup-organization/quizup-theme/commit/d3648ee9dc810304b922def4ea7de4456baeaa24))
+* **theme:** complète les 56 thèmes à 100 questions avec difficulté équilibrée ([55b8892](https://github.com/quizup-organization/quizup-theme/commit/55b8892a27a36a6c275b093fe917c6919ce0ea74))
+* **theme:** difficulté initiale du seed + complétion des thèmes publiés ([eec992f](https://github.com/quizup-organization/quizup-theme/commit/eec992f34fffa74254e850a53f5ed94afb5c6eaa))
+
 ## [5.4.0](https://github.com/quizup-organization/quizup-theme/compare/v5.3.0...v5.4.0) (2026-10-12)
 
 ### Features
