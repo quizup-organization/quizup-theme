@@ -1,0 +1,1609 @@
+topic:
+  id: topic-esport
+  names:
+    fr: "E-sport & jeux en ligne"
+    en: "Esports & Online Gaming"
+  description: "Explorez la scène compétitive des jeux en ligne, des Worlds de League of Legends à The International de Dota 2. Retrouvez les équipes légendaires, les joueurs stars, les grands tournois et le vocabulaire des FPS, MOBA et battle royale. Un thème pour les passionnés d'e-sport comme pour les curieux qui veulent découvrir l'histoire des plus grandes compétitions internationales."
+  category: GAMES
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/GAME_CITY_2019.jpg?width=800
+questions:
+  - text: "Parmi ces jeux, lequel est un MOBA ?"
+    answers:
+      A: "Counter-Strike"
+      B: "Fortnite"
+      C: "League of Legends"
+      D: "Rocket League"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which of these games is a MOBA?"
+        answers:
+          A: "Counter-Strike"
+          B: "Fortnite"
+          C: "League of Legends"
+          D: "Rocket League"
+    difficulty: EASY
+  - text: "Combien de joueurs par équipe compte une partie classique de League of Legends ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "5"
+      D: "6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many players per team are in a standard League of Legends match?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "5"
+          D: "6"
+    difficulty: EASY
+  - text: "Quel studio a développé Fortnite ?"
+    answers:
+      A: "Epic Games"
+      B: "Valve"
+      C: "Blizzard"
+      D: "Riot Games"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which studio developed Fortnite?"
+        answers:
+          A: "Epic Games"
+          B: "Valve"
+          C: "Blizzard"
+          D: "Riot Games"
+    difficulty: EASY
+  - text: "Que signifie l'abréviation FPS dans le jeu vidéo ?"
+    answers:
+      A: "Final phase score"
+      B: "Fast-paced strategy"
+      C: "Full player squad"
+      D: "First-person shooter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the abbreviation FPS stand for in video games?"
+        answers:
+          A: "Final phase score"
+          B: "Fast-paced strategy"
+          C: "Full player squad"
+          D: "First-person shooter"
+    difficulty: EASY
+  - text: "Quelle équipe a remporté les premiers Championnats du monde de League of Legends en 2011 ?"
+    answers:
+      A: "SK Telecom T1"
+      B: "Invictus Gaming"
+      C: "Samsung White"
+      D: "Fnatic"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the first League of Legends World Championship in 2011?"
+        answers:
+          A: "SK Telecom T1"
+          B: "Invictus Gaming"
+          C: "Samsung White"
+          D: "Fnatic"
+    difficulty: EASY
+  - text: "Quel jeu de tir tactique 5 contre 5 oppose terroristes et antiterroristes ?"
+    answers:
+      A: "Counter-Strike"
+      B: "Valorant"
+      C: "Team Fortress 2"
+      D: "Overwatch"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 5v5 tactical shooter pits terrorists against counter-terrorists?"
+        answers:
+          A: "Counter-Strike"
+          B: "Valorant"
+          C: "Team Fortress 2"
+          D: "Overwatch"
+    difficulty: EASY
+  - text: "Que signifie LAN dans le monde du jeu en réseau ?"
+    answers:
+      A: "League Arena Network"
+      B: "Local Area Network"
+      C: "Late Access Node"
+      D: "Live Action Night"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does LAN stand for in networked gaming?"
+        answers:
+          A: "League Arena Network"
+          B: "Local Area Network"
+          C: "Late Access Node"
+          D: "Live Action Night"
+    difficulty: EASY
+  - text: "Combien de joueurs par équipe jouent dans une partie standard de Dota 2 ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "5"
+      D: "6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many players per team play in a standard Dota 2 match?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "5"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "De quel pays est originaire l'équipe Ninjas in Pyjamas, célèbre sur Counter-Strike ?"
+    answers:
+      A: "Suède"
+      B: "Danemark"
+      C: "États-Unis"
+      D: "Pologne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country is the team Ninjas in Pyjamas, famous in Counter-Strike, from?"
+        answers:
+          A: "Sweden"
+          B: "Denmark"
+          C: "United States"
+          D: "Poland"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté le tout premier The International de Dota 2 en 2011 ?"
+    answers:
+      A: "Natus Vincere"
+      B: "Alliance"
+      C: "OG"
+      D: "Team Liquid"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the very first Dota 2 The International in 2011?"
+        answers:
+          A: "Natus Vincere"
+          B: "Alliance"
+          C: "OG"
+          D: "Team Liquid"
+    difficulty: MEDIUM
+  - text: "Quel jeu de tir de Blizzard s'est doté d'une ligue professionnelle lancée en 2018 ?"
+    answers:
+      A: "Valorant"
+      B: "Overwatch"
+      C: "Paladins"
+      D: "Rainbow Six Siege"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Blizzard shooter got a professional league launched in 2018?"
+        answers:
+          A: "Valorant"
+          B: "Overwatch"
+          C: "Paladins"
+          D: "Rainbow Six Siege"
+    difficulty: MEDIUM
+  - text: "Dans Valorant, combien de manches faut-il remporter pour gagner un match classé ?"
+    answers:
+      A: "13"
+      B: "12"
+      C: "10"
+      D: "15"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Valorant, how many rounds must you win to win a ranked match?"
+        answers:
+          A: "13"
+          B: "12"
+          C: "10"
+          D: "15"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on la phase où les équipes choisissent et interdisent des personnages avant une partie ?"
+    answers:
+      A: "Le pick and ban"
+      B: "Le scrim"
+      C: "Le bounty"
+      D: "Le warm-up"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the phase called where teams pick and ban characters before a match?"
+        answers:
+          A: "The pick and ban"
+          B: "The scrim"
+          C: "The bounty"
+          D: "The warm-up"
+    difficulty: MEDIUM
+  - text: "Quelle est l'identité réelle du joueur coréen connu sous le pseudonyme Faker ?"
+    answers:
+      A: "Kim Tae-woo"
+      B: "Lee Young-ho"
+      C: "Lee Sang-hyeok"
+      D: "Park Jae-sang"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the real identity of the Korean player known by the pseudonym Faker?"
+        answers:
+          A: "Kim Tae-woo"
+          B: "Lee Young-ho"
+          C: "Lee Sang-hyeok"
+          D: "Park Jae-sang"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté The International 2016 sur Dota 2 ?"
+    answers:
+      A: "OG"
+      B: "Team Liquid"
+      C: "Wings Gaming"
+      D: "Evil Geniuses"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won The International 2016 in Dota 2?"
+        answers:
+          A: "OG"
+          B: "Team Liquid"
+          C: "Wings Gaming"
+          D: "Evil Geniuses"
+    difficulty: HARD
+  - text: "Dans Counter-Strike 2, combien de manches une équipe doit-elle remporter pour gagner un match réglementaire ?"
+    answers:
+      A: "12"
+      B: "13"
+      C: "15"
+      D: "16"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Counter-Strike 2, how many rounds must a team win to win a regulation match?"
+        answers:
+          A: "12"
+          B: "13"
+          C: "15"
+          D: "16"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends en 2014 ?"
+    answers:
+      A: "SK Telecom T1"
+      B: "Samsung Blue"
+      C: "Star Horn Royal Club"
+      D: "Samsung White"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship in 2014?"
+        answers:
+          A: "SK Telecom T1"
+          B: "Samsung Blue"
+          C: "Star Horn Royal Club"
+          D: "Samsung White"
+    difficulty: HARD
+  - text: "Quel mode de jeu compétitif de Dota 2 repose sur un capitaine qui choisit les héros pour son équipe ?"
+    answers:
+      A: "Random Draft"
+      B: "All Pick"
+      C: "Captains Mode"
+      D: "Single Draft"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which competitive Dota 2 game mode relies on a captain who picks the heroes for their team?"
+        answers:
+          A: "Random Draft"
+          B: "All Pick"
+          C: "Captains Mode"
+          D: "Single Draft"
+    difficulty: HARD
+  - text: "Avec l'ancien format MR15 de Counter-Strike: Global Offensive, combien de manches fallait-il gagner pour l'emporter ?"
+    answers:
+      A: "16"
+      B: "13"
+      C: "12"
+      D: "19"
+    correctAnswer: A
+    translations:
+      en:
+        text: "With the old MR15 format of Counter-Strike: Global Offensive, how many rounds did you need to win to take the match?"
+        answers:
+          A: "16"
+          B: "13"
+          C: "12"
+          D: "19"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté The International 2013 sur Dota 2 ?"
+    answers:
+      A: "Natus Vincere"
+      B: "Alliance"
+      C: "Team Liquid"
+      D: "Newbee"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won The International 2013 in Dota 2?"
+        answers:
+          A: "Natus Vincere"
+          B: "Alliance"
+          C: "Team Liquid"
+          D: "Newbee"
+    difficulty: EXPERT
+  - text: "Quel joueur ukrainien a été élu meilleur joueur de l'année 2018 par HLTV sur Counter-Strike ?"
+    answers:
+      A: "Christopher Alesund"
+      B: "Mathieu Herbaut"
+      C: "Nicolai Reedtz"
+      D: "Oleksandr Kostyliev"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Ukrainian player was named HLTV Player of the Year 2018 in Counter-Strike?"
+        answers:
+          A: "Christopher Alesund"
+          B: "Mathieu Herbaut"
+          C: "Nicolai Reedtz"
+          D: "Oleksandr Kostyliev"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends en 2017 ?"
+    answers:
+      A: "SK Telecom T1"
+      B: "KT Rolster"
+      C: "Samsung Galaxy"
+      D: "Longzhu Gaming"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship in 2017?"
+        answers:
+          A: "SK Telecom T1"
+          B: "KT Rolster"
+          C: "Samsung Galaxy"
+          D: "Longzhu Gaming"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté The International 2015 sur Dota 2 ?"
+    answers:
+      A: "LGD Gaming"
+      B: "CDEC Gaming"
+      C: "Vici Gaming"
+      D: "Evil Geniuses"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won The International 2015 in Dota 2?"
+        answers:
+          A: "LGD Gaming"
+          B: "CDEC Gaming"
+          C: "Vici Gaming"
+          D: "Evil Geniuses"
+    difficulty: EXPERT
+  - text: "À combien s'élevait approximativement le prize pool de The International 2014 sur Dota 2 ?"
+    answers:
+      A: "Environ 3 millions de dollars"
+      B: "Environ 25 millions de dollars"
+      C: "Environ 11 millions de dollars"
+      D: "Environ 45 millions de dollars"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Approximately how much was the prize pool for The International 2014 in Dota 2?"
+        answers:
+          A: "About 3 million dollars"
+          B: "About 25 million dollars"
+          C: "About 11 million dollars"
+          D: "About 45 million dollars"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends en 2019 ?"
+    answers:
+      A: "FunPlus Phoenix"
+      B: "Invictus Gaming"
+      C: "T1"
+      D: "G2 Esports"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship in 2019?"
+        answers:
+          A: "FunPlus Phoenix"
+          B: "Invictus Gaming"
+          C: "T1"
+          D: "G2 Esports"
+    difficulty: EXPERT
+  - text: "Que signifie le sigle MOBA ?"
+    answers:
+      A: "Massively Online Battle Arena"
+      B: "Multiplayer Online Board Arena"
+      C: "Massive Offline Battle Arena"
+      D: "Multiplayer Online Battle Arena"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the acronym MOBA stand for?"
+        answers:
+          A: "Massively Online Battle Arena"
+          B: "Multiplayer Online Board Arena"
+          C: "Massive Offline Battle Arena"
+          D: "Multiplayer Online Battle Arena"
+    difficulty: EASY
+  - text: "Quelle entreprise organise The International, le grand tournoi de Dota 2 ?"
+    answers:
+      A: "Blizzard"
+      B: "Valve"
+      C: "Riot Games"
+      D: "Epic Games"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which company organizes The International, the major Dota 2 tournament?"
+        answers:
+          A: "Blizzard"
+          B: "Valve"
+          C: "Riot Games"
+          D: "Epic Games"
+    difficulty: EASY
+  - text: "Sur quelle carte se déroulent les parties classiques de League of Legends ?"
+    answers:
+      A: "Dust II"
+      B: "Faille de l'invocateur"
+      C: "Numbani"
+      D: "Haven"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which map do standard League of Legends matches take place?"
+        answers:
+          A: "Dust II"
+          B: "Summoner's Rift"
+          C: "Numbani"
+          D: "Haven"
+    difficulty: EASY
+  - text: "Quel jeu de tir héroïque de Blizzard met en scène Tracer et Winston ?"
+    answers:
+      A: "Team Fortress 2"
+      B: "Valorant"
+      C: "Paladins"
+      D: "Overwatch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Blizzard hero shooter features Tracer and Winston?"
+        answers:
+          A: "Team Fortress 2"
+          B: "Valorant"
+          C: "Paladins"
+          D: "Overwatch"
+    difficulty: EASY
+  - text: "Dans quel jeu les agents Jett et Sage s'affrontent-ils ?"
+    answers:
+      A: "Apex Legends"
+      B: "Overwatch"
+      C: "Valorant"
+      D: "Counter-Strike 2"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which game do the agents Jett and Sage face off?"
+        answers:
+          A: "Apex Legends"
+          B: "Overwatch"
+          C: "Valorant"
+          D: "Counter-Strike 2"
+    difficulty: EASY
+  - text: "Que signifie GG, souvent écrit en fin de partie ?"
+    answers:
+      A: "Great Game"
+      B: "Good Grief"
+      C: "Good Game"
+      D: "Go Go"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does GG, often written at the end of a game, mean?"
+        answers:
+          A: "Great Game"
+          B: "Good Grief"
+          C: "Good Game"
+          D: "Go Go"
+    difficulty: EASY
+  - text: "De quel pays vient l'équipe Astralis, multiple championne de Counter-Strike ?"
+    answers:
+      A: "Danemark"
+      B: "Allemagne"
+      C: "Pologne"
+      D: "Suède"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country does the team Astralis, multiple-time Counter-Strike champion, come from?"
+        answers:
+          A: "Denmark"
+          B: "Germany"
+          C: "Poland"
+          D: "Sweden"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends en 2018 ?"
+    answers:
+      A: "Invictus Gaming"
+      B: "Fnatic"
+      C: "G2 Esports"
+      D: "KT Rolster"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship in 2018?"
+        answers:
+          A: "Invictus Gaming"
+          B: "Fnatic"
+          C: "G2 Esports"
+          D: "KT Rolster"
+    difficulty: MEDIUM
+  - text: "Que signifie « nerf » un personnage dans une mise à jour de jeu ?"
+    answers:
+      A: "L'affaiblir"
+      B: "Le renforcer"
+      C: "Le supprimer"
+      D: "Le remplacer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does it mean to \"nerf\" a character in a game update?"
+        answers:
+          A: "Weaken it"
+          B: "Strengthen it"
+          C: "Remove it"
+          D: "Replace it"
+    difficulty: MEDIUM
+  - text: "Combien de joueurs composent une équipe professionnelle de l'Overwatch League ?"
+    answers:
+      A: "4"
+      B: "5"
+      C: "7"
+      D: "6"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many players make up a professional Overwatch League team?"
+        answers:
+          A: "4"
+          B: "5"
+          C: "7"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "Dans quelle ville polonaise se déroule l'IEM, l'un des plus grands tournois de Counter-Strike ?"
+    answers:
+      A: "Gdańsk"
+      B: "Cracovie"
+      C: "Varsovie"
+      D: "Katowice"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which Polish city is IEM held, one of the biggest Counter-Strike tournaments?"
+        answers:
+          A: "Gdansk"
+          B: "Krakow"
+          C: "Warsaw"
+          D: "Katowice"
+    difficulty: MEDIUM
+  - text: "Que désigne un « gank » dans un MOBA ?"
+    answers:
+      A: "Une déconnexion volontaire"
+      B: "Une attaque surprise sur une voie"
+      C: "Un tir allié"
+      D: "Un échange de joueurs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does a \"gank\" refer to in a MOBA?"
+        answers:
+          A: "A voluntary disconnect"
+          B: "A surprise attack on a lane"
+          C: "A friendly fire shot"
+          D: "A player trade"
+    difficulty: MEDIUM
+  - text: "Quelle équipe a remporté The International 2021 sur Dota 2 ?"
+    answers:
+      A: "PSG.LGD"
+      B: "OG"
+      C: "Team Spirit"
+      D: "Team Secret"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won The International 2021 in Dota 2?"
+        answers:
+          A: "PSG.LGD"
+          B: "OG"
+          C: "Team Spirit"
+          D: "Team Secret"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends en 2020 ?"
+    answers:
+      A: "Suning"
+      B: "T1"
+      C: "JD Gaming"
+      D: "DAMWON Gaming"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship in 2020?"
+        answers:
+          A: "Suning"
+          B: "T1"
+          C: "JD Gaming"
+          D: "DAMWON Gaming"
+    difficulty: HARD
+  - text: "Quelle équipe a été la première à remporter deux The International consécutifs ?"
+    answers:
+      A: "Alliance"
+      B: "Team Liquid"
+      C: "OG"
+      D: "Team Spirit"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team was the first to win two consecutive The Internationals?"
+        answers:
+          A: "Alliance"
+          B: "Team Liquid"
+          C: "OG"
+          D: "Team Spirit"
+    difficulty: HARD
+  - text: "Quelle est l'identité du joueur de Dota 2 surnommé Miracle- ?"
+    answers:
+      A: "Kuro Takhasomi"
+      B: "Anathan Pham"
+      C: "Amer Al-Barkawi"
+      D: "Syed Sumail Hassan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the Dota 2 player nicknamed Miracle-?"
+        answers:
+          A: "Kuro Takhasomi"
+          B: "Anathan Pham"
+          C: "Amer Al-Barkawi"
+          D: "Syed Sumail Hassan"
+    difficulty: HARD
+  - text: "Quel a été le tout premier Major de Counter-Strike: Global Offensive ?"
+    answers:
+      A: "ESL One Cologne 2014"
+      B: "DreamHack Winter 2013"
+      C: "MLG Columbus 2016"
+      D: "ELEAGUE Major 2017"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the very first Counter-Strike: Global Offensive Major?"
+        answers:
+          A: "ESL One Cologne 2014"
+          B: "DreamHack Winter 2013"
+          C: "MLG Columbus 2016"
+          D: "ELEAGUE Major 2017"
+    difficulty: HARD
+  - text: "Quelle est l'identité du joueur français de Counter-Strike surnommé ZywOo ?"
+    answers:
+      A: "Richard Papillon"
+      B: "Mathieu Herbaut"
+      C: "Cédric Guipouy"
+      D: "Dan Madesclaire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the French Counter-Strike player nicknamed ZywOo?"
+        answers:
+          A: "Richard Papillon"
+          B: "Mathieu Herbaut"
+          C: "Cedric Guipouy"
+          D: "Dan Madesclaire"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté la première saison de l'Overwatch League en 2018 ?"
+    answers:
+      A: "London Spitfire"
+      B: "Philadelphia Fusion"
+      C: "New York Excelsior"
+      D: "Seoul Dynasty"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the first season of the Overwatch League in 2018?"
+        answers:
+          A: "London Spitfire"
+          B: "Philadelphia Fusion"
+          C: "New York Excelsior"
+          D: "Seoul Dynasty"
+    difficulty: HARD
+  - text: "Quelle équipe a remporté The International 2017 sur Dota 2 ?"
+    answers:
+      A: "Newbee"
+      B: "LGD.Forever Young"
+      C: "Team Liquid"
+      D: "Team Secret"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won The International 2017 in Dota 2?"
+        answers:
+          A: "Newbee"
+          B: "LGD.Forever Young"
+          C: "Team Liquid"
+          D: "Team Secret"
+    difficulty: EXPERT
+  - text: "Comment s'appelle le trophée remis au vainqueur de The International sur Dota 2 ?"
+    answers:
+      A: "Coupe de la Faille"
+      B: "Shield of Ancients"
+      C: "Aegis of Champions"
+      D: "Trophy of the Ancients"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the trophy awarded to the winner of The International in Dota 2 called?"
+        answers:
+          A: "Rift Cup"
+          B: "Shield of Ancients"
+          C: "Aegis of Champions"
+          D: "Trophy of the Ancients"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté les Championnats du monde de League of Legends en 2013 ?"
+    answers:
+      A: "Samsung Ozone"
+      B: "SK Telecom T1"
+      C: "Royal Club"
+      D: "Fnatic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the League of Legends World Championship in 2013?"
+        answers:
+          A: "Samsung Ozone"
+          B: "SK Telecom T1"
+          C: "Royal Club"
+          D: "Fnatic"
+    difficulty: EXPERT
+  - text: "À combien s'élevait approximativement le prize pool de The International 2019 sur Dota 2 ?"
+    answers:
+      A: "Environ 11 millions de dollars"
+      B: "Environ 45 millions de dollars"
+      C: "Environ 25 millions de dollars"
+      D: "Environ 34 millions de dollars"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Approximately how much was the prize pool for The International 2019 in Dota 2?"
+        answers:
+          A: "About 11 million dollars"
+          B: "About 45 million dollars"
+          C: "About 25 million dollars"
+          D: "About 34 million dollars"
+    difficulty: EXPERT
+  - text: "Quel joueur détient le record du plus grand nombre de titres de champion du monde de League of Legends ?"
+    answers:
+      A: "Faker"
+      B: "Bengi"
+      C: "Mata"
+      D: "Rookie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for the most League of Legends World Championship titles?"
+        answers:
+          A: "Faker"
+          B: "Bengi"
+          C: "Mata"
+          D: "Rookie"
+    difficulty: EXPERT
+  - text: "Quelle équipe a remporté The International 2014 sur Dota 2 ?"
+    answers:
+      A: "Vici Gaming"
+      B: "Evil Geniuses"
+      C: "Newbee"
+      D: "Team DK"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won The International 2014 in Dota 2?"
+        answers:
+          A: "Vici Gaming"
+          B: "Evil Geniuses"
+          C: "Newbee"
+          D: "Team DK"
+    difficulty: EXPERT
+  - text: "Quelle plateforme de streaming vidéo, propriété d'Amazon, est la plus utilisée par les streamers de jeux vidéo ?"
+    answers:
+      A: "Twitch"
+      B: "YouTube Gaming"
+      C: "Mixer"
+      D: "Facebook Gaming"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which video streaming platform, owned by Amazon, is most used by video game streamers?"
+        answers:
+          A: "Twitch"
+          B: "YouTube Gaming"
+          C: "Mixer"
+          D: "Facebook Gaming"
+    difficulty: EASY
+  - text: "Quel jeu de construction en blocs permet de bâtir des mondes virtuels et réunit des millions de joueurs ?"
+    answers:
+      A: "Minecraft"
+      B: "Fortnite"
+      C: "Roblox"
+      D: "Terraria"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which block-building game lets you build virtual worlds and has millions of players?"
+        answers:
+          A: "Minecraft"
+          B: "Fortnite"
+          C: "Roblox"
+          D: "Terraria"
+    difficulty: EASY
+  - text: "Quel périphérique les joueurs PC utilisent-ils principalement pour viser dans un jeu de tir à la première personne ?"
+    answers:
+      A: "La souris"
+      B: "Le clavier"
+      C: "La manette"
+      D: "Le casque audio"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which device do PC players mainly use to aim in a first-person shooter?"
+        answers:
+          A: "The mouse"
+          B: "The keyboard"
+          C: "The controller"
+          D: "The headset"
+    difficulty: EASY
+  - text: "Quelle plateforme permet de créer et de jouer à des jeux conçus par les utilisateurs, avec les Robux comme monnaie virtuelle ?"
+    answers:
+      A: "Roblox"
+      B: "Minecraft"
+      C: "Garry's Mod"
+      D: "Fortnite Creative"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which platform lets you create and play user-designed games, with Robux as virtual currency?"
+        answers:
+          A: "Roblox"
+          B: "Minecraft"
+          C: "Garry's Mod"
+          D: "Fortnite Creative"
+    difficulty: EASY
+  - text: "Que signifie le sigle FPS dans le monde du jeu vidéo ?"
+    answers:
+      A: "Fast Playing System"
+      B: "Full Player Score"
+      C: "First Person Shooter"
+      D: "First Personal Strategy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the acronym FPS stand for in the world of video games?"
+        answers:
+          A: "Fast Playing System"
+          B: "Full Player Score"
+          C: "First Person Shooter"
+          D: "First Personal Strategy"
+    difficulty: EASY
+  - text: "Quel site de partage de vidéos, propriété de Google, héberge d'innombrables contenus consacrés au gaming ?"
+    answers:
+      A: "Dailymotion"
+      B: "YouTube"
+      C: "Vimeo"
+      D: "Twitch"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which video-sharing site, owned by Google, hosts countless gaming-related content?"
+        answers:
+          A: "Dailymotion"
+          B: "YouTube"
+          C: "Vimeo"
+          D: "Twitch"
+    difficulty: EASY
+  - text: "Quelle catégorie de clavier, dotée d'un interrupteur indépendant par touche, est très prisée des joueurs ?"
+    answers:
+      A: "Le clavier virtuel"
+      B: "Le clavier à membrane"
+      C: "Le clavier mécanique"
+      D: "Le clavier pliant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which type of keyboard, with an independent switch per key, is highly prized by gamers?"
+        answers:
+          A: "The virtual keyboard"
+          B: "The membrane keyboard"
+          C: "The mechanical keyboard"
+          D: "The folding keyboard"
+    difficulty: EASY
+  - text: "Que signifie l'abréviation AFK, très utilisée par les joueurs en ligne ?"
+    answers:
+      A: "All For Kill"
+      B: "Away From Keyboard"
+      C: "Always Fast Keyboard"
+      D: "Away For Kills"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the abbreviation AFK, widely used by online players, stand for?"
+        answers:
+          A: "All For Kill"
+          B: "Away From Keyboard"
+          C: "Always Fast Keyboard"
+          D: "Away For Kills"
+    difficulty: EASY
+  - text: "Comment appelle-t-on un logiciel de triche qui permet de voir les adversaires à travers les murs ?"
+    answers:
+      A: "Un aimbot"
+      B: "Un speedhack"
+      C: "Un wallhack"
+      D: "Un lag switch"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is a cheating software that lets you see opponents through walls called?"
+        answers:
+          A: "An aimbot"
+          B: "A speedhack"
+          C: "A wallhack"
+          D: "A lag switch"
+    difficulty: EASY
+  - text: "Quel appareil affiche l'image d'un ordinateur et voit sa fréquence de rafraîchissement mesurée en hertz ?"
+    answers:
+      A: "Le disque dur"
+      B: "La carte graphique"
+      C: "La carte son"
+      D: "L'écran"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which device displays a computer's image and has its refresh rate measured in hertz?"
+        answers:
+          A: "The hard drive"
+          B: "The graphics card"
+          C: "The sound card"
+          D: "The screen"
+    difficulty: EASY
+  - text: "Sous quel pseudonyme est connu Lee Sang-hyeok, la star coréenne de League of Legends ?"
+    answers:
+      A: "Chovy"
+      B: "Deft"
+      C: "Faker"
+      D: "Ruler"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What pseudonym is Lee Sang-hyeok, the Korean League of Legends star, known by?"
+        answers:
+          A: "Chovy"
+          B: "Deft"
+          C: "Faker"
+          D: "Ruler"
+    difficulty: EASY
+  - text: "Comment appelle-t-on un rassemblement de joueurs qui connectent leurs ordinateurs sur un même réseau local ?"
+    answers:
+      A: "Une game jam"
+      B: "Une LAN party"
+      C: "Un bootcamp"
+      D: "Un speedrun"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What do you call a gathering of players who connect their computers on the same local network?"
+        answers:
+          A: "A game jam"
+          B: "A LAN party"
+          C: "A bootcamp"
+          D: "A speedrun"
+    difficulty: EASY
+  - text: "Quel streamer français a créé le Z Event, le grand marathon caritatif du streaming francophone ?"
+    answers:
+      A: "Zerator"
+      B: "Kameto"
+      C: "Squeezie"
+      D: "Gotaga"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French streamer created Z Event, the big charity marathon of French-speaking streaming?"
+        answers:
+          A: "Zerator"
+          B: "Kameto"
+          C: "Squeezie"
+          D: "Gotaga"
+    difficulty: MEDIUM
+  - text: "Sous quel pseudonyme est connu le joueur français Mathieu Herbaut, star de Counter-Strike ?"
+    answers:
+      A: "ZywOo"
+      B: "shox"
+      C: "apEX"
+      D: "NBK"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What pseudonym is the French player Mathieu Herbaut, a Counter-Strike star, known by?"
+        answers:
+          A: "ZywOo"
+          B: "shox"
+          C: "apEX"
+          D: "NBK"
+    difficulty: MEDIUM
+  - text: "Quel streamer américain a popularisé Fortnite avant de signer un contrat exclusif avec Mixer en 2019 ?"
+    answers:
+      A: "Ninja"
+      B: "Dr Disrespect"
+      C: "Shroud"
+      D: "Tfue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which American streamer popularized Fortnite before signing an exclusive deal with Mixer in 2019?"
+        answers:
+          A: "Ninja"
+          B: "Dr Disrespect"
+          C: "Shroud"
+          D: "Tfue"
+    difficulty: MEDIUM
+  - text: "Sous quel pseudonyme est connu Markus Persson, le créateur de Minecraft ?"
+    answers:
+      A: "Notch"
+      B: "Jeb"
+      C: "Dinnerbone"
+      D: "Herobrine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What pseudonym is Markus Persson, the creator of Minecraft, known by?"
+        answers:
+          A: "Notch"
+          B: "Jeb"
+          C: "Dinnerbone"
+          D: "Herobrine"
+    difficulty: MEDIUM
+  - text: "Que mesure le DPI d'une souris de gaming ?"
+    answers:
+      A: "Son poids"
+      B: "Le nombre de ses boutons programmables"
+      C: "La durée de vie de ses clics"
+      D: "Le nombre de points qu'elle détecte par pouce déplacé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the DPI of a gaming mouse measure?"
+        answers:
+          A: "Its weight"
+          B: "The number of its programmable buttons"
+          C: "The lifespan of its clicks"
+          D: "The number of points it detects per inch moved"
+    difficulty: MEDIUM
+  - text: "Quel système anti-triche est intégré aux jeux Valve comme Counter-Strike ?"
+    answers:
+      A: "Warden"
+      B: "BattlEye"
+      C: "Easy Anti-Cheat"
+      D: "VAC"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which anti-cheat system is built into Valve games like Counter-Strike?"
+        answers:
+          A: "Warden"
+          B: "BattlEye"
+          C: "Easy Anti-Cheat"
+          D: "VAC"
+    difficulty: MEDIUM
+  - text: "Quelle organisation française d'e-sport, fondée en 2013, a remporté un Major de Counter-Strike en 2023 ?"
+    answers:
+      A: "G2 Esports"
+      B: "Team Vitality"
+      C: "Team Liquid"
+      D: "Fnatic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French esports organization, founded in 2013, won a Counter-Strike Major in 2023?"
+        answers:
+          A: "G2 Esports"
+          B: "Team Vitality"
+          C: "Team Liquid"
+          D: "Fnatic"
+    difficulty: MEDIUM
+  - text: "Quel ancien joueur professionnel de Call of Duty est devenu l'un des streamers français les plus suivis ?"
+    answers:
+      A: "Domingo"
+      B: "MisterMV"
+      C: "AmineMaTue"
+      D: "Gotaga"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which former professional Call of Duty player became one of the most followed French streamers?"
+        answers:
+          A: "Domingo"
+          B: "MisterMV"
+          C: "AmineMaTue"
+          D: "Gotaga"
+    difficulty: MEDIUM
+  - text: "Sous quel pseudonyme est connu l'Ukrainien Oleksandr Kostyliev, l'un des meilleurs joueurs de Counter-Strike de l'histoire ?"
+    answers:
+      A: "s1mple"
+      B: "Boombl4"
+      C: "electroNic"
+      D: "m0NESY"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What pseudonym is the Ukrainian Oleksandr Kostyliev, one of the best Counter-Strike players in history, known by?"
+        answers:
+          A: "s1mple"
+          B: "Boombl4"
+          C: "electroNic"
+          D: "m0NESY"
+    difficulty: MEDIUM
+  - text: "Quelle plateforme de streaming appartenant à Microsoft a fermé ses portes en 2020 ?"
+    answers:
+      A: "Mixer"
+      B: "Facebook Gaming"
+      C: "Trovo"
+      D: "DLive"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which streaming platform owned by Microsoft shut down in 2020?"
+        answers:
+          A: "Mixer"
+          B: "Facebook Gaming"
+          C: "Trovo"
+          D: "DLive"
+    difficulty: MEDIUM
+  - text: "Quel interrupteur de clavier mécanique est réputé linéaire, sans retour tactile marqué, et très apprécié pour le gaming ?"
+    answers:
+      A: "Le switch bleu"
+      B: "Le switch rouge"
+      C: "Le switch marron"
+      D: "Le switch vert"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mechanical keyboard switch is known for being linear, with no noticeable tactile feedback, and highly popular for gaming?"
+        answers:
+          A: "The blue switch"
+          B: "The red switch"
+          C: "The brown switch"
+          D: "The green switch"
+    difficulty: MEDIUM
+  - text: "Quelle application de messagerie vocale et textuelle, lancée en 2015, est devenue incontournable pour les communautés de joueurs ?"
+    answers:
+      A: "Skype"
+      B: "Discord"
+      C: "Mumble"
+      D: "TeamSpeak"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which voice and text messaging app, launched in 2015, became essential for gaming communities?"
+        answers:
+          A: "Skype"
+          B: "Discord"
+          C: "Mumble"
+          D: "TeamSpeak"
+    difficulty: MEDIUM
+  - text: "Que désigne le terme aimbot dans le vocabulaire de la triche en jeu vidéo ?"
+    answers:
+      A: "Un logiciel qui améliore les graphismes"
+      B: "Un logiciel qui vise automatiquement à la place du joueur"
+      C: "Un logiciel qui accélère les téléchargements"
+      D: "Un logiciel qui réduit la latence du réseau"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the term aimbot refer to in video game cheating vocabulary?"
+        answers:
+          A: "Software that improves graphics"
+          B: "Software that aims automatically in the player's place"
+          C: "Software that speeds up downloads"
+          D: "Software that reduces network latency"
+    difficulty: MEDIUM
+  - text: "En quelle année la plateforme Twitch a-t-elle été officiellement lancée ?"
+    answers:
+      A: "2007"
+      B: "2011"
+      C: "2009"
+      D: "2013"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Twitch platform officially launched?"
+        answers:
+          A: "2007"
+          B: "2011"
+          C: "2009"
+          D: "2013"
+    difficulty: HARD
+  - text: "Quel service dédié aux jeux vidéo et au streaming YouTube a-t-il lancé en 2015 ?"
+    answers:
+      A: "YouTube Studio"
+      B: "YouTube Live"
+      C: "Google Play Games"
+      D: "YouTube Gaming"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What service dedicated to video games and streaming did YouTube launch in 2015?"
+        answers:
+          A: "YouTube Studio"
+          B: "YouTube Live"
+          C: "Google Play Games"
+          D: "YouTube Gaming"
+    difficulty: HARD
+  - text: "Quelle entreprise a racheté Mojang, le studio créateur de Minecraft, en 2014 ?"
+    answers:
+      A: "Sony"
+      B: "Tencent"
+      C: "Amazon"
+      D: "Microsoft"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which company bought Mojang, the studio that created Minecraft, in 2014?"
+        answers:
+          A: "Sony"
+          B: "Tencent"
+          C: "Amazon"
+          D: "Microsoft"
+    difficulty: HARD
+  - text: "En quelle année le jeu Roblox est-il sorti officiellement ?"
+    answers:
+      A: "2004"
+      B: "2006"
+      C: "2008"
+      D: "2010"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the game Roblox officially released?"
+        answers:
+          A: "2004"
+          B: "2006"
+          C: "2008"
+          D: "2010"
+    difficulty: HARD
+  - text: "Quel joueur américain de Quake, de son vrai nom Dennis Fong, est souvent décrit comme le premier joueur professionnel de l'histoire ?"
+    answers:
+      A: "Fatal1ty"
+      B: "Zero4"
+      C: "vo0"
+      D: "Thresh"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which American Quake player, whose real name is Dennis Fong, is often described as the first professional player in history?"
+        answers:
+          A: "Fatal1ty"
+          B: "Zero4"
+          C: "vo0"
+          D: "Thresh"
+    difficulty: HARD
+  - text: "Quel anti-triche, développé à l'origine par Kamu, a été racheté par Epic Games en 2018 ?"
+    answers:
+      A: "BattlEye"
+      B: "Easy Anti-Cheat"
+      C: "PunkBuster"
+      D: "FairFight"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which anti-cheat, originally developed by Kamu, was acquired by Epic Games in 2018?"
+        answers:
+          A: "BattlEye"
+          B: "Easy Anti-Cheat"
+          C: "PunkBuster"
+          D: "FairFight"
+    difficulty: HARD
+  - text: "Quel joueur français de Counter-Strike a été banni par le VAC en 2014 pour tricherie ?"
+    answers:
+      A: "shox"
+      B: "SmithZz"
+      C: "ScreaM"
+      D: "KQLY"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French Counter-Strike player was banned by VAC in 2014 for cheating?"
+        answers:
+          A: "shox"
+          B: "SmithZz"
+          C: "ScreaM"
+          D: "KQLY"
+    difficulty: HARD
+  - text: "Quel rassemblement LAN suédois, créé en 1994, est devenu le plus grand événement de ce type au monde ?"
+    answers:
+      A: "DreamHack"
+      B: "The Gathering"
+      C: "Assembly"
+      D: "QuakeCon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Swedish LAN gathering, created in 1994, became the largest event of its kind in the world?"
+        answers:
+          A: "DreamHack"
+          B: "The Gathering"
+          C: "Assembly"
+          D: "QuakeCon"
+    difficulty: HARD
+  - text: "Quelle souris de la marque Razer, sortie en 2006, est l'une des plus emblématiques du gaming ?"
+    answers:
+      A: "La MX518"
+      B: "La G502"
+      C: "La Sensei"
+      D: "La DeathAdder"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Razer mouse, released in 2006, is one of the most iconic in gaming?"
+        answers:
+          A: "The MX518"
+          B: "The G502"
+          C: "The Sensei"
+          D: "The DeathAdder"
+    difficulty: HARD
+  - text: "Que désigne le taux de sondage d'une souris gaming, souvent exprimé en hertz ?"
+    answers:
+      A: "La résolution maximale de l'écran compatible"
+      B: "Le nombre de fois par seconde où elle transmet sa position à l'ordinateur"
+      C: "Le nombre d'images par seconde qu'elle peut afficher"
+      D: "La vitesse maximale de déplacement qu'elle peut enregistrer"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does a gaming mouse's polling rate, often expressed in hertz, refer to?"
+        answers:
+          A: "The maximum resolution of the compatible screen"
+          B: "The number of times per second it transmits its position to the computer"
+          C: "The number of frames per second it can display"
+          D: "The maximum movement speed it can register"
+    difficulty: HARD
+  - text: "Quel type de dalle d'écran offre généralement les temps de réponse les plus rapides, ce qui en fait un choix prisé en esport ?"
+    answers:
+      A: "La dalle IPS"
+      B: "La dalle TN"
+      C: "La dalle VA"
+      D: "La dalle OLED"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which type of screen panel generally offers the fastest response times, making it a popular choice in esports?"
+        answers:
+          A: "IPS panel"
+          B: "TN panel"
+          C: "VA panel"
+          D: "OLED panel"
+    difficulty: HARD
+  - text: "Quelle entreprise allemande fabrique les célèbres interrupteurs mécaniques Cherry MX ?"
+    answers:
+      A: "Logitech"
+      B: "Razer"
+      C: "Cherry"
+      D: "SteelSeries"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which German company manufactures the famous Cherry MX mechanical switches?"
+        answers:
+          A: "Logitech"
+          B: "Razer"
+          C: "Cherry"
+          D: "SteelSeries"
+    difficulty: HARD
+  - text: "Quel tournoi organisé en 1972 à l'université Stanford est souvent cité comme le premier événement d'e-sport de l'histoire ?"
+    answers:
+      A: "Le championnat Pong d'Atari"
+      B: "La Cyberathlete Professional League"
+      C: "Le championnat du monde de Space Invaders"
+      D: "L'Intergalactic Spacewar Olympics"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which tournament held in 1972 at Stanford University is often cited as the first esports event in history?"
+        answers:
+          A: "The Atari Pong championship"
+          B: "The Cyberathlete Professional League"
+          C: "The Space Invaders world championship"
+          D: "The Intergalactic Spacewar Olympics"
+    difficulty: EXPERT
+  - text: "Quel joueur a remporté le tournoi de Spacewar organisé à Stanford en 1972 ?"
+    answers:
+      A: "Nolan Bushnell"
+      B: "Dennis Fong"
+      C: "Stewart Brand"
+      D: "Bruce Baumgart"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the Spacewar tournament held at Stanford in 1972?"
+        answers:
+          A: "Nolan Bushnell"
+          B: "Dennis Fong"
+          C: "Stewart Brand"
+          D: "Bruce Baumgart"
+    difficulty: EXPERT
+  - text: "Combien Amazon a-t-elle déboursé pour racheter Twitch en 2014 ?"
+    answers:
+      A: "Environ 1 milliard de dollars"
+      B: "Environ 100 millions de dollars"
+      C: "Environ 5 milliards de dollars"
+      D: "Environ 10 milliards de dollars"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How much did Amazon pay to acquire Twitch in 2014?"
+        answers:
+          A: "About 1 billion dollars"
+          B: "About 100 million dollars"
+          C: "About 5 billion dollars"
+          D: "About 10 billion dollars"
+    difficulty: EXPERT
+  - text: "Quel site de streaming, lancé en 2007, est à l'origine de Twitch ?"
+    answers:
+      A: "Stickam"
+      B: "Justin.tv"
+      C: "Livestream"
+      D: "Ustream"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which streaming site, launched in 2007, is the origin of Twitch?"
+        answers:
+          A: "Stickam"
+          B: "Justin.tv"
+          C: "Livestream"
+          D: "Ustream"
+    difficulty: EXPERT
+  - text: "Quel employé de Justin.tv prête son visage à l'emote Kappa de Twitch ?"
+    answers:
+      A: "Justin Kan"
+      B: "Josh DeSeno"
+      C: "Emmett Shear"
+      D: "Michael Seibel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Justin.tv employee's face is used for Twitch's Kappa emote?"
+        answers:
+          A: "Justin Kan"
+          B: "Josh DeSeno"
+          C: "Emmett Shear"
+          D: "Michael Seibel"
+    difficulty: EXPERT
+  - text: "Quelle compétition internationale, créée en France en 2003, a organisé ses finales au Futuroscope de Poitiers ?"
+    answers:
+      A: "La WCG"
+      B: "La CPL"
+      C: "L'ESWC"
+      D: "L'ESL"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which international competition, created in France in 2003, held its finals at Futuroscope in Poitiers?"
+        answers:
+          A: "WCG"
+          B: "CPL"
+          C: "ESWC"
+          D: "ESL"
+    difficulty: EXPERT
+  - text: "Quelle ligue américaine fondée en 1997 par Angel Munoz a professionnalisé les tournois de jeux de tir ?"
+    answers:
+      A: "La WCG"
+      B: "La MLG"
+      C: "La CPL"
+      D: "L'ESL"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which American league founded in 1997 by Angel Munoz professionalized shooter game tournaments?"
+        answers:
+          A: "WCG"
+          B: "MLG"
+          C: "CPL"
+          D: "ESL"
+    difficulty: EXPERT
+  - text: "En quelle année le serveur Minecraft Hypixel, l'un des plus fréquentés au monde, a-t-il été lancé ?"
+    answers:
+      A: "2009"
+      B: "2010"
+      C: "2013"
+      D: "2011"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the Minecraft server Hypixel, one of the most visited in the world, launched?"
+        answers:
+          A: "2009"
+          B: "2010"
+          C: "2013"
+          D: "2011"
+    difficulty: EXPERT
+  - text: "Quel joueur professionnel indien de Counter-Strike a été surpris en train de tricher pendant un tournoi officiel en 2018 ?"
+    answers:
+      A: "s1mple"
+      B: "flusha"
+      C: "subroza"
+      D: "forsaken"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Indian professional Counter-Strike player was caught cheating during an official tournament in 2018?"
+        answers:
+          A: "s1mple"
+          B: "flusha"
+          C: "subroza"
+          D: "forsaken"
+    difficulty: EXPERT
+  - text: "Quel anti-triche fonctionnant au niveau du noyau du système a été lancé par Riot Games avec Valorant en 2020 ?"
+    answers:
+      A: "PunkBuster"
+      B: "Warden"
+      C: "VAC"
+      D: "Vanguard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which kernel-level anti-cheat was launched by Riot Games with Valorant in 2020?"
+        answers:
+          A: "PunkBuster"
+          B: "Warden"
+          C: "VAC"
+          D: "Vanguard"
+    difficulty: EXPERT
+  - text: "Quel joueur japonais de Street Fighter est célèbre pour le Evo Moment #37 en 2004 ?"
+    answers:
+      A: "Justin Wong"
+      B: "Daigo Umehara"
+      C: "Tokido"
+      D: "Momochi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese Street Fighter player is famous for Evo Moment #37 in 2004?"
+        answers:
+          A: "Justin Wong"
+          B: "Daigo Umehara"
+          C: "Tokido"
+          D: "Momochi"
+    difficulty: EXPERT
+  - text: "Quel joueur américain de Quake a été le premier à donner son pseudonyme à des produits dérivés comme des cartes mères ?"
+    answers:
+      A: "Thresh"
+      B: "ZeRo"
+      C: "Fatal1ty"
+      D: "Spawn"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which American Quake player was the first to lend his nickname to merchandise like motherboards?"
+        answers:
+          A: "Thresh"
+          B: "ZeRo"
+          C: "Fatal1ty"
+          D: "Spawn"
+    difficulty: EXPERT
+  - text: "Quelle organisation française d'e-sport, fondée en 2000, est désignée par l'abréviation aAa ?"
+    answers:
+      A: "Absolute Arena"
+      B: "All Star Alliance"
+      C: "Alliance Armée d'Acier"
+      D: "Against All Authority"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French esports organization, founded in 2000, is known by the abbreviation aAa?"
+        answers:
+          A: "Absolute Arena"
+          B: "All Star Alliance"
+          C: "Alliance Armée d'Acier"
+          D: "Against All Authority"
+    difficulty: EXPERT

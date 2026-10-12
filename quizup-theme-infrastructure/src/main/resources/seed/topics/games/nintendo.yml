@@ -1,0 +1,1609 @@
+topic:
+  id: topic-nintendo
+  names:
+    fr: "Nintendo"
+    en: "Nintendo"
+  description: "Testez vos connaissances sur Nintendo, l'entreprise japonaise fondée en 1889 devenue l'un des plus grands noms du jeu vidéo. Des consoles NES, Game Boy, Nintendo 64 et Switch aux licences Super Mario, The Legend of Zelda, Pokémon, Metroid, Kirby et Donkey Kong, ce thème couvre les machines cultes, leurs créateurs et les personnages emblématiques qui ont marqué des générations de joueurs."
+  category: GAMES
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-Original.jpg?width=800
+questions:
+  - text: "Quel personnage moustachu est la mascotte de Nintendo ?"
+    answers:
+      A: "Mario"
+      B: "Luigi"
+      C: "Wario"
+      D: "Donkey Kong"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mustachioed character is Nintendo's mascot?"
+        answers:
+          A: "Mario"
+          B: "Luigi"
+          C: "Wario"
+          D: "Donkey Kong"
+    difficulty: EASY
+  - text: "Comment s'appelle le dinosaure vert, fidèle compagnon de Mario ?"
+    answers:
+      A: "Bowser"
+      B: "Toad"
+      C: "Donkey Kong"
+      D: "Yoshi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the green dinosaur, Mario's loyal companion?"
+        answers:
+          A: "Bowser"
+          B: "Toad"
+          C: "Donkey Kong"
+          D: "Yoshi"
+    difficulty: EASY
+  - text: "Quelle console hybride Nintendo est sortie en mars 2017 ?"
+    answers:
+      A: "GameCube"
+      B: "Wii U"
+      C: "Nintendo 64"
+      D: "Switch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which hybrid Nintendo console was released in March 2017?"
+        answers:
+          A: "GameCube"
+          B: "Wii U"
+          C: "Nintendo 64"
+          D: "Switch"
+    difficulty: EASY
+  - text: "Quel est le nom du héros de la série The Legend of Zelda ?"
+    answers:
+      A: "Zelda"
+      B: "Link"
+      C: "Ganondorf"
+      D: "Navi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hero of The Legend of Zelda series?"
+        answers:
+          A: "Zelda"
+          B: "Link"
+          C: "Ganondorf"
+          D: "Navi"
+    difficulty: EASY
+  - text: "Dans Super Mario Bros., quel objet permet à Mario de devenir plus grand ?"
+    answers:
+      A: "Le Super Champignon"
+      B: "La fleur de feu"
+      C: "La carapace bleue"
+      D: "L'étoile"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Super Mario Bros., which item makes Mario grow bigger?"
+        answers:
+          A: "The Super Mushroom"
+          B: "The fire flower"
+          C: "The blue shell"
+          D: "The star"
+    difficulty: EASY
+  - text: "Quel est le type du Pokémon Pikachu ?"
+    answers:
+      A: "Feu"
+      B: "Électrik"
+      C: "Eau"
+      D: "Plante"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the type of the Pokémon Pikachu?"
+        answers:
+          A: "Fire"
+          B: "Electric"
+          C: "Water"
+          D: "Grass"
+    difficulty: EASY
+  - text: "Quelle entreprise japonaise est à l'origine de la série Super Mario ?"
+    answers:
+      A: "Nintendo"
+      B: "Sega"
+      C: "Sony"
+      D: "Capcom"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese company created the Super Mario series?"
+        answers:
+          A: "Nintendo"
+          B: "Sega"
+          C: "Sony"
+          D: "Capcom"
+    difficulty: EASY
+  - text: "Sur quelle console est sorti The Legend of Zelda: Ocarina of Time en 1998 ?"
+    answers:
+      A: "Super NES"
+      B: "GameCube"
+      C: "Nintendo 64"
+      D: "Wii"
+    correctAnswer: C
+    translations:
+      en:
+        text: "On which console was The Legend of Zelda: Ocarina of Time released in 1998?"
+        answers:
+          A: "Super NES"
+          B: "GameCube"
+          C: "Nintendo 64"
+          D: "Wii"
+    difficulty: MEDIUM
+  - text: "Qui est enlevée par Bowser au début de Super Mario Bros. ?"
+    answers:
+      A: "Pauline"
+      B: "La princesse Daisy"
+      C: "La princesse Peach"
+      D: "Rosalina"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is kidnapped by Bowser at the beginning of Super Mario Bros.?"
+        answers:
+          A: "Pauline"
+          B: "Princess Daisy"
+          C: "Princess Peach"
+          D: "Rosalina"
+    difficulty: MEDIUM
+  - text: "Dans quelle région se déroule Pokémon Rouge et Bleu ?"
+    answers:
+      A: "Johto"
+      B: "Hoenn"
+      C: "Kanto"
+      D: "Sinnoh"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which region does Pokémon Red and Blue take place?"
+        answers:
+          A: "Johto"
+          B: "Hoenn"
+          C: "Kanto"
+          D: "Sinnoh"
+    difficulty: MEDIUM
+  - text: "Quelle console portable a succédé à la Game Boy Advance en 2004 ?"
+    answers:
+      A: "Nintendo DS"
+      B: "Nintendo 3DS"
+      C: "Game Boy Micro"
+      D: "Game Boy Color"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which handheld console succeeded the Game Boy Advance in 2004?"
+        answers:
+          A: "Nintendo DS"
+          B: "Nintendo 3DS"
+          C: "Game Boy Micro"
+          D: "Game Boy Color"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la chasseuse de primes héroïne de la série Metroid ?"
+    answers:
+      A: "Samus Aran"
+      B: "Zelda"
+      C: "Bayonetta"
+      D: "Joanna Dark"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the bounty hunter heroine of the Metroid series?"
+        answers:
+          A: "Samus Aran"
+          B: "Zelda"
+          C: "Bayonetta"
+          D: "Joanna Dark"
+    difficulty: MEDIUM
+  - text: "Quel jeu de course de la Super NES a été lancé avec la console en 1990 ?"
+    answers:
+      A: "F-Zero"
+      B: "Mario Kart"
+      C: "Donkey Kong Country"
+      D: "Star Fox"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Super NES racing game launched with the console in 1990?"
+        answers:
+          A: "F-Zero"
+          B: "Mario Kart"
+          C: "Donkey Kong Country"
+          D: "Star Fox"
+    difficulty: MEDIUM
+  - text: "Quel créateur japonais est connu pour avoir conçu la Game Boy et les Game & Watch ?"
+    answers:
+      A: "Shigeru Miyamoto"
+      B: "Masahiro Sakurai"
+      C: "Gunpei Yokoi"
+      D: "Satoshi Tajiri"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Japanese creator is known for designing the Game Boy and Game & Watch?"
+        answers:
+          A: "Shigeru Miyamoto"
+          B: "Masahiro Sakurai"
+          C: "Gunpei Yokoi"
+          D: "Satoshi Tajiri"
+    difficulty: HARD
+  - text: "En quelle année la Famicom, version japonaise de la NES, est-elle sortie ?"
+    answers:
+      A: "1983"
+      B: "1985"
+      C: "1986"
+      D: "1989"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Famicom, the Japanese version of the NES, released?"
+        answers:
+          A: "1983"
+          B: "1985"
+          C: "1986"
+          D: "1989"
+    difficulty: HARD
+  - text: "Quel accessoire de la NES en forme de pistolet servait à jouer à Duck Hunt ?"
+    answers:
+      A: "Le Super Scope"
+      B: "Le Power Glove"
+      C: "Le Zapper"
+      D: "Le Power Pad"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which gun-shaped NES accessory was used to play Duck Hunt?"
+        answers:
+          A: "The Super Scope"
+          B: "The Power Glove"
+          C: "The Zapper"
+          D: "The Power Pad"
+    difficulty: HARD
+  - text: "Quel compositeur est l'auteur du thème principal de Super Mario Bros. ?"
+    answers:
+      A: "Nobuo Uematsu"
+      B: "Yoko Shimomura"
+      C: "Kazumi Totaka"
+      D: "Koji Kondo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the main theme of Super Mario Bros.?"
+        answers:
+          A: "Nobuo Uematsu"
+          B: "Yoko Shimomura"
+          C: "Kazumi Totaka"
+          D: "Koji Kondo"
+    difficulty: HARD
+  - text: "Quel studio britannique a développé Donkey Kong Country sur Super NES ?"
+    answers:
+      A: "Rare"
+      B: "Retro Studios"
+      C: "HAL Laboratory"
+      D: "Game Freak"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which British studio developed Donkey Kong Country on Super NES?"
+        answers:
+          A: "Rare"
+          B: "Retro Studios"
+          C: "HAL Laboratory"
+          D: "Game Freak"
+    difficulty: HARD
+  - text: "Combien de Pokémon compte la première génération (Pokémon Rouge et Bleu) ?"
+    answers:
+      A: "151"
+      B: "150"
+      C: "152"
+      D: "153"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many Pokémon are in the first generation (Pokémon Red and Blue)?"
+        answers:
+          A: "151"
+          B: "150"
+          C: "152"
+          D: "153"
+    difficulty: HARD
+  - text: "Quel était le nom de code officiel de la GameCube pendant son développement ?"
+    answers:
+      A: "Revolution"
+      B: "Ultra 64"
+      C: "NX"
+      D: "Dolphin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the official codename of the GameCube during its development?"
+        answers:
+          A: "Revolution"
+          B: "Ultra 64"
+          C: "NX"
+          D: "Dolphin"
+    difficulty: EXPERT
+  - text: "Quel processeur équipait la NES ?"
+    answers:
+      A: "Motorola 68000"
+      B: "Ricoh 2A03"
+      C: "Zilog Z80"
+      D: "Intel 8086"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which processor did the NES use?"
+        answers:
+          A: "Motorola 68000"
+          B: "Ricoh 2A03"
+          C: "Zilog Z80"
+          D: "Intel 8086"
+    difficulty: EXPERT
+  - text: "Quel jeu Game Boy de 1992 a introduit le personnage de Wario ?"
+    answers:
+      A: "Super Mario Land"
+      B: "Wario Land"
+      C: "Wario's Woods"
+      D: "Super Mario Land 2: 6 Golden Coins"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1992 Game Boy game introduced the character Wario?"
+        answers:
+          A: "Super Mario Land"
+          B: "Wario Land"
+          C: "Wario's Woods"
+          D: "Super Mario Land 2: 6 Golden Coins"
+    difficulty: EXPERT
+  - text: "Comment s'appelait le premier jeu Game & Watch de Gunpei Yokoi, sorti en 1980 ?"
+    answers:
+      A: "Flagman"
+      B: "Ball"
+      C: "Fire"
+      D: "Octopus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of Gunpei Yokoi's first Game & Watch game, released in 1980?"
+        answers:
+          A: "Flagman"
+          B: "Ball"
+          C: "Fire"
+          D: "Octopus"
+    difficulty: EXPERT
+  - text: "Quel add-on de la Famicom utilisait des disquettes et n'est jamais sorti en Europe ?"
+    answers:
+      A: "Satellaview"
+      B: "Famicom Disk System"
+      C: "64DD"
+      D: "Famicom Modem"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Famicom add-on used floppy disks and was never released in Europe?"
+        answers:
+          A: "Satellaview"
+          B: "Famicom Disk System"
+          C: "64DD"
+          D: "Famicom Modem"
+    difficulty: EXPERT
+  - text: "Quel jeu de 1993 fut le premier à utiliser la puce Super FX de la Super NES ?"
+    answers:
+      A: "Star Fox"
+      B: "Stunt Race FX"
+      C: "Super Mario World"
+      D: "Doom"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1993 game was the first to use the Super NES Super FX chip?"
+        answers:
+          A: "Star Fox"
+          B: "Stunt Race FX"
+          C: "Super Mario World"
+          D: "Doom"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Mario ?"
+    answers:
+      A: "Luigi"
+      B: "Wario"
+      C: "Toad"
+      D: "Bowser"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Mario's brother?"
+        answers:
+          A: "Luigi"
+          B: "Wario"
+          C: "Toad"
+          D: "Bowser"
+    difficulty: EASY
+  - text: "Quel Pokémon jaune est la mascotte de la franchise Pokémon ?"
+    answers:
+      A: "Pikachu"
+      B: "Évoli"
+      C: "Bulbizarre"
+      D: "Salamèche"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which yellow Pokémon is the mascot of the Pokémon franchise?"
+        answers:
+          A: "Pikachu"
+          B: "Eevee"
+          C: "Bulbasaur"
+          D: "Charmander"
+    difficulty: EASY
+  - text: "Quel roi des Koopas est le principal antagoniste de la série Super Mario ?"
+    answers:
+      A: "Ganondorf"
+      B: "Donkey Kong"
+      C: "Wario"
+      D: "Bowser"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which King of the Koopas is the main antagonist of the Super Mario series?"
+        answers:
+          A: "Ganondorf"
+          B: "Donkey Kong"
+          C: "Wario"
+          D: "Bowser"
+    difficulty: EASY
+  - text: "Quel personnage rose et rond est la vedette de la série Kirby ?"
+    answers:
+      A: "Toad"
+      B: "Jigglypuff"
+      C: "Yoshi"
+      D: "Kirby"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which round pink character stars in the Kirby series?"
+        answers:
+          A: "Toad"
+          B: "Jigglypuff"
+          C: "Yoshi"
+          D: "Kirby"
+    difficulty: EASY
+  - text: "Quelle est la couleur emblématique de la casquette de Mario ?"
+    answers:
+      A: "Rouge"
+      B: "Bleue"
+      C: "Verte"
+      D: "Jaune"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the iconic color of Mario's cap?"
+        answers:
+          A: "Red"
+          B: "Blue"
+          C: "Green"
+          D: "Yellow"
+    difficulty: EASY
+  - text: "Quel jeu de combat réunit les personnages de Nintendo ?"
+    answers:
+      A: "Super Smash Bros."
+      B: "Mario Party"
+      C: "Mario Kart"
+      D: "Splatoon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which fighting game brings together Nintendo characters?"
+        answers:
+          A: "Super Smash Bros."
+          B: "Mario Party"
+          C: "Mario Kart"
+          D: "Splatoon"
+    difficulty: EASY
+  - text: "Sur quelle console est sorti Super Mario 64 en 1996 ?"
+    answers:
+      A: "Super NES"
+      B: "Nintendo 64"
+      C: "GameCube"
+      D: "Wii"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which console was Super Mario 64 released in 1996?"
+        answers:
+          A: "Super NES"
+          B: "Nintendo 64"
+          C: "GameCube"
+          D: "Wii"
+    difficulty: MEDIUM
+  - text: "Quelle console Nintendo a introduit la Wiimote en 2006 ?"
+    answers:
+      A: "GameCube"
+      B: "Switch"
+      C: "Wii U"
+      D: "Wii"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Nintendo console introduced the Wiimote in 2006?"
+        answers:
+          A: "GameCube"
+          B: "Switch"
+          C: "Wii U"
+          D: "Wii"
+    difficulty: MEDIUM
+  - text: "Quel Pokémon de type Eau est un starter de la première génération ?"
+    answers:
+      A: "Bulbizarre"
+      B: "Salamèche"
+      C: "Carapuce"
+      D: "Magicarpe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Water-type Pokémon is a first-generation starter?"
+        answers:
+          A: "Bulbasaur"
+          B: "Charmander"
+          C: "Squirtle"
+          D: "Magikarp"
+    difficulty: MEDIUM
+  - text: "Quel jeu de kart a débuté sur Super NES en 1992 ?"
+    answers:
+      A: "Super Mario Kart"
+      B: "Mario Kart 64"
+      C: "Mario Kart: Double Dash!!"
+      D: "Mario Kart Wii"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which kart game debuted on the Super NES in 1992?"
+        answers:
+          A: "Super Mario Kart"
+          B: "Mario Kart 64"
+          C: "Mario Kart: Double Dash!!"
+          D: "Mario Kart Wii"
+    difficulty: MEDIUM
+  - text: "Dans quel royaume se déroulent la plupart des jeux The Legend of Zelda ?"
+    answers:
+      A: "Hyrule"
+      B: "Termina"
+      C: "Lorule"
+      D: "Koholint"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which kingdom do most The Legend of Zelda games take place?"
+        answers:
+          A: "Hyrule"
+          B: "Termina"
+          C: "Lorule"
+          D: "Koholint"
+    difficulty: MEDIUM
+  - text: "Qui a créé Mario et The Legend of Zelda ?"
+    answers:
+      A: "Gunpei Yokoi"
+      B: "Satoshi Tajiri"
+      C: "Shigeru Miyamoto"
+      D: "Masahiro Sakurai"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who created Mario and The Legend of Zelda?"
+        answers:
+          A: "Gunpei Yokoi"
+          B: "Satoshi Tajiri"
+          C: "Shigeru Miyamoto"
+          D: "Masahiro Sakurai"
+    difficulty: MEDIUM
+  - text: "Dans Donkey Kong (1981), quel était le métier de Jumpman, le futur Mario ?"
+    answers:
+      A: "Plombier"
+      B: "Charpentier"
+      C: "Mécanicien"
+      D: "Pompier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Donkey Kong (1981), what was the profession of Jumpman, the future Mario?"
+        answers:
+          A: "Plumber"
+          B: "Carpenter"
+          C: "Mechanic"
+          D: "Firefighter"
+    difficulty: HARD
+  - text: "Quel jeu Super NES de 1990 a introduit Yoshi ?"
+    answers:
+      A: "Donkey Kong Country"
+      B: "Yoshi's Island"
+      C: "Super Mario Kart"
+      D: "Super Mario World"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1990 Super NES game introduced Yoshi?"
+        answers:
+          A: "Donkey Kong Country"
+          B: "Yoshi's Island"
+          C: "Super Mario Kart"
+          D: "Super Mario World"
+    difficulty: HARD
+  - text: "Dans quelle région se déroule Pokémon Or et Argent ?"
+    answers:
+      A: "Kanto"
+      B: "Hoenn"
+      C: "Sinnoh"
+      D: "Johto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which region do Pokémon Gold and Silver take place?"
+        answers:
+          A: "Kanto"
+          B: "Hoenn"
+          C: "Sinnoh"
+          D: "Johto"
+    difficulty: HARD
+  - text: "Combien de jours dure le cycle temporel de Majora's Mask ?"
+    answers:
+      A: "Deux"
+      B: "Trois"
+      C: "Cinq"
+      D: "Sept"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many days does the time cycle of Majora's Mask last?"
+        answers:
+          A: "Two"
+          B: "Three"
+          C: "Five"
+          D: "Seven"
+    difficulty: HARD
+  - text: "Quel jeu était fourni avec la Game Boy en Occident lors de sa sortie en 1989 ?"
+    answers:
+      A: "Tetris"
+      B: "Super Mario Land"
+      C: "Dr. Mario"
+      D: "Alleyway"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which game was bundled with the Game Boy in the West at its 1989 launch?"
+        answers:
+          A: "Tetris"
+          B: "Super Mario Land"
+          C: "Dr. Mario"
+          D: "Alleyway"
+    difficulty: HARD
+  - text: "Quel jeu GameCube a été développé par Retro Studios ?"
+    answers:
+      A: "Metroid Fusion"
+      B: "Metroid: Other M"
+      C: "Super Metroid"
+      D: "Metroid Prime"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which GameCube game was developed by Retro Studios?"
+        answers:
+          A: "Metroid Fusion"
+          B: "Metroid: Other M"
+          C: "Super Metroid"
+          D: "Metroid Prime"
+    difficulty: HARD
+  - text: "Quelle était l'activité de Nintendo à sa fondation en 1889 ?"
+    answers:
+      A: "Fabricant de cartes à jouer"
+      B: "Fabricant de jouets"
+      C: "Fabricant d'électronique"
+      D: "Compagnie de taxis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was Nintendo's business at its founding in 1889?"
+        answers:
+          A: "Playing card maker"
+          B: "Toy maker"
+          C: "Electronics maker"
+          D: "Taxi company"
+    difficulty: HARD
+  - text: "Quelle console de salon Nintendo, sortie en 1977, fut sa toute première ?"
+    answers:
+      A: "Famicom"
+      B: "Color TV-Game"
+      C: "Game & Watch"
+      D: "Super Famicom"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Nintendo home console, released in 1977, was its very first?"
+        answers:
+          A: "Famicom"
+          B: "Color TV-Game"
+          C: "Game & Watch"
+          D: "Super Famicom"
+    difficulty: EXPERT
+  - text: "Quel boss dirige les Space Pirates dans le premier Metroid ?"
+    answers:
+      A: "Ridley"
+      B: "Kraid"
+      C: "Mother Brain"
+      D: "Dark Samus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which boss leads the Space Pirates in the first Metroid?"
+        answers:
+          A: "Ridley"
+          B: "Kraid"
+          C: "Mother Brain"
+          D: "Dark Samus"
+    difficulty: EXPERT
+  - text: "Quel était le nom de code de la Nintendo 64 pendant son développement ?"
+    answers:
+      A: "Dolphin"
+      B: "Ultra 64"
+      C: "Revolution"
+      D: "NX"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the codename of the Nintendo 64 during its development?"
+        answers:
+          A: "Dolphin"
+          B: "Ultra 64"
+          C: "Revolution"
+          D: "NX"
+    difficulty: EXPERT
+  - text: "Quel style graphique caractérise The Wind Waker, critiqué lors de sa révélation en 2001 ?"
+    answers:
+      A: "Le pixel art"
+      B: "Le rendu photoréaliste"
+      C: "La 3D stéréoscopique"
+      D: "Le cel-shading"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which graphical style characterizes The Wind Waker, criticized when it was revealed in 2001?"
+        answers:
+          A: "Pixel art"
+          B: "Photorealistic rendering"
+          C: "Stereoscopic 3D"
+          D: "Cel-shading"
+    difficulty: EXPERT
+  - text: "Quel personnage féminin accompagne Diddy Kong dans Donkey Kong Country 2 ?"
+    answers:
+      A: "Candy Kong"
+      B: "Dixie Kong"
+      C: "Tiny Kong"
+      D: "Wrinkly Kong"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which female character accompanies Diddy Kong in Donkey Kong Country 2?"
+        answers:
+          A: "Candy Kong"
+          B: "Dixie Kong"
+          C: "Tiny Kong"
+          D: "Wrinkly Kong"
+    difficulty: EXPERT
+  - text: "Combien de niveaux compte Super Mario Bros. sur NES ?"
+    answers:
+      A: "24"
+      B: "28"
+      C: "36"
+      D: "32"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many levels does Super Mario Bros. on NES have?"
+        answers:
+          A: "24"
+          B: "28"
+          C: "36"
+          D: "32"
+    difficulty: EXPERT
+  - text: "Quel jeu de 1996 est le premier épisode de Mario en 3D ?"
+    answers:
+      A: "Super Mario World"
+      B: "Super Mario Sunshine"
+      C: "Super Mario 64"
+      D: "Super Mario Galaxy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1996 game is the first 3D Mario title?"
+        answers:
+          A: "Super Mario World"
+          B: "Super Mario Sunshine"
+          C: "Super Mario 64"
+          D: "Super Mario Galaxy"
+    difficulty: EASY
+  - text: "Quel instrument Link utilise-t-il dans The Legend of Zelda: Ocarina of Time ?"
+    answers:
+      A: "Une harpe"
+      B: "Un ocarina"
+      C: "Une flûte"
+      D: "Un violon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which instrument does Link use in The Legend of Zelda: Ocarina of Time?"
+        answers:
+          A: "A harp"
+          B: "An ocarina"
+          C: "A flute"
+          D: "A violin"
+    difficulty: EASY
+  - text: "Comment s'appelle la jument de Link dans Ocarina of Time ?"
+    answers:
+      A: "Zelda"
+      B: "Malon"
+      C: "Epona"
+      D: "Saria"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Link's mare in Ocarina of Time?"
+        answers:
+          A: "Zelda"
+          B: "Malon"
+          C: "Epona"
+          D: "Saria"
+    difficulty: EASY
+  - text: "Quel opus de Zelda sorti en 2017 propose un immense monde ouvert ?"
+    answers:
+      A: "Skyward Sword"
+      B: "Breath of the Wild"
+      C: "Twilight Princess"
+      D: "Majora's Mask"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Zelda game released in 2017 features a huge open world?"
+        answers:
+          A: "Skyward Sword"
+          B: "Breath of the Wild"
+          C: "Twilight Princess"
+          D: "Majora's Mask"
+    difficulty: EASY
+  - text: "Quel raton laveur est le commerçant emblématique de la série Animal Crossing ?"
+    answers:
+      A: "Tom Nook"
+      B: "Kéké Laglisse"
+      C: "Rounard"
+      D: "Méli"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which raccoon is the iconic shopkeeper of the Animal Crossing series?"
+        answers:
+          A: "Tom Nook"
+          B: "K.K. Slider"
+          C: "Redd"
+          D: "Mabel"
+    difficulty: EASY
+  - text: "Dans Splatoon, les personnages jouables peuvent se transformer en..."
+    answers:
+      A: "En grenouilles"
+      B: "En pieuvres"
+      C: "En poissons"
+      D: "En calmars"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Splatoon, playable characters can transform into..."
+        answers:
+          A: "Frogs"
+          B: "Octopuses"
+          C: "Fish"
+          D: "Squids"
+    difficulty: EASY
+  - text: "Quel jeu de sport était fourni avec la Wii lors de sa sortie en 2006 ?"
+    answers:
+      A: "Wii Sports"
+      B: "Mario Kart Wii"
+      C: "Wii Play"
+      D: "Wii Fit"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sports game was bundled with the Wii at its 2006 launch?"
+        answers:
+          A: "Wii Sports"
+          B: "Mario Kart Wii"
+          C: "Wii Play"
+          D: "Wii Fit"
+    difficulty: EASY
+  - text: "Quel grand singe est la mascotte de la série Donkey Kong ?"
+    answers:
+      A: "Diddy Kong"
+      B: "Cranky Kong"
+      C: "Funky Kong"
+      D: "Donkey Kong"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which great ape is the mascot of the Donkey Kong series?"
+        answers:
+          A: "Diddy Kong"
+          B: "Cranky Kong"
+          C: "Funky Kong"
+          D: "Donkey Kong"
+    difficulty: EASY
+  - text: "À quel genre appartient principalement la série Fire Emblem ?"
+    answers:
+      A: "Jeu de course"
+      B: "Jeu de rôle tactique"
+      C: "Jeu de plateforme"
+      D: "Jeu de tir"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which genre does the Fire Emblem series mainly belong?"
+        answers:
+          A: "Racing game"
+          B: "Tactical role-playing game"
+          C: "Platformer"
+          D: "Shooter"
+    difficulty: EASY
+  - text: "Quel jeune homme manie la lame Monado dans Xenoblade Chronicles ?"
+    answers:
+      A: "Rex"
+      B: "Shulk"
+      C: "Noah"
+      D: "Chrom"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which young man wields the Monado blade in Xenoblade Chronicles?"
+        answers:
+          A: "Rex"
+          B: "Shulk"
+          C: "Noah"
+          D: "Chrom"
+    difficulty: EASY
+  - text: "Quelle Game Boy a introduit un écran en couleur en 1998 ?"
+    answers:
+      A: "Game Boy Pocket"
+      B: "Game Boy Advance"
+      C: "Game Boy Micro"
+      D: "Game Boy Color"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Game Boy introduced a color screen in 1998?"
+        answers:
+          A: "Game Boy Pocket"
+          B: "Game Boy Advance"
+          C: "Game Boy Micro"
+          D: "Game Boy Color"
+    difficulty: EASY
+  - text: "Quel Animal Crossing est sorti sur Switch en 2020 ?"
+    answers:
+      A: "Wild World"
+      B: "New Leaf"
+      C: "New Horizons"
+      D: "City Folk"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Animal Crossing was released on Switch in 2020?"
+        answers:
+          A: "Wild World"
+          B: "New Leaf"
+          C: "New Horizons"
+          D: "City Folk"
+    difficulty: EASY
+  - text: "Comment s'appelle l'abonnement payant au jeu en ligne de la Nintendo Switch ?"
+    answers:
+      A: "Nintendo Network"
+      B: "Nintendo Switch Online"
+      C: "WiiConnect24"
+      D: "Nintendo eShop"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the paid online gaming subscription for the Nintendo Switch called?"
+        answers:
+          A: "Nintendo Network"
+          B: "Nintendo Switch Online"
+          C: "WiiConnect24"
+          D: "Nintendo eShop"
+    difficulty: MEDIUM
+  - text: "Quel mode de jeu emblématique de Splatoon consiste à encrer le plus de surface possible ?"
+    answers:
+      A: "Bataille royale"
+      B: "Capture du drapeau"
+      C: "Course à l'encre"
+      D: "Guerre de territoire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which iconic Splatoon game mode involves inking as much surface as possible?"
+        answers:
+          A: "Battle Royale"
+          B: "Capture the Flag"
+          C: "Ink Race"
+          D: "Turf War"
+    difficulty: MEDIUM
+  - text: "Quel chien musicien donne des concerts le samedi soir dans Animal Crossing ?"
+    answers:
+      A: "Rounard"
+      B: "Tom Nook"
+      C: "Kéké Laglisse"
+      D: "Méli"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which musical dog gives concerts on Saturday nights in Animal Crossing?"
+        answers:
+          A: "Redd"
+          B: "Tom Nook"
+          C: "K.K. Slider"
+          D: "Mabel"
+    difficulty: MEDIUM
+  - text: "Dans Fire Emblem: Three Houses, quel poste le joueur occupe-t-il à l'académie ?"
+    answers:
+      A: "Élève"
+      B: "Chef de maison"
+      C: "Professeur"
+      D: "Gardien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Fire Emblem: Three Houses, what position does the player hold at the academy?"
+        answers:
+          A: "Student"
+          B: "House Leader"
+          C: "Professor"
+          D: "Guardian"
+    difficulty: MEDIUM
+  - text: "Quel opus de Metroid est sorti sur Switch en 2021 ?"
+    answers:
+      A: "Metroid Dread"
+      B: "Metroid Prime 4"
+      C: "Metroid: Samus Returns"
+      D: "Metroid: Other M"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Metroid game was released on Switch in 2021?"
+        answers:
+          A: "Metroid Dread"
+          B: "Metroid Prime 4"
+          C: "Metroid: Samus Returns"
+          D: "Metroid: Other M"
+    difficulty: MEDIUM
+  - text: "Quel jeu de stratégie de Nintendo met en scène de petites créatures végétales ?"
+    answers:
+      A: "Nintendogs"
+      B: "Chibi-Robo"
+      C: "Pikmin"
+      D: "Splatoon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Nintendo strategy game features small plant creatures?"
+        answers:
+          A: "Nintendogs"
+          B: "Chibi-Robo"
+          C: "Pikmin"
+          D: "Splatoon"
+    difficulty: MEDIUM
+  - text: "Quel support optique utilisait la GameCube pour ses jeux ?"
+    answers:
+      A: "CD-ROM"
+      B: "Mini-DVD de 8 cm"
+      C: "Cartouche magnétique"
+      D: "Disquette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What optical medium did the GameCube use for its games?"
+        answers:
+          A: "CD-ROM"
+          B: "8 cm Mini-DVD"
+          C: "Magnetic cartridge"
+          D: "Floppy disk"
+    difficulty: MEDIUM
+  - text: "Quelle console Nintendo a popularisé le stick analogique avec sa manette à trois branches en 1996 ?"
+    answers:
+      A: "Super NES"
+      B: "GameCube"
+      C: "Nintendo 64"
+      D: "Wii"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Nintendo console popularized the analog stick with its three-pronged controller in 1996?"
+        answers:
+          A: "Super NES"
+          B: "GameCube"
+          C: "Nintendo 64"
+          D: "Wii"
+    difficulty: MEDIUM
+  - text: "Quel accessoire de la Nintendo 64 faisait vibrer la manette ?"
+    answers:
+      A: "Rumble Pak"
+      B: "Expansion Pak"
+      C: "Controller Pak"
+      D: "Transfer Pak"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Nintendo 64 accessory made the controller vibrate?"
+        answers:
+          A: "Rumble Pak"
+          B: "Expansion Pak"
+          C: "Controller Pak"
+          D: "Transfer Pak"
+    difficulty: MEDIUM
+  - text: "Quelle console portable Nintendo offre un affichage en relief sans lunettes ?"
+    answers:
+      A: "Nintendo DS"
+      B: "Game Boy Micro"
+      C: "Game Boy Advance SP"
+      D: "Nintendo 3DS"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Nintendo handheld console offers glasses-free 3D display?"
+        answers:
+          A: "Nintendo DS"
+          B: "Game Boy Micro"
+          C: "Game Boy Advance SP"
+          D: "Nintendo 3DS"
+    difficulty: MEDIUM
+  - text: "Quel Zelda de 1993 fut le premier épisode de la série sur Game Boy ?"
+    answers:
+      A: "Oracle of Seasons"
+      B: "The Minish Cap"
+      C: "Link's Awakening"
+      D: "A Link to the Past"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1993 Zelda was the first game in the series on Game Boy?"
+        answers:
+          A: "Oracle of Seasons"
+          B: "The Minish Cap"
+          C: "Link's Awakening"
+          D: "A Link to the Past"
+    difficulty: MEDIUM
+  - text: "Quelle console Nintendo possède une manette à écran tactile appelée GamePad ?"
+    answers:
+      A: "Wii U"
+      B: "Wii"
+      C: "Switch"
+      D: "GameCube"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Nintendo console has a touchscreen controller called the GamePad?"
+        answers:
+          A: "Wii U"
+          B: "Wii"
+          C: "Switch"
+          D: "GameCube"
+    difficulty: MEDIUM
+  - text: "Combien de Prodiges combattent aux côtés de Link dans Breath of the Wild ?"
+    answers:
+      A: "4"
+      B: "3"
+      C: "2"
+      D: "5"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many Champions fight alongside Link in Breath of the Wild?"
+        answers:
+          A: "4"
+          B: "3"
+          C: "2"
+          D: "5"
+    difficulty: MEDIUM
+  - text: "Combien d'exemplaires de la Wii U ont été vendus dans le monde, environ ?"
+    answers:
+      A: "3,5 millions"
+      B: "53,5 millions"
+      C: "33,5 millions"
+      D: "13,5 millions"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Approximately how many Wii U units were sold worldwide?"
+        answers:
+          A: "3.5 million"
+          B: "53.5 million"
+          C: "33.5 million"
+          D: "13.5 million"
+    difficulty: HARD
+  - text: "Comment s'appelle la console stéréoscopique de Nintendo sortie en 1995 ?"
+    answers:
+      A: "Virtual Console"
+      B: "Virtual Boy"
+      C: "Game Boy Light"
+      D: "PocketStation"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Nintendo's stereoscopic console released in 1995?"
+        answers:
+          A: "Virtual Console"
+          B: "Virtual Boy"
+          C: "Game Boy Light"
+          D: "PocketStation"
+    difficulty: HARD
+  - text: "Qui est la sage de la forêt dans Ocarina of Time ?"
+    answers:
+      A: "Impa"
+      B: "Ruto"
+      C: "Nabooru"
+      D: "Saria"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the Sage of the Forest in Ocarina of Time?"
+        answers:
+          A: "Impa"
+          B: "Ruto"
+          C: "Nabooru"
+          D: "Saria"
+    difficulty: HARD
+  - text: "Combien d'étoiles faut-il au minimum pour terminer Super Mario 64 ?"
+    answers:
+      A: "50"
+      B: "60"
+      C: "120"
+      D: "70"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the minimum number of stars required to finish Super Mario 64?"
+        answers:
+          A: "50"
+          B: "60"
+          C: "120"
+          D: "70"
+    difficulty: HARD
+  - text: "Quel compositeur a signé la musique de Donkey Kong Country ?"
+    answers:
+      A: "Koji Kondo"
+      B: "Kazumi Totaka"
+      C: "Grant Kirkhope"
+      D: "David Wise"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer wrote the music for Donkey Kong Country?"
+        answers:
+          A: "Koji Kondo"
+          B: "Kazumi Totaka"
+          C: "Grant Kirkhope"
+          D: "David Wise"
+    difficulty: HARD
+  - text: "Quel studio a développé Xenoblade Chronicles sur Wii ?"
+    answers:
+      A: "Retro Studios"
+      B: "Monolith Soft"
+      C: "Next Level Games"
+      D: "Intelligent Systems"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which studio developed Xenoblade Chronicles on Wii?"
+        answers:
+          A: "Retro Studios"
+          B: "Monolith Soft"
+          C: "Next Level Games"
+          D: "Intelligent Systems"
+    difficulty: HARD
+  - text: "Quel studio développe principalement la série Fire Emblem ?"
+    answers:
+      A: "HAL Laboratory"
+      B: "Game Freak"
+      C: "Intelligent Systems"
+      D: "Monolith Soft"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which studio primarily develops the Fire Emblem series?"
+        answers:
+          A: "HAL Laboratory"
+          B: "Game Freak"
+          C: "Intelligent Systems"
+          D: "Monolith Soft"
+    difficulty: HARD
+  - text: "Comment s'appelle le vaisseau spatial de Fox McCloud dans Star Fox ?"
+    answers:
+      A: "Great Fox"
+      B: "Landmaster"
+      C: "Blue Falcon"
+      D: "Arwing"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Fox McCloud's spacecraft in Star Fox?"
+        answers:
+          A: "Great Fox"
+          B: "Landmaster"
+          C: "Blue Falcon"
+          D: "Arwing"
+    difficulty: HARD
+  - text: "Quelle manette a introduit les boutons d'épaule L et R ?"
+    answers:
+      A: "NES"
+      B: "Nintendo 64"
+      C: "Super NES"
+      D: "GameCube"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which controller introduced the L and R shoulder buttons?"
+        answers:
+          A: "NES"
+          B: "Nintendo 64"
+          C: "Super NES"
+          D: "GameCube"
+    difficulty: HARD
+  - text: "Combien de sanctuaires compte Breath of the Wild dans son jeu de base ?"
+    answers:
+      A: "100"
+      B: "120"
+      C: "110"
+      D: "136"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many shrines does Breath of the Wild have in its base game?"
+        answers:
+          A: "100"
+          B: "120"
+          C: "110"
+          D: "136"
+    difficulty: HARD
+  - text: "Quel jeu est le plus vendu de l'histoire de Nintendo ?"
+    answers:
+      A: "Super Mario Bros."
+      B: "Mario Kart 8 Deluxe"
+      C: "Wii Sports"
+      D: "Tetris sur Game Boy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game is the best-selling in Nintendo's history?"
+        answers:
+          A: "Super Mario Bros."
+          B: "Mario Kart 8 Deluxe"
+          C: "Wii Sports"
+          D: "Tetris on Game Boy"
+    difficulty: HARD
+  - text: "Quel jeu de lancement de la Wii U se déroule dans un parc d'attractions Nintendo ?"
+    answers:
+      A: "Game & Wario"
+      B: "Wii Sports Club"
+      C: "Nintendo Land"
+      D: "Super Mario 3D World"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Wii U launch game takes place in a Nintendo theme park?"
+        answers:
+          A: "Game & Wario"
+          B: "Wii Sports Club"
+          C: "Nintendo Land"
+          D: "Super Mario 3D World"
+    difficulty: HARD
+  - text: "Combien d'exemplaires du Virtual Boy ont été vendus dans le monde, environ ?"
+    answers:
+      A: "1,7 million"
+      B: "770 000"
+      C: "7,7 millions"
+      D: "17 millions"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Approximately how many Virtual Boy units were sold worldwide?"
+        answers:
+          A: "1.7 million"
+          B: "770,000"
+          C: "7.7 million"
+          D: "17 million"
+    difficulty: EXPERT
+  - text: "Combien de couleurs le Virtual Boy pouvait-il afficher à l'écran ?"
+    answers:
+      A: "16"
+      B: "4"
+      C: "2"
+      D: "256"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many colors could the Virtual Boy display on screen?"
+        answers:
+          A: "16"
+          B: "4"
+          C: "2"
+          D: "256"
+    difficulty: EXPERT
+  - text: "Quel jeu Mario figurait parmi les titres de lancement du Virtual Boy ?"
+    answers:
+      A: "Mario Clash"
+      B: "Mario's Tennis"
+      C: "Mario Teaches Typing"
+      D: "Mario Paint"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Mario game was among the Virtual Boy's launch titles?"
+        answers:
+          A: "Mario Clash"
+          B: "Mario's Tennis"
+          C: "Mario Teaches Typing"
+          D: "Mario Paint"
+    difficulty: EXPERT
+  - text: "Quelle mélodie composée par Kazumi Totaka se cache dans de nombreux jeux Nintendo ?"
+    answers:
+      A: "La berceuse de Zelda"
+      B: "La chanson de Totaka"
+      C: "Le thème de Kéké"
+      D: "La marche de Mario"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which melody composed by Kazumi Totaka is hidden in many Nintendo games?"
+        answers:
+          A: "Zelda's Lullaby"
+          B: "Totaka's Song"
+          C: "K.K.'s Theme"
+          D: "Mario's March"
+    difficulty: EXPERT
+  - text: "Sur quel jeu la croix directionnelle est-elle apparue pour la première fois en 1982 ?"
+    answers:
+      A: "Donkey Kong (Game & Watch)"
+      B: "Super Mario Bros."
+      C: "Tetris"
+      D: "Mario Bros."
+    correctAnswer: A
+    translations:
+      en:
+        text: "On which game did the D-pad first appear in 1982?"
+        answers:
+          A: "Donkey Kong (Game & Watch)"
+          B: "Super Mario Bros."
+          C: "Tetris"
+          D: "Mario Bros."
+    difficulty: EXPERT
+  - text: "Qui a composé la bande originale de The Legend of Zelda: Breath of the Wild ?"
+    answers:
+      A: "Koji Kondo"
+      B: "Yoko Shimomura"
+      C: "Manaka Kataoka"
+      D: "Yasunori Mitsuda"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the original soundtrack for The Legend of Zelda: Breath of the Wild?"
+        answers:
+          A: "Koji Kondo"
+          B: "Yoko Shimomura"
+          C: "Manaka Kataoka"
+          D: "Yasunori Mitsuda"
+    difficulty: EXPERT
+  - text: "Quel compositeur britannique a signé la musique de Banjo-Kazooie ?"
+    answers:
+      A: "David Wise"
+      B: "Graeme Norgate"
+      C: "Grant Kirkhope"
+      D: "Koji Kondo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which British composer wrote the music for Banjo-Kazooie?"
+        answers:
+          A: "David Wise"
+          B: "Graeme Norgate"
+          C: "Grant Kirkhope"
+          D: "Koji Kondo"
+    difficulty: EXPERT
+  - text: "Quel compositeur est associé à la bande-son de Metroid Prime ?"
+    answers:
+      A: "Grant Kirkhope"
+      B: "Koji Kondo"
+      C: "David Wise"
+      D: "Kenji Yamamoto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which composer is associated with the soundtrack of Metroid Prime?"
+        answers:
+          A: "Grant Kirkhope"
+          B: "Koji Kondo"
+          C: "David Wise"
+          D: "Kenji Yamamoto"
+    difficulty: EXPERT
+  - text: "Quel était le nom de code de la Nintendo DS pendant son développement ?"
+    answers:
+      A: "Dolphin"
+      B: "Revolution"
+      C: "Ultra 64"
+      D: "Nitro"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the codename of the Nintendo DS during its development?"
+        answers:
+          A: "Dolphin"
+          B: "Revolution"
+          C: "Ultra 64"
+          D: "Nitro"
+    difficulty: EXPERT
+  - text: "Sur quelle console est sorti le tout premier Animal Crossing au Japon en 2001 ?"
+    answers:
+      A: "GameCube"
+      B: "Nintendo 64"
+      C: "Game Boy Advance"
+      D: "Wii"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which console was the very first Animal Crossing released in Japan in 2001?"
+        answers:
+          A: "GameCube"
+          B: "Nintendo 64"
+          C: "Game Boy Advance"
+          D: "Wii"
+    difficulty: EXPERT
+  - text: "Quel est le tout premier niveau de Super Mario 64 ?"
+    answers:
+      A: "Forteresse volante"
+      B: "Champ de bataille Bob-omb"
+      C: "Île Delfino"
+      D: "Jardin de Peach"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the very first level of Super Mario 64?"
+        answers:
+          A: "Whomp's Fortress"
+          B: "Bob-omb Battlefield"
+          C: "Isle Delfino"
+          D: "Peach's Garden"
+    difficulty: EXPERT
+  - text: "Quel jeu est le plus vendu sur Nintendo Switch, avec plus de 60 millions d'exemplaires ?"
+    answers:
+      A: "Animal Crossing: New Horizons"
+      B: "Super Smash Bros. Ultimate"
+      C: "Mario Kart 8 Deluxe"
+      D: "The Legend of Zelda: Breath of the Wild"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game is the best-selling on Nintendo Switch, with over 60 million copies?"
+        answers:
+          A: "Animal Crossing: New Horizons"
+          B: "Super Smash Bros. Ultimate"
+          C: "Mario Kart 8 Deluxe"
+          D: "The Legend of Zelda: Breath of the Wild"
+    difficulty: EXPERT
+  - text: "Quel jeu de rythme GameCube se jouait avec des bongos Donkey Kong ?"
+    answers:
+      A: "Donkey Kong Barrel Blast"
+      B: "Donkey Kong Jungle Beat"
+      C: "Donkey Konga"
+      D: "Konga Beat"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which GameCube rhythm game was played with Donkey Kong bongos?"
+        answers:
+          A: "Donkey Kong Barrel Blast"
+          B: "Donkey Kong Jungle Beat"
+          C: "Donkey Konga"
+          D: "Konga Beat"
+    difficulty: EXPERT

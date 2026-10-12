@@ -1,0 +1,1609 @@
+topic:
+  id: topic-jeux-arcade
+  names:
+    fr: "Jeux d'arcade"
+    en: "Arcade Games"
+  description: "Des salles bruyantes aux bornes mythiques, redécouvrez l'âge d'or du jeu d'arcade : Pong, Space Invaders, Pac-Man, Donkey Kong, Tetris et Street Fighter II. Un thème dédié aux classiques, aux fabricants légendaires (Atari, Namco, Taito, Sega, Capcom) et aux champions des grandes compétitions."
+  category: GAMES
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Borne_arcade_Pacman.png?width=800
+questions:
+  - text: "Quel sport de raquette le jeu d'arcade Pong simule-t-il ?"
+    answers:
+      A: "Badminton"
+      B: "Tennis de table"
+      C: "Squash"
+      D: "Racquetball"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which racket sport does the arcade game Pong simulate?"
+        answers:
+          A: "Badminton"
+          B: "Table tennis"
+          C: "Squash"
+          D: "Racquetball"
+    difficulty: EASY
+  - text: "Dans Space Invaders, quel est l'objectif du joueur ?"
+    answers:
+      A: "Sauver une princesse"
+      B: "Construire une station spatiale"
+      C: "Collecter des pièces d'or"
+      D: "Détruire des rangées d'extraterrestres"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Space Invaders, what is the player's objective?"
+        answers:
+          A: "Save a princess"
+          B: "Build a space station"
+          C: "Collect gold coins"
+          D: "Destroy rows of aliens"
+    difficulty: EASY
+  - text: "Dans Pac-Man, que mange le personnage jaune pour marquer des points ?"
+    answers:
+      A: "Des champignons"
+      B: "Des étoiles"
+      C: "Des anneaux"
+      D: "Des pac-gommes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Pac-Man, what does the yellow character eat to score points?"
+        answers:
+          A: "Mushrooms"
+          B: "Stars"
+          C: "Rings"
+          D: "Pac-dots"
+    difficulty: EASY
+  - text: "Combien de fantômes poursuivent Pac-Man dans le jeu original ?"
+    answers:
+      A: "Trois"
+      B: "Quatre"
+      C: "Six"
+      D: "Cinq"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many ghosts chase Pac-Man in the original game?"
+        answers:
+          A: "Three"
+          B: "Four"
+          C: "Six"
+          D: "Five"
+    difficulty: EASY
+  - text: "De quelle couleur est le fantôme Blinky dans Pac-Man ?"
+    answers:
+      A: "Rouge"
+      B: "Rose"
+      C: "Cyan"
+      D: "Orange"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What color is the ghost Blinky in Pac-Man?"
+        answers:
+          A: "Red"
+          B: "Pink"
+          C: "Cyan"
+          D: "Orange"
+    difficulty: EASY
+  - text: "Quel est l'objectif principal dans Tetris ?"
+    answers:
+      A: "Éliminer des aliens"
+      B: "Battre un adversaire en duel"
+      C: "Sortir d'un labyrinthe"
+      D: "Compléter des lignes de blocs"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the main objective in Tetris?"
+        answers:
+          A: "Eliminate aliens"
+          B: "Defeat an opponent in a duel"
+          C: "Escape a maze"
+          D: "Complete lines of blocks"
+    difficulty: EASY
+  - text: "Quelle entreprise japonaise a créé Pac-Man ?"
+    answers:
+      A: "Sega"
+      B: "Taito"
+      C: "Capcom"
+      D: "Namco"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese company created Pac-Man?"
+        answers:
+          A: "Sega"
+          B: "Taito"
+          C: "Capcom"
+          D: "Namco"
+    difficulty: EASY
+  - text: "Street Fighter II appartient à quel genre de jeu d'arcade ?"
+    answers:
+      A: "Course"
+      B: "Tir"
+      C: "Plateforme"
+      D: "Combat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Street Fighter II belongs to which arcade game genre?"
+        answers:
+          A: "Racing"
+          B: "Shooter"
+          C: "Platformer"
+          D: "Fighting"
+    difficulty: EASY
+  - text: "Quel type de créature Donkey Kong est-il ?"
+    answers:
+      A: "Un dinosaure"
+      B: "Un gorille"
+      C: "Un robot"
+      D: "Un dragon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What type of creature is Donkey Kong?"
+        answers:
+          A: "A dinosaur"
+          B: "A gorilla"
+          C: "A robot"
+          D: "A dragon"
+    difficulty: EASY
+  - text: "Quel est le prénom du frère de Mario dans les jeux d'arcade Nintendo ?"
+    answers:
+      A: "Luigi"
+      B: "Wario"
+      C: "Toad"
+      D: "Yoshi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first name of Mario's brother in Nintendo arcade games?"
+        answers:
+          A: "Luigi"
+          B: "Wario"
+          C: "Toad"
+          D: "Yoshi"
+    difficulty: EASY
+  - text: "Dans quel pays Tetris a-t-il été créé ?"
+    answers:
+      A: "États-Unis"
+      B: "Union soviétique"
+      C: "Japon"
+      D: "Allemagne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country was Tetris created?"
+        answers:
+          A: "United States"
+          B: "Soviet Union"
+          C: "Japan"
+          D: "Germany"
+    difficulty: EASY
+  - text: "Dans Pac-Man, quel objet rend les fantômes vulnérables ?"
+    answers:
+      A: "La cerise"
+      B: "La clé"
+      C: "La super pac-gomme"
+      D: "Le bonus mystère"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Pac-Man, which item makes the ghosts vulnerable?"
+        answers:
+          A: "The cherry"
+          B: "The key"
+          C: "The power pellet"
+          D: "The mystery bonus"
+    difficulty: EASY
+  - text: "Dans Donkey Kong, qu'utilise le héros pour monter vers le sommet ?"
+    answers:
+      A: "Un ascenseur"
+      B: "Des échelles"
+      C: "Des cordes"
+      D: "Des trampolines"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Donkey Kong, what does the hero use to climb to the top?"
+        answers:
+          A: "An elevator"
+          B: "Ladders"
+          C: "Ropes"
+          D: "Trampolines"
+    difficulty: EASY
+  - text: "Qui a créé le jeu Tetris ?"
+    answers:
+      A: "Shigeru Miyamoto"
+      B: "Toru Iwatani"
+      C: "Alexeï Pajitnov"
+      D: "Nolan Bushnell"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who created the game Tetris?"
+        answers:
+          A: "Shigeru Miyamoto"
+          B: "Toru Iwatani"
+          C: "Alexey Pajitnov"
+          D: "Nolan Bushnell"
+    difficulty: MEDIUM
+  - text: "En quelle année Space Invaders est-il sorti en salle d'arcade ?"
+    answers:
+      A: "1985"
+      B: "1972"
+      C: "1980"
+      D: "1978"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was Space Invaders released in arcades?"
+        answers:
+          A: "1985"
+          B: "1972"
+          C: "1980"
+          D: "1978"
+    difficulty: MEDIUM
+  - text: "En quelle année le jeu Pac-Man est-il sorti ?"
+    answers:
+      A: "1976"
+      B: "1978"
+      C: "1983"
+      D: "1980"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the game Pac-Man released?"
+        answers:
+          A: "1976"
+          B: "1978"
+          C: "1983"
+          D: "1980"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du fantôme orange de Pac-Man ?"
+    answers:
+      A: "Inky"
+      B: "Clyde"
+      C: "Pinky"
+      D: "Blinky"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the orange ghost in Pac-Man?"
+        answers:
+          A: "Inky"
+          B: "Clyde"
+          C: "Pinky"
+          D: "Blinky"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle la jeune femme que Donkey Kong capture dans le jeu original ?"
+    answers:
+      A: "Peach"
+      B: "Pauline"
+      C: "Zelda"
+      D: "Daisy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the young woman Donkey Kong captures in the original game?"
+        answers:
+          A: "Peach"
+          B: "Pauline"
+          C: "Zelda"
+          D: "Daisy"
+    difficulty: MEDIUM
+  - text: "Dans Street Fighter II, quel personnage est un militaire américain ?"
+    answers:
+      A: "Ryu"
+      B: "Dhalsim"
+      C: "Guile"
+      D: "Zangief"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Street Fighter II, which character is an American military man?"
+        answers:
+          A: "Ryu"
+          B: "Dhalsim"
+          C: "Guile"
+          D: "Zangief"
+    difficulty: MEDIUM
+  - text: "Dans Street Fighter II, de quel pays vient Blanka ?"
+    answers:
+      A: "Inde"
+      B: "Brésil"
+      C: "Thaïlande"
+      D: "Espagne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Street Fighter II, which country does Blanka come from?"
+        answers:
+          A: "India"
+          B: "Brazil"
+          C: "Thailand"
+          D: "Spain"
+    difficulty: MEDIUM
+  - text: "Quelle entreprise a créé Space Invaders ?"
+    answers:
+      A: "Taito"
+      B: "Namco"
+      C: "Konami"
+      D: "Sega"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which company created Space Invaders?"
+        answers:
+          A: "Taito"
+          B: "Namco"
+          C: "Konami"
+          D: "Sega"
+    difficulty: MEDIUM
+  - text: "Quelle entreprise a créé la série Street Fighter ?"
+    answers:
+      A: "Capcom"
+      B: "SNK"
+      C: "Atlus"
+      D: "Tecmo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which company created the Street Fighter series?"
+        answers:
+          A: "Capcom"
+          B: "SNK"
+          C: "Atlus"
+          D: "Tecmo"
+    difficulty: MEDIUM
+  - text: "Quel est le nom des pièces qui tombent dans Tetris ?"
+    answers:
+      A: "Dominos"
+      B: "Cubes"
+      C: "Tétrominos"
+      D: "Polyminos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What are the falling pieces in Tetris called?"
+        answers:
+          A: "Dominos"
+          B: "Cubes"
+          C: "Tetrominoes"
+          D: "Polyominoes"
+    difficulty: MEDIUM
+  - text: "Qui a cofondé Atari en 1972 ?"
+    answers:
+      A: "Steve Jobs"
+      B: "Ralph Baer"
+      C: "Nolan Bushnell"
+      D: "Al Alcorn"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who co-founded Atari in 1972?"
+        answers:
+          A: "Steve Jobs"
+          B: "Ralph Baer"
+          C: "Nolan Bushnell"
+          D: "Al Alcorn"
+    difficulty: MEDIUM
+  - text: "En quelle année le jeu d'arcade Pong d'Atari est-il sorti ?"
+    answers:
+      A: "1972"
+      B: "1968"
+      C: "1977"
+      D: "1980"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was Atari's arcade game Pong released?"
+        answers:
+          A: "1972"
+          B: "1968"
+          C: "1977"
+          D: "1980"
+    difficulty: MEDIUM
+  - text: "En quelle année Donkey Kong est-il sorti en salle d'arcade ?"
+    answers:
+      A: "1979"
+      B: "1985"
+      C: "1983"
+      D: "1981"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was Donkey Kong released in arcades?"
+        answers:
+          A: "1979"
+          B: "1985"
+          C: "1983"
+          D: "1981"
+    difficulty: HARD
+  - text: "Quel était le nom d'origine de Mario dans le jeu Donkey Kong ?"
+    answers:
+      A: "Jumpman"
+      B: "Ossan"
+      C: "Mr. Video"
+      D: "Toadstool"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was Mario's original name in the game Donkey Kong?"
+        answers:
+          A: "Jumpman"
+          B: "Ossan"
+          C: "Mr. Video"
+          D: "Toadstool"
+    difficulty: HARD
+  - text: "En quelle année Street Fighter II: The World Warrior est-il sorti en arcade ?"
+    answers:
+      A: "1987"
+      B: "1989"
+      C: "1991"
+      D: "1993"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was Street Fighter II: The World Warrior released in arcades?"
+        answers:
+          A: "1987"
+          B: "1989"
+          C: "1991"
+          D: "1993"
+    difficulty: HARD
+  - text: "Combien de personnages jouables compte la version originale de Street Fighter II (1991) ?"
+    answers:
+      A: "Huit"
+      B: "Six"
+      C: "Douze"
+      D: "Seize"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many playable characters are in the original version of Street Fighter II (1991)?"
+        answers:
+          A: "Eight"
+          B: "Six"
+          C: "Twelve"
+          D: "Sixteen"
+    difficulty: HARD
+  - text: "Quel jeu d'Atari de 1979 permet de détruire des astéroïdes avec un vaisseau triangulaire en fil de fer ?"
+    answers:
+      A: "Defender"
+      B: "Galaga"
+      C: "Missile Command"
+      D: "Asteroids"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1979 Atari game lets you destroy asteroids with a wireframe triangular ship?"
+        answers:
+          A: "Defender"
+          B: "Galaga"
+          C: "Missile Command"
+          D: "Asteroids"
+    difficulty: HARD
+  - text: "De quelle couleur est le fantôme Inky dans Pac-Man ?"
+    answers:
+      A: "Rose"
+      B: "Rouge"
+      C: "Cyan"
+      D: "Orange"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What color is the ghost Inky in Pac-Man?"
+        answers:
+          A: "Pink"
+          B: "Red"
+          C: "Cyan"
+          D: "Orange"
+    difficulty: HARD
+  - text: "Quel jeu de 1971 est considéré comme le premier jeu d'arcade à monnayeur produit en série ?"
+    answers:
+      A: "Pong"
+      B: "Spacewar!"
+      C: "Computer Space"
+      D: "Space Invaders"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1971 game is considered the first mass-produced coin-operated arcade game?"
+        answers:
+          A: "Pong"
+          B: "Spacewar!"
+          C: "Computer Space"
+          D: "Space Invaders"
+    difficulty: HARD
+  - text: "Quel ingénieur d'Atari a conçu le prototype du jeu Pong ?"
+    answers:
+      A: "Nolan Bushnell"
+      B: "Al Alcorn"
+      C: "Ted Dabney"
+      D: "Steve Bristow"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Atari engineer designed the prototype for the game Pong?"
+        answers:
+          A: "Nolan Bushnell"
+          B: "Al Alcorn"
+          C: "Ted Dabney"
+          D: "Steve Bristow"
+    difficulty: HARD
+  - text: "En quelle année Alexeï Pajitnov a-t-il créé Tetris ?"
+    answers:
+      A: "1979"
+      B: "1991"
+      C: "1989"
+      D: "1984"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Alexey Pajitnov create Tetris?"
+        answers:
+          A: "1979"
+          B: "1991"
+          C: "1989"
+          D: "1984"
+    difficulty: HARD
+  - text: "Qui a conçu le jeu Donkey Kong chez Nintendo ?"
+    answers:
+      A: "Gunpei Yokoi"
+      B: "Masayuki Uemura"
+      C: "Takashi Tezuka"
+      D: "Shigeru Miyamoto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who designed the game Donkey Kong at Nintendo?"
+        answers:
+          A: "Gunpei Yokoi"
+          B: "Masayuki Uemura"
+          C: "Takashi Tezuka"
+          D: "Shigeru Miyamoto"
+    difficulty: HARD
+  - text: "Combien de points rapporte une pac-gomme ordinaire dans Pac-Man ?"
+    answers:
+      A: "1"
+      B: "10"
+      C: "5"
+      D: "50"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many points does an ordinary pac-dot give in Pac-Man?"
+        answers:
+          A: "1"
+          B: "10"
+          C: "5"
+          D: "50"
+    difficulty: HARD
+  - text: "Quel était le titre original japonais du jeu Pac-Man ?"
+    answers:
+      A: "Pac-Kun"
+      B: "Puck-Man"
+      C: "Muncher"
+      D: "Ghost-Man"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the original Japanese title of the game Pac-Man?"
+        answers:
+          A: "Pac-Kun"
+          B: "Puck-Man"
+          C: "Muncher"
+          D: "Ghost-Man"
+    difficulty: HARD
+  - text: "Combien de formes de tétrominos différentes existent dans Tetris ?"
+    answers:
+      A: "Cinq"
+      B: "Six"
+      C: "Huit"
+      D: "Sept"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many different tetromino shapes are there in Tetris?"
+        answers:
+          A: "Five"
+          B: "Six"
+          C: "Eight"
+          D: "Seven"
+    difficulty: HARD
+  - text: "Quel est le score maximal théorique (« perfect score ») du jeu Pac-Man ?"
+    answers:
+      A: "1 000 000"
+      B: "2 000 000"
+      C: "3 333 360"
+      D: "9 999 999"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the theoretical maximum score (\"perfect score\") in Pac-Man?"
+        answers:
+          A: "1,000,000"
+          B: "2,000,000"
+          C: "3,333,360"
+          D: "9,999,999"
+    difficulty: EXPERT
+  - text: "À quel niveau Pac-Man s'arrête-t-il à cause d'un bug d'affichage (kill screen) ?"
+    answers:
+      A: "999"
+      B: "128"
+      C: "300"
+      D: "256"
+    correctAnswer: D
+    translations:
+      en:
+        text: "At what level does Pac-Man stop due to a display bug (kill screen)?"
+        answers:
+          A: "999"
+          B: "128"
+          C: "300"
+          D: "256"
+    difficulty: EXPERT
+  - text: "Quelle entreprise a produit la borne du jeu Computer Space en 1971 ?"
+    answers:
+      A: "Nutting Associates"
+      B: "Atari"
+      C: "Midway"
+      D: "Bally"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which company produced the arcade cabinet for the game Computer Space in 1971?"
+        answers:
+          A: "Nutting Associates"
+          B: "Atari"
+          C: "Midway"
+          D: "Bally"
+    difficulty: EXPERT
+  - text: "Pourquoi les noms de M. Bison et Balrog ont-ils été échangés hors du Japon dans Street Fighter II ?"
+    answers:
+      A: "Pour éviter un conflit juridique avec Mike Tyson"
+      B: "Pour attirer les joueurs américains"
+      C: "Pour éviter une marque déposée"
+      D: "Pour une question de traduction"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Why were the names of M. Bison and Balrog swapped outside Japan in Street Fighter II?"
+        answers:
+          A: "To avoid a legal conflict with Mike Tyson"
+          B: "To attract American players"
+          C: "To avoid a trademark"
+          D: "Due to a translation issue"
+    difficulty: EXPERT
+  - text: "Qui a remporté le premier championnat national de Space Invaders organisé aux États-Unis en 1980 ?"
+    answers:
+      A: "Steve Wiebe"
+      B: "Billy Mitchell"
+      C: "Rebecca Heineman"
+      D: "Walter Day"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the first national Space Invaders championship held in the United States in 1980?"
+        answers:
+          A: "Steve Wiebe"
+          B: "Billy Mitchell"
+          C: "Rebecca Heineman"
+          D: "Walter Day"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade détient le record des recettes les plus élevées de l'histoire, estimées à plus de 7 milliards de dollars ?"
+    answers:
+      A: "Space Invaders"
+      B: "Tetris"
+      C: "Street Fighter II"
+      D: "Pac-Man"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which arcade game holds the record for the highest revenue in history, estimated at over 7 billion dollars?"
+        answers:
+          A: "Space Invaders"
+          B: "Tetris"
+          C: "Street Fighter II"
+          D: "Pac-Man"
+    difficulty: EXPERT
+  - text: "Lors de l'« EVO Moment 37 » en 2004, quel joueur japonais a paré une super attaque coup sur coup ?"
+    answers:
+      A: "Justin Wong"
+      B: "Daigo Umehara"
+      C: "Alex Valle"
+      D: "Tokido"
+    correctAnswer: B
+    translations:
+      en:
+        text: "During \"EVO Moment 37\" in 2004, which Japanese player parried a super attack hit by hit?"
+        answers:
+          A: "Justin Wong"
+          B: "Daigo Umehara"
+          C: "Alex Valle"
+          D: "Tokido"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1977 de Cinematronics fut le premier à utiliser des graphismes vectoriels ?"
+    answers:
+      A: "Tempest"
+      B: "Space Wars"
+      C: "Battlezone"
+      D: "Asteroids"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1977 arcade game by Cinematronics was the first to use vector graphics?"
+        answers:
+          A: "Tempest"
+          B: "Space Wars"
+          C: "Battlezone"
+          D: "Asteroids"
+    difficulty: EXPERT
+  - text: "Quelle organisation soviétique a géré la licence de Tetris avant son exportation vers l'Occident ?"
+    answers:
+      A: "Mir"
+      B: "Gosplan"
+      C: "KGB"
+      D: "ELORG"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Soviet organization managed the Tetris license before its export to the West?"
+        answers:
+          A: "Mir"
+          B: "Gosplan"
+          C: "KGB"
+          D: "ELORG"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1981 est une célèbre légende urbaine, aucun exemplaire n'ayant jamais été authentifié ?"
+    answers:
+      A: "Polybius"
+      B: "Sinistar"
+      C: "Major Havoc"
+      D: "Quantum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1981 arcade game is a famous urban legend, with no copy ever authenticated?"
+        answers:
+          A: "Polybius"
+          B: "Sinistar"
+          C: "Major Havoc"
+          D: "Quantum"
+    difficulty: EXPERT
+  - text: "À quel niveau Donkey Kong s'arrête-t-il à cause d'un bug de minuterie (kill screen) ?"
+    answers:
+      A: "30"
+      B: "99"
+      C: "100"
+      D: "22"
+    correctAnswer: D
+    translations:
+      en:
+        text: "At which level does Donkey Kong stop due to a timer bug (kill screen)?"
+        answers:
+          A: "30"
+          B: "99"
+          C: "100"
+          D: "22"
+    difficulty: EXPERT
+  - text: "Quel jeu de Namco de 1979 fut le premier jeu d'arcade à utiliser un affichage couleur RVB ?"
+    answers:
+      A: "Galaga"
+      B: "Galaxian"
+      C: "Dig Dug"
+      D: "Pac-Man"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1979 Namco game was the first arcade game to use an RGB color display?"
+        answers:
+          A: "Galaga"
+          B: "Galaxian"
+          C: "Dig Dug"
+          D: "Pac-Man"
+    difficulty: EXPERT
+  - text: "Quel type de jeu est Galaga ?"
+    answers:
+      A: "Un shoot'em up"
+      B: "Un jeu de plates-formes"
+      C: "Un jeu de course"
+      D: "Un puzzle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What type of game is Galaga?"
+        answers:
+          A: "A shoot 'em up"
+          B: "A platformer"
+          C: "A racing game"
+          D: "A puzzle"
+    difficulty: EASY
+  - text: "Quelle société japonaise a créé la série Sonic ?"
+    answers:
+      A: "Nintendo"
+      B: "Sega"
+      C: "Sony"
+      D: "Bandai"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese company created the Sonic series?"
+        answers:
+          A: "Nintendo"
+          B: "Sega"
+          C: "Sony"
+          D: "Bandai"
+    difficulty: EASY
+  - text: "Dans Mortal Kombat, que désigne le terme Fatality ?"
+    answers:
+      A: "Un coup spécial"
+      B: "Une mise à mort spectaculaire"
+      C: "Un niveau bonus"
+      D: "Un personnage secret"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Mortal Kombat, what does the term Fatality refer to?"
+        answers:
+          A: "A special move"
+          B: "A spectacular kill"
+          C: "A bonus level"
+          D: "A secret character"
+    difficulty: EASY
+  - text: "Quel accessoire sert à diriger la plupart des personnages sur une borne d'arcade ?"
+    answers:
+      A: "Le clavier d'ordinateur"
+      B: "La souris"
+      C: "Le joystick"
+      D: "Le micro"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which accessory is used to control most characters on an arcade cabinet?"
+        answers:
+          A: "The computer keyboard"
+          B: "The mouse"
+          C: "The joystick"
+          D: "The microphone"
+    difficulty: EASY
+  - text: "Dans Dance Dance Revolution, sur quel élément le joueur pose-t-il les pieds ?"
+    answers:
+      A: "Une guitare"
+      B: "Un pistolet"
+      C: "Un volant"
+      D: "Un tapis à flèches"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Dance Dance Revolution, on which element does the player place their feet?"
+        answers:
+          A: "A guitar"
+          B: "A gun"
+          C: "A steering wheel"
+          D: "An arrow mat"
+    difficulty: EASY
+  - text: "Dans Pac-Man, que se passe-t-il lorsqu'un fantôme touche le joueur ?"
+    answers:
+      A: "Rien ne se passe"
+      B: "Il gagne des points"
+      C: "Il passe au niveau suivant"
+      D: "Il perd une vie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Pac-Man, what happens when a ghost touches the player?"
+        answers:
+          A: "Nothing happens"
+          B: "They gain points"
+          C: "They advance to the next level"
+          D: "They lose a life"
+    difficulty: EASY
+  - text: "Quel shoot'em up de Namco demande de détruire les ennemis aériens et les cibles au sol avec le vaisseau Solvalou ?"
+    answers:
+      A: "Xevious"
+      B: "Gradius"
+      C: "R-Type"
+      D: "1942"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Namco shoot 'em up requires destroying aerial enemies and ground targets with the Solvalou ship?"
+        answers:
+          A: "Xevious"
+          B: "Gradius"
+          C: "R-Type"
+          D: "1942"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1982 met en scène l'épouse de Pac-Man ?"
+    answers:
+      A: "Jr. Pac-Man"
+      B: "Super Pac-Man"
+      C: "Ms. Pac-Man"
+      D: "Pac-Land"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1982 arcade game features Pac-Man's wife?"
+        answers:
+          A: "Jr. Pac-Man"
+          B: "Super Pac-Man"
+          C: "Ms. Pac-Man"
+          D: "Pac-Land"
+    difficulty: MEDIUM
+  - text: "Quel vaisseau le joueur pilote-t-il dans la série Gradius ?"
+    answers:
+      A: "Vic Viper"
+      B: "R-9"
+      C: "Solvalou"
+      D: "V-Wing"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ship does the player pilot in the Gradius series?"
+        answers:
+          A: "Vic Viper"
+          B: "R-9"
+          C: "Solvalou"
+          D: "V-Wing"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de Sega de 1986 propose de conduire une Ferrari Testarossa décapotable ?"
+    answers:
+      A: "Out Run"
+      B: "Daytona USA"
+      C: "Super Monaco GP"
+      D: "Hang-On"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1986 Sega arcade game has you driving a convertible Ferrari Testarossa?"
+        answers:
+          A: "Out Run"
+          B: "Daytona USA"
+          C: "Super Monaco GP"
+          D: "Hang-On"
+    difficulty: MEDIUM
+  - text: "Quel jeu de combat de Sega de 1993 a popularisé les graphismes 3D polygonaux en arcade ?"
+    answers:
+      A: "Tekken"
+      B: "Virtua Fighter"
+      C: "SoulCalibur"
+      D: "Dead or Alive"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1993 Sega fighting game popularized polygonal 3D graphics in arcades?"
+        answers:
+          A: "Tekken"
+          B: "Virtua Fighter"
+          C: "SoulCalibur"
+          D: "Dead or Alive"
+    difficulty: MEDIUM
+  - text: "Quel shoot'em up d'Irem de 1987 met en scène le vaisseau R-9 ?"
+    answers:
+      A: "Gradius"
+      B: "1943"
+      C: "Thunder Force"
+      D: "R-Type"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1987 Irem shoot 'em up features the R-9 ship?"
+        answers:
+          A: "Gradius"
+          B: "1943"
+          C: "Thunder Force"
+          D: "R-Type"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade propose de détruire un mille-pattes et des champignons ?"
+    answers:
+      A: "Lady Bug"
+      B: "Centipede"
+      C: "Pac-Man"
+      D: "Galaga"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which arcade game involves destroying a centipede and mushrooms?"
+        answers:
+          A: "Lady Bug"
+          B: "Centipede"
+          C: "Pac-Man"
+          D: "Galaga"
+    difficulty: MEDIUM
+  - text: "Dans Pac-Man, combien de points rapporte une cerise mangée ?"
+    answers:
+      A: "10"
+      B: "50"
+      C: "100"
+      D: "500"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Pac-Man, how many points is a cherry worth?"
+        answers:
+          A: "10"
+          B: "50"
+          C: "100"
+          D: "500"
+    difficulty: HARD
+  - text: "Dans Pac-Man, combien de points rapporte la clé, le dernier bonus du jeu ?"
+    answers:
+      A: "5 000"
+      B: "2 000"
+      C: "10 000"
+      D: "1 000"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Pac-Man, how many points is the key, the game's final bonus, worth?"
+        answers:
+          A: "5,000"
+          B: "2,000"
+          C: "10,000"
+          D: "1,000"
+    difficulty: HARD
+  - text: "Quel éditeur japonais est réputé pour ses shoot'em ups bullet hell comme DoDonPachi ?"
+    answers:
+      A: "Cave"
+      B: "Psikyo"
+      C: "Toaplan"
+      D: "Irem"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese publisher is known for bullet hell shoot 'em ups like DoDonPachi?"
+        answers:
+          A: "Cave"
+          B: "Psikyo"
+          C: "Toaplan"
+          D: "Irem"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade de 1983 utilise un laserdisc et des séquences animées par Don Bluth ?"
+    answers:
+      A: "Cliff Hanger"
+      B: "Space Ace"
+      C: "Dragon's Lair"
+      D: "Cobra Command"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1983 arcade game uses a laserdisc and animated sequences by Don Bluth?"
+        answers:
+          A: "Cliff Hanger"
+          B: "Space Ace"
+          C: "Dragon's Lair"
+          D: "Cobra Command"
+    difficulty: HARD
+  - text: "Comment s'appelle le stage bonus de Galaga où les ennemis ne tirent pas ?"
+    answers:
+      A: "Perfect Stage"
+      B: "Bonus Round"
+      C: "Challenging Stage"
+      D: "Shooting Gallery"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Galaga bonus stage where enemies don't shoot?"
+        answers:
+          A: "Perfect Stage"
+          B: "Bonus Round"
+          C: "Challenging Stage"
+          D: "Shooting Gallery"
+    difficulty: HARD
+  - text: "Quel jeu de Williams demande de défendre des humains contre des aliens, avec un radar et un vaisseau ?"
+    answers:
+      A: "Robotron: 2084"
+      B: "Joust"
+      C: "Stargate"
+      D: "Defender"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Williams game tasks you with defending humans from aliens, using a radar and a ship?"
+        answers:
+          A: "Robotron: 2084"
+          B: "Joust"
+          C: "Stargate"
+          D: "Defender"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade d'Atari de 1983 se joue avec un trackball pour guider un ourson dans des niveaux en 3D isométrique ?"
+    answers:
+      A: "Crystal Castles"
+      B: "Marble Madness"
+      C: "Zaxxon"
+      D: "Q*bert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1983 Atari arcade game is played with a trackball to guide a bear cub through isometric 3D levels?"
+        answers:
+          A: "Crystal Castles"
+          B: "Marble Madness"
+          C: "Zaxxon"
+          D: "Q*bert"
+    difficulty: EXPERT
+  - text: "Quel processeur équipait la carte de la borne originale de Space Invaders ?"
+    answers:
+      A: "Zilog Z80"
+      B: "MOS 6502"
+      C: "Intel 8080"
+      D: "Motorola 68000"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which processor was on the board of the original Space Invaders arcade cabinet?"
+        answers:
+          A: "Zilog Z80"
+          B: "MOS 6502"
+          C: "Intel 8080"
+          D: "Motorola 68000"
+    difficulty: EXPERT
+  - text: "Quelle organisation fondée par Walter Day en 1981 recense les records des jeux d'arcade ?"
+    answers:
+      A: "IGDA"
+      B: "Guinness World Records"
+      C: "Twin Galaxies"
+      D: "G4"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which organization founded by Walter Day in 1981 tracks arcade game records?"
+        answers:
+          A: "IGDA"
+          B: "Guinness World Records"
+          C: "Twin Galaxies"
+          D: "G4"
+    difficulty: EXPERT
+  - text: "Quel shoot'em up de Treasure (1998) est culte pour ses chaînes d'armes et son système de score ?"
+    answers:
+      A: "Radiant Silvergun"
+      B: "Ikaruga"
+      C: "Gradius V"
+      D: "Mars Matrix"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1998 Treasure shoot 'em up is cult for its weapon chains and scoring system?"
+        answers:
+          A: "Radiant Silvergun"
+          B: "Ikaruga"
+          C: "Gradius V"
+          D: "Mars Matrix"
+    difficulty: EXPERT
+  - text: "Quel jeu de Williams de 1982 se joue avec deux joysticks et demande de sauver des humains dans une arène ?"
+    answers:
+      A: "Smash TV"
+      B: "Robotron: 2084"
+      C: "Joust"
+      D: "Defender"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1982 Williams game is played with two joysticks and tasks you with saving humans in an arena?"
+        answers:
+          A: "Smash TV"
+          B: "Robotron: 2084"
+          C: "Joust"
+          D: "Defender"
+    difficulty: EXPERT
+  - text: "Quelle société américaine a obtenu la licence de Space Invaders pour l'exploiter aux États-Unis ?"
+    answers:
+      A: "Atari"
+      B: "Midway"
+      C: "Stern"
+      D: "Williams"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which American company licensed Space Invaders for distribution in the United States?"
+        answers:
+          A: "Atari"
+          B: "Midway"
+          C: "Stern"
+          D: "Williams"
+    difficulty: EXPERT
+  - text: "Quel accessoire utilise-t-on généralement pour jouer à un jeu de course sur borne d'arcade ?"
+    answers:
+      A: "Une manette de console"
+      B: "Un clavier"
+      C: "Une souris"
+      D: "Un volant et des pédales"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What accessory is generally used to play a racing game on an arcade cabinet?"
+        answers:
+          A: "A console controller"
+          B: "A keyboard"
+          C: "A mouse"
+          D: "A steering wheel and pedals"
+    difficulty: EASY
+  - text: "Quel jeu de combat de Namco met en scène la famille Mishima ?"
+    answers:
+      A: "SoulCalibur"
+      B: "Virtua Fighter"
+      C: "Tekken"
+      D: "Dead or Alive"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Namco fighting game features the Mishima family?"
+        answers:
+          A: "SoulCalibur"
+          B: "Virtua Fighter"
+          C: "Tekken"
+          D: "Dead or Alive"
+    difficulty: EASY
+  - text: "Quelle société japonaise a créé Dance Dance Revolution ?"
+    answers:
+      A: "Sega"
+      B: "Konami"
+      C: "Capcom"
+      D: "Namco"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese company created Dance Dance Revolution?"
+        answers:
+          A: "Sega"
+          B: "Konami"
+          C: "Capcom"
+          D: "Namco"
+    difficulty: EASY
+  - text: "Avec quel accessoire vise-t-on dans un jeu de tir d'arcade comme Virtua Cop ?"
+    answers:
+      A: "Une manette"
+      B: "Un pistolet optique"
+      C: "Un tapis"
+      D: "Une guitare"
+    correctAnswer: B
+    translations:
+      en:
+        text: "With what accessory do you aim in an arcade shooter like Virtua Cop?"
+        answers:
+          A: "A controller"
+          B: "A light gun"
+          C: "A mat"
+          D: "A guitar"
+    difficulty: EASY
+  - text: "Dans Space Invaders, que contrôle le joueur au bas de l'écran ?"
+    answers:
+      A: "Un robot géant"
+      B: "Un sous-marin"
+      C: "Un hélicoptère"
+      D: "Un canon laser"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Space Invaders, what does the player control at the bottom of the screen?"
+        answers:
+          A: "A giant robot"
+          B: "A submarine"
+          C: "A helicopter"
+          D: "A laser cannon"
+    difficulty: EASY
+  - text: "Dans quel pays la culture des salles d'arcade et des game centers s'est-elle le plus développée ?"
+    answers:
+      A: "Les États-Unis"
+      B: "Le Royaume-Uni"
+      C: "L'Allemagne"
+      D: "Le Japon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which country did arcade and game center culture develop the most?"
+        answers:
+          A: "The United States"
+          B: "The United Kingdom"
+          C: "Germany"
+          D: "Japan"
+    difficulty: EASY
+  - text: "Quel jeu d'arcade de Konami met en scène une grenouille qui traverse une route et une rivière ?"
+    answers:
+      A: "Dig Dug"
+      B: "Centipede"
+      C: "Frogger"
+      D: "Q*bert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Konami arcade game features a frog crossing a road and a river?"
+        answers:
+          A: "Dig Dug"
+          B: "Centipede"
+          C: "Frogger"
+          D: "Q*bert"
+    difficulty: MEDIUM
+  - text: "Quel jeu de rythme de Namco se joue avec des baguettes et un tambour japonais ?"
+    answers:
+      A: "Taiko no Tatsujin"
+      B: "Pop'n Music"
+      C: "DrumMania"
+      D: "maimai"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Namco rhythm game is played with drumsticks and a Japanese drum?"
+        answers:
+          A: "Taiko no Tatsujin"
+          B: "Pop'n Music"
+          C: "DrumMania"
+          D: "maimai"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade d'Atari de 1980 utilise un trackball pour défendre des villes contre des missiles ?"
+    answers:
+      A: "Pong"
+      B: "Asteroids"
+      C: "Missile Command"
+      D: "Tempest"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1980 Atari arcade game uses a trackball to defend cities from missiles?"
+        answers:
+          A: "Pong"
+          B: "Asteroids"
+          C: "Missile Command"
+          D: "Tempest"
+    difficulty: MEDIUM
+  - text: "Quel beat'em up de Capcom de 1989 met en scène Cody et le maire Haggar ?"
+    answers:
+      A: "Double Dragon"
+      B: "Final Fight"
+      C: "Golden Axe"
+      D: "Streets of Rage"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1989 Capcom beat 'em up features Cody and Mayor Haggar?"
+        answers:
+          A: "Double Dragon"
+          B: "Final Fight"
+          C: "Golden Axe"
+          D: "Streets of Rage"
+    difficulty: MEDIUM
+  - text: "Quel jeu de Psikyo (1995) met en scène des avions de combat de la Seconde Guerre mondiale ?"
+    answers:
+      A: "Raiden"
+      B: "Battle Garegga"
+      C: "Gunbird"
+      D: "Strikers 1945"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Psikyo game (1995) features World War II fighter planes?"
+        answers:
+          A: "Raiden"
+          B: "Battle Garegga"
+          C: "Gunbird"
+          D: "Strikers 1945"
+    difficulty: MEDIUM
+  - text: "Quel jeu de rythme de Konami se joue avec une platine de DJ et des touches ?"
+    answers:
+      A: "beatmania"
+      B: "Dance Dance Revolution"
+      C: "Guitar Freaks"
+      D: "Pop'n Music"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Konami rhythm game is played with a DJ turntable and keys?"
+        answers:
+          A: "beatmania"
+          B: "Dance Dance Revolution"
+          C: "Guitar Freaks"
+          D: "Pop'n Music"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'arcade de 1982 se déroule sur une pyramide isométrique et met en scène un personnage orange à trompe ?"
+    answers:
+      A: "Zaxxon"
+      B: "Q*bert"
+      C: "Crystal Castles"
+      D: "Marble Madness"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1982 arcade game takes place on an isometric pyramid and features an orange trunked character?"
+        answers:
+          A: "Zaxxon"
+          B: "Q*bert"
+          C: "Crystal Castles"
+          D: "Marble Madness"
+    difficulty: HARD
+  - text: "Quel héros de SNK, en casquette et veste rouge, est la star de la série Fatal Fury ?"
+    answers:
+      A: "Kyo Kusanagi"
+      B: "Ryu"
+      C: "Terry Bogard"
+      D: "Kazuya Mishima"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which SNK hero, in a cap and red jacket, is the star of the Fatal Fury series?"
+        answers:
+          A: "Kyo Kusanagi"
+          B: "Ryu"
+          C: "Terry Bogard"
+          D: "Kazuya Mishima"
+    difficulty: HARD
+  - text: "Quel jeu de Sega de 1982 utilise une vue isométrique pour attaquer une forteresse spatiale ?"
+    answers:
+      A: "Crystal Castles"
+      B: "Q*bert"
+      C: "Zaxxon"
+      D: "Marble Madness"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1982 Sega game uses an isometric view to attack a space fortress?"
+        answers:
+          A: "Crystal Castles"
+          B: "Q*bert"
+          C: "Zaxxon"
+          D: "Marble Madness"
+    difficulty: HARD
+  - text: "Quel jeu de tir de Sega de 1994 en 3D polygonale utilise un pistolet optique ?"
+    answers:
+      A: "Time Crisis"
+      B: "Virtua Cop"
+      C: "Point Blank"
+      D: "House of the Dead"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1994 Sega 3D polygonal shooter uses a light gun?"
+        answers:
+          A: "Time Crisis"
+          B: "Virtua Cop"
+          C: "Point Blank"
+          D: "House of the Dead"
+    difficulty: HARD
+  - text: "Quel jeu de rythme de Konami de 1998 se joue avec une guitare factice ?"
+    answers:
+      A: "Guitar Freaks"
+      B: "Guitar Hero"
+      C: "Rock Band"
+      D: "Amplitude"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1998 Konami rhythm game is played with a mock guitar?"
+        answers:
+          A: "Guitar Freaks"
+          B: "Guitar Hero"
+          C: "Rock Band"
+          D: "Amplitude"
+    difficulty: HARD
+  - text: "Quel shoot'em up de Capcom de 1987 se déroule dans le Pacifique pendant la Seconde Guerre mondiale ?"
+    answers:
+      A: "1942"
+      B: "P-47"
+      C: "1943: The Battle of Midway"
+      D: "Twin Cobra"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1987 Capcom shoot'em up is set in the Pacific during World War II?"
+        answers:
+          A: "1942"
+          B: "P-47"
+          C: "1943: The Battle of Midway"
+          D: "Twin Cobra"
+    difficulty: HARD
+  - text: "Sur quel système d'arcade de Namco Tekken est-il sorti en 1994 ?"
+    answers:
+      A: "System 11"
+      B: "System 10"
+      C: "System 22"
+      D: "System 23"
+    correctAnswer: A
+    translations:
+      en:
+        text: "On which Namco arcade system was Tekken released in 1994?"
+        answers:
+          A: "System 11"
+          B: "System 10"
+          C: "System 22"
+          D: "System 23"
+    difficulty: EXPERT
+  - text: "Quelle carte d'arcade de Capcom équipe Final Fight et Street Fighter II ?"
+    answers:
+      A: "CP System"
+      B: "CPS-2"
+      C: "System 16"
+      D: "MVS"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Capcom arcade board powers Final Fight and Street Fighter II?"
+        answers:
+          A: "CP System"
+          B: "CPS-2"
+          C: "System 16"
+          D: "MVS"
+    difficulty: EXPERT
+  - text: "Quel est le nom du format de cartouches interchangeables des bornes Neo Geo de SNK ?"
+    answers:
+      A: "AES"
+      B: "CPS"
+      C: "MVS"
+      D: "JAMMA"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the interchangeable cartridge format for SNK's Neo Geo arcade cabinets?"
+        answers:
+          A: "AES"
+          B: "CPS"
+          C: "MVS"
+          D: "JAMMA"
+    difficulty: EXPERT
+  - text: "Quel connecteur standard de 1985 permet d'installer facilement un jeu dans une borne d'arcade ?"
+    answers:
+      A: "VGA"
+      B: "IDE"
+      C: "JAMMA"
+      D: "ISA"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1985 standard connector makes it easy to install a game in an arcade cabinet?"
+        answers:
+          A: "VGA"
+          B: "IDE"
+          C: "JAMMA"
+          D: "ISA"
+    difficulty: EXPERT
+  - text: "Quel jeu de rythme de Sega (2012) se joue sur un écran tactile circulaire ?"
+    answers:
+      A: "maimai"
+      B: "Chunithm"
+      C: "Groove Coaster"
+      D: "Taiko no Tatsujin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Sega rhythm game (2012) is played on a circular touchscreen?"
+        answers:
+          A: "maimai"
+          B: "Chunithm"
+          C: "Groove Coaster"
+          D: "Taiko no Tatsujin"
+    difficulty: EXPERT
+  - text: "Quel documentaire de 2007 de Seth Gordon suit des joueurs en quête du record du monde de Donkey Kong ?"
+    answers:
+      A: "The King of Kong"
+      B: "Man vs. Snake"
+      C: "Chasing Ghosts"
+      D: "High Score"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2007 documentary by Seth Gordon follows players chasing the Donkey Kong world record?"
+        answers:
+          A: "The King of Kong"
+          B: "Man vs. Snake"
+          C: "Chasing Ghosts"
+          D: "High Score"
+    difficulty: EXPERT
+  - text: "Quel shoot'em up de Seibu Kaihatsu (1990) est réputé pour sa difficulté et ses avions de combat ?"
+    answers:
+      A: "Strikers 1945"
+      B: "Battle Garegga"
+      C: "Gunbird"
+      D: "Raiden"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Seibu Kaihatsu shoot'em up (1990) is known for its difficulty and fighter planes?"
+        answers:
+          A: "Strikers 1945"
+          B: "Battle Garegga"
+          C: "Gunbird"
+          D: "Raiden"
+    difficulty: EXPERT
