@@ -1,3 +1,9 @@
+## [5.8.0](https://github.com/quizup-organization/quizup-theme/compare/v5.7.0...v5.8.0) (2026-10-12)
+
+### Features
+
+* **theme:** images du seed mirorées (chemins relatifs) + bannière de fiche sujet ([a0a43ca](https://github.com/quizup-organization/quizup-theme/commit/a0a43ca9682586dc7bc84541802368cddba6dadd))
+
 ## [5.7.0](https://github.com/quizup-organization/quizup-theme/compare/v5.6.0...v5.7.0) (2026-10-12)
 
 ### Features
