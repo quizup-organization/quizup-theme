@@ -14,6 +14,7 @@ questions:
       C: "De la roche-mère"
       D: "Du basalte"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What block forms when a flow of water comes into contact with a lava source?"
@@ -29,6 +30,7 @@ questions:
       C: "Une pioche en bois"
       D: "Une pioche en or"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the minimum pickaxe needed to obtain diamond ore?"
@@ -44,6 +46,7 @@ questions:
       C: "Une pioche en pierre"
       D: "Une pioche en diamant"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What pickaxe is needed to collect an obsidian block?"
@@ -59,6 +62,7 @@ questions:
       C: "6"
       D: "3"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many planks do you get from turning a log into planks?"
@@ -74,6 +78,7 @@ questions:
       C: "4"
       D: "8"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "How many sticks do you get from crafting two planks?"
@@ -89,6 +94,7 @@ questions:
       C: "4"
       D: "6"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "How many planks are needed to craft a crafting table?"
@@ -104,6 +110,7 @@ questions:
       C: "3"
       D: "4"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "How many diamonds are needed to craft a diamond pickaxe?"
@@ -119,6 +126,7 @@ questions:
       C: "16"
       D: "20"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "How many diamonds are needed to craft a full set of diamond armor?"
@@ -134,6 +142,7 @@ questions:
       C: "10"
       D: "14"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What is the minimum number of obsidian blocks needed to build a Nether portal?"
@@ -149,6 +158,7 @@ questions:
       C: "Une boule de feu"
       D: "Un briquet"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What item is used to light a Nether portal?"
@@ -164,6 +174,7 @@ questions:
       C: "Une pépite de netherite"
       D: "Un bloc de diamant"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is used to turn diamond armor into netherite armor?"
@@ -179,6 +190,7 @@ questions:
       C: "Ils flottent sans brûler"
       D: "Ils brûlent"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What happens to netherite items that fall into lava?"
@@ -194,6 +206,7 @@ questions:
       C: "Le creeper"
       D: "L'enderman"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which hostile mob explodes when it approaches the player?"
@@ -209,6 +222,7 @@ questions:
       C: "Un cliquetis d'os"
       D: "Un sifflement"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What sound announces a creeper's imminent explosion?"
@@ -224,6 +238,7 @@ questions:
       C: "Le squelette"
       D: "Le slime"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which hostile mob attacks the player from a distance with a bow?"
@@ -239,6 +254,7 @@ questions:
       C: "Un villageois"
       D: "Un creeper"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does a zombie become after being submerged in water for a long time?"
@@ -254,6 +270,7 @@ questions:
       C: "Le creeper"
       D: "La sorcière"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which mob becomes aggressive when the player looks it in the eyes?"
@@ -269,6 +286,7 @@ questions:
       C: "Le zombie"
       D: "L'araignée"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which hostile mob is able to climb walls?"
@@ -284,6 +302,7 @@ questions:
       C: "L'enderman"
       D: "La sorcière"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which hostile mob throws potions at the player?"
@@ -299,6 +318,7 @@ questions:
       C: "Le zombie"
       D: "L'araignée"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which mob bounces and splits into several small ones when killed?"
@@ -314,6 +334,7 @@ questions:
       C: "La vache"
       D: "Le cochon"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which passive mob provides leather when killed?"
@@ -329,6 +350,7 @@ questions:
       C: "Du beurre"
       D: "De l'eau"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "What liquid do you get by milking a cow with a bucket?"
@@ -344,6 +366,7 @@ questions:
       C: "Du blé"
       D: "Un poisson"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "With which item do you tame a wolf?"
@@ -359,6 +382,7 @@ questions:
       C: "Une carotte"
       D: "Du poisson cru"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "With which item do you tame a cat?"
@@ -374,6 +398,7 @@ questions:
       C: "Le mouton"
       D: "Le cochon"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which passive mob follows the player holding wheat seeds?"
@@ -389,6 +414,7 @@ questions:
       C: "Le cochon"
       D: "Le mouton"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which mob can be steered with a carrot on a stick?"
@@ -404,6 +430,7 @@ questions:
       C: "Des rubis"
       D: "Des émeraudes"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What currency do villagers trade their goods for?"
@@ -419,6 +446,7 @@ questions:
       C: "Le chat"
       D: "Le perroquet"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which tamed animal scares away creepers?"
@@ -434,6 +462,7 @@ questions:
       C: "Des plumes"
       D: "Du fil"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "What do you get by shearing a sheep?"
@@ -449,6 +478,7 @@ questions:
       C: "La taïga"
       D: "Le désert"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which biome is covered with sand and cacti?"
@@ -464,6 +494,7 @@ questions:
       C: "La savane"
       D: "La taïga"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "In which biome do tall trees covered in vines grow?"
@@ -479,6 +510,7 @@ questions:
       C: "Le marais"
       D: "La jungle"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which cold biome is dominated by fir trees and snow?"
@@ -494,6 +526,7 @@ questions:
       C: "La savane"
       D: "Le désert"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "In which biome are acacia trees found naturally?"
@@ -509,6 +542,7 @@ questions:
       C: "La taïga"
       D: "La savane"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which biome is entirely covered in water?"
@@ -524,6 +558,7 @@ questions:
       C: "Le sapin"
       D: "L'acacia"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which tree naturally produces apples?"
@@ -539,6 +574,7 @@ questions:
       C: "De l'herbe"
       D: "De la pierre"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "On which block must wheat seeds be planted for them to grow?"
@@ -554,6 +590,7 @@ questions:
       C: "De la poudre d'os"
       D: "Du charbon"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which item speeds up crop growth?"
@@ -569,6 +606,7 @@ questions:
       C: "Le chêne"
       D: "L'acacia"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "On which type of trunk do cocoa pods grow naturally?"
@@ -584,6 +622,7 @@ questions:
       C: "La hache"
       D: "La pelle"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which tool is the most effective for digging dirt?"
@@ -599,6 +638,7 @@ questions:
       C: "L'épée"
       D: "La pelle"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which tool cuts wood the fastest?"
@@ -614,6 +654,7 @@ questions:
       C: "Le créatif"
       D: "Le hardcore"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "In which game mode can the player fly and is invincible?"
@@ -629,6 +670,7 @@ questions:
       C: "Le créatif"
       D: "Le hardcore"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "In which game mode does the player have only one life?"
@@ -644,6 +686,7 @@ questions:
       C: "Le hardcore"
       D: "L'aventure"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In which game mode is it impossible to break blocks?"
@@ -659,6 +702,7 @@ questions:
       C: "15"
       D: "20"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many hearts of health does a player start with in Survival mode?"
@@ -674,6 +718,7 @@ questions:
       C: "Il devient aveugle"
       D: "Il perd de l'expérience"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What happens when the player's hunger bar is empty?"
@@ -689,6 +734,7 @@ questions:
       C: "3"
       D: "4"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "How many blocks can you fall without taking damage?"
@@ -704,6 +750,7 @@ questions:
       C: "La vitesse"
       D: "La régénération"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What effect can eating raw chicken cause?"
@@ -719,6 +766,7 @@ questions:
       C: "Le jour"
       D: "Pendant la pluie"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "During which period do monsters most often appear on the surface?"
@@ -734,6 +782,7 @@ questions:
       C: "30"
       D: "20"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How many real minutes does a full day/night cycle last?"
@@ -749,6 +798,7 @@ questions:
       C: "Un hamac"
       D: "Une chaise"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which item lets you sleep to skip the night?"
@@ -764,6 +814,7 @@ questions:
       C: "De la poudre à canon"
       D: "Une loupe"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which item lets you light a Nether portal?"
@@ -779,6 +830,7 @@ questions:
       C: "Le gravier"
       D: "La pierre"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which block forms when water flows onto a lava source?"
@@ -794,6 +846,7 @@ questions:
       C: "Le Magma Cube"
       D: "Le Hoglin"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Nether mob is a magma cube that jumps to attack?"
@@ -809,6 +862,7 @@ questions:
       C: "Dans les forteresses du Nether"
       D: "Dans les cavernes de quartz"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Where do you encounter Blazes in the Nether?"
@@ -824,6 +878,7 @@ questions:
       C: "Une perle d'Ender"
       D: "Une larme de Ghast"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does a Blaze drop when killed?"
@@ -839,6 +894,7 @@ questions:
       C: "Une perle d'Ender et une poudre de Blaze"
       D: "Une perle d'Ender et de la redstone"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which items must be combined to craft an Eye of Ender?"
@@ -854,6 +910,7 @@ questions:
       C: "10"
       D: "16"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "How many Eyes of Ender are needed to fully activate an End portal?"
@@ -869,6 +926,7 @@ questions:
       C: "Une forteresse"
       D: "Une mine abandonnée"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "In which type of structure is the End portal room found?"
@@ -884,6 +942,7 @@ questions:
       C: "Le Wither squelette"
       D: "L'Enderman"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which mob mainly inhabits the End dimension?"
@@ -899,6 +958,7 @@ questions:
       C: "250"
       D: "100"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "How many health points does the Ender Dragon have?"
@@ -914,6 +974,7 @@ questions:
       C: "Les blocs d'End stone"
       D: "Les portails de l'End"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What must be destroyed to stop the Ender Dragon from healing?"
@@ -929,6 +990,7 @@ questions:
       C: "Une tête de dragon"
       D: "Une perle d'Ender"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What item does the Ender Dragon leave behind after its defeat?"
@@ -944,6 +1006,7 @@ questions:
       C: "4 blocs d'obsidienne et 3 têtes de Wither squelette"
       D: "4 blocs de sable des âmes et 3 têtes de Wither squelette"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How do you summon the Wither?"
@@ -959,6 +1022,7 @@ questions:
       C: "Un bâton de Blaze"
       D: "Une pomme dorée enchantée"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What does the Wither drop when defeated?"
@@ -974,6 +1038,7 @@ questions:
       C: "Un bloc de diamant"
       D: "Un cœur de la mer"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What rare item is needed to craft a beacon?"
@@ -989,6 +1054,7 @@ questions:
       C: "L'observateur"
       D: "Le piston collant"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which redstone component can delay a signal?"
@@ -1004,6 +1070,7 @@ questions:
       C: "Comparer l'intensité de deux signaux"
       D: "Augmenter sans limite la portée d'un signal"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the main function of a redstone comparator?"
@@ -1019,6 +1086,7 @@ questions:
       C: "Les sons des mobs"
       D: "La présence de joueurs invisibles"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "What does an observer placed in a redstone circuit detect?"
@@ -1034,6 +1102,7 @@ questions:
       C: "Il fonctionne sans redstone"
       D: "Il est plus rapide"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What special feature does the sticky piston have compared to the normal piston?"
@@ -1049,6 +1118,7 @@ questions:
       C: "16"
       D: "12"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How many blocks can a piston push at most at one time?"
@@ -1064,6 +1134,7 @@ questions:
       C: "Des blocs de diamant"
       D: "Des bibliothèques"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which block must be placed around an enchanting table to access level 30?"
@@ -1079,6 +1150,7 @@ questions:
       C: "De récupérer un bloc tel quel, sans le transformer"
       D: "De multiplier les ressources obtenues"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What does the Silk Touch enchantment allow?"
@@ -1094,6 +1166,7 @@ questions:
       C: "Il rend la pioche incassable"
       D: "Il attire les mobs proches"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What does the Fortune enchantment do on a pickaxe?"
@@ -1109,6 +1182,7 @@ questions:
       C: "Il répare à chaque coup reçu"
       D: "Il transforme les objets cassés en objets neufs"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "How does the Mending enchantment work?"
@@ -1124,6 +1198,7 @@ questions:
       C: "Le bâton de Blaze"
       D: "La larme de Ghast"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which ingredient serves as fuel for the brewing stand to brew potions?"
@@ -1139,6 +1214,7 @@ questions:
       C: "La terre"
       D: "L'argile"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "On which block do you grow Nether wart?"
@@ -1154,6 +1230,7 @@ questions:
       C: "La poudre de Blaze"
       D: "Le sucre"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which ingredient turns a potion into a splash potion?"
@@ -1169,6 +1246,7 @@ questions:
       C: "La poudre de Blaze"
       D: "La toile d'araignée"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which ingredient must be added to a splash potion to get a lingering potion?"
@@ -1184,6 +1262,7 @@ questions:
       C: "Le diamant"
       D: "L'émeraude"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What currency is used to trade with villagers?"
@@ -1199,6 +1278,7 @@ questions:
       C: "Le forgeron"
       D: "Le fermier"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which villager profession sells enchanted books?"
@@ -1214,6 +1294,7 @@ questions:
       C: "Avec une pomme d'or et une potion de force"
       D: "Avec une pomme d'or et une potion de faiblesse"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How do you cure a zombie villager?"
@@ -1229,6 +1310,7 @@ questions:
       C: "L'Enderman"
       D: "Le Zombie"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which mob attacks villages during a raid?"
@@ -1244,6 +1326,7 @@ questions:
       C: "La houe"
       D: "L'entonnoir (hopper)"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which block is often used to collect items in an automatic farm?"
@@ -1259,6 +1342,7 @@ questions:
       C: "Le comparateur"
       D: "Le levier"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "In an automatic sugar cane farm, which block detects growth and triggers the piston?"
@@ -1274,6 +1358,7 @@ questions:
       C: "2011"
       D: "2013"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "In what year was version 1.0 of Minecraft released?"
@@ -1289,6 +1374,7 @@ questions:
       C: "La 1.17"
       D: "La 1.16"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which update overhauled the Nether with the crimson and warped biomes?"
@@ -1304,6 +1390,7 @@ questions:
       C: "Aquatic Update"
       D: "Nether Update"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the 1.17/1.18 Minecraft update called?"
@@ -1319,6 +1406,7 @@ questions:
       C: "Markus Persson (Notch)"
       D: "Herobrine"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Who created the game Minecraft?"
@@ -1334,6 +1422,7 @@ questions:
       C: "2012"
       D: "2016"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "In what year did Microsoft buy Mojang?"
@@ -1349,6 +1438,7 @@ questions:
       C: "Hans Zimmer"
       D: "C418"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which composer created the original Minecraft music?"
@@ -1364,6 +1454,7 @@ questions:
       C: "Le jeu avec le plus de contenus téléchargeables"
       D: "Le jeu le plus vendu de l'histoire"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What record does Minecraft hold among video games?"
@@ -1379,6 +1470,7 @@ questions:
       C: "Hypixel"
       D: "Mineplex"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "On which famous server can you play the Bedwars minigame?"
@@ -1394,6 +1486,7 @@ questions:
       C: "Une île flottante"
       D: "Une grotte sous-marine"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What does the player start on in the Skyblock game mode?"
@@ -1409,6 +1502,7 @@ questions:
       C: "Minecraft Earth"
       D: "Minecraft Dungeons"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Minecraft spin-off is a dungeon crawler released in 2020?"
@@ -1424,6 +1518,7 @@ questions:
       C: "Minecraft Legends"
       D: "Minecraft Story Mode"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Minecraft spin-off is an action-strategy game released in 2023?"
@@ -1439,6 +1534,7 @@ questions:
       C: "Dwayne Johnson"
       D: "Ryan Reynolds"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which actor plays Steve in the Minecraft movie released in 2025?"
@@ -1454,6 +1550,7 @@ questions:
       C: "À héberger des serveurs publics"
       D: "À diffuser des parties en direct"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is Minecraft Education mainly used for?"
@@ -1469,6 +1566,7 @@ questions:
       C: "En le poussant avec un piston"
       D: "En lui envoyant un signal de redstone"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How do you activate a command block placed in the world?"
@@ -1484,6 +1582,7 @@ questions:
       C: "Il perd seulement son inventaire"
       D: "Il ne peut plus jamais jouer à Minecraft"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What happens when a player dies in Hardcore mode?"
@@ -1499,6 +1598,7 @@ questions:
       C: "Obtenir tous les succès"
       D: "Terminer le jeu le plus vite possible"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "What does a player doing a Minecraft speedrun try to do?"

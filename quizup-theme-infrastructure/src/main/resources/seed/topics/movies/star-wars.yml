@@ -14,6 +14,7 @@ questions:
       C: "Un nouvel espoir"
       D: "La Menace fantôme"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which Star Wars film was released in theaters in 1977?"
@@ -29,6 +30,7 @@ questions:
       C: "Irvin Kershner"
       D: "Richard Marquand"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Who directed the Star Wars film released in theaters in 1977?"
@@ -44,6 +46,7 @@ questions:
       C: "1985"
       D: "1980"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In what year was \"The Empire Strikes Back\" released?"
@@ -59,6 +62,7 @@ questions:
       C: "Richard Marquand"
       D: "J. J. Abrams"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Who directed \"The Empire Strikes Back\"?"
@@ -74,6 +78,7 @@ questions:
       C: "des électro-bâtons"
       D: "des sabres laser"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "In this cosplay scene, what weapons are the two characters dueling with?"
@@ -90,6 +95,7 @@ questions:
       C: "Richard Marquand"
       D: "Rian Johnson"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Who directed \"Return of the Jedi\"?"
@@ -105,6 +111,7 @@ questions:
       C: "Endor"
       D: "Naboo"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "On which planet did Luke Skywalker grow up?"
@@ -120,6 +127,7 @@ questions:
       C: "le Faucon Millenium"
       D: "un croiseur Mon Calamari"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of Han Solo's ship?"
@@ -135,6 +143,7 @@ questions:
       C: "Boba Fett"
       D: "Chewbacca"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who is Han Solo's Wookiee co-pilot?"
@@ -150,6 +159,7 @@ questions:
       C: "un wampa"
       D: "un wookiee"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which creature attacks Luke in the snow of Hoth?"
@@ -165,6 +175,7 @@ questions:
       C: "Yavin 4"
       D: "Hoth"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which forest moon is home to the Ewoks?"
@@ -180,6 +191,7 @@ questions:
       C: "l'Étoile Noire"
       D: "le Grand Temple"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the Empire's giant battle station?"
@@ -195,6 +207,7 @@ questions:
       C: "Lando Calrissian"
       D: "Luke Skywalker"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who destroys the first Death Star during the Battle of Yavin?"
@@ -210,6 +223,7 @@ questions:
       C: "BB-8"
       D: "K-2SO"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which blue-and-white astromech droid accompanies Luke?"
@@ -225,6 +239,7 @@ questions:
       C: "BB-8"
       D: "IG-88"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which golden protocol droid claims to be fluent in over six million forms of communication?"
@@ -240,6 +255,7 @@ questions:
       C: "l'amiral Ackbar"
       D: "l'Empereur Palpatine"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Imperial officer commands the Death Star in \"A New Hope\"?"
@@ -255,6 +271,7 @@ questions:
       C: "Billy Dee Williams"
       D: "Peter Cushing"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Who plays Han Solo in the original trilogy?"
@@ -270,6 +287,7 @@ questions:
       C: "Daisy Ridley"
       D: "Felicity Jones"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Who plays Princess Leia in the original trilogy?"
@@ -285,6 +303,7 @@ questions:
       C: "Ian McDiarmid"
       D: "Christopher Lee"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Who voices Darth Vader in the original version?"
@@ -300,6 +319,7 @@ questions:
       C: "que Leia est sa sœur"
       D: "que l'Empereur est son maître"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "What revelation does Darth Vader make to Luke in \"The Empire Strikes Back\"?"
@@ -315,6 +335,7 @@ questions:
       C: "vert"
       D: "violet"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What color is Luke's lightsaber in \"Return of the Jedi\"?"
@@ -330,6 +351,7 @@ questions:
       C: "il s'exile sur Dagobah"
       D: "il rejoint l'Empire"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What happens to Obi-Wan Kenobi after his duel with Darth Vader?"
@@ -345,6 +367,7 @@ questions:
       C: "chez Jabba le Hutt"
       D: "chez les Jawas"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who does Luke live with at the beginning of \"A New Hope\"?"
@@ -360,6 +383,7 @@ questions:
       C: "un ordre de l'Empereur"
       D: "une carte vers Dagobah"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What message does R2-D2 carry for Obi-Wan Kenobi?"
@@ -375,6 +399,7 @@ questions:
       C: "Naboo"
       D: "Yavin 4"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which planet is destroyed by the Death Star in \"A New Hope\"?"
@@ -390,6 +415,7 @@ questions:
       C: "Jango Fett"
       D: "Cad Bane"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which bounty hunter in Mandalorian armor appears in \"The Empire Strikes Back\"?"
@@ -405,6 +431,7 @@ questions:
       C: "Kamino"
       D: "Bespin"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which gas giant is home to Cloud City?"
@@ -420,6 +447,7 @@ questions:
       C: "Lando Calrissian"
       D: "Mon Mothma"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who administers Cloud City in \"The Empire Strikes Back\"?"
@@ -435,6 +463,7 @@ questions:
       C: "Mace Windu"
       D: "Yoda"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who trains Luke Skywalker on the planet Dagobah?"
@@ -450,6 +479,7 @@ questions:
       C: "un Wookiee"
       D: "un Gungan"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which species does this cosplay represent?"
@@ -466,6 +496,7 @@ questions:
       C: "2002"
       D: "2005"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "In what year was 'The Phantom Menace' released?"
@@ -481,6 +512,7 @@ questions:
       C: "Un nouvel espoir"
       D: "L'Attaque des clones"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the title of Episode II of the saga?"
@@ -496,6 +528,7 @@ questions:
       C: "2008"
       D: "2005"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "In what year was 'Revenge of the Sith' released?"
@@ -511,6 +544,7 @@ questions:
       C: "Rian Johnson"
       D: "George Lucas"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who directed the three films of the prequel trilogy?"
@@ -526,6 +560,7 @@ questions:
       C: "Hayden Christensen"
       D: "Liam Neeson"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Who plays adult Anakin Skywalker in the prequel trilogy?"
@@ -541,6 +576,7 @@ questions:
       C: "Keira Knightley"
       D: "Rose Byrne"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Who plays Padmé Amidala in the prequel trilogy?"
@@ -556,6 +592,7 @@ questions:
       C: "Naboo"
       D: "Alderaan"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the home planet of Padmé Amidala?"
@@ -571,6 +608,7 @@ questions:
       C: "un Jawa"
       D: "un Wookiee"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "What species is Jar Jar Binks?"
@@ -586,6 +624,7 @@ questions:
       C: "Yoda"
       D: "Mace Windu"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who discovers young Anakin on Tatooine in 'The Phantom Menace'?"
@@ -601,6 +640,7 @@ questions:
       C: "Mace Windu"
       D: "Palpatine"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who becomes Anakin's master after Qui-Gon Jinn's death?"
@@ -616,6 +656,7 @@ questions:
       C: "Liam Neeson"
       D: "Hayden Christensen"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Who plays Obi-Wan Kenobi in the prequel trilogy?"
@@ -631,6 +672,7 @@ questions:
       C: "le général Grievous"
       D: "Dark Maul"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Sith wields a double-bladed lightsaber in 'The Phantom Menace'?"
@@ -646,6 +688,7 @@ questions:
       C: "Dark Vador"
       D: "Dark Sidious"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is Palpatine's Sith name?"
@@ -661,6 +704,7 @@ questions:
       C: "Aayla Secura"
       D: "Shaak Ti"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which character from the saga does this cosplay portray?"
@@ -677,6 +721,7 @@ questions:
       C: "Christopher Lee"
       D: "Temuera Morrison"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Who plays Count Dooku?"
@@ -692,6 +737,7 @@ questions:
       C: "l'armée des clones"
       D: "l'armée rebelle"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which army is created on Kamino for the Republic?"
@@ -707,6 +753,7 @@ questions:
       C: "Boba Fett"
       D: "un officier impérial"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Who serves as the genetic template for the clone army?"
@@ -722,6 +769,7 @@ questions:
       C: "Kamino"
       D: "Coruscant"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "On which planet do Anakin and Obi-Wan duel at the end of the prequel trilogy?"
@@ -737,6 +785,7 @@ questions:
       C: "Hoth"
       D: "Géonosis"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "On which planet does the final battle of \"Attack of the Clones\" take place?"
@@ -752,6 +801,7 @@ questions:
       C: "le général Grievous"
       D: "le Grand Moff Tarkin"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which cyborg general commands the Separatist army?"
@@ -767,6 +817,7 @@ questions:
       C: "six"
       D: "quatre"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How many lightsabers can General Grievous wield simultaneously?"
@@ -782,6 +833,7 @@ questions:
       C: "Samuel L. Jackson"
       D: "Laurence Fishburne"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who plays Mace Windu in the prequel trilogy?"
@@ -797,6 +849,7 @@ questions:
       C: "les Tuskens"
       D: "les Ewoks"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "To which people of Tatooine does this cosplay belong?"
@@ -813,6 +866,7 @@ questions:
       C: "l'Ordre 99"
       D: "l'Ordre 66"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which order leads to the massacre of the Jedi?"
@@ -828,6 +882,7 @@ questions:
       C: "par le nombre de cristaux possédés"
       D: "par l'âge du Jedi"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "How is sensitivity to the Force measured in the prequel trilogy?"
@@ -843,6 +898,7 @@ questions:
       C: "Anakin Skywalker"
       D: "Yoda"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Who is considered the Chosen One destined to restore balance to the Force?"
@@ -858,6 +914,7 @@ questions:
       C: "toujours deux, un maître et un apprenti"
       D: "aucun maître, seulement des apprentis"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "What rule have the Sith followed since Darth Bane?"
@@ -873,6 +930,7 @@ questions:
       C: "un cœur de droïde"
       D: "un fragment de comète"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "What powers a lightsaber?"
@@ -888,6 +946,7 @@ questions:
       C: "rouge"
       D: "violette"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which lightsaber color is associated with the Sith?"
@@ -903,6 +962,7 @@ questions:
       C: "Padmé Amidala"
       D: "Ahsoka Tano"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who is the biological mother of Luke and Leia?"
@@ -918,6 +978,7 @@ questions:
       C: "Jabba le Hutt"
       D: "Grand Moff Tarkin"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Who adopts Leia after her birth on Alderaan?"
@@ -933,6 +994,7 @@ questions:
       C: "BB-8"
       D: "un X-wing"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What does young Anakin build on Tatooine?"
@@ -948,6 +1010,7 @@ questions:
       C: "2015"
       D: "2019"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "In what year was \"The Force Awakens\" released?"
@@ -963,6 +1026,7 @@ questions:
       C: "Un nouvel espoir"
       D: "Les Derniers Jedi"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the title of Episode VIII?"
@@ -978,6 +1042,7 @@ questions:
       C: "J. J. Abrams"
       D: "Ron Howard"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Who directed \"The Force Awakens\"?"
@@ -993,6 +1058,7 @@ questions:
       C: "Colin Trevorrow"
       D: "Rian Johnson"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Who directed \"The Last Jedi\"?"
@@ -1008,6 +1074,7 @@ questions:
       C: "Carrie Fisher"
       D: "Daisy Ridley"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Who plays Rey in the sequel trilogy?"
@@ -1023,6 +1090,7 @@ questions:
       C: "Domhnall Gleeson"
       D: "Adam Driver"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who plays Kylo Ren?"
@@ -1038,6 +1106,7 @@ questions:
       C: "Ben Solo"
       D: "Anakin Skywalker"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What is Kylo Ren's real name?"
@@ -1053,6 +1122,7 @@ questions:
       C: "Luke Skywalker et Mara Jade"
       D: "Rey et Finn"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who are Kylo Ren's parents?"
@@ -1068,6 +1138,7 @@ questions:
       C: "Dark Vador"
       D: "l'Empereur Palpatine"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Who leads the First Order in \"The Force Awakens\"?"
@@ -1083,6 +1154,7 @@ questions:
       C: "le général Hux"
       D: "Kylo Ren"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Who kills Supreme Leader Snoke?"
@@ -1098,6 +1170,7 @@ questions:
       C: "Jedha"
       D: "Pasaana"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which desert planet is Rey on at the start of the sequel trilogy?"
@@ -1113,6 +1186,7 @@ questions:
       C: "C-3PO"
       D: "D-O"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which white and orange spherical droid accompanies Rey?"
@@ -1128,6 +1202,7 @@ questions:
       C: "le général Hux"
       D: "Kylo Ren"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Who is the stormtrooper who deserts the First Order?"
@@ -1143,6 +1218,7 @@ questions:
       C: "Endor"
       D: "Tatooine"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Where does Luke Skywalker go into exile in the sequel trilogy?"
@@ -1158,6 +1234,7 @@ questions:
       C: "il fonctionne sans cristal"
       D: "il change de couleur"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What is special about Kylo Ren's lightsaber?"
@@ -1173,6 +1250,7 @@ questions:
       C: "2021"
       D: "2019"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In what year was \"The Rise of Skywalker\" released?"
@@ -1188,6 +1266,7 @@ questions:
       C: "vert"
       D: "rouge"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "What color is Rey's lightsaber at the end of \"The Rise of Skywalker\"?"
@@ -1203,6 +1282,7 @@ questions:
       C: "Alderaan"
       D: "Hosnian Prime"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which planet is home to the Galactic Senate and the Jedi Temple?"
@@ -1218,6 +1298,7 @@ questions:
       C: "Le Réveil de la Force"
       D: "L'Attaque des clones"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which film tells the story of the theft of the Death Star plans?"
@@ -1233,6 +1314,7 @@ questions:
       C: "2017"
       D: "2018"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "In what year was \"Rogue One\" released?"
@@ -1248,6 +1330,7 @@ questions:
       C: "Natalie Portman"
       D: "Felicity Jones"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Who plays Jyn Erso in \"Rogue One\"?"
@@ -1263,6 +1346,7 @@ questions:
       C: "J. J. Abrams"
       D: "Rian Johnson"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Who directed \"Rogue One\"?"
@@ -1278,6 +1362,7 @@ questions:
       C: "Un nouvel espoir"
       D: "Les Derniers Jedi"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which film tells the story of Han Solo's youth?"
@@ -1293,6 +1378,7 @@ questions:
       C: "Harrison Ford"
       D: "Adam Driver"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Who plays young Han Solo in \"Solo: A Star Wars Story\"?"
@@ -1308,6 +1394,7 @@ questions:
       C: "Donald Glover"
       D: "Oscar Isaac"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Who plays Lando Calrissian in \"Solo: A Star Wars Story\"?"
@@ -1323,6 +1410,7 @@ questions:
       C: "en le construisant lui-même"
       D: "en gagnant une partie de sabacc contre Lando"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How does Han Solo get the Millennium Falcon in \"Solo\"?"
@@ -1338,6 +1426,7 @@ questions:
       C: "les Gungans"
       D: "les Ewoks"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "To which people does the armor worn by this cosplay belong?"
@@ -1354,6 +1443,7 @@ questions:
       C: "Rebels"
       D: "Andor"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which series follows the Mandalorian bounty hunter Din Djarin?"
@@ -1369,6 +1459,7 @@ questions:
       C: "Grogu"
       D: "un Jawa"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the small green character taken in by the Mandalorian?"
@@ -1384,6 +1475,7 @@ questions:
       C: "un Jawa"
       D: "un Hutt"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What species is Grogu?"
@@ -1399,6 +1491,7 @@ questions:
       C: "« Je suis ton père »"
       D: "« Plus vite, plus haut, plus fort »"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What motto do Mandalorians repeat?"
@@ -1414,6 +1507,7 @@ questions:
       C: "The Bad Batch"
       D: "Resistance"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which animated series shows Ahsoka Tano as Anakin Skywalker's padawan?"
@@ -1429,6 +1523,7 @@ questions:
       C: "violets"
       D: "blancs"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "In the series \"Rebels\", what color are Ahsoka Tano's lightsabers?"
@@ -1444,6 +1539,7 @@ questions:
       C: "The Mandalorian"
       D: "Star Wars Rebels"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which animated series follows the crew of the Ghost ship?"
@@ -1459,6 +1555,7 @@ questions:
       C: "John Williams"
       D: "Ennio Morricone"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Who composed the music for the Star Wars saga?"
@@ -1474,6 +1571,7 @@ questions:
       C: "Bad Robot"
       D: "Lucasfilm"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which production company did George Lucas found?"
@@ -1489,6 +1587,7 @@ questions:
       C: "neuf"
       D: "douze"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "How many films make up the Skywalker saga (episodes I to IX)?"
@@ -1504,6 +1603,7 @@ questions:
       C: "le 25 décembre"
       D: "le 14 juillet"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which date do fans celebrate as \"Star Wars Day\"?"

@@ -14,6 +14,7 @@ questions:
       C: "O2"
       D: "NaCl"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is the chemical formula for water?"
@@ -29,6 +30,7 @@ questions:
       C: "Ir"
       D: "Fr"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What is the chemical symbol for iron?"
@@ -44,6 +46,7 @@ questions:
       C: "Or"
       D: "Oz"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What is the chemical symbol for gold?"
@@ -59,6 +62,7 @@ questions:
       C: "100"
       D: "127"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "How many chemical elements are in the periodic table today?"
@@ -75,6 +79,7 @@ questions:
       C: "John Dalton"
       D: "Dmitri Mendeleïev"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which scientist proposed the periodic table of elements?"
@@ -91,6 +96,7 @@ questions:
       C: "Marie Curie"
       D: "Irène Joliot-Curie"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which scientist won two Nobel Prizes, in physics and then in chemistry?"
@@ -106,6 +112,7 @@ questions:
       C: "Sd"
       D: "Na"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the chemical symbol for sodium?"
@@ -121,6 +128,7 @@ questions:
       C: "O"
       D: "Om"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the chemical symbol for oxygen?"
@@ -136,6 +144,7 @@ questions:
       C: "Froid, tiède et chaud"
       D: "Acide, neutre et basique"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What are the three common physical states of matter?"
@@ -151,6 +160,7 @@ questions:
       C: "L'azote"
       D: "Le dioxyde de carbone"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which gas do plants absorb for photosynthesis?"
@@ -166,6 +176,7 @@ questions:
       C: "L'hydrogène"
       D: "Le dioxyde de carbone"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What is the most abundant element in Earth's atmosphere?"
@@ -181,6 +192,7 @@ questions:
       C: "Le proton"
       D: "Le photon"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which particle carries a negative electric charge?"
@@ -196,6 +208,7 @@ questions:
       C: "Dans les liaisons chimiques"
       D: "Dans le vide"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Where are the protons and neutrons of an atom concentrated?"
@@ -212,6 +225,7 @@ questions:
       C: "Le dioxyde de carbone"
       D: "L'eau"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which molecule does this model represent?"
@@ -227,6 +241,7 @@ questions:
       C: "7"
       D: "14"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the pH of a neutral solution at room temperature?"
@@ -242,6 +257,7 @@ questions:
       C: "L'acide sulfurique"
       D: "L'acide citrique"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which acid is naturally present in lemons?"
@@ -257,6 +273,7 @@ questions:
       C: "L'aluminium"
       D: "Le cuivre"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which metal is liquid at room temperature?"
@@ -272,6 +289,7 @@ questions:
       C: "C"
       D: "Cr"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the chemical symbol for carbon?"
@@ -287,6 +305,7 @@ questions:
       C: "Dmitri Mendeleïev"
       D: "Niels Bohr"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Who is considered the father of modern chemistry?"
@@ -303,6 +322,7 @@ questions:
       C: "John Dalton"
       D: "Robert Boyle"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which British scientist proposed the modern atomic theory?"
@@ -311,3 +331,1283 @@ questions:
           B: "Michael Faraday"
           C: "John Dalton"
           D: "Robert Boyle"
+  - text: "Quel est le symbole chimique de l'hydrogène ?"
+    answers:
+      A: "H"
+      B: "He"
+      C: "Hy"
+      D: "O"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the chemical symbol for hydrogen?"
+        answers:
+          A: "H"
+          B: "He"
+          C: "Hy"
+          D: "O"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique de l'azote ?"
+    answers:
+      A: "Na"
+      B: "Ni"
+      C: "N"
+      D: "Az"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the chemical symbol for nitrogen?"
+        answers:
+          A: "Na"
+          B: "Ni"
+          C: "N"
+          D: "Az"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique de l'hélium ?"
+    answers:
+      A: "Hl"
+      B: "He"
+      C: "Ho"
+      D: "H"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical symbol for helium?"
+        answers:
+          A: "Hl"
+          B: "He"
+          C: "Ho"
+          D: "H"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique du calcium ?"
+    answers:
+      A: "C"
+      B: "Cl"
+      C: "Cn"
+      D: "Ca"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the chemical symbol for calcium?"
+        answers:
+          A: "C"
+          B: "Cl"
+          C: "Cn"
+          D: "Ca"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique du cuivre ?"
+    answers:
+      A: "Co"
+      B: "Cu"
+      C: "Cp"
+      D: "Cv"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical symbol for copper?"
+        answers:
+          A: "Co"
+          B: "Cu"
+          C: "Cp"
+          D: "Cv"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique de l'argent ?"
+    answers:
+      A: "Ar"
+      B: "Au"
+      C: "Ag"
+      D: "Si"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the chemical symbol for silver?"
+        answers:
+          A: "Ar"
+          B: "Au"
+          C: "Ag"
+          D: "Si"
+    difficulty: EASY
+  - text: "Quelle est la formule chimique du dioxyde de carbone ?"
+    answers:
+      A: "CO"
+      B: "C2O"
+      C: "CO2"
+      D: "O2C"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the chemical formula for carbon dioxide?"
+        answers:
+          A: "CO"
+          B: "C2O"
+          C: "CO2"
+          D: "O2C"
+    difficulty: EASY
+  - text: "Quelle est la formule chimique du chlorure de sodium, le sel de table ?"
+    answers:
+      A: "KCl"
+      B: "NaCl"
+      C: "NaOH"
+      D: "HCl"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical formula for sodium chloride, table salt?"
+        answers:
+          A: "KCl"
+          B: "NaCl"
+          C: "NaOH"
+          D: "HCl"
+    difficulty: EASY
+  - text: "Quelle est la formule chimique du dioxygène ?"
+    answers:
+      A: "O"
+      B: "O3"
+      C: "CO2"
+      D: "O2"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the chemical formula for dioxygen?"
+        answers:
+          A: "O"
+          B: "O3"
+          C: "CO2"
+          D: "O2"
+    difficulty: EASY
+  - text: "À température ambiante, dans quel état physique se trouve l'eau ?"
+    answers:
+      A: "Liquide"
+      B: "Solide"
+      C: "Gazeux"
+      D: "Plasma"
+    correctAnswer: A
+    translations:
+      en:
+        text: "At room temperature, what physical state is water in?"
+        answers:
+          A: "Liquid"
+          B: "Solid"
+          C: "Gas"
+          D: "Plasma"
+    difficulty: EASY
+  - text: "À quelle température l'eau pure bout-elle au niveau de la mer ?"
+    answers:
+      A: "50 °C"
+      B: "0 °C"
+      C: "212 °C"
+      D: "100 °C"
+    correctAnswer: D
+    translations:
+      en:
+        text: "At what temperature does pure water boil at sea level?"
+        answers:
+          A: "50 °C"
+          B: "0 °C"
+          C: "212 °C"
+          D: "100 °C"
+    difficulty: EASY
+  - text: "À quelle température l'eau pure gèle-t-elle au niveau de la mer ?"
+    answers:
+      A: "0 °C"
+      B: "4 °C"
+      C: "-10 °C"
+      D: "10 °C"
+    correctAnswer: A
+    translations:
+      en:
+        text: "At what temperature does pure water freeze at sea level?"
+        answers:
+          A: "0 °C"
+          B: "4 °C"
+          C: "-10 °C"
+          D: "10 °C"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique du potassium ?"
+    answers:
+      A: "P"
+      B: "Pt"
+      C: "Po"
+      D: "K"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the chemical symbol for potassium?"
+        answers:
+          A: "P"
+          B: "Pt"
+          C: "Po"
+          D: "K"
+    difficulty: EASY
+  - text: "Quel gaz le corps humain prélève-t-il dans l'air pour respirer ?"
+    answers:
+      A: "Le dioxyde de carbone"
+      B: "Le diazote"
+      C: "Le dioxygène"
+      D: "Le dihydrogène"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which gas does the human body take from the air to breathe?"
+        answers:
+          A: "Carbon dioxide"
+          B: "Nitrogen"
+          C: "Oxygen"
+          D: "Hydrogen"
+    difficulty: EASY
+  - text: "Quelle particule du noyau atomique est électriquement neutre ?"
+    answers:
+      A: "Le proton"
+      B: "Le neutron"
+      C: "L'électron"
+      D: "Le photon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which particle in the atomic nucleus is electrically neutral?"
+        answers:
+          A: "The proton"
+          B: "The neutron"
+          C: "The electron"
+          D: "The photon"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique du chlore ?"
+    answers:
+      A: "Cr"
+      B: "C"
+      C: "Cl"
+      D: "Ch"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the chemical symbol for chlorine?"
+        answers:
+          A: "Cr"
+          B: "C"
+          C: "Cl"
+          D: "Ch"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique du plomb ?"
+    answers:
+      A: "Pb"
+      B: "Pl"
+      C: "P"
+      D: "Ld"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the chemical symbol for lead?"
+        answers:
+          A: "Pb"
+          B: "Pl"
+          C: "P"
+          D: "Ld"
+    difficulty: EASY
+  - text: "Combien d'atomes d'hydrogène contient une molécule d'eau ?"
+    answers:
+      A: "2"
+      B: "1"
+      C: "3"
+      D: "4"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many hydrogen atoms are in a water molecule?"
+        answers:
+          A: "2"
+          B: "1"
+          C: "3"
+          D: "4"
+    difficulty: EASY
+  - text: "Quel est le pH d'une solution acide ?"
+    answers:
+      A: "Égal à 7"
+      B: "Supérieur à 7"
+      C: "Égal à 14"
+      D: "Inférieur à 7"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the pH of an acidic solution?"
+        answers:
+          A: "Equal to 7"
+          B: "Greater than 7"
+          C: "Equal to 14"
+          D: "Less than 7"
+    difficulty: EASY
+  - text: "Quel est le symbole chimique du magnésium ?"
+    answers:
+      A: "Mn"
+      B: "Mg"
+      C: "Ma"
+      D: "M"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical symbol for magnesium?"
+        answers:
+          A: "Mn"
+          B: "Mg"
+          C: "Ma"
+          D: "M"
+    difficulty: EASY
+  - text: "Quelle est la formule chimique de l'acide sulfurique ?"
+    answers:
+      A: "HCl"
+      B: "HNO3"
+      C: "H2CO3"
+      D: "H2SO4"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the chemical formula for sulfuric acid?"
+        answers:
+          A: "HCl"
+          B: "HNO3"
+          C: "H2CO3"
+          D: "H2SO4"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule chimique de l'ammoniac ?"
+    answers:
+      A: "NH3"
+      B: "NH4"
+      C: "NO2"
+      D: "N2H4"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the chemical formula for ammonia?"
+        answers:
+          A: "NH3"
+          B: "NH4"
+          C: "NO2"
+          D: "N2H4"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule chimique du méthane ?"
+    answers:
+      A: "C2H6"
+      B: "CH3"
+      C: "CH4"
+      D: "C2H4"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the chemical formula for methane?"
+        answers:
+          A: "C2H6"
+          B: "CH3"
+          C: "CH4"
+          D: "C2H4"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule chimique de l'éthanol ?"
+    answers:
+      A: "CH3OH"
+      B: "C3H8O"
+      C: "C2H4O"
+      D: "C2H6O"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the chemical formula for ethanol?"
+        answers:
+          A: "CH3OH"
+          B: "C3H8O"
+          C: "C2H4O"
+          D: "C2H6O"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule chimique du glucose ?"
+    answers:
+      A: "C12H22O11"
+      B: "C6H12O6"
+      C: "C6H6O6"
+      D: "C5H10O5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical formula for glucose?"
+        answers:
+          A: "C12H22O11"
+          B: "C6H12O6"
+          C: "C6H6O6"
+          D: "C5H10O5"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule chimique du bicarbonate de sodium ?"
+    answers:
+      A: "Na2CO3"
+      B: "NaHCO3"
+      C: "NaOH"
+      D: "NaClO"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical formula for sodium bicarbonate?"
+        answers:
+          A: "Na2CO3"
+          B: "NaHCO3"
+          C: "NaOH"
+          D: "NaClO"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule chimique de l'acide chlorhydrique ?"
+    answers:
+      A: "HCl"
+      B: "H2Cl"
+      C: "ClOH"
+      D: "HClO"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the chemical formula for hydrochloric acid?"
+        answers:
+          A: "HCl"
+          B: "H2Cl"
+          C: "ClOH"
+          D: "HClO"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule chimique de l'eau oxygénée, aussi appelée peroxyde d'hydrogène ?"
+    answers:
+      A: "HO2"
+      B: "H2O"
+      C: "H2O2"
+      D: "H2O3"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the chemical formula for hydrogen peroxide?"
+        answers:
+          A: "HO2"
+          B: "H2O"
+          C: "H2O2"
+          D: "H2O3"
+    difficulty: MEDIUM
+  - text: "Quel est le numéro atomique de l'hydrogène ?"
+    answers:
+      A: "1"
+      B: "0"
+      C: "2"
+      D: "3"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the atomic number of hydrogen?"
+        answers:
+          A: "1"
+          B: "0"
+          C: "2"
+          D: "3"
+    difficulty: MEDIUM
+  - text: "À quelle famille appartiennent les éléments de la dernière colonne du tableau périodique ?"
+    answers:
+      A: "Les métaux alcalins"
+      B: "Les gaz nobles"
+      C: "Les halogènes"
+      D: "Les métaux de transition"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which family do the elements in the last column of the periodic table belong to?"
+        answers:
+          A: "Alkali metals"
+          B: "Noble gases"
+          C: "Halogens"
+          D: "Transition metals"
+    difficulty: MEDIUM
+  - text: "Qui a découvert le radium et le polonium ?"
+    answers:
+      A: "Marie et Pierre Curie"
+      B: "Henri Becquerel"
+      C: "Ernest Rutherford"
+      D: "Lise Meitner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who discovered radium and polonium?"
+        answers:
+          A: "Marie and Pierre Curie"
+          B: "Henri Becquerel"
+          C: "Ernest Rutherford"
+          D: "Lise Meitner"
+    difficulty: MEDIUM
+  - text: "Quel chimiste suédois a inventé la dynamite et créé les prix qui portent son nom ?"
+    answers:
+      A: "Svante Arrhenius"
+      B: "Jöns Jacob Berzelius"
+      C: "Alfred Nobel"
+      D: "Carl Wilhelm Scheele"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Swedish chemist invented dynamite and created the prizes that bear his name?"
+        answers:
+          A: "Svante Arrhenius"
+          B: "Jöns Jacob Berzelius"
+          C: "Alfred Nobel"
+          D: "Carl Wilhelm Scheele"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on une réaction chimique qui libère de la chaleur ?"
+    answers:
+      A: "Endothermique"
+      B: "Exothermique"
+      C: "Catalytique"
+      D: "Réversible"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is a chemical reaction that releases heat called?"
+        answers:
+          A: "Endothermic"
+          B: "Exothermic"
+          C: "Catalytic"
+          D: "Reversible"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on une réaction chimique qui absorbe de la chaleur ?"
+    answers:
+      A: "Exothermique"
+      B: "Neutre"
+      C: "Endothermique"
+      D: "Spontanée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is a chemical reaction that absorbs heat called?"
+        answers:
+          A: "Exothermic"
+          B: "Neutral"
+          C: "Endothermic"
+          D: "Spontaneous"
+    difficulty: MEDIUM
+  - text: "Quel est le symbole chimique du tungstène ?"
+    answers:
+      A: "T"
+      B: "W"
+      C: "Tu"
+      D: "Ti"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical symbol for tungsten?"
+        answers:
+          A: "T"
+          B: "W"
+          C: "Tu"
+          D: "Ti"
+    difficulty: MEDIUM
+  - text: "Quel est l'élément le plus abondant dans la croûte terrestre ?"
+    answers:
+      A: "Le silicium"
+      B: "L'aluminium"
+      C: "Le fer"
+      D: "L'oxygène"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the most abundant element in the Earth's crust?"
+        answers:
+          A: "Silicon"
+          B: "Aluminium"
+          C: "Iron"
+          D: "Oxygen"
+    difficulty: MEDIUM
+  - text: "Quelle est la formule de l'ion hydroxyde ?"
+    answers:
+      A: "OH-"
+      B: "H3O+"
+      C: "O2-"
+      D: "H2O"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the formula of the hydroxide ion?"
+        answers:
+          A: "OH-"
+          B: "H3O+"
+          C: "O2-"
+          D: "H2O"
+    difficulty: MEDIUM
+  - text: "Selon la théorie de Brønsted, quelle particule est échangée lors d'une réaction acide-base ?"
+    answers:
+      A: "L'ion hydroxyde"
+      B: "L'électron"
+      C: "Le proton"
+      D: "L'ion sodium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "According to Brønsted theory, which particle is exchanged in an acid-base reaction?"
+        answers:
+          A: "The hydroxide ion"
+          B: "The electron"
+          C: "The proton"
+          D: "The sodium ion"
+    difficulty: MEDIUM
+  - text: "Quel gaz se dégage lorsqu'on verse du vinaigre sur du bicarbonate de soude ?"
+    answers:
+      A: "Le dioxygène"
+      B: "Le dihydrogène"
+      C: "Le diazote"
+      D: "Le dioxyde de carbone"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which gas is released when vinegar is poured onto baking soda?"
+        answers:
+          A: "Dioxygen"
+          B: "Dihydrogen"
+          C: "Dinitrogen"
+          D: "Carbon dioxide"
+    difficulty: MEDIUM
+  - text: "Quel élément correspond au numéro atomique 8 ?"
+    answers:
+      A: "Le fluor"
+      B: "L'azote"
+      C: "Le carbone"
+      D: "L'oxygène"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which element corresponds to atomic number 8?"
+        answers:
+          A: "Fluorine"
+          B: "Nitrogen"
+          C: "Carbon"
+          D: "Oxygen"
+    difficulty: MEDIUM
+  - text: "Combien de liaisons covalentes un atome de carbone peut-il former au maximum ?"
+    answers:
+      A: "2"
+      B: "3"
+      C: "4"
+      D: "6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many covalent bonds can a carbon atom form at most?"
+        answers:
+          A: "2"
+          B: "3"
+          C: "4"
+          D: "6"
+    difficulty: HARD
+  - text: "Quelle est la géométrie de la molécule de méthane ?"
+    answers:
+      A: "Tétraédrique"
+      B: "Linéaire"
+      C: "Plane"
+      D: "Octaédrique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the geometry of the methane molecule?"
+        answers:
+          A: "Tetrahedral"
+          B: "Linear"
+          C: "Planar"
+          D: "Octahedral"
+    difficulty: HARD
+  - text: "Quelle est la formule chimique de l'acide acétique ?"
+    answers:
+      A: "HCOOH"
+      B: "CH3COOH"
+      C: "C2H5OH"
+      D: "CH3CHO"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chemical formula of acetic acid?"
+        answers:
+          A: "HCOOH"
+          B: "CH3COOH"
+          C: "C2H5OH"
+          D: "CH3CHO"
+    difficulty: HARD
+  - text: "Quel est l'élément le plus électronégatif du tableau périodique ?"
+    answers:
+      A: "L'oxygène"
+      B: "Le chlore"
+      C: "Le fluor"
+      D: "L'azote"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the most electronegative element in the periodic table?"
+        answers:
+          A: "Oxygen"
+          B: "Chlorine"
+          C: "Fluorine"
+          D: "Nitrogen"
+    difficulty: HARD
+  - text: "Qu'appelle-t-on des isotopes ?"
+    answers:
+      A: "Des atomes liés par des liaisons hydrogène"
+      B: "Des atomes de même nombre de neutrons mais de protons différents"
+      C: "Des atomes chargés électriquement"
+      D: "Des atomes ayant le même nombre de protons mais un nombre de neutrons différent"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What are isotopes?"
+        answers:
+          A: "Atoms bonded by hydrogen bonds"
+          B: "Atoms with the same number of neutrons but different protons"
+          C: "Electrically charged atoms"
+          D: "Atoms with the same number of protons but a different number of neutrons"
+    difficulty: HARD
+  - text: "Quel est le pH approximatif d'une solution d'acide chlorhydrique à 1 mol/L ?"
+    answers:
+      A: "7"
+      B: "0"
+      C: "3"
+      D: "14"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate pH of a 1 mol/L hydrochloric acid solution?"
+        answers:
+          A: "7"
+          B: "0"
+          C: "3"
+          D: "14"
+    difficulty: HARD
+  - text: "Comment appelle-t-on le passage direct d'un solide à l'état gazeux ?"
+    answers:
+      A: "La sublimation"
+      B: "La fusion"
+      C: "L'évaporation"
+      D: "La condensation"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the direct transition from a solid to a gaseous state called?"
+        answers:
+          A: "Sublimation"
+          B: "Melting"
+          C: "Evaporation"
+          D: "Condensation"
+    difficulty: HARD
+  - text: "Quelle est la formule de l'ion sulfate ?"
+    answers:
+      A: "SO3^2-"
+      B: "HSO4^-"
+      C: "S2O4^-"
+      D: "SO4^2-"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the formula of the sulfate ion?"
+        answers:
+          A: "SO3^2-"
+          B: "HSO4^-"
+          C: "S2O4^-"
+          D: "SO4^2-"
+    difficulty: HARD
+  - text: "Qui a énoncé la loi des proportions définies ?"
+    answers:
+      A: "Antoine Lavoisier"
+      B: "John Dalton"
+      C: "Louis Joseph Gay-Lussac"
+      D: "Joseph Louis Proust"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who stated the law of definite proportions?"
+        answers:
+          A: "Antoine Lavoisier"
+          B: "John Dalton"
+          C: "Louis Joseph Gay-Lussac"
+          D: "Joseph Louis Proust"
+    difficulty: HARD
+  - text: "Quel métal est extrait industriellement de la bauxite ?"
+    answers:
+      A: "Le fer"
+      B: "Le cuivre"
+      C: "L'aluminium"
+      D: "Le zinc"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which metal is extracted industrially from bauxite?"
+        answers:
+          A: "Iron"
+          B: "Copper"
+          C: "Aluminium"
+          D: "Zinc"
+    difficulty: HARD
+  - text: "Comment appelle-t-on la réaction entre un acide et une base ?"
+    answers:
+      A: "Une neutralisation"
+      B: "Une oxydation"
+      C: "Une combustion"
+      D: "Une hydrolyse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the reaction between an acid and a base called?"
+        answers:
+          A: "Neutralisation"
+          B: "Oxidation"
+          C: "Combustion"
+          D: "Hydrolysis"
+    difficulty: HARD
+  - text: "Quelle quantité de matière représente 44 g de dioxyde de carbone ?"
+    answers:
+      A: "0,5 mole"
+      B: "1 mole"
+      C: "2 moles"
+      D: "4 moles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What amount of substance does 44 g of carbon dioxide represent?"
+        answers:
+          A: "0.5 mole"
+          B: "1 mole"
+          C: "2 moles"
+          D: "4 moles"
+    difficulty: HARD
+  - text: "Quelle est la valeur approximative de la constante d'Avogadro ?"
+    answers:
+      A: "3,14 × 10^23 mol-1"
+      B: "9,81 × 10^23 mol-1"
+      C: "6,022 × 10^23 mol-1"
+      D: "1,602 × 10^19 mol-1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate value of Avogadro's constant?"
+        answers:
+          A: "3.14 × 10^23 mol-1"
+          B: "9.81 × 10^23 mol-1"
+          C: "6.022 × 10^23 mol-1"
+          D: "1.602 × 10^19 mol-1"
+    difficulty: HARD
+  - text: "Quelle est la formule chimique du propane ?"
+    answers:
+      A: "CH4"
+      B: "C2H6"
+      C: "C4H10"
+      D: "C3H8"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the chemical formula of propane?"
+        answers:
+          A: "CH4"
+          B: "C2H6"
+          C: "C4H10"
+          D: "C3H8"
+    difficulty: HARD
+  - text: "Quel alliage est principalement composé de cuivre et de zinc ?"
+    answers:
+      A: "Le bronze"
+      B: "Le laiton"
+      C: "L'acier"
+      D: "Le duralumin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which alloy is mainly composed of copper and zinc?"
+        answers:
+          A: "Bronze"
+          B: "Brass"
+          C: "Steel"
+          D: "Duralumin"
+    difficulty: HARD
+  - text: "Quel alliage est principalement composé de fer et de carbone ?"
+    answers:
+      A: "L'acier"
+      B: "Le bronze"
+      C: "Le laiton"
+      D: "L'étain"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which alloy is mainly composed of iron and carbon?"
+        answers:
+          A: "Steel"
+          B: "Bronze"
+          C: "Brass"
+          D: "Tin"
+    difficulty: HARD
+  - text: "Quelle est la forme de la molécule de benzène ?"
+    answers:
+      A: "Une chaîne linéaire"
+      B: "Un cycle hexagonal"
+      C: "Un triangle"
+      D: "Un cycle pentagonal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the shape of the benzene molecule?"
+        answers:
+          A: "A linear chain"
+          B: "A hexagonal ring"
+          C: "A triangle"
+          D: "A pentagonal ring"
+    difficulty: HARD
+  - text: "Quel métal sert de catalyseur dans le procédé Haber de synthèse de l'ammoniac ?"
+    answers:
+      A: "Le platine"
+      B: "Le nickel"
+      C: "Le cuivre"
+      D: "Le fer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which metal serves as a catalyst in the Haber process for ammonia synthesis?"
+        answers:
+          A: "Platinum"
+          B: "Nickel"
+          C: "Copper"
+          D: "Iron"
+    difficulty: HARD
+  - text: "Quel procédé industriel sépare les constituants du pétrole brut selon leur température d'ébullition ?"
+    answers:
+      A: "La distillation fractionnée"
+      B: "L'électrolyse"
+      C: "La filtration"
+      D: "La centrifugation"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which industrial process separates the components of crude oil according to their boiling point?"
+        answers:
+          A: "Fractional distillation"
+          B: "Electrolysis"
+          C: "Filtration"
+          D: "Centrifugation"
+    difficulty: HARD
+  - text: "Qui a proposé le modèle planétaire de l'atome, avec un noyau central ?"
+    answers:
+      A: "Niels Bohr"
+      B: "Joseph John Thomson"
+      C: "Ernest Rutherford"
+      D: "Werner Heisenberg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who proposed the planetary model of the atom, with a central nucleus?"
+        answers:
+          A: "Niels Bohr"
+          B: "Joseph John Thomson"
+          C: "Ernest Rutherford"
+          D: "Werner Heisenberg"
+    difficulty: HARD
+  - text: "Quel biochimiste britannique a remporté deux prix Nobel de chimie, en 1958 et 1980 ?"
+    answers:
+      A: "Francis Crick"
+      B: "Ernest Rutherford"
+      C: "Frederick Sanger"
+      D: "Linus Pauling"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which British biochemist won two Nobel Prizes in Chemistry, in 1958 and 1980?"
+        answers:
+          A: "Francis Crick"
+          B: "Ernest Rutherford"
+          C: "Frederick Sanger"
+          D: "Linus Pauling"
+    difficulty: EXPERT
+  - text: "Quelle loi relie la pression et le volume d'un gaz à température constante ?"
+    answers:
+      A: "La loi de Boyle-Mariotte"
+      B: "La loi de Charles"
+      C: "La loi de Gay-Lussac"
+      D: "La loi d'Avogadro"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which law relates the pressure and volume of a gas at constant temperature?"
+        answers:
+          A: "Boyle-Mariotte's law"
+          B: "Charles's law"
+          C: "Gay-Lussac's law"
+          D: "Avogadro's law"
+    difficulty: EXPERT
+  - text: "Quel principe énonce qu'un système à l'équilibre soumis à une contrainte évolue pour s'y opposer ?"
+    answers:
+      A: "Le principe de Pauli"
+      B: "Le principe d'incertitude"
+      C: "Le principe de conservation"
+      D: "Le principe de Le Chatelier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which principle states that a system at equilibrium subjected to a constraint shifts to oppose it?"
+        answers:
+          A: "Pauli's principle"
+          B: "The uncertainty principle"
+          C: "The conservation principle"
+          D: "Le Chatelier's principle"
+    difficulty: EXPERT
+  - text: "Quelle est la configuration électronique de l'atome de carbone ?"
+    answers:
+      A: "1s2 2s2 2p4"
+      B: "1s2 2s2 2p2"
+      C: "1s2 2p4"
+      D: "1s2 2s2 2p6"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the electron configuration of the carbon atom?"
+        answers:
+          A: "1s2 2s2 2p4"
+          B: "1s2 2s2 2p2"
+          C: "1s2 2p4"
+          D: "1s2 2s2 2p6"
+    difficulty: EXPERT
+  - text: "Quel modèle de l'atome introduit des niveaux d'énergie quantifiés pour l'électron ?"
+    answers:
+      A: "Le modèle de Thomson"
+      B: "Le modèle de Rutherford"
+      C: "Le modèle de Dalton"
+      D: "Le modèle de Bohr"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which model of the atom introduces quantized energy levels for the electron?"
+        answers:
+          A: "Thomson's model"
+          B: "Rutherford's model"
+          C: "Dalton's model"
+          D: "Bohr's model"
+    difficulty: EXPERT
+  - text: "Quel élément porte le symbole Sb, tiré du latin stibium ?"
+    answers:
+      A: "L'antimoine"
+      B: "Le sélénium"
+      C: "L'étain"
+      D: "Le strontium"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which element has the symbol Sb, derived from the Latin stibium?"
+        answers:
+          A: "Antimony"
+          B: "Selenium"
+          C: "Tin"
+          D: "Strontium"
+    difficulty: EXPERT
+  - text: "Qu'appelle-t-on la chiralité en chimie ?"
+    answers:
+      A: "La capacité d'un atome à former des liaisons doubles"
+      B: "La séparation d'un mélange par distillation"
+      C: "La propriété d'une molécule non superposable à son image miroir"
+      D: "La vitesse d'une réaction chimique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is chirality in chemistry?"
+        answers:
+          A: "The ability of an atom to form double bonds"
+          B: "The separation of a mixture by distillation"
+          C: "The property of a molecule that is not superimposable on its mirror image"
+          D: "The rate of a chemical reaction"
+    difficulty: EXPERT
+  - text: "Comment appelle-t-on la liaison qui unit deux acides aminés dans une protéine ?"
+    answers:
+      A: "La liaison hydrogène"
+      B: "La liaison peptidique"
+      C: "La liaison ionique"
+      D: "La liaison métallique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the bond that links two amino acids in a protein called?"
+        answers:
+          A: "Hydrogen bond"
+          B: "Peptide bond"
+          C: "Ionic bond"
+          D: "Metallic bond"
+    difficulty: EXPERT
+  - text: "Quelle règle explique que les atomes tendent à s'entourer de huit électrons de valence ?"
+    answers:
+      A: "La règle de Hund"
+      B: "La loi de Coulomb"
+      C: "Le principe d'exclusion de Pauli"
+      D: "La règle de l'octet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rule explains that atoms tend to surround themselves with eight valence electrons?"
+        answers:
+          A: "Hund's rule"
+          B: "Coulomb's law"
+          C: "Pauli exclusion principle"
+          D: "The octet rule"
+    difficulty: EXPERT
+  - text: "Quels sont les produits principaux de la saponification d'un triglycéride par une base ?"
+    answers:
+      A: "Un alcool et un aldéhyde"
+      B: "Un ester et de l'eau"
+      C: "Un savon et du glycérol"
+      D: "Un acide gras et du glucose"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What are the main products of the saponification of a triglyceride by a base?"
+        answers:
+          A: "An alcohol and an aldehyde"
+          B: "An ester and water"
+          C: "Soap and glycerol"
+          D: "A fatty acid and glucose"
+    difficulty: EXPERT
+  - text: "Qui a formulé les lois de l'électrolyse ?"
+    answers:
+      A: "Michael Faraday"
+      B: "Alessandro Volta"
+      C: "André-Marie Ampère"
+      D: "Luigi Galvani"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who formulated the laws of electrolysis?"
+        answers:
+          A: "Michael Faraday"
+          B: "Alessandro Volta"
+          C: "André-Marie Ampère"
+          D: "Luigi Galvani"
+    difficulty: EXPERT
+  - text: "Comment appelle-t-on une protéine qui accélère une réaction biochimique ?"
+    answers:
+      A: "Un lipide"
+      B: "Une enzyme"
+      C: "Un glucide"
+      D: "Un anticorps"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is a protein that speeds up a biochemical reaction called?"
+        answers:
+          A: "A lipid"
+          B: "An enzyme"
+          C: "A carbohydrate"
+          D: "An antibody"
+    difficulty: EXPERT
+  - text: "Quelle est la formule chimique de l'acide acétylsalicylique, l'aspirine ?"
+    answers:
+      A: "C8H9O3"
+      B: "C7H6O3"
+      C: "C10H10O4"
+      D: "C9H8O4"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the chemical formula of acetylsalicylic acid, aspirin?"
+        answers:
+          A: "C8H9O3"
+          B: "C7H6O3"
+          C: "C10H10O4"
+          D: "C9H8O4"
+    difficulty: EXPERT
+  - text: "Quel composé est responsable du goût umami ?"
+    answers:
+      A: "Le saccharose"
+      B: "La quinine"
+      C: "Le glutamate"
+      D: "L'acide citrique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which compound is responsible for umami taste?"
+        answers:
+          A: "Sucrose"
+          B: "Quinine"
+          C: "Glutamate"
+          D: "Citric acid"
+    difficulty: EXPERT
+  - text: "Quel élément du tableau périodique porte le numéro atomique 79 ?"
+    answers:
+      A: "Le platine"
+      B: "L'or"
+      C: "Le mercure"
+      D: "L'argent"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which element in the periodic table has atomic number 79?"
+        answers:
+          A: "Platinum"
+          B: "Gold"
+          C: "Mercury"
+          D: "Silver"
+    difficulty: EXPERT
+  - text: "Qui a introduit la notion de pH en 1909 ?"
+    answers:
+      A: "Svante Arrhenius"
+      B: "Wilhelm Ostwald"
+      C: "Søren Sørensen"
+      D: "Johannes Brønsted"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who introduced the concept of pH in 1909?"
+        answers:
+          A: "Svante Arrhenius"
+          B: "Wilhelm Ostwald"
+          C: "Søren Sørensen"
+          D: "Johannes Brønsted"
+    difficulty: EXPERT
+  - text: "Quel chimiste suédois a découvert l'oxygène vers 1771, indépendamment de Priestley ?"
+    answers:
+      A: "Carl Wilhelm Scheele"
+      B: "Jöns Jacob Berzelius"
+      C: "Torbern Bergman"
+      D: "Alfred Nobel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Swedish chemist discovered oxygen around 1771, independently of Priestley?"
+        answers:
+          A: "Carl Wilhelm Scheele"
+          B: "Jöns Jacob Berzelius"
+          C: "Torbern Bergman"
+          D: "Alfred Nobel"
+    difficulty: EXPERT
+  - text: "Selon la définition de Lewis, qu'est-ce qu'un acide ?"
+    answers:
+      A: "Un donneur de proton"
+      B: "Un donneur de paire d'électrons"
+      C: "Un accepteur de proton"
+      D: "Un accepteur de paire d'électrons"
+    correctAnswer: D
+    translations:
+      en:
+        text: "According to the Lewis definition, what is an acid?"
+        answers:
+          A: "A proton donor"
+          B: "An electron pair donor"
+          C: "A proton acceptor"
+          D: "An electron pair acceptor"
+    difficulty: EXPERT
+  - text: "Qui a synthétisé l'urée en 1828 à partir de composés inorganiques ?"
+    answers:
+      A: "Justus von Liebig"
+      B: "Friedrich Wöhler"
+      C: "Hermann Kolbe"
+      D: "August Kekulé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who synthesized urea in 1828 from inorganic compounds?"
+        answers:
+          A: "Justus von Liebig"
+          B: "Friedrich Wöhler"
+          C: "Hermann Kolbe"
+          D: "August Kekulé"
+    difficulty: EXPERT
+  - text: "Quel procédé d'électrolyse produit l'aluminium à partir de l'alumine ?"
+    answers:
+      A: "Le procédé Hall-Héroult"
+      B: "Le procédé Solvay"
+      C: "Le procédé Haber"
+      D: "Le procédé Bessemer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which electrolysis process produces aluminum from alumina?"
+        answers:
+          A: "The Hall-Héroult process"
+          B: "The Solvay process"
+          C: "The Haber process"
+          D: "The Bessemer process"
+    difficulty: EXPERT

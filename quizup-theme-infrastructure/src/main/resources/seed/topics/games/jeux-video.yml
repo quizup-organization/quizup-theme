@@ -9,19 +9,20 @@ topic:
 questions:
   - text: "Comment s'appelle le héros de la série The Legend of Zelda ?"
     answers:
-      A: "Zelda"
+      A: "Link"
       B: "Ganon"
       C: "Épona"
-      D: "Link"
-    correctAnswer: D
+      D: "Zelda"
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the hero of The Legend of Zelda series?"
         answers:
-          A: "Zelda"
+          A: "Link"
           B: "Ganon"
           C: "Epona"
-          D: "Link"
+          D: "Zelda"
   - text: "Comment s'appelle le héros de la série Half-Life ?"
     answers:
       A: "Master Chief"
@@ -29,6 +30,7 @@ questions:
       C: "Marcus Fenix"
       D: "Duke Nukem"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the name of the hero of the Half-Life series?"
@@ -41,98 +43,104 @@ questions:
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/GameCube-Set.jpg?width=800
     answers:
       A: "La Nintendo 64"
-      B: "La Wii"
+      B: "La GameCube"
       C: "La Xbox"
-      D: "La GameCube"
-    correctAnswer: D
+      D: "La Wii"
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which 2001 Nintendo console, shaped like a cube, do we see here?"
         answers:
           A: "The Nintendo 64"
-          B: "The Wii"
+          B: "The GameCube"
           C: "The Xbox"
-          D: "The GameCube"
+          D: "The Wii"
   - text: "Quelle borne d'arcade de 1980 voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pac-Man_arcade_machine,_De_Notaris_Schaijk.jpg?width=800
     answers:
-      A: "Pac-Man"
+      A: "Space Invaders"
       B: "Donkey Kong"
       C: "Galaga"
-      D: "Space Invaders"
-    correctAnswer: A
+      D: "Pac-Man"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which 1980 arcade cabinet do we see here?"
         answers:
-          A: "Pac-Man"
+          A: "Space Invaders"
           B: "Donkey Kong"
           C: "Galaga"
-          D: "Space Invaders"
+          D: "Pac-Man"
   - text: "Quelle console de 2006 utilise des manettes à détection de mouvement ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Wii-console.jpg?width=800
     answers:
       A: "La Wii U"
       B: "La Xbox 360"
-      C: "La GameCube"
-      D: "La Nintendo Wii"
-    correctAnswer: D
+      C: "La Nintendo Wii"
+      D: "La GameCube"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which 2006 console uses motion-sensing controllers?"
         answers:
           A: "The Wii U"
           B: "The Xbox 360"
-          C: "The GameCube"
-          D: "The Nintendo Wii"
+          C: "The Nintendo Wii"
+          D: "The GameCube"
   - text: "Quelle console de Sony sortie en 2006 voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sony-PlayStation-3-CECHA01-wController-L.jpg?width=800
     answers:
       A: "La Xbox 360"
-      B: "La PlayStation 4"
-      C: "La PlayStation 3"
+      B: "La PlayStation 3"
+      C: "La PlayStation 4"
       D: "La PlayStation 2"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which Sony console released in 2006 do we see here?"
         answers:
           A: "The Xbox 360"
-          B: "The PlayStation 4"
-          C: "The PlayStation 3"
+          B: "The PlayStation 3"
+          C: "The PlayStation 4"
           D: "The PlayStation 2"
   - text: "Quelle console 16 bits de Sega, appelée Mega Drive en Europe, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Genesis-Mod1-Set.jpg?width=800
     answers:
       A: "La Neo Geo"
       B: "La Super Nintendo"
-      C: "La Sega Genesis"
-      D: "La PC Engine"
-    correctAnswer: C
+      C: "La PC Engine"
+      D: "La Sega Genesis"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which 16-bit Sega console, called Mega Drive in Europe, do we see here?"
         answers:
           A: "The Neo Geo"
           B: "The Super Nintendo"
-          C: "The Sega Genesis"
-          D: "The PC Engine"
+          C: "The PC Engine"
+          D: "The Sega Genesis"
   - text: "Quelle console de Nintendo, sortie en 1996, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/N64-Console-Set.jpg?width=800
     answers:
       A: "La Super Nintendo"
       B: "La GameCube"
-      C: "La PlayStation"
-      D: "La Nintendo 64"
-    correctAnswer: D
+      C: "La Nintendo 64"
+      D: "La PlayStation"
+    correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Nintendo console, released in 1996, do we see here?"
         answers:
           A: "The Super Nintendo"
           B: "The GameCube"
-          C: "The PlayStation"
-          D: "The Nintendo 64"
+          C: "The Nintendo 64"
+          D: "The PlayStation"
   - text: "Quelle console portable PC de Valve voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Steam_Deck_(front).png?width=800
     answers:
@@ -141,6 +149,7 @@ questions:
       C: "La Nintendo Switch"
       D: "La ROG Ally"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Valve portable PC console do we see here?"
@@ -152,17 +161,18 @@ questions:
   - text: "Quel jeu de construction en blocs est développé par Mojang ?"
     answers:
       A: "Lego Worlds"
-      B: "Roblox"
-      C: "Minecraft"
+      B: "Minecraft"
+      C: "Roblox"
       D: "Terraria"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which block-building game is developed by Mojang?"
         answers:
           A: "Lego Worlds"
-          B: "Roblox"
-          C: "Minecraft"
+          B: "Minecraft"
+          C: "Roblox"
           D: "Terraria"
   - text: "Que désigne un easter egg dans un jeu vidéo ?"
     answers:
@@ -171,6 +181,7 @@ questions:
       C: "Un clin d'œil caché des développeurs"
       D: "Un mode multijoueur"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does an easter egg refer to in a video game?"
@@ -183,50 +194,53 @@ questions:
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-DS-Lite-Black-Open.jpg?width=800
     answers:
       A: "La PSP"
-      B: "La Nintendo Switch"
+      B: "La Nintendo DS"
       C: "La Game Boy Advance"
-      D: "La Nintendo DS"
-    correctAnswer: D
+      D: "La Nintendo Switch"
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which dual-screen handheld console do we see here?"
         answers:
           A: "The PSP"
-          B: "The Nintendo Switch"
+          B: "The Nintendo DS"
           C: "The Game Boy Advance"
-          D: "The Nintendo DS"
+          D: "The Nintendo Switch"
   - text: "Quelle dernière console de Sega, sortie en 1998, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dreamcast-Console-Set.png?width=800
     answers:
-      A: "La Saturn"
+      A: "La Dreamcast"
       B: "La Mega Drive"
-      C: "La Dreamcast"
+      C: "La Saturn"
       D: "La Game Gear"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which last Sega console, released in 1998, do we see here?"
         answers:
-          A: "The Saturn"
+          A: "The Dreamcast"
           B: "The Mega Drive"
-          C: "The Dreamcast"
+          C: "The Saturn"
           D: "The Game Gear"
   - text: "Quelle console de Sega, sortie en 1994, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Saturn-Console-Set-Mk1.jpg?width=800
     answers:
       A: "La Mega Drive"
-      B: "La Sega Saturn"
+      B: "La Nintendo 64"
       C: "La Dreamcast"
-      D: "La Nintendo 64"
-    correctAnswer: B
+      D: "La Sega Saturn"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Sega console, released in 1994, do we see here?"
         answers:
           A: "The Mega Drive"
-          B: "The Sega Saturn"
+          B: "The Nintendo 64"
           C: "The Dreamcast"
-          D: "The Nintendo 64"
+          D: "The Sega Saturn"
   - text: "Quel est le prénom du frère de Mario ?"
     answers:
       A: "Yoshi"
@@ -234,6 +248,7 @@ questions:
       C: "Wario"
       D: "Luigi"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What is the first name of Mario's brother?"
@@ -244,49 +259,52 @@ questions:
           D: "Luigi"
   - text: "Que désigne le sigle FPS dans le jeu vidéo ?"
     answers:
-      A: "Un jeu de football professionnel"
+      A: "Un jeu de tir en vue subjective"
       B: "Un jeu de plateforme rapide"
       C: "Un jeu de stratégie en temps réel"
-      D: "Un jeu de tir en vue subjective"
-    correctAnswer: D
+      D: "Un jeu de football professionnel"
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does the acronym FPS stand for in video games?"
         answers:
-          A: "A professional football game"
+          A: "A first-person shooter"
           B: "A fast platformer"
           C: "A real-time strategy game"
-          D: "A first-person shooter"
+          D: "A professional football game"
   - text: "Dans quel pays a été fondée l'entreprise Nintendo en 1889 ?"
     answers:
-      A: "Le Japon"
-      B: "La Chine"
+      A: "La Chine"
+      B: "Le Japon"
       C: "Les États-Unis"
       D: "La Corée du Sud"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "In which country was the company Nintendo founded in 1889?"
         answers:
-          A: "Japan"
-          B: "China"
+          A: "China"
+          B: "Japan"
           C: "The United States"
           D: "South Korea"
   - text: "Quelle console portable couleur de Sega voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Game-Gear-Handheld.jpg?width=800
     answers:
-      A: "La Game Gear"
+      A: "La Lynx"
       B: "La Game Boy"
-      C: "La Lynx"
+      C: "La Game Gear"
       D: "La Neo Geo Pocket"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which color portable console from Sega can be seen here?"
         answers:
-          A: "The Game Gear"
+          A: "The Lynx"
           B: "The Game Boy"
-          C: "The Lynx"
+          C: "The Game Gear"
           D: "The Neo Geo Pocket"
   - text: "Quelle première console de Microsoft voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Xbox-console.jpg?width=800
@@ -296,6 +314,7 @@ questions:
       C: "La Xbox"
       D: "La Xbox 360"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which first Microsoft console can be seen here?"
@@ -312,6 +331,7 @@ questions:
       C: "La PS Vita"
       D: "La Nintendo DS"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which Sony portable console, released in 2004, can be seen here?"
@@ -323,113 +343,120 @@ questions:
   - text: "Qui a créé le personnage de Mario ?"
     answers:
       A: "Hideo Kojima"
-      B: "Sid Meier"
-      C: "Shigeru Miyamoto"
+      B: "Shigeru Miyamoto"
+      C: "Sid Meier"
       D: "Gabe Newell"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Who created the character Mario?"
         answers:
           A: "Hideo Kojima"
-          B: "Sid Meier"
-          C: "Shigeru Miyamoto"
+          B: "Shigeru Miyamoto"
+          C: "Sid Meier"
           D: "Gabe Newell"
   - text: "Quelle console iconique de la fin des années 1970 voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Atari-2600-Wood-4Sw-Set.jpg?width=800
     answers:
-      A: "L'Atari 2600"
-      B: "La NES"
+      A: "La NES"
+      B: "L'Atari 2600"
       C: "L'Intellivision"
       D: "La Colecovision"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which iconic console from the late 1970s can be seen here?"
         answers:
-          A: "The Atari 2600"
-          B: "The NES"
+          A: "The NES"
+          B: "The Atari 2600"
           C: "The Intellivision"
           D: "The Colecovision"
   - text: "Quel studio polonais a développé The Witcher 3 ?"
     answers:
-      A: "CD Projekt Red"
+      A: "Bohemia Interactive"
       B: "Techland"
-      C: "Bohemia Interactive"
+      C: "CD Projekt Red"
       D: "Ubisoft"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which Polish studio developed The Witcher 3?"
         answers:
-          A: "CD Projekt Red"
+          A: "Bohemia Interactive"
           B: "Techland"
-          C: "Bohemia Interactive"
+          C: "CD Projekt Red"
           D: "Ubisoft"
   - text: "Quelle console 16 bits de Nintendo voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/SNES-Mod1-Console-Set.png?width=800
     answers:
-      A: "La Nintendo 64"
+      A: "La Super Nintendo"
       B: "La NES"
-      C: "La Super Nintendo"
+      C: "La Nintendo 64"
       D: "La Sega Genesis"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which 16-bit Nintendo console can be seen here?"
         answers:
-          A: "The Nintendo 64"
+          A: "The Super Nintendo"
           B: "The NES"
-          C: "The Super Nintendo"
+          C: "The Nintendo 64"
           D: "The Sega Genesis"
   - text: "Quelle borne d'arcade d'Atari, sortie en 1972, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Atari_Pong_arcade_game_cabinet.jpg?width=800
     answers:
-      A: "Pong"
+      A: "Space Invaders"
       B: "Asteroids"
-      C: "Space Invaders"
+      C: "Pong"
       D: "Breakout"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which Atari arcade machine, released in 1972, can be seen here?"
         answers:
-          A: "Pong"
+          A: "Space Invaders"
           B: "Asteroids"
-          C: "Space Invaders"
+          C: "Pong"
           D: "Breakout"
   - text: "Quelle borne d'arcade de Nintendo, sortie en 1981, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Donkey_Kong_arcade_-_zapwizard_34102189.jpg?width=800
     answers:
       A: "Frogger"
-      B: "Donkey Kong"
-      C: "Galaga"
+      B: "Galaga"
+      C: "Donkey Kong"
       D: "Pac-Man"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which Nintendo arcade machine, released in 1981, can be seen here?"
         answers:
           A: "Frogger"
-          B: "Donkey Kong"
-          C: "Galaga"
+          B: "Galaga"
+          C: "Donkey Kong"
           D: "Pac-Man"
   - text: "Quelle console portable de Nintendo, sortie en 1989, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Game-Boy-FL.jpg?width=800
     answers:
       A: "La Game Boy Advance"
-      B: "La Game Boy"
+      B: "La Game Gear"
       C: "La Lynx"
-      D: "La Game Gear"
-    correctAnswer: B
+      D: "La Game Boy"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which Nintendo portable console, released in 1989, can be seen here?"
         answers:
           A: "The Game Boy Advance"
-          B: "The Game Boy"
+          B: "The Game Gear"
           C: "The Lynx"
-          D: "The Game Gear"
+          D: "The Game Boy"
   - text: "Quelle console hybride Nintendo est visible ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-Switch-Console-Docked-wJoyConRB.jpg?width=800
     answers:
@@ -438,6 +465,7 @@ questions:
       C: "La Nintendo 3DS"
       D: "La Wii U"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which Nintendo hybrid console is visible here?"
@@ -448,79 +476,84 @@ questions:
           D: "The Wii U"
   - text: "Quel jeu de Rockstar se déroule à Los Santos ?"
     answers:
-      A: "Grand Theft Auto V"
+      A: "Red Dead Redemption"
       B: "Watch Dogs"
       C: "Saints Row"
-      D: "Red Dead Redemption"
-    correctAnswer: A
+      D: "Grand Theft Auto V"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which Rockstar game takes place in Los Santos?"
         answers:
-          A: "Grand Theft Auto V"
+          A: "Red Dead Redemption"
           B: "Watch Dogs"
           C: "Saints Row"
-          D: "Red Dead Redemption"
+          D: "Grand Theft Auto V"
   - text: "Dans quelle série de jeux incarne-t-on le Master Chief ?"
     answers:
-      A: "Halo"
+      A: "Gears of War"
       B: "Destiny"
-      C: "Gears of War"
+      C: "Halo"
       D: "Doom"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "In which game series do you play as Master Chief?"
         answers:
-          A: "Halo"
+          A: "Gears of War"
           B: "Destiny"
-          C: "Gears of War"
+          C: "Halo"
           D: "Doom"
   - text: "Qui a créé la série de jeux Metal Gear ?"
     answers:
       A: "Shigeru Miyamoto"
-      B: "Hideo Kojima"
+      B: "Hironobu Sakaguchi"
       C: "Yu Suzuki"
-      D: "Hironobu Sakaguchi"
-    correctAnswer: B
+      D: "Hideo Kojima"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Who created the Metal Gear game series?"
         answers:
           A: "Shigeru Miyamoto"
-          B: "Hideo Kojima"
+          B: "Hironobu Sakaguchi"
           C: "Yu Suzuki"
-          D: "Hironobu Sakaguchi"
+          D: "Hideo Kojima"
   - text: "Quelle borne d'arcade de Taito, sortie en 1978, voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Space_Invaders.JPG?width=800
     answers:
       A: "Pac-Man"
-      B: "Space Invaders"
+      B: "Asteroids"
       C: "Galaga"
-      D: "Asteroids"
-    correctAnswer: B
+      D: "Space Invaders"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which Taito arcade cabinet, released in 1978, is shown here?"
         answers:
           A: "Pac-Man"
-          B: "Space Invaders"
+          B: "Asteroids"
           C: "Galaga"
-          D: "Asteroids"
+          D: "Space Invaders"
   - text: "Que signifie le sigle RPG en jeu vidéo ?"
     answers:
-      A: "Jeu de réflexion"
+      A: "Jeu de rôle"
       B: "Jeu de course"
-      C: "Jeu de rôle"
+      C: "Jeu de réflexion"
       D: "Jeu de rythme"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does the acronym RPG stand for in video games?"
         answers:
-          A: "Puzzle game"
+          A: "Role-playing game"
           B: "Racing game"
-          C: "Role-playing game"
+          C: "Puzzle game"
           D: "Rhythm game"
   - text: "Quelle est cette console de salon sortie en 1985 aux États-Unis ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/NES-Console-Set.jpg?width=800
@@ -530,6 +563,7 @@ questions:
       C: "La Super Nintendo"
       D: "L'Atari 2600"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which home console released in 1985 in the United States is this?"
@@ -541,78 +575,83 @@ questions:
   - text: "Quelle console de Microsoft sortie en 2005 voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft-Xbox-360-Pro-Console-FL.jpg?width=800
     answers:
-      A: "La Xbox One"
-      B: "La Xbox 360"
+      A: "La Xbox 360"
+      B: "La Xbox One"
       C: "La PlayStation 3"
       D: "La Xbox"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which Microsoft console released in 2005 is shown here?"
         answers:
-          A: "The Xbox One"
-          B: "The Xbox 360"
+          A: "The Xbox 360"
+          B: "The Xbox One"
           C: "The PlayStation 3"
           D: "The Xbox"
   - text: "Quel jeu de battle royale a été développé par Epic Games ?"
     answers:
-      A: "Call of Duty: Warzone"
+      A: "Fortnite"
       B: "PUBG"
       C: "Apex Legends"
-      D: "Fortnite"
-    correctAnswer: D
+      D: "Call of Duty: Warzone"
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which battle royale game was developed by Epic Games?"
         answers:
-          A: "Call of Duty: Warzone"
+          A: "Fortnite"
           B: "PUBG"
           C: "Apex Legends"
-          D: "Fortnite"
+          D: "Call of Duty: Warzone"
   - text: "Comment s'appelle la princesse que Mario doit sauver ?"
     answers:
       A: "Daisy"
       B: "Zelda"
-      C: "Rosalina"
-      D: "Peach"
-    correctAnswer: D
+      C: "Peach"
+      D: "Rosalina"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the princess Mario must save?"
         answers:
           A: "Daisy"
           B: "Zelda"
-          C: "Rosalina"
-          D: "Peach"
+          C: "Peach"
+          D: "Rosalina"
   - text: "Quelle console de Sony est la plus vendue de l'histoire ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/PS2-Fat-Console-Set.jpg?width=800
     answers:
-      A: "La PlayStation"
-      B: "La PlayStation 2"
+      A: "La PlayStation 2"
+      B: "La PlayStation"
       C: "La Xbox"
       D: "La PlayStation 3"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Sony console is the best-selling in history?"
         answers:
-          A: "The PlayStation"
-          B: "The PlayStation 2"
+          A: "The PlayStation 2"
+          B: "The PlayStation"
           C: "The Xbox"
           D: "The PlayStation 3"
   - text: "Quel studio français est à l'origine de la série Rayman ?"
     answers:
-      A: "Ubisoft"
-      B: "Arkane Studios"
+      A: "Arkane Studios"
+      B: "Ubisoft"
       C: "Quantic Dream"
       D: "Asobo Studio"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which French studio created the Rayman series?"
         answers:
-          A: "Ubisoft"
-          B: "Arkane Studios"
+          A: "Arkane Studios"
+          B: "Ubisoft"
           C: "Quantic Dream"
           D: "Asobo Studio"
   - text: "Comment s'appelle le Pokémon jaune, mascotte de la franchise ?"
@@ -622,6 +661,7 @@ questions:
       C: "Salamèche"
       D: "Carapuce"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the yellow Pokémon, the franchise's mascot?"
@@ -635,78 +675,83 @@ questions:
     answers:
       A: "La PlayStation 3"
       B: "La Xbox One"
-      C: "La PlayStation 5"
-      D: "La PlayStation 4"
-    correctAnswer: D
+      C: "La PlayStation 4"
+      D: "La PlayStation 5"
+    correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Sony console released in 2013 is shown here?"
         answers:
           A: "The PlayStation 3"
           B: "The Xbox One"
-          C: "The PlayStation 5"
-          D: "The PlayStation 4"
+          C: "The PlayStation 4"
+          D: "The PlayStation 5"
   - text: "Quel créateur américain a donné son nom à la série Civilization ?"
     answers:
       A: "John Carmack"
       B: "Peter Molyneux"
-      C: "Sid Meier"
-      D: "Will Wright"
-    correctAnswer: C
+      C: "Will Wright"
+      D: "Sid Meier"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which American creator gave his name to the Civilization series?"
         answers:
           A: "John Carmack"
           B: "Peter Molyneux"
-          C: "Sid Meier"
-          D: "Will Wright"
+          C: "Will Wright"
+          D: "Sid Meier"
   - text: "Quelle console de luxe de SNK voit-on ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Neo-Geo-AES-Console-Set.jpg?width=800
     answers:
-      A: "La PC Engine"
+      A: "La Neo Geo"
       B: "La Mega Drive"
-      C: "La Neo Geo"
+      C: "La PC Engine"
       D: "La Super Nintendo"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which luxury SNK console is shown here?"
         answers:
-          A: "The PC Engine"
+          A: "The Neo Geo"
           B: "The Mega Drive"
-          C: "The Neo Geo"
+          C: "The PC Engine"
           D: "The Super Nintendo"
   - text: "Quel hérisson bleu est la mascotte de Sega ?"
     answers:
       A: "Shadow"
       B: "Knuckles"
-      C: "Sonic"
-      D: "Tails"
-    correctAnswer: C
+      C: "Tails"
+      D: "Sonic"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which blue hedgehog is Sega's mascot?"
         answers:
           A: "Shadow"
           B: "Knuckles"
-          C: "Sonic"
-          D: "Tails"
+          C: "Tails"
+          D: "Sonic"
   - text: "Quel jeu de Valve se joue à deux équipes avec des portails ?"
     answers:
       A: "Team Fortress"
-      B: "Left 4 Dead"
+      B: "Portal"
       C: "Half-Life"
-      D: "Portal"
-    correctAnswer: D
+      D: "Left 4 Dead"
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Valve game is played by two teams with portals?"
         answers:
           A: "Team Fortress"
-          B: "Left 4 Dead"
+          B: "Portal"
           C: "Half-Life"
-          D: "Portal"
+          D: "Left 4 Dead"
   - text: "Quel est le nom du monde imaginaire de The Elder Scrolls V ?"
     answers:
       A: "Azeroth"
@@ -714,6 +759,7 @@ questions:
       C: "Tamriel"
       D: "Hyrule"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the name of the imaginary world of The Elder Scrolls V?"
@@ -730,6 +776,7 @@ questions:
       C: "Puyo Puyo"
       D: "Tetris"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which famous brick puzzle game is shown here?"
@@ -746,6 +793,7 @@ questions:
       C: "La Nintendo 64"
       D: "La Sega Saturn"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Sony console, released in 1994, is shown here?"
@@ -754,3 +802,835 @@ questions:
           B: "The PlayStation"
           C: "The Nintendo 64"
           D: "The Sega Saturn"
+  - text: "Quelle console de salon Nintendo succède à la Wii en 2012 ?"
+    answers:
+      A: "La Switch"
+      B: "La PlayStation 4"
+      C: "La GameCube"
+      D: "La Wii U"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Nintendo home console succeeded the Wii in 2012?"
+        answers:
+          A: "The Switch"
+          B: "The PlayStation 4"
+          C: "The GameCube"
+          D: "The Wii U"
+    difficulty: EASY
+  - text: "Comment s'appelle le singe portant une cravate rouge, mascotte de Nintendo ?"
+    answers:
+      A: "Diddy Kong"
+      B: "Donkey Kong"
+      C: "Funky Kong"
+      D: "Cranky Kong"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the monkey wearing a red tie, Nintendo's mascot?"
+        answers:
+          A: "Diddy Kong"
+          B: "Donkey Kong"
+          C: "Funky Kong"
+          D: "Cranky Kong"
+    difficulty: EASY
+  - text: "Quel jeu de course de Nintendo met en scène des kartings et des carapaces ?"
+    answers:
+      A: "F-Zero"
+      B: "Mario Kart"
+      C: "Forza"
+      D: "Gran Turismo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Nintendo racing game features go-karts and shells?"
+        answers:
+          A: "F-Zero"
+          B: "Mario Kart"
+          C: "Forza"
+          D: "Gran Turismo"
+    difficulty: EASY
+  - text: "Quel jeu de simulation de vie d'Electronic Arts est sorti en 2000 ?"
+    answers:
+      A: "Animal Crossing"
+      B: "SimCity"
+      C: "Les Sims"
+      D: "Stardew Valley"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which life simulation game by Electronic Arts was released in 2000?"
+        answers:
+          A: "Animal Crossing"
+          B: "SimCity"
+          C: "The Sims"
+          D: "Stardew Valley"
+    difficulty: EASY
+  - text: "Dans quelle série incarne-t-on Kratos, le spartiate devenu dieu de la guerre ?"
+    answers:
+      A: "Devil May Cry"
+      B: "Assassin's Creed"
+      C: "Prince of Persia"
+      D: "God of War"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which series do you play as Kratos, the Spartan who became the god of war?"
+        answers:
+          A: "Devil May Cry"
+          B: "Assassin's Creed"
+          C: "Prince of Persia"
+          D: "God of War"
+    difficulty: EASY
+  - text: "Quel jeu de 2016 permet d'attraper des Pokémon grâce au GPS ?"
+    answers:
+      A: "Pokémon Snap"
+      B: "Pokémon GO"
+      C: "Pokémon Stadium"
+      D: "Pokémon Écarlate"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 2016 game lets you catch Pokémon using GPS?"
+        answers:
+          A: "Pokémon Snap"
+          B: "Pokémon GO"
+          C: "Pokémon Stadium"
+          D: "Pokémon Scarlet"
+    difficulty: EASY
+  - text: "Comment appelle-t-on un jeu vidéo où l'on progresse en sautant de plateforme en plateforme ?"
+    answers:
+      A: "Un jeu de tir"
+      B: "Un jeu de plateforme"
+      C: "Un jeu de stratégie"
+      D: "Un jeu de rôle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What do you call a video game where you progress by jumping from platform to platform?"
+        answers:
+          A: "A shooter"
+          B: "A platformer"
+          C: "A strategy game"
+          D: "A role-playing game"
+    difficulty: EASY
+  - text: "Quelle entreprise a créé la console Xbox ?"
+    answers:
+      A: "Sony"
+      B: "Nintendo"
+      C: "Microsoft"
+      D: "Sega"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which company created the Xbox console?"
+        answers:
+          A: "Sony"
+          B: "Nintendo"
+          C: "Microsoft"
+          D: "Sega"
+    difficulty: EASY
+  - text: "Quel jeu de combat de Nintendo réunit Mario, Link et Pikachu ?"
+    answers:
+      A: "Super Smash Bros."
+      B: "Tekken"
+      C: "Street Fighter"
+      D: "Mortal Kombat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Nintendo fighting game brings together Mario, Link and Pikachu?"
+        answers:
+          A: "Super Smash Bros."
+          B: "Tekken"
+          C: "Street Fighter"
+          D: "Mortal Kombat"
+    difficulty: EASY
+  - text: "Que contrôle-t-on dans un jeu de course comme Gran Turismo ?"
+    answers:
+      A: "Un avion de chasse"
+      B: "Un vaisseau spatial"
+      C: "Une voiture"
+      D: "Un sous-marin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What do you control in a racing game like Gran Turismo?"
+        answers:
+          A: "A fighter jet"
+          B: "A spaceship"
+          C: "A car"
+          D: "A submarine"
+    difficulty: EASY
+  - text: "Comment s'appelle le petit dinosaure vert compagnon de Mario ?"
+    answers:
+      A: "Toad"
+      B: "Kirby"
+      C: "Yoshi"
+      D: "Bowser"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the little green dinosaur who is Mario's companion?"
+        answers:
+          A: "Toad"
+          B: "Kirby"
+          C: "Yoshi"
+          D: "Bowser"
+    difficulty: EASY
+  - text: "Quel jeu de tir en équipe de Blizzard, sorti en 2016, met en scène Tracer ?"
+    answers:
+      A: "Overwatch"
+      B: "League of Legends"
+      C: "Fortnite"
+      D: "Apex Legends"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team-based shooter by Blizzard, released in 2016, features Tracer?"
+        answers:
+          A: "Overwatch"
+          B: "League of Legends"
+          C: "Fortnite"
+          D: "Apex Legends"
+    difficulty: EASY
+  - text: "Quel jeu de cartes de Blizzard se déroule dans l'univers de Warcraft ?"
+    answers:
+      A: "Magic: The Gathering"
+      B: "Yu-Gi-Oh!"
+      C: "Gwent"
+      D: "Hearthstone"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which card game by Blizzard is set in the Warcraft universe?"
+        answers:
+          A: "Magic: The Gathering"
+          B: "Yu-Gi-Oh!"
+          C: "Gwent"
+          D: "Hearthstone"
+    difficulty: EASY
+  - text: "En quelle année la première PlayStation est-elle sortie en Europe ?"
+    answers:
+      A: "1994"
+      B: "1997"
+      C: "1996"
+      D: "1995"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the first PlayStation released in Europe?"
+        answers:
+          A: "1994"
+          B: "1997"
+          C: "1996"
+          D: "1995"
+    difficulty: MEDIUM
+  - text: "Quel studio japonais a développé la série Dark Souls ?"
+    answers:
+      A: "Capcom"
+      B: "FromSoftware"
+      C: "Square Enix"
+      D: "Konami"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese studio developed the Dark Souls series?"
+        answers:
+          A: "Capcom"
+          B: "FromSoftware"
+          C: "Square Enix"
+          D: "Konami"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du monde imaginaire de World of Warcraft ?"
+    answers:
+      A: "Tyrie"
+      B: "Tamriel"
+      C: "Hyrule"
+      D: "Azeroth"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the imaginary world of World of Warcraft?"
+        answers:
+          A: "Tyrie"
+          B: "Tamriel"
+          C: "Hyrule"
+          D: "Azeroth"
+    difficulty: MEDIUM
+  - text: "Quel studio suédois a créé la série Battlefield ?"
+    answers:
+      A: "DICE"
+      B: "Infinity Ward"
+      C: "Epic Games"
+      D: "Ubisoft"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Swedish studio created the Battlefield series?"
+        answers:
+          A: "DICE"
+          B: "Infinity Ward"
+          C: "Epic Games"
+          D: "Ubisoft"
+    difficulty: MEDIUM
+  - text: "Dans quel jeu de 2017 incarne-t-on Aloy, chasseuse de machines ?"
+    answers:
+      A: "NieR: Automata"
+      B: "Assassin's Creed Origins"
+      C: "Horizon Zero Dawn"
+      D: "The Legend of Zelda: Breath of the Wild"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which 2017 game do you play as Aloy, a machine hunter?"
+        answers:
+          A: "NieR: Automata"
+          B: "Assassin's Creed Origins"
+          C: "Horizon Zero Dawn"
+          D: "The Legend of Zelda: Breath of the Wild"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du royaume de la série The Legend of Zelda ?"
+    answers:
+      A: "Mushroom Kingdom"
+      B: "Equestria"
+      C: "Hyrule"
+      D: "Azeroth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the kingdom in The Legend of Zelda series?"
+        answers:
+          A: "Mushroom Kingdom"
+          B: "Equestria"
+          C: "Hyrule"
+          D: "Azeroth"
+    difficulty: MEDIUM
+  - text: "Quel éditeur japonais a créé la série Resident Evil ?"
+    answers:
+      A: "Konami"
+      B: "Namco"
+      C: "Sega"
+      D: "Capcom"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese publisher created the Resident Evil series?"
+        answers:
+          A: "Konami"
+          B: "Namco"
+          C: "Sega"
+          D: "Capcom"
+    difficulty: MEDIUM
+  - text: "Quel jeu d'aventure de 2018 de Rockstar se déroule dans l'Ouest américain ?"
+    answers:
+      A: "Red Dead Redemption 2"
+      B: "Mafia III"
+      C: "Call of Juarez"
+      D: "GTA V"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2018 adventure game by Rockstar is set in the American West?"
+        answers:
+          A: "Red Dead Redemption 2"
+          B: "Mafia III"
+          C: "Call of Juarez"
+          D: "GTA V"
+    difficulty: MEDIUM
+  - text: "Quel studio français a développé A Plague Tale: Innocence ?"
+    answers:
+      A: "Quantic Dream"
+      B: "Motion Twin"
+      C: "Arkane Studios"
+      D: "Asobo Studio"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French studio developed A Plague Tale: Innocence?"
+        answers:
+          A: "Quantic Dream"
+          B: "Motion Twin"
+          C: "Arkane Studios"
+          D: "Asobo Studio"
+    difficulty: MEDIUM
+  - text: "Quel jeu de rythme de 2005 de Harmonix utilise des contrôleurs en forme de guitare ?"
+    answers:
+      A: "Rock Band"
+      B: "Dance Dance Revolution"
+      C: "Just Dance"
+      D: "Guitar Hero"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 2005 rhythm game by Harmonix uses guitar-shaped controllers?"
+        answers:
+          A: "Rock Band"
+          B: "Dance Dance Revolution"
+          C: "Just Dance"
+          D: "Guitar Hero"
+    difficulty: MEDIUM
+  - text: "Dans quel jeu de 2015 incarne-t-on Geralt de Riv ?"
+    answers:
+      A: "Skyrim"
+      B: "The Witcher 3: Wild Hunt"
+      C: "Dragon Age: Inquisition"
+      D: "Dark Souls III"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which 2015 game do you play as Geralt of Rivia?"
+        answers:
+          A: "Skyrim"
+          B: "The Witcher 3: Wild Hunt"
+          C: "Dragon Age: Inquisition"
+          D: "Dark Souls III"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la console portable de Nintendo sortie en 2011 avec un écran 3D ?"
+    answers:
+      A: "La 3DS"
+      B: "La Switch Lite"
+      C: "La PS Vita"
+      D: "La DS Lite"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Nintendo's handheld console released in 2011 with a 3D screen?"
+        answers:
+          A: "The 3DS"
+          B: "The Switch Lite"
+          C: "The PS Vita"
+          D: "The DS Lite"
+    difficulty: MEDIUM
+  - text: "Combien de joueurs s'affrontent dans une partie de Tetris 99 ?"
+    answers:
+      A: "49"
+      B: "99"
+      C: "64"
+      D: "100"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many players compete in a game of Tetris 99?"
+        answers:
+          A: "49"
+          B: "99"
+          C: "64"
+          D: "100"
+    difficulty: MEDIUM
+  - text: "En quelle année Nintendo a-t-il commercialisé la Famicom au Japon ?"
+    answers:
+      A: "1979"
+      B: "1981"
+      C: "1983"
+      D: "1985"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Nintendo release the Famicom in Japan?"
+        answers:
+          A: "1979"
+          B: "1981"
+          C: "1983"
+          D: "1985"
+    difficulty: HARD
+  - text: "Quel jeu d'arcade d'Atari, dont le prototype fut conçu par Steve Wozniak, consiste à casser des briques ?"
+    answers:
+      A: "Breakout"
+      B: "Arkanoid"
+      C: "Pong Doubles"
+      D: "Super Breakout"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Atari arcade game, whose prototype was designed by Steve Wozniak, involves breaking bricks?"
+        answers:
+          A: "Breakout"
+          B: "Arkanoid"
+          C: "Pong Doubles"
+          D: "Super Breakout"
+    difficulty: HARD
+  - text: "Quel jeu de 1978 a provoqué une pénurie de pièces de 100 yens dans les salles d'arcade japonaises ?"
+    answers:
+      A: "Galaxian"
+      B: "Asteroids"
+      C: "Pac-Man"
+      D: "Space Invaders"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1978 game caused a shortage of 100-yen coins in Japanese arcades?"
+        answers:
+          A: "Galaxian"
+          B: "Asteroids"
+          C: "Pac-Man"
+          D: "Space Invaders"
+    difficulty: HARD
+  - text: "Quel développeur japonais a créé Pac-Man ?"
+    answers:
+      A: "Toru Iwatani"
+      B: "Hideo Kojima"
+      C: "Yuji Naka"
+      D: "Shigeru Miyamoto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese developer created Pac-Man?"
+        answers:
+          A: "Toru Iwatani"
+          B: "Hideo Kojima"
+          C: "Yuji Naka"
+          D: "Shigeru Miyamoto"
+    difficulty: HARD
+  - text: "Quel est le nom du plombier de Donkey Kong en 1981, avant d'être renommé Mario ?"
+    answers:
+      A: "Wario"
+      B: "Luigi"
+      C: "Stanley"
+      D: "Jumpman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Donkey Kong's plumber in 1981, before being renamed Mario?"
+        answers:
+          A: "Wario"
+          B: "Luigi"
+          C: "Stanley"
+          D: "Jumpman"
+    difficulty: HARD
+  - text: "En quelle année la Nintendo 64 est-elle sortie en Europe ?"
+    answers:
+      A: "1997"
+      B: "1996"
+      C: "1998"
+      D: "1999"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Nintendo 64 released in Europe?"
+        answers:
+          A: "1997"
+          B: "1996"
+          C: "1998"
+          D: "1999"
+    difficulty: HARD
+  - text: "Quel studio de Sony a développé la série God of War à partir de 2005 ?"
+    answers:
+      A: "Naughty Dog"
+      B: "Santa Monica Studio"
+      C: "Insomniac Games"
+      D: "Guerrilla Games"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Sony studio developed the God of War series starting in 2005?"
+        answers:
+          A: "Naughty Dog"
+          B: "Santa Monica Studio"
+          C: "Insomniac Games"
+          D: "Guerrilla Games"
+    difficulty: HARD
+  - text: "En quelle année l'Atari 2600 est-elle sortie aux États-Unis ?"
+    answers:
+      A: "1977"
+      B: "1976"
+      C: "1975"
+      D: "1978"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Atari 2600 released in the United States?"
+        answers:
+          A: "1977"
+          B: "1976"
+          C: "1975"
+          D: "1978"
+    difficulty: HARD
+  - text: "Quel jeu de tir à la première personne de Valve est sorti en 1998 ?"
+    answers:
+      A: "Quake"
+      B: "Doom"
+      C: "Unreal"
+      D: "Half-Life"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which first-person shooter by Valve was released in 1998?"
+        answers:
+          A: "Quake"
+          B: "Doom"
+          C: "Unreal"
+          D: "Half-Life"
+    difficulty: HARD
+  - text: "Quel compositeur japonais est célèbre pour les musiques de Final Fantasy ?"
+    answers:
+      A: "Nobuo Uematsu"
+      B: "Grant Kirkhope"
+      C: "Yasunori Mitsuda"
+      D: "Koji Kondo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese composer is famous for the music of Final Fantasy?"
+        answers:
+          A: "Nobuo Uematsu"
+          B: "Grant Kirkhope"
+          C: "Yasunori Mitsuda"
+          D: "Koji Kondo"
+    difficulty: HARD
+  - text: "Quel jeu de 1998 a fait passer la série Zelda à la 3D ?"
+    answers:
+      A: "Ocarina of Time"
+      B: "Majora's Mask"
+      C: "A Link to the Past"
+      D: "The Wind Waker"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1998 game took the Zelda series into 3D?"
+        answers:
+          A: "Ocarina of Time"
+          B: "Majora's Mask"
+          C: "A Link to the Past"
+          D: "The Wind Waker"
+    difficulty: HARD
+  - text: "En quelle année le premier Grand Theft Auto est-il sorti ?"
+    answers:
+      A: "1995"
+      B: "1997"
+      C: "1996"
+      D: "1998"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the first Grand Theft Auto released?"
+        answers:
+          A: "1995"
+          B: "1997"
+          C: "1996"
+          D: "1998"
+    difficulty: HARD
+  - text: "Quel studio britannique a créé la série Tomb Raider ?"
+    answers:
+      A: "Rare"
+      B: "Core Design"
+      C: "Criterion Games"
+      D: "Rocksteady"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which British studio created the Tomb Raider series?"
+        answers:
+          A: "Rare"
+          B: "Core Design"
+          C: "Criterion Games"
+          D: "Rocksteady"
+    difficulty: HARD
+  - text: "Quelle console de Fairchild, sortie en 1976, fut la première à utiliser des cartouches ROM ?"
+    answers:
+      A: "Atari 2600"
+      B: "Magnavox Odyssey"
+      C: "Channel F"
+      D: "Intellivision"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Fairchild console, released in 1976, was the first to use ROM cartridges?"
+        answers:
+          A: "Atari 2600"
+          B: "Magnavox Odyssey"
+          C: "Channel F"
+          D: "Intellivision"
+    difficulty: EXPERT
+  - text: "Quel jeu d'arcade de 1971 fut le premier jeu vidéo commercial exploité en salle ?"
+    answers:
+      A: "Computer Space"
+      B: "Pong"
+      C: "Spacewar!"
+      D: "Tennis for Two"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1971 arcade game was the first commercial video game operated in an arcade?"
+        answers:
+          A: "Computer Space"
+          B: "Pong"
+          C: "Spacewar!"
+          D: "Tennis for Two"
+    difficulty: EXPERT
+  - text: "Quel est le nom du créateur de la PlayStation, ancien dirigeant de Sony Computer Entertainment ?"
+    answers:
+      A: "Norio Ohga"
+      B: "Ken Kutaragi"
+      C: "Satoru Iwata"
+      D: "Hiroshi Yamauchi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the creator of the PlayStation, former head of Sony Computer Entertainment?"
+        answers:
+          A: "Norio Ohga"
+          B: "Ken Kutaragi"
+          C: "Satoru Iwata"
+          D: "Hiroshi Yamauchi"
+    difficulty: EXPERT
+  - text: "Quel était le nom de code de la première Xbox ?"
+    answers:
+      A: "Project Xenon"
+      B: "Durango"
+      C: "DirectX Box"
+      D: "Revolution"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the codename of the first Xbox?"
+        answers:
+          A: "Project Xenon"
+          B: "Durango"
+          C: "DirectX Box"
+          D: "Revolution"
+    difficulty: EXPERT
+  - text: "Quel jeu d'aventure textuel de Will Crowther, créé en 1976, est considéré comme l'ancêtre du genre ?"
+    answers:
+      A: "Colossal Cave Adventure"
+      B: "Zork"
+      C: "Mystery House"
+      D: "Rogue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which text adventure game by Will Crowther, created in 1976, is considered the ancestor of the genre?"
+        answers:
+          A: "Colossal Cave Adventure"
+          B: "Zork"
+          C: "Mystery House"
+          D: "Rogue"
+    difficulty: EXPERT
+  - text: "Quel jeu de 1992 de Westwood Studios est considéré comme le premier RTS moderne ?"
+    answers:
+      A: "Warcraft: Orcs & Humans"
+      B: "Command & Conquer"
+      C: "Dune II"
+      D: "Age of Empires"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1992 game by Westwood Studios is considered the first modern RTS?"
+        answers:
+          A: "Warcraft: Orcs & Humans"
+          B: "Command & Conquer"
+          C: "Dune II"
+          D: "Age of Empires"
+    difficulty: EXPERT
+  - text: "Quel jeu de 1993 d'id Software a popularisé le FPS ?"
+    answers:
+      A: "Quake"
+      B: "Wolfenstein 3D"
+      C: "Doom"
+      D: "Duke Nukem 3D"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1993 id Software game popularized the FPS?"
+        answers:
+          A: "Quake"
+          B: "Wolfenstein 3D"
+          C: "Doom"
+          D: "Duke Nukem 3D"
+    difficulty: EXPERT
+  - text: "Quel studio britannique a développé GoldenEye 007 sur Nintendo 64 ?"
+    answers:
+      A: "Eurocom"
+      B: "Free Radical Design"
+      C: "Retro Studios"
+      D: "Rare"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which British studio developed GoldenEye 007 on Nintendo 64?"
+        answers:
+          A: "Eurocom"
+          B: "Free Radical Design"
+          C: "Retro Studios"
+          D: "Rare"
+    difficulty: EXPERT
+  - text: "Quelle entreprise a commercialisé la première console de jeu domestique, la Magnavox Odyssey ?"
+    answers:
+      A: "Atari"
+      B: "Fairchild"
+      C: "Magnavox"
+      D: "Coleco"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which company marketed the first home video game console, the Magnavox Odyssey?"
+        answers:
+          A: "Atari"
+          B: "Fairchild"
+          C: "Magnavox"
+          D: "Coleco"
+    difficulty: EXPERT
+  - text: "Quel jeu de 1958 de William Higinbotham est considéré comme l'un des tout premiers jeux vidéo ?"
+    answers:
+      A: "Pong"
+      B: "Spacewar!"
+      C: "Tennis for Two"
+      D: "OXO"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1958 game by William Higinbotham is considered one of the very first video games?"
+        answers:
+          A: "Pong"
+          B: "Spacewar!"
+          C: "Tennis for Two"
+          D: "OXO"
+    difficulty: EXPERT
+  - text: "Quel jeu NES de 1986 a été le premier à proposer une sauvegarde par pile ?"
+    answers:
+      A: "Metroid"
+      B: "Super Mario Bros."
+      C: "Kid Icarus"
+      D: "The Legend of Zelda"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1986 NES game was the first to feature battery backup saving?"
+        answers:
+          A: "Metroid"
+          B: "Super Mario Bros."
+          C: "Kid Icarus"
+          D: "The Legend of Zelda"
+    difficulty: EXPERT
+  - text: "Quel dirigeant a présidé Nintendo de 1949 à 2002 ?"
+    answers:
+      A: "Satoru Iwata"
+      B: "Fusajiro Yamauchi"
+      C: "Gunpei Yokoi"
+      D: "Hiroshi Yamauchi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which executive led Nintendo from 1949 to 2002?"
+        answers:
+          A: "Satoru Iwata"
+          B: "Fusajiro Yamauchi"
+          C: "Gunpei Yokoi"
+          D: "Hiroshi Yamauchi"
+    difficulty: EXPERT
+  - text: "Quel créateur japonais a conçu la Game Boy et la gamme Game & Watch ?"
+    answers:
+      A: "Shigeru Miyamoto"
+      B: "Genyo Takeda"
+      C: "Gunpei Yokoi"
+      D: "Masayuki Uemura"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Japanese creator designed the Game Boy and the Game & Watch line?"
+        answers:
+          A: "Shigeru Miyamoto"
+          B: "Genyo Takeda"
+          C: "Gunpei Yokoi"
+          D: "Masayuki Uemura"
+    difficulty: EXPERT

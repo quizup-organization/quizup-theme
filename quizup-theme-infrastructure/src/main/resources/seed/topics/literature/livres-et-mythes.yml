@@ -15,6 +15,7 @@ questions:
       C: "Christopher Marlowe"
       D: "Jean Racine"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Who wrote the tragedy Romeo and Juliet?"
@@ -31,6 +32,7 @@ questions:
       C: "Pablo Neruda"
       D: "Miguel de Cervantès"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Who wrote the novel Don Quixote?"
@@ -47,6 +49,7 @@ questions:
       C: "Euripide"
       D: "Hésiode"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which poet of ancient Greece is traditionally considered the author of the Odyssey?"
@@ -63,6 +66,7 @@ questions:
       C: "Sandro Botticelli"
       D: "Le Titien"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Who painted this painting depicting the birth of Venus?"
@@ -79,6 +83,7 @@ questions:
       C: "Loki"
       D: "Freyr"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "In Norse mythology, which god wields the hammer Mjöllnir?"
@@ -94,6 +99,7 @@ questions:
       C: "Gustave Flaubert"
       D: "Victor Hugo"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who wrote Les Misérables?"
@@ -109,6 +115,7 @@ questions:
       C: "Guy de Maupassant"
       D: "Stendhal"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Who wrote Madame Bovary?"
@@ -124,6 +131,7 @@ questions:
       C: "Antoine de Saint-Exupéry"
       D: "Jules Renard"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Who wrote The Little Prince?"
@@ -139,6 +147,7 @@ questions:
       C: "Ray Bradbury"
       D: "H. G. Wells"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Who wrote Animal Farm and 1984?"
@@ -154,6 +163,7 @@ questions:
       C: "Virgile"
       D: "Dante Alighieri"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Who wrote The Divine Comedy?"
@@ -169,6 +179,7 @@ questions:
       C: "Hadès"
       D: "Apollon"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "In Greek mythology, who is the king of the gods?"
@@ -184,6 +195,7 @@ questions:
       C: "Héraclès"
       D: "Persée"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which Greek hero performed the twelve labors?"
@@ -199,6 +211,7 @@ questions:
       C: "Le Cyclope"
       D: "La Chimère"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which monster, half-man and half-bull, was imprisoned in the labyrinth of Crete?"
@@ -214,6 +227,7 @@ questions:
       C: "Cerbère"
       D: "Charon"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the name of the ferryman who carries the souls of the dead across to the Underworld?"
@@ -229,6 +243,7 @@ questions:
       C: "Arès"
       D: "Héphaïstos"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "In Greek mythology, which god is the messenger of Olympus?"
@@ -244,6 +259,7 @@ questions:
       C: "Odin"
       D: "Tyr"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "In Norse mythology, who is the king of the gods and the father of Thor?"
@@ -259,6 +275,7 @@ questions:
       C: "L'Hydre de Lerne"
       D: "Circé"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which creature from Greek mythology turns anyone who meets its gaze to stone?"
@@ -274,6 +291,7 @@ questions:
       C: "Émile Zola"
       D: "Jules Verne"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who wrote Twenty Thousand Leagues Under the Seas?"
@@ -289,6 +307,7 @@ questions:
       C: "Hadès"
       D: "Triton"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "In Greek mythology, which god rules the seas?"
@@ -304,6 +323,7 @@ questions:
       C: "Athéna"
       D: "Artémis"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Greek goddess is associated with wisdom and war?"
@@ -312,3 +332,1283 @@ questions:
           B: "Aphrodite"
           C: "Athena"
           D: "Artemis"
+  - text: "Qui a écrit le roman Orgueil et Préjugés ?"
+    answers:
+      A: "Charlotte Brontë"
+      B: "Jane Austen"
+      C: "Emily Brontë"
+      D: "Mary Shelley"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the novel Pride and Prejudice?"
+        answers:
+          A: "Charlotte Brontë"
+          B: "Jane Austen"
+          C: "Emily Brontë"
+          D: "Mary Shelley"
+    difficulty: EASY
+  - text: "Qui a écrit Les Trois Mousquetaires ?"
+    answers:
+      A: "Alexandre Dumas"
+      B: "Victor Hugo"
+      C: "Jules Verne"
+      D: "George Sand"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote The Three Musketeers?"
+        answers:
+          A: "Alexandre Dumas"
+          B: "Victor Hugo"
+          C: "Jules Verne"
+          D: "George Sand"
+    difficulty: EASY
+  - text: "Qui a écrit Alice au pays des merveilles ?"
+    answers:
+      A: "J. M. Barrie"
+      B: "C. S. Lewis"
+      C: "Lewis Carroll"
+      D: "Roald Dahl"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote Alice in Wonderland?"
+        answers:
+          A: "J. M. Barrie"
+          B: "C. S. Lewis"
+          C: "Lewis Carroll"
+          D: "Roald Dahl"
+    difficulty: EASY
+  - text: "Qui a écrit Robinson Crusoé ?"
+    answers:
+      A: "Jonathan Swift"
+      B: "Daniel Defoe"
+      C: "Herman Melville"
+      D: "Robert Louis Stevenson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote Robinson Crusoe?"
+        answers:
+          A: "Jonathan Swift"
+          B: "Daniel Defoe"
+          C: "Herman Melville"
+          D: "Robert Louis Stevenson"
+    difficulty: EASY
+  - text: "Qui a écrit Les Voyages de Gulliver ?"
+    answers:
+      A: "Daniel Defoe"
+      B: "Charles Dickens"
+      C: "Oscar Wilde"
+      D: "Jonathan Swift"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Gulliver's Travels?"
+        answers:
+          A: "Daniel Defoe"
+          B: "Charles Dickens"
+          C: "Oscar Wilde"
+          D: "Jonathan Swift"
+    difficulty: EASY
+  - text: "Qui a écrit Frankenstein, ou le Prométhée moderne ?"
+    answers:
+      A: "Bram Stoker"
+      B: "Edgar Allan Poe"
+      C: "Mary Shelley"
+      D: "Oscar Wilde"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote Frankenstein; or, The Modern Prometheus?"
+        answers:
+          A: "Bram Stoker"
+          B: "Edgar Allan Poe"
+          C: "Mary Shelley"
+          D: "Oscar Wilde"
+    difficulty: EASY
+  - text: "Qui a écrit Dracula ?"
+    answers:
+      A: "Bram Stoker"
+      B: "Mary Shelley"
+      C: "Edgar Allan Poe"
+      D: "Robert Louis Stevenson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Dracula?"
+        answers:
+          A: "Bram Stoker"
+          B: "Mary Shelley"
+          C: "Edgar Allan Poe"
+          D: "Robert Louis Stevenson"
+    difficulty: EASY
+  - text: "Qui a écrit L'Île au trésor ?"
+    answers:
+      A: "Mark Twain"
+      B: "Jack London"
+      C: "Jules Verne"
+      D: "Robert Louis Stevenson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Treasure Island?"
+        answers:
+          A: "Mark Twain"
+          B: "Jack London"
+          C: "Jules Verne"
+          D: "Robert Louis Stevenson"
+    difficulty: EASY
+  - text: "Qui a écrit Le Tour du monde en quatre-vingts jours ?"
+    answers:
+      A: "Jules Verne"
+      B: "Alexandre Dumas"
+      C: "Hector Malot"
+      D: "Émile Zola"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Around the World in Eighty Days?"
+        answers:
+          A: "Jules Verne"
+          B: "Alexandre Dumas"
+          C: "Hector Malot"
+          D: "Émile Zola"
+    difficulty: EASY
+  - text: "Qui a écrit Oliver Twist ?"
+    answers:
+      A: "Jane Austen"
+      B: "Walter Scott"
+      C: "Charles Dickens"
+      D: "Thomas Hardy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote Oliver Twist?"
+        answers:
+          A: "Jane Austen"
+          B: "Walter Scott"
+          C: "Charles Dickens"
+          D: "Thomas Hardy"
+    difficulty: EASY
+  - text: "Qui a écrit Les Aventures de Tom Sawyer ?"
+    answers:
+      A: "Herman Melville"
+      B: "Mark Twain"
+      C: "Jack London"
+      D: "Ernest Hemingway"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote The Adventures of Tom Sawyer?"
+        answers:
+          A: "Herman Melville"
+          B: "Mark Twain"
+          C: "Jack London"
+          D: "Ernest Hemingway"
+    difficulty: EASY
+  - text: "Qui a écrit Moby Dick ?"
+    answers:
+      A: "Mark Twain"
+      B: "Daniel Defoe"
+      C: "Nathaniel Hawthorne"
+      D: "Herman Melville"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Moby Dick?"
+        answers:
+          A: "Mark Twain"
+          B: "Daniel Defoe"
+          C: "Nathaniel Hawthorne"
+          D: "Herman Melville"
+    difficulty: EASY
+  - text: "Qui a écrit Peter Pan ?"
+    answers:
+      A: "J. M. Barrie"
+      B: "Lewis Carroll"
+      C: "L. Frank Baum"
+      D: "Rudyard Kipling"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Peter Pan?"
+        answers:
+          A: "J. M. Barrie"
+          B: "Lewis Carroll"
+          C: "L. Frank Baum"
+          D: "Rudyard Kipling"
+    difficulty: EASY
+  - text: "Qui a écrit Le Magicien d'Oz ?"
+    answers:
+      A: "J. M. Barrie"
+      B: "C. S. Lewis"
+      C: "Roald Dahl"
+      D: "L. Frank Baum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote The Wizard of Oz?"
+        answers:
+          A: "J. M. Barrie"
+          B: "C. S. Lewis"
+          C: "Roald Dahl"
+          D: "L. Frank Baum"
+    difficulty: EASY
+  - text: "Quel personnage de conte perd une pantoufle de verre au bal ?"
+    answers:
+      A: "Blanche-Neige"
+      B: "Cendrillon"
+      C: "Peau d'Âne"
+      D: "La Belle au bois dormant"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which fairy tale character loses a glass slipper at the ball?"
+        answers:
+          A: "Snow White"
+          B: "Cinderella"
+          C: "Donkeyskin"
+          D: "Sleeping Beauty"
+    difficulty: EASY
+  - text: "Dans Le Livre de la jungle de Kipling, quel ours enseigne la loi de la jungle à Mowgli ?"
+    answers:
+      A: "Baloo"
+      B: "Bagheera"
+      C: "Shere Khan"
+      D: "Kaa"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Kipling's The Jungle Book, which bear teaches Mowgli the law of the jungle?"
+        answers:
+          A: "Baloo"
+          B: "Bagheera"
+          C: "Shere Khan"
+          D: "Kaa"
+    difficulty: EASY
+  - text: "Dans la version des frères Grimm du Petit Chaperon rouge, qui sauve l'enfant et sa grand-mère ?"
+    answers:
+      A: "Un bûcheron"
+      B: "Un meunier"
+      C: "Un chasseur"
+      D: "Un prince"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Brothers Grimm version of Little Red Riding Hood, who saves the child and her grandmother?"
+        answers:
+          A: "A woodcutter"
+          B: "A miller"
+          C: "A huntsman"
+          D: "A prince"
+    difficulty: EASY
+  - text: "Dans la mythologie égyptienne, quel dieu à tête de faucon est le fils d'Osiris et d'Isis ?"
+    answers:
+      A: "Anubis"
+      B: "Horus"
+      C: "Seth"
+      D: "Râ"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Egyptian mythology, which falcon-headed god is the son of Osiris and Isis?"
+        answers:
+          A: "Anubis"
+          B: "Horus"
+          C: "Set"
+          D: "Ra"
+    difficulty: EASY
+  - text: "Dans la mythologie nordique, quel est le nom de l'arbre-monde ?"
+    answers:
+      A: "Bifröst"
+      B: "Asgard"
+      C: "Yggdrasil"
+      D: "Jötunheim"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, what is the name of the world tree?"
+        answers:
+          A: "Bifröst"
+          B: "Asgard"
+          C: "Yggdrasil"
+          D: "Jötunheim"
+    difficulty: EASY
+  - text: "Dans la mythologie grecque, quel est le nom du chien à trois têtes qui garde les Enfers ?"
+    answers:
+      A: "Le Sphinx"
+      B: "La Chimère"
+      C: "Le Griffon"
+      D: "Cerbère"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Greek mythology, what is the name of the three-headed dog that guards the Underworld?"
+        answers:
+          A: "The Sphinx"
+          B: "The Chimera"
+          C: "The Griffin"
+          D: "Cerberus"
+    difficulty: EASY
+  - text: "Qui a écrit le roman Les Hauts de Hurlevent ?"
+    answers:
+      A: "Charlotte Brontë"
+      B: "Emily Brontë"
+      C: "Jane Austen"
+      D: "Mary Shelley"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the novel Wuthering Heights?"
+        answers:
+          A: "Charlotte Brontë"
+          B: "Emily Brontë"
+          C: "Jane Austen"
+          D: "Mary Shelley"
+    difficulty: MEDIUM
+  - text: "Qui a écrit La Métamorphose, où Gregor Samsa se réveille transformé en insecte ?"
+    answers:
+      A: "Thomas Mann"
+      B: "Stefan Zweig"
+      C: "Franz Kafka"
+      D: "Rainer Maria Rilke"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote The Metamorphosis, in which Gregor Samsa wakes up transformed into an insect?"
+        answers:
+          A: "Thomas Mann"
+          B: "Stefan Zweig"
+          C: "Franz Kafka"
+          D: "Rainer Maria Rilke"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Le Vieil Homme et la Mer ?"
+    answers:
+      A: "John Steinbeck"
+      B: "William Faulkner"
+      C: "Ernest Hemingway"
+      D: "F. Scott Fitzgerald"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote The Old Man and the Sea?"
+        answers:
+          A: "John Steinbeck"
+          B: "William Faulkner"
+          C: "Ernest Hemingway"
+          D: "F. Scott Fitzgerald"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Cent Ans de solitude ?"
+    answers:
+      A: "Jorge Luis Borges"
+      B: "Pablo Neruda"
+      C: "Mario Vargas Llosa"
+      D: "Gabriel García Márquez"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote One Hundred Years of Solitude?"
+        answers:
+          A: "Jorge Luis Borges"
+          B: "Pablo Neruda"
+          C: "Mario Vargas Llosa"
+          D: "Gabriel García Márquez"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Fahrenheit 451 ?"
+    answers:
+      A: "George Orwell"
+      B: "Aldous Huxley"
+      C: "Isaac Asimov"
+      D: "Ray Bradbury"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Fahrenheit 451?"
+        answers:
+          A: "George Orwell"
+          B: "Aldous Huxley"
+          C: "Isaac Asimov"
+          D: "Ray Bradbury"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Le Meilleur des mondes ?"
+    answers:
+      A: "Aldous Huxley"
+      B: "George Orwell"
+      C: "Ray Bradbury"
+      D: "H. G. Wells"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Brave New World?"
+        answers:
+          A: "Aldous Huxley"
+          B: "George Orwell"
+          C: "Ray Bradbury"
+          D: "H. G. Wells"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Guerre et Paix ?"
+    answers:
+      A: "Fiodor Dostoïevski"
+      B: "Anton Tchekhov"
+      C: "Ivan Tourgueniev"
+      D: "Léon Tolstoï"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote War and Peace?"
+        answers:
+          A: "Fyodor Dostoevsky"
+          B: "Anton Chekhov"
+          C: "Ivan Turgenev"
+          D: "Leo Tolstoy"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Crime et Châtiment ?"
+    answers:
+      A: "Fiodor Dostoïevski"
+      B: "Léon Tolstoï"
+      C: "Ivan Tourgueniev"
+      D: "Anton Tchekhov"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Crime and Punishment?"
+        answers:
+          A: "Fyodor Dostoevsky"
+          B: "Leo Tolstoy"
+          C: "Ivan Turgenev"
+          D: "Anton Chekhov"
+    difficulty: MEDIUM
+  - text: "Qui a écrit L'Étranger ?"
+    answers:
+      A: "Jean-Paul Sartre"
+      B: "Albert Camus"
+      C: "André Gide"
+      D: "Louis Aragon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote The Stranger?"
+        answers:
+          A: "Jean-Paul Sartre"
+          B: "Albert Camus"
+          C: "André Gide"
+          D: "Louis Aragon"
+    difficulty: MEDIUM
+  - text: "Qui a écrit À la recherche du temps perdu ?"
+    answers:
+      A: "Marcel Proust"
+      B: "Gustave Flaubert"
+      C: "Stendhal"
+      D: "Honoré de Balzac"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote In Search of Lost Time?"
+        answers:
+          A: "Marcel Proust"
+          B: "Gustave Flaubert"
+          C: "Stendhal"
+          D: "Honoré de Balzac"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Le Rouge et le Noir ?"
+    answers:
+      A: "Honoré de Balzac"
+      B: "Gustave Flaubert"
+      C: "Stendhal"
+      D: "Émile Zola"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote The Red and the Black?"
+        answers:
+          A: "Honoré de Balzac"
+          B: "Gustave Flaubert"
+          C: "Stendhal"
+          D: "Émile Zola"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Le Père Goriot ?"
+    answers:
+      A: "Émile Zola"
+      B: "Guy de Maupassant"
+      C: "Victor Hugo"
+      D: "Honoré de Balzac"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Père Goriot?"
+        answers:
+          A: "Émile Zola"
+          B: "Guy de Maupassant"
+          C: "Victor Hugo"
+          D: "Honoré de Balzac"
+    difficulty: MEDIUM
+  - text: "Qui a écrit Le Comte de Monte-Cristo ?"
+    answers:
+      A: "Alexandre Dumas"
+      B: "Jules Verne"
+      C: "Victor Hugo"
+      D: "Eugène Sue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote The Count of Monte Cristo?"
+        answers:
+          A: "Alexandre Dumas"
+          B: "Jules Verne"
+          C: "Victor Hugo"
+          D: "Eugène Sue"
+    difficulty: MEDIUM
+  - text: "Qui a écrit le recueil Les Fleurs du mal ?"
+    answers:
+      A: "Arthur Rimbaud"
+      B: "Paul Verlaine"
+      C: "Charles Baudelaire"
+      D: "Alphonse de Lamartine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote the collection The Flowers of Evil?"
+        answers:
+          A: "Arthur Rimbaud"
+          B: "Paul Verlaine"
+          C: "Charles Baudelaire"
+          D: "Alphonse de Lamartine"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie grecque, quelle déesse est associée à l'amour et à la beauté ?"
+    answers:
+      A: "Athéna"
+      B: "Héra"
+      C: "Déméter"
+      D: "Aphrodite"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Greek mythology, which goddess is associated with love and beauty?"
+        answers:
+          A: "Athena"
+          B: "Hera"
+          C: "Demeter"
+          D: "Aphrodite"
+    difficulty: MEDIUM
+  - text: "Quel titan de la mythologie grecque est condamné à porter la voûte céleste sur ses épaules ?"
+    answers:
+      A: "Prométhée"
+      B: "Atlas"
+      C: "Cronos"
+      D: "Épiméthée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Titan in Greek mythology is condemned to hold up the celestial heavens on his shoulders?"
+        answers:
+          A: "Prometheus"
+          B: "Atlas"
+          C: "Cronus"
+          D: "Epimetheus"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie égyptienne, quel dieu à tête de chacal préside à la momification ?"
+    answers:
+      A: "Anubis"
+      B: "Horus"
+      C: "Osiris"
+      D: "Thot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Egyptian mythology, which jackal-headed god presides over mummification?"
+        answers:
+          A: "Anubis"
+          B: "Horus"
+          C: "Osiris"
+          D: "Thoth"
+    difficulty: MEDIUM
+  - text: "Dans la légende arthurienne, quel est le nom de l'épée du roi Arthur ?"
+    answers:
+      A: "Durendal"
+      B: "Excalibur"
+      C: "Kusanagi"
+      D: "Gram"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Arthurian legend, what is the name of King Arthur's sword?"
+        answers:
+          A: "Durendal"
+          B: "Excalibur"
+          C: "Kusanagi"
+          D: "Gram"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie nordique, comment s'appelle le cheval à huit jambes d'Odin ?"
+    answers:
+      A: "Fenrir"
+      B: "Jörmungand"
+      C: "Sleipnir"
+      D: "Nidhogg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, what is the name of Odin's eight-legged horse?"
+        answers:
+          A: "Fenrir"
+          B: "Jörmungandr"
+          C: "Sleipnir"
+          D: "Nidhogg"
+    difficulty: MEDIUM
+  - text: "Quel roi de la mythologie grecque transformait en or tout ce qu'il touchait ?"
+    answers:
+      A: "Crésus"
+      B: "Midas"
+      C: "Œdipe"
+      D: "Tantale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which king in Greek mythology turned everything he touched into gold?"
+        answers:
+          A: "Croesus"
+          B: "Midas"
+          C: "Oedipus"
+          D: "Tantalus"
+    difficulty: MEDIUM
+  - text: "Qui a écrit le roman épistolaire Les Liaisons dangereuses ?"
+    answers:
+      A: "Denis Diderot"
+      B: "Marivaux"
+      C: "Choderlos de Laclos"
+      D: "Restif de la Bretonne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote the epistolary novel Les Liaisons dangereuses?"
+        answers:
+          A: "Denis Diderot"
+          B: "Marivaux"
+          C: "Choderlos de Laclos"
+          D: "Restif de la Bretonne"
+    difficulty: HARD
+  - text: "Qui a écrit Le Nom de la rose ?"
+    answers:
+      A: "Italo Calvino"
+      B: "Umberto Eco"
+      C: "Primo Levi"
+      D: "Alberto Moravia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote The Name of the Rose?"
+        answers:
+          A: "Italo Calvino"
+          B: "Umberto Eco"
+          C: "Primo Levi"
+          D: "Alberto Moravia"
+    difficulty: HARD
+  - text: "Qui a écrit Lolita ?"
+    answers:
+      A: "Boris Pasternak"
+      B: "Alexandre Soljenitsyne"
+      C: "Ivan Bounine"
+      D: "Vladimir Nabokov"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Lolita?"
+        answers:
+          A: "Boris Pasternak"
+          B: "Aleksandr Solzhenitsyn"
+          C: "Ivan Bunin"
+          D: "Vladimir Nabokov"
+    difficulty: HARD
+  - text: "Qui a écrit Ulysse, roman publié en 1922 ?"
+    answers:
+      A: "James Joyce"
+      B: "Virginia Woolf"
+      C: "D. H. Lawrence"
+      D: "Ford Madox Ford"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Ulysses, a novel published in 1922?"
+        answers:
+          A: "James Joyce"
+          B: "Virginia Woolf"
+          C: "D. H. Lawrence"
+          D: "Ford Madox Ford"
+    difficulty: HARD
+  - text: "Qui a écrit Mrs Dalloway ?"
+    answers:
+      A: "George Eliot"
+      B: "Virginia Woolf"
+      C: "Jane Austen"
+      D: "Elizabeth Gaskell"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote Mrs Dalloway?"
+        answers:
+          A: "George Eliot"
+          B: "Virginia Woolf"
+          C: "Jane Austen"
+          D: "Elizabeth Gaskell"
+    difficulty: HARD
+  - text: "Qui a écrit Le Portrait de Dorian Gray ?"
+    answers:
+      A: "Oscar Wilde"
+      B: "George Bernard Shaw"
+      C: "Bram Stoker"
+      D: "Henry James"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote The Picture of Dorian Gray?"
+        answers:
+          A: "Oscar Wilde"
+          B: "George Bernard Shaw"
+          C: "Bram Stoker"
+          D: "Henry James"
+    difficulty: HARD
+  - text: "Qui a écrit Bel-Ami ?"
+    answers:
+      A: "Émile Zola"
+      B: "Alphonse Daudet"
+      C: "Octave Mirbeau"
+      D: "Guy de Maupassant"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Bel-Ami?"
+        answers:
+          A: "Émile Zola"
+          B: "Alphonse Daudet"
+          C: "Octave Mirbeau"
+          D: "Guy de Maupassant"
+    difficulty: HARD
+  - text: "Qui a écrit Germinal ?"
+    answers:
+      A: "Guy de Maupassant"
+      B: "Honoré de Balzac"
+      C: "Émile Zola"
+      D: "Victor Hugo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote Germinal?"
+        answers:
+          A: "Guy de Maupassant"
+          B: "Honoré de Balzac"
+          C: "Émile Zola"
+          D: "Victor Hugo"
+    difficulty: HARD
+  - text: "Qui a écrit La Chartreuse de Parme ?"
+    answers:
+      A: "Stendhal"
+      B: "Honoré de Balzac"
+      C: "Gustave Flaubert"
+      D: "Prosper Mérimée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote The Charterhouse of Parma?"
+        answers:
+          A: "Stendhal"
+          B: "Honoré de Balzac"
+          C: "Gustave Flaubert"
+          D: "Prosper Mérimée"
+    difficulty: HARD
+  - text: "Qui a écrit Gatsby le Magnifique ?"
+    answers:
+      A: "Ernest Hemingway"
+      B: "John Steinbeck"
+      C: "William Faulkner"
+      D: "F. Scott Fitzgerald"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote The Great Gatsby?"
+        answers:
+          A: "Ernest Hemingway"
+          B: "John Steinbeck"
+          C: "William Faulkner"
+          D: "F. Scott Fitzgerald"
+    difficulty: HARD
+  - text: "Qui a écrit Des souris et des hommes ?"
+    answers:
+      A: "John Steinbeck"
+      B: "Ernest Hemingway"
+      C: "Jack London"
+      D: "William Faulkner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Of Mice and Men?"
+        answers:
+          A: "John Steinbeck"
+          B: "Ernest Hemingway"
+          C: "Jack London"
+          D: "William Faulkner"
+    difficulty: HARD
+  - text: "Qui a écrit Le Bruit et la Fureur ?"
+    answers:
+      A: "Ernest Hemingway"
+      B: "John Steinbeck"
+      C: "William Faulkner"
+      D: "Tennessee Williams"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote The Sound and the Fury?"
+        answers:
+          A: "Ernest Hemingway"
+          B: "John Steinbeck"
+          C: "William Faulkner"
+          D: "Tennessee Williams"
+    difficulty: HARD
+  - text: "Qui a écrit L'Attrape-cœurs ?"
+    answers:
+      A: "Jack Kerouac"
+      B: "J. D. Salinger"
+      C: "Truman Capote"
+      D: "John Updike"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote The Catcher in the Rye?"
+        answers:
+          A: "Jack Kerouac"
+          B: "J. D. Salinger"
+          C: "Truman Capote"
+          D: "John Updike"
+    difficulty: HARD
+  - text: "Qui a écrit Jane Eyre ?"
+    answers:
+      A: "Emily Brontë"
+      B: "Anne Brontë"
+      C: "George Eliot"
+      D: "Charlotte Brontë"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Jane Eyre?"
+        answers:
+          A: "Emily Brontë"
+          B: "Anne Brontë"
+          C: "George Eliot"
+          D: "Charlotte Brontë"
+    difficulty: HARD
+  - text: "Dans la mythologie nordique, quel loup monstrueux, fils de Loki, doit tuer Odin au Ragnarök ?"
+    answers:
+      A: "Jörmungand"
+      B: "Fenrir"
+      C: "Sleipnir"
+      D: "Garm"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Norse mythology, which monstrous wolf, son of Loki, is destined to kill Odin at Ragnarök?"
+        answers:
+          A: "Jörmungand"
+          B: "Fenrir"
+          C: "Sleipnir"
+          D: "Garm"
+    difficulty: HARD
+  - text: "Dans la mythologie égyptienne, quel dieu est le roi des morts et le juge suprême de l'au-delà ?"
+    answers:
+      A: "Anubis"
+      B: "Râ"
+      C: "Osiris"
+      D: "Seth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Egyptian mythology, which god is the king of the dead and the supreme judge of the afterlife?"
+        answers:
+          A: "Anubis"
+          B: "Ra"
+          C: "Osiris"
+          D: "Seth"
+    difficulty: HARD
+  - text: "Dans la légende arthurienne, quelle enchanteresse est la demi-sœur du roi Arthur ?"
+    answers:
+      A: "Morgane"
+      B: "Viviane"
+      C: "Guenièvre"
+      D: "Igraine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Arthurian legend, which enchantress is King Arthur's half-sister?"
+        answers:
+          A: "Morgan le Fay"
+          B: "Viviane"
+          C: "Guinevere"
+          D: "Igraine"
+    difficulty: HARD
+  - text: "Dans l'Odyssée, quelle magicienne transforme les compagnons d'Ulysse en pourceaux ?"
+    answers:
+      A: "Calypso"
+      B: "Médée"
+      C: "Hécate"
+      D: "Circé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the Odyssey, which sorceress turns Odysseus's companions into pigs?"
+        answers:
+          A: "Calypso"
+          B: "Medea"
+          C: "Hecate"
+          D: "Circe"
+    difficulty: HARD
+  - text: "Dans la mythologie nordique, quel héros tue le dragon Fáfnir ?"
+    answers:
+      A: "Beowulf"
+      B: "Sigurd"
+      C: "Ragnar Lodbrok"
+      D: "Starkad"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Norse mythology, which hero kills the dragon Fáfnir?"
+        answers:
+          A: "Beowulf"
+          B: "Sigurd"
+          C: "Ragnar Lodbrok"
+          D: "Starkad"
+    difficulty: HARD
+  - text: "Dans la mythologie égyptienne, quel dieu à tête d'ibis est le patron des scribes ?"
+    answers:
+      A: "Seth"
+      B: "Anubis"
+      C: "Thot"
+      D: "Horus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Egyptian mythology, which ibis-headed god is the patron of scribes?"
+        answers:
+          A: "Seth"
+          B: "Anubis"
+          C: "Thoth"
+          D: "Horus"
+    difficulty: HARD
+  - text: "Qui a écrit le roman épistolaire Clarisse Harlowe ?"
+    answers:
+      A: "Samuel Richardson"
+      B: "Henry Fielding"
+      C: "Laurence Sterne"
+      D: "Daniel Defoe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote the epistolary novel Clarissa Harlowe?"
+        answers:
+          A: "Samuel Richardson"
+          B: "Henry Fielding"
+          C: "Laurence Sterne"
+          D: "Daniel Defoe"
+    difficulty: EXPERT
+  - text: "Qui a écrit Les Souffrances du jeune Werther ?"
+    answers:
+      A: "Friedrich Schiller"
+      B: "Johann Wolfgang von Goethe"
+      C: "Heinrich Heine"
+      D: "Novalis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote The Sorrows of Young Werther?"
+        answers:
+          A: "Friedrich Schiller"
+          B: "Johann Wolfgang von Goethe"
+          C: "Heinrich Heine"
+          D: "Novalis"
+    difficulty: EXPERT
+  - text: "Qui a écrit La Vie et les Opinions de Tristram Shandy ?"
+    answers:
+      A: "Samuel Richardson"
+      B: "Henry Fielding"
+      C: "Laurence Sterne"
+      D: "Tobias Smollett"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote The Life and Opinions of Tristram Shandy?"
+        answers:
+          A: "Samuel Richardson"
+          B: "Henry Fielding"
+          C: "Laurence Sterne"
+          D: "Tobias Smollett"
+    difficulty: EXPERT
+  - text: "Qui a écrit Les Frères Karamazov ?"
+    answers:
+      A: "Léon Tolstoï"
+      B: "Anton Tchekhov"
+      C: "Ivan Tourgueniev"
+      D: "Fiodor Dostoïevski"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote The Brothers Karamazov?"
+        answers:
+          A: "Leo Tolstoy"
+          B: "Anton Chekhov"
+          C: "Ivan Turgenev"
+          D: "Fyodor Dostoevsky"
+    difficulty: EXPERT
+  - text: "Qui a écrit Le Maître et Marguerite ?"
+    answers:
+      A: "Mikhaïl Boulgakov"
+      B: "Maxime Gorki"
+      C: "Boris Pasternak"
+      D: "Isaac Babel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote The Master and Margarita?"
+        answers:
+          A: "Mikhail Bulgakov"
+          B: "Maxim Gorky"
+          C: "Boris Pasternak"
+          D: "Isaac Babel"
+    difficulty: EXPERT
+  - text: "Qui a écrit Le Docteur Jivago ?"
+    answers:
+      A: "Mikhaïl Boulgakov"
+      B: "Boris Pasternak"
+      C: "Alexandre Soljenitsyne"
+      D: "Vladimir Nabokov"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote Doctor Zhivago?"
+        answers:
+          A: "Mikhail Bulgakov"
+          B: "Boris Pasternak"
+          C: "Aleksandr Solzhenitsyn"
+          D: "Vladimir Nabokov"
+    difficulty: EXPERT
+  - text: "Qui a écrit Vendredi ou les Limbes du Pacifique ?"
+    answers:
+      A: "Marguerite Yourcenar"
+      B: "Claude Simon"
+      C: "Michel Tournier"
+      D: "Patrick Modiano"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote Friday, or, The Other Island?"
+        answers:
+          A: "Marguerite Yourcenar"
+          B: "Claude Simon"
+          C: "Michel Tournier"
+          D: "Patrick Modiano"
+    difficulty: EXPERT
+  - text: "Qui a écrit les Mémoires d'Hadrien ?"
+    answers:
+      A: "Simone de Beauvoir"
+      B: "Nathalie Sarraute"
+      C: "Colette"
+      D: "Marguerite Yourcenar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote Memoirs of Hadrian?"
+        answers:
+          A: "Simone de Beauvoir"
+          B: "Nathalie Sarraute"
+          C: "Colette"
+          D: "Marguerite Yourcenar"
+    difficulty: EXPERT
+  - text: "Qui a écrit Le Pavillon des cancéreux ?"
+    answers:
+      A: "Alexandre Soljenitsyne"
+      B: "Boris Pasternak"
+      C: "Vassili Grossman"
+      D: "Ilya Ehrenbourg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote Cancer Ward?"
+        answers:
+          A: "Aleksandr Solzhenitsyn"
+          B: "Boris Pasternak"
+          C: "Vasily Grossman"
+          D: "Ilya Ehrenburg"
+    difficulty: EXPERT
+  - text: "Qui a écrit Pedro Páramo ?"
+    answers:
+      A: "Octavio Paz"
+      B: "Juan Rulfo"
+      C: "Carlos Fuentes"
+      D: "Mario Vargas Llosa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote Pedro Páramo?"
+        answers:
+          A: "Octavio Paz"
+          B: "Juan Rulfo"
+          C: "Carlos Fuentes"
+          D: "Mario Vargas Llosa"
+    difficulty: EXPERT
+  - text: "Qui a écrit Le Tambour ?"
+    answers:
+      A: "Heinrich Böll"
+      B: "Thomas Mann"
+      C: "Günter Grass"
+      D: "Robert Musil"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote The Tin Drum?"
+        answers:
+          A: "Heinrich Böll"
+          B: "Thomas Mann"
+          C: "Günter Grass"
+          D: "Robert Musil"
+    difficulty: EXPERT
+  - text: "Qui a écrit L'Homme sans qualités ?"
+    answers:
+      A: "Hermann Broch"
+      B: "Stefan Zweig"
+      C: "Arthur Schnitzler"
+      D: "Robert Musil"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote The Man Without Qualities?"
+        answers:
+          A: "Hermann Broch"
+          B: "Stefan Zweig"
+          C: "Arthur Schnitzler"
+          D: "Robert Musil"
+    difficulty: EXPERT
+  - text: "Qui a écrit La Montagne magique ?"
+    answers:
+      A: "Thomas Mann"
+      B: "Hermann Hesse"
+      C: "Robert Musil"
+      D: "Stefan Zweig"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote The Magic Mountain?"
+        answers:
+          A: "Thomas Mann"
+          B: "Hermann Hesse"
+          C: "Robert Musil"
+          D: "Stefan Zweig"
+    difficulty: EXPERT
+  - text: "Qui a écrit Siddhartha ?"
+    answers:
+      A: "Thomas Mann"
+      B: "Hermann Hesse"
+      C: "Rainer Maria Rilke"
+      D: "Stefan Zweig"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote Siddhartha?"
+        answers:
+          A: "Thomas Mann"
+          B: "Hermann Hesse"
+          C: "Rainer Maria Rilke"
+          D: "Stefan Zweig"
+    difficulty: EXPERT
+  - text: "Dans la mythologie nordique, comment s'appelle le serpent de Midgard qui ceinture le monde ?"
+    answers:
+      A: "Nidhogg"
+      B: "Fenrir"
+      C: "Jörmungand"
+      D: "Garm"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, what is the name of the Midgard serpent that encircles the world?"
+        answers:
+          A: "Nidhogg"
+          B: "Fenrir"
+          C: "Jörmungandr"
+          D: "Garm"
+    difficulty: EXPERT
+  - text: "Dans la mythologie égyptienne, quelle déesse est l'épouse d'Osiris et la mère d'Horus ?"
+    answers:
+      A: "Nephthys"
+      B: "Hathor"
+      C: "Sekhmet"
+      D: "Isis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Egyptian mythology, which goddess is the wife of Osiris and the mother of Horus?"
+        answers:
+          A: "Nephthys"
+          B: "Hathor"
+          C: "Sekhmet"
+          D: "Isis"
+    difficulty: EXPERT
+  - text: "Dans la mythologie celtique irlandaise, quel dieu-druide est le père de la déesse Brigid et le maître du chaudron d'abondance ?"
+    answers:
+      A: "Le Dagda"
+      B: "Lugh"
+      C: "Nuada"
+      D: "Ogma"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Irish Celtic mythology, which druid god is the father of the goddess Brigid and the master of the cauldron of abundance?"
+        answers:
+          A: "The Dagda"
+          B: "Lugh"
+          C: "Nuada"
+          D: "Ogma"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, quel berger troyen enlevé par Zeus devient l'échanson des dieux ?"
+    answers:
+      A: "Pâris"
+      B: "Ganymède"
+      C: "Anchise"
+      D: "Endymion"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Greek mythology, which Trojan shepherd abducted by Zeus becomes the cupbearer of the gods?"
+        answers:
+          A: "Paris"
+          B: "Ganymede"
+          C: "Anchises"
+          D: "Endymion"
+    difficulty: EXPERT
+  - text: "Dans la mythologie nordique, quel dieu garde le pont arc-en-ciel Bifröst ?"
+    answers:
+      A: "Tyr"
+      B: "Bragi"
+      C: "Heimdall"
+      D: "Njörd"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, which god guards the rainbow bridge Bifröst?"
+        answers:
+          A: "Tyr"
+          B: "Bragi"
+          C: "Heimdall"
+          D: "Njörd"
+    difficulty: EXPERT
+  - text: "Dans la mythologie égyptienne, quel dieu à tête de crocodile est associé au Nil et à la fertilité ?"
+    answers:
+      A: "Khnoum"
+      B: "Ptah"
+      C: "Seth"
+      D: "Sobek"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Egyptian mythology, which crocodile-headed god is associated with the Nile and fertility?"
+        answers:
+          A: "Khnum"
+          B: "Ptah"
+          C: "Seth"
+          D: "Sobek"
+    difficulty: EXPERT

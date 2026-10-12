@@ -9,139 +9,148 @@ topic:
 questions:
   - text: "Combien de joueurs composent une équipe de football sur le terrain, gardien compris ?"
     answers:
-      A: "11"
-      B: "9"
+      A: "9"
+      B: "11"
       C: "10"
       D: "12"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many players make up a football team on the field, including the goalkeeper?"
         answers:
-          A: "11"
-          B: "9"
+          A: "9"
+          B: "11"
           C: "10"
           D: "12"
   - text: "Quel pays a remporté la Coupe du monde de football en 1998 ?"
     answers:
-      A: "La France"
-      B: "L'Italie"
+      A: "L'Italie"
+      B: "La France"
       C: "L'Allemagne"
       D: "Le Brésil"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which country won the 1998 FIFA World Cup?"
         answers:
-          A: "France"
-          B: "Italy"
+          A: "Italy"
+          B: "France"
           C: "Germany"
           D: "Brazil"
   - text: "Quel joueur est surnommé « la Pulga » ?"
     answers:
       A: "Cristiano Ronaldo"
-      B: "Lionel Messi"
-      C: "Neymar"
+      B: "Neymar"
+      C: "Lionel Messi"
       D: "Ronaldinho"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which player is nicknamed \"la Pulga\"?"
         answers:
           A: "Cristiano Ronaldo"
-          B: "Lionel Messi"
-          C: "Neymar"
+          B: "Neymar"
+          C: "Lionel Messi"
           D: "Ronaldinho"
   - text: "Combien de temps dure un match de football, hors prolongations et temps additionnel ?"
     answers:
-      A: "90 minutes"
+      A: "80 minutes"
       B: "100 minutes"
-      C: "80 minutes"
+      C: "90 minutes"
       D: "120 minutes"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "How long does a football match last, excluding extra time and stoppage time?"
         answers:
-          A: "90 minutes"
+          A: "80 minutes"
           B: "100 minutes"
-          C: "80 minutes"
+          C: "90 minutes"
           D: "120 minutes"
   - text: "Quel pays a remporté le plus de Coupes du monde masculines de football ?"
     answers:
-      A: "Le Brésil"
+      A: "L'Italie"
       B: "L'Allemagne"
-      C: "L'Italie"
+      C: "Le Brésil"
       D: "L'Argentine"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which country has won the most men's FIFA World Cups?"
         answers:
-          A: "Brazil"
+          A: "Italy"
           B: "Germany"
-          C: "Italy"
+          C: "Brazil"
           D: "Argentina"
   - text: "Quelle couleur de carton un arbitre montre-t-il pour exclure un joueur ?"
     answers:
-      A: "Rouge"
+      A: "Jaune"
       B: "Bleu"
       C: "Blanc"
-      D: "Jaune"
-    correctAnswer: A
+      D: "Rouge"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What color card does a referee show to send a player off?"
         answers:
-          A: "Red"
+          A: "Yellow"
           B: "Blue"
           C: "White"
-          D: "Yellow"
+          D: "Red"
   - text: "Dans quel club Zinédine Zidane a-t-il évolué avant de rejoindre le Real Madrid ?"
     answers:
       A: "L'Olympique de Marseille"
-      B: "Le Paris Saint-Germain"
-      C: "La Juventus de Turin"
+      B: "La Juventus de Turin"
+      C: "Le Paris Saint-Germain"
       D: "Le FC Barcelone"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which club did Zinédine Zidane play for before joining Real Madrid?"
         answers:
           A: "Olympique de Marseille"
-          B: "Paris Saint-Germain"
-          C: "Juventus"
+          B: "Juventus"
+          C: "Paris Saint-Germain"
           D: "FC Barcelona"
   - text: "Quelle est la compétition qui oppose chaque année les meilleurs clubs européens ?"
     answers:
-      A: "La Coupe des confédérations"
+      A: "La Ligue des champions"
       B: "La Copa Libertadores"
-      C: "La Ligue des champions"
+      C: "La Coupe des confédérations"
       D: "La Gold Cup"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which competition pits the best European clubs against each other every year?"
         answers:
-          A: "FIFA Confederations Cup"
+          A: "UEFA Champions League"
           B: "Copa Libertadores"
-          C: "UEFA Champions League"
+          C: "FIFA Confederations Cup"
           D: "Gold Cup"
   - text: "Quel pays a organisé la Coupe du monde de football 2022 ?"
     answers:
       A: "La Russie"
       B: "L'Afrique du Sud"
-      C: "Le Brésil"
-      D: "Le Qatar"
-    correctAnswer: D
+      C: "Le Qatar"
+      D: "Le Brésil"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which country hosted the 2022 FIFA World Cup?"
         answers:
           A: "Russia"
           B: "South Africa"
-          C: "Brazil"
-          D: "Qatar"
+          C: "Qatar"
+          D: "Brazil"
   - text: "Comment s'appelle le trophée individuel décerné au meilleur joueur du monde par France Football ?"
     answers:
       A: "Le Soulier d'or"
@@ -149,6 +158,7 @@ questions:
       C: "Le Ballon de bronze"
       D: "La Coupe Puskás"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the individual trophy awarded to the world's best player by France Football called?"
@@ -164,6 +174,7 @@ questions:
       C: "Kylian Mbappé"
       D: "Ousmane Dembélé"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which French player scored a hat-trick in the 2022 World Cup final?"
@@ -176,17 +187,18 @@ questions:
     answers:
       A: "Ronaldo"
       B: "Zico"
-      C: "Romário"
-      D: "Pelé"
-    correctAnswer: D
+      C: "Pelé"
+      D: "Romário"
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which Brazilian player won three World Cups with his national team?"
         answers:
           A: "Ronaldo"
           B: "Zico"
-          C: "Romário"
-          D: "Pelé"
+          C: "Pelé"
+          D: "Romário"
   - text: "Sur quel continent se trouve le pays qui a remporté la Coupe du monde 2010 ?"
     answers:
       A: "Amérique du Sud"
@@ -194,6 +206,7 @@ questions:
       C: "Asie"
       D: "Afrique"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "On which continent is the country that won the 2010 World Cup located?"
@@ -204,106 +217,1393 @@ questions:
           D: "Africa"
   - text: "Quelle règle sanctionne un joueur situé plus près de la ligne de but adverse que le ballon et l'avant-dernier défenseur au moment de la passe ?"
     answers:
-      A: "Le coup franc indirect"
+      A: "Le hors-jeu"
       B: "La faute de main"
-      C: "Le hors-jeu"
+      C: "Le coup franc indirect"
       D: "Le carton blanc"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which rule penalizes a player positioned closer to the opponent's goal line than the ball and the second-to-last defender at the moment of the pass?"
         answers:
-          A: "Indirect free kick"
+          A: "Offside"
           B: "Handball"
-          C: "Offside"
+          C: "Indirect free kick"
           D: "White card"
   - text: "Quel est le surnom de l'équipe nationale d'Italie ?"
     answers:
-      A: "Les Bleus"
+      A: "La Nazionale Azzurra"
       B: "La Roja"
-      C: "La Nazionale Azzurra"
+      C: "Les Bleus"
       D: "La Seleção"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What is the nickname of the Italy national team?"
         answers:
-          A: "Les Bleus"
+          A: "La Nazionale Azzurra"
           B: "La Roja"
-          C: "La Nazionale Azzurra"
+          C: "Les Bleus"
           D: "La Seleção"
   - text: "Quel club anglais joue ses matchs à domicile à Old Trafford ?"
     answers:
-      A: "Arsenal"
+      A: "Manchester United"
       B: "Manchester City"
       C: "Liverpool"
-      D: "Manchester United"
-    correctAnswer: D
+      D: "Arsenal"
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which English club plays its home matches at Old Trafford?"
         answers:
-          A: "Arsenal"
+          A: "Manchester United"
           B: "Manchester City"
           C: "Liverpool"
-          D: "Manchester United"
+          D: "Arsenal"
   - text: "Quel joueur a inscrit la célèbre « main de Dieu » lors de la Coupe du monde 1986 ?"
     answers:
       A: "Pelé"
-      B: "Johan Cruyff"
+      B: "Diego Maradona"
       C: "Michel Platini"
-      D: "Diego Maradona"
-    correctAnswer: D
+      D: "Johan Cruyff"
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which player scored the famous \"Hand of God\" at the 1986 World Cup?"
         answers:
           A: "Pelé"
-          B: "Johan Cruyff"
+          B: "Diego Maradona"
           C: "Michel Platini"
-          D: "Diego Maradona"
+          D: "Johan Cruyff"
   - text: "À quelle distance du but est tiré un penalty, en mètres ?"
     answers:
       A: "9 mètres"
-      B: "11 mètres"
+      B: "15 mètres"
       C: "13 mètres"
-      D: "15 mètres"
-    correctAnswer: B
+      D: "11 mètres"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "At what distance from the goal is a penalty taken, in meters?"
         answers:
           A: "9 meters"
-          B: "11 meters"
+          B: "15 meters"
           C: "13 meters"
-          D: "15 meters"
+          D: "11 meters"
   - text: "Quelle sélection nationale a remporté l'Euro 2016 ?"
     answers:
-      A: "La France"
+      A: "Le Portugal"
       B: "L'Allemagne"
       C: "L'Espagne"
-      D: "Le Portugal"
-    correctAnswer: D
+      D: "La France"
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which national team won Euro 2016?"
         answers:
-          A: "France"
+          A: "Portugal"
           B: "Germany"
           C: "Spain"
-          D: "Portugal"
+          D: "France"
   - text: "Quel club espagnol est surnommé les « Blaugranas » ?"
     answers:
       A: "Le Real Madrid"
-      B: "Le FC Barcelone"
+      B: "L'Atlético de Madrid"
       C: "Le Séville FC"
-      D: "L'Atlético de Madrid"
-    correctAnswer: B
+      D: "Le FC Barcelone"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Spanish club is nicknamed the \"Blaugranas\"?"
         answers:
           A: "Real Madrid"
-          B: "FC Barcelona"
+          B: "Atlético de Madrid"
           C: "Sevilla FC"
-          D: "Atlético de Madrid"
+          D: "FC Barcelona"
+  - text: "Quel poste porte traditionnellement le numéro 1 dans une équipe de football ?"
+    answers:
+      A: "Le défenseur central"
+      B: "Le gardien de but"
+      C: "Le milieu défensif"
+      D: "L'avant-centre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which position traditionally wears the number 1 in a football team?"
+        answers:
+          A: "The centre-back"
+          B: "The goalkeeper"
+          C: "The defensive midfielder"
+          D: "The striker"
+    difficulty: EASY
+  - text: "Quelle est la durée réglementaire d'une mi-temps de football, hors temps additionnel ?"
+    answers:
+      A: "45 minutes"
+      B: "35 minutes"
+      C: "40 minutes"
+      D: "30 minutes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the regulation length of one half of a football match, excluding added time?"
+        answers:
+          A: "45 minutes"
+          B: "35 minutes"
+          C: "40 minutes"
+          D: "30 minutes"
+    difficulty: EASY
+  - text: "Comment appelle-t-on la remise en jeu effectuée depuis le coin du terrain ?"
+    answers:
+      A: "Un corner"
+      B: "Un coup franc"
+      C: "Une touche"
+      D: "Une sortie de but"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the restart taken from the corner of the pitch called?"
+        answers:
+          A: "A corner"
+          B: "A free kick"
+          C: "A throw-in"
+          D: "A goal kick"
+    difficulty: EASY
+  - text: "Combien de points une victoire rapporte-t-elle dans la plupart des championnats ?"
+    answers:
+      A: "3 points"
+      B: "2 points"
+      C: "1 point"
+      D: "4 points"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many points does a win earn in most leagues?"
+        answers:
+          A: "3 points"
+          B: "2 points"
+          C: "1 point"
+          D: "4 points"
+    difficulty: EASY
+  - text: "Quel joueur argentin, champion du monde 1986, est surnommé « El Pibe de Oro » ?"
+    answers:
+      A: "Lionel Messi"
+      B: "Diego Maradona"
+      C: "Juan Román Riquelme"
+      D: "Carlos Tevez"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Argentine player, 1986 world champion, is nicknamed \"El Pibe de Oro\"?"
+        answers:
+          A: "Lionel Messi"
+          B: "Diego Maradona"
+          C: "Juan Román Riquelme"
+          D: "Carlos Tevez"
+    difficulty: EASY
+  - text: "Quel carton l'arbitre brandit-il pour avertir un joueur ?"
+    answers:
+      A: "Le carton rouge"
+      B: "Le carton vert"
+      C: "Le carton bleu"
+      D: "Le carton jaune"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which card does the referee show to caution a player?"
+        answers:
+          A: "The red card"
+          B: "The green card"
+          C: "The blue card"
+          D: "The yellow card"
+    difficulty: EASY
+  - text: "Quel club italien, basé à Turin, joue en noir et blanc ?"
+    answers:
+      A: "L'Inter Milan"
+      B: "Le Milan AC"
+      C: "La Juventus"
+      D: "L'AS Rome"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian club, based in Turin, plays in black and white?"
+        answers:
+          A: "Inter Milan"
+          B: "AC Milan"
+          C: "Juventus"
+          D: "AS Roma"
+    difficulty: EASY
+  - text: "Dans quel stade le Liverpool FC joue-t-il ses matchs à domicile ?"
+    answers:
+      A: "Old Trafford"
+      B: "Stamford Bridge"
+      C: "Goodison Park"
+      D: "Anfield"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which stadium does Liverpool FC play its home matches?"
+        answers:
+          A: "Old Trafford"
+          B: "Stamford Bridge"
+          C: "Goodison Park"
+          D: "Anfield"
+    difficulty: EASY
+  - text: "Quelle sélection nationale a remporté la Coupe du monde 2018 en Russie ?"
+    answers:
+      A: "La Croatie"
+      B: "La France"
+      C: "La Belgique"
+      D: "L'Angleterre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which national team won the 2018 World Cup in Russia?"
+        answers:
+          A: "Croatia"
+          B: "France"
+          C: "Belgium"
+          D: "England"
+    difficulty: EASY
+  - text: "Dans quel pays le football moderne a-t-il été codifié au XIXe siècle ?"
+    answers:
+      A: "L'Italie"
+      B: "Le Brésil"
+      C: "L'Angleterre"
+      D: "L'Allemagne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which country was modern football codified in the 19th century?"
+        answers:
+          A: "Italy"
+          B: "Brazil"
+          C: "England"
+          D: "Germany"
+    difficulty: EASY
+  - text: "Quelle sélection nationale est surnommée « la Seleção » ?"
+    answers:
+      A: "L'Argentine"
+      B: "Le Brésil"
+      C: "Le Portugal"
+      D: "L'Uruguay"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which national team is nicknamed \"the Seleção\"?"
+        answers:
+          A: "Argentina"
+          B: "Brazil"
+          C: "Portugal"
+          D: "Uruguay"
+    difficulty: EASY
+  - text: "Quel attaquant portugais est surnommé « CR7 » ?"
+    answers:
+      A: "Luís Figo"
+      B: "João Félix"
+      C: "Cristiano Ronaldo"
+      D: "Bernardo Silva"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Portuguese forward is nicknamed \"CR7\"?"
+        answers:
+          A: "Luís Figo"
+          B: "João Félix"
+          C: "Cristiano Ronaldo"
+          D: "Bernardo Silva"
+    difficulty: EASY
+  - text: "Quel club espagnol de Madrid est surnommé « les Merengues » ?"
+    answers:
+      A: "Le FC Barcelone"
+      B: "L'Atlético de Madrid"
+      C: "Le Real Madrid"
+      D: "Le Séville FC"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Spanish club from Madrid is nicknamed \"the Merengues\"?"
+        answers:
+          A: "FC Barcelona"
+          B: "Atlético de Madrid"
+          C: "Real Madrid"
+          D: "Sevilla FC"
+    difficulty: EASY
+  - text: "Quel poste regroupe les joueurs qui évoluent entre la défense et l'attaque ?"
+    answers:
+      A: "Gardien de but"
+      B: "Défenseur"
+      C: "Attaquant"
+      D: "Milieu de terrain"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which position covers the players who operate between defence and attack?"
+        answers:
+          A: "Goalkeeper"
+          B: "Defender"
+          C: "Forward"
+          D: "Midfielder"
+    difficulty: EASY
+  - text: "Comment appelle-t-on un but inscrit par un joueur dans sa propre cage ?"
+    answers:
+      A: "Un but contre son camp"
+      B: "Un doublé"
+      C: "Un but refusé"
+      D: "Un penalty"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is a goal scored by a player into their own net called?"
+        answers:
+          A: "An own goal"
+          B: "A brace"
+          C: "A disallowed goal"
+          D: "A penalty"
+    difficulty: EASY
+  - text: "Quel pays a remporté la Coupe du monde 1994 aux États-Unis ?"
+    answers:
+      A: "L'Italie"
+      B: "Le Brésil"
+      C: "L'Allemagne"
+      D: "L'Argentine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won the 1994 World Cup in the United States?"
+        answers:
+          A: "Italy"
+          B: "Brazil"
+          C: "Germany"
+          D: "Argentina"
+    difficulty: EASY
+  - text: "Quelle sélection a été sacrée championne du monde en 1970 au Mexique ?"
+    answers:
+      A: "Le Brésil"
+      B: "L'Allemagne"
+      C: "L'Italie"
+      D: "L'Uruguay"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which national team was crowned world champion in 1970 in Mexico?"
+        answers:
+          A: "Brazil"
+          B: "Germany"
+          C: "Italy"
+          D: "Uruguay"
+    difficulty: EASY
+  - text: "Quelle est la durée totale des prolongations, hors temps additionnel ?"
+    answers:
+      A: "10 minutes"
+      B: "15 minutes"
+      C: "20 minutes"
+      D: "30 minutes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the total duration of extra time, excluding stoppage time?"
+        answers:
+          A: "10 minutes"
+          B: "15 minutes"
+          C: "20 minutes"
+          D: "30 minutes"
+    difficulty: EASY
+  - text: "Quel pays a coorganisé la Coupe du monde 2002 avec le Japon ?"
+    answers:
+      A: "La Corée du Sud"
+      B: "La Chine"
+      C: "L'Australie"
+      D: "Les États-Unis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country co-hosted the 2002 World Cup with Japan?"
+        answers:
+          A: "South Korea"
+          B: "China"
+          C: "Australia"
+          D: "United States"
+    difficulty: EASY
+  - text: "Quelle compétition continentale oppose les sélections nationales d'Amérique du Sud ?"
+    answers:
+      A: "La Copa América"
+      B: "L'Euro"
+      C: "La Gold Cup"
+      D: "La Coupe d'Afrique des nations"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which continental competition features the national teams of South America?"
+        answers:
+          A: "Copa América"
+          B: "Euro"
+          C: "Gold Cup"
+          D: "Africa Cup of Nations"
+    difficulty: EASY
+  - text: "Quel club a remporté la Ligue des champions 2005 après avoir été mené 3-0 en finale ?"
+    answers:
+      A: "Le Milan AC"
+      B: "Chelsea"
+      C: "Liverpool"
+      D: "Le FC Barcelone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which club won the 2005 Champions League after being 3-0 down in the final?"
+        answers:
+          A: "AC Milan"
+          B: "Chelsea"
+          C: "Liverpool"
+          D: "FC Barcelona"
+    difficulty: MEDIUM
+  - text: "Quel joueur français a remporté le Ballon d'or 1998 ?"
+    answers:
+      A: "Zinédine Zidane"
+      B: "Davor Šuker"
+      C: "Lilian Thuram"
+      D: "Ronaldo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French player won the 1998 Ballon d'Or?"
+        answers:
+          A: "Zinédine Zidane"
+          B: "Davor Šuker"
+          C: "Lilian Thuram"
+          D: "Ronaldo"
+    difficulty: MEDIUM
+  - text: "Quelle sélection a remporté l'Euro 2000 ?"
+    answers:
+      A: "La France"
+      B: "L'Italie"
+      C: "Le Portugal"
+      D: "Les Pays-Bas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which national team won Euro 2000?"
+        answers:
+          A: "France"
+          B: "Italy"
+          C: "Portugal"
+          D: "Netherlands"
+    difficulty: MEDIUM
+  - text: "Qui a marqué le but en or de la finale de l'Euro 2000 ?"
+    answers:
+      A: "David Trezeguet"
+      B: "Thierry Henry"
+      C: "Zinédine Zidane"
+      D: "Sylvain Wiltord"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who scored the golden goal in the Euro 2000 final?"
+        answers:
+          A: "David Trezeguet"
+          B: "Thierry Henry"
+          C: "Zinédine Zidane"
+          D: "Sylvain Wiltord"
+    difficulty: MEDIUM
+  - text: "Quel Brésilien a remporté le Ballon d'or 2005 ?"
+    answers:
+      A: "Kaká"
+      B: "Ronaldinho"
+      C: "Adriano"
+      D: "Robinho"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Brazilian won the 2005 Ballon d'Or?"
+        answers:
+          A: "Kaká"
+          B: "Ronaldinho"
+          C: "Adriano"
+          D: "Robinho"
+    difficulty: MEDIUM
+  - text: "Quel joueur a été le capitaine de la France championne du monde en 1998 ?"
+    answers:
+      A: "Zinédine Zidane"
+      B: "Laurent Blanc"
+      C: "Didier Deschamps"
+      D: "Fabien Barthez"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player captained France to the 1998 World Cup title?"
+        answers:
+          A: "Zinédine Zidane"
+          B: "Laurent Blanc"
+          C: "Didier Deschamps"
+          D: "Fabien Barthez"
+    difficulty: MEDIUM
+  - text: "Quel club a remporté la Ligue des champions 2022 face à Liverpool ?"
+    answers:
+      A: "Liverpool"
+      B: "Le Real Madrid"
+      C: "Le Paris Saint-Germain"
+      D: "Manchester City"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which club won the 2022 Champions League against Liverpool?"
+        answers:
+          A: "Liverpool"
+          B: "Real Madrid"
+          C: "Paris Saint-Germain"
+          D: "Manchester City"
+    difficulty: MEDIUM
+  - text: "Quelle sélection a remporté la Coupe du monde 2014 au Brésil ?"
+    answers:
+      A: "L'Argentine"
+      B: "L'Allemagne"
+      C: "Le Brésil"
+      D: "Les Pays-Bas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which national team won the 2014 World Cup in Brazil?"
+        answers:
+          A: "Argentina"
+          B: "Germany"
+          C: "Brazil"
+          D: "Netherlands"
+    difficulty: MEDIUM
+  - text: "Qui a reçu le Ballon d'or 2018 après la Coupe du monde en Russie ?"
+    answers:
+      A: "Cristiano Ronaldo"
+      B: "Lionel Messi"
+      C: "Luka Modrić"
+      D: "Antoine Griezmann"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who received the 2018 Ballon d'Or after the World Cup in Russia?"
+        answers:
+          A: "Cristiano Ronaldo"
+          B: "Lionel Messi"
+          C: "Luka Modrić"
+          D: "Antoine Griezmann"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté l'Euro 2012 ?"
+    answers:
+      A: "L'Italie"
+      B: "L'Allemagne"
+      C: "L'Espagne"
+      D: "Le Portugal"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won Euro 2012?"
+        answers:
+          A: "Italy"
+          B: "Germany"
+          C: "Spain"
+          D: "Portugal"
+    difficulty: MEDIUM
+  - text: "Qui a marqué le but de la victoire de l'Espagne en finale de l'Euro 2008 ?"
+    answers:
+      A: "Fernando Torres"
+      B: "Andrés Iniesta"
+      C: "Xavi"
+      D: "David Villa"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who scored Spain's winning goal in the Euro 2008 final?"
+        answers:
+          A: "Fernando Torres"
+          B: "Andrés Iniesta"
+          C: "Xavi"
+          D: "David Villa"
+    difficulty: MEDIUM
+  - text: "Quel club français a remporté la Ligue des champions en 1993 ?"
+    answers:
+      A: "Le Paris Saint-Germain"
+      B: "L'Olympique lyonnais"
+      C: "L'Olympique de Marseille"
+      D: "L'AS Monaco"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French club won the Champions League in 1993?"
+        answers:
+          A: "Paris Saint-Germain"
+          B: "Olympique Lyonnais"
+          C: "Olympique de Marseille"
+          D: "AS Monaco"
+    difficulty: MEDIUM
+  - text: "Quel Brésilien a remporté le Ballon d'or 2007 ?"
+    answers:
+      A: "Didier Drogba"
+      B: "Ronaldinho"
+      C: "Cristiano Ronaldo"
+      D: "Kaká"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Brazilian won the 2007 Ballon d'Or?"
+        answers:
+          A: "Didier Drogba"
+          B: "Ronaldinho"
+          C: "Cristiano Ronaldo"
+          D: "Kaká"
+    difficulty: MEDIUM
+  - text: "Quel entraîneur allemand a mené sa sélection à la victoire au Mondial 2014 ?"
+    answers:
+      A: "Jürgen Klinsmann"
+      B: "Joachim Löw"
+      C: "Franz Beckenbauer"
+      D: "Hansi Flick"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which German coach led his national team to victory at the 2014 World Cup?"
+        answers:
+          A: "Jürgen Klinsmann"
+          B: "Joachim Löw"
+          C: "Franz Beckenbauer"
+          D: "Hansi Flick"
+    difficulty: MEDIUM
+  - text: "Quel club a remporté la Ligue des champions 2020 à Lisbonne ?"
+    answers:
+      A: "Le Paris Saint-Germain"
+      B: "Le Bayern Munich"
+      C: "Le Real Madrid"
+      D: "Manchester City"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which club won the 2020 Champions League in Lisbon?"
+        answers:
+          A: "Paris Saint-Germain"
+          B: "Bayern Munich"
+          C: "Real Madrid"
+          D: "Manchester City"
+    difficulty: MEDIUM
+  - text: "Quelle sélection a remporté la Coupe du monde 2010 en Afrique du Sud ?"
+    answers:
+      A: "L'Espagne"
+      B: "L'Allemagne"
+      C: "Les Pays-Bas"
+      D: "L'Uruguay"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which national team won the 2010 World Cup in South Africa?"
+        answers:
+          A: "Spain"
+          B: "Germany"
+          C: "Netherlands"
+          D: "Uruguay"
+    difficulty: MEDIUM
+  - text: "Quel défenseur italien a remporté le Ballon d'or 2006 ?"
+    answers:
+      A: "Paolo Maldini"
+      B: "Gianluigi Buffon"
+      C: "Fabio Cannavaro"
+      D: "Alessandro Nesta"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian defender won the 2006 Ballon d'Or?"
+        answers:
+          A: "Paolo Maldini"
+          B: "Gianluigi Buffon"
+          C: "Fabio Cannavaro"
+          D: "Alessandro Nesta"
+    difficulty: MEDIUM
+  - text: "Quel attaquant ukrainien a remporté le Ballon d'or 2004 ?"
+    answers:
+      A: "Ronaldinho"
+      B: "Deco"
+      C: "Andriy Shevchenko"
+      D: "Thierry Henry"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Ukrainian striker won the 2004 Ballon d'Or?"
+        answers:
+          A: "Ronaldinho"
+          B: "Deco"
+          C: "Andriy Shevchenko"
+          D: "Thierry Henry"
+    difficulty: MEDIUM
+  - text: "Quel joueur français a remporté le Ballon d'or en 1983, 1984 et 1985 ?"
+    answers:
+      A: "Jean-Pierre Papin"
+      B: "Alain Giresse"
+      C: "Michel Platini"
+      D: "Didier Six"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French player won the Ballon d'Or in 1983, 1984 and 1985?"
+        answers:
+          A: "Jean-Pierre Papin"
+          B: "Alain Giresse"
+          C: "Michel Platini"
+          D: "Didier Six"
+    difficulty: MEDIUM
+  - text: "Quel entraîneur portugais a mené le FC Porto à la victoire en Ligue des champions 2004 ?"
+    answers:
+      A: "André Villas-Boas"
+      B: "Leonardo Jardim"
+      C: "Jorge Jesus"
+      D: "José Mourinho"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Portuguese coach led FC Porto to victory in the 2004 Champions League?"
+        answers:
+          A: "André Villas-Boas"
+          B: "Leonardo Jardim"
+          C: "Jorge Jesus"
+          D: "José Mourinho"
+    difficulty: MEDIUM
+  - text: "Quelle est la hauteur réglementaire d'une cage de but, en mètres ?"
+    answers:
+      A: "2,24 m"
+      B: "2,44 m"
+      C: "2,64 m"
+      D: "2,84 m"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the regulation height of a goal, in metres?"
+        answers:
+          A: "2.24 m"
+          B: "2.44 m"
+          C: "2.64 m"
+          D: "2.84 m"
+    difficulty: HARD
+  - text: "Combien de lois du jeu officielles l'IFAB établit-elle ?"
+    answers:
+      A: "15"
+      B: "16"
+      C: "18"
+      D: "17"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many official Laws of the Game does IFAB establish?"
+        answers:
+          A: "15"
+          B: "16"
+          C: "18"
+          D: "17"
+    difficulty: HARD
+  - text: "Quel joueur a marqué le but de la victoire allemande en finale du Mondial 2014 ?"
+    answers:
+      A: "Thomas Müller"
+      B: "Miroslav Klose"
+      C: "Toni Kroos"
+      D: "Mario Götze"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player scored Germany's winning goal in the 2014 World Cup final?"
+        answers:
+          A: "Thomas Müller"
+          B: "Miroslav Klose"
+          C: "Toni Kroos"
+          D: "Mario Götze"
+    difficulty: HARD
+  - text: "Quel club a remporté trois Ligues des champions consécutives entre 2016 et 2018 ?"
+    answers:
+      A: "Le FC Barcelone"
+      B: "Le Real Madrid"
+      C: "Le Bayern Munich"
+      D: "La Juventus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which club won three consecutive Champions Leagues between 2016 and 2018?"
+        answers:
+          A: "FC Barcelona"
+          B: "Real Madrid"
+          C: "Bayern Munich"
+          D: "Juventus"
+    difficulty: HARD
+  - text: "Quel remplaçant a marqué le but de la victoire de Manchester United en finale de la Ligue des champions 1999 ?"
+    answers:
+      A: "Ole Gunnar Solskjær"
+      B: "Teddy Sheringham"
+      C: "Dwight Yorke"
+      D: "Andy Cole"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which substitute scored Manchester United's winning goal in the 1999 Champions League final?"
+        answers:
+          A: "Ole Gunnar Solskjær"
+          B: "Teddy Sheringham"
+          C: "Dwight Yorke"
+          D: "Andy Cole"
+    difficulty: HARD
+  - text: "Quel sélectionneur a conduit l'Italie au titre mondial en 2006 ?"
+    answers:
+      A: "Marcello Lippi"
+      B: "Cesare Prandelli"
+      C: "Antonio Conte"
+      D: "Giovanni Trapattoni"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which manager led Italy to the World Cup title in 2006?"
+        answers:
+          A: "Marcello Lippi"
+          B: "Cesare Prandelli"
+          C: "Antonio Conte"
+          D: "Giovanni Trapattoni"
+    difficulty: HARD
+  - text: "Quelle sélection a remporté la Coupe du monde 1978 en Argentine ?"
+    answers:
+      A: "L'Argentine"
+      B: "Les Pays-Bas"
+      C: "L'Italie"
+      D: "La France"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which national team won the 1978 World Cup in Argentina?"
+        answers:
+          A: "Argentina"
+          B: "The Netherlands"
+          C: "Italy"
+          D: "France"
+    difficulty: HARD
+  - text: "Qui a été champion du monde 1998 comme joueur puis sélectionneur de la France en 2018 ?"
+    answers:
+      A: "Didier Deschamps"
+      B: "Lilian Thuram"
+      C: "Zinédine Zidane"
+      D: "Bixente Lizarazu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was a world champion in 1998 as a player and then France's manager in 2018?"
+        answers:
+          A: "Didier Deschamps"
+          B: "Lilian Thuram"
+          C: "Zinédine Zidane"
+          D: "Bixente Lizarazu"
+    difficulty: HARD
+  - text: "Quel club a remporté la première Coupe des clubs champions européens en 1956 ?"
+    answers:
+      A: "Manchester United"
+      B: "Le Stade de Reims"
+      C: "L'AC Milan"
+      D: "Le Real Madrid"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which club won the first European Cup in 1956?"
+        answers:
+          A: "Manchester United"
+          B: "Stade de Reims"
+          C: "AC Milan"
+          D: "Real Madrid"
+    difficulty: HARD
+  - text: "Quel attaquant français a gagné la Ligue des champions avec le Real Madrid en 2014, 2016, 2017 et 2018 ?"
+    answers:
+      A: "Karim Benzema"
+      B: "Thierry Henry"
+      C: "Olivier Giroud"
+      D: "Samir Nasri"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French striker won the Champions League with Real Madrid in 2014, 2016, 2017 and 2018?"
+        answers:
+          A: "Karim Benzema"
+          B: "Thierry Henry"
+          C: "Olivier Giroud"
+          D: "Samir Nasri"
+    difficulty: HARD
+  - text: "Dans quel club Johan Cruyff a-t-il évolué entre 1973 et 1978 ?"
+    answers:
+      A: "L'Ajax"
+      B: "Le Feyenoord"
+      C: "Le FC Barcelone"
+      D: "Le PSV"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which club did Johan Cruyff play for between 1973 and 1978?"
+        answers:
+          A: "Ajax"
+          B: "Feyenoord"
+          C: "FC Barcelona"
+          D: "PSV"
+    difficulty: HARD
+  - text: "Quel gardien argentin a été élu meilleur gardien du Mondial 2022 ?"
+    answers:
+      A: "Thibaut Courtois"
+      B: "Emiliano Martínez"
+      C: "Hugo Lloris"
+      D: "Yassine Bounou"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Argentine goalkeeper was named best goalkeeper of the 2022 World Cup?"
+        answers:
+          A: "Thibaut Courtois"
+          B: "Emiliano Martínez"
+          C: "Hugo Lloris"
+          D: "Yassine Bounou"
+    difficulty: HARD
+  - text: "Quel sélectionneur a mené le Brésil à sa victoire en Coupe du monde 2002 ?"
+    answers:
+      A: "Carlos Alberto Parreira"
+      B: "Dunga"
+      C: "Tite"
+      D: "Luiz Felipe Scolari"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which manager led Brazil to victory in the 2002 World Cup?"
+        answers:
+          A: "Carlos Alberto Parreira"
+          B: "Dunga"
+          C: "Tite"
+          D: "Luiz Felipe Scolari"
+    difficulty: HARD
+  - text: "Quel Italien a été élu meilleur joueur de la Coupe du monde 1982 ?"
+    answers:
+      A: "Paolo Rossi"
+      B: "Marco Tardelli"
+      C: "Alessandro Altobelli"
+      D: "Dino Zoff"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian was named best player of the 1982 World Cup?"
+        answers:
+          A: "Paolo Rossi"
+          B: "Marco Tardelli"
+          C: "Alessandro Altobelli"
+          D: "Dino Zoff"
+    difficulty: HARD
+  - text: "Quel club allemand a remporté la Coupe UEFA 1996 ?"
+    answers:
+      A: "Le Borussia Dortmund"
+      B: "Schalke 04"
+      C: "Le Bayern Munich"
+      D: "Le Hambourg SV"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which German club won the 1996 UEFA Cup?"
+        answers:
+          A: "Borussia Dortmund"
+          B: "Schalke 04"
+          C: "Bayern Munich"
+          D: "Hamburger SV"
+    difficulty: HARD
+  - text: "Quelle sélection a remporté la Copa América 2015 puis l'édition du centenaire en 2016 ?"
+    answers:
+      A: "L'Argentine"
+      B: "Le Chili"
+      C: "Le Brésil"
+      D: "L'Uruguay"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which national team won the 2015 Copa América and then the 2016 Centenario edition?"
+        answers:
+          A: "Argentina"
+          B: "Chile"
+          C: "Brazil"
+          D: "Uruguay"
+    difficulty: HARD
+  - text: "Quel attaquant brésilien a remporté le Ballon d'or 2002 ?"
+    answers:
+      A: "Rivaldo"
+      B: "Ronaldinho"
+      C: "Kaká"
+      D: "Ronaldo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Brazilian forward won the 2002 Ballon d'Or?"
+        answers:
+          A: "Rivaldo"
+          B: "Ronaldinho"
+          C: "Kaká"
+          D: "Ronaldo"
+    difficulty: HARD
+  - text: "Quel capitaine a soulevé la Coupe du monde 2002 pour le Brésil ?"
+    answers:
+      A: "Ronaldo"
+      B: "Roberto Carlos"
+      C: "Dunga"
+      D: "Cafu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which captain lifted the 2002 World Cup for Brazil?"
+        answers:
+          A: "Ronaldo"
+          B: "Roberto Carlos"
+          C: "Dunga"
+          D: "Cafu"
+    difficulty: HARD
+  - text: "Quel club a finalement été relégué en Serie B après le Calciopoli de 2006 ?"
+    answers:
+      A: "L'AC Milan"
+      B: "La Juventus"
+      C: "La Lazio"
+      D: "La Fiorentina"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which club was ultimately relegated to Serie B after the 2006 Calciopoli scandal?"
+        answers:
+          A: "AC Milan"
+          B: "Juventus"
+          C: "Lazio"
+          D: "Fiorentina"
+    difficulty: HARD
+  - text: "Quel joueur soviétique a remporté le Ballon d'or 1963 ?"
+    answers:
+      A: "Lev Yachine"
+      B: "Oleg Blokhine"
+      C: "Igor Belanov"
+      D: "Valeri Karpine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Soviet player won the 1963 Ballon d'Or?"
+        answers:
+          A: "Lev Yashin"
+          B: "Oleg Blokhin"
+          C: "Igor Belanov"
+          D: "Valeri Karpin"
+    difficulty: HARD
+  - text: "Quelle sélection a remporté la première Coupe du monde en 1930 ?"
+    answers:
+      A: "Le Brésil"
+      B: "L'Uruguay"
+      C: "L'Argentine"
+      D: "L'Italie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which team won the first World Cup in 1930?"
+        answers:
+          A: "Brazil"
+          B: "Uruguay"
+          C: "Argentina"
+          D: "Italy"
+    difficulty: EXPERT
+  - text: "Quel Portugais a remporté le Ballon d'or 1965 ?"
+    answers:
+      A: "Bobby Charlton"
+      B: "Luis Suárez"
+      C: "Gianni Rivera"
+      D: "Eusébio"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Portuguese player won the 1965 Ballon d'Or?"
+        answers:
+          A: "Bobby Charlton"
+          B: "Luis Suárez"
+          C: "Gianni Rivera"
+          D: "Eusébio"
+    difficulty: EXPERT
+  - text: "Quelles éditions de la Coupe du monde l'Italie a-t-elle remportées avant-guerre ?"
+    answers:
+      A: "1934 et 1938"
+      B: "1926 et 1930"
+      C: "1930 et 1934"
+      D: "1938 et 1950"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which World Cup editions did Italy win before the war?"
+        answers:
+          A: "1934 and 1938"
+          B: "1926 and 1930"
+          C: "1930 and 1934"
+          D: "1938 and 1950"
+    difficulty: EXPERT
+  - text: "Quel stade a accueilli la finale de la Coupe du monde 1966 ?"
+    answers:
+      A: "Old Trafford"
+      B: "Wembley"
+      C: "Goodison Park"
+      D: "Villa Park"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which stadium hosted the 1966 World Cup final?"
+        answers:
+          A: "Old Trafford"
+          B: "Wembley"
+          C: "Goodison Park"
+          D: "Villa Park"
+    difficulty: EXPERT
+  - text: "Quel Argentin a marqué le but de la victoire en finale du Mondial 1986 ?"
+    answers:
+      A: "Diego Maradona"
+      B: "José Luis Brown"
+      C: "Jorge Valdano"
+      D: "Jorge Burruchaga"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Argentine scored the winning goal in the 1986 World Cup final?"
+        answers:
+          A: "Diego Maradona"
+          B: "José Luis Brown"
+          C: "Jorge Valdano"
+          D: "Jorge Burruchaga"
+    difficulty: EXPERT
+  - text: "Quel club Manchester United a-t-il battu en finale de la Coupe des vainqueurs de coupe 1991 ?"
+    answers:
+      A: "Le Real Madrid"
+      B: "La Juventus"
+      C: "Le FC Barcelone"
+      D: "Anderlecht"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which club did Manchester United beat in the 1991 Cup Winners' Cup final?"
+        answers:
+          A: "Real Madrid"
+          B: "Juventus"
+          C: "FC Barcelona"
+          D: "Anderlecht"
+    difficulty: EXPERT
+  - text: "Quelle sélection a remporté l'Euro 1996 en Angleterre ?"
+    answers:
+      A: "La Tchéquie"
+      B: "L'Angleterre"
+      C: "La France"
+      D: "L'Allemagne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which team won Euro 1996 in England?"
+        answers:
+          A: "Czech Republic"
+          B: "England"
+          C: "France"
+          D: "Germany"
+    difficulty: EXPERT
+  - text: "Quel Brésilien a été élu meilleur joueur de la Coupe du monde 1994 ?"
+    answers:
+      A: "Hristo Stoichkov"
+      B: "Roberto Baggio"
+      C: "Franco Baresi"
+      D: "Romário"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Brazilian was named best player of the 1994 World Cup?"
+        answers:
+          A: "Hristo Stoichkov"
+          B: "Roberto Baggio"
+          C: "Franco Baresi"
+          D: "Romário"
+    difficulty: EXPERT
+  - text: "Quel Français a inscrit 13 buts lors de la Coupe du monde 1958 ?"
+    answers:
+      A: "Raymond Kopa"
+      B: "Jean Vincent"
+      C: "Maryan Wisnieski"
+      D: "Just Fontaine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Frenchman scored 13 goals at the 1958 World Cup?"
+        answers:
+          A: "Raymond Kopa"
+          B: "Jean Vincent"
+          C: "Maryan Wisnieski"
+          D: "Just Fontaine"
+    difficulty: EXPERT
+  - text: "Quel sélectionneur a mené l'Argentine au titre mondial 1978 ?"
+    answers:
+      A: "Carlos Bilardo"
+      B: "Marcelo Bielsa"
+      C: "Daniel Passarella"
+      D: "César Luis Menotti"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which manager led Argentina to the 1978 World Cup title?"
+        answers:
+          A: "Carlos Bilardo"
+          B: "Marcelo Bielsa"
+          C: "Daniel Passarella"
+          D: "César Luis Menotti"
+    difficulty: EXPERT
+  - text: "Qui était le gardien titulaire de la France championne du monde en 1998 ?"
+    answers:
+      A: "Bernard Lama"
+      B: "Grégory Coupet"
+      C: "Fabien Barthez"
+      D: "Lionel Charbonnier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the starting goalkeeper for France, world champions in 1998?"
+        answers:
+          A: "Bernard Lama"
+          B: "Grégory Coupet"
+          C: "Fabien Barthez"
+          D: "Lionel Charbonnier"
+    difficulty: EXPERT
+  - text: "Quel Français a remporté le Ballon d'or 1958 ?"
+    answers:
+      A: "Just Fontaine"
+      B: "Roger Piantoni"
+      C: "Raymond Kopa"
+      D: "Robert Jonquet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Frenchman won the 1958 Ballon d'Or?"
+        answers:
+          A: "Just Fontaine"
+          B: "Roger Piantoni"
+          C: "Raymond Kopa"
+          D: "Robert Jonquet"
+    difficulty: EXPERT
+  - text: "Quel Italien a remporté le Ballon d'or 1969 ?"
+    answers:
+      A: "Sandro Mazzola"
+      B: "Luigi Riva"
+      C: "Giacinto Facchetti"
+      D: "Gianni Rivera"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian won the 1969 Ballon d'Or?"
+        answers:
+          A: "Sandro Mazzola"
+          B: "Luigi Riva"
+          C: "Giacinto Facchetti"
+          D: "Gianni Rivera"
+    difficulty: EXPERT
+  - text: "Quel club a remporté la Ligue des champions 2004 sous la direction de José Mourinho ?"
+    answers:
+      A: "L'AS Monaco"
+      B: "Le Deportivo La Corogne"
+      C: "Chelsea"
+      D: "Le FC Porto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which club won the 2004 Champions League under José Mourinho?"
+        answers:
+          A: "AS Monaco"
+          B: "Deportivo La Coruña"
+          C: "Chelsea"
+          D: "FC Porto"
+    difficulty: EXPERT
+  - text: "Quel joueur a inscrit deux buts de la tête en finale de la Coupe du monde 1998 ?"
+    answers:
+      A: "Emmanuel Petit"
+      B: "Youri Djorkaeff"
+      C: "Thierry Henry"
+      D: "Zinédine Zidane"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player scored two headers in the 1998 World Cup final?"
+        answers:
+          A: "Emmanuel Petit"
+          B: "Youri Djorkaeff"
+          C: "Thierry Henry"
+          D: "Zinédine Zidane"
+    difficulty: EXPERT
+  - text: "Quelle sélection a remporté la Coupe du monde 1954 en Suisse ?"
+    answers:
+      A: "L'Uruguay"
+      B: "La Hongrie"
+      C: "L'Allemagne de l'Ouest"
+      D: "L'Autriche"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team won the 1954 World Cup in Switzerland?"
+        answers:
+          A: "Uruguay"
+          B: "Hungary"
+          C: "West Germany"
+          D: "Austria"
+    difficulty: EXPERT
+  - text: "Quel attaquant hongrois était la star de l'équipe finaliste en 1954 ?"
+    answers:
+      A: "Nándor Hidegkuti"
+      B: "Sándor Kocsis"
+      C: "József Bozsik"
+      D: "Ferenc Puskás"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Hungarian forward was the star of the 1954 runner-up team?"
+        answers:
+          A: "Nándor Hidegkuti"
+          B: "Sándor Kocsis"
+          C: "József Bozsik"
+          D: "Ferenc Puskás"
+    difficulty: EXPERT
+  - text: "Quel club brésilien a battu Liverpool en finale de la Coupe intercontinentale 1981 ?"
+    answers:
+      A: "Santos"
+      B: "Flamengo"
+      C: "São Paulo"
+      D: "Vasco da Gama"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Brazilian club beat Liverpool in the 1981 Intercontinental Cup final?"
+        answers:
+          A: "Santos"
+          B: "Flamengo"
+          C: "São Paulo"
+          D: "Vasco da Gama"
+    difficulty: EXPERT
+  - text: "Quel Bulgare a remporté le Ballon d'or 1994 ?"
+    answers:
+      A: "Romário"
+      B: "Roberto Baggio"
+      C: "Hristo Stoichkov"
+      D: "Paolo Maldini"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Bulgarian won the 1994 Ballon d'Or?"
+        answers:
+          A: "Romário"
+          B: "Roberto Baggio"
+          C: "Hristo Stoichkov"
+          D: "Paolo Maldini"
+    difficulty: EXPERT
+  - text: "Quel Allemand a marqué le penalty décisif de la finale du Mondial 1990 ?"
+    answers:
+      A: "Lothar Matthäus"
+      B: "Andreas Brehme"
+      C: "Rudi Völler"
+      D: "Jürgen Klinsmann"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which German scored the decisive penalty in the 1990 World Cup final?"
+        answers:
+          A: "Lothar Matthäus"
+          B: "Andreas Brehme"
+          C: "Rudi Völler"
+          D: "Jürgen Klinsmann"
+    difficulty: EXPERT

@@ -69,6 +69,8 @@ def parse_level(value):
 def apply_mapping(path, mapping):
     lines = read(path)
     questions = segments(lines)
+    insertions = []
+    replacements = []
     for key, value in mapping.items():
         index = int(key)
         if index < 0 or index >= len(questions):
@@ -77,11 +79,16 @@ def apply_mapping(path, mapping):
         level = parse_level(value)
         line = f"{DIFFICULTY} {level}\n"
         if segment["difficulty"] is not None:
-            lines[segment["difficulty"]] = line
+            replacements.append((segment["difficulty"], line))
         elif segment["correct"] is not None:
-            lines.insert(segment["correct"] + 1, line)
+            insertions.append((segment["correct"] + 1, line))
         else:
             raise SystemExit(f"{path}: question {index} sans correctAnswer")
+    # Insertions d'abord, du bas vers le haut : les positions des questions précédentes ne bougent pas.
+    for position, line in sorted(insertions, reverse=True):
+        lines.insert(position, line)
+    for position, line in replacements:
+        lines[position] = line
     Path(path).write_text("".join(lines), encoding="utf-8")
     print(f"✓ {Path(path).name}: {len(mapping)} difficulté(s) appliquée(s)")
 
@@ -139,11 +146,11 @@ def template(path):
 
 def show_counts(path):
     counts, total, missing = counts_of(path)
-    target = total / len(LEVELS)
-    print(f"{Path(path).name}: n={total} (sans difficulté: {missing})")
+    target = max(25, round(total / len(LEVELS)))
+    print(f"{Path(path).name}: n={total} (sans difficulté: {missing}) — cible {target}/niveau")
     for level in LEVELS:
-        deficit = max(0, round(target) - counts[level])
-        print(f"  {level:6s} présent={counts[level]:3d}  cible≈{target:.2f}  déficit={deficit}")
+        deficit = max(0, target - counts[level])
+        print(f"  {level:6s} présent={counts[level]:3d}  déficit={deficit}")
 
 
 def main():

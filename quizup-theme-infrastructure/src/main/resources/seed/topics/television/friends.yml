@@ -14,6 +14,7 @@ questions:
       C: "Boston"
       D: "Los Angeles"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "In which city is the series Friends mainly set?"
@@ -29,6 +30,7 @@ questions:
       C: "Médecin"
       D: "Architecte"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "What is Ross Geller's job?"
@@ -44,6 +46,7 @@ questions:
       C: "Serveuse"
       D: "Pharmacienne"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What job does Monica Geller do?"
@@ -59,6 +62,7 @@ questions:
       C: "Le droit"
       D: "Le commerce"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "In what field does Chandler Bing work?"
@@ -74,6 +78,7 @@ questions:
       C: "Serveuse"
       D: "Coiffeuse"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is Phoebe Buffay's job?"
@@ -89,6 +94,7 @@ questions:
       C: "Serveuse"
       D: "Réceptionniste"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What odd job does Rachel Green get at the start of the series?"
@@ -104,6 +110,7 @@ questions:
       C: "Michael Schur"
       D: "David Crane et Marta Kauffman"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Who created the series Friends?"
@@ -119,6 +126,7 @@ questions:
       C: "Cheers"
       D: "Monk's Café"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the coffee shop where the six friends meet?"
@@ -134,6 +142,7 @@ questions:
       C: "Matthew Perry"
       D: "Paul Rudd"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which actor plays Chandler Bing?"
@@ -149,6 +158,7 @@ questions:
       C: "Courteney Cox"
       D: "Maggie Wheeler"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which actress plays Phoebe Buffay?"
@@ -164,6 +174,7 @@ questions:
       C: "Hank Azaria"
       D: "David Schwimmer"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which actor plays Joey Tribbiani?"
@@ -179,6 +190,7 @@ questions:
       C: "Courteney Cox"
       D: "Jane Sibbett"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which actress plays Monica Geller?"
@@ -194,6 +206,7 @@ questions:
       C: "Matt LeBlanc"
       D: "Paul Rudd"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which actor plays Ross Geller?"
@@ -209,6 +222,7 @@ questions:
       C: "Jennifer Aniston"
       D: "Maggie Wheeler"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which actress plays Rachel Green?"
@@ -224,6 +238,7 @@ questions:
       C: "Coco"
       D: "Georges"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the name of Ross's monkey?"
@@ -239,6 +254,7 @@ questions:
       C: "Susan"
       D: "Mona"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the name of Ross's first wife?"
@@ -254,6 +270,7 @@ questions:
       C: "Ben"
       D: "David"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the name of Ross and Carol's son?"
@@ -269,6 +286,7 @@ questions:
       C: "Alice"
       D: "Sophie"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the name of Phoebe's twin sister?"
@@ -284,6 +302,7 @@ questions:
       C: "Emma"
       D: "Carol"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of Ross and Rachel's daughter?"
@@ -299,6 +318,7 @@ questions:
       C: "Joey"
       D: "Pete"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Who does Monica marry?"
@@ -314,6 +334,7 @@ questions:
       C: "David"
       D: "Mike Hannigan"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who does Phoebe marry in the final season?"
@@ -329,6 +350,7 @@ questions:
       C: "Eugene"
       D: "Francis"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is Chandler's middle name?"
@@ -344,6 +366,7 @@ questions:
       C: "Gunther"
       D: "Chandler"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which character is famous for the line \"How you doin'?\""
@@ -359,6 +382,7 @@ questions:
       C: "Demi-frères"
       D: "Frère et sœur"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What is the family relationship between Monica and Ross?"
@@ -374,6 +398,7 @@ questions:
       C: "Nora"
       D: "Judy"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the name of Phoebe's biological mother?"
@@ -389,6 +414,7 @@ questions:
       C: "Together Again"
       D: "You and Me"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the Friends theme song?"
@@ -404,6 +430,7 @@ questions:
       C: "The Beach Boys"
       D: "R.E.M."
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which band performs the Friends theme song?"
@@ -419,6 +446,7 @@ questions:
       C: "12"
       D: "9"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "How many seasons does Friends have?"
@@ -434,6 +462,7 @@ questions:
       C: "1996"
       D: "1998"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "In what year did Friends first air?"
@@ -449,6 +478,7 @@ questions:
       C: "2000"
       D: "2004"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In what year did Friends end?"
@@ -464,6 +494,7 @@ questions:
       C: "CBS"
       D: "NBC"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "On which American network was the series Friends broadcast?"
@@ -479,6 +510,7 @@ questions:
       C: "20"
       D: "12"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What is the number of Monica and Rachel's apartment?"
@@ -494,6 +526,7 @@ questions:
       C: "Gunther"
       D: "Frank"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Central Perk employee is in love with Rachel?"
@@ -509,6 +542,7 @@ questions:
       C: "Gloria"
       D: "Estelle"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Who is Joey's agent?"
@@ -524,6 +558,7 @@ questions:
       C: "Chandler"
       D: "Joey"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which character is known for refusing to share their food?"
@@ -539,6 +574,7 @@ questions:
       C: "Smelly Cat"
       D: "Little Black Curly Hair"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which song is Phoebe's most famous?"
@@ -554,6 +590,7 @@ questions:
       C: "Deux lapins"
       D: "Un canard et une poule"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which animals did Chandler and Joey adopt together?"
@@ -569,6 +606,7 @@ questions:
       C: "Carol"
       D: "Emily"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the name of Ross's second wife?"
@@ -584,6 +622,7 @@ questions:
       C: "Rachel"
       D: "Phoebe"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which name does Ross mistakenly say at his wedding in London?"
@@ -599,6 +638,7 @@ questions:
       C: "Charles et Nora"
       D: "Jack et Judy"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "What are the names of Monica and Ross's parents?"
@@ -614,6 +654,7 @@ questions:
       C: "M. Geller"
       D: "M. Kaplan"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the name of the superintendent of the building where the friends live?"
@@ -629,6 +670,7 @@ questions:
       C: "Hank Azaria"
       D: "Jon Favreau"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which actor plays Mike Hannigan, Phoebe's husband?"
@@ -644,6 +686,7 @@ questions:
       C: "Tom Selleck"
       D: "Jon Favreau"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which actor plays Richard Burke, Monica's older friend?"
@@ -659,6 +702,7 @@ questions:
       C: "Des jours et des vies"
       D: "Santa Barbara"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "In which soap opera does Joey get the role of Dr. Drake Ramoray?"
@@ -674,6 +718,7 @@ questions:
       C: "Meilleur générique"
       D: "Meilleur acteur"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which Emmy Award did the series Friends win in 2002?"
@@ -689,6 +734,7 @@ questions:
       C: "180"
       D: "100"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "How many episodes does the series Friends have?"
@@ -704,6 +750,7 @@ questions:
       C: "Frank Buffay Jr."
       D: "Frank Buffay Sr."
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What is the name of Phoebe's half-brother?"
@@ -719,6 +766,7 @@ questions:
       C: "Frank Jr. Jr., Leslie et Chandler"
       D: "Jack, Judy et Ursula"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "What are the names of the triplets Phoebe carries for her brother?"
@@ -734,6 +782,7 @@ questions:
       C: "Avocat"
       D: "Professeur de fac"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What is Richard Burke's profession?"
@@ -749,6 +798,7 @@ questions:
       C: "Lisa Kudrow"
       D: "Jennifer Aniston"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Friends actress won a Golden Globe in 2003?"
@@ -764,6 +814,7 @@ questions:
       C: "It wasn't my fault !"
       D: "I had to work !"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "What phrase does Ross constantly repeat to justify his breakup with Rachel?"
@@ -779,6 +830,7 @@ questions:
       C: "What's up, baby ?"
       D: "How you doin' ?"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What is Joey's iconic pickup line for hitting on women?"
@@ -794,6 +846,7 @@ questions:
       C: "Lazy Cat"
       D: "Pretty Cat"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which Phoebe song became iconic for the series?"
@@ -809,6 +862,7 @@ questions:
       C: "Snowy"
       D: "Mr. Penguin"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is the name of the stuffed penguin Joey is very attached to?"
@@ -824,6 +878,7 @@ questions:
       C: "Un canard et un poussin"
       D: "Un lapin et un cochon"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which two animals did Joey and Chandler adopt as pets?"
@@ -839,6 +894,7 @@ questions:
       C: "Un chapeau de cow-boy"
       D: "Un masque de citrouille"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "In the Thanksgiving episodes, what does Monica put on her head to amuse Chandler?"
@@ -854,6 +910,7 @@ questions:
       C: "Lift it !"
       D: "Turn it !"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "What word does Ross yell while trying to get the couch up the stairs?"
@@ -869,6 +926,7 @@ questions:
       C: "Sarah Ferguson, duchesse d'York"
       D: "Le prince William"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which British figure makes a cameo at Ross's wedding in London?"
@@ -884,6 +942,7 @@ questions:
       C: "Un concert de Phoebe"
       D: "Une remise de prix pour Chandler"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What event are the friends getting ready for in the episode \"The One Where No One's Ready\"?"
@@ -899,6 +958,7 @@ questions:
       C: "Le frère de Gunther"
       D: "Un professeur de Ross"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "In the episode with Brad Pitt as a guest, what role does he play?"
@@ -914,6 +974,7 @@ questions:
       C: "Julia Roberts"
       D: "Susan Sarandon"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which actress plays Susie Moss, the former classmate who gets revenge on Chandler?"
@@ -929,6 +990,7 @@ questions:
       C: "Alec Baldwin"
       D: "Sean Penn"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which actor plays Paul Stevens, Elizabeth's father, whom Rachel briefly dates?"
@@ -944,6 +1006,7 @@ questions:
       C: "Winona Ryder"
       D: "Reese Witherspoon"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which actress plays Jill, one of Rachel's sisters?"
@@ -959,6 +1022,7 @@ questions:
       C: "Oh dear !"
       D: "Oh my God !"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which interjection does Janice repeat with her distinctive laugh?"
@@ -974,6 +1038,7 @@ questions:
       C: "Paolo"
       D: "Gunther"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which character working at Central Perk is hopelessly in love with Rachel?"
@@ -989,6 +1054,7 @@ questions:
       C: "Bruce Willis"
       D: "Paul Rudd"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which actor plays Richard Burke, the ophthalmologist Monica dates?"
@@ -1004,6 +1070,7 @@ questions:
       C: "Joshua"
       D: "Barry"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which young man does Rachel hire as an assistant in her office?"
@@ -1019,6 +1086,7 @@ questions:
       C: "Le père de Chandler"
       D: "Joey"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who officiates Monica and Chandler's wedding at the end of season 7?"
@@ -1034,6 +1102,7 @@ questions:
       C: "Sur le toit de l'immeuble"
       D: "Dans un restaurant"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Where do Ross and Rachel kiss for the first time in season 2?"
@@ -1049,6 +1118,7 @@ questions:
       C: "2005"
       D: "2004"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In what year did the final episode of Friends air?"
@@ -1064,6 +1134,7 @@ questions:
       C: "The Joey Show"
       D: "Joey"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which spin-off follows Joey Tribbiani after the end of Friends?"
@@ -1079,6 +1150,7 @@ questions:
       C: "Le Golden Globe de la meilleure série dramatique"
       D: "Le Grammy de la meilleure musique de série"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which award did Friends win in 2002?"
@@ -1094,6 +1166,7 @@ questions:
       C: "The Rembrandts"
       D: "The Beatles"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which band performs the Friends theme song, \"I'll Be There for You\"?"
@@ -1109,6 +1182,7 @@ questions:
       C: "Ils dansent dans une fontaine"
       D: "Ils jouent au football"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What do the six friends do in the opening title sequence?"
@@ -1124,6 +1198,7 @@ questions:
       C: "The Aniston"
       D: "The Monica"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which hairstyle popularized by Jennifer Aniston is named after her character?"
@@ -1139,6 +1214,7 @@ questions:
       C: "Phoebe et Joey"
       D: "Rachel et Joey"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "In 'The One with the Embryos', which duo wins the quiz and gets the apartment?"
@@ -1154,6 +1230,7 @@ questions:
       C: "Chandler Muriel Bing"
       D: "Madame Bing"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Under what name is Chandler's TV Guide magazine addressed?"
@@ -1169,6 +1246,7 @@ questions:
       C: "Le voisin nu d'en face"
       D: "Le voisin barbu du dessous"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which neighbor do the friends regularly spy on from the apartment window?"
@@ -1184,6 +1262,7 @@ questions:
       C: "These are my fries !"
       D: "I'm still hungry !"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does Joey repeat to refuse sharing his meal with his friends?"
@@ -1199,6 +1278,7 @@ questions:
       C: "À l'opinion d'un poulet"
       D: "À l'opinion d'une vache"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "What does Joey compare an unimportant opinion to, calling it a 'moo point'?"
@@ -1214,6 +1294,7 @@ questions:
       C: "Gunther"
       D: "Chandler"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who constantly repeats 'Could I BE any more...?' in the series?"
@@ -1229,6 +1310,7 @@ questions:
       C: "I know !"
       D: "Oh please !"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "What line does Monica say when she's annoyed that no one believes her?"
@@ -1244,6 +1326,7 @@ questions:
       C: "Six"
       D: "Huit"
     correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What number does Monica chant when talking about erogenous zones?"
@@ -1259,6 +1342,7 @@ questions:
       C: "Ross et Monica"
       D: "Monica et Phoebe"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Who performs the awkward choreography called 'The Routine'?"
@@ -1274,6 +1358,7 @@ questions:
       C: "Un lutin"
       D: "L'Armadillo des fêtes"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "What costume does Ross wear at Christmas to comfort Ben?"
@@ -1289,6 +1374,7 @@ questions:
       C: "Le Soggy Sandwich"
       D: "Le Turkey Melt"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is Monica's Thanksgiving sandwich called, with its gravy-soaked slice of bread?"
@@ -1304,6 +1390,7 @@ questions:
       C: "Le homard"
       D: "Le manchot"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "According to Phoebe, which animal mates for life, like Ross and Rachel?"
@@ -1319,6 +1406,7 @@ questions:
       C: "Ross"
       D: "Phoebe"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Who first discovers the secret relationship between Monica and Chandler?"
@@ -1334,6 +1422,7 @@ questions:
       C: "Mike"
       D: "Parker"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "For which scientist does Phoebe have her heart broken when he leaves to work in Minsk?"
@@ -1349,6 +1438,7 @@ questions:
       C: "Courir le marathon de New York"
       D: "Faire le tour du monde à vélo"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "What dream does Pete Becker, Monica's rich boyfriend, pursue?"
@@ -1364,6 +1454,7 @@ questions:
       C: "Ross"
       D: "Gunther"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Who does Rachel accidentally marry in Las Vegas?"
@@ -1379,6 +1470,7 @@ questions:
       C: "Julie"
       D: "Rachel"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What name does Ross say instead of Emily's at the altar?"
@@ -1394,6 +1486,7 @@ questions:
       C: "Emma"
       D: "Elizabeth"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "What is the first name of the young woman who entrusts her twins to Monica and Chandler?"
@@ -1409,6 +1502,7 @@ questions:
       C: "Un seul bébé"
       D: "Des triplés"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "How many babies does Phoebe carry for her brother Frank and his wife Alice?"
@@ -1424,6 +1518,7 @@ questions:
       C: "Alec Baldwin"
       D: "Sean Penn"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which actor plays Mike Hannigan, Phoebe's husband?"
@@ -1439,6 +1534,7 @@ questions:
       C: "Julia Roberts"
       D: "Winona Ryder"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which actress plays Amy, one of Rachel's sisters?"
@@ -1454,6 +1550,7 @@ questions:
       C: "Paget Brewster"
       D: "Jane Sibbett"
     correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which actress plays Kathy, Joey's girlfriend whom Chandler falls in love with?"
@@ -1469,6 +1566,7 @@ questions:
       C: "Jane Sibbett"
       D: "Helen Baxendale"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which actress plays Janice, Chandler's exasperating girlfriend?"
@@ -1484,6 +1582,7 @@ questions:
       C: "Rowan Atkinson"
       D: "Hugh Laurie"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which British actor, future star of \"House\", plays a passenger on Rachel's flight to London?"
@@ -1499,6 +1598,7 @@ questions:
       C: "Adam Sandler et Chris Rock"
       D: "Jim Carrey et Jeff Daniels"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which comedians make a cameo at Central Perk arguing in front of the friends?"

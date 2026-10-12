@@ -10,19 +10,20 @@ questions:
   - text: "Comment appelle-t-on cette tarte aux pommes caramélisées, servie retournée, spécialité de la Sologne ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tarte_tatin.jpg?width=800
     answers:
-      A: "La tarte Tatin"
+      A: "La tarte au sucre"
       B: "La tarte normande"
       C: "Le clafoutis"
-      D: "La tarte au sucre"
-    correctAnswer: A
+      D: "La tarte Tatin"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What is this caramelized apple tart, served upside down, a specialty of Sologne, called?"
         answers:
-          A: "Tarte Tatin"
+          A: "Sugar tart"
           B: "Normandy tart"
           C: "Clafoutis"
-          D: "Sugar tart"
+          D: "Tarte Tatin"
   - text: "Quel est ce dessert constitué d'une crème vanillée recouverte d'une fine croûte de caramel craquant ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cremebrulee.jpg?width=800
     answers:
@@ -31,6 +32,7 @@ questions:
       C: "La panna cotta"
       D: "La mousse au chocolat"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "What is this dessert made of vanilla custard topped with a thin crust of crunchy caramel?"
@@ -47,6 +49,7 @@ questions:
       C: "Les macarons"
       D: "Les canelés"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What are these small, round, colorful cookies made of two shells and a creamy filling?"
@@ -58,19 +61,20 @@ questions:
   - text: "De quel pays européen le tiramisu, dessert au café et au mascarpone, est-il originaire ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tiramisu_dessert.jpg?width=800
     answers:
-      A: "La Grèce"
+      A: "L'Italie"
       B: "L'Espagne"
       C: "Le Portugal"
-      D: "L'Italie"
-    correctAnswer: D
+      D: "La Grèce"
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which European country does tiramisu, a coffee and mascarpone dessert, come from?"
         answers:
-          A: "Greece"
+          A: "Italy"
           B: "Spain"
           C: "Portugal"
-          D: "Italy"
+          D: "Greece"
   - text: "Quel est ce dessert feuilleté au miel et aux fruits à coque, emblématique de la cuisine ottomane ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Baklava.jpg?width=800
     answers:
@@ -79,6 +83,7 @@ questions:
       C: "Le cannoli"
       D: "La profiterole"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is this flaky dessert with honey and nuts, emblematic of Ottoman cuisine?"
@@ -95,6 +100,7 @@ questions:
       C: "Le flan pâtissier"
       D: "Le cheesecake"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What is this creamy cake made from fresh cheese, an emblem of New York pastry?"
@@ -105,211 +111,1505 @@ questions:
           D: "Cheesecake"
   - text: "Quelle crème, faite d'œufs, de sucre, de lait et de vanille, garnit traditionnellement les éclairs et les mille-feuilles ?"
     answers:
-      A: "La crème pâtissière"
+      A: "La crème fraîche"
       B: "La crème chantilly"
       C: "La crème anglaise"
-      D: "La crème fraîche"
-    correctAnswer: A
+      D: "La crème pâtissière"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which cream, made of eggs, sugar, milk and vanilla, traditionally fills éclairs and mille-feuilles?"
         answers:
-          A: "Pastry cream"
+          A: "Crème fraîche"
           B: "Chantilly cream"
           C: "Crème anglaise"
-          D: "Crème fraîche"
+          D: "Pastry cream"
   - text: "Comment nomme-t-on la pâte utilisée pour confectionner les choux, les éclairs et les religieuses ?"
     answers:
       A: "La pâte sablée"
-      B: "La pâte brisée"
-      C: "La pâte à choux"
+      B: "La pâte à choux"
+      C: "La pâte brisée"
       D: "La pâte feuilletée"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What is the dough used to make choux, éclairs and religieuses called?"
         answers:
           A: "Shortcrust pastry"
-          B: "Pie dough"
-          C: "Choux pastry"
+          B: "Choux pastry"
+          C: "Pie dough"
           D: "Puff pastry"
   - text: "Quel ingrédient, en plus des blancs d'œufs et du sucre, compose la coque du macaron parisien ?"
     answers:
       A: "La noix de coco"
-      B: "La poudre d'amandes"
-      C: "La farine de blé"
+      B: "La farine de blé"
+      C: "La poudre d'amandes"
       D: "Le beurre"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which ingredient, besides egg whites and sugar, makes up the shell of the Parisian macaron?"
         answers:
           A: "Coconut"
-          B: "Almond powder"
-          C: "Wheat flour"
+          B: "Wheat flour"
+          C: "Almond powder"
           D: "Butter"
   - text: "Quel ingrédient, intercalé en couches dans la pâte, donne son feuilletage au mille-feuille ?"
     answers:
       A: "Le sucre glace"
-      B: "La crème fraîche"
+      B: "Le beurre"
       C: "La levure"
-      D: "Le beurre"
-    correctAnswer: D
+      D: "La crème fraîche"
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which ingredient, layered into the dough, gives mille-feuille its flaky texture?"
         answers:
           A: "Icing sugar"
-          B: "Crème fraîche"
+          B: "Butter"
           C: "Yeast"
-          D: "Butter"
+          D: "Crème fraîche"
   - text: "D'où le Paris-Brest, créé en 1910, tire-t-il son nom ?"
     answers:
       A: "D'une gare parisienne"
-      B: "D'un fromage de Brest"
-      C: "D'une course cycliste entre Paris et Brest"
+      B: "D'une course cycliste entre Paris et Brest"
+      C: "D'un fromage de Brest"
       D: "D'un roi de France"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Where does the Paris-Brest, created in 1910, get its name?"
         answers:
           A: "From a Paris train station"
-          B: "From a cheese from Brest"
-          C: "From a bicycle race between Paris and Brest"
+          B: "From a bicycle race between Paris and Brest"
+          C: "From a cheese from Brest"
           D: "From a king of France"
   - text: "Quelle pâtisserie sicilienne est un tube frit garni de ricotta sucrée ?"
     answers:
-      A: "Le cannoli"
-      B: "La sfogliatella"
+      A: "La sfogliatella"
+      B: "Le cannoli"
       C: "Le babà"
       D: "La cassata"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Sicilian pastry is a fried tube filled with sweet ricotta?"
         answers:
-          A: "Cannoli"
-          B: "Sfogliatella"
+          A: "Sfogliatella"
+          B: "Cannoli"
           C: "Babà"
           D: "Cassata"
   - text: "De quel pays le strudel aux pommes est-il une spécialité traditionnelle ?"
     answers:
       A: "L'Italie"
-      B: "La Grèce"
+      B: "L'Autriche"
       C: "Le Danemark"
-      D: "L'Autriche"
-    correctAnswer: D
+      D: "La Grèce"
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which country is apple strudel a traditional specialty of?"
         answers:
           A: "Italy"
-          B: "Greece"
+          B: "Austria"
           C: "Denmark"
-          D: "Austria"
+          D: "Greece"
   - text: "Dans quelle ville française est né le canelé, petit gâteau caramélisé à la vanille et au rhum ?"
     answers:
       A: "Lyon"
-      B: "Bordeaux"
+      B: "Lille"
       C: "Strasbourg"
-      D: "Lille"
-    correctAnswer: B
+      D: "Bordeaux"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In which French city was the canelé, a small caramelized cake with vanilla and rum, born?"
         answers:
           A: "Lyon"
-          B: "Bordeaux"
+          B: "Lille"
           C: "Strasbourg"
-          D: "Lille"
+          D: "Bordeaux"
   - text: "Dans quelle région française est né le kouign-amann, à base de pâte levée, de beurre et de sucre ?"
     answers:
-      A: "La Bretagne"
+      A: "Le Périgord"
       B: "La Normandie"
       C: "L'Alsace"
-      D: "Le Périgord"
-    correctAnswer: A
+      D: "La Bretagne"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In which French region was kouign-amann, made with leavened dough, butter and sugar, born?"
         answers:
-          A: "Brittany"
+          A: "Périgord"
           B: "Normandy"
           C: "Alsace"
-          D: "Périgord"
+          D: "Brittany"
   - text: "De quel pays le pastel de nata, flan pâtissier à la crème, est-il originaire ?"
     answers:
       A: "L'Espagne"
-      B: "Le Brésil"
-      C: "Le Portugal"
+      B: "Le Portugal"
+      C: "Le Brésil"
       D: "Le Maroc"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does pastel de nata, a custard pastry, originate from?"
         answers:
           A: "Spain"
-          B: "Brazil"
-          C: "Portugal"
+          B: "Portugal"
+          C: "Brazil"
           D: "Morocco"
   - text: "Quel fruit garnit traditionnellement le clafoutis limousin ?"
     answers:
       A: "La pomme"
       B: "L'abricot"
-      C: "La prune"
-      D: "La cerise"
-    correctAnswer: D
+      C: "La cerise"
+      D: "La prune"
+    correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which fruit traditionally fills the Limousin clafoutis?"
         answers:
           A: "Apple"
           B: "Apricot"
-          C: "Plum"
-          D: "Cherry"
+          C: "Cherry"
+          D: "Plum"
   - text: "Quelle plante produit les gousses qui parfument la crème anglaise et la crème brûlée ?"
     answers:
-      A: "La vanille"
+      A: "La muscade"
       B: "La cannelle"
-      C: "La muscade"
+      C: "La vanille"
       D: "Le safran"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which plant produces the pods that flavor custard and crème brûlée?"
         answers:
-          A: "Vanilla"
+          A: "Nutmeg"
           B: "Cinnamon"
-          C: "Nutmeg"
+          C: "Vanilla"
           D: "Saffron"
   - text: "Quel dessert à la frangipane est partagé chaque année à l'occasion de l'Épiphanie ?"
     answers:
       A: "La bûche de Noël"
-      B: "La galette des rois"
+      B: "Le far breton"
       C: "La tarte Tatin"
-      D: "Le far breton"
-    correctAnswer: B
+      D: "La galette des rois"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Which frangipane dessert is shared each year on Epiphany?"
         answers:
           A: "Yule log"
-          B: "King cake"
+          B: "Far breton"
           C: "Tarte Tatin"
-          D: "Far breton"
+          D: "King cake"
   - text: "Quelle pâtisserie oblongue en pâte à choux est garnie de crème et recouverte d'un glaçage ?"
     answers:
-      A: "Le muffin"
+      A: "L'éclair"
       B: "Le cookie"
-      C: "L'éclair"
+      C: "Le muffin"
       D: "Le brownie"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which oblong choux pastry is filled with cream and topped with icing?"
         answers:
-          A: "Muffin"
+          A: "Éclair"
           B: "Cookie"
-          C: "Éclair"
+          C: "Muffin"
           D: "Brownie"
+  - text: "Quel dessert français aérien est préparé en incorporant du chocolat fondu à des blancs d'œufs montés ?"
+    answers:
+      A: "La tarte Tatin"
+      B: "La crème brûlée"
+      C: "Le clafoutis"
+      D: "La mousse au chocolat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which airy French dessert is made by folding melted chocolate into whipped egg whites?"
+        answers:
+          A: "Tarte Tatin"
+          B: "Crème brûlée"
+          C: "Clafoutis"
+          D: "Chocolate mousse"
+    difficulty: EASY
+  - text: "Quelle pâtisserie américaine en forme d'anneau est frite puis glacée ?"
+    answers:
+      A: "Le muffin"
+      B: "Le donut"
+      C: "Le brownie"
+      D: "Le cookie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ring-shaped American pastry is fried and then glazed?"
+        answers:
+          A: "Muffin"
+          B: "Donut"
+          C: "Brownie"
+          D: "Cookie"
+    difficulty: EASY
+  - text: "Quel gâteau britannique à la génoise, à la confiture et à la crème porte le nom d'une reine du XIXe siècle ?"
+    answers:
+      A: "Le pudding"
+      B: "Le shortbread"
+      C: "Le Victoria sponge"
+      D: "Le scone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which British cake made of sponge, jam and cream is named after a 19th-century queen?"
+        answers:
+          A: "Pudding"
+          B: "Shortbread"
+          C: "Victoria sponge"
+          D: "Scone"
+    difficulty: EASY
+  - text: "Quel dessert anglais superpose une base biscuitée, du caramel à la banane et de la crème ?"
+    answers:
+      A: "La tarte au citron"
+      B: "Le trifle"
+      C: "Le carrot cake"
+      D: "La banoffee pie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which English dessert layers a biscuit base, banana caramel and cream?"
+        answers:
+          A: "Lemon tart"
+          B: "Trifle"
+          C: "Carrot cake"
+          D: "Banoffee pie"
+    difficulty: EASY
+  - text: "Quelle viennoiserie feuilletée en forme de croissant est devenue un symbole du petit-déjeuner français ?"
+    answers:
+      A: "Le croissant"
+      B: "Le pain au chocolat"
+      C: "La brioche"
+      D: "Le chausson aux pommes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which flaky crescent-shaped pastry has become a symbol of the French breakfast?"
+        answers:
+          A: "Croissant"
+          B: "Pain au chocolat"
+          C: "Brioche"
+          D: "Apple turnover"
+    difficulty: EASY
+  - text: "Quelle viennoiserie feuilletée sucrée a la forme d'un cœur ou d'un éventail ?"
+    answers:
+      A: "Le croissant"
+      B: "Le canelé"
+      C: "La religieuse"
+      D: "Le palmier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which sweet flaky pastry is shaped like a heart or a fan?"
+        answers:
+          A: "Croissant"
+          B: "Canelé"
+          C: "Religieuse"
+          D: "Palmier"
+    difficulty: EASY
+  - text: "Quel dessert familial français cuit du riz dans du lait sucré parfumé à la vanille ?"
+    answers:
+      A: "Le clafoutis"
+      B: "Le riz au lait"
+      C: "Le far breton"
+      D: "Le flan pâtissier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French family dessert cooks rice in sweetened milk flavored with vanilla?"
+        answers:
+          A: "Clafoutis"
+          B: "Rice pudding"
+          C: "Far breton"
+          D: "Flan pâtissier"
+    difficulty: EASY
+  - text: "Quelle pâtisserie feuilletée en forme de demi-lune est garnie de compote de pommes ?"
+    answers:
+      A: "Le palmier"
+      B: "La galette des rois"
+      C: "Le chausson aux pommes"
+      D: "Le kouign-amann"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which flaky half-moon-shaped pastry is filled with apple compote?"
+        answers:
+          A: "Palmier"
+          B: "Galette des rois"
+          C: "Apple turnover"
+          D: "Kouign-amann"
+    difficulty: EASY
+  - text: "Quelle pièce montée française est composée de choux caramélisés empilés en cône ?"
+    answers:
+      A: "La bûche de Noël"
+      B: "Le saint-honoré"
+      C: "La croquembouche"
+      D: "Le Paris-Brest"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French pièce montée is made of caramelized choux buns stacked in a cone?"
+        answers:
+          A: "Bûche de Noël"
+          B: "Saint-honoré"
+          C: "Croquembouche"
+          D: "Paris-Brest"
+    difficulty: EASY
+  - text: "Quel gâteau roulé garni de crème est le dessert traditionnel des tables de Noël en France ?"
+    answers:
+      A: "Le fraisier"
+      B: "La bûche de Noël"
+      C: "Le gâteau basque"
+      D: "L'opéra"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rolled cake filled with cream is the traditional dessert on French Christmas tables?"
+        answers:
+          A: "Fraisier"
+          B: "Bûche de Noël"
+          C: "Gâteau basque"
+          D: "Opéra"
+    difficulty: EASY
+  - text: "Quel gâteau viennois au chocolat est composé de génoise, de confiture d'abricot et d'un glaçage noir ?"
+    answers:
+      A: "La forêt-noire"
+      B: "La Sachertorte"
+      C: "La Dobos"
+      D: "Le strudel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Viennese chocolate cake consists of sponge, apricot jam and a dark glaze?"
+        answers:
+          A: "Black Forest"
+          B: "Sachertorte"
+          C: "Dobos"
+          D: "Strudel"
+    difficulty: MEDIUM
+  - text: "Quel gâteau italien sans farine est fait de chocolat et de poudre d'amandes ?"
+    answers:
+      A: "La cassata"
+      B: "La torta Caprese"
+      C: "Le panettone"
+      D: "Les cantuccini"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which flourless Italian cake is made with chocolate and ground almonds?"
+        answers:
+          A: "Cassata"
+          B: "Torta Caprese"
+          C: "Panettone"
+          D: "Cantuccini"
+    difficulty: MEDIUM
+  - text: "Quel dessert anglais mêle meringue émiettée, fraises et crème fouettée ?"
+    answers:
+      A: "Le trifle"
+      B: "La pavlova"
+      C: "L'Eton mess"
+      D: "Le syllabub"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which English dessert combines crumbled meringue, strawberries and whipped cream?"
+        answers:
+          A: "Trifle"
+          B: "Pavlova"
+          C: "Eton mess"
+          D: "Syllabub"
+    difficulty: MEDIUM
+  - text: "Quel entremets français associe café et chocolat en fines couches alternées ?"
+    answers:
+      A: "Le fraisier"
+      B: "Le saint-honoré"
+      C: "Le mille-feuille"
+      D: "L'opéra"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French entremets combines coffee and chocolate in thin alternating layers?"
+        answers:
+          A: "Fraisier"
+          B: "Saint-honoré"
+          C: "Mille-feuille"
+          D: "Opéra"
+    difficulty: MEDIUM
+  - text: "Quel gâteau breton plat, riche en beurre, est souvent parfumé au rhum ?"
+    answers:
+      A: "Le gâteau breton"
+      B: "Le far breton"
+      C: "Le kouign-amann"
+      D: "Le gâteau basque"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which flat Breton cake, rich in butter, is often flavored with rum?"
+        answers:
+          A: "Gâteau breton"
+          B: "Far breton"
+          C: "Kouign-amann"
+          D: "Gâteau basque"
+    difficulty: MEDIUM
+  - text: "Quel gâteau japonais en forme de poisson est garni de pâte de haricots rouges ?"
+    answers:
+      A: "Le taiyaki"
+      B: "Le dorayaki"
+      C: "Le mochi"
+      D: "Le castella"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese fish-shaped cake is filled with red bean paste?"
+        answers:
+          A: "Taiyaki"
+          B: "Dorayaki"
+          C: "Mochi"
+          D: "Castella"
+    difficulty: MEDIUM
+  - text: "Quel gâteau mexicain est imbibé d'un mélange de trois laits ?"
+    answers:
+      A: "Le tres leches"
+      B: "Le churro"
+      C: "Le flan"
+      D: "La concha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Mexican cake is soaked in a mixture of three milks?"
+        answers:
+          A: "Tres leches"
+          B: "Churro"
+          C: "Flan"
+          D: "Concha"
+    difficulty: MEDIUM
+  - text: "Quelle brioche suédoise roulée est parfumée à la cannelle ?"
+    answers:
+      A: "La kanelbulle"
+      B: "Le pain d'épices"
+      C: "La brioche"
+      D: "Le stollen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Swedish rolled bun is flavored with cinnamon?"
+        answers:
+          A: "Kanelbulle"
+          B: "Gingerbread"
+          C: "Brioche"
+          D: "Stollen"
+    difficulty: MEDIUM
+  - text: "Quel dessert indien est composé de boules de lait frites trempées dans un sirop parfumé ?"
+    answers:
+      A: "Le kheer"
+      B: "Le laddu"
+      C: "Le gulab jamun"
+      D: "La barfi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Indian dessert consists of fried milk balls soaked in fragrant syrup?"
+        answers:
+          A: "Kheer"
+          B: "Laddu"
+          C: "Gulab jamun"
+          D: "Barfi"
+    difficulty: MEDIUM
+  - text: "Quelle tarte américaine du Sud est garnie de noix de pécan et de sirop ?"
+    answers:
+      A: "L'apple pie"
+      B: "La pumpkin pie"
+      C: "La pecan pie"
+      D: "La key lime pie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Southern American pie is filled with pecans and syrup?"
+        answers:
+          A: "Apple pie"
+          B: "Pumpkin pie"
+          C: "Pecan pie"
+          D: "Key lime pie"
+    difficulty: MEDIUM
+  - text: "Quel pâtissier français a créé le Paris-Brest en 1910 ?"
+    answers:
+      A: "Louis Durand"
+      B: "Gaston Lenôtre"
+      C: "Pierre Hermé"
+      D: "Antonin Carême"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French pastry chef created the Paris-Brest in 1910?"
+        answers:
+          A: "Louis Durand"
+          B: "Gaston Lenôtre"
+          C: "Pierre Hermé"
+          D: "Antonin Carême"
+    difficulty: HARD
+  - text: "Quelles sœurs ont donné leur nom à la célèbre tarte aux pommes renversée ?"
+    answers:
+      A: "Les sœurs Lumière"
+      B: "Les sœurs Tatin"
+      C: "Les sœurs Brontë"
+      D: "Les sœurs Troisgros"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sisters gave their name to the famous upside-down apple tart?"
+        answers:
+          A: "The Lumière sisters"
+          B: "The Tatin sisters"
+          C: "The Brontë sisters"
+          D: "The Troisgros sisters"
+    difficulty: HARD
+  - text: "Quel pâtissier, installé rue Montorgueil à Paris, est associé à l'invention du baba au rhum ?"
+    answers:
+      A: "Nicolas Appert"
+      B: "Nicolas Fouquet"
+      C: "Nicolas Boileau"
+      D: "Nicolas Stohrer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which pastry chef, based on rue Montorgueil in Paris, is associated with the invention of rum baba?"
+        answers:
+          A: "Nicolas Appert"
+          B: "Nicolas Fouquet"
+          C: "Nicolas Boileau"
+          D: "Nicolas Stohrer"
+    difficulty: HARD
+  - text: "Quelle eau-de-vie de cerises parfume traditionnellement la forêt-noire ?"
+    answers:
+      A: "Le calvados"
+      B: "L'armagnac"
+      C: "Le rhum"
+      D: "Le kirsch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which cherry brandy traditionally flavors Black Forest cake?"
+        answers:
+          A: "Calvados"
+          B: "Armagnac"
+          C: "Rum"
+          D: "Kirsch"
+    difficulty: HARD
+  - text: "Comment appelle-t-on la fine pâte sucrée posée sur un chou avant cuisson ?"
+    answers:
+      A: "La nougatine"
+      B: "La meringue"
+      C: "La chantilly"
+      D: "Le craquelin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the thin sweet dough placed on a choux bun before baking called?"
+        answers:
+          A: "Nougatine"
+          B: "Meringue"
+          C: "Chantilly"
+          D: "Craquelin"
+    difficulty: HARD
+  - text: "Quel nom donne-t-on à la crème fouettée au bain-marie avec des jaunes d'œufs et du vin doux ?"
+    answers:
+      A: "La crème chantilly"
+      B: "La crème anglaise"
+      C: "Le sabayon"
+      D: "La crème mousseline"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name for whipped cream cooked in a bain-marie with egg yolks and sweet wine?"
+        answers:
+          A: "Crème chantilly"
+          B: "Crème anglaise"
+          C: "Sabayon"
+          D: "Crème mousseline"
+    difficulty: HARD
+  - text: "Comment appelle-t-on la succession de pliages et de repos qui donne son feuilletage à la pâte ?"
+    answers:
+      A: "Le tourage"
+      B: "Le pétrissage"
+      C: "Le tempérage"
+      D: "Le glaçage"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the series of folding and resting that gives dough its layers called?"
+        answers:
+          A: "Laminating"
+          B: "Kneading"
+          C: "Tempering"
+          D: "Glazing"
+    difficulty: HARD
+  - text: "Quel gâteau nantais est parfumé au rhum et nappé d'un glaçage blanc ?"
+    answers:
+      A: "Le gâteau basque"
+      B: "Le gâteau nantais"
+      C: "Le far breton"
+      D: "Le quatre-quarts"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Nantes cake is flavored with rum and topped with white icing?"
+        answers:
+          A: "Gâteau basque"
+          B: "Gâteau nantais"
+          C: "Far breton"
+          D: "Quatre-quarts"
+    difficulty: HARD
+  - text: "Quel maître d'hôtel est traditionnellement crédité de l'invention de la crème Chantilly ?"
+    answers:
+      A: "Auguste Escoffier"
+      B: "Antonin Carême"
+      C: "François Vatel"
+      D: "Paul Bocuse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which maître d'hôtel is traditionally credited with inventing crème Chantilly?"
+        answers:
+          A: "Auguste Escoffier"
+          B: "Antonin Carême"
+          C: "François Vatel"
+          D: "Paul Bocuse"
+    difficulty: HARD
+  - text: "Quel gâteau hongrois à fines couches doit son nom à un pâtissier du XIXe siècle ?"
+    answers:
+      A: "La Sachertorte"
+      B: "La Dobos torta"
+      C: "Le stollen"
+      D: "La forêt-noire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Hungarian layer cake owes its name to a 19th-century pastry chef?"
+        answers:
+          A: "Sachertorte"
+          B: "Dobos torta"
+          C: "Stollen"
+          D: "Black Forest cake"
+    difficulty: HARD
+  - text: "Quel pâtissier français, dit « le roi des chefs et le chef des rois », a codifié la grande cuisine au XIXe siècle ?"
+    answers:
+      A: "Antonin Carême"
+      B: "Auguste Escoffier"
+      C: "Prosper Montagné"
+      D: "Fernand Point"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French pastry chef, known as \"the king of chefs and the chef of kings\", codified haute cuisine in the 19th century?"
+        answers:
+          A: "Antonin Carême"
+          B: "Auguste Escoffier"
+          C: "Prosper Montagné"
+          D: "Fernand Point"
+    difficulty: EXPERT
+  - text: "Quelle crème, faite de crème pâtissière allégée de meringue italienne, porte le nom de son créateur ?"
+    answers:
+      A: "La crème diplomate"
+      B: "La crème mousseline"
+      C: "La crème d'amandes"
+      D: "La crème chiboust"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which cream, made from pastry cream lightened with Italian meringue, is named after its creator?"
+        answers:
+          A: "Diplomat cream"
+          B: "Mousseline cream"
+          C: "Almond cream"
+          D: "Chiboust cream"
+    difficulty: EXPERT
+  - text: "Quel confiseur britannique a fabriqué la première tablette de chocolat solide en 1847 ?"
+    answers:
+      A: "Joseph Fry"
+      B: "Rodolphe Lindt"
+      C: "Henri Nestlé"
+      D: "Daniel Peter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which British confectioner made the first solid chocolate bar in 1847?"
+        answers:
+          A: "Joseph Fry"
+          B: "Rodolphe Lindt"
+          C: "Henri Nestlé"
+          D: "Daniel Peter"
+    difficulty: EXPERT
+  - text: "Quel chocolatier suisse a inventé le chocolat au lait en 1875 ?"
+    answers:
+      A: "Jean Tobler"
+      B: "Rodolphe Lindt"
+      C: "Daniel Peter"
+      D: "Philippe Suchard"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Swiss chocolatier invented milk chocolate in 1875?"
+        answers:
+          A: "Jean Tobler"
+          B: "Rodolphe Lindt"
+          C: "Daniel Peter"
+          D: "Philippe Suchard"
+    difficulty: EXPERT
+  - text: "Quel chocolatier suisse a mis au point le conchage du chocolat en 1879 ?"
+    answers:
+      A: "Daniel Peter"
+      B: "Rodolphe Lindt"
+      C: "François-Louis Cailler"
+      D: "Henri Nestlé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Swiss chocolatier developed chocolate conching in 1879?"
+        answers:
+          A: "Daniel Peter"
+          B: "Rodolphe Lindt"
+          C: "François-Louis Cailler"
+          D: "Henri Nestlé"
+    difficulty: EXPERT
+  - text: "Quel pâtissier français est célèbre pour ses macarons et ses créations à la rose, au litchi et à la framboise ?"
+    answers:
+      A: "Christophe Michalak"
+      B: "Cédric Grolet"
+      C: "Pierre Hermé"
+      D: "Philippe Conticini"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French pastry chef is famous for his macarons and his rose, lychee and raspberry creations?"
+        answers:
+          A: "Christophe Michalak"
+          B: "Cédric Grolet"
+          C: "Pierre Hermé"
+          D: "Philippe Conticini"
+    difficulty: EXPERT
+  - text: "Quel chef pâtissier japonais installé à Paris est réputé pour ses créations au matcha ?"
+    answers:
+      A: "Yotam Ottolenghi"
+      B: "Hidemi Sugino"
+      C: "Sadaharu Aoki"
+      D: "Nobu Matsuhisa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Japanese pastry chef based in Paris is renowned for his matcha creations?"
+        answers:
+          A: "Yotam Ottolenghi"
+          B: "Hidemi Sugino"
+          C: "Sadaharu Aoki"
+          D: "Nobu Matsuhisa"
+    difficulty: EXPERT
+  - text: "Quelle maison parisienne, fondée en 1862, est réputée pour ses macarons ?"
+    answers:
+      A: "Dalloyau"
+      B: "Angelina"
+      C: "Ladurée"
+      D: "Stohrer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Parisian house, founded in 1862, is famous for its macarons?"
+        answers:
+          A: "Dalloyau"
+          B: "Angelina"
+          C: "Ladurée"
+          D: "Stohrer"
+    difficulty: EXPERT
+  - text: "Quel gélifiant naturel extrait d'algues rouges est utilisé pour prendre les entremets ?"
+    answers:
+      A: "La gélatine"
+      B: "La pectine"
+      C: "L'agar-agar"
+      D: "La gomme xanthane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which natural gelling agent extracted from red algae is used to set entremets?"
+        answers:
+          A: "Gelatin"
+          B: "Pectin"
+          C: "Agar-agar"
+          D: "Xanthan gum"
+    difficulty: EXPERT
+  - text: "Quelle technique consiste à travailler le chocolat fondu pour lui donner brillance et cassant ?"
+    answers:
+      A: "Le tempérage"
+      B: "Le conchage"
+      C: "Le broyage"
+      D: "L'émulsion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which technique involves working melted chocolate to give it shine and snap?"
+        answers:
+          A: "Tempering"
+          B: "Conching"
+          C: "Grinding"
+          D: "Emulsifying"
+    difficulty: EXPERT
+  - text: "Quelle viennoiserie française est une pâte feuilletée garnie d'une ou deux barres de chocolat ?"
+    answers:
+      A: "Le pain au chocolat"
+      B: "Le croissant"
+      C: "La brioche"
+      D: "Le chausson aux pommes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French viennoiserie is a laminated pastry filled with one or two bars of chocolate?"
+        answers:
+          A: "Pain au chocolat"
+          B: "Croissant"
+          C: "Brioche"
+          D: "Apple turnover"
+    difficulty: EASY
+  - text: "Quelle pâtisserie française superpose trois couches de pâte feuilletée et deux couches de crème ?"
+    answers:
+      A: "Le mille-feuille"
+      B: "La religieuse"
+      C: "Le Paris-Brest"
+      D: "L'éclair"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French pastry layers three layers of puff pastry and two layers of cream?"
+        answers:
+          A: "Mille-feuille"
+          B: "Religieuse"
+          C: "Paris-Brest"
+          D: "Éclair"
+    difficulty: EASY
+  - text: "Quel dessert français est un flan crémeux à la vanille cuit sur une pâte brisée, vendu en parts chez les pâtissiers ?"
+    answers:
+      A: "Le far breton"
+      B: "Le clafoutis"
+      C: "Le flan pâtissier"
+      D: "La crème brûlée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French dessert is a creamy vanilla custard baked on a shortcrust base, sold by the slice in pastry shops?"
+        answers:
+          A: "Far breton"
+          B: "Clafoutis"
+          C: "Flan pâtissier"
+          D: "Crème brûlée"
+    difficulty: EASY
+  - text: "Quel dessert italien est une crème onctueuse prise à la gélatine, souvent servie avec un coulis de fruits rouges ?"
+    answers:
+      A: "La panna cotta"
+      B: "Le tiramisu"
+      C: "La cassata"
+      D: "Le semifreddo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian dessert is a smooth gelatin-set cream, often served with a red berry coulis?"
+        answers:
+          A: "Panna cotta"
+          B: "Tiramisu"
+          C: "Cassata"
+          D: "Semifreddo"
+    difficulty: EASY
+  - text: "Quel dessert espagnol est une pâte frite en forme de bâtons, saupoudrée de sucre et trempée dans du chocolat chaud ?"
+    answers:
+      A: "Le turrón"
+      B: "Les churros"
+      C: "Le flan"
+      D: "Les pestiños"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Spanish dessert is a fried dough in stick shapes, sprinkled with sugar and dipped in hot chocolate?"
+        answers:
+          A: "Turrón"
+          B: "Churros"
+          C: "Flan"
+          D: "Pestiños"
+    difficulty: EASY
+  - text: "Quel agrume garnit la célèbre tarte meringuée de la pâtisserie française ?"
+    answers:
+      A: "L'orange"
+      B: "La mandarine"
+      C: "Le citron"
+      D: "Le pamplemousse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which citrus fruit garnishes the famous meringue tart from French pastry shops?"
+        answers:
+          A: "Orange"
+          B: "Mandarin"
+          C: "Lemon"
+          D: "Grapefruit"
+    difficulty: EASY
+  - text: "Quelle spécialité italienne est une glace plus dense et plus onctueuse que la glace traditionnelle française ?"
+    answers:
+      A: "Le sorbet"
+      B: "La granita"
+      C: "Le semifreddo"
+      D: "Le gelato"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian specialty is a denser and creamier ice cream than traditional French ice cream?"
+        answers:
+          A: "Sorbet"
+          B: "Granita"
+          C: "Semifreddo"
+          D: "Gelato"
+    difficulty: EASY
+  - text: "Quel gâteau familial français se prépare en utilisant le pot de yaourt comme unité de mesure ?"
+    answers:
+      A: "Le gâteau au yaourt"
+      B: "Le quatre-quarts"
+      C: "Le gâteau marbré"
+      D: "La génoise"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French family cake is made using the yogurt pot as a measuring unit?"
+        answers:
+          A: "Yogurt cake"
+          B: "Pound cake"
+          C: "Marble cake"
+          D: "Sponge cake"
+    difficulty: EASY
+  - text: "Quelle tarte française est garnie de fraises fraîches posées sur une crème pâtissière ou une crème d'amandes ?"
+    answers:
+      A: "La tarte aux myrtilles"
+      B: "La tarte aux framboises"
+      C: "La tarte aux cerises"
+      D: "La tarte aux fraises"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French tart is topped with fresh strawberries placed on pastry cream or almond cream?"
+        answers:
+          A: "Blueberry tart"
+          B: "Raspberry tart"
+          C: "Cherry tart"
+          D: "Strawberry tart"
+    difficulty: EASY
+  - text: "Quel gâteau du Pays basque est traditionnellement fourré à la confiture de cerises noires ou à la crème pâtissière ?"
+    answers:
+      A: "Le far breton"
+      B: "Le canelé"
+      C: "Le gâteau basque"
+      D: "Le kouign-amann"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Basque cake is traditionally filled with black cherry jam or pastry cream?"
+        answers:
+          A: "Far breton"
+          B: "Canelé"
+          C: "Basque cake"
+          D: "Kouign-amann"
+    difficulty: MEDIUM
+  - text: "Quel dessert catalan est une crème vanillée aromatisée à la cannelle et au citron, caramélisée avec un fer rougi ?"
+    answers:
+      A: "La crema catalana"
+      B: "Le flan"
+      C: "Le riz au lait"
+      D: "La crème brûlée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Catalan dessert is a vanilla cream flavored with cinnamon and lemon, caramelized with a red-hot iron?"
+        answers:
+          A: "Crema catalana"
+          B: "Flan"
+          C: "Rice pudding"
+          D: "Crème brûlée"
+    difficulty: MEDIUM
+  - text: "Quel dessert français associe des meringues croustillantes, de la glace et de la crème Chantilly ?"
+    answers:
+      A: "La pavlova"
+      B: "L'omelette norvégienne"
+      C: "Le vacherin"
+      D: "Le parfait glacé"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French dessert combines crispy meringues, ice cream and Chantilly cream?"
+        answers:
+          A: "Pavlova"
+          B: "Baked Alaska"
+          C: "Vacherin"
+          D: "Parfait glacé"
+    difficulty: MEDIUM
+  - text: "Quelle brioche italienne de Noël est garnie de raisins secs et de fruits confits ?"
+    answers:
+      A: "La colomba"
+      B: "La pandoro"
+      C: "Le panettone"
+      D: "La focaccia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian Christmas brioche is filled with raisins and candied fruit?"
+        answers:
+          A: "Colomba"
+          B: "Pandoro"
+          C: "Panettone"
+          D: "Focaccia"
+    difficulty: MEDIUM
+  - text: "Quelle confiserie espagnole de Noël est un nougat d'amandes et de miel ?"
+    answers:
+      A: "Le turrón"
+      B: "La praline"
+      C: "La nougatine"
+      D: "Le massepain"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Spanish Christmas confection is a nougat of almonds and honey?"
+        answers:
+          A: "Turrón"
+          B: "Praline"
+          C: "Nougatine"
+          D: "Marzipan"
+    difficulty: MEDIUM
+  - text: "Quel dessert indien est un riz au lait parfumé à la cardamome, aux amandes et au safran ?"
+    answers:
+      A: "Le kheer"
+      B: "Le gulab jamun"
+      C: "Le jalebi"
+      D: "Le rasmalai"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Indian dessert is a rice pudding flavored with cardamom, almonds and saffron?"
+        answers:
+          A: "Kheer"
+          B: "Gulab jamun"
+          C: "Jalebi"
+          D: "Rasmalai"
+    difficulty: MEDIUM
+  - text: "Quelle spécialité piémontaise est une pâte de chocolat et de noisettes broyées ?"
+    answers:
+      A: "Le gianduja"
+      B: "La ganache"
+      C: "La pâte de pistache"
+      D: "Le praliné"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Piedmontese specialty is a paste of chocolate and ground hazelnuts?"
+        answers:
+          A: "Gianduja"
+          B: "Ganache"
+          C: "Pistachio paste"
+          D: "Praline"
+    difficulty: MEDIUM
+  - text: "Quelle tarte française associe des poires et une crème d'amandes ?"
+    answers:
+      A: "La tarte Tatin"
+      B: "La tarte Bourdaloue"
+      C: "La tarte normande"
+      D: "La tarte au flan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French tart combines pears and almond cream?"
+        answers:
+          A: "Tarte Tatin"
+          B: "Bourdaloue tart"
+          C: "Normandy tart"
+          D: "Custard tart"
+    difficulty: MEDIUM
+  - text: "Quelle tarte québécoise est garnie d'une préparation au sirop d'érable ou à la cassonade ?"
+    answers:
+      A: "Le pudding chômeur"
+      B: "La tarte aux pommes"
+      C: "La tarte aux pacanes"
+      D: "La tarte au sucre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Quebec tart is filled with a maple syrup or brown sugar preparation?"
+        answers:
+          A: "Pouding chômeur"
+          B: "Apple pie"
+          C: "Pecan pie"
+          D: "Sugar pie"
+    difficulty: MEDIUM
+  - text: "Dans quel pays la forêt-noire, gâteau au chocolat, à la cerise et à la crème, est-elle née ?"
+    answers:
+      A: "En Autriche"
+      B: "En Allemagne"
+      C: "En Suisse"
+      D: "En Belgique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country was Black Forest cake, made with chocolate, cherries and cream, created?"
+        answers:
+          A: "Austria"
+          B: "Germany"
+          C: "Switzerland"
+          D: "Belgium"
+    difficulty: HARD
+  - text: "Quelle maison parisienne a créé le gâteau opéra en 1955 ?"
+    answers:
+      A: "Ladurée"
+      B: "Dalloyau"
+      C: "Lenôtre"
+      D: "Angelina"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Parisian house created the Opéra cake in 1955?"
+        answers:
+          A: "Ladurée"
+          B: "Dalloyau"
+          C: "Lenôtre"
+          D: "Angelina"
+    difficulty: HARD
+  - text: "Quel biscuit est fait de blancs d'œufs, de sucre et de poudre d'amandes cuits en disques ?"
+    answers:
+      A: "La génoise"
+      B: "Le pain de Gênes"
+      C: "La dacquoise"
+      D: "Le biscuit Joconde"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which biscuit is made from egg whites, sugar and ground almonds baked into discs?"
+        answers:
+          A: "Génoise sponge"
+          B: "Pain de Gênes"
+          C: "Dacquoise"
+          D: "Joconde biscuit"
+    difficulty: HARD
+  - text: "Quel biscuit à base de poudre d'amandes, très utilisé pour les bûches, doit son nom à un tableau de Léonard de Vinci ?"
+    answers:
+      A: "La dacquoise"
+      B: "Le biscuit de Savoie"
+      C: "Le sponge cake"
+      D: "Le biscuit Joconde"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ground-almond biscuit, widely used for yule logs, takes its name from a painting by Leonardo da Vinci?"
+        answers:
+          A: "Dacquoise"
+          B: "Savoie biscuit"
+          C: "Sponge cake"
+          D: "Joconde biscuit"
+    difficulty: HARD
+  - text: "Comment appelle-t-on, en pâtisserie, l'action de garnir un moule de pâte en la faisant adhérer aux parois ?"
+    answers:
+      A: "Le fonçage"
+      B: "Le tourage"
+      C: "Le tempérage"
+      D: "Le macaronage"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In pastry-making, what is the act of lining a mould with dough so it sticks to the sides called?"
+        answers:
+          A: "Fonçage"
+          B: "Tourage"
+          C: "Tempering"
+          D: "Macaronage"
+    difficulty: HARD
+  - text: "Quel sirop parfumé, souvent au rhum ou au kirsch, sert à imbiber les biscuits des entremets ?"
+    answers:
+      A: "Le sirop de glucose"
+      B: "Le sirop de sucre inverti"
+      C: "Le sirop de cuisson"
+      D: "Le sirop de punchage"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which flavoured syrup, often with rum or kirsch, is used to soak the sponge in layered desserts?"
+        answers:
+          A: "Glucose syrup"
+          B: "Invert sugar syrup"
+          C: "Cooking syrup"
+          D: "Soaking syrup"
+    difficulty: HARD
+  - text: "Comment nomme-t-on la fine croûte qui se forme à la surface des coques de macarons avant leur cuisson ?"
+    answers:
+      A: "Le glaçage"
+      B: "Le séchage"
+      C: "Le croûtage"
+      D: "Le dressage"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the thin crust that forms on the surface of macaron shells before baking called?"
+        answers:
+          A: "Glazing"
+          B: "Drying"
+          C: "Crusting"
+          D: "Piping"
+    difficulty: HARD
+  - text: "Quel dessert grec est fait de pâte filo finement effilée, garnie de noix et imbibée de sirop ?"
+    answers:
+      A: "Le baklava"
+      B: "La galaktoboureko"
+      C: "Le loukoum"
+      D: "Le kataifi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Greek dessert is made of finely stretched filo pastry, filled with nuts and soaked in syrup?"
+        answers:
+          A: "Baklava"
+          B: "Galaktoboureko"
+          C: "Loukoum"
+          D: "Kataifi"
+    difficulty: HARD
+  - text: "Quelle brioche suédoise à la cardamome est fourrée de pâte d'amandes et de crème fouettée ?"
+    answers:
+      A: "La kanelbulle"
+      B: "Le pulla"
+      C: "Le bretzel"
+      D: "La semla"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Swedish cardamom bun is filled with almond paste and whipped cream?"
+        answers:
+          A: "Kanelbulle"
+          B: "Pulla"
+          C: "Pretzel"
+          D: "Semla"
+    difficulty: HARD
+  - text: "Quel gâteau sicilien est garni d'une crème de ricotta sucrée et de fruits confits ?"
+    answers:
+      A: "Le tiramisu"
+      B: "La cassata"
+      C: "La panna cotta"
+      D: "Le semifreddo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Sicilian cake is filled with sweetened ricotta cream and candied fruit?"
+        answers:
+          A: "Tiramisu"
+          B: "Cassata"
+          C: "Panna cotta"
+          D: "Semifreddo"
+    difficulty: HARD
+  - text: "Quelle crème est obtenue en incorporant du beurre en pommade à une crème pâtissière refroidie ?"
+    answers:
+      A: "La crème mousseline"
+      B: "La crème d'amandes"
+      C: "La crème anglaise"
+      D: "La crème Chantilly"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which cream is made by folding softened butter into cooled pastry cream?"
+        answers:
+          A: "Mousseline cream"
+          B: "Almond cream"
+          C: "Crème anglaise"
+          D: "Chantilly cream"
+    difficulty: HARD
+  - text: "Quel pâtissier normand a fondé en 1957 la maison Lenôtre, célèbre pour ses créations et son école ?"
+    answers:
+      A: "Pierre Hermé"
+      B: "Gaston Lenôtre"
+      C: "Gaston Gérard"
+      D: "Paul Bocuse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Norman pastry chef founded the Maison Lenôtre in 1957, famous for its creations and its school?"
+        answers:
+          A: "Pierre Hermé"
+          B: "Gaston Lenôtre"
+          C: "Gaston Gérard"
+          D: "Paul Bocuse"
+    difficulty: EXPERT
+  - text: "Quel chef pâtissier français contemporain est réputé pour ses gâteaux en trompe-l'œil sculptés en forme de fruits ?"
+    answers:
+      A: "Christophe Michalak"
+      B: "Yann Couvreur"
+      C: "Amaury Guichon"
+      D: "Cédric Grolet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which contemporary French pastry chef is known for his trompe-l'œil cakes sculpted in the shape of fruit?"
+        answers:
+          A: "Christophe Michalak"
+          B: "Yann Couvreur"
+          C: "Amaury Guichon"
+          D: "Cédric Grolet"
+    difficulty: EXPERT
+  - text: "Quel pâtissier autrichien a créé en 1832 le gâteau Sacher, à la confiture d'abricot et au chocolat ?"
+    answers:
+      A: "Franz Sacher"
+      B: "Eduard Sacher"
+      C: "Josef Dobos"
+      D: "Anton Gerstner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Austrian pastry chef created the Sacher torte, with apricot jam and chocolate, in 1832?"
+        answers:
+          A: "Franz Sacher"
+          B: "Eduard Sacher"
+          C: "Josef Dobos"
+          D: "Anton Gerstner"
+    difficulty: EXPERT
+  - text: "Avec quel industriel suisse Daniel Peter s'est-il associé pour mettre au point le chocolat au lait en 1875 ?"
+    answers:
+      A: "Philippe Suchard"
+      B: "Rodolphe Lindt"
+      C: "Henri Nestlé"
+      D: "François-Louis Cailler"
+    correctAnswer: C
+    translations:
+      en:
+        text: "With which Swiss industrialist did Daniel Peter team up to develop milk chocolate in 1875?"
+        answers:
+          A: "Philippe Suchard"
+          B: "Rodolphe Lindt"
+          C: "Henri Nestlé"
+          D: "François-Louis Cailler"
+    difficulty: EXPERT
+  - text: "Quelle pâtisserie à base de pâte à choux doit son nom à une rue de Paris ?"
+    answers:
+      A: "Le Paris-Brest"
+      B: "Le financier"
+      C: "Le mont-blanc"
+      D: "Le saint-honoré"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which choux pastry dessert takes its name from a street in Paris?"
+        answers:
+          A: "Paris-Brest"
+          B: "Financier"
+          C: "Mont Blanc"
+          D: "Saint-Honoré"
+    difficulty: EXPERT
+  - text: "Quel nom donne-t-on au mélange à parts égales de crème pâtissière et de crème d'amandes ?"
+    answers:
+      A: "La frangipane"
+      B: "La ganache"
+      C: "La mousseline"
+      D: "La chiboust"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name for an equal-parts mixture of pastry cream and almond cream?"
+        answers:
+          A: "Frangipane"
+          B: "Ganache"
+          C: "Mousseline"
+          D: "Chiboust"
+    difficulty: EXPERT
+  - text: "Quel chocolatier belge est crédité de l'invention de la praline fourrée en 1912 ?"
+    answers:
+      A: "Jean Neuhaus"
+      B: "Pierre Marcolini"
+      C: "Léonidas Kestekides"
+      D: "Constant Callebaut"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Belgian chocolatier is credited with inventing the filled praline in 1912?"
+        answers:
+          A: "Jean Neuhaus"
+          B: "Pierre Marcolini"
+          C: "Léonidas Kestekides"
+          D: "Constant Callebaut"
+    difficulty: EXPERT
+  - text: "Quels fruits à coque caramélisés composent traditionnellement un praliné ?"
+    answers:
+      A: "Noix et noisettes"
+      B: "Pistaches et amandes"
+      C: "Noix de cajou et amandes"
+      D: "Amandes et noisettes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which caramelized nuts traditionally make up a praliné?"
+        answers:
+          A: "Walnuts and hazelnuts"
+          B: "Pistachios and almonds"
+          C: "Cashews and almonds"
+          D: "Almonds and hazelnuts"
+    difficulty: EXPERT
+  - text: "Quel créateur a eu l'idée d'assembler deux coques de macaron avec une ganache, donnant naissance au macaron parisien moderne ?"
+    answers:
+      A: "Gaston Lenôtre"
+      B: "Louis Ernest Ladurée"
+      C: "Pierre Hermé"
+      D: "Pierre Desfontaines"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which creator had the idea of sandwiching two macaron shells with ganache, giving rise to the modern Parisian macaron?"
+        answers:
+          A: "Gaston Lenôtre"
+          B: "Louis Ernest Ladurée"
+          C: "Pierre Hermé"
+          D: "Pierre Desfontaines"
+    difficulty: EXPERT
+  - text: "Quel glaçage utilisé pour les entremets donne une surface parfaitement lisse et brillante ?"
+    answers:
+      A: "Le fondant"
+      B: "Le glaçage miroir"
+      C: "Le nappage"
+      D: "Le glaçage royal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which glaze used for entremets gives a perfectly smooth and shiny surface?"
+        answers:
+          A: "Fondant"
+          B: "Mirror glaze"
+          C: "Nappage"
+          D: "Royal icing"
+    difficulty: EXPERT
+  - text: "Quel pays a popularisé le « cheesecake soufflé », un gâteau au fromage aérien cuit au bain-marie ?"
+    answers:
+      A: "L'Italie"
+      B: "Le Japon"
+      C: "Les États-Unis"
+      D: "La Suède"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country popularized the \"soufflé cheesecake,\" an airy cheese cake baked in a water bath?"
+        answers:
+          A: "Italy"
+          B: "Japan"
+          C: "The United States"
+          D: "Sweden"
+    difficulty: EXPERT

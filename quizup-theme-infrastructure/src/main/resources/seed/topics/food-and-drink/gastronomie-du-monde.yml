@@ -10,18 +10,19 @@ questions:
   - text: "Quel plat espagnol à base de riz safrané, originaire de la région de Valence, est photographié ici ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Paella_de_marisco.jpg?width=800
     answers:
-      A: "Le risotto"
+      A: "La paella"
       B: "Le couscous"
-      C: "La paella"
+      C: "Le risotto"
       D: "Le pa amb tomàquet"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which Spanish dish made with saffron rice, originally from the Valencia region, is shown here?"
         answers:
-          A: "Risotto"
+          A: "Paella"
           B: "Couscous"
-          C: "Paella"
+          C: "Risotto"
           D: "Pa amb tomàquet"
   - text: "Quel est ce plat japonais composé de riz vinaigré accompagné de poisson ou de fruits de mer ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Sushi_platter.jpg?width=800
@@ -31,6 +32,7 @@ questions:
       C: "Le pad thaï"
       D: "Le dim sum"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is this Japanese dish made of vinegared rice accompanied by fish or seafood?"
@@ -44,17 +46,18 @@ questions:
     answers:
       A: "La pizza quatre fromages"
       B: "La pizza au pepperoni"
-      C: "La pizza reine"
-      D: "La pizza margherita"
-    correctAnswer: D
+      C: "La pizza margherita"
+      D: "La pizza reine"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which Italian pizza is topped with tomato, mozzarella and basil?"
         answers:
           A: "Four cheese pizza"
           B: "Pepperoni pizza"
-          C: "Pizza reine"
-          D: "Pizza margherita"
+          C: "Pizza margherita"
+          D: "Pizza reine"
   - text: "Quel plat d'Afrique du Nord est composé de semoule, de légumes et de viande ou de poisson ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Couscous.jpg?width=800
     answers:
@@ -63,6 +66,7 @@ questions:
       C: "La pastilla"
       D: "La chakchouka"
     correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which North African dish is made of semolina, vegetables and meat or fish?"
@@ -76,17 +80,18 @@ questions:
     answers:
       A: "Les dolmades"
       B: "Le souvlaki"
-      C: "La moussaka"
-      D: "Le tzatziki"
-    correctAnswer: C
+      C: "Le tzatziki"
+      D: "La moussaka"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Greek dish is a baked casserole of eggplant and ground meat topped with béchamel?"
         answers:
           A: "Dolmades"
           B: "Souvlaki"
-          C: "Moussaka"
-          D: "Tzatziki"
+          C: "Tzatziki"
+          D: "Moussaka"
   - text: "Quelle soupe d'Europe de l'Est doit sa couleur rouge à la betterave ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Borscht.jpg?width=800
     answers:
@@ -95,6 +100,7 @@ questions:
       C: "Le minestrone"
       D: "Le gaspacho"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which Eastern European soup gets its red color from beetroot?"
@@ -106,46 +112,49 @@ questions:
   - text: "Le cassoulet, spécialité à base de haricots blancs et de viande, est originaire de quelle région française ?"
     answers:
       A: "La Bretagne"
-      B: "L'Alsace"
+      B: "Le Languedoc"
       C: "La Provence"
-      D: "Le Languedoc"
-    correctAnswer: D
+      D: "L'Alsace"
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Cassoulet, a specialty made with white beans and meat, originates from which French region?"
         answers:
           A: "Brittany"
-          B: "Alsace"
+          B: "Languedoc"
           C: "Provence"
-          D: "Languedoc"
+          D: "Alsace"
   - text: "Quel plat bourguignon est un bœuf mijoté au vin rouge avec des lardons et des champignons ?"
     answers:
-      A: "La choucroute"
-      B: "Le bœuf bourguignon"
+      A: "Le bœuf bourguignon"
+      B: "La choucroute"
       C: "La blanquette de veau"
       D: "Le coq au vin"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which Burgundian dish is beef simmered in red wine with bacon bits and mushrooms?"
         answers:
-          A: "Choucroute"
-          B: "Beef bourguignon"
+          A: "Beef bourguignon"
+          B: "Choucroute"
           C: "Blanquette de veau"
           D: "Coq au vin"
   - text: "Quelle spécialité alsacienne est composée de chou fermenté servi avec de la charcuterie et des pommes de terre ?"
     answers:
-      A: "La choucroute"
-      B: "La ratatouille"
+      A: "La ratatouille"
+      B: "La choucroute"
       C: "La quiche lorraine"
       D: "Le gratin dauphinois"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Alsatian specialty is made of fermented cabbage served with charcuterie and potatoes?"
         answers:
-          A: "Choucroute"
-          B: "Ratatouille"
+          A: "Ratatouille"
+          B: "Choucroute"
           C: "Quiche lorraine"
           D: "Gratin dauphinois"
   - text: "Quel fromage italien à pâte filée garnit traditionnellement une pizza margherita ?"
@@ -155,6 +164,7 @@ questions:
       C: "La mozzarella"
       D: "Le pecorino"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Italian stretched-curd cheese traditionally tops a pizza margherita?"
@@ -166,17 +176,18 @@ questions:
   - text: "Quel fromage français à pâte persillée est affiné dans les caves de l'Aveyron ?"
     answers:
       A: "Le camembert"
-      B: "Le roquefort"
-      C: "Le comté"
+      B: "Le comté"
+      C: "Le roquefort"
       D: "Le reblochon"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "Which French blue cheese is aged in the caves of Aveyron?"
         answers:
           A: "Camembert"
-          B: "Roquefort"
-          C: "Comté"
+          B: "Comté"
+          C: "Roquefort"
           D: "Reblochon"
   - text: "Quelle épice jaune, tirée d'une racine, donne sa couleur au curry ?"
     answers:
@@ -185,6 +196,7 @@ questions:
       C: "Le paprika"
       D: "Le curcuma"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which yellow spice, derived from a root, gives curry its color?"
@@ -195,64 +207,68 @@ questions:
           D: "Turmeric"
   - text: "Quel plat vietnamien est un bouillon parfumé servi avec des nouilles de riz et du bœuf ?"
     answers:
-      A: "Le pho"
+      A: "Le nasi goreng"
       B: "Le bò bún"
-      C: "Le nasi goreng"
+      C: "Le pho"
       D: "Le laksa"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which Vietnamese dish is a fragrant broth served with rice noodles and beef?"
         answers:
-          A: "Pho"
+          A: "Nasi goreng"
           B: "Bò bún"
-          C: "Nasi goreng"
+          C: "Pho"
           D: "Laksa"
   - text: "De quel pays le kimchi, condiment de chou fermenté et pimenté, est-il originaire ?"
     answers:
       A: "Le Japon"
-      B: "La Thaïlande"
-      C: "La Corée"
+      B: "La Corée"
+      C: "La Thaïlande"
       D: "La Chine"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does kimchi, a fermented and spicy cabbage condiment, originate from?"
         answers:
           A: "Japan"
-          B: "Thailand"
-          C: "Korea"
+          B: "Korea"
+          C: "Thailand"
           D: "China"
   - text: "Quel plat indien est un poulet mariné aux épices et cuit dans un four d'argile appelé tandoor ?"
     answers:
       A: "Le butter chicken"
-      B: "Le poulet tandoori"
+      B: "Le tikka massala"
       C: "Le biryani"
-      D: "Le tikka massala"
-    correctAnswer: B
+      D: "Le poulet tandoori"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which Indian dish is chicken marinated in spices and cooked in a clay oven called a tandoor?"
         answers:
           A: "Butter chicken"
-          B: "Tandoori chicken"
+          B: "Tikka masala"
           C: "Biryani"
-          D: "Tikka masala"
+          D: "Tandoori chicken"
   - text: "Dans quel pays le fish and chips, vendu dans des fish and chips shops, est-il né ?"
     answers:
-      A: "L'Irlande"
+      A: "Le Royaume-Uni"
       B: "Les États-Unis"
       C: "L'Australie"
-      D: "Le Royaume-Uni"
-    correctAnswer: D
+      D: "L'Irlande"
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "In which country was fish and chips, sold in fish and chips shops, born?"
         answers:
-          A: "Ireland"
+          A: "The United Kingdom"
           B: "The United States"
           C: "Australia"
-          D: "The United Kingdom"
+          D: "Ireland"
   - text: "Quel plat hongrois est un ragoût de bœuf parfumé au paprika ?"
     answers:
       A: "Le bortsch"
@@ -260,6 +276,7 @@ questions:
       C: "Le goulash"
       D: "Le couscous"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which Hungarian dish is a beef stew flavored with paprika?"
@@ -270,17 +287,18 @@ questions:
           D: "Couscous"
   - text: "Quelle spécialité niçoise est une galette de farine de pois chiches cuite au four ?"
     answers:
-      A: "La socca"
-      B: "La pissaladière"
+      A: "La pissaladière"
+      B: "La socca"
       C: "La tapenade"
       D: "La ratatouille"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Nice specialty is a chickpea flour flatbread baked in the oven?"
         answers:
-          A: "Socca"
-          B: "Pissaladière"
+          A: "Pissaladière"
+          B: "Socca"
           C: "Tapenade"
           D: "Ratatouille"
   - text: "Quel plat péruvien est composé de poisson cru mariné dans du jus de citron vert ?"
@@ -290,6 +308,7 @@ questions:
       C: "Le guacamole"
       D: "Le ceviche"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Peruvian dish consists of raw fish marinated in lime juice?"
@@ -305,6 +324,7 @@ questions:
       C: "Le méchoui"
       D: "La harira"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Moroccan stewed dish gets its name from the earthenware pot with a conical lid?"
@@ -313,3 +333,1283 @@ questions:
           B: "Tagine"
           C: "Mechoui"
           D: "Harira"
+  - text: "Quel pays est traditionnellement considéré comme le berceau de la paella ?"
+    answers:
+      A: "L'Italie"
+      B: "L'Espagne"
+      C: "Le Portugal"
+      D: "La Grèce"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country is traditionally considered the birthplace of paella?"
+        answers:
+          A: "Italy"
+          B: "Spain"
+          C: "Portugal"
+          D: "Greece"
+    difficulty: EASY
+  - text: "Avec quel fruit prépare-t-on traditionnellement le guacamole ?"
+    answers:
+      A: "La tomate"
+      B: "Le concombre"
+      C: "La mangue"
+      D: "L'avocat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which fruit is traditionally used to make guacamole?"
+        answers:
+          A: "Tomato"
+          B: "Cucumber"
+          C: "Mango"
+          D: "Avocado"
+    difficulty: EASY
+  - text: "Quel fromage italien à pâte filée est souvent utilisé dans les lasagnes ?"
+    answers:
+      A: "Le gouda"
+      B: "La mozzarella"
+      C: "Le brie"
+      D: "Le cheddar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Italian stretched-curd cheese is often used in lasagna?"
+        answers:
+          A: "Gouda"
+          B: "Mozzarella"
+          C: "Brie"
+          D: "Cheddar"
+    difficulty: EASY
+  - text: "De quel pays les sushis sont-ils une spécialité ?"
+    answers:
+      A: "Le Japon"
+      B: "La Chine"
+      C: "La Corée du Sud"
+      D: "La Thaïlande"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country is sushi a specialty of?"
+        answers:
+          A: "Japan"
+          B: "China"
+          C: "South Korea"
+          D: "Thailand"
+    difficulty: EASY
+  - text: "Quel fruit est l'ingrédient principal de la tarte tatin ?"
+    answers:
+      A: "La prune"
+      B: "La poire"
+      C: "La pomme"
+      D: "La cerise"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which fruit is the main ingredient in tarte Tatin?"
+        answers:
+          A: "Plum"
+          B: "Pear"
+          C: "Apple"
+          D: "Cherry"
+    difficulty: EASY
+  - text: "Avec quelle céréale prépare-t-on le risotto ?"
+    answers:
+      A: "Le blé"
+      B: "Le maïs"
+      C: "L'orge"
+      D: "Le riz"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which grain is used to make risotto?"
+        answers:
+          A: "Wheat"
+          B: "Corn"
+          C: "Barley"
+          D: "Rice"
+    difficulty: EASY
+  - text: "Quel légume orange est particulièrement riche en bêta-carotène ?"
+    answers:
+      A: "Le navet"
+      B: "Le panais"
+      C: "La carotte"
+      D: "La betterave"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which orange vegetable is particularly rich in beta-carotene?"
+        answers:
+          A: "Turnip"
+          B: "Parsnip"
+          C: "Carrot"
+          D: "Beetroot"
+    difficulty: EASY
+  - text: "Quelle herbe aromatique donne sa couleur verte au pesto ?"
+    answers:
+      A: "La menthe"
+      B: "Le basilic"
+      C: "Le persil"
+      D: "La coriandre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which herb gives pesto its green color?"
+        answers:
+          A: "Mint"
+          B: "Basil"
+          C: "Parsley"
+          D: "Cilantro"
+    difficulty: EASY
+  - text: "Quel pays est le premier producteur mondial de café ?"
+    answers:
+      A: "La Colombie"
+      B: "Le Brésil"
+      C: "Le Vietnam"
+      D: "L'Éthiopie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country is the world's largest producer of coffee?"
+        answers:
+          A: "Colombia"
+          B: "Brazil"
+          C: "Vietnam"
+          D: "Ethiopia"
+    difficulty: EASY
+  - text: "Quel ingrédient, en plus du chocolat, est indispensable à la mousse au chocolat ?"
+    answers:
+      A: "Des œufs"
+      B: "De la farine"
+      C: "Du riz"
+      D: "Des pommes de terre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ingredient, besides chocolate, is essential for chocolate mousse?"
+        answers:
+          A: "Eggs"
+          B: "Flour"
+          C: "Rice"
+          D: "Potatoes"
+    difficulty: EASY
+  - text: "Quel plat mexicain est une tortilla garnie puis roulée ?"
+    answers:
+      A: "Le taco"
+      B: "Le tamal"
+      C: "La quesadilla"
+      D: "Le burrito"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Mexican dish is a filled tortilla that is then rolled?"
+        answers:
+          A: "Taco"
+          B: "Tamale"
+          C: "Quesadilla"
+          D: "Burrito"
+    difficulty: EASY
+  - text: "Quel fromage normand à croûte fleurie est traditionnellement vendu en boîte ronde ?"
+    answers:
+      A: "Le roquefort"
+      B: "Le comté"
+      C: "Le chèvre"
+      D: "Le camembert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Norman soft-ripened cheese is traditionally sold in a round box?"
+        answers:
+          A: "Roquefort"
+          B: "Comté"
+          C: "Goat cheese"
+          D: "Camembert"
+    difficulty: EASY
+  - text: "Quel légume donne son nom et son goût à la soupe à l'oignon ?"
+    answers:
+      A: "L'oignon"
+      B: "L'ail"
+      C: "Le poireau"
+      D: "L'échalote"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which vegetable gives onion soup its name and flavor?"
+        answers:
+          A: "Onion"
+          B: "Garlic"
+          C: "Leek"
+          D: "Shallot"
+    difficulty: EASY
+  - text: "Quel fruit jaune et courbé est cultivé dans les régions tropicales ?"
+    answers:
+      A: "La banane"
+      B: "L'ananas"
+      C: "La mangue"
+      D: "Le kiwi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which yellow, curved fruit is grown in tropical regions?"
+        answers:
+          A: "Banana"
+          B: "Pineapple"
+          C: "Mango"
+          D: "Kiwi"
+    difficulty: EASY
+  - text: "Quelle épice est extraite de l'écorce d'un arbre tropical ?"
+    answers:
+      A: "Le poivre"
+      B: "Le safran"
+      C: "Le cumin"
+      D: "La cannelle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which spice is extracted from the bark of a tropical tree?"
+        answers:
+          A: "Pepper"
+          B: "Saffron"
+          C: "Cumin"
+          D: "Cinnamon"
+    difficulty: EASY
+  - text: "Quel plat américain est composé d'un steak haché entre deux pains ronds ?"
+    answers:
+      A: "Le hot-dog"
+      B: "Le bagel"
+      C: "Le club sandwich"
+      D: "Le hamburger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which American dish consists of a ground beef patty between two round buns?"
+        answers:
+          A: "The hot dog"
+          B: "The bagel"
+          C: "The club sandwich"
+          D: "The hamburger"
+    difficulty: EASY
+  - text: "Quel fromage néerlandais à pâte pressée est souvent vendu en meules ?"
+    answers:
+      A: "Le feta"
+      B: "Le manchego"
+      C: "Le gouda"
+      D: "Le pecorino"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Dutch pressed cheese is often sold in wheels?"
+        answers:
+          A: "Feta"
+          B: "Manchego"
+          C: "Gouda"
+          D: "Pecorino"
+    difficulty: EASY
+  - text: "À base de quel fruit prépare-t-on le ketchup ?"
+    answers:
+      A: "La fraise"
+      B: "La tomate"
+      C: "La cerise"
+      D: "Le poivron"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Ketchup is made from which fruit?"
+        answers:
+          A: "Strawberry"
+          B: "Tomato"
+          C: "Cherry"
+          D: "Bell pepper"
+    difficulty: EASY
+  - text: "Quelle boisson chaude est préparée à partir des feuilles du théier ?"
+    answers:
+      A: "Le café"
+      B: "La tisane"
+      C: "Le chocolat chaud"
+      D: "Le thé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which hot drink is made from the leaves of the tea plant?"
+        answers:
+          A: "Coffee"
+          B: "Herbal tea"
+          C: "Hot chocolate"
+          D: "Tea"
+    difficulty: EASY
+  - text: "Dans quelle région française déguste-t-on la fondue savoyarde ?"
+    answers:
+      A: "La Savoie"
+      B: "L'Alsace"
+      C: "La Bretagne"
+      D: "Le Périgord"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which French region do people enjoy fondue savoyarde?"
+        answers:
+          A: "Savoie"
+          B: "Alsace"
+          C: "Brittany"
+          D: "Périgord"
+    difficulty: MEDIUM
+  - text: "Quelle épice, la plus chère du monde, est issue des stigmates du crocus ?"
+    answers:
+      A: "La cannelle"
+      B: "Le clou de girofle"
+      C: "Le safran"
+      D: "La cardamome"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spice, the most expensive in the world, comes from the stigmas of the crocus?"
+        answers:
+          A: "Cinnamon"
+          B: "Clove"
+          C: "Saffron"
+          D: "Cardamom"
+    difficulty: MEDIUM
+  - text: "Quel plat espagnol est une omelette épaisse à la pomme de terre ?"
+    answers:
+      A: "La tortilla española"
+      B: "Le gazpacho"
+      C: "Les churros"
+      D: "Le pisto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Spanish dish is a thick potato omelette?"
+        answers:
+          A: "Tortilla española"
+          B: "Gazpacho"
+          C: "Churros"
+          D: "Pisto"
+    difficulty: MEDIUM
+  - text: "Quel fromage italien à pâte dure est râpé sur les pâtes et porte le nom d'une région ?"
+    answers:
+      A: "Le gorgonzola"
+      B: "Le parmesan"
+      C: "Le mascarpone"
+      D: "La ricotta"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which hard Italian cheese is grated over pasta and is named after a region?"
+        answers:
+          A: "Gorgonzola"
+          B: "Parmesan"
+          C: "Mascarpone"
+          D: "Ricotta"
+    difficulty: MEDIUM
+  - text: "Quelle soupe japonaise est préparée avec de la pâte de soja fermentée et des algues ?"
+    answers:
+      A: "Le ramen"
+      B: "Le soba"
+      C: "L'udon"
+      D: "La soupe miso"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese soup is made with fermented soybean paste and seaweed?"
+        answers:
+          A: "Ramen"
+          B: "Soba"
+          C: "Udon"
+          D: "Miso soup"
+    difficulty: MEDIUM
+  - text: "Quelle pâtisserie française est une couronne de pâte feuilletée fourrée à la crème d'amandes ?"
+    answers:
+      A: "Le canelé"
+      B: "Le baba au rhum"
+      C: "Le Paris-Brest"
+      D: "La galette des rois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French pastry is a ring of puff pastry filled with almond cream?"
+        answers:
+          A: "Canelé"
+          B: "Baba au rhum"
+          C: "Paris-Brest"
+          D: "Galette des rois"
+    difficulty: MEDIUM
+  - text: "Quel mélange d'épices indiennes doit son nom à une expression signifiant 'épices chaudes' ?"
+    answers:
+      A: "Le ras el-hanout"
+      B: "Le zaatar"
+      C: "Le garam masala"
+      D: "Le 5-épices"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Indian spice blend gets its name from an expression meaning 'hot spices'?"
+        answers:
+          A: "Ras el-hanout"
+          B: "Zaatar"
+          C: "Garam masala"
+          D: "Five-spice"
+    difficulty: MEDIUM
+  - text: "Quelle soupe thaïlandaise est parfumée à la citronnelle et souvent servie avec des crevettes ?"
+    answers:
+      A: "Le pad thaï"
+      B: "Le curry vert"
+      C: "Le satay"
+      D: "Le tom yum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Thai soup is scented with lemongrass and often served with shrimp?"
+        answers:
+          A: "Pad Thai"
+          B: "Green curry"
+          C: "Satay"
+          D: "Tom yum"
+    difficulty: MEDIUM
+  - text: "Quel plat romain de pâtes est préparé avec des œufs, du guanciale et du poivre ?"
+    answers:
+      A: "Les gnocchi"
+      B: "L'amatriciana"
+      C: "La cacio e pepe"
+      D: "La carbonara"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman pasta dish is made with eggs, guanciale and pepper?"
+        answers:
+          A: "Gnocchi"
+          B: "Amatriciana"
+          C: "Cacio e pepe"
+          D: "Carbonara"
+    difficulty: MEDIUM
+  - text: "Quel poisson est traditionnellement utilisé dans le poke hawaïen ?"
+    answers:
+      A: "Le saumon"
+      B: "Le thon"
+      C: "La morue"
+      D: "Le maquereau"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which fish is traditionally used in Hawaiian poke?"
+        answers:
+          A: "Salmon"
+          B: "Tuna"
+          C: "Cod"
+          D: "Mackerel"
+    difficulty: MEDIUM
+  - text: "Quelle pâtisserie française allongée est garnie de crème pâtissière et glacée sur le dessus ?"
+    answers:
+      A: "Le mille-feuille"
+      B: "La religieuse"
+      C: "L'éclair"
+      D: "Le macaron"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which elongated French pastry is filled with pastry cream and glazed on top?"
+        answers:
+          A: "Mille-feuille"
+          B: "Religieuse"
+          C: "Éclair"
+          D: "Macaron"
+    difficulty: MEDIUM
+  - text: "Quelle variété de riz, rond et collant, est utilisée pour préparer les sushis ?"
+    answers:
+      A: "Le riz japonais"
+      B: "Le riz sauvage"
+      C: "Le riz long parfumé"
+      D: "Le riz basmati"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which variety of rice, round and sticky, is used to prepare sushi?"
+        answers:
+          A: "Japanese rice"
+          B: "Wild rice"
+          C: "Fragrant long-grain rice"
+          D: "Basmati rice"
+    difficulty: MEDIUM
+  - text: "Quelle purée de pois chiches au tahini est une spécialité libanaise ?"
+    answers:
+      A: "Le taboulé"
+      B: "Le baba ganoush"
+      C: "Le houmous"
+      D: "Le falafel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chickpea and tahini puree is a Lebanese specialty?"
+        answers:
+          A: "Tabbouleh"
+          B: "Baba ganoush"
+          C: "Hummus"
+          D: "Falafel"
+    difficulty: MEDIUM
+  - text: "Quelle spécialité écossaise est un pouding de viande de mouton et d'avoine cuit dans une panse ?"
+    answers:
+      A: "Le black pudding"
+      B: "Le shepherd's pie"
+      C: "Le haggis"
+      D: "Le bangers and mash"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Scottish specialty is a pudding of sheep meat and oats cooked in a stomach?"
+        answers:
+          A: "Black pudding"
+          B: "Shepherd's pie"
+          C: "Haggis"
+          D: "Bangers and mash"
+    difficulty: MEDIUM
+  - text: "Quel dessert est un flan à la vanille nappé de caramel ?"
+    answers:
+      A: "La crème brûlée"
+      B: "Le clafoutis"
+      C: "La crème anglaise"
+      D: "La crème caramel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which dessert is a vanilla custard topped with caramel?"
+        answers:
+          A: "Crème brûlée"
+          B: "Clafoutis"
+          C: "Crème anglaise"
+          D: "Crème caramel"
+    difficulty: MEDIUM
+  - text: "Quelle charcuterie italienne est un jambon cru salé et séché, servi en fines tranches ?"
+    answers:
+      A: "Le prosciutto"
+      B: "La pancetta"
+      C: "Le salami"
+      D: "La mortadelle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian cured meat is a salted and dried raw ham, served in thin slices?"
+        answers:
+          A: "Prosciutto"
+          B: "Pancetta"
+          C: "Salami"
+          D: "Mortadella"
+    difficulty: MEDIUM
+  - text: "Quelle spécialité chinoise est un canard rôti et laqué, servi avec de fines crêpes ?"
+    answers:
+      A: "Le bœuf à l'orange"
+      B: "Le porc au caramel"
+      C: "Le canard laqué"
+      D: "Le poulet kung pao"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Chinese specialty is a roasted and glazed duck, served with thin pancakes?"
+        answers:
+          A: "Orange beef"
+          B: "Caramel pork"
+          C: "Peking duck"
+          D: "Kung pao chicken"
+    difficulty: MEDIUM
+  - text: "Quelle plante aromatique méditerranéenne parfume traditionnellement la ratatouille ?"
+    answers:
+      A: "Le thym"
+      B: "La sauge"
+      C: "L'aneth"
+      D: "La menthe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Mediterranean aromatic plant traditionally flavors ratatouille?"
+        answers:
+          A: "Thyme"
+          B: "Sage"
+          C: "Dill"
+          D: "Mint"
+    difficulty: MEDIUM
+  - text: "Quel fromage bleu italien à pâte persillée accompagne souvent les pâtes ou la polenta ?"
+    answers:
+      A: "Le gorgonzola"
+      B: "Le stilton"
+      C: "Le roquefort"
+      D: "Le danish blue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian blue cheese with blue veins often accompanies pasta or polenta?"
+        answers:
+          A: "Gorgonzola"
+          B: "Stilton"
+          C: "Roquefort"
+          D: "Danish blue"
+    difficulty: MEDIUM
+  - text: "Quel plat coréen est un bœuf mariné grillé, souvent servi avec du riz et des feuilles de salade ?"
+    answers:
+      A: "Le bulgogi"
+      B: "Le japchae"
+      C: "Le bibimbap"
+      D: "Le kimchi jjigae"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Korean dish is grilled marinated beef, often served with rice and lettuce leaves?"
+        answers:
+          A: "Bulgogi"
+          B: "Japchae"
+          C: "Bibimbap"
+          D: "Kimchi jjigae"
+    difficulty: MEDIUM
+  - text: "Quel plat lyonnais est une quenelle de brochet nappée d'une sauce à base d'écrevisses ?"
+    answers:
+      A: "Le gratin dauphinois"
+      B: "La quenelle de brochet"
+      C: "Le pâté en croûte"
+      D: "L'andouillette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Lyonnaise dish is a pike quenelle topped with a crayfish-based sauce?"
+        answers:
+          A: "Gratin dauphinois"
+          B: "Pike quenelle"
+          C: "Pâté en croûte"
+          D: "Andouillette"
+    difficulty: HARD
+  - text: "Quelle spécialité bretonne est une crêpe salée à base de farine de sarrasin ?"
+    answers:
+      A: "Le far breton"
+      B: "Le kouign-amann"
+      C: "La galette de blé noir"
+      D: "La cotriade"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Breton specialty is a savory pancake made from buckwheat flour?"
+        answers:
+          A: "Far breton"
+          B: "Kouign-amann"
+          C: "Buckwheat galette"
+          D: "Cotriade"
+    difficulty: HARD
+  - text: "Quel ragoût de poissons et de pommes de terre est une spécialité bretonne ?"
+    answers:
+      A: "La bouillabaisse"
+      B: "La chaudrée"
+      C: "La cotriade"
+      D: "Le waterzoï"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which fish and potato stew is a Breton specialty?"
+        answers:
+          A: "Bouillabaisse"
+          B: "Chowder"
+          C: "Cotriade"
+          D: "Waterzooi"
+    difficulty: HARD
+  - text: "Quel fromage espagnol au lait de brebis à pâte pressée est produit en Castille-La Manche ?"
+    answers:
+      A: "Le cabrales"
+      B: "L'idiazabal"
+      C: "Le tetilla"
+      D: "Le manchego"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Spanish pressed sheep's milk cheese is produced in Castile-La Mancha?"
+        answers:
+          A: "Cabrales"
+          B: "Idiazabal"
+          C: "Tetilla"
+          D: "Manchego"
+    difficulty: HARD
+  - text: "Quelle charcuterie corse est préparée à base de foie de porc ?"
+    answers:
+      A: "Le figatellu"
+      B: "La coppa"
+      C: "Le prisuttu"
+      D: "Le lonzu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Corsican charcuterie is made from pork liver?"
+        answers:
+          A: "Figatellu"
+          B: "Coppa"
+          C: "Prisuttu"
+          D: "Lonzu"
+    difficulty: HARD
+  - text: "Quelle soupe de poisson hongroise est parfumée au paprika ?"
+    answers:
+      A: "Le töltött káposzta"
+      B: "Le goulash"
+      C: "Le lecsó"
+      D: "Le halászlé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Hungarian fish soup is flavored with paprika?"
+        answers:
+          A: "Töltött káposzta"
+          B: "Goulash"
+          C: "Lecsó"
+          D: "Halászlé"
+    difficulty: HARD
+  - text: "Quelle sauce mexicaine épaisse marie piment et chocolat et accompagne la volaille ?"
+    answers:
+      A: "Le mole"
+      B: "Le guacamole"
+      C: "La salsa verde"
+      D: "Le pipián"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which thick Mexican sauce combines chili and chocolate and accompanies poultry?"
+        answers:
+          A: "Mole"
+          B: "Guacamole"
+          C: "Salsa verde"
+          D: "Pipián"
+    difficulty: HARD
+  - text: "De quelle région française la saucisse de Morteau est-elle une spécialité IGP ?"
+    answers:
+      A: "L'Alsace"
+      B: "L'Auvergne"
+      C: "La Bretagne"
+      D: "La Franche-Comté"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which French region is the Morteau sausage an IGP specialty?"
+        answers:
+          A: "Alsace"
+          B: "Auvergne"
+          C: "Brittany"
+          D: "Franche-Comté"
+    difficulty: HARD
+  - text: "Quelle tarte alsacienne est garnie de crème fraîche, de lardons et d'oignons ?"
+    answers:
+      A: "La choucroute"
+      B: "La flammekueche"
+      C: "Le baeckeoffe"
+      D: "Le kougelhopf"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Alsatian tart is topped with crème fraîche, bacon bits, and onions?"
+        answers:
+          A: "Choucroute"
+          B: "Flammekueche"
+          C: "Baeckeoffe"
+          D: "Kougelhopf"
+    difficulty: HARD
+  - text: "Quel chausson de pâte à pizza garni de fromage et de charcuterie est cuit au four ?"
+    answers:
+      A: "La focaccia"
+      B: "Le calzone"
+      C: "La ciabatta"
+      D: "La piadina"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pizza-dough turnover filled with cheese and cured meats is baked in the oven?"
+        answers:
+          A: "Focaccia"
+          B: "Calzone"
+          C: "Ciabatta"
+          D: "Piadina"
+    difficulty: HARD
+  - text: "Quelle tourte marocaine feuilletée sucrée-salée est garnie de viande et d'amandes ?"
+    answers:
+      A: "La pastilla"
+      B: "La chermoula"
+      C: "La harira"
+      D: "La bsissa"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sweet-and-savory flaky Moroccan pie is filled with meat and almonds?"
+        answers:
+          A: "Pastilla"
+          B: "Chermoula"
+          C: "Harira"
+          D: "Bsissa"
+    difficulty: HARD
+  - text: "Quel ragoût éthiopien épicé est traditionnellement servi sur une galette d'injera ?"
+    answers:
+      A: "Le tibs"
+      B: "Le shiro"
+      C: "Le doro wat"
+      D: "Le kitfo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spicy Ethiopian stew is traditionally served on injera flatbread?"
+        answers:
+          A: "Tibs"
+          B: "Shiro"
+          C: "Doro wat"
+          D: "Kitfo"
+    difficulty: HARD
+  - text: "Quel plat japonais est un porc pané et frit, servi avec une sauce du même nom ?"
+    answers:
+      A: "Le tonkatsu"
+      B: "Le karaage"
+      C: "Le tempura"
+      D: "Le yakitori"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese dish is breaded and fried pork served with a sauce of the same name?"
+        answers:
+          A: "Tonkatsu"
+          B: "Karaage"
+          C: "Tempura"
+          D: "Yakitori"
+    difficulty: HARD
+  - text: "Quelle spécialité du sud de l'Inde est une crêpe de riz et de lentilles fourrée aux pommes de terre ?"
+    answers:
+      A: "Le naan"
+      B: "Le chapati"
+      C: "Le dosa"
+      D: "Le paratha"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which South Indian specialty is a rice-and-lentil crepe filled with potatoes?"
+        answers:
+          A: "Naan"
+          B: "Chapati"
+          C: "Dosa"
+          D: "Paratha"
+    difficulty: HARD
+  - text: "Quel curry thaïlandais, parfumé au lait de coco, doit sa couleur à des piments frais ?"
+    answers:
+      A: "Le satay"
+      B: "Le pad thaï"
+      C: "Le som tam"
+      D: "Le curry vert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Thai curry, scented with coconut milk, gets its color from fresh chilies?"
+        answers:
+          A: "Satay"
+          B: "Pad Thai"
+          C: "Som tam"
+          D: "Green curry"
+    difficulty: HARD
+  - text: "Quelle fourme AOP du Massif central est un fromage à pâte persillée ?"
+    answers:
+      A: "Le cantal"
+      B: "La fourme d'Ambert"
+      C: "Le saint-nectaire"
+      D: "Le salers"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP blue cheese from the Massif Central is a veined cheese?"
+        answers:
+          A: "Cantal"
+          B: "Fourme d'Ambert"
+          C: "Saint-Nectaire"
+          D: "Salers"
+    difficulty: HARD
+  - text: "Quel jambon cru espagnol est issu de porcs élevés en liberté et affiné plusieurs années ?"
+    answers:
+      A: "Le chorizo"
+      B: "La sobrassada"
+      C: "Le lomo"
+      D: "Le jamón ibérico"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Spanish cured ham comes from free-range pigs and is aged for several years?"
+        answers:
+          A: "Chorizo"
+          B: "Sobrassada"
+          C: "Lomo"
+          D: "Jamón ibérico"
+    difficulty: HARD
+  - text: "Quelle spécialité péruvienne est un plat de pommes de terre nappées d'une sauce crémeuse au piment ?"
+    answers:
+      A: "Le lomo saltado"
+      B: "La papa a la huancaína"
+      C: "L'anticucho"
+      D: "Le rocoto relleno"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Peruvian specialty is a dish of potatoes covered in a creamy chili sauce?"
+        answers:
+          A: "Lomo saltado"
+          B: "Papa a la huancaína"
+          C: "Anticucho"
+          D: "Rocoto relleno"
+    difficulty: HARD
+  - text: "Quel plat brésilien est un ragoût de haricots noirs et de viandes servi avec du riz ?"
+    answers:
+      A: "La moqueca"
+      B: "Le churrasco"
+      C: "La feijoada"
+      D: "L'acarajé"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Brazilian dish is a stew of black beans and meats served with rice?"
+        answers:
+          A: "Moqueca"
+          B: "Churrasco"
+          C: "Feijoada"
+          D: "Acarajé"
+    difficulty: HARD
+  - text: "Quel pain géorgien est fourré au fromage et surmonté d'un œuf ?"
+    answers:
+      A: "Le khinkali"
+      B: "Le bortsch"
+      C: "Les pelmeni"
+      D: "Le khachapuri"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Georgian bread is filled with cheese and topped with an egg?"
+        answers:
+          A: "Khinkali"
+          B: "Borscht"
+          C: "Pelmeni"
+          D: "Khachapuri"
+    difficulty: HARD
+  - text: "Quel fromage savoyard AOP est produit dans les vallées du Beaufortain et de la Tarentaise ?"
+    answers:
+      A: "L'abondance"
+      B: "Le beaufort"
+      C: "Le reblochon"
+      D: "Le comté"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP Savoyard cheese is produced in the Beaufortain and Tarentaise valleys?"
+        answers:
+          A: "Abondance"
+          B: "Beaufort"
+          C: "Reblochon"
+          D: "Comté"
+    difficulty: EXPERT
+  - text: "Quelle charcuterie italienne de Bologne est une saucisse cuite à la viande finement hachée ?"
+    answers:
+      A: "Le salami"
+      B: "La mortadelle"
+      C: "La pancetta"
+      D: "Le guanciale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Italian charcuterie from Bologna is a cooked sausage made of finely ground meat?"
+        answers:
+          A: "Salami"
+          B: "Mortadella"
+          C: "Pancetta"
+          D: "Guanciale"
+    difficulty: EXPERT
+  - text: "Quel fromage bleu anglais bénéficie d'une AOP et n'est produit que dans trois comtés des Midlands ?"
+    answers:
+      A: "Le cheddar"
+      B: "Le stilton"
+      C: "Le lancashire"
+      D: "Le cheshire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which English blue cheese has a PDO and is produced only in three counties of the Midlands?"
+        answers:
+          A: "Cheddar"
+          B: "Stilton"
+          C: "Lancashire"
+          D: "Cheshire"
+    difficulty: EXPERT
+  - text: "Quel ragoût basque de thon et de pommes de terre est parfumé au piment ?"
+    answers:
+      A: "Le marmitako"
+      B: "L'axoa"
+      C: "La piperade"
+      D: "Le ttoro"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Basque tuna and potato stew is flavored with chili?"
+        answers:
+          A: "Marmitako"
+          B: "Axoa"
+          C: "Piperade"
+          D: "Ttoro"
+    difficulty: EXPERT
+  - text: "Quel fromage frais corse AOP est élaboré à partir de lactosérum de brebis ou de chèvre ?"
+    answers:
+      A: "L'ossau-iraty"
+      B: "Le pecorino romano"
+      C: "La ricotta salata"
+      D: "Le brocciu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Corsican PDO fresh cheese is made from sheep's or goat's whey?"
+        answers:
+          A: "Ossau-Iraty"
+          B: "Pecorino Romano"
+          C: "Ricotta salata"
+          D: "Brocciu"
+    difficulty: EXPERT
+  - text: "Quel plat italien du sud est un gratin d'aubergines à la tomate et au fromage ?"
+    answers:
+      A: "La caponata"
+      B: "La parmigiana"
+      C: "L'arancino"
+      D: "La panelle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which southern Italian dish is a baked eggplant casserole with tomato and cheese?"
+        answers:
+          A: "Caponata"
+          B: "Parmigiana"
+          C: "Arancino"
+          D: "Panelle"
+    difficulty: EXPERT
+  - text: "Quelle charcuterie auvergnate bénéficie d'une IGP pour un jambon cru de montagne ?"
+    answers:
+      A: "Le jambon de Bayonne"
+      B: "Le jambon de Parme"
+      C: "Le jambon d'Auvergne"
+      D: "Le jambon de Paris"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Auvergne charcuterie has a PGI for a mountain-cured ham?"
+        answers:
+          A: "Bayonne ham"
+          B: "Parma ham"
+          C: "Auvergne ham"
+          D: "Paris ham"
+    difficulty: EXPERT
+  - text: "Quelle tarte espagnole garnie de thon, de tomate et de poivron est originaire de Galice ?"
+    answers:
+      A: "Le pisto"
+      B: "La tortilla"
+      C: "L'empanada galicienne"
+      D: "Les migas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Spanish pie filled with tuna, tomato and pepper originates from Galicia?"
+        answers:
+          A: "Pisto"
+          B: "Tortilla"
+          C: "Galician empanada"
+          D: "Migas"
+    difficulty: EXPERT
+  - text: "Quel saumon mariné au sel, au sucre et à l'aneth est une spécialité nordique ?"
+    answers:
+      A: "Le surströmming"
+      B: "Le gravlax"
+      C: "Le lutefisk"
+      D: "Le rakfisk"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which salmon cured with salt, sugar and dill is a Nordic specialty?"
+        answers:
+          A: "Surströmming"
+          B: "Gravlax"
+          C: "Lutefisk"
+          D: "Rakfisk"
+    difficulty: EXPERT
+  - text: "Quelles boulettes de viande suédoises sont servies avec une sauce crémeuse et de la confiture d'airelles ?"
+    answers:
+      A: "Les frikadeller"
+      B: "Les köttbullar"
+      C: "Les cevapcici"
+      D: "Les keftas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Swedish meatballs are served with a creamy sauce and lingonberry jam?"
+        answers:
+          A: "Frikadeller"
+          B: "Köttbullar"
+          C: "Cevapcici"
+          D: "Keftas"
+    difficulty: EXPERT
+  - text: "Quelle crêpe fine russe est traditionnellement garnie de fromage frais, de saumon ou de caviar ?"
+    answers:
+      A: "Les pelmeni"
+      B: "Les pirojkis"
+      C: "Les blinis"
+      D: "Les vatrouchkas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which thin Russian pancake is traditionally filled with fresh cheese, salmon or caviar?"
+        answers:
+          A: "Pelmeni"
+          B: "Pirozhkis"
+          C: "Blinis"
+          D: "Vatrushkas"
+    difficulty: EXPERT
+  - text: "Quelle tartine danoise de pain de seigle est garnie de poisson ou de charcuterie ?"
+    answers:
+      A: "Le lefse"
+      B: "Le knäckebröd"
+      C: "Le smørrebrød"
+      D: "Le rugbrød"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Danish open-faced rye bread sandwich is topped with fish or charcuterie?"
+        answers:
+          A: "Lefse"
+          B: "Knäckebröd"
+          C: "Smørrebrød"
+          D: "Rugbrød"
+    difficulty: EXPERT
+  - text: "Quelle purée d'aubergines grillées au tahini et au citron est une spécialité libanaise ?"
+    answers:
+      A: "Le baba ganoush"
+      B: "Le labneh"
+      C: "Le muhammara"
+      D: "Le taboulé"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which grilled eggplant puree with tahini and lemon is a Lebanese specialty?"
+        answers:
+          A: "Baba ganoush"
+          B: "Labneh"
+          C: "Muhammara"
+          D: "Tabbouleh"
+    difficulty: EXPERT
+  - text: "Quel ragoût iranien aux herbes hachées et aux haricots est traditionnellement servi lors de Norouz ?"
+    answers:
+      A: "Le tahchin"
+      B: "Le fesenjan"
+      C: "Le kebab koobideh"
+      D: "Le ghormeh sabzi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Iranian stew with chopped herbs and beans is traditionally served during Nowruz?"
+        answers:
+          A: "Tahchin"
+          B: "Fesenjan"
+          C: "Koobideh kebab"
+          D: "Ghormeh sabzi"
+    difficulty: EXPERT
+  - text: "Quelle salade marocaine est une purée d'aubergines grillées à la tomate et à l'ail ?"
+    answers:
+      A: "La harira"
+      B: "La chermoula"
+      C: "Le rghaif"
+      D: "Le zaalouk"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Moroccan salad is a puree of grilled eggplant with tomato and garlic?"
+        answers:
+          A: "Harira"
+          B: "Chermoula"
+          C: "Rghaif"
+          D: "Zaalouk"
+    difficulty: EXPERT
+  - text: "Quel plat égyptien mélange riz, lentilles et pâtes, garni d'oignons frits et de sauce tomate ?"
+    answers:
+      A: "Le koshari"
+      B: "Le ful medames"
+      C: "La molokheya"
+      D: "Le falafel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Egyptian dish mixes rice, lentils and pasta, topped with fried onions and tomato sauce?"
+        answers:
+          A: "Koshari"
+          B: "Ful medames"
+          C: "Molokheya"
+          D: "Falafel"
+    difficulty: EXPERT
+  - text: "Quel plat indien est un riz épicé cuit avec de la viande et parfumé au safran ?"
+    answers:
+      A: "Le tandoori"
+      B: "Le biryani"
+      C: "Le palak paneer"
+      D: "Le dal makhani"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Indian dish is a spicy rice cooked with meat and flavored with saffron?"
+        answers:
+          A: "Tandoori"
+          B: "Biryani"
+          C: "Palak paneer"
+          D: "Dal makhani"
+    difficulty: EXPERT
+  - text: "Quel ravioli népalais cuit à la vapeur est souvent fourré à la viande de buffle ?"
+    answers:
+      A: "Le momo"
+      B: "Le jiaozi"
+      C: "Le mantou"
+      D: "Le dim sum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Nepalese steamed dumpling is often filled with buffalo meat?"
+        answers:
+          A: "Momo"
+          B: "Jiaozi"
+          C: "Mantou"
+          D: "Dim sum"
+    difficulty: EXPERT
+  - text: "Quel gros ravioli géorgien contient de la viande hachée et du bouillon ?"
+    answers:
+      A: "Le khinkali"
+      B: "Le pelmeni"
+      C: "Le vareniki"
+      D: "Le pierogi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which large Georgian dumpling contains minced meat and broth?"
+        answers:
+          A: "Khinkali"
+          B: "Pelmeni"
+          C: "Vareniki"
+          D: "Pierogi"
+    difficulty: EXPERT
+  - text: "Quelle fine pizza arménienne est garnie d'un mélange épicé de viande hachée ?"
+    answers:
+      A: "La manakish"
+      B: "La pide"
+      C: "Le lahmajoun"
+      D: "Le gözleme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which thin Armenian pizza is topped with a spicy minced meat mixture?"
+        answers:
+          A: "Manakish"
+          B: "Pide"
+          C: "Lahmajoun"
+          D: "Gözleme"
+    difficulty: EXPERT
+  - text: "Quelle spécialité hawaïenne est un porc entier cuit lentement dans un four enterré ?"
+    answers:
+      A: "Le loco moco"
+      B: "Le laulau"
+      C: "Le porc kalua"
+      D: "Le poke"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Hawaiian specialty is a whole pig slow-cooked in an underground oven?"
+        answers:
+          A: "Loco moco"
+          B: "Laulau"
+          C: "Kalua pork"
+          D: "Poke"
+    difficulty: EXPERT

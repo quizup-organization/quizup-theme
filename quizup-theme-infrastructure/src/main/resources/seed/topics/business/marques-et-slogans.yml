@@ -8,18 +8,19 @@ topic:
 questions:
   - text: "Quelle entreprise utilise le slogan « Just Do It » ?"
     answers:
-      A: "Adidas"
+      A: "Nike"
       B: "Reebok"
-      C: "Nike"
+      C: "Adidas"
       D: "Puma"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which company uses the slogan \"Just Do It\"?"
         answers:
-          A: "Adidas"
+          A: "Nike"
           B: "Reebok"
-          C: "Nike"
+          C: "Adidas"
           D: "Puma"
   - text: "Quelle marque de cosmétiques utilise le slogan « Parce que vous le valez bien » ?"
     answers:
@@ -28,6 +29,7 @@ questions:
       C: "Garnier"
       D: "Lancôme"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which cosmetics brand uses the slogan \"Because you're worth it\"?"
@@ -39,47 +41,50 @@ questions:
   - text: "Qui a cofondé Apple avec Steve Jobs et Ronald Wayne en 1976 ?"
     answers:
       A: "Bill Gates"
-      B: "Steve Wozniak"
+      B: "Larry Ellison"
       C: "Jeff Bezos"
-      D: "Larry Ellison"
-    correctAnswer: B
+      D: "Steve Wozniak"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who co-founded Apple with Steve Jobs and Ronald Wayne in 1976?"
         answers:
           A: "Bill Gates"
-          B: "Steve Wozniak"
+          B: "Larry Ellison"
           C: "Jeff Bezos"
-          D: "Larry Ellison"
+          D: "Steve Wozniak"
   - text: "Qui a fondé Amazon en 1994 ?"
     answers:
       A: "Elon Musk"
       B: "Jack Ma"
-      C: "Reed Hastings"
-      D: "Jeff Bezos"
-    correctAnswer: D
+      C: "Jeff Bezos"
+      D: "Reed Hastings"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Who founded Amazon in 1994?"
         answers:
           A: "Elon Musk"
           B: "Jack Ma"
-          C: "Reed Hastings"
-          D: "Jeff Bezos"
+          C: "Jeff Bezos"
+          D: "Reed Hastings"
   - text: "Qui a cofondé Microsoft avec Paul Allen en 1975 ?"
     answers:
       A: "Steve Ballmer"
-      B: "Bill Gates"
-      C: "Satya Nadella"
+      B: "Satya Nadella"
+      C: "Bill Gates"
       D: "Mark Cuban"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Who co-founded Microsoft with Paul Allen in 1975?"
         answers:
           A: "Steve Ballmer"
-          B: "Bill Gates"
-          C: "Satya Nadella"
+          B: "Satya Nadella"
+          C: "Bill Gates"
           D: "Mark Cuban"
   - text: "Dans quel secteur d'activité l'entreprise Michelin est-elle historiquement spécialisée ?"
     answers:
@@ -88,6 +93,7 @@ questions:
       C: "Le pneumatique"
       D: "La banque"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "In which industry has Michelin historically specialized?"
@@ -98,77 +104,82 @@ questions:
           D: "Banking"
   - text: "Que signifie le sigle PDG dans une entreprise ?"
     answers:
-      A: "Président-directeur général"
-      B: "Plan de développement global"
+      A: "Plan de développement global"
+      B: "Président-directeur général"
       C: "Produit de grande consommation"
       D: "Poste de direction générale"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does the abbreviation PDG mean in a company?"
         answers:
-          A: "Chairman and CEO"
-          B: "Global development plan"
+          A: "Global development plan"
+          B: "Chairman and CEO"
           C: "Fast-moving consumer good"
           D: "General management position"
   - text: "Que mesure le produit intérieur brut (PIB) d'un pays ?"
     answers:
       A: "La dette publique"
-      B: "Le taux de chômage"
-      C: "La production de biens et de services"
+      B: "La production de biens et de services"
+      C: "Le taux de chômage"
       D: "Le nombre de salariés"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does a country's gross domestic product (GDP) measure?"
         answers:
           A: "Public debt"
-          B: "Unemployment rate"
-          C: "Production of goods and services"
+          B: "Production of goods and services"
+          C: "Unemployment rate"
           D: "Number of employees"
   - text: "Dans quelle ville américaine se trouve le siège social de Coca-Cola ?"
     answers:
-      A: "New York"
+      A: "Atlanta"
       B: "Chicago"
       C: "Dallas"
-      D: "Atlanta"
-    correctAnswer: D
+      D: "New York"
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "In which American city is Coca-Cola headquartered?"
         answers:
-          A: "New York"
+          A: "Atlanta"
           B: "Chicago"
           C: "Dallas"
-          D: "Atlanta"
+          D: "New York"
   - text: "Qui a fondé Facebook en 2004 ?"
     answers:
-      A: "Mark Zuckerberg"
+      A: "Kevin Systrom"
       B: "Evan Spiegel"
       C: "Jack Dorsey"
-      D: "Kevin Systrom"
-    correctAnswer: A
+      D: "Mark Zuckerberg"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who founded Facebook in 2004?"
         answers:
-          A: "Mark Zuckerberg"
+          A: "Kevin Systrom"
           B: "Evan Spiegel"
           C: "Jack Dorsey"
-          D: "Kevin Systrom"
+          D: "Mark Zuckerberg"
   - text: "Quelle entreprise a utilisé le slogan « Think different » ?"
     answers:
-      A: "IBM"
-      B: "Apple"
+      A: "Apple"
+      B: "IBM"
       C: "Sony"
       D: "Google"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which company used the slogan \"Think different\"?"
         answers:
-          A: "IBM"
-          B: "Apple"
+          A: "Apple"
+          B: "IBM"
           C: "Sony"
           D: "Google"
   - text: "Quelle chaîne de restauration rapide utilise le slogan « I'm lovin' it » ?"
@@ -178,6 +189,7 @@ questions:
       C: "McDonald's"
       D: "Subway"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which fast-food chain uses the slogan \"I'm lovin' it\"?"
@@ -193,6 +205,7 @@ questions:
       C: "Stefan Persson"
       D: "Ingvar Kamprad"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Who founded the Swedish company IKEA in 1943?"
@@ -203,19 +216,20 @@ questions:
           D: "Ingvar Kamprad"
   - text: "Quel homme d'affaires espagnol a fondé le groupe de mode Inditex, propriétaire de Zara ?"
     answers:
-      A: "Amancio Ortega"
+      A: "Pablo Isla"
       B: "Juan Roig"
       C: "Isak Andic"
-      D: "Pablo Isla"
-    correctAnswer: A
+      D: "Amancio Ortega"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which Spanish businessman founded the fashion group Inditex, owner of Zara?"
         answers:
-          A: "Amancio Ortega"
+          A: "Pablo Isla"
           B: "Juan Roig"
           C: "Isak Andic"
-          D: "Pablo Isla"
+          D: "Amancio Ortega"
   - text: "Que signifie le sigle PME ?"
     answers:
       A: "Plan de modernisation économique"
@@ -223,6 +237,7 @@ questions:
       C: "Produit manufacturé exporté"
       D: "Programme de management européen"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does the abbreviation SME stand for?"
@@ -233,19 +248,20 @@ questions:
           D: "European management program"
   - text: "Quel groupe de luxe français possède la marque Louis Vuitton ?"
     answers:
-      A: "Kering"
+      A: "LVMH"
       B: "Chanel"
       C: "Hermès"
-      D: "LVMH"
-    correctAnswer: D
+      D: "Kering"
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which French luxury group owns the Louis Vuitton brand?"
         answers:
-          A: "Kering"
+          A: "LVMH"
           B: "Chanel"
           C: "Hermès"
-          D: "LVMH"
+          D: "Kering"
   - text: "Que désigne le terme « start-up » ?"
     answers:
       A: "Une jeune entreprise innovante"
@@ -253,6 +269,7 @@ questions:
       C: "Une filiale de banque"
       D: "Une organisation internationale"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does the term \"start-up\" refer to?"
@@ -263,46 +280,1329 @@ questions:
           D: "An international organization"
   - text: "Que désigne le terme « e-commerce » ?"
     answers:
-      A: "Le commerce équitable"
+      A: "Le commerce en ligne"
       B: "Le commerce maritime"
-      C: "Le commerce en ligne"
+      C: "Le commerce équitable"
       D: "Le commerce de gros"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does the term \"e-commerce\" refer to?"
         answers:
-          A: "Fair trade"
+          A: "Online commerce"
           B: "Maritime trade"
-          C: "Online commerce"
+          C: "Fair trade"
           D: "Wholesale trade"
   - text: "Qui a fondé la Ford Motor Company en 1903 ?"
     answers:
       A: "John D. Rockefeller"
-      B: "Andrew Carnegie"
+      B: "Henry Ford"
       C: "Thomas Edison"
-      D: "Henry Ford"
-    correctAnswer: D
+      D: "Andrew Carnegie"
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Who founded the Ford Motor Company in 1903?"
         answers:
           A: "John D. Rockefeller"
-          B: "Andrew Carnegie"
+          B: "Henry Ford"
           C: "Thomas Edison"
-          D: "Henry Ford"
+          D: "Andrew Carnegie"
   - text: "Quel pharmacien a inventé la boisson Coca-Cola en 1886 ?"
     answers:
-      A: "Asa Candler"
-      B: "John Pemberton"
+      A: "John Pemberton"
+      B: "Asa Candler"
       C: "Caleb Bradham"
       D: "Jacob Schweppe"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which pharmacist invented the drink Coca-Cola in 1886?"
         answers:
-          A: "Asa Candler"
-          B: "John Pemberton"
+          A: "John Pemberton"
+          B: "Asa Candler"
           C: "Caleb Bradham"
           D: "Jacob Schweppe"
+  - text: "Quel animal figure sur le logo de la marque de vêtements Lacoste ?"
+    answers:
+      A: "Un taureau"
+      B: "Un léopard"
+      C: "Un crocodile"
+      D: "Un aigle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which animal appears on the logo of the clothing brand Lacoste?"
+        answers:
+          A: "A bull"
+          B: "A leopard"
+          C: "A crocodile"
+          D: "An eagle"
+    difficulty: EASY
+  - text: "Quelle marque automobile arbore quatre anneaux entrelacés comme logo ?"
+    answers:
+      A: "BMW"
+      B: "Mercedes-Benz"
+      C: "Audi"
+      D: "Volkswagen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which car brand features four interlocking rings as its logo?"
+        answers:
+          A: "BMW"
+          B: "Mercedes-Benz"
+          C: "Audi"
+          D: "Volkswagen"
+    difficulty: EASY
+  - text: "Comment s'appelle le personnage fait de pneus qui incarne la marque Michelin ?"
+    answers:
+      A: "Monsieur Pneu"
+      B: "Le Géant Vert"
+      C: "Bibendum"
+      D: "Bip Bip"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the character made of tires who embodies the Michelin brand?"
+        answers:
+          A: "Monsieur Pneu"
+          B: "The Green Giant"
+          C: "Bibendum"
+          D: "Bip Bip"
+    difficulty: EASY
+  - text: "Quelle chaîne de restauration rapide a pour mascotte un clown nommé Ronald ?"
+    answers:
+      A: "Burger King"
+      B: "KFC"
+      C: "Wendy's"
+      D: "McDonald's"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which fast-food chain has a clown named Ronald as its mascot?"
+        answers:
+          A: "Burger King"
+          B: "KFC"
+          C: "Wendy's"
+          D: "McDonald's"
+    difficulty: EASY
+  - text: "Quelle marque de boisson gazeuse est associée à un ours polaire dans ses publicités ?"
+    answers:
+      A: "Pepsi"
+      B: "Coca-Cola"
+      C: "Fanta"
+      D: "Sprite"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which soft drink brand is associated with a polar bear in its advertisements?"
+        answers:
+          A: "Pepsi"
+          B: "Coca-Cola"
+          C: "Fanta"
+          D: "Sprite"
+    difficulty: EASY
+  - text: "Quelle marque de voitures de sport utilise un cheval cabré noir sur fond jaune comme emblème ?"
+    answers:
+      A: "Lamborghini"
+      B: "Ferrari"
+      C: "Porsche"
+      D: "Maserati"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sports car brand uses a black prancing horse on a yellow background as its emblem?"
+        answers:
+          A: "Lamborghini"
+          B: "Ferrari"
+          C: "Porsche"
+          D: "Maserati"
+    difficulty: EASY
+  - text: "Quelle maison de luxe italienne a un logo formé de deux G entrelacés ?"
+    answers:
+      A: "Prada"
+      B: "Versace"
+      C: "Gucci"
+      D: "Armani"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian luxury house has a logo made of two interlocking Gs?"
+        answers:
+          A: "Prada"
+          B: "Versace"
+          C: "Gucci"
+          D: "Armani"
+    difficulty: EASY
+  - text: "Quel constructeur automobile français a un losange comme emblème ?"
+    answers:
+      A: "Peugeot"
+      B: "Citroën"
+      C: "Dacia"
+      D: "Renault"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French car manufacturer has a diamond as its emblem?"
+        answers:
+          A: "Peugeot"
+          B: "Citroën"
+          C: "Dacia"
+          D: "Renault"
+    difficulty: EASY
+  - text: "Quelle marque de sport utilise le slogan « Impossible is nothing » ?"
+    answers:
+      A: "Reebok"
+      B: "Nike"
+      C: "Puma"
+      D: "Adidas"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which sports brand uses the slogan \"Impossible is nothing\"?"
+        answers:
+          A: "Reebok"
+          B: "Nike"
+          C: "Puma"
+          D: "Adidas"
+    difficulty: EASY
+  - text: "Quelle marque de café utilise le slogan « What else ? » ?"
+    answers:
+      A: "Nescafé"
+      B: "Nespresso"
+      C: "Lavazza"
+      D: "Illy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which coffee brand uses the slogan \"What else?\"?"
+        answers:
+          A: "Nescafé"
+          B: "Nespresso"
+          C: "Lavazza"
+          D: "Illy"
+    difficulty: EASY
+  - text: "Quel joaillier français est célèbre pour son écrin rouge ?"
+    answers:
+      A: "Cartier"
+      B: "Boucheron"
+      C: "Chaumet"
+      D: "Van Cleef & Arpels"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French jeweler is famous for its red box?"
+        answers:
+          A: "Cartier"
+          B: "Boucheron"
+          C: "Chaumet"
+          D: "Van Cleef & Arpels"
+    difficulty: EASY
+  - text: "Quel constructeur automobile japonais a un logo formé de trois ellipses ?"
+    answers:
+      A: "Toyota"
+      B: "Nissan"
+      C: "Honda"
+      D: "Mazda"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese car manufacturer has a logo made of three ellipses?"
+        answers:
+          A: "Toyota"
+          B: "Nissan"
+          C: "Honda"
+          D: "Mazda"
+    difficulty: EASY
+  - text: "Quelle marque d'ordinateurs et de téléphones a pour logo une pomme croquée ?"
+    answers:
+      A: "Samsung"
+      B: "Nokia"
+      C: "Apple"
+      D: "Sony"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which computer and phone brand has a bitten apple as its logo?"
+        answers:
+          A: "Samsung"
+          B: "Nokia"
+          C: "Apple"
+          D: "Sony"
+    difficulty: EASY
+  - text: "Quel constructeur automobile allemand a une étoile à trois branches comme logo ?"
+    answers:
+      A: "BMW"
+      B: "Mercedes-Benz"
+      C: "Audi"
+      D: "Porsche"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which German car manufacturer has a three-pointed star as its logo?"
+        answers:
+          A: "BMW"
+          B: "Mercedes-Benz"
+          C: "Audi"
+          D: "Porsche"
+    difficulty: EASY
+  - text: "Quelle marque de sport porte le nom de la déesse grecque de la victoire ?"
+    answers:
+      A: "Nike"
+      B: "Puma"
+      C: "Reebok"
+      D: "Adidas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sports brand is named after the Greek goddess of victory?"
+        answers:
+          A: "Nike"
+          B: "Puma"
+          C: "Reebok"
+          D: "Adidas"
+    difficulty: EASY
+  - text: "Quelle marque britannique est célèbre pour ses trench-coats et son motif à carreaux ?"
+    answers:
+      A: "Barbour"
+      B: "Burberry"
+      C: "Hackett"
+      D: "Aquascutum"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which British brand is famous for its trench coats and check pattern?"
+        answers:
+          A: "Barbour"
+          B: "Burberry"
+          C: "Hackett"
+          D: "Aquascutum"
+    difficulty: EASY
+  - text: "Quel constructeur automobile suédois est réputé pour la sécurité et a un logo en forme de flèche ?"
+    answers:
+      A: "Saab"
+      B: "Scania"
+      C: "Volvo"
+      D: "Koenigsegg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Swedish carmaker is known for safety and has an arrow-shaped logo?"
+        answers:
+          A: "Saab"
+          B: "Scania"
+          C: "Volvo"
+          D: "Koenigsegg"
+    difficulty: EASY
+  - text: "Quel constructeur italien a pour emblème un taureau furieux ?"
+    answers:
+      A: "Ferrari"
+      B: "Maserati"
+      C: "Alfa Romeo"
+      D: "Lamborghini"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian carmaker has a raging bull as its emblem?"
+        answers:
+          A: "Ferrari"
+          B: "Maserati"
+          C: "Alfa Romeo"
+          D: "Lamborghini"
+    difficulty: EASY
+  - text: "Quelle enseigne française de grande distribution utilise un logo en forme de « U » ?"
+    answers:
+      A: "Carrefour"
+      B: "Auchan"
+      C: "Système U"
+      D: "Casino"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French retail chain uses a \"U\"-shaped logo?"
+        answers:
+          A: "Carrefour"
+          B: "Auchan"
+          C: "Système U"
+          D: "Casino"
+    difficulty: EASY
+  - text: "Quelle créatrice française a fondé la maison de couture Chanel ?"
+    answers:
+      A: "Elsa Schiaparelli"
+      B: "Jeanne Lanvin"
+      C: "Nina Ricci"
+      D: "Coco Chanel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French designer founded the fashion house Chanel?"
+        answers:
+          A: "Elsa Schiaparelli"
+          B: "Jeanne Lanvin"
+          C: "Nina Ricci"
+          D: "Coco Chanel"
+    difficulty: MEDIUM
+  - text: "Qui a fondé le constructeur automobile Ferrari ?"
+    answers:
+      A: "Ferruccio Lamborghini"
+      B: "Giovanni Agnelli"
+      C: "Ettore Bugatti"
+      D: "Enzo Ferrari"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who founded the carmaker Ferrari?"
+        answers:
+          A: "Ferruccio Lamborghini"
+          B: "Giovanni Agnelli"
+          C: "Ettore Bugatti"
+          D: "Enzo Ferrari"
+    difficulty: MEDIUM
+  - text: "Quel ingénieur autrichien a fondé le constructeur Porsche ?"
+    answers:
+      A: "Ferry Porsche"
+      B: "Ferdinand Porsche"
+      C: "Gottlieb Daimler"
+      D: "Karl Benz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Austrian engineer founded the carmaker Porsche?"
+        answers:
+          A: "Ferry Porsche"
+          B: "Ferdinand Porsche"
+          C: "Gottlieb Daimler"
+          D: "Karl Benz"
+    difficulty: MEDIUM
+  - text: "Qui a créé la recette de poulet frit à l'origine de la chaîne KFC ?"
+    answers:
+      A: "Ray Kroc"
+      B: "Dave Thomas"
+      C: "Colonel Sanders"
+      D: "James McLamore"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who created the fried chicken recipe that started the KFC chain?"
+        answers:
+          A: "Ray Kroc"
+          B: "Dave Thomas"
+          C: "Colonel Sanders"
+          D: "James McLamore"
+    difficulty: MEDIUM
+  - text: "Qui a fondé la maison de couture Dior en 1946 ?"
+    answers:
+      A: "Yves Saint Laurent"
+      B: "Pierre Cardin"
+      C: "Hubert de Givenchy"
+      D: "Christian Dior"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who founded the fashion house Dior in 1946?"
+        answers:
+          A: "Yves Saint Laurent"
+          B: "Pierre Cardin"
+          C: "Hubert de Givenchy"
+          D: "Christian Dior"
+    difficulty: MEDIUM
+  - text: "Quelle entreprise danoise de jouets a été fondée par Ole Kirk Christiansen ?"
+    answers:
+      A: "Playmobil"
+      B: "Mattel"
+      C: "LEGO"
+      D: "Hasbro"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Danish toy company was founded by Ole Kirk Christiansen?"
+        answers:
+          A: "Playmobil"
+          B: "Mattel"
+          C: "LEGO"
+          D: "Hasbro"
+    difficulty: MEDIUM
+  - text: "Quelle maison de couture a créé le parfum N°5 ?"
+    answers:
+      A: "Chanel"
+      B: "Dior"
+      C: "Guerlain"
+      D: "Lanvin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which fashion house created the perfume N°5?"
+        answers:
+          A: "Chanel"
+          B: "Dior"
+          C: "Guerlain"
+          D: "Lanvin"
+    difficulty: MEDIUM
+  - text: "Quelle maison de luxe française fabrique le sac Birkin ?"
+    answers:
+      A: "Louis Vuitton"
+      B: "Chanel"
+      C: "Dior"
+      D: "Hermès"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French luxury house makes the Birkin bag?"
+        answers:
+          A: "Louis Vuitton"
+          B: "Chanel"
+          C: "Dior"
+          D: "Hermès"
+    difficulty: MEDIUM
+  - text: "Quel groupe de luxe français possède la marque Gucci ?"
+    answers:
+      A: "LVMH"
+      B: "Kering"
+      C: "Richemont"
+      D: "Prada Group"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French luxury group owns the Gucci brand?"
+        answers:
+          A: "LVMH"
+          B: "Kering"
+          C: "Richemont"
+          D: "Prada Group"
+    difficulty: MEDIUM
+  - text: "Quel groupe indien a racheté Jaguar et Land Rover à Ford en 2008 ?"
+    answers:
+      A: "Tata Motors"
+      B: "Reliance"
+      C: "Mahindra"
+      D: "Bajaj Auto"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Indian group bought Jaguar and Land Rover from Ford in 2008?"
+        answers:
+          A: "Tata Motors"
+          B: "Reliance"
+          C: "Mahindra"
+          D: "Bajaj Auto"
+    difficulty: MEDIUM
+  - text: "Qui a créé la poupée Barbie en 1959 ?"
+    answers:
+      A: "Melvin Gordon"
+      B: "Elliot Handler"
+      C: "Jack Ryan"
+      D: "Ruth Handler"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who created the Barbie doll in 1959?"
+        answers:
+          A: "Melvin Gordon"
+          B: "Elliot Handler"
+          C: "Jack Ryan"
+          D: "Ruth Handler"
+    difficulty: MEDIUM
+  - text: "Que désigne l'acronyme GAFAM ?"
+    answers:
+      A: "Un ensemble de constructeurs aéronautiques"
+      B: "Une alliance de constructeurs automobiles"
+      C: "Un groupe de chaînes de télévision"
+      D: "Un ensemble de géants du numérique américains"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the acronym GAFAM stand for?"
+        answers:
+          A: "A group of aircraft manufacturers"
+          B: "An alliance of car manufacturers"
+          C: "A group of television channels"
+          D: "A group of American digital giants"
+    difficulty: MEDIUM
+  - text: "Quelle marque de luxe appartient au constructeur japonais Toyota ?"
+    answers:
+      A: "Infiniti"
+      B: "Acura"
+      C: "Lexus"
+      D: "Genesis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which luxury brand belongs to the Japanese manufacturer Toyota?"
+        answers:
+          A: "Infiniti"
+          B: "Acura"
+          C: "Lexus"
+          D: "Genesis"
+    difficulty: MEDIUM
+  - text: "Quelle entreprise japonaise a lancé le baladeur Walkman en 1979 ?"
+    answers:
+      A: "Panasonic"
+      B: "Sanyo"
+      C: "JVC"
+      D: "Sony"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Japanese company launched the Walkman portable player in 1979?"
+        answers:
+          A: "Panasonic"
+          B: "Sanyo"
+          C: "JVC"
+          D: "Sony"
+    difficulty: MEDIUM
+  - text: "Qui a fondé la marque de vêtements de sport Adidas ?"
+    answers:
+      A: "Adolf Dassler"
+      B: "Horst Dassler"
+      C: "Josef Dassler"
+      D: "Rudolf Dassler"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who founded the sportswear brand Adidas?"
+        answers:
+          A: "Adolf Dassler"
+          B: "Horst Dassler"
+          C: "Josef Dassler"
+          D: "Rudolf Dassler"
+    difficulty: MEDIUM
+  - text: "Quelle marque de bière néerlandaise est reconnaissable à sa bouteille verte et à son étoile rouge ?"
+    answers:
+      A: "Amstel"
+      B: "Grolsch"
+      C: "Bavaria"
+      D: "Heineken"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Dutch beer brand is recognizable by its green bottle and red star?"
+        answers:
+          A: "Amstel"
+          B: "Grolsch"
+          C: "Bavaria"
+          D: "Heineken"
+    difficulty: MEDIUM
+  - text: "Quel joueur de tennis français a fondé la marque de chemises Lacoste ?"
+    answers:
+      A: "Henri Cochet"
+      B: "René Lacoste"
+      C: "Jean Borotra"
+      D: "Jacques Brugnon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French tennis player founded the Lacoste shirt brand?"
+        answers:
+          A: "Henri Cochet"
+          B: "René Lacoste"
+          C: "Jean Borotra"
+          D: "Jacques Brugnon"
+    difficulty: MEDIUM
+  - text: "Quel constructeur japonais a créé la marque de luxe Infiniti ?"
+    answers:
+      A: "Nissan"
+      B: "Honda"
+      C: "Toyota"
+      D: "Mazda"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese manufacturer created the luxury brand Infiniti?"
+        answers:
+          A: "Nissan"
+          B: "Honda"
+          C: "Toyota"
+          D: "Mazda"
+    difficulty: MEDIUM
+  - text: "Quel couturier italien a fondé la maison de mode Armani ?"
+    answers:
+      A: "Gianni Versace"
+      B: "Giorgio Armani"
+      C: "Valentino Garavani"
+      D: "Miuccia Prada"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Italian fashion designer founded the fashion house Armani?"
+        answers:
+          A: "Gianni Versace"
+          B: "Giorgio Armani"
+          C: "Valentino Garavani"
+          D: "Miuccia Prada"
+    difficulty: MEDIUM
+  - text: "En quelle année la maison Louis Vuitton a-t-elle été fondée à Paris ?"
+    answers:
+      A: "1825"
+      B: "1889"
+      C: "1854"
+      D: "1902"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the house of Louis Vuitton founded in Paris?"
+        answers:
+          A: "1825"
+          B: "1889"
+          C: "1854"
+          D: "1902"
+    difficulty: HARD
+  - text: "Qui a fondé la marque de chaussures de sport Puma en 1948 ?"
+    answers:
+      A: "Adolf Dassler"
+      B: "Rudolf Dassler"
+      C: "Horst Dassler"
+      D: "Eugen Dassler"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the sports shoe brand Puma in 1948?"
+        answers:
+          A: "Adolf Dassler"
+          B: "Rudolf Dassler"
+          C: "Horst Dassler"
+          D: "Eugen Dassler"
+    difficulty: HARD
+  - text: "Qui a cofondé Nike avec Bill Bowerman ?"
+    answers:
+      A: "Phil Knight"
+      B: "Phil Jackson"
+      C: "Michael Jordan"
+      D: "Jeff Johnson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who co-founded Nike with Bill Bowerman?"
+        answers:
+          A: "Phil Knight"
+          B: "Phil Jackson"
+          C: "Michael Jordan"
+          D: "Jeff Johnson"
+    difficulty: HARD
+  - text: "Quel homme a fondé Walmart en 1962 ?"
+    answers:
+      A: "Jim Walton"
+      B: "John Walton"
+      C: "Rob Walton"
+      D: "Sam Walton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which man founded Walmart in 1962?"
+        answers:
+          A: "Jim Walton"
+          B: "John Walton"
+          C: "Rob Walton"
+          D: "Sam Walton"
+    difficulty: HARD
+  - text: "Quels deux ingénieurs ont fondé Hewlett-Packard en 1939 ?"
+    answers:
+      A: "Steve Jobs et Steve Wozniak"
+      B: "Larry Page et Sergey Brin"
+      C: "Bill Hewlett et David Packard"
+      D: "Gordon Moore et Robert Noyce"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which two engineers founded Hewlett-Packard in 1939?"
+        answers:
+          A: "Steve Jobs and Steve Wozniak"
+          B: "Larry Page and Sergey Brin"
+          C: "Bill Hewlett and David Packard"
+          D: "Gordon Moore and Robert Noyce"
+    difficulty: HARD
+  - text: "Quels deux hommes ont fondé la société japonaise Sony ?"
+    answers:
+      A: "Soichiro Honda et Takeo Fujisawa"
+      B: "Konosuke Matsushita et Masaharu Matsushita"
+      C: "Kiichiro Toyoda et Eiji Toyoda"
+      D: "Akio Morita et Masaru Ibuka"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which two men founded the Japanese company Sony?"
+        answers:
+          A: "Soichiro Honda and Takeo Fujisawa"
+          B: "Konosuke Matsushita and Masaharu Matsushita"
+          C: "Kiichiro Toyoda and Eiji Toyoda"
+          D: "Akio Morita and Masaru Ibuka"
+    difficulty: HARD
+  - text: "Quel chimiste suisse a fondé Nestlé en 1866 ?"
+    answers:
+      A: "Henri Nestlé"
+      B: "Daniel Peter"
+      C: "Rodolphe Lindt"
+      D: "Philippe Suchard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Swiss chemist founded Nestlé in 1866?"
+        answers:
+          A: "Henri Nestlé"
+          B: "Daniel Peter"
+          C: "Rodolphe Lindt"
+          D: "Philippe Suchard"
+    difficulty: HARD
+  - text: "Qui a fondé le groupe agroalimentaire Danone ?"
+    answers:
+      A: "Daniel Carasso"
+      B: "Antoine Riboud"
+      C: "Isaac Carasso"
+      D: "Franck Riboud"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the food company Danone?"
+        answers:
+          A: "Daniel Carasso"
+          B: "Antoine Riboud"
+          C: "Isaac Carasso"
+          D: "Franck Riboud"
+    difficulty: HARD
+  - text: "Qui a fondé la société de stylos à bille Bic ?"
+    answers:
+      A: "Marcel Bich"
+      B: "George Parker"
+      C: "Gilbert Trigano"
+      D: "Louis Waterman"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who founded the ballpoint pen company Bic?"
+        answers:
+          A: "Marcel Bich"
+          B: "George Parker"
+          C: "Gilbert Trigano"
+          D: "Louis Waterman"
+    difficulty: HARD
+  - text: "Quelle entreprise française a lancé en 1919 la première voiture produite en grande série en Europe ?"
+    answers:
+      A: "Panhard"
+      B: "Renault"
+      C: "Peugeot"
+      D: "Citroën"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French company launched Europe's first mass-produced car in 1919?"
+        answers:
+          A: "Panhard"
+          B: "Renault"
+          C: "Peugeot"
+          D: "Citroën"
+    difficulty: HARD
+  - text: "En quelle année Louis Renault a-t-il fondé son entreprise automobile ?"
+    answers:
+      A: "1885"
+      B: "1919"
+      C: "1907"
+      D: "1899"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Louis Renault found his automobile company?"
+        answers:
+          A: "1885"
+          B: "1919"
+          C: "1907"
+          D: "1899"
+    difficulty: HARD
+  - text: "Quels deux entrepreneurs ont fondé Netflix en 1997 ?"
+    answers:
+      A: "Reed Hastings et Steve Chen"
+      B: "Reed Hastings et Ted Sarandos"
+      C: "Marc Randolph et Ted Sarandos"
+      D: "Reed Hastings et Marc Randolph"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which two entrepreneurs founded Netflix in 1997?"
+        answers:
+          A: "Reed Hastings and Steve Chen"
+          B: "Reed Hastings and Ted Sarandos"
+          C: "Marc Randolph and Ted Sarandos"
+          D: "Reed Hastings and Marc Randolph"
+    difficulty: HARD
+  - text: "Qui a fondé le site de ventes aux enchères eBay en 1995 ?"
+    answers:
+      A: "Jeff Bezos"
+      B: "Jack Ma"
+      C: "Reid Hoffman"
+      D: "Pierre Omidyar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who founded the auction website eBay in 1995?"
+        answers:
+          A: "Jeff Bezos"
+          B: "Jack Ma"
+          C: "Reid Hoffman"
+          D: "Pierre Omidyar"
+    difficulty: HARD
+  - text: "Quel entrepreneur a cofondé PayPal avec Max Levchin ?"
+    answers:
+      A: "Elon Musk"
+      B: "Reed Hastings"
+      C: "Peter Thiel"
+      D: "Marc Randolph"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which entrepreneur co-founded PayPal with Max Levchin?"
+        answers:
+          A: "Elon Musk"
+          B: "Reed Hastings"
+          C: "Peter Thiel"
+          D: "Marc Randolph"
+    difficulty: HARD
+  - text: "Quels deux hommes ont fondé Intel en 1968 ?"
+    answers:
+      A: "Bill Hewlett et David Packard"
+      B: "Gordon Moore et Robert Noyce"
+      C: "Larry Page et Sergey Brin"
+      D: "Steve Jobs et Steve Wozniak"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which two men founded Intel in 1968?"
+        answers:
+          A: "Bill Hewlett and David Packard"
+          B: "Gordon Moore and Robert Noyce"
+          C: "Larry Page and Sergey Brin"
+          D: "Steve Jobs and Steve Wozniak"
+    difficulty: HARD
+  - text: "Qui a fondé l'entreprise de jeux vidéo Atari ?"
+    answers:
+      A: "Shigeru Miyamoto"
+      B: "Nolan Bushnell"
+      C: "Hiroshi Yamauchi"
+      D: "Gabe Newell"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the video game company Atari?"
+        answers:
+          A: "Shigeru Miyamoto"
+          B: "Nolan Bushnell"
+          C: "Hiroshi Yamauchi"
+          D: "Gabe Newell"
+    difficulty: HARD
+  - text: "Qui a cofondé le réseau professionnel LinkedIn ?"
+    answers:
+      A: "Jack Dorsey"
+      B: "Mark Zuckerberg"
+      C: "Kevin Systrom"
+      D: "Reid Hoffman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who co-founded the professional network LinkedIn?"
+        answers:
+          A: "Jack Dorsey"
+          B: "Mark Zuckerberg"
+          C: "Kevin Systrom"
+          D: "Reid Hoffman"
+    difficulty: HARD
+  - text: "Qui a cofondé Instagram avec Mike Krieger ?"
+    answers:
+      A: "Jack Dorsey"
+      B: "Jan Koum"
+      C: "Kevin Systrom"
+      D: "Reed Hastings"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who co-founded Instagram with Mike Krieger?"
+        answers:
+          A: "Jack Dorsey"
+          B: "Jan Koum"
+          C: "Kevin Systrom"
+          D: "Reed Hastings"
+    difficulty: HARD
+  - text: "Qui a cofondé WhatsApp avec Brian Acton ?"
+    answers:
+      A: "Bobby Murphy"
+      B: "Kevin Systrom"
+      C: "Evan Spiegel"
+      D: "Jan Koum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who co-founded WhatsApp with Brian Acton?"
+        answers:
+          A: "Bobby Murphy"
+          B: "Kevin Systrom"
+          C: "Evan Spiegel"
+          D: "Jan Koum"
+    difficulty: HARD
+  - text: "Qui a fondé la maison de couture Givenchy en 1952 ?"
+    answers:
+      A: "Christian Dior"
+      B: "Yves Saint Laurent"
+      C: "Hubert de Givenchy"
+      D: "Pierre Balmain"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the fashion house Givenchy in 1952?"
+        answers:
+          A: "Christian Dior"
+          B: "Yves Saint Laurent"
+          C: "Hubert de Givenchy"
+          D: "Pierre Balmain"
+    difficulty: HARD
+  - text: "Quel entrepreneur a cofondé Tesla Motors en 2003 avec Marc Tarpenning ?"
+    answers:
+      A: "Elon Musk"
+      B: "Martin Eberhard"
+      C: "JB Straubel"
+      D: "Peter Thiel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which entrepreneur co-founded Tesla Motors in 2003 with Marc Tarpenning?"
+        answers:
+          A: "Elon Musk"
+          B: "Martin Eberhard"
+          C: "JB Straubel"
+          D: "Peter Thiel"
+    difficulty: HARD
+  - text: "Quel pharmacien a créé la boisson Pepsi-Cola à la fin du XIXe siècle ?"
+    answers:
+      A: "Asa Candler"
+      B: "Caleb Bradham"
+      C: "Charles Guth"
+      D: "John Pemberton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pharmacist created the drink Pepsi-Cola in the late 19th century?"
+        answers:
+          A: "Asa Candler"
+          B: "Caleb Bradham"
+          C: "Charles Guth"
+          D: "John Pemberton"
+    difficulty: EXPERT
+  - text: "Quels frères ont ouvert le premier restaurant de la chaîne McDonald's en 1940 ?"
+    answers:
+      A: "Richard et Maurice McDonald"
+      B: "Ray et Frank McDonald"
+      C: "James et David McDonald"
+      D: "Walter et Robert McDonald"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which brothers opened the first McDonald's restaurant in 1940?"
+        answers:
+          A: "Richard and Maurice McDonald"
+          B: "Ray and Frank McDonald"
+          C: "James and David McDonald"
+          D: "Walter and Robert McDonald"
+    difficulty: EXPERT
+  - text: "Quel horloger a fondé la marque Rolex en 1905 ?"
+    answers:
+      A: "Louis Cartier"
+      B: "Alfred Dunhill"
+      C: "Hans Wilsdorf"
+      D: "Georges Kern"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which watchmaker founded the Rolex brand in 1905?"
+        answers:
+          A: "Louis Cartier"
+          B: "Alfred Dunhill"
+          C: "Hans Wilsdorf"
+          D: "Georges Kern"
+    difficulty: EXPERT
+  - text: "Quel homme d'affaires a piloté la création du Swatch Group en 1985 ?"
+    answers:
+      A: "Hans Wilsdorf"
+      B: "Ernst Thomke"
+      C: "Nicolas Hayek"
+      D: "Jean-Claude Biver"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which businessman led the creation of the Swatch Group in 1985?"
+        answers:
+          A: "Hans Wilsdorf"
+          B: "Ernst Thomke"
+          C: "Nicolas Hayek"
+          D: "Jean-Claude Biver"
+    difficulty: EXPERT
+  - text: "En quelle année l'entreprise finlandaise Nokia a-t-elle été fondée ?"
+    answers:
+      A: "1865"
+      B: "1875"
+      C: "1895"
+      D: "1910"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the Finnish company Nokia founded?"
+        answers:
+          A: "1865"
+          B: "1875"
+          C: "1895"
+          D: "1910"
+    difficulty: EXPERT
+  - text: "Quel industriel coréen a fondé Samsung en 1938 ?"
+    answers:
+      A: "Lee Byung-chul"
+      B: "Chung Ju-yung"
+      C: "Kim Woo-choong"
+      D: "Lee Kun-hee"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Korean industrialist founded Samsung in 1938?"
+        answers:
+          A: "Lee Byung-chul"
+          B: "Chung Ju-yung"
+          C: "Kim Woo-choong"
+          D: "Lee Kun-hee"
+    difficulty: EXPERT
+  - text: "Quel industriel coréen a fondé le groupe Hyundai ?"
+    answers:
+      A: "Lee Byung-chul"
+      B: "Kim Woo-choong"
+      C: "Koo In-hwoi"
+      D: "Chung Ju-yung"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Korean industrialist founded the Hyundai group?"
+        answers:
+          A: "Lee Byung-chul"
+          B: "Kim Woo-choong"
+          C: "Koo In-hwoi"
+          D: "Chung Ju-yung"
+    difficulty: EXPERT
+  - text: "Qui a fondé l'entreprise chinoise Huawei en 1987 ?"
+    answers:
+      A: "Lei Jun"
+      B: "Ren Zhengfei"
+      C: "Jack Ma"
+      D: "Wang Jianlin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the Chinese company Huawei in 1987?"
+        answers:
+          A: "Lei Jun"
+          B: "Ren Zhengfei"
+          C: "Jack Ma"
+          D: "Wang Jianlin"
+    difficulty: EXPERT
+  - text: "Qui a fondé l'entreprise japonaise Nintendo en 1889 ?"
+    answers:
+      A: "Hiroshi Yamauchi"
+      B: "Fusajiro Yamauchi"
+      C: "Shigeru Miyamoto"
+      D: "Gunpei Yokoi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who founded the Japanese company Nintendo in 1889?"
+        answers:
+          A: "Hiroshi Yamauchi"
+          B: "Fusajiro Yamauchi"
+          C: "Shigeru Miyamoto"
+          D: "Gunpei Yokoi"
+    difficulty: EXPERT
+  - text: "Quelle était l'activité initiale de Nintendo lors de sa création en 1889 ?"
+    answers:
+      A: "La fabrication de cartes à jouer"
+      B: "La fabrication de jouets en bois"
+      C: "La fabrication de consoles électroniques"
+      D: "La fabrication de porcelaine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was Nintendo's original business when it was founded in 1889?"
+        answers:
+          A: "Making playing cards"
+          B: "Making wooden toys"
+          C: "Making electronic consoles"
+          D: "Making porcelain"
+    difficulty: EXPERT
+  - text: "Qui a fondé la maison de luxe italienne Prada en 1913 ?"
+    answers:
+      A: "Miuccia Prada"
+      B: "Patrizio Bertelli"
+      C: "Mario Prada"
+      D: "Gianni Versace"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the Italian luxury house Prada in 1913?"
+        answers:
+          A: "Miuccia Prada"
+          B: "Patrizio Bertelli"
+          C: "Mario Prada"
+          D: "Gianni Versace"
+    difficulty: EXPERT
+  - text: "Qui a fondé la maison Hermès à Paris en 1837 ?"
+    answers:
+      A: "Émile Hermès"
+      B: "Jean-Louis Dumas"
+      C: "Thierry Hermès"
+      D: "Axel Dumas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the house of Hermès in Paris in 1837?"
+        answers:
+          A: "Émile Hermès"
+          B: "Jean-Louis Dumas"
+          C: "Thierry Hermès"
+          D: "Axel Dumas"
+    difficulty: EXPERT
+  - text: "Qui a fondé la maison de joaillerie Cartier en 1847 ?"
+    answers:
+      A: "Pierre Cartier"
+      B: "Alfred Cartier"
+      C: "Louis-François Cartier"
+      D: "Jacques Cartier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the jewelry house Cartier in 1847?"
+        answers:
+          A: "Pierre Cartier"
+          B: "Alfred Cartier"
+          C: "Louis-François Cartier"
+          D: "Jacques Cartier"
+    difficulty: EXPERT
+  - text: "En quelle année la famille Peugeot a-t-elle fondé sa manufacture d'acier ?"
+    answers:
+      A: "1769"
+      B: "1810"
+      C: "1848"
+      D: "1889"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Peugeot family found its steel factory?"
+        answers:
+          A: "1769"
+          B: "1810"
+          C: "1848"
+          D: "1889"
+    difficulty: EXPERT
+  - text: "Qui a fondé le groupe de distribution Carrefour en 1959 ?"
+    answers:
+      A: "Marcel Fournier et les frères Defforey"
+      B: "Sam Walton et James Cash Penney"
+      C: "Édouard Leclerc et Marcel Fournier"
+      D: "Les frères Albrecht"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who founded the retail group Carrefour in 1959?"
+        answers:
+          A: "Marcel Fournier and the Defforey brothers"
+          B: "Sam Walton and James Cash Penney"
+          C: "Édouard Leclerc and Marcel Fournier"
+          D: "The Albrecht brothers"
+    difficulty: EXPERT
+  - text: "Quel entrepreneur a cofondé Airbnb avec Joe Gebbia et Nathan Blecharczyk ?"
+    answers:
+      A: "Brian Chesky"
+      B: "Reed Hastings"
+      C: "Travis Kalanick"
+      D: "Drew Houston"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which entrepreneur co-founded Airbnb with Joe Gebbia and Nathan Blecharczyk?"
+        answers:
+          A: "Brian Chesky"
+          B: "Reed Hastings"
+          C: "Travis Kalanick"
+          D: "Drew Houston"
+    difficulty: EXPERT
+  - text: "Quel entrepreneur a cofondé Uber avec Garrett Camp ?"
+    answers:
+      A: "Travis Kalanick"
+      B: "Brian Chesky"
+      C: "Drew Houston"
+      D: "Jack Dorsey"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which entrepreneur co-founded Uber with Garrett Camp?"
+        answers:
+          A: "Travis Kalanick"
+          B: "Brian Chesky"
+          C: "Drew Houston"
+          D: "Jack Dorsey"
+    difficulty: EXPERT
+  - text: "Quel entrepreneur a cofondé le réseau social Twitter en 2006 ?"
+    answers:
+      A: "Evan Spiegel"
+      B: "Jack Dorsey"
+      C: "Kevin Systrom"
+      D: "Reid Hoffman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which entrepreneur co-founded the social network Twitter in 2006?"
+        answers:
+          A: "Evan Spiegel"
+          B: "Jack Dorsey"
+          C: "Kevin Systrom"
+          D: "Reid Hoffman"
+    difficulty: EXPERT
+  - text: "Quels trois anciens employés de PayPal ont fondé YouTube en 2005 ?"
+    answers:
+      A: "Chad Hurley, Steve Chen et Kevin Systrom"
+      B: "Chad Hurley, Steve Chen et Jawed Karim"
+      C: "Chad Hurley, Jawed Karim et Jack Dorsey"
+      D: "Jawed Karim, Jan Koum et Brian Acton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which three former PayPal employees founded YouTube in 2005?"
+        answers:
+          A: "Chad Hurley, Steve Chen and Kevin Systrom"
+          B: "Chad Hurley, Steve Chen and Jawed Karim"
+          C: "Chad Hurley, Jawed Karim and Jack Dorsey"
+          D: "Jawed Karim, Jan Koum and Brian Acton"
+    difficulty: EXPERT
+  - text: "Quels frères ont fondé l'enseigne allemande de distribution Aldi ?"
+    answers:
+      A: "Richard et Maurice McDonald"
+      B: "Karl et Theo Albrecht"
+      C: "Walt et Roy Disney"
+      D: "Adolf et Rudolf Dassler"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which brothers founded the German retail chain Aldi?"
+        answers:
+          A: "Richard and Maurice McDonald"
+          B: "Karl and Theo Albrecht"
+          C: "Walt and Roy Disney"
+          D: "Adolf and Rudolf Dassler"
+    difficulty: EXPERT
+  - text: "Quel groupe chinois a racheté la marque automobile Volvo Cars à Ford en 2010 ?"
+    answers:
+      A: "BYD"
+      B: "Geely"
+      C: "SAIC"
+      D: "Great Wall Motors"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Chinese group bought the Volvo Cars automobile brand from Ford in 2010?"
+        answers:
+          A: "BYD"
+          B: "Geely"
+          C: "SAIC"
+          D: "Great Wall Motors"
+    difficulty: EXPERT

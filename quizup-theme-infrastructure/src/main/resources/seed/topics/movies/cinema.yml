@@ -14,6 +14,7 @@ questions:
       C: "Abyss"
       D: "Terminator 2"
     correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which 1997 James Cameron film tells the love story of Jack and Rose aboard an ocean liner?"
@@ -25,93 +26,99 @@ questions:
   - text: "Qui a réalisé le film « Pulp Fiction » ?"
     answers:
       A: "Martin Scorsese"
-      B: "Quentin Tarantino"
+      B: "Steven Spielberg"
       C: "David Fincher"
-      D: "Steven Spielberg"
-    correctAnswer: B
+      D: "Quentin Tarantino"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who directed the film \"Pulp Fiction\"?"
         answers:
           A: "Martin Scorsese"
-          B: "Quentin Tarantino"
+          B: "Steven Spielberg"
           C: "David Fincher"
-          D: "Steven Spielberg"
+          D: "Quentin Tarantino"
   - text: "Comment s'appelle la statuette remise lors de la cérémonie annuelle de récompenses du cinéma américain ?"
     answers:
       A: "Le César"
       B: "Le Lion d'or"
-      C: "L'Oscar"
-      D: "La Palme d'or"
-    correctAnswer: C
+      C: "La Palme d'or"
+      D: "L'Oscar"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What is the name of the statuette awarded at the annual American film awards ceremony?"
         answers:
           A: "The César"
           B: "The Golden Lion"
-          C: "The Oscar"
-          D: "The Palme d'Or"
+          C: "The Palme d'Or"
+          D: "The Oscar"
   - text: "Quel acteur incarne Jack Sparrow dans la saga « Pirates des Caraïbes » ?"
     answers:
       A: "Orlando Bloom"
-      B: "Brad Pitt"
+      B: "Johnny Depp"
       C: "Tom Cruise"
-      D: "Johnny Depp"
-    correctAnswer: D
+      D: "Brad Pitt"
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which actor plays Jack Sparrow in the \"Pirates of the Caribbean\" saga?"
         answers:
           A: "Orlando Bloom"
-          B: "Brad Pitt"
+          B: "Johnny Depp"
           C: "Tom Cruise"
-          D: "Johnny Depp"
+          D: "Brad Pitt"
   - text: "Dans quelle ville se déroule chaque année le célèbre festival remettant la Palme d'or ?"
     answers:
-      A: "Cannes"
+      A: "Deauville"
       B: "Venise"
       C: "Berlin"
-      D: "Deauville"
-    correctAnswer: A
+      D: "Cannes"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "In which city is the famous festival awarding the Palme d'Or held every year?"
         answers:
-          A: "Cannes"
+          A: "Deauville"
           B: "Venice"
           C: "Berlin"
-          D: "Deauville"
+          D: "Cannes"
   - text: "Quel réalisateur est à l'origine des films « Les Dents de la mer » et « E.T. » ?"
     answers:
       A: "George Lucas"
-      B: "Ridley Scott"
-      C: "Steven Spielberg"
+      B: "Steven Spielberg"
+      C: "Ridley Scott"
       D: "Francis Ford Coppola"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which director is behind the films \"Jaws\" and \"E.T.\"?"
         answers:
           A: "George Lucas"
-          B: "Ridley Scott"
-          C: "Steven Spielberg"
+          B: "Steven Spielberg"
+          C: "Ridley Scott"
           D: "Francis Ford Coppola"
   - text: "Quelle réplique célèbre est prononcée par Dark Vador dans « L'Empire contre-attaque » ?"
     answers:
       A: "« Que la Force soit avec toi »"
-      B: "« Je suis ton père »"
+      B: "« Bienvenue dans la jungle »"
       C: "« Je reviendrai »"
-      D: "« Bienvenue dans la jungle »"
-    correctAnswer: B
+      D: "« Je suis ton père »"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "What famous line is spoken by Darth Vader in \"The Empire Strikes Back\"?"
         answers:
           A: "\"May the Force be with you\""
-          B: "\"I am your father\""
+          B: "\"Welcome to the jungle\""
           C: "\"I'll be back\""
-          D: "\"Welcome to the jungle\""
+          D: "\"I am your father\""
   - text: "Quel film d'animation Pixar met en scène un cow-boy et un astronaute en jouets ?"
     answers:
       A: "Cars"
@@ -119,6 +126,7 @@ questions:
       C: "Monstres & Cie"
       D: "Ratatouille"
     correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Pixar animated film features a cowboy and a space ranger as toys?"
@@ -131,17 +139,18 @@ questions:
     answers:
       A: "Al Pacino"
       B: "Robert De Niro"
-      C: "Marlon Brando"
-      D: "James Caan"
-    correctAnswer: C
+      C: "James Caan"
+      D: "Marlon Brando"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Who plays Vito Corleone in the film \"The Godfather\"?"
         answers:
           A: "Al Pacino"
           B: "Robert De Niro"
-          C: "Marlon Brando"
-          D: "James Caan"
+          C: "James Caan"
+          D: "Marlon Brando"
   - text: "Quel film de Christopher Nolan se déroule à l'intérieur des rêves, avec Leonardo DiCaprio ?"
     answers:
       A: "Interstellar"
@@ -149,6 +158,7 @@ questions:
       C: "Tenet"
       D: "Inception"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which Christopher Nolan film takes place inside dreams, starring Leonardo DiCaprio?"
@@ -159,32 +169,34 @@ questions:
           D: "Inception"
   - text: "Comment s'appelle le sorcier gris incarné par Ian McKellen dans « Le Seigneur des anneaux » ?"
     answers:
-      A: "Gandalf"
+      A: "Elrond"
       B: "Saruman"
       C: "Radagast"
-      D: "Elrond"
-    correctAnswer: A
+      D: "Gandalf"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "What is the name of the grey wizard played by Ian McKellen in \"The Lord of the Rings\"?"
         answers:
-          A: "Gandalf"
+          A: "Elrond"
           B: "Saruman"
           C: "Radagast"
-          D: "Elrond"
+          D: "Gandalf"
   - text: "Quel réalisateur français a signé « Le Fabuleux Destin d'Amélie Poulain » ?"
     answers:
-      A: "Luc Besson"
-      B: "Jean-Pierre Jeunet"
+      A: "Jean-Pierre Jeunet"
+      B: "Luc Besson"
       C: "François Truffaut"
       D: "Michel Gondry"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which French director made \"Amélie\"?"
         answers:
-          A: "Luc Besson"
-          B: "Jean-Pierre Jeunet"
+          A: "Jean-Pierre Jeunet"
+          B: "Luc Besson"
           C: "François Truffaut"
           D: "Michel Gondry"
   - text: "Quel film de 1994 met en scène Tom Hanks assis sur un banc, racontant sa vie et ses courses ?"
@@ -194,6 +206,7 @@ questions:
       C: "Forrest Gump"
       D: "La Ligne verte"
     correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which 1994 film features Tom Hanks sitting on a bench, telling his life story and his runs?"
@@ -205,78 +218,83 @@ questions:
   - text: "Quel est le nom du studio d'animation japonais fondé par Hayao Miyazaki ?"
     answers:
       A: "Toei Animation"
-      B: "Madhouse"
+      B: "Studio Ghibli"
       C: "Sunrise"
-      D: "Studio Ghibli"
-    correctAnswer: D
+      D: "Madhouse"
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "What is the name of the Japanese animation studio founded by Hayao Miyazaki?"
         answers:
           A: "Toei Animation"
-          B: "Madhouse"
+          B: "Studio Ghibli"
           C: "Sunrise"
-          D: "Studio Ghibli"
+          D: "Madhouse"
   - text: "Quel acteur incarne Iron Man dans l'univers cinématographique Marvel ?"
     answers:
-      A: "Robert Downey Jr."
+      A: "Chris Hemsworth"
       B: "Chris Evans"
-      C: "Chris Hemsworth"
+      C: "Robert Downey Jr."
       D: "Mark Ruffalo"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which actor plays Iron Man in the Marvel Cinematic Universe?"
         answers:
-          A: "Robert Downey Jr."
+          A: "Chris Hemsworth"
           B: "Chris Evans"
-          C: "Chris Hemsworth"
+          C: "Robert Downey Jr."
           D: "Mark Ruffalo"
   - text: "Dans quel film entend-on la phrase « Houston, nous avons un problème » ?"
     answers:
       A: "Gravity"
-      B: "Apollo 13"
-      C: "Armageddon"
+      B: "Armageddon"
+      C: "Apollo 13"
       D: "Seul sur Mars"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "In which film is the line \"Houston, we have a problem\" heard?"
         answers:
           A: "Gravity"
-          B: "Apollo 13"
-          C: "Armageddon"
+          B: "Armageddon"
+          C: "Apollo 13"
           D: "The Martian"
   - text: "Quel réalisateur est célèbre pour ses films noirs en costume comme « Psychose » et « Les Oiseaux » ?"
     answers:
-      A: "Orson Welles"
+      A: "Alfred Hitchcock"
       B: "Billy Wilder"
-      C: "Alfred Hitchcock"
+      C: "Orson Welles"
       D: "Stanley Kubrick"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which director is famous for his dark, suited thrillers such as \"Psycho\" and \"The Birds\"?"
         answers:
-          A: "Orson Welles"
+          A: "Alfred Hitchcock"
           B: "Billy Wilder"
-          C: "Alfred Hitchcock"
+          C: "Orson Welles"
           D: "Stanley Kubrick"
   - text: "Quel film de 2019, réalisé par Bong Joon-ho, a remporté l'Oscar du meilleur film ?"
     answers:
       A: "Joker"
-      B: "1917"
+      B: "Parasite"
       C: "Once Upon a Time... in Hollywood"
-      D: "Parasite"
-    correctAnswer: D
+      D: "1917"
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which 2019 film, directed by Bong Joon-ho, won the Oscar for Best Picture?"
         answers:
           A: "Joker"
-          B: "1917"
+          B: "Parasite"
           C: "Once Upon a Time... in Hollywood"
-          D: "Parasite"
+          D: "1917"
   - text: "Quel personnage de fiction porte un chapeau melon et tient un rôle de pilier de la comédie muette de Charlie Chaplin ?"
     answers:
       A: "Charlot"
@@ -284,6 +302,7 @@ questions:
       C: "Harold"
       D: "Fatty"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which fictional character wears a bowler hat and is a pillar of Charlie Chaplin's silent comedy?"
@@ -292,3 +311,1299 @@ questions:
           B: "Buster"
           C: "Harold"
           D: "Fatty"
+  - text: "Quel super-héros de Marvel est incarné par Chris Hemsworth ?"
+    answers:
+      A: "Thor"
+      B: "Captain America"
+      C: "Loki"
+      D: "Hawkeye"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Marvel superhero is played by Chris Hemsworth?"
+        answers:
+          A: "Thor"
+          B: "Captain America"
+          C: "Loki"
+          D: "Hawkeye"
+    difficulty: EASY
+  - text: "Quel film d'animation Disney raconte l'histoire d'Elsa, dotée de pouvoirs de glace ?"
+    answers:
+      A: "Raiponce"
+      B: "La Reine des neiges"
+      C: "Vaiana"
+      D: "Rebelle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Disney animated film tells the story of Elsa, who has ice powers?"
+        answers:
+          A: "Tangled"
+          B: "Frozen"
+          C: "Moana"
+          D: "Brave"
+    difficulty: EASY
+  - text: "Quelle actrice incarne Hermione Granger dans la saga « Harry Potter » ?"
+    answers:
+      A: "Emma Stone"
+      B: "Emma Watson"
+      C: "Emma Roberts"
+      D: "Emma Thompson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actress plays Hermione Granger in the Harry Potter saga?"
+        answers:
+          A: "Emma Stone"
+          B: "Emma Watson"
+          C: "Emma Roberts"
+          D: "Emma Thompson"
+    difficulty: EASY
+  - text: "Quel réalisateur a créé la saga « Star Wars » ?"
+    answers:
+      A: "Steven Spielberg"
+      B: "George Lucas"
+      C: "J. J. Abrams"
+      D: "Ridley Scott"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which director created the Star Wars saga?"
+        answers:
+          A: "Steven Spielberg"
+          B: "George Lucas"
+          C: "J. J. Abrams"
+          D: "Ridley Scott"
+    difficulty: EASY
+  - text: "Dans « Le Roi Lion », comment s'appelle le jeune lion héritier du trône ?"
+    answers:
+      A: "Mufasa"
+      B: "Scar"
+      C: "Kovu"
+      D: "Simba"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In The Lion King, what is the name of the young lion who is heir to the throne?"
+        answers:
+          A: "Mufasa"
+          B: "Scar"
+          C: "Kovu"
+          D: "Simba"
+    difficulty: EASY
+  - text: "Quel acteur joue le rôle de Neo dans « Matrix » ?"
+    answers:
+      A: "Will Smith"
+      B: "Tom Cruise"
+      C: "Brad Pitt"
+      D: "Keanu Reeves"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the role of Neo in The Matrix?"
+        answers:
+          A: "Will Smith"
+          B: "Tom Cruise"
+          C: "Brad Pitt"
+          D: "Keanu Reeves"
+    difficulty: EASY
+  - text: "Quel est le nom du vaisseau piloté par Han Solo dans « Star Wars » ?"
+    answers:
+      A: "L'Étoile Noire"
+      B: "Le X-Wing"
+      C: "Le Faucon Millenium"
+      D: "Le Destroyer stellaire"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the ship piloted by Han Solo in Star Wars?"
+        answers:
+          A: "The Death Star"
+          B: "The X-Wing"
+          C: "The Millennium Falcon"
+          D: "The Star Destroyer"
+    difficulty: EASY
+  - text: "Quel studio d'animation a produit « Toy Story » et « Là-haut » ?"
+    answers:
+      A: "DreamWorks"
+      B: "Illumination"
+      C: "Blue Sky Studios"
+      D: "Pixar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which animation studio produced Toy Story and Up?"
+        answers:
+          A: "DreamWorks"
+          B: "Illumination"
+          C: "Blue Sky Studios"
+          D: "Pixar"
+    difficulty: EASY
+  - text: "Quel acteur australien incarne Wolverine dans la saga « X-Men » ?"
+    answers:
+      A: "Russell Crowe"
+      B: "Eric Bana"
+      C: "Hugh Jackman"
+      D: "Chris Hemsworth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Australian actor plays Wolverine in the X-Men saga?"
+        answers:
+          A: "Russell Crowe"
+          B: "Eric Bana"
+          C: "Hugh Jackman"
+          D: "Chris Hemsworth"
+    difficulty: EASY
+  - text: "Dans quel film Marty McFly voyage-t-il dans le temps à bord d'une DeLorean ?"
+    answers:
+      A: "Terminator"
+      B: "L'Armée des douze singes"
+      C: "Looper"
+      D: "Retour vers le futur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which film does Marty McFly travel through time in a DeLorean?"
+        answers:
+          A: "Terminator"
+          B: "Twelve Monkeys"
+          C: "Looper"
+          D: "Back to the Future"
+    difficulty: EASY
+  - text: "Quel film d'animation suit les aventures de Nemo, un poisson-clown perdu dans l'océan ?"
+    answers:
+      A: "Ratatouille"
+      B: "Les Indestructibles"
+      C: "Cars"
+      D: "Le Monde de Nemo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which animated film follows the adventures of Nemo, a clownfish lost in the ocean?"
+        answers:
+          A: "Ratatouille"
+          B: "The Incredibles"
+          C: "Cars"
+          D: "Finding Nemo"
+    difficulty: EASY
+  - text: "Quel acteur incarne Jack Dawson dans « Titanic » ?"
+    answers:
+      A: "Brad Pitt"
+      B: "Johnny Depp"
+      C: "Leonardo DiCaprio"
+      D: "Matt Damon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Jack Dawson in Titanic?"
+        answers:
+          A: "Brad Pitt"
+          B: "Johnny Depp"
+          C: "Leonardo DiCaprio"
+          D: "Matt Damon"
+    difficulty: EASY
+  - text: "Quelle actrice incarne Katniss Everdeen dans « Hunger Games » ?"
+    answers:
+      A: "Emma Watson"
+      B: "Kristen Stewart"
+      C: "Shailene Woodley"
+      D: "Jennifer Lawrence"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actress plays Katniss Everdeen in The Hunger Games?"
+        answers:
+          A: "Emma Watson"
+          B: "Kristen Stewart"
+          C: "Shailene Woodley"
+          D: "Jennifer Lawrence"
+    difficulty: EASY
+  - text: "Quel acteur a incarné le Joker dans « The Dark Knight » (2008) ?"
+    answers:
+      A: "Joaquin Phoenix"
+      B: "Heath Ledger"
+      C: "Jared Leto"
+      D: "Jack Nicholson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor played the Joker in The Dark Knight (2008)?"
+        answers:
+          A: "Joaquin Phoenix"
+          B: "Heath Ledger"
+          C: "Jared Leto"
+          D: "Jack Nicholson"
+    difficulty: EASY
+  - text: "Dans quelle saga Vin Diesel incarne-t-il Dominic Toretto ?"
+    answers:
+      A: "Fast and Furious"
+      B: "Need for Speed"
+      C: "Taxi"
+      D: "Le Transporteur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which saga does Vin Diesel play Dominic Toretto?"
+        answers:
+          A: "Fast and Furious"
+          B: "Need for Speed"
+          C: "Taxi"
+          D: "The Transporter"
+    difficulty: EASY
+  - text: "Quel acteur incarne Indiana Jones au cinéma ?"
+    answers:
+      A: "Harrison Ford"
+      B: "Bruce Willis"
+      C: "Tom Selleck"
+      D: "Mel Gibson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Indiana Jones in the movies?"
+        answers:
+          A: "Harrison Ford"
+          B: "Bruce Willis"
+          C: "Tom Selleck"
+          D: "Mel Gibson"
+    difficulty: EASY
+  - text: "Quel film d'animation de Hayao Miyazaki raconte l'histoire de Chihiro dans un monde d'esprits ?"
+    answers:
+      A: "Princesse Mononoké"
+      B: "Mon voisin Totoro"
+      C: "Le Voyage de Chihiro"
+      D: "Ponyo sur la falaise"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which animated film by Hayao Miyazaki tells the story of Chihiro in a world of spirits?"
+        answers:
+          A: "Princess Mononoke"
+          B: "My Neighbor Totoro"
+          C: "Spirited Away"
+          D: "Ponyo on the Cliff"
+    difficulty: EASY
+  - text: "Quel acteur incarne James Bond dans « Skyfall » (2012) ?"
+    answers:
+      A: "Daniel Craig"
+      B: "Roger Moore"
+      C: "Pierce Brosnan"
+      D: "Sean Connery"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays James Bond in \"Skyfall\" (2012)?"
+        answers:
+          A: "Daniel Craig"
+          B: "Roger Moore"
+          C: "Pierce Brosnan"
+          D: "Sean Connery"
+    difficulty: EASY
+  - text: "Quelle réplique lance Jack en tête du paquebot dans « Titanic » ?"
+    answers:
+      A: "Je suis invincible !"
+      B: "Rien ne peut m'arrêter !"
+      C: "Je suis le maître du navire !"
+      D: "Je suis le roi du monde !"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What line does Jack shout at the bow of the ship in \"Titanic\"?"
+        answers:
+          A: "I'm invincible!"
+          B: "Nothing can stop me!"
+          C: "I'm the master of the ship!"
+          D: "I'm the king of the world!"
+    difficulty: EASY
+  - text: "Dans « Le Seigneur des anneaux », quel objet doit être détruit dans la Montagne du Destin ?"
+    answers:
+      A: "Le Graal"
+      B: "L'Anneau unique"
+      C: "La couronne de fer"
+      D: "Le sceptre d'Isildur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"The Lord of the Rings\", which object must be destroyed in Mount Doom?"
+        answers:
+          A: "The Grail"
+          B: "The One Ring"
+          C: "The Iron Crown"
+          D: "The Scepter of Isildur"
+    difficulty: EASY
+  - text: "Quel réalisateur a signé « 2001, l'Odyssée de l'espace » ?"
+    answers:
+      A: "Ridley Scott"
+      B: "Stanley Kubrick"
+      C: "George Lucas"
+      D: "Andreï Tarkovski"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which director made \"2001: A Space Odyssey\"?"
+        answers:
+          A: "Ridley Scott"
+          B: "Stanley Kubrick"
+          C: "George Lucas"
+          D: "Andrei Tarkovsky"
+    difficulty: MEDIUM
+  - text: "Quel film de Tony Scott met en scène Tom Cruise en pilote de chasse ?"
+    answers:
+      A: "Jours de tonnerre"
+      B: "Cocktail"
+      C: "Top Gun"
+      D: "L'Arme fatale"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Tony Scott film features Tom Cruise as a fighter pilot?"
+        answers:
+          A: "Days of Thunder"
+          B: "Cocktail"
+          C: "Top Gun"
+          D: "Lethal Weapon"
+    difficulty: MEDIUM
+  - text: "Qui a réalisé « Apocalypse Now » (1979) ?"
+    answers:
+      A: "Francis Ford Coppola"
+      B: "Martin Scorsese"
+      C: "Oliver Stone"
+      D: "Michael Cimino"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed \"Apocalypse Now\" (1979)?"
+        answers:
+          A: "Francis Ford Coppola"
+          B: "Martin Scorsese"
+          C: "Oliver Stone"
+          D: "Michael Cimino"
+    difficulty: MEDIUM
+  - text: "Quel film de Martin Scorsese retrace la carrière du boxeur Jake LaMotta ?"
+    answers:
+      A: "Rocky"
+      B: "Raging Bull"
+      C: "Ali"
+      D: "Cinderella Man"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Martin Scorsese film chronicles the career of boxer Jake LaMotta?"
+        answers:
+          A: "Rocky"
+          B: "Raging Bull"
+          C: "Ali"
+          D: "Cinderella Man"
+    difficulty: MEDIUM
+  - text: "Quelle actrice a remporté l'Oscar de la meilleure actrice pour « La Môme » (2007) ?"
+    answers:
+      A: "Audrey Tautou"
+      B: "Marion Cotillard"
+      C: "Juliette Binoche"
+      D: "Isabelle Huppert"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actress won the Oscar for Best Actress for \"La Vie en Rose\" (2007)?"
+        answers:
+          A: "Audrey Tautou"
+          B: "Marion Cotillard"
+          C: "Juliette Binoche"
+          D: "Isabelle Huppert"
+    difficulty: MEDIUM
+  - text: "Quel duo de réalisateurs français a signé « Intouchables » (2011) ?"
+    answers:
+      A: "Nakache et Toledano"
+      B: "Les frères Dardenne"
+      C: "Les frères Coen"
+      D: "Ducastel et Martineau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French directing duo made \"The Intouchables\" (2011)?"
+        answers:
+          A: "Nakache and Toledano"
+          B: "The Dardenne brothers"
+          C: "The Coen brothers"
+          D: "Ducastel and Martineau"
+    difficulty: MEDIUM
+  - text: "Quel acteur a remporté l'Oscar du meilleur acteur pour « Le Discours d'un roi » ?"
+    answers:
+      A: "Geoffrey Rush"
+      B: "Jeff Bridges"
+      C: "Colin Firth"
+      D: "Jesse Eisenberg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor won the Oscar for Best Actor for \"The King's Speech\"?"
+        answers:
+          A: "Geoffrey Rush"
+          B: "Jeff Bridges"
+          C: "Colin Firth"
+          D: "Jesse Eisenberg"
+    difficulty: MEDIUM
+  - text: "Quel film de Ridley Scott met en scène des répliquants dans un Los Angeles futuriste ?"
+    answers:
+      A: "Alien"
+      B: "Minority Report"
+      C: "Total Recall"
+      D: "Blade Runner"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Ridley Scott film features replicants in a futuristic Los Angeles?"
+        answers:
+          A: "Alien"
+          B: "Minority Report"
+          C: "Total Recall"
+          D: "Blade Runner"
+    difficulty: MEDIUM
+  - text: "Quel réalisateur japonais a signé « Rashômon » et « Les Sept Samouraïs » ?"
+    answers:
+      A: "Yasujirō Ozu"
+      B: "Kenji Mizoguchi"
+      C: "Akira Kurosawa"
+      D: "Takeshi Kitano"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Japanese director made \"Rashomon\" and \"Seven Samurai\"?"
+        answers:
+          A: "Yasujiro Ozu"
+          B: "Kenji Mizoguchi"
+          C: "Akira Kurosawa"
+          D: "Takeshi Kitano"
+    difficulty: MEDIUM
+  - text: "Quel film de Luc Besson met en scène Jean Reno en tueur à gages solitaire ?"
+    answers:
+      A: "Léon"
+      B: "Nikita"
+      C: "Le Cinquième Élément"
+      D: "Subway"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Luc Besson film features Jean Reno as a lone hitman?"
+        answers:
+          A: "Leon"
+          B: "Nikita"
+          C: "The Fifth Element"
+          D: "Subway"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne le colonel Hans Landa dans « Inglourious Basterds » ?"
+    answers:
+      A: "Christoph Waltz"
+      B: "Daniel Brühl"
+      C: "Til Schweiger"
+      D: "Stellan Skarsgård"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Colonel Hans Landa in \"Inglourious Basterds\"?"
+        answers:
+          A: "Christoph Waltz"
+          B: "Daniel Brühl"
+          C: "Til Schweiger"
+          D: "Stellan Skarsgård"
+    difficulty: MEDIUM
+  - text: "Quel film a remporté la Palme d'or au Festival de Cannes 2019 ?"
+    answers:
+      A: "Parasite"
+      B: "Les Misérables"
+      C: "Portrait de la jeune fille en feu"
+      D: "Once Upon a Time... in Hollywood"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which film won the Palme d'Or at the 2019 Cannes Film Festival?"
+        answers:
+          A: "Parasite"
+          B: "Les Misérables"
+          C: "Portrait of a Lady on Fire"
+          D: "Once Upon a Time... in Hollywood"
+    difficulty: MEDIUM
+  - text: "Qui a réalisé le thriller « Seven » avec Brad Pitt et Morgan Freeman ?"
+    answers:
+      A: "Christopher Nolan"
+      B: "David Fincher"
+      C: "David Lynch"
+      D: "Bryan Singer"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who directed the thriller \"Seven\" starring Brad Pitt and Morgan Freeman?"
+        answers:
+          A: "Christopher Nolan"
+          B: "David Fincher"
+          C: "David Lynch"
+          D: "Bryan Singer"
+    difficulty: MEDIUM
+  - text: "Quel réalisateur allemand a signé « M le Maudit » en 1931 ?"
+    answers:
+      A: "F. W. Murnau"
+      B: "Werner Herzog"
+      C: "Fritz Lang"
+      D: "Rainer Werner Fassbinder"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which German director made \"M\" in 1931?"
+        answers:
+          A: "F. W. Murnau"
+          B: "Werner Herzog"
+          C: "Fritz Lang"
+          D: "Rainer Werner Fassbinder"
+    difficulty: MEDIUM
+  - text: "Quel film de Bob Fosse se déroule dans le Berlin des années 1930 ?"
+    answers:
+      A: "Cabaret"
+      B: "Chicago"
+      C: "Moulin Rouge"
+      D: "Les Parapluies de Cherbourg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Bob Fosse film is set in 1930s Berlin?"
+        answers:
+          A: "Cabaret"
+          B: "Chicago"
+          C: "Moulin Rouge"
+          D: "The Umbrellas of Cherbourg"
+    difficulty: MEDIUM
+  - text: "Quelle comédienne interprète Amélie Poulain à l'écran ?"
+    answers:
+      A: "Marion Cotillard"
+      B: "Léa Seydoux"
+      C: "Mélanie Laurent"
+      D: "Audrey Tautou"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actress plays Amélie Poulain on screen?"
+        answers:
+          A: "Marion Cotillard"
+          B: "Léa Seydoux"
+          C: "Mélanie Laurent"
+          D: "Audrey Tautou"
+    difficulty: MEDIUM
+  - text: "Quel film de Jean-Luc Godard a marqué les débuts de la Nouvelle Vague en 1960 ?"
+    answers:
+      A: "Les Quatre Cents Coups"
+      B: "Jules et Jim"
+      C: "À bout de souffle"
+      D: "Hiroshima mon amour"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Jean-Luc Godard film marked the beginning of the French New Wave in 1960?"
+        answers:
+          A: "The 400 Blows"
+          B: "Jules and Jim"
+          C: "Breathless"
+          D: "Hiroshima mon amour"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Tyler Durden dans « Fight Club » ?"
+    answers:
+      A: "Edward Norton"
+      B: "Matt Damon"
+      C: "Jared Leto"
+      D: "Brad Pitt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Tyler Durden in \"Fight Club\"?"
+        answers:
+          A: "Edward Norton"
+          B: "Matt Damon"
+          C: "Jared Leto"
+          D: "Brad Pitt"
+    difficulty: MEDIUM
+  - text: "Quel film de Steven Spielberg a remporté sept Oscars dont celui du meilleur film ?"
+    answers:
+      A: "La Liste de Schindler"
+      B: "Il faut sauver le soldat Ryan"
+      C: "Jurassic Park"
+      D: "Munich"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Steven Spielberg film won seven Oscars, including Best Picture?"
+        answers:
+          A: "Schindler's List"
+          B: "Saving Private Ryan"
+          C: "Jurassic Park"
+          D: "Munich"
+    difficulty: MEDIUM
+  - text: "Quel est le premier long métrage d'animation des studios Disney, sorti en 1937 ?"
+    answers:
+      A: "Pinocchio"
+      B: "Fantasia"
+      C: "Blanche-Neige et les Sept Nains"
+      D: "Bambi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Disney's first animated feature film, released in 1937?"
+        answers:
+          A: "Pinocchio"
+          B: "Fantasia"
+          C: "Snow White and the Seven Dwarfs"
+          D: "Bambi"
+    difficulty: MEDIUM
+  - text: "Quel film d'Orson Welles de 1941, souvent cité comme le plus grand film de l'histoire, suit un magnat de la presse ?"
+    answers:
+      A: "Le Troisième Homme"
+      B: "Citizen Kane"
+      C: "Casablanca"
+      D: "Les Raisins de la colère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1941 Orson Welles film, often called the greatest film ever made, follows a newspaper tycoon?"
+        answers:
+          A: "The Third Man"
+          B: "Citizen Kane"
+          C: "Casablanca"
+          D: "The Grapes of Wrath"
+    difficulty: HARD
+  - text: "Quel réalisateur italien a signé « Le Voleur de bicyclette » (1948) ?"
+    answers:
+      A: "Vittorio De Sica"
+      B: "Roberto Rossellini"
+      C: "Federico Fellini"
+      D: "Luchino Visconti"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian director made \"Bicycle Thieves\" (1948)?"
+        answers:
+          A: "Vittorio De Sica"
+          B: "Roberto Rossellini"
+          C: "Federico Fellini"
+          D: "Luchino Visconti"
+    difficulty: HARD
+  - text: "Quel film de Federico Fellini de 1960 suit un journaliste dans la dolce vita romaine ?"
+    answers:
+      A: "Huit et demi"
+      B: "La Strada"
+      C: "La Dolce Vita"
+      D: "Amarcord"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1960 Federico Fellini film follows a journalist through the Roman dolce vita?"
+        answers:
+          A: "8½"
+          B: "La Strada"
+          C: "La Dolce Vita"
+          D: "Amarcord"
+    difficulty: HARD
+  - text: "Quelle actrice détient le record de quatre Oscars de la meilleure actrice ?"
+    answers:
+      A: "Katharine Hepburn"
+      B: "Bette Davis"
+      C: "Ingrid Bergman"
+      D: "Meryl Streep"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress holds the record with four Best Actress Oscars?"
+        answers:
+          A: "Katharine Hepburn"
+          B: "Bette Davis"
+          C: "Ingrid Bergman"
+          D: "Meryl Streep"
+    difficulty: HARD
+  - text: "Quel film de Quentin Tarantino a remporté la Palme d'or au Festival de Cannes 1994 ?"
+    answers:
+      A: "Reservoir Dogs"
+      B: "Jackie Brown"
+      C: "Pulp Fiction"
+      D: "Kill Bill"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Quentin Tarantino film won the Palme d'Or at the 1994 Cannes Film Festival?"
+        answers:
+          A: "Reservoir Dogs"
+          B: "Jackie Brown"
+          C: "Pulp Fiction"
+          D: "Kill Bill"
+    difficulty: HARD
+  - text: "Quel cinéaste soviétique a signé « Le Cuirassé Potemkine » (1925) ?"
+    answers:
+      A: "Vsevolod Poudovkine"
+      B: "Dziga Vertov"
+      C: "Andreï Tarkovski"
+      D: "Sergueï Eisenstein"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Soviet filmmaker directed \"Battleship Potemkin\" (1925)?"
+        answers:
+          A: "Vsevolod Pudovkin"
+          B: "Dziga Vertov"
+          C: "Andrei Tarkovsky"
+          D: "Sergei Eisenstein"
+    difficulty: HARD
+  - text: "Quel film de 1952 avec Gene Kelly célèbre la transition du cinéma muet au parlant ?"
+    answers:
+      A: "Un Américain à Paris"
+      B: "Chantons sous la pluie"
+      C: "Le Chanteur de jazz"
+      D: "West Side Story"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1952 film starring Gene Kelly celebrates the transition from silent to sound cinema?"
+        answers:
+          A: "An American in Paris"
+          B: "Singin' in the Rain"
+          C: "The Jazz Singer"
+          D: "West Side Story"
+    difficulty: HARD
+  - text: "Quel est le titre original du film « Sueurs froides » d'Alfred Hitchcock ?"
+    answers:
+      A: "Psycho"
+      B: "Vertigo"
+      C: "Rope"
+      D: "Spellbound"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the original title of Alfred Hitchcock's film \"Vertigo\"?"
+        answers:
+          A: "Psycho"
+          B: "Vertigo"
+          C: "Rope"
+          D: "Spellbound"
+    difficulty: HARD
+  - text: "Quel film de Jean Renoir de 1939 est souvent considéré comme un sommet du cinéma français ?"
+    answers:
+      A: "La Grande Illusion"
+      B: "La Bête humaine"
+      C: "La Règle du jeu"
+      D: "Boudu sauvé des eaux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1939 Jean Renoir film is often considered a pinnacle of French cinema?"
+        answers:
+          A: "Grand Illusion"
+          B: "La Bête humaine"
+          C: "The Rules of the Game"
+          D: "Boudu Saved from Drowning"
+    difficulty: HARD
+  - text: "Quel cinéaste français a signé « Les Quatre Cents Coups » (1959) ?"
+    answers:
+      A: "Jean-Luc Godard"
+      B: "Claude Chabrol"
+      C: "François Truffaut"
+      D: "Éric Rohmer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French filmmaker directed \"The 400 Blows\" (1959)?"
+        answers:
+          A: "Jean-Luc Godard"
+          B: "Claude Chabrol"
+          C: "François Truffaut"
+          D: "Éric Rohmer"
+    difficulty: HARD
+  - text: "Quel acteur a été nommé huit fois à l'Oscar du meilleur acteur sans jamais remporter la statuette ?"
+    answers:
+      A: "Richard Burton"
+      B: "Albert Finney"
+      C: "Peter O'Toole"
+      D: "Laurence Olivier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor was nominated eight times for the Best Actor Oscar without ever winning the statuette?"
+        answers:
+          A: "Richard Burton"
+          B: "Albert Finney"
+          C: "Peter O'Toole"
+          D: "Laurence Olivier"
+    difficulty: HARD
+  - text: "Quel film a remporté le tout premier Oscar du meilleur film en 1929 ?"
+    answers:
+      A: "Les Ailes"
+      B: "L'Aurore"
+      C: "Le Chanteur de jazz"
+      D: "Metropolis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which film won the very first Best Picture Oscar in 1929?"
+        answers:
+          A: "Wings"
+          B: "Sunrise"
+          C: "The Jazz Singer"
+          D: "Metropolis"
+    difficulty: HARD
+  - text: "Quel film de Stanley Kubrick a été retiré de la distribution au Royaume-Uni à la demande du réalisateur ?"
+    answers:
+      A: "Full Metal Jacket"
+      B: "Shining"
+      C: "Orange mécanique"
+      D: "Barry Lyndon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Stanley Kubrick film was withdrawn from distribution in the United Kingdom at the director's request?"
+        answers:
+          A: "Full Metal Jacket"
+          B: "The Shining"
+          C: "A Clockwork Orange"
+          D: "Barry Lyndon"
+    difficulty: HARD
+  - text: "Dans « Le Parrain 2 », quel acteur incarne le jeune Vito Corleone ?"
+    answers:
+      A: "Al Pacino"
+      B: "Robert Duvall"
+      C: "Robert De Niro"
+      D: "James Caan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In \"The Godfather Part II\", which actor plays the young Vito Corleone?"
+        answers:
+          A: "Al Pacino"
+          B: "Robert Duvall"
+          C: "Robert De Niro"
+          D: "James Caan"
+    difficulty: HARD
+  - text: "Quel western de Sergio Leone de 1968 met en scène Charles Bronson et Henry Fonda ?"
+    answers:
+      A: "Pour une poignée de dollars"
+      B: "Le Bon, la Brute et le Truand"
+      C: "Il était une fois dans l'Ouest"
+      D: "Et pour quelques dollars de plus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1968 Sergio Leone western features Charles Bronson and Henry Fonda?"
+        answers:
+          A: "A Fistful of Dollars"
+          B: "The Good, the Bad and the Ugly"
+          C: "Once Upon a Time in the West"
+          D: "For a Few Dollars More"
+    difficulty: HARD
+  - text: "Quelle actrice a remporté l'Oscar du meilleur second rôle pour « West Side Story » (1961) ?"
+    answers:
+      A: "Rita Moreno"
+      B: "Natalie Wood"
+      C: "Audrey Hepburn"
+      D: "Julie Andrews"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress won the Best Supporting Actress Oscar for \"West Side Story\" (1961)?"
+        answers:
+          A: "Rita Moreno"
+          B: "Natalie Wood"
+          C: "Audrey Hepburn"
+          D: "Julie Andrews"
+    difficulty: HARD
+  - text: "Quel réalisateur danois a signé « Festen » (1998), premier film sorti sous la règle Dogme 95 ?"
+    answers:
+      A: "Lars von Trier"
+      B: "Nicolas Winding Refn"
+      C: "Susanne Bier"
+      D: "Thomas Vinterberg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Danish director made \"Festen\" (1998), the first film released under the Dogme 95 rule?"
+        answers:
+          A: "Lars von Trier"
+          B: "Nicolas Winding Refn"
+          C: "Susanne Bier"
+          D: "Thomas Vinterberg"
+    difficulty: HARD
+  - text: "Quel film français a remporté la Palme d'or au Festival de Cannes 2015 ?"
+    answers:
+      A: "La Vie d'Adèle"
+      B: "Amour"
+      C: "Titane"
+      D: "Dheepan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French film won the Palme d'Or at the 2015 Cannes Film Festival?"
+        answers:
+          A: "Blue Is the Warmest Colour"
+          B: "Amour"
+          C: "Titane"
+          D: "Dheepan"
+    difficulty: HARD
+  - text: "Quel réalisateur américain a signé « Naissance d'une nation » (1915) ?"
+    answers:
+      A: "Cecil B. DeMille"
+      B: "John Ford"
+      C: "Erich von Stroheim"
+      D: "D. W. Griffith"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which American director made \"The Birth of a Nation\" (1915)?"
+        answers:
+          A: "Cecil B. DeMille"
+          B: "John Ford"
+          C: "Erich von Stroheim"
+          D: "D. W. Griffith"
+    difficulty: HARD
+  - text: "Quel film de Billy Wilder de 1950 met en scène Gloria Swanson en star déchue du muet ?"
+    answers:
+      A: "Certains l'aiment chaud"
+      B: "Boulevard du crépuscule"
+      C: "Assurance sur la mort"
+      D: "La Garçonnière"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1950 Billy Wilder film features Gloria Swanson as a faded silent-film star?"
+        answers:
+          A: "Some Like It Hot"
+          B: "Sunset Boulevard"
+          C: "Double Indemnity"
+          D: "The Apartment"
+    difficulty: HARD
+  - text: "Quel cinéaste suédois a signé « Le Septième Sceau » (1957) ?"
+    answers:
+      A: "Roy Andersson"
+      B: "Bo Widerberg"
+      C: "Ingmar Bergman"
+      D: "Jan Troell"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Swedish filmmaker directed \"The Seventh Seal\" (1957)?"
+        answers:
+          A: "Roy Andersson"
+          B: "Bo Widerberg"
+          C: "Ingmar Bergman"
+          D: "Jan Troell"
+    difficulty: EXPERT
+  - text: "Quel film d'Alfred Hitchcock (1948) se déroule dans un seul appartement et simule un plan-séquence continu ?"
+    answers:
+      A: "Fenêtre sur cour"
+      B: "Les Oiseaux"
+      C: "La Corde"
+      D: "Le Crime était presque parfait"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Alfred Hitchcock film (1948) takes place in a single apartment and simulates a continuous long take?"
+        answers:
+          A: "Rear Window"
+          B: "The Birds"
+          C: "Rope"
+          D: "Dial M for Murder"
+    difficulty: EXPERT
+  - text: "Quel cinéaste russe a signé « Andreï Roublev » (1966) ?"
+    answers:
+      A: "Andreï Tarkovski"
+      B: "Nikita Mikhalkov"
+      C: "Sergueï Bondartchouk"
+      D: "Alexandre Sokourov"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Russian filmmaker directed \"Andrei Rublev\" (1966)?"
+        answers:
+          A: "Andrei Tarkovsky"
+          B: "Nikita Mikhalkov"
+          C: "Sergei Bondarchuk"
+          D: "Alexander Sokurov"
+    difficulty: EXPERT
+  - text: "Quel film de Michael Powell (1960) a détruit la carrière de son réalisateur avant de devenir culte ?"
+    answers:
+      A: "Les Chaussons rouges"
+      B: "Le Voyeur"
+      C: "Le Narcisse noir"
+      D: "Colonel Blimp"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Michael Powell film (1960) destroyed its director's career before becoming a cult classic?"
+        answers:
+          A: "The Red Shoes"
+          B: "Peeping Tom"
+          C: "Black Narcissus"
+          D: "Colonel Blimp"
+    difficulty: EXPERT
+  - text: "Lequel de ces films a remporté les cinq grands Oscars : film, réalisateur, acteur, actrice et scénario ?"
+    answers:
+      A: "Le Parrain"
+      B: "Le Silence des agneaux"
+      C: "Titanic"
+      D: "Forrest Gump"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which of these films won the five major Oscars: Best Picture, Director, Actor, Actress and Screenplay?"
+        answers:
+          A: "The Godfather"
+          B: "The Silence of the Lambs"
+          C: "Titanic"
+          D: "Forrest Gump"
+    difficulty: EXPERT
+  - text: "Quel réalisateur a remporté la Palme d'or pour « M*A*S*H » en 1970 ?"
+    answers:
+      A: "Mike Nichols"
+      B: "Hal Ashby"
+      C: "Sidney Lumet"
+      D: "Robert Altman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which director won the Palme d'Or for \"M*A*S*H\" in 1970?"
+        answers:
+          A: "Mike Nichols"
+          B: "Hal Ashby"
+          C: "Sidney Lumet"
+          D: "Robert Altman"
+    difficulty: EXPERT
+  - text: "Quel film soviétique de Mikhaïl Kalatozov a remporté la Palme d'or en 1958 ?"
+    answers:
+      A: "Le Cuirassé Potemkine"
+      B: "Quand passent les cigognes"
+      C: "Le Destin d'un homme"
+      D: "Ivan le Terrible"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Soviet film by Mikhail Kalatozov won the Palme d'Or in 1958?"
+        answers:
+          A: "Battleship Potemkin"
+          B: "The Cranes Are Flying"
+          C: "Destiny of a Man"
+          D: "Ivan the Terrible"
+    difficulty: EXPERT
+  - text: "Quel film de Terrence Malick (1978) se déroule dans les plaines de blé du Texas ?"
+    answers:
+      A: "Badlands"
+      B: "Les Moissons du ciel"
+      C: "Le Nouveau Monde"
+      D: "La Ligne rouge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Terrence Malick film (1978) is set in the wheat plains of Texas?"
+        answers:
+          A: "Badlands"
+          B: "Days of Heaven"
+          C: "The New World"
+          D: "The Thin Red Line"
+    difficulty: EXPERT
+  - text: "Quel cinéaste français a remporté la Palme d'or en 2008 pour « Entre les murs » ?"
+    answers:
+      A: "Laurent Cantet"
+      B: "Abdellatif Kechiche"
+      C: "Jacques Audiard"
+      D: "Arnaud Desplechin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French filmmaker won the Palme d'Or in 2008 for \"The Class\"?"
+        answers:
+          A: "Laurent Cantet"
+          B: "Abdellatif Kechiche"
+          C: "Jacques Audiard"
+          D: "Arnaud Desplechin"
+    difficulty: EXPERT
+  - text: "Quel film de Billy Wilder a valu à Ray Milland l'Oscar du meilleur acteur en 1946 ?"
+    answers:
+      A: "Stalag 17"
+      B: "Assurance sur la mort"
+      C: "Boulevard du crépuscule"
+      D: "Le Poison"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Billy Wilder film earned Ray Milland the Best Actor Oscar in 1946?"
+        answers:
+          A: "Stalag 17"
+          B: "Double Indemnity"
+          C: "Sunset Boulevard"
+          D: "The Lost Weekend"
+    difficulty: EXPERT
+  - text: "Quel film de 1969 avec Peter Fonda et Dennis Hopper met en scène deux motards traversant les États-Unis ?"
+    answers:
+      A: "L'Équipée sauvage"
+      B: "Vanishing Point"
+      C: "Two-Lane Blacktop"
+      D: "Easy Rider"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1969 film starring Peter Fonda and Dennis Hopper follows two bikers crossing the United States?"
+        answers:
+          A: "The Wild One"
+          B: "Vanishing Point"
+          C: "Two-Lane Blacktop"
+          D: "Easy Rider"
+    difficulty: EXPERT
+  - text: "Quel réalisateur détient le record de quatre Oscars du meilleur réalisateur ?"
+    answers:
+      A: "William Wyler"
+      B: "Frank Capra"
+      C: "Billy Wilder"
+      D: "John Ford"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which director holds the record with four Best Director Oscars?"
+        answers:
+          A: "William Wyler"
+          B: "Frank Capra"
+          C: "Billy Wilder"
+          D: "John Ford"
+    difficulty: EXPERT
+  - text: "Quel film de 1927 avec Al Jolson est le premier long métrage partiellement parlant de l'histoire du cinéma ?"
+    answers:
+      A: "Chantons sous la pluie"
+      B: "Le Chanteur de jazz"
+      C: "Lights of New York"
+      D: "Don Juan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1927 film starring Al Jolson is the first partially talking feature in cinema history?"
+        answers:
+          A: "Singin' in the Rain"
+          B: "The Jazz Singer"
+          C: "Lights of New York"
+          D: "Don Juan"
+    difficulty: EXPERT
+  - text: "Quel film de Jean Cocteau (1946) revisite le mythe de la Belle et de la Bête ?"
+    answers:
+      A: "La Belle et la Bête"
+      B: "Orphée"
+      C: "Le Sang d'un poète"
+      D: "Les Enfants terribles"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Jean Cocteau film (1946) revisits the myth of Beauty and the Beast?"
+        answers:
+          A: "Beauty and the Beast"
+          B: "Orpheus"
+          C: "The Blood of a Poet"
+          D: "Les Enfants terribles"
+    difficulty: EXPERT
+  - text: "Quel cinéaste italien a signé « Le Guépard » (1963) ?"
+    answers:
+      A: "Luchino Visconti"
+      B: "Michelangelo Antonioni"
+      C: "Federico Fellini"
+      D: "Bernardo Bertolucci"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Italian filmmaker directed \"The Leopard\" (1963)?"
+        answers:
+          A: "Luchino Visconti"
+          B: "Michelangelo Antonioni"
+          C: "Federico Fellini"
+          D: "Bernardo Bertolucci"
+    difficulty: EXPERT
+  - text: "Quel film de 1953 a été le premier tourné en CinemaScope ?"
+    answers:
+      A: "Ben-Hur"
+      B: "La Tunique"
+      C: "Spartacus"
+      D: "Les Dix Commandements"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1953 film was the first shot in CinemaScope?"
+        answers:
+          A: "Ben-Hur"
+          B: "The Robe"
+          C: "Spartacus"
+          D: "The Ten Commandments"
+    difficulty: EXPERT
+  - text: "Quel acteur a remporté deux Oscars consécutifs du meilleur acteur en 1937 et 1938 ?"
+    answers:
+      A: "Gary Cooper"
+      B: "Spencer Tracy"
+      C: "Fredric March"
+      D: "James Stewart"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor won two consecutive Best Actor Oscars in 1937 and 1938?"
+        answers:
+          A: "Gary Cooper"
+          B: "Spencer Tracy"
+          C: "Fredric March"
+          D: "James Stewart"
+    difficulty: EXPERT
+  - text: "Dans quel film de Sidney Lumet (1976) Howard Beale lance « Je suis en furie et je ne vais pas le supporter plus longtemps » ?"
+    answers:
+      A: "Network"
+      B: "Serpico"
+      C: "Un après-midi de chien"
+      D: "Douze Hommes en colère"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which 1976 Sidney Lumet film does Howard Beale say 'I'm as mad as hell, and I'm not going to take this anymore'?"
+        answers:
+          A: "Network"
+          B: "Serpico"
+          C: "Dog Day Afternoon"
+          D: "12 Angry Men"
+    difficulty: EXPERT
+  - text: "Quel réalisateur espagnol a signé « Le Labyrinthe de Pan » (2006) ?"
+    answers:
+      A: "Alejandro Amenábar"
+      B: "Pedro Almodóvar"
+      C: "Guillermo del Toro"
+      D: "Rodrigo Cortés"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Spanish director made 'Pan's Labyrinth' (2006)?"
+        answers:
+          A: "Alejandro Amenábar"
+          B: "Pedro Almodóvar"
+          C: "Guillermo del Toro"
+          D: "Rodrigo Cortés"
+    difficulty: EXPERT
+  - text: "Quel film d'Elia Kazan a remporté l'Oscar du meilleur film en 1955 ?"
+    answers:
+      A: "Un tramway nommé Désir"
+      B: "L'Équipée sauvage"
+      C: "Sur les quais"
+      D: "America, America"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Elia Kazan film won the Best Picture Oscar in 1955?"
+        answers:
+          A: "A Streetcar Named Desire"
+          B: "The Wild One"
+          C: "On the Waterfront"
+          D: "America, America"
+    difficulty: EXPERT
+  - text: "Quel film d'animation a été nommé à l'Oscar du meilleur film en 1992, avant la création de la catégorie dédiée ?"
+    answers:
+      A: "La Belle et la Bête"
+      B: "Le Roi Lion"
+      C: "Toy Story"
+      D: "La Petite Sirène"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which animated film was nominated for Best Picture in 1992, before the dedicated category was created?"
+        answers:
+          A: "Beauty and the Beast"
+          B: "The Lion King"
+          C: "Toy Story"
+          D: "The Little Mermaid"
+    difficulty: EXPERT

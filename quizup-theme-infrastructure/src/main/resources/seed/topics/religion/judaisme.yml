@@ -9,34 +9,36 @@ topic:
 questions:
   - text: "Combien de livres compte la Torah (le Pentateuque) ?"
     answers:
-      A: "5"
+      A: "7"
       B: "3"
-      C: "7"
+      C: "5"
       D: "10"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "How many books does the Torah (the Pentateuch) contain?"
         answers:
-          A: "5"
+          A: "7"
           B: "3"
-          C: "7"
+          C: "5"
           D: "10"
   - text: "Comment appelle-t-on les cinq premiers livres de la Bible hébraïque ?"
     answers:
       A: "La Kabbale"
       B: "Le Talmud"
-      C: "La Mishna"
-      D: "La Torah"
-    correctAnswer: D
+      C: "La Torah"
+      D: "La Mishna"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What are the first five books of the Hebrew Bible called?"
         answers:
           A: "The Kabbalah"
           B: "The Talmud"
-          C: "The Mishnah"
-          D: "The Torah"
+          C: "The Torah"
+          D: "The Mishnah"
   - text: "Quel est le premier livre de la Torah ?"
     answers:
       A: "L'Exode"
@@ -44,6 +46,7 @@ questions:
       C: "Le Lévitique"
       D: "La Genèse"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the first book of the Torah?"
@@ -55,18 +58,19 @@ questions:
   - text: "Qui reçoit la Torah sur le mont Sinaï selon la tradition ?"
     answers:
       A: "Abraham"
-      B: "Moïse"
+      B: "Josué"
       C: "David"
-      D: "Josué"
-    correctAnswer: B
+      D: "Moïse"
+    correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "Who receives the Torah on Mount Sinai according to tradition?"
         answers:
           A: "Abraham"
-          B: "Moses"
+          B: "Joshua"
           C: "David"
-          D: "Joshua"
+          D: "Moses"
   - text: "Quel livre de la Torah raconte la sortie d'Égypte ?"
     answers:
       A: "L'Exode"
@@ -74,6 +78,7 @@ questions:
       C: "Le Deutéronome"
       D: "Le Lévitique"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which book of the Torah tells the story of the Exodus from Egypt?"
@@ -84,108 +89,115 @@ questions:
           D: "Leviticus"
   - text: "Combien de commandements sont gravés sur les tables de la Loi ?"
     answers:
-      A: "7"
-      B: "10"
+      A: "10"
+      B: "7"
       C: "12"
       D: "613"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "How many commandments are carved on the tablets of the Law?"
         answers:
-          A: "7"
-          B: "10"
+          A: "10"
+          B: "7"
           C: "12"
           D: "613"
   - text: "Quelle terre est promise aux Hébreux selon la Bible ?"
     answers:
-      A: "Canaan"
+      A: "Babylone"
       B: "L'Égypte"
-      C: "Babylone"
+      C: "Canaan"
       D: "L'Assyrie"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which land is promised to the Hebrews according to the Bible?"
         answers:
-          A: "Canaan"
+          A: "Babylon"
           B: "Egypt"
-          C: "Babylon"
+          C: "Canaan"
           D: "Assyria"
   - text: "Qui est considéré comme le premier patriarche du judaïsme ?"
     answers:
-      A: "Moïse"
-      B: "Abraham"
+      A: "Abraham"
+      B: "Moïse"
       C: "Jacob"
       D: "Isaac"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Who is considered the first patriarch of Judaism?"
         answers:
-          A: "Moses"
-          B: "Abraham"
+          A: "Abraham"
+          B: "Moses"
           C: "Jacob"
           D: "Isaac"
   - text: "Quel fils d'Abraham est présenté comme le père d'Israël dans la Genèse ?"
     answers:
-      A: "Ismaël"
+      A: "Isaac"
       B: "Ésaü"
-      C: "Isaac"
+      C: "Ismaël"
       D: "Joseph"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which son of Abraham is presented as the father of Israel in Genesis?"
         answers:
-          A: "Ishmael"
+          A: "Isaac"
           B: "Esau"
-          C: "Isaac"
+          C: "Ishmael"
           D: "Joseph"
   - text: "Quel patriarche est renommé Israël après avoir lutté avec un ange ?"
     answers:
-      A: "Jacob"
+      A: "Juda"
       B: "Isaac"
       C: "Joseph"
-      D: "Juda"
-    correctAnswer: A
+      D: "Jacob"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which patriarch is renamed Israel after wrestling with an angel?"
         answers:
-          A: "Jacob"
+          A: "Judah"
           B: "Isaac"
           C: "Joseph"
-          D: "Judah"
+          D: "Jacob"
   - text: "Quel fils de Jacob est vendu par ses frères puis devient ministre en Égypte ?"
     answers:
       A: "Benjamin"
       B: "Juda"
-      C: "Lévi"
-      D: "Joseph"
-    correctAnswer: D
+      C: "Joseph"
+      D: "Lévi"
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which son of Jacob is sold by his brothers and later becomes a minister in Egypt?"
         answers:
           A: "Benjamin"
           B: "Judah"
-          C: "Levi"
-          D: "Joseph"
+          C: "Joseph"
+          D: "Levi"
   - text: "Quelle matriarche est l'épouse d'Abraham ?"
     answers:
       A: "Rachel"
-      B: "Rebecca"
-      C: "Sarah"
+      B: "Sarah"
+      C: "Rebecca"
       D: "Léa"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which matriarch is Abraham's wife?"
         answers:
           A: "Rachel"
-          B: "Rebecca"
-          C: "Sarah"
+          B: "Sarah"
+          C: "Rebecca"
           D: "Leah"
   - text: "Quand commence le Chabbat ?"
     answers:
@@ -194,6 +206,7 @@ questions:
       C: "Le jeudi soir"
       D: "Le vendredi au coucher du soleil"
     correctAnswer: D
+    difficulty: EASY
     translations:
       en:
         text: "When does Shabbat begin?"
@@ -205,33 +218,35 @@ questions:
   - text: "Que signifie « casher » pour un aliment ?"
     answers:
       A: "Béni"
-      B: "Sacré"
-      C: "Propre à la consommation selon les règles"
+      B: "Propre à la consommation selon les règles"
+      C: "Sacré"
       D: "Réservé aux fêtes"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does \"kosher\" mean for a food?"
         answers:
           A: "Blessed"
-          B: "Sacred"
-          C: "Fit for consumption under the rules"
+          B: "Fit for consumption under the rules"
+          C: "Sacred"
           D: "Reserved for holidays"
   - text: "Quel lieu de culte juif abrite l'Arche sainte et les rouleaux ?"
     answers:
       A: "La madrasa"
       B: "Le temple"
-      C: "La basilique"
-      D: "La synagogue"
-    correctAnswer: D
+      C: "La synagogue"
+      D: "La basilique"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which Jewish place of worship houses the holy Ark and the scrolls?"
         answers:
           A: "The madrasa"
           B: "The temple"
-          C: "The basilica"
-          D: "The synagogue"
+          C: "The synagogue"
+          D: "The basilica"
   - text: "Quel est ce mur, vestige du Temple de Jérusalem ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Westen_(Wailing)_Wall,_Jerusalem,_2007.jpg?width=800
     answers:
@@ -240,6 +255,7 @@ questions:
       C: "Le mur des Lamentations"
       D: "Le mur des Prophètes"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What is this wall, a remnant of the Temple in Jerusalem?"
@@ -256,6 +272,7 @@ questions:
       C: "Des rouleaux de la Torah"
       D: "Des rouleaux de la Bible grecque"
     correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "Which scrolls are read in the synagogue?"
@@ -267,81 +284,86 @@ questions:
   - text: "Quel édifice est ici représenté ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Praha_Spanish_Synagogue_Interior_01.jpg?width=800
     answers:
-      A: "Une synagogue"
+      A: "Une madrasa"
       B: "Une église"
       C: "Un temple grec"
-      D: "Une madrasa"
-    correctAnswer: A
+      D: "Une synagogue"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which building is shown here?"
         answers:
-          A: "A synagogue"
+          A: "A madrasa"
           B: "A church"
           C: "A Greek temple"
-          D: "A madrasa"
+          D: "A synagogue"
   - text: "Quel symbole à sept branches est gravé sur cette pierre de Magdala ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/The_temple_menorah_on_the_Magdala_Stone_(replica).png?width=800
     answers:
-      A: "Le loulav"
+      A: "La ménorah"
       B: "L'étoile de David"
       C: "Le chofar"
-      D: "La ménorah"
-    correctAnswer: D
+      D: "Le loulav"
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "Which seven-branched symbol is carved on this Magdala stone?"
         answers:
-          A: "The lulav"
+          A: "The menorah"
           B: "The Star of David"
           C: "The shofar"
-          D: "The menorah"
+          D: "The lulav"
   - text: "Combien de branches compte la hanoukkia, chandelier de Hanoukka ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Rostov-on-Don,_Hanukkah_Jewish_festival,_Hanukkah_menorah,_Judaism_in_Russia.jpg?width=800
     answers:
       A: "7"
-      B: "8"
+      B: "9"
       C: "12"
-      D: "9"
-    correctAnswer: D
+      D: "8"
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "How many branches does the hanukkiah, the Hanukkah candelabra, have?"
         answers:
           A: "7"
-          B: "8"
+          B: "9"
           C: "12"
-          D: "9"
+          D: "8"
   - text: "Quel est ce symbole à six branches ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Star_of_David_2021.jpg?width=800
     answers:
-      A: "Le sceau de Salomon"
-      B: "L'étoile de David"
+      A: "L'étoile de David"
+      B: "Le sceau de Salomon"
       C: "La croix"
       D: "Le pentagramme"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is this six-pointed symbol?"
         answers:
-          A: "The Seal of Solomon"
-          B: "The Star of David"
+          A: "The Star of David"
+          B: "The Seal of Solomon"
           C: "The cross"
           D: "The pentagram"
   - text: "Quelles bougies sont allumées au début du Chabbat ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Shabbat_Candles.jpg?width=800
     answers:
-      A: "Les bougies de Chabbat"
-      B: "Les bougies d'Hanoukka"
+      A: "Les bougies d'Hanoukka"
+      B: "Les bougies de Chabbat"
       C: "Les cierges de Yom Kippour"
       D: "Les bougies de Pourim"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which candles are lit at the beginning of Shabbat?"
         answers:
-          A: "Shabbat candles"
-          B: "Hanukkah candles"
+          A: "Hanukkah candles"
+          B: "Shabbat candles"
           C: "Yom Kippur candles"
           D: "Purim candles"
   - text: "Comment appelle-t-on ce pain tressé du Chabbat ?"
@@ -349,17 +371,18 @@ questions:
     answers:
       A: "La fougasse"
       B: "Le matzah"
-      C: "La hallah"
-      D: "Le bagel"
-    correctAnswer: C
+      C: "Le bagel"
+      D: "La hallah"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is this braided Shabbat bread called?"
         answers:
           A: "Fougasse"
           B: "Matzah"
-          C: "Challah"
-          D: "Bagel"
+          C: "Bagel"
+          D: "Challah"
   - text: "Quel plat est utilisé lors du séder de Pessah ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Passover_Seder_plate,_original.jpg?width=800
     answers:
@@ -368,6 +391,7 @@ questions:
       C: "Le plat de Pourim"
       D: "Le panier de Souccot"
     correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "Which dish is used during the Passover seder?"
@@ -380,65 +404,69 @@ questions:
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Matzah.jpg?width=800
     answers:
       A: "Le pain complet"
-      B: "La hallah"
-      C: "Le matzah"
+      B: "Le matzah"
+      C: "La hallah"
       D: "La galette de maïs"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which unleavened bread is eaten at Passover?"
         answers:
           A: "Wholemeal bread"
-          B: "Challah"
-          C: "Matzah"
+          B: "Matzah"
+          C: "Challah"
           D: "Corn flatbread"
   - text: "De quel animal provient traditionnellement ce chofar ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Shofar-16-Zachi-Evenor.jpg?width=800
     answers:
-      A: "Le bélier"
-      B: "La chèvre"
+      A: "La chèvre"
+      B: "Le bélier"
       C: "Le taureau"
       D: "L'antilope"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which animal does this shofar traditionally come from?"
         answers:
-          A: "The ram"
-          B: "The goat"
+          A: "The goat"
+          B: "The ram"
           C: "The bull"
           D: "The antelope"
   - text: "Quelle fête de jeûne ce tableau représente-t-il ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Maurycy_Gottlieb_-_Jews_Praying_in_the_Synagogue_on_Yom_Kippur.jpg?width=800
     answers:
-      A: "Hanoukka"
-      B: "Yom Kippour"
+      A: "Yom Kippour"
+      B: "Hanoukka"
       C: "Pessah"
       D: "Pourim"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which fast day does this painting depict?"
         answers:
-          A: "Hanukkah"
-          B: "Yom Kippur"
+          A: "Yom Kippur"
+          B: "Hanukkah"
           C: "Passover"
           D: "Purim"
   - text: "Quel objet est fixé sur les montants des portes dans les foyers juifs ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Mezuzah_IMG_2124.JPG?width=800
     answers:
       A: "La tephilla"
-      B: "La mezouza"
-      C: "Le talit"
+      B: "Le talit"
+      C: "La mezouza"
       D: "La kippa"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which object is fixed to doorposts in Jewish homes?"
         answers:
           A: "The tefillah"
-          B: "The mezuzah"
-          C: "The tallit"
+          B: "The tallit"
+          C: "The mezuzah"
           D: "The kippah"
   - text: "Comment appelle-t-on ces phylactères portés pour la prière ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tefillin.JPG?width=800
@@ -448,6 +476,7 @@ questions:
       C: "Les kippot"
       D: "Les mezouzot"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What are these phylacteries worn for prayer called?"
@@ -460,82 +489,87 @@ questions:
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Prayer_Shawl_Tallit_gadol.jpg?width=800
     answers:
       A: "Le shtreimel"
-      B: "Le tefillin"
-      C: "Le talit"
+      B: "Le talit"
+      C: "Le tefillin"
       D: "Le kitel"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "What is this prayer shawl called?"
         answers:
           A: "The shtreimel"
-          B: "The tefillin"
-          C: "The tallit"
+          B: "The tallit"
+          C: "The tefillin"
           D: "The kittel"
   - text: "Comment appelle-t-on cette calotte portée par les hommes juifs ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Kipa.jpg?width=800
     answers:
       A: "Le voile"
       B: "Le turban"
-      C: "La casquette"
-      D: "La kippa"
-    correctAnswer: D
+      C: "La kippa"
+      D: "La casquette"
+    correctAnswer: C
+    difficulty: EASY
     translations:
       en:
         text: "What is this skullcap worn by Jewish men called?"
         answers:
           A: "The veil"
           B: "The turban"
-          C: "The cap"
-          D: "The kippah"
+          C: "The kippah"
+          D: "The cap"
   - text: "Où ces manuscrits ont-ils été découverts ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Psalms_Scroll.jpg?width=800
     answers:
-      A: "À Babylone"
+      A: "À Qumrân, près de la mer Morte"
       B: "À Jérusalem"
       C: "À Alexandrie"
-      D: "À Qumrân, près de la mer Morte"
-    correctAnswer: D
+      D: "À Babylone"
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Where were these manuscripts discovered?"
         answers:
-          A: "In Babylon"
+          A: "At Qumran, near the Dead Sea"
           B: "In Jerusalem"
           C: "In Alexandria"
-          D: "At Qumran, near the Dead Sea"
+          D: "In Babylon"
   - text: "Quelle forteresse domine la mer Morte ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Israel-2013-Aerial_21-Masada.jpg?width=800
     answers:
       A: "Megiddo"
-      B: "Massada"
-      C: "Hazor"
+      B: "Hazor"
+      C: "Massada"
       D: "Gamla"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which fortress overlooks the Dead Sea?"
         answers:
           A: "Megiddo"
-          B: "Masada"
-          C: "Hazor"
+          B: "Hazor"
+          C: "Masada"
           D: "Gamla"
   - text: "Quel est le nom de cette écriture ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Alefbet_Hebrew.png?width=800
     answers:
       A: "L'alphabet grec"
       B: "L'alphabet arabe"
-      C: "L'alphabet hébreu"
-      D: "L'alphabet cyrillique"
-    correctAnswer: C
+      C: "L'alphabet cyrillique"
+      D: "L'alphabet hébreu"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "What is the name of this script?"
         answers:
           A: "The Greek alphabet"
           B: "The Arabic alphabet"
-          C: "The Hebrew alphabet"
-          D: "The Cyrillic alphabet"
+          C: "The Cyrillic alphabet"
+          D: "The Hebrew alphabet"
   - text: "Combien de commandements (mitzvot) la Torah contient-elle selon la tradition rabbinique ?"
     answers:
       A: "10"
@@ -543,6 +577,7 @@ questions:
       C: "248"
       D: "1000"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "How many commandments (mitzvot) does the Torah contain according to rabbinic tradition?"
@@ -553,17 +588,18 @@ questions:
           D: "1000"
   - text: "Que célèbre la bar-mitsva ?"
     answers:
-      A: "La naissance"
-      B: "Le passage à l'âge adulte religieux"
+      A: "Le passage à l'âge adulte religieux"
+      B: "La naissance"
       C: "Le mariage"
       D: "Le deuil"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does a bar mitzvah celebrate?"
         answers:
-          A: "Birth"
-          B: "Coming of age in religious life"
+          A: "Coming of age in religious life"
+          B: "Birth"
           C: "Marriage"
           D: "Mourning"
   - text: "Quel rite marque l'entrée dans l'alliance pour les garçons ?"
@@ -573,6 +609,7 @@ questions:
       C: "La tefilla"
       D: "Le jeûne"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which rite marks entry into the covenant for boys?"
@@ -588,6 +625,7 @@ questions:
       C: "Le Nouvel An juif"
       D: "Les Cabanes"
     correctAnswer: C
+    difficulty: MEDIUM
     translations:
       en:
         text: "What does Rosh Hashanah celebrate?"
@@ -600,17 +638,18 @@ questions:
     answers:
       A: "3"
       B: "7"
-      C: "8"
-      D: "10"
-    correctAnswer: C
+      C: "10"
+      D: "8"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "How many days does Hanukkah last?"
         answers:
           A: "3"
           B: "7"
-          C: "8"
-          D: "10"
+          C: "10"
+          D: "8"
   - text: "Quel rouleau est lu à Pourim ?"
     answers:
       A: "La Meguila d'Esther"
@@ -618,6 +657,7 @@ questions:
       C: "Les Psaumes"
       D: "Le Cantique des cantiques"
     correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "Which scroll is read on Purim?"
@@ -629,77 +669,82 @@ questions:
   - text: "Quelle fête commémore la sortie d'Égypte ?"
     answers:
       A: "Hanoukka"
-      B: "Souccot"
+      B: "Pessah"
       C: "Chavouot"
-      D: "Pessah"
-    correctAnswer: D
+      D: "Souccot"
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which holiday commemorates the Exodus from Egypt?"
         answers:
           A: "Hanukkah"
-          B: "Sukkot"
+          B: "Passover"
           C: "Shavuot"
-          D: "Passover"
+          D: "Sukkot"
   - text: "Quelle fête rappelle les quarante ans dans le désert, sous des cabanes ?"
     answers:
       A: "Pessah"
-      B: "Souccot"
+      B: "Yom Kippour"
       C: "Roch Hachana"
-      D: "Yom Kippour"
-    correctAnswer: B
+      D: "Souccot"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Which holiday recalls the forty years in the desert, dwelling in booths?"
         answers:
           A: "Passover"
-          B: "Sukkot"
+          B: "Yom Kippur"
           C: "Rosh Hashanah"
-          D: "Yom Kippur"
+          D: "Sukkot"
   - text: "Quelle est la langue liturgique historique du judaïsme ?"
     answers:
-      A: "Le grec"
+      A: "L'hébreu"
       B: "Le yiddish"
-      C: "L'hébreu"
+      C: "Le grec"
       D: "Le ladino"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EASY
     translations:
       en:
         text: "What is the historic liturgical language of Judaism?"
         answers:
-          A: "Greek"
+          A: "Hebrew"
           B: "Yiddish"
-          C: "Hebrew"
+          C: "Greek"
           D: "Ladino"
   - text: "Quelle langue mêle allemand et hébreu, parlée par les Juifs d'Europe de l'Est ?"
     answers:
       A: "L'araméen"
-      B: "Le ladino"
-      C: "Le yiddish"
+      B: "Le yiddish"
+      C: "Le ladino"
       D: "Le judéo-arabe"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: HARD
     translations:
       en:
         text: "Which language mixes German and Hebrew, spoken by Eastern European Jews?"
         answers:
           A: "Aramaic"
-          B: "Ladino"
-          C: "Yiddish"
+          B: "Yiddish"
+          C: "Ladino"
           D: "Judeo-Arabic"
   - text: "Que contient le Talmud ?"
     answers:
-      A: "La Mishna et la Guemara"
+      A: "Les Psaumes"
       B: "La Torah et les Prophètes"
-      C: "Les Psaumes"
+      C: "La Mishna et la Guemara"
       D: "Les Évangiles"
-    correctAnswer: A
+    correctAnswer: C
+    difficulty: EXPERT
     translations:
       en:
         text: "What does the Talmud contain?"
         answers:
-          A: "The Mishnah and the Gemara"
+          A: "The Psalms"
           B: "The Torah and the Prophets"
-          C: "The Psalms"
+          C: "The Mishnah and the Gemara"
           D: "The Gospels"
   - text: "Quel commentateur médiéval français est célèbre pour ses commentaires de la Bible et du Talmud ?"
     answers:
@@ -708,6 +753,7 @@ questions:
       C: "Ibn Ezra"
       D: "Nahmanide"
     correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "Which medieval French commentator is famous for his commentaries on the Bible and the Talmud?"
@@ -719,18 +765,19 @@ questions:
   - text: "Quel philosophe juif médiéval a écrit le Guide des égarés ?"
     answers:
       A: "Rachi"
-      B: "Maïmonide"
+      B: "Saadia Gaon"
       C: "Spinoza"
-      D: "Saadia Gaon"
-    correctAnswer: B
+      D: "Maïmonide"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which medieval Jewish philosopher wrote The Guide for the Perplexed?"
         answers:
           A: "Rashi"
-          B: "Maimonides"
+          B: "Saadia Gaon"
           C: "Spinoza"
-          D: "Saadia Gaon"
+          D: "Maimonides"
   - text: "En quelle année les Juifs furent-ils expulsés d'Espagne ?"
     answers:
       A: "1391"
@@ -738,6 +785,7 @@ questions:
       C: "1516"
       D: "1492"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "In which year were the Jews expelled from Spain?"
@@ -753,6 +801,7 @@ questions:
       C: "Moses Hess"
       D: "Theodor Herzl"
     correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "Who is considered the founder of modern Zionism?"
@@ -763,16 +812,817 @@ questions:
           D: "Theodor Herzl"
   - text: "En quelle année l'État d'Israël a-t-il été proclamé ?"
     answers:
-      A: "1948"
+      A: "1967"
       B: "1936"
       C: "1917"
-      D: "1967"
-    correctAnswer: A
+      D: "1948"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "In which year was the State of Israel proclaimed?"
         answers:
-          A: "1948"
+          A: "1967"
           B: "1936"
           C: "1917"
-          D: "1967"
+          D: "1948"
+  - text: "Quel jeune berger a vaincu le géant Goliath selon la Bible ?"
+    answers:
+      A: "Samson"
+      B: "David"
+      C: "Saül"
+      D: "Josué"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which young shepherd defeated the giant Goliath according to the Bible?"
+        answers:
+          A: "Samson"
+          B: "David"
+          C: "Saul"
+          D: "Joshua"
+    difficulty: EASY
+  - text: "Dans quelle ville se trouve le Mur occidental ?"
+    answers:
+      A: "Hébron"
+      B: "Jérusalem"
+      C: "Tel Aviv"
+      D: "Safed"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the Western Wall located?"
+        answers:
+          A: "Hebron"
+          B: "Jerusalem"
+          C: "Tel Aviv"
+          D: "Safed"
+    difficulty: EASY
+  - text: "Qui a conduit les Hébreux hors d'Égypte selon la Bible ?"
+    answers:
+      A: "Moïse"
+      B: "Josué"
+      C: "Abraham"
+      D: "David"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who led the Hebrews out of Egypt according to the Bible?"
+        answers:
+          A: "Moses"
+          B: "Joshua"
+          C: "Abraham"
+          D: "David"
+    difficulty: EASY
+  - text: "Quel aliment est interdit par les lois de la cacherout ?"
+    answers:
+      A: "Le poisson"
+      B: "Le poulet"
+      C: "Les légumes"
+      D: "Le porc"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which food is forbidden by the laws of kashrut?"
+        answers:
+          A: "Fish"
+          B: "Chicken"
+          C: "Vegetables"
+          D: "Pork"
+    difficulty: EASY
+  - text: "Quel est le nom hébreu de la fête des Lumières ?"
+    answers:
+      A: "Pourim"
+      B: "Pessah"
+      C: "Hanoukka"
+      D: "Souccot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Hebrew name for the Festival of Lights?"
+        answers:
+          A: "Purim"
+          B: "Pesach"
+          C: "Hanukkah"
+          D: "Sukkot"
+    difficulty: EASY
+  - text: "Quelle fête juive célèbre la réception de la Torah au mont Sinaï ?"
+    answers:
+      A: "Hanoukka"
+      B: "Souccot"
+      C: "Chavouot"
+      D: "Pourim"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Jewish holiday celebrates the receiving of the Torah at Mount Sinai?"
+        answers:
+          A: "Hanukkah"
+          B: "Sukkot"
+          C: "Shavuot"
+          D: "Purim"
+    difficulty: EASY
+  - text: "Quel aliment est traditionnellement trempé dans le miel à Roch Hachana ?"
+    answers:
+      A: "Le raisin"
+      B: "Le pain"
+      C: "Le poisson"
+      D: "La pomme"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which food is traditionally dipped in honey at Rosh Hashanah?"
+        answers:
+          A: "Grapes"
+          B: "Bread"
+          C: "Fish"
+          D: "Apple"
+    difficulty: EASY
+  - text: "Combien de tribus composent le peuple d'Israël selon la Bible ?"
+    answers:
+      A: "Sept"
+      B: "Dix"
+      C: "Douze"
+      D: "Quinze"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many tribes make up the people of Israel according to the Bible?"
+        answers:
+          A: "Seven"
+          B: "Ten"
+          C: "Twelve"
+          D: "Fifteen"
+    difficulty: EASY
+  - text: "Dans quel fleuve Moïse bébé a-t-il été déposé dans un panier ?"
+    answers:
+      A: "Le Nil"
+      B: "Le Jourdain"
+      C: "L'Euphrate"
+      D: "Le Tigre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which river was baby Moses placed in a basket?"
+        answers:
+          A: "The Nile"
+          B: "The Jordan"
+          C: "The Euphrates"
+          D: "The Tigris"
+    difficulty: EASY
+  - text: "Quel est le nom de la première femme selon la Genèse ?"
+    answers:
+      A: "Sarah"
+      B: "Ève"
+      C: "Myriam"
+      D: "Rachel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first woman according to Genesis?"
+        answers:
+          A: "Sarah"
+          B: "Eve"
+          C: "Miriam"
+          D: "Rachel"
+    difficulty: EASY
+  - text: "Quel est le nom du grand bateau construit par Noé ?"
+    answers:
+      A: "La barque"
+      B: "L'arche"
+      C: "Le radeau"
+      D: "La galère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the great boat built by Noah?"
+        answers:
+          A: "The boat"
+          B: "The ark"
+          C: "The raft"
+          D: "The galley"
+    difficulty: EASY
+  - text: "Quel signe Dieu place-t-il dans le ciel après le déluge ?"
+    answers:
+      A: "Une comète"
+      B: "Une étoile"
+      C: "Un nuage"
+      D: "L'arc-en-ciel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What sign does God place in the sky after the flood?"
+        answers:
+          A: "A comet"
+          B: "A star"
+          C: "A cloud"
+          D: "The rainbow"
+    difficulty: EASY
+  - text: "Que signifie le mot hébreu « Torah » ?"
+    answers:
+      A: "Prière"
+      B: "Chant"
+      C: "Enseignement"
+      D: "Voyage"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the Hebrew word \"Torah\" mean?"
+        answers:
+          A: "Prayer"
+          B: "Song"
+          C: "Teaching"
+          D: "Journey"
+    difficulty: MEDIUM
+  - text: "Quel est le nom hébreu de la synagogue, le lieu de culte juif ?"
+    answers:
+      A: "Beit Knesset"
+      B: "Beit Midrash"
+      C: "Mikveh"
+      D: "Soukkah"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the Hebrew name for the synagogue, the Jewish place of worship?"
+        answers:
+          A: "Beit Knesset"
+          B: "Beit Midrash"
+          C: "Mikveh"
+          D: "Sukkah"
+    difficulty: MEDIUM
+  - text: "Qui est la sœur de Moïse, prophétesse et chanteuse ?"
+    answers:
+      A: "Déborah"
+      B: "Myriam"
+      C: "Sarah"
+      D: "Esther"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is Moses' sister, a prophetess and singer?"
+        answers:
+          A: "Deborah"
+          B: "Miriam"
+          C: "Sarah"
+          D: "Esther"
+    difficulty: MEDIUM
+  - text: "Qui est le frère de Moïse, choisi comme premier grand prêtre ?"
+    answers:
+      A: "Éléazar"
+      B: "Josué"
+      C: "Caleb"
+      D: "Aaron"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is Moses' brother, chosen as the first high priest?"
+        answers:
+          A: "Eleazar"
+          B: "Joshua"
+          C: "Caleb"
+          D: "Aaron"
+    difficulty: MEDIUM
+  - text: "Quel roi a fait construire le premier Temple de Jérusalem ?"
+    answers:
+      A: "Salomon"
+      B: "David"
+      C: "Ézéchias"
+      D: "Josias"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which king built the first Temple of Jerusalem?"
+        answers:
+          A: "Solomon"
+          B: "David"
+          C: "Hezekiah"
+          D: "Josiah"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la nourriture que Dieu fait tomber du ciel dans le désert ?"
+    answers:
+      A: "Les figues"
+      B: "Le pain azyme"
+      C: "La manne"
+      D: "Le miel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the food that God makes fall from the sky in the desert?"
+        answers:
+          A: "Figs"
+          B: "Unleavened bread"
+          C: "Manna"
+          D: "Honey"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du mont où Abraham doit sacrifier Isaac ?"
+    answers:
+      A: "Le mont Sinaï"
+      B: "Le mont Moria"
+      C: "Le mont Nébo"
+      D: "Le mont Carmel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the mountain where Abraham must sacrifice Isaac?"
+        answers:
+          A: "Mount Sinai"
+          B: "Mount Moriah"
+          C: "Mount Nebo"
+          D: "Mount Carmel"
+    difficulty: MEDIUM
+  - text: "Quelle reine juive sauve son peuple dans le rouleau d'Esther ?"
+    answers:
+      A: "Vashti"
+      B: "Judith"
+      C: "Déborah"
+      D: "Esther"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Jewish queen saves her people in the scroll of Esther?"
+        answers:
+          A: "Vashti"
+          B: "Judith"
+          C: "Deborah"
+          D: "Esther"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on la période de 49 jours entre Pessah et Chavouot ?"
+    answers:
+      A: "Le décompte de l'Omer"
+      B: "Les Dix Jours de pénitence"
+      C: "Les Neuf Jours"
+      D: "Les Quatre Jeûnes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the 49-day period between Passover and Shavuot called?"
+        answers:
+          A: "The Counting of the Omer"
+          B: "The Ten Days of Repentance"
+          C: "The Nine Days"
+          D: "The Four Fasts"
+    difficulty: MEDIUM
+  - text: "Quelle fête marque la fin de Souccot et célèbre la joie de la Torah ?"
+    answers:
+      A: "Simchat Torah"
+      B: "Tou Bichevat"
+      C: "Chavouot"
+      D: "Lag BaOmer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which holiday marks the end of Sukkot and celebrates the joy of the Torah?"
+        answers:
+          A: "Simchat Torah"
+          B: "Tu BiShvat"
+          C: "Shavuot"
+          D: "Lag BaOmer"
+    difficulty: MEDIUM
+  - text: "Quelle fête marque le nouvel an des arbres ?"
+    answers:
+      A: "Hanoukka"
+      B: "Lag BaOmer"
+      C: "Pourim"
+      D: "Tou Bichevat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which holiday marks the new year of the trees?"
+        answers:
+          A: "Hanukkah"
+          B: "Lag BaOmer"
+          C: "Purim"
+          D: "Tu BiShvat"
+    difficulty: MEDIUM
+  - text: "Quelle prière commence par les mots « Écoute, Israël » ?"
+    answers:
+      A: "La Amida"
+      B: "Le Chéma"
+      C: "Le Kaddish"
+      D: "Le Hallel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which prayer begins with the words \"Hear, O Israel\"?"
+        answers:
+          A: "The Amidah"
+          B: "The Shema"
+          C: "The Kaddish"
+          D: "The Hallel"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du mont où Moïse est mort avant d'entrer en Terre promise ?"
+    answers:
+      A: "Le Carmel"
+      B: "Le Sinaï"
+      C: "Le Horéb"
+      D: "Le Nébo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the mountain where Moses died before entering the Promised Land?"
+        answers:
+          A: "Carmel"
+          B: "Sinai"
+          C: "Horeb"
+          D: "Nebo"
+    difficulty: HARD
+  - text: "Quel prophète a été avalé par un grand poisson ?"
+    answers:
+      A: "Nahoum"
+      B: "Habacuc"
+      C: "Jonas"
+      D: "Sophonie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which prophet was swallowed by a great fish?"
+        answers:
+          A: "Nahum"
+          B: "Habakkuk"
+          C: "Jonah"
+          D: "Zephaniah"
+    difficulty: HARD
+  - text: "Sur quelle montagne Élie a-t-il défié les prophètes de Baal ?"
+    answers:
+      A: "Le mont Guilboa"
+      B: "Le mont Hermon"
+      C: "Le mont Carmel"
+      D: "Le mont Thabor"
+    correctAnswer: C
+    translations:
+      en:
+        text: "On which mountain did Elijah challenge the prophets of Baal?"
+        answers:
+          A: "Mount Gilboa"
+          B: "Mount Hermon"
+          C: "Mount Carmel"
+          D: "Mount Tabor"
+    difficulty: HARD
+  - text: "Quel objet sacré était conservé dans le Saint des Saints du Temple ?"
+    answers:
+      A: "Le chandelier"
+      B: "L'autel"
+      C: "L'Arche d'alliance"
+      D: "Le trône"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sacred object was kept in the Holy of Holies of the Temple?"
+        answers:
+          A: "The lampstand"
+          B: "The altar"
+          C: "The Ark of the Covenant"
+          D: "The throne"
+    difficulty: HARD
+  - text: "Quel empire a détruit le premier Temple en 586 avant l'ère commune ?"
+    answers:
+      A: "L'Assyrie"
+      B: "Babylone"
+      C: "La Perse"
+      D: "Rome"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which empire destroyed the first Temple in 586 BCE?"
+        answers:
+          A: "Assyria"
+          B: "Babylon"
+          C: "Persia"
+          D: "Rome"
+    difficulty: HARD
+  - text: "Quel roi perse a autorisé le retour des Juifs à Jérusalem ?"
+    answers:
+      A: "Cyrus"
+      B: "Darius"
+      C: "Xerxès"
+      D: "Artaxerxès"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Persian king allowed the Jews to return to Jerusalem?"
+        answers:
+          A: "Cyrus"
+          B: "Darius"
+          C: "Xerxes"
+          D: "Artaxerxes"
+    difficulty: HARD
+  - text: "Quel est le nom de la traduction grecque de la Bible hébraïque réalisée à Alexandrie ?"
+    answers:
+      A: "La Septante"
+      B: "Le Targoum"
+      C: "La Peshitta"
+      D: "La Vulgate"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Greek translation of the Hebrew Bible made in Alexandria?"
+        answers:
+          A: "The Septuagint"
+          B: "The Targum"
+          C: "The Peshitta"
+          D: "The Vulgate"
+    difficulty: HARD
+  - text: "Qu'est-ce que le Midrash ?"
+    answers:
+      A: "Un livre de prières"
+      B: "Une méthode d'interprétation des textes bibliques"
+      C: "Une école rabbinique"
+      D: "Un calendrier liturgique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the Midrash?"
+        answers:
+          A: "A prayer book"
+          B: "A method of interpreting biblical texts"
+          C: "A rabbinic school"
+          D: "A liturgical calendar"
+    difficulty: HARD
+  - text: "Quel rouleau est lu à Ticha be-Av, jour de deuil des Temples ?"
+    answers:
+      A: "Kohélet"
+      B: "Esther"
+      C: "Ruth"
+      D: "Eikha (les Lamentations)"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scroll is read on Tisha B'Av, the day of mourning for the Temples?"
+        answers:
+          A: "Kohelet"
+          B: "Esther"
+          C: "Ruth"
+          D: "Eikha (Lamentations)"
+    difficulty: HARD
+  - text: "Quelle fête commémore la destruction des deux Temples de Jérusalem ?"
+    answers:
+      A: "Ticha be-Av"
+      B: "Yom Kippour"
+      C: "Lag BaOmer"
+      D: "Tou Bichevat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which holiday commemorates the destruction of the two Temples of Jerusalem?"
+        answers:
+          A: "Tisha B'Av"
+          B: "Yom Kippur"
+          C: "Lag BaOmer"
+          D: "Tu BiShvat"
+    difficulty: HARD
+  - text: "Quel mouvement juif fondé par le Baal Chem Tov met l'accent sur la joie et la ferveur ?"
+    answers:
+      A: "Le moussar"
+      B: "Le sionisme"
+      C: "Le hassidisme"
+      D: "La Haskala"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Jewish movement founded by the Baal Shem Tov emphasizes joy and fervor?"
+        answers:
+          A: "Mussar"
+          B: "Zionism"
+          C: "Hasidism"
+          D: "Haskalah"
+    difficulty: HARD
+  - text: "Quel mouvement juif du XVIIIe siècle prône l'ouverture à la culture moderne et à l'émancipation ?"
+    answers:
+      A: "Le hassidisme"
+      B: "Le sionisme"
+      C: "La Haskala"
+      D: "L'orthodoxie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 18th-century Jewish movement advocated openness to modern culture and emancipation?"
+        answers:
+          A: "Hasidism"
+          B: "Zionism"
+          C: "Haskalah"
+          D: "Orthodoxy"
+    difficulty: HARD
+  - text: "Qui a mené la révolte des Maccabées au IIe siècle avant l'ère commune ?"
+    answers:
+      A: "Juda Maccabée"
+      B: "Yohanan ben Zakkai"
+      C: "Simon bar Kokhba"
+      D: "Baruch Spinoza"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who led the Maccabean revolt in the 2nd century BCE?"
+        answers:
+          A: "Judah Maccabee"
+          B: "Yohanan ben Zakkai"
+          C: "Simon bar Kokhba"
+          D: "Baruch Spinoza"
+    difficulty: HARD
+  - text: "Combien d'ordres composent la Mishna ?"
+    answers:
+      A: "Quatre"
+      B: "Cinq"
+      C: "Sept"
+      D: "Six"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many orders make up the Mishnah?"
+        answers:
+          A: "Four"
+          B: "Five"
+          C: "Seven"
+          D: "Six"
+    difficulty: EXPERT
+  - text: "Quel rabbin a fondé l'académie de Yavné après la destruction du Temple ?"
+    answers:
+      A: "Hillel"
+      B: "Yohanan ben Zakkai"
+      C: "Chammaï"
+      D: "Akiva"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rabbi founded the academy of Yavne after the destruction of the Temple?"
+        answers:
+          A: "Hillel"
+          B: "Yohanan ben Zakkai"
+          C: "Shammai"
+          D: "Akiva"
+    difficulty: EXPERT
+  - text: "Quel maître rabbinique s'opposait souvent à Hillel par des positions strictes ?"
+    answers:
+      A: "Juda Hanassi"
+      B: "Akiva"
+      C: "Rabbi Meïr"
+      D: "Chammaï"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which rabbinic master often opposed Hillel with strict positions?"
+        answers:
+          A: "Judah HaNasi"
+          B: "Akiva"
+          C: "Rabbi Meir"
+          D: "Shammai"
+    difficulty: EXPERT
+  - text: "Qui a compilé la Mishna au début du IIIe siècle ?"
+    answers:
+      A: "Yohanan ben Zakkai"
+      B: "Hillel"
+      C: "Rabbi Juda Hanassi"
+      D: "Rachi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who compiled the Mishnah in the early 3rd century?"
+        answers:
+          A: "Yohanan ben Zakkai"
+          B: "Hillel"
+          C: "Rabbi Judah HaNasi"
+          D: "Rashi"
+    difficulty: EXPERT
+  - text: "Quel général romain a dirigé le siège de Jérusalem qui a détruit le second Temple en 70 ?"
+    answers:
+      A: "Pompée"
+      B: "Hadrien"
+      C: "Titus"
+      D: "Vespasien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman general led the siege of Jerusalem that destroyed the Second Temple in 70?"
+        answers:
+          A: "Pompey"
+          B: "Hadrian"
+          C: "Titus"
+          D: "Vespasian"
+    difficulty: EXPERT
+  - text: "Quel est le nom du conseil rabbinique suprême qui siégeait à Jérusalem ?"
+    answers:
+      A: "Le Sanhédrin"
+      B: "Le Beth Din"
+      C: "La Knesset"
+      D: "Le Nassi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the supreme rabbinic council that sat in Jerusalem?"
+        answers:
+          A: "The Sanhedrin"
+          B: "The Beth Din"
+          C: "The Knesset"
+          D: "The Nasi"
+    difficulty: EXPERT
+  - text: "Quel chef juif a mené la révolte de 132-135 contre Rome ?"
+    answers:
+      A: "Juda Maccabée"
+      B: "Simon bar Kokhba"
+      C: "Yohanan ben Zakkai"
+      D: "Hillel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Jewish leader led the revolt of 132-135 against Rome?"
+        answers:
+          A: "Judah Maccabee"
+          B: "Simon bar Kokhba"
+          C: "Yohanan ben Zakkai"
+          D: "Hillel"
+    difficulty: EXPERT
+  - text: "Quel philosophe juif néerlandais du XVIIe siècle a été excommunié pour ses idées ?"
+    answers:
+      A: "Moïse Mendelssohn"
+      B: "Baruch Spinoza"
+      C: "Juda Halévi"
+      D: "Saadia Gaon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 17th-century Dutch Jewish philosopher was excommunicated for his ideas?"
+        answers:
+          A: "Moses Mendelssohn"
+          B: "Baruch Spinoza"
+          C: "Judah Halevi"
+          D: "Saadia Gaon"
+    difficulty: EXPERT
+  - text: "Quel philosophe juif de Cordoue est l'auteur du Kuzari ?"
+    answers:
+      A: "Nahmanide"
+      B: "Maïmonide"
+      C: "Ibn Gabirol"
+      D: "Juda Halévi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Jewish philosopher from Cordoba is the author of the Kuzari?"
+        answers:
+          A: "Nahmanides"
+          B: "Maimonides"
+          C: "Ibn Gabirol"
+          D: "Judah Halevi"
+    difficulty: EXPERT
+  - text: "Quel livre majeur de la Kabbale a été rédigé en Castille au XIIIe siècle ?"
+    answers:
+      A: "Le Sefer Yetsira"
+      B: "Le Bahir"
+      C: "Le Tanya"
+      D: "Le Zohar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which major book of Kabbalah was written in Castile in the 13th century?"
+        answers:
+          A: "The Sefer Yetzirah"
+          B: "The Bahir"
+          C: "The Tanya"
+          D: "The Zohar"
+    difficulty: EXPERT
+  - text: "Que désigne le terme « Halakha » ?"
+    answers:
+      A: "La loi religieuse juive"
+      B: "La prière quotidienne"
+      C: "La bénédiction"
+      D: "L'étude"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the term \"Halakha\" refer to?"
+        answers:
+          A: "Jewish religious law"
+          B: "Daily prayer"
+          C: "The blessing"
+          D: "Study"
+    difficulty: EXPERT
+  - text: "Quel mois du calendrier hébraïque abrite Yom Kippour ?"
+    answers:
+      A: "Nissan"
+      B: "Iyar"
+      C: "Tichri"
+      D: "Kislew"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which month of the Hebrew calendar contains Yom Kippur?"
+        answers:
+          A: "Nissan"
+          B: "Iyar"
+          C: "Tishrei"
+          D: "Kislev"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la cérémonie de rachat du premier-né ?"
+    answers:
+      A: "La bar-mitsva"
+      B: "La pidyon haben"
+      C: "La halitsa"
+      D: "Les kaparot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the ceremony for redeeming the firstborn?"
+        answers:
+          A: "Bar mitzvah"
+          B: "Pidyon haben"
+          C: "Halitzah"
+          D: "Kaparot"
+    difficulty: EXPERT

@@ -13,6 +13,7 @@ questions:
       C: "développement"
       D: "dévelloppement"
     correctAnswer: C
+    difficulty: MEDIUM
   - text: "Complétez : « Il ... à la plage chaque matin. »"
     answers:
       A: "vas"
@@ -20,6 +21,7 @@ questions:
       C: "vat"
       D: "va"
     correctAnswer: D
+    difficulty: EASY
   - text: "Quel est le pluriel du nom « cheval » ?"
     answers:
       A: "chevals"
@@ -27,6 +29,7 @@ questions:
       C: "chevaus"
       D: "cheveaux"
     correctAnswer: B
+    difficulty: EASY
   - text: "Complétez : « Ils ... partis très tôt. »"
     answers:
       A: "son"
@@ -34,6 +37,7 @@ questions:
       C: "sont"
       D: "sont-ils"
     correctAnswer: C
+    difficulty: EASY
   - text: "Complétez : « Il ... acheté du pain ... la boulangerie. »"
     answers:
       A: "à / à"
@@ -41,6 +45,7 @@ questions:
       C: "a / a"
       D: "a / à"
     correctAnswer: D
+    difficulty: HARD
   - text: "Accordez le participe passé : « Les lettres que j'ai ... » (écrire)"
     answers:
       A: "écrit"
@@ -48,6 +53,7 @@ questions:
       C: "écrites"
       D: "écrits"
     correctAnswer: C
+    difficulty: EXPERT
   - text: "Quelle suite de formes du verbe être au présent est correcte ?"
     answers:
       A: "je suit, tu es, il est"
@@ -55,6 +61,7 @@ questions:
       C: "je suis, tu est, il est"
       D: "je suis, tu es, il est"
     correctAnswer: D
+    difficulty: EASY
   - text: "Accordez l'adjectif : « des femmes ... » (content)"
     answers:
       A: "content"
@@ -62,6 +69,7 @@ questions:
       C: "contente"
       D: "contents"
     correctAnswer: B
+    difficulty: MEDIUM
   - text: "Accordez le participe passé : « Les fleurs que j'ai ... » (cueillir)"
     answers:
       A: "cueilli"
@@ -69,6 +77,7 @@ questions:
       C: "cueillis"
       D: "cueillies"
     correctAnswer: D
+    difficulty: EXPERT
   - text: "Complétez : « ... vas-tu passer tes vacances ? »"
     answers:
       A: "Où"
@@ -76,6 +85,7 @@ questions:
       C: "Oux"
       D: "Oùx"
     correctAnswer: A
+    difficulty: MEDIUM
   - text: "Quel est le féminin du nom « acteur » ?"
     answers:
       A: "actrice"
@@ -83,6 +93,7 @@ questions:
       C: "acteuse"
       D: "acteuresse"
     correctAnswer: A
+    difficulty: EASY
   - text: "Complétez : « Nous ... nos devoirs avant de sortir. » (finir)"
     answers:
       A: "finons"
@@ -90,6 +101,7 @@ questions:
       C: "finisons"
       D: "finnissons"
     correctAnswer: B
+    difficulty: MEDIUM
   - text: "Quelle est la forme correcte du verbe être au passé simple, à la troisième personne du singulier ?"
     answers:
       A: "fût"
@@ -97,6 +109,7 @@ questions:
       C: "sera"
       D: "était"
     correctAnswer: B
+    difficulty: EXPERT
   - text: "Quel mot est un synonyme de « joyeux » ?"
     answers:
       A: "content"
@@ -104,6 +117,7 @@ questions:
       C: "fatigué"
       D: "inquiet"
     correctAnswer: A
+    difficulty: MEDIUM
   - text: "Quel est le pluriel du nom « bijou » ?"
     answers:
       A: "bijous"
@@ -111,6 +125,7 @@ questions:
       C: "bijouxs"
       D: "bijouxes"
     correctAnswer: B
+    difficulty: HARD
   - text: "Complétez : « ... ici que je travaille. »"
     answers:
       A: "Ses"
@@ -118,6 +133,7 @@ questions:
       C: "C'est"
       D: "Ces"
     correctAnswer: C
+    difficulty: MEDIUM
   - text: "Complétez : « C'est moi qui ... raison. »"
     answers:
       A: "ai"
@@ -125,6 +141,7 @@ questions:
       C: "as"
       D: "aie"
     correctAnswer: A
+    difficulty: EXPERT
   - text: "Comment s'écrit correctement le mot qui signifie « en dépit de » ?"
     answers:
       A: "malgré"
@@ -132,6 +149,7 @@ questions:
       C: "malgrè"
       D: "malsgré"
     correctAnswer: A
+    difficulty: HARD
   - text: "Quelle phrase est correctement écrite ?"
     answers:
       A: "Je leurs ai parlé."
@@ -139,6 +157,7 @@ questions:
       C: "Je leur ai parlés."
       D: "Je leur ai parlé."
     correctAnswer: D
+    difficulty: HARD
   - text: "Complétez : « Il ... parti très tôt ce matin. »"
     answers:
       A: "et"
@@ -146,3 +165,644 @@ questions:
       C: "est"
       D: "ai"
     correctAnswer: C
+    difficulty: EASY
+  - text: "Complétez : « Les enfants ... dans le jardin. »"
+    answers:
+      A: "jouent"
+      B: "joue"
+      C: "joues"
+      D: "jouer"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Quel est le pluriel du nom « oiseau » ?"
+    answers:
+      A: "oiseaus"
+      B: "oiseaux"
+      C: "oiseauxs"
+      D: "oiseau"
+    correctAnswer: B
+    difficulty: EASY
+  - text: "Complétez : « Tu ... une belle pomme. » (avoir)"
+    answers:
+      A: "a"
+      B: "est"
+      C: "as"
+      D: "ai"
+    correctAnswer: C
+    difficulty: EASY
+  - text: "Complétez : « Il a ... de travail. »"
+    answers:
+      A: "beaucou"
+      B: "bocoup"
+      C: "beaucoupe"
+      D: "beaucoup"
+    correctAnswer: D
+    difficulty: EASY
+  - text: "Complétez : « Elle ... très gentille. »"
+    answers:
+      A: "est"
+      B: "et"
+      C: "es"
+      D: "ai"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Complétez : « Nous ... à l'école en ce moment. » (aller)"
+    answers:
+      A: "alons"
+      B: "allons"
+      C: "allions"
+      D: "allont"
+    correctAnswer: B
+    difficulty: EASY
+  - text: "Quel est le féminin du nom « instituteur » ?"
+    answers:
+      A: "instituteure"
+      B: "instituteuse"
+      C: "institutrice"
+      D: "instituteur"
+    correctAnswer: C
+    difficulty: EASY
+  - text: "Complétez : « J'... un vélo rouge. » (avoir)"
+    answers:
+      A: "as"
+      B: "a"
+      C: "est"
+      D: "ai"
+    correctAnswer: D
+    difficulty: EASY
+  - text: "Quel est le pluriel du nom « jeu » ?"
+    answers:
+      A: "jeux"
+      B: "jeus"
+      C: "jeuxs"
+      D: "jeues"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Complétez : « Vous ... en retard. » (être)"
+    answers:
+      A: "etes"
+      B: "êtes"
+      C: "êtez"
+      D: "étes"
+    correctAnswer: B
+    difficulty: EASY
+  - text: "Complétez : « Il ... ses devoirs le soir. » (faire)"
+    answers:
+      A: "fais"
+      B: "fai"
+      C: "fait"
+      D: "faits"
+    correctAnswer: C
+    difficulty: EASY
+  - text: "Quelle phrase ne contient aucune faute d'orthographe ?"
+    answers:
+      A: "Le chat dor sur le canapé."
+      B: "Le chats dort sur le canapé."
+      C: "Le chat dort sur le canapet."
+      D: "Le chat dort sur le canapé."
+    correctAnswer: D
+    difficulty: EASY
+  - text: "Complétez : « Elles ... très contentes. » (être)"
+    answers:
+      A: "sont"
+      B: "son"
+      C: "sons"
+      D: "sonts"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Complétez : « ... sœur habite à Paris. »"
+    answers:
+      A: "Ça"
+      B: "Sa"
+      C: "Ca"
+      D: "S'a"
+    correctAnswer: B
+    difficulty: EASY
+  - text: "Quel est le pluriel du nom « journal » ?"
+    answers:
+      A: "journals"
+      B: "journaus"
+      C: "journaux"
+      D: "journales"
+    correctAnswer: C
+    difficulty: EASY
+  - text: "Complétez : « Je ... à la maison ce soir. » (rester)"
+    answers:
+      A: "restes"
+      B: "resté"
+      C: "rester"
+      D: "reste"
+    correctAnswer: D
+    difficulty: EASY
+  - text: "Complétez : « Le chien ... dans la cour. » (courir)"
+    answers:
+      A: "court"
+      B: "cour"
+      C: "cours"
+      D: "coure"
+    correctAnswer: A
+    difficulty: EASY
+  - text: "Quelle est l'orthographe correcte du verbe qui signifie « solliciter quelqu'un » ?"
+    answers:
+      A: "apeler"
+      B: "appeler"
+      C: "appeller"
+      D: "appelér"
+    correctAnswer: B
+    difficulty: EASY
+  - text: "Complétez : « ... est la sortie ? »"
+    answers:
+      A: "Ou"
+      B: "Oux"
+      C: "Où"
+      D: "Oùx"
+    correctAnswer: C
+    difficulty: EASY
+  - text: "Complétez : « Les élèves ... leurs livres. » (ouvrir)"
+    answers:
+      A: "ouvrent"
+      B: "ouvre"
+      C: "ouvres"
+      D: "ouvrez"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Accordez le participe passé : « Les fenêtres que j'ai ... » (ouvrir)"
+    answers:
+      A: "ouverte"
+      B: "ouvertes"
+      C: "ouverts"
+      D: "ouvert"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Complétez : « ... fleurs sont magnifiques. »"
+    answers:
+      A: "Ses"
+      B: "C'est"
+      C: "Ces"
+      D: "S'est"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Complétez : « Chaque matin, elle ... le train de sept heures. » (prendre)"
+    answers:
+      A: "prends"
+      B: "prenne"
+      C: "prent"
+      D: "prend"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Accordez l'adjectif : « des cheveux ... » (blond)"
+    answers:
+      A: "blonds"
+      B: "blond"
+      C: "blondes"
+      D: "blonde"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Quel est le pluriel du nom « travail » ?"
+    answers:
+      A: "travails"
+      B: "travaux"
+      C: "travaus"
+      D: "travailles"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Complétez : « Il faut que tu ... à l'heure. » (être)"
+    answers:
+      A: "es"
+      B: "est"
+      C: "sois"
+      D: "soit"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Complétez : « Nous ... ce film hier. » (voir)"
+    answers:
+      A: "voyons"
+      B: "avons voir"
+      C: "avons vois"
+      D: "avons vu"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Dans quelle phrase « où » est-il correctement employé ?"
+    answers:
+      A: "Je ne sais pas où il est."
+      B: "Je ne sais pas ou il est."
+      C: "Je ne sais pas où est-il."
+      D: "Je ne sais pas ou est-il."
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Complétez : « Soudain, elle ... ses clés sur la table. » (poser, passé simple)"
+    answers:
+      A: "posait"
+      B: "posa"
+      C: "posas"
+      D: "posât"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Quel est le participe passé du verbe « naître » ?"
+    answers:
+      A: "naî"
+      B: "nait"
+      C: "né"
+      D: "naît"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Complétez : « Il ... que tu partes. » (falloir)"
+    answers:
+      A: "faux"
+      B: "fauts"
+      C: "faus"
+      D: "faut"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Complétez : « Je me demande ... il habite. »"
+    answers:
+      A: "où"
+      B: "ou"
+      C: "houx"
+      D: "oùx"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Complétez : « Il est plus grand ... moi. »"
+    answers:
+      A: "comme"
+      B: "que"
+      C: "qu'à"
+      D: "qu'en"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Complétez : « Nous ... au cinéma hier soir. » (aller)"
+    answers:
+      A: "avons allé"
+      B: "sommes allé"
+      C: "sommes allés"
+      D: "avons allés"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Quel est le pluriel du nom « chou » ?"
+    answers:
+      A: "chous"
+      B: "chouxs"
+      C: "choues"
+      D: "choux"
+    correctAnswer: D
+    difficulty: MEDIUM
+  - text: "Accordez l'adjectif : « Ces histoires sont ... » (vrai)"
+    answers:
+      A: "vraies"
+      B: "vrai"
+      C: "vrais"
+      D: "vraie"
+    correctAnswer: A
+    difficulty: MEDIUM
+  - text: "Complétez : « ... ton frère qui a raison. »"
+    answers:
+      A: "S'est"
+      B: "C'est"
+      C: "Ces"
+      D: "Ses"
+    correctAnswer: B
+    difficulty: MEDIUM
+  - text: "Complétez : « Les feuilles ... à l'automne. » (tomber)"
+    answers:
+      A: "tombe"
+      B: "tombes"
+      C: "tombent"
+      D: "tomber"
+    correctAnswer: C
+    difficulty: MEDIUM
+  - text: "Accordez le participe passé : « Les exercices que nous avons ... » (faire)"
+    answers:
+      A: "faits"
+      B: "fait"
+      C: "faites"
+      D: "faire"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Quelle phrase est correctement orthographiée ?"
+    answers:
+      A: "Je leurs parle souvent."
+      B: "Je leur parle souvent."
+      C: "Je leurs parlent souvent."
+      D: "Je leur parlent souvent."
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Complétez : « Il faut ... tu viennes. »"
+    answers:
+      A: "qu'en"
+      B: "qu'elle"
+      C: "que"
+      D: "qu'à"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « ... qu'il pleuve, nous sortirons. »"
+    answers:
+      A: "Bienque"
+      B: "Bient"
+      C: "Biens"
+      D: "Bien"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Accordez le participe passé : « Ils se sont ... les mains. » (laver)"
+    answers:
+      A: "lavé"
+      B: "lavés"
+      C: "lavées"
+      D: "laver"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Complétez : « Ce sont mes livres. » → « Ce sont ... . »"
+    answers:
+      A: "les miennes"
+      B: "les miens"
+      C: "les mien"
+      D: "les mients"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Complétez : « Il est parti ... laisser d'adresse. »"
+    answers:
+      A: "sent"
+      B: "c'en"
+      C: "sans"
+      D: "s'en"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Elles ... à la fête. » (aller, passé composé)"
+    answers:
+      A: "allé"
+      B: "allés"
+      C: "allée"
+      D: "allées"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Complétez : « Nous nous sommes ... au téléphone. » (parler)"
+    answers:
+      A: "parlé"
+      B: "parlés"
+      C: "parlées"
+      D: "parler"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Complétez : « ... tu veux, nous partirons demain. »"
+    answers:
+      A: "S'y"
+      B: "Si"
+      C: "S'il"
+      D: "C'y"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Accordez le participe passé : « La décision qu'il a ... » (prendre)"
+    answers:
+      A: "pris"
+      B: "prises"
+      C: "prise"
+      D: "prend"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « Les amis ... tu m'as parlé sont sympas. »"
+    answers:
+      A: "que"
+      B: "qui"
+      C: "où"
+      D: "dont"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Complétez : « Plus d'un élève ... absent. »"
+    answers:
+      A: "était"
+      B: "étaient"
+      C: "étiez"
+      D: "étions"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Complétez : « Je ne pense pas qu'il ... raison. » (avoir)"
+    answers:
+      A: "a"
+      B: "ait"
+      C: "aie"
+      D: "est"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Accordez l'adjectif : « des travaux ... » (public)"
+    answers:
+      A: "publiques"
+      B: "public"
+      C: "publics"
+      D: "publis"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Complétez : « ... que je sache, il est parti. »"
+    answers:
+      A: "Au temps"
+      B: "Au tant"
+      C: "Autan"
+      D: "Autant"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Accordez le participe passé : « Elle s'est ... compte de son erreur. » (rendre)"
+    answers:
+      A: "rendu"
+      B: "rendue"
+      C: "rendus"
+      D: "rendre"
+    correctAnswer: A
+    difficulty: HARD
+  - text: "Complétez : « Les enfants se sont ... dans le parc. » (promener)"
+    answers:
+      A: "promené"
+      B: "promenés"
+      C: "promenées"
+      D: "promener"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Parmi ces mots, lequel est invariable ?"
+    answers:
+      A: "rapide"
+      B: "heureux"
+      C: "toujours"
+      D: "joli"
+    correctAnswer: C
+    difficulty: HARD
+  - text: "Quel est le pluriel du nom composé « un timbre-poste » ?"
+    answers:
+      A: "timbres-postes"
+      B: "timbres poste"
+      C: "timbre-postes"
+      D: "timbres-poste"
+    correctAnswer: D
+    difficulty: HARD
+  - text: "Complétez : « La plupart des élèves ... travaillé sérieusement. » (avoir)"
+    answers:
+      A: "on"
+      B: "ont"
+      C: "ons"
+      D: "onts"
+    correctAnswer: B
+    difficulty: HARD
+  - text: "Accordez le participe passé : « Les photos que je vous ai ... » (montrer)"
+    answers:
+      A: "montrées"
+      B: "montrés"
+      C: "montré"
+      D: "montrer"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Quel est le pluriel du nom composé « un chef-d'œuvre » ?"
+    answers:
+      A: "chef-d'œuvre"
+      B: "chefs-d'œuvre"
+      C: "chefs-d'œuvres"
+      D: "chef-d'œuvres"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Nous ... que tu avais raison. » (croire, imparfait)"
+    answers:
+      A: "croyons"
+      B: "croillions"
+      C: "croyions"
+      D: "croivions"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Accordez le participe passé : « Les invitations que nous avons ... » (recevoir)"
+    answers:
+      A: "reçu"
+      B: "reçus"
+      C: "recues"
+      D: "reçues"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Après qu'il ... fini, il sortit. » (avoir, passé antérieur)"
+    answers:
+      A: "eut"
+      B: "eût"
+      C: "eu"
+      D: "eus"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Complétez : « Je doute qu'elle ... capable de réussir. » (être)"
+    answers:
+      A: "seras"
+      B: "soit"
+      C: "es"
+      D: "sera"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Bien que nous ... fatigués, nous continuons. » (être)"
+    answers:
+      A: "sommes"
+      B: "serons"
+      C: "soyons"
+      D: "soyions"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Je ne sais pas ... heure il est. »"
+    answers:
+      A: "quel"
+      B: "qu'elle"
+      C: "quels"
+      D: "quelle"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Accordez le participe passé : « Elles se sont ... des cadeaux. » (offrir)"
+    answers:
+      A: "offert"
+      B: "offerts"
+      C: "offertes"
+      D: "offrir"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Complétez : « Il faut que tu ... ton erreur. » (admettre)"
+    answers:
+      A: "admets"
+      B: "admettes"
+      C: "admettras"
+      D: "admis"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Quelle est l'orthographe correcte de l'adverbe qui signifie « selon les apparences » ?"
+    answers:
+      A: "apparemment"
+      B: "apparement"
+      C: "apparament"
+      D: "apparamment"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Accordez le participe passé : « Les costumes qu'il a ... » (coudre)"
+    answers:
+      A: "cousu"
+      B: "cousues"
+      C: "cousus"
+      D: "coudu"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Accordez le participe passé : « Elle s'est ... les cheveux. » (couper)"
+    answers:
+      A: "coupée"
+      B: "coupés"
+      C: "couper"
+      D: "coupé"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Je ne crois pas qu'il ... la vérité. » (dire)"
+    answers:
+      A: "dit"
+      B: "dis"
+      C: "dirait"
+      D: "dise"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Quel que ... son avis, il doit se taire. » (être)"
+    answers:
+      A: "serai"
+      B: "soi"
+      C: "sois"
+      D: "soit"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Quel est le pluriel du nom composé « un arc-en-ciel » ?"
+    answers:
+      A: "arc-en-ciels"
+      B: "arcs-en-ciels"
+      C: "arcs-en-ciel"
+      D: "ars-en-ciel"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Il a plu ... la nuit. »"
+    answers:
+      A: "tout"
+      B: "toute"
+      C: "toutes"
+      D: "tous"
+    correctAnswer: B
+    difficulty: EXPERT
+  - text: "Complétez : « Sur la colline ... un vieux moulin. » (se dresser, imparfait)"
+    answers:
+      A: "se dressait"
+      B: "se dressaient"
+      C: "se dressais"
+      D: "se dresser"
+    correctAnswer: A
+    difficulty: EXPERT
+  - text: "Complétez : « Il a rempli le ... d'eau. »"
+    answers:
+      A: "sceau"
+      B: "sot"
+      C: "saut"
+      D: "seau"
+    correctAnswer: D
+    difficulty: EXPERT
+  - text: "Complétez : « Elle a ... son erreur. » (reconnaître, passé composé)"
+    answers:
+      A: "reconnait"
+      B: "reconnais"
+      C: "reconnu"
+      D: "reconnaîte"
+    correctAnswer: C
+    difficulty: EXPERT
+  - text: "Complétez : « Je m'attends à ce qu'il ... en retard. » (être)"
+    answers:
+      A: "es"
+      B: "sera"
+      C: "serait"
+      D: "soit"
+    correctAnswer: D
+    difficulty: EXPERT

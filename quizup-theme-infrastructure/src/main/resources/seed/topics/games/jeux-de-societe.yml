@@ -11,31 +11,33 @@ questions:
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Staunton_chess_set.jpg?width=800
     answers:
       A: "Le jeu de dames"
-      B: "Le backgammon"
-      C: "Les échecs"
+      B: "Les échecs"
+      C: "Le backgammon"
       D: "Le go"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "Which strategy game is played with the pieces shown in this image, on a board of 64 squares?"
         answers:
           A: "Checkers"
-          B: "Backgammon"
-          C: "Chess"
+          B: "Chess"
+          C: "Backgammon"
           D: "Go"
   - text: "Combien de pièces chaque joueur possède-t-il au début d'une partie d'échecs ?"
     answers:
-      A: "16"
-      B: "14"
+      A: "14"
+      B: "16"
       C: "12"
       D: "18"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many pieces does each player have at the start of a game of chess?"
         answers:
-          A: "16"
-          B: "14"
+          A: "14"
+          B: "16"
           C: "12"
           D: "18"
   - text: "Quelle pièce du jeu d'échecs ne peut se déplacer qu'en diagonale ?"
@@ -45,6 +47,7 @@ questions:
       C: "Le pion"
       D: "Le fou"
     correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which chess piece can only move diagonally?"
@@ -55,186 +58,198 @@ questions:
           D: "The bishop"
   - text: "Quelle est la pièce la plus puissante du jeu d'échecs, qui combine les déplacements de la tour et du fou ?"
     answers:
-      A: "Le cavalier"
+      A: "La reine"
       B: "Le roi"
-      C: "La reine"
+      C: "Le cavalier"
       D: "Le pion"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "Which is the most powerful piece in chess, combining the moves of the rook and the bishop?"
         answers:
-          A: "The knight"
+          A: "The queen"
           B: "The king"
-          C: "The queen"
+          C: "The knight"
           D: "The pawn"
   - text: "Comment appelle-t-on la situation où le roi est attaqué et ne peut plus s'échapper ?"
     answers:
       A: "Le pat"
-      B: "Le mat"
+      B: "La prise"
       C: "L'échec"
-      D: "La prise"
-    correctAnswer: B
+      D: "Le mat"
+    correctAnswer: D
+    difficulty: MEDIUM
     translations:
       en:
         text: "What is the situation called where the king is attacked and can no longer escape?"
         answers:
           A: "Stalemate"
-          B: "Checkmate"
+          B: "Capture"
           C: "Check"
-          D: "Capture"
+          D: "Checkmate"
   - text: "Combien de faces possède chacun des dés cubiques représentés sur cette image ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Two_red_dice_01.svg?width=800
     answers:
       A: "8"
-      B: "4"
-      C: "6"
+      B: "6"
+      C: "4"
       D: "12"
-    correctAnswer: C
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many faces does each of the cube dice shown in this image have?"
         answers:
           A: "8"
-          B: "4"
-          C: "6"
+          B: "6"
+          C: "4"
           D: "12"
   - text: "Sur un dé classique à six faces, combien de points montre la face opposée à celle qui porte un seul point ?"
     answers:
-      A: "6"
+      A: "2"
       B: "3"
       C: "5"
-      D: "2"
-    correctAnswer: A
+      D: "6"
+    correctAnswer: D
+    difficulty: HARD
     translations:
       en:
         text: "On a classic six-sided die, how many pips are on the face opposite the one with a single pip?"
         answers:
-          A: "6"
+          A: "2"
           B: "3"
           C: "5"
-          D: "2"
+          D: "6"
   - text: "Combien de points montre cette face de dé à jouer ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dice-6.svg?width=800
     answers:
-      A: "6"
-      B: "5"
+      A: "5"
+      B: "6"
       C: "4"
       D: "3"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many pips does this face of a playing die show?"
         answers:
-          A: "6"
-          B: "5"
+          A: "5"
+          B: "6"
           C: "4"
           D: "3"
   - text: "Combien de cartes compte l'ensemble représenté sur cette image ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/English_pattern_playing_cards_deck.svg?width=800
     answers:
       A: "32"
-      B: "52"
-      C: "40"
+      B: "40"
+      C: "52"
       D: "54"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "How many cards are in the set shown in this image?"
         answers:
           A: "32"
-          B: "52"
-          C: "40"
+          B: "40"
+          C: "52"
           D: "54"
   - text: "Quelles sont les quatre couleurs d'un jeu de cartes français traditionnel ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Playing_cards.jpg?width=800
     answers:
-      A: "Roi, dame, valet, as"
-      B: "Pique, cœur, carreau, trèfle"
+      A: "Pique, cœur, carreau, trèfle"
+      B: "Roi, dame, valet, as"
       C: "Pique, cœur, étoile, trèfle"
       D: "Rouge, bleu, vert, jaune"
-    correctAnswer: B
+    correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What are the four suits of a traditional French deck of cards?"
         answers:
-          A: "King, queen, jack, ace"
-          B: "Spade, heart, diamond, club"
+          A: "Spade, heart, diamond, club"
+          B: "King, queen, jack, ace"
           C: "Spade, heart, star, club"
           D: "Red, blue, green, yellow"
   - text: "Combien de cases compte un damier de dames internationales, composé de dix lignes sur dix colonnes ?"
     answers:
-      A: "64"
+      A: "100"
       B: "81"
-      C: "100"
+      C: "64"
       D: "121"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: EXPERT
     translations:
       en:
         text: "How many squares are on an international draughts board, made up of ten rows by ten columns?"
         answers:
-          A: "64"
+          A: "100"
           B: "81"
-          C: "100"
+          C: "64"
           D: "121"
   - text: "De combien de cases un pion peut-il avancer au maximum lors de son premier coup aux échecs ?"
     answers:
-      A: "Quatre cases"
+      A: "Deux cases"
       B: "Une case"
       C: "Trois cases"
-      D: "Deux cases"
-    correctAnswer: D
+      D: "Quatre cases"
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "At most, how many squares can a pawn advance on its first move in chess?"
         answers:
-          A: "Four squares"
+          A: "Two squares"
           B: "One square"
           C: "Three squares"
-          D: "Two squares"
+          D: "Four squares"
   - text: "Au jeu de dames, comment un pion capture-t-il une pièce adverse ?"
     answers:
-      A: "En la poussant"
+      A: "En sautant par-dessus"
       B: "En l'entourant"
-      C: "En sautant par-dessus"
+      C: "En la poussant"
       D: "En la touchant"
-    correctAnswer: C
+    correctAnswer: A
+    difficulty: HARD
     translations:
       en:
         text: "In checkers, how does a piece capture an opponent's piece?"
         answers:
-          A: "By pushing it"
+          A: "By jumping over it"
           B: "By surrounding it"
-          C: "By jumping over it"
+          C: "By pushing it"
           D: "By touching it"
   - text: "Quel jeu se joue avec deux dés et des pions sur un plateau de 24 flèches ?"
     answers:
       A: "Le jeu de l'oie"
-      B: "Le backgammon"
+      B: "Les petits chevaux"
       C: "Le Monopoly"
-      D: "Les petits chevaux"
-    correctAnswer: B
+      D: "Le backgammon"
+    correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which game is played with two dice and pieces on a board of 24 points?"
         answers:
           A: "The Game of the Goose"
-          B: "Backgammon"
+          B: "Ludo"
           C: "Monopoly"
-          D: "Ludo"
+          D: "Backgammon"
   - text: "Combien de faces compte un dé à vingt faces utilisé dans les jeux de rôle ?"
     answers:
-      A: "20"
-      B: "10"
+      A: "10"
+      B: "20"
       C: "12"
       D: "24"
-    correctAnswer: A
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many faces does a twenty-sided die used in role-playing games have?"
         answers:
-          A: "20"
-          B: "10"
+          A: "10"
+          B: "20"
           C: "12"
           D: "24"
   - text: "Quel jeu de cartes traditionnel français se joue avec un jeu de 32 cartes ?"
@@ -244,6 +259,7 @@ questions:
       C: "Le tarot"
       D: "La belote"
     correctAnswer: D
+    difficulty: EXPERT
     translations:
       en:
         text: "Which traditional French card game is played with a 32-card deck?"
@@ -255,48 +271,51 @@ questions:
   - text: "En quelle année Charles Darrow a-t-il obtenu le brevet du jeu Monopoly ?"
     answers:
       A: "1925"
-      B: "1945"
+      B: "1935"
       C: "1955"
-      D: "1935"
-    correctAnswer: D
+      D: "1945"
+    correctAnswer: B
+    difficulty: EXPERT
     translations:
       en:
         text: "In what year did Charles Darrow obtain the patent for the game Monopoly?"
         answers:
           A: "1925"
-          B: "1945"
+          B: "1935"
           C: "1955"
-          D: "1935"
+          D: "1945"
   - text: "Quel jeu traditionnel japonais se joue avec des pierres noires et blanches sur une grille de 19 lignes ?"
     answers:
       A: "Le shogi"
-      B: "Le go"
-      C: "Le mah-jong"
+      B: "Le mah-jong"
+      C: "Le go"
       D: "Les échecs"
-    correctAnswer: B
+    correctAnswer: C
+    difficulty: HARD
     translations:
       en:
         text: "Which traditional Japanese game is played with black and white stones on a 19-line grid?"
         answers:
           A: "Shogi"
-          B: "Go"
-          C: "Mahjong"
+          B: "Mahjong"
+          C: "Go"
           D: "Chess"
   - text: "Combien de joueurs s'affrontent dans une partie classique de go ?"
     answers:
       A: "Trois"
-      B: "Quatre"
+      B: "Deux"
       C: "Six"
-      D: "Deux"
-    correctAnswer: D
+      D: "Quatre"
+    correctAnswer: B
+    difficulty: EASY
     translations:
       en:
         text: "How many players compete in a classic game of Go?"
         answers:
           A: "Three"
-          B: "Four"
+          B: "Two"
           C: "Six"
-          D: "Two"
+          D: "Four"
   - text: "Quel accessoire faut-il pour jouer au jeu de l'oie ?"
     answers:
       A: "Un dé et des pions"
@@ -304,6 +323,7 @@ questions:
       C: "Un jeu de cartes"
       D: "Des dominos"
     correctAnswer: A
+    difficulty: MEDIUM
     translations:
       en:
         text: "What accessory is needed to play the Game of the Goose?"
@@ -312,3 +332,1283 @@ questions:
           B: "A chessboard"
           C: "A deck of cards"
           D: "Dominoes"
+  - text: "Combien de joueurs s'affrontent lors d'une partie d'échecs ?"
+    answers:
+      A: "Trois"
+      B: "Quatre"
+      C: "Cinq"
+      D: "Deux"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many players compete in a game of chess?"
+        answers:
+          A: "Three"
+          B: "Four"
+          C: "Five"
+          D: "Two"
+    difficulty: EASY
+  - text: "Combien de cases compte un échiquier classique ?"
+    answers:
+      A: "100"
+      B: "81"
+      C: "64"
+      D: "49"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many squares are on a standard chessboard?"
+        answers:
+          A: "100"
+          B: "81"
+          C: "64"
+          D: "49"
+    difficulty: EASY
+  - text: "Quelle pièce du jeu d'échecs peut sauter par-dessus les autres ?"
+    answers:
+      A: "Le cavalier"
+      B: "La tour"
+      C: "Le fou"
+      D: "Le roi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which chess piece can jump over the others?"
+        answers:
+          A: "The knight"
+          B: "The rook"
+          C: "The bishop"
+          D: "The king"
+    difficulty: EASY
+  - text: "Combien de joueurs faut-il au minimum pour jouer au Monopoly ?"
+    answers:
+      A: "Trois"
+      B: "Deux"
+      C: "Quatre"
+      D: "Cinq"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum number of players needed to play Monopoly?"
+        answers:
+          A: "Three"
+          B: "Two"
+          C: "Four"
+          D: "Five"
+    difficulty: EASY
+  - text: "Quel jeu de plateau propose d'acheter des rues, des gares et des compagnies ?"
+    answers:
+      A: "Le Scrabble"
+      B: "Le Cluedo"
+      C: "Le Monopoly"
+      D: "Le Risk"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which board game involves buying streets, stations and utility companies?"
+        answers:
+          A: "Scrabble"
+          B: "Cluedo"
+          C: "Monopoly"
+          D: "Risk"
+    difficulty: EASY
+  - text: "Comment appelle-t-on la position aux échecs où le joueur n'a aucun coup légal sans que son roi soit attaqué ?"
+    answers:
+      A: "Le mat"
+      B: "Le pat"
+      C: "L'échec"
+      D: "Le roque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the chess position called where a player has no legal move without their king being attacked?"
+        answers:
+          A: "Checkmate"
+          B: "Stalemate"
+          C: "Check"
+          D: "Castling"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle le coup spécial où le roi et une tour se déplacent en même temps ?"
+    answers:
+      A: "La prise en passant"
+      B: "La promotion"
+      C: "Le roque"
+      D: "Le gambit"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the special move called where the king and a rook move at the same time?"
+        answers:
+          A: "En passant"
+          B: "Promotion"
+          C: "Castling"
+          D: "Gambit"
+    difficulty: MEDIUM
+  - text: "Combien de pions chaque joueur possède-t-il au départ aux dames internationales ?"
+    answers:
+      A: "12"
+      B: "20"
+      C: "16"
+      D: "24"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many pieces does each player start with in international draughts?"
+        answers:
+          A: "12"
+          B: "20"
+          C: "16"
+          D: "24"
+    difficulty: MEDIUM
+  - text: "Au poker, quelle main est composée de cinq cartes de même couleur qui se suivent ?"
+    answers:
+      A: "Le carré"
+      B: "Le full"
+      C: "La couleur"
+      D: "La quinte flush"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In poker, which hand consists of five consecutive cards of the same suit?"
+        answers:
+          A: "Four of a kind"
+          B: "Full house"
+          C: "Flush"
+          D: "Straight flush"
+    difficulty: MEDIUM
+  - text: "Quelle est la main la plus forte au poker ?"
+    answers:
+      A: "La couleur"
+      B: "Le carré"
+      C: "Le full"
+      D: "La quinte flush royale"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the strongest hand in poker?"
+        answers:
+          A: "Flush"
+          B: "Four of a kind"
+          C: "Full house"
+          D: "Royal flush"
+    difficulty: MEDIUM
+  - text: "Qui est devenu le premier champion du monde officiel d'échecs en 1886 ?"
+    answers:
+      A: "Wilhelm Steinitz"
+      B: "Adolf Anderssen"
+      C: "Paul Morphy"
+      D: "Emanuel Lasker"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who became the first official world chess champion in 1886?"
+        answers:
+          A: "Wilhelm Steinitz"
+          B: "Adolf Anderssen"
+          C: "Paul Morphy"
+          D: "Emanuel Lasker"
+    difficulty: HARD
+  - text: "Quel ordinateur a battu Garry Kasparov en 1997 ?"
+    answers:
+      A: "AlphaZero"
+      B: "Deep Blue"
+      C: "Stockfish"
+      D: "Fritz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which computer beat Garry Kasparov in 1997?"
+        answers:
+          A: "AlphaZero"
+          B: "Deep Blue"
+          C: "Stockfish"
+          D: "Fritz"
+    difficulty: HARD
+  - text: "Comment appelle-t-on l'ouverture qui commence par les coups 1.e4 c5 ?"
+    answers:
+      A: "La défense française"
+      B: "La partie italienne"
+      C: "La défense sicilienne"
+      D: "L'ouverture espagnole"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the opening called that begins with the moves 1.e4 c5?"
+        answers:
+          A: "The French Defence"
+          B: "The Italian Game"
+          C: "The Sicilian Defence"
+          D: "The Spanish Opening"
+    difficulty: HARD
+  - text: "Qui a été champion du monde d'échecs de 1975 à 1985 ?"
+    answers:
+      A: "Anatoli Karpov"
+      B: "Boris Spassky"
+      C: "Garry Kasparov"
+      D: "Bobby Fischer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was world chess champion from 1975 to 1985?"
+        answers:
+          A: "Anatoly Karpov"
+          B: "Boris Spassky"
+          C: "Garry Kasparov"
+          D: "Bobby Fischer"
+    difficulty: HARD
+  - text: "Quel Norvégien est devenu champion du monde d'échecs en 2013 ?"
+    answers:
+      A: "Viswanathan Anand"
+      B: "Jan Nepomniachtchi"
+      C: "Fabiano Caruana"
+      D: "Magnus Carlsen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Norwegian became world chess champion in 2013?"
+        answers:
+          A: "Viswanathan Anand"
+          B: "Jan Nepomniachtchi"
+          C: "Fabiano Caruana"
+          D: "Magnus Carlsen"
+    difficulty: HARD
+  - text: "En quelle année Alfred Butts a-t-il créé le jeu qui allait devenir le Scrabble ?"
+    answers:
+      A: "1913"
+      B: "1948"
+      C: "1931"
+      D: "1955"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Alfred Butts create the game that would become Scrabble?"
+        answers:
+          A: "1913"
+          B: "1948"
+          C: "1931"
+          D: "1955"
+    difficulty: EXPERT
+  - text: "Quel champion du monde d'échecs Bobby Fischer a-t-il battu en 1972 ?"
+    answers:
+      A: "Tigran Petrossian"
+      B: "Mikhaïl Botvinnik"
+      C: "Anatoli Karpov"
+      D: "Boris Spassky"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which world chess champion did Bobby Fischer beat in 1972?"
+        answers:
+          A: "Tigran Petrosian"
+          B: "Mikhail Botvinnik"
+          C: "Anatoly Karpov"
+          D: "Boris Spassky"
+    difficulty: EXPERT
+  - text: "Quel champion du monde d'échecs a détenu son titre le plus longtemps, de 1894 à 1921 ?"
+    answers:
+      A: "José Raúl Capablanca"
+      B: "Emanuel Lasker"
+      C: "Alexandre Alekhine"
+      D: "Wilhelm Steinitz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which world chess champion held his title the longest, from 1894 to 1921?"
+        answers:
+          A: "José Raúl Capablanca"
+          B: "Emanuel Lasker"
+          C: "Alexander Alekhine"
+          D: "Wilhelm Steinitz"
+    difficulty: EXPERT
+  - text: "En quelle année la Fédération internationale des échecs (FIDE) a-t-elle été fondée ?"
+    answers:
+      A: "1904"
+      B: "1924"
+      C: "1914"
+      D: "1934"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the International Chess Federation (FIDE) founded?"
+        answers:
+          A: "1904"
+          B: "1924"
+          C: "1914"
+          D: "1934"
+    difficulty: EXPERT
+  - text: "Au Texas Hold'em, combien de cartes communes sont posées sur la table ?"
+    answers:
+      A: "Trois"
+      B: "Quatre"
+      C: "Sept"
+      D: "Cinq"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Texas Hold'em, how many community cards are placed on the table?"
+        answers:
+          A: "Three"
+          B: "Four"
+          C: "Seven"
+          D: "Five"
+    difficulty: EXPERT
+  - text: "Combien de lettres compte le sac du Scrabble francophone ?"
+    answers:
+      A: "100"
+      B: "104"
+      C: "102"
+      D: "108"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many letters are in the bag of the French-language Scrabble?"
+        answers:
+          A: "100"
+          B: "104"
+          C: "102"
+          D: "108"
+    difficulty: EASY
+  - text: "Quelle couleur de pièces commence toujours la partie d'échecs ?"
+    answers:
+      A: "Les noires"
+      B: "La couleur tirée au sort"
+      C: "Les blanches"
+      D: "Le joueur le plus jeune choisit"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which color of pieces always starts a game of chess?"
+        answers:
+          A: "Black"
+          B: "The color drawn at random"
+          C: "White"
+          D: "The youngest player chooses"
+    difficulty: EASY
+  - text: "Quel est le nombre total de points inscrits sur les six faces d'un dé classique ?"
+    answers:
+      A: "18"
+      B: "24"
+      C: "21"
+      D: "27"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the total number of pips on the six faces of a standard die?"
+        answers:
+          A: "18"
+          B: "24"
+          C: "21"
+          D: "27"
+    difficulty: EASY
+  - text: "Quelle pièce d'échecs porte une couronne sur sa tête ?"
+    answers:
+      A: "Le roi"
+      B: "Le fou"
+      C: "La dame"
+      D: "Le cavalier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which chess piece wears a crown on its head?"
+        answers:
+          A: "The king"
+          B: "The bishop"
+          C: "The queen"
+          D: "The knight"
+    difficulty: EASY
+  - text: "Quel jeu de société consiste à faire deviner un mot en le dessinant ?"
+    answers:
+      A: "Le Tabou"
+      B: "Le Pictionary"
+      C: "Le Time's Up"
+      D: "Le Trivial Pursuit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which board game involves making others guess a word by drawing it?"
+        answers:
+          A: "Taboo"
+          B: "Pictionary"
+          C: "Time's Up"
+          D: "Trivial Pursuit"
+    difficulty: EASY
+  - text: "Combien de faces compte le dé à douze faces utilisé dans les jeux de rôle ?"
+    answers:
+      A: "Dix"
+      B: "Douze"
+      C: "Vingt"
+      D: "Vingt-quatre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many faces does the twelve-sided die used in role-playing games have?"
+        answers:
+          A: "Ten"
+          B: "Twelve"
+          C: "Twenty"
+          D: "Twenty-four"
+    difficulty: MEDIUM
+  - text: "Combien de cases compte le plateau du Monopoly ?"
+    answers:
+      A: "40"
+      B: "36"
+      C: "44"
+      D: "48"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many spaces are on the Monopoly board?"
+        answers:
+          A: "40"
+          B: "36"
+          C: "44"
+          D: "48"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on le plateau sur lequel on joue aux dames ?"
+    answers:
+      A: "Un damier"
+      B: "Un échiquier"
+      C: "Un tablier"
+      D: "Une grille"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the board on which checkers is played called?"
+        answers:
+          A: "A checkerboard"
+          B: "A chessboard"
+          C: "An apron"
+          D: "A grid"
+    difficulty: MEDIUM
+  - text: "Que devient un pion de dames qui atteint la dernière rangée adverse ?"
+    answers:
+      A: "Il est retiré du jeu"
+      B: "Il redevient un pion simple"
+      C: "Il devient une dame"
+      D: "Il rapporte cinq points"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does a checker become when it reaches the opponent's last row?"
+        answers:
+          A: "It is removed from the game"
+          B: "It becomes a regular checker again"
+          C: "It becomes a king"
+          D: "It scores five points"
+    difficulty: MEDIUM
+  - text: "Quel jeu coopératif demande aux joueurs de contenir ensemble des épidémies ?"
+    answers:
+      A: "Les Aventuriers du Rail"
+      B: "Risk"
+      C: "Catan"
+      D: "Pandémie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which cooperative game asks players to contain outbreaks together?"
+        answers:
+          A: "Ticket to Ride"
+          B: "Risk"
+          C: "Catan"
+          D: "Pandemic"
+    difficulty: MEDIUM
+  - text: "Sur quelle couleur de cases se déplacent les pièces aux dames internationales ?"
+    answers:
+      A: "Sur les cases noires"
+      B: "Sur les cases blanches"
+      C: "Sur les deux couleurs"
+      D: "Cela dépend du joueur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "On which color of squares do pieces move in international draughts?"
+        answers:
+          A: "On the black squares"
+          B: "On the white squares"
+          C: "On both colors"
+          D: "It depends on the player"
+    difficulty: HARD
+  - text: "Quel jeu de plateau de Klaus Teuber, publié en 1995, se joue avec des ressources comme le blé et le bois ?"
+    answers:
+      A: "Carcassonne"
+      B: "Les Colons de Catane"
+      C: "Agricola"
+      D: "Puerto Rico"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which board game by Klaus Teuber, published in 1995, is played with resources like wheat and wood?"
+        answers:
+          A: "Carcassonne"
+          B: "The Settlers of Catan"
+          C: "Agricola"
+          D: "Puerto Rico"
+    difficulty: HARD
+  - text: "Quel jeu de cartes italien traditionnel se joue avec 40 cartes et consiste à ramasser les cartes de la table ?"
+    answers:
+      A: "La scopa"
+      B: "Le briscola"
+      C: "Le tressette"
+      D: "La scala quaranta"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which traditional Italian card game is played with 40 cards and involves picking up cards from the table?"
+        answers:
+          A: "Scopa"
+          B: "Briscola"
+          C: "Tressette"
+          D: "Scala Quaranta"
+    difficulty: HARD
+  - text: "Quelle lettre est la plus fréquente dans le sac du Scrabble francophone ?"
+    answers:
+      A: "La lettre E"
+      B: "La lettre A"
+      C: "La lettre S"
+      D: "La lettre R"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which letter is the most frequent in the bag of French Scrabble?"
+        answers:
+          A: "The letter E"
+          B: "The letter A"
+          C: "The letter S"
+          D: "The letter R"
+    difficulty: HARD
+  - text: "Comment s'appelle la compétition d'échecs par équipes nationales disputée tous les deux ans ?"
+    answers:
+      A: "La Coupe du monde"
+      B: "Le Grand Prix"
+      C: "L'Olympiade d'échecs"
+      D: "Le Tournoi des candidats"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the chess competition between national teams held every two years?"
+        answers:
+          A: "The World Cup"
+          B: "The Grand Prix"
+          C: "The Chess Olympiad"
+          D: "The Candidates Tournament"
+    difficulty: HARD
+  - text: "Quel jeu de cartes japonais traditionnel se joue avec 48 cartes illustrées de fleurs ?"
+    answers:
+      A: "Le mah-jong"
+      B: "Le karuta"
+      C: "Le shogi"
+      D: "Le hanafuda"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which traditional Japanese card game is played with 48 cards illustrated with flowers?"
+        answers:
+          A: "Mahjong"
+          B: "Karuta"
+          C: "Shogi"
+          D: "Hanafuda"
+    difficulty: EXPERT
+  - text: "Combien de pions chaque joueur possède-t-il au début d'une partie de backgammon ?"
+    answers:
+      A: "12"
+      B: "15"
+      C: "18"
+      D: "20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many checkers does each player have at the start of a backgammon game?"
+        answers:
+          A: "12"
+          B: "15"
+          C: "18"
+          D: "20"
+    difficulty: EXPERT
+  - text: "Combien de points bonus rapporte le fait de poser ses sept lettres en un seul coup au Scrabble ?"
+    answers:
+      A: "20 points"
+      B: "30 points"
+      C: "50 points"
+      D: "100 points"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many bonus points do you get for playing all seven letters in one turn in Scrabble?"
+        answers:
+          A: "20 points"
+          B: "30 points"
+          C: "50 points"
+          D: "100 points"
+    difficulty: EXPERT
+  - text: "Quel jeu de rôle fondateur a été publié en 1974 par Gary Gygax et Dave Arneson ?"
+    answers:
+      A: "Vampire : La Mascarade"
+      B: "L'Appel de Cthulhu"
+      C: "Warhammer"
+      D: "Donjons et Dragons"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which founding role-playing game was published in 1974 by Gary Gygax and Dave Arneson?"
+        answers:
+          A: "Vampire: The Masquerade"
+          B: "Call of Cthulhu"
+          C: "Warhammer"
+          D: "Dungeons & Dragons"
+    difficulty: EXPERT
+  - text: "Quel joueur allemand est célèbre pour avoir remporté en 1851 la partie dite « l'Immortelle » ?"
+    answers:
+      A: "Adolf Anderssen"
+      B: "Paul Morphy"
+      C: "Wilhelm Steinitz"
+      D: "Siegbert Tarrasch"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which German player is famous for winning the so-called \"Immortal Game\" in 1851?"
+        answers:
+          A: "Adolf Anderssen"
+          B: "Paul Morphy"
+          C: "Wilhelm Steinitz"
+          D: "Siegbert Tarrasch"
+    difficulty: EXPERT
+  - text: "Combien de cartes compte un jeu de cartes standard sans jokers ?"
+    answers:
+      A: "32"
+      B: "64"
+      C: "54"
+      D: "52"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many cards are in a standard deck without jokers?"
+        answers:
+          A: "32"
+          B: "64"
+          C: "54"
+          D: "52"
+    difficulty: EASY
+  - text: "Vers quelle case faut-il arriver exactement pour gagner au jeu de l'oie ?"
+    answers:
+      A: "La case 63"
+      B: "La case 72"
+      C: "La case 50"
+      D: "La case 100"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which square must you land on exactly to win the Game of the Goose?"
+        answers:
+          A: "Square 63"
+          B: "Square 72"
+          C: "Square 50"
+          D: "Square 100"
+    difficulty: EASY
+  - text: "Dans le Cluedo, quel personnage est la victime du meurtre ?"
+    answers:
+      A: "Le docteur Lenoir"
+      B: "Madame Leblanc"
+      C: "Monsieur Olive"
+      D: "Le colonel Moutarde"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Clue, which character is the murder victim?"
+        answers:
+          A: "Dr. Black"
+          B: "Mrs. White"
+          C: "Mr. Green"
+          D: "Colonel Mustard"
+    difficulty: EASY
+  - text: "Combien de joueurs faut-il pour jouer une partie de jeu de dames ?"
+    answers:
+      A: "Trois"
+      B: "Deux"
+      C: "Six"
+      D: "Quatre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many players are needed to play a game of checkers?"
+        answers:
+          A: "Three"
+          B: "Two"
+          C: "Six"
+          D: "Four"
+    difficulty: EASY
+  - text: "Quel jeu de plateau traditionnel français fait avancer des chevaux sur un circuit ?"
+    answers:
+      A: "Le jeu des petits dés"
+      B: "Le jeu de l'oie"
+      C: "Le backgammon"
+      D: "Les petits chevaux"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which traditional French board game has horses advancing around a track?"
+        answers:
+          A: "The Little Dice Game"
+          B: "The Game of the Goose"
+          C: "Backgammon"
+          D: "Little Horses"
+    difficulty: EASY
+  - text: "Quel jeu de plateau se joue sur une carte du monde découpée en territoires à conquérir ?"
+    answers:
+      A: "Le Cluedo"
+      B: "Le Trivial Pursuit"
+      C: "Le Risk"
+      D: "Le Monopoly"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which board game is played on a world map divided into territories to conquer?"
+        answers:
+          A: "Cluedo"
+          B: "Trivial Pursuit"
+          C: "Risk"
+          D: "Monopoly"
+    difficulty: MEDIUM
+  - text: "Combien de cartes chaque joueur reçoit-il au début d'une partie de bridge ?"
+    answers:
+      A: "13"
+      B: "12"
+      C: "10"
+      D: "17"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many cards does each player receive at the start of a game of bridge?"
+        answers:
+          A: "13"
+          B: "12"
+          C: "10"
+          D: "17"
+    difficulty: MEDIUM
+  - text: "Quelle lettre vaut dix points au Scrabble francophone ?"
+    answers:
+      A: "La lettre W"
+      B: "La lettre M"
+      C: "La lettre E"
+      D: "La lettre T"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which letter is worth ten points in French Scrabble?"
+        answers:
+          A: "The letter W"
+          B: "The letter M"
+          C: "The letter E"
+          D: "The letter T"
+    difficulty: MEDIUM
+  - text: "Combien de cartes compte un jeu de tarot complet ?"
+    answers:
+      A: "54"
+      B: "72"
+      C: "78"
+      D: "108"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many cards are in a complete tarot deck?"
+        answers:
+          A: "54"
+          B: "72"
+          C: "78"
+          D: "108"
+    difficulty: MEDIUM
+  - text: "Par combien la case « mot compte triple » multiplie-t-elle le score d'un mot au Scrabble ?"
+    answers:
+      A: "Par deux"
+      B: "Par cinq"
+      C: "Par quatre"
+      D: "Par trois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "By how much does the \"triple word score\" square multiply a word's score in Scrabble?"
+        answers:
+          A: "By two"
+          B: "By five"
+          C: "By four"
+          D: "By three"
+    difficulty: MEDIUM
+  - text: "Combien de maisons faut-il construire avant de pouvoir poser un hôtel sur une propriété du Monopoly ?"
+    answers:
+      A: "Deux"
+      B: "Quatre"
+      C: "Trois"
+      D: "Cinq"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many houses must you build before you can place a hotel on a Monopoly property?"
+        answers:
+          A: "Two"
+          B: "Four"
+          C: "Three"
+          D: "Five"
+    difficulty: HARD
+  - text: "Quelle est la propriété la plus chère du plateau de Monopoly français ?"
+    answers:
+      A: "La rue de la Paix"
+      B: "L'avenue des Champs-Élysées"
+      C: "La rue Lecourbe"
+      D: "Le boulevard de Belleville"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the most expensive property on the French Monopoly board?"
+        answers:
+          A: "Rue de la Paix"
+          B: "Avenue des Champs-Élysées"
+          C: "Rue Lecourbe"
+          D: "Boulevard de Belleville"
+    difficulty: HARD
+  - text: "Combien de cartes compte le jeu de Cluedo classique ?"
+    answers:
+      A: "15"
+      B: "18"
+      C: "24"
+      D: "21"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many cards are in the classic Cluedo game?"
+        answers:
+          A: "15"
+          B: "18"
+          C: "24"
+          D: "21"
+    difficulty: HARD
+  - text: "Quel jeu de plateau moderne consiste à relier des villes en collectionnant des wagons et des tickets ?"
+    answers:
+      A: "Small World"
+      B: "Les Aventuriers du Rail"
+      C: "Munchkin"
+      D: "Carcassonne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which modern board game involves connecting cities by collecting train cars and tickets?"
+        answers:
+          A: "Small World"
+          B: "Ticket to Ride"
+          C: "Munchkin"
+          D: "Carcassonne"
+    difficulty: HARD
+  - text: "Qui a inventé le jeu Risk, publié en 1957 sous le nom La Conquête du Monde ?"
+    answers:
+      A: "Klaus Teuber"
+      B: "Albert Lamorisse"
+      C: "Reiner Knizia"
+      D: "Bruno Faidutti"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who invented the game Risk, published in 1957 as La Conquête du Monde?"
+        answers:
+          A: "Klaus Teuber"
+          B: "Albert Lamorisse"
+          C: "Reiner Knizia"
+          D: "Bruno Faidutti"
+    difficulty: HARD
+  - text: "Combien de bouts compte un jeu de tarot ?"
+    answers:
+      A: "Deux"
+      B: "Quatre"
+      C: "Trois"
+      D: "Cinq"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many bouts are in a tarot deck?"
+        answers:
+          A: "Two"
+          B: "Four"
+          C: "Three"
+          D: "Five"
+    difficulty: EXPERT
+  - text: "Quel jeu a remporté le premier titre de Spiel des Jahres en 1979 ?"
+    answers:
+      A: "Carcassonne"
+      B: "Les Colons de Catane"
+      C: "Le Lièvre et la Tortue"
+      D: "Le Monopoly"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game won the first Spiel des Jahres award in 1979?"
+        answers:
+          A: "Carcassonne"
+          B: "The Settlers of Catan"
+          C: "Hare and Tortoise"
+          D: "Monopoly"
+    difficulty: EXPERT
+  - text: "Quel jeu de cartes à collectionner créé par Richard Garfield est sorti en 1993 ?"
+    answers:
+      A: "Yu-Gi-Oh!"
+      B: "Pokémon JCC"
+      C: "Magic : L'Assemblée"
+      D: "Hearthstone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which collectible card game created by Richard Garfield was released in 1993?"
+        answers:
+          A: "Yu-Gi-Oh!"
+          B: "Pokémon TCG"
+          C: "Magic: The Gathering"
+          D: "Hearthstone"
+    difficulty: EXPERT
+  - text: "Quel jeu indien ancien est considéré comme l'ancêtre du jeu d'échecs ?"
+    answers:
+      A: "Le shogi"
+      B: "Le xiangqi"
+      C: "Le chatrang"
+      D: "Le chaturanga"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ancient Indian game is considered the ancestor of chess?"
+        answers:
+          A: "Shogi"
+          B: "Xiangqi"
+          C: "Chatrang"
+          D: "Chaturanga"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus prestigieux tournoi de poker, organisé chaque année à Las Vegas ?"
+    answers:
+      A: "Les World Series of Poker"
+      B: "Le World Poker Tour"
+      C: "L'European Poker Tour"
+      D: "La Coupe du monde de poker"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the most prestigious poker tournament, held every year in Las Vegas?"
+        answers:
+          A: "The World Series of Poker"
+          B: "The World Poker Tour"
+          C: "The European Poker Tour"
+          D: "The Poker World Cup"
+    difficulty: EXPERT
+  - text: "Comment appelle-t-on le gobelet utilisé pour lancer les dés ?"
+    answers:
+      A: "Le cornet"
+      B: "Le mortier"
+      C: "Le sablier"
+      D: "Le dé à coudre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the cup used to throw dice called?"
+        answers:
+          A: "The dice cup"
+          B: "The mortar"
+          C: "The hourglass"
+          D: "The thimble"
+    difficulty: EASY
+  - text: "Au début d'une partie d'échecs, quelles pièces occupent les quatre coins de l'échiquier ?"
+    answers:
+      A: "Les fous"
+      B: "Les tours"
+      C: "Les cavaliers"
+      D: "Les dames"
+    correctAnswer: B
+    translations:
+      en:
+        text: "At the start of a game of chess, which pieces occupy the four corners of the board?"
+        answers:
+          A: "The bishops"
+          B: "The rooks"
+          C: "The knights"
+          D: "The queens"
+    difficulty: EASY
+  - text: "Combien de joueurs faut-il pour jouer à la belote ?"
+    answers:
+      A: "Quatre"
+      B: "Trois"
+      C: "Deux"
+      D: "Six"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many players are needed to play belote?"
+        answers:
+          A: "Four"
+          B: "Three"
+          C: "Two"
+          D: "Six"
+    difficulty: EASY
+  - text: "Quelle est la valeur du joker au Scrabble ?"
+    answers:
+      A: "Cinq points"
+      B: "Un point"
+      C: "Zéro point"
+      D: "Dix points"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the value of the joker in Scrabble?"
+        answers:
+          A: "Five points"
+          B: "One point"
+          C: "Zero points"
+          D: "Ten points"
+    difficulty: EASY
+  - text: "Combien de cartes compte un jeu de UNO ?"
+    answers:
+      A: "80"
+      B: "100"
+      C: "120"
+      D: "108"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many cards are in a UNO deck?"
+        answers:
+          A: "80"
+          B: "100"
+          C: "120"
+          D: "108"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on le joueur qui distribue les cartes ?"
+    answers:
+      A: "Le croupier"
+      B: "Le banquier"
+      C: "Le donneur"
+      D: "Le meneur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What do you call the player who deals the cards?"
+        answers:
+          A: "The croupier"
+          B: "The banker"
+          C: "The dealer"
+          D: "The leader"
+    difficulty: MEDIUM
+  - text: "Au poker, quelle main combine trois cartes de même valeur et une paire ?"
+    answers:
+      A: "Le brelan"
+      B: "La double paire"
+      C: "Le full"
+      D: "La quinte"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In poker, which hand combines three cards of the same value and a pair?"
+        answers:
+          A: "Three of a kind"
+          B: "Two pair"
+          C: "The full house"
+          D: "The straight"
+    difficulty: MEDIUM
+  - text: "Combien de cases compte la grille classique de la bataille navale ?"
+    answers:
+      A: "64"
+      B: "81"
+      C: "121"
+      D: "100"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many squares are on the classic Battleship grid?"
+        answers:
+          A: "64"
+          B: "81"
+          C: "121"
+          D: "100"
+    difficulty: MEDIUM
+  - text: "Quel jeu de dés se joue avec cinq dés et récompense des combinaisons comme le full ou la grande suite ?"
+    answers:
+      A: "Le 421"
+      B: "Le craps"
+      C: "Le backgammon"
+      D: "Le yams"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which dice game is played with five dice and rewards combinations like the full house or the large straight?"
+        answers:
+          A: "421"
+          B: "Craps"
+          C: "Backgammon"
+          D: "Yahtzee"
+    difficulty: MEDIUM
+  - text: "Quel nom porte le système de classement des joueurs d'échecs popularisé par Arpad Elo ?"
+    answers:
+      A: "Le classement ATP"
+      B: "Le classement mondial des clubs"
+      C: "Le classement Grand Chelem"
+      D: "Le classement Elo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the chess player rating system popularized by Arpad Elo?"
+        answers:
+          A: "The ATP ranking"
+          B: "The world club ranking"
+          C: "The Grand Slam ranking"
+          D: "The Elo rating"
+    difficulty: HARD
+  - text: "Quel jeu de plateau se joue avec des pions figurant des soldats et où il faut capturer le drapeau adverse ?"
+    answers:
+      A: "Risk"
+      B: "Axis & Allies"
+      C: "Stratego"
+      D: "Diplomatie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which board game is played with pieces representing soldiers and where you must capture the opponent's flag?"
+        answers:
+          A: "Risk"
+          B: "Axis & Allies"
+          C: "Stratego"
+          D: "Diplomacy"
+    difficulty: HARD
+  - text: "Comment appelle-t-on la capture spéciale d'un pion qui vient d'avancer de deux cases ?"
+    answers:
+      A: "La promotion"
+      B: "La prise en passant"
+      C: "Le roque"
+      D: "Le zugzwang"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the special capture of a pawn that has just advanced two squares called?"
+        answers:
+          A: "Promotion"
+          B: "En passant"
+          C: "Castling"
+          D: "Zugzwang"
+    difficulty: HARD
+  - text: "Qui est devenu champion du monde d'échecs en 2023 ?"
+    answers:
+      A: "Ian Nepomniachtchi"
+      B: "Magnus Carlsen"
+      C: "Ding Liren"
+      D: "Fabiano Caruana"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who became world chess champion in 2023?"
+        answers:
+          A: "Ian Nepomniachtchi"
+          B: "Magnus Carlsen"
+          C: "Ding Liren"
+          D: "Fabiano Caruana"
+    difficulty: HARD
+  - text: "Qui a créé le jeu de cartes UNO en 1971 ?"
+    answers:
+      A: "Merle Robbins"
+      B: "Richard Garfield"
+      C: "Klaus Teuber"
+      D: "Alfred Butts"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who created the UNO card game in 1971?"
+        answers:
+          A: "Merle Robbins"
+          B: "Richard Garfield"
+          C: "Klaus Teuber"
+          D: "Alfred Butts"
+    difficulty: HARD
+  - text: "Comment appelle-t-on le système de notation standard des coups aux échecs ?"
+    answers:
+      A: "La notation romaine"
+      B: "La notation algébrique"
+      C: "La notation binaire"
+      D: "La notation descriptive"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the standard notation system for chess moves called?"
+        answers:
+          A: "Roman notation"
+          B: "Algebraic notation"
+          C: "Binary notation"
+          D: "Descriptive notation"
+    difficulty: EXPERT
+  - text: "Combien d'intersections compte un plateau de go classique de dix-neuf lignes sur dix-neuf ?"
+    answers:
+      A: "324"
+      B: "441"
+      C: "400"
+      D: "361"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many intersections are there on a classic 19-by-19 Go board?"
+        answers:
+          A: "324"
+          B: "441"
+          C: "400"
+          D: "361"
+    difficulty: EXPERT
+  - text: "Quel joueur est devenu le plus jeune champion du monde d'échecs de l'histoire en 1985 ?"
+    answers:
+      A: "Magnus Carlsen"
+      B: "Garry Kasparov"
+      C: "Bobby Fischer"
+      D: "Mikhaïl Tal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player became the youngest world chess champion in history in 1985?"
+        answers:
+          A: "Magnus Carlsen"
+          B: "Garry Kasparov"
+          C: "Bobby Fischer"
+          D: "Mikhail Tal"
+    difficulty: EXPERT
+  - text: "Qui a inventé le jeu de société Cluedo ?"
+    answers:
+      A: "Charles Darrow"
+      B: "Alfred Butts"
+      C: "Anthony E. Pratt"
+      D: "Albert Lamorisse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who invented the board game Cluedo?"
+        answers:
+          A: "Charles Darrow"
+          B: "Alfred Butts"
+          C: "Anthony E. Pratt"
+          D: "Albert Lamorisse"
+    difficulty: EXPERT
+  - text: "Selon la FIDE, combien de temps chaque joueur dispose-t-il au maximum pour une partie de blitz ?"
+    answers:
+      A: "Une minute"
+      B: "Quinze minutes"
+      C: "Dix minutes"
+      D: "Entre trois et cinq minutes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "According to FIDE, what is the maximum time each player has for a blitz game?"
+        answers:
+          A: "One minute"
+          B: "Fifteen minutes"
+          C: "Ten minutes"
+          D: "Between three and five minutes"
+    difficulty: EXPERT
+  - text: "Quel jeu de plateau abstrait a été prouvé comme un match nul parfait par ordinateur en 2007 ?"
+    answers:
+      A: "Les dames anglaises"
+      B: "Les échecs"
+      C: "Le go"
+      D: "Le backgammon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which abstract board game was proven to be a perfect draw by computer in 2007?"
+        answers:
+          A: "Checkers"
+          B: "Chess"
+          C: "Go"
+          D: "Backgammon"
+    difficulty: EXPERT
