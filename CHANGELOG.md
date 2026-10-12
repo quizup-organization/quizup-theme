@@ -1,3 +1,15 @@
+## [5.4.0](https://github.com/quizup-organization/quizup-theme/compare/v5.3.0...v5.4.0) (2026-10-12)
+
+### Features
+
+* **theme:** thèmes communautés & nostalgie du seed — lot 2 ([4d53f3d](https://github.com/quizup-organization/quizup-theme/commit/4d53f3d81ac0c9702f09fe66f7349a9264721943))
+* **theme:** thèmes evergreen du seed — lot 3 ([6eb9193](https://github.com/quizup-organization/quizup-theme/commit/6eb91933f3c381e742250496abd3f1e1bc04febc))
+* **theme:** thèmes viraux du seed — lot 1 ([b70020a](https://github.com/quizup-organization/quizup-theme/commit/b70020a06c85258e911b1886e8774691d88c47eb))
+
+### Bug Fixes
+
+* **theme:** contrats social/game alignés sur les versions publiées (anciennes élaguées) ([fd80c39](https://github.com/quizup-organization/quizup-theme/commit/fd80c3993e89ad851dc58d122bccab0c04366327))
+
 ## [5.3.0](https://github.com/quizup-organization/quizup-theme/compare/v5.2.0...v5.3.0) (2026-10-12)
 
 ### Features
