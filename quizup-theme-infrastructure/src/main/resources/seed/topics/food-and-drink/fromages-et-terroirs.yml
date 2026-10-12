@@ -1,0 +1,1609 @@
+topic:
+  id: topic-fromages-et-terroirs
+  names:
+    fr: "Fromages & terroirs"
+    en: "Cheeses & Local Products"
+  description: "Des fromages emblématiques aux terroirs qui les ont vus naître : camembert de Normandie, brie de Meaux, roquefort, comté, chèvres du Berry, munster, reblochon ou tomme de Savoie. Un parcours entre laits de vache, de brebis et de chèvre, savoir-faire de fabrication, affinage et appellations AOP/IGP. Testez vos connaissances sur les régions, les formes et les secrets des fromages français."
+  category: FOOD_AND_DRINK
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/%2820251230%29_Camembert_cheese_01.jpg?width=800
+questions:
+  - text: "Quelle région française est célèbre pour le camembert, le livarot et le pont-l'évêque ?"
+    answers:
+      A: "Bretagne"
+      B: "Normandie"
+      C: "Alsace"
+      D: "Auvergne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French region is famous for camembert, livarot and pont-l'évêque?"
+        answers:
+          A: "Brittany"
+          B: "Normandy"
+          C: "Alsace"
+          D: "Auvergne"
+    difficulty: EASY
+  - text: "Avec quel lait fabrique-t-on le roquefort ?"
+    answers:
+      A: "Lait de brebis"
+      B: "Lait de chèvre"
+      C: "Lait de vache"
+      D: "Lait de bufflonne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which milk is roquefort made from?"
+        answers:
+          A: "Sheep's milk"
+          B: "Goat's milk"
+          C: "Cow's milk"
+          D: "Buffalo milk"
+    difficulty: EASY
+  - text: "Le comté est un fromage fabriqué avec du lait de..."
+    answers:
+      A: "jument"
+      B: "brebis"
+      C: "chèvre"
+      D: "vache"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Comté is a cheese made with milk from..."
+        answers:
+          A: "mare"
+          B: "sheep"
+          C: "goat"
+          D: "cow"
+    difficulty: EASY
+  - text: "Quel fromage de chèvre en forme de petit palet porte le nom d'un hameau du Berry ?"
+    answers:
+      A: "Le picodon"
+      B: "Le valençay"
+      C: "Le chabichou"
+      D: "Le crottin de Chavignol"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which small, flat round goat cheese is named after a hamlet in Berry?"
+        answers:
+          A: "Picodon"
+          B: "Valençay"
+          C: "Chabichou"
+          D: "Crottin de Chavignol"
+    difficulty: EASY
+  - text: "De quel département le reblochon est-il originaire ?"
+    answers:
+      A: "Le Cantal"
+      B: "La Manche"
+      C: "Le Doubs"
+      D: "La Haute-Savoie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which department does reblochon come from?"
+        answers:
+          A: "Cantal"
+          B: "Manche"
+          C: "Doubs"
+          D: "Haute-Savoie"
+    difficulty: EASY
+  - text: "Le munster est un fromage élaboré avec du lait de..."
+    answers:
+      A: "vache"
+      B: "chèvre"
+      C: "brebis"
+      D: "chèvre et de brebis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Munster is a cheese made with milk from..."
+        answers:
+          A: "cow"
+          B: "goat"
+          C: "sheep"
+          D: "goat and sheep"
+    difficulty: EASY
+  - text: "Quel fromage normand est traditionnellement vendu dans une boîte ronde en bois ?"
+    answers:
+      A: "Le livarot"
+      B: "Le pont-l'évêque"
+      C: "Le neufchâtel"
+      D: "Le camembert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Norman cheese is traditionally sold in a round wooden box?"
+        answers:
+          A: "Livarot"
+          B: "Pont-l'évêque"
+          C: "Neufchâtel"
+          D: "Camembert"
+    difficulty: EASY
+  - text: "De quel lait est fabriquée la raclette de Savoie ?"
+    answers:
+      A: "De lait de chèvre"
+      B: "De lait de brebis"
+      C: "De lait de vache"
+      D: "De lait de bufflonne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which milk is Savoie raclette made from?"
+        answers:
+          A: "Goat's milk"
+          B: "Sheep's milk"
+          C: "Cow's milk"
+          D: "Buffalo milk"
+    difficulty: EASY
+  - text: "Dans quelle région le brie de Meaux est-il produit ?"
+    answers:
+      A: "En Île-de-France"
+      B: "En Provence"
+      C: "En Bourgogne"
+      D: "Dans les Pays de la Loire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which region is Brie de Meaux produced?"
+        answers:
+          A: "Île-de-France"
+          B: "Provence"
+          C: "Burgundy"
+          D: "Pays de la Loire"
+    difficulty: EASY
+  - text: "Avec quelle boisson fait-on traditionnellement fondre le fromage de la fondue savoyarde ?"
+    answers:
+      A: "Avec du cidre"
+      B: "Avec du vin blanc"
+      C: "Avec de la bière"
+      D: "Avec du bouillon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which drink is traditionally used to melt the cheese for fondue savoyarde?"
+        answers:
+          A: "Cider"
+          B: "White wine"
+          C: "Beer"
+          D: "Broth"
+    difficulty: EASY
+  - text: "Qu'appelle-t-on le lait cru ?"
+    answers:
+      A: "Un lait non chauffé, non pasteurisé"
+      B: "Un lait en poudre"
+      C: "Un lait écrémé"
+      D: "Un lait aromatisé"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is raw milk?"
+        answers:
+          A: "Unheated, unpasteurized milk"
+          B: "Powdered milk"
+          C: "Skimmed milk"
+          D: "Flavored milk"
+    difficulty: EASY
+  - text: "De quelle région le saint-nectaire est-il originaire ?"
+    answers:
+      A: "De Normandie"
+      B: "D'Alsace"
+      C: "De Bretagne"
+      D: "D'Auvergne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which region does saint-nectaire come from?"
+        answers:
+          A: "Normandy"
+          B: "Alsace"
+          C: "Brittany"
+          D: "Auvergne"
+    difficulty: EASY
+  - text: "Quel fromage de Normandie a la forme d'un cœur ?"
+    answers:
+      A: "Le reblochon"
+      B: "Le neufchâtel"
+      C: "Le cantal"
+      D: "Le beaufort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Norman cheese is shaped like a heart?"
+        answers:
+          A: "Reblochon"
+          B: "Neufchâtel"
+          C: "Cantal"
+          D: "Beaufort"
+    difficulty: EASY
+  - text: "Que signifie le sigle AOP sur un fromage ?"
+    answers:
+      A: "Agriculture d'Origine Populaire"
+      B: "Association des Origines Paysannes"
+      C: "Appellation d'Origine Protégée"
+      D: "Appellation d'Orientation Protégée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the abbreviation AOP mean on a cheese?"
+        answers:
+          A: "Agriculture d'Origine Populaire"
+          B: "Association des Origines Paysannes"
+          C: "Appellation d'Origine Protégée"
+          D: "Appellation d'Orientation Protégée"
+    difficulty: MEDIUM
+  - text: "Quelle moisissure donne au roquefort ses veines bleues ?"
+    answers:
+      A: "Penicillium roqueforti"
+      B: "Geotrichum candidum"
+      C: "Saccharomyces cerevisiae"
+      D: "Penicillium camemberti"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mold gives roquefort its blue veins?"
+        answers:
+          A: "Penicillium roqueforti"
+          B: "Geotrichum candidum"
+          C: "Saccharomyces cerevisiae"
+          D: "Penicillium camemberti"
+    difficulty: MEDIUM
+  - text: "Quel fromage fut le premier à obtenir une AOC, en 1925 ?"
+    answers:
+      A: "Le comté"
+      B: "Le camembert de Normandie"
+      C: "Le roquefort"
+      D: "Le brie de Meaux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which cheese was the first to obtain an AOC, in 1925?"
+        answers:
+          A: "Comté"
+          B: "Camembert de Normandie"
+          C: "Roquefort"
+          D: "Brie de Meaux"
+    difficulty: MEDIUM
+  - text: "Le brie de Meaux est un fromage à pâte..."
+    answers:
+      A: "pressée cuite"
+      B: "molle à croûte fleurie"
+      C: "pressée non cuite"
+      D: "persillée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Brie de Meaux is a cheese with a..."
+        answers:
+          A: "cooked pressed"
+          B: "soft bloomy rind"
+          C: "uncooked pressed"
+          D: "blue"
+    difficulty: MEDIUM
+  - text: "Le comté est un fromage à pâte..."
+    answers:
+      A: "molle à croûte lavée"
+      B: "pressée non cuite"
+      C: "fraîche"
+      D: "pressée cuite"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Comté is a cheese with a..."
+        answers:
+          A: "soft washed rind"
+          B: "uncooked pressed"
+          C: "fresh"
+          D: "cooked pressed"
+    difficulty: MEDIUM
+  - text: "Le reblochon est un fromage à pâte..."
+    answers:
+      A: "pressée non cuite"
+      B: "pressée cuite"
+      C: "molle à croûte fleurie"
+      D: "persillée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Reblochon is a cheese with a..."
+        answers:
+          A: "uncooked pressed"
+          B: "cooked pressed"
+          C: "soft bloomy rind"
+          D: "blue"
+    difficulty: MEDIUM
+  - text: "Le camembert de Normandie AOP est élaboré au lait..."
+    answers:
+      A: "pasteurisé"
+      B: "thermisé"
+      C: "cru"
+      D: "micro-filtré"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Camembert de Normandie AOP is made with... milk"
+        answers:
+          A: "pasteurized"
+          B: "thermized"
+          C: "raw"
+          D: "micro-filtered"
+    difficulty: MEDIUM
+  - text: "Où le roquefort est-il traditionnellement affiné ?"
+    answers:
+      A: "Dans les caves de Laguiole"
+      B: "Dans les caves naturelles de Roquefort-sur-Soulzon"
+      C: "Dans les caves d'Ambert"
+      D: "Dans les caves de Munster"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where is Roquefort traditionally ripened?"
+        answers:
+          A: "In the caves of Laguiole"
+          B: "In the natural caves of Roquefort-sur-Soulzon"
+          C: "In the caves of Ambert"
+          D: "In the caves of Munster"
+    difficulty: MEDIUM
+  - text: "De quelle région le munster est-il originaire ?"
+    answers:
+      A: "De Normandie"
+      B: "D'Alsace"
+      C: "De Savoie"
+      D: "D'Auvergne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which region does Munster originate from?"
+        answers:
+          A: "Normandy"
+          B: "Alsace"
+          C: "Savoie"
+          D: "Auvergne"
+    difficulty: MEDIUM
+  - text: "Le crottin de Chavignol est produit dans le Berry, principalement dans le département du..."
+    answers:
+      A: "Cher"
+      B: "Cantal"
+      C: "Aveyron"
+      D: "Lot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Crottin de Chavignol is produced in Berry, mainly in the department of..."
+        answers:
+          A: "Cher"
+          B: "Cantal"
+          C: "Aveyron"
+          D: "Lot"
+    difficulty: MEDIUM
+  - text: "Quel fromage de Savoie s'ajoute traditionnellement au comté et à l'emmental dans la fondue savoyarde ?"
+    answers:
+      A: "Le roquefort"
+      B: "Le beaufort"
+      C: "Le brie"
+      D: "Le crottin de Chavignol"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Savoie cheese is traditionally added to Comté and Emmental in fondue savoyarde?"
+        answers:
+          A: "Roquefort"
+          B: "Beaufort"
+          C: "Brie"
+          D: "Crottin de Chavignol"
+    difficulty: MEDIUM
+  - text: "Le chabichou est un fromage de chèvre originaire du..."
+    answers:
+      A: "Poitou"
+      B: "Pays basque"
+      C: "Berry"
+      D: "Jura"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Chabichou is a goat cheese originating from..."
+        answers:
+          A: "Poitou"
+          B: "Basque Country"
+          C: "Berry"
+          D: "Jura"
+    difficulty: MEDIUM
+  - text: "Quelle est la durée minimale d'affinage d'un comté AOP ?"
+    answers:
+      A: "Deux mois"
+      B: "Douze mois"
+      C: "Six mois"
+      D: "Quatre mois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the minimum aging period for a Comté AOP?"
+        answers:
+          A: "Two months"
+          B: "Twelve months"
+          C: "Six months"
+          D: "Four months"
+    difficulty: HARD
+  - text: "Que signifie le verbe savoyard 'reblocher', à l'origine du nom du reblochon ?"
+    answers:
+      A: "Fermer l'étable"
+      B: "Battre le beurre"
+      C: "Mettre le lait en forme"
+      D: "Traire une seconde fois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the Savoyard verb 'reblocher', the origin of the name Reblochon, mean?"
+        answers:
+          A: "Close the stable"
+          B: "Churn butter"
+          C: "Shape the cheese"
+          D: "Milk a second time"
+    difficulty: HARD
+  - text: "Dans quelle région le maroilles est-il produit ?"
+    answers:
+      A: "Au Pays basque"
+      B: "En Auvergne"
+      C: "En Provence"
+      D: "Dans le Nord, en Thiérache"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which region is Maroilles produced?"
+        answers:
+          A: "In the Basque Country"
+          B: "In Auvergne"
+          C: "In Provence"
+          D: "In the North, in Thiérache"
+    difficulty: HARD
+  - text: "Avec quelle eau-de-vie lave-t-on traditionnellement la croûte de l'époisses ?"
+    answers:
+      A: "Du calvados"
+      B: "Du marc de Bourgogne"
+      C: "De l'armagnac"
+      D: "Du cognac"
+    correctAnswer: B
+    translations:
+      en:
+        text: "With which eau-de-vie is the rind of Époisses traditionally washed?"
+        answers:
+          A: "Calvados"
+          B: "Marc de Bourgogne"
+          C: "Armagnac"
+          D: "Cognac"
+    difficulty: HARD
+  - text: "Quelle forme caractéristique a le fromage de chèvre valençay ?"
+    answers:
+      A: "Un cœur"
+      B: "Un cylindre traversé d'une paille"
+      C: "Une boule plate"
+      D: "Une pyramide tronquée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What characteristic shape does the Valençay goat cheese have?"
+        answers:
+          A: "A heart"
+          B: "A cylinder pierced with a straw"
+          C: "A flat ball"
+          D: "A truncated pyramid"
+    difficulty: HARD
+  - text: "Quel surnom donne-t-on au fromage normand livarot ?"
+    answers:
+      A: "Le sergent"
+      B: "Le maréchal"
+      C: "Le capitaine"
+      D: "Le colonel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What nickname is given to the Norman cheese livarot?"
+        answers:
+          A: "The sergeant"
+          B: "The marshal"
+          C: "The captain"
+          D: "The colonel"
+    difficulty: HARD
+  - text: "Le bleu des Causses est un fromage persillé proche du roquefort, mais fabriqué au lait de..."
+    answers:
+      A: "brebis"
+      B: "vache"
+      C: "chèvre"
+      D: "bufflonne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Bleu des Causses is a blue-veined cheese similar to roquefort, but made with the milk of..."
+        answers:
+          A: "ewe"
+          B: "cow"
+          C: "goat"
+          D: "buffalo"
+    difficulty: HARD
+  - text: "L'ossau-iraty est un fromage du Pays basque fabriqué au lait de..."
+    answers:
+      A: "brebis"
+      B: "vache"
+      C: "chèvre"
+      D: "chèvre et de vache"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Ossau-iraty is a cheese from the Basque Country made with the milk of..."
+        answers:
+          A: "ewe"
+          B: "cow"
+          C: "goat"
+          D: "goat and cow"
+    difficulty: HARD
+  - text: "Dans quel massif le fromage de chèvre pélardon est-il produit ?"
+    answers:
+      A: "Les Vosges"
+      B: "Les Cévennes"
+      C: "Le Jura"
+      D: "Le Morvan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which mountain range is the pélardon goat cheese produced?"
+        answers:
+          A: "The Vosges"
+          B: "The Cévennes"
+          C: "The Jura"
+          D: "The Morvan"
+    difficulty: HARD
+  - text: "Le fromage salers AOP est fabriqué avec le lait de vaches de race..."
+    answers:
+      A: "montbéliarde"
+      B: "salers"
+      C: "normande"
+      D: "abondance"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Salers AOP cheese is made with the milk of cows of the ... breed."
+        answers:
+          A: "montbéliarde"
+          B: "salers"
+          C: "normande"
+          D: "abondance"
+    difficulty: HARD
+  - text: "Le fromage langres, à croûte lavée, est originaire du département de la..."
+    answers:
+      A: "Meuse"
+      B: "Côte-d'Or"
+      C: "Haute-Marne"
+      D: "Marne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Langres cheese, with a washed rind, originates from the department of..."
+        answers:
+          A: "Meuse"
+          B: "Côte-d'Or"
+          C: "Haute-Marne"
+          D: "Marne"
+    difficulty: HARD
+  - text: "Le saint-marcellin est un petit fromage produit dans le..."
+    answers:
+      A: "Berry"
+      B: "Périgord"
+      C: "Béarn"
+      D: "Dauphiné"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Saint-marcellin is a small cheese produced in the..."
+        answers:
+          A: "Berry"
+          B: "Périgord"
+          C: "Béarn"
+          D: "Dauphiné"
+    difficulty: HARD
+  - text: "Dans quelle région est produite la fourme d'Ambert ?"
+    answers:
+      A: "En Franche-Comté"
+      B: "En Bourgogne"
+      C: "En Auvergne"
+      D: "En Savoie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which region is fourme d'Ambert produced?"
+        answers:
+          A: "In Franche-Comté"
+          B: "In Burgundy"
+          C: "In Auvergne"
+          D: "In Savoie"
+    difficulty: HARD
+  - text: "Comment le camembert de Normandie AOP doit-il être moulé ?"
+    answers:
+      A: "À la machine, en continu"
+      B: "Sous presse hydraulique"
+      C: "À la main, à la louche"
+      D: "En moule perforé rotatif"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How must Camembert de Normandie AOP be molded?"
+        answers:
+          A: "By machine, continuously"
+          B: "Under a hydraulic press"
+          C: "By hand, with a ladle"
+          D: "In a rotating perforated mold"
+    difficulty: EXPERT
+  - text: "Quel est le poids traditionnel d'un camembert de Normandie AOP ?"
+    answers:
+      A: "150 g"
+      B: "200 g"
+      C: "350 g"
+      D: "250 g"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the traditional weight of a Camembert de Normandie AOP?"
+        answers:
+          A: "150 g"
+          B: "200 g"
+          C: "350 g"
+          D: "250 g"
+    difficulty: EXPERT
+  - text: "Quel est le diamètre approximatif d'une meule de brie de Meaux AOP ?"
+    answers:
+      A: "Environ 15 cm"
+      B: "Environ 35 cm"
+      C: "Environ 25 cm"
+      D: "Environ 45 cm"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate diameter of a wheel of Brie de Meaux AOP?"
+        answers:
+          A: "About 15 cm"
+          B: "About 35 cm"
+          C: "About 25 cm"
+          D: "About 45 cm"
+    difficulty: EXPERT
+  - text: "Quelle est la principale race de brebis dont le lait sert à fabriquer le roquefort ?"
+    answers:
+      A: "La Lacaune"
+      B: "La Basco-béarnaise"
+      C: "La Solognote"
+      D: "La Manech tête rousse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the main breed of ewe whose milk is used to make roquefort?"
+        answers:
+          A: "The Lacaune"
+          B: "The Basco-béarnaise"
+          C: "The Solognote"
+          D: "The Manech tête rousse"
+    difficulty: EXPERT
+  - text: "Quelle race de vache laitière est traditionnellement utilisée pour produire le lait du comté ?"
+    answers:
+      A: "La prim'Holstein"
+      B: "L'abondance"
+      C: "La normande"
+      D: "La montbéliarde"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which breed of dairy cow is traditionally used to produce the milk for comté?"
+        answers:
+          A: "The prim'Holstein"
+          B: "The abondance"
+          C: "The normande"
+          D: "The montbéliarde"
+    difficulty: EXPERT
+  - text: "Quelle forme typique a le chabichou du Poitou ?"
+    answers:
+      A: "Un carré"
+      B: "Une bonde, tronc de cône"
+      C: "Une bûche"
+      D: "Une pyramide"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What typical shape does chabichou du Poitou have?"
+        answers:
+          A: "A square"
+          B: "A bonde, truncated cone"
+          C: "A log"
+          D: "A pyramid"
+    difficulty: EXPERT
+  - text: "Le neufchâtel est produit en Normandie, dans le pays de..."
+    answers:
+      A: "Caux"
+      B: "Auge"
+      C: "Bray"
+      D: "Cotentin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Neufchâtel is produced in Normandy, in the pays de..."
+        answers:
+          A: "Caux"
+          B: "Auge"
+          C: "Bray"
+          D: "Cotentin"
+    difficulty: EXPERT
+  - text: "Le picodon est produit principalement dans l'Ardèche et dans la..."
+    answers:
+      A: "Haute-Loire"
+      B: "Savoie"
+      C: "Corrèze"
+      D: "Drôme"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Picodon is produced mainly in the Ardèche and in..."
+        answers:
+          A: "Haute-Loire"
+          B: "Savoie"
+          C: "Corrèze"
+          D: "Drôme"
+    difficulty: EXPERT
+  - text: "L'abondance, fromage de Savoie AOP, est un fromage à pâte..."
+    answers:
+      A: "molle à croûte fleurie"
+      B: "persillée"
+      C: "pressée non cuite"
+      D: "pressée cuite"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Abondance, a Savoie AOP cheese, is a cheese with a... paste"
+        answers:
+          A: "soft, bloomy rind"
+          B: "blue-veined"
+          C: "uncooked pressed"
+          D: "cooked pressed"
+    difficulty: EXPERT
+  - text: "Dans quelles feuilles le fromage de chèvre banon est-il traditionnellement enveloppé ?"
+    answers:
+      A: "Des feuilles de vigne"
+      B: "Des feuilles de noyer"
+      C: "Des feuilles de châtaignier"
+      D: "Des feuilles de platane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which leaves is the Banon goat cheese traditionally wrapped?"
+        answers:
+          A: "Vine leaves"
+          B: "Walnut leaves"
+          C: "Chestnut leaves"
+          D: "Plane tree leaves"
+    difficulty: EXPERT
+  - text: "Le salers AOP est produit uniquement pendant la période d'..."
+    answers:
+      A: "hivernage"
+      B: "agnelage"
+      C: "fenaison"
+      D: "estive"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Salers AOP is produced only during the period of..."
+        answers:
+          A: "wintering"
+          B: "lambing"
+          C: "haymaking"
+          D: "summer grazing"
+    difficulty: EXPERT
+  - text: "Sous quelle forme se présente le sainte-maure de Touraine AOP ?"
+    answers:
+      A: "Une boule"
+      B: "Une pyramide"
+      C: "Une bûche traversée d'une paille"
+      D: "Un carré"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What shape does Sainte-Maure de Touraine AOP come in?"
+        answers:
+          A: "A ball"
+          B: "A pyramid"
+          C: "A log pierced by a straw"
+          D: "A square"
+    difficulty: EXPERT
+  - text: "Quel fruit frais accompagne classiquement un plateau de fromages ?"
+    answers:
+      A: "La pastèque"
+      B: "Le raisin"
+      C: "L'ananas"
+      D: "Le kiwi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which fresh fruit classically accompanies a cheese board?"
+        answers:
+          A: "Watermelon"
+          B: "Grapes"
+          C: "Pineapple"
+          D: "Kiwi"
+    difficulty: EASY
+  - text: "Quelle charcuterie sèche est un classique du plateau de fromages ?"
+    answers:
+      A: "Le saucisson sec"
+      B: "L'andouillette"
+      C: "Le boudin noir"
+      D: "Le pâté en croûte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which dry cured meat is a classic on a cheese board?"
+        answers:
+          A: "Dry sausage"
+          B: "Andouillette"
+          C: "Black pudding"
+          D: "Pâté en croûte"
+    difficulty: EASY
+  - text: "Avec quel fromage marie-t-on traditionnellement le miel ?"
+    answers:
+      A: "Le roquefort"
+      B: "Le comté"
+      C: "Le chèvre"
+      D: "Le munster"
+    correctAnswer: C
+    translations:
+      en:
+        text: "With which cheese is honey traditionally paired?"
+        answers:
+          A: "Roquefort"
+          B: "Comté"
+          C: "Goat cheese"
+          D: "Munster"
+    difficulty: EASY
+  - text: "Le cidre est une boisson fermentée obtenue à partir de quel fruit ?"
+    answers:
+      A: "La poire"
+      B: "La pomme"
+      C: "La cerise"
+      D: "Le raisin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Cider is a fermented drink made from which fruit?"
+        answers:
+          A: "Pear"
+          B: "Apple"
+          C: "Cherry"
+          D: "Grape"
+    difficulty: EASY
+  - text: "Dans quelle région française produit-on traditionnellement le calvados ?"
+    answers:
+      A: "La Provence"
+      B: "La Normandie"
+      C: "L'Alsace"
+      D: "Le Bordelais"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which French region is Calvados traditionally produced?"
+        answers:
+          A: "Provence"
+          B: "Normandy"
+          C: "Alsace"
+          D: "Bordeaux region"
+    difficulty: EASY
+  - text: "Que collectent les abeilles pour produire du miel ?"
+    answers:
+      A: "Le nectar des fleurs"
+      B: "La sève"
+      C: "Le pollen"
+      D: "La rosée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What do bees collect to produce honey?"
+        answers:
+          A: "Flower nectar"
+          B: "Sap"
+          C: "Pollen"
+          D: "Dew"
+    difficulty: EASY
+  - text: "Le jambon de Bayonne est une spécialité de quel territoire ?"
+    answers:
+      A: "La Savoie"
+      B: "La Bretagne"
+      C: "L'Alsace"
+      D: "Le Pays basque"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Bayonne ham is a specialty of which territory?"
+        answers:
+          A: "Savoie"
+          B: "Brittany"
+          C: "Alsace"
+          D: "The Basque Country"
+    difficulty: EASY
+  - text: "Que désigne l'affinage d'un fromage ?"
+    answers:
+      A: "Son transport vers les marchés"
+      B: "Sa période de maturation en cave"
+      C: "Son emballage sous vide"
+      D: "Sa cuisson au four"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the aging of a cheese refer to?"
+        answers:
+          A: "Its transport to markets"
+          B: "Its maturation period in a cellar"
+          C: "Its vacuum packaging"
+          D: "Its baking in the oven"
+    difficulty: EASY
+  - text: "Quel condiment sucré accompagne souvent le fromage ?"
+    answers:
+      A: "Le ketchup"
+      B: "La mayonnaise"
+      C: "La confiture d'oignons"
+      D: "La moutarde de Dijon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sweet condiment often accompanies cheese?"
+        answers:
+          A: "Ketchup"
+          B: "Mayonnaise"
+          C: "Onion jam"
+          D: "Dijon mustard"
+    difficulty: EASY
+  - text: "À quel moment du repas français sert-on traditionnellement le plateau de fromages ?"
+    answers:
+      A: "Entre le plat principal et le dessert"
+      B: "Au petit-déjeuner"
+      C: "En entrée"
+      D: "À l'apéritif avant le repas"
+    correctAnswer: A
+    translations:
+      en:
+        text: "At what point in a French meal is the cheese board traditionally served?"
+        answers:
+          A: "Between the main course and dessert"
+          B: "At breakfast"
+          C: "As a starter"
+          D: "At the aperitif before the meal"
+    difficulty: EASY
+  - text: "Le poiré est une boisson fermentée élaborée à partir de quel fruit ?"
+    answers:
+      A: "Le raisin"
+      B: "La pomme"
+      C: "La poire"
+      D: "L'abricot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Poiré is a fermented drink made from which fruit?"
+        answers:
+          A: "Grape"
+          B: "Apple"
+          C: "Pear"
+          D: "Apricot"
+    difficulty: EASY
+  - text: "Quel concours décerne chaque année des médailles aux fromages français ?"
+    answers:
+      A: "Le Grand Prix de la baguette de Paris"
+      B: "Le Concours général agricole"
+      C: "Le Championnat de France du dessert"
+      D: "La Coupe du monde de la pâtisserie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which competition awards medals to French cheeses every year?"
+        answers:
+          A: "The Grand Prix de la baguette de Paris"
+          B: "The Concours général agricole"
+          C: "The Championnat de France du dessert"
+          D: "The Coupe du monde de la pâtisserie"
+    difficulty: EASY
+  - text: "Quel type de vin est le compagnon classique du roquefort ?"
+    answers:
+      A: "Un rouge très tannique"
+      B: "Un champagne brut"
+      C: "Un vin blanc liquoreux"
+      D: "Un rosé de Provence"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which type of wine is the classic companion to roquefort?"
+        answers:
+          A: "A very tannic red"
+          B: "A brut champagne"
+          C: "A sweet white wine"
+          D: "A Provence rosé"
+    difficulty: MEDIUM
+  - text: "Que signifie le sigle AOP ?"
+    answers:
+      A: "Appellation officielle de prestige"
+      B: "Agriculture d'origine paysanne"
+      C: "Association des oléiculteurs professionnels"
+      D: "Appellation d'origine protégée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the acronym AOP stand for?"
+        answers:
+          A: "Appellation officielle de prestige"
+          B: "Agriculture d'origine paysanne"
+          C: "Association des oléiculteurs professionnels"
+          D: "Appellation d'origine protégée"
+    difficulty: MEDIUM
+  - text: "Que signifie le sigle AOC ?"
+    answers:
+      A: "Agriculture d'origine contrôlée"
+      B: "Association des œnologues certifiés"
+      C: "Appellation d'origine communautaire"
+      D: "Appellation d'origine contrôlée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the acronym AOC stand for?"
+        answers:
+          A: "Agriculture d'origine contrôlée"
+          B: "Association des œnologues certifiés"
+          C: "Appellation d'origine communautaire"
+          D: "Appellation d'origine contrôlée"
+    difficulty: MEDIUM
+  - text: "Le miel de lavande est typique de quelle région française ?"
+    answers:
+      A: "La Bretagne"
+      B: "La Provence"
+      C: "La Normandie"
+      D: "L'Alsace"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Lavender honey is typical of which French region?"
+        answers:
+          A: "Brittany"
+          B: "Provence"
+          C: "Normandy"
+          D: "Alsace"
+    difficulty: MEDIUM
+  - text: "De quoi se compose un kir ?"
+    answers:
+      A: "De vin blanc et de crème de cassis"
+      B: "De vin rouge et de cassis"
+      C: "De champagne et de fraise"
+      D: "De cidre et de miel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is a kir made of?"
+        answers:
+          A: "White wine and crème de cassis"
+          B: "Red wine and blackcurrant liqueur"
+          C: "Champagne and strawberry"
+          D: "Cider and honey"
+    difficulty: MEDIUM
+  - text: "Dans quelle région produit-on le vin jaune ?"
+    answers:
+      A: "Le Jura"
+      B: "L'Alsace"
+      C: "Le Bordelais"
+      D: "La Loire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which region is vin jaune produced?"
+        answers:
+          A: "Jura"
+          B: "Alsace"
+          C: "Bordeaux"
+          D: "Loire"
+    difficulty: MEDIUM
+  - text: "Quelle épice parfume traditionnellement le munster ?"
+    answers:
+      A: "Le cumin"
+      B: "Le safran"
+      C: "Le paprika"
+      D: "La cannelle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spice traditionally flavors munster?"
+        answers:
+          A: "Cumin"
+          B: "Saffron"
+          C: "Paprika"
+          D: "Cinnamon"
+    difficulty: MEDIUM
+  - text: "Qu'appelle-t-on un fromage fermier ?"
+    answers:
+      A: "Un fromage vendu uniquement sur les marchés"
+      B: "Un fromage industriel vendu à la ferme"
+      C: "Un fromage fabriqué à la ferme avec le lait de son troupeau"
+      D: "Un fromage sans appellation d'origine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is called a farmhouse cheese?"
+        answers:
+          A: "A cheese sold only at markets"
+          B: "An industrial cheese sold at the farm"
+          C: "A cheese made on the farm with milk from its own herd"
+          D: "A cheese without a designation of origin"
+    difficulty: MEDIUM
+  - text: "Un fromage au lait cru est fabriqué avec du lait..."
+    answers:
+      A: "pasteurisé"
+      B: "reconstitué à partir de poudre"
+      C: "chauffé au-delà de 72 °C"
+      D: "n'ayant pas été chauffé au-delà de 40 °C"
+    correctAnswer: D
+    translations:
+      en:
+        text: "A raw-milk cheese is made with milk..."
+        answers:
+          A: "pasteurized"
+          B: "reconstituted from powder"
+          C: "heated above 72 °C"
+          D: "that has not been heated above 40 °C"
+    difficulty: MEDIUM
+  - text: "Que signifie l'appellation « cidre brut » ?"
+    answers:
+      A: "Un cidre très sucré"
+      B: "Un cidre peu sucré"
+      C: "Un cidre sans pomme"
+      D: "Un cidre aromatisé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the label \"cidre brut\" mean?"
+        answers:
+          A: "A very sweet cider"
+          B: "A lightly sweet cider"
+          C: "A cider without apples"
+          D: "A flavored cider"
+    difficulty: MEDIUM
+  - text: "Pendant quel salon parisien se tient le Concours général agricole ?"
+    answers:
+      A: "Le Salon du livre de Paris"
+      B: "Le Mondial de l'automobile"
+      C: "Le Salon international de l'agriculture"
+      D: "La Foire aux vins de Colmar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "During which Paris trade fair does the Concours général agricole take place?"
+        answers:
+          A: "The Salon du livre de Paris"
+          B: "The Mondial de l'automobile"
+          C: "The Salon international de l'agriculture"
+          D: "The Foire aux vins de Colmar"
+    difficulty: MEDIUM
+  - text: "De quelle région le chabichou est-il originaire ?"
+    answers:
+      A: "La Savoie"
+      B: "L'Alsace"
+      C: "Le Poitou"
+      D: "La Corse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which region does chabichou come from?"
+        answers:
+          A: "Savoie"
+          B: "Alsace"
+          C: "Poitou"
+          D: "Corsica"
+    difficulty: MEDIUM
+  - text: "Qu'y a-t-il traditionnellement au milieu d'une meule de morbier ?"
+    answers:
+      A: "Des noisettes"
+      B: "Une couche de cendre"
+      C: "Une feuille de vigne"
+      D: "Du poivre noir"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is traditionally in the middle of a wheel of morbier?"
+        answers:
+          A: "Hazelnuts"
+          B: "A layer of ash"
+          C: "A vine leaf"
+          D: "Black pepper"
+    difficulty: MEDIUM
+  - text: "Quel fromage fut le premier à obtenir une AOC en France, en 1925 ?"
+    answers:
+      A: "Le roquefort"
+      B: "Le camembert"
+      C: "Le comté"
+      D: "Le brie de Meaux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which cheese was the first to obtain an AOC in France, in 1925?"
+        answers:
+          A: "Roquefort"
+          B: "Camembert"
+          C: "Comté"
+          D: "Brie de Meaux"
+    difficulty: HARD
+  - text: "Quel fromage normand est traditionnellement vendu dans une boîte en bois ?"
+    answers:
+      A: "Le brie de Meaux"
+      B: "Le camembert de Normandie"
+      C: "Le pont-l'évêque"
+      D: "Le livarot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Norman cheese is traditionally sold in a wooden box?"
+        answers:
+          A: "Brie de Meaux"
+          B: "Camembert de Normandie"
+          C: "Pont-l'Évêque"
+          D: "Livarot"
+    difficulty: HARD
+  - text: "Quel cépage unique est utilisé pour le vin jaune du Jura ?"
+    answers:
+      A: "Le chardonnay"
+      B: "Le riesling"
+      C: "Le savagnin"
+      D: "Le chenin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which single grape variety is used for vin jaune from the Jura?"
+        answers:
+          A: "Chardonnay"
+          B: "Riesling"
+          C: "Savagnin"
+          D: "Chenin"
+    difficulty: HARD
+  - text: "Dans quel massif est produit le saint-nectaire ?"
+    answers:
+      A: "Les Vosges"
+      B: "Les monts Dore"
+      C: "Les monts du Cantal"
+      D: "Le Jura"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which mountain range is Saint-Nectaire produced?"
+        answers:
+          A: "The Vosges"
+          B: "The Monts Dore"
+          C: "The Monts du Cantal"
+          D: "The Jura"
+    difficulty: HARD
+  - text: "Le pélardon est un fromage AOP de quel type ?"
+    answers:
+      A: "Bleu"
+      B: "Vache"
+      C: "Chèvre"
+      D: "Brebis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Pélardon is an AOP cheese of which type?"
+        answers:
+          A: "Blue"
+          B: "Cow's milk"
+          C: "Goat's milk"
+          D: "Sheep's milk"
+    difficulty: HARD
+  - text: "Dans quelles feuilles le banon est-il traditionnellement enveloppé ?"
+    answers:
+      A: "Des feuilles de figuier"
+      B: "Des feuilles de vigne"
+      C: "Des feuilles de châtaignier"
+      D: "Des feuilles de noyer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which leaves is Banon traditionally wrapped?"
+        answers:
+          A: "Fig leaves"
+          B: "Vine leaves"
+          C: "Chestnut leaves"
+          D: "Walnut leaves"
+    difficulty: HARD
+  - text: "De quelle région le saint-marcellin est-il originaire ?"
+    answers:
+      A: "Le Périgord"
+      B: "La Provence"
+      C: "Le Dauphiné"
+      D: "L'Auvergne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which region does Saint-Marcellin come from?"
+        answers:
+          A: "Périgord"
+          B: "Provence"
+          C: "Dauphiné"
+          D: "Auvergne"
+    difficulty: HARD
+  - text: "Que fait un caveur-affineur ?"
+    answers:
+      A: "Il achète des fromages jeunes pour les affiner avant de les revendre"
+      B: "Il sculpte des meules de fromage pour les vitrines"
+      C: "Il contrôle les taux de sel dans les laiteries"
+      D: "Il construit des caves d'affinage en pierre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does a caveur-affineur do?"
+        answers:
+          A: "He buys young cheeses to ripen them before reselling"
+          B: "He carves cheese wheels for shop displays"
+          C: "He checks salt levels in dairies"
+          D: "He builds stone ripening cellars"
+    difficulty: HARD
+  - text: "Que désigne l'emprésurage ?"
+    answers:
+      A: "Le salage des meules à la main"
+      B: "Le lavage des croûtes en saumure"
+      C: "L'ajout de présure pour faire coaguler le lait"
+      D: "Le pressage du caillé dans des moules"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does 'emprésurage' refer to?"
+        answers:
+          A: "Salting the wheels by hand"
+          B: "Washing the rinds in brine"
+          C: "Adding rennet to coagulate the milk"
+          D: "Pressing the curd in molds"
+    difficulty: HARD
+  - text: "Qu'est-ce qui distingue une IGP d'une AOP ?"
+    answers:
+      A: "L'IGP est réservée aux vins"
+      B: "Au moins une étape de production a lieu dans la zone géographique"
+      C: "Toutes les étapes de production ont lieu dans la zone géographique"
+      D: "L'AOP est réservée aux fromages"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What distinguishes an IGP from an AOP?"
+        answers:
+          A: "The IGP is reserved for wines"
+          B: "At least one production step takes place in the geographical area"
+          C: "All production steps take place in the geographical area"
+          D: "The AOP is reserved for cheeses"
+    difficulty: HARD
+  - text: "Quel miel français bénéficie d'une AOP ?"
+    answers:
+      A: "Le miel de lavande"
+      B: "Le miel de tournesol"
+      C: "Le miel de Corse"
+      D: "Le miel d'acacia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French honey has an AOP?"
+        answers:
+          A: "Lavender honey"
+          B: "Sunflower honey"
+          C: "Corsican honey"
+          D: "Acacia honey"
+    difficulty: HARD
+  - text: "Dans quelle région montagneuse le comté est-il produit ?"
+    answers:
+      A: "Les Pyrénées"
+      B: "Le Massif central"
+      C: "Les Alpes du Sud"
+      D: "Le massif du Jura"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which mountainous region is Comté produced?"
+        answers:
+          A: "The Pyrenees"
+          B: "The Massif Central"
+          C: "The Southern Alps"
+          D: "The Jura massif"
+    difficulty: HARD
+  - text: "Quelle est la durée minimale de vieillissement du vin jaune en fût ?"
+    answers:
+      A: "1 an"
+      B: "3 ans"
+      C: "10 ans"
+      D: "6 ans et 3 mois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the minimum aging time for vin jaune in barrel?"
+        answers:
+          A: "1 year"
+          B: "3 years"
+          C: "10 years"
+          D: "6 years and 3 months"
+    difficulty: EXPERT
+  - text: "En quelle année le label européen AOP a-t-il été créé ?"
+    answers:
+      A: "1992"
+      B: "1958"
+      C: "2000"
+      D: "1985"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the European AOP label created?"
+        answers:
+          A: "1992"
+          B: "1958"
+          C: "2000"
+          D: "1985"
+    difficulty: EXPERT
+  - text: "Qu'est-ce que la cervelle de canut ?"
+    answers:
+      A: "Un fromage frais aux herbes, spécialité lyonnaise"
+      B: "Un gâteau à base de fromage blanc"
+      C: "Une spécialité de la charcuterie lyonnaise"
+      D: "Un fromage de tête servi en salade"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is cervelle de canut?"
+        answers:
+          A: "A fresh herb cheese, a Lyonnaise specialty"
+          B: "A cake made from fromage blanc"
+          C: "A Lyonnaise charcuterie specialty"
+          D: "A head cheese served as a salad"
+    difficulty: EXPERT
+  - text: "Le poiré AOC de Domfront est produit dans quelle région ?"
+    answers:
+      A: "La Bretagne"
+      B: "La Normandie"
+      C: "Les Pays de la Loire"
+      D: "Le Centre-Val de Loire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which region is AOC Domfront perry produced?"
+        answers:
+          A: "Brittany"
+          B: "Normandy"
+          C: "Pays de la Loire"
+          D: "Centre-Val de Loire"
+    difficulty: EXPERT
+  - text: "Le fromage AOP Charolais est élaboré avec du lait de quel animal ?"
+    answers:
+      A: "La chèvre"
+      B: "La brebis"
+      C: "La vache"
+      D: "La bufflonne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "AOP Charolais cheese is made with milk from which animal?"
+        answers:
+          A: "Goat"
+          B: "Ewe"
+          C: "Cow"
+          D: "Buffalo"
+    difficulty: EXPERT
+  - text: "Au-delà de quelle température le lait perd-il son statut de lait cru ?"
+    answers:
+      A: "63 °C"
+      B: "50 °C"
+      C: "40 °C"
+      D: "72 °C"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Above what temperature does milk lose its raw milk status?"
+        answers:
+          A: "63 °C"
+          B: "50 °C"
+          C: "40 °C"
+          D: "72 °C"
+    difficulty: EXPERT
+  - text: "Dans quel massif produit-on le bleu de Gex ?"
+    answers:
+      A: "Le Haut-Jura"
+      B: "L'Aubrac"
+      C: "Les monts du Cantal"
+      D: "Le Vercors"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which mountain range is Bleu de Gex produced?"
+        answers:
+          A: "Haut-Jura"
+          B: "Aubrac"
+          C: "Monts du Cantal"
+          D: "Vercors"
+    difficulty: EXPERT
+  - text: "En quelle année le munster a-t-il obtenu son AOC ?"
+    answers:
+      A: "1969"
+      B: "1919"
+      C: "1979"
+      D: "1996"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did munster obtain its AOC?"
+        answers:
+          A: "1969"
+          B: "1919"
+          C: "1979"
+          D: "1996"
+    difficulty: EXPERT
+  - text: "Quel miel français est protégé par une IGP ?"
+    answers:
+      A: "Le miel de sapin des Vosges"
+      B: "Le miel de châtaignier"
+      C: "Le miel de romarin"
+      D: "Le miel de colza"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French honey is protected by a PGI?"
+        answers:
+          A: "Vosges fir honey"
+          B: "Chestnut honey"
+          C: "Rosemary honey"
+          D: "Rapeseed honey"
+    difficulty: EXPERT
+  - text: "En quelle année le Concours général agricole a-t-il été créé ?"
+    answers:
+      A: "1900"
+      B: "1870"
+      C: "1925"
+      D: "1946"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Concours général agricole created?"
+        answers:
+          A: "1900"
+          B: "1870"
+          C: "1925"
+          D: "1946"
+    difficulty: EXPERT
+  - text: "Qu'appelle-t-on la morge d'un fromage ?"
+    answers:
+      A: "La saumure utilisée pour le salage"
+      B: "Le caillé restant dans la cuve"
+      C: "Le sérum égoutté lors du pressage"
+      D: "La couche de micro-organismes qui se développe en surface pendant l'affinage"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is a cheese's morge?"
+        answers:
+          A: "The brine used for salting"
+          B: "The curd remaining in the vat"
+          C: "The whey drained during pressing"
+          D: "The layer of microorganisms that develops on the surface during ripening"
+    difficulty: EXPERT
+  - text: "Quel cépage domine l'assemblage du sauternes ?"
+    answers:
+      A: "Le sémillon"
+      B: "Le chardonnay"
+      C: "Le sauvignon blanc"
+      D: "Le muscat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which grape dominates the Sauternes blend?"
+        answers:
+          A: "Sémillon"
+          B: "Chardonnay"
+          C: "Sauvignon blanc"
+          D: "Muscat"
+    difficulty: EXPERT
+  - text: "Dans quel département la fourme d'Ambert est-elle principalement produite ?"
+    answers:
+      A: "La Haute-Loire"
+      B: "Le Cantal"
+      C: "La Lozère"
+      D: "Le Puy-de-Dôme"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which department is Fourme d'Ambert mainly produced?"
+        answers:
+          A: "Haute-Loire"
+          B: "Cantal"
+          C: "Lozère"
+          D: "Puy-de-Dôme"
+    difficulty: EXPERT
