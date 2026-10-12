@@ -10,65 +10,65 @@ questions:
   - text: "Qui interprète Harry Potter dans L'École des sorciers ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Radcliffe%20in%20July%202015.jpg?width=800"
     answers:
-      A: "Daniel Radcliffe"
+      A: "Matthew Lewis"
       B: "Rupert Grint"
       C: "Tom Felton"
-      D: "Matthew Lewis"
-    correctAnswer: "A"
+      D: "Daniel Radcliffe"
+    correctAnswer: "D"
     translations:
       en:
         text: "Who plays Harry Potter in The Philosopher's Stone?"
         answers:
-          A: "Daniel Radcliffe"
+          A: "Matthew Lewis"
           B: "Rupert Grint"
           C: "Tom Felton"
-          D: "Matthew Lewis"
+          D: "Daniel Radcliffe"
   - text: "Qui interprète Hermione Granger ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%202013.jpg?width=800"
     answers:
-      A: "Emma Watson"
+      A: "Evanna Lynch"
       B: "Bonnie Wright"
-      C: "Evanna Lynch"
+      C: "Emma Watson"
       D: "Maggie Smith"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who plays Hermione Granger?"
         answers:
-          A: "Emma Watson"
+          A: "Evanna Lynch"
           B: "Bonnie Wright"
-          C: "Evanna Lynch"
+          C: "Emma Watson"
           D: "Maggie Smith"
   - text: "Qui interprète Ron Weasley ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/RupertGrint2018.jpg?width=800"
     answers:
-      A: "Rupert Grint"
+      A: "Daniel Radcliffe"
       B: "Tom Felton"
-      C: "Daniel Radcliffe"
+      C: "Rupert Grint"
       D: "Warwick Davis"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who plays Ron Weasley?"
         answers:
-          A: "Rupert Grint"
+          A: "Daniel Radcliffe"
           B: "Tom Felton"
-          C: "Daniel Radcliffe"
+          C: "Rupert Grint"
           D: "Warwick Davis"
   - text: "Qui interprète Drago Malefoy ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Felton%201.jpg?width=800"
     answers:
-      A: "Tom Felton"
-      B: "Rupert Grint"
+      A: "Rupert Grint"
+      B: "Tom Felton"
       C: "Matthew Lewis"
       D: "Jason Isaacs"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who plays Draco Malfoy?"
         answers:
-          A: "Tom Felton"
-          B: "Rupert Grint"
+          A: "Rupert Grint"
+          B: "Tom Felton"
           C: "Matthew Lewis"
           D: "Jason Isaacs"
   - text: "Qui interprète le professeur Rogue ?"
@@ -90,18 +90,18 @@ questions:
   - text: "Qui interprète le professeur McGonagall ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Maggie%20Smith%20-%20Vintage.jpg?width=800"
     answers:
-      A: "Maggie Smith"
+      A: "Julie Walters"
       B: "Emma Thompson"
-      C: "Julie Walters"
+      C: "Maggie Smith"
       D: "Imelda Staunton"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who plays Professor McGonagall?"
         answers:
-          A: "Maggie Smith"
+          A: "Julie Walters"
           B: "Emma Thompson"
-          C: "Julie Walters"
+          C: "Maggie Smith"
           D: "Imelda Staunton"
   - text: "Qui interprète Rubeus Hagrid ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Robbiecoltrane%20%28cropped%29.jpg?width=800"
@@ -122,19 +122,19 @@ questions:
   - text: "Qui interprète Albus Dumbledore dans ce premier film ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Harris%201985%20%281%29.jpg?width=800"
     answers:
-      A: "Richard Harris"
+      A: "John Cleese"
       B: "Michael Gambon"
       C: "Alan Rickman"
-      D: "John Cleese"
-    correctAnswer: "A"
+      D: "Richard Harris"
+    correctAnswer: "D"
     translations:
       en:
         text: "Who plays Albus Dumbledore in this first film?"
         answers:
-          A: "Richard Harris"
+          A: "John Cleese"
           B: "Michael Gambon"
           C: "Alan Rickman"
-          D: "John Cleese"
+          D: "Richard Harris"
   - text: "Qui interprète Nick Quasi-Sans-Tête ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Cleese%202008.jpg?width=800"
     answers:
@@ -170,49 +170,49 @@ questions:
   - text: "Qui interprète Molly Weasley ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Julie%20Walters%20at%20the%20Paddington%20Premiere.jpg?width=800"
     answers:
-      A: "Julie Walters"
-      B: "Maggie Smith"
+      A: "Maggie Smith"
+      B: "Julie Walters"
       C: "Emma Thompson"
       D: "Imelda Staunton"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who plays Molly Weasley?"
         answers:
-          A: "Julie Walters"
-          B: "Maggie Smith"
+          A: "Maggie Smith"
+          B: "Julie Walters"
           C: "Emma Thompson"
           D: "Imelda Staunton"
   - text: "Qui a écrit le roman adapté dans ce film ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/J.%20K.%20Rowling%202010.jpg?width=800"
     answers:
-      A: "J. K. Rowling"
+      A: "Roald Dahl"
       B: "J. R. R. Tolkien"
-      C: "Roald Dahl"
+      C: "J. K. Rowling"
       D: "C. S. Lewis"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who wrote the novel adapted in this film?"
         answers:
-          A: "J. K. Rowling"
+          A: "Roald Dahl"
           B: "J. R. R. Tolkien"
-          C: "Roald Dahl"
+          C: "J. K. Rowling"
           D: "C. S. Lewis"
   - text: "Qui a réalisé ce premier film ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Columbus.jpg?width=800"
     answers:
-      A: "Chris Columbus"
-      B: "Alfonso Cuarón"
+      A: "Alfonso Cuarón"
+      B: "Chris Columbus"
       C: "Mike Newell"
       D: "David Yates"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who directed this first film?"
         answers:
-          A: "Chris Columbus"
-          B: "Alfonso Cuarón"
+          A: "Alfonso Cuarón"
+          B: "Chris Columbus"
           C: "Mike Newell"
           D: "David Yates"
   - text: "Quel château anglais sert de décor extérieur à Poudlard ?"
@@ -234,35 +234,35 @@ questions:
   - text: "Quelle cathédrale anglaise a servi de décor aux couloirs de Poudlard ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Cloisters%20at%20Gloucester%20Cathedral.jpg?width=800"
     answers:
-      A: "la cathédrale de Gloucester"
+      A: "la cathédrale de Canterbury"
       B: "la cathédrale Saint-Paul"
       C: "l'abbaye de Westminster"
-      D: "la cathédrale de Canterbury"
-    correctAnswer: "A"
+      D: "la cathédrale de Gloucester"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which English cathedral was used for Hogwarts' corridors?"
         answers:
-          A: "Gloucester Cathedral"
+          A: "Canterbury Cathedral"
           B: "St Paul's Cathedral"
           C: "Westminster Abbey"
-          D: "Canterbury Cathedral"
+          D: "Gloucester Cathedral"
   - text: "Quel escalier d'Oxford apparaît dans le film ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Christ%20Church%2C%20Oxford%2C%20The%20Grand%20Staircase.jpg?width=800"
     answers:
-      A: "Christ Church"
+      A: "Magdalen College"
       B: "la Bodleian Library"
       C: "le Radcliffe Camera"
-      D: "Magdalen College"
-    correctAnswer: "A"
+      D: "Christ Church"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which Oxford staircase appears in the film?"
         answers:
-          A: "Christ Church"
+          A: "Magdalen College"
           B: "the Bodleian Library"
           C: "the Radcliffe Camera"
-          D: "Magdalen College"
+          D: "Christ Church"
   - text: "Quelle bibliothèque d'Oxford évoque la bibliothèque de Poudlard ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Divinity%20School%20Interior%203%2C%20Bodleian%20Library%2C%20Oxford%2C%20UK%20-%20Diliff.jpg?width=800"
     answers:
@@ -298,33 +298,33 @@ questions:
   - text: "Comment s'appelle le quai d'où part le Poudlard Express ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Platform%209%203-4%20%28King%27s%20Cross%20station%2C%20London%2C%202014%29.jpg?width=800"
     answers:
-      A: "le quai 9¾"
+      A: "le quai 21"
       B: "le quai 13"
       C: "le quai 7"
-      D: "le quai 21"
-    correctAnswer: "A"
+      D: "le quai 9¾"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is the name of the platform where the Hogwarts Express leaves?"
         answers:
-          A: "Platform 9¾"
+          A: "Platform 21"
           B: "Platform 13"
           C: "Platform 7"
-          D: "Platform 21"
+          D: "Platform 9¾"
   - text: "Quel marché londonien a inspiré le Chemin de Traverse ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Leadenhall%20Market%20In%20London%20-%20Feb%202006.jpg?width=800"
     answers:
-      A: "Leadenhall Market"
-      B: "Borough Market"
+      A: "Borough Market"
+      B: "Leadenhall Market"
       C: "Camden Market"
       D: "Portobello Road"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which London market inspired Diagon Alley?"
         answers:
-          A: "Leadenhall Market"
-          B: "Borough Market"
+          A: "Borough Market"
+          B: "Leadenhall Market"
           C: "Camden Market"
           D: "Portobello Road"
   - text: "Quel train emmène les élèves à Poudlard ?"
@@ -346,34 +346,34 @@ questions:
   - text: "Quel village magique borde Poudlard ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Wizarding%20World%20of%20Harry%20Potter%20-%20Hogsmeade%20%26%20Hogwarts%20sign%20%285014150830%29.jpg?width=800"
     answers:
-      A: "Pré-au-Lard"
-      B: "Godric's Hollow"
+      A: "Godric's Hollow"
+      B: "Pré-au-Lard"
       C: "Azkaban"
       D: "Le Chemin de Traverse"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which magical village borders Hogwarts?"
         answers:
-          A: "Hogsmeade"
-          B: "Godric's Hollow"
+          A: "Godric's Hollow"
+          B: "Hogsmeade"
           C: "Azkaban"
           D: "Diagon Alley"
   - text: "Sur quel viaduc le Poudlard Express traverse-t-il les Highlands ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jacobite%20on%20Glenfinnan%20Viaduct%202%2020211024.jpg?width=800"
     answers:
-      A: "le viaduc de Glenfinnan"
+      A: "le viaduc de Millau"
       B: "le pont de Forth"
-      C: "le viaduc de Millau"
+      C: "le viaduc de Glenfinnan"
       D: "le pont de Brooklyn"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Over which viaduct does the Hogwarts Express cross the Highlands?"
         answers:
-          A: "the Glenfinnan Viaduct"
+          A: "the Millau Viaduct"
           B: "the Forth Bridge"
-          C: "the Millau Viaduct"
+          C: "the Glenfinnan Viaduct"
           D: "the Brooklyn Bridge"
   - text: "Quelle cathédrale a servi de décor au cloître de Poudlard ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Durham%20Cathedral%20Cloister%20%287166957256%29.jpg?width=800"
@@ -394,209 +394,209 @@ questions:
   - text: "Quel acteur joue le rôle-titre de la saga ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Radcliffe%20in%20July%202015.jpg?width=800"
     answers:
-      A: "Daniel Radcliffe"
-      B: "Rupert Grint"
+      A: "Rupert Grint"
+      B: "Daniel Radcliffe"
       C: "Tom Felton"
       D: "Alan Rickman"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actor plays the saga's title role?"
         answers:
-          A: "Daniel Radcliffe"
-          B: "Rupert Grint"
+          A: "Rupert Grint"
+          B: "Daniel Radcliffe"
           C: "Tom Felton"
           D: "Alan Rickman"
   - text: "Qui incarne l'amie née moldue de Harry et Ron ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Watson%202013.jpg?width=800"
     answers:
-      A: "Emma Watson"
+      A: "Maggie Smith"
       B: "Bonnie Wright"
       C: "Evanna Lynch"
-      D: "Maggie Smith"
-    correctAnswer: "A"
+      D: "Emma Watson"
+    correctAnswer: "D"
     translations:
       en:
         text: "Who plays Harry and Ron's Muggle-born friend?"
         answers:
-          A: "Emma Watson"
+          A: "Maggie Smith"
           B: "Bonnie Wright"
           C: "Evanna Lynch"
-          D: "Maggie Smith"
+          D: "Emma Watson"
   - text: "Qui incarne le meilleur ami roux de Harry ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/RupertGrint2018.jpg?width=800"
     answers:
-      A: "Rupert Grint"
+      A: "Warwick Davis"
       B: "Tom Felton"
       C: "Matthew Lewis"
-      D: "Warwick Davis"
-    correctAnswer: "A"
+      D: "Rupert Grint"
+    correctAnswer: "D"
     translations:
       en:
         text: "Who plays Harry's red-haired best friend?"
         answers:
-          A: "Rupert Grint"
+          A: "Warwick Davis"
           B: "Tom Felton"
           C: "Matthew Lewis"
-          D: "Warwick Davis"
+          D: "Rupert Grint"
   - text: "Quel acteur incarne le géant garde-chasse de Poudlard ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Robbiecoltrane%20%28cropped%29.jpg?width=800"
     answers:
-      A: "Robbie Coltrane"
+      A: "John Cleese"
       B: "Brendan Gleeson"
-      C: "John Cleese"
+      C: "Robbie Coltrane"
       D: "Mark Williams"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actor plays Hogwarts' giant gamekeeper?"
         answers:
-          A: "Robbie Coltrane"
+          A: "John Cleese"
           B: "Brendan Gleeson"
-          C: "John Cleese"
+          C: "Robbie Coltrane"
           D: "Mark Williams"
   - text: "Quelle actrice joue la directrice adjointe de Poudlard ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Maggie%20Smith%20-%20Vintage.jpg?width=800"
     answers:
-      A: "Maggie Smith"
+      A: "Julie Walters"
       B: "Emma Thompson"
-      C: "Julie Walters"
+      C: "Maggie Smith"
       D: "Imelda Staunton"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actress plays Hogwarts' deputy headmistress?"
         answers:
-          A: "Maggie Smith"
+          A: "Julie Walters"
           B: "Emma Thompson"
-          C: "Julie Walters"
+          C: "Maggie Smith"
           D: "Imelda Staunton"
   - text: "Quel acteur incarne le maître des Potions ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Rickman%20by%20David%20Shankbone%20-%202.jpg?width=800"
     answers:
-      A: "Alan Rickman"
+      A: "David Thewlis"
       B: "Richard Harris"
       C: "Gary Oldman"
-      D: "David Thewlis"
-    correctAnswer: "A"
+      D: "Alan Rickman"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which actor plays the Potions master?"
         answers:
-          A: "Alan Rickman"
+          A: "David Thewlis"
           B: "Richard Harris"
           C: "Gary Oldman"
-          D: "David Thewlis"
+          D: "Alan Rickman"
   - text: "En quelle année est sorti ce premier film ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Columbus.jpg?width=800"
     answers:
-      A: "2001"
+      A: "2005"
       B: "1999"
       C: "2003"
-      D: "2005"
-    correctAnswer: "A"
+      D: "2001"
+    correctAnswer: "D"
     translations:
       en:
         text: "In which year was this first film released?"
         answers:
-          A: "2001"
+          A: "2005"
           B: "1999"
           C: "2003"
-          D: "2005"
+          D: "2001"
   - text: "Quel compositeur signe la musique du film ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/J.%20K.%20Rowling%202010.jpg?width=800"
     answers:
-      A: "John Williams"
-      B: "Hans Zimmer"
+      A: "Hans Zimmer"
+      B: "John Williams"
       C: "Danny Elfman"
       D: "Howard Shore"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which composer scored the film?"
         answers:
-          A: "John Williams"
-          B: "Hans Zimmer"
+          A: "Hans Zimmer"
+          B: "John Williams"
           C: "Danny Elfman"
           D: "Howard Shore"
   - text: "Quel comédien irlandais incarne Dumbledore dans les deux premiers films ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Harris%201985%20%281%29.jpg?width=800"
     answers:
-      A: "Richard Harris"
+      A: "Alan Rickman"
       B: "Michael Gambon"
-      C: "Alan Rickman"
+      C: "Richard Harris"
       D: "John Cleese"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which Irish actor plays Dumbledore in the first two films?"
         answers:
-          A: "Richard Harris"
+          A: "Alan Rickman"
           B: "Michael Gambon"
-          C: "Alan Rickman"
+          C: "Richard Harris"
           D: "John Cleese"
   - text: "Quel réalisateur a lancé la saga au cinéma ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Columbus.jpg?width=800"
     answers:
-      A: "Chris Columbus"
+      A: "Mike Newell"
       B: "David Yates"
       C: "Alfonso Cuarón"
-      D: "Mike Newell"
-    correctAnswer: "A"
+      D: "Chris Columbus"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which director launched the saga on screen?"
         answers:
-          A: "Chris Columbus"
+          A: "Mike Newell"
           B: "David Yates"
           C: "Alfonso Cuarón"
-          D: "Mike Newell"
+          D: "Chris Columbus"
   - text: "Dans quelle région d'Angleterre se trouve le château d'Alnwick ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alnwick%20Castle%202011.JPG?width=800"
     answers:
-      A: "le Northumberland"
-      B: "le Kent"
+      A: "le Kent"
+      B: "le Northumberland"
       C: "le Devon"
       D: "le Yorkshire"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "In which English region is Alnwick Castle?"
         answers:
-          A: "Northumberland"
-          B: "Kent"
+          A: "Kent"
+          B: "Northumberland"
           C: "Devon"
           D: "Yorkshire"
   - text: "Quel professeur bégaie et enseigne la Défense contre les forces du Mal ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Rickman%20by%20David%20Shankbone%20-%202.jpg?width=800"
     answers:
-      A: "Quirrell"
+      A: "Lupin"
       B: "Rogue"
-      C: "Lupin"
+      C: "Quirrell"
       D: "Maugrey"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which teacher stammers and teaches Defence Against the Dark Arts?"
         answers:
-          A: "Quirrell"
+          A: "Lupin"
           B: "Snape"
-          C: "Lupin"
+          C: "Quirrell"
           D: "Mad-Eye"
   - text: "Quel personnage vient chercher Harry en moto volante au début du film ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Robbiecoltrane%20%28cropped%29.jpg?width=800"
     answers:
-      A: "Hagrid"
-      B: "Dumbledore"
+      A: "Dumbledore"
+      B: "Hagrid"
       C: "Rogue"
       D: "McGonagall"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which character fetches Harry on a flying motorbike at the start of the film?"
         answers:
-          A: "Hagrid"
-          B: "Dumbledore"
+          A: "Dumbledore"
+          B: "Hagrid"
           C: "Snape"
           D: "McGonagall"
   - text: "Quelle actrice joue la mère de Ron à la gare ?"
@@ -618,18 +618,18 @@ questions:
   - text: "Quel acteur incarne un professeur à la voix grave et au long nez ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Rickman%20by%20David%20Shankbone%20-%202.jpg?width=800"
     answers:
-      A: "Alan Rickman"
+      A: "John Cleese"
       B: "Warwick Davis"
-      C: "John Cleese"
+      C: "Alan Rickman"
       D: "Chris Columbus"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actor plays a gravelly-voiced, hook-nosed professor?"
         answers:
-          A: "Alan Rickman"
+          A: "John Cleese"
           B: "Warwick Davis"
-          C: "John Cleese"
+          C: "Alan Rickman"
           D: "Chris Columbus"
   - text: "Quelle autrice britannique a imaginé cet univers ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/J.%20K.%20Rowling%202010.jpg?width=800"
@@ -649,123 +649,123 @@ questions:
           D: "Agatha Christie"
   - text: "Quel est le nom de famille de Harry ?"
     answers:
-      A: "Potter"
+      A: "Malefoy"
       B: "Weasley"
       C: "Granger"
-      D: "Malefoy"
-    correctAnswer: "A"
+      D: "Potter"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is Harry's surname?"
         answers:
-          A: "Potter"
+          A: "Malfoy"
           B: "Weasley"
           C: "Granger"
-          D: "Malfoy"
+          D: "Potter"
   - text: "Chez qui Harry vit-il au début du film ?"
     answers:
-      A: "les Dursley"
+      A: "les Granger"
       B: "les Weasley"
-      C: "les Granger"
+      C: "les Dursley"
       D: "les Malefoy"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "With whom does Harry live at the start of the film?"
         answers:
-          A: "the Dursleys"
+          A: "the Grangers"
           B: "the Weasleys"
-          C: "the Grangers"
+          C: "the Dursleys"
           D: "the Malfoys"
   - text: "Comment s'appelle le cousin de Harry ?"
     answers:
-      A: "Dudley"
-      B: "Vernon"
+      A: "Vernon"
+      B: "Dudley"
       C: "Percy"
       D: "Drago"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What is Harry's cousin's name?"
         answers:
-          A: "Dudley"
-          B: "Vernon"
+          A: "Vernon"
+          B: "Dudley"
           C: "Percy"
           D: "Draco"
   - text: "À quelle adresse vivent les Dursley ?"
     answers:
-      A: "4 Privet Drive"
+      A: "9 Wisteria Lane"
       B: "12 Grimmauld Place"
       C: "221B Baker Street"
-      D: "9 Wisteria Lane"
-    correctAnswer: "A"
+      D: "4 Privet Drive"
+    correctAnswer: "D"
     translations:
       en:
         text: "At what address do the Dursleys live?"
         answers:
-          A: "4 Privet Drive"
+          A: "9 Wisteria Lane"
           B: "12 Grimmauld Place"
           C: "221B Baker Street"
-          D: "9 Wisteria Lane"
+          D: "4 Privet Drive"
   - text: "Qui apporte sa lettre de Poudlard à Harry ?"
     answers:
-      A: "Hagrid"
+      A: "un hibou"
       B: "Dumbledore"
       C: "McGonagall"
-      D: "un hibou"
-    correctAnswer: "A"
+      D: "Hagrid"
+    correctAnswer: "D"
     translations:
       en:
         text: "Who brings Harry his Hogwarts letter?"
         answers:
-          A: "Hagrid"
+          A: "an owl"
           B: "Dumbledore"
           C: "McGonagall"
-          D: "an owl"
+          D: "Hagrid"
   - text: "Quelle phrase Hagrid lance-t-il à Harry ?"
     answers:
-      A: "Tu es un sorcier"
-      B: "Tu es un elfe"
+      A: "Tu es un elfe"
+      B: "Tu es un sorcier"
       C: "Tu es un Moldu"
       D: "Tu es un géant"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What does Hagrid tell Harry?"
         answers:
-          A: "You're a wizard"
-          B: "You're an elf"
+          A: "You're an elf"
+          B: "You're a wizard"
           C: "You're a Muggle"
           D: "You're a giant"
   - text: "Quel animal Harry libère-t-il au zoo ?"
     answers:
-      A: "un serpent"
+      A: "un hibou"
       B: "un lion"
       C: "un éléphant"
-      D: "un hibou"
-    correctAnswer: "A"
+      D: "un serpent"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which animal does Harry free at the zoo?"
         answers:
-          A: "a snake"
+          A: "an owl"
           B: "a lion"
           C: "an elephant"
-          D: "an owl"
+          D: "a snake"
   - text: "Chez quel fabricant Harry achète-t-il sa baguette ?"
     answers:
-      A: "Ollivander"
+      A: "Weasley"
       B: "Gringotts"
-      C: "Weasley"
+      C: "Ollivander"
       D: "Scamander"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "At which maker does Harry buy his wand?"
         answers:
-          A: "Ollivander"
+          A: "Weasley"
           B: "Gringotts"
-          C: "Weasley"
+          C: "Ollivander"
           D: "Scamander"
   - text: "Que contient le cœur de la baguette de Harry ?"
     answers:
@@ -799,63 +799,63 @@ questions:
           D: "the Ministry"
   - text: "Quel objet Hagrid récupère-t-il au coffre 713 ?"
     answers:
-      A: "la Pierre Philosophale"
-      B: "une baguette"
+      A: "une baguette"
+      B: "la Pierre Philosophale"
       C: "un balai"
       D: "un miroir"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What does Hagrid collect from vault 713?"
         answers:
-          A: "the Philosopher's Stone"
-          B: "a wand"
+          A: "a wand"
+          B: "the Philosopher's Stone"
           C: "a broom"
           D: "a mirror"
   - text: "Comment franchit-on le mur du quai 9¾ ?"
     answers:
-      A: "en le traversant"
+      A: "avec une clé"
       B: "avec un mot de passe"
       C: "en volant"
-      D: "avec une clé"
-    correctAnswer: "A"
+      D: "en le traversant"
+    correctAnswer: "D"
     translations:
       en:
         text: "How do you cross the wall to Platform 9¾?"
         answers:
-          A: "by walking through it"
+          A: "with a key"
           B: "with a password"
           C: "by flying"
-          D: "with a key"
+          D: "by walking through it"
   - text: "Quel goûter Harry découvre-t-il dans le train ?"
     answers:
-      A: "les Chocogrenouilles"
+      A: "les Chaudrons"
       B: "les Dragées Surprises"
-      C: "les Chaudrons"
+      C: "les Chocogrenouilles"
       D: "les Berlingots"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which treat does Harry discover on the train?"
         answers:
-          A: "Chocolate Frogs"
+          A: "Cauldron Cakes"
           B: "Bertie Bott's Beans"
-          C: "Cauldron Cakes"
+          C: "Chocolate Frogs"
           D: "Fizzing Whizzbees"
   - text: "Quel chapeau répartit les élèves entre les maisons ?"
     answers:
-      A: "le Choixpeau magique"
+      A: "le chapeau de Hagrid"
       B: "le chapeau de Dumbledore"
-      C: "le chapeau de Hagrid"
+      C: "le Choixpeau magique"
       D: "le chapeau de Merlin"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which hat sorts students into houses?"
         answers:
-          A: "the Sorting Hat"
+          A: "Hagrid's hat"
           B: "Dumbledore's hat"
-          C: "Hagrid's hat"
+          C: "the Sorting Hat"
           D: "Merlin's hat"
   - text: "Dans quelle maison Harry est-il envoyé ?"
     answers:
@@ -874,18 +874,18 @@ questions:
           D: "Hufflepuff"
   - text: "Quel cours le professeur Rogue enseigne-t-il ?"
     answers:
-      A: "les Potions"
+      A: "les Sortilèges"
       B: "la Métamorphose"
-      C: "les Sortilèges"
+      C: "les Potions"
       D: "l'Histoire"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which subject does Professor Snape teach?"
         answers:
-          A: "Potions"
+          A: "Charms"
           B: "Transfiguration"
-          C: "Charms"
+          C: "Potions"
           D: "History"
   - text: "Quel cours McGonagall enseigne-t-elle ?"
     answers:
@@ -904,47 +904,47 @@ questions:
           D: "Flying"
   - text: "Quelle créature à trois têtes garde la trappe ?"
     answers:
-      A: "Touffu"
-      B: "Norbert"
+      A: "Norbert"
+      B: "Touffu"
       C: "Firenze"
       D: "Buck"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which three-headed creature guards the trapdoor?"
         answers:
-          A: "Fluffy"
-          B: "Norbert"
+          A: "Norbert"
+          B: "Fluffy"
           C: "Firenze"
           D: "Buckbeak"
   - text: "Quel objet magique rend invisible ?"
     answers:
-      A: "la Cape d'invisibilité"
+      A: "le Retourneur de Temps"
       B: "le Miroir de Riséd"
       C: "la Pierre Philosophale"
-      D: "le Retourneur de Temps"
-    correctAnswer: "A"
+      D: "la Cape d'invisibilité"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which magical object makes you invisible?"
         answers:
-          A: "the Invisibility Cloak"
+          A: "the Time-Turner"
           B: "the Mirror of Erised"
           C: "the Philosopher's Stone"
-          D: "the Time-Turner"
+          D: "the Invisibility Cloak"
   - text: "Qui offre la Cape d'invisibilité à Harry ?"
     answers:
-      A: "Dumbledore"
-      B: "Hagrid"
+      A: "Hagrid"
+      B: "Dumbledore"
       C: "Rogue"
       D: "McGonagall"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who gives Harry the Invisibility Cloak?"
         answers:
-          A: "Dumbledore"
-          B: "Hagrid"
+          A: "Hagrid"
+          B: "Dumbledore"
           C: "Snape"
           D: "McGonagall"
   - text: "Quel miroir montre le désir le plus profond ?"
@@ -964,32 +964,32 @@ questions:
           D: "the black mirror"
   - text: "Que voit Harry dans le Miroir de Riséd ?"
     answers:
-      A: "sa famille"
+      A: "un balai"
       B: "Dumbledore"
       C: "de l'argent"
-      D: "un balai"
-    correctAnswer: "A"
+      D: "sa famille"
+    correctAnswer: "D"
     translations:
       en:
         text: "What does Harry see in the Mirror of Erised?"
         answers:
-          A: "his family"
+          A: "a broom"
           B: "Dumbledore"
           C: "money"
-          D: "a broom"
+          D: "his family"
   - text: "Qui est l'alchimiste lié à la Pierre ?"
     answers:
-      A: "Nicolas Flamel"
-      B: "Albus Dumbledore"
+      A: "Albus Dumbledore"
+      B: "Nicolas Flamel"
       C: "Gellert Grindelwald"
       D: "Newt Scamander"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who is the alchemist linked to the Stone?"
         answers:
-          A: "Nicolas Flamel"
-          B: "Albus Dumbledore"
+          A: "Albus Dumbledore"
+          B: "Nicolas Flamel"
           C: "Gellert Grindelwald"
           D: "Newt Scamander"
   - text: "Quelle plante étouffe ceux qui la touchent ?"
@@ -1009,17 +1009,17 @@ questions:
           D: "Dittany"
   - text: "Quel sport se joue sur des balais à Poudlard ?"
     answers:
-      A: "le Quidditch"
-      B: "le Souafle"
+      A: "le Souafle"
+      B: "le Quidditch"
       C: "le Moldu-ball"
       D: "le Duello"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which broomstick sport is played at Hogwarts?"
         answers:
-          A: "Quidditch"
-          B: "Quodpot"
+          A: "Quodpot"
+          B: "Quidditch"
           C: "Muggle-ball"
           D: "Dueling"
   - text: "Quel poste Harry occupe-t-il au Quidditch ?"
@@ -1039,123 +1039,123 @@ questions:
           D: "Beater"
   - text: "Quel petit objet doré l'Attrapeur doit-il saisir ?"
     answers:
-      A: "le Vif d'or"
+      A: "le Sombral"
       B: "le Souafle"
       C: "le Cognard"
-      D: "le Sombral"
-    correctAnswer: "A"
+      D: "le Vif d'or"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which small golden object must the Seeker catch?"
         answers:
-          A: "the Golden Snitch"
+          A: "the Bludger"
           B: "the Quaffle"
           C: "a Bludger"
-          D: "the Bludger"
+          D: "the Golden Snitch"
   - text: "Comment Harry attrape-t-il le Vif d'or lors de son premier match ?"
     answers:
-      A: "avec sa bouche"
-      B: "avec sa main"
+      A: "avec sa main"
+      B: "avec sa bouche"
       C: "avec son balai"
       D: "avec sa baguette"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "How does Harry catch the Snitch in his first match?"
         answers:
-          A: "with his mouth"
-          B: "with his hand"
+          A: "with his hand"
+          B: "with his mouth"
           C: "with his broom"
           D: "with his wand"
   - text: "Quelle créature envahit les toilettes à Halloween ?"
     answers:
-      A: "un troll"
+      A: "un loup-garou"
       B: "un dragon"
       C: "un géant"
-      D: "un loup-garou"
-    correctAnswer: "A"
+      D: "un troll"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which creature invades the toilets on Halloween?"
         answers:
-          A: "a troll"
+          A: "a werewolf"
           B: "a dragon"
           C: "a giant"
-          D: "a werewolf"
+          D: "a troll"
   - text: "Quel sort Ron utilise-t-il contre le troll ?"
     answers:
-      A: "Wingardium Leviosa"
+      A: "Petrificus Totalus"
       B: "Expelliarmus"
       C: "Lumos"
-      D: "Petrificus Totalus"
-    correctAnswer: "A"
+      D: "Wingardium Leviosa"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which spell does Ron use against the troll?"
         answers:
-          A: "Wingardium Leviosa"
+          A: "Petrificus Totalus"
           B: "Expelliarmus"
           C: "Lumos"
-          D: "Petrificus Totalus"
+          D: "Wingardium Leviosa"
   - text: "Quel est le prénom du bébé dragon de Hagrid ?"
     answers:
-      A: "Norbert"
+      A: "Buck"
       B: "Fang"
-      C: "Buck"
+      C: "Norbert"
       D: "Aragog"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What is the name of Hagrid's baby dragon?"
         answers:
-          A: "Norbert"
+          A: "Buckbeak"
           B: "Fang"
-          C: "Buckbeak"
+          C: "Norbert"
           D: "Aragog"
   - text: "Quelle espèce est le dragon de Hagrid ?"
     answers:
-      A: "un dragon de Norvège"
+      A: "un dragon hongrois"
       B: "un dragon chinois"
-      C: "un dragon hongrois"
+      C: "un dragon de Norvège"
       D: "un dragon gallois"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What species is Hagrid's dragon?"
         answers:
-          A: "a Norwegian Ridgeback"
+          A: "a Hungarian Horntail"
           B: "a Chinese Fireball"
-          C: "a Hungarian Horntail"
+          C: "a Norwegian Ridgeback"
           D: "a Welsh Green"
   - text: "Qui est le concierge de Poudlard ?"
     answers:
-      A: "Argus Rusard"
+      A: "Quirrell"
       B: "Rogue"
-      C: "Quirrell"
+      C: "Argus Rusard"
       D: "Dumbledore"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who is the Hogwarts caretaker?"
         answers:
-          A: "Argus Filch"
+          A: "Quirrell"
           B: "Snape"
-          C: "Quirrell"
+          C: "Argus Filch"
           D: "Dumbledore"
   - text: "Comment s'appelle le chat de Rusard ?"
     answers:
-      A: "Miss Teigne"
+      A: "Croûtard"
       B: "Minou"
-      C: "Croûtard"
+      C: "Miss Teigne"
       D: "Pattenrond"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What is Filch's cat called?"
         answers:
-          A: "Mrs Norris"
+          A: "Scabbers"
           B: "Whiskers"
-          C: "Scabbers"
+          C: "Mrs Norris"
           D: "Crookshanks"
   - text: "Quel centaure sauve Harry dans la Forêt interdite ?"
     answers:
@@ -1174,62 +1174,62 @@ questions:
           D: "Magorian"
   - text: "Que boit Voldemort dans la Forêt interdite ?"
     answers:
-      A: "du sang de licorne"
+      A: "du venin"
       B: "de l'eau"
-      C: "du venin"
+      C: "du sang de licorne"
       D: "du sang de dragon"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What does Voldemort drink in the Forbidden Forest?"
         answers:
-          A: "unicorn blood"
+          A: "venom"
           B: "water"
-          C: "venom"
+          C: "unicorn blood"
           D: "dragon blood"
   - text: "Qui se cache sous le turban de Quirrell ?"
     answers:
-      A: "Voldemort"
-      B: "Drago"
+      A: "Drago"
+      B: "Voldemort"
       C: "Rogue"
       D: "un elfe"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who hides under Quirrell's turban?"
         answers:
-          A: "Voldemort"
-          B: "Draco"
+          A: "Draco"
+          B: "Voldemort"
           C: "Snape"
           D: "an elf"
   - text: "Qui a mis en place les protections de la Pierre ?"
     answers:
-      A: "les professeurs de Poudlard"
-      B: "Hagrid seul"
+      A: "Hagrid seul"
+      B: "les professeurs de Poudlard"
       C: "les élèves"
       D: "le Ministère"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who set up the Stone's protections?"
         answers:
-          A: "the Hogwarts teachers"
-          B: "Hagrid alone"
+          A: "Hagrid alone"
+          B: "the Hogwarts teachers"
           C: "the students"
           D: "the Ministry"
   - text: "Quel jeu géant faut-il gagner pour avancer ?"
     answers:
-      A: "les échecs"
-      B: "les dames"
+      A: "les dames"
+      B: "les échecs"
       C: "un puzzle"
       D: "un duel"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which giant game must be won to advance?"
         answers:
-          A: "chess"
-          B: "checkers"
+          A: "checkers"
+          B: "chess"
           C: "a puzzle"
           D: "a duel"
   - text: "Qui se sacrifie lors de la partie d'échecs géante ?"
@@ -1249,62 +1249,62 @@ questions:
           D: "Neville"
   - text: "Pourquoi la Pierre apparaît-elle à Harry dans le miroir ?"
     answers:
-      A: "car il veut la trouver sans l'utiliser"
+      A: "car il a la Cape"
       B: "car il est le plus fort"
       C: "car il connaît Dumbledore"
-      D: "car il a la Cape"
-    correctAnswer: "A"
+      D: "car il veut la trouver sans l'utiliser"
+    correctAnswer: "D"
     translations:
       en:
         text: "Why does the Stone appear to Harry in the mirror?"
         answers:
-          A: "because he wants to find it but not use it"
+          A: "because he has the Cloak"
           B: "because he is the strongest"
           C: "because he knows Dumbledore"
-          D: "because he has the Cloak"
+          D: "because he wants to find it but not use it"
   - text: "Que devient la Pierre Philosophale à la fin ?"
     answers:
-      A: "elle est détruite"
+      A: "elle est cachée"
       B: "elle est volée"
-      C: "elle est cachée"
+      C: "elle est détruite"
       D: "elle est vendue"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What happens to the Philosopher's Stone at the end?"
         answers:
-          A: "it is destroyed"
+          A: "it is hidden"
           B: "it is stolen"
-          C: "it is hidden"
+          C: "it is destroyed"
           D: "it is sold"
   - text: "Quelle maison remporte la Coupe des maisons ?"
     answers:
-      A: "Gryffondor"
+      A: "Serdaigle"
       B: "Serpentard"
-      C: "Serdaigle"
+      C: "Gryffondor"
       D: "Poufsouffle"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which house wins the House Cup?"
         answers:
-          A: "Gryffindor"
+          A: "Ravenclaw"
           B: "Slytherin"
-          C: "Ravenclaw"
+          C: "Gryffindor"
           D: "Hufflepuff"
   - text: "Quel élève gagne des points décisifs pour Gryffondor ?"
     answers:
-      A: "Neville"
-      B: "Drago"
+      A: "Drago"
+      B: "Neville"
       C: "Seamus"
       D: "Dean"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which student earns decisive points for Gryffindor?"
         answers:
-          A: "Neville"
-          B: "Draco"
+          A: "Draco"
+          B: "Neville"
           C: "Seamus"
           D: "Dean"
   - text: "Quel animal livre le courrier des sorciers ?"
@@ -1324,32 +1324,32 @@ questions:
           D: "magpies"
   - text: "Quel cadeau de Noël Harry reçoit-il d'un inconnu ?"
     answers:
-      A: "la Cape d'invisibilité"
+      A: "un livre"
       B: "un balai"
       C: "une baguette"
-      D: "un livre"
-    correctAnswer: "A"
+      D: "la Cape d'invisibilité"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which Christmas gift does Harry receive from an unknown sender?"
         answers:
-          A: "the Invisibility Cloak"
+          A: "a book"
           B: "a broom"
           C: "a wand"
-          D: "a book"
+          D: "the Invisibility Cloak"
   - text: "Quel balai Harry reçoit-il après son premier match ?"
     answers:
-      A: "un Nimbus 2000"
-      B: "un Éclair de Feu"
+      A: "un Éclair de Feu"
+      B: "un Nimbus 2000"
       C: "un Comète"
       D: "un Balai-Éclair"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which broom does Harry receive after his first match?"
         answers:
-          A: "a Nimbus 2000"
-          B: "a Firebolt"
+          A: "a Firebolt"
+          B: "a Nimbus 2000"
           C: "a Comet"
           D: "a Cleansweep"
   - text: "Quelle langue Harry comprend-il sans l'avoir apprise ?"
@@ -1369,64 +1369,64 @@ questions:
           D: "Runic"
   - text: "Quel est le nom du rat de Ron ?"
     answers:
-      A: "Croûtard"
+      A: "Norbert"
       B: "Pattenrond"
       C: "Miss Teigne"
-      D: "Norbert"
-    correctAnswer: "A"
+      D: "Croûtard"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is the name of Ron's rat?"
         answers:
-          A: "Scabbers"
+          A: "Norbert"
           B: "Crookshanks"
           C: "Mrs Norris"
-          D: "Norbert"
+          D: "Scabbers"
   - text: "Quel est le nom du phénix de Dumbledore ?"
     answers:
-      A: "Fumseck"
-      B: "Firenze"
+      A: "Firenze"
+      B: "Fumseck"
       C: "Buck"
       D: "Norbert"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What is the name of Dumbledore's phoenix?"
         answers:
-          A: "Fawkes"
-          B: "Firenze"
+          A: "Firenze"
+          B: "Fawkes"
           C: "Buckbeak"
           D: "Norbert"
   - text: "Qui garde l'entrée de la Chambre des Secrets ?"
     answers:
-      A: "un basilic"
+      A: "un dragon"
       B: "un troll"
-      C: "un dragon"
+      C: "un basilic"
       D: "un loup-garou"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What guards the entrance of the Chamber of Secrets?"
         answers:
-          A: "a basilisk"
+          A: "a dragon"
           B: "a troll"
-          C: "a dragon"
+          C: "a basilisk"
           D: "a werewolf"
   - text: "Quel titre porte le premier film en français ?"
     answers:
-      A: "Harry Potter à l'école des sorciers"
+      A: "Harry Potter et l'Ordre du Phénix"
       B: "Harry Potter et la Coupe de feu"
       C: "Harry Potter et le Prince de sang-mêlé"
-      D: "Harry Potter et l'Ordre du Phénix"
-    correctAnswer: "A"
+      D: "Harry Potter à l'école des sorciers"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is the title of the first film in French?"
         answers:
-          A: "Harry Potter à l'école des sorciers"
+          A: "Harry Potter et l'Ordre du Phénix"
           B: "Harry Potter et la Coupe de feu"
           C: "Harry Potter et le Prince de sang-mêlé"
-          D: "Harry Potter et l'Ordre du Phénix"
+          D: "Harry Potter à l'école des sorciers"
   - text: "Quel objet magique Harry utilise-t-il pour la première fois à Noël ?"
     answers:
       A: "la Cape d'invisibilité"
@@ -1459,48 +1459,48 @@ questions:
           D: "Pigwidgeon"
   - text: "Quel personnage enseigne le Vol sur balai ?"
     answers:
-      A: "Mme Bibine"
+      A: "Rogue"
       B: "McGonagall"
-      C: "Rogue"
+      C: "Mme Bibine"
       D: "Chourave"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which character teaches Flying?"
         answers:
-          A: "Madam Hooch"
+          A: "Snape"
           B: "McGonagall"
-          C: "Snape"
+          C: "Madam Hooch"
           D: "Sprout"
   - text: "Quel est le vrai prénom du professeur Rogue ?"
     answers:
-      A: "Severus"
-      B: "Sirius"
+      A: "Sirius"
+      B: "Severus"
       C: "Sylvestre"
       D: "Salazar"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What is Professor Snape's first name?"
         answers:
-          A: "Severus"
-          B: "Sirius"
+          A: "Sirius"
+          B: "Severus"
           C: "Sylvester"
           D: "Salazar"
   - text: "Quelle maison Drago Malefoy rejoint-il ?"
     answers:
-      A: "Serpentard"
+      A: "Serdaigle"
       B: "Gryffondor"
-      C: "Serdaigle"
+      C: "Serpentard"
       D: "Poufsouffle"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which house does Draco Malfoy join?"
         answers:
-          A: "Slytherin"
+          A: "Ravenclaw"
           B: "Gryffindor"
-          C: "Ravenclaw"
+          C: "Slytherin"
           D: "Hufflepuff"
   - text: "Quelle est l'école de sorcellerie de Harry ?"
     answers:
@@ -1519,31 +1519,31 @@ questions:
           D: "Ilvermorny"
   - text: "Qui sont les jumeaux de la famille Weasley ?"
     answers:
-      A: "Fred et George"
-      B: "Percy et Ron"
+      A: "Percy et Ron"
+      B: "Fred et George"
       C: "Bill et Charlie"
       D: "Ginny et Ron"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who are the Weasley twins?"
         answers:
-          A: "Fred and George"
-          B: "Percy and Ron"
+          A: "Percy and Ron"
+          B: "Fred and George"
           C: "Bill and Charlie"
           D: "Ginny and Ron"
   - text: "Quel est le prénom de la petite sœur de Ron ?"
     answers:
-      A: "Ginny"
+      A: "Cho"
       B: "Hermione"
       C: "Luna"
-      D: "Cho"
-    correctAnswer: "A"
+      D: "Ginny"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is the name of Ron's little sister?"
         answers:
-          A: "Ginny"
+          A: "Cho"
           B: "Hermione"
           C: "Luna"
-          D: "Cho"
+          D: "Ginny"

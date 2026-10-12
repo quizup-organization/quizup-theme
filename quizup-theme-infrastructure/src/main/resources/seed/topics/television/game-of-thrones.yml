@@ -10,18 +10,18 @@ questions:
   - text: "Qui a créé la série Game of Thrones ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/David_Benioff_%26_D._B._Weiss_%2827963816763%29.jpg?width=800"
     answers:
-      A: "David Benioff et D. B. Weiss"
+      A: "J. J. Abrams et Damon Lindelof"
       B: "Vince Gilligan et Peter Gould"
-      C: "J. J. Abrams et Damon Lindelof"
+      C: "David Benioff et D. B. Weiss"
       D: "David Simon et Ed Burns"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who created the series Game of Thrones?"
         answers:
-          A: "David Benioff et D. B. Weiss"
+          A: "J. J. Abrams et Damon Lindelof"
           B: "Vince Gilligan et Peter Gould"
-          C: "J. J. Abrams et Damon Lindelof"
+          C: "David Benioff et D. B. Weiss"
           D: "David Simon et Ed Burns"
   - text: "Sur quelle chaîne américaine la série a-t-elle été diffusée ?"
     answers:
@@ -72,93 +72,93 @@ questions:
   - text: "En quelle année la série a-t-elle été diffusée pour la première fois ?"
     answers:
       A: "2009"
-      B: "2011"
-      C: "2013"
+      B: "2013"
+      C: "2011"
       D: "2008"
-    correctAnswer: "B"
+    correctAnswer: "C"
     translations:
       en:
         text: "In which year did the series first air?"
         answers:
           A: "2009"
-          B: "2011"
-          C: "2013"
+          B: "2013"
+          C: "2011"
           D: "2008"
   - text: "En quelle année le dernier épisode a-t-il été diffusé ?"
     answers:
       A: "2017"
-      B: "2018"
-      C: "2019"
+      B: "2019"
+      C: "2018"
       D: "2020"
-    correctAnswer: "C"
+    correctAnswer: "B"
     translations:
       en:
         text: "In which year did the final episode air?"
         answers:
           A: "2017"
-          B: "2018"
-          C: "2019"
+          B: "2019"
+          C: "2018"
           D: "2020"
   - text: "Combien de saisons compte la série ?"
     answers:
-      A: "6"
+      A: "8"
       B: "7"
-      C: "8"
+      C: "6"
       D: "9"
-    correctAnswer: "C"
+    correctAnswer: "A"
     translations:
       en:
         text: "How many seasons does the series have?"
         answers:
-          A: "6"
+          A: "8"
           B: "7"
-          C: "8"
+          C: "6"
           D: "9"
   - text: "Combien d'épisodes compte la série ?"
     answers:
       A: "67"
-      B: "73"
+      B: "62"
       C: "80"
-      D: "62"
-    correctAnswer: "B"
+      D: "73"
+    correctAnswer: "D"
     translations:
       en:
         text: "How many episodes does the series have?"
         answers:
           A: "67"
-          B: "73"
+          B: "62"
           C: "80"
-          D: "62"
+          D: "73"
   - text: "Qui a composé la musique de la série ?"
     answers:
-      A: "Ramin Djawadi"
+      A: "Bear McCreary"
       B: "Hans Zimmer"
-      C: "Bear McCreary"
+      C: "Ramin Djawadi"
       D: "Max Richter"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who composed the music for the series?"
         answers:
-          A: "Ramin Djawadi"
+          A: "Bear McCreary"
           B: "Hans Zimmer"
-          C: "Bear McCreary"
+          C: "Ramin Djawadi"
           D: "Max Richter"
   - text: "Quel instrument domine le thème principal de la série ?"
     answers:
       A: "Le violon"
-      B: "Le violoncelle"
+      B: "Le piano"
       C: "La harpe"
-      D: "Le piano"
-    correctAnswer: "B"
+      D: "Le violoncelle"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which instrument dominates the series' main theme?"
         answers:
           A: "The violin"
-          B: "The cello"
+          B: "The piano"
           C: "The harp"
-          D: "The piano"
+          D: "The cello"
   - text: "Quel prix la série a-t-elle remporté pour sa dernière saison en 2019 ?"
     answers:
       A: "L'Oscar de la meilleure série"
@@ -191,109 +191,109 @@ questions:
           D: "Vikings"
   - text: "Quelle est la devise de la maison Stark ?"
     answers:
-      A: "L'hiver vient"
+      A: "Notre est la fureur"
       B: "Feu et sang"
       C: "Écoutez-moi rugir"
-      D: "Notre est la fureur"
-    correctAnswer: "A"
+      D: "L'hiver vient"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is House Stark's motto?"
         answers:
-          A: "Winter is Coming"
+          A: "Ours is the Fury"
           B: "Fire and Blood"
           C: "Hear Me Roar"
-          D: "Ours is the Fury"
+          D: "Winter is Coming"
   - text: "Quelle est la devise de la maison Lannister ?"
     answers:
       A: "L'hiver vient"
-      B: "Écoutez-moi rugir"
+      B: "Famille, devoir, honneur"
       C: "Feu et sang"
-      D: "Famille, devoir, honneur"
-    correctAnswer: "B"
+      D: "Écoutez-moi rugir"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is House Lannister's motto?"
         answers:
           A: "Winter is Coming"
-          B: "Hear Me Roar"
+          B: "Family, Duty, Honor"
           C: "Fire and Blood"
-          D: "Family, Duty, Honor"
+          D: "Hear Me Roar"
   - text: "Quelle est la devise de la maison Targaryen ?"
     answers:
-      A: "Feu et sang"
+      A: "L'hiver vient"
       B: "Notre est la fureur"
-      C: "L'hiver vient"
+      C: "Feu et sang"
       D: "Écoutez-moi rugir"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What is House Targaryen's motto?"
         answers:
-          A: "Fire and Blood"
+          A: "Winter is Coming"
           B: "Ours is the Fury"
-          C: "Winter is Coming"
+          C: "Fire and Blood"
           D: "Hear Me Roar"
   - text: "Quel animal figure sur l'emblème de la maison Stark ?"
     answers:
       A: "Le lion"
-      B: "Le loup-garou"
+      B: "Le cerf"
       C: "Le dragon"
-      D: "Le cerf"
-    correctAnswer: "B"
+      D: "Le loup-garou"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which animal appears on House Stark's sigil?"
         answers:
           A: "The lion"
-          B: "The direwolf"
+          B: "The stag"
           C: "The dragon"
-          D: "The stag"
+          D: "The direwolf"
   - text: "Quel animal figure sur l'emblème de la maison Lannister ?"
     answers:
-      A: "Le loup"
+      A: "Le lion"
       B: "Le kraken"
-      C: "Le lion"
+      C: "Le loup"
       D: "L'aigle"
-    correctAnswer: "C"
+    correctAnswer: "A"
     translations:
       en:
         text: "Which animal appears on House Lannister's sigil?"
         answers:
-          A: "The wolf"
+          A: "The lion"
           B: "The kraken"
-          C: "The lion"
+          C: "The wolf"
           D: "The eagle"
   - text: "Quel animal figure sur l'emblème de la maison Targaryen ?"
     answers:
-      A: "Un dragon à trois têtes"
+      A: "Un cerf couronné"
       B: "Un aigle à deux têtes"
       C: "Un loup blanc"
-      D: "Un cerf couronné"
-    correctAnswer: "A"
+      D: "Un dragon à trois têtes"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which animal appears on House Targaryen's sigil?"
         answers:
-          A: "A three-headed dragon"
+          A: "A crowned stag"
           B: "A two-headed eagle"
           C: "A white wolf"
-          D: "A crowned stag"
+          D: "A three-headed dragon"
   - text: "Quel est le château ancestral de la maison Stark ?"
     answers:
       A: "Casterly Rock"
-      B: "Winterfell"
+      B: "Hautjardin"
       C: "Fort-Dragon"
-      D: "Hautjardin"
-    correctAnswer: "B"
+      D: "Winterfell"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is House Stark's ancestral castle?"
         answers:
           A: "Casterly Rock"
-          B: "Winterfell"
+          B: "Highgarden"
           C: "Dragonstone"
-          D: "Highgarden"
+          D: "Winterfell"
   - text: "Quel est le fief ancestral de la maison Lannister ?"
     answers:
       A: "Casterly Rock"
@@ -311,78 +311,78 @@ questions:
           D: "Highgarden"
   - text: "Quelle forteresse est le fief historique des Targaryen à Westeros ?"
     answers:
-      A: "Fort-Dragon"
+      A: "Pyk"
       B: "Accalmie"
-      C: "Pyk"
+      C: "Fort-Dragon"
       D: "Corcolline"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which fortress is the Targaryens' historic seat in Westeros?"
         answers:
-          A: "Dragonstone"
+          A: "Pyke"
           B: "Storm's End"
-          C: "Pyke"
+          C: "Dragonstone"
           D: "Harrenhal"
   - text: "Quelle maison a pour devise « Notre est la fureur » ?"
     answers:
-      A: "Baratheon"
-      B: "Greyjoy"
+      A: "Greyjoy"
+      B: "Baratheon"
       C: "Tully"
       D: "Tyrell"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which house has the motto 'Ours is the Fury'?"
         answers:
-          A: "Baratheon"
-          B: "Greyjoy"
+          A: "Greyjoy"
+          B: "Baratheon"
           C: "Tully"
           D: "Tyrell"
   - text: "Quelle maison règne sur les îles de Fer ?"
     answers:
-      A: "Greyjoy"
-      B: "Tully"
+      A: "Tully"
+      B: "Greyjoy"
       C: "Martell"
       D: "Arryn"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which house rules the Iron Islands?"
         answers:
-          A: "Greyjoy"
-          B: "Tully"
+          A: "Tully"
+          B: "Greyjoy"
           C: "Martell"
           D: "Arryn"
   - text: "Quelle maison possède le château de Hautjardin ?"
     answers:
-      A: "Tyrell"
+      A: "Florent"
       B: "Tarly"
       C: "Hightower"
-      D: "Florent"
-    correctAnswer: "A"
+      D: "Tyrell"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which house holds the castle of Highgarden?"
         answers:
-          A: "Tyrell"
+          A: "Florent"
           B: "Tarly"
           C: "Hightower"
-          D: "Florent"
+          D: "Tyrell"
   - text: "Quelle maison gouverne la principauté de Dorne ?"
     answers:
-      A: "Martell"
+      A: "Yronwood"
       B: "Dayne"
-      C: "Yronwood"
+      C: "Martell"
       D: "Blackmont"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which house rules the principality of Dorne?"
         answers:
-          A: "Martell"
+          A: "Yronwood"
           B: "Dayne"
-          C: "Yronwood"
+          C: "Martell"
           D: "Blackmont"
   - text: "Quel est le siège de la maison Arryn ?"
     answers:
@@ -416,128 +416,128 @@ questions:
           D: "A sun"
   - text: "Quelle maison a pour devise « Famille, devoir, honneur » ?"
     answers:
-      A: "Tully"
+      A: "Mormont"
       B: "Arryn"
-      C: "Mormont"
+      C: "Tully"
       D: "Bolton"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which house has the motto 'Family, Duty, Honor'?"
         answers:
-          A: "Tully"
+          A: "Mormont"
           B: "Arryn"
-          C: "Mormont"
+          C: "Tully"
           D: "Bolton"
   - text: "Quel est le fief de la maison Bolton ?"
     answers:
-      A: "Fort-Levant"
+      A: "Karhold"
       B: "Winterfell"
       C: "Pyk"
-      D: "Karhold"
-    correctAnswer: "A"
+      D: "Fort-Levant"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is House Bolton's seat?"
         answers:
-          A: "The Dreadfort"
+          A: "Karhold"
           B: "Winterfell"
           C: "Pyke"
-          D: "Karhold"
+          D: "The Dreadfort"
   - text: "Quelle maison a pour emblème une rose dorée ?"
     answers:
-      A: "Tyrell"
-      B: "Tarly"
+      A: "Tarly"
+      B: "Tyrell"
       C: "Bolton"
       D: "Frey"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which house has a golden rose as its sigil?"
         answers:
-          A: "Tyrell"
-          B: "Tarly"
+          A: "Tarly"
+          B: "Tyrell"
           C: "Bolton"
           D: "Frey"
   - text: "Quel acteur incarne Tyrion Lannister ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Dinklage_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Peter Dinklage"
-      B: "Nikolaj Coster-Waldau"
+      A: "Nikolaj Coster-Waldau"
+      B: "Peter Dinklage"
       C: "Liam Cunningham"
       D: "Conleth Hill"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actor plays Tyrion Lannister?"
         answers:
-          A: "Peter Dinklage"
-          B: "Nikolaj Coster-Waldau"
+          A: "Nikolaj Coster-Waldau"
+          B: "Peter Dinklage"
           C: "Liam Cunningham"
           D: "Conleth Hill"
   - text: "Quelle actrice incarne Daenerys Targaryen ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Emilia_Clarke_Comic_Con_2011_%28cropped%29.jpg?width=800"
     answers:
-      A: "Emilia Clarke"
+      A: "Lena Headey"
       B: "Sophie Turner"
       C: "Natalie Dormer"
-      D: "Lena Headey"
-    correctAnswer: "A"
+      D: "Emilia Clarke"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which actress plays Daenerys Targaryen?"
         answers:
-          A: "Emilia Clarke"
+          A: "Lena Headey"
           B: "Sophie Turner"
           C: "Natalie Dormer"
-          D: "Lena Headey"
+          D: "Emilia Clarke"
   - text: "Quel acteur incarne Jon Snow ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Kit_Harington_2011_cropped.jpg?width=800"
     answers:
-      A: "Kit Harington"
+      A: "Isaac Hempstead Wright"
       B: "Richard Madden"
       C: "Alfie Allen"
-      D: "Isaac Hempstead Wright"
-    correctAnswer: "A"
+      D: "Kit Harington"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which actor plays Jon Snow?"
         answers:
-          A: "Kit Harington"
+          A: "Isaac Hempstead Wright"
           B: "Richard Madden"
           C: "Alfie Allen"
-          D: "Isaac Hempstead Wright"
+          D: "Kit Harington"
   - text: "Quelle actrice incarne Cersei Lannister ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Lena_headey_gcc_2019.jpg?width=800"
     answers:
-      A: "Lena Headey"
+      A: "Diana Rigg"
       B: "Michelle Fairley"
       C: "Carice van Houten"
-      D: "Diana Rigg"
-    correctAnswer: "A"
+      D: "Lena Headey"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which actress plays Cersei Lannister?"
         answers:
-          A: "Lena Headey"
+          A: "Diana Rigg"
           B: "Michelle Fairley"
           C: "Carice van Houten"
-          D: "Diana Rigg"
+          D: "Lena Headey"
   - text: "Quelle actrice incarne Sansa Stark ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sophie_Turner_%2840553144273%29_%28cropped%29.jpg?width=800"
     answers:
-      A: "Sophie Turner"
+      A: "Emilia Clarke"
       B: "Maisie Williams"
-      C: "Emilia Clarke"
+      C: "Sophie Turner"
       D: "Natalie Dormer"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actress plays Sansa Stark?"
         answers:
-          A: "Sophie Turner"
+          A: "Emilia Clarke"
           B: "Maisie Williams"
-          C: "Emilia Clarke"
+          C: "Sophie Turner"
           D: "Natalie Dormer"
   - text: "Quelle actrice incarne Arya Stark ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Maisie_Williams_by_Gage_Skidmore_3.jpg?width=800"
@@ -558,66 +558,66 @@ questions:
   - text: "Quel acteur incarne Jaime Lannister ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Nikolaj_Coster-Waldau_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Nikolaj Coster-Waldau"
-      B: "Peter Dinklage"
+      A: "Peter Dinklage"
+      B: "Nikolaj Coster-Waldau"
       C: "Charles Dance"
       D: "Iain Glen"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actor plays Jaime Lannister?"
         answers:
-          A: "Nikolaj Coster-Waldau"
-          B: "Peter Dinklage"
+          A: "Peter Dinklage"
+          B: "Nikolaj Coster-Waldau"
           C: "Charles Dance"
           D: "Iain Glen"
   - text: "Quel acteur incarne Khal Drogo ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jason_Momoa_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Jason Momoa"
+      A: "Dave Bautista"
       B: "Manu Bennett"
-      C: "Dave Bautista"
+      C: "Jason Momoa"
       D: "Karl Urban"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actor plays Khal Drogo?"
         answers:
-          A: "Jason Momoa"
+          A: "Dave Bautista"
           B: "Manu Bennett"
-          C: "Dave Bautista"
+          C: "Jason Momoa"
           D: "Karl Urban"
   - text: "Quelle actrice incarne Brienne de Tarth ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Gwendoline_Christie_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Gwendoline Christie"
+      A: "Carice van Houten"
       B: "Lena Headey"
       C: "Natalie Dormer"
-      D: "Carice van Houten"
-    correctAnswer: "A"
+      D: "Gwendoline Christie"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which actress plays Brienne of Tarth?"
         answers:
-          A: "Gwendoline Christie"
+          A: "Carice van Houten"
           B: "Lena Headey"
           C: "Natalie Dormer"
-          D: "Carice van Houten"
+          D: "Gwendoline Christie"
   - text: "Quel acteur incarne Tywin Lannister ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Dance_2012_%28cropped%29.jpg?width=800"
     answers:
-      A: "Charles Dance"
+      A: "Liam Cunningham"
       B: "Sean Bean"
-      C: "Liam Cunningham"
+      C: "Charles Dance"
       D: "Jerome Flynn"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actor plays Tywin Lannister?"
         answers:
-          A: "Charles Dance"
+          A: "Liam Cunningham"
           B: "Sean Bean"
-          C: "Liam Cunningham"
+          C: "Charles Dance"
           D: "Jerome Flynn"
   - text: "Quelle actrice incarne Margaery Tyrell ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Natalie_Dormer_by_Gage_Skidmore_2.jpg?width=800"
@@ -638,19 +638,19 @@ questions:
   - text: "Quel acteur incarne Jorah Mormont ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Iain_Glen.jpg?width=800"
     answers:
-      A: "Iain Glen"
+      A: "Jerome Flynn"
       B: "Liam Cunningham"
       C: "Rory McCann"
-      D: "Jerome Flynn"
-    correctAnswer: "A"
+      D: "Iain Glen"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which actor plays Jorah Mormont?"
         answers:
-          A: "Iain Glen"
+          A: "Jerome Flynn"
           B: "Liam Cunningham"
           C: "Rory McCann"
-          D: "Jerome Flynn"
+          D: "Iain Glen"
   - text: "Quel acteur incarne Petyr Baelish ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Aidan_Gillen_%28headshot%29.jpg?width=800"
     answers:
@@ -670,51 +670,51 @@ questions:
   - text: "Quel acteur incarne Theon Greyjoy ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Alfie_Allen_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Alfie Allen"
+      A: "Kit Harington"
       B: "Richard Madden"
-      C: "Kit Harington"
+      C: "Alfie Allen"
       D: "Iain Glen"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actor plays Theon Greyjoy?"
         answers:
-          A: "Alfie Allen"
+          A: "Kit Harington"
           B: "Richard Madden"
-          C: "Kit Harington"
+          C: "Alfie Allen"
           D: "Iain Glen"
   - text: "Quel acteur incarne Sandor Clegane, le Limier ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Rory_McCann_SDCC_2014.jpg?width=800"
     answers:
-      A: "Rory McCann"
-      B: "Jerome Flynn"
+      A: "Jerome Flynn"
+      B: "Rory McCann"
       C: "Liam Cunningham"
       D: "Charles Dance"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actor plays Sandor Clegane, the Hound?"
         answers:
-          A: "Rory McCann"
-          B: "Jerome Flynn"
+          A: "Jerome Flynn"
+          B: "Rory McCann"
           C: "Liam Cunningham"
           D: "Charles Dance"
   - text: "Quel acteur incarne Varys ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Conleth_Hill_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Conleth Hill"
+      A: "Kristian Nairn"
       B: "Aidan Gillen"
       C: "Jacob Anderson"
-      D: "Kristian Nairn"
-    correctAnswer: "A"
+      D: "Conleth Hill"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which actor plays Varys?"
         answers:
-          A: "Conleth Hill"
+          A: "Kristian Nairn"
           B: "Aidan Gillen"
           C: "Jacob Anderson"
-          D: "Kristian Nairn"
+          D: "Conleth Hill"
   - text: "Quel acteur incarne Hodor ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Kristian_Nairn_2014.jpg?width=800"
     answers:
@@ -734,50 +734,50 @@ questions:
   - text: "Quel acteur incarne Bran Stark ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Isaac_Hempstead_Wright_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Isaac Hempstead Wright"
+      A: "Dean-Charles Chapman"
       B: "Jack Gleeson"
-      C: "Dean-Charles Chapman"
+      C: "Isaac Hempstead Wright"
       D: "Alfie Allen"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actor plays Bran Stark?"
         answers:
-          A: "Isaac Hempstead Wright"
+          A: "Dean-Charles Chapman"
           B: "Jack Gleeson"
-          C: "Dean-Charles Chapman"
+          C: "Isaac Hempstead Wright"
           D: "Alfie Allen"
   - text: "Quel acteur incarne Ned Stark ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Sean_Bean_September_2015.jpg?width=800"
     answers:
-      A: "Sean Bean"
-      B: "Mark Addy"
+      A: "Mark Addy"
+      B: "Sean Bean"
       C: "Stephen Dillane"
       D: "Liam Cunningham"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actor plays Ned Stark?"
         answers:
-          A: "Sean Bean"
-          B: "Mark Addy"
+          A: "Mark Addy"
+          B: "Sean Bean"
           C: "Stephen Dillane"
           D: "Liam Cunningham"
   - text: "Quelle actrice incarne Catelyn Stark ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Michelle_Fairley_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Michelle Fairley"
+      A: "Carice van Houten"
       B: "Lena Headey"
-      C: "Carice van Houten"
+      C: "Michelle Fairley"
       D: "Diana Rigg"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actress plays Catelyn Stark?"
         answers:
-          A: "Michelle Fairley"
+          A: "Carice van Houten"
           B: "Lena Headey"
-          C: "Carice van Houten"
+          C: "Michelle Fairley"
           D: "Diana Rigg"
   - text: "Quel acteur incarne Robb Stark ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Madden_by_Gage_Skidmore.jpg?width=800"
@@ -830,64 +830,64 @@ questions:
   - text: "Quel acteur incarne Davos Mervault ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Liam_Cunningham_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Liam Cunningham"
-      B: "Iain Glen"
+      A: "Iain Glen"
+      B: "Liam Cunningham"
       C: "Stephen Dillane"
       D: "Conleth Hill"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actor plays Davos Seaworth?"
         answers:
-          A: "Liam Cunningham"
-          B: "Iain Glen"
+          A: "Iain Glen"
+          B: "Liam Cunningham"
           C: "Stephen Dillane"
           D: "Conleth Hill"
   - text: "Quelle actrice incarne Mélisandre ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Carice_van_Houten_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "Carice van Houten"
-      B: "Diana Rigg"
+      A: "Diana Rigg"
+      B: "Carice van Houten"
       C: "Natalie Dormer"
       D: "Lena Headey"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actress plays Melisandre?"
         answers:
-          A: "Carice van Houten"
-          B: "Diana Rigg"
+          A: "Diana Rigg"
+          B: "Carice van Houten"
           C: "Natalie Dormer"
           D: "Lena Headey"
   - text: "Quel acteur incarne Samwell Tarly ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/John_Bradley_by_Gage_Skidmore.jpg?width=800"
     answers:
-      A: "John Bradley"
+      A: "Kristian Nairn"
       B: "Jacob Anderson"
-      C: "Kristian Nairn"
+      C: "John Bradley"
       D: "Conleth Hill"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which actor plays Samwell Tarly?"
         answers:
-          A: "John Bradley"
+          A: "Kristian Nairn"
           B: "Jacob Anderson"
-          C: "Kristian Nairn"
+          C: "John Bradley"
           D: "Conleth Hill"
   - text: "Quel acteur incarne Joffrey Baratheon ?"
     answers:
-      A: "Jack Gleeson"
-      B: "Dean-Charles Chapman"
+      A: "Dean-Charles Chapman"
+      B: "Jack Gleeson"
       C: "Isaac Hempstead Wright"
       D: "Alfie Allen"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which actor plays Joffrey Baratheon?"
         answers:
-          A: "Jack Gleeson"
-          B: "Dean-Charles Chapman"
+          A: "Dean-Charles Chapman"
+          B: "Jack Gleeson"
           C: "Isaac Hempstead Wright"
           D: "Alfie Allen"
   - text: "Quel est le surnom initial de Jon Snow à Winterfell ?"
@@ -922,17 +922,17 @@ questions:
           D: "Drowned in a river"
   - text: "Qui tue le roi de la Nuit ?"
     answers:
-      A: "Arya Stark"
-      B: "Jon Snow"
+      A: "Jon Snow"
+      B: "Arya Stark"
       C: "Daenerys Targaryen"
       D: "Brienne de Tarth"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Who kills the Night King?"
         answers:
-          A: "Arya Stark"
-          B: "Jon Snow"
+          A: "Jon Snow"
+          B: "Arya Stark"
           C: "Daenerys Targaryen"
           D: "Brienne de Tarth"
   - text: "Ces cosplayeurs incarnent des personnages de quelle série ?"
@@ -954,82 +954,82 @@ questions:
   - text: "Quelle créature ce cosplayeur incarne-t-il ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pyrkon_2017_GoT_Cosplay_White_Walker.jpg?width=800"
     answers:
-      A: "Un marcheur blanc"
+      A: "Un zombie"
       B: "Un géant"
       C: "Un dragon"
-      D: "Un zombie"
-    correctAnswer: "A"
+      D: "Un marcheur blanc"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which creature is this cosplayer portraying?"
         answers:
-          A: "A White Walker"
+          A: "A zombie"
           B: "A giant"
           C: "A dragon"
-          D: "A zombie"
+          D: "A White Walker"
   - text: "Quels deux personnages ce couple de cosplayeurs incarne-t-il ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/NYCC_2017_Daenerys_Targaryen_and_Jon_Snow_Cosplay.jpg?width=800"
     answers:
-      A: "Daenerys Targaryen et Jon Snow"
-      B: "Cersei et Jaime Lannister"
+      A: "Cersei et Jaime Lannister"
+      B: "Daenerys Targaryen et Jon Snow"
       C: "Arya et Sansa Stark"
       D: "Khal Drogo et Daenerys"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which two characters are these cosplayers portraying?"
         answers:
-          A: "Daenerys Targaryen et Jon Snow"
-          B: "Cersei et Jaime Lannister"
+          A: "Cersei et Jaime Lannister"
+          B: "Daenerys Targaryen et Jon Snow"
           C: "Arya et Sansa Stark"
           D: "Khal Drogo et Daenerys"
   - text: "Quels personnages ces cosplayeurs représentent-ils ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cosplay_of_Khal_Drogo_and_Daenerys_Targaryen_at_Japan_Expo_2016_%2827779482023%29.jpg?width=800"
     answers:
-      A: "Khal Drogo et Daenerys Targaryen"
+      A: "Robb et Talisa Stark"
       B: "Jon Snow et Ygritte"
-      C: "Robb et Talisa Stark"
+      C: "Khal Drogo et Daenerys Targaryen"
       D: "Viserys et Daenerys"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which characters are these cosplayers portraying?"
         answers:
-          A: "Khal Drogo et Daenerys Targaryen"
+          A: "Robb et Talisa Stark"
           B: "Jon Snow et Ygritte"
-          C: "Robb et Talisa Stark"
+          C: "Khal Drogo et Daenerys Targaryen"
           D: "Viserys et Daenerys"
   - text: "Quelle reine ce cosplay met-il en scène ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cersei_Lannister_cosplayer_%2835679923826%29.jpg?width=800"
     answers:
-      A: "Cersei Lannister"
+      A: "Margaery Tyrell"
       B: "Daenerys Targaryen"
-      C: "Margaery Tyrell"
+      C: "Cersei Lannister"
       D: "Mélisandre"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which queen is this cosplay portraying?"
         answers:
-          A: "Cersei Lannister"
+          A: "Margaery Tyrell"
           B: "Daenerys Targaryen"
-          C: "Margaery Tyrell"
+          C: "Cersei Lannister"
           D: "Mélisandre"
   - text: "Quels personnages ces deux cosplayeurs incarnent-ils ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Arya_Stark_%26_Jaqen_H%27ghar_cosplayer_%2835718287895%29.jpg?width=800"
     answers:
-      A: "Arya Stark et Jaqen H'ghar"
+      A: "Sansa Stark et Petyr Baelish"
       B: "Arya Stark et Gendry"
-      C: "Sansa Stark et Petyr Baelish"
+      C: "Arya Stark et Jaqen H'ghar"
       D: "Arya Stark et Sandor Clegane"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which characters are these two cosplayers portraying?"
         answers:
-          A: "Arya Stark et Jaqen H'ghar"
+          A: "Sansa Stark et Petyr Baelish"
           B: "Arya Stark et Gendry"
-          C: "Sansa Stark et Petyr Baelish"
+          C: "Arya Stark et Jaqen H'ghar"
           D: "Arya Stark et Sandor Clegane"
   - text: "Dans quelle ville cette convention de cosplay a-t-elle lieu ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/NYCC_2017_Cosplay_of_Game_of_Thrones.jpg?width=800"
@@ -1050,65 +1050,65 @@ questions:
   - text: "Quelle ville croate a servi de décor principal pour Port-Réal ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Dubrovnik_Old_Town_From_Min%C4%8Deta_Tower.jpg?width=800"
     answers:
-      A: "Dubrovnik"
+      A: "Rovinj"
       B: "Split"
       C: "Zadar"
-      D: "Rovinj"
-    correctAnswer: "A"
+      D: "Dubrovnik"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which Croatian city served as the main filming location for King's Landing?"
         answers:
-          A: "Dubrovnik"
+          A: "Rovinj"
           B: "Split"
           C: "Zadar"
-          D: "Rovinj"
+          D: "Dubrovnik"
   - text: "Cette porte fortifiée de Mdina, à Malte, a servi de décor à quelle cité de la série ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Malta_Mdina_BW_2011-10-05_13-02-11_1.JPG?width=800"
     answers:
-      A: "Port-Réal"
-      B: "Braavos"
+      A: "Braavos"
+      B: "Port-Réal"
       C: "Volantis"
       D: "Mereen"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "This fortified gate in Mdina, Malta, stood in for which city in the series?"
         answers:
-          A: "King's Landing"
-          B: "Braavos"
+          A: "Braavos"
+          B: "King's Landing"
           C: "Volantis"
           D: "Meereen"
   - text: "Cette allée d'arbres, la Dark Hedges, représente quelle route de la série ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Dark_Hedges.jpg?width=800"
     answers:
-      A: "La Route royale"
-      B: "Le Mur"
+      A: "Le Mur"
+      B: "La Route royale"
       C: "La Route de la soie"
       D: "Le Chemin des rois"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "This tree-lined avenue, the Dark Hedges, represents which road in the series?"
         answers:
-          A: "The Kingsroad"
-          B: "The Wall"
+          A: "The Wall"
+          B: "The Kingsroad"
           C: "The Silk Road"
           D: "The Goldroad"
   - text: "Dans quelle région la série a-t-elle été principalement tournée en studios ?"
     answers:
-      A: "Irlande du Nord"
+      A: "Islande"
       B: "Écosse"
-      C: "Islande"
+      C: "Irlande du Nord"
       D: "Croatie"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "In which region was the series mainly shot in studios?"
         answers:
-          A: "Northern Ireland"
+          A: "Iceland"
           B: "Scotland"
-          C: "Iceland"
+          C: "Northern Ireland"
           D: "Croatia"
   - text: "Quel pays a accueilli le tournage des scènes au-delà du Mur ?"
     answers:
@@ -1128,79 +1128,79 @@ questions:
   - text: "À quel personnage appartient cette robe exposée lors d'une exposition sur la série ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Game_of_Thrones_Oslo_exhibition_2014_-_Daenerys%27s_blue_dress.jpg?width=800"
     answers:
-      A: "Daenerys Targaryen"
-      B: "Cersei Lannister"
+      A: "Cersei Lannister"
+      B: "Daenerys Targaryen"
       C: "Margaery Tyrell"
       D: "Sansa Stark"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which character does this dress, displayed in an exhibition, belong to?"
         answers:
-          A: "Daenerys Targaryen"
-          B: "Cersei Lannister"
+          A: "Cersei Lannister"
+          B: "Daenerys Targaryen"
           C: "Margaery Tyrell"
           D: "Sansa Stark"
   - text: "Cette tapisserie brodée retrace l'intrigue de la série ; dans quelle ville est-elle exposée ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Game_of_Thrones_Tapestry.jpg?width=800"
     answers:
-      A: "Belfast"
+      A: "Londres"
       B: "Dublin"
       C: "Édimbourg"
-      D: "Londres"
-    correctAnswer: "A"
+      D: "Belfast"
+    correctAnswer: "D"
     translations:
       en:
         text: "This embroidered tapestry retells the series' plot; in which city is it displayed?"
         answers:
-          A: "Belfast"
+          A: "London"
           B: "Dublin"
           C: "Edinburgh"
-          D: "London"
+          D: "Belfast"
   - text: "Comment s'appelle l'épée en acier valyrien de Jon Snow ?"
     answers:
-      A: "Longclaw"
-      B: "Needle"
+      A: "Needle"
+      B: "Longclaw"
       C: "Ice"
       D: "Oathkeeper"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What is the name of Jon Snow's Valyrian steel sword?"
         answers:
-          A: "Longclaw"
-          B: "Needle"
+          A: "Needle"
+          B: "Longclaw"
           C: "Ice"
           D: "Oathkeeper"
   - text: "Comment s'appelle l'épée fine offerte à Arya Stark ?"
     answers:
-      A: "Needle"
+      A: "Heartsbane"
       B: "Longclaw"
       C: "Widow's Wail"
-      D: "Heartsbane"
-    correctAnswer: "A"
+      D: "Needle"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is the name of the slender sword given to Arya Stark?"
         answers:
-          A: "Needle"
+          A: "Heartsbane"
           B: "Longclaw"
           C: "Widow's Wail"
-          D: "Heartsbane"
+          D: "Needle"
   - text: "Comment s'appelle la grande épée de glace de la maison Stark ?"
     answers:
-      A: "Ice"
+      A: "Needle"
       B: "Longclaw"
-      C: "Needle"
+      C: "Ice"
       D: "Lightbringer"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What is the name of House Stark's great sword of ice?"
         answers:
-          A: "Ice"
+          A: "Needle"
           B: "Longclaw"
-          C: "Needle"
+          C: "Ice"
           D: "Lightbringer"
   - text: "Quel matériau permet de tuer les marcheurs blancs ?"
     answers:
@@ -1219,77 +1219,77 @@ questions:
           D: "Gold"
   - text: "Comment appelle-t-on les créatures glacées qui marchent au nord du Mur ?"
     answers:
-      A: "Les marcheurs blancs"
+      A: "Les enfants de la forêt"
       B: "Les géants"
-      C: "Les enfants de la forêt"
+      C: "Les marcheurs blancs"
       D: "Les spectres"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What are the icy creatures that walk north of the Wall called?"
         answers:
-          A: "The White Walkers"
+          A: "The Children of the Forest"
           B: "The giants"
-          C: "The Children of the Forest"
+          C: "The White Walkers"
           D: "The wights"
   - text: "Quel est le nom du château principal de la Garde de Nuit ?"
     answers:
-      A: "Châteaunoir"
+      A: "Le Mur"
       B: "Fort-Levant"
-      C: "Le Mur"
+      C: "Châteaunoir"
       D: "Corcolline"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "What is the name of the Night's Watch's main castle?"
         answers:
-          A: "Castle Black"
+          A: "The Wall"
           B: "The Dreadfort"
-          C: "The Wall"
+          C: "Castle Black"
           D: "Harrenhal"
   - text: "Combien de royaumes forment les Sept Couronnes ?"
     answers:
-      A: "Sept"
+      A: "Neuf"
       B: "Cinq"
-      C: "Neuf"
+      C: "Sept"
       D: "Trois"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "How many kingdoms make up the Seven Kingdoms?"
         answers:
-          A: "Seven"
+          A: "Nine"
           B: "Five"
-          C: "Nine"
+          C: "Seven"
           D: "Three"
   - text: "Quelle banque finance une partie des intrigues de la série ?"
     answers:
-      A: "La Banque de Fer de Braavos"
+      A: "La Banque des Lannister"
       B: "La Banque royale de Port-Réal"
-      C: "La Banque des Lannister"
+      C: "La Banque de Fer de Braavos"
       D: "La Banque de Volantis"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which bank finances part of the series' plots?"
         answers:
-          A: "The Iron Bank of Braavos"
+          A: "The Lannister Bank"
           B: "The Royal Bank of King's Landing"
-          C: "The Lannister Bank"
+          C: "The Iron Bank of Braavos"
           D: "The Bank of Volantis"
   - text: "Comment appelle-t-on les assassins du Dieu Multiforme à Braavos ?"
     answers:
-      A: "Les Hommes sans visage"
-      B: "Les Immaculés"
+      A: "Les Immaculés"
+      B: "Les Hommes sans visage"
       C: "Les Mestres"
       D: "Les Marcheurs blancs"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What are the assassins of the Many-Faced God in Braavos called?"
         answers:
-          A: "The Faceless Men"
-          B: "The Unsullied"
+          A: "The Unsullied"
+          B: "The Faceless Men"
           C: "The Maesters"
           D: "The White Walkers"
   - text: "Quel ordre de chevaliers protège personnellement le roi ?"
@@ -1309,109 +1309,109 @@ questions:
           D: "The Second Sons"
   - text: "Quel ordre de savants conseille les seigneurs de Westeros ?"
     answers:
-      A: "Les mestres"
-      B: "Les Sept"
+      A: "Les Sept"
+      B: "Les mestres"
       C: "Les Ménestrels"
       D: "Les Archimestres"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which order of scholars advises the lords of Westeros?"
         answers:
-          A: "The maesters"
-          B: "The Seven"
+          A: "The Seven"
+          B: "The maesters"
           C: "The minstrels"
           D: "The archmaesters"
   - text: "Combien de dragons Daenerys fait-elle éclore ?"
     answers:
-      A: "Trois"
-      B: "Un"
+      A: "Un"
+      B: "Trois"
       C: "Deux"
       D: "Cinq"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "How many dragons does Daenerys hatch?"
         answers:
-          A: "Three"
-          B: "One"
+          A: "One"
+          B: "Three"
           C: "Two"
           D: "Five"
   - text: "Comment s'appelle le dragon noir monté par Daenerys ?"
     answers:
-      A: "Drogon"
-      B: "Rhaegal"
+      A: "Rhaegal"
+      B: "Drogon"
       C: "Viserion"
       D: "Balerion"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What is the name of the black dragon ridden by Daenerys?"
         answers:
-          A: "Drogon"
-          B: "Rhaegal"
+          A: "Rhaegal"
+          B: "Drogon"
           C: "Viserion"
           D: "Balerion"
   - text: "Quels sont les noms des trois dragons de Daenerys ?"
     answers:
-      A: "Drogon, Rhaegal et Viserion"
-      B: "Balerion, Meraxes et Vhagar"
+      A: "Balerion, Meraxes et Vhagar"
+      B: "Drogon, Rhaegal et Viserion"
       C: "Drogon, Balerion et Meraxes"
       D: "Rhaegal, Vhagar et Viserion"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "What are the names of Daenerys's three dragons?"
         answers:
-          A: "Drogon, Rhaegal et Viserion"
-          B: "Balerion, Meraxes et Vhagar"
+          A: "Balerion, Meraxes et Vhagar"
+          B: "Drogon, Rhaegal et Viserion"
           C: "Drogon, Balerion et Meraxes"
           D: "Rhaegal, Vhagar et Viserion"
   - text: "Quel est le dernier roi Targaryen avant la chute de la dynastie ?"
     answers:
-      A: "Aerys II, le roi fou"
+      A: "Viserys III"
       B: "Aegon le Conquérant"
-      C: "Viserys III"
+      C: "Aerys II, le roi fou"
       D: "Rhaegar Targaryen"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Who was the last Targaryen king before the dynasty fell?"
         answers:
-          A: "Aerys II, the Mad King"
+          A: "Viserys III"
           B: "Aegon the Conqueror"
-          C: "Viserys III"
+          C: "Aerys II, the Mad King"
           D: "Rhaegar Targaryen"
   - text: "Quel événement renverse la dynastie Targaryen ?"
     answers:
-      A: "La rébellion de Robert"
+      A: "La danse des dragons"
       B: "La guerre des Cinq Rois"
-      C: "La danse des dragons"
+      C: "La rébellion de Robert"
       D: "La Longue Nuit"
-    correctAnswer: "A"
+    correctAnswer: "C"
     translations:
       en:
         text: "Which event overthrew the Targaryen dynasty?"
         answers:
-          A: "Robert's Rebellion"
+          A: "The Dance of the Dragons"
           B: "The War of the Five Kings"
-          C: "The Dance of the Dragons"
+          C: "Robert's Rebellion"
           D: "The Long Night"
   - text: "Qui est le père biologique de Jon Snow ?"
     answers:
-      A: "Rhaegar Targaryen"
+      A: "Benjen Stark"
       B: "Ned Stark"
       C: "Robert Baratheon"
-      D: "Benjen Stark"
-    correctAnswer: "A"
+      D: "Rhaegar Targaryen"
+    correctAnswer: "D"
     translations:
       en:
         text: "Who is Jon Snow's biological father?"
         answers:
-          A: "Rhaegar Targaryen"
+          A: "Benjen Stark"
           B: "Ned Stark"
           C: "Robert Baratheon"
-          D: "Benjen Stark"
+          D: "Rhaegar Targaryen"
   - text: "Qui est la mère biologique de Jon Snow ?"
     answers:
       A: "Lyanna Stark"
@@ -1429,64 +1429,64 @@ questions:
           D: "Ashara Dayne"
   - text: "De quel roi Jon Snow est-il l'héritier légitime ?"
     answers:
-      A: "Rhaegar Targaryen"
+      A: "Viserys III"
       B: "Aerys II"
       C: "Robert Baratheon"
-      D: "Viserys III"
-    correctAnswer: "A"
+      D: "Rhaegar Targaryen"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which king is Jon Snow the rightful heir to?"
         answers:
-          A: "Rhaegar Targaryen"
+          A: "Viserys III"
           B: "Aerys II"
           C: "Robert Baratheon"
-          D: "Viserys III"
+          D: "Rhaegar Targaryen"
   - text: "Quel titre Jon Snow reçoit-il dans la Garde de Nuit ?"
     answers:
-      A: "Lord Commandant"
-      B: "Premier Ranger"
+      A: "Premier Ranger"
+      B: "Lord Commandant"
       C: "Mestre"
       D: "Intendant"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which title does Jon Snow receive in the Night's Watch?"
         answers:
-          A: "Lord Commander"
-          B: "First Ranger"
+          A: "First Ranger"
+          B: "Lord Commander"
           C: "Maester"
           D: "Steward"
   - text: "Comment s'appelle le loup géant albinos de Jon Snow ?"
     answers:
-      A: "Fantôme"
+      A: "Nymeria"
       B: "Été"
       C: "Lady"
-      D: "Nymeria"
-    correctAnswer: "A"
+      D: "Fantôme"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is the name of Jon Snow's albino direwolf?"
         answers:
-          A: "Ghost"
+          A: "Nymeria"
           B: "Summer"
           C: "Lady"
-          D: "Nymeria"
+          D: "Ghost"
   - text: "Comment s'appelle le loup géant de Bran ?"
     answers:
-      A: "Été"
+      A: "Lady"
       B: "Fantôme"
       C: "Vent gris"
-      D: "Lady"
-    correctAnswer: "A"
+      D: "Été"
+    correctAnswer: "D"
     translations:
       en:
         text: "What is the name of Bran's direwolf?"
         answers:
-          A: "Summer"
+          A: "Lady"
           B: "Ghost"
           C: "Grey Wind"
-          D: "Lady"
+          D: "Summer"
   - text: "Quel personnage devient roi des Sept Couronnes à la fin de la série ?"
     answers:
       A: "Bran Stark"
@@ -1504,46 +1504,46 @@ questions:
           D: "Tyrion Lannister"
   - text: "Quel titre Sansa Stark obtient-elle à la fin de la série ?"
     answers:
-      A: "Reine du Nord"
+      A: "Grande Mestre"
       B: "Reine des Sept Couronnes"
       C: "Main du roi"
-      D: "Grande Mestre"
-    correctAnswer: "A"
+      D: "Reine du Nord"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which title does Sansa Stark obtain at the end of the series?"
         answers:
-          A: "Queen in the North"
+          A: "Grand Maester"
           B: "Queen of the Seven Kingdoms"
           C: "Hand of the King"
-          D: "Grand Maester"
+          D: "Queen in the North"
   - text: "Quel ennemi menace Westeros lors de la Longue Nuit ?"
     answers:
-      A: "Les marcheurs blancs"
-      B: "Les Dothrakis"
+      A: "Les Dothrakis"
+      B: "Les marcheurs blancs"
       C: "Les Immaculés"
       D: "Les Fer-nés"
-    correctAnswer: "A"
+    correctAnswer: "B"
     translations:
       en:
         text: "Which enemy threatens Westeros during the Long Night?"
         answers:
-          A: "The White Walkers"
-          B: "The Dothraki"
+          A: "The Dothraki"
+          B: "The White Walkers"
           C: "The Unsullied"
           D: "The Ironborn"
   - text: "Quelle cité libre est le foyer des affranchis de Daenerys ?"
     answers:
-      A: "Mereen"
+      A: "Volantis"
       B: "Braavos"
       C: "Pentos"
-      D: "Volantis"
-    correctAnswer: "A"
+      D: "Mereen"
+    correctAnswer: "D"
     translations:
       en:
         text: "Which free city is home to Daenerys's freedmen?"
         answers:
-          A: "Mereen"
+          A: "Volantis"
           B: "Braavos"
           C: "Pentos"
-          D: "Volantis"
+          D: "Mereen"

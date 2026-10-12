@@ -5,7 +5,7 @@ topic:
     en: "Harry Potter"
   description: "Poudlard, quidditch, sortilèges et créatures fantastiques : plongez dans l'univers magique du célèbre sorcier à lunettes et testez vos connaissances de la saga."
   category: LITERATURE
-  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Alnwick_Castle_from_the_east_-_October_2024.jpg?width=800
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/J.%20K.%20Rowling%202010.jpg?width=800
 questions:
   - text: "Comment s'appelle l'école de sorcellerie que fréquente Harry Potter ?"
     answers:
@@ -24,34 +24,34 @@ questions:
           D: "Ilvermorny"
   - text: "Quel est le nom de la chouette blanche de Harry Potter ?"
     answers:
-      A: "Hedwige"
+      A: "Errol"
       B: "Coquecigrue"
-      C: "Errol"
+      C: "Hedwige"
       D: "Pattenrond"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "What is the name of Harry Potter's white owl?"
         answers:
-          A: "Hedwig"
+          A: "Errol"
           B: "Pigwidgeon"
-          C: "Errol"
+          C: "Hedwig"
           D: "Crookshanks"
   - text: "Quelle est la forme de la cicatrice de Harry Potter ?"
     answers:
       A: "Une étoile"
-      B: "Un serpent"
+      B: "Un éclair"
       C: "Un cercle"
-      D: "Un éclair"
-    correctAnswer: D
+      D: "Un serpent"
+    correctAnswer: B
     translations:
       en:
         text: "What shape is Harry Potter's scar?"
         answers:
           A: "A star"
-          B: "A snake"
+          B: "A lightning bolt"
           C: "A circle"
-          D: "A lightning bolt"
+          D: "A snake"
   - text: "Quel est le nom de l'ami roux de Harry Potter ?"
     answers:
       A: "Ronald Weasley"
@@ -114,19 +114,19 @@ questions:
           D: "Platform 10"
   - text: "Quel sport les sorciers pratiquent-ils à dos de balai ?"
     answers:
-      A: "Le quidditch"
+      A: "Le hockey"
       B: "Le cricket"
       C: "Le polo"
-      D: "Le hockey"
-    correctAnswer: A
+      D: "Le quidditch"
+    correctAnswer: D
     translations:
       en:
         text: "Which sport do wizards play on broomsticks?"
         answers:
-          A: "Quidditch"
+          A: "Hockey"
           B: "Cricket"
           C: "Polo"
-          D: "Hockey"
+          D: "Quidditch"
   - text: "Quelle petite balle dorée l'Attrapeur doit-il capturer pour mettre fin à un match de quidditch ?"
     answers:
       A: "Le Cognard"
@@ -144,17 +144,17 @@ questions:
           D: "The Squib"
   - text: "Quel objet permet de répartir les nouveaux élèves dans les maisons de Poudlard ?"
     answers:
-      A: "La Coupe de feu"
-      B: "Le Choixpeau magique"
+      A: "Le Choixpeau magique"
+      B: "La Coupe de feu"
       C: "Le Miroir du Riséd"
       D: "La Pensine"
-    correctAnswer: B
+    correctAnswer: A
     translations:
       en:
         text: "Which object sorts new students into the Hogwarts houses?"
         answers:
-          A: "The Goblet of Fire"
-          B: "The Sorting Hat"
+          A: "The Sorting Hat"
+          B: "The Goblet of Fire"
           C: "The Mirror of Erised"
           D: "The Pensieve"
   - text: "Quelle est la maison de Poudlard dont l'emblème est le lion ?"
@@ -175,18 +175,18 @@ questions:
   - text: "Quel est le nom du seigneur des ténèbres qui a tué les parents de Harry ?"
     answers:
       A: "Grindelwald"
-      B: "Voldemort"
+      B: "Bellatrix Lestrange"
       C: "Peter Pettigrow"
-      D: "Bellatrix Lestrange"
-    correctAnswer: B
+      D: "Voldemort"
+    correctAnswer: D
     translations:
       en:
         text: "What is the name of the Dark Lord who killed Harry's parents?"
         answers:
           A: "Grindelwald"
-          B: "Voldemort"
+          B: "Bellatrix Lestrange"
           C: "Peter Pettigrew"
-          D: "Bellatrix Lestrange"
+          D: "Voldemort"
   - text: "Quel sortilège permet de désarmer un adversaire ?"
     answers:
       A: "Expelliarmus"
@@ -205,105 +205,105 @@ questions:
   - text: "Comment s'appelle le demi-géant gardien des clés et des lieux de Poudlard ?"
     answers:
       A: "Firenze"
-      B: "Rubeus Hagrid"
-      C: "Argus Rusard"
+      B: "Argus Rusard"
+      C: "Rubeus Hagrid"
       D: "Filius Flitwick"
-    correctAnswer: B
+    correctAnswer: C
     translations:
       en:
         text: "What is the name of the half-giant keeper of keys and grounds at Hogwarts?"
         answers:
           A: "Firenze"
-          B: "Rubeus Hagrid"
-          C: "Argus Filch"
+          B: "Argus Filch"
+          C: "Rubeus Hagrid"
           D: "Filius Flitwick"
   - text: "Quel est le prénom du parrain de Harry Potter, injustement emprisonné à Azkaban ?"
     answers:
       A: "Remus"
-      B: "Peter"
-      C: "Sirius"
+      B: "Sirius"
+      C: "Peter"
       D: "Regulus"
-    correctAnswer: C
+    correctAnswer: B
     translations:
       en:
         text: "What is the first name of Harry Potter's godfather, wrongly imprisoned in Azkaban?"
         answers:
           A: "Remus"
-          B: "Peter"
-          C: "Sirius"
+          B: "Sirius"
+          C: "Peter"
           D: "Regulus"
   - text: "Comment s'appelle la banque des sorciers, située sur le Chemin de Traverse ?"
     answers:
-      A: "Gringotts"
+      A: "Fleury et Bott"
       B: "Barjow et Beurk"
       C: "Ollivander"
-      D: "Fleury et Bott"
-    correctAnswer: A
+      D: "Gringotts"
+    correctAnswer: D
     translations:
       en:
         text: "What is the name of the wizarding bank located on Diagon Alley?"
         answers:
-          A: "Gringotts"
+          A: "Flourish and Blotts"
           B: "Borgin and Burkes"
           C: "Ollivanders"
-          D: "Flourish and Blotts"
+          D: "Gringotts"
   - text: "Quel animal représente la maison Serpentard ?"
     answers:
       A: "Le blaireau"
-      B: "L'aigle"
+      B: "Le serpent"
       C: "Le lion"
-      D: "Le serpent"
-    correctAnswer: D
+      D: "L'aigle"
+    correctAnswer: B
     translations:
       en:
         text: "Which animal represents the Slytherin house?"
         answers:
           A: "The badger"
-          B: "The eagle"
+          B: "The serpent"
           C: "The lion"
-          D: "The serpent"
+          D: "The eagle"
   - text: "Quel professeur enseigne les potions dans les premiers tomes ?"
     answers:
-      A: "Severus Rogue"
+      A: "Horace Slughorn"
       B: "Quirinus Quirrell"
       C: "Gilderoy Lockhart"
-      D: "Horace Slughorn"
-    correctAnswer: A
+      D: "Severus Rogue"
+    correctAnswer: D
     translations:
       en:
         text: "Which professor teaches Potions in the early books?"
         answers:
-          A: "Severus Snape"
+          A: "Horace Slughorn"
           B: "Quirinus Quirrell"
           C: "Gilderoy Lockhart"
-          D: "Horace Slughorn"
+          D: "Severus Snape"
   - text: "Combien de Horcruxes Voldemort a-t-il créés volontairement, sans compter l'accidentel ?"
     answers:
-      A: "Cinq"
-      B: "Six"
+      A: "Six"
+      B: "Cinq"
       C: "Sept"
       D: "Huit"
-    correctAnswer: B
+    correctAnswer: A
     translations:
       en:
         text: "How many Horcruxes did Voldemort intentionally create, not counting the accidental one?"
         answers:
-          A: "Five"
-          B: "Six"
+          A: "Six"
+          B: "Five"
           C: "Seven"
           D: "Eight"
   - text: "Quel est le titre du premier tome de la saga Harry Potter ?"
     answers:
-      A: "Harry Potter et la Chambre des secrets"
+      A: "Harry Potter à l'école des sorciers"
       B: "Harry Potter et le Prisonnier d'Azkaban"
-      C: "Harry Potter à l'école des sorciers"
+      C: "Harry Potter et la Chambre des secrets"
       D: "Harry Potter et la Coupe de feu"
-    correctAnswer: C
+    correctAnswer: A
     translations:
       en:
         text: "What is the title of the first book in the Harry Potter series?"
         answers:
-          A: "Harry Potter and the Chamber of Secrets"
+          A: "Harry Potter and the Philosopher's Stone"
           B: "Harry Potter and the Prisoner of Azkaban"
-          C: "Harry Potter and the Philosopher's Stone"
+          C: "Harry Potter and the Chamber of Secrets"
           D: "Harry Potter and the Goblet of Fire"

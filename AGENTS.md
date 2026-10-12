@@ -102,7 +102,7 @@ lorsque la difficulté calculée change, la projection envoie une
 ### Seed initial (YAML)
 
 - **Un fichier par thème**, rangé par catégorie : `src/main/resources/seed/topics/<categorie>/<theme>.yml`
-  (26 thèmes, 20 à ~190 questions chacun). Découverte via `app.seed-data.location`
+  (35 thèmes, 20 à ~190 questions chacun). Découverte via `app.seed-data.location`
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
   `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
@@ -129,3 +129,20 @@ lorsque la difficulté calculée change, la projection envoie une
   `seed/translate-seed.py` (API DeepSeek, validation identique au loader, insertion textuelle à
   diff minimal, modes `--check`/`--dry-run`). Le thème `orthographe-grammaire` est volontairement
   **FR-only** (exercice intraduisible). Garde-fou : `SeedEnTranslationCoverageTest`.
+
+### Hygiène du seed (règles vérifiées par tests)
+
+- **Répartition des bonnes réponses** : ~25 % de A, B, C et D **par thème**, tolérance **±1** —
+  jamais de lettre privilégiée (le biais A est exploité par les joueurs attentifs). Correction
+  déterministe et idempotente : `python3 seed/rebalance-seed.py topics/*/*.yml` (`--check` sort en
+  erreur si un thème dépasse ±1, `--dry-run` détaille les échanges, écriture textuelle minimale :
+  échange des valeurs entre la lettre courante et la cible dans `answers` et les traductions).
+  Garde-fou : `SeedAnswerBalanceTest`.
+- **Couverture unique par thème** : deux thèmes ne partagent jamais le même `topic.imageUrl` (le
+  catalogue les affiche côte à côte) ; un thème peut ne pas en avoir (fallback UI). Garde-fou :
+  `SeedTopicCoverUniquenessTest`.
+- **Images** : exclusivement Wikimedia Commons libres de droit ; toute nouvelle URL de couverture
+  ou de question doit figurer dans `seed/CREDITS.md` (auteur + licence).
+- **Seed déjà publié en prod** : le seeder est idempotent par `(text, imageUrl)` et **ignore un
+  thème publié** — modifier les réponses ou la couverture d'un thème existant exige un **reset
+  data** (`devops/quizup-gitops/scripts/reset.sh`, § 7 du AGENTS gitops) coordonné avec la release.

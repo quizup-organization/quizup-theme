@@ -26,34 +26,34 @@ questions:
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800"
     answers:
       A: "Michel-Ange"
-      B: "Léonard de Vinci"
+      B: "Sandro Botticelli"
       C: "Raphaël"
-      D: "Sandro Botticelli"
-    correctAnswer: B
+      D: "Léonard de Vinci"
+    correctAnswer: D
     translations:
       en:
         text: "Who painted this portrait of a woman exhibited at the Louvre Museum?"
         answers:
           A: "Michelangelo"
-          B: "Leonardo da Vinci"
+          B: "Sandro Botticelli"
           C: "Raphael"
-          D: "Sandro Botticelli"
+          D: "Leonardo da Vinci"
   - text: "Quel peintre est l'auteur de ce tableau, La Nuit étoilée ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800"
     answers:
-      A: "Claude Monet"
+      A: "Vincent van Gogh"
       B: "Paul Gauguin"
       C: "Paul Cézanne"
-      D: "Vincent van Gogh"
-    correctAnswer: D
+      D: "Claude Monet"
+    correctAnswer: A
     translations:
       en:
         text: "Which painter created this painting, The Starry Night?"
         answers:
-          A: "Claude Monet"
+          A: "Vincent van Gogh"
           B: "Paul Gauguin"
           C: "Paul Cézanne"
-          D: "Vincent van Gogh"
+          D: "Claude Monet"
   - text: "Quel artiste japonais a réalisé cette estampe, La Grande Vague de Kanagawa ?"
     imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/The_Great_Wave_off_Kanagawa.jpg?width=800"
     answers:
@@ -104,33 +104,33 @@ questions:
   - text: "Quelle est la capitale de l'Australie ?"
     answers:
       A: "Sydney"
-      B: "Melbourne"
-      C: "Canberra"
+      B: "Canberra"
+      C: "Melbourne"
       D: "Perth"
-    correctAnswer: C
+    correctAnswer: B
     translations:
       en:
         text: "What is the capital of Australia?"
         answers:
           A: "Sydney"
-          B: "Melbourne"
-          C: "Canberra"
+          B: "Canberra"
+          C: "Melbourne"
           D: "Perth"
   - text: "Combien de joueurs compte une équipe de football sur le terrain ?"
     answers:
       A: "9"
       B: "10"
-      C: "11"
-      D: "12"
-    correctAnswer: C
+      C: "12"
+      D: "11"
+    correctAnswer: D
     translations:
       en:
         text: "How many players are on a football team on the field?"
         answers:
           A: "9"
           B: "10"
-          C: "11"
-          D: "12"
+          C: "12"
+          D: "11"
   - text: "Quel est le plus grand organe du corps humain ?"
     answers:
       A: "Le foie"
@@ -179,63 +179,63 @@ questions:
   - text: "En quelle année a débuté la Révolution française ?"
     answers:
       A: "1492"
-      B: "1648"
-      C: "1789"
+      B: "1789"
+      C: "1648"
       D: "1848"
-    correctAnswer: C
+    correctAnswer: B
     translations:
       en:
         text: "In what year did the French Revolution begin?"
         answers:
           A: "1492"
-          B: "1648"
-          C: "1789"
+          B: "1789"
+          C: "1648"
           D: "1848"
   - text: "Quel est le plus grand océan du monde ?"
     answers:
-      A: "L'Atlantique"
+      A: "Le Pacifique"
       B: "L'océan Indien"
       C: "L'océan Arctique"
-      D: "Le Pacifique"
-    correctAnswer: D
+      D: "L'Atlantique"
+    correctAnswer: A
     translations:
       en:
         text: "What is the largest ocean in the world?"
         answers:
-          A: "The Atlantic"
+          A: "The Pacific"
           B: "The Indian Ocean"
           C: "The Arctic Ocean"
-          D: "The Pacific"
+          D: "The Atlantic"
   - text: "Quel est le plus haut sommet du monde ?"
     answers:
-      A: "L'Everest"
+      A: "Le mont Blanc"
       B: "Le K2"
-      C: "Le mont Blanc"
+      C: "L'Everest"
       D: "Le Kilimandjaro"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "What is the highest peak in the world?"
         answers:
-          A: "Everest"
+          A: "Mont Blanc"
           B: "K2"
-          C: "Mont Blanc"
+          C: "Everest"
           D: "Kilimanjaro"
   - text: "Quelle est la langue officielle du Brésil ?"
     answers:
       A: "L'espagnol"
       B: "Le français"
-      C: "Le portugais"
-      D: "L'anglais"
-    correctAnswer: C
+      C: "L'anglais"
+      D: "Le portugais"
+    correctAnswer: D
     translations:
       en:
         text: "What is the official language of Brazil?"
         answers:
           A: "Spanish"
           B: "French"
-          C: "Portuguese"
-          D: "English"
+          C: "English"
+          D: "Portuguese"
   - text: "Quel est le plus grand mammifère du monde ?"
     answers:
       A: "L'éléphant d'Afrique"
@@ -253,61 +253,61 @@ questions:
           D: "The giraffe"
   - text: "Quel métal est liquide à température ambiante ?"
     answers:
-      A: "Le mercure"
+      A: "L'étain"
       B: "Le fer"
       C: "Le plomb"
-      D: "L'étain"
-    correctAnswer: A
+      D: "Le mercure"
+    correctAnswer: D
     translations:
       en:
         text: "Which metal is liquid at room temperature?"
         answers:
-          A: "Mercury"
+          A: "Tin"
           B: "Iron"
           C: "Lead"
-          D: "Tin"
+          D: "Mercury"
   - text: "Qui a formulé la théorie de la relativité ?"
     answers:
-      A: "Isaac Newton"
+      A: "Albert Einstein"
       B: "Galilée"
       C: "Nikola Tesla"
-      D: "Albert Einstein"
-    correctAnswer: D
+      D: "Isaac Newton"
+    correctAnswer: A
     translations:
       en:
         text: "Who formulated the theory of relativity?"
         answers:
-          A: "Isaac Newton"
+          A: "Albert Einstein"
           B: "Galileo"
           C: "Nikola Tesla"
-          D: "Albert Einstein"
+          D: "Isaac Newton"
   - text: "Dans quelle ville se trouve le siège de l'Organisation des Nations unies ?"
     answers:
       A: "Genève"
-      B: "New York"
-      C: "Paris"
+      B: "Paris"
+      C: "New York"
       D: "Bruxelles"
-    correctAnswer: B
+    correctAnswer: C
     translations:
       en:
         text: "In which city is the headquarters of the United Nations?"
         answers:
           A: "Geneva"
-          B: "New York"
-          C: "Paris"
+          B: "Paris"
+          C: "New York"
           D: "Brussels"
   - text: "Quelle est la monnaie officielle du Japon ?"
     answers:
-      A: "Le yen"
+      A: "Le yuan"
       B: "Le won"
-      C: "Le yuan"
+      C: "Le yen"
       D: "Le baht"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "What is the official currency of Japan?"
         answers:
-          A: "The yen"
+          A: "The yuan"
           B: "The won"
-          C: "The yuan"
+          C: "The yen"
           D: "The baht"

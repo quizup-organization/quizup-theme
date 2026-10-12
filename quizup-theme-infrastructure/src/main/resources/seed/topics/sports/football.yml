@@ -24,19 +24,19 @@ questions:
           D: "12"
   - text: "Quel pays a remporté la Coupe du monde de football en 1998 ?"
     answers:
-      A: "Le Brésil"
+      A: "La France"
       B: "L'Italie"
       C: "L'Allemagne"
-      D: "La France"
-    correctAnswer: D
+      D: "Le Brésil"
+    correctAnswer: A
     translations:
       en:
         text: "Which country won the 1998 FIFA World Cup?"
         answers:
-          A: "Brazil"
+          A: "France"
           B: "Italy"
           C: "Germany"
-          D: "France"
+          D: "Brazil"
   - text: "Quel joueur est surnommé « la Pulga » ?"
     answers:
       A: "Cristiano Ronaldo"
@@ -54,18 +54,18 @@ questions:
           D: "Ronaldinho"
   - text: "Combien de temps dure un match de football, hors prolongations et temps additionnel ?"
     answers:
-      A: "80 minutes"
+      A: "90 minutes"
       B: "100 minutes"
-      C: "90 minutes"
+      C: "80 minutes"
       D: "120 minutes"
-    correctAnswer: C
+    correctAnswer: A
     translations:
       en:
         text: "How long does a football match last, excluding extra time and stoppage time?"
         answers:
-          A: "80 minutes"
+          A: "90 minutes"
           B: "100 minutes"
-          C: "90 minutes"
+          C: "80 minutes"
           D: "120 minutes"
   - text: "Quel pays a remporté le plus de Coupes du monde masculines de football ?"
     answers:
@@ -84,19 +84,19 @@ questions:
           D: "Argentina"
   - text: "Quelle couleur de carton un arbitre montre-t-il pour exclure un joueur ?"
     answers:
-      A: "Jaune"
+      A: "Rouge"
       B: "Bleu"
       C: "Blanc"
-      D: "Rouge"
-    correctAnswer: D
+      D: "Jaune"
+    correctAnswer: A
     translations:
       en:
         text: "What color card does a referee show to send a player off?"
         answers:
-          A: "Yellow"
+          A: "Red"
           B: "Blue"
           C: "White"
-          D: "Red"
+          D: "Yellow"
   - text: "Dans quel club Zinédine Zidane a-t-il évolué avant de rejoindre le Real Madrid ?"
     answers:
       A: "L'Olympique de Marseille"
@@ -114,108 +114,108 @@ questions:
           D: "FC Barcelona"
   - text: "Quelle est la compétition qui oppose chaque année les meilleurs clubs européens ?"
     answers:
-      A: "La Ligue des champions"
+      A: "La Coupe des confédérations"
       B: "La Copa Libertadores"
-      C: "La Coupe des confédérations"
+      C: "La Ligue des champions"
       D: "La Gold Cup"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "Which competition pits the best European clubs against each other every year?"
         answers:
-          A: "UEFA Champions League"
+          A: "FIFA Confederations Cup"
           B: "Copa Libertadores"
-          C: "FIFA Confederations Cup"
+          C: "UEFA Champions League"
           D: "Gold Cup"
   - text: "Quel pays a organisé la Coupe du monde de football 2022 ?"
     answers:
       A: "La Russie"
-      B: "Le Qatar"
+      B: "L'Afrique du Sud"
       C: "Le Brésil"
-      D: "L'Afrique du Sud"
-    correctAnswer: B
+      D: "Le Qatar"
+    correctAnswer: D
     translations:
       en:
         text: "Which country hosted the 2022 FIFA World Cup?"
         answers:
           A: "Russia"
-          B: "Qatar"
+          B: "South Africa"
           C: "Brazil"
-          D: "South Africa"
+          D: "Qatar"
   - text: "Comment s'appelle le trophée individuel décerné au meilleur joueur du monde par France Football ?"
     answers:
       A: "Le Soulier d'or"
-      B: "Le Ballon de bronze"
-      C: "Le Ballon d'or"
+      B: "Le Ballon d'or"
+      C: "Le Ballon de bronze"
       D: "La Coupe Puskás"
-    correctAnswer: C
+    correctAnswer: B
     translations:
       en:
         text: "What is the individual trophy awarded to the world's best player by France Football called?"
         answers:
           A: "Golden Boot"
-          B: "Bronze Ball"
-          C: "Ballon d'Or"
+          B: "Ballon d'Or"
+          C: "Bronze Ball"
           D: "Puskás Award"
   - text: "Quel joueur français a inscrit un triplé en finale de la Coupe du monde 2022 ?"
     answers:
       A: "Antoine Griezmann"
       B: "Olivier Giroud"
-      C: "Ousmane Dembélé"
-      D: "Kylian Mbappé"
-    correctAnswer: D
+      C: "Kylian Mbappé"
+      D: "Ousmane Dembélé"
+    correctAnswer: C
     translations:
       en:
         text: "Which French player scored a hat-trick in the 2022 World Cup final?"
         answers:
           A: "Antoine Griezmann"
           B: "Olivier Giroud"
-          C: "Ousmane Dembélé"
-          D: "Kylian Mbappé"
+          C: "Kylian Mbappé"
+          D: "Ousmane Dembélé"
   - text: "Quel joueur brésilien a remporté trois Coupes du monde avec sa sélection ?"
     answers:
-      A: "Pelé"
+      A: "Ronaldo"
       B: "Zico"
       C: "Romário"
-      D: "Ronaldo"
-    correctAnswer: A
+      D: "Pelé"
+    correctAnswer: D
     translations:
       en:
         text: "Which Brazilian player won three World Cups with his national team?"
         answers:
-          A: "Pelé"
+          A: "Ronaldo"
           B: "Zico"
           C: "Romário"
-          D: "Ronaldo"
+          D: "Pelé"
   - text: "Sur quel continent se trouve le pays qui a remporté la Coupe du monde 2010 ?"
     answers:
       A: "Amérique du Sud"
-      B: "Asie"
-      C: "Europe"
+      B: "Europe"
+      C: "Asie"
       D: "Afrique"
-    correctAnswer: C
+    correctAnswer: B
     translations:
       en:
         text: "On which continent is the country that won the 2010 World Cup located?"
         answers:
           A: "South America"
-          B: "Asia"
-          C: "Europe"
+          B: "Europe"
+          C: "Asia"
           D: "Africa"
   - text: "Quelle règle sanctionne un joueur situé plus près de la ligne de but adverse que le ballon et l'avant-dernier défenseur au moment de la passe ?"
     answers:
-      A: "Le hors-jeu"
+      A: "Le coup franc indirect"
       B: "La faute de main"
-      C: "Le coup franc indirect"
+      C: "Le hors-jeu"
       D: "Le carton blanc"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "Which rule penalizes a player positioned closer to the opponent's goal line than the ball and the second-to-last defender at the moment of the pass?"
         answers:
-          A: "Offside"
+          A: "Indirect free kick"
           B: "Handball"
-          C: "Indirect free kick"
+          C: "Offside"
           D: "White card"
   - text: "Quel est le surnom de l'équipe nationale d'Italie ?"
     answers:
@@ -234,34 +234,34 @@ questions:
           D: "La Seleção"
   - text: "Quel club anglais joue ses matchs à domicile à Old Trafford ?"
     answers:
-      A: "Manchester United"
+      A: "Arsenal"
       B: "Manchester City"
       C: "Liverpool"
-      D: "Arsenal"
-    correctAnswer: A
+      D: "Manchester United"
+    correctAnswer: D
     translations:
       en:
         text: "Which English club plays its home matches at Old Trafford?"
         answers:
-          A: "Manchester United"
+          A: "Arsenal"
           B: "Manchester City"
           C: "Liverpool"
-          D: "Arsenal"
+          D: "Manchester United"
   - text: "Quel joueur a inscrit la célèbre « main de Dieu » lors de la Coupe du monde 1986 ?"
     answers:
       A: "Pelé"
       B: "Johan Cruyff"
-      C: "Diego Maradona"
-      D: "Michel Platini"
-    correctAnswer: C
+      C: "Michel Platini"
+      D: "Diego Maradona"
+    correctAnswer: D
     translations:
       en:
         text: "Which player scored the famous \"Hand of God\" at the 1986 World Cup?"
         answers:
           A: "Pelé"
           B: "Johan Cruyff"
-          C: "Diego Maradona"
-          D: "Michel Platini"
+          C: "Michel Platini"
+          D: "Diego Maradona"
   - text: "À quelle distance du but est tiré un penalty, en mètres ?"
     answers:
       A: "9 mètres"
@@ -295,15 +295,15 @@ questions:
   - text: "Quel club espagnol est surnommé les « Blaugranas » ?"
     answers:
       A: "Le Real Madrid"
-      B: "L'Atlético de Madrid"
+      B: "Le FC Barcelone"
       C: "Le Séville FC"
-      D: "Le FC Barcelone"
-    correctAnswer: D
+      D: "L'Atlético de Madrid"
+    correctAnswer: B
     translations:
       en:
         text: "Which Spanish club is nicknamed the \"Blaugranas\"?"
         answers:
           A: "Real Madrid"
-          B: "Atlético de Madrid"
+          B: "FC Barcelona"
           C: "Sevilla FC"
-          D: "FC Barcelona"
+          D: "Atlético de Madrid"

@@ -25,18 +25,18 @@ questions:
           D: "Earth"
   - text: "Combien de planètes compte le système solaire ?"
     answers:
-      A: "Six"
+      A: "Huit"
       B: "Sept"
-      C: "Huit"
+      C: "Six"
       D: "Neuf"
-    correctAnswer: C
+    correctAnswer: A
     translations:
       en:
         text: "How many planets are in the solar system?"
         answers:
-          A: "Six"
+          A: "Eight"
           B: "Seven"
-          C: "Eight"
+          C: "Six"
           D: "Nine"
   - text: "Quelle est la plus grande planète du système solaire ?"
     answers:
@@ -56,32 +56,32 @@ questions:
   - text: "Quel est le seul satellite naturel de la Terre ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/FullMoon2010.jpg?width=800
     answers:
-      A: "La Lune"
-      B: "Phobos"
+      A: "Phobos"
+      B: "La Lune"
       C: "Titan"
       D: "Europe"
-    correctAnswer: A
+    correctAnswer: B
     translations:
       en:
         text: "What is Earth's only natural satellite?"
         answers:
-          A: "The Moon"
-          B: "Phobos"
+          A: "Phobos"
+          B: "The Moon"
           C: "Titan"
           D: "Europa"
   - text: "Quelle planète est la plus proche du Soleil ?"
     answers:
-      A: "Vénus"
-      B: "Mercure"
+      A: "Mercure"
+      B: "Vénus"
       C: "Mars"
       D: "La Terre"
-    correctAnswer: B
+    correctAnswer: A
     translations:
       en:
         text: "Which planet is closest to the Sun?"
         answers:
-          A: "Venus"
-          B: "Mercury"
+          A: "Mercury"
+          B: "Venus"
           C: "Mars"
           D: "Earth"
   - text: "Quelle planète est surnommée la planète rouge ?"
@@ -104,138 +104,138 @@ questions:
     answers:
       A: "Sirius"
       B: "Alpha du Centaure"
-      C: "Le Soleil"
-      D: "Proxima du Centaure"
-    correctAnswer: C
+      C: "Proxima du Centaure"
+      D: "Le Soleil"
+    correctAnswer: D
     translations:
       en:
         text: "What is the name of our star?"
         answers:
           A: "Sirius"
           B: "Alpha Centauri"
-          C: "The Sun"
-          D: "Proxima Centauri"
+          C: "Proxima Centauri"
+          D: "The Sun"
   - text: "Quelle mission a permis à l'Homme de marcher sur la Lune pour la première fois ?"
     answers:
       A: "Apollo 8"
-      B: "Apollo 11"
+      B: "Gemini 4"
       C: "Apollo 13"
-      D: "Gemini 4"
-    correctAnswer: B
+      D: "Apollo 11"
+    correctAnswer: D
     translations:
       en:
         text: "Which mission first allowed humans to walk on the Moon?"
         answers:
           A: "Apollo 8"
-          B: "Apollo 11"
+          B: "Gemini 4"
           C: "Apollo 13"
-          D: "Gemini 4"
+          D: "Apollo 11"
   - text: "En quelle année l'Homme a-t-il marché sur la Lune pour la première fois ?"
     answers:
-      A: "1959"
+      A: "1969"
       B: "1965"
-      C: "1969"
+      C: "1959"
       D: "1972"
-    correctAnswer: C
+    correctAnswer: A
     translations:
       en:
         text: "In what year did humans first walk on the Moon?"
         answers:
-          A: "1959"
+          A: "1969"
           B: "1965"
-          C: "1969"
+          C: "1959"
           D: "1972"
   - text: "Combien de temps la Terre met-elle environ pour faire un tour complet du Soleil ?"
     answers:
       A: "24 heures"
       B: "30 jours"
-      C: "10 ans"
-      D: "365 jours"
-    correctAnswer: D
+      C: "365 jours"
+      D: "10 ans"
+    correctAnswer: C
     translations:
       en:
         text: "About how long does Earth take to complete one orbit around the Sun?"
         answers:
           A: "24 hours"
           B: "30 days"
-          C: "10 years"
-          D: "365 days"
+          C: "365 days"
+          D: "10 years"
   - text: "Quelle est cette planète aux anneaux les plus spectaculaires ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Saturn_during_Equinox.jpg?width=800
     answers:
       A: "Jupiter"
-      B: "Saturne"
-      C: "Uranus"
+      B: "Uranus"
+      C: "Saturne"
       D: "Neptune"
-    correctAnswer: B
+    correctAnswer: C
     translations:
       en:
         text: "Which planet has the most spectacular rings?"
         answers:
           A: "Jupiter"
-          B: "Saturn"
-          C: "Uranus"
+          B: "Uranus"
+          C: "Saturn"
           D: "Neptune"
   - text: "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?"
     answers:
-      A: "8 minutes"
+      A: "8 heures"
       B: "8 secondes"
-      C: "8 heures"
+      C: "8 minutes"
       D: "1 jour"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "About how long does sunlight take to reach Earth?"
         answers:
-          A: "8 minutes"
+          A: "8 hours"
           B: "8 seconds"
-          C: "8 hours"
+          C: "8 minutes"
           D: "1 day"
   - text: "Quelle galaxie abrite le système solaire ?"
     answers:
       A: "Andromède"
-      B: "La Voie lactée"
+      B: "La galaxie du Sombrero"
       C: "Le Grand Nuage de Magellan"
-      D: "La galaxie du Sombrero"
-    correctAnswer: B
+      D: "La Voie lactée"
+    correctAnswer: D
     translations:
       en:
         text: "Which galaxy contains the solar system?"
         answers:
           A: "Andromeda"
-          B: "The Milky Way"
+          B: "The Sombrero Galaxy"
           C: "The Large Magellanic Cloud"
-          D: "The Sombrero Galaxy"
+          D: "The Milky Way"
   - text: "Qui a été la première femme à voyager dans l'espace ?"
     answers:
-      A: "Sally Ride"
+      A: "Valentina Terechkova"
       B: "Christa McAuliffe"
       C: "Svetlana Savitskaya"
-      D: "Valentina Terechkova"
-    correctAnswer: D
+      D: "Sally Ride"
+    correctAnswer: A
     translations:
       en:
         text: "Who was the first woman to travel in space?"
         answers:
-          A: "Sally Ride"
+          A: "Valentina Tereshkova"
           B: "Christa McAuliffe"
           C: "Svetlana Savitskaya"
-          D: "Valentina Tereshkova"
+          D: "Sally Ride"
   - text: "Qui a été le premier être humain à voyager dans l'espace ?"
     answers:
       A: "Neil Armstrong"
-      B: "Youri Gagarine"
+      B: "John Glenn"
       C: "Alan Shepard"
-      D: "John Glenn"
-    correctAnswer: B
+      D: "Youri Gagarine"
+    correctAnswer: D
     translations:
       en:
         text: "Who was the first human to travel in space?"
         answers:
           A: "Neil Armstrong"
-          B: "Yuri Gagarin"
+          B: "John Glenn"
           C: "Alan Shepard"
-          D: "John Glenn"
+          D: "Yuri Gagarin"
   - text: "Quelle planète est la plus chaude du système solaire ?"
     answers:
       A: "Mercure"
@@ -254,61 +254,61 @@ questions:
   - text: "Qu'est-ce qu'une comète ?"
     answers:
       A: "Une étoile filante"
-      B: "Un astéroïde géant"
-      C: "Un corps glacé qui orbite autour du Soleil"
+      B: "Un corps glacé qui orbite autour du Soleil"
+      C: "Un astéroïde géant"
       D: "Un satellite de Jupiter"
-    correctAnswer: C
+    correctAnswer: B
     translations:
       en:
         text: "What is a comet?"
         answers:
           A: "A shooting star"
-          B: "A giant asteroid"
-          C: "An icy body that orbits the Sun"
+          B: "An icy body that orbits the Sun"
+          C: "A giant asteroid"
           D: "A moon of Jupiter"
   - text: "Quel télescope spatial a été lancé en 1990 ?"
     answers:
-      A: "Hubble"
-      B: "James Webb"
+      A: "James Webb"
+      B: "Hubble"
       C: "Spitzer"
       D: "Chandra"
-    correctAnswer: A
+    correctAnswer: B
     translations:
       en:
         text: "Which space telescope was launched in 1990?"
         answers:
-          A: "Hubble"
-          B: "James Webb"
+          A: "James Webb"
+          B: "Hubble"
           C: "Spitzer"
           D: "Chandra"
   - text: "Quelle planète est la plus éloignée du Soleil ?"
     answers:
       A: "Uranus"
-      B: "Saturne"
+      B: "Neptune"
       C: "Jupiter"
-      D: "Neptune"
-    correctAnswer: D
+      D: "Saturne"
+    correctAnswer: B
     translations:
       en:
         text: "Which planet is farthest from the Sun?"
         answers:
           A: "Uranus"
-          B: "Saturn"
+          B: "Neptune"
           C: "Jupiter"
-          D: "Neptune"
+          D: "Saturn"
   - text: "Quelle est cette planète à la Grande Tache rouge ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Jupiter_and_its_shrunken_Great_Red_Spot.jpg?width=800
     answers:
-      A: "Jupiter"
+      A: "Mars"
       B: "Saturne"
-      C: "Mars"
+      C: "Jupiter"
       D: "Neptune"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "Which planet is this with the Great Red Spot?"
         answers:
-          A: "Jupiter"
+          A: "Mars"
           B: "Saturn"
-          C: "Mars"
+          C: "Jupiter"
           D: "Neptune"

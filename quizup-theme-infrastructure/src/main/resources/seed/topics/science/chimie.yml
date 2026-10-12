@@ -24,65 +24,65 @@ questions:
           D: "NaCl"
   - text: "Quel est le symbole chimique du fer ?"
     answers:
-      A: "F"
-      B: "Fe"
+      A: "Fe"
+      B: "F"
       C: "Ir"
       D: "Fr"
-    correctAnswer: B
+    correctAnswer: A
     translations:
       en:
         text: "What is the chemical symbol for iron?"
         answers:
-          A: "F"
-          B: "Fe"
+          A: "Fe"
+          B: "F"
           C: "Ir"
           D: "Fr"
   - text: "Quel est le symbole chimique de l'or ?"
     answers:
       A: "Ag"
-      B: "Oz"
+      B: "Au"
       C: "Or"
-      D: "Au"
-    correctAnswer: D
+      D: "Oz"
+    correctAnswer: B
     translations:
       en:
         text: "What is the chemical symbol for gold?"
         answers:
           A: "Ag"
-          B: "Oz"
+          B: "Au"
           C: "Or"
-          D: "Au"
+          D: "Oz"
   - text: "Combien d'éléments chimiques compte aujourd'hui le tableau périodique ?"
     answers:
-      A: "118"
-      B: "92"
+      A: "92"
+      B: "118"
       C: "100"
       D: "127"
-    correctAnswer: A
+    correctAnswer: B
     translations:
       en:
         text: "How many chemical elements are in the periodic table today?"
         answers:
-          A: "118"
-          B: "92"
+          A: "92"
+          B: "118"
           C: "100"
           D: "127"
   - text: "Quel scientifique a proposé le tableau périodique des éléments ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Dmitri_Mendeleev_1890s.jpg?width=800
     answers:
-      A: "Dmitri Mendeleïev"
+      A: "Ernest Rutherford"
       B: "Antoine Lavoisier"
       C: "John Dalton"
-      D: "Ernest Rutherford"
-    correctAnswer: A
+      D: "Dmitri Mendeleïev"
+    correctAnswer: D
     translations:
       en:
         text: "Which scientist proposed the periodic table of elements?"
         answers:
-          A: "Dmitri Mendeleev"
+          A: "Ernest Rutherford"
           B: "Antoine Lavoisier"
           C: "John Dalton"
-          D: "Ernest Rutherford"
+          D: "Dmitri Mendeleev"
   - text: "Quelle scientifique a reçu deux prix Nobel, en physique puis en chimie ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c._1920s.jpg?width=800
     answers:
@@ -102,124 +102,124 @@ questions:
   - text: "Quel est le symbole chimique du sodium ?"
     answers:
       A: "So"
-      B: "Na"
+      B: "Sn"
       C: "Sd"
-      D: "Sn"
-    correctAnswer: B
+      D: "Na"
+    correctAnswer: D
     translations:
       en:
         text: "What is the chemical symbol for sodium?"
         answers:
           A: "So"
-          B: "Na"
+          B: "Sn"
           C: "Sd"
-          D: "Sn"
+          D: "Na"
   - text: "Quel est le symbole chimique de l'oxygène ?"
     answers:
-      A: "O"
+      A: "Og"
       B: "Ox"
-      C: "Og"
+      C: "O"
       D: "Om"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
         text: "What is the chemical symbol for oxygen?"
         answers:
-          A: "O"
+          A: "Og"
           B: "Ox"
-          C: "Og"
+          C: "O"
           D: "Om"
   - text: "Quels sont les trois états physiques usuels de la matière ?"
     answers:
-      A: "Froid, tiède et chaud"
+      A: "Solide, liquide et gazeux"
       B: "Dur, mou et fluide"
-      C: "Solide, liquide et gazeux"
+      C: "Froid, tiède et chaud"
       D: "Acide, neutre et basique"
-    correctAnswer: C
+    correctAnswer: A
     translations:
       en:
         text: "What are the three common physical states of matter?"
         answers:
-          A: "Cold, warm, and hot"
+          A: "Solid, liquid, and gas"
           B: "Hard, soft, and fluid"
-          C: "Solid, liquid, and gas"
+          C: "Cold, warm, and hot"
           D: "Acidic, neutral, and basic"
   - text: "Quel gaz les plantes absorbent-elles pour la photosynthèse ?"
     answers:
       A: "L'oxygène"
-      B: "Le dioxyde de carbone"
+      B: "L'hydrogène"
       C: "L'azote"
-      D: "L'hydrogène"
-    correctAnswer: B
+      D: "Le dioxyde de carbone"
+    correctAnswer: D
     translations:
       en:
         text: "Which gas do plants absorb for photosynthesis?"
         answers:
           A: "Oxygen"
-          B: "Carbon dioxide"
+          B: "Hydrogen"
           C: "Nitrogen"
-          D: "Hydrogen"
+          D: "Carbon dioxide"
   - text: "Quel est l'élément le plus abondant dans l'atmosphère terrestre ?"
     answers:
       A: "L'oxygène"
-      B: "Le dioxyde de carbone"
+      B: "L'azote"
       C: "L'hydrogène"
-      D: "L'azote"
-    correctAnswer: D
+      D: "Le dioxyde de carbone"
+    correctAnswer: B
     translations:
       en:
         text: "What is the most abundant element in Earth's atmosphere?"
         answers:
           A: "Oxygen"
-          B: "Carbon dioxide"
+          B: "Nitrogen"
           C: "Hydrogen"
-          D: "Nitrogen"
+          D: "Carbon dioxide"
   - text: "Quelle particule porte une charge électrique négative ?"
     answers:
-      A: "Le proton"
+      A: "L'électron"
       B: "Le neutron"
-      C: "L'électron"
+      C: "Le proton"
       D: "Le photon"
-    correctAnswer: C
+    correctAnswer: A
     translations:
       en:
         text: "Which particle carries a negative electric charge?"
         answers:
-          A: "Proton"
+          A: "Electron"
           B: "Neutron"
-          C: "Electron"
+          C: "Proton"
           D: "Photon"
   - text: "Où sont concentrés les protons et les neutrons d'un atome ?"
     answers:
-      A: "Dans le noyau"
-      B: "Dans le nuage électronique"
+      A: "Dans le nuage électronique"
+      B: "Dans le noyau"
       C: "Dans les liaisons chimiques"
       D: "Dans le vide"
-    correctAnswer: A
+    correctAnswer: B
     translations:
       en:
         text: "Where are the protons and neutrons of an atom concentrated?"
         answers:
-          A: "In the nucleus"
-          B: "In the electron cloud"
+          A: "In the electron cloud"
+          B: "In the nucleus"
           C: "In chemical bonds"
           D: "In a vacuum"
   - text: "Quelle molécule ce modèle représente-t-il ?"
     imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Water-3D-balls.png?width=800
     answers:
       A: "Le méthane"
-      B: "L'eau"
+      B: "L'ammoniac"
       C: "Le dioxyde de carbone"
-      D: "L'ammoniac"
-    correctAnswer: B
+      D: "L'eau"
+    correctAnswer: D
     translations:
       en:
         text: "Which molecule does this model represent?"
         answers:
           A: "Methane"
-          B: "Water"
+          B: "Ammonia"
           C: "Carbon dioxide"
-          D: "Ammonia"
+          D: "Water"
   - text: "Quel est le pH d'une solution neutre à température ambiante ?"
     answers:
       A: "0"
@@ -252,34 +252,34 @@ questions:
           D: "Citric acid"
   - text: "Quel métal est liquide à température ambiante ?"
     answers:
-      A: "Le fer"
-      B: "Le mercure"
+      A: "Le mercure"
+      B: "Le fer"
       C: "L'aluminium"
       D: "Le cuivre"
-    correctAnswer: B
+    correctAnswer: A
     translations:
       en:
         text: "Which metal is liquid at room temperature?"
         answers:
-          A: "Iron"
-          B: "Mercury"
+          A: "Mercury"
+          B: "Iron"
           C: "Aluminum"
           D: "Copper"
   - text: "Quel est le symbole chimique du carbone ?"
     answers:
       A: "Ca"
       B: "Co"
-      C: "Cr"
-      D: "C"
-    correctAnswer: D
+      C: "C"
+      D: "Cr"
+    correctAnswer: C
     translations:
       en:
         text: "What is the chemical symbol for carbon?"
         answers:
           A: "Ca"
           B: "Co"
-          C: "Cr"
-          D: "C"
+          C: "C"
+          D: "Cr"
   - text: "Qui est considéré comme le père de la chimie moderne ?"
     answers:
       A: "Louis Pasteur"
@@ -300,14 +300,14 @@ questions:
     answers:
       A: "Isaac Newton"
       B: "Michael Faraday"
-      C: "Robert Boyle"
-      D: "John Dalton"
-    correctAnswer: D
+      C: "John Dalton"
+      D: "Robert Boyle"
+    correctAnswer: C
     translations:
       en:
         text: "Which British scientist proposed the modern atomic theory?"
         answers:
           A: "Isaac Newton"
           B: "Michael Faraday"
-          C: "Robert Boyle"
-          D: "John Dalton"
+          C: "John Dalton"
+          D: "Robert Boyle"
