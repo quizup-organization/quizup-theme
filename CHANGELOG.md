@@ -1,3 +1,9 @@
+## [5.1.1](https://github.com/quizup-organization/quizup-theme/compare/v5.1.0...v5.1.1) (2026-10-12)
+
+### Bug Fixes
+
+* **theme:** seed équilibré A/B/C/D (~25 % ±1) et couvertures uniques ([1dcebf2](https://github.com/quizup-organization/quizup-theme/commit/1dcebf2521d66a917cc05ca1aec670020f551bdb))
+
 ## [5.1.0](https://github.com/quizup-organization/quizup-theme/compare/v5.0.0...v5.1.0) (2026-10-12)
 
 ### Features
