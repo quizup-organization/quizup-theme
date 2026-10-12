@@ -10,4 +10,5 @@ spring:
 app:
   seed-data:
     enabled: ${QUIZUP_SEED_DATA_ENABLED:true}
+    # Miroir d'images du seed : quizup-workspace/product/wikipedia, publié par scripts/seed-images.py.
     image-base-url: ${QUIZUP_SEED_IMAGE_BASE_URL:https://media.quizup.cnadjim.fr/quizup-media/}
