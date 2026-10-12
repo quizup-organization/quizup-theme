@@ -1,3 +1,17 @@
+## [5.6.0](https://github.com/quizup-organization/quizup-theme/compare/v5.5.0...v5.6.0) (2026-10-12)
+
+### Features
+
+* **theme:** lot 4 — sport (tennis, F1, rugby, cyclisme, JO, basketball) ([9585f83](https://github.com/quizup-organization/quizup-theme/commit/9585f83519bd5d2ff1a2a3fd61a7c0b0cd7ef63f))
+* **theme:** lot 5 — séries & cinéma (Squid Game, Kaamelott, The Office, Casa de Papel, James Bond, comédies FR) ([12bdc8d](https://github.com/quizup-organization/quizup-theme/commit/12bdc8d6028e2fcc8c977937d625f9eb74965e2d))
+* **theme:** lot 6 — culture française (BD franco-belge, chansons, cuisine, fromages, Eurovision, memes) ([6158928](https://github.com/quizup-organization/quizup-theme/commit/61589285cca3a2736866c0226c17ab20ec4d25dc))
+* **theme:** lot 7 — sciences, nature & histoire (physique, maths, mer, insectes, WW2, Moyen Âge) ([a57b663](https://github.com/quizup-organization/quizup-theme/commit/a57b663aa3c69454f396f28de88ed7f92e3273d4))
+* **theme:** lot 8 — jeux & tech (Nintendo, e-sport, arcade, Internet & IA) ([928b1ff](https://github.com/quizup-organization/quizup-theme/commit/928b1ff773d393e12e2c47ce76e89580f54a9361))
+
+### Bug Fixes
+
+* **theme:** SDK quizup-parent 4.7.1 (cycle de beans Configuration/bus distribué au démarrage) ([6ac4692](https://github.com/quizup-organization/quizup-theme/commit/6ac469261a04075c96c849961d4e33d6cc73c559))
+
 ## [5.5.0](https://github.com/quizup-organization/quizup-theme/compare/v5.4.0...v5.5.0) (2026-10-12)
 
 ### Features
