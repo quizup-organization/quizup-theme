@@ -1,0 +1,1514 @@
+topic:
+  id: topic-dinosaures
+  names:
+    fr: "Dinosaures"
+    en: "Dinosaurs"
+  description: "Les dinosaures ont régné sur la Terre pendant l'ère mésozoïque, du Trias au Crétacé. Découvre les grandes familles de théropodes, sauropodes et cératopsiens, les espèces iconiques comme le Tyrannosaurus rex ou le Triceratops, les périodes géologiques, l'extinction de la fin du Crétacé et le travail des paléontologues sur les fossiles."
+  category: NATURE
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannosaurus_rex_skeleton_%28cast_of_specimen_MOR_555%29_at_Cleveland_Museum_of_Natural_History.jpg?width=800
+questions:
+  - text: "À quelle période géologique les premiers dinosaures sont-ils apparus ?"
+    answers:
+      A: "Crétacé"
+      B: "Jurassique"
+      C: "Trias"
+      D: "Permien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which geological period did the first dinosaurs appear?"
+        answers:
+          A: "Cretaceous"
+          B: "Jurassic"
+          C: "Triassic"
+          D: "Permian"
+  - text: "Quel célèbre dinosaure carnivore reconnaît-on sur ce squelette exposé au Field Museum de Chicago ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/FMNH_Tyrannosaurus_rex_Sue.jpg?width=800
+    answers:
+      A: "Tyrannosaurus rex"
+      B: "Allosaure"
+      C: "Giganotosaure"
+      D: "Carnotaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which famous carnivorous dinosaur can be recognized from this skeleton exhibited at the Field Museum in Chicago?"
+        answers:
+          A: "Tyrannosaurus rex"
+          B: "Allosaurus"
+          C: "Giganotosaurus"
+          D: "Carnotaurus"
+  - text: "Quel dinosaure herbivore à la grande collerette osseuse reconnaît-on sur ce squelette ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Triceratops_Skeleton_-_National_Museum_of_Natural_History_(14611729991)a.jpg?width=800
+    answers:
+      A: "Protoceratops"
+      B: "Pachyrhinosaurus"
+      C: "Stégosaure"
+      D: "Triceratops"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which herbivorous dinosaur with a large bony frill can be recognized from this skeleton?"
+        answers:
+          A: "Protoceratops"
+          B: "Pachyrhinosaurus"
+          C: "Stegosaurus"
+          D: "Triceratops"
+  - text: "À quel dinosaure appartient ce squelette aux grandes plaques osseuses alignées sur le dos ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Stegosaurus_in_the_Natural_History_Museum_London.jpg?width=800
+    answers:
+      A: "Ankylosaure"
+      B: "Kentrosaure"
+      C: "Parasaurolophus"
+      D: "Stégosaure"
+    correctAnswer: D
+    translations:
+      en:
+        text: "To which dinosaur does this skeleton with large bony plates aligned along its back belong?"
+        answers:
+          A: "Ankylosaurus"
+          B: "Kentrosaurus"
+          C: "Parasaurolophus"
+          D: "Stegosaurus"
+  - text: "À quel petit dinosaure carnivore appartient ce moulage de squelette complet ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/LACM_Velociraptor_mongoliensis_cast_01.jpg?width=800
+    answers:
+      A: "Deinonychus"
+      B: "Vélociraptor"
+      C: "Oviraptor"
+      D: "Compsognathus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which small carnivorous dinosaur does this complete skeleton cast belong?"
+        answers:
+          A: "Deinonychus"
+          B: "Velociraptor"
+          C: "Oviraptor"
+          D: "Compsognathus"
+  - text: "Quel sauropode est connu pour sa très longue queue en forme de fouet ?"
+    answers:
+      A: "Diplodocus"
+      B: "Triceratops"
+      C: "Stégosaure"
+      D: "Ptéranodon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sauropod is known for its very long, whip-like tail?"
+        answers:
+          A: "Diplodocus"
+          B: "Triceratops"
+          C: "Stegosaurus"
+          D: "Pteranodon"
+  - text: "Quelle période géologique succède au Trias ?"
+    answers:
+      A: "Dévonien"
+      B: "Crétacé"
+      C: "Permien"
+      D: "Jurassique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which geological period follows the Triassic?"
+        answers:
+          A: "Devonian"
+          B: "Cretaceous"
+          C: "Permian"
+          D: "Jurassic"
+  - text: "À la fin de quelle période les dinosaures non aviens se sont-ils éteints ?"
+    answers:
+      A: "Jurassique"
+      B: "Trias"
+      C: "Silurien"
+      D: "Crétacé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "At the end of which period did non-avian dinosaurs go extinct?"
+        answers:
+          A: "Jurassic"
+          B: "Triassic"
+          C: "Silurian"
+          D: "Cretaceous"
+  - text: "Que signifie littéralement le mot « dinosaure » en grec ancien ?"
+    answers:
+      A: "Lézard terrible"
+      B: "Lézard géant"
+      C: "Bête ancienne"
+      D: "Dragon de pierre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the word \"dinosaur\" literally mean in ancient Greek?"
+        answers:
+          A: "Terrible lizard"
+          B: "Giant lizard"
+          C: "Ancient beast"
+          D: "Stone dragon"
+  - text: "Quel scientifique britannique a inventé le terme « Dinosauria » en 1842 ?"
+    answers:
+      A: "Gideon Mantell"
+      B: "Charles Darwin"
+      C: "Richard Owen"
+      D: "Barnum Brown"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which British scientist coined the term \"Dinosauria\" in 1842?"
+        answers:
+          A: "Gideon Mantell"
+          B: "Charles Darwin"
+          C: "Richard Owen"
+          D: "Barnum Brown"
+  - text: "Quel dinosaure a été le premier décrit scientifiquement, en 1824 ?"
+    answers:
+      A: "Iguanodon"
+      B: "Hylaeosaurus"
+      C: "Megalosaurus"
+      D: "Cetiosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dinosaur was the first to be scientifically described, in 1824?"
+        answers:
+          A: "Iguanodon"
+          B: "Hylaeosaurus"
+          C: "Megalosaurus"
+          D: "Cetiosaurus"
+  - text: "Quel grand prédateur du Crétacé portait une voile soutenue par de longues épines dorsales ?"
+    answers:
+      A: "Carnotaurus"
+      B: "Allosaure"
+      C: "Spinosaure"
+      D: "Giganotosaure"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which large Cretaceous predator had a sail supported by long dorsal spines?"
+        answers:
+          A: "Carnotaurus"
+          B: "Allosaurus"
+          C: "Spinosaurus"
+          D: "Giganotosaurus"
+  - text: "Quel hadrosaure possède une crête crânienne en forme de long tube recourbé ?"
+    answers:
+      A: "Parasaurolophus"
+      B: "Maiasaura"
+      C: "Iguanodon"
+      D: "Corythosaurus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which hadrosaur has a skull crest shaped like a long, curved tube?"
+        answers:
+          A: "Parasaurolophus"
+          B: "Maiasaura"
+          C: "Iguanodon"
+          D: "Corythosaurus"
+  - text: "Le Ptéranodon appartient en réalité à quel groupe ?"
+    answers:
+      A: "Dinosaures théropodes"
+      B: "Ptérosaures"
+      C: "Sauropodes"
+      D: "Oiseaux primitifs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which group does Pteranodon actually belong?"
+        answers:
+          A: "Theropod dinosaurs"
+          B: "Pterosaurs"
+          C: "Sauropods"
+          D: "Primitive birds"
+  - text: "À quel grand groupe de reptiles les dinosaures appartiennent-ils ?"
+    answers:
+      A: "Lépidosauriens"
+      B: "Archosaures"
+      C: "Chéloniens"
+      D: "Amphibiens"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which major group of reptiles do dinosaurs belong?"
+        answers:
+          A: "Lepidosaurians"
+          B: "Archosaurs"
+          C: "Chelonians"
+          D: "Amphibians"
+  - text: "Quel groupe de dinosaures herbivores est célèbre pour son très long cou ?"
+    answers:
+      A: "Sauropodes"
+      B: "Ankylosaures"
+      C: "Dromaeosauridés"
+      D: "Cératopsiens"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which group of herbivorous dinosaurs is famous for its very long neck?"
+        answers:
+          A: "Sauropods"
+          B: "Ankylosaurs"
+          C: "Dromaeosaurids"
+          D: "Ceratopsians"
+  - text: "Quelle structure osseuse caractérise la tête des cératopsiens comme le Triceratops ?"
+    answers:
+      A: "Une collerette osseuse"
+      B: "Un bec de canard"
+      C: "Un casque bombé"
+      D: "Une crête nasale"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which bony structure characterizes the heads of ceratopsians like Triceratops?"
+        answers:
+          A: "A bony frill"
+          B: "A duck bill"
+          C: "A domed helmet"
+          D: "A nasal crest"
+  - text: "Quel dinosaure blindé possédait une massue osseuse au bout de la queue ?"
+    answers:
+      A: "Ankylosaure"
+      B: "Stégosaure"
+      C: "Triceratops"
+      D: "Vélociraptor"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which armored dinosaur had a bony club at the end of its tail?"
+        answers:
+          A: "Ankylosaurus"
+          B: "Stegosaurus"
+          C: "Triceratops"
+          D: "Velociraptor"
+  - text: "Le Brachiosaure est un représentant de quel groupe ?"
+    answers:
+      A: "Théropodes"
+      B: "Hadrosaures"
+      C: "Cératopsiens"
+      D: "Sauropodes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Brachiosaurus is a member of which group?"
+        answers:
+          A: "Theropods"
+          B: "Hadrosaurs"
+          C: "Ceratopsians"
+          D: "Sauropods"
+  - text: "Quelle catastrophe est aujourd'hui tenue pour responsable de l'extinction de la fin du Crétacé ?"
+    answers:
+      A: "Une unique éruption volcanique"
+      B: "Un impact d'astéroïde"
+      C: "Une épidémie mondiale"
+      D: "Une glaciation soudaine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which catastrophe is now held responsible for the end-Cretaceous extinction?"
+        answers:
+          A: "A single volcanic eruption"
+          B: "An asteroid impact"
+          C: "A global epidemic"
+          D: "A sudden glaciation"
+  - text: "Il y a environ combien de millions d'années l'extinction Crétacé-Paléogène a-t-elle eu lieu ?"
+    answers:
+      A: "200 millions"
+      B: "250 millions"
+      C: "5 millions"
+      D: "66 millions"
+    correctAnswer: D
+    translations:
+      en:
+        text: "About how many million years ago did the Cretaceous-Paleogene extinction occur?"
+        answers:
+          A: "200 million"
+          B: "250 million"
+          C: "5 million"
+          D: "66 million"
+  - text: "Qui a découvert le premier squelette de Tyrannosaurus rex en 1902 ?"
+    answers:
+      A: "Othniel Marsh"
+      B: "Edward Cope"
+      C: "Barnum Brown"
+      D: "Roy Chapman Andrews"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who discovered the first Tyrannosaurus rex skeleton in 1902?"
+        answers:
+          A: "Othniel Marsh"
+          B: "Edward Cope"
+          C: "Barnum Brown"
+          D: "Roy Chapman Andrews"
+  - text: "Lequel de ces dinosaures était un prédateur carnivore ?"
+    answers:
+      A: "Ankylosaure"
+      B: "Tyrannosaurus rex"
+      C: "Triceratops"
+      D: "Parasaurolophus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which of these dinosaurs was a carnivorous predator?"
+        answers:
+          A: "Ankylosaurus"
+          B: "Tyrannosaurus rex"
+          C: "Triceratops"
+          D: "Parasaurolophus"
+  - text: "De quel régime alimentaire le Triceratops se nourrissait-il ?"
+    answers:
+      A: "Herbivore"
+      B: "Carnivore"
+      C: "Piscivore"
+      D: "Insectivore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What diet did Triceratops feed on?"
+        answers:
+          A: "Herbivore"
+          B: "Carnivore"
+          C: "Piscivore"
+          D: "Insectivore"
+  - text: "De quel groupe de dinosaures les oiseaux modernes descendent-ils ?"
+    answers:
+      A: "Sauropodes"
+      B: "Théropodes"
+      C: "Ankylosaures"
+      D: "Cératopsiens"
+    correctAnswer: B
+    translations:
+      en:
+        text: "From which group of dinosaurs do modern birds descend?"
+        answers:
+          A: "Sauropods"
+          B: "Theropods"
+          C: "Ankylosaurs"
+          D: "Ceratopsians"
+  - text: "Quel dinosaure herbivore du Crétacé portait une grande griffe en forme de pouce ?"
+    answers:
+      A: "Parasaurolophus"
+      B: "Iguanodon"
+      C: "Triceratops"
+      D: "Ankylosaure"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which herbivorous Cretaceous dinosaur had a large thumb-shaped claw?"
+        answers:
+          A: "Parasaurolophus"
+          B: "Iguanodon"
+          C: "Triceratops"
+          D: "Ankylosaurus"
+  - text: "Qui a décrit et nommé l'Iguanodon en 1825 ?"
+    answers:
+      A: "Richard Owen"
+      B: "Barnum Brown"
+      C: "Gideon Mantell"
+      D: "Othniel Marsh"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who described and named Iguanodon in 1825?"
+        answers:
+          A: "Richard Owen"
+          B: "Barnum Brown"
+          C: "Gideon Mantell"
+          D: "Othniel Marsh"
+  - text: "À quelle période géologique vivait le Stégosaure ?"
+    answers:
+      A: "Trias"
+      B: "Crétacé"
+      C: "Permien"
+      D: "Jurassique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which geological period did Stegosaurus live?"
+        answers:
+          A: "Triassic"
+          B: "Cretaceous"
+          C: "Permian"
+          D: "Jurassic"
+  - text: "Le nom « Brontosaure » a longtemps été considéré comme un synonyme de quel sauropode ?"
+    answers:
+      A: "Brachiosaure"
+      B: "Apatosaure"
+      C: "Diplodocus"
+      D: "Camarasaurus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "The name \"Brontosaurus\" was long considered a synonym of which sauropod?"
+        answers:
+          A: "Brachiosaurus"
+          B: "Apatosaurus"
+          C: "Diplodocus"
+          D: "Camarasaurus"
+  - text: "Qu'est-ce qu'un coprolithe ?"
+    answers:
+      A: "Un os de la jambe"
+      B: "Un œuf fossilisé"
+      C: "Une empreinte de pas"
+      D: "Un excrément fossilisé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is a coprolite?"
+        answers:
+          A: "A leg bone"
+          B: "A fossilized egg"
+          C: "A footprint"
+          D: "A fossilized dropping"
+  - text: "Quelle preuve chimique dans les roches soutient la théorie de l'impact d'astéroïde à la fin du Crétacé ?"
+    answers:
+      A: "Une couche d'iridium"
+      B: "Une couche de basalte"
+      C: "Une couche de sel"
+      D: "Une couche de charbon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What chemical evidence in rocks supports the asteroid impact theory at the end of the Cretaceous?"
+        answers:
+          A: "A layer of iridium"
+          B: "A layer of basalt"
+          C: "A layer of salt"
+          D: "A layer of coal"
+  - text: "Combien d'orteils fonctionnels les théropodes utilisaient-ils pour marcher ?"
+    answers:
+      A: "Deux"
+      B: "Quatre"
+      C: "Trois"
+      D: "Cinq"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many functional toes did theropods use to walk?"
+        answers:
+          A: "Two"
+          B: "Four"
+          C: "Three"
+          D: "Five"
+  - text: "Comment appelle-t-on la science qui étudie les dinosaures ?"
+    answers:
+      A: "L'archéologie"
+      B: "La biologie marine"
+      C: "La géographie"
+      D: "La paléontologie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the science that studies dinosaurs called?"
+        answers:
+          A: "Archaeology"
+          B: "Marine biology"
+          C: "Geography"
+          D: "Paleontology"
+  - text: "Quel matériau issu de la résine fossilisée peut conserver des insectes préhistoriques ?"
+    answers:
+      A: "L'ambre"
+      B: "Le quartz"
+      C: "Le granite"
+      D: "Le calcaire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What material from fossilized resin can preserve prehistoric insects?"
+        answers:
+          A: "Amber"
+          B: "Quartz"
+          C: "Granite"
+          D: "Limestone"
+  - text: "Quelle paléontologue britannique est célèbre pour ses fossiles marins découverts à Lyme Regis ?"
+    answers:
+      A: "Marie Curie"
+      B: "Mary Anning"
+      C: "Mary Leakey"
+      D: "Jane Goodall"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which British paleontologist is famous for her marine fossils discovered at Lyme Regis?"
+        answers:
+          A: "Marie Curie"
+          B: "Mary Anning"
+          C: "Mary Leakey"
+          D: "Jane Goodall"
+  - text: "À quelle période géologique vivait l'Allosaure ?"
+    answers:
+      A: "Jurassique"
+      B: "Trias"
+      C: "Crétacé"
+      D: "Paléogène"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which geological period did Allosaurus live?"
+        answers:
+          A: "Jurassic"
+          B: "Triassic"
+          C: "Cretaceous"
+          D: "Paleogene"
+  - text: "Où se situe le cratère d'impact lié à l'extinction des dinosaures ?"
+    answers:
+      A: "En Sibérie"
+      B: "En Antarctique"
+      C: "Au Yucatán"
+      D: "Dans les Alpes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Where is the impact crater linked to the extinction of the dinosaurs located?"
+        answers:
+          A: "In Siberia"
+          B: "In Antarctica"
+          C: "In the Yucatán"
+          D: "In the Alps"
+  - text: "Quels dinosaures avaient un bec en forme de celui d'un canard ?"
+    answers:
+      A: "Les théropodes"
+      B: "Les ankylosaures"
+      C: "Les hadrosaures"
+      D: "Les cératopsiens"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dinosaurs had a beak shaped like a duck's?"
+        answers:
+          A: "Theropods"
+          B: "Ankylosaurs"
+          C: "Hadrosaurs"
+          D: "Ceratopsians"
+  - text: "Quelle est la durée approximative du règne des dinosaures ?"
+    answers:
+      A: "Environ 160 millions d'années"
+      B: "Environ 65 millions d'années"
+      C: "Environ 10 millions d'années"
+      D: "Environ un milliard d'années"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the approximate duration of the dinosaurs' reign?"
+        answers:
+          A: "About 160 million years"
+          B: "About 65 million years"
+          C: "About 10 million years"
+          D: "About one billion years"
+  - text: "Quel fossile à plumes et à dents de reptile reconnaît-on sur cette photographie ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Archaeopteryx_lithographica_(Berlin_specimen).jpg?width=800
+    answers:
+      A: "Compsognathus"
+      B: "Ptéranodon"
+      C: "Ichthyosaurus"
+      D: "Archaeopteryx"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which fossil with feathers and reptile teeth can be recognized in this photograph?"
+        answers:
+          A: "Compsognathus"
+          B: "Pteranodon"
+          C: "Ichthyosaurus"
+          D: "Archaeopteryx"
+  - text: "Quels sont les trois périodes de l'ère mésozoïque dans l'ordre chronologique ?"
+    answers:
+      A: "Jurassique, Trias, Crétacé"
+      B: "Trias, Jurassique, Crétacé"
+      C: "Trias, Crétacé, Jurassique"
+      D: "Crétacé, Jurassique, Trias"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What are the three periods of the Mesozoic era in chronological order?"
+        answers:
+          A: "Jurassic, Triassic, Cretaceous"
+          B: "Triassic, Jurassic, Cretaceous"
+          C: "Triassic, Cretaceous, Jurassic"
+          D: "Cretaceous, Jurassic, Triassic"
+  - text: "Quelle caractéristique définit les ankylosaures ?"
+    answers:
+      A: "Une armure osseuse sur le dos"
+      B: "Un long cou"
+      C: "Une collerette"
+      D: "Un bec sans dents"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What feature defines ankylosaurs?"
+        answers:
+          A: "Bony armor on the back"
+          B: "A long neck"
+          C: "A frill"
+          D: "A toothless beak"
+  - text: "Quelle période géologique suit le Jurassique ?"
+    answers:
+      A: "Le Trias"
+      B: "Le Crétacé"
+      C: "Le Permien"
+      D: "Le Quaternaire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which geological period follows the Jurassic?"
+        answers:
+          A: "The Triassic"
+          B: "The Cretaceous"
+          C: "The Permian"
+          D: "The Quaternary"
+  - text: "Comment les paléontologues appellent-ils les empreintes de pas fossilisées ?"
+    answers:
+      A: "Des coprolithes"
+      B: "Des traces fossiles"
+      C: "Des nodules"
+      D: "Des gastrolithes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What do paleontologists call fossilized footprints?"
+        answers:
+          A: "Coprolites"
+          B: "Trace fossils"
+          C: "Nodules"
+          D: "Gastroliths"
+  - text: "Quel célèbre T. rex fossilisé, découvert en 1990, est exposé au Field Museum de Chicago ?"
+    answers:
+      A: "Lucy"
+      B: "Rexy"
+      C: "Sue"
+      D: "Dakota"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which famous fossilized T. rex, discovered in 1990, is displayed at the Field Museum in Chicago?"
+        answers:
+          A: "Lucy"
+          B: "Rexy"
+          C: "Sue"
+          D: "Dakota"
+  - text: "Quel grand groupe de dinosaures comprend le Triceratops, le Stégosaure et les hadrosaures ?"
+    answers:
+      A: "Les saurischiens"
+      B: "Les ptérosaures"
+      C: "Les ornithischiens"
+      D: "Les ichthyosaures"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which major group of dinosaurs includes Triceratops, Stegosaurus, and hadrosaurs?"
+        answers:
+          A: "Saurischians"
+          B: "Pterosaurs"
+          C: "Ornithischians"
+          D: "Ichthyosaurs"
+  - text: "Quelle ère géologique est appelée « l'ère des dinosaures » ?"
+    answers:
+      A: "Le Paléozoïque"
+      B: "Le Cénozoïque"
+      C: "Le Protérozoïque"
+      D: "Le Mésozoïque"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which geological era is called the 'Age of Dinosaurs'?"
+        answers:
+          A: "Paleozoic"
+          B: "Cenozoic"
+          C: "Proterozoic"
+          D: "Mesozoic"
+  - text: "Quel petit dinosaure carnivore de la taille d'un poulet, découvert en Allemagne, est l'un des plus petits dinosaures connus ?"
+    answers:
+      A: "Gallimimus"
+      B: "Oviraptor"
+      C: "Compsognathus"
+      D: "Coelophysis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which small carnivorous dinosaur the size of a chicken, discovered in Germany, is one of the smallest known dinosaurs?"
+        answers:
+          A: "Gallimimus"
+          B: "Oviraptor"
+          C: "Compsognathus"
+          D: "Coelophysis"
+  - text: "Que signifie le nom « Tyrannosaurus rex » ?"
+    answers:
+      A: "Tyran marin"
+      B: "Lézard géant"
+      C: "Roi des oiseaux"
+      D: "Roi des lézards tyrans"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does the name 'Tyrannosaurus rex' mean?"
+        answers:
+          A: "Marine tyrant"
+          B: "Giant lizard"
+          C: "King of birds"
+          D: "King of tyrant lizards"
+  - text: "Quel type de fossile a révélé que certains théropodes portaient des plumes ?"
+    answers:
+      A: "Des fossiles d'œufs"
+      B: "Des empreintes de pas"
+      C: "Des fossiles à plumes"
+      D: "Des coprolithes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What type of fossil revealed that some theropods had feathers?"
+        answers:
+          A: "Egg fossils"
+          B: "Footprints"
+          C: "Feathered fossils"
+          D: "Coprolites"
+  - text: "À quelle période géologique vivait principalement l'Allosaurus, dont de nombreux fossiles ont été trouvés dans l'Ouest américain ?"
+    answers:
+      A: "Trias"
+      B: "Crétacé"
+      C: "Jurassique"
+      D: "Permien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which geological period did Allosaurus, whose many fossils have been found in the American West, primarily live?"
+        answers:
+          A: "Triassic"
+          B: "Cretaceous"
+          C: "Jurassic"
+          D: "Permian"
+  - text: "Quelle particularité anatomique remarquable possédait l'Iguanodon au niveau des mains ?"
+    answers:
+      A: "Six doigts à chaque main"
+      B: "Des griffes rétractiles comme celles d'un félin"
+      C: "Un pouce en forme d'éperon osseux"
+      D: "Des sabots cornés"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What remarkable anatomical feature did Iguanodon have on its hands?"
+        answers:
+          A: "Six fingers on each hand"
+          B: "Retractable claws like a feline"
+          C: "A thumb shaped like a bony spike"
+          D: "Horny hooves"
+  - text: "Le Plateosaurus est l'un des plus anciens grands dinosaures connus. À quelle période a-t-il vécu ?"
+    answers:
+      A: "Trias"
+      B: "Permien"
+      C: "Crétacé"
+      D: "Jurassique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Plateosaurus is one of the oldest known large dinosaurs. In which period did it live?"
+        answers:
+          A: "Triassic"
+          B: "Permian"
+          C: "Cretaceous"
+          D: "Jurassic"
+  - text: "Que signifie le nom « Deinonychus », ce théropode décrit par John Ostrom ?"
+    answers:
+      A: "« Griffe terrible »"
+      B: "« Dent acérée »"
+      C: "« Lézard rapide »"
+      D: "« Chasseur agile »"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the name 'Deinonychus', the theropod described by John Ostrom, mean?"
+        answers:
+          A: "'Terrible claw'"
+          B: "'Sharp tooth'"
+          C: "'Swift lizard'"
+          D: "'Agile hunter'"
+  - text: "Quel dinosaure carnivore d'Amérique du Sud portait deux petites cornes osseuses au-dessus des yeux ?"
+    answers:
+      A: "Triceratops"
+      B: "Allosaurus"
+      C: "Gallimimus"
+      D: "Carnotaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which carnivorous dinosaur from South America had two small bony horns above its eyes?"
+        answers:
+          A: "Triceratops"
+          B: "Allosaurus"
+          C: "Gallimimus"
+          D: "Carnotaurus"
+  - text: "À quel groupe d'animaux appartenait le Mosasaurus, grand prédateur des mers du Crétacé ?"
+    answers:
+      A: "Aux amphibiens géants"
+      B: "Aux ptérosaures"
+      C: "Aux dinosaures sauropodes"
+      D: "Aux lézards marins"
+    correctAnswer: D
+    translations:
+      en:
+        text: "To which group of animals did Mosasaurus, a large predator of the Cretaceous seas, belong?"
+        answers:
+          A: "Giant amphibians"
+          B: "Pterosaurs"
+          C: "Sauropod dinosaurs"
+          D: "Marine lizards"
+  - text: "Quels traits distinguaient le Plésiosaure, reptile marin du Mésozoïque ?"
+    answers:
+      A: "Un long cou et quatre grandes nageoires"
+      B: "Une carapace osseuse"
+      C: "Deux cornes frontales"
+      D: "Des plumes imperméables"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What features distinguished Plesiosaurus, a marine reptile of the Mesozoic?"
+        answers:
+          A: "A long neck and four large flippers"
+          B: "A bony shell"
+          C: "Two frontal horns"
+          D: "Waterproof feathers"
+  - text: "Quel dinosaure a été découvert fossilisé couvant une couvée d'œufs, sur un spécimen surnommé « Big Mama » ?"
+    answers:
+      A: "Citipati"
+      B: "Deinonychus"
+      C: "Compsognathus"
+      D: "Maiasaura"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which dinosaur was discovered fossilized brooding a clutch of eggs, on a specimen nicknamed 'Big Mama'?"
+        answers:
+          A: "Citipati"
+          B: "Deinonychus"
+          C: "Compsognathus"
+          D: "Maiasaura"
+  - text: "Le Microraptor, petit dinosaure à plumes de Chine, était remarquable car il possédait..."
+    answers:
+      A: "Une queue blindée"
+      B: "Trois cornes"
+      C: "Quatre ailes formées par des plumes"
+      D: "Une voile dorsale"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Microraptor, a small feathered dinosaur from China, was remarkable because it had..."
+        answers:
+          A: "An armored tail"
+          B: "Three horns"
+          C: "Four wings formed by feathers"
+          D: "A dorsal sail"
+  - text: "Dans quelle région les restes de l'Argentinosaurus, l'un des plus grands dinosaures connus, ont-ils été découverts ?"
+    answers:
+      A: "Le Montana"
+      B: "La Patagonie"
+      C: "L'Alberta"
+      D: "La Mongolie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which region were the remains of Argentinosaurus, one of the largest known dinosaurs, discovered?"
+        answers:
+          A: "Montana"
+          B: "Patagonia"
+          C: "Alberta"
+          D: "Mongolia"
+  - text: "Chez la grande majorité des dinosaures, comment était la coquille des œufs ?"
+    answers:
+      A: "Molle et gélatineuse"
+      B: "Formée d'écailles cornées"
+      C: "Transparente"
+      D: "Calcifiée et rigide"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the vast majority of dinosaurs, what was the eggshell like?"
+        answers:
+          A: "Soft and gelatinous"
+          B: "Made of horny scales"
+          C: "Transparent"
+          D: "Calcified and rigid"
+  - text: "Quel dinosaure à bec de canard a été surnommé « bonne mère lézard » après la découverte de ses nids ?"
+    answers:
+      A: "Triceratops"
+      B: "Stegosaurus"
+      C: "Maiasaura"
+      D: "Brachiosaurus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which duck-billed dinosaur was nicknamed 'good mother lizard' after the discovery of its nests?"
+        answers:
+          A: "Triceratops"
+          B: "Stegosaurus"
+          C: "Maiasaura"
+          D: "Brachiosaurus"
+  - text: "Quel paléontologue américain est associé à la découverte des nids de Maiasaura dans le Montana et à la controverse sur un T. rex charognard ?"
+    answers:
+      A: "Georges Cuvier"
+      B: "Richard Owen"
+      C: "Mary Anning"
+      D: "Jack Horner"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which American paleontologist is associated with the discovery of Maiasaura nests in Montana and the controversy over a scavenger T. rex?"
+        answers:
+          A: "Georges Cuvier"
+          B: "Richard Owen"
+          C: "Mary Anning"
+          D: "Jack Horner"
+  - text: "Dans certains nids fossilisés, des ossements de jeunes dinosaures côtoient des coquilles brisées. Qu'est-ce que cela suggère ?"
+    answers:
+      A: "Que les adultes pondaient en vol"
+      B: "Que les nids étaient abandonnés juste après la ponte"
+      C: "Que les petits quittaient le nid dès l'éclosion"
+      D: "Que les petits restaient au nid et étaient nourris par les adultes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In some fossilized nests, bones of young dinosaurs are found alongside broken shells. What does this suggest?"
+        answers:
+          A: "That adults laid eggs while flying"
+          B: "That the nests were abandoned right after laying"
+          C: "That the young left the nest as soon as they hatched"
+          D: "That the young stayed in the nest and were fed by adults"
+  - text: "Selon les paléontologues, à quoi servaient probablement les premières plumes des dinosaures avant de permettre le vol ?"
+    answers:
+      A: "À réguler la température et à communiquer"
+      B: "À nager plus vite"
+      C: "À creuser des terriers"
+      D: "À voler à haute altitude"
+    correctAnswer: A
+    translations:
+      en:
+        text: "According to paleontologists, what were the first feathers of dinosaurs probably used for before enabling flight?"
+        answers:
+          A: "To regulate temperature and communicate"
+          B: "To swim faster"
+          C: "To dig burrows"
+          D: "To fly at high altitude"
+  - text: "Quel grand groupe de dinosaures est aujourd'hui considéré comme l'ancêtre des oiseaux modernes ?"
+    answers:
+      A: "Les sauropodes"
+      B: "Les cératopsiens"
+      C: "Les théropodes"
+      D: "Les ankylosaures"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which major group of dinosaurs is now considered the ancestor of modern birds?"
+        answers:
+          A: "Sauropods"
+          B: "Ceratopsians"
+          C: "Theropods"
+          D: "Ankylosaurs"
+  - text: "Quel fossile du Jurassique, découvert en Bavière, associe plumes, ailes et dents de reptile ?"
+    answers:
+      A: "Ptéranodon"
+      B: "Archaeopteryx"
+      C: "Ichthyosaurus"
+      D: "Compsognathus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Jurassic fossil, discovered in Bavaria, combines feathers, wings, and reptile teeth?"
+        answers:
+          A: "Pteranodon"
+          B: "Archaeopteryx"
+          C: "Ichthyosaurus"
+          D: "Compsognathus"
+  - text: "Comment appelle-t-on les pierres avalées par certains dinosaures herbivores pour broyer les végétaux dans leur estomac ?"
+    answers:
+      A: "Des coprolithes"
+      B: "Des géodes"
+      C: "Des bélemnites"
+      D: "Des gastrolithes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What are the stones swallowed by some herbivorous dinosaurs to grind plants in their stomach called?"
+        answers:
+          A: "Coprolites"
+          B: "Geodes"
+          C: "Belemnites"
+          D: "Gastroliths"
+  - text: "Que sont les coprolithes que l'on retrouve parfois dans les gisements à dinosaures ?"
+    answers:
+      A: "Des œufs fossilisés"
+      B: "Des empreintes de pas"
+      C: "Des excréments fossilisés"
+      D: "Des pierres d'estomac"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What are coprolites sometimes found in dinosaur deposits?"
+        answers:
+          A: "Fossilized eggs"
+          B: "Footprints"
+          C: "Fossilized excrement"
+          D: "Stomach stones"
+  - text: "Que permettent principalement d'estimer les pistes d'empreintes de pas fossilisées ?"
+    answers:
+      A: "La couleur du dinosaure"
+      B: "Le son de son cri"
+      C: "Son sexe"
+      D: "Sa vitesse de déplacement et son comportement"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What do fossilized footprints mainly allow us to estimate?"
+        answers:
+          A: "The color of the dinosaur"
+          B: "The sound of its call"
+          C: "Its sex"
+          D: "Its speed of movement and behavior"
+  - text: "Quel élément chimique rare sur Terre, présent dans une couche d'argile vieille de 66 millions d'années, a soutenu la théorie de l'impact d'astéroïde ?"
+    answers:
+      A: "L'uranium"
+      B: "L'iridium"
+      C: "Le fer"
+      D: "Le carbone"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which rare chemical element on Earth, present in a 66-million-year-old clay layer, supported the asteroid impact theory?"
+        answers:
+          A: "Uranium"
+          B: "Iridium"
+          C: "Iron"
+          D: "Carbon"
+  - text: "Outre l'impact d'un astéroïde, quelle autre hypothèse majeure est invoquée pour expliquer la disparition des dinosaures ?"
+    answers:
+      A: "Une explosion de supernova proche"
+      B: "Un épisode volcanique majeur"
+      C: "Une inversion du champ magnétique"
+      D: "La fin d'une glaciation mondiale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Besides the asteroid impact, what other major hypothesis is invoked to explain the disappearance of the dinosaurs?"
+        answers:
+          A: "A nearby supernova explosion"
+          B: "A major volcanic episode"
+          C: "A reversal of the magnetic field"
+          D: "The end of a global glaciation"
+  - text: "Dans le film Jurassic Park (1993), à partir de quoi les scientifiques recréent-ils les dinosaures ?"
+    answers:
+      A: "De cellules congelées en Antarctique"
+      B: "D'ADN prélevé sur des moustiques conservés dans l'ambre"
+      C: "De plumes fossiles"
+      D: "D'os clonés dans un laboratoire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the film Jurassic Park (1993), from what do scientists recreate the dinosaurs?"
+        answers:
+          A: "From frozen cells in Antarctica"
+          B: "From DNA taken from mosquitoes preserved in amber"
+          C: "From fossil feathers"
+          D: "From bones cloned in a laboratory"
+  - text: "Quelle série documentaire de la BBC, diffusée en 1999, a marqué par ses dinosaures recréés en images de synthèse ?"
+    answers:
+      A: "Planète dinosaure"
+      B: "Dinotopia"
+      C: "Prehistoric Planet"
+      D: "Sur la terre des dinosaures"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which BBC documentary series, broadcast in 1999, was notable for its dinosaurs recreated with CGI?"
+        answers:
+          A: "Dinosaur Planet"
+          B: "Dinotopia"
+          C: "Prehistoric Planet"
+          D: "Walking with Dinosaurs"
+  - text: "Quelle pionnière britannique du XIXe siècle a découvert à Lyme Regis des fossiles marins, dont des ichthyosaures ?"
+    answers:
+      A: "Jane Goodall"
+      B: "Mary Leakey"
+      C: "Marie Curie"
+      D: "Mary Anning"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 19th-century British pioneer discovered marine fossils, including ichthyosaurs, at Lyme Regis?"
+        answers:
+          A: "Jane Goodall"
+          B: "Mary Leakey"
+          C: "Marie Curie"
+          D: "Mary Anning"
+  - text: "Quel naturaliste français est considéré comme le fondateur de l'anatomie comparée et de la paléontologie des vertébrés ?"
+    answers:
+      A: "Georges Cuvier"
+      B: "Charles Darwin"
+      C: "Buffon"
+      D: "Jean-Baptiste Lamarck"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French naturalist is considered the founder of comparative anatomy and vertebrate paleontology?"
+        answers:
+          A: "Georges Cuvier"
+          B: "Charles Darwin"
+          C: "Buffon"
+          D: "Jean-Baptiste Lamarck"
+  - text: "Quel scientifique britannique a forgé le terme « Dinosauria » en 1842 ?"
+    answers:
+      A: "Charles Darwin"
+      B: "Georges Cuvier"
+      C: "Mary Anning"
+      D: "Richard Owen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which British scientist coined the term \"Dinosauria\" in 1842?"
+        answers:
+          A: "Charles Darwin"
+          B: "Georges Cuvier"
+          C: "Mary Anning"
+          D: "Richard Owen"
+  - text: "Dans quelle province canadienne se trouve le Parc provincial Dinosaur, célèbre pour ses gisements fossilifères ?"
+    answers:
+      A: "Alberta"
+      B: "Saskatchewan"
+      C: "Ontario"
+      D: "Colombie-Britannique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which Canadian province is Dinosaur Provincial Park, famous for its fossil beds, located?"
+        answers:
+          A: "Alberta"
+          B: "Saskatchewan"
+          C: "Ontario"
+          D: "British Columbia"
+  - text: "La formation de Hell Creek, dans le Montana, est surtout célèbre pour ses fossiles de..."
+    answers:
+      A: "Tyrannosaurus rex et Triceratops"
+      B: "Diplodocus et Stegosaurus"
+      C: "Archaeopteryx et Compsognathus"
+      D: "Mosasaurus et ammonites"
+    correctAnswer: A
+    translations:
+      en:
+        text: "The Hell Creek Formation in Montana is best known for its fossils of..."
+        answers:
+          A: "Tyrannosaurus rex and Triceratops"
+          B: "Diplodocus and Stegosaurus"
+          C: "Archaeopteryx and Compsognathus"
+          D: "Mosasaurus and ammonites"
+  - text: "Les fossiles de la formation de Jehol, en Chine, sont célèbres car ils ont livré de nombreux..."
+    answers:
+      A: "Ptérosaures géants"
+      B: "Dinosaures à plumes"
+      C: "Baleines primitives"
+      D: "Coraux"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Fossils from the Jehol Formation in China are famous because they have yielded many..."
+        answers:
+          A: "Giant pterosaurs"
+          B: "Feathered dinosaurs"
+          C: "Primitive whales"
+          D: "Corals"
+  - text: "Quel grand prédateur, rival de taille du T. rex, a été découvert en Patagonie argentine ?"
+    answers:
+      A: "Spinosaurus"
+      B: "Allosaurus"
+      C: "Ceratosaurus"
+      D: "Giganotosaurus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which large predator, rivaling T. rex in size, was discovered in Argentine Patagonia?"
+        answers:
+          A: "Spinosaurus"
+          B: "Allosaurus"
+          C: "Ceratosaurus"
+          D: "Giganotosaurus"
+  - text: "Pourquoi de nombreux squelettes de dinosaures exposés dans les musées sont-ils des moulages ?"
+    answers:
+      A: "Parce que les moulages sont plus véridiques"
+      B: "Parce que les os originaux sont fragiles et très lourds"
+      C: "Parce qu'il est interdit d'exposer des os originaux"
+      D: "Parce que les os fossiles sont radioactifs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Why are many dinosaur skeletons displayed in museums casts?"
+        answers:
+          A: "Because casts are more accurate"
+          B: "Because the original bones are fragile and very heavy"
+          C: "Because displaying original bones is prohibited"
+          D: "Because fossil bones are radioactive"
+  - text: "Quel est le nom du célèbre squelette de T. rex, l'un des plus complets jamais découverts, exposé au Field Museum de Chicago ?"
+    answers:
+      A: "Stan"
+      B: "Trix"
+      C: "Sue"
+      D: "Scotty"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the famous T. rex skeleton, one of the most complete ever discovered, displayed at the Field Museum in Chicago?"
+        answers:
+          A: "Stan"
+          B: "Trix"
+          C: "Sue"
+          D: "Scotty"
+  - text: "Que suggère une piste d'empreintes où seules deux pattes ont laissé des marques ?"
+    answers:
+      A: "Que le dinosaure était bipède"
+      B: "Que le dinosaure rampait"
+      C: "Que le dinosaure nageait"
+      D: "Que le dinosaure volait"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does a trackway with marks from only two legs suggest?"
+        answers:
+          A: "That the dinosaur was bipedal"
+          B: "That the dinosaur crawled"
+          C: "That the dinosaur swam"
+          D: "That the dinosaur flew"
+  - text: "Comment les scientifiques estiment-ils la vitesse de course d'un dinosaure à partir de ses empreintes ?"
+    answers:
+      A: "En mesurant uniquement la profondeur des traces"
+      B: "En datant les traces"
+      C: "En analysant la longueur des pas et la taille de l'animal"
+      D: "En comptant le nombre de doigts"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How do scientists estimate a dinosaur's running speed from its footprints?"
+        answers:
+          A: "By measuring only the depth of the tracks"
+          B: "By dating the tracks"
+          C: "By analyzing stride length and the animal's size"
+          D: "By counting the number of toes"
+  - text: "À quoi servait probablement la longue queue fouet de sauropodes comme le Diplodocus ?"
+    answers:
+      A: "À nager"
+      B: "À servir de contrepoids et d'arme défensive"
+      C: "À stocker des œufs"
+      D: "À porter des plumes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the long whip-like tail of sauropods like Diplodocus probably used for?"
+        answers:
+          A: "For swimming"
+          B: "As a counterbalance and defensive weapon"
+          C: "For storing eggs"
+          D: "For carrying feathers"
+  - text: "Comment certains dinosaures construisaient-ils leurs nids ?"
+    answers:
+      A: "En empilant des rochers"
+      B: "En tissant des toiles de soie"
+      C: "En creusant des terriers sous-marins"
+      D: "En formant des cuvettes ou des monticules de terre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How did some dinosaurs build their nests?"
+        answers:
+          A: "By stacking rocks"
+          B: "By weaving silk webs"
+          C: "By digging underwater burrows"
+          D: "By forming hollows or mounds of earth"
+  - text: "Pourquoi le premier spécimen d'Oviraptor a-t-il été interprété comme un voleur d'œufs ?"
+    answers:
+      A: "Ses dents semblaient spécialisées pour casser les coquilles"
+      B: "Il reposait sur un nid d'œufs que l'on croyait appartenir à un Protoceratops"
+      C: "Des œufs ont été retrouvés dans son estomac fossilisé"
+      D: "Il possédait de très longues griffes de prédateur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Why was the first Oviraptor specimen interpreted as an egg thief?"
+        answers:
+          A: "Its teeth seemed specialized for cracking shells"
+          B: "It was lying on a nest of eggs thought to belong to a Protoceratops"
+          C: "Eggs were found in its fossilized stomach"
+          D: "It had very long predator claws"
+  - text: "Chez de nombreux dinosaures herbivores, à quoi servent des dents larges et plates ?"
+    answers:
+      A: "À déchiqueter la viande"
+      B: "À filtrer l'eau"
+      C: "À broyer les végétaux"
+      D: "À creuser des terriers"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In many herbivorous dinosaurs, what are broad, flat teeth used for?"
+        answers:
+          A: "Tearing meat"
+          B: "Filtering water"
+          C: "Grinding plants"
+          D: "Digging burrows"
+  - text: "Quelle preuve directe permet de connaître le dernier repas d'un dinosaure ?"
+    answers:
+      A: "La couleur de ses os"
+      B: "Le contenu fossilisé de son estomac"
+      C: "La longueur de ses pattes"
+      D: "La forme de son crâne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What direct evidence reveals a dinosaur's last meal?"
+        answers:
+          A: "The color of its bones"
+          B: "The fossilized contents of its stomach"
+          C: "The length of its legs"
+          D: "The shape of its skull"
+  - text: "Que peuvent révéler les traces de morsures sur des os fossiles ?"
+    answers:
+      A: "La couleur de la peau"
+      B: "Des interactions entre prédateurs et proies"
+      C: "L'âge exact au jour près"
+      D: "Le climat de l'époque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What can bite marks on fossil bones reveal?"
+        answers:
+          A: "The color of the skin"
+          B: "Interactions between predators and prey"
+          C: "The exact age to the day"
+          D: "The climate of the time"
+  - text: "Comment appelle-t-on l'os de la queue formé de vertèbres fusionnées, présent chez les oiseaux et certains dinosaures ?"
+    answers:
+      A: "Un fanon"
+      B: "Une corne frontale"
+      C: "Un pygostyle"
+      D: "Un gastrolithe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the tail bone formed by fused vertebrae, present in birds and some dinosaurs, called?"
+        answers:
+          A: "A dewlap"
+          B: "A frontal horn"
+          C: "A pygostyle"
+          D: "A gastrolith"
+  - text: "Comment les paléontologues déduisent-ils la couleur des plumes de certains dinosaures fossiles ?"
+    answers:
+      A: "En étudiant des structures pigmentaires appelées mélanosomes"
+      B: "En analysant leur ADN"
+      C: "En comparant la couleur des roches encaissantes"
+      D: "En mesurant la densité des os"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How do paleontologists deduce the color of feathers of certain fossil dinosaurs?"
+        answers:
+          A: "By studying pigment structures called melanosomes"
+          B: "By analyzing their DNA"
+          C: "By comparing the color of the surrounding rocks"
+          D: "By measuring bone density"
+  - text: "Comment se déplaçaient la plupart des grands dinosaures carnivores ?"
+    answers:
+      A: "Sur quatre pattes"
+      B: "Sur deux pattes"
+      C: "En rampant"
+      D: "En nageant"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How did most large carnivorous dinosaurs move?"
+        answers:
+          A: "On four legs"
+          B: "On two legs"
+          C: "By crawling"
+          D: "By swimming"
+  - text: "Où se situe le cratère de Chicxulub, lié à l'extinction de la fin du Crétacé ?"
+    answers:
+      A: "Au large de la péninsule du Yucatán, au Mexique"
+      B: "Dans les Alpes"
+      C: "Au large du Japon"
+      D: "En Sibérie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Where is the Chicxulub crater, linked to the end-Cretaceous extinction, located?"
+        answers:
+          A: "Off the coast of the Yucatán Peninsula, Mexico"
+          B: "In the Alps"
+          C: "Off the coast of Japan"
+          D: "In Siberia"
+  - text: "Quel groupe d'animaux, descendant des dinosaures, a survécu à l'extinction de la fin du Crétacé ?"
+    answers:
+      A: "Les oiseaux"
+      B: "Les plésiosaures"
+      C: "Les ptérosaures"
+      D: "Les mammouths"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which group of animals, descended from dinosaurs, survived the end-Cretaceous extinction?"
+        answers:
+          A: "Birds"
+          B: "Plesiosaurs"
+          C: "Pterosaurs"
+          D: "Mammoths"
+  - text: "Qui a réalisé le film Jurassic Park sorti en 1993 ?"
+    answers:
+      A: "James Cameron"
+      B: "George Lucas"
+      C: "Ridley Scott"
+      D: "Steven Spielberg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who directed the 1993 film Jurassic Park?"
+        answers:
+          A: "James Cameron"
+          B: "George Lucas"
+          C: "Ridley Scott"
+          D: "Steven Spielberg"
+  - text: "Dans la saga Jurassic Park, quel paléontologue est incarné par l'acteur Sam Neill ?"
+    answers:
+      A: "Ian Malcolm"
+      B: "Robert Muldoon"
+      C: "Alan Grant"
+      D: "Henry Wu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Jurassic Park saga, which paleontologist is played by actor Sam Neill?"
+        answers:
+          A: "Ian Malcolm"
+          B: "Robert Muldoon"
+          C: "Alan Grant"
+          D: "Henry Wu"
+  - text: "Comment les dinosaures étaient-ils recréés dans le documentaire « Sur la terre des dinosaures » (1999) ?"
+    answers:
+      A: "Avec des marionnettes en papier"
+      B: "Avec des fossiles colorisés"
+      C: "Grâce à des images de synthèse et des animatroniques"
+      D: "Avec des hologrammes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How were dinosaurs recreated in the documentary 'Walking with Dinosaurs' (1999)?"
+        answers:
+          A: "With paper puppets"
+          B: "With colorized fossils"
+          C: "Using CGI and animatronics"
+          D: "With holograms"
+  - text: "Quel groupe d'animaux s'est fortement diversifié après la disparition des dinosaures non aviens ?"
+    answers:
+      A: "Les ptérosaures"
+      B: "Les mammifères"
+      C: "Les ammonites"
+      D: "Les dinosaures herbivores"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which group of animals diversified greatly after the disappearance of non-avian dinosaurs?"
+        answers:
+          A: "Pterosaurs"
+          B: "Mammals"
+          C: "Ammonites"
+          D: "Herbivorous dinosaurs"
