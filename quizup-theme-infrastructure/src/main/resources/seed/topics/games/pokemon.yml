@@ -1,0 +1,1514 @@
+topic:
+  id: topic-pokemon
+  names:
+    fr: "Pokémon"
+    en: "Pokémon"
+  description: "Explorez les jeux vidéo Pokémon, de Kanto à Paldea : régions, starters et leurs évolutions, types, objets de base, professeurs et champions d'arène. Retrouvez les créatures iconiques comme Pikachu, Évoli ou Dracaufeu, ainsi que les grands légendaires tels que Mewtwo, Lugia, Rayquaza et Arceus."
+  category: GAMES
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Cosplay_of_Pikachu_from_Pokemon_at_GalaxyCon_Richmond_2020_%2849666783502%29.jpg?width=800
+questions:
+  - text: "Quelle région est celle des jeux Pokémon Rouge et Bleu ?"
+    answers:
+      A: "Johto"
+      B: "Kanto"
+      C: "Hoenn"
+      D: "Sinnoh"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Red and Blue?"
+        answers:
+          A: "Johto"
+          B: "Kanto"
+          C: "Hoenn"
+          D: "Sinnoh"
+  - text: "Quelle région est celle des jeux Pokémon Or et Argent ?"
+    answers:
+      A: "Kanto"
+      B: "Hoenn"
+      C: "Johto"
+      D: "Unys"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Gold and Silver?"
+        answers:
+          A: "Kanto"
+          B: "Hoenn"
+          C: "Johto"
+          D: "Unova"
+  - text: "Quelle région est celle des jeux Pokémon Rubis et Saphir ?"
+    answers:
+      A: "Hoenn"
+      B: "Sinnoh"
+      C: "Alola"
+      D: "Galar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Ruby and Sapphire?"
+        answers:
+          A: "Hoenn"
+          B: "Sinnoh"
+          C: "Alola"
+          D: "Galar"
+  - text: "Quelle région est celle des jeux Pokémon Diamant et Perle ?"
+    answers:
+      A: "Unys"
+      B: "Sinnoh"
+      C: "Paldea"
+      D: "Kalos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Diamond and Pearl?"
+        answers:
+          A: "Unova"
+          B: "Sinnoh"
+          C: "Paldea"
+          D: "Kalos"
+  - text: "Quelle région est celle des jeux Pokémon Noir et Blanc ?"
+    answers:
+      A: "Kalos"
+      B: "Alola"
+      C: "Unys"
+      D: "Hoenn"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Black and White?"
+        answers:
+          A: "Kalos"
+          B: "Alola"
+          C: "Unova"
+          D: "Hoenn"
+  - text: "Quelle région est celle des jeux Pokémon X et Y ?"
+    answers:
+      A: "Galar"
+      B: "Alola"
+      C: "Sinnoh"
+      D: "Kalos"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which region is featured in Pokémon X and Y?"
+        answers:
+          A: "Galar"
+          B: "Alola"
+          C: "Sinnoh"
+          D: "Kalos"
+  - text: "Quelle région est celle des jeux Pokémon Soleil et Lune ?"
+    answers:
+      A: "Unys"
+      B: "Paldea"
+      C: "Galar"
+      D: "Alola"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Sun and Moon?"
+        answers:
+          A: "Unova"
+          B: "Paldea"
+          C: "Galar"
+          D: "Alola"
+  - text: "Quelle région est celle des jeux Pokémon Épée et Bouclier ?"
+    answers:
+      A: "Kalos"
+      B: "Alola"
+      C: "Sinnoh"
+      D: "Galar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Sword and Shield?"
+        answers:
+          A: "Kalos"
+          B: "Alola"
+          C: "Sinnoh"
+          D: "Galar"
+  - text: "Quelle région est celle des jeux Pokémon Écarlate et Violet ?"
+    answers:
+      A: "Galar"
+      B: "Paldea"
+      C: "Alola"
+      D: "Unys"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which region is featured in Pokémon Scarlet and Violet?"
+        answers:
+          A: "Galar"
+          B: "Paldea"
+          C: "Alola"
+          D: "Unova"
+  - text: "Quel Pokémon ce cosplay à la queue enflammée représente-t-il ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Anime_Expo_2013_-_Charmander_Cosplay_%289228423198%29.jpg?width=800"
+    answers:
+      A: "Salamèche"
+      B: "Poussifeu"
+      C: "Héricendre"
+      D: "Gruikui"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon does this cosplay with a flaming tail represent?"
+        answers:
+          A: "Charmander"
+          B: "Torchic"
+          C: "Cyndaquil"
+          D: "Tepig"
+  - text: "Quel est le starter de type Plante de la région de Kanto ?"
+    answers:
+      A: "Salamèche"
+      B: "Carapuce"
+      C: "Bulbizarre"
+      D: "Pikachu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Grass-type starter of the Kanto region?"
+        answers:
+          A: "Charmander"
+          B: "Squirtle"
+          C: "Bulbasaur"
+          D: "Pikachu"
+  - text: "Quel est le starter de type Feu de la région de Johto ?"
+    answers:
+      A: "Kaiminus"
+      B: "Germignon"
+      C: "Héricendre"
+      D: "Poussifeu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Fire-type starter of the Johto region?"
+        answers:
+          A: "Totodile"
+          B: "Chikorita"
+          C: "Cyndaquil"
+          D: "Torchic"
+  - text: "Quel est le starter de type Eau de la région de Hoenn ?"
+    answers:
+      A: "Arcko"
+      B: "Gobou"
+      C: "Poussifeu"
+      D: "Tiplouf"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the Water-type starter of the Hoenn region?"
+        answers:
+          A: "Treecko"
+          B: "Mudkip"
+          C: "Torchic"
+          D: "Piplup"
+  - text: "Quel est le starter de type Plante de la région de Sinnoh ?"
+    answers:
+      A: "Ouisticram"
+      B: "Tiplouf"
+      C: "Tortipouss"
+      D: "Germignon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Grass-type starter of the Sinnoh region?"
+        answers:
+          A: "Chimchar"
+          B: "Piplup"
+          C: "Turtwig"
+          D: "Chikorita"
+  - text: "Quel est le starter de type Eau de la région d'Unys ?"
+    answers:
+      A: "Gruikui"
+      B: "Vipélierre"
+      C: "Moustillon"
+      D: "Grenousse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Water-type starter of the Unova region?"
+        answers:
+          A: "Tepig"
+          B: "Snivy"
+          C: "Oshawott"
+          D: "Froakie"
+  - text: "Quel est le starter de type Feu de la région de Kalos ?"
+    answers:
+      A: "Feunnec"
+      B: "Marisson"
+      C: "Grenousse"
+      D: "Gruikui"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the Fire-type starter of the Kalos region?"
+        answers:
+          A: "Fennekin"
+          B: "Chespin"
+          C: "Froakie"
+          D: "Tepig"
+  - text: "Quel est le starter de type Plante de la région d'Alola ?"
+    answers:
+      A: "Flamiaou"
+      B: "Otaquin"
+      C: "Marisson"
+      D: "Brindibou"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the Grass-type starter of the Alola region?"
+        answers:
+          A: "Litten"
+          B: "Popplio"
+          C: "Chespin"
+          D: "Rowlet"
+  - text: "Quel est le starter de type Eau de la région de Galar ?"
+    answers:
+      A: "Ouistempo"
+      B: "Flambino"
+      C: "Larméléon"
+      D: "Otaquin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the Water-type starter of the Galar region?"
+        answers:
+          A: "Grookey"
+          B: "Scorbunny"
+          C: "Sobble"
+          D: "Popplio"
+  - text: "Quel est le starter de type Feu de la région de Paldea ?"
+    answers:
+      A: "Chochodile"
+      B: "Coiffeton"
+      C: "Flambino"
+      D: "Poussacha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the Fire-type starter of the Paldea region?"
+        answers:
+          A: "Fuecoco"
+          B: "Quaxly"
+          C: "Scorbunny"
+          D: "Sprigatito"
+  - text: "Quelle est l'évolution finale de Bulbizarre ?"
+    answers:
+      A: "Joliflor"
+      B: "Herbizarre"
+      C: "Florizarre"
+      D: "Boustiflor"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the final evolution of Bulbasaur?"
+        answers:
+          A: "Bellossom"
+          B: "Ivysaur"
+          C: "Venusaur"
+          D: "Victreebel"
+  - text: "Quelle est l'évolution finale de Carapuce ?"
+    answers:
+      A: "Carabaffe"
+      B: "Tortank"
+      C: "Lokhlass"
+      D: "Kabutops"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the final evolution of Squirtle?"
+        answers:
+          A: "Wartortle"
+          B: "Blastoise"
+          C: "Lapras"
+          D: "Kabutops"
+  - text: "Ce cosplayeur accroupi porte un bulbe vert sur le dos. Quel Pokémon incarne-t-il ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cosplay_of_Bulbasaur%2C_Anime_Expo_2010_%284837249076%29.jpg?width=800"
+    answers:
+      A: "Bulbizarre"
+      B: "Germignon"
+      C: "Arcko"
+      D: "Tortipouss"
+    correctAnswer: A
+    translations:
+      en:
+        text: "This crouching cosplayer has a green bulb on their back. Which Pokémon are they portraying?"
+        answers:
+          A: "Bulbasaur"
+          B: "Chikorita"
+          C: "Treecko"
+          D: "Turtwig"
+  - text: "Quel Pokémon ce cosplay à la carapace brune et à la queue en spirale représente-t-il ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/WonderCon_2013_-_Squirtle_Cosplayer.jpg?width=800"
+    answers:
+      A: "Tiplouf"
+      B: "Carapuce"
+      C: "Moustillon"
+      D: "Grenousse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon does this cosplay with a brown shell and a spiral tail represent?"
+        answers:
+          A: "Piplup"
+          B: "Squirtle"
+          C: "Oshawott"
+          D: "Froakie"
+  - text: "Quel Pokémon ce costume à grandes oreilles et à collerette de fourrure représente-t-il ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Pok%C3%A9mon_cosplay_at_SDCCI_2018_Nintendo_lounge_-_2_%28cropped_Eevee%29.jpg?width=800"
+    answers:
+      A: "Évoli"
+      B: "Mentali"
+      C: "Aquali"
+      D: "Voltali"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon does this costume with large ears and a furry collar represent?"
+        answers:
+          A: "Eevee"
+          B: "Espeon"
+          C: "Vaporeon"
+          D: "Jolteon"
+  - text: "Quelle est l'évolution finale de Tiplouf ?"
+    answers:
+      A: "Prinplouf"
+      B: "Akwakwak"
+      C: "Tortank"
+      D: "Pingoléon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the final evolution of Piplup?"
+        answers:
+          A: "Prinplup"
+          B: "Golduck"
+          C: "Blastoise"
+          D: "Empoleon"
+  - text: "Qui est le professeur Pokémon de la région de Kanto ?"
+    answers:
+      A: "Orme"
+      B: "Seko"
+      C: "Chen"
+      D: "Platane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the Pokémon professor of the Kanto region?"
+        answers:
+          A: "Elm"
+          B: "Seko"
+          C: "Oak"
+          D: "Sycamore"
+  - text: "Qui est le professeur Pokémon de la région de Johto ?"
+    answers:
+      A: "Keteleeria"
+      B: "Chen"
+      C: "Seko"
+      D: "Orme"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the Pokémon professor of the Johto region?"
+        answers:
+          A: "Keteleeria"
+          B: "Oak"
+          C: "Seko"
+          D: "Elm"
+  - text: "Qui est le professeur Pokémon de la région de Hoenn ?"
+    answers:
+      A: "Chen"
+      B: "Orme"
+      C: "Platane"
+      D: "Seko"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the Pokémon professor of the Hoenn region?"
+        answers:
+          A: "Oak"
+          B: "Elm"
+          C: "Sycamore"
+          D: "Seko"
+  - text: "Qui est le professeur Pokémon de la région de Kalos ?"
+    answers:
+      A: "Platane"
+      B: "Keteleeria"
+      C: "Chen"
+      D: "Orme"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the Pokémon professor of the Kalos region?"
+        answers:
+          A: "Sycamore"
+          B: "Keteleeria"
+          C: "Oak"
+          D: "Elm"
+  - text: "Quel est le type de prédilection de Pierre, le premier champion d'arène de Kanto ?"
+    answers:
+      A: "Sol"
+      B: "Combat"
+      C: "Acier"
+      D: "Roche"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the specialty type of Brock, the first Gym Leader of Kanto?"
+        answers:
+          A: "Ground"
+          B: "Fighting"
+          C: "Steel"
+          D: "Rock"
+  - text: "Quel est le type de prédilection d'Ondine, championne d'arène de Kanto ?"
+    answers:
+      A: "Eau"
+      B: "Psy"
+      C: "Vol"
+      D: "Glace"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the specialty type of Misty, Kanto's Gym Leader?"
+        answers:
+          A: "Water"
+          B: "Psychic"
+          C: "Flying"
+          D: "Ice"
+  - text: "Quel est le type de prédilection de Morgane, championne d'arène de Kanto ?"
+    answers:
+      A: "Fée"
+      B: "Spectre"
+      C: "Psy"
+      D: "Ténèbres"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the specialty type of Sabrina, Kanto's Gym Leader?"
+        answers:
+          A: "Fairy"
+          B: "Ghost"
+          C: "Psychic"
+          D: "Dark"
+  - text: "Quel est le type de prédilection de Giovanni, dernier champion d'arène de Kanto ?"
+    answers:
+      A: "Poison"
+      B: "Ténèbres"
+      C: "Sol"
+      D: "Roche"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the specialty type of Giovanni, Kanto's final Gym Leader?"
+        answers:
+          A: "Poison"
+          B: "Dark"
+          C: "Ground"
+          D: "Rock"
+  - text: "Quel Pokémon ce déguisement de poisson rouge moustachu représente-t-il ?"
+    imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Cosplay_of_Magikarp_at_Japan_Expo_2023_%2853148537816%29.jpg?width=800"
+    answers:
+      A: "Poissirène"
+      B: "Magicarpe"
+      C: "Barpau"
+      D: "Écayon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon does this mustachioed goldfish costume represent?"
+        answers:
+          A: "Goldeen"
+          B: "Magikarp"
+          C: "Feebas"
+          D: "Finneon"
+  - text: "Quel Pokémon légendaire a été créé à partir de l'ADN de Mew ?"
+    answers:
+      A: "Mewtwo"
+      B: "Porygon"
+      C: "Arceus"
+      D: "Déoxys"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Legendary Pokémon was created from Mew's DNA?"
+        answers:
+          A: "Mewtwo"
+          B: "Porygon"
+          C: "Arceus"
+          D: "Deoxys"
+  - text: "Quel Pokémon légendaire veille sur les mers dans Pokémon Or et Argent ?"
+    answers:
+      A: "Lugia"
+      B: "Ho-Oh"
+      C: "Suicune"
+      D: "Kyogre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Legendary Pokémon watches over the seas in Pokémon Gold and Silver?"
+        answers:
+          A: "Lugia"
+          B: "Ho-Oh"
+          C: "Suicune"
+          D: "Kyogre"
+  - text: "Quel Pokémon légendaire veille sur le ciel dans Pokémon Or et Argent ?"
+    answers:
+      A: "Lugia"
+      B: "Ho-Oh"
+      C: "Entei"
+      D: "Rayquaza"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Legendary Pokémon watches over the sky in Pokémon Gold and Silver?"
+        answers:
+          A: "Lugia"
+          B: "Ho-Oh"
+          C: "Entei"
+          D: "Rayquaza"
+  - text: "Quel Pokémon légendaire de la région de Hoenn est le maître du ciel ?"
+    answers:
+      A: "Kyogre"
+      B: "Rayquaza"
+      C: "Groudon"
+      D: "Regirock"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Legendary Pokémon from the Hoenn region is the master of the sky?"
+        answers:
+          A: "Kyogre"
+          B: "Rayquaza"
+          C: "Groudon"
+          D: "Regirock"
+  - text: "Quel Pokémon est considéré comme le créateur de l'univers Pokémon ?"
+    answers:
+      A: "Arceus"
+      B: "Palkia"
+      C: "Giratina"
+      D: "Dialga"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pokémon is considered the creator of the Pokémon universe?"
+        answers:
+          A: "Arceus"
+          B: "Palkia"
+          C: "Giratina"
+          D: "Dialga"
+  - text: "Quel Pokémon légendaire contrôle le temps ?"
+    answers:
+      A: "Arceus"
+      B: "Palkia"
+      C: "Giratina"
+      D: "Dialga"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Legendary Pokémon controls time?"
+        answers:
+          A: "Arceus"
+          B: "Palkia"
+          C: "Giratina"
+          D: "Dialga"
+  - text: "Quel Pokémon légendaire de la cinquième génération incarne les idéaux ?"
+    answers:
+      A: "Zekrom"
+      B: "Kyurem"
+      C: "Reshiram"
+      D: "Victini"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Legendary Pokémon from Generation V embodies ideals?"
+        answers:
+          A: "Zekrom"
+          B: "Kyurem"
+          C: "Reshiram"
+          D: "Victini"
+  - text: "Quel Pokémon légendaire de la cinquième génération incarne la vérité ?"
+    answers:
+      A: "Zekrom"
+      B: "Victini"
+      C: "Kyurem"
+      D: "Reshiram"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Legendary Pokémon from Generation V embodies truth?"
+        answers:
+          A: "Zekrom"
+          B: "Victini"
+          C: "Kyurem"
+          D: "Reshiram"
+  - text: "Quel objet permet de consulter les données des Pokémon capturés ?"
+    answers:
+      A: "Le Pokédex"
+      B: "La Poké Ball"
+      C: "La Potion"
+      D: "Le Vélo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which item allows you to view data on captured Pokémon?"
+        answers:
+          A: "The Pokédex"
+          B: "The Poké Ball"
+          C: "The Potion"
+          D: "The Bicycle"
+  - text: "Quelle pierre évolutive fait évoluer Pikachu en Raichu ?"
+    answers:
+      A: "Pierre Eau"
+      B: "Pierre Feu"
+      C: "Pierre Foudre"
+      D: "Pierre Plante"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which evolutionary stone evolves Pikachu into Raichu?"
+        answers:
+          A: "Water Stone"
+          B: "Fire Stone"
+          C: "Thunder Stone"
+          D: "Leaf Stone"
+  - text: "Quel est le nombre maximal de Pokémon dans une équipe ?"
+    answers:
+      A: "4"
+      B: "5"
+      C: "8"
+      D: "6"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum number of Pokémon in a team?"
+        answers:
+          A: "4"
+          B: "5"
+          C: "8"
+          D: "6"
+  - text: "Combien de types de Pokémon existent depuis Pokémon X et Y ?"
+    answers:
+      A: "17"
+      B: "19"
+      C: "18"
+      D: "20"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many Pokémon types have existed since Pokémon X and Y?"
+        answers:
+          A: "17"
+          B: "19"
+          C: "18"
+          D: "20"
+  - text: "Quel type est immunisé contre les attaques de type Électrik ?"
+    answers:
+      A: "Sol"
+      B: "Roche"
+      C: "Acier"
+      D: "Plante"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which type is immune to Electric-type attacks?"
+        answers:
+          A: "Ground"
+          B: "Rock"
+          C: "Steel"
+          D: "Grass"
+  - text: "Quel type d'attaque est sans effet sur les Pokémon de type Fée ?"
+    answers:
+      A: "Psy"
+      B: "Dragon"
+      C: "Feu"
+      D: "Ténèbres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which attack type has no effect on Fairy-type Pokémon?"
+        answers:
+          A: "Psychic"
+          B: "Dragon"
+          C: "Fire"
+          D: "Dark"
+  - text: "Quels sont les types de Dracaufeu ?"
+    answers:
+      A: "Feu/Dragon"
+      B: "Feu/Sol"
+      C: "Feu/Vol"
+      D: "Dragon/Vol"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What are Charizard's types?"
+        answers:
+          A: "Fire/Dragon"
+          B: "Fire/Ground"
+          C: "Fire/Flying"
+          D: "Dragon/Flying"
+  - text: "Quel Pokémon de type Normal est célèbre pour dormir et bloquer les routes ?"
+    answers:
+      A: "Goinfrex"
+      B: "Ronflex"
+      C: "Teddiursa"
+      D: "Mackogneur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Normal-type Pokémon is famous for sleeping and blocking roads?"
+        answers:
+          A: "Munchlax"
+          B: "Snorlax"
+          C: "Teddiursa"
+          D: "Machamp"
+  - text: "Quel Pokémon le Professeur Chen confie-t-il à Sacha au début de la série animée ?"
+    answers:
+      A: "Salamèche"
+      B: "Pikachu"
+      C: "Bulbizarre"
+      D: "Carapuce"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pokémon does Professor Oak give to Ash at the start of the anime series?"
+        answers:
+          A: "Charmander"
+          B: "Pikachu"
+          C: "Bulbasaur"
+          D: "Squirtle"
+  - text: "Quel est le premier Pokémon que Sacha capture lui-même dans la série animée ?"
+    answers:
+      A: "Fantominus"
+      B: "Roucool"
+      C: "Aspicot"
+      D: "Chenipan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first Pokémon Ash catches himself in the anime series?"
+        answers:
+          A: "Gastly"
+          B: "Pidgey"
+          C: "Weedle"
+          D: "Caterpie"
+  - text: "Dans la Team Rocket, quel Pokémon est capable de parler comme un humain ?"
+    answers:
+      A: "Abo"
+      B: "Smogo"
+      C: "Qulbutoké"
+      D: "Miaouss"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Team Rocket, which Pokémon is able to talk like a human?"
+        answers:
+          A: "Ekans"
+          B: "Koffing"
+          C: "Wobbuffet"
+          D: "Meowth"
+  - text: "Quel est le nom du chef de la Team Rocket ?"
+    answers:
+      A: "Giovanni"
+      B: "Attila"
+      C: "Guzma"
+      D: "Silver"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the leader of Team Rocket?"
+        answers:
+          A: "Giovanni"
+          B: "Attila"
+          C: "Guzma"
+          D: "Silver"
+  - text: "Contre quel champion d'arène Sacha remporte-t-il son premier badge dans la série animée ?"
+    answers:
+      A: "Ondine"
+      B: "Pierre"
+      C: "Major Bob"
+      D: "Erika"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Against which Gym Leader does Ash win his first badge in the anime series?"
+        answers:
+          A: "Misty"
+          B: "Brock"
+          C: "Lt. Surge"
+          D: "Erika"
+  - text: "Quel Pokémon de Sacha a été abandonné par son ancien dresseur, Damian ?"
+    answers:
+      A: "Bulbizarre"
+      B: "Carapuce"
+      C: "Salamèche"
+      D: "Roucool"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which of Ash's Pokémon was abandoned by its former trainer, Damian?"
+        answers:
+          A: "Bulbasaur"
+          B: "Squirtle"
+          C: "Charmander"
+          D: "Pidgey"
+  - text: "Quel Pokémon légendaire apparaît à Sacha après l'orage du tout premier épisode ?"
+    answers:
+      A: "Lugia"
+      B: "Artikodin"
+      C: "Ho-Oh"
+      D: "Sulfura"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Legendary Pokémon appears to Ash after the storm in the very first episode?"
+        answers:
+          A: "Lugia"
+          B: "Articuno"
+          C: "Ho-Oh"
+          D: "Moltres"
+  - text: "Quel est le tout premier film Pokémon sorti au cinéma ?"
+    answers:
+      A: "Le pouvoir d'un seul"
+      B: "Mewtwo contre-attaque"
+      C: "Le sort des Zarbis"
+      D: "Le héros des Pokémon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the very first Pokémon film released in cinemas?"
+        answers:
+          A: "The Power of One"
+          B: "Mewtwo Strikes Back"
+          C: "Spell of the Unown"
+          D: "Pokémon Heroes"
+  - text: "Dans « Le pouvoir d'un seul », quel Pokémon légendaire veille sur les îles Orange ?"
+    answers:
+      A: "Ho-Oh"
+      B: "Suicune"
+      C: "Artikodin"
+      D: "Lugia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"The Power of One\", which Legendary Pokémon watches over the Orange Islands?"
+        answers:
+          A: "Ho-Oh"
+          B: "Suicune"
+          C: "Articuno"
+          D: "Lugia"
+  - text: "Dans « Le sort des Zarbis », quel Pokémon légendaire les Zarbis créent-ils pour Molly ?"
+    answers:
+      A: "Raikou"
+      B: "Suicune"
+      C: "Mew"
+      D: "Entei"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Spell of the Unown\", which Legendary Pokémon do the Unown create for Molly?"
+        answers:
+          A: "Raikou"
+          B: "Suicune"
+          C: "Mew"
+          D: "Entei"
+  - text: "Dans « Le héros des Pokémon », quel Pokémon peut prendre l'apparence d'une humaine ?"
+    answers:
+      A: "Latios"
+      B: "Latias"
+      C: "Cresselia"
+      D: "Palkia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"Pokémon Heroes,\" which Pokémon can take on the appearance of a human?"
+        answers:
+          A: "Latios"
+          B: "Latias"
+          C: "Cresselia"
+          D: "Palkia"
+  - text: "Quel Pokémon fabuleux est au cœur de l'intrigue de « Pokémon Ranger et le temple des mers » ?"
+    answers:
+      A: "Phione"
+      B: "Manaphy"
+      C: "Jirachi"
+      D: "Celebi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mythical Pokémon is at the heart of the plot of \"Pokémon Ranger and the Temple of the Sea\"?"
+        answers:
+          A: "Phione"
+          B: "Manaphy"
+          C: "Jirachi"
+          D: "Celebi"
+  - text: "En quelle année le Jeu de Cartes à Collectionner Pokémon est-il sorti au Japon ?"
+    answers:
+      A: "1998"
+      B: "1996"
+      C: "1999"
+      D: "2001"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Pokémon Trading Card Game released in Japan?"
+        answers:
+          A: "1998"
+          B: "1996"
+          C: "1999"
+          D: "2001"
+  - text: "Quels sont les trois types de cartes du JCC Pokémon ?"
+    answers:
+      A: "Pokémon, Dresseur, Énergie"
+      B: "Pokémon, Attaque, Dresseur"
+      C: "Pokémon, Dresseur, Talent"
+      D: "Pokémon, Objet, Énergie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What are the three card types in the Pokémon TCG?"
+        answers:
+          A: "Pokémon, Trainer, Energy"
+          B: "Pokémon, Attack, Trainer"
+          C: "Pokémon, Trainer, Ability"
+          D: "Pokémon, Item, Energy"
+  - text: "Combien de cartes un deck standard du JCC Pokémon contient-il ?"
+    answers:
+      A: "60"
+      B: "50"
+      C: "40"
+      D: "80"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many cards does a standard Pokémon TCG deck contain?"
+        answers:
+          A: "60"
+          B: "50"
+          C: "40"
+          D: "80"
+  - text: "Quelle carte promotionnelle japonaise de Pikachu est réputée être la plus chère du JCC Pokémon ?"
+    answers:
+      A: "Le Pikachu Illustrator"
+      B: "Le Dracaufeu 1re édition"
+      C: "Le Mewtwo Holo"
+      D: "Le Tortank 1re édition"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Japanese promotional Pikachu card is reputed to be the most expensive in the Pokémon TCG?"
+        answers:
+          A: "The Pikachu Illustrator"
+          B: "The 1st Edition Charizard"
+          C: "The Holo Mewtwo"
+          D: "The 1st Edition Blastoise"
+  - text: "En quelle année Pokémon GO est-il sorti sur mobile ?"
+    answers:
+      A: "2014"
+      B: "2016"
+      C: "2015"
+      D: "2017"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was Pokémon GO released on mobile?"
+        answers:
+          A: "2014"
+          B: "2016"
+          C: "2015"
+          D: "2017"
+  - text: "Quelle entreprise a développé Pokémon GO ?"
+    answers:
+      A: "The Pokémon Company"
+      B: "Game Freak"
+      C: "Creatures"
+      D: "Niantic"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which company developed Pokémon GO?"
+        answers:
+          A: "The Pokémon Company"
+          B: "Game Freak"
+          C: "Creatures"
+          D: "Niantic"
+  - text: "Combien d'équipes un joueur peut-il rejoindre dans Pokémon GO ?"
+    answers:
+      A: "Deux"
+      B: "Cinq"
+      C: "Quatre"
+      D: "Trois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many teams can a player join in Pokémon GO?"
+        answers:
+          A: "Two"
+          B: "Five"
+          C: "Four"
+          D: "Three"
+  - text: "Quel objet placé sur un PokéStop attire les Pokémon sauvages ?"
+    answers:
+      A: "L'Encens"
+      B: "La Baie Framby"
+      C: "Le Passe de Raid"
+      D: "Le Module Leurre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item placed on a PokéStop attracts wild Pokémon?"
+        answers:
+          A: "Incense"
+          B: "Razz Berry"
+          C: "Raid Pass"
+          D: "Lure Module"
+  - text: "Quelle attaque puissante la famille de Pikachu peut-elle apprendre par élevage ?"
+    answers:
+      A: "Étincelle"
+      B: "Tonnerre"
+      C: "Cage-Éclair"
+      D: "Électacle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which powerful move can the Pikachu family learn through breeding?"
+        answers:
+          A: "Spark"
+          B: "Thunder"
+          C: "Thunder Wave"
+          D: "Volt Tackle"
+  - text: "Quel talent immunise un Pokémon contre les attaques de type Sol ?"
+    answers:
+      A: "Lévitation"
+      B: "Fermeté"
+      C: "Voile Sable"
+      D: "Glissade"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ability makes a Pokémon immune to Ground-type attacks?"
+        answers:
+          A: "Levitate"
+          B: "Sturdy"
+          C: "Sand Veil"
+          D: "Slip Away"
+  - text: "Quel talent augmente la puissance des attaques Feu quand le Pokémon a peu de PV ?"
+    answers:
+      A: "Torrent"
+      B: "Engrais"
+      C: "Essaim"
+      D: "Brasier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ability boosts the power of Fire-type attacks when the Pokémon has low HP?"
+        answers:
+          A: "Torrent"
+          B: "Overgrow"
+          C: "Swarm"
+          D: "Blaze"
+  - text: "Quelle attaque de type Normal ne produit aucun effet à part un message ?"
+    answers:
+      A: "Charge"
+      B: "Trempette"
+      C: "Plaquage"
+      D: "Vive-Attaque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Normal-type move has no effect other than a message?"
+        answers:
+          A: "Tackle"
+          B: "Splash"
+          C: "Body Slam"
+          D: "Quick Attack"
+  - text: "Quel talent de Munja le rend insensible à tout sauf aux attaques super efficaces ?"
+    answers:
+      A: "Lévitation"
+      B: "Fermeté"
+      C: "Garde Mystik"
+      D: "Peau Sèche"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ability of Shedinja makes it immune to everything except super effective attacks?"
+        answers:
+          A: "Levitate"
+          B: "Sturdy"
+          C: "Wonder Guard"
+          D: "Dry Skin"
+  - text: "Quelle attaque de statut place des rochers qui blessent l'adversaire à son entrée au combat ?"
+    answers:
+      A: "Picots"
+      B: "Brouillard"
+      C: "Piège de Roc"
+      D: "Vampigraine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which status move places rocks that damage the opponent upon entering battle?"
+        answers:
+          A: "Spikes"
+          B: "Mist"
+          C: "Stealth Rock"
+          D: "Leech Seed"
+  - text: "Combien de natures différentes existent dans les jeux Pokémon ?"
+    answers:
+      A: "15"
+      B: "20"
+      C: "25"
+      D: "30"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many different natures exist in the Pokémon games?"
+        answers:
+          A: "15"
+          B: "20"
+          C: "25"
+          D: "30"
+  - text: "Quelle nature augmente l'Attaque et réduit l'Attaque Spéciale ?"
+    answers:
+      A: "Modeste"
+      B: "Rigide"
+      C: "Jovial"
+      D: "Timide"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which nature increases Attack and reduces Special Attack?"
+        answers:
+          A: "Modest"
+          B: "Adamant"
+          C: "Jolly"
+          D: "Timid"
+  - text: "Quel objet introduit dans Épée et Bouclier permet de modifier l'effet de la nature d'un Pokémon ?"
+    answers:
+      A: "Le Super Bonbon"
+      B: "La Baie Nanana"
+      C: "La Menthe"
+      D: "La Plume"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which item introduced in Sword and Shield allows changing the effect of a Pokémon's nature?"
+        answers:
+          A: "The Rare Candy"
+          B: "The Nanab Berry"
+          C: "The Mint"
+          D: "The Feather"
+  - text: "Dans quelle génération la méga-évolution a-t-elle été introduite ?"
+    answers:
+      A: "La 5e"
+      B: "La 4e"
+      C: "La 7e"
+      D: "La 6e"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which generation was Mega Evolution introduced?"
+        answers:
+          A: "5th"
+          B: "4th"
+          C: "7th"
+          D: "6th"
+  - text: "Quel double type obtient Méga-Dracaufeu X ?"
+    answers:
+      A: "Feu/Vol"
+      B: "Feu/Dragon"
+      C: "Feu/Combat"
+      D: "Feu/Ténèbres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What dual type does Mega Charizard X get?"
+        answers:
+          A: "Fire/Flying"
+          B: "Fire/Dragon"
+          C: "Fire/Fighting"
+          D: "Fire/Dark"
+  - text: "Quelle attaque Méga-Rayquaza doit-il connaître pour méga-évoluer sans Méga-Gemme ?"
+    answers:
+      A: "Draco-Ascension"
+      B: "Draco-Météore"
+      C: "Draco-Rage"
+      D: "Draco-Griffe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which move must Mega Rayquaza know to Mega Evolve without a Mega Stone?"
+        answers:
+          A: "Dragon Ascent"
+          B: "Draco Meteor"
+          C: "Dragon Rage"
+          D: "Dragon Claw"
+  - text: "De quel type est Goupix d'Alola ?"
+    answers:
+      A: "Feu"
+      B: "Glace"
+      C: "Fée"
+      D: "Eau"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What type is Alolan Vulpix?"
+        answers:
+          A: "Fire"
+          B: "Ice"
+          C: "Fairy"
+          D: "Water"
+  - text: "De quel type est Raichu d'Alola ?"
+    answers:
+      A: "Électrik/Psy"
+      B: "Électrik/Fée"
+      C: "Électrik/Vol"
+      D: "Électrik/Ténèbres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What type is Alolan Raichu?"
+        answers:
+          A: "Electric/Psychic"
+          B: "Electric/Fairy"
+          C: "Electric/Flying"
+          D: "Electric/Dark"
+  - text: "De quel type est Zorua de Hisui ?"
+    answers:
+      A: "Ténèbres"
+      B: "Spectre"
+      C: "Ténèbres/Spectre"
+      D: "Normal/Spectre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What type is Hisuian Zorua?"
+        answers:
+          A: "Dark"
+          B: "Ghost"
+          C: "Dark/Ghost"
+          D: "Normal/Ghost"
+  - text: "Comment faire évoluer Machopeur en Mackogneur ?"
+    answers:
+      A: "Avec une Pierre"
+      B: "Par bonheur"
+      C: "Par échange"
+      D: "Au niveau 50"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How do you evolve Machoke into Machamp?"
+        answers:
+          A: "With a Stone"
+          B: "By happiness"
+          C: "By trade"
+          D: "At level 50"
+  - text: "Quelle évolution d'Évoli obtient-on avec une Pierre Eau ?"
+    answers:
+      A: "Pyroli"
+      B: "Voltali"
+      C: "Aquali"
+      D: "Mentali"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Eevee evolution do you get with a Water Stone?"
+        answers:
+          A: "Flareon"
+          B: "Jolteon"
+          C: "Vaporeon"
+          D: "Espeon"
+  - text: "Quel objet Onix doit-il tenir pour évoluer en Steelix lors d'un échange ?"
+    answers:
+      A: "Peau Dure"
+      B: "Griffe Rasoir"
+      C: "Pierre Aube"
+      D: "Peau Métal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item must Onix hold to evolve into Steelix during a trade?"
+        answers:
+          A: "Rough Skin"
+          B: "Razor Claw"
+          C: "Dawn Stone"
+          D: "Metal Coat"
+  - text: "Quelle est la probabilité de rencontrer un Pokémon chromatique depuis la 6e génération ?"
+    answers:
+      A: "1 sur 4096"
+      B: "1 sur 2048"
+      C: "1 sur 1024"
+      D: "1 sur 8192"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the chance of encountering a shiny Pokémon since Generation 6?"
+        answers:
+          A: "1 in 4096"
+          B: "1 in 2048"
+          C: "1 in 1024"
+          D: "1 in 8192"
+  - text: "Quel objet augmente les chances de rencontrer des Pokémon chromatiques ?"
+    answers:
+      A: "Le Charme Chroma"
+      B: "Le Multiexp"
+      C: "La Pierre Éclat"
+      D: "Le Cherch'Objet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which item increases the chances of encountering shiny Pokémon?"
+        answers:
+          A: "The Shiny Charm"
+          B: "The Exp. Share"
+          C: "The Shiny Stone"
+          D: "The Itemfinder"
+  - text: "Dans quelle génération les Pokémon chromatiques sont-ils apparus ?"
+    answers:
+      A: "La 1re"
+      B: "La 3e"
+      C: "La 2e"
+      D: "La 4e"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which generation did Shiny Pokémon first appear?"
+        answers:
+          A: "Gen 1"
+          B: "Gen 3"
+          C: "Gen 2"
+          D: "Gen 4"
+  - text: "Dans quelle génération les Concours Pokémon sont-ils apparus ?"
+    answers:
+      A: "La 2e"
+      B: "La 4e"
+      C: "La 5e"
+      D: "La 3e"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which generation did Pokémon Contests first appear?"
+        answers:
+          A: "Gen 2"
+          B: "Gen 4"
+          C: "Gen 5"
+          D: "Gen 3"
+  - text: "Combien de catégories de Concours existe-t-il à Hoenn ?"
+    answers:
+      A: "Cinq"
+      B: "Quatre"
+      C: "Trois"
+      D: "Six"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many Contest categories are there in Hoenn?"
+        answers:
+          A: "Five"
+          B: "Four"
+          C: "Three"
+          D: "Six"
+  - text: "Quel rival de Sacha est le petit-fils du Professeur Chen ?"
+    answers:
+      A: "Paul"
+      B: "Gladio"
+      C: "Alain"
+      D: "Régis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which of Ash's rivals is Professor Oak's grandson?"
+        answers:
+          A: "Paul"
+          B: "Gladion"
+          C: "Alain"
+          D: "Gary"
+  - text: "Quel rival de Sacha dans la région de Sinnoh possède un Torterra ?"
+    answers:
+      A: "Paul"
+      B: "Régis"
+      C: "Alain"
+      D: "Nando"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which of Ash's rivals in the Sinnoh region owns a Torterra?"
+        answers:
+          A: "Paul"
+          B: "Gary"
+          C: "Alain"
+          D: "Nando"
+  - text: "Dans la série Pokémon Donjon Mystère, que devient le joueur ?"
+    answers:
+      A: "Un Dresseur"
+      B: "Un Champion"
+      C: "Un Pokémon"
+      D: "Un Professeur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Pokémon Mystery Dungeon series, what does the player become?"
+        answers:
+          A: "A Trainer"
+          B: "A Champion"
+          C: "A Pokémon"
+          D: "A Professor"
+  - text: "Quel jeu demande de photographier des Pokémon sauvages ?"
+    answers:
+      A: "Pokémon Ranger"
+      B: "Pokémon Stadium"
+      C: "Pokémon Snap"
+      D: "Pokémon Pinball"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which game involves photographing wild Pokémon?"
+        answers:
+          A: "Pokémon Ranger"
+          B: "Pokémon Stadium"
+          C: "Pokémon Snap"
+          D: "Pokémon Pinball"
+  - text: "Dans quelle région se déroule Pokémon Legends: Arceus ?"
+    answers:
+      A: "Sinnoh"
+      B: "Hisui"
+      C: "Unys"
+      D: "Galar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which region is Pokémon Legends: Arceus set?"
+        answers:
+          A: "Sinnoh"
+          B: "Hisui"
+          C: "Unova"
+          D: "Galar"
+  - text: "Quel objet permettait d'accéder à Darkrai dans Pokémon Diamant et Perle ?"
+    answers:
+      A: "Le Ticket Aurora"
+      B: "La Carte Membre"
+      C: "La Clé Enfouie"
+      D: "La Flûte Azur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which item allowed access to Darkrai in Pokémon Diamond and Pearl?"
+        answers:
+          A: "The Aurora Ticket"
+          B: "The Member Card"
+          C: "The Buried Key"
+          D: "The Azure Flute"
+  - text: "Comment s'appelle le système permettant de recevoir des Pokémon offerts par Internet ou en boutique ?"
+    answers:
+      A: "Le Poké Loisir"
+      B: "Le Cadeau Mystère"
+      C: "La Banque Pokémon"
+      D: "Le Global Link"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the system for receiving Pokémon given away via the Internet or in stores called?"
+        answers:
+          A: "Poké Pelago"
+          B: "Mystery Gift"
+          C: "Pokémon Bank"
+          D: "Global Link"
