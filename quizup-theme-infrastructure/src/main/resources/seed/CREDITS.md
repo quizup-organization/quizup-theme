@@ -683,3 +683,115 @@ Mikael Häggström, M.D. — CC BY-SA 4.0
 - [`LACM_Velociraptor_mongoliensis_cast_01.jpg`](https://commons.wikimedia.org/wiki/File:LACM_Velociraptor_mongoliensis_cast_01.jpg) — Auteur inconnu — ?
 - [`Archaeopteryx_lithographica_(Berlin_specimen).jpg`](https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_(Berlin_specimen).jpg) — Auteur inconnu — ?
 
+
+## Tennis (`tennis.yml`)
+
+- [`Court Philippe-Chatrier 2023.jpg`](https://commons.wikimedia.org/wiki/File:Court_Philippe-Chatrier_2023.jpg) — Remi Mathis — CC BY-SA 4.0
+
+## Formule 1 (`formule-1.yml`)
+
+- [`2017 FIA Masters Historic Formula One Championship, Circuit Gilles Villeneuve (37994472814).jpg`](https://commons.wikimedia.org/wiki/File:2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_Gilles_Villeneuve_(37994472814).jpg) — https://www.flickr.com/photos/steve-melnyk/ — CC BY 2.0
+
+## Rugby (`rugby.yml`)
+
+- [`Fiji national rugby union team, 2013 IRB Pacific Nations Cup Champions.jpg`](https://commons.wikimedia.org/wiki/File:Fiji_national_rugby_union_team,_2013_IRB_Pacific_Nations_Cup_Champions.jpg) — Dɐ — CC0
+
+## Cyclisme & Tour de France (`cyclisme.yml`)
+
+- [`Peloton during Simacourbe climb of Tour de France 2024 stage 13.jpg`](https://commons.wikimedia.org/wiki/File:Peloton_during_Simacourbe_climb_of_Tour_de_France_2024_stage_13.jpg) — Hugo LUC — CC BY-SA 4.0
+
+## Jeux olympiques (`jeux-olympiques.yml`)
+
+- [`Atlanta, Olympic rings near stadium.jpg`](https://commons.wikimedia.org/wiki/File:Atlanta,_Olympic_rings_near_stadium.jpg) — Samuel Mann — CC BY 2.0
+
+## Basketball & NBA (`basketball.yml`)
+
+- [`Basketball game in Jerusalem Israel`s new Pais Arena.jpg`](https://commons.wikimedia.org/wiki/File:Basketball_game_in_Jerusalem_Israel%60s_new_Pais_Arena.jpg) — Orenrosenfeld — CC BY-SA 4.0
+
+## Kaamelott (`kaamelott.yml`)
+
+- [`Dédicaces du DVD du Livre VI de Kaamelott.jpg`](https://commons.wikimedia.org/wiki/File:D%C3%A9dicaces_du_DVD_du_Livre_VI_de_Kaamelott.jpg) — Mathieu BROSSAIS — CC BY 4.0
+
+## The Office (US) (`the-office.yml`)
+
+- [`Downtown Scranton.JPG`](https://commons.wikimedia.org/wiki/File:Downtown_Scranton.JPG) — Christopher Seliga — CC BY-SA 3.0
+
+## La Casa de Papel (`la-casa-de-papel.yml`)
+
+- [`Casa de Papel at Patras Carnival (cropped).jpg`](https://commons.wikimedia.org/wiki/File:Casa_de_Papel_at_Patras_Carnival_(cropped).jpg) — theodoritsis — CC BY 2.0
+
+## James Bond (`james-bond.yml`)
+
+- [`1964 Aston Martin DB5 4.0 Front.jpg`](https://commons.wikimedia.org/wiki/File:1964_Aston_Martin_DB5_4.0_Front.jpg) — Vauxford — CC BY-SA 4.0
+
+## Comédies françaises (`comedies-francaises.yml`)
+
+- [`Louis de Funès 1970.jpg`](https://commons.wikimedia.org/wiki/File:Louis_de_Fun%C3%A8s_1970.jpg) — Auteur inconnu — Public domain
+
+## Bande dessinée franco-belge (`bande-dessinee-franco-belge.yml`)
+
+- [`Comic wall Asterix & Obelix, Goscinny and Uderzo. Brussels.jpg`](https://commons.wikimedia.org/wiki/File:Comic_wall_Asterix_%26_Obelix,_Goscinny_and_Uderzo._Brussels.jpg) — Auteur inconnu — CC BY-SA 3.0
+
+## Chansons françaises (`chansons-francaises.yml`)
+
+- [`Edith Piaf zingt in ons land, Bestanddeelnr 914-6438.jpg`](https://commons.wikimedia.org/wiki/File:Edith_Piaf_zingt_in_ons_land,_Bestanddeelnr_914-6438.jpg) — Eric Koch for Anefo — CC0
+
+## Cuisine française (`cuisine-francaise.yml`)
+
+- [`Coq au vin, Linden.jpg`](https://commons.wikimedia.org/wiki/File:Coq_au_vin,_Linden.jpg) — Gerda Arendt — CC0
+
+## Fromages & terroirs (`fromages-et-terroirs.yml`)
+
+- [`(20251230) Camembert cheese 01.jpg`](https://commons.wikimedia.org/wiki/File:(20251230)_Camembert_cheese_01.jpg) — Roy Zuo — CC BY-SA 4.0
+
+## Eurovision (`eurovision.yml`)
+
+- [`Eurovision Song Contest 2025 Stage.jpg`](https://commons.wikimedia.org/wiki/File:Eurovision_Song_Contest_2025_Stage.jpg) — MrSilesian — CC0
+
+## Culture internet & memes (`culture-internet-et-memes.yml`)
+
+- [`A Shiba Inu.jpg`](https://commons.wikimedia.org/wiki/File:A_Shiba_Inu.jpg) — Nancy Wong — CC BY-SA 4.0
+
+## Physique & grands scientifiques (`physique.yml`)
+
+- [`CERN Large Hadron Collider.jpg`](https://commons.wikimedia.org/wiki/File:CERN_Large_Hadron_Collider.jpg) — Chris Mitchell — CC BY-SA 4.0
+
+## Mathématiques (`mathematiques.yml`)
+
+- [`Pythagorean Theorem Proof with Algebra.png`](https://commons.wikimedia.org/wiki/File:Pythagorean_Theorem_Proof_with_Algebra.png) — Mohit Hasan — CC BY-SA 4.0
+
+## Mer & océans (`mer-et-oceans.yml`)
+
+- [`Coral (Galaxea fascicularis), mar Rojo, Egipto, 2023-04-18, DD 128.jpg`](https://commons.wikimedia.org/wiki/File:Coral_(Galaxea_fascicularis),_mar_Rojo,_Egipto,_2023-04-18,_DD_128.jpg) — Diego Delso — CC BY-SA 4.0
+
+## Insectes & petites bêtes (`insectes.yml`)
+
+- [`Adalia bipunctata (2007-04-08).jpg`](https://commons.wikimedia.org/wiki/File:Adalia_bipunctata_(2007-04-08).jpg) — Entomart — Attribution
+
+## Seconde Guerre mondiale (`seconde-guerre-mondiale.yml`)
+
+- [`'D-Day' Normandy Landings, 6 June 1944 (42410920432).jpg`](https://commons.wikimedia.org/wiki/File:'D-Day'_Normandy_Landings,_6_June_1944_(42410920432).jpg) — Archives New Zealand from New Zealand — CC BY 2.0
+
+## Moyen Âge & chevaliers (`moyen-age.yml`)
+
+- [`Castle of Carcassonne.jpg`](https://commons.wikimedia.org/wiki/File:Castle_of_Carcassonne.jpg) — Krzysztof Golik — CC BY-SA 4.0
+
+## Nintendo (`nintendo.yml`)
+
+- [`Game-Boy-Original.jpg`](https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg) — Auteur inconnu — Public domain
+
+## E-sport & jeux en ligne (`esport.yml`)
+
+- [`GAME CITY 2019.jpg`](https://commons.wikimedia.org/wiki/File:GAME_CITY_2019.jpg) — Haselman — CC BY-SA 4.0
+
+## Jeux d'arcade (`jeux-arcade.yml`)
+
+- [`Borne arcade Pacman.png`](https://commons.wikimedia.org/wiki/File:Borne_arcade_Pacman.png) — Fan de Rétro — CC BY 4.0
+
+## Internet & intelligence artificielle (`internet-et-ia.yml`)
+
+- [`BalticServers data center.jpg`](https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg) — BalticServers.com — CC BY-SA 3.0
+
+## Squid Game (`squid-game.yml`)
+
+- [`Promotional event for イカゲーム (Squid Game) in Shibuya.jpg`](https://commons.wikimedia.org/wiki/File:Promotional_event_for_%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0_(Squid_Game)_in_Shibuya.jpg) — Auteur inconnu — CC0

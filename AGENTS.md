@@ -102,7 +102,8 @@ lorsque la difficulté calculée change, la projection envoie une
 ### Seed initial (YAML)
 
 - **Un fichier par thème**, rangé par catégorie : `src/main/resources/seed/topics/<categorie>/<theme>.yml`
-  (35 thèmes, 20 à ~190 questions chacun). Découverte via `app.seed-data.location`
+  (84 thèmes, 100 questions chacun ; 3 thèmes historiques plus fournis conservés tels quels :
+  Chefs-d'œuvre 137, Capitales 185, Drapeaux 194). Découverte via `app.seed-data.location`
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
   `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
