@@ -1,3 +1,9 @@
+## [5.1.0](https://github.com/quizup-organization/quizup-theme/compare/v5.0.0...v5.1.0) (2026-10-12)
+
+### Features
+
+* **theme:** couverture linguistique d'un sujet (query pour la façade) ([e926268](https://github.com/quizup-organization/quizup-theme/commit/e926268b14c490e85b3eea549c9fe029067fe1fe))
+
 ## [5.0.0](https://github.com/quizup-organization/quizup-theme/compare/v4.10.1...v5.0.0) (2026-10-11)
 
 ### ⚠ BREAKING CHANGES
