@@ -1,0 +1,1609 @@
+topic:
+  id: topic-formule-1
+  names:
+    fr: "Formule 1"
+    en: "Formula 1"
+  description: "Plongez dans la légende de la Formule 1 : pilotes mythiques comme Fangio, Senna, Prost, Schumacher et Hamilton, écuries de légende telles que Ferrari, McLaren, Williams, Lotus et Mercedes, circuits cultes comme Monaco, Monza, Spa-Francorchamps et Silverstone. Règles, innovations techniques et titres historiques : testez vos connaissances sur la plus prestigieuse catégorie du sport automobile."
+  category: SPORTS
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/2017_FIA_Masters_Historic_Formula_One_Championship%2C_Circuit_Gilles_Villeneuve_%2837994472814%29.jpg?width=800
+questions:
+  - text: "Combien de titres de champion du monde de Formule 1 Michael Schumacher a-t-il remporté ?"
+    answers:
+      A: "5"
+      B: "6"
+      C: "8"
+      D: "7"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Formula 1 World Championship titles has Michael Schumacher won?"
+        answers:
+          A: "5"
+          B: "6"
+          C: "8"
+          D: "7"
+    difficulty: EASY
+  - text: "Quelle écurie est la plus titrée de l'histoire du championnat du monde de Formule 1 ?"
+    answers:
+      A: "McLaren"
+      B: "Williams"
+      C: "Ferrari"
+      D: "Mercedes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which team is the most successful in Formula 1 World Championship history?"
+        answers:
+          A: "McLaren"
+          B: "Williams"
+          C: "Ferrari"
+          D: "Mercedes"
+    difficulty: EASY
+  - text: "Quel pilote britannique a égalé les sept titres mondiaux de Michael Schumacher en 2020 ?"
+    answers:
+      A: "Jenson Button"
+      B: "Damon Hill"
+      C: "Stirling Moss"
+      D: "Lewis Hamilton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which British driver matched Michael Schumacher's seven world titles in 2020?"
+        answers:
+          A: "Jenson Button"
+          B: "Damon Hill"
+          C: "Stirling Moss"
+          D: "Lewis Hamilton"
+    difficulty: EASY
+  - text: "Quel drapeau agité sur la piste signifie la fin d'une course ?"
+    answers:
+      A: "Le drapeau à damier"
+      B: "Le drapeau rouge"
+      C: "Le drapeau jaune"
+      D: "Le drapeau vert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which flag waved on the track signals the end of a race?"
+        answers:
+          A: "The checkered flag"
+          B: "The red flag"
+          C: "The yellow flag"
+          D: "The green flag"
+    difficulty: EASY
+  - text: "Combien de points une victoire rapporte-t-elle dans le système actuel de la Formule 1 ?"
+    answers:
+      A: "20"
+      B: "25"
+      C: "23"
+      D: "30"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many points does a win earn under the current Formula 1 system?"
+        answers:
+          A: "20"
+          B: "25"
+          C: "23"
+          D: "30"
+    difficulty: EASY
+  - text: "Quel pilote brésilien triple champion du monde est décédé lors du Grand Prix de Saint-Marin 1994 ?"
+    answers:
+      A: "Nelson Piquet"
+      B: "Emerson Fittipaldi"
+      C: "Ayrton Senna"
+      D: "Rubens Barrichello"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which three-time world champion Brazilian driver died at the 1994 San Marino Grand Prix?"
+        answers:
+          A: "Nelson Piquet"
+          B: "Emerson Fittipaldi"
+          C: "Ayrton Senna"
+          D: "Rubens Barrichello"
+    difficulty: EASY
+  - text: "Avec quelle écurie Lewis Hamilton a-t-il remporté six de ses sept titres mondiaux ?"
+    answers:
+      A: "McLaren"
+      B: "Mercedes"
+      C: "Red Bull"
+      D: "Ferrari"
+    correctAnswer: B
+    translations:
+      en:
+        text: "With which team did Lewis Hamilton win six of his seven world titles?"
+        answers:
+          A: "McLaren"
+          B: "Mercedes"
+          C: "Red Bull"
+          D: "Ferrari"
+    difficulty: EASY
+  - text: "En quelle année a été organisé le premier championnat du monde de Formule 1 ?"
+    answers:
+      A: "1945"
+      B: "1950"
+      C: "1955"
+      D: "1960"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the first Formula 1 World Championship held?"
+        answers:
+          A: "1945"
+          B: "1950"
+          C: "1955"
+          D: "1960"
+    difficulty: MEDIUM
+  - text: "Quel pilote argentin a remporté cinq titres mondiaux dans les années 1950 ?"
+    answers:
+      A: "Juan Manuel Fangio"
+      B: "Carlos Reutemann"
+      C: "José Froilán González"
+      D: "Oscar Gálvez"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Argentine driver won five world titles in the 1950s?"
+        answers:
+          A: "Juan Manuel Fangio"
+          B: "Carlos Reutemann"
+          C: "José Froilán González"
+          D: "Oscar Gálvez"
+    difficulty: MEDIUM
+  - text: "Quel circuit accueille traditionnellement le Grand Prix d'Italie ?"
+    answers:
+      A: "Monza"
+      B: "Imola"
+      C: "Mugello"
+      D: "Misano"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which circuit traditionally hosts the Italian Grand Prix?"
+        answers:
+          A: "Monza"
+          B: "Imola"
+          C: "Mugello"
+          D: "Misano"
+    difficulty: MEDIUM
+  - text: "Quel virage très rapide est l'un des symboles du circuit de Spa-Francorchamps ?"
+    answers:
+      A: "L'Eau Rouge"
+      B: "Le Casino"
+      C: "La Rascasse"
+      D: "La Parabolique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which very fast corner is one of the symbols of the Spa-Francorchamps circuit?"
+        answers:
+          A: "L'Eau Rouge"
+          B: "Le Casino"
+          C: "La Rascasse"
+          D: "La Parabolique"
+    difficulty: MEDIUM
+  - text: "Combien de pilotes marquent des points lors d'un Grand Prix moderne ?"
+    answers:
+      A: "6"
+      B: "10"
+      C: "12"
+      D: "20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many drivers score points in a modern Grand Prix?"
+        answers:
+          A: "6"
+          B: "10"
+          C: "12"
+          D: "20"
+    difficulty: MEDIUM
+  - text: "Quel pilote autrichien a été champion du monde en 1975, 1977 et 1984 ?"
+    answers:
+      A: "Gerhard Berger"
+      B: "Niki Lauda"
+      C: "Helmut Marko"
+      D: "Jochen Rindt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Austrian driver was world champion in 1975, 1977 and 1984?"
+        answers:
+          A: "Gerhard Berger"
+          B: "Niki Lauda"
+          C: "Helmut Marko"
+          D: "Jochen Rindt"
+    difficulty: MEDIUM
+  - text: "En quelle année Ayrton Senna a-t-il remporté son premier titre mondial ?"
+    answers:
+      A: "1986"
+      B: "1991"
+      C: "1989"
+      D: "1988"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Ayrton Senna win his first world title?"
+        answers:
+          A: "1986"
+          B: "1991"
+          C: "1989"
+          D: "1988"
+    difficulty: HARD
+  - text: "Quel pilote détient le record du nombre de victoires en Grand Prix en carrière ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Sebastian Vettel"
+      C: "Lewis Hamilton"
+      D: "Ayrton Senna"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver holds the record for the most Grand Prix wins in a career?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Sebastian Vettel"
+          C: "Lewis Hamilton"
+          D: "Ayrton Senna"
+    difficulty: HARD
+  - text: "En quelle année l'écurie McLaren a-t-elle été fondée par Bruce McLaren ?"
+    answers:
+      A: "1963"
+      B: "1960"
+      C: "1958"
+      D: "1966"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the McLaren team founded by Bruce McLaren?"
+        answers:
+          A: "1963"
+          B: "1960"
+          C: "1958"
+          D: "1966"
+    difficulty: HARD
+  - text: "Quel pilote italien a remporté deux titres mondiaux consécutifs en 1952 et 1953 ?"
+    answers:
+      A: "Luigi Fagioli"
+      B: "Giuseppe Farina"
+      C: "Alberto Ascari"
+      D: "Piero Taruffi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian driver won two consecutive world titles in 1952 and 1953?"
+        answers:
+          A: "Luigi Fagioli"
+          B: "Giuseppe Farina"
+          C: "Alberto Ascari"
+          D: "Piero Taruffi"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le titre mondial 1970 à titre posthume ?"
+    answers:
+      A: "Jacky Ickx"
+      B: "Jackie Stewart"
+      C: "Jochen Rindt"
+      D: "Denny Hulme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the 1970 world title posthumously?"
+        answers:
+          A: "Jacky Ickx"
+          B: "Jackie Stewart"
+          C: "Jochen Rindt"
+          D: "Denny Hulme"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le dernier titre de champion du monde de l'écurie Lotus en 1978 ?"
+    answers:
+      A: "Mario Andretti"
+      B: "Ronnie Peterson"
+      C: "Emerson Fittipaldi"
+      D: "Gunnar Nilsson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won Lotus's last world championship title in 1978?"
+        answers:
+          A: "Mario Andretti"
+          B: "Ronnie Peterson"
+          C: "Emerson Fittipaldi"
+          D: "Gunnar Nilsson"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le tout premier Grand Prix du championnat du monde, à Silverstone en 1950 ?"
+    answers:
+      A: "Reg Parnell"
+      B: "Juan Manuel Fangio"
+      C: "Luigi Fagioli"
+      D: "Nino Farina"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the very first World Championship Grand Prix, at Silverstone in 1950?"
+        answers:
+          A: "Reg Parnell"
+          B: "Juan Manuel Fangio"
+          C: "Luigi Fagioli"
+          D: "Nino Farina"
+    difficulty: EXPERT
+  - text: "En quelle année le moteur turbocompressé Renault a-t-il fait ses débuts en Formule 1 ?"
+    answers:
+      A: "1977"
+      B: "1979"
+      C: "1981"
+      D: "1983"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Renault's turbocharged engine make its Formula 1 debut?"
+        answers:
+          A: "1977"
+          B: "1979"
+          C: "1981"
+          D: "1983"
+    difficulty: EXPERT
+  - text: "Combien de Grands Prix Ayrton Senna a-t-il remportés au cours de sa carrière ?"
+    answers:
+      A: "31"
+      B: "36"
+      C: "45"
+      D: "41"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Grands Prix did Ayrton Senna win during his career?"
+        answers:
+          A: "31"
+          B: "36"
+          C: "45"
+          D: "41"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté quatre titres mondiaux consécutifs avec Red Bull de 2010 à 2013 ?"
+    answers:
+      A: "Mark Webber"
+      B: "Daniel Ricciardo"
+      C: "Max Verstappen"
+      D: "Sebastian Vettel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won four consecutive world titles with Red Bull from 2010 to 2013?"
+        answers:
+          A: "Mark Webber"
+          B: "Daniel Ricciardo"
+          C: "Max Verstappen"
+          D: "Sebastian Vettel"
+    difficulty: EXPERT
+  - text: "Quel pilote détient le record du nombre de pole positions en carrière ?"
+    answers:
+      A: "Michael Schumacher"
+      B: "Lewis Hamilton"
+      C: "Ayrton Senna"
+      D: "Juan Manuel Fangio"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver holds the record for the most career pole positions?"
+        answers:
+          A: "Michael Schumacher"
+          B: "Lewis Hamilton"
+          C: "Ayrton Senna"
+          D: "Juan Manuel Fangio"
+    difficulty: EXPERT
+  - text: "En quelle année Juan Manuel Fangio a-t-il remporté son premier titre mondial ?"
+    answers:
+      A: "1951"
+      B: "1949"
+      C: "1954"
+      D: "1956"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Juan Manuel Fangio win his first world title?"
+        answers:
+          A: "1951"
+          B: "1949"
+          C: "1954"
+          D: "1956"
+    difficulty: EXPERT
+  - text: "Quel pilote français a remporté quatre titres de champion du monde de Formule 1 ?"
+    answers:
+      A: "René Arnoux"
+      B: "Jacques Laffite"
+      C: "Alain Prost"
+      D: "Didier Pironi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French driver won four Formula 1 world championship titles?"
+        answers:
+          A: "René Arnoux"
+          B: "Jacques Laffite"
+          C: "Alain Prost"
+          D: "Didier Pironi"
+    difficulty: EASY
+  - text: "Quelle écurie britannique a dominé le début des années 1990 avec Nigel Mansell et Damon Hill ?"
+    answers:
+      A: "Benetton"
+      B: "Williams"
+      C: "Lotus"
+      D: "Brabham"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which British team dominated the early 1990s with Nigel Mansell and Damon Hill?"
+        answers:
+          A: "Benetton"
+          B: "Williams"
+          C: "Lotus"
+          D: "Brabham"
+    difficulty: EASY
+  - text: "Sur quel circuit se déroule traditionnellement le Grand Prix de Grande-Bretagne ?"
+    answers:
+      A: "Brands Hatch"
+      B: "Donington"
+      C: "Silverstone"
+      D: "Goodwood"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which circuit traditionally hosts the British Grand Prix?"
+        answers:
+          A: "Brands Hatch"
+          B: "Donington"
+          C: "Silverstone"
+          D: "Goodwood"
+    difficulty: EASY
+  - text: "Combien de titres mondiaux Michael Schumacher a-t-il remportés avec Ferrari ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "5"
+      D: "6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many world titles did Michael Schumacher win with Ferrari?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "5"
+          D: "6"
+    difficulty: EASY
+  - text: "Que signifie l'agitation d'un drapeau rouge pendant une course ?"
+    answers:
+      A: "La piste est glissante"
+      B: "Tous les pilotes doivent rentrer aux stands"
+      C: "La course est interrompue"
+      D: "Le leader reçoit un avertissement"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does waving a red flag during a race mean?"
+        answers:
+          A: "The track is slippery"
+          B: "All drivers must return to the pits"
+          C: "The race is stopped"
+          D: "The leader receives a warning"
+    difficulty: EASY
+  - text: "Quel pilote finlandais, champion du monde 2007, est surnommé « The Iceman » ?"
+    answers:
+      A: "Mika Häkkinen"
+      B: "Valtteri Bottas"
+      C: "Kimi Räikkönen"
+      D: "Keke Rosberg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Finnish driver, 2007 world champion, is nicknamed 'The Iceman'?"
+        answers:
+          A: "Mika Häkkinen"
+          B: "Valtteri Bottas"
+          C: "Kimi Räikkönen"
+          D: "Keke Rosberg"
+    difficulty: EASY
+  - text: "Quel système permet au pilote d'ouvrir l'aileron arrière pour faciliter les dépassements ?"
+    answers:
+      A: "KERS"
+      B: "VSC"
+      C: "ERS"
+      D: "DRS"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which system allows the driver to open the rear wing to facilitate overtaking?"
+        answers:
+          A: "KERS"
+          B: "VSC"
+          C: "ERS"
+          D: "DRS"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté les championnats du monde 1994 et 1995 ?"
+    answers:
+      A: "Damon Hill"
+      B: "Ayrton Senna"
+      C: "Nigel Mansell"
+      D: "Michael Schumacher"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the world championships in 1994 and 1995?"
+        answers:
+          A: "Damon Hill"
+          B: "Ayrton Senna"
+          C: "Nigel Mansell"
+          D: "Michael Schumacher"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on la séance qui détermine l'ordre de départ d'une course ?"
+    answers:
+      A: "Les essais libres"
+      B: "La course sprint"
+      C: "Les qualifications"
+      D: "Les essais hivernaux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the session called that determines the starting order of a race?"
+        answers:
+          A: "Free practice"
+          B: "Sprint race"
+          C: "Qualifying"
+          D: "Winter testing"
+    difficulty: MEDIUM
+  - text: "Quel pilote brésilien a remporté les titres mondiaux 1972 et 1974 ?"
+    answers:
+      A: "Nelson Piquet"
+      B: "Emerson Fittipaldi"
+      C: "Carlos Pace"
+      D: "Rubens Barrichello"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Brazilian driver won the world titles in 1972 and 1974?"
+        answers:
+          A: "Nelson Piquet"
+          B: "Emerson Fittipaldi"
+          C: "Carlos Pace"
+          D: "Rubens Barrichello"
+    difficulty: MEDIUM
+  - text: "Quel pilote écossais a remporté trois titres mondiaux entre 1969 et 1973 ?"
+    answers:
+      A: "Graham Hill"
+      B: "Jim Clark"
+      C: "Jackie Stewart"
+      D: "John Surtees"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Scottish driver won three world titles between 1969 and 1973?"
+        answers:
+          A: "Graham Hill"
+          B: "Jim Clark"
+          C: "Jackie Stewart"
+          D: "John Surtees"
+    difficulty: MEDIUM
+  - text: "Quel pilote a remporté le championnat du monde 2009 avec l'écurie Brawn GP ?"
+    answers:
+      A: "Jenson Button"
+      B: "Rubens Barrichello"
+      C: "Sebastian Vettel"
+      D: "Nico Rosberg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which driver won the 2009 world championship with the Brawn GP team?"
+        answers:
+          A: "Jenson Button"
+          B: "Rubens Barrichello"
+          C: "Sebastian Vettel"
+          D: "Nico Rosberg"
+    difficulty: MEDIUM
+  - text: "En quelle année Alain Prost a-t-il remporté son quatrième et dernier titre mondial ?"
+    answers:
+      A: "1993"
+      B: "1991"
+      C: "1989"
+      D: "1995"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Alain Prost win his fourth and final world title?"
+        answers:
+          A: "1993"
+          B: "1991"
+          C: "1989"
+          D: "1995"
+    difficulty: HARD
+  - text: "Qui a été le premier pilote britannique champion du monde de Formule 1 ?"
+    answers:
+      A: "Mike Hawthorn"
+      B: "Graham Hill"
+      C: "Jim Clark"
+      D: "Stirling Moss"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first British Formula 1 world champion?"
+        answers:
+          A: "Mike Hawthorn"
+          B: "Graham Hill"
+          C: "Jim Clark"
+          D: "Stirling Moss"
+    difficulty: HARD
+  - text: "Combien de Grands Prix Michael Schumacher a-t-il remportés avec Ferrari ?"
+    answers:
+      A: "58"
+      B: "72"
+      C: "85"
+      D: "91"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many Grands Prix did Michael Schumacher win with Ferrari?"
+        answers:
+          A: "58"
+          B: "72"
+          C: "85"
+          D: "91"
+    difficulty: HARD
+  - text: "Quel pilote a remporté cinq fois consécutivement le Grand Prix de Monaco de 1989 à 1993 ?"
+    answers:
+      A: "Alain Prost"
+      B: "Michael Schumacher"
+      C: "Ayrton Senna"
+      D: "Graham Hill"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which driver won the Monaco Grand Prix five times consecutively from 1989 to 1993?"
+        answers:
+          A: "Alain Prost"
+          B: "Michael Schumacher"
+          C: "Ayrton Senna"
+          D: "Graham Hill"
+    difficulty: HARD
+  - text: "Quel pilote français a offert à Renault sa première victoire en Formule 1 avec un moteur turbo en 1979 ?"
+    answers:
+      A: "René Arnoux"
+      B: "Jean-Pierre Jabouille"
+      C: "Patrick Tambay"
+      D: "Didier Pironi"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French driver gave Renault its first Formula 1 victory with a turbo engine in 1979?"
+        answers:
+          A: "René Arnoux"
+          B: "Jean-Pierre Jabouille"
+          C: "Patrick Tambay"
+          D: "Didier Pironi"
+    difficulty: HARD
+  - text: "En quelle année Nigel Mansell a-t-il remporté le championnat du monde de Formule 1 ?"
+    answers:
+      A: "1995"
+      B: "1993"
+      C: "1994"
+      D: "1992"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Nigel Mansell win the Formula 1 world championship?"
+        answers:
+          A: "1995"
+          B: "1993"
+          C: "1994"
+          D: "1992"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le championnat du monde 1982 avec une seule victoire en course ?"
+    answers:
+      A: "Alain Prost"
+      B: "Nelson Piquet"
+      C: "Didier Pironi"
+      D: "Keke Rosberg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1982 world championship with only one race victory?"
+        answers:
+          A: "Alain Prost"
+          B: "Nelson Piquet"
+          C: "Didier Pironi"
+          D: "Keke Rosberg"
+    difficulty: HARD
+  - text: "Quel pilote est le seul à avoir été champion du monde en Formule 1 et en vitesse moto ?"
+    answers:
+      A: "Giacomo Agostini"
+      B: "John Surtees"
+      C: "Mike Hailwood"
+      D: "Eddie Lawson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver is the only one to have been world champion in both Formula 1 and motorcycle racing?"
+        answers:
+          A: "Giacomo Agostini"
+          B: "John Surtees"
+          C: "Mike Hailwood"
+          D: "Eddie Lawson"
+    difficulty: EXPERT
+  - text: "En quelle année le dispositif HANS de protection de la tête et du cou est-il devenu obligatoire en Formule 1 ?"
+    answers:
+      A: "1999"
+      B: "2001"
+      C: "2003"
+      D: "2005"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the HANS head and neck protection device become mandatory in Formula 1?"
+        answers:
+          A: "1999"
+          B: "2001"
+          C: "2003"
+          D: "2005"
+    difficulty: EXPERT
+  - text: "Quel pilote a remporté le championnat du monde de Formule 1 en 1996 ?"
+    answers:
+      A: "Jacques Villeneuve"
+      B: "Damon Hill"
+      C: "Michael Schumacher"
+      D: "Mika Häkkinen"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver won the Formula 1 World Championship in 1996?"
+        answers:
+          A: "Jacques Villeneuve"
+          B: "Damon Hill"
+          C: "Michael Schumacher"
+          D: "Mika Häkkinen"
+    difficulty: EXPERT
+  - text: "Quel pilote a offert à Williams son premier titre de champion du monde des pilotes en 1980 ?"
+    answers:
+      A: "Keke Rosberg"
+      B: "Alan Jones"
+      C: "Carlos Reutemann"
+      D: "Clay Regazzoni"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver gave Williams its first Drivers' World Championship title in 1980?"
+        answers:
+          A: "Keke Rosberg"
+          B: "Alan Jones"
+          C: "Carlos Reutemann"
+          D: "Clay Regazzoni"
+    difficulty: EXPERT
+  - text: "Qui a été le premier pilote à remporter trois titres mondiaux consécutifs ?"
+    answers:
+      A: "Juan Manuel Fangio"
+      B: "Alberto Ascari"
+      C: "Michael Schumacher"
+      D: "Lewis Hamilton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first driver to win three consecutive world titles?"
+        answers:
+          A: "Juan Manuel Fangio"
+          B: "Alberto Ascari"
+          C: "Michael Schumacher"
+          D: "Lewis Hamilton"
+    difficulty: EXPERT
+  - text: "Quel pilote sud-africain a remporté le championnat du monde de Formule 1 en 1979 ?"
+    answers:
+      A: "Gilles Villeneuve"
+      B: "Jody Scheckter"
+      C: "Alan Jones"
+      D: "Niki Lauda"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which South African driver won the Formula 1 World Championship in 1979?"
+        answers:
+          A: "Gilles Villeneuve"
+          B: "Jody Scheckter"
+          C: "Alan Jones"
+          D: "Niki Lauda"
+    difficulty: EXPERT
+  - text: "Quel Grand Prix se déroule dans les rues étroites d'une principauté, avec son tunnel et son port de yachts ?"
+    answers:
+      A: "Le Grand Prix de Monaco"
+      B: "Le Grand Prix de Singapour"
+      C: "Le Grand Prix de Macao"
+      D: "Le Grand Prix d'Azerbaïdjan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Grand Prix takes place on the narrow streets of a principality, with its tunnel and yacht harbor?"
+        answers:
+          A: "The Monaco Grand Prix"
+          B: "The Singapore Grand Prix"
+          C: "The Macau Grand Prix"
+          D: "The Azerbaijan Grand Prix"
+    difficulty: EASY
+  - text: "Quelle écurie italienne est engagée sans interruption en Formule 1 depuis la première saison, en 1950 ?"
+    answers:
+      A: "Maserati"
+      B: "Alfa Romeo"
+      C: "McLaren"
+      D: "Ferrari"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Italian team has competed in Formula 1 without interruption since the first season in 1950?"
+        answers:
+          A: "Maserati"
+          B: "Alfa Romeo"
+          C: "McLaren"
+          D: "Ferrari"
+    difficulty: EASY
+  - text: "Que signifie un drapeau jaune agité par un commissaire de piste ?"
+    answers:
+      A: "Un danger, avec dépassements interdits"
+      B: "La fin de la séance"
+      C: "L'arrivée de la pluie"
+      D: "La sortie de la voiture de sécurité"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does a yellow flag waved by a track marshal mean?"
+        answers:
+          A: "Danger, with overtaking prohibited"
+          B: "The session is over"
+          C: "Rain is coming"
+          D: "The safety car is coming out"
+    difficulty: EASY
+  - text: "Comment appelle-t-on la première position sur la grille de départ ?"
+    answers:
+      A: "Le meilleur tour"
+      B: "Le hole shot"
+      C: "Le départ lancé"
+      D: "La pole position"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first position on the starting grid called?"
+        answers:
+          A: "The fastest lap"
+          B: "The hole shot"
+          C: "The rolling start"
+          D: "Pole position"
+    difficulty: EASY
+  - text: "Que signifie un drapeau vert agité sur la piste ?"
+    answers:
+      A: "Un danger imminent"
+      B: "La piste est libre, la course peut reprendre"
+      C: "La fin de la course"
+      D: "L'obligation de rentrer aux stands"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does a green flag waved on the track mean?"
+        answers:
+          A: "Imminent danger"
+          B: "The track is clear, the race can resume"
+          C: "The end of the race"
+          D: "Mandatory return to the pits"
+    difficulty: EASY
+  - text: "Que signifie un drapeau bleu montré à un pilote ?"
+    answers:
+      A: "Il doit rentrer aux stands"
+      B: "Il est disqualifié"
+      C: "Il doit laisser passer un pilote plus rapide"
+      D: "La piste est huileuse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does a blue flag shown to a driver mean?"
+        answers:
+          A: "He must return to the pits"
+          B: "He is disqualified"
+          C: "He must let a faster driver pass"
+          D: "The track is oily"
+    difficulty: EASY
+  - text: "Comment appelle-t-on le véhicule qui intervient pour ralentir le peloton après un accident ?"
+    answers:
+      A: "La voiture de sécurité"
+      B: "La voiture balai"
+      C: "La voiture médicale"
+      D: "La voiture ouvreuse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the vehicle called that intervenes to slow the pack after an accident?"
+        answers:
+          A: "The safety car"
+          B: "The sweep car"
+          C: "The medical car"
+          D: "The opening car"
+    difficulty: EASY
+  - text: "Quel pilote allemand a été champion du monde en 2016 avec Mercedes ?"
+    answers:
+      A: "Sebastian Vettel"
+      B: "Michael Schumacher"
+      C: "Nico Rosberg"
+      D: "Nick Heidfeld"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which German driver was world champion in 2016 with Mercedes?"
+        answers:
+          A: "Sebastian Vettel"
+          B: "Michael Schumacher"
+          C: "Nico Rosberg"
+          D: "Nick Heidfeld"
+    difficulty: EASY
+  - text: "Sur quel circuit japonais se déroule traditionnellement le Grand Prix du Japon ?"
+    answers:
+      A: "Fuji"
+      B: "Suzuka"
+      C: "Motegi"
+      D: "Okayama"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which Japanese circuit is the Japanese Grand Prix traditionally held?"
+        answers:
+          A: "Fuji"
+          B: "Suzuka"
+          C: "Motegi"
+          D: "Okayama"
+    difficulty: EASY
+  - text: "Que désigne un « tour rapide » pendant une course ?"
+    answers:
+      A: "Le meilleur temps au tour"
+      B: "Le premier tour de course"
+      C: "Le tour de formation"
+      D: "Un tour derrière la voiture de sécurité"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does a \"fast lap\" during a race refer to?"
+        answers:
+          A: "The fastest lap time"
+          B: "The first lap of the race"
+          C: "The formation lap"
+          D: "A lap behind the safety car"
+    difficulty: EASY
+  - text: "Quel Grand Prix est le premier de l'histoire à s'être disputé entièrement de nuit, en 2008 ?"
+    answers:
+      A: "Le Grand Prix de Singapour"
+      B: "Le Grand Prix de Bahreïn"
+      C: "Le Grand Prix d'Abou Dabi"
+      D: "Le Grand Prix du Japon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Grand Prix was the first in history to be held entirely at night, in 2008?"
+        answers:
+          A: "The Singapore Grand Prix"
+          B: "The Bahrain Grand Prix"
+          C: "The Abu Dhabi Grand Prix"
+          D: "The Japanese Grand Prix"
+    difficulty: EASY
+  - text: "Quel pilote autrichien était surnommé « le Baron rouge » ?"
+    answers:
+      A: "Gerhard Berger"
+      B: "Niki Lauda"
+      C: "Helmut Marko"
+      D: "Jochen Rindt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Austrian driver was nicknamed \"the Red Baron\"?"
+        answers:
+          A: "Gerhard Berger"
+          B: "Niki Lauda"
+          C: "Helmut Marko"
+          D: "Jochen Rindt"
+    difficulty: EASY
+  - text: "Quel pilote a remporté le championnat du monde 1997 avec l'écurie Williams ?"
+    answers:
+      A: "Heinz-Harald Frentzen"
+      B: "Damon Hill"
+      C: "Michael Schumacher"
+      D: "Jacques Villeneuve"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1997 world championship with the Williams team?"
+        answers:
+          A: "Heinz-Harald Frentzen"
+          B: "Damon Hill"
+          C: "Michael Schumacher"
+          D: "Jacques Villeneuve"
+    difficulty: MEDIUM
+  - text: "Quel pilote finlandais a remporté deux titres mondiaux consécutifs en 1998 et 1999 ?"
+    answers:
+      A: "Kimi Räikkönen"
+      B: "Valtteri Bottas"
+      C: "Keke Rosberg"
+      D: "Mika Häkkinen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Finnish driver won two consecutive world titles in 1998 and 1999?"
+        answers:
+          A: "Kimi Räikkönen"
+          B: "Valtteri Bottas"
+          C: "Keke Rosberg"
+          D: "Mika Häkkinen"
+    difficulty: MEDIUM
+  - text: "Quel pilote brésilien a remporté trois titres mondiaux, en 1981, 1983 et 1987 ?"
+    answers:
+      A: "Ayrton Senna"
+      B: "Emerson Fittipaldi"
+      C: "Nelson Piquet"
+      D: "Rubens Barrichello"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Brazilian driver won three world titles, in 1981, 1983 and 1987?"
+        answers:
+          A: "Ayrton Senna"
+          B: "Emerson Fittipaldi"
+          C: "Nelson Piquet"
+          D: "Rubens Barrichello"
+    difficulty: MEDIUM
+  - text: "Quelle écurie britannique fondée par Colin Chapman a remporté sept titres constructeurs ?"
+    answers:
+      A: "Brabham"
+      B: "Cooper"
+      C: "BRM"
+      D: "Lotus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which British team founded by Colin Chapman won seven constructors' titles?"
+        answers:
+          A: "Brabham"
+          B: "Cooper"
+          C: "BRM"
+          D: "Lotus"
+    difficulty: MEDIUM
+  - text: "Quel constructeur japonais a motorisé McLaren pendant l'ère Senna, à la fin des années 1980 ?"
+    answers:
+      A: "Toyota"
+      B: "Honda"
+      C: "Nissan"
+      D: "Yamaha"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Japanese manufacturer powered McLaren during the Senna era in the late 1980s?"
+        answers:
+          A: "Toyota"
+          B: "Honda"
+          C: "Nissan"
+          D: "Yamaha"
+    difficulty: MEDIUM
+  - text: "Quelle catastrophe, en 1955, a poussé Mercedes-Benz à se retirer du sport automobile ?"
+    answers:
+      A: "L'accident de la Mille Miglia"
+      B: "L'incendie du Nürburgring"
+      C: "Le carambolage de Monza"
+      D: "La catastrophe des 24 Heures du Mans"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which disaster in 1955 led Mercedes-Benz to withdraw from motorsport?"
+        answers:
+          A: "The Mille Miglia accident"
+          B: "The Nürburgring fire"
+          C: "The Monza pile-up"
+          D: "The 24 Hours of Le Mans disaster"
+    difficulty: MEDIUM
+  - text: "Quelle marque de pneus est le fournisseur unique de la Formule 1 depuis 2011 ?"
+    answers:
+      A: "Michelin"
+      B: "Pirelli"
+      C: "Bridgestone"
+      D: "Goodyear"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which tyre brand has been Formula 1's sole supplier since 2011?"
+        answers:
+          A: "Michelin"
+          B: "Pirelli"
+          C: "Bridgestone"
+          D: "Goodyear"
+    difficulty: MEDIUM
+  - text: "Quel pilote écossais, double champion du monde en 1963 et 1965, est mort en course en 1968 ?"
+    answers:
+      A: "Jim Clark"
+      B: "Jackie Stewart"
+      C: "Graham Hill"
+      D: "John Surtees"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Scottish driver, a two-time world champion in 1963 and 1965, died in a race in 1968?"
+        answers:
+          A: "Jim Clark"
+          B: "Jackie Stewart"
+          C: "Graham Hill"
+          D: "John Surtees"
+    difficulty: MEDIUM
+  - text: "Qui est devenu champion du monde 1976 après un duel resté célèbre avec Niki Lauda ?"
+    answers:
+      A: "Clay Regazzoni"
+      B: "James Hunt"
+      C: "Jody Scheckter"
+      D: "Ronnie Peterson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who became 1976 world champion after a famous duel with Niki Lauda?"
+        answers:
+          A: "Clay Regazzoni"
+          B: "James Hunt"
+          C: "Jody Scheckter"
+          D: "Ronnie Peterson"
+    difficulty: MEDIUM
+  - text: "Quelle écurie britannique fondée en 1977 détient neuf titres mondiaux des constructeurs ?"
+    answers:
+      A: "Tyrrell"
+      B: "McLaren"
+      C: "Jordan"
+      D: "Williams"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which British team founded in 1977 holds nine constructors' world titles?"
+        answers:
+          A: "Tyrrell"
+          B: "McLaren"
+          C: "Jordan"
+          D: "Williams"
+    difficulty: MEDIUM
+  - text: "Quel type de moteur équipe les monoplaces de Formule 1 depuis 2014 ?"
+    answers:
+      A: "Un V6 turbo hybride"
+      B: "Un V10"
+      C: "Un V8 atmosphérique"
+      D: "Un V12"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What type of engine has powered Formula 1 cars since 2014?"
+        answers:
+          A: "A hybrid turbo V6"
+          B: "A V10"
+          C: "A naturally aspirated V8"
+          D: "A V12"
+    difficulty: MEDIUM
+  - text: "Quel manufacturier français a fourni les pneus de la Formule 1 jusqu'à son retrait fin 2006 ?"
+    answers:
+      A: "Pirelli"
+      B: "Bridgestone"
+      C: "Michelin"
+      D: "Goodyear"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French manufacturer supplied Formula 1 tyres until its withdrawal at the end of 2006?"
+        answers:
+          A: "Pirelli"
+          B: "Bridgestone"
+          C: "Michelin"
+          D: "Goodyear"
+    difficulty: MEDIUM
+  - text: "Combien de titres constructeurs consécutifs Mercedes a-t-elle remportés de 2014 à 2021 ?"
+    answers:
+      A: "6 titres"
+      B: "8 titres"
+      C: "7 titres"
+      D: "9 titres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many consecutive constructors' titles did Mercedes win from 2014 to 2021?"
+        answers:
+          A: "6 titles"
+          B: "8 titles"
+          C: "7 titles"
+          D: "9 titles"
+    difficulty: MEDIUM
+  - text: "Quel pilote portugais a signé son unique podium au Grand Prix des États-Unis 2005, couru avec seulement six voitures ?"
+    answers:
+      A: "Pedro Lamy"
+      B: "Esteban Tuero"
+      C: "Tiago Monteiro"
+      D: "Gastón Mazzacane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Portuguese driver scored his only podium at the 2005 United States Grand Prix, run with only six cars?"
+        answers:
+          A: "Pedro Lamy"
+          B: "Esteban Tuero"
+          C: "Tiago Monteiro"
+          D: "Gastón Mazzacane"
+    difficulty: HARD
+  - text: "Quelle écurie a engagé la première monoplace à six roues de l'histoire de la Formule 1, la P34 de 1976 ?"
+    answers:
+      A: "Tyrrell"
+      B: "March"
+      C: "Shadow"
+      D: "Hesketh"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team entered the first six-wheeled single-seater in Formula 1 history, the 1976 P34?"
+        answers:
+          A: "Tyrrell"
+          B: "March"
+          C: "Shadow"
+          D: "Hesketh"
+    difficulty: HARD
+  - text: "Quel pilote français a été le premier à remporter un Grand Prix de Formule 1, à Monaco en 1955 ?"
+    answers:
+      A: "Jean Behra"
+      B: "Maurice Trintignant"
+      C: "Louis Rosier"
+      D: "Robert Manzon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French driver was the first to win a Formula 1 Grand Prix, at Monaco in 1955?"
+        answers:
+          A: "Jean Behra"
+          B: "Maurice Trintignant"
+          C: "Louis Rosier"
+          D: "Robert Manzon"
+    difficulty: HARD
+  - text: "Combien de victoires en Grand Prix compte Stirling Moss, souvent cité comme le meilleur pilote sans titre mondial ?"
+    answers:
+      A: "8 victoires"
+      B: "21 victoires"
+      C: "12 victoires"
+      D: "16 victoires"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Grand Prix wins does Stirling Moss have, often cited as the best driver without a world title?"
+        answers:
+          A: "8 wins"
+          B: "21 wins"
+          C: "12 wins"
+          D: "16 wins"
+    difficulty: HARD
+  - text: "Qui a remporté le premier Grand Prix de Monaco de l'histoire, en 1929 ?"
+    answers:
+      A: "William Grover-Williams"
+      B: "Tazio Nuvolari"
+      C: "Louis Chiron"
+      D: "Rudolf Caracciola"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who won the first Monaco Grand Prix in history, in 1929?"
+        answers:
+          A: "William Grover-Williams"
+          B: "Tazio Nuvolari"
+          C: "Louis Chiron"
+          D: "Rudolf Caracciola"
+    difficulty: HARD
+  - text: "En quelle année le Nürburgring Nordschleife a-t-il accueilli son dernier Grand Prix de Formule 1, marqué par le crash de Niki Lauda ?"
+    answers:
+      A: "1973"
+      B: "1975"
+      C: "1978"
+      D: "1976"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Nürburgring Nordschleife host its last Formula 1 Grand Prix, marked by Niki Lauda's crash?"
+        answers:
+          A: "1973"
+          B: "1975"
+          C: "1978"
+          D: "1976"
+    difficulty: HARD
+  - text: "Quel pilote est mort aux qualifications du Grand Prix de Saint-Marin 1994, la veille du drame d'Ayrton Senna ?"
+    answers:
+      A: "Riccardo Paletti"
+      B: "Martin Donnelly"
+      C: "Philippe Streiff"
+      D: "Roland Ratzenberger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver died in qualifying for the 1994 San Marino Grand Prix, the day before Ayrton Senna's tragedy?"
+        answers:
+          A: "Riccardo Paletti"
+          B: "Martin Donnelly"
+          C: "Philippe Streiff"
+          D: "Roland Ratzenberger"
+    difficulty: HARD
+  - text: "Quel pilote a remporté le Grand Prix d'Italie 1971 à Monza, avec l'arrivée la plus serrée de l'histoire de la Formule 1 ?"
+    answers:
+      A: "Ronnie Peterson"
+      B: "François Cevert"
+      C: "Emerson Fittipaldi"
+      D: "Peter Gethin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver won the 1971 Italian Grand Prix at Monza, with the closest finish in Formula 1 history?"
+        answers:
+          A: "Ronnie Peterson"
+          B: "François Cevert"
+          C: "Emerson Fittipaldi"
+          D: "Peter Gethin"
+    difficulty: HARD
+  - text: "Quel pilote a cédé la victoire à Michael Schumacher au Grand Prix d'Autriche 2002, provoquant une polémique sur les consignes d'équipe ?"
+    answers:
+      A: "Eddie Irvine"
+      B: "Rubens Barrichello"
+      C: "Mika Salo"
+      D: "Felipe Massa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver gave up the win to Michael Schumacher at the 2002 Austrian Grand Prix, sparking controversy over team orders?"
+        answers:
+          A: "Eddie Irvine"
+          B: "Rubens Barrichello"
+          C: "Mika Salo"
+          D: "Felipe Massa"
+    difficulty: HARD
+  - text: "Quelle monoplace a offert son premier succès au moteur V8 Cosworth DFV, dès son premier Grand Prix aux Pays-Bas en 1967 ?"
+    answers:
+      A: "La Lotus 49"
+      B: "La Brabham BT24"
+      C: "La McLaren M5A"
+      D: "La Eagle T1G"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which single-seater gave the Cosworth DFV V8 engine its first win, in its very first Grand Prix in the Netherlands in 1967?"
+        answers:
+          A: "The Lotus 49"
+          B: "The Brabham BT24"
+          C: "The McLaren M5A"
+          D: "The Eagle T1G"
+    difficulty: HARD
+  - text: "Quel pilote détient le record du plus grand nombre de Grands Chelems (pole, meilleur tour, victoire et course entièrement en tête) ?"
+    answers:
+      A: "Ayrton Senna"
+      B: "Michael Schumacher"
+      C: "Lewis Hamilton"
+      D: "Jim Clark"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver holds the record for the most Grand Slams (pole, fastest lap, win and leading every lap)?"
+        answers:
+          A: "Ayrton Senna"
+          B: "Michael Schumacher"
+          C: "Lewis Hamilton"
+          D: "Jim Clark"
+    difficulty: HARD
+  - text: "Quel dispositif, jugé illégal par ses rivaux, a permis à la Brabham BT46B de gagner le Grand Prix de Suède 1978 ?"
+    answers:
+      A: "Un effet de sol par ventilateur"
+      B: "Un aileron mobile"
+      C: "Une suspension active"
+      D: "Une boîte de vitesses à double embrayage"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which device, deemed illegal by its rivals, allowed the Brabham BT46B to win the 1978 Swedish Grand Prix?"
+        answers:
+          A: "A fan-powered ground effect"
+          B: "A movable wing"
+          C: "Active suspension"
+          D: "A dual-clutch gearbox"
+    difficulty: HARD
+  - text: "Quelle femme pilote a marqué l'unique demi-point de l'histoire de la Formule 1, au Grand Prix d'Espagne 1975 ?"
+    answers:
+      A: "Maria Teresa de Filippis"
+      B: "Giovanna Amati"
+      C: "Lella Lombardi"
+      D: "Desiré Wilson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which female driver scored the only half-point in Formula 1 history, at the 1975 Spanish Grand Prix?"
+        answers:
+          A: "Maria Teresa de Filippis"
+          B: "Giovanna Amati"
+          C: "Lella Lombardi"
+          D: "Desiré Wilson"
+    difficulty: EXPERT
+  - text: "Qui a été la première femme à prendre le départ d'un Grand Prix de championnat du monde, en 1958 ?"
+    answers:
+      A: "Divina Galica"
+      B: "Lella Lombardi"
+      C: "Maria Teresa de Filippis"
+      D: "Desiré Wilson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the first woman to start a World Championship Grand Prix, in 1958?"
+        answers:
+          A: "Divina Galica"
+          B: "Lella Lombardi"
+          C: "Maria Teresa de Filippis"
+          D: "Desiré Wilson"
+    difficulty: EXPERT
+  - text: "Quel pilote italien a remporté le Grand Prix d'Allemagne 1935 au Nürburgring, au volant d'une Auto Union ?"
+    answers:
+      A: "Achille Varzi"
+      B: "Luigi Fagioli"
+      C: "Tazio Nuvolari"
+      D: "Alberto Ascari"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Italian driver won the 1935 German Grand Prix at the Nürburgring, driving an Auto Union?"
+        answers:
+          A: "Achille Varzi"
+          B: "Luigi Fagioli"
+          C: "Tazio Nuvolari"
+          D: "Alberto Ascari"
+    difficulty: EXPERT
+  - text: "Quelle femme pilote est la seule à avoir gagné une course de Formule 1, hors championnat, à Brands Hatch en 1980 ?"
+    answers:
+      A: "Divina Galica"
+      B: "Lella Lombardi"
+      C: "Desiré Wilson"
+      D: "Maria Teresa de Filippis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which female driver is the only one to have won a non-championship Formula 1 race, at Brands Hatch in 1980?"
+        answers:
+          A: "Divina Galica"
+          B: "Lella Lombardi"
+          C: "Desiré Wilson"
+          D: "Maria Teresa de Filippis"
+    difficulty: EXPERT
+  - text: "Quel Grand Prix a utilisé pour la première fois une voiture de sécurité, en 1973 ?"
+    answers:
+      A: "Le Grand Prix de Grande-Bretagne"
+      B: "Le Grand Prix de Belgique"
+      C: "Le Grand Prix des États-Unis"
+      D: "Le Grand Prix du Canada"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Grand Prix first used a safety car, in 1973?"
+        answers:
+          A: "The British Grand Prix"
+          B: "The Belgian Grand Prix"
+          C: "The United States Grand Prix"
+          D: "The Canadian Grand Prix"
+    difficulty: EXPERT
+  - text: "Quelle écurie a remporté le premier championnat du monde des constructeurs, en 1958 ?"
+    answers:
+      A: "Vanwall"
+      B: "BRM"
+      C: "Ferrari"
+      D: "Cooper"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which team won the first World Constructors' Championship, in 1958?"
+        answers:
+          A: "Vanwall"
+          B: "BRM"
+          C: "Ferrari"
+          D: "Cooper"
+    difficulty: EXPERT
+  - text: "Qui a remporté le Grand Prix de Monaco 1984, écourté par la pluie, devant Ayrton Senna ?"
+    answers:
+      A: "Nigel Mansell"
+      B: "René Arnoux"
+      C: "Alain Prost"
+      D: "Ayrton Senna"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who won the rain-shortened 1984 Monaco Grand Prix, ahead of Ayrton Senna?"
+        answers:
+          A: "Nigel Mansell"
+          B: "René Arnoux"
+          C: "Alain Prost"
+          D: "Ayrton Senna"
+    difficulty: EXPERT
+  - text: "Combien de titres mondiaux des pilotes l'écurie Williams a-t-elle remportés dans son histoire ?"
+    answers:
+      A: "7 titres"
+      B: "5 titres"
+      C: "9 titres"
+      D: "4 titres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many Drivers' World Championships has the Williams team won in its history?"
+        answers:
+          A: "7 titles"
+          B: "5 titles"
+          C: "9 titles"
+          D: "4 titles"
+    difficulty: EXPERT
+  - text: "Quel pilote détient le record de pole positions en une saison, avec 15 réalisations en 2011 ?"
+    answers:
+      A: "Ayrton Senna"
+      B: "Lewis Hamilton"
+      C: "Nigel Mansell"
+      D: "Sebastian Vettel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which driver holds the record for most pole positions in a season, with 15 in 2011?"
+        answers:
+          A: "Ayrton Senna"
+          B: "Lewis Hamilton"
+          C: "Nigel Mansell"
+          D: "Sebastian Vettel"
+    difficulty: EXPERT
+  - text: "Quel pilote a été enlevé par des rebelles avant le Grand Prix de Cuba 1958, provoquant l'annulation de la course ?"
+    answers:
+      A: "Stirling Moss"
+      B: "Juan Manuel Fangio"
+      C: "Jean Behra"
+      D: "Harry Schell"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which driver was kidnapped by rebels before the 1958 Cuban Grand Prix, causing the race to be cancelled?"
+        answers:
+          A: "Stirling Moss"
+          B: "Juan Manuel Fangio"
+          C: "Jean Behra"
+          D: "Harry Schell"
+    difficulty: EXPERT
+  - text: "Quel pilote français a remporté le Grand Prix de Monaco 1996 sous la pluie, pour sa seule victoire en Formule 1 ?"
+    answers:
+      A: "Jean Alesi"
+      B: "Olivier Panis"
+      C: "Patrick Tambay"
+      D: "François Cevert"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French driver won the rain-soaked 1996 Monaco Grand Prix for his only Formula 1 victory?"
+        answers:
+          A: "Jean Alesi"
+          B: "Olivier Panis"
+          C: "Patrick Tambay"
+          D: "François Cevert"
+    difficulty: EXPERT
+  - text: "Quel pilote américain a été le premier champion du monde de Formule 1 des États-Unis, en 1961 ?"
+    answers:
+      A: "Dan Gurney"
+      B: "Richie Ginther"
+      C: "Phil Hill"
+      D: "Jim Hall"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which American driver was the first Formula 1 World Champion from the United States, in 1961?"
+        answers:
+          A: "Dan Gurney"
+          B: "Richie Ginther"
+          C: "Phil Hill"
+          D: "Jim Hall"
+    difficulty: EXPERT
+  - text: "Quel type de moteur équipait la Ferrari 312T, championne du monde des constructeurs en 1975 ?"
+    answers:
+      A: "Un V12 à 60°"
+      B: "Un V6 turbo"
+      C: "Un V8"
+      D: "Un flat-12"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What type of engine powered the Ferrari 312T, the 1975 World Constructors' Champion?"
+        answers:
+          A: "A 60° V12"
+          B: "A turbo V6"
+          C: "A V8"
+          D: "A flat-12"
+    difficulty: EXPERT

@@ -1,0 +1,1658 @@
+topic:
+  id: topic-tennis
+  names:
+    fr: "Tennis"
+    en: "Tennis"
+  description: "Le tennis est un sport de raquette qui oppose deux joueurs en simple ou quatre en double, sur un court divisé par un filet. Il se pratique sur gazon, terre battue ou surface dure, et se joue en sets, jeux et points, avec des règles comme le tie-break et l'avantage. Les quatre tournois du Grand Chelem — Open d'Australie, Roland-Garros, Wimbledon et US Open — sont les plus prestigieux."
+  category: SPORTS
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Court_Philippe-Chatrier_2023.jpg?width=800
+questions:
+  - text: "Combien de joueurs s'affrontent dans un match de tennis en simple ?"
+    answers:
+      A: "4"
+      B: "3"
+      C: "2"
+      D: "1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many players compete in a singles tennis match?"
+        answers:
+          A: "4"
+          B: "3"
+          C: "2"
+          D: "1"
+    difficulty: EASY
+
+  - text: "Sur quelle surface se joue le tournoi de Roland-Garros ?"
+    answers:
+      A: "Gazon"
+      B: "Terre battue"
+      C: "Dur"
+      D: "Moquette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which surface is the Roland-Garros tournament played?"
+        answers:
+          A: "Grass"
+          B: "Clay"
+          C: "Hard"
+          D: "Carpet"
+    difficulty: EASY
+
+  - text: "Sur quelle surface se joue le tournoi de Wimbledon ?"
+    answers:
+      A: "Gazon"
+      B: "Terre battue"
+      C: "Dur"
+      D: "Moquette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "On which surface is the Wimbledon tournament played?"
+        answers:
+          A: "Grass"
+          B: "Clay"
+          C: "Hard"
+          D: "Carpet"
+    difficulty: EASY
+
+  - text: "Dans quel pays se déroule l'Open d'Australie ?"
+    answers:
+      A: "Australie"
+      B: "Afrique du Sud"
+      C: "Argentine"
+      D: "Nouvelle-Zélande"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which country is the Australian Open held?"
+        answers:
+          A: "Australia"
+          B: "South Africa"
+          C: "Argentina"
+          D: "New Zealand"
+    difficulty: EASY
+
+  - text: "Combien de tournois du Grand Chelem sont organisés chaque année ?"
+    answers:
+      A: "3"
+      B: "2"
+      C: "5"
+      D: "4"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Grand Slam tournaments are held each year?"
+        answers:
+          A: "3"
+          B: "2"
+          C: "5"
+          D: "4"
+    difficulty: EASY
+
+  - text: "De quel pays est originaire Rafael Nadal ?"
+    answers:
+      A: "Italie"
+      B: "Portugal"
+      C: "Espagne"
+      D: "Mexique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country is Rafael Nadal from?"
+        answers:
+          A: "Italy"
+          B: "Portugal"
+          C: "Spain"
+          D: "Mexico"
+    difficulty: EASY
+
+  - text: "De quel pays est originaire Roger Federer ?"
+    answers:
+      A: "Autriche"
+      B: "Allemagne"
+      C: "Suisse"
+      D: "Belgique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country is Roger Federer from?"
+        answers:
+          A: "Austria"
+          B: "Germany"
+          C: "Switzerland"
+          D: "Belgium"
+    difficulty: EASY
+
+  - text: "De quel pays est originaire Novak Djokovic ?"
+    answers:
+      A: "Serbie"
+      B: "Slovénie"
+      C: "Croatie"
+      D: "Bosnie-Herzégovine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country is Novak Djokovic from?"
+        answers:
+          A: "Serbia"
+          B: "Slovenia"
+          C: "Croatia"
+          D: "Bosnia and Herzegovina"
+    difficulty: EASY
+
+  - text: "Dans quel sport Serena Williams est-elle une légende ?"
+    answers:
+      A: "Golf"
+      B: "Tennis"
+      C: "Athlétisme"
+      D: "Natation"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which sport is Serena Williams a legend?"
+        answers:
+          A: "Golf"
+          B: "Tennis"
+          C: "Athletics"
+          D: "Swimming"
+    difficulty: EASY
+
+  - text: "Comment appelle-t-on un service que l'adversaire ne touche pas ?"
+    answers:
+      A: "Un let"
+      B: "Un lob"
+      C: "Un break"
+      D: "Un ace"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What do you call a serve that the opponent does not touch?"
+        answers:
+          A: "A let"
+          B: "A lob"
+          C: "A break"
+          D: "An ace"
+    difficulty: EASY
+
+  - text: "Quel joueur est surnommé « le Roi de la terre battue » ?"
+    answers:
+      A: "Roger Federer"
+      B: "Rafael Nadal"
+      C: "Andy Murray"
+      D: "Novak Djokovic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player is nicknamed 'the King of Clay'?"
+        answers:
+          A: "Roger Federer"
+          B: "Rafael Nadal"
+          C: "Andy Murray"
+          D: "Novak Djokovic"
+    difficulty: EASY
+
+  - text: "Combien de sets maximum peut durer un match féminin en Grand Chelem ?"
+    answers:
+      A: "2"
+      B: "4"
+      C: "5"
+      D: "3"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum number of sets a women's Grand Slam match can last?"
+        answers:
+          A: "2"
+          B: "4"
+          C: "5"
+          D: "3"
+    difficulty: EASY
+
+  - text: "Que se passe-t-il lorsque la balle touche la ligne du court ?"
+    answers:
+      A: "La balle est bonne"
+      B: "La balle est faute"
+      C: "Le point est rejoué"
+      D: "L'arbitre annonce un let"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What happens when the ball touches the court line?"
+        answers:
+          A: "The ball is in"
+          B: "The ball is out"
+          C: "The point is replayed"
+          D: "The umpire calls a let"
+    difficulty: EASY
+
+  - text: "Combien de sets faut-il remporter pour gagner un match masculin en Grand Chelem ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "2"
+      D: "5"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many sets must be won to win a men's Grand Slam match?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "2"
+          D: "5"
+    difficulty: MEDIUM
+
+  - text: "En combien de points se joue un tie-break classique ?"
+    answers:
+      A: "7"
+      B: "5"
+      C: "10"
+      D: "11"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many points are played in a classic tie-break?"
+        answers:
+          A: "7"
+          B: "5"
+          C: "10"
+          D: "11"
+    difficulty: MEDIUM
+
+  - text: "Combien de titres à Roland-Garros Rafael Nadal a-t-il remportés ?"
+    answers:
+      A: "10"
+      B: "12"
+      C: "14"
+      D: "16"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many Roland-Garros titles has Rafael Nadal won?"
+        answers:
+          A: "10"
+          B: "12"
+          C: "14"
+          D: "16"
+    difficulty: MEDIUM
+
+  - text: "Comment appelle-t-on le fait de gagner le jeu de service de l'adversaire ?"
+    answers:
+      A: "Un ace"
+      B: "Un break"
+      C: "Un let"
+      D: "Un passing"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is it called when you win the opponent's service game?"
+        answers:
+          A: "An ace"
+          B: "A break"
+          C: "A let"
+          D: "A passing shot"
+    difficulty: MEDIUM
+
+  - text: "Qu'est-ce qu'un « let » au tennis ?"
+    answers:
+      A: "Une faute de pied au service"
+      B: "Une balle qui sort des limites du court"
+      C: "Un coup frappé sans que la balle touche le sol"
+      D: "Un service qui touche le filet puis retombe dans le carré de service"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is a \"let\" in tennis?"
+        answers:
+          A: "A foot fault on the serve"
+          B: "A ball that goes out of the court's boundaries"
+          C: "A shot hit before the ball touches the ground"
+          D: "A serve that hits the net and then lands in the service box"
+    difficulty: MEDIUM
+
+  - text: "À 40-40 dans un jeu, comment appelle-t-on cette situation ?"
+    answers:
+      A: "Une égalité"
+      B: "Un avantage"
+      C: "Un set point"
+      D: "Un tie-break"
+    correctAnswer: A
+    translations:
+      en:
+        text: "At 40-40 in a game, what is this situation called?"
+        answers:
+          A: "A deuce"
+          B: "An advantage"
+          C: "A set point"
+          D: "A tie-break"
+    difficulty: MEDIUM
+
+  - text: "Combien de fois Roger Federer a-t-il remporté Wimbledon en simple messieurs ?"
+    answers:
+      A: "8"
+      B: "7"
+      C: "6"
+      D: "9"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many times has Roger Federer won Wimbledon in men's singles?"
+        answers:
+          A: "8"
+          B: "7"
+          C: "6"
+          D: "9"
+    difficulty: MEDIUM
+
+  - text: "Quel tournoi du Grand Chelem se joue à New York ?"
+    answers:
+      A: "Wimbledon"
+      B: "L'US Open"
+      C: "Roland-Garros"
+      D: "L'Open d'Australie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Grand Slam tournament is played in New York?"
+        answers:
+          A: "Wimbledon"
+          B: "The US Open"
+          C: "Roland-Garros"
+          D: "The Australian Open"
+    difficulty: MEDIUM
+
+  - text: "Quelle surface est utilisée à l'US Open ?"
+    answers:
+      A: "Gazon"
+      B: "Terre battue"
+      C: "Dur"
+      D: "Moquette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What surface is used at the US Open?"
+        answers:
+          A: "Grass"
+          B: "Clay"
+          C: "Hard"
+          D: "Carpet"
+    difficulty: MEDIUM
+
+  - text: "Qui détient le record de titres en simple dames en Grand Chelem depuis le début de l'ère Open ?"
+    answers:
+      A: "Chris Evert"
+      B: "Steffi Graf"
+      C: "Martina Navratilova"
+      D: "Serena Williams"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who holds the record for Grand Slam women's singles titles since the start of the Open Era?"
+        answers:
+          A: "Chris Evert"
+          B: "Steffi Graf"
+          C: "Martina Navratilova"
+          D: "Serena Williams"
+    difficulty: MEDIUM
+
+  - text: "Comment appelle-t-on un coup frappé avant que la balle ne touche le sol ?"
+    answers:
+      A: "Un lob"
+      B: "Une volée"
+      C: "Un slice"
+      D: "Un smash"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is a shot hit before the ball touches the ground called?"
+        answers:
+          A: "A lob"
+          B: "A volley"
+          C: "A slice"
+          D: "A smash"
+    difficulty: MEDIUM
+
+  - text: "Que signifie « balle de break » ?"
+    answers:
+      A: "Une balle de match"
+      B: "Un service gagnant"
+      C: "Une balle de set"
+      D: "Une occasion de gagner le jeu de service adverse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does \"break point\" mean?"
+        answers:
+          A: "A match point"
+          B: "A winning serve"
+          C: "A set point"
+          D: "A chance to win the opponent's service game"
+    difficulty: MEDIUM
+
+  - text: "En quelle année le tie-break a-t-il été introduit à Wimbledon ?"
+    answers:
+      A: "1968"
+      B: "1975"
+      C: "1971"
+      D: "1979"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the tie-break introduced at Wimbledon?"
+        answers:
+          A: "1968"
+          B: "1975"
+          C: "1971"
+          D: "1979"
+    difficulty: HARD
+
+  - text: "Qui détient le record de titres en simple messieurs à Wimbledon ?"
+    answers:
+      A: "Björn Borg"
+      B: "Pete Sampras"
+      C: "Novak Djokovic"
+      D: "Roger Federer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who holds the record for men's singles titles at Wimbledon?"
+        answers:
+          A: "Björn Borg"
+          B: "Pete Sampras"
+          C: "Novak Djokovic"
+          D: "Roger Federer"
+    difficulty: HARD
+
+  - text: "Quel joueur a réalisé le Grand Chelem calendaire en 1969 ?"
+    answers:
+      A: "Arthur Ashe"
+      B: "Ken Rosewall"
+      C: "John Newcombe"
+      D: "Rod Laver"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player achieved the calendar Grand Slam in 1969?"
+        answers:
+          A: "Arthur Ashe"
+          B: "Ken Rosewall"
+          C: "John Newcombe"
+          D: "Rod Laver"
+    difficulty: HARD
+
+  - text: "Combien de temps a duré le match Isner-Mahut à Wimbledon en 2010 ?"
+    answers:
+      A: "6h30"
+      B: "11h05"
+      C: "8h15"
+      D: "14h20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long did the Isner-Mahut match at Wimbledon in 2010 last?"
+        answers:
+          A: "6h30"
+          B: "11h05"
+          C: "8h15"
+          D: "14h20"
+    difficulty: HARD
+
+  - text: "Comment s'appelle le court principal de Wimbledon ?"
+    answers:
+      A: "Court Philippe-Chatrier"
+      B: "Centre Court"
+      C: "Arthur Ashe Stadium"
+      D: "Rod Laver Arena"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the main court at Wimbledon called?"
+        answers:
+          A: "Court Philippe-Chatrier"
+          B: "Centre Court"
+          C: "Arthur Ashe Stadium"
+          D: "Rod Laver Arena"
+    difficulty: HARD
+
+  - text: "Combien de titres à Roland-Garros Björn Borg a-t-il remportés ?"
+    answers:
+      A: "4"
+      B: "6"
+      C: "7"
+      D: "5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many Roland-Garros titles did Björn Borg win?"
+        answers:
+          A: "4"
+          B: "6"
+          C: "7"
+          D: "5"
+    difficulty: HARD
+
+  - text: "Qui a battu Serena Williams en finale de l'US Open 2018 ?"
+    answers:
+      A: "Simona Halep"
+      B: "Naomi Osaka"
+      C: "Angelique Kerber"
+      D: "Bianca Andreescu"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who beat Serena Williams in the 2018 US Open final?"
+        answers:
+          A: "Simona Halep"
+          B: "Naomi Osaka"
+          C: "Angelique Kerber"
+          D: "Bianca Andreescu"
+    difficulty: HARD
+
+  - text: "Quel joueur est le plus jeune vainqueur d'un tournoi du Grand Chelem en simple messieurs ?"
+    answers:
+      A: "Boris Becker"
+      B: "Mats Wilander"
+      C: "Michael Chang"
+      D: "Pete Sampras"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is the youngest winner of a Grand Slam men's singles title?"
+        answers:
+          A: "Boris Becker"
+          B: "Mats Wilander"
+          C: "Michael Chang"
+          D: "Pete Sampras"
+    difficulty: HARD
+
+  - text: "Quel pays a remporté le plus de fois la Coupe Davis ?"
+    answers:
+      A: "Australie"
+      B: "Suède"
+      C: "États-Unis"
+      D: "Espagne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country has won the Davis Cup the most times?"
+        answers:
+          A: "Australia"
+          B: "Sweden"
+          C: "United States"
+          D: "Spain"
+    difficulty: HARD
+
+  - text: "Combien de titres du Grand Chelem en simple dames Steffi Graf a-t-elle remportés ?"
+    answers:
+      A: "18"
+      B: "22"
+      C: "24"
+      D: "20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many Grand Slam women's singles titles did Steffi Graf win?"
+        answers:
+          A: "18"
+          B: "22"
+          C: "24"
+          D: "20"
+    difficulty: HARD
+
+  - text: "Quel joueur a remporté Roland-Garros en 1997 alors qu'il n'était pas tête de série ?"
+    answers:
+      A: "Albert Costa"
+      B: "Sergi Bruguera"
+      C: "Carlos Moya"
+      D: "Gustavo Kuerten"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won Roland-Garros in 1997 despite not being seeded?"
+        answers:
+          A: "Albert Costa"
+          B: "Sergi Bruguera"
+          C: "Carlos Moya"
+          D: "Gustavo Kuerten"
+    difficulty: HARD
+
+  - text: "En quelle année le dernier Grand Chelem calendaire féminin a-t-il été réalisé ?"
+    answers:
+      A: "1970"
+      B: "1983"
+      C: "1997"
+      D: "1988"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the last women's calendar-year Grand Slam achieved?"
+        answers:
+          A: "1970"
+          B: "1983"
+          C: "1997"
+          D: "1988"
+    difficulty: HARD
+
+  - text: "Quel joueur a remporté cinq titres consécutifs à l'US Open de 2004 à 2008 ?"
+    answers:
+      A: "Andy Roddick"
+      B: "Roger Federer"
+      C: "Rafael Nadal"
+      D: "Novak Djokovic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which player won five consecutive US Open titles from 2004 to 2008?"
+        answers:
+          A: "Andy Roddick"
+          B: "Roger Federer"
+          C: "Rafael Nadal"
+          D: "Novak Djokovic"
+    difficulty: HARD
+
+  - text: "En quelle année le tennis a-t-il fait son retour officiel au programme des Jeux olympiques ?"
+    answers:
+      A: "1980"
+      B: "1984"
+      C: "1988"
+      D: "1992"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did tennis officially return to the Olympic program?"
+        answers:
+          A: "1980"
+          B: "1984"
+          C: "1988"
+          D: "1992"
+    difficulty: EXPERT
+
+  - text: "Qui a remporté le premier tournoi de Wimbledon en 1877 ?"
+    answers:
+      A: "William Renshaw"
+      B: "Spencer Gore"
+      C: "Frank Hadow"
+      D: "John Hartley"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the first Wimbledon tournament in 1877?"
+        answers:
+          A: "William Renshaw"
+          B: "Spencer Gore"
+          C: "Frank Hadow"
+          D: "John Hartley"
+    difficulty: EXPERT
+
+  - text: "Combien de titres consécutifs à Wimbledon Björn Borg a-t-il remportés ?"
+    answers:
+      A: "3"
+      B: "6"
+      C: "4"
+      D: "5"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many consecutive Wimbledon titles did Björn Borg win?"
+        answers:
+          A: "3"
+          B: "6"
+          C: "4"
+          D: "5"
+    difficulty: EXPERT
+
+  - text: "Quel joueur a battu Pete Sampras en finale de l'US Open 2001 ?"
+    answers:
+      A: "Lleyton Hewitt"
+      B: "Marat Safin"
+      C: "Andy Roddick"
+      D: "Juan Carlos Ferrero"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player beat Pete Sampras in the 2001 US Open final?"
+        answers:
+          A: "Lleyton Hewitt"
+          B: "Marat Safin"
+          C: "Andy Roddick"
+          D: "Juan Carlos Ferrero"
+    difficulty: EXPERT
+
+  - text: "Quelle joueuse a réalisé le Grand Chelem calendaire en 1970 ?"
+    answers:
+      A: "Margaret Court"
+      B: "Chris Evert"
+      C: "Evonne Goolagong"
+      D: "Billie Jean King"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player achieved the calendar-year Grand Slam in 1970?"
+        answers:
+          A: "Margaret Court"
+          B: "Chris Evert"
+          C: "Evonne Goolagong"
+          D: "Billie Jean King"
+    difficulty: EXPERT
+
+  - text: "Quel joueur est crédité du service le plus rapide de l'histoire, mesuré à 263 km/h ?"
+    answers:
+      A: "Andy Roddick"
+      B: "John Isner"
+      C: "Ivo Karlovic"
+      D: "Samuel Groth"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player is credited with the fastest serve in history, measured at 263 km/h?"
+        answers:
+          A: "Andy Roddick"
+          B: "John Isner"
+          C: "Ivo Karlovic"
+          D: "Samuel Groth"
+    difficulty: EXPERT
+
+  - text: "En quelle année Wimbledon a-t-il instauré l'égalité des gains entre hommes et femmes ?"
+    answers:
+      A: "1999"
+      B: "2002"
+      C: "2007"
+      D: "2010"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did Wimbledon introduce equal prize money for men and women?"
+        answers:
+          A: "1999"
+          B: "2002"
+          C: "2007"
+          D: "2010"
+    difficulty: EXPERT
+
+  - text: "Combien de titres du Grand Chelem en simple Jimmy Connors a-t-il remportés ?"
+    answers:
+      A: "8"
+      B: "7"
+      C: "6"
+      D: "9"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many Grand Slam singles titles did Jimmy Connors win?"
+        answers:
+          A: "8"
+          B: "7"
+          C: "6"
+          D: "9"
+    difficulty: EXPERT
+
+  - text: "Quel joueur a remporté l'Open d'Australie 2008 en battant Jo-Wilfried Tsonga en finale ?"
+    answers:
+      A: "Roger Federer"
+      B: "Rafael Nadal"
+      C: "Marat Safin"
+      D: "Novak Djokovic"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the 2008 Australian Open by beating Jo-Wilfried Tsonga in the final?"
+        answers:
+          A: "Roger Federer"
+          B: "Rafael Nadal"
+          C: "Marat Safin"
+          D: "Novak Djokovic"
+    difficulty: EXPERT
+
+  - text: "En quelle année l'Open d'Australie a-t-il introduit le tie-break en dix points dans le set décisif ?"
+    answers:
+      A: "2017"
+      B: "2015"
+      C: "2019"
+      D: "2021"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Australian Open introduce the 10-point tie-break in the deciding set?"
+        answers:
+          A: "2017"
+          B: "2015"
+          C: "2019"
+          D: "2021"
+    difficulty: EXPERT
+
+  - text: "Qui a réalisé le Golden Slam en 1988, remportant les quatre Grands Chelems et l'or olympique ?"
+    answers:
+      A: "Martina Navratilova"
+      B: "Chris Evert"
+      C: "Steffi Graf"
+      D: "Monica Seles"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who achieved the Golden Slam in 1988, winning all four Grand Slams and Olympic gold?"
+        answers:
+          A: "Martina Navratilova"
+          B: "Chris Evert"
+          C: "Steffi Graf"
+          D: "Monica Seles"
+    difficulty: EXPERT
+
+  - text: "Combien de titres du Grand Chelem en simple Ivan Lendl a-t-il remportés ?"
+    answers:
+      A: "6"
+      B: "7"
+      C: "9"
+      D: "8"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many Grand Slam singles titles did Ivan Lendl win?"
+        answers:
+          A: "6"
+          B: "7"
+          C: "9"
+          D: "8"
+    difficulty: EXPERT
+  - text: "Combien de points faut-il marquer pour remporter un jeu si l'adversaire ne marque aucun point ?"
+    answers:
+      A: "3"
+      B: "4"
+      C: "5"
+      D: "6"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many points must you score to win a game if the opponent scores no points?"
+        answers:
+          A: "3"
+          B: "4"
+          C: "5"
+          D: "6"
+    difficulty: EASY
+  - text: "Quel tournoi du Grand Chelem clôt traditionnellement la saison de tennis ?"
+    answers:
+      A: "L'Open d'Australie"
+      B: "Roland-Garros"
+      C: "L'US Open"
+      D: "Wimbledon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Grand Slam tournament traditionally closes the tennis season?"
+        answers:
+          A: "Australian Open"
+          B: "Roland-Garros"
+          C: "US Open"
+          D: "Wimbledon"
+    difficulty: EASY
+  - text: "Combien de joueurs composent une équipe en double ?"
+    answers:
+      A: "1"
+      B: "2"
+      C: "3"
+      D: "4"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many players make up a doubles team?"
+        answers:
+          A: "1"
+          B: "2"
+          C: "3"
+          D: "4"
+    difficulty: EASY
+  - text: "Dans quel pays se déroule l'US Open ?"
+    answers:
+      A: "Canada"
+      B: "Australie"
+      C: "Royaume-Uni"
+      D: "États-Unis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which country is the US Open held?"
+        answers:
+          A: "Canada"
+          B: "Australia"
+          C: "United Kingdom"
+          D: "United States"
+    difficulty: EASY
+  - text: "Dans quelle ville se joue le tournoi de Roland-Garros ?"
+    answers:
+      A: "Lyon"
+      B: "Paris"
+      C: "Bordeaux"
+      D: "Marseille"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the Roland-Garros tournament played?"
+        answers:
+          A: "Lyon"
+          B: "Paris"
+          C: "Bordeaux"
+          D: "Marseille"
+    difficulty: EASY
+  - text: "Quel tournoi du Grand Chelem ouvre la saison en janvier ?"
+    answers:
+      A: "Open d'Australie"
+      B: "Roland-Garros"
+      C: "Wimbledon"
+      D: "US Open"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Grand Slam tournament opens the season in January?"
+        answers:
+          A: "Australian Open"
+          B: "Roland-Garros"
+          C: "Wimbledon"
+          D: "US Open"
+    difficulty: EASY
+  - text: "Dans quelle ville se déroule l'Open d'Australie ?"
+    answers:
+      A: "Melbourne"
+      B: "Canberra"
+      C: "Sydney"
+      D: "Perth"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is the Australian Open held?"
+        answers:
+          A: "Melbourne"
+          B: "Canberra"
+          C: "Sydney"
+          D: "Perth"
+    difficulty: EASY
+  - text: "Quelle joueuse américaine a remporté 23 titres du Grand Chelem en simple ?"
+    answers:
+      A: "Venus Williams"
+      B: "Serena Williams"
+      C: "Lindsay Davenport"
+      D: "Jennifer Capriati"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which American player won 23 Grand Slam singles titles?"
+        answers:
+          A: "Venus Williams"
+          B: "Serena Williams"
+          C: "Lindsay Davenport"
+          D: "Jennifer Capriati"
+    difficulty: EASY
+  - text: "De quelle couleur sont traditionnellement les balles de tennis ?"
+    answers:
+      A: "Jaunes"
+      B: "Oranges"
+      C: "Rouges"
+      D: "Blanches"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What color are tennis balls traditionally?"
+        answers:
+          A: "Yellow"
+          B: "Orange"
+          C: "Red"
+          D: "White"
+    difficulty: EASY
+  - text: "Dans le décompte des points d'un jeu, quel score vient après « trente » ?"
+    answers:
+      A: "Cinquante"
+      B: "Quarante"
+      C: "Soixante"
+      D: "Jeu"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In scoring a game, what score comes after \"thirty\"?"
+        answers:
+          A: "Fifty"
+          B: "Forty"
+          C: "Sixty"
+          D: "Game"
+    difficulty: EASY
+  - text: "Comment appelle-t-on la partie d'un match de tennis qui se joue en six jeux ?"
+    answers:
+      A: "Un set"
+      B: "Un jeu"
+      C: "Un point"
+      D: "Un tie-break"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the part of a tennis match that is played over six games called?"
+        answers:
+          A: "A set"
+          B: "A game"
+          C: "A point"
+          D: "A tie-break"
+    difficulty: EASY
+  - text: "Quelle couleur de tenue est traditionnellement exigée à Wimbledon ?"
+    answers:
+      A: "Noir"
+      B: "Bleu"
+      C: "Blanc"
+      D: "Vert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What color of attire is traditionally required at Wimbledon?"
+        answers:
+          A: "Black"
+          B: "Blue"
+          C: "White"
+          D: "Green"
+    difficulty: EASY
+  - text: "Quel tournoi sur gazon se joue à Londres avant Wimbledon ?"
+    answers:
+      A: "Le tournoi de Rome"
+      B: "Le Masters de Miami"
+      C: "Le tournoi de Monte-Carlo"
+      D: "Le tournoi du Queen's"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which grass-court tournament is played in London before Wimbledon?"
+        answers:
+          A: "The Rome tournament"
+          B: "The Miami Masters"
+          C: "The Monte-Carlo tournament"
+          D: "The Queen's Club tournament"
+    difficulty: MEDIUM
+  - text: "Que désigne une « tête de série » dans un tournoi ?"
+    answers:
+      A: "Le vainqueur sortant"
+      B: "Un joueur invité par les organisateurs"
+      C: "Un joueur classé et protégé lors du tirage"
+      D: "L'arbitre principal"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does a 'seed' refer to in a tournament?"
+        answers:
+          A: "The defending champion"
+          B: "A player invited by the organizers"
+          C: "A ranked player protected in the draw"
+          D: "The main umpire"
+    difficulty: MEDIUM
+  - text: "Quelle surface accueille la majorité des tournois du circuit professionnel ?"
+    answers:
+      A: "Le gazon"
+      B: "Le dur"
+      C: "La terre battue"
+      D: "La moquette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which surface hosts the majority of tournaments on the professional circuit?"
+        answers:
+          A: "Grass"
+          B: "Hard"
+          C: "Clay"
+          D: "Carpet"
+    difficulty: MEDIUM
+  - text: "Quel joueur français a remporté Roland-Garros en 1983 ?"
+    answers:
+      A: "Henri Leconte"
+      B: "Cédric Pioline"
+      C: "Yannick Noah"
+      D: "Guy Forget"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French player won Roland-Garros in 1983?"
+        answers:
+          A: "Henri Leconte"
+          B: "Cédric Pioline"
+          C: "Yannick Noah"
+          D: "Guy Forget"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse belge a remporté sept titres du Grand Chelem en simple ?"
+    answers:
+      A: "Kim Clijsters"
+      B: "Kirsten Flipkens"
+      C: "Justine Henin"
+      D: "Yanina Wickmayer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Belgian player won seven Grand Slam singles titles?"
+        answers:
+          A: "Kim Clijsters"
+          B: "Kirsten Flipkens"
+          C: "Justine Henin"
+          D: "Yanina Wickmayer"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse australienne a remporté Wimbledon en 1980 en tant que mère de famille ?"
+    answers:
+      A: "Margaret Court"
+      B: "Jelena Dokic"
+      C: "Evonne Goolagong Cawley"
+      D: "Ashleigh Barty"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Australian player won Wimbledon in 1980 as a mother?"
+        answers:
+          A: "Margaret Court"
+          B: "Jelena Dokic"
+          C: "Evonne Goolagong Cawley"
+          D: "Ashleigh Barty"
+    difficulty: MEDIUM
+  - text: "À quoi sert le système Hawk-Eye au tennis ?"
+    answers:
+      A: "À mesurer la vitesse du service"
+      B: "À filmer les ralentis"
+      C: "À chronométrer les pauses"
+      D: "À vérifier si la balle est tombée dans le court"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the Hawk-Eye system used for in tennis?"
+        answers:
+          A: "To measure serve speed"
+          B: "To film slow motion"
+          C: "To time breaks"
+          D: "To check if the ball landed in the court"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse française a remporté Wimbledon en 2006 ?"
+    answers:
+      A: "Mary Pierce"
+      B: "Amélie Mauresmo"
+      C: "Marion Bartoli"
+      D: "Nathalie Tauziat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French player won Wimbledon in 2006?"
+        answers:
+          A: "Mary Pierce"
+          B: "Amélie Mauresmo"
+          C: "Marion Bartoli"
+          D: "Nathalie Tauziat"
+    difficulty: MEDIUM
+  - text: "Quelle joueuse détient le record de titres à Roland-Garros dans l'ère Open ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Serena Williams"
+      C: "Justine Henin"
+      D: "Chris Evert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player holds the record for titles at Roland-Garros in the Open era?"
+        answers:
+          A: "Steffi Graf"
+          B: "Serena Williams"
+          C: "Justine Henin"
+          D: "Chris Evert"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on le tournoi de fin d'année qui réunit les meilleurs joueurs ?"
+    answers:
+      A: "Le Masters"
+      B: "La Hopman Cup"
+      C: "La Coupe Davis"
+      D: "La Fed Cup"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the year-end tournament that brings together the best players called?"
+        answers:
+          A: "The Masters"
+          B: "The Hopman Cup"
+          C: "The Davis Cup"
+          D: "The Fed Cup"
+    difficulty: MEDIUM
+  - text: "Qu'appelle-t-on un « smash » au tennis ?"
+    answers:
+      A: "Un service raté"
+      B: "Un coup entre les jambes"
+      C: "Un coup frappé fort au-dessus de la tête"
+      D: "Une balle qui touche le filet"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is a 'smash' in tennis?"
+        answers:
+          A: "A missed serve"
+          B: "A shot between the legs"
+          C: "A hard shot hit above the head"
+          D: "A ball that touches the net"
+    difficulty: MEDIUM
+  - text: "Quelle surface de court est généralement considérée comme la plus lente ?"
+    answers:
+      A: "Le gazon"
+      B: "Le dur"
+      C: "La terre battue"
+      D: "La moquette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which court surface is generally considered the slowest?"
+        answers:
+          A: "Grass"
+          B: "Hard"
+          C: "Clay"
+          D: "Carpet"
+    difficulty: MEDIUM
+  - text: "Quel événement de 1973 a opposé Billie Jean King à Bobby Riggs ?"
+    answers:
+      A: "Le Choc des générations"
+      B: "Le Duel des légendes"
+      C: "La Guerre des raquettes"
+      D: "La Bataille des sexes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1973 event pitted Billie Jean King against Bobby Riggs?"
+        answers:
+          A: "The Clash of Generations"
+          B: "The Duel of Legends"
+          C: "The War of the Rackets"
+          D: "The Battle of the Sexes"
+    difficulty: MEDIUM
+  - text: "En quelle année le tournoi de Roland-Garros s'est-il installé dans le stade qui porte son nom ?"
+    answers:
+      A: "1928"
+      B: "1925"
+      C: "1912"
+      D: "1931"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Roland-Garros tournament move to the stadium that bears its name?"
+        answers:
+          A: "1928"
+          B: "1925"
+          C: "1912"
+          D: "1931"
+    difficulty: HARD
+  - text: "Quel joueur détient le record de titres masculins à l'Open d'Australie ?"
+    answers:
+      A: "Novak Djokovic"
+      B: "Roger Federer"
+      C: "Roy Emerson"
+      D: "Andre Agassi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which player holds the record for most men's singles titles at the Australian Open?"
+        answers:
+          A: "Novak Djokovic"
+          B: "Roger Federer"
+          C: "Roy Emerson"
+          D: "Andre Agassi"
+    difficulty: HARD
+  - text: "Qui fut le premier joueur noir à remporter le tournoi de Wimbledon ?"
+    answers:
+      A: "Arthur Ashe"
+      B: "Yannick Noah"
+      C: "MaliVai Washington"
+      D: "James Blake"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first Black player to win the Wimbledon tournament?"
+        answers:
+          A: "Arthur Ashe"
+          B: "Yannick Noah"
+          C: "MaliVai Washington"
+          D: "James Blake"
+    difficulty: HARD
+  - text: "Quel joueur a remporté l'US Open sur les trois surfaces du tournoi (gazon, terre battue et dur) ?"
+    answers:
+      A: "Pete Sampras"
+      B: "John McEnroe"
+      C: "Ivan Lendl"
+      D: "Jimmy Connors"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player won the US Open on all three tournament surfaces (grass, clay, and hard)?"
+        answers:
+          A: "Pete Sampras"
+          B: "John McEnroe"
+          C: "Ivan Lendl"
+          D: "Jimmy Connors"
+    difficulty: HARD
+  - text: "Comment s'appelle le trophée remis au vainqueur masculin de Roland-Garros ?"
+    answers:
+      A: "La Coupe des Mousquetaires"
+      B: "La Coupe Davis"
+      C: "Le Trophée des As"
+      D: "Le Trophée Suzanne-Lenglen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the trophy awarded to the men's singles winner at Roland-Garros?"
+        answers:
+          A: "The Coupe des Mousquetaires"
+          B: "The Davis Cup"
+          C: "The Trophée des As"
+          D: "The Suzanne-Lenglen Trophy"
+    difficulty: HARD
+  - text: "Quelle est la hauteur réglementaire du filet à son point le plus bas, au centre ?"
+    answers:
+      A: "0,614 m"
+      B: "1,22 m"
+      C: "1,07 m"
+      D: "0,914 m"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the regulation height of the net at its lowest point, in the center?"
+        answers:
+          A: "0.614 m"
+          B: "1.22 m"
+          C: "1.07 m"
+          D: "0.914 m"
+    difficulty: HARD
+  - text: "Quelle est la longueur d'un court de tennis en simple, d'une ligne de fond à l'autre ?"
+    answers:
+      A: "21,77 m"
+      B: "23,77 m"
+      C: "22,77 m"
+      D: "24,77 m"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the length of a singles tennis court, from baseline to baseline?"
+        answers:
+          A: "21.77 m"
+          B: "23.77 m"
+          C: "22.77 m"
+          D: "24.77 m"
+    difficulty: HARD
+  - text: "Quel tournoi du Grand Chelem a été le premier à instaurer l'égalité des gains entre hommes et femmes ?"
+    answers:
+      A: "Roland-Garros"
+      B: "Wimbledon"
+      C: "L'US Open"
+      D: "L'Open d'Australie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Grand Slam tournament was the first to introduce equal prize money for men and women?"
+        answers:
+          A: "Roland-Garros"
+          B: "Wimbledon"
+          C: "The US Open"
+          D: "The Australian Open"
+    difficulty: HARD
+  - text: "En quelle année la WTA, l'association des joueuses professionnelles, a-t-elle été fondée ?"
+    answers:
+      A: "1968"
+      B: "1981"
+      C: "1977"
+      D: "1973"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the WTA, the association of professional female players, founded?"
+        answers:
+          A: "1968"
+          B: "1981"
+          C: "1977"
+          D: "1973"
+    difficulty: HARD
+  - text: "Qui détient le record de titres féminins en simple à Wimbledon ?"
+    answers:
+      A: "Steffi Graf"
+      B: "Martina Navratilova"
+      C: "Suzanne Lenglen"
+      D: "Serena Williams"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who holds the record for most women's singles titles at Wimbledon?"
+        answers:
+          A: "Steffi Graf"
+          B: "Martina Navratilova"
+          C: "Suzanne Lenglen"
+          D: "Serena Williams"
+    difficulty: HARD
+  - text: "Pour quelle raison le tournoi de Wimbledon 2020 n'a-t-il pas eu lieu ?"
+    answers:
+      A: "À cause d'un incendie"
+      B: "À cause d'une tempête"
+      C: "À cause de la pandémie de COVID-19"
+      D: "À cause d'un conflit social"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Why did the 2020 Wimbledon tournament not take place?"
+        answers:
+          A: "Due to a fire"
+          B: "Due to a storm"
+          C: "Due to the COVID-19 pandemic"
+          D: "Due to a labor dispute"
+    difficulty: HARD
+  - text: "Quel joueur a mis fin à l'invincibilité de Rafael Nadal à Roland-Garros en 2009 ?"
+    answers:
+      A: "Roger Federer"
+      B: "Novak Djokovic"
+      C: "Robin Söderling"
+      D: "Juan Martín del Potro"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which player ended Rafael Nadal's unbeaten run at Roland-Garros in 2009?"
+        answers:
+          A: "Roger Federer"
+          B: "Novak Djokovic"
+          C: "Robin Söderling"
+          D: "Juan Martín del Potro"
+    difficulty: HARD
+  - text: "Qui fut la première joueuse à réaliser le Grand Chelem calendaire en 1953 ?"
+    answers:
+      A: "Margaret Osborne duPont"
+      B: "Doris Hart"
+      C: "Louise Brough"
+      D: "Maureen Connolly"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first female player to achieve the calendar-year Grand Slam in 1953?"
+        answers:
+          A: "Margaret Osborne duPont"
+          B: "Doris Hart"
+          C: "Louise Brough"
+          D: "Maureen Connolly"
+    difficulty: EXPERT
+  - text: "Quel joueur a réalisé le Grand Chelem calendaire en 1938 ?"
+    answers:
+      A: "Fred Perry"
+      B: "Bobby Riggs"
+      C: "Jack Kramer"
+      D: "Don Budge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which player achieved the calendar-year Grand Slam in 1938?"
+        answers:
+          A: "Fred Perry"
+          B: "Bobby Riggs"
+          C: "Jack Kramer"
+          D: "Don Budge"
+    difficulty: EXPERT
+  - text: "Qui a remporté le premier tournoi du Grand Chelem de l'ère Open en 1968 ?"
+    answers:
+      A: "Rod Laver"
+      B: "Ken Rosewall"
+      C: "Arthur Ashe"
+      D: "John Newcombe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the first Grand Slam tournament of the Open Era in 1968?"
+        answers:
+          A: "Rod Laver"
+          B: "Ken Rosewall"
+          C: "Arthur Ashe"
+          D: "John Newcombe"
+    difficulty: EXPERT
+  - text: "En quelle année le tournoi australien s'est-il installé à Melbourne Park ?"
+    answers:
+      A: "1988"
+      B: "1983"
+      C: "1993"
+      D: "1978"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did the Australian tournament move to Melbourne Park?"
+        answers:
+          A: "1988"
+          B: "1983"
+          C: "1993"
+          D: "1978"
+    difficulty: EXPERT
+  - text: "Quelle surface a accueilli l'Open d'Australie de 1988 à 2007 ?"
+    answers:
+      A: "Le Rebound Ace"
+      B: "La terre battue"
+      C: "Le gazon"
+      D: "Le Plexicushion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which surface hosted the Australian Open from 1988 to 2007?"
+        answers:
+          A: "Rebound Ace"
+          B: "Clay"
+          C: "Grass"
+          D: "Plexicushion"
+    difficulty: EXPERT
+  - text: "Quelle surface a accueilli l'US Open à partir de 1978 ?"
+    answers:
+      A: "Le DecoTurf"
+      B: "Le gazon"
+      C: "La terre battue"
+      D: "Le Rebound Ace"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which surface has hosted the US Open since 1978?"
+        answers:
+          A: "DecoTurf"
+          B: "Grass"
+          C: "Clay"
+          D: "Rebound Ace"
+    difficulty: EXPERT
+  - text: "De quoi est principalement composée la terre battue d'un court de tennis ?"
+    answers:
+      A: "De sable fin"
+      B: "De cendres volcaniques"
+      C: "De poudre de brique concassée"
+      D: "De terre végétale"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the clay of a tennis court mainly composed of?"
+        answers:
+          A: "Fine sand"
+          B: "Volcanic ash"
+          C: "Crushed brick powder"
+          D: "Topsoil"
+    difficulty: EXPERT
+  - text: "À quoi servait le système « Cyclops » utilisé à Wimbledon ?"
+    answers:
+      A: "À mesurer la vitesse de la balle"
+      B: "À compter les points"
+      C: "À détecter les fautes de pied au service"
+      D: "À filmer les ralentis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the \"Cyclops\" system used at Wimbledon for?"
+        answers:
+          A: "Measuring ball speed"
+          B: "Counting points"
+          C: "Detecting foot faults on serves"
+          D: "Filming slow motion replays"
+    difficulty: EXPERT
+  - text: "En quelle année le Hawk-Eye a-t-il été utilisé pour la première fois dans un tournoi du Grand Chelem ?"
+    answers:
+      A: "2000"
+      B: "2003"
+      C: "2009"
+      D: "2006"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was Hawk-Eye first used at a Grand Slam tournament?"
+        answers:
+          A: "2000"
+          B: "2003"
+          C: "2009"
+          D: "2006"
+    difficulty: EXPERT
+  - text: "En quelle année les Internationaux de France ont-ils été ouverts aux joueurs étrangers ?"
+    answers:
+      A: "1925"
+      B: "1919"
+      C: "1928"
+      D: "1932"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year were the French Championships opened to foreign players?"
+        answers:
+          A: "1925"
+          B: "1919"
+          C: "1928"
+          D: "1932"
+    difficulty: EXPERT
+  - text: "Quelle fut la particularité du tournoi de l'Open d'Australie en 1977 ?"
+    answers:
+      A: "Il a été joué deux fois dans l'année"
+      B: "Il s'est joué sur terre battue"
+      C: "Il s'est déroulé sans public"
+      D: "Il a été annulé"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was unique about the Australian Open tournament in 1977?"
+        answers:
+          A: "It was played twice in the year"
+          B: "It was played on clay"
+          C: "It was held without spectators"
+          D: "It was cancelled"
+    difficulty: EXPERT
+  - text: "Qui fut la première joueuse noire à remporter un tournoi du Grand Chelem en simple ?"
+    answers:
+      A: "Serena Williams"
+      B: "Althea Gibson"
+      C: "Zina Garrison"
+      D: "Venus Williams"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who was the first Black woman to win a Grand Slam singles tournament?"
+        answers:
+          A: "Serena Williams"
+          B: "Althea Gibson"
+          C: "Zina Garrison"
+          D: "Venus Williams"
+    difficulty: EXPERT
+  - text: "Qui a remporté le premier Roland-Garros de l'ère Open chez les femmes en 1968 ?"
+    answers:
+      A: "Margaret Court"
+      B: "Nancy Richey"
+      C: "Billie Jean King"
+      D: "Ann Jones"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who won the first Roland-Garros of the Open era in the women's singles in 1968?"
+        answers:
+          A: "Margaret Court"
+          B: "Nancy Richey"
+          C: "Billie Jean King"
+          D: "Ann Jones"
+    difficulty: EXPERT
