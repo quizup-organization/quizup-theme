@@ -1,0 +1,1509 @@
+topic:
+  id: topic-rome-antique
+  names:
+    fr: "Rome antique"
+    en: "Ancient Rome"
+  description: "De la fondation légendaire de 753 av. J.-C. à la chute de l'Empire d'Occident, ce thème retrace l'histoire de Rome : la louve et Romulus, les sept rois, la République et ses institutions, les grandes conquêtes, Jules César, les empereurs célèbres et les tournants majeurs de la civilisation romaine."
+  category: HISTORY
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Colosseum_of_Rome%2C_Italy.jpg?width=800
+questions:
+  - text: "Selon la tradition, en quelle année Rome a-t-elle été fondée ?"
+    answers:
+      A: "753 av. J.-C."
+      B: "509 av. J.-C."
+      C: "476 ap. J.-C."
+      D: "44 av. J.-C."
+    correctAnswer: A
+    translations:
+      en:
+        text: "According to tradition, in what year was Rome founded?"
+        answers:
+          A: "753 BC"
+          B: "509 BC"
+          C: "476 AD"
+          D: "44 BC"
+  - text: "Quels jumeaux légendaires sont à l'origine de Rome ?"
+    answers:
+      A: "Castor et Pollux"
+      B: "Romulus et Remus"
+      C: "Énée et Anchise"
+      D: "Titus et Domitien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which legendary twins are at the origin of Rome?"
+        answers:
+          A: "Castor and Pollux"
+          B: "Romulus and Remus"
+          C: "Aeneas and Anchises"
+          D: "Titus and Domitian"
+  - text: "Quel animal allaite les jumeaux fondateurs dans la légende ?"
+    answers:
+      A: "Une louve"
+      B: "Une ourse"
+      C: "Une chèvre"
+      D: "Une aigle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which animal suckles the founding twins in the legend?"
+        answers:
+          A: "A she-wolf"
+          B: "A bear"
+          C: "A goat"
+          D: "An eagle"
+  - text: "Quel dieu est le père des jumeaux fondateurs selon la légende ?"
+    answers:
+      A: "Jupiter"
+      B: "Neptune"
+      C: "Apollon"
+      D: "Mars"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which god is the father of the founding twins according to legend?"
+        answers:
+          A: "Jupiter"
+          B: "Neptune"
+          C: "Apollo"
+          D: "Mars"
+  - text: "Qui tua son frère lors de la fondation de Rome ?"
+    answers:
+      A: "Remus"
+      B: "Romulus"
+      C: "Numitor"
+      D: "Tarquin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who killed his brother at the founding of Rome?"
+        answers:
+          A: "Remus"
+          B: "Romulus"
+          C: "Numitor"
+          D: "Tarquin"
+  - text: "Quelle vestale est présentée comme la mère de Romulus et Remus ?"
+    answers:
+      A: "Lucrèce"
+      B: "Livie"
+      C: "Octavie"
+      D: "Rhéa Silvia"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Vestal Virgin is presented as the mother of Romulus and Remus?"
+        answers:
+          A: "Lucretia"
+          B: "Livia"
+          C: "Octavia"
+          D: "Rhea Silvia"
+  - text: "Combien de rois ont régné sur Rome selon la tradition ?"
+    answers:
+      A: "Cinq"
+      B: "Six"
+      C: "Sept"
+      D: "Huit"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many kings ruled Rome according to tradition?"
+        answers:
+          A: "Five"
+          B: "Six"
+          C: "Seven"
+          D: "Eight"
+  - text: "Quel roi fut le dernier de Rome ?"
+    answers:
+      A: "Servius Tullius"
+      B: "Numa Pompilius"
+      C: "Tullus Hostilius"
+      D: "Tarquin le Superbe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which king was the last of Rome?"
+        answers:
+          A: "Servius Tullius"
+          B: "Numa Pompilius"
+          C: "Tullus Hostilius"
+          D: "Tarquin the Proud"
+  - text: "Quel roi étrusque fut le premier à régner sur Rome ?"
+    answers:
+      A: "Tarquin l'Ancien"
+      B: "Tarquin le Superbe"
+      C: "Servius Tullius"
+      D: "Lars Porsenna"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Etruscan king was the first to rule Rome?"
+        answers:
+          A: "Tarquin the Elder"
+          B: "Tarquin the Proud"
+          C: "Servius Tullius"
+          D: "Lars Porsenna"
+  - text: "En quelle année la République romaine fut-elle instaurée ?"
+    answers:
+      A: "753 av. J.-C."
+      B: "146 av. J.-C."
+      C: "264 av. J.-C."
+      D: "509 av. J.-C."
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Roman Republic established?"
+        answers:
+          A: "753 BC"
+          B: "146 BC"
+          C: "264 BC"
+          D: "509 BC"
+  - text: "Quels magistrats détenaient le pouvoir exécutif suprême sous la République ?"
+    answers:
+      A: "Les consuls"
+      B: "Les censeurs"
+      C: "Les préteurs"
+      D: "Les questeurs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which magistrates held supreme executive power under the Republic?"
+        answers:
+          A: "The consuls"
+          B: "The censors"
+          C: "The praetors"
+          D: "The quaestors"
+  - text: "Combien de consuls étaient élus chaque année à Rome ?"
+    answers:
+      A: "Un seul"
+      B: "Trois"
+      C: "Quatre"
+      D: "Deux"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many consuls were elected each year in Rome?"
+        answers:
+          A: "Only one"
+          B: "Three"
+          C: "Four"
+          D: "Two"
+  - text: "Quelle était la durée du mandat des consuls ?"
+    answers:
+      A: "Un an"
+      B: "Six mois"
+      C: "Deux ans"
+      D: "Cinq ans"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the length of the consuls' term?"
+        answers:
+          A: "One year"
+          B: "Six months"
+          C: "Two years"
+          D: "Five years"
+  - text: "Quel magistrat défendait les intérêts de la plèbe ?"
+    answers:
+      A: "Le dictateur"
+      B: "Le consul"
+      C: "Le préteur"
+      D: "Le tribun de la plèbe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which magistrate defended the interests of the plebeians?"
+        answers:
+          A: "The dictator"
+          B: "The consul"
+          C: "The praetor"
+          D: "The tribune of the plebs"
+  - text: "Quel pouvoir les tribuns de la plèbe pouvaient-ils exercer contre les magistrats ?"
+    answers:
+      A: "Le cens"
+      B: "L'imperium"
+      C: "Le veto"
+      D: "Le triomphe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What power could the tribunes of the plebs exercise against magistrates?"
+        answers:
+          A: "The census"
+          B: "Imperium"
+          C: "The veto"
+          D: "The triumph"
+  - text: "Quelle assemblée regroupait les anciens magistrats et conseillait Rome ?"
+    answers:
+      A: "Les comices centuriates"
+      B: "L'assemblée plébéienne"
+      C: "Le consilium plebis"
+      D: "Le Sénat"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which assembly gathered former magistrates and advised Rome?"
+        answers:
+          A: "The Centuriate Assembly"
+          B: "The Plebeian Assembly"
+          C: "The consilium plebis"
+          D: "The Senate"
+  - text: "Quel peuple d'Italie a précédé et influencé les premiers Romains ?"
+    answers:
+      A: "Les Gaulois"
+      B: "Les Étrusques"
+      C: "Les Carthaginois"
+      D: "Les Samnites"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which people of Italy preceded and influenced the early Romans?"
+        answers:
+          A: "The Gauls"
+          B: "The Etruscans"
+          C: "The Carthaginians"
+          D: "The Samnites"
+  - text: "Dans quelle région d'Italie se trouve Rome ?"
+    answers:
+      A: "La Campanie"
+      B: "L'Ombrie"
+      C: "Le Latium"
+      D: "La Toscane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which region of Italy is Rome located?"
+        answers:
+          A: "Campania"
+          B: "Umbria"
+          C: "Latium"
+          D: "Tuscany"
+  - text: "Contre quelle cité Rome a-t-elle mené les guerres puniques ?"
+    answers:
+      A: "Carthage"
+      B: "Corinthe"
+      C: "Athènes"
+      D: "Numance"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Against which city did Rome fight the Punic Wars?"
+        answers:
+          A: "Carthage"
+          B: "Corinth"
+          C: "Athens"
+          D: "Numantia"
+  - text: "Quel général carthaginois a franchi les Alpes avec des éléphants ?"
+    answers:
+      A: "Hasdrubal"
+      B: "Hannibal"
+      C: "Magon"
+      D: "Hamilcar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Carthaginian general crossed the Alps with elephants?"
+        answers:
+          A: "Hasdrubal"
+          B: "Hannibal"
+          C: "Mago"
+          D: "Hamilcar"
+  - text: "Quel Romain a vaincu Hannibal à la bataille de Zama ?"
+    answers:
+      A: "Scipion Émilien"
+      B: "Scipion l'Africain"
+      C: "Marius"
+      D: "Sylla"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman defeated Hannibal at the Battle of Zama?"
+        answers:
+          A: "Scipio Aemilianus"
+          B: "Scipio Africanus"
+          C: "Marius"
+          D: "Sulla"
+  - text: "Combien de guerres puniques Rome a-t-elle livrées ?"
+    answers:
+      A: "Une"
+      B: "Deux"
+      C: "Trois"
+      D: "Quatre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many Punic Wars did Rome fight?"
+        answers:
+          A: "One"
+          B: "Two"
+          C: "Three"
+          D: "Four"
+  - text: "Quels deux hommes formaient le premier triumvirat avec Jules César ?"
+    answers:
+      A: "Octave et Lépide"
+      B: "Caton et Cicéron"
+      C: "Brutus et Cassius"
+      D: "Pompée et Crassus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which two men formed the First Triumvirate with Julius Caesar?"
+        answers:
+          A: "Octavian and Lepidus"
+          B: "Cato and Cicero"
+          C: "Brutus and Cassius"
+          D: "Pompey and Crassus"
+  - text: "Quel fleuve Jules César a-t-il franchi en 49 av. J.-C. ?"
+    answers:
+      A: "Le Tibre"
+      B: "Le Pô"
+      C: "Le Rubicon"
+      D: "Le Rhône"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which river did Julius Caesar cross in 49 BC?"
+        answers:
+          A: "The Tiber"
+          B: "The Po"
+          C: "The Rubicon"
+          D: "The Rhône"
+  - text: "En quelle année Jules César a-t-il été assassiné ?"
+    answers:
+      A: "44 av. J.-C."
+      B: "49 av. J.-C."
+      C: "31 av. J.-C."
+      D: "27 av. J.-C."
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was Julius Caesar assassinated?"
+        answers:
+          A: "44 BC"
+          B: "49 BC"
+          C: "31 BC"
+          D: "27 BC"
+  - text: "Où Jules César a-t-il été assassiné ?"
+    answers:
+      A: "Dans sa villa de Capri"
+      B: "Au forum, près du temple de Mars"
+      C: "Sur le champ de bataille de Pharsale"
+      D: "Au Sénat, dans la curie de Pompée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Where was Julius Caesar assassinated?"
+        answers:
+          A: "In his villa on Capri"
+          B: "In the forum, near the Temple of Mars"
+          C: "On the battlefield of Pharsalus"
+          D: "In the Senate, in Pompey's curia"
+  - text: "Quels trois hommes formaient le second triumvirat ?"
+    answers:
+      A: "Pompée, Crassus et César"
+      B: "Tibère, Drusus et Germanicus"
+      C: "Brutus, Cassius et Cicéron"
+      D: "Octave, Marc Antoine et Lépide"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which three men formed the Second Triumvirate?"
+        answers:
+          A: "Pompey, Crassus and Caesar"
+          B: "Tiberius, Drusus and Germanicus"
+          C: "Brutus, Cassius and Cicero"
+          D: "Octavian, Mark Antony and Lepidus"
+  - text: "Quelle bataille navale de 31 av. J.-C. a assuré le pouvoir à Octave ?"
+    answers:
+      A: "Nauloque"
+      B: "Actium"
+      C: "Zama"
+      D: "Cannes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which naval battle of 31 BC secured power for Octavian?"
+        answers:
+          A: "Naulochus"
+          B: "Actium"
+          C: "Zama"
+          D: "Cannae"
+  - text: "Qui a été vaincu à la bataille d'Actium ?"
+    answers:
+      A: "Pompée et Crassus"
+      B: "Lépide et Brutus"
+      C: "Cassius et Sextus Pompée"
+      D: "Marc Antoine et Cléopâtre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was defeated at the Battle of Actium?"
+        answers:
+          A: "Pompey and Crassus"
+          B: "Lepidus and Brutus"
+          C: "Cassius and Sextus Pompey"
+          D: "Mark Antony and Cleopatra"
+  - text: "Quel titre le Sénat a-t-il accordé à Octave en 27 av. J.-C. ?"
+    answers:
+      A: "Imperator"
+      B: "Auguste"
+      C: "Pontifex Maximus"
+      D: "Dictateur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What title did the Senate grant Octavian in 27 BC?"
+        answers:
+          A: "Imperator"
+          B: "Augustus"
+          C: "Pontifex Maximus"
+          D: "Dictator"
+  - text: "Qui est considéré comme le premier empereur romain ?"
+    answers:
+      A: "Auguste"
+      B: "Jules César"
+      C: "Tibère"
+      D: "Néron"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is considered the first Roman emperor?"
+        answers:
+          A: "Augustus"
+          B: "Julius Caesar"
+          C: "Tiberius"
+          D: "Nero"
+  - text: "Comment appelle-t-on la longue période de paix et de prospérité établie sous Auguste ?"
+    answers:
+      A: "La Res Publica"
+      B: "La Pax Deorum"
+      C: "La Pax Romana"
+      D: "L'Imperium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the long period of peace and prosperity established under Augustus called?"
+        answers:
+          A: "The Res Publica"
+          B: "The Pax Deorum"
+          C: "The Pax Romana"
+          D: "The Imperium"
+  - text: "Qui a succédé à Auguste à la tête de l'Empire ?"
+    answers:
+      A: "Tibère"
+      B: "Caligula"
+      C: "Germanicus"
+      D: "Claude"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who succeeded Augustus as head of the Empire?"
+        answers:
+          A: "Tiberius"
+          B: "Caligula"
+          C: "Germanicus"
+          D: "Claudius"
+  - text: "Quel empereur aurait voulu nommer son cheval consul ?"
+    answers:
+      A: "Néron"
+      B: "Domitien"
+      C: "Caligula"
+      D: "Commode"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which emperor allegedly wanted to make his horse a consul?"
+        answers:
+          A: "Nero"
+          B: "Domitian"
+          C: "Caligula"
+          D: "Commodus"
+  - text: "Quel empereur a lancé la conquête de la Bretagne en 43 ap. J.-C. ?"
+    answers:
+      A: "Claude"
+      B: "Auguste"
+      C: "Vespasien"
+      D: "Trajan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which emperor launched the conquest of Britain in 43 AD?"
+        answers:
+          A: "Claudius"
+          B: "Augustus"
+          C: "Vespasian"
+          D: "Trajan"
+  - text: "Quel empereur est accusé d'avoir incendié Rome en 64 ap. J.-C. ?"
+    answers:
+      A: "Néron"
+      B: "Caligula"
+      C: "Tibère"
+      D: "Vitellius"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which emperor is accused of burning Rome in 64 AD?"
+        answers:
+          A: "Nero"
+          B: "Caligula"
+          C: "Tiberius"
+          D: "Vitellius"
+  - text: "Quelle dynastie Vespasien a-t-il fondée ?"
+    answers:
+      A: "Les Antonins"
+      B: "Les Julio-Claudiens"
+      C: "Les Sévères"
+      D: "Les Flaviens"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which dynasty did Vespasian found?"
+        answers:
+          A: "The Antonines"
+          B: "The Julio-Claudians"
+          C: "The Severans"
+          D: "The Flavians"
+  - text: "Quel grand amphithéâtre les empereurs flaviens ont-ils fait construire à Rome ?"
+    answers:
+      A: "Le Panthéon"
+      B: "Les thermes de Caracalla"
+      C: "Le Colisée"
+      D: "Le Circus Maximus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which great amphitheater did the Flavian emperors build in Rome?"
+        answers:
+          A: "The Pantheon"
+          B: "The Baths of Caracalla"
+          C: "The Colosseum"
+          D: "The Circus Maximus"
+  - text: "Dans quelle province romaine se trouve le mur d'Hadrien ?"
+    answers:
+      A: "En Germanie"
+      B: "En Gaule"
+      C: "En Bretagne"
+      D: "En Dacie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which Roman province is Hadrian's Wall located?"
+        answers:
+          A: "In Germania"
+          B: "In Gaul"
+          C: "In Britain"
+          D: "In Dacia"
+  - text: "Quel empereur a conquis la Dacie, au nord du Danube ?"
+    answers:
+      A: "Hadrien"
+      B: "Trajan"
+      C: "Domitien"
+      D: "Nerva"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which emperor conquered Dacia, north of the Danube?"
+        answers:
+          A: "Hadrian"
+          B: "Trajan"
+          C: "Domitian"
+          D: "Nerva"
+  - text: "Quel empereur romain a écrit les Pensées pour moi-même ?"
+    answers:
+      A: "Sénèque"
+      B: "Marc Aurèle"
+      C: "Hadrien"
+      D: "Épictète"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman emperor wrote the Meditations?"
+        answers:
+          A: "Seneca"
+          B: "Marcus Aurelius"
+          C: "Hadrian"
+          D: "Epictetus"
+  - text: "Quel empereur a instauré la tétrarchie pour gouverner l'Empire ?"
+    answers:
+      A: "Constantin"
+      B: "Dioclétien"
+      C: "Aurélien"
+      D: "Théodose"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which emperor established the tetrarchy to govern the Empire?"
+        answers:
+          A: "Constantine"
+          B: "Diocletian"
+          C: "Aurelian"
+          D: "Theodosius"
+  - text: "Quel édit de 313 a accordé la liberté de culte aux chrétiens ?"
+    answers:
+      A: "L'édit de Thessalonique"
+      B: "L'édit de Caracalla"
+      C: "L'édit de Milan"
+      D: "L'édit de Nantes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which edict of 313 granted freedom of worship to Christians?"
+        answers:
+          A: "The Edict of Thessalonica"
+          B: "The Edict of Caracalla"
+          C: "The Edict of Milan"
+          D: "The Edict of Nantes"
+  - text: "Quelle ville Constantin a-t-il fondée en 330 ?"
+    answers:
+      A: "Antioche"
+      B: "Alexandrie"
+      C: "Constantinople"
+      D: "Ravenne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which city did Constantine found in 330?"
+        answers:
+          A: "Antioch"
+          B: "Alexandria"
+          C: "Constantinople"
+          D: "Ravenna"
+  - text: "En quelle année l'Empire romain d'Occident a-t-il pris fin ?"
+    answers:
+      A: "395 ap. J.-C."
+      B: "476 ap. J.-C."
+      C: "1453 ap. J.-C."
+      D: "410 ap. J.-C."
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Western Roman Empire end?"
+        answers:
+          A: "395 AD"
+          B: "476 AD"
+          C: "1453 AD"
+          D: "410 AD"
+  - text: "Qui a conquis la Gaule entre 58 et 51 av. J.-C. ?"
+    answers:
+      A: "Auguste"
+      B: "Pompée"
+      C: "Jules César"
+      D: "Trajan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who conquered Gaul between 58 and 51 BC?"
+        answers:
+          A: "Augustus"
+          B: "Pompey"
+          C: "Julius Caesar"
+          D: "Trajan"
+  - text: "Quel chef gaulois a capitulé devant César à Alésia ?"
+    answers:
+      A: "Vercingétorix"
+      B: "Brennus"
+      C: "Diviciacos"
+      D: "Ambiorix"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Gallic leader surrendered to Caesar at Alesia?"
+        answers:
+          A: "Vercingetorix"
+          B: "Brennus"
+          C: "Diviciacus"
+          D: "Ambiorix"
+  - text: "Quelle voie romaine reliait Rome à Capoue puis à Brindes ?"
+    answers:
+      A: "La Via Appia"
+      B: "La Via Aurelia"
+      C: "La Via Flaminia"
+      D: "La Via Egnatia"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman road linked Rome to Capua and then to Brundisium?"
+        answers:
+          A: "The Via Appia"
+          B: "The Via Aurelia"
+          C: "The Via Flaminia"
+          D: "The Via Egnatia"
+  - text: "Quel futur empereur a fait prendre Jérusalem en 70 ap. J.-C. ?"
+    answers:
+      A: "Vespasien"
+      B: "Titus"
+      C: "Trajan"
+      D: "Domitien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which future emperor captured Jerusalem in 70 AD?"
+        answers:
+          A: "Vespasian"
+          B: "Titus"
+          C: "Trajan"
+          D: "Domitian"
+  - text: "Quel ouvrage les Romains construisaient-ils pour transporter l'eau vers les villes ?"
+    answers:
+      A: "Les aqueducs"
+      B: "Les amphithéâtres"
+      C: "Les forums"
+      D: "Les thermes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What structure did the Romans build to carry water to cities?"
+        answers:
+          A: "Aqueducts"
+          B: "Amphitheaters"
+          C: "Forums"
+          D: "Baths"
+  - text: "Quel lieu, cœur politique, religieux et commercial de la cité romaine, accueillait discours, procès et marchés ?"
+    answers:
+      A: "L'amphithéâtre"
+      B: "Les thermes"
+      C: "Le cirque"
+      D: "Le forum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which place, the political, religious and commercial heart of the Roman city, hosted speeches, trials and markets?"
+        answers:
+          A: "The amphitheater"
+          B: "The baths"
+          C: "The circus"
+          D: "The forum"
+  - text: "Dans les thermes romains, quelle salle surchauffée abritait le bain chaud ?"
+    answers:
+      A: "Le frigidarium"
+      B: "Le tepidarium"
+      C: "Le caldarium"
+      D: "L'apodyterium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Roman baths, which overheated room housed the hot bath?"
+        answers:
+          A: "The frigidarium"
+          B: "The tepidarium"
+          C: "The caldarium"
+          D: "The apodyterium"
+  - text: "Quel vêtement de laine drapé était réservé au citoyen romain adulte ?"
+    answers:
+      A: "Le pallium"
+      B: "La tunique"
+      C: "La stola"
+      D: "La toge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which draped woolen garment was reserved for the adult Roman citizen?"
+        answers:
+          A: "The pallium"
+          B: "The tunic"
+          C: "The stola"
+          D: "The toga"
+  - text: "Quel ouvrage, souvent porté par des arches, conduisait l'eau des sources jusqu'aux villes romaines ?"
+    answers:
+      A: "L'égout"
+      B: "La basilique"
+      C: "Le nymphée"
+      D: "L'aqueduc"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which structure, often carried on arches, brought water from springs to Roman cities?"
+        answers:
+          A: "The sewer"
+          B: "The basilica"
+          C: "The nymphaeum"
+          D: "The aqueduct"
+  - text: "À Rome, quelle immense enceinte accueillait les courses de chars ?"
+    answers:
+      A: "Le Circus Maximus"
+      B: "Le théâtre de Pompée"
+      C: "Le Colisée"
+      D: "Le stade de Domitien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Rome, which huge enclosure hosted chariot races?"
+        answers:
+          A: "The Circus Maximus"
+          B: "The Theater of Pompey"
+          C: "The Colosseum"
+          D: "The Stadium of Domitian"
+  - text: "Quel spectacle très populaire se déroulait dans les amphithéâtres romains ?"
+    answers:
+      A: "Les naumachies"
+      B: "Les courses de chars"
+      C: "Les combats de gladiateurs"
+      D: "Les pièces de théâtre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which very popular spectacle took place in Roman amphitheaters?"
+        answers:
+          A: "Naumachiae"
+          B: "Chariot races"
+          C: "Gladiator fights"
+          D: "Theatrical plays"
+  - text: "Comment appelait-on le maître qui enseignait la lecture et l'écriture aux jeunes Romains ?"
+    answers:
+      A: "Le litterator"
+      B: "Le grammaticus"
+      C: "Le rhéteur"
+      D: "Le pédagogue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the teacher who taught reading and writing to young Romans called?"
+        answers:
+          A: "The litterator"
+          B: "The grammaticus"
+          C: "The rhetor"
+          D: "The pedagogue"
+  - text: "Quelle langue servait couramment de langue commune dans l'Orient de l'Empire romain ?"
+    answers:
+      A: "Le latin"
+      B: "L'araméen"
+      C: "Le grec"
+      D: "Le copte"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which language commonly served as the common tongue in the East of the Roman Empire?"
+        answers:
+          A: "Latin"
+          B: "Aramaic"
+          C: "Greek"
+          D: "Coptic"
+  - text: "Quelle monnaie romaine d'argent servait couramment aux échanges commerciaux ?"
+    answers:
+      A: "Le sesterce"
+      B: "L'as"
+      C: "Le denier"
+      D: "L'aureus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman silver coin was commonly used for commercial exchanges?"
+        answers:
+          A: "The sestertius"
+          B: "The as"
+          C: "The denarius"
+          D: "The aureus"
+  - text: "Quel était le nom du repas principal des Romains, pris en fin d'après-midi ?"
+    answers:
+      A: "Le ientaculum"
+      B: "Le prandium"
+      C: "La cena"
+      D: "La merenda"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the name of the Romans' main meal, eaten in the late afternoon?"
+        answers:
+          A: "The ientaculum"
+          B: "The prandium"
+          C: "The cena"
+          D: "The merenda"
+  - text: "Quelle boisson, presque toujours coupée d'eau, accompagnait les repas romains ?"
+    answers:
+      A: "La bière"
+      B: "Le vin"
+      C: "Le cidre"
+      D: "L'hydromel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which drink, almost always mixed with water, accompanied Roman meals?"
+        answers:
+          A: "Beer"
+          B: "Wine"
+          C: "Cider"
+          D: "Mead"
+  - text: "Le garum, condiment très apprécié des Romains, était fabriqué à partir de quoi ?"
+    answers:
+      A: "De poisson fermenté"
+      B: "D'olives pressées"
+      C: "De lait caillé"
+      D: "De raisin séché"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Garum, a condiment much appreciated by the Romans, was made from what?"
+        answers:
+          A: "Fermented fish"
+          B: "Pressed olives"
+          C: "Curdled milk"
+          D: "Dried grapes"
+  - text: "Combien de soldats une légion romaine impériale comptait-elle environ ?"
+    answers:
+      A: "500 hommes"
+      B: "1 500 hommes"
+      C: "20 000 hommes"
+      D: "5 000 hommes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "About how many soldiers did an imperial Roman legion contain?"
+        answers:
+          A: "500 men"
+          B: "1,500 men"
+          C: "20,000 men"
+          D: "5,000 men"
+  - text: "Quel titre portait le sénateur placé à la tête d'une légion romaine ?"
+    answers:
+      A: "Centurion"
+      B: "Légat"
+      C: "Tribun"
+      D: "Préfet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What title did the senator placed at the head of a Roman legion hold?"
+        answers:
+          A: "Centurion"
+          B: "Legate"
+          C: "Tribune"
+          D: "Prefect"
+  - text: "Comment appelait-on le grand bouclier rectangulaire et courbé du légionnaire romain ?"
+    answers:
+      A: "Le scutum"
+      B: "Le pilum"
+      C: "Le gladius"
+      D: "Le cassis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the large rectangular and curved shield of the Roman legionary called?"
+        answers:
+          A: "The scutum"
+          B: "The pilum"
+          C: "The gladius"
+          D: "The cassis"
+  - text: "Quelle arme de jet à longue hampe et pointe de fer équipait le légionnaire romain ?"
+    answers:
+      A: "La fronde"
+      B: "Le glaive"
+      C: "La hache"
+      D: "Le pilum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which throwing weapon with a long shaft and iron tip was carried by the Roman legionary?"
+        answers:
+          A: "The sling"
+          B: "The gladius"
+          C: "The axe"
+          D: "The pilum"
+  - text: "Comment appelait-on les camps fortifiés installés par les légions en campagne ?"
+    answers:
+      A: "Les castra"
+      B: "Les canabae"
+      C: "Les burgi"
+      D: "Les latifundia"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What were the fortified camps set up by the legions on campaign called?"
+        answers:
+          A: "The castra"
+          B: "The canabae"
+          C: "The burgi"
+          D: "The latifundia"
+  - text: "Quelle déesse romaine, épouse de Jupiter, était la reine des dieux et protégeait le mariage ?"
+    answers:
+      A: "Vesta"
+      B: "Junon"
+      C: "Cérès"
+      D: "Diane"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman goddess, wife of Jupiter, was queen of the gods and protected marriage?"
+        answers:
+          A: "Vesta"
+          B: "Juno"
+          C: "Ceres"
+          D: "Diana"
+  - text: "Quel dieu romain était vénéré comme le dieu de la guerre ?"
+    answers:
+      A: "Mars"
+      B: "Vulcain"
+      C: "Mercure"
+      D: "Saturne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman god was worshipped as the god of war?"
+        answers:
+          A: "Mars"
+          B: "Vulcan"
+          C: "Mercury"
+          D: "Saturn"
+  - text: "Quelle déesse romaine, liée aux arts et à la sagesse, correspondait à la grecque Athéna ?"
+    answers:
+      A: "Vénus"
+      B: "Minerve"
+      C: "Cérès"
+      D: "Diane"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman goddess, linked to the arts and wisdom, corresponded to the Greek Athena?"
+        answers:
+          A: "Venus"
+          B: "Minerva"
+          C: "Ceres"
+          D: "Diana"
+  - text: "Quel dieu romain tenait le trident et régnait sur les mers ?"
+    answers:
+      A: "Pluton"
+      B: "Vulcain"
+      C: "Janus"
+      D: "Neptune"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman god held the trident and ruled the seas?"
+        answers:
+          A: "Pluto"
+          B: "Vulcan"
+          C: "Janus"
+          D: "Neptune"
+  - text: "Quel dieu romain, messager ailé, protégeait le commerce et guidait les voyageurs ?"
+    answers:
+      A: "Apollon"
+      B: "Bacchus"
+      C: "Pluton"
+      D: "Mercure"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which winged messenger Roman god protected commerce and guided travelers?"
+        answers:
+          A: "Apollo"
+          B: "Bacchus"
+          C: "Pluto"
+          D: "Mercury"
+  - text: "Quelle déesse romaine était liée à l'amour et à la beauté ?"
+    answers:
+      A: "Minerve"
+      B: "Junon"
+      C: "Vénus"
+      D: "Proserpine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman goddess was linked to love and beauty?"
+        answers:
+          A: "Minerva"
+          B: "Juno"
+          C: "Venus"
+          D: "Proserpina"
+  - text: "Quel dieu romain régnait sur le monde des morts ?"
+    answers:
+      A: "Saturne"
+      B: "Neptune"
+      C: "Mars"
+      D: "Pluton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Roman god ruled the world of the dead?"
+        answers:
+          A: "Saturn"
+          B: "Neptune"
+          C: "Mars"
+          D: "Pluto"
+  - text: "Comment appelait-on les prêtres romains qui interprétaient le vol des oiseaux ?"
+    answers:
+      A: "Les vestales"
+      B: "Les flamines"
+      C: "Les haruspices"
+      D: "Les augures"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What were the Roman priests who interpreted the flight of birds called?"
+        answers:
+          A: "The Vestals"
+          B: "The flamines"
+          C: "The haruspices"
+          D: "The augurs"
+  - text: "Sous quel empereur le Colisée de Rome fut-il commencé, vers 72 après J.-C. ?"
+    answers:
+      A: "Auguste"
+      B: "Vespasien"
+      C: "Néron"
+      D: "Trajan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Under which emperor was the Colosseum in Rome begun, around 72 AD?"
+        answers:
+          A: "Augustus"
+          B: "Vespasian"
+          C: "Nero"
+          D: "Trajan"
+  - text: "Quel empereur fit reconstruire le Panthéon et sa coupole à oculus, vers 125 ?"
+    answers:
+      A: "Trajan"
+      B: "Hadrien"
+      C: "Antonin le Pieux"
+      D: "Septime Sévère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which emperor had the Pantheon and its oculus dome rebuilt, around 125?"
+        answers:
+          A: "Trajan"
+          B: "Hadrian"
+          C: "Antoninus Pius"
+          D: "Septimius Severus"
+  - text: "Sous quel empereur furent inaugurés en 216 de grands thermes publics au sud de Rome ?"
+    answers:
+      A: "Titus"
+      B: "Dioclétien"
+      C: "Trajan"
+      D: "Caracalla"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Under which emperor were large public baths inaugurated in 216 south of Rome?"
+        answers:
+          A: "Titus"
+          B: "Diocletian"
+          C: "Trajan"
+          D: "Caracalla"
+  - text: "Dans quel but la Via Appia fut-elle construite à partir de 312 av. J.-C. ?"
+    answers:
+      A: "Relier Rome à la Grèce"
+      B: "Conduire l'eau vers Naples"
+      C: "Relier Rome à Capoue pour des raisons militaires"
+      D: "Délimiter le pomerium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "For what purpose was the Via Appia built starting in 312 BC?"
+        answers:
+          A: "To connect Rome to Greece"
+          B: "To channel water to Naples"
+          C: "To connect Rome to Capua for military reasons"
+          D: "To mark the pomerium"
+  - text: "À quoi servait un arc de triomphe élevé à Rome ?"
+    answers:
+      A: "De porte de ville fortifiée"
+      B: "De monument commémorant une victoire"
+      C: "De marché couvert"
+      D: "De réservoir d'eau"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was a triumphal arch erected in Rome used for?"
+        answers:
+          A: "As a fortified city gate"
+          B: "As a monument commemorating a victory"
+          C: "As a covered market"
+          D: "As a water reservoir"
+  - text: "Quel édifice civil romain, souvent à colonnades, servait de marché couvert et de tribunal ?"
+    answers:
+      A: "Le nymphée"
+      B: "La basilique"
+      C: "Le mausolée"
+      D: "Le lupanar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman civil building, often with colonnades, served as a covered market and a court of law?"
+        answers:
+          A: "The nymphaeum"
+          B: "The basilica"
+          C: "The mausoleum"
+          D: "The lupanar"
+  - text: "Quelle roche volcanique de la région de Naples entrait dans la composition du béton romain ?"
+    answers:
+      A: "Le granit"
+      B: "Le marbre"
+      C: "Le travertin"
+      D: "La pouzzolane"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which volcanic rock from the Naples region was used in the composition of Roman concrete?"
+        answers:
+          A: "Granite"
+          B: "Marble"
+          C: "Travertine"
+          D: "Pozzolana"
+  - text: "Combien de cas comptait la déclinaison du latin classique ?"
+    answers:
+      A: "Quatre"
+      B: "Cinq"
+      C: "Six"
+      D: "Sept"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many cases did classical Latin declension have?"
+        answers:
+          A: "Four"
+          B: "Five"
+          C: "Six"
+          D: "Seven"
+  - text: "Quel premier grand texte juridique romain fut gravé sur des tables de bronze au Ve siècle av. J.-C. ?"
+    answers:
+      A: "Le Code théodosien"
+      B: "La Loi des Douze Tables"
+      C: "Le Digeste"
+      D: "Les Institutes de Gaius"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which first major Roman legal text was engraved on bronze tablets in the 5th century BC?"
+        answers:
+          A: "The Theodosian Code"
+          B: "The Law of the Twelve Tables"
+          C: "The Digest"
+          D: "The Institutes of Gaius"
+  - text: "Quel empereur byzantin fit compiler au VIe siècle le Corpus juris civilis ?"
+    answers:
+      A: "Dioclétien"
+      B: "Constantin"
+      C: "Théodose II"
+      D: "Justinien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Byzantine emperor had the Corpus juris civilis compiled in the 6th century?"
+        answers:
+          A: "Diocletian"
+          B: "Constantine"
+          C: "Theodosius II"
+          D: "Justinian"
+  - text: "Quel poète latin a composé l'épopée contant les origines légendaires de Rome, de Troie à Énée ?"
+    answers:
+      A: "Virgile"
+      B: "Ovide"
+      C: "Lucain"
+      D: "Horace"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Latin poet composed the epic telling the legendary origins of Rome, from Troy to Aeneas?"
+        answers:
+          A: "Virgil"
+          B: "Ovid"
+          C: "Lucan"
+          D: "Horace"
+  - text: "Quel philosophe stoïcien romain fut le précepteur de l'empereur Néron ?"
+    answers:
+      A: "Sénèque"
+      B: "Marc Aurèle"
+      C: "Épictète"
+      D: "Cicéron"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman Stoic philosopher was the tutor of the emperor Nero?"
+        answers:
+          A: "Seneca"
+          B: "Marcus Aurelius"
+          C: "Epictetus"
+          D: "Cicero"
+  - text: "Quel orateur romain dénonça la conjuration de Catilina ?"
+    answers:
+      A: "César"
+      B: "Caton"
+      C: "Cicéron"
+      D: "Pompée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Roman orator denounced the Catilinarian conspiracy?"
+        answers:
+          A: "Caesar"
+          B: "Cato"
+          C: "Cicero"
+          D: "Pompey"
+  - text: "Quel poète romain, exilé par Auguste, a composé un long poème sur les transformations des êtres ?"
+    answers:
+      A: "Ovide"
+      B: "Properce"
+      C: "Tibulle"
+      D: "Juvénal"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman poet, exiled by Augustus, composed a long poem on the transformations of beings?"
+        answers:
+          A: "Ovid"
+          B: "Propertius"
+          C: "Tibullus"
+          D: "Juvenal"
+  - text: "Quel poète latin est l'auteur des Odes où figure l'expression « carpe diem » ?"
+    answers:
+      A: "Virgile"
+      B: "Catulle"
+      C: "Horace"
+      D: "Pline"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Latin poet is the author of the Odes containing the phrase \"carpe diem\"?"
+        answers:
+          A: "Virgil"
+          B: "Catullus"
+          C: "Horace"
+          D: "Pliny"
+  - text: "Quel volcan a enseveli Pompéi sous les cendres en 79 après J.-C. ?"
+    answers:
+      A: "L'Etna"
+      B: "Le Vésuve"
+      C: "Le Stromboli"
+      D: "Le Vultur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which volcano buried Pompeii under ash in 79 AD?"
+        answers:
+          A: "Etna"
+          B: "Vesuvius"
+          C: "Stromboli"
+          D: "Vultur"
+  - text: "Quelle cité voisine de Pompéi, ensevelie lors de la même éruption, est célèbre pour ses maisons conservées ?"
+    answers:
+      A: "Herculanum"
+      B: "Ostie"
+      C: "Ravenne"
+      D: "Capoue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which neighboring city of Pompeii, buried in the same eruption, is famous for its preserved houses?"
+        answers:
+          A: "Herculaneum"
+          B: "Ostia"
+          C: "Ravenna"
+          D: "Capua"
+  - text: "Quel port situé à l'embouchure du Tibre approvisionnait Rome en blé et en marchandises ?"
+    answers:
+      A: "Brindes"
+      B: "Pouzzoles"
+      C: "Ostie"
+      D: "Aquilée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which port at the mouth of the Tiber supplied Rome with grain and goods?"
+        answers:
+          A: "Brundisium"
+          B: "Puteoli"
+          C: "Ostia"
+          D: "Aquileia"
+  - text: "Que peut-on admirer sur les murs des riches maisons de Pompéi ?"
+    answers:
+      A: "Des vitraux"
+      B: "Des fresques colorées"
+      C: "Des tapisseries"
+      D: "Des plaques de marbre gravées"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What can be admired on the walls of the wealthy houses of Pompeii?"
+        answers:
+          A: "Stained glass windows"
+          B: "Colorful frescoes"
+          C: "Tapestries"
+          D: "Engraved marble plaques"
+  - text: "En quelle année l'Empire romain d'Occident a-t-il pris fin avec la déposition de son dernier empereur ?"
+    answers:
+      A: "395"
+      B: "476"
+      C: "410"
+      D: "565"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the Western Roman Empire end with the deposition of its last emperor?"
+        answers:
+          A: "395"
+          B: "476"
+          C: "410"
+          D: "565"
+  - text: "Quel jeune empereur fut le dernier à régner sur l'Empire romain d'Occident ?"
+    answers:
+      A: "Romulus Augustule"
+      B: "Valentinien III"
+      C: "Majorien"
+      D: "Honorius"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which young emperor was the last to rule the Western Roman Empire?"
+        answers:
+          A: "Romulus Augustulus"
+          B: "Valentinian III"
+          C: "Majorian"
+          D: "Honorius"
+  - text: "Quel chef barbare déposa le dernier empereur d'Occident en 476 ?"
+    answers:
+      A: "Attila"
+      B: "Alaric"
+      C: "Odoacre"
+      D: "Théodoric"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which barbarian leader deposed the last Western emperor in 476?"
+        answers:
+          A: "Attila"
+          B: "Alaric"
+          C: "Odoacer"
+          D: "Theodoric"
+  - text: "Sous quel empereur l'Empire romain fut-il définitivement partagé entre Orient et Occident en 395 ?"
+    answers:
+      A: "Constantin"
+      B: "Julien"
+      C: "Arcadius"
+      D: "Théodose Ier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Under which emperor was the Roman Empire definitively divided between East and West in 395?"
+        answers:
+          A: "Constantine"
+          B: "Julian"
+          C: "Arcadius"
+          D: "Theodosius I"
+  - text: "Quel empereur fonda en 330, sur le Bosphore, la capitale qui prit son nom ?"
+    answers:
+      A: "Dioclétien"
+      B: "Constantin"
+      C: "Trajan"
+      D: "Justinien"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which emperor founded in 330, on the Bosphorus, the capital that took his name?"
+        answers:
+          A: "Diocletian"
+          B: "Constantine"
+          C: "Trajan"
+          D: "Justinian"
+  - text: "Quel peuple germanique, conduit par Alaric, pilla Rome en 410 ?"
+    answers:
+      A: "Les Huns"
+      B: "Les Vandales"
+      C: "Les Wisigoths"
+      D: "Les Ostrogoths"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Germanic people, led by Alaric, sacked Rome in 410?"
+        answers:
+          A: "The Huns"
+          B: "The Vandals"
+          C: "The Visigoths"
+          D: "The Ostrogoths"

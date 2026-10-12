@@ -1,0 +1,1514 @@
+topic:
+  id: topic-monuments-du-monde
+  names:
+    fr: "Monuments du monde"
+    en: "World Landmarks"
+  description: "Explorez les monuments les plus célèbres du monde, des sept merveilles de l'Antiquité aux grands édifices d'Europe. Ce thème vous emmène de la tour Eiffel au Colisée, de la Sagrada Familia au Parthénon, à la découverte de leur histoire, de leurs architectes et des villes qui les abritent."
+  category: WORLD
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg?width=800
+questions:
+  - text: "Quel monument emblématique de Paris est photographié ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Tour_Eiffel_Wikimedia_Commons.jpg?width=800
+    answers:
+      A: "La tour Montparnasse"
+      B: "Le Sacré-Cœur"
+      C: "L'Arc de triomphe"
+      D: "La tour Eiffel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which iconic Paris monument is photographed here?"
+        answers:
+          A: "The Montparnasse Tower"
+          B: "The Sacré-Cœur"
+          C: "The Arc de Triomphe"
+          D: "The Eiffel Tower"
+  - text: "Quel ingénieur a conçu la tour Eiffel ?"
+    answers:
+      A: "Ferdinand de Lesseps"
+      B: "Gustave Eiffel"
+      C: "Hector Guimard"
+      D: "Eugène Viollet-le-Duc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which engineer designed the Eiffel Tower?"
+        answers:
+          A: "Ferdinand de Lesseps"
+          B: "Gustave Eiffel"
+          C: "Hector Guimard"
+          D: "Eugène Viollet-le-Duc"
+  - text: "À quelle occasion la tour Eiffel a-t-elle été construite ?"
+    answers:
+      A: "Les Jeux olympiques de Paris de 1900"
+      B: "Le couronnement de Napoléon Ier"
+      C: "Le centenaire de la mort de Victor Hugo"
+      D: "L'Exposition universelle de 1889"
+    correctAnswer: D
+    translations:
+      en:
+        text: "On what occasion was the Eiffel Tower built?"
+        answers:
+          A: "The 1900 Paris Olympic Games"
+          B: "The coronation of Napoleon I"
+          C: "The centenary of Victor Hugo's death"
+          D: "The 1889 World's Fair"
+  - text: "Quelle est la hauteur approximative de la tour Eiffel avec ses antennes ?"
+    answers:
+      A: "Environ 330 mètres"
+      B: "Environ 250 mètres"
+      C: "Environ 450 mètres"
+      D: "Environ 180 mètres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the approximate height of the Eiffel Tower including its antennas?"
+        answers:
+          A: "About 330 meters"
+          B: "About 250 meters"
+          C: "About 450 meters"
+          D: "About 180 meters"
+  - text: "Quel matériau constitue principalement la tour Eiffel ?"
+    answers:
+      A: "Le béton armé"
+      B: "L'acier inoxydable"
+      C: "Le fer puddlé"
+      D: "Le cuivre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What material mainly makes up the Eiffel Tower?"
+        answers:
+          A: "Reinforced concrete"
+          B: "Stainless steel"
+          C: "Puddled iron"
+          D: "Copper"
+  - text: "Dans quelle ville se trouve Big Ben ?"
+    answers:
+      A: "Édimbourg"
+      B: "Manchester"
+      C: "Liverpool"
+      D: "Londres"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which city is Big Ben located?"
+        answers:
+          A: "Edinburgh"
+          B: "Manchester"
+          C: "Liverpool"
+          D: "London"
+  - text: "Quel est le nom officiel de la tour qui abrite Big Ben ?"
+    answers:
+      A: "La tour Victoria"
+      B: "La tour du Jubilé"
+      C: "La tour de Londres"
+      D: "La tour Elizabeth"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the official name of the tower that houses Big Ben?"
+        answers:
+          A: "The Victoria Tower"
+          B: "The Jubilee Tower"
+          C: "The Tower of London"
+          D: "The Elizabeth Tower"
+  - text: "À l'origine, que désigne précisément le nom « Big Ben » ?"
+    answers:
+      A: "La cloche"
+      B: "L'horloge"
+      C: "Le palais"
+      D: "Le pont"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Originally, what exactly does the name \"Big Ben\" refer to?"
+        answers:
+          A: "The bell"
+          B: "The clock"
+          C: "The palace"
+          D: "The bridge"
+  - text: "Dans quel palais londonien se trouve la tour abritant Big Ben ?"
+    answers:
+      A: "Le palais de Buckingham"
+      B: "Le palais de Westminster"
+      C: "Le château de Windsor"
+      D: "La Tour de Londres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which London palace is the tower housing Big Ben located?"
+        answers:
+          A: "Buckingham Palace"
+          B: "The Palace of Westminster"
+          C: "Windsor Castle"
+          D: "The Tower of London"
+  - text: "Dans quelle ville se trouve le Colisée ?"
+    answers:
+      A: "Naples"
+      B: "Athènes"
+      C: "Milan"
+      D: "Rome"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which city is the Colosseum located?"
+        answers:
+          A: "Naples"
+          B: "Athens"
+          C: "Milan"
+          D: "Rome"
+  - text: "Quel monument romain est photographié ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Colosseum_in_Rome,_Italy_-_April_2007.jpg?width=800
+    answers:
+      A: "Les arènes de Nîmes"
+      B: "Le Colisée"
+      C: "Le théâtre de Marcellus"
+      D: "Les arènes de Vérone"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Roman monument is photographed here?"
+        answers:
+          A: "The Arènes de Nîmes"
+          B: "The Colosseum"
+          C: "The Theatre of Marcellus"
+          D: "The Verona Arena"
+  - text: "Quel édifice est le plus grand amphithéâtre jamais construit dans l'Empire romain ?"
+    answers:
+      A: "Le stade de Domitien"
+      B: "Les arènes de Nîmes"
+      C: "Le théâtre de Pompée"
+      D: "Le Colisée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which building is the largest amphitheater ever built in the Roman Empire?"
+        answers:
+          A: "The Stadium of Domitian"
+          B: "The Nîmes Arena"
+          C: "The Theatre of Pompey"
+          D: "The Colosseum"
+  - text: "Sous quel empereur romain le Colisée a-t-il été inauguré ?"
+    answers:
+      A: "Caligula"
+      B: "Claude"
+      C: "Titus"
+      D: "Domitien"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Under which Roman emperor was the Colosseum inaugurated?"
+        answers:
+          A: "Caligula"
+          B: "Claudius"
+          C: "Titus"
+          D: "Domitian"
+  - text: "Dans quelle ville se trouve la Sagrada Familia ?"
+    answers:
+      A: "Madrid"
+      B: "Barcelone"
+      C: "Valence"
+      D: "Séville"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the Sagrada Familia located?"
+        answers:
+          A: "Madrid"
+          B: "Barcelona"
+          C: "Valencia"
+          D: "Seville"
+  - text: "Quel architecte a conçu la Sagrada Familia ?"
+    answers:
+      A: "Santiago Calatrava"
+      B: "Le Corbusier"
+      C: "Antoni Gaudí"
+      D: "Lluís Domènech i Montaner"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which architect designed the Sagrada Familia?"
+        answers:
+          A: "Santiago Calatrava"
+          B: "Le Corbusier"
+          C: "Antoni Gaudí"
+          D: "Lluís Domènech i Montaner"
+  - text: "Combien de tours la Sagrada Familia doit-elle compter à son achèvement ?"
+    answers:
+      A: "12"
+      B: "18"
+      C: "24"
+      D: "9"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many towers should the Sagrada Familia have upon completion?"
+        answers:
+          A: "12"
+          B: "18"
+          C: "24"
+          D: "9"
+  - text: "Dans quelle ville se trouve Notre-Dame de Paris ?"
+    answers:
+      A: "Reims"
+      B: "Chartres"
+      C: "Paris"
+      D: "Rouen"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which city is Notre-Dame de Paris located?"
+        answers:
+          A: "Reims"
+          B: "Chartres"
+          C: "Paris"
+          D: "Rouen"
+  - text: "Sur quelle île de Paris se trouve Notre-Dame ?"
+    answers:
+      A: "L'île Saint-Louis"
+      B: "L'île de la Cité"
+      C: "L'île aux Cygnes"
+      D: "L'île Seguin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which island in Paris is Notre-Dame located?"
+        answers:
+          A: "Île Saint-Louis"
+          B: "Île de la Cité"
+          C: "Île aux Cygnes"
+          D: "Île Seguin"
+  - text: "Quel événement a gravement endommagé Notre-Dame de Paris en 2019 ?"
+    answers:
+      A: "Un tremblement de terre"
+      B: "Une inondation"
+      C: "Un bombardement"
+      D: "Un incendie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which event severely damaged Notre-Dame de Paris in 2019?"
+        answers:
+          A: "An earthquake"
+          B: "A flood"
+          C: "A bombing"
+          D: "A fire"
+  - text: "Quel écrivain a défendu Notre-Dame de Paris dans un célèbre roman du XIXe siècle ?"
+    answers:
+      A: "Honoré de Balzac"
+      B: "Victor Hugo"
+      C: "Émile Zola"
+      D: "Alexandre Dumas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which writer defended Notre-Dame de Paris in a famous 19th-century novel?"
+        answers:
+          A: "Honoré de Balzac"
+          B: "Victor Hugo"
+          C: "Émile Zola"
+          D: "Alexandre Dumas"
+  - text: "Dans quelle région française se trouve le Mont-Saint-Michel ?"
+    answers:
+      A: "Bretagne"
+      B: "Pays de la Loire"
+      C: "Normandie"
+      D: "Hauts-de-France"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which French region is Mont-Saint-Michel located?"
+        answers:
+          A: "Brittany"
+          B: "Pays de la Loire"
+          C: "Normandy"
+          D: "Hauts-de-France"
+  - text: "Qu'est-ce que le Mont-Saint-Michel ?"
+    answers:
+      A: "Une abbaye fortifiée"
+      B: "Un phare"
+      C: "Un château royal"
+      D: "Un palais"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Mont-Saint-Michel?"
+        answers:
+          A: "A fortified abbey"
+          B: "A lighthouse"
+          C: "A royal castle"
+          D: "A palace"
+  - text: "Dans quel pays se trouve Stonehenge ?"
+    answers:
+      A: "En Écosse"
+      B: "En Angleterre"
+      C: "En Irlande"
+      D: "Au Pays de Galles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country is Stonehenge located?"
+        answers:
+          A: "In Scotland"
+          B: "In England"
+          C: "In Ireland"
+          D: "In Wales"
+  - text: "Qu'est-ce que Stonehenge ?"
+    answers:
+      A: "Un amphithéâtre romain"
+      B: "Un cercle de pierres mégalithiques"
+      C: "Un château médiéval"
+      D: "Un temple grec"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Stonehenge?"
+        answers:
+          A: "A Roman amphitheater"
+          B: "A megalithic stone circle"
+          C: "A medieval castle"
+          D: "A Greek temple"
+  - text: "Sur quelle colline d'Athènes se trouve le Parthénon ?"
+    answers:
+      A: "La colline de l'Aréopage"
+      B: "L'Acropole"
+      C: "Le mont Lycabette"
+      D: "La colline du Pnyx"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which hill in Athens is the Parthenon located?"
+        answers:
+          A: "Areopagus Hill"
+          B: "The Acropolis"
+          C: "Mount Lycabettus"
+          D: "Pnyx Hill"
+  - text: "À quelle divinité le Parthénon est-il dédié ?"
+    answers:
+      A: "Zeus"
+      B: "Poséidon"
+      C: "Apollon"
+      D: "Athéna"
+    correctAnswer: D
+    translations:
+      en:
+        text: "To which deity is the Parthenon dedicated?"
+        answers:
+          A: "Zeus"
+          B: "Poseidon"
+          C: "Apollo"
+          D: "Athena"
+  - text: "Dans quelle ville se trouve le Parthénon ?"
+    answers:
+      A: "Athènes"
+      B: "Delphes"
+      C: "Olympie"
+      D: "Sparte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which city is the Parthenon located?"
+        answers:
+          A: "Athens"
+          B: "Delphi"
+          C: "Olympia"
+          D: "Sparta"
+  - text: "Dans quel pays se trouve le château de Neuschwanstein ?"
+    answers:
+      A: "En Suisse"
+      B: "En Autriche"
+      C: "En Allemagne"
+      D: "Au Liechtenstein"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which country is Neuschwanstein Castle located?"
+        answers:
+          A: "In Switzerland"
+          B: "In Austria"
+          C: "In Germany"
+          D: "In Liechtenstein"
+  - text: "Quel roi a fait construire le château de Neuschwanstein ?"
+    answers:
+      A: "Frédéric II de Prusse"
+      B: "François-Joseph Ier d'Autriche"
+      C: "Henri VIII d'Angleterre"
+      D: "Louis II de Bavière"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which king had Neuschwanstein Castle built?"
+        answers:
+          A: "Frederick II of Prussia"
+          B: "Franz Joseph I of Austria"
+          C: "Henry VIII of England"
+          D: "Ludwig II of Bavaria"
+  - text: "Dans quelle ville se trouve la tour de Pise ?"
+    answers:
+      A: "Florence"
+      B: "Sienne"
+      C: "Pise"
+      D: "Lucques"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which city is the Leaning Tower of Pisa located?"
+        answers:
+          A: "Florence"
+          B: "Siena"
+          C: "Pisa"
+          D: "Lucca"
+  - text: "Quelle est la particularité la plus célèbre de la tour de Pise ?"
+    answers:
+      A: "Elle est entièrement en bois"
+      B: "C'est la plus haute d'Italie"
+      C: "Elle est inclinée"
+      D: "Elle n'a pas de cloches"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the most famous feature of the Leaning Tower of Pisa?"
+        answers:
+          A: "It is entirely made of wood"
+          B: "It is the tallest in Italy"
+          C: "It leans"
+          D: "It has no bells"
+  - text: "Dans quel pays se trouve la tour de Pise ?"
+    answers:
+      A: "En Grèce"
+      B: "En Espagne"
+      C: "En Italie"
+      D: "En France"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which country is the Leaning Tower of Pisa located?"
+        answers:
+          A: "In Greece"
+          B: "In Spain"
+          C: "In Italy"
+          D: "In France"
+  - text: "Quelle est la seule des sept merveilles du monde antique encore debout ?"
+    answers:
+      A: "La pyramide de Khéops"
+      B: "Le phare d'Alexandrie"
+      C: "La statue de Zeus à Olympie"
+      D: "Le colosse de Rhodes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which is the only one of the Seven Wonders of the Ancient World still standing?"
+        answers:
+          A: "The Great Pyramid of Khufu"
+          B: "The Lighthouse of Alexandria"
+          C: "The Statue of Zeus at Olympia"
+          D: "The Colossus of Rhodes"
+  - text: "Dans quel pays se trouve la pyramide de Khéops ?"
+    answers:
+      A: "En Égypte"
+      B: "En Irak"
+      C: "En Libye"
+      D: "En Grèce"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which country is the Great Pyramid of Khufu located?"
+        answers:
+          A: "In Egypt"
+          B: "In Iraq"
+          C: "In Libya"
+          D: "In Greece"
+  - text: "Près de quelle ville égyptienne se trouve la pyramide de Khéops ?"
+    answers:
+      A: "Gizeh"
+      B: "Assouan"
+      C: "Alexandrie"
+      D: "Louxor"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Near which Egyptian city is the Great Pyramid of Khufu located?"
+        answers:
+          A: "Giza"
+          B: "Aswan"
+          C: "Alexandria"
+          D: "Luxor"
+  - text: "Pour quel pharaon la pyramide de Khéops a-t-elle été construite ?"
+    answers:
+      A: "Sésostris III"
+      B: "Ramsès II"
+      C: "Toutânkhamon"
+      D: "Khéops"
+    correctAnswer: D
+    translations:
+      en:
+        text: "For which pharaoh was the Great Pyramid of Khufu built?"
+        answers:
+          A: "Senusret III"
+          B: "Ramesses II"
+          C: "Tutankhamun"
+          D: "Khufu"
+  - text: "Dans quelle ville antique se trouvaient les jardins suspendus ?"
+    answers:
+      A: "Ninive"
+      B: "Babylone"
+      C: "Ur"
+      D: "Persépolis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which ancient city were the Hanging Gardens located?"
+        answers:
+          A: "Nineveh"
+          B: "Babylon"
+          C: "Ur"
+          D: "Persepolis"
+  - text: "Quel roi babylonien aurait fait construire les jardins suspendus ?"
+    answers:
+      A: "Hammourabi"
+      B: "Sargon II"
+      C: "Nabuchodonosor II"
+      D: "Darius Ier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Babylonian king is said to have built the Hanging Gardens?"
+        answers:
+          A: "Hammurabi"
+          B: "Sargon II"
+          C: "Nebuchadnezzar II"
+          D: "Darius I"
+  - text: "Dans quelle cité grecque se trouvait la statue de Zeus ?"
+    answers:
+      A: "Corinthe"
+      B: "Delphes"
+      C: "Sparte"
+      D: "Olympie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which Greek city was the Statue of Zeus located?"
+        answers:
+          A: "Corinth"
+          B: "Delphi"
+          C: "Sparta"
+          D: "Olympia"
+  - text: "Quel sculpteur a réalisé la statue de Zeus à Olympie ?"
+    answers:
+      A: "Praxitèle"
+      B: "Myron"
+      C: "Phidias"
+      D: "Polyclète"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which sculptor created the Statue of Zeus at Olympia?"
+        answers:
+          A: "Praxiteles"
+          B: "Myron"
+          C: "Phidias"
+          D: "Polykleitos"
+  - text: "Dans quelle ville antique se trouvait le temple d'Artémis ?"
+    answers:
+      A: "Troie"
+      B: "Milet"
+      C: "Éphèse"
+      D: "Pergame"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which ancient city was the Temple of Artemis located?"
+        answers:
+          A: "Troy"
+          B: "Miletus"
+          C: "Ephesus"
+          D: "Pergamon"
+  - text: "À quelle déesse le temple d'Éphèse était-il consacré ?"
+    answers:
+      A: "Artémis"
+      B: "Athéna"
+      C: "Héra"
+      D: "Déméter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "To which goddess was the Temple of Ephesus dedicated?"
+        answers:
+          A: "Artemis"
+          B: "Athena"
+          C: "Hera"
+          D: "Demeter"
+  - text: "Quel monument antique a été incendié en 356 av. J.-C. par un homme cherchant la célébrité ?"
+    answers:
+      A: "Le mausolée d'Halicarnasse"
+      B: "La statue de Zeus à Olympie"
+      C: "Le colosse de Rhodes"
+      D: "Le temple d'Artémis à Éphèse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ancient monument was burned in 356 BC by a man seeking fame?"
+        answers:
+          A: "The Mausoleum at Halicarnassus"
+          B: "The Statue of Zeus at Olympia"
+          C: "The Colossus of Rhodes"
+          D: "The Temple of Artemis at Ephesus"
+  - text: "Dans quelle ville antique se trouvait le tombeau monumental du roi Mausole ?"
+    answers:
+      A: "Halicarnasse"
+      B: "Éphèse"
+      C: "Rhodes"
+      D: "Cnossos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which ancient city was the monumental tomb of King Mausolus located?"
+        answers:
+          A: "Halicarnassus"
+          B: "Ephesus"
+          C: "Rhodes"
+          D: "Knossos"
+  - text: "Pour qui le mausolée d'Halicarnasse a-t-il été édifié ?"
+    answers:
+      A: "Le roi Crésus"
+      B: "Alexandre le Grand"
+      C: "Le roi Mausole"
+      D: "L'empereur Auguste"
+    correctAnswer: C
+    translations:
+      en:
+        text: "For whom was the Mausoleum at Halicarnassus built?"
+        answers:
+          A: "King Croesus"
+          B: "Alexander the Great"
+          C: "King Mausolus"
+          D: "Emperor Augustus"
+  - text: "Quel mot courant de la langue française tire son origine du tombeau du roi Mausole ?"
+    answers:
+      A: "« colosse »"
+      B: "« odyssée »"
+      C: "« phare »"
+      D: "« mausolée »"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which common French word originates from the tomb of King Mausolus?"
+        answers:
+          A: "\"colossus\""
+          B: "\"odyssey\""
+          C: "\"lighthouse\""
+          D: "\"mausoleum\""
+  - text: "Sur quelle île se dressait le colosse, l'une des sept merveilles du monde antique ?"
+    answers:
+      A: "La Crète"
+      B: "Chypre"
+      C: "Samos"
+      D: "Rhodes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "On which island did the Colossus, one of the Seven Wonders of the Ancient World, stand?"
+        answers:
+          A: "Crete"
+          B: "Cyprus"
+          C: "Samos"
+          D: "Rhodes"
+  - text: "Quelle divinité le colosse de Rhodes représentait-il ?"
+    answers:
+      A: "Le dieu Poséidon"
+      B: "Le dieu Hélios"
+      C: "Alexandre le Grand"
+      D: "La déesse Athéna"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which deity did the Colossus of Rhodes represent?"
+        answers:
+          A: "The god Poseidon"
+          B: "The god Helios"
+          C: "Alexander the Great"
+          D: "The goddess Athena"
+  - text: "Dans quelle ville antique se dressait le phare construit sous les Ptolémées ?"
+    answers:
+      A: "Alexandrie"
+      B: "Athènes"
+      C: "Carthage"
+      D: "Rome"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which ancient city did the lighthouse built under the Ptolemies stand?"
+        answers:
+          A: "Alexandria"
+          B: "Athens"
+          C: "Carthage"
+          D: "Rome"
+  - text: "Sur quelle île se trouvait le phare d'Alexandrie ?"
+    answers:
+      A: "L'île de Pharos"
+      B: "L'île de Chypre"
+      C: "L'île de Délos"
+      D: "L'île de Malte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "On which island was the Lighthouse of Alexandria located?"
+        answers:
+          A: "The island of Pharos"
+          B: "The island of Cyprus"
+          C: "The island of Delos"
+          D: "The island of Malta"
+  - text: "Quel pays a offert la statue de la Liberté aux États-Unis ?"
+    answers:
+      A: "L'Espagne"
+      B: "L'Italie"
+      C: "La France"
+      D: "Le Royaume-Uni"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country gave the Statue of Liberty to the United States?"
+        answers:
+          A: "Spain"
+          B: "Italy"
+          C: "France"
+          D: "The United Kingdom"
+  - text: "Dans quelle ville se dresse la statue de la Liberté ?"
+    answers:
+      A: "Philadelphie"
+      B: "Boston"
+      C: "New York"
+      D: "Washington"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which city does the Statue of Liberty stand?"
+        answers:
+          A: "Philadelphia"
+          B: "Boston"
+          C: "New York"
+          D: "Washington"
+  - text: "De quel métal la statue de la Liberté est-elle recouverte ?"
+    answers:
+      A: "Le fer"
+      B: "Le cuivre"
+      C: "Le bronze"
+      D: "L'aluminium"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which metal covers the Statue of Liberty?"
+        answers:
+          A: "Iron"
+          B: "Copper"
+          C: "Bronze"
+          D: "Aluminum"
+  - text: "Que tient la statue de la Liberté dans sa main gauche ?"
+    answers:
+      A: "Un bouclier"
+      B: "Une tablette"
+      C: "Une couronne"
+      D: "Une épée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does the Statue of Liberty hold in her left hand?"
+        answers:
+          A: "A shield"
+          B: "A tablet"
+          C: "A crown"
+          D: "A sword"
+  - text: "Dans quelle ville se trouve le Golden Gate Bridge ?"
+    answers:
+      A: "Los Angeles"
+      B: "Chicago"
+      C: "New York"
+      D: "San Francisco"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which city is the Golden Gate Bridge located?"
+        answers:
+          A: "Los Angeles"
+          B: "Chicago"
+          C: "New York"
+          D: "San Francisco"
+  - text: "De quelle couleur est peint le Golden Gate Bridge ?"
+    answers:
+      A: "Blanc"
+      B: "Bleu"
+      C: "Vert"
+      D: "Orange"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What color is the Golden Gate Bridge painted?"
+        answers:
+          A: "White"
+          B: "Blue"
+          C: "Green"
+          D: "Orange"
+  - text: "Quel type de pont est le Golden Gate Bridge ?"
+    answers:
+      A: "Un pont en arc"
+      B: "Un pont à haubans"
+      C: "Un pont suspendu"
+      D: "Un pont levant"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What type of bridge is the Golden Gate Bridge?"
+        answers:
+          A: "An arch bridge"
+          B: "A cable-stayed bridge"
+          C: "A suspension bridge"
+          D: "A drawbridge"
+  - text: "Dans quel pays se trouve le Machu Picchu ?"
+    answers:
+      A: "Le Chili"
+      B: "L'Équateur"
+      C: "La Bolivie"
+      D: "Le Pérou"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which country is Machu Picchu located?"
+        answers:
+          A: "Chile"
+          B: "Ecuador"
+          C: "Bolivia"
+          D: "Peru"
+  - text: "Quelle cité inca perchée dans les Andes est photographiée ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Machu_Picchu,_Peru.jpg?width=800
+    answers:
+      A: "Choquequirao"
+      B: "Ollantaytambo"
+      C: "Sacsayhuamán"
+      D: "Le Machu Picchu"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Inca city perched in the Andes is photographed here?"
+        answers:
+          A: "Choquequirao"
+          B: "Ollantaytambo"
+          C: "Sacsayhuamán"
+          D: "Machu Picchu"
+  - text: "Sur quelle montagne se dresse le Christ Rédempteur de Rio de Janeiro ?"
+    answers:
+      A: "Le Pain de Sucre"
+      B: "Le mont Roraima"
+      C: "Le Pico da Neblina"
+      D: "Le Corcovado"
+    correctAnswer: D
+    translations:
+      en:
+        text: "On which mountain does the Christ the Redeemer statue of Rio de Janeiro stand?"
+        answers:
+          A: "Sugarloaf Mountain"
+          B: "Mount Roraima"
+          C: "Pico da Neblina"
+          D: "Corcovado"
+  - text: "Quel monolithe de grès rouge est un site sacré des Aborigènes en Australie ?"
+    answers:
+      A: "Le mont Kosciuszko"
+      B: "Kata Tjuta"
+      C: "Uluru"
+      D: "Wave Rock"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which red sandstone monolith is a sacred Aboriginal site in Australia?"
+        answers:
+          A: "Mount Kosciuszko"
+          B: "Kata Tjuta"
+          C: "Uluru"
+          D: "Wave Rock"
+  - text: "Dans quel pays se trouve la cité maya de Chichén Itzá ?"
+    answers:
+      A: "Le Guatemala"
+      B: "Le Mexique"
+      C: "Le Belize"
+      D: "Le Honduras"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country is the Maya city of Chichén Itzá located?"
+        answers:
+          A: "Guatemala"
+          B: "Mexico"
+          C: "Belize"
+          D: "Honduras"
+  - text: "Comment s'appelle la grande pyramide de Chichén Itzá ?"
+    answers:
+      A: "La pyramide de la Lune"
+      B: "Le temple du Soleil"
+      C: "Le temple de Kukulcán"
+      D: "Le temple de Borobudur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the great pyramid of Chichén Itzá?"
+        answers:
+          A: "The Pyramid of the Moon"
+          B: "The Temple of the Sun"
+          C: "The Temple of Kukulcán"
+          D: "The Temple of Borobudur"
+  - text: "Sur quelle île se trouvent les statues Moaï ?"
+    answers:
+      A: "Hawaï"
+      B: "Tahiti"
+      C: "L'île de Pâques"
+      D: "Madagascar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "On which island are the Moai statues located?"
+        answers:
+          A: "Hawaii"
+          B: "Tahiti"
+          C: "Easter Island"
+          D: "Madagascar"
+  - text: "À quel pays appartient l'île de Pâques ?"
+    answers:
+      A: "L'Argentine"
+      B: "Le Pérou"
+      C: "La Nouvelle-Zélande"
+      D: "Le Chili"
+    correctAnswer: D
+    translations:
+      en:
+        text: "To which country does Easter Island belong?"
+        answers:
+          A: "Argentina"
+          B: "Peru"
+          C: "New Zealand"
+          D: "Chile"
+  - text: "Dans quel matériau les statues Moaï ont-elles été taillées ?"
+    answers:
+      A: "La roche volcanique"
+      B: "Le calcaire"
+      C: "Le bois de chêne"
+      D: "Le marbre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "From what material were the Moai statues carved?"
+        answers:
+          A: "Volcanic rock"
+          B: "Limestone"
+          C: "Oak wood"
+          D: "Marble"
+  - text: "Dans quel État américain se trouve le mont Rushmore ?"
+    answers:
+      A: "Le Dakota du Nord"
+      B: "Le Wyoming"
+      C: "Le Montana"
+      D: "Le Dakota du Sud"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which US state is Mount Rushmore located?"
+        answers:
+          A: "North Dakota"
+          B: "Wyoming"
+          C: "Montana"
+          D: "South Dakota"
+  - text: "Combien de visages de présidents sont sculptés dans le mont Rushmore ?"
+    answers:
+      A: "Deux"
+      B: "Quatre"
+      C: "Trois"
+      D: "Cinq"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many presidential faces are carved into Mount Rushmore?"
+        answers:
+          A: "Two"
+          B: "Four"
+          C: "Three"
+          D: "Five"
+  - text: "Quel monument fortifié serpentant sur des crêtes montagneuses est photographié ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Great_Wall_of_China_July_2006.JPG?width=800
+    answers:
+      A: "Le mur d'Hadrien"
+      B: "Les remparts de Dubrovnik"
+      C: "La Cité interdite"
+      D: "La Grande Muraille de Chine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which fortified monument winding along mountain ridges is photographed here?"
+        answers:
+          A: "Hadrian's Wall"
+          B: "The Dubrovnik city walls"
+          C: "The Forbidden City"
+          D: "The Great Wall of China"
+  - text: "Quel empereur chinois est associé à la première unification des tronçons de la Grande Muraille ?"
+    answers:
+      A: "Qin Shi Huang"
+      B: "Kublai Khan"
+      C: "Han Wudi"
+      D: "Sun Yat-sen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Chinese emperor is associated with the first unification of the Great Wall's sections?"
+        answers:
+          A: "Qin Shi Huang"
+          B: "Kublai Khan"
+          C: "Han Wudi"
+          D: "Sun Yat-sen"
+  - text: "Dans quelle ville indienne se trouve le Taj Mahal ?"
+    answers:
+      A: "Delhi"
+      B: "Agra"
+      C: "Jaipur"
+      D: "Mumbai"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which Indian city is the Taj Mahal located?"
+        answers:
+          A: "Delhi"
+          B: "Agra"
+          C: "Jaipur"
+          D: "Mumbai"
+  - text: "Quel monument de marbre blanc est photographié ici ?"
+    imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Taj_Mahal_(Edited).jpeg?width=800
+    answers:
+      A: "Le Taj Mahal"
+      B: "La mosquée Jama Masjid"
+      C: "Le Hawa Mahal"
+      D: "Le fort d'Agra"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which white marble monument is photographed here?"
+        answers:
+          A: "The Taj Mahal"
+          B: "The Jama Masjid mosque"
+          C: "The Hawa Mahal"
+          D: "Agra Fort"
+  - text: "De quel matériau le Taj Mahal est-il principalement construit ?"
+    answers:
+      A: "Le marbre blanc"
+      B: "Le grès rouge"
+      C: "Le granit"
+      D: "Le calcaire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What material is the Taj Mahal mainly built from?"
+        answers:
+          A: "White marble"
+          B: "Red sandstone"
+          C: "Granite"
+          D: "Limestone"
+  - text: "Dans quel pays se trouve le temple d'Angkor Wat ?"
+    answers:
+      A: "La Thaïlande"
+      B: "Le Cambodge"
+      C: "Le Vietnam"
+      D: "Le Laos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which country is the temple of Angkor Wat located?"
+        answers:
+          A: "Thailand"
+          B: "Cambodia"
+          C: "Vietnam"
+          D: "Laos"
+  - text: "Quel empire a bâti Angkor Wat au XIIe siècle ?"
+    answers:
+      A: "L'empire mongol"
+      B: "L'empire khmer"
+      C: "L'empire perse"
+      D: "L'empire ottoman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which empire built Angkor Wat in the 12th century?"
+        answers:
+          A: "The Mongol Empire"
+          B: "The Khmer Empire"
+          C: "The Persian Empire"
+          D: "The Ottoman Empire"
+  - text: "À quelle divinité Angkor Wat était-il initialement dédié ?"
+    answers:
+      A: "Bouddha"
+      B: "Shiva"
+      C: "Vishnou"
+      D: "Brahma"
+    correctAnswer: C
+    translations:
+      en:
+        text: "To which deity was Angkor Wat initially dedicated?"
+        answers:
+          A: "Buddha"
+          B: "Shiva"
+          C: "Vishnu"
+          D: "Brahma"
+  - text: "Dans quel pays se trouve la cité antique de Pétra ?"
+    answers:
+      A: "L'Égypte"
+      B: "La Syrie"
+      C: "Le Liban"
+      D: "La Jordanie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which country is the ancient city of Petra located?"
+        answers:
+          A: "Egypt"
+          B: "Syria"
+          C: "Lebanon"
+          D: "Jordan"
+  - text: "Quel peuple a taillé la cité de Pétra dans la roche ?"
+    answers:
+      A: "Les Grecs"
+      B: "Les Romains"
+      C: "Les Nabatéens"
+      D: "Les Perses"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which people carved the city of Petra out of rock?"
+        answers:
+          A: "The Greeks"
+          B: "The Romans"
+          C: "The Nabataeans"
+          D: "The Persians"
+  - text: "Comment appelle-t-on le célèbre monument de Pétra à la façade sculptée ?"
+    answers:
+      A: "Al-Khazneh"
+      B: "Le Parthénon"
+      C: "La Kaaba"
+      D: "Le Colisée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the famous monument of Petra with the carved facade called?"
+        answers:
+          A: "Al-Khazneh"
+          B: "The Parthenon"
+          C: "The Kaaba"
+          D: "The Colosseum"
+  - text: "Quel site jordanien figure parmi les sept nouvelles merveilles du monde ?"
+    answers:
+      A: "Pétra"
+      B: "Jérash"
+      C: "Palmyre"
+      D: "Bosra"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Jordanian site is among the New Seven Wonders of the World?"
+        answers:
+          A: "Petra"
+          B: "Jerash"
+          C: "Palmyra"
+          D: "Bosra"
+  - text: "En quelle année les sept nouvelles merveilles du monde ont-elles été annoncées ?"
+    answers:
+      A: "1987"
+      B: "1997"
+      C: "2007"
+      D: "2017"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year were the New Seven Wonders of the World announced?"
+        answers:
+          A: "1987"
+          B: "1997"
+          C: "2007"
+          D: "2017"
+  - text: "Quel monument italien figure parmi les sept nouvelles merveilles du monde ?"
+    answers:
+      A: "La tour de Pise"
+      B: "Le Colisée"
+      C: "Le Panthéon"
+      D: "Le Duomo de Milan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Italian monument is among the New Seven Wonders of the World?"
+        answers:
+          A: "The Leaning Tower of Pisa"
+          B: "The Colosseum"
+          C: "The Pantheon"
+          D: "Milan Cathedral"
+  - text: "Qui a conçu l'opéra de Sydney ?"
+    answers:
+      A: "Frank Lloyd Wright"
+      B: "Jørn Utzon"
+      C: "Oscar Niemeyer"
+      D: "Le Corbusier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who designed the Sydney Opera House?"
+        answers:
+          A: "Frank Lloyd Wright"
+          B: "Jørn Utzon"
+          C: "Oscar Niemeyer"
+          D: "Le Corbusier"
+  - text: "En quelle année l'opéra de Sydney a-t-il été inauguré ?"
+    answers:
+      A: "1953"
+      B: "1993"
+      C: "1983"
+      D: "1973"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Sydney Opera House inaugurated?"
+        answers:
+          A: "1953"
+          B: "1993"
+          C: "1983"
+          D: "1973"
+  - text: "Dans quelle ville se trouve le Burj Khalifa ?"
+    answers:
+      A: "Abou Dabi"
+      B: "Dubaï"
+      C: "Doha"
+      D: "Riyad"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the Burj Khalifa located?"
+        answers:
+          A: "Abu Dhabi"
+          B: "Dubai"
+          C: "Doha"
+          D: "Riyadh"
+  - text: "Quelles ruines de pierre ont donné leur nom au Zimbabwe ?"
+    answers:
+      A: "Carthage"
+      B: "Timgad"
+      C: "Le Grand Zimbabwe"
+      D: "Leptis Magna"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which stone ruins gave Zimbabwe its name?"
+        answers:
+          A: "Carthage"
+          B: "Timgad"
+          C: "Great Zimbabwe"
+          D: "Leptis Magna"
+  - text: "Quel monument de Washington D.C. est un grand obélisque de marbre ?"
+    answers:
+      A: "Le Lincoln Memorial"
+      B: "Le Washington Monument"
+      C: "La Maison-Blanche"
+      D: "Le Capitole"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which monument in Washington D.C. is a large marble obelisk?"
+        answers:
+          A: "The Lincoln Memorial"
+          B: "The Washington Monument"
+          C: "The White House"
+          D: "The Capitol"
+  - text: "Quelle place se trouve juste devant le Kremlin de Moscou ?"
+    answers:
+      A: "La place Rouge"
+      B: "La place Saint-Marc"
+      C: "La place Tienanmen"
+      D: "La place du Capitole"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which square lies just in front of the Moscow Kremlin?"
+        answers:
+          A: "Red Square"
+          B: "St. Mark's Square"
+          C: "Tiananmen Square"
+          D: "Capitol Square"
+  - text: "Dans quelle ville se trouve la basilique Sainte-Sophie ?"
+    answers:
+      A: "Athènes"
+      B: "Istanbul"
+      C: "Moscou"
+      D: "Rome"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which city is the Hagia Sophia located?"
+        answers:
+          A: "Athens"
+          B: "Istanbul"
+          C: "Moscow"
+          D: "Rome"
+  - text: "Sous quel empereur byzantin la basilique Sainte-Sophie a-t-elle été construite ?"
+    answers:
+      A: "Justinien"
+      B: "Constantin"
+      C: "Théodose"
+      D: "Héraclius"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Under which Byzantine emperor was the Hagia Sophia built?"
+        answers:
+          A: "Justinian"
+          B: "Constantine"
+          C: "Theodosius"
+          D: "Heraclius"
+  - text: "Dans quelle ville espagnole se trouve l'Alhambra ?"
+    answers:
+      A: "Séville"
+      B: "Cordoue"
+      C: "Tolède"
+      D: "Grenade"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which Spanish city is the Alhambra located?"
+        answers:
+          A: "Seville"
+          B: "Cordoba"
+          C: "Toledo"
+          D: "Granada"
+  - text: "Quelle dynastie maure a fait construire les palais de l'Alhambra ?"
+    answers:
+      A: "Les Omeyyades"
+      B: "Les Abbassides"
+      C: "Les Nasrides"
+      D: "Les Mérinides"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Moorish dynasty built the palaces of the Alhambra?"
+        answers:
+          A: "The Umayyads"
+          B: "The Abbasids"
+          C: "The Nasrids"
+          D: "The Marinids"
+  - text: "Quel pharaon a fait construire les temples d'Abou Simbel ?"
+    answers:
+      A: "Ramsès II"
+      B: "Khéops"
+      C: "Toutânkhamon"
+      D: "Akhenaton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pharaoh built the temples of Abu Simbel?"
+        answers:
+          A: "Ramesses II"
+          B: "Khufu"
+          C: "Tutankhamun"
+          D: "Akhenaten"
+  - text: "Pourquoi les temples d'Abou Simbel ont-ils été déplacés dans les années 1960 ?"
+    answers:
+      A: "À cause de la montée des eaux du lac Nasser"
+      B: "À cause d'un tremblement de terre"
+      C: "À cause d'une guerre"
+      D: "À cause de l'érosion du vent"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Why were the temples of Abu Simbel moved in the 1960s?"
+        answers:
+          A: "Because of the rising waters of Lake Nasser"
+          B: "Because of an earthquake"
+          C: "Because of a war"
+          D: "Because of wind erosion"
+  - text: "Dans quelle ville se trouve le siège de l'UNESCO ?"
+    answers:
+      A: "Genève"
+      B: "New York"
+      C: "Paris"
+      D: "Rome"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which city is the headquarters of UNESCO located?"
+        answers:
+          A: "Geneva"
+          B: "New York"
+          C: "Paris"
+          D: "Rome"
+  - text: "En quelle année la convention du patrimoine mondial de l'UNESCO a-t-elle été adoptée ?"
+    answers:
+      A: "1972"
+      B: "1954"
+      C: "1945"
+      D: "1990"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the UNESCO World Heritage Convention adopted?"
+        answers:
+          A: "1972"
+          B: "1954"
+          C: "1945"
+          D: "1990"
+  - text: "Comment appelle-t-on le petit sommet pyramidal qui couronne un obélisque ?"
+    answers:
+      A: "Un pyramidion"
+      B: "Un fronton"
+      C: "Un chapiteau"
+      D: "Un pinacle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the small pyramid-shaped top that crowns an obelisk called?"
+        answers:
+          A: "A pyramidion"
+          B: "A pediment"
+          C: "A capital"
+          D: "A pinnacle"
+  - text: "Quel peuple antique est à l'origine de l'arc de triomphe ?"
+    answers:
+      A: "Les Romains"
+      B: "Les Égyptiens"
+      C: "Les Grecs"
+      D: "Les Gaulois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ancient people originated the triumphal arch?"
+        answers:
+          A: "The Romans"
+          B: "The Egyptians"
+          C: "The Greeks"
+          D: "The Gauls"
+  - text: "Quel pont relie Brooklyn à Manhattan à New York ?"
+    answers:
+      A: "Le pont de Brooklyn"
+      B: "Le Golden Gate Bridge"
+      C: "Le Tower Bridge"
+      D: "Le pont de Québec"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which bridge connects Brooklyn to Manhattan in New York?"
+        answers:
+          A: "The Brooklyn Bridge"
+          B: "The Golden Gate Bridge"
+          C: "Tower Bridge"
+          D: "The Quebec Bridge"
+  - text: "Quel temple bouddhiste en forme de mandala se trouve sur l'île de Java ?"
+    answers:
+      A: "Angkor Wat"
+      B: "Borobudur"
+      C: "Bagan"
+      D: "Prambanan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mandala-shaped Buddhist temple is located on the island of Java?"
+        answers:
+          A: "Angkor Wat"
+          B: "Borobudur"
+          C: "Bagan"
+          D: "Prambanan"
