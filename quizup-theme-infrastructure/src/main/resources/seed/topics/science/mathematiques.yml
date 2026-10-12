@@ -1,0 +1,1609 @@
+topic:
+  id: topic-mathematiques
+  names:
+    fr: "Mathématiques"
+    en: "Mathematics"
+  description: "Questions de mathématiques couvrant l'arithmétique de base, la géométrie, les grands théorèmes et leurs auteurs (Pythagore, Thalès, Euclide, Descartes, Gauss, Euler), ainsi que les nombres remarquables comme pi, le nombre d'or et les nombres premiers, du calcul élémentaire aux résultats les plus pointus."
+  category: SCIENCE
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Pythagorean_Theorem_Proof_with_Algebra.png?width=800
+questions:
+  - text: "Combien de côtés possède un triangle ?"
+    answers:
+      A: "4"
+      B: "3"
+      C: "5"
+      D: "6"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many sides does a triangle have?"
+        answers:
+          A: "4"
+          B: "3"
+          C: "5"
+          D: "6"
+    difficulty: EASY
+  - text: "Combien font 7 × 8 ?"
+    answers:
+      A: "48"
+      B: "54"
+      C: "64"
+      D: "56"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is 7 × 8?"
+        answers:
+          A: "48"
+          B: "54"
+          C: "64"
+          D: "56"
+    difficulty: EASY
+  - text: "Combien font 100 - 45 ?"
+    answers:
+      A: "65"
+      B: "45"
+      C: "75"
+      D: "55"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is 100 - 45?"
+        answers:
+          A: "65"
+          B: "45"
+          C: "75"
+          D: "55"
+    difficulty: EASY
+  - text: "Quel est le résultat de 12 ÷ 4 ?"
+    answers:
+      A: "2"
+      B: "4"
+      C: "6"
+      D: "3"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the result of 12 ÷ 4?"
+        answers:
+          A: "2"
+          B: "4"
+          C: "6"
+          D: "3"
+    difficulty: EASY
+  - text: "Comment appelle-t-on le segment qui relie le centre d'un cercle à un point du cercle ?"
+    answers:
+      A: "Le rayon"
+      B: "La corde"
+      C: "L'arc"
+      D: "La tangente"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the segment that connects the center of a circle to a point on the circle called?"
+        answers:
+          A: "The radius"
+          B: "The chord"
+          C: "The arc"
+          D: "The tangent"
+    difficulty: EASY
+  - text: "Combien de degrés mesure un angle droit ?"
+    answers:
+      A: "90"
+      B: "60"
+      C: "45"
+      D: "180"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many degrees does a right angle measure?"
+        answers:
+          A: "90"
+          B: "60"
+          C: "45"
+          D: "180"
+    difficulty: EASY
+  - text: "Quelle est la valeur arrondie de π à deux décimales ?"
+    answers:
+      A: "2,14"
+      B: "3,14"
+      C: "4,14"
+      D: "1,14"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the value of π rounded to two decimal places?"
+        answers:
+          A: "2.14"
+          B: "3.14"
+          C: "4.14"
+          D: "1.14"
+    difficulty: EASY
+  - text: "Quel est le plus petit nombre premier ?"
+    answers:
+      A: "0"
+      B: "1"
+      C: "2"
+      D: "3"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the smallest prime number?"
+        answers:
+          A: "0"
+          B: "1"
+          C: "2"
+          D: "3"
+    difficulty: EASY
+  - text: "Quelle est la somme des angles d'un triangle ?"
+    answers:
+      A: "180°"
+      B: "270°"
+      C: "90°"
+      D: "360°"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the sum of the angles of a triangle?"
+        answers:
+          A: "180°"
+          B: "270°"
+          C: "90°"
+          D: "360°"
+    difficulty: EASY
+  - text: "Combien font 9 × 9 ?"
+    answers:
+      A: "90"
+      B: "72"
+      C: "81"
+      D: "99"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is 9 × 9?"
+        answers:
+          A: "90"
+          B: "72"
+          C: "81"
+          D: "99"
+    difficulty: EASY
+  - text: "Quel entier naturel vient immédiatement après 99 ?"
+    answers:
+      A: "98"
+      B: "101"
+      C: "100"
+      D: "110"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which natural number comes immediately after 99?"
+        answers:
+          A: "98"
+          B: "101"
+          C: "100"
+          D: "110"
+    difficulty: EASY
+  - text: "Comment appelle-t-on le résultat d'une addition ?"
+    answers:
+      A: "La somme"
+      B: "La différence"
+      C: "Le quotient"
+      D: "Le produit"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the result of an addition called?"
+        answers:
+          A: "The sum"
+          B: "The difference"
+          C: "The quotient"
+          D: "The product"
+    difficulty: EASY
+  - text: "Quelle figure géométrique possède quatre côtés égaux et quatre angles droits ?"
+    answers:
+      A: "Le rectangle"
+      B: "Le carré"
+      C: "Le losange"
+      D: "Le trapèze"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which geometric shape has four equal sides and four right angles?"
+        answers:
+          A: "The rectangle"
+          B: "The square"
+          C: "The rhombus"
+          D: "The trapezoid"
+    difficulty: EASY
+  - text: "Qui est traditionnellement crédité du théorème reliant les carrés des côtés d'un triangle rectangle ?"
+    answers:
+      A: "Thalès"
+      B: "Euclide"
+      C: "Pythagore"
+      D: "Archimède"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is traditionally credited with the theorem relating the squares of the sides of a right triangle?"
+        answers:
+          A: "Thales"
+          B: "Euclid"
+          C: "Pythagoras"
+          D: "Archimedes"
+    difficulty: MEDIUM
+  - text: "Combien de faces possède un cube ?"
+    answers:
+      A: "4"
+      B: "8"
+      C: "6"
+      D: "12"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many faces does a cube have?"
+        answers:
+          A: "4"
+          B: "8"
+          C: "6"
+          D: "12"
+    difficulty: MEDIUM
+  - text: "Quel est le dixième nombre premier ?"
+    answers:
+      A: "23"
+      B: "31"
+      C: "27"
+      D: "29"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the tenth prime number?"
+        answers:
+          A: "23"
+          B: "31"
+          C: "27"
+          D: "29"
+    difficulty: MEDIUM
+  - text: "Qui est l'auteur des « Éléments », ouvrage de référence de la géométrie antique ?"
+    answers:
+      A: "Euclide"
+      B: "Pythagore"
+      C: "Archimède"
+      D: "Apollonius"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the author of 'Elements', the reference work of ancient geometry?"
+        answers:
+          A: "Euclid"
+          B: "Pythagoras"
+          C: "Archimedes"
+          D: "Apollonius"
+    difficulty: MEDIUM
+  - text: "Que vaut 2 puissance 10 ?"
+    answers:
+      A: "512"
+      B: "1024"
+      C: "2048"
+      D: "1000"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is 2 to the power of 10?"
+        answers:
+          A: "512"
+          B: "1024"
+          C: "2048"
+          D: "1000"
+    difficulty: MEDIUM
+  - text: "Comment appelle-t-on un entier naturel qui n'a que deux diviseurs : 1 et lui-même ?"
+    answers:
+      A: "Nombre composé"
+      B: "Nombre rationnel"
+      C: "Nombre parfait"
+      D: "Nombre premier"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What do you call a natural number that has only two divisors: 1 and itself?"
+        answers:
+          A: "Composite number"
+          B: "Rational number"
+          C: "Perfect number"
+          D: "Prime number"
+    difficulty: MEDIUM
+  - text: "Quelle est l'aire d'un rectangle de 5 cm sur 3 cm ?"
+    answers:
+      A: "8 cm²"
+      B: "16 cm²"
+      C: "30 cm²"
+      D: "15 cm²"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the area of a rectangle measuring 5 cm by 3 cm?"
+        answers:
+          A: "8 cm²"
+          B: "16 cm²"
+          C: "30 cm²"
+          D: "15 cm²"
+    difficulty: MEDIUM
+  - text: "Quel est le PGCD de 12 et 18 ?"
+    answers:
+      A: "6"
+      B: "3"
+      C: "9"
+      D: "2"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the GCD of 12 and 18?"
+        answers:
+          A: "6"
+          B: "3"
+          C: "9"
+          D: "2"
+    difficulty: MEDIUM
+  - text: "Combien de diagonales possède un carré ?"
+    answers:
+      A: "2"
+      B: "1"
+      C: "4"
+      D: "0"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many diagonals does a square have?"
+        answers:
+          A: "2"
+          B: "1"
+          C: "4"
+          D: "0"
+    difficulty: MEDIUM
+  - text: "Quelle fraction est égale à 0,5 ?"
+    answers:
+      A: "1/5"
+      B: "1/4"
+      C: "1/2"
+      D: "2/5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which fraction is equal to 0.5?"
+        answers:
+          A: "1/5"
+          B: "1/4"
+          C: "1/2"
+          D: "2/5"
+    difficulty: MEDIUM
+  - text: "Quel est le périmètre d'un carré de côté 7 cm ?"
+    answers:
+      A: "14 cm"
+      B: "21 cm"
+      C: "28 cm"
+      D: "49 cm"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the perimeter of a square with side 7 cm?"
+        answers:
+          A: "14 cm"
+          B: "21 cm"
+          C: "28 cm"
+          D: "49 cm"
+    difficulty: MEDIUM
+  - text: "Combien de minutes y a-t-il dans deux heures et demie ?"
+    answers:
+      A: "120"
+      B: "90"
+      C: "180"
+      D: "150"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many minutes are there in two and a half hours?"
+        answers:
+          A: "120"
+          B: "90"
+          C: "180"
+          D: "150"
+    difficulty: MEDIUM
+  - text: "Quel est le plus grand nombre premier inférieur à 100 ?"
+    answers:
+      A: "97"
+      B: "89"
+      C: "91"
+      D: "99"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the largest prime number less than 100?"
+        answers:
+          A: "97"
+          B: "89"
+          C: "91"
+          D: "99"
+    difficulty: HARD
+  - text: "Quelle est la valeur approximative du nombre d'or ?"
+    answers:
+      A: "1,414"
+      B: "1,732"
+      C: "1,618"
+      D: "2,718"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate value of the golden ratio?"
+        answers:
+          A: "1.414"
+          B: "1.732"
+          C: "1.618"
+          D: "2.718"
+    difficulty: HARD
+  - text: "Quel philosophe et mathématicien français a donné son nom aux coordonnées du plan ?"
+    answers:
+      A: "Fermat"
+      B: "Descartes"
+      C: "Pascal"
+      D: "Leibniz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French philosopher and mathematician gave his name to coordinates in the plane?"
+        answers:
+          A: "Fermat"
+          B: "Descartes"
+          C: "Pascal"
+          D: "Leibniz"
+    difficulty: HARD
+  - text: "Quelle est la somme des angles intérieurs d'un pentagone ?"
+    answers:
+      A: "360°"
+      B: "450°"
+      C: "540°"
+      D: "720°"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the sum of the interior angles of a pentagon?"
+        answers:
+          A: "360°"
+          B: "450°"
+          C: "540°"
+          D: "720°"
+    difficulty: HARD
+  - text: "Quel est le plus petit nombre parfait ?"
+    answers:
+      A: "3"
+      B: "12"
+      C: "28"
+      D: "6"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the smallest perfect number?"
+        answers:
+          A: "3"
+          B: "12"
+          C: "28"
+          D: "6"
+    difficulty: HARD
+  - text: "Que vaut la factorielle de zéro, notée 0! ?"
+    answers:
+      A: "0"
+      B: "1"
+      C: "Indéfini"
+      D: "Infini"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the value of zero factorial, denoted 0! ?"
+        answers:
+          A: "0"
+          B: "1"
+          C: "Undefined"
+          D: "Infinity"
+    difficulty: HARD
+  - text: "Quel mathématicien grec a donné son nom au théorème de proportionnalité des droites coupées par des parallèles ?"
+    answers:
+      A: "Euclide"
+      B: "Pythagore"
+      C: "Thalès"
+      D: "Héron"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek mathematician gave his name to the theorem of proportionality of lines cut by parallel lines?"
+        answers:
+          A: "Euclid"
+          B: "Pythagoras"
+          C: "Thales"
+          D: "Heron"
+    difficulty: HARD
+  - text: "Qui a démontré qu'il existe une infinité de nombres premiers ?"
+    answers:
+      A: "Archimède"
+      B: "Euclide"
+      C: "Aristote"
+      D: "Ératosthène"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who proved that there are infinitely many prime numbers?"
+        answers:
+          A: "Archimedes"
+          B: "Euclid"
+          C: "Aristotle"
+          D: "Eratosthenes"
+    difficulty: HARD
+  - text: "Combien de zéros termine l'écriture décimale de 100! ?"
+    answers:
+      A: "25"
+      B: "20"
+      C: "24"
+      D: "10"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many zeros does the decimal representation of 100! end with?"
+        answers:
+          A: "25"
+          B: "20"
+          C: "24"
+          D: "10"
+    difficulty: HARD
+  - text: "Quelle est la racine carrée de 144 ?"
+    answers:
+      A: "11"
+      B: "14"
+      C: "13"
+      D: "12"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the square root of 144?"
+        answers:
+          A: "11"
+          B: "14"
+          C: "13"
+          D: "12"
+    difficulty: HARD
+  - text: "Quel mathématicien suisse a introduit la notation f(x) et popularisé le nombre e ?"
+    answers:
+      A: "Gauss"
+      B: "Bernoulli"
+      C: "Euler"
+      D: "Riemann"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Swiss mathematician introduced the notation f(x) and popularized the number e?"
+        answers:
+          A: "Gauss"
+          B: "Bernoulli"
+          C: "Euler"
+          D: "Riemann"
+    difficulty: HARD
+  - text: "Combien d'arêtes possède un tétraèdre ?"
+    answers:
+      A: "4"
+      B: "6"
+      C: "8"
+      D: "5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many edges does a tetrahedron have?"
+        answers:
+          A: "4"
+          B: "6"
+          C: "8"
+          D: "5"
+    difficulty: HARD
+  - text: "Quelle conjecture affirme que tout entier pair supérieur à 2 est la somme de deux nombres premiers ?"
+    answers:
+      A: "Conjecture de Goldbach"
+      B: "Conjecture de Poincaré"
+      C: "Hypothèse de Riemann"
+      D: "Théorème de Fermat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which conjecture states that every even integer greater than 2 is the sum of two prime numbers?"
+        answers:
+          A: "Goldbach's conjecture"
+          B: "Poincaré conjecture"
+          C: "Riemann hypothesis"
+          D: "Fermat's theorem"
+    difficulty: HARD
+  - text: "Quel est le millième nombre premier ?"
+    answers:
+      A: "7917"
+      B: "7907"
+      C: "7927"
+      D: "7919"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the thousandth prime number?"
+        answers:
+          A: "7917"
+          B: "7907"
+          C: "7927"
+          D: "7919"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur approximative de la constante d'Euler-Mascheroni ?"
+    answers:
+      A: "0,577"
+      B: "0,693"
+      C: "0,301"
+      D: "1,414"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the approximate value of the Euler-Mascheroni constant?"
+        answers:
+          A: "0.577"
+          B: "0.693"
+          C: "0.301"
+          D: "1.414"
+    difficulty: EXPERT
+  - text: "Quel est le plus petit nombre de Carmichael ?"
+    answers:
+      A: "341"
+      B: "561"
+      C: "1105"
+      D: "1729"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the smallest Carmichael number?"
+        answers:
+          A: "341"
+          B: "561"
+          C: "1105"
+          D: "1729"
+    difficulty: EXPERT
+  - text: "Combien de nombres premiers y a-t-il entre 1 et 100 ?"
+    answers:
+      A: "23"
+      B: "25"
+      C: "26"
+      D: "24"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many prime numbers are there between 1 and 100?"
+        answers:
+          A: "23"
+          B: "25"
+          C: "26"
+          D: "24"
+    difficulty: EXPERT
+  - text: "Quel mathématicien a prouvé le dernier théorème de Fermat à la fin du XXe siècle ?"
+    answers:
+      A: "Grigori Perelman"
+      B: "Terence Tao"
+      C: "John Nash"
+      D: "Andrew Wiles"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mathematician proved Fermat's Last Theorem at the end of the 20th century?"
+        answers:
+          A: "Grigori Perelman"
+          B: "Terence Tao"
+          C: "John Nash"
+          D: "Andrew Wiles"
+    difficulty: EXPERT
+  - text: "Que vaut i², où i est l'unité imaginaire ?"
+    answers:
+      A: "-1"
+      B: "1"
+      C: "i"
+      D: "0"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is i², where i is the imaginary unit?"
+        answers:
+          A: "-1"
+          B: "1"
+          C: "i"
+          D: "0"
+    difficulty: EXPERT
+  - text: "Dans l'identité d'Euler, que vaut e puissance (iπ) plus 1 ?"
+    answers:
+      A: "1"
+      B: "-1"
+      C: "e"
+      D: "0"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Euler's identity, what is e to the power of (iπ) plus 1?"
+        answers:
+          A: "1"
+          B: "-1"
+          C: "e"
+          D: "0"
+    difficulty: EXPERT
+  - text: "Quel mathématicien est considéré comme le fondateur de la théorie des ensembles ?"
+    answers:
+      A: "David Hilbert"
+      B: "Georg Cantor"
+      C: "Giuseppe Peano"
+      D: "Kurt Gödel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which mathematician is considered the founder of set theory?"
+        answers:
+          A: "David Hilbert"
+          B: "Georg Cantor"
+          C: "Giuseppe Peano"
+          D: "Kurt Gödel"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur du nombre de Ramsey R(3,3) ?"
+    answers:
+      A: "8"
+      B: "5"
+      C: "7"
+      D: "6"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the value of the Ramsey number R(3,3)?"
+        answers:
+          A: "8"
+          B: "5"
+          C: "7"
+          D: "6"
+    difficulty: EXPERT
+  - text: "Combien de sommets possède un icosaèdre régulier ?"
+    answers:
+      A: "20"
+      B: "8"
+      C: "30"
+      D: "12"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many vertices does a regular icosahedron have?"
+        answers:
+          A: "20"
+          B: "8"
+          C: "30"
+          D: "12"
+    difficulty: EXPERT
+  - text: "Quel est le plus petit nombre à trois chiffres égal à la somme des cubes de ses chiffres ?"
+    answers:
+      A: "153"
+      B: "125"
+      C: "100"
+      D: "216"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the smallest three-digit number equal to the sum of the cubes of its digits?"
+        answers:
+          A: "153"
+          B: "125"
+          C: "100"
+          D: "216"
+    difficulty: EXPERT
+  - text: "Quel est le plus petit entier n tel que n! dépasse 1 000 000 ?"
+    answers:
+      A: "8"
+      B: "10"
+      C: "11"
+      D: "9"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the smallest integer n such that n! exceeds 1,000,000?"
+        answers:
+          A: "8"
+          B: "10"
+          C: "11"
+          D: "9"
+    difficulty: EXPERT
+  - text: "Combien vaut 15 % de 200 ?"
+    answers:
+      A: "15"
+      B: "20"
+      C: "45"
+      D: "30"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is 15% of 200?"
+        answers:
+          A: "15"
+          B: "20"
+          C: "45"
+          D: "30"
+    difficulty: EASY
+  - text: "Quelle est la moyenne des nombres 4, 8 et 12 ?"
+    answers:
+      A: "6"
+      B: "8"
+      C: "10"
+      D: "12"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the average of the numbers 4, 8, and 12?"
+        answers:
+          A: "6"
+          B: "8"
+          C: "10"
+          D: "12"
+    difficulty: EASY
+  - text: "Dans un triangle rectangle, comment appelle-t-on le côté opposé à l'angle droit ?"
+    answers:
+      A: "L'hypoténuse"
+      B: "La médiane"
+      C: "La diagonale"
+      D: "La bissectrice"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In a right triangle, what is the side opposite the right angle called?"
+        answers:
+          A: "The hypotenuse"
+          B: "The median"
+          C: "The diagonal"
+          D: "The bisector"
+    difficulty: EASY
+  - text: "Combien de millimètres y a-t-il dans un centimètre ?"
+    answers:
+      A: "1"
+      B: "100"
+      C: "10"
+      D: "1000"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many millimeters are in a centimeter?"
+        answers:
+          A: "1"
+          B: "100"
+          C: "10"
+          D: "1000"
+    difficulty: EASY
+  - text: "Combien de secondes y a-t-il dans une heure ?"
+    answers:
+      A: "600"
+      B: "3 600"
+      C: "7 200"
+      D: "86 400"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many seconds are in an hour?"
+        answers:
+          A: "600"
+          B: "3,600"
+          C: "7,200"
+          D: "86,400"
+    difficulty: EASY
+  - text: "Un dé à jouer équilibré a six faces. Quelle est la probabilité d'obtenir un 6 ?"
+    answers:
+      A: "1/2"
+      B: "1/3"
+      C: "1/6"
+      D: "1/4"
+    correctAnswer: C
+    translations:
+      en:
+        text: "A fair six-sided die has six faces. What is the probability of rolling a 6?"
+        answers:
+          A: "1/2"
+          B: "1/3"
+          C: "1/6"
+          D: "1/4"
+    difficulty: EASY
+  - text: "Combien de mètres carrés représente un hectare ?"
+    answers:
+      A: "100 000"
+      B: "1 000"
+      C: "100"
+      D: "10 000"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many square meters are in a hectare?"
+        answers:
+          A: "100,000"
+          B: "1,000"
+          C: "100"
+          D: "10,000"
+    difficulty: MEDIUM
+  - text: "Quelle est la médiane de la série 3, 7, 9, 12, 15 ?"
+    answers:
+      A: "9"
+      B: "12"
+      C: "7"
+      D: "15"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the median of the series 3, 7, 9, 12, 15?"
+        answers:
+          A: "9"
+          B: "12"
+          C: "7"
+          D: "15"
+    difficulty: MEDIUM
+  - text: "On lance deux fois une pièce équilibrée. Quelle est la probabilité d'obtenir pile deux fois ?"
+    answers:
+      A: "1/2"
+      B: "1/4"
+      C: "1/8"
+      D: "1/3"
+    correctAnswer: B
+    translations:
+      en:
+        text: "A fair coin is tossed twice. What is the probability of getting heads twice?"
+        answers:
+          A: "1/2"
+          B: "1/4"
+          C: "1/8"
+          D: "1/3"
+    difficulty: MEDIUM
+  - text: "Dans une classe de 30 élèves, 12 sont des filles. Quel pourcentage de la classe cela représente-t-il ?"
+    answers:
+      A: "40 %"
+      B: "45 %"
+      C: "30 %"
+      D: "60 %"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In a class of 30 students, 12 are girls. What percentage of the class is that?"
+        answers:
+          A: "40%"
+          B: "45%"
+          C: "30%"
+          D: "60%"
+    difficulty: MEDIUM
+  - text: "Un mile terrestre vaut environ combien de kilomètres ?"
+    answers:
+      A: "2,01 km"
+      B: "1,21 km"
+      C: "0,81 km"
+      D: "1,61 km"
+    correctAnswer: D
+    translations:
+      en:
+        text: "A land mile is approximately how many kilometers?"
+        answers:
+          A: "2.01 km"
+          B: "1.21 km"
+          C: "0.81 km"
+          D: "1.61 km"
+    difficulty: MEDIUM
+  - text: "On lance deux dés à six faces. Quelle est la probabilité que la somme des résultats soit égale à 7 ?"
+    answers:
+      A: "1/8"
+      B: "1/9"
+      C: "1/12"
+      D: "1/6"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Two six-sided dice are rolled. What is the probability that the sum of the results equals 7?"
+        answers:
+          A: "1/8"
+          B: "1/9"
+          C: "1/12"
+          D: "1/6"
+    difficulty: MEDIUM
+  - text: "La moyenne de 5 nombres est 12. Quelle est la somme de ces nombres ?"
+    answers:
+      A: "17"
+      B: "60"
+      C: "72"
+      D: "24"
+    correctAnswer: B
+    translations:
+      en:
+        text: "The average of 5 numbers is 12. What is the sum of these numbers?"
+        answers:
+          A: "17"
+          B: "60"
+          C: "72"
+          D: "24"
+    difficulty: MEDIUM
+  - text: "Quel est le 10e nombre premier ?"
+    answers:
+      A: "23"
+      B: "29"
+      C: "27"
+      D: "31"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the 10th prime number?"
+        answers:
+          A: "23"
+          B: "29"
+          C: "27"
+          D: "31"
+    difficulty: HARD
+  - text: "Combien de zéros se trouvent à la fin du nombre 100! (factorielle 100) ?"
+    answers:
+      A: "20"
+      B: "25"
+      C: "50"
+      D: "24"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many zeros are at the end of the number 100! (100 factorial)?"
+        answers:
+          A: "20"
+          B: "25"
+          C: "50"
+          D: "24"
+    difficulty: HARD
+  - text: "Quel est le PGCD de 84 et 126 ?"
+    answers:
+      A: "21"
+      B: "42"
+      C: "14"
+      D: "63"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the GCD of 84 and 126?"
+        answers:
+          A: "21"
+          B: "42"
+          C: "14"
+          D: "63"
+    difficulty: HARD
+  - text: "Dans le paradoxe des anniversaires, avec 23 personnes, la probabilité qu'au moins deux partagent le même jour d'anniversaire est d'environ..."
+    answers:
+      A: "75 %"
+      B: "50 %"
+      C: "23 %"
+      D: "35 %"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In the birthday paradox, with 23 people, the probability that at least two share the same birthday is about..."
+        answers:
+          A: "75%"
+          B: "50%"
+          C: "23%"
+          D: "35%"
+    difficulty: HARD
+  - text: "Des nénuphars doublent de surface chaque jour et couvrent tout l'étang en 48 jours. En combien de jours couvrent-ils la moitié de l'étang ?"
+    answers:
+      A: "46 jours"
+      B: "47 jours"
+      C: "24 jours"
+      D: "12 jours"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Water lilies double in area each day and cover the entire pond in 48 days. In how many days do they cover half the pond?"
+        answers:
+          A: "46 days"
+          B: "47 days"
+          C: "24 days"
+          D: "12 days"
+    difficulty: HARD
+  - text: "Combien d'arêtes possède un dodécaèdre régulier ?"
+    answers:
+      A: "20"
+      B: "24"
+      C: "36"
+      D: "30"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many edges does a regular dodecahedron have?"
+        answers:
+          A: "20"
+          B: "24"
+          C: "36"
+          D: "30"
+    difficulty: HARD
+  - text: "En quelle année Emmy Noether a-t-elle obtenu son doctorat à Erlangen ?"
+    answers:
+      A: "1907"
+      B: "1897"
+      C: "1915"
+      D: "1921"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Emmy Noether obtain her doctorate at Erlangen?"
+        answers:
+          A: "1907"
+          B: "1897"
+          C: "1915"
+          D: "1921"
+    difficulty: EXPERT
+  - text: "Quel mathématicien canadien donne son nom à la médaille décernée tous les quatre ans aux meilleurs jeunes mathématiciens ?"
+    answers:
+      A: "John Charles Fields"
+      B: "Henri Poincaré"
+      C: "Felix Klein"
+      D: "David Hilbert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Canadian mathematician gives his name to the medal awarded every four years to the best young mathematicians?"
+        answers:
+          A: "John Charles Fields"
+          B: "Henri Poincaré"
+          C: "Felix Klein"
+          D: "David Hilbert"
+    difficulty: EXPERT
+  - text: "En algèbre, comment appelle-t-on un élément non nul dont une puissance est nulle ?"
+    answers:
+      A: "Un élément idempotent"
+      B: "Un élément inversible"
+      C: "Un élément nilpotent"
+      D: "Un élément irréductible"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In algebra, what is a nonzero element whose power is zero called?"
+        answers:
+          A: "An idempotent element"
+          B: "An invertible element"
+          C: "A nilpotent element"
+          D: "An irreducible element"
+    difficulty: EXPERT
+  - text: "Quel paradoxe logique concerne l'ensemble de tous les ensembles qui ne se contiennent pas eux-mêmes ?"
+    answers:
+      A: "Le paradoxe de Russell"
+      B: "Le paradoxe de Zénon"
+      C: "Le paradoxe de Banach-Tarski"
+      D: "Le paradoxe de Skolem"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which logical paradox concerns the set of all sets that do not contain themselves?"
+        answers:
+          A: "Russell's paradox"
+          B: "Zeno's paradox"
+          C: "The Banach-Tarski paradox"
+          D: "Skolem's paradox"
+    difficulty: EXPERT
+  - text: "Depuis 1966, quel est le nombre maximal de médailles Fields pouvant être décernées lors d'un même congrès ?"
+    answers:
+      A: "1"
+      B: "2"
+      C: "4"
+      D: "3"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Since 1966, what is the maximum number of Fields medals that can be awarded at a single congress?"
+        answers:
+          A: "1"
+          B: "2"
+          C: "4"
+          D: "3"
+    difficulty: EXPERT
+  - text: "Combien existe-t-il de groupes simples finis sporadiques (hors familles infinies) ?"
+    answers:
+      A: "18"
+      B: "5"
+      C: "26"
+      D: "44"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many sporadic finite simple groups exist (excluding infinite families)?"
+        answers:
+          A: "18"
+          B: "5"
+          C: "26"
+          D: "44"
+    difficulty: EXPERT
+  - text: "Combien de décilitres contient un litre ?"
+    answers:
+      A: "5"
+      B: "100"
+      C: "20"
+      D: "10"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many deciliters are in a liter?"
+        answers:
+          A: "5"
+          B: "100"
+          C: "20"
+          D: "10"
+    difficulty: EASY
+  - text: "Combien de minutes y a-t-il dans une journée complète ?"
+    answers:
+      A: "1440"
+      B: "2400"
+      C: "720"
+      D: "3600"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many minutes are there in a full day?"
+        answers:
+          A: "1440"
+          B: "2400"
+          C: "720"
+          D: "3600"
+    difficulty: EASY
+  - text: "Dans un jeu de 52 cartes, quelle est la probabilité de tirer un as au hasard ?"
+    answers:
+      A: "1/13"
+      B: "1/4"
+      C: "1/26"
+      D: "1/52"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In a 52-card deck, what is the probability of drawing an ace at random?"
+        answers:
+          A: "1/13"
+          B: "1/4"
+          C: "1/26"
+          D: "1/52"
+    difficulty: EASY
+  - text: "Comment appelle-t-on la valeur qui apparaît le plus souvent dans une série statistique ?"
+    answers:
+      A: "Le mode"
+      B: "La médiane"
+      C: "L'écart-type"
+      D: "La moyenne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the value that appears most often in a statistical series called?"
+        answers:
+          A: "The mode"
+          B: "The median"
+          C: "The standard deviation"
+          D: "The mean"
+    difficulty: EASY
+  - text: "Combien de mètres y a-t-il dans un kilomètre ?"
+    answers:
+      A: "100"
+      B: "10 000"
+      C: "1 000"
+      D: "100 000"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many meters are there in a kilometer?"
+        answers:
+          A: "100"
+          B: "10,000"
+          C: "1,000"
+          D: "100,000"
+    difficulty: EASY
+  - text: "Qui est considérée comme la première programmeuse de l'histoire pour ses travaux sur la machine analytique ?"
+    answers:
+      A: "Marie Curie"
+      B: "Grace Hopper"
+      C: "Ada Lovelace"
+      D: "Hedy Lamarr"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is considered the first programmer in history for her work on the analytical engine?"
+        answers:
+          A: "Marie Curie"
+          B: "Grace Hopper"
+          C: "Ada Lovelace"
+          D: "Hedy Lamarr"
+    difficulty: EASY
+  - text: "Quelle est l'étendue de la série 4, 9, 15, 22 ?"
+    answers:
+      A: "11"
+      B: "15"
+      C: "18"
+      D: "22"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the range of the series 4, 9, 15, 22?"
+        answers:
+          A: "11"
+          B: "15"
+          C: "18"
+          D: "22"
+    difficulty: MEDIUM
+  - text: "Si la probabilité qu'un événement se produise est 0,25, quelle est la probabilité qu'il ne se produise pas ?"
+    answers:
+      A: "0,25"
+      B: "0,5"
+      C: "0,75"
+      D: "1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "If the probability that an event occurs is 0.25, what is the probability that it does not occur?"
+        answers:
+          A: "0.25"
+          B: "0.5"
+          C: "0.75"
+          D: "1"
+    difficulty: MEDIUM
+  - text: "Combien de centilitres y a-t-il dans une bouteille de 0,75 litre ?"
+    answers:
+      A: "7,5"
+      B: "7 500"
+      C: "750"
+      D: "75"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many centiliters are there in a 0.75-liter bottle?"
+        answers:
+          A: "7.5"
+          B: "7,500"
+          C: "750"
+          D: "75"
+    difficulty: MEDIUM
+  - text: "Un article coûte 80 € et son prix augmente de 10 %. Quel est son nouveau prix ?"
+    answers:
+      A: "90 €"
+      B: "82 €"
+      C: "88 €"
+      D: "92 €"
+    correctAnswer: C
+    translations:
+      en:
+        text: "An item costs €80 and its price increases by 10%. What is its new price?"
+        answers:
+          A: "€90"
+          B: "€82"
+          C: "€88"
+          D: "€92"
+    difficulty: MEDIUM
+  - text: "Un triangle rectangle a des côtés de l'angle droit mesurant 3 cm et 4 cm. Quelle est la longueur de l'hypoténuse ?"
+    answers:
+      A: "6 cm"
+      B: "5 cm"
+      C: "7 cm"
+      D: "25 cm"
+    correctAnswer: B
+    translations:
+      en:
+        text: "A right triangle has legs measuring 3 cm and 4 cm. What is the length of the hypotenuse?"
+        answers:
+          A: "6 cm"
+          B: "5 cm"
+          C: "7 cm"
+          D: "25 cm"
+    difficulty: MEDIUM
+  - text: "Quelle est la moyenne des notes 12, 15, 9 et 16 ?"
+    answers:
+      A: "12"
+      B: "12,5"
+      C: "13"
+      D: "14"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the average of the grades 12, 15, 9, and 16?"
+        answers:
+          A: "12"
+          B: "12.5"
+          C: "13"
+          D: "14"
+    difficulty: MEDIUM
+  - text: "On lance trois fois une pièce équilibrée. Quelle est la probabilité d'obtenir exactement deux piles ?"
+    answers:
+      A: "3/8"
+      B: "1/4"
+      C: "1/8"
+      D: "1/2"
+    correctAnswer: A
+    translations:
+      en:
+        text: "A fair coin is tossed three times. What is the probability of getting exactly two heads?"
+        answers:
+          A: "3/8"
+          B: "1/4"
+          C: "1/8"
+          D: "1/2"
+    difficulty: HARD
+  - text: "Quel est le plus petit nombre premier à quatre chiffres ?"
+    answers:
+      A: "1001"
+      B: "1009"
+      C: "1007"
+      D: "1003"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the smallest four-digit prime number?"
+        answers:
+          A: "1001"
+          B: "1009"
+          C: "1007"
+          D: "1003"
+    difficulty: HARD
+  - text: "Combien de diagonales possède un polygone à 10 côtés ?"
+    answers:
+      A: "30"
+      B: "35"
+      C: "40"
+      D: "45"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many diagonals does a 10-sided polygon have?"
+        answers:
+          A: "30"
+          B: "35"
+          C: "40"
+          D: "45"
+    difficulty: HARD
+  - text: "Quel est le reste de la division euclidienne de 2 puissance 100 par 7 ?"
+    answers:
+      A: "2"
+      B: "1"
+      C: "4"
+      D: "6"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the remainder of the Euclidean division of 2 to the power of 100 by 7?"
+        answers:
+          A: "2"
+          B: "1"
+          C: "4"
+          D: "6"
+    difficulty: HARD
+  - text: "Une urne contient 3 boules rouges et 2 boules bleues. On tire deux boules sans remise. Quelle est la probabilité d'obtenir deux boules rouges ?"
+    answers:
+      A: "1/5"
+      B: "3/10"
+      C: "2/5"
+      D: "9/25"
+    correctAnswer: B
+    translations:
+      en:
+        text: "An urn contains 3 red balls and 2 blue balls. Two balls are drawn without replacement. What is the probability of getting two red balls?"
+        answers:
+          A: "1/5"
+          B: "3/10"
+          C: "2/5"
+          D: "9/25"
+    difficulty: HARD
+  - text: "Dans une ferme, il y a des poules et des lapins : 35 têtes et 94 pattes. Combien y a-t-il de lapins ?"
+    answers:
+      A: "12"
+      B: "15"
+      C: "10"
+      D: "17"
+    correctAnswer: A
+    translations:
+      en:
+        text: "On a farm, there are chickens and rabbits: 35 heads and 94 legs. How many rabbits are there?"
+        answers:
+          A: "12"
+          B: "15"
+          C: "10"
+          D: "17"
+    difficulty: HARD
+  - text: "En quelle année Ada Lovelace a-t-elle publié ses notes sur la machine analytique de Charles Babbage ?"
+    answers:
+      A: "1860"
+      B: "1833"
+      C: "1852"
+      D: "1843"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Ada Lovelace publish her notes on Charles Babbage's analytical engine?"
+        answers:
+          A: "1860"
+          B: "1833"
+          C: "1852"
+          D: "1843"
+    difficulty: EXPERT
+  - text: "Qui est devenue en 2014 la première femme à recevoir la médaille Fields ?"
+    answers:
+      A: "Maryam Mirzakhani"
+      B: "Karen Uhlenbeck"
+      C: "Emmy Noether"
+      D: "Ingrid Daubechies"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who became the first woman to receive the Fields Medal in 2014?"
+        answers:
+          A: "Maryam Mirzakhani"
+          B: "Karen Uhlenbeck"
+          C: "Emmy Noether"
+          D: "Ingrid Daubechies"
+    difficulty: EXPERT
+  - text: "Quelle mathématicienne a démontré un théorème reliant les symétries continues aux lois de conservation en physique ?"
+    answers:
+      A: "Sofia Kovalevskaïa"
+      B: "Hypatie d'Alexandrie"
+      C: "Ada Lovelace"
+      D: "Emmy Noether"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mathematician proved a theorem linking continuous symmetries to conservation laws in physics?"
+        answers:
+          A: "Sofia Kovalevskaya"
+          B: "Hypatia of Alexandria"
+          C: "Ada Lovelace"
+          D: "Emmy Noether"
+    difficulty: EXPERT
+  - text: "Quel ouvrage d'Apollonius de Perga Hypatie d'Alexandrie a-t-elle commenté ?"
+    answers:
+      A: "Les Éléments"
+      B: "Les Coniques"
+      C: "L'Almageste"
+      D: "La Géographie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which work by Apollonius of Perga did Hypatia of Alexandria comment on?"
+        answers:
+          A: "Elements"
+          B: "Conics"
+          C: "Almagest"
+          D: "Geography"
+    difficulty: EXPERT
+  - text: "Quel paradoxe affirme qu'une sphère peut être décomposée en un nombre fini de morceaux pour en reformer deux sphères identiques ?"
+    answers:
+      A: "Le paradoxe de Tarski-Seidenberg"
+      B: "Le paradoxe de Hausdorff"
+      C: "Le paradoxe de Banach-Tarski"
+      D: "Le paradoxe de Skolem"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which paradox states that a sphere can be decomposed into a finite number of pieces to form two identical spheres?"
+        answers:
+          A: "The Tarski-Seidenberg paradox"
+          B: "The Hausdorff paradox"
+          C: "The Banach-Tarski paradox"
+          D: "The Skolem paradox"
+    difficulty: EXPERT
+  - text: "Que vaut le déterminant d'une matrice antisymétrique réelle d'ordre impair ?"
+    answers:
+      A: "Toujours 1"
+      B: "Toujours impair"
+      C: "Toujours 0"
+      D: "Toujours inversible"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the determinant of a real antisymmetric matrix of odd order?"
+        answers:
+          A: "Always 1"
+          B: "Always odd"
+          C: "Always 0"
+          D: "Always invertible"
+    difficulty: EXPERT
+  - text: "Comment appelle-t-on le corps fini à p^n éléments utilisé en algèbre et en codage ?"
+    answers:
+      A: "Le corps de Dedekind"
+      B: "L'anneau de Boole"
+      C: "Le corps de Weierstrass"
+      D: "Le corps de Galois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the finite field with p^n elements used in algebra and coding called?"
+        answers:
+          A: "Dedekind field"
+          B: "Boolean ring"
+          C: "Weierstrass field"
+          D: "Galois field"
+    difficulty: EXPERT

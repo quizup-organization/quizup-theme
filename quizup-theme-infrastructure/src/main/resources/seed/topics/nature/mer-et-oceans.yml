@@ -1,0 +1,1609 @@
+topic:
+  id: topic-mer-et-oceans
+  names:
+    fr: "Mer & océans"
+    en: "Sea & Oceans"
+  description: "Explorez les mers et les océans : les grands bassins du globe, la fosse des Mariannes, les marées et les vagues, les courants comme le Gulf Stream, sans oublier les baleines, requins, dauphins, tortues et récifs coralliens. Un thème pour découvrir les richesses et les mystères du monde marin."
+  category: NATURE
+  imageUrl: https://commons.wikimedia.org/wiki/Special:FilePath/Coral_%28Galaxea_fascicularis%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_128.jpg?width=800
+questions:
+  - text: "Quel est le plus grand océan du monde ?"
+    answers:
+      A: "L'océan Atlantique"
+      B: "L'océan Arctique"
+      C: "L'océan Indien"
+      D: "L'océan Pacifique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the largest ocean in the world?"
+        answers:
+          A: "The Atlantic Ocean"
+          B: "The Arctic Ocean"
+          C: "The Indian Ocean"
+          D: "The Pacific Ocean"
+    difficulty: EASY
+  - text: "Quel est le plus grand animal vivant sur Terre ?"
+    answers:
+      A: "L'éléphant d'Afrique"
+      B: "Le grand requin blanc"
+      C: "Le cachalot"
+      D: "La baleine bleue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the largest living animal on Earth?"
+        answers:
+          A: "The African elephant"
+          B: "The great white shark"
+          C: "The sperm whale"
+          D: "The blue whale"
+    difficulty: EASY
+  - text: "Quel animal marin possède huit bras ?"
+    answers:
+      A: "La méduse"
+      B: "La pieuvre"
+      C: "L'étoile de mer"
+      D: "Le crabe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sea animal has eight arms?"
+        answers:
+          A: "The jellyfish"
+          B: "The octopus"
+          C: "The starfish"
+          D: "The crab"
+    difficulty: EASY
+  - text: "Les marées sont principalement causées par l'attraction de quel astre ?"
+    answers:
+      A: "La Lune"
+      B: "Mars"
+      C: "Jupiter"
+      D: "L'étoile Polaire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "The tides are mainly caused by the attraction of which celestial body?"
+        answers:
+          A: "The Moon"
+          B: "Mars"
+          C: "Jupiter"
+          D: "The North Star"
+    difficulty: EASY
+  - text: "Quel est le plus petit océan du monde ?"
+    answers:
+      A: "L'océan Indien"
+      B: "L'océan Atlantique"
+      C: "L'océan Arctique"
+      D: "L'océan Pacifique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the smallest ocean in the world?"
+        answers:
+          A: "The Indian Ocean"
+          B: "The Atlantic Ocean"
+          C: "The Arctic Ocean"
+          D: "The Pacific Ocean"
+    difficulty: EASY
+  - text: "Où les tortues marines viennent-elles pondre leurs œufs ?"
+    answers:
+      A: "Dans les abysses"
+      B: "Sur les plages de sable"
+      C: "Dans les récifs coralliens"
+      D: "Sous la banquise"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Where do sea turtles come to lay their eggs?"
+        answers:
+          A: "In the deep sea"
+          B: "On sandy beaches"
+          C: "In coral reefs"
+          D: "Under the ice pack"
+    difficulty: EASY
+  - text: "Lequel de ces animaux marins est un mammifère ?"
+    answers:
+      A: "Le requin"
+      B: "Le dauphin"
+      C: "La raie"
+      D: "Le thon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which of these sea animals is a mammal?"
+        answers:
+          A: "The shark"
+          B: "The dolphin"
+          C: "The ray"
+          D: "The tuna"
+    difficulty: EASY
+  - text: "Quel organe permet aux poissons de respirer sous l'eau ?"
+    answers:
+      A: "Les poumons"
+      B: "Les branchies"
+      C: "La vessie natatoire"
+      D: "Les écailles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which organ allows fish to breathe underwater?"
+        answers:
+          A: "Lungs"
+          B: "Gills"
+          C: "The swim bladder"
+          D: "Scales"
+    difficulty: EASY
+  - text: "Quel paquebot a coulé en 1912 après avoir heurté un iceberg ?"
+    answers:
+      A: "Le Titanic"
+      B: "Le Lusitania"
+      C: "Le Queen Mary"
+      D: "Le Bismarck"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ocean liner sank in 1912 after hitting an iceberg?"
+        answers:
+          A: "The Titanic"
+          B: "The Lusitania"
+          C: "The Queen Mary"
+          D: "The Bismarck"
+    difficulty: EASY
+  - text: "Quelle mer se situe entre l'Europe, l'Afrique et l'Asie ?"
+    answers:
+      A: "La mer Rouge"
+      B: "La mer Noire"
+      C: "La mer Baltique"
+      D: "La mer Méditerranée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which sea lies between Europe, Africa and Asia?"
+        answers:
+          A: "The Red Sea"
+          B: "The Black Sea"
+          C: "The Baltic Sea"
+          D: "The Mediterranean Sea"
+    difficulty: EASY
+  - text: "Combien d'océans principaux compte-t-on sur Terre ?"
+    answers:
+      A: "Cinq"
+      B: "Trois"
+      C: "Quatre"
+      D: "Sept"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many main oceans are there on Earth?"
+        answers:
+          A: "Five"
+          B: "Three"
+          C: "Four"
+          D: "Seven"
+    difficulty: EASY
+  - text: "Quel est le plus grand poisson du monde ?"
+    answers:
+      A: "Le thon rouge"
+      B: "Le requin baleine"
+      C: "Le grand requin blanc"
+      D: "L'espadon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the largest fish in the world?"
+        answers:
+          A: "The bluefin tuna"
+          B: "The whale shark"
+          C: "The great white shark"
+          D: "The swordfish"
+    difficulty: EASY
+  - text: "Quel animal marin est célèbre pour ses pinces et sa démarche latérale ?"
+    answers:
+      A: "Le crabe"
+      B: "La seiche"
+      C: "L'oursin"
+      D: "Le bernard-l'ermite"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sea animal is famous for its claws and sideways walk?"
+        answers:
+          A: "The crab"
+          B: "The cuttlefish"
+          C: "The sea urchin"
+          D: "The hermit crab"
+    difficulty: EASY
+  - text: "Quelle est la fosse océanique la plus profonde du monde ?"
+    answers:
+      A: "La fosse des Tonga"
+      B: "La fosse de Porto Rico"
+      C: "La fosse des Mariannes"
+      D: "La fosse de Java"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the deepest ocean trench in the world?"
+        answers:
+          A: "The Tonga Trench"
+          B: "The Puerto Rico Trench"
+          C: "The Mariana Trench"
+          D: "The Java Trench"
+    difficulty: MEDIUM
+  - text: "Quel courant marin adoucit le climat de l'Europe de l'Ouest ?"
+    answers:
+      A: "Le courant de Humboldt"
+      B: "Le courant du Labrador"
+      C: "Le Gulf Stream"
+      D: "Le courant de Benguela"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ocean current softens the climate of Western Europe?"
+        answers:
+          A: "The Humboldt Current"
+          B: "The Labrador Current"
+          C: "The Gulf Stream"
+          D: "The Benguela Current"
+    difficulty: MEDIUM
+  - text: "Quelle est la cause principale de la formation des vagues en pleine mer ?"
+    answers:
+      A: "Les marées"
+      B: "Les séismes"
+      C: "Les courants profonds"
+      D: "Le vent"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the main cause of wave formation in the open sea?"
+        answers:
+          A: "Tides"
+          B: "Earthquakes"
+          C: "Deep currents"
+          D: "Wind"
+    difficulty: MEDIUM
+  - text: "Quels organismes construisent les récifs coralliens ?"
+    answers:
+      A: "Des éponges"
+      B: "Des algues unicellulaires"
+      C: "Des crustacés"
+      D: "Des polypes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which organisms build coral reefs?"
+        answers:
+          A: "Sponges"
+          B: "Unicellular algae"
+          C: "Crustaceans"
+          D: "Polyps"
+    difficulty: MEDIUM
+  - text: "Quel détroit sépare l'Europe de l'Afrique ?"
+    answers:
+      A: "Le détroit de Gibraltar"
+      B: "Le détroit de Béring"
+      C: "Le détroit de Malacca"
+      D: "Le détroit d'Ormuz"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which strait separates Europe from Africa?"
+        answers:
+          A: "Strait of Gibraltar"
+          B: "Bering Strait"
+          C: "Strait of Malacca"
+          D: "Strait of Hormuz"
+    difficulty: MEDIUM
+  - text: "Quel est le plus grand ensemble de récifs coralliens du monde ?"
+    answers:
+      A: "Les Maldives"
+      B: "Le récif de Bikini"
+      C: "La Grande Barrière de corail"
+      D: "La barrière de corail de Nouvelle-Calédonie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the largest coral reef system in the world?"
+        answers:
+          A: "The Maldives"
+          B: "Bikini Reef"
+          C: "The Great Barrier Reef"
+          D: "The New Caledonian Barrier Reef"
+    difficulty: MEDIUM
+  - text: "Qu'est-ce que le plancton ?"
+    answers:
+      A: "Une espèce de baleine"
+      B: "Un type de corail"
+      C: "Un courant marin profond"
+      D: "Des organismes microscopiques qui dérivent dans l'eau"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is plankton?"
+        answers:
+          A: "A species of whale"
+          B: "A type of coral"
+          C: "A deep-sea current"
+          D: "Microscopic organisms that drift in water"
+    difficulty: MEDIUM
+  - text: "Quel cétacé est célèbre pour ses chants complexes ?"
+    answers:
+      A: "La baleine à bosse"
+      B: "Le béluga"
+      C: "Le cachalot"
+      D: "Le narval"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which cetacean is famous for its complex songs?"
+        answers:
+          A: "Humpback whale"
+          B: "Beluga"
+          C: "Sperm whale"
+          D: "Narwhal"
+    difficulty: MEDIUM
+  - text: "Quel canal relie la mer Méditerranée à la mer Rouge ?"
+    answers:
+      A: "Le canal de Corinthe"
+      B: "Le canal de Panama"
+      C: "Le canal de Suez"
+      D: "Le canal du Midi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which canal connects the Mediterranean Sea to the Red Sea?"
+        answers:
+          A: "Corinth Canal"
+          B: "Panama Canal"
+          C: "Suez Canal"
+          D: "Canal du Midi"
+    difficulty: MEDIUM
+  - text: "Quel océan borde la côte est des États-Unis ?"
+    answers:
+      A: "L'océan Pacifique"
+      B: "L'océan Austral"
+      C: "L'océan Indien"
+      D: "L'océan Atlantique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ocean borders the east coast of the United States?"
+        answers:
+          A: "Pacific Ocean"
+          B: "Southern Ocean"
+          C: "Indian Ocean"
+          D: "Atlantic Ocean"
+    difficulty: MEDIUM
+  - text: "Quel poisson est capable de planer au-dessus de la surface de l'eau ?"
+    answers:
+      A: "La murène"
+      B: "L'exocet"
+      C: "Le barracuda"
+      D: "La dorade"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which fish is capable of gliding above the water's surface?"
+        answers:
+          A: "Moray eel"
+          B: "Flying fish"
+          C: "Barracuda"
+          D: "Sea bream"
+    difficulty: MEDIUM
+  - text: "Quel animal marin, surnommé « vache de mer », se nourrit d'herbes marines ?"
+    answers:
+      A: "Le lamantin"
+      B: "Le morse"
+      C: "L'otarie"
+      D: "Le phoque"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which marine animal, nicknamed 'sea cow', feeds on seagrass?"
+        answers:
+          A: "Manatee"
+          B: "Walrus"
+          C: "Sea lion"
+          D: "Seal"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du point le plus profond de la fosse des Mariannes ?"
+    answers:
+      A: "La fosse des Kouriles"
+      B: "Le Challenger Deep"
+      C: "Le plateau de Kerguelen"
+      D: "La dorsale médio-atlantique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the deepest point in the Mariana Trench?"
+        answers:
+          A: "Kuril Trench"
+          B: "Challenger Deep"
+          C: "Kerguelen Plateau"
+          D: "Mid-Atlantic Ridge"
+    difficulty: HARD
+  - text: "Quel courant froid longe la côte ouest de l'Amérique du Sud ?"
+    answers:
+      A: "Le Gulf Stream"
+      B: "Le courant de Humboldt"
+      C: "Le courant du Labrador"
+      D: "Le courant des Aiguilles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which cold current runs along the west coast of South America?"
+        answers:
+          A: "Gulf Stream"
+          B: "Humboldt Current"
+          C: "Labrador Current"
+          D: "Agulhas Current"
+    difficulty: HARD
+  - text: "Quel est le plus grand membre de la famille des dauphins ?"
+    answers:
+      A: "L'orque"
+      B: "Le marsouin"
+      C: "Le dauphin bleu et blanc"
+      D: "Le béluga"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the largest member of the dolphin family?"
+        answers:
+          A: "Orca"
+          B: "Porpoise"
+          C: "Common dolphin"
+          D: "Beluga"
+    difficulty: HARD
+  - text: "Quel requin est réputé pour sa très grande longévité, pouvant dépasser 200 ans ?"
+    answers:
+      A: "Le requin mako"
+      B: "Le requin tigre"
+      C: "Le requin du Groenland"
+      D: "Le requin-bouledogue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which shark is known for its extreme longevity, potentially exceeding 200 years?"
+        answers:
+          A: "Mako shark"
+          B: "Tiger shark"
+          C: "Greenland shark"
+          D: "Bull shark"
+    difficulty: HARD
+  - text: "Quel gaz dissous est le principal responsable de l'acidification des océans ?"
+    answers:
+      A: "Le dioxyde de carbone"
+      B: "L'oxygène"
+      C: "Le méthane"
+      D: "L'azote"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which dissolved gas is the main cause of ocean acidification?"
+        answers:
+          A: "Carbon dioxide"
+          B: "Oxygen"
+          C: "Methane"
+          D: "Nitrogen"
+    difficulty: HARD
+  - text: "Quel animal marin filtre sa nourriture grâce à des fanons ?"
+    answers:
+      A: "Le cachalot"
+      B: "Le grand requin blanc"
+      C: "La baleine bleue"
+      D: "Le dauphin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which marine animal filters its food using baleen?"
+        answers:
+          A: "The sperm whale"
+          B: "The great white shark"
+          C: "The blue whale"
+          D: "The dolphin"
+    difficulty: HARD
+  - text: "Quel courant froid descend le long de la côte est du Canada ?"
+    answers:
+      A: "Le courant du Labrador"
+      B: "Le courant de Humboldt"
+      C: "Le Gulf Stream"
+      D: "Le courant de Californie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which cold current flows down along the east coast of Canada?"
+        answers:
+          A: "The Labrador Current"
+          B: "The Humboldt Current"
+          C: "The Gulf Stream"
+          D: "The California Current"
+    difficulty: HARD
+  - text: "Quel détroit sépare l'Asie de l'Amérique du Nord ?"
+    answers:
+      A: "Le détroit de Béring"
+      B: "Le détroit de Malacca"
+      C: "Le détroit de Bass"
+      D: "Le détroit de Magellan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which strait separates Asia from North America?"
+        answers:
+          A: "The Bering Strait"
+          B: "The Strait of Malacca"
+          C: "Bass Strait"
+          D: "The Strait of Magellan"
+    difficulty: HARD
+  - text: "Quel invertébré marin peut dépasser 10 mètres de longueur ?"
+    answers:
+      A: "L'étoile de mer géante"
+      B: "Le calmar colossal"
+      C: "La méduse géante"
+      D: "Le homard géant"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which marine invertebrate can exceed 10 meters in length?"
+        answers:
+          A: "The giant starfish"
+          B: "The colossal squid"
+          C: "The giant jellyfish"
+          D: "The giant lobster"
+    difficulty: HARD
+  - text: "À quel embranchement appartiennent les méduses ?"
+    answers:
+      A: "Les mollusques"
+      B: "Les cnidaires"
+      C: "Les arthropodes"
+      D: "Les échinodermes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "To which phylum do jellyfish belong?"
+        answers:
+          A: "Mollusks"
+          B: "Cnidarians"
+          C: "Arthropods"
+          D: "Echinoderms"
+    difficulty: HARD
+  - text: "De quoi est fait le squelette des requins ?"
+    answers:
+      A: "De cartilage"
+      B: "De chitine"
+      C: "De silice"
+      D: "D'os"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is a shark's skeleton made of?"
+        answers:
+          A: "Cartilage"
+          B: "Chitin"
+          C: "Silica"
+          D: "Bone"
+    difficulty: HARD
+  - text: "Combien d'espèces de tortues marines existent actuellement ?"
+    answers:
+      A: "Cinq"
+      B: "Sept"
+      C: "Douze"
+      D: "Vingt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many species of sea turtles currently exist?"
+        answers:
+          A: "Five"
+          B: "Seven"
+          C: "Twelve"
+          D: "Twenty"
+    difficulty: HARD
+  - text: "Quel détroit relie la mer Rouge au golfe d'Aden ?"
+    answers:
+      A: "Le détroit d'Ormuz"
+      B: "Le détroit des Dardanelles"
+      C: "Le détroit de Bab-el-Mandeb"
+      D: "Le détroit de Kertch"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which strait connects the Red Sea to the Gulf of Aden?"
+        answers:
+          A: "The Strait of Hormuz"
+          B: "The Dardanelles Strait"
+          C: "The Bab-el-Mandeb Strait"
+          D: "The Kerch Strait"
+    difficulty: HARD
+  - text: "Quel submersible a atteint pour la première fois le fond de la fosse des Mariannes en 1960 ?"
+    answers:
+      A: "Le Nautilus"
+      B: "L'Alvin"
+      C: "Le Trieste"
+      D: "Le Deepsea Challenger"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which submersible first reached the bottom of the Mariana Trench in 1960?"
+        answers:
+          A: "The Nautilus"
+          B: "The Alvin"
+          C: "The Trieste"
+          D: "The Deepsea Challenger"
+    difficulty: EXPERT
+  - text: "Comment s'appellent les organes sensoriels qui permettent aux requins de détecter les champs électriques ?"
+    answers:
+      A: "Les photophores"
+      B: "Les neuromastes"
+      C: "Les statocystes"
+      D: "Les ampoules de Lorenzini"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What are the sensory organs called that allow sharks to detect electric fields?"
+        answers:
+          A: "Photophores"
+          B: "Neuromasts"
+          C: "Statocysts"
+          D: "Ampullae of Lorenzini"
+    difficulty: EXPERT
+  - text: "Quel est le nom scientifique du grand requin blanc ?"
+    answers:
+      A: "Galeocerdo cuvier"
+      B: "Carcharodon carcharias"
+      C: "Isurus oxyrinchus"
+      D: "Rhincodon typus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the scientific name of the great white shark?"
+        answers:
+          A: "Galeocerdo cuvier"
+          B: "Carcharodon carcharias"
+          C: "Isurus oxyrinchus"
+          D: "Rhincodon typus"
+    difficulty: EXPERT
+  - text: "Chez l'hippocampe, quel parent porte les œufs et met bas ?"
+    answers:
+      A: "Le mâle"
+      B: "La femelle"
+      C: "Les deux alternativement"
+      D: "Un autre membre du groupe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In seahorses, which parent carries the eggs and gives birth?"
+        answers:
+          A: "The male"
+          B: "The female"
+          C: "Both alternately"
+          D: "Another member of the group"
+    difficulty: EXPERT
+  - text: "Tous les poissons-clowns naissent..."
+    answers:
+      A: "hermaphrodites"
+      B: "femelles"
+      C: "mâles"
+      D: "asexués"
+    correctAnswer: C
+    translations:
+      en:
+        text: "All clownfish are born..."
+        answers:
+          A: "hermaphrodites"
+          B: "female"
+          C: "male"
+          D: "asexual"
+    difficulty: EXPERT
+  - text: "Comment appelle-t-on la circulation océanique profonde gouvernée par la température et la salinité ?"
+    answers:
+      A: "La circulation atmosphérique"
+      B: "La dérive littorale"
+      C: "La houle"
+      D: "La circulation thermohaline"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the deep ocean circulation governed by temperature and salinity called?"
+        answers:
+          A: "Atmospheric circulation"
+          B: "Littoral drift"
+          C: "Swell"
+          D: "Thermohaline circulation"
+    difficulty: EXPERT
+  - text: "Comment nomme-t-on la zone océanique la plus profonde, située au-delà de 6 000 mètres ?"
+    answers:
+      A: "La zone épipélagique"
+      B: "La zone mésopélagique"
+      C: "La zone bathypélagique"
+      D: "La zone hadale"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the deepest ocean zone, located beyond 6,000 meters, called?"
+        answers:
+          A: "The epipelagic zone"
+          B: "The mesopelagic zone"
+          C: "The bathypelagic zone"
+          D: "The hadal zone"
+    difficulty: EXPERT
+  - text: "Que fournissent principalement les zooxanthelles aux coraux qui les hébergent ?"
+    answers:
+      A: "Du sel"
+      B: "Des nutriments issus de la photosynthèse"
+      C: "Du calcium"
+      D: "De la chitine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What do zooxanthellae mainly provide to the corals that host them?"
+        answers:
+          A: "Salt"
+          B: "Nutrients from photosynthesis"
+          C: "Calcium"
+          D: "Chitin"
+    difficulty: EXPERT
+  - text: "Quel poisson a été filmé à plus de 8 000 mètres de profondeur, un record ?"
+    answers:
+      A: "La limande"
+      B: "Le requin-lutin"
+      C: "L'anguille électrique"
+      D: "Le poisson-limace"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which fish was filmed at over 8,000 meters deep, a record?"
+        answers:
+          A: "The dab"
+          B: "The goblin shark"
+          C: "The electric eel"
+          D: "The snailfish"
+    difficulty: EXPERT
+  - text: "Qui a réalisé en 2012 la première plongée en solitaire jusqu'au fond du Challenger Deep ?"
+    answers:
+      A: "Jacques Piccard"
+      B: "Robert Ballard"
+      C: "James Cameron"
+      D: "Sylvia Earle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who in 2012 made the first solo dive to the bottom of the Challenger Deep?"
+        answers:
+          A: "Jacques Piccard"
+          B: "Robert Ballard"
+          C: "James Cameron"
+          D: "Sylvia Earle"
+    difficulty: EXPERT
+  - text: "Quelle proportion de l'océan mondial reste encore inexplorée selon les estimations courantes ?"
+    answers:
+      A: "Environ 80 %"
+      B: "Environ 50 %"
+      C: "Environ 70 %"
+      D: "Environ 20 %"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What proportion of the world's ocean remains unexplored according to current estimates?"
+        answers:
+          A: "About 80%"
+          B: "About 50%"
+          C: "About 70%"
+          D: "About 20%"
+    difficulty: EXPERT
+  - text: "Quel phénomène climatique périodique prend naissance dans l'océan Pacifique et modifie le climat mondial ?"
+    answers:
+      A: "El Niño"
+      B: "La mousson"
+      C: "Le Mistral"
+      D: "L'alizé"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which periodic climate phenomenon originates in the Pacific Ocean and alters the global climate?"
+        answers:
+          A: "El Niño"
+          B: "The monsoon"
+          C: "The Mistral"
+          D: "The trade wind"
+    difficulty: EXPERT
+  - text: "Quel explorateur français, disparu en 1997, était surnommé « le commandant » et a fait découvrir les fonds marins au grand public ?"
+    answers:
+      A: "Paul-Émile Victor"
+      B: "Nicolas Hulot"
+      C: "Jean-Louis Étienne"
+      D: "Jacques-Yves Cousteau"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French explorer, who died in 1997, was nicknamed \"the commander\" and introduced the underwater world to the general public?"
+        answers:
+          A: "Paul-Émile Victor"
+          B: "Nicolas Hulot"
+          C: "Jean-Louis Étienne"
+          D: "Jacques-Yves Cousteau"
+    difficulty: EASY
+  - text: "Comment s'appelait le navire de Jacques-Yves Cousteau, transformé en 1950 en laboratoire flottant ?"
+    answers:
+      A: "La Boudeuse"
+      B: "L'Alcyone"
+      C: "Le Belem"
+      D: "La Calypso"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of Jacques-Yves Cousteau's ship, converted in 1950 into a floating laboratory?"
+        answers:
+          A: "La Boudeuse"
+          B: "L'Alcyone"
+          C: "Le Belem"
+          D: "La Calypso"
+    difficulty: EASY
+  - text: "Quel matériau, issu notamment des emballages, représente la principale pollution visible des océans ?"
+    answers:
+      A: "Le plastique"
+      B: "Le papier"
+      C: "Le bois"
+      D: "Le verre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which material, coming notably from packaging, is the main visible pollution of the oceans?"
+        answers:
+          A: "Plastic"
+          B: "Paper"
+          C: "Wood"
+          D: "Glass"
+    difficulty: EASY
+  - text: "Quel instrument à aiguille aimantée indique toujours la direction du nord en mer ?"
+    answers:
+      A: "Le sextant"
+      B: "Le loch"
+      C: "Le chronomètre"
+      D: "La boussole"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which instrument with a magnetic needle always indicates the direction of north at sea?"
+        answers:
+          A: "The sextant"
+          B: "The log"
+          C: "The chronometer"
+          D: "The compass"
+    difficulty: EASY
+  - text: "En regardant vers l'avant d'un navire, comment s'appelle le côté gauche ?"
+    answers:
+      A: "Tribord"
+      B: "La poupe"
+      C: "Bâbord"
+      D: "L'étrave"
+    correctAnswer: C
+    translations:
+      en:
+        text: "When looking toward the front of a ship, what is the left side called?"
+        answers:
+          A: "Starboard"
+          B: "The stern"
+          C: "Port"
+          D: "The bow"
+    difficulty: EASY
+  - text: "Quelle unité de vitesse est utilisée en navigation maritime et vaut environ 1,852 km/h ?"
+    answers:
+      A: "Le mile marin"
+      B: "Le nœud"
+      C: "La lieue"
+      D: "Le fathom"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which unit of speed is used in maritime navigation and equals about 1.852 km/h?"
+        answers:
+          A: "The nautical mile"
+          B: "The knot"
+          C: "The league"
+          D: "The fathom"
+    difficulty: EASY
+  - text: "Quel pirate anglais du début du XVIIIe siècle, à la barbe noire, terrorisait les Caraïbes ?"
+    answers:
+      A: "Jack Sparrow"
+      B: "Capitaine Crochet"
+      C: "Barbe-Rouge"
+      D: "Barbe Noire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which English pirate of the early 18th century, with a black beard, terrorized the Caribbean?"
+        answers:
+          A: "Jack Sparrow"
+          B: "Captain Hook"
+          C: "Redbeard"
+          D: "Blackbeard"
+    difficulty: EASY
+  - text: "Comment appelle-t-on le drapeau noir orné d'une tête de mort hissé par les pirates ?"
+    answers:
+      A: "Le pavillon de quarantaine"
+      B: "Le Grand Pavois"
+      C: "La flamme de guerre"
+      D: "Le Jolly Roger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the black flag adorned with a skull, hoisted by pirates, called?"
+        answers:
+          A: "The quarantine flag"
+          B: "The Grand Pavois"
+          C: "The war pennant"
+          D: "The Jolly Roger"
+    difficulty: EASY
+  - text: "Quelle proportion de la surface de la Terre est couverte par les océans ?"
+    answers:
+      A: "Environ 30 %"
+      B: "Environ 50 %"
+      C: "Environ 90 %"
+      D: "Environ 71 %"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What proportion of the Earth's surface is covered by oceans?"
+        answers:
+          A: "About 30%"
+          B: "About 50%"
+          C: "About 90%"
+          D: "About 71%"
+    difficulty: EASY
+  - text: "Comment appelle-t-on une île annulaire formée par un récif de corail entourant un lagon ?"
+    answers:
+      A: "Un fjord"
+      B: "Un atoll"
+      C: "Un archipel"
+      D: "Un golfe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is a ring-shaped island formed by a coral reef surrounding a lagoon called?"
+        answers:
+          A: "A fjord"
+          B: "An atoll"
+          C: "An archipelago"
+          D: "A gulf"
+    difficulty: EASY
+  - text: "Sur quelle île française de l'océan Indien se trouve le Piton de la Fournaise, l'un des volcans les plus actifs au monde ?"
+    answers:
+      A: "Mayotte"
+      B: "La Réunion"
+      C: "La Martinique"
+      D: "La Guadeloupe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which French island in the Indian Ocean is Piton de la Fournaise, one of the world's most active volcanoes, located?"
+        answers:
+          A: "Mayotte"
+          B: "Réunion"
+          C: "Martinique"
+          D: "Guadeloupe"
+    difficulty: EASY
+  - text: "Quel phénomène marin, souvent provoqué par un séisme sous-marin, peut submerger les côtes en quelques minutes ?"
+    answers:
+      A: "Un cyclone"
+      B: "Une marée de printemps"
+      C: "Un courant marin"
+      D: "Un tsunami"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which marine phenomenon, often caused by an underwater earthquake, can submerge coastlines within minutes?"
+        answers:
+          A: "A cyclone"
+          B: "A spring tide"
+          C: "An ocean current"
+          D: "A tsunami"
+    difficulty: EASY
+  - text: "Qui a co-inventé avec Jacques-Yves Cousteau le scaphandre autonome en 1943 ?"
+    answers:
+      A: "Auguste Piccard"
+      B: "Émile Gagnan"
+      C: "Hans Hass"
+      D: "Jacques Piccard"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who co-invented the scuba regulator with Jacques-Yves Cousteau in 1943?"
+        answers:
+          A: "Auguste Piccard"
+          B: "Émile Gagnan"
+          C: "Hans Hass"
+          D: "Jacques Piccard"
+    difficulty: MEDIUM
+  - text: "En quelle année l'épave du paquebot Titanic a-t-elle été retrouvée au fond de l'Atlantique ?"
+    answers:
+      A: "1955"
+      B: "1975"
+      C: "1997"
+      D: "1985"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the wreck of the ocean liner Titanic found at the bottom of the Atlantic?"
+        answers:
+          A: "1955"
+          B: "1975"
+          C: "1997"
+          D: "1985"
+    difficulty: MEDIUM
+  - text: "Quel surnom donne-t-on à l'immense accumulation de déchets plastiques dans le Pacifique Nord ?"
+    answers:
+      A: "Le vortex boréal"
+      B: "La mer de plastique"
+      C: "L'île aux déchets"
+      D: "Le septième continent"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What nickname is given to the vast accumulation of plastic waste in the North Pacific?"
+        answers:
+          A: "The northern vortex"
+          B: "The plastic sea"
+          C: "Trash Island"
+          D: "The seventh continent"
+    difficulty: MEDIUM
+  - text: "Quel pétrolier s'est échoué en 1989 au large de l'Alaska, provoquant une marée noire majeure ?"
+    answers:
+      A: "L'Exxon Valdez"
+      B: "Le Torrey Canyon"
+      C: "L'Amoco Cadiz"
+      D: "L'Erika"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which oil tanker ran aground off Alaska in 1989, causing a major oil spill?"
+        answers:
+          A: "The Exxon Valdez"
+          B: "The Torrey Canyon"
+          C: "The Amoco Cadiz"
+          D: "The Erika"
+    difficulty: MEDIUM
+  - text: "En regardant vers l'avant d'un navire, comment s'appelle le côté droit ?"
+    answers:
+      A: "Tribord"
+      B: "Bâbord"
+      C: "La poupe"
+      D: "Le bastingage"
+    correctAnswer: A
+    translations:
+      en:
+        text: "When looking toward the front of a ship, what is the right side called?"
+        answers:
+          A: "Starboard"
+          B: "Port"
+          C: "The stern"
+          D: "The bulwark"
+    difficulty: MEDIUM
+  - text: "Quel instrument de navigation mesure l'angle entre l'horizon et un astre pour faire le point ?"
+    answers:
+      A: "Le loch"
+      B: "Le sextant"
+      C: "La boussole"
+      D: "Le sonar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which navigation instrument measures the angle between the horizon and a celestial body to determine position?"
+        answers:
+          A: "The log"
+          B: "The sextant"
+          C: "The compass"
+          D: "The sonar"
+    difficulty: MEDIUM
+  - text: "Quel corsaire de Saint-Malo commandait La Confiance lorsqu'il captura le navire britannique Kent en 1800 ?"
+    answers:
+      A: "Robert Surcouf"
+      B: "Jean Bart"
+      C: "Duguay-Trouin"
+      D: "La Pérouse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which privateer from Saint-Malo commanded La Confiance when he captured the British ship Kent in 1800?"
+        answers:
+          A: "Robert Surcouf"
+          B: "Jean Bart"
+          C: "Duguay-Trouin"
+          D: "La Pérouse"
+    difficulty: MEDIUM
+  - text: "Quel corsaire dunkerquois a sauvé une flotte de blé de la famine en 1694 sous Louis XIV ?"
+    answers:
+      A: "Robert Surcouf"
+      B: "Francis Drake"
+      C: "Jean Bart"
+      D: "Tourville"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Dunkirk privateer saved a grain fleet from famine in 1694 under Louis XIV?"
+        answers:
+          A: "Robert Surcouf"
+          B: "Francis Drake"
+          C: "Jean Bart"
+          D: "Tourville"
+    difficulty: MEDIUM
+  - text: "Quel écrivain écossais a publié en 1883 le roman d'aventures « L'Île au trésor » ?"
+    answers:
+      A: "Jules Verne"
+      B: "Daniel Defoe"
+      C: "Robert Louis Stevenson"
+      D: "Herman Melville"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Scottish writer published the adventure novel \"Treasure Island\" in 1883?"
+        answers:
+          A: "Jules Verne"
+          B: "Daniel Defoe"
+          C: "Robert Louis Stevenson"
+          D: "Herman Melville"
+    difficulty: MEDIUM
+  - text: "Quel poisson des abysses attire ses proies grâce à un filament lumineux placé devant sa bouche ?"
+    answers:
+      A: "Le thon rouge"
+      B: "La baudroie abyssale"
+      C: "Le cabillaud"
+      D: "La dorade"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which deep-sea fish lures its prey with a glowing filament in front of its mouth?"
+        answers:
+          A: "The bluefin tuna"
+          B: "The deep-sea anglerfish"
+          C: "The cod"
+          D: "The sea bream"
+    difficulty: MEDIUM
+  - text: "Quel mammifère marin, au très grand cerveau, plonge à plus de 2 000 mètres pour chasser les calmars géants ?"
+    answers:
+      A: "L'orque"
+      B: "Le cachalot"
+      C: "Le lamantin"
+      D: "Le dauphin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which marine mammal, with a very large brain, dives over 2,000 meters to hunt giant squid?"
+        answers:
+          A: "The orca"
+          B: "The sperm whale"
+          C: "The manatee"
+          D: "The dolphin"
+    difficulty: MEDIUM
+  - text: "Quel pays possède les îles Galápagos, célèbres pour leur faune unique ?"
+    answers:
+      A: "Le Pérou"
+      B: "L'Équateur"
+      C: "La Colombie"
+      D: "Le Costa Rica"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country owns the Galápagos Islands, famous for their unique wildlife?"
+        answers:
+          A: "Peru"
+          B: "Ecuador"
+          C: "Colombia"
+          D: "Costa Rica"
+    difficulty: MEDIUM
+  - text: "Quel événement naturel a détruit une grande partie de Lisbonne le 1er novembre 1755 ?"
+    answers:
+      A: "Une éruption volcanique"
+      B: "Un ouragan"
+      C: "Un séisme suivi d'un tsunami"
+      D: "Une inondation"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which natural event destroyed much of Lisbon on November 1, 1755?"
+        answers:
+          A: "A volcanic eruption"
+          B: "A hurricane"
+          C: "An earthquake followed by a tsunami"
+          D: "A flood"
+    difficulty: MEDIUM
+  - text: "À quelle profondeur approximative repose l'épave du Titanic dans l'Atlantique Nord ?"
+    answers:
+      A: "Environ 1 000 mètres"
+      B: "Environ 2 000 mètres"
+      C: "Environ 3 800 mètres"
+      D: "Environ 8 000 mètres"
+    correctAnswer: C
+    translations:
+      en:
+        text: "At approximately what depth does the Titanic wreck lie in the North Atlantic?"
+        answers:
+          A: "About 1,000 meters"
+          B: "About 2,000 meters"
+          C: "About 3,800 meters"
+          D: "About 8,000 meters"
+    difficulty: HARD
+  - text: "Quel explorateur français, spécialiste de l'épave du Titanic, a péri en 2023 dans l'implosion du submersible Titan ?"
+    answers:
+      A: "Paul-Henri Nargeolet"
+      B: "Jean-Louis Michel"
+      C: "Philippe Cousteau"
+      D: "Nicolas Hulot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which French explorer, a specialist in the Titanic wreck, died in 2023 in the implosion of the submersible Titan?"
+        answers:
+          A: "Paul-Henri Nargeolet"
+          B: "Jean-Louis Michel"
+          C: "Philippe Cousteau"
+          D: "Nicolas Hulot"
+    difficulty: HARD
+  - text: "Quel sous-marin habité de l'Ifremer a réalisé en 1987 les premières plongées françaises sur l'épave du Titanic ?"
+    answers:
+      A: "Le Cyana"
+      B: "L'Alvin"
+      C: "Le Mir"
+      D: "Le Nautile"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Ifremer crewed submarine made the first French dives to the Titanic wreck in 1987?"
+        answers:
+          A: "Le Cyana"
+          B: "L'Alvin"
+          C: "Le Mir"
+          D: "Le Nautile"
+    difficulty: HARD
+  - text: "Quel pétrolier a provoqué en 1978 une marée noire dévastatrice sur les côtes de Bretagne ?"
+    answers:
+      A: "L'Erika"
+      B: "L'Amoco Cadiz"
+      C: "Le Prestige"
+      D: "L'Exxon Valdez"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which oil tanker caused a devastating oil spill along the coast of Brittany in 1978?"
+        answers:
+          A: "L'Erika"
+          B: "L'Amoco Cadiz"
+          C: "Le Prestige"
+          D: "L'Exxon Valdez"
+    difficulty: HARD
+  - text: "Comment appelle-t-on la prolifération d'algues due à un excès de nutriments, qui peut créer des zones mortes en mer ?"
+    answers:
+      A: "La bioluminescence"
+      B: "La sédimentation"
+      C: "L'eutrophisation"
+      D: "La salinisation"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name for the proliferation of algae caused by excess nutrients, which can create dead zones at sea?"
+        answers:
+          A: "Bioluminescence"
+          B: "Sedimentation"
+          C: "Eutrophication"
+          D: "Salinization"
+    difficulty: HARD
+  - text: "Quel phare du Finistère, bâti sur un rocher au large de l'île de Sein, était surnommé « l'Enfer » par ses gardiens ?"
+    answers:
+      A: "La Jument"
+      B: "Ar-Men"
+      C: "La Vieille"
+      D: "Le Four"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which lighthouse in Finistère, built on a rock off the island of Sein, was nicknamed \"Hell\" by its keepers?"
+        answers:
+          A: "La Jument"
+          B: "Ar-Men"
+          C: "La Vieille"
+          D: "Le Four"
+    difficulty: HARD
+  - text: "Quel phare breton situé à Plouguerneau est le plus haut d'Europe avec ses 82 mètres ?"
+    answers:
+      A: "Le phare de l'Île Vierge"
+      B: "Le phare de Gatteville"
+      C: "Le phare d'Eckmühl"
+      D: "Le phare de Cordouan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Breton lighthouse located at Plouguerneau is the tallest in Europe at 82 meters?"
+        answers:
+          A: "Île Vierge Lighthouse"
+          B: "Gatteville Lighthouse"
+          C: "Eckmühl Lighthouse"
+          D: "Cordouan Lighthouse"
+    difficulty: HARD
+  - text: "Quel navigateur anglais, corsaire d'Élisabeth Ire, a accompli le tour du monde entre 1577 et 1580 ?"
+    answers:
+      A: "James Cook"
+      B: "Henry Morgan"
+      C: "Walter Raleigh"
+      D: "Francis Drake"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which English navigator, a privateer for Elizabeth I, completed a circumnavigation of the globe between 1577 and 1580?"
+        answers:
+          A: "James Cook"
+          B: "Henry Morgan"
+          C: "Walter Raleigh"
+          D: "Francis Drake"
+    difficulty: HARD
+  - text: "Quel pirate gallois devenu gouverneur de la Jamaïque a pillé la ville de Panama en 1671 ?"
+    answers:
+      A: "Barbe Noire"
+      B: "Bartholomew Roberts"
+      C: "Calico Jack"
+      D: "Henry Morgan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Welsh pirate turned governor of Jamaica sacked the city of Panama in 1671?"
+        answers:
+          A: "Blackbeard"
+          B: "Bartholomew Roberts"
+          C: "Calico Jack"
+          D: "Henry Morgan"
+    difficulty: HARD
+  - text: "Quelle baie d'Alaska a été le théâtre en 1958 d'un tsunami dont la vague a atteint environ 500 mètres ?"
+    answers:
+      A: "La baie de Fundy"
+      B: "La baie de Chesapeake"
+      C: "La baie de Lituya"
+      D: "La baie de San Francisco"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Alaskan bay was the site in 1958 of a tsunami whose wave reached about 500 meters?"
+        answers:
+          A: "Fundy Bay"
+          B: "Chesapeake Bay"
+          C: "Lituya Bay"
+          D: "San Francisco Bay"
+    difficulty: HARD
+  - text: "En quelle année le pirate Barbe Noire a-t-il été tué lors d'un combat naval ?"
+    answers:
+      A: "1718"
+      B: "1618"
+      C: "1758"
+      D: "1818"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the pirate Blackbeard killed in a naval battle?"
+        answers:
+          A: "1718"
+          B: "1618"
+          C: "1758"
+          D: "1818"
+    difficulty: HARD
+  - text: "Quel point de l'océan Pacifique Sud est le plus éloigné de toute terre émergée ?"
+    answers:
+      A: "Le point Challenger"
+      B: "Le point Nemo"
+      C: "Le cap Horn"
+      D: "L'atoll de Bikini"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which point in the South Pacific Ocean is the farthest from any emerged land?"
+        answers:
+          A: "Challenger Point"
+          B: "Point Nemo"
+          C: "Cape Horn"
+          D: "Bikini Atoll"
+    difficulty: HARD
+  - text: "Quels deux hommes ont piloté le bathyscaphe Trieste lors de la plongée record de 1960 dans la fosse des Mariannes ?"
+    answers:
+      A: "Auguste Piccard et Don Walsh"
+      B: "Jacques Piccard et Robert Ballard"
+      C: "Jacques Piccard et Don Walsh"
+      D: "Auguste Piccard et Robert Ballard"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which two men piloted the bathyscaphe Trieste during the record 1960 dive in the Mariana Trench?"
+        answers:
+          A: "Auguste Piccard and Don Walsh"
+          B: "Jacques Piccard and Robert Ballard"
+          C: "Jacques Piccard and Don Walsh"
+          D: "Auguste Piccard and Robert Ballard"
+    difficulty: EXPERT
+  - text: "En quelle année les Nations unies ont-elles adopté le traité sur la haute mer, dit traité BBNJ ?"
+    answers:
+      A: "2004"
+      B: "2010"
+      C: "2023"
+      D: "2015"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the United Nations adopt the high seas treaty, known as the BBNJ treaty?"
+        answers:
+          A: "2004"
+          B: "2010"
+          C: "2023"
+          D: "2015"
+    difficulty: EXPERT
+  - text: "Quel pays a créé en 2010 dans l'océan Indien l'aire marine protégée des Chagos, alors la plus vaste du monde ?"
+    answers:
+      A: "Le Royaume-Uni"
+      B: "La France"
+      C: "Les États-Unis"
+      D: "L'Australie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country created the Chagos Marine Protected Area in the Indian Ocean in 2010, then the largest in the world?"
+        answers:
+          A: "The United Kingdom"
+          B: "France"
+          C: "The United States"
+          D: "Australia"
+    difficulty: EXPERT
+  - text: "Quel architecte a conçu le phare de Cordouan à la fin du XVIe siècle ?"
+    answers:
+      A: "Vauban"
+      B: "Joseph Vernet"
+      C: "Gustave Eiffel"
+      D: "Louis de Foix"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which architect designed the Cordouan lighthouse at the end of the 16th century?"
+        answers:
+          A: "Vauban"
+          B: "Joseph Vernet"
+          C: "Gustave Eiffel"
+          D: "Louis de Foix"
+    difficulty: EXPERT
+  - text: "Quelle femme pirate, compagne de Calico Jack, a échappé à la pendaison en déclarant être enceinte ?"
+    answers:
+      A: "Mary Read"
+      B: "Grace O'Malley"
+      C: "Jeanne de Clisson"
+      D: "Anne Bonny"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which female pirate, companion of Calico Jack, escaped hanging by declaring she was pregnant?"
+        answers:
+          A: "Mary Read"
+          B: "Grace O'Malley"
+          C: "Jeanne de Clisson"
+          D: "Anne Bonny"
+    difficulty: EXPERT
+  - text: "Quelle pirate irlandaise du XVIe siècle a commandé une flotte et rencontré la reine Élisabeth Ire ?"
+    answers:
+      A: "Anne Bonny"
+      B: "Grace O'Malley"
+      C: "Mary Read"
+      D: "Charlotte de Berry"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 16th-century Irish pirate commanded a fleet and met Queen Elizabeth I?"
+        answers:
+          A: "Anne Bonny"
+          B: "Grace O'Malley"
+          C: "Mary Read"
+          D: "Charlotte de Berry"
+    difficulty: EXPERT
+  - text: "En quelle année le cœlacanthe, poisson que l'on croyait disparu depuis 65 millions d'années, a-t-il été découvert vivant ?"
+    answers:
+      A: "1938"
+      B: "1912"
+      C: "1965"
+      D: "1980"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the coelacanth, a fish believed extinct for 65 million years, discovered alive?"
+        answers:
+          A: "1938"
+          B: "1912"
+          C: "1965"
+          D: "1980"
+    difficulty: EXPERT
+  - text: "Quel type de sources, découvertes en 1977 près des îles Galápagos, abrite une faune abyssale vivant sans lumière solaire ?"
+    answers:
+      A: "Les remontées d'upwelling"
+      B: "Les résurgences karstiques"
+      C: "Les sources hydrothermales"
+      D: "Les cheminées de sel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What type of vents, discovered in 1977 near the Galápagos Islands, host deep-sea fauna living without sunlight?"
+        answers:
+          A: "Upwelling currents"
+          B: "Karst springs"
+          C: "Hydrothermal vents"
+          D: "Salt chimneys"
+    difficulty: EXPERT
+  - text: "Quel mammifère marin détient le record de profondeur de plongée, mesuré à près de 3 000 mètres en 2014 ?"
+    answers:
+      A: "Le cachalot"
+      B: "L'éléphant de mer"
+      C: "La baleine à bec de Cuvier"
+      D: "La baleine bleue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which marine mammal holds the diving depth record, measured at nearly 3,000 meters in 2014?"
+        answers:
+          A: "The sperm whale"
+          B: "The elephant seal"
+          C: "Cuvier's beaked whale"
+          D: "The blue whale"
+    difficulty: EXPERT
+  - text: "Quelle île islandaise a été en partie ensevelie par une éruption en 1973 et évacuée en une seule nuit ?"
+    answers:
+      A: "Surtsey"
+      B: "Grímsey"
+      C: "Heimaey"
+      D: "Kolbeinsey"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Icelandic island was partly buried by an eruption in 1973 and evacuated in a single night?"
+        answers:
+          A: "Surtsey"
+          B: "Grímsey"
+          C: "Heimaey"
+          D: "Kolbeinsey"
+    difficulty: EXPERT
+  - text: "Quel détroit sépare l'Islande du Groenland ?"
+    answers:
+      A: "Le détroit de Béring"
+      B: "Le détroit de Magellan"
+      C: "Le détroit de Danemark"
+      D: "Le détroit de Malacca"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which strait separates Iceland from Greenland?"
+        answers:
+          A: "The Bering Strait"
+          B: "The Strait of Magellan"
+          C: "The Denmark Strait"
+          D: "The Strait of Malacca"
+    difficulty: EXPERT
+  - text: "Quelle hauteur record a atteint la plus haute vague mesurée par une bouée dans l'Atlantique Nord en 2013 ?"
+    answers:
+      A: "Environ 19 mètres"
+      B: "Environ 12 mètres"
+      C: "Environ 9 mètres"
+      D: "Environ 30 mètres"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What record height did the highest wave measured by a buoy in the North Atlantic in 2013 reach?"
+        answers:
+          A: "About 19 meters"
+          B: "About 12 meters"
+          C: "About 9 meters"
+          D: "About 30 meters"
+    difficulty: EXPERT
+  - text: "Quel céphalopode des abysses, décrit en 1903, est surnommé « calmar vampire » ?"
+    answers:
+      A: "Architeuthis dux"
+      B: "Enteroctopus dofleini"
+      C: "Vampyroteuthis infernalis"
+      D: "Nautilus pompilius"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which deep-sea cephalopod, described in 1903, is nicknamed the \"vampire squid\"?"
+        answers:
+          A: "Architeuthis dux"
+          B: "Enteroctopus dofleini"
+          C: "Vampyroteuthis infernalis"
+          D: "Nautilus pompilius"
+    difficulty: EXPERT
