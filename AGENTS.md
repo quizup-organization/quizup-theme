@@ -52,8 +52,13 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
   langues demandées ; `difficulties`/`excludeQuestionIds` sont des **préférences de tri**
   best-effort — jamais-jouées &gt; difficulté cible &gt; difficulté inconnue &gt; autres — et la
   `Question` retournée porte ses contenus localisés, le client choisit le sien)
-- `quizup-matchmaking` / `quizup-social` → `QuestionQuery.CountApprovedQuestionsByTopicAndLanguagesQuery`
-  (gardes de disponibilité linguistique avant d'ouvrir/apparier/valider un duel)
+- `quizup-bff` → `QuestionQuery.GetTopicLanguageCoverageQuery(topicId)` → `List<QuestionLanguageCoverage>`
+  (couverture de **toutes** les combinaisons non vides de langues, sémantique stricte « contenu dans
+  toutes les langues ») : préparée à la création d'un ticket d'appariement et portée par
+  `MatchmakingStartedEvent`, pour que la saga compare **localement** (aucune query bloquante dans un
+  handler de saga — voir `best-practices/.backend/anti-patterns.md` § 1). La garde
+  `CountApprovedQuestionsByTopicAndLanguagesQuery` reste disponible (comptage d'une combinaison) et
+  sert d'implémentation interne à la couverture.
 
 **Conso (événements)** : `quizup-theme-infrastructure` → `quizup-game-domain` (artifact Maven) —
 `QuestionDifficultyProjection` (`@EventHandler`) consomme `GameEvent.QuestionAnsweredEvent` du bus

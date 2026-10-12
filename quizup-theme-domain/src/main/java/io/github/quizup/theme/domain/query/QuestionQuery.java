@@ -55,4 +55,15 @@ public interface QuestionQuery {
             Set<Language> languages
     ) {
     }
+
+    /**
+     * Couverture linguistique d'un thème : pour chaque combinaison non vide des langues supportées,
+     * le nombre de questions approuvées présentes dans <b>toutes</b> les langues de la combinaison.
+     * Préparée par la façade (création d'un ticket d'appariement) et portée par l'événement de
+     * démarrage — la saga d'appariement compare localement, sans query bloquante.
+     */
+    record GetTopicLanguageCoverageQuery(
+            String topicId
+    ) {
+    }
 }

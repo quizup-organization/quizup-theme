@@ -2,6 +2,7 @@ package io.github.quizup.theme.application.handler.query;
 
 import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
+import io.github.quizup.theme.domain.model.QuestionLanguageCoverage;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import io.github.quizup.theme.domain.query.QuestionQuery;
 import org.junit.jupiter.api.Test;
@@ -32,5 +33,20 @@ class QuestionQueryHandlerTest {
 
         assertThat(questions).isEmpty();
         verify(repository).findRandomApprovedByTopicId("topic-1", 7, languages, difficulties, excluded);
+    }
+
+    @Test
+    void language_coverage_counts_every_non_empty_language_combination() {
+        when(repository.countApprovedByTopicAndLanguages("topic-1", Set.of(Language.FR))).thenReturn(10);
+        when(repository.countApprovedByTopicAndLanguages("topic-1", Set.of(Language.EN))).thenReturn(8);
+        when(repository.countApprovedByTopicAndLanguages("topic-1", Set.of(Language.FR, Language.EN))).thenReturn(7);
+
+        List<QuestionLanguageCoverage> coverage = handler.handle(
+                new QuestionQuery.GetTopicLanguageCoverageQuery("topic-1"));
+
+        assertThat(coverage).containsExactlyInAnyOrder(
+                new QuestionLanguageCoverage(Set.of(Language.FR), 10),
+                new QuestionLanguageCoverage(Set.of(Language.EN), 8),
+                new QuestionLanguageCoverage(Set.of(Language.FR, Language.EN), 7));
     }
 }
