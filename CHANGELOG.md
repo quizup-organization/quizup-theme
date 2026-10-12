@@ -1,3 +1,9 @@
+## [5.2.0](https://github.com/quizup-organization/quizup-theme/compare/v5.1.1...v5.2.0) (2026-10-12)
+
+### Features
+
+* **console:** consume quizup-sdk 4.5.2 (DLQ Axon par défaut + agent console) ([b96bb5a](https://github.com/quizup-organization/quizup-theme/commit/b96bb5afce58e4c08db523fa43dafac6a2dc51c6))
+
 ## [5.1.1](https://github.com/quizup-organization/quizup-theme/compare/v5.1.0...v5.1.1) (2026-10-12)
 
 ### Bug Fixes
