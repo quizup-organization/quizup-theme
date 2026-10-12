@@ -1,6 +1,7 @@
 package io.github.quizup.theme.infrastructure.config.seed;
 
 import io.github.quizup.microservice.core.domain.model.i18n.Language;
+import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
@@ -67,6 +68,63 @@ class SeedDataLoaderTest {
                     .hasSize(4)
                     .containsKey(question.correctAnswer());
         });
+    }
+
+    @Test
+    void parsesOptionalInitialDifficulty(@TempDir Path tempDir) throws IOException {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+        String[] levels = {"easy", "MEDIUM", "Hard", "EXPERT", "EASY", "medium", "HARD"};
+        for (int i = 0; i < levels.length; i++) {
+            yaml.append("""
+                      - text: "Q%d ?"
+                        difficulty: %s
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(i + 1, levels[i]));
+        }
+
+        TopicSeedDefinition definition = loader.load(writeYaml(tempDir, yaml.toString()));
+
+        assertThat(definition.questions()).extracting(QuestionSeedDefinition::difficulty)
+                .containsExactly(
+                        QuestionDifficulty.EASY,
+                        QuestionDifficulty.MEDIUM,
+                        QuestionDifficulty.HARD,
+                        QuestionDifficulty.EXPERT,
+                        QuestionDifficulty.EASY,
+                        QuestionDifficulty.MEDIUM,
+                        QuestionDifficulty.HARD);
+    }
+
+    @Test
+    void rejectsUnknownDifficulty(@TempDir Path tempDir) throws IOException {
+        StringBuilder yaml = new StringBuilder("""
+                topic:
+                  id: topic-x
+                  names:
+                    fr: "X"
+                  category: GENERAL
+                questions:
+                """);
+        for (int i = 1; i <= 7; i++) {
+            yaml.append("""
+                      - text: "Q%d ?"
+                        difficulty: %s
+                        answers: { A: a, B: b, C: c, D: d }
+                        correctAnswer: A
+                    """.formatted(i, i == 1 ? "LEGENDARY" : "EASY"));
+        }
+
+        assertThatThrownBy(() -> loader.load(writeYaml(tempDir, yaml.toString())))
+                .isInstanceOf(SeedDataValidationException.class)
+                .hasMessageContaining("difficulty");
     }
 
     @Test

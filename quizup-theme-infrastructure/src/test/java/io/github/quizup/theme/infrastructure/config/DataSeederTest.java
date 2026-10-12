@@ -5,6 +5,7 @@ import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionContent;
+import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicCategory;
@@ -17,6 +18,7 @@ import io.github.quizup.theme.domain.port.in.CreateTopicUseCase;
 import io.github.quizup.theme.domain.port.in.GetQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.GetTopicUseCase;
 import io.github.quizup.theme.domain.port.in.PublishTopicUseCase;
+import io.github.quizup.theme.domain.port.in.UpdateQuestionDifficultyUseCase;
 import io.github.quizup.theme.infrastructure.config.seed.QuestionSeedDefinition;
 import io.github.quizup.theme.infrastructure.config.seed.SeedDataLoader;
 import io.github.quizup.theme.infrastructure.config.seed.TopicSeedDefinition;
@@ -65,6 +67,8 @@ class DataSeederTest {
     @Mock
     private ApproveQuestionUseCase approveQuestionUseCase;
     @Mock
+    private UpdateQuestionDifficultyUseCase updateQuestionDifficultyUseCase;
+    @Mock
     private PublishTopicUseCase publishTopicUseCase;
     @Mock
     private GetTopicUseCase getTopicUseCase;
@@ -82,6 +86,7 @@ class DataSeederTest {
                 createQuestionUseCase,
                 addQuestionTranslationsUseCase,
                 approveQuestionUseCase,
+                updateQuestionDifficultyUseCase,
                 publishTopicUseCase,
                 getTopicUseCase,
                 getQuestionUseCase,
@@ -99,7 +104,8 @@ class DataSeederTest {
         seeder(false).run();
 
         verifyNoInteractions(checkTopicUseCase, createTopicUseCase, createQuestionUseCase,
-                addQuestionTranslationsUseCase, approveQuestionUseCase, publishTopicUseCase, getTopicUseCase,
+                addQuestionTranslationsUseCase, approveQuestionUseCase, updateQuestionDifficultyUseCase,
+                publishTopicUseCase, getTopicUseCase,
                 getQuestionUseCase, seedDataLoader);
     }
 
@@ -128,18 +134,77 @@ class DataSeederTest {
     }
 
     @Test
-    void skipsAlreadyPublishedTopic() {
+    void skipsAlreadyPublishedTopicWhenSeedIsFullyApplied() {
         when(seedDataLoader.loadAll()).thenReturn(List.of(definition("topic-published", "Q1 ?")));
         when(checkTopicUseCase.existsByIdAndWait("topic-published")).thenReturn(true);
         when(getTopicUseCase.getById("topic-published"))
                 .thenReturn(CompletableFuture.completedFuture(topic("topic-published", TopicStatus.PUBLISHED, 20)));
         when(getQuestionUseCase.getByTopicId("topic-published"))
-                .thenReturn(CompletableFuture.completedFuture(List.of()));
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED))));
 
         seeder(true).run();
 
         verifyNoInteractions(createTopicUseCase, createQuestionUseCase, approveQuestionUseCase,
-                publishTopicUseCase, addQuestionTranslationsUseCase);
+                updateQuestionDifficultyUseCase, publishTopicUseCase, addQuestionTranslationsUseCase);
+        assertThat(seedOutcomeCount("skipped")).isEqualTo(1.0);
+    }
+
+    @Test
+    void addsMissingQuestionsToPublishedTopicWithoutRepublishing() {
+        when(seedDataLoader.loadAll())
+                .thenReturn(List.of(definition("topic-published", "Q1 ?", "Q2 ?")));
+        when(checkTopicUseCase.existsByIdAndWait("topic-published")).thenReturn(true);
+        when(getTopicUseCase.getById("topic-published"))
+                .thenReturn(CompletableFuture.completedFuture(topic("topic-published", TopicStatus.PUBLISHED, 1)));
+        when(getQuestionUseCase.getByTopicId("topic-published"))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED))));
+
+        seeder(true).run();
+
+        verify(createQuestionUseCase).createAndWait(
+                anyString(), eq("topic-published"), anyMap(),
+                eq(QuestionChoice.A), isNull(), eq(SYSTEM));
+        verify(approveQuestionUseCase).approveAndWait(anyString(), eq(SYSTEM));
+        verify(publishTopicUseCase, never()).publishAndWait(anyString(), anyString());
+        assertThat(seedOutcomeCount("repaired")).isEqualTo(1.0);
+    }
+
+    @Test
+    void appliesSeedDifficultyOnCreation() {
+        when(seedDataLoader.loadAll()).thenReturn(List.of(definitionWith("topic-new", List.of(
+                seedQuestion("Q1 ?", null, QuestionDifficulty.EASY)))));
+        when(checkTopicUseCase.existsByIdAndWait("topic-new")).thenReturn(false);
+        when(getTopicUseCase.getById("topic-new"))
+                .thenReturn(CompletableFuture.completedFuture(topic("topic-new", TopicStatus.DRAFT, 1)));
+        when(getQuestionUseCase.getByTopicId("topic-new"))
+                .thenReturn(CompletableFuture.completedFuture(List.of()))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED))));
+
+        seeder(true).run();
+
+        verify(updateQuestionDifficultyUseCase).updateDifficultyAndWait(anyString(), eq(QuestionDifficulty.EASY));
+    }
+
+    @Test
+    void initializesDifficultyOnlyWhenQuestionHasNoneYet() {
+        when(seedDataLoader.loadAll()).thenReturn(List.of(definitionWith("topic-draft", List.of(
+                seedQuestion("Q1 ?", null, QuestionDifficulty.EASY),
+                seedQuestion("Q2 ?", null, QuestionDifficulty.HARD)))));
+        when(checkTopicUseCase.existsByIdAndWait("topic-draft")).thenReturn(true);
+        when(getTopicUseCase.getById("topic-draft"))
+                .thenReturn(CompletableFuture.completedFuture(topic("topic-draft", TopicStatus.DRAFT, 2)));
+        when(getQuestionUseCase.getByTopicId("topic-draft"))
+                .thenReturn(CompletableFuture.completedFuture(List.of(
+                        question("q-1", "Q1 ?", QuestionStatus.APPROVED),
+                        question("q-2", "Q2 ?", QuestionStatus.APPROVED, QuestionDifficulty.MEDIUM))));
+
+        seeder(true).run();
+
+        verify(updateQuestionDifficultyUseCase).updateDifficultyAndWait("q-1", QuestionDifficulty.EASY);
+        verify(updateQuestionDifficultyUseCase, never()).updateDifficultyAndWait(eq("q-2"), any());
     }
 
     @Test
@@ -278,6 +343,10 @@ class DataSeederTest {
     }
 
     private static QuestionSeedDefinition seedQuestion(String text, String imageUrl) {
+        return seedQuestion(text, imageUrl, null);
+    }
+
+    private static QuestionSeedDefinition seedQuestion(String text, String imageUrl, QuestionDifficulty difficulty) {
         Map<QuestionChoice, String> answers = new EnumMap<>(QuestionChoice.class);
         answers.put(QuestionChoice.A, "a");
         answers.put(QuestionChoice.B, "b");
@@ -286,7 +355,7 @@ class DataSeederTest {
 
         Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
         contents.put(Language.FR, new QuestionContent(Language.FR, text, answers));
-        return new QuestionSeedDefinition(contents, QuestionChoice.A, imageUrl);
+        return new QuestionSeedDefinition(contents, QuestionChoice.A, imageUrl, difficulty);
     }
 
     private static Topic topic(String topicId, TopicStatus status, int approvedCount) {
@@ -311,6 +380,16 @@ class DataSeederTest {
     }
 
     private static Question question(String questionId, String text, String imageUrl, QuestionStatus status) {
+        return question(questionId, text, imageUrl, status, null);
+    }
+
+    private static Question question(String questionId, String text, QuestionStatus status,
+                                     QuestionDifficulty difficulty) {
+        return question(questionId, text, null, status, difficulty);
+    }
+
+    private static Question question(String questionId, String text, String imageUrl, QuestionStatus status,
+                                     QuestionDifficulty difficulty) {
         Map<QuestionChoice, String> answers = new EnumMap<>(QuestionChoice.class);
         answers.put(QuestionChoice.A, "a");
         answers.put(QuestionChoice.B, "b");
@@ -327,6 +406,7 @@ class DataSeederTest {
                 .imageUrl(imageUrl)
                 .correctAnswer(QuestionChoice.A)
                 .status(status)
+                .difficulty(difficulty)
                 .creatorId(SYSTEM)
                 .createdAt(Instant.now())
                 .build();

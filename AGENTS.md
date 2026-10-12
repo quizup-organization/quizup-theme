@@ -106,15 +106,24 @@ lorsque la difficulté calculée change, la projection envoie une
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
   `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
-  `correctAnswer`, `imageUrl` optionnelle, `translations` optionnelle : `{ en: { text, answers } }`).
+  `correctAnswer`, `imageUrl` optionnelle, `difficulty` optionnelle : `EASY|MEDIUM|HARD|EXPERT`,
+  `translations` optionnelle : `{ en: { text, answers } }`).
   Le texte de premier niveau est **le contenu français** ; `translations` porte les autres langues
   (pas de langue source explicite). Validation par `SeedDataLoader` : l'unicité de la paire
   `(text, imageUrl)` est exigée par fichier (clé de réparation), une traduction `fr` est refusée,
   un fichier invalide est loggé et ignoré sans bloquer les autres.
+- **Difficulté initiale du seed** : la difficulté par défaut est **calculée** depuis les statistiques
+  de réponses (`QuestionRules.difficultyFor`, seuils 80/60/40 %, min. 10 réponses —
+  `QuestionDifficultyProjection`). Le seed porte une difficulté **initiale optionnelle**, posée par
+  le seeder (`UpdateQuestionDifficultyCommand`) **uniquement si la question n'a encore aucune
+  difficulté** : elle est remplacée par le calcul réel dès que l'échantillon est suffisant (aucun
+  écrasement d'une classification issue des réponses). Garde-fou : `SeedDifficultyBalanceTest`
+  (25 % ±1 par niveau, proportionnel pour les thèmes > 100 questions).
 - **Seeder auto-réparateur** (`DataSeeder`) : thème absent → création + questions + approbation +
-  publication ; `PUBLISHED` → remplissage des traductions manquantes ; `DRAFT` → création des
+  publication ; `PUBLISHED` → complétion sans republication (questions manquantes créées et
+  approuvées, traductions et difficultés initiales manquantes ajoutées) ; `DRAFT` → création des
   questions manquantes (clé stable = `(text, imageUrl)`, les IDs de questions étant aléatoires),
-  approbation des non-approuvées, traductions manquantes puis publication ;
+  approbation des non-approuvées, traductions et difficultés manquantes puis publication ;
   `AggregateStreamCreationException` toléré (projection en retard) ; erreurs isolées par thème.
   **Échec transitoire** (`CommandDispatchException`/connection refusée — instance Axon périmée
   pendant un rollout) → jusqu'à 4 tentatives du thème (backoff 2s×n) ; le seeding étant
@@ -143,6 +152,7 @@ lorsque la difficulté calculée change, la projection envoie une
   `SeedTopicCoverUniquenessTest`.
 - **Images** : exclusivement Wikimedia Commons libres de droit ; toute nouvelle URL de couverture
   ou de question doit figurer dans `seed/CREDITS.md` (auteur + licence).
-- **Seed déjà publié en prod** : le seeder est idempotent par `(text, imageUrl)` et **ignore un
-  thème publié** — modifier les réponses ou la couverture d'un thème existant exige un **reset
+- **Seed déjà publié en prod** : le seeder est idempotent par `(text, imageUrl)` et peut **compléter**
+  un thème publié (questions manquantes, traductions, difficulté initiale) sans reset ; en revanche
+  **modifier** les réponses, les textes ou la couverture d'un thème existant exige un **reset
   data** (`devops/quizup-gitops/scripts/reset.sh`, § 7 du AGENTS gitops) coordonné avec la release.

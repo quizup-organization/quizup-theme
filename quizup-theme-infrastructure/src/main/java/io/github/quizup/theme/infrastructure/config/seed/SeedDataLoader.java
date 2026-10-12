@@ -5,6 +5,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionContent;
+import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.infrastructure.properties.AppProperties;
 import org.slf4j.Logger;
@@ -155,6 +156,7 @@ public class SeedDataLoader {
             if (!answers.containsKey(correctAnswer)) {
                 throw new SeedDataValidationException(context + ".correctAnswer must match one of the answers");
             }
+            QuestionDifficulty difficulty = parseDifficulty(raw.difficulty(), context + ".difficulty");
 
             Map<Language, QuestionContent> contents = new EnumMap<>(Language.class);
             contents.put(Language.FR, new QuestionContent(Language.FR, text, answers));
@@ -167,7 +169,7 @@ public class SeedDataLoader {
                         context + ".text/.imageUrl is duplicated (same text and imageUrl as questions[" + firstIndex + "]): " + text);
             }
 
-            questions.add(new QuestionSeedDefinition(contents, correctAnswer, identity.imageUrl()));
+            questions.add(new QuestionSeedDefinition(contents, correctAnswer, identity.imageUrl(), difficulty));
         }
 
         return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl, List.copyOf(questions));
@@ -268,6 +270,23 @@ public class SeedDataLoader {
         }
     }
 
+    /**
+     * Difficulté initiale optionnelle : absente = la question sera classée par le calcul sur
+     * les réponses réelles.
+     */
+    private QuestionDifficulty parseDifficulty(String rawDifficulty, String context) {
+        if (rawDifficulty == null || rawDifficulty.isBlank()) {
+            return null;
+        }
+        String value = rawDifficulty.trim();
+        try {
+            return QuestionDifficulty.valueOf(value.toUpperCase(Locale.ROOT));
+        } catch (IllegalArgumentException e) {
+            throw new SeedDataValidationException(context + " '" + value + "' is invalid (allowed: "
+                    + List.of(QuestionDifficulty.values()) + ")", e);
+        }
+    }
+
     private String validateImageUrl(String rawUrl, String context) {
         if (rawUrl == null || rawUrl.isBlank()) {
             return null;
@@ -305,6 +324,7 @@ public class SeedDataLoader {
                            String imageUrl,
                            Map<String, String> answers,
                            String correctAnswer,
+                           String difficulty,
                            Map<String, RawSeedTranslation> translations) {
     }
 

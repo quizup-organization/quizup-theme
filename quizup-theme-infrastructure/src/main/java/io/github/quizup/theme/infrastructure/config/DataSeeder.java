@@ -18,6 +18,7 @@ import io.github.quizup.theme.domain.port.in.CreateTopicUseCase;
 import io.github.quizup.theme.domain.port.in.GetQuestionUseCase;
 import io.github.quizup.theme.domain.port.in.GetTopicUseCase;
 import io.github.quizup.theme.domain.port.in.PublishTopicUseCase;
+import io.github.quizup.theme.domain.port.in.UpdateQuestionDifficultyUseCase;
 import io.github.quizup.theme.infrastructure.config.seed.QuestionIdentity;
 import io.github.quizup.theme.infrastructure.config.seed.QuestionSeedDefinition;
 import io.github.quizup.theme.infrastructure.config.seed.SeedDataLoader;
@@ -52,9 +53,13 @@ import java.util.concurrent.CompletionException;
  * Comportement :
  * - un fichier YAML invalide est ignore par {@link SeedDataLoader} sans bloquer les autres ;
  * - un theme absent est cree puis publie ;
- * - un theme deja publie est ignore ;
+ * - un theme deja publie est complete : questions manquantes creees et approuvees, traductions
+ *   et difficultes initiales manquantes ajoutees (jamais de modification des questions
+ *   existantes) ;
  * - un theme en DRAFT est repare (questions manquantes creees, questions non approuvees
  *   approuvees puis publication) ;
+ * - la difficulte du seed n'est posee que si la question n'a pas encore de difficulte calculee
+ *   (le calcul sur les reponses reelles reste maitre) ;
  * - un echec sur un theme est isole et n'empeche pas le seeding des suivants.
  * <p>
  * Le seeding demarre apres {@link ApplicationReadyEvent}, dans un thread dedie : le readiness
@@ -79,6 +84,7 @@ public class DataSeeder {
     private final CreateQuestionUseCase createQuestionUseCase;
     private final AddQuestionTranslationsUseCase addQuestionTranslationsUseCase;
     private final ApproveQuestionUseCase approveQuestionUseCase;
+    private final UpdateQuestionDifficultyUseCase updateQuestionDifficultyUseCase;
     private final PublishTopicUseCase publishTopicUseCase;
     private final GetTopicUseCase getTopicUseCase;
     private final GetQuestionUseCase getQuestionUseCase;
@@ -95,6 +101,7 @@ public class DataSeeder {
                       CreateQuestionUseCase createQuestionUseCase,
                       AddQuestionTranslationsUseCase addQuestionTranslationsUseCase,
                       ApproveQuestionUseCase approveQuestionUseCase,
+                      UpdateQuestionDifficultyUseCase updateQuestionDifficultyUseCase,
                       PublishTopicUseCase publishTopicUseCase,
                       GetTopicUseCase getTopicUseCase,
                       GetQuestionUseCase getQuestionUseCase,
@@ -106,6 +113,7 @@ public class DataSeeder {
         this.createQuestionUseCase = createQuestionUseCase;
         this.addQuestionTranslationsUseCase = addQuestionTranslationsUseCase;
         this.approveQuestionUseCase = approveQuestionUseCase;
+        this.updateQuestionDifficultyUseCase = updateQuestionDifficultyUseCase;
         this.publishTopicUseCase = publishTopicUseCase;
         this.getTopicUseCase = getTopicUseCase;
         this.getQuestionUseCase = getQuestionUseCase;
@@ -245,20 +253,32 @@ public class DataSeeder {
         Map<QuestionIdentity, Question> existingByIdentity = findQuestionsByIdentity(topicId);
 
         if (topic.status() == TopicStatus.PUBLISHED) {
+            int createdQuestions = 0;
             int translationsAdded = 0;
+            int difficultiesInitialized = 0;
             for (QuestionSeedDefinition question : definition.questions()) {
                 Question existing = existingByIdentity.get(QuestionIdentity.of(question));
-                if (existing != null) {
+                if (existing == null) {
+                    if (createQuestion(topicId, question) != null) {
+                        createdQuestions++;
+                    }
+                } else {
                     translationsAdded += addMissingTranslations(existing, question);
+                    difficultiesInitialized += initializeMissingDifficulty(existing, question);
                 }
             }
-            logger.info("Topic {} is already published ({} translation(s) added)", topicId, translationsAdded);
-            return translationsAdded > 0 ? TopicSeedOutcome.REPAIRED : TopicSeedOutcome.SKIPPED;
+            logger.info("Topic {} is already published ({} question(s) added, {} translation(s) added, "
+                            + "{} difficulty(ies) initialized)",
+                    topicId, createdQuestions, translationsAdded, difficultiesInitialized);
+            return createdQuestions > 0 || translationsAdded > 0 || difficultiesInitialized > 0
+                    ? TopicSeedOutcome.REPAIRED
+                    : TopicSeedOutcome.SKIPPED;
         }
 
         int createdQuestions = 0;
         int approvedQuestions = 0;
         int translationsAdded = 0;
+        int difficultiesInitialized = 0;
 
         for (QuestionSeedDefinition question : definition.questions()) {
             Question existing = existingByIdentity.remove(QuestionIdentity.of(question));
@@ -273,6 +293,7 @@ public class DataSeeder {
                     approvedQuestions++;
                 }
                 translationsAdded += addMissingTranslations(existing, question);
+                difficultiesInitialized += initializeMissingDifficulty(existing, question);
             }
         }
 
@@ -289,13 +310,16 @@ public class DataSeeder {
             }
         }
 
-        logger.info("Seeded topic '{}' ({}): {} question(s) created, {} question(s) approved, {} translation(s) added",
-                definition.displayName(), topicId, createdQuestions, approvedQuestions, translationsAdded);
+        logger.info("Seeded topic '{}' ({}): {} question(s) created, {} question(s) approved, "
+                        + "{} translation(s) added, {} difficulty(ies) initialized",
+                definition.displayName(), topicId, createdQuestions, approvedQuestions,
+                translationsAdded, difficultiesInitialized);
 
         if (createdTopic) {
             return TopicSeedOutcome.CREATED;
         }
         return createdQuestions > 0 || approvedQuestions > 0 || translationsAdded > 0
+                || difficultiesInitialized > 0
                 ? TopicSeedOutcome.REPAIRED
                 : TopicSeedOutcome.SKIPPED;
     }
@@ -319,7 +343,30 @@ public class DataSeeder {
         }
 
         approveQuestion(questionId);
+        applySeedDifficulty(questionId, question);
         return questionId;
+    }
+
+    /**
+     * Pose la difficulté initiale du seed sur une question fraîchement créée.
+     */
+    private void applySeedDifficulty(String questionId, QuestionSeedDefinition question) {
+        if (question.difficulty() == null) {
+            return;
+        }
+        updateQuestionDifficultyUseCase.updateDifficultyAndWait(questionId, question.difficulty());
+    }
+
+    /**
+     * Initialise la difficulté d'une question existante uniquement si elle n'a pas encore été
+     * calculée : le seed ne remplace jamais une classification issue des réponses réelles.
+     */
+    private int initializeMissingDifficulty(Question existing, QuestionSeedDefinition question) {
+        if (existing.difficulty() != null || question.difficulty() == null) {
+            return 0;
+        }
+        updateQuestionDifficultyUseCase.updateDifficultyAndWait(existing.questionId(), question.difficulty());
+        return 1;
     }
 
     private int addMissingTranslations(Question existing, QuestionSeedDefinition question) {
