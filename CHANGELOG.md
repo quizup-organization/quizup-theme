@@ -1,3 +1,9 @@
+## [5.3.0](https://github.com/quizup-organization/quizup-theme/compare/v5.2.0...v5.3.0) (2026-10-12)
+
+### Features
+
+* **console:** consume quizup-sdk 4.6.0 (build-info + API interne event store/scheduled) ([93efed5](https://github.com/quizup-organization/quizup-theme/commit/93efed51a8f0230ef4248b701a13ec776ef6e5a9))
+
 ## [5.2.0](https://github.com/quizup-organization/quizup-theme/compare/v5.1.1...v5.2.0) (2026-10-12)
 
 ### Features
