@@ -1,3 +1,9 @@
+## [5.7.0](https://github.com/quizup-organization/quizup-theme/compare/v5.6.0...v5.7.0) (2026-10-12)
+
+### Features
+
+* **theme:** questions illustrées pour les 28 nouveaux thèmes ([32ffabb](https://github.com/quizup-organization/quizup-theme/commit/32ffabb1979b0a472836101b36d844d7a952b257))
+
 ## [5.6.0](https://github.com/quizup-organization/quizup-theme/compare/v5.5.0...v5.6.0) (2026-10-12)
 
 ### Features
