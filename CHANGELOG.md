@@ -1,3 +1,9 @@
+## [5.9.0](https://github.com/quizup-organization/quizup-theme/compare/v5.8.0...v5.9.0) (2026-10-13)
+
+### Features
+
+* **theme:** comptage des références d'images (console média admin) ([03cc6b9](https://github.com/quizup-organization/quizup-theme/commit/03cc6b90bed376174bcae5ba85b7fe5d9993d3ee))
+
 ## [5.8.0](https://github.com/quizup-organization/quizup-theme/compare/v5.7.0...v5.8.0) (2026-10-12)
 
 ### Features
