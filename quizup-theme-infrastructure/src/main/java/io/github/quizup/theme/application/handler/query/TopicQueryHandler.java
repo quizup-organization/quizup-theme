@@ -2,10 +2,12 @@ package io.github.quizup.theme.application.handler.query;
 
 import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.exception.TopicProblems;
+import io.github.quizup.theme.domain.model.ImageReferenceCount;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicFacetCount;
 import io.github.quizup.theme.domain.model.TopicPage;
 import io.github.quizup.theme.domain.model.TopicSort;
+import io.github.quizup.theme.domain.port.out.ImageReferenceRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicRepositoryPort;
 import io.github.quizup.theme.domain.query.TopicQuery;
 import io.github.quizup.theme.domain.util.SearchText;
@@ -18,9 +20,12 @@ import java.util.List;
 public class TopicQueryHandler {
 
     private final TopicRepositoryPort topicRepositoryPort;
+    private final ImageReferenceRepositoryPort imageReferenceRepositoryPort;
 
-    public TopicQueryHandler(TopicRepositoryPort topicRepositoryPort) {
+    public TopicQueryHandler(TopicRepositoryPort topicRepositoryPort,
+                             ImageReferenceRepositoryPort imageReferenceRepositoryPort) {
         this.topicRepositoryPort = topicRepositoryPort;
+        this.imageReferenceRepositoryPort = imageReferenceRepositoryPort;
     }
 
     @QueryHandler
@@ -63,6 +68,11 @@ public class TopicQueryHandler {
     @QueryHandler
     public TopicPage handle(TopicQuery.GetTopicsByCreatorQuery query) {
         return topicRepositoryPort.findByCreatorId(query.creatorId(), query.page(), query.size());
+    }
+
+    @QueryHandler
+    public List<ImageReferenceCount> handle(TopicQuery.CountImageReferencesQuery query) {
+        return imageReferenceRepositoryPort.countByImageUrls(query.imageUrls());
     }
 
     private static String normalize(String nameQuery) {

@@ -77,4 +77,12 @@ public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, Str
     int countApprovedByTopicAndLanguages(@Param("topicId") String topicId,
                                          @Param("languages") Collection<String> languages,
                                          @Param("languageCount") long languageCount);
+
+    @Query("""
+            select q.imageUrl, count(q)
+            from QuestionEntity q
+            where q.imageUrl in :urls
+            group by q.imageUrl
+            """)
+    List<Object[]> countByImageUrlIn(@Param("urls") Collection<String> urls);
 }

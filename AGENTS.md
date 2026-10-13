@@ -59,6 +59,11 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
   handler de saga — voir `best-practices/.backend/anti-patterns.md` § 1). La garde
   `CountApprovedQuestionsByTopicAndLanguagesQuery` reste disponible (comptage d'une combinaison) et
   sert d'implémentation interne à la couverture.
+- `quizup-bff` → `TopicQuery.CountImageReferencesQuery(imageUrls)` → `List<ImageReferenceCount>` :
+  comptage batch des références d'images du read model (couverture et bannière de sujet,
+  illustration de question), réservé à la **console média admin** du BFF (`/api/admin/media`,
+  `ROLE_ADMIN` — une suppression d'objet référencé est bloquée). Port sortant
+  `ImageReferenceRepositoryPort`.
 
 **Conso (événements)** : `quizup-theme-infrastructure` → `quizup-game-domain` (artifact Maven) —
 `QuestionDifficultyProjection` (`@EventHandler`) consomme `GameEvent.QuestionAnsweredEvent` du bus

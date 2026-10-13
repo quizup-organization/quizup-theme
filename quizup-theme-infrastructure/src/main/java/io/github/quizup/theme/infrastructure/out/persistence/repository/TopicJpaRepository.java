@@ -42,4 +42,20 @@ public interface TopicJpaRepository extends JpaRepository<TopicEntity, String>, 
                                         @Param("topicIds") Collection<String> topicIds);
 
     Page<TopicEntity> findByCreatorIdOrderByUpdatedAtDesc(String creatorId, Pageable pageable);
+
+    @Query("""
+            select t.imageUrl, count(t)
+            from TopicEntity t
+            where t.imageUrl in :urls
+            group by t.imageUrl
+            """)
+    List<Object[]> countByImageUrlIn(@Param("urls") Collection<String> urls);
+
+    @Query("""
+            select t.bannerUrl, count(t)
+            from TopicEntity t
+            where t.bannerUrl in :urls
+            group by t.bannerUrl
+            """)
+    List<Object[]> countByBannerUrlIn(@Param("urls") Collection<String> urls);
 }

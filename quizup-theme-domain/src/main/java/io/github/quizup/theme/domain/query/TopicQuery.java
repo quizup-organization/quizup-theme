@@ -50,6 +50,14 @@ public interface TopicQuery {
     }
 
     /**
+     * Comptage, pour chaque URL demandée, des références dans le read model theme :
+     * couverture et bannière de sujet, illustration de question (tous statuts confondus).
+     * Réservée aux surfaces d'administration (console média du BFF).
+     */
+    record CountImageReferencesQuery(List<String> imageUrls) implements TopicQuery {
+    }
+
+    /**
      * Query pour vérifier l'existence d'un thème
      */
     record TopicExistsByIdQuery(

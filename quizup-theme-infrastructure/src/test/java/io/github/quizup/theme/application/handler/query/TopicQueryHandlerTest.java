@@ -1,9 +1,11 @@
 package io.github.quizup.theme.application.handler.query;
 
+import io.github.quizup.theme.domain.model.ImageReferenceCount;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.domain.model.TopicFacetCount;
 import io.github.quizup.theme.domain.model.TopicPage;
+import io.github.quizup.theme.domain.port.out.ImageReferenceRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicRepositoryPort;
 import io.github.quizup.theme.domain.query.TopicQuery;
 import org.junit.jupiter.api.Test;
@@ -18,7 +20,8 @@ import static org.mockito.Mockito.when;
 class TopicQueryHandlerTest {
 
     private final TopicRepositoryPort repository = mock(TopicRepositoryPort.class);
-    private final TopicQueryHandler handler = new TopicQueryHandler(repository);
+    private final ImageReferenceRepositoryPort imageReferenceRepository = mock(ImageReferenceRepositoryPort.class);
+    private final TopicQueryHandler handler = new TopicQueryHandler(repository, imageReferenceRepository);
 
     @Test
     void facets_normalizes_text_and_passes_scope() {
@@ -63,5 +66,16 @@ class TopicQueryHandlerTest {
 
         assertThat(handler.handle(new TopicQuery.GetTopicsByCreatorQuery("u1", 0, 20)))
                 .isSameAs(page);
+    }
+
+    @Test
+    void image_references_delegates_to_repository() {
+        List<String> urls = List.of("https://media.quizup.cnadjim.fr/quizup-media/uploads/a.jpg");
+        List<ImageReferenceCount> counts = List.of(new ImageReferenceCount(urls.getFirst(), 3));
+        when(imageReferenceRepository.countByImageUrls(urls)).thenReturn(counts);
+
+        assertThat(handler.handle(new TopicQuery.CountImageReferencesQuery(urls)))
+                .containsExactlyElementsOf(counts);
+        verify(imageReferenceRepository).countByImageUrls(urls);
     }
 }
