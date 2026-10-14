@@ -30,6 +30,7 @@ public final class TopicEntityMapper {
                 entity.getCreatorId(),
                 entity.getUpdatedBy(),
                 entity.getFollowersCounter(),
+                entity.getGamesCounter(),
                 entity.getQuestionsCounter(),
                 entity.getEmoji(),
                 entity.getColor(),
@@ -56,6 +57,7 @@ public final class TopicEntityMapper {
         topicEntity.setCreatorId(topic.creatorId());
         topicEntity.setUpdatedBy(topic.updatedBy());
         topicEntity.setFollowersCounter(topic.followersCounter());
+        topicEntity.setGamesCounter(topic.gamesCounter());
         topicEntity.setQuestionsCounter(topic.questionsCounter());
         topicEntity.setEmoji(topic.emoji());
         topicEntity.setColor(topic.color());

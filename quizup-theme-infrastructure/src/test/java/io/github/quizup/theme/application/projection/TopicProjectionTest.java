@@ -6,6 +6,7 @@ import io.github.quizup.theme.domain.model.Question;
 import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicFollowerRefRepositoryPort;
+import io.github.quizup.theme.domain.port.out.TopicPlayedGameRefRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicRepositoryPort;
 import org.axonframework.eventhandling.EventHandler;
 import org.junit.jupiter.api.Test;
@@ -27,9 +28,11 @@ class TopicProjectionTest {
     private final TopicRepositoryPort topicRepository = mock(TopicRepositoryPort.class);
     private final TopicFollowerRefRepositoryPort followerRefRepository =
             mock(TopicFollowerRefRepositoryPort.class);
+    private final TopicPlayedGameRefRepositoryPort playedGameRefRepository =
+            mock(TopicPlayedGameRefRepositoryPort.class);
     private final QuestionRepositoryPort questionRepository = mock(QuestionRepositoryPort.class);
     private final TopicProjection projection = new TopicProjection(
-            topicRepository, followerRefRepository, questionRepository);
+            topicRepository, followerRefRepository, playedGameRefRepository, questionRepository);
 
     @Test
     void questionTextUpdate_bumpsTopicUpdatedAt() {
@@ -70,5 +73,22 @@ class TopicProjectionTest {
                         .equals(QuestionEvent.QuestionDifficultyUpdatedEvent.class));
 
         assertThat(handled).isFalse();
+    }
+
+    @Test
+    void topicCreated_initialisesGamesCounterFromKnownReferences() {
+        // Une partie peut précéder la projection de son thème (flux distincts) : les références
+        // déjà connues sont rattrapées à la création.
+        when(playedGameRefRepository.countByTopicId("topic-1")).thenReturn(2);
+
+        projection.on(new io.github.quizup.theme.domain.event.TopicEvent.TopicCreatedEvent(
+                "topic-1", java.util.Map.of(Language.FR, "Sujet"), "desc",
+                io.github.quizup.theme.domain.model.TopicCategory.GENERAL,
+                null, null, null, "creator-1", AT));
+
+        ArgumentCaptor<Topic> captor = ArgumentCaptor.forClass(Topic.class);
+        verify(topicRepository).save(captor.capture());
+        assertThat(captor.getValue().gamesCounter()).isEqualTo(2);
+        assertThat(captor.getValue().followersCounter()).isZero();
     }
 }

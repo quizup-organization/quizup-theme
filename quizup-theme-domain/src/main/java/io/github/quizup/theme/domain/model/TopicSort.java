@@ -6,6 +6,8 @@ package io.github.quizup.theme.domain.model;
 public enum TopicSort {
     /** Les plus suivis d'abord. */
     POPULAR,
+    /** Les plus joués d'abord (parties créées sur le thème, tous joueurs confondus). */
+    MOST_PLAYED,
     /** Ordre alphabétique. */
     ALPHA,
     /** Les plus récemment publiés / mis à jour d'abord (accueil « nouveaux thèmes »). */

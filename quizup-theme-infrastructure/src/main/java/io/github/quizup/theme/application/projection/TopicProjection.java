@@ -9,6 +9,7 @@ import io.github.quizup.theme.domain.model.Topic;
 import io.github.quizup.theme.domain.model.TopicStatus;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicFollowerRefRepositoryPort;
+import io.github.quizup.theme.domain.port.out.TopicPlayedGameRefRepositoryPort;
 import io.github.quizup.theme.domain.port.out.TopicRepositoryPort;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
@@ -23,9 +24,10 @@ import java.util.function.UnaryOperator;
 /**
  * Projection des thèmes.
  *
- * <p>Les compteurs ({@code followersCounter}, {@code questionsCounter}) sont <b>recalculés</b>
- * à partir de leur source (ensemble d'abonnés / questions par statut) plutôt qu'incrémentés :
- * l'opération est idempotente et rejouable sans dérive.</p>
+ * <p>Les compteurs ({@code followersCounter}, {@code gamesCounter}, {@code questionsCounter})
+ * sont <b>recalculés</b> à partir de leur source (ensemble d'abonnés / parties connues /
+ * questions par statut) plutôt qu'incrémentés : l'opération est idempotente et rejouable sans
+ * dérive.</p>
  */
 @Component
 @ProcessingGroup("theme-projection")
@@ -33,13 +35,16 @@ public class TopicProjection {
 
     private final TopicRepositoryPort topicRepositoryPort;
     private final TopicFollowerRefRepositoryPort followerRefRepositoryPort;
+    private final TopicPlayedGameRefRepositoryPort playedGameRefRepositoryPort;
     private final QuestionRepositoryPort questionRepositoryPort;
 
     public TopicProjection(TopicRepositoryPort topicRepositoryPort,
                            TopicFollowerRefRepositoryPort followerRefRepositoryPort,
+                           TopicPlayedGameRefRepositoryPort playedGameRefRepositoryPort,
                            QuestionRepositoryPort questionRepositoryPort) {
         this.topicRepositoryPort = topicRepositoryPort;
         this.followerRefRepositoryPort = followerRefRepositoryPort;
+        this.playedGameRefRepositoryPort = playedGameRefRepositoryPort;
         this.questionRepositoryPort = questionRepositoryPort;
     }
 
@@ -60,6 +65,9 @@ public class TopicProjection {
                 event.creatorId(),
                 event.creatorId(),
                 0,
+                // Une partie peut avoir été consommée avant son thème (flux distincts) : le
+                // compteur rattrape les références déjà connues à la création du thème.
+                playedGameRefRepositoryPort.countByTopicId(event.topicId()),
                 questionsCounters,
                 event.emoji(),
                 event.color(),

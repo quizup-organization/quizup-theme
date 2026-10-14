@@ -131,6 +131,10 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
         if (sort == TopicSort.ALPHA) {
             return Sort.by("nameFr").ascending();
         }
+        if (sort == TopicSort.MOST_PLAYED) {
+            // Compteur communautaire des parties jouées (`TopicGamesProjection`).
+            return Sort.by(Sort.Order.desc("gamesCounter"), Sort.Order.asc("nameFr"));
+        }
         if (sort == TopicSort.RECENT) {
             // Publication et modifications de contenu (questions) mettent à jour `updatedAt`.
             return Sort.by(Sort.Order.desc("updatedAt"), Sort.Order.asc("nameFr"));

@@ -74,6 +74,10 @@ public class TopicEntity {
     @Column(name = "followers_counter")
     private Integer followersCounter;
 
+    /** Parties jouées sur ce thème (compteur communautaire, cf. `TopicGamesProjection`). */
+    @Column(name = "games_counter")
+    private Integer gamesCounter;
+
     @Column(name = "emoji", length = 16)
     private String emoji;
 

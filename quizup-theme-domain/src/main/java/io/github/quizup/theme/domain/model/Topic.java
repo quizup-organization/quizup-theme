@@ -22,6 +22,7 @@ public record Topic(
         String creatorId,
         String updatedBy,
         Integer followersCounter,
+        Integer gamesCounter,
         Map<QuestionStatus, Integer> questionsCounter,
         String emoji,
         String color,

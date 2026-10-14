@@ -83,11 +83,22 @@ lorsque la difficulté calculée change, la projection envoie une
 ### Enrichissements catalogue
 
 - `TopicQuery.GetTopicPageQuery(nameQuery, category, sort, page, size)` → `TopicPage` : page du
-  catalogue publié (tri `POPULAR|ALPHA|RECENT` — `RECENT` = `updatedAt desc`, alimente la section
-  « nouveaux thèmes » de l'accueil), filtre texte normalisé côté handler. `updatedAt` = dernière
-  mise à jour **de contenu** : publication, édition du sujet **et éditions de questions**
+  catalogue publié (tri `POPULAR|MOST_PLAYED|ALPHA|RECENT` — `MOST_PLAYED` = compteur
+  **communautaire** de parties jouées `games_counter desc`, `RECENT` = `updatedAt desc`, alimente
+  la section « nouveaux thèmes » de l'accueil), filtre texte normalisé côté handler. `updatedAt` =
+  dernière mise à jour **de contenu** : publication, édition du sujet **et éditions de questions**
   (traduction/texte/réponses/bonne réponse/image — `TopicProjection`) ; jamais les follows ni la
   difficulté auto-calculée (`QuestionDifficultyUpdatedEvent` ignoré).
+
+### Compteur de parties jouées (`games_counter`)
+
+- Source : `topic_played_game_ref` (clé naturelle `game_id`), alimentée par
+  `TopicGamesProjection` sur `GameEvent.GameCreatedEvent` de `quizup-game` (pin
+  `quizup-game-domain`) ; le compteur est **recalculé** (`Topic.gamesCounter`) à chaque partie et
+  **initialisé** à la création du thème — les flux game et thème étant distincts, une partie peut
+  précéder son thème (table sans clé étrangère, rattrapage à la création). Rejouable sans dérive.
+- Communautaire : toutes les parties comptent (bots compris), il ne dépend d'aucun joueur.
+  Alimente le tri catalogue « Les plus joués » (`TopicSort.MOST_PLAYED`).
 - `TopicQuery.GetTopicsByCreatorQuery(creatorId, page, size)` → `TopicPage` : sujets créés par un
   utilisateur (tous statuts, brouillons compris), tri `updatedAt desc` — alimente la vue
   « mes sujets » du BFF (`?mine=true`).
