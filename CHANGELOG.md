@@ -1,3 +1,13 @@
+## [6.0.0](https://github.com/quizup-organization/quizup-theme/compare/v5.10.0...v6.0.0) (2026-10-14)
+
+### ⚠ BREAKING CHANGES
+
+* **theme:** migration du compteur de parties en V5 (collision avec la V4 bannière)
+
+### Bug Fixes
+
+* **theme:** migration du compteur de parties en V5 (collision avec la V4 bannière) ([75f4bcc](https://github.com/quizup-organization/quizup-theme/commit/75f4bcc7f8fe33676d1ad173d7cd77a2168f61dc))
+
 ## [5.10.0](https://github.com/quizup-organization/quizup-theme/compare/v5.9.0...v5.10.0) (2026-10-14)
 
 ### Features
