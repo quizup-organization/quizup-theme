@@ -1,3 +1,9 @@
+## [5.10.0](https://github.com/quizup-organization/quizup-theme/compare/v5.9.0...v5.10.0) (2026-10-14)
+
+### Features
+
+* **theme:** compteur communautaire de parties jouées + tri MOST_PLAYED ([9d643e3](https://github.com/quizup-organization/quizup-theme/commit/9d643e3c2a029f3d8e1d5a31677b7527bdf9c27c))
+
 ## [5.9.0](https://github.com/quizup-organization/quizup-theme/compare/v5.8.0...v5.9.0) (2026-10-13)
 
 ### Features
