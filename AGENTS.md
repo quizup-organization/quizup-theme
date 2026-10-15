@@ -51,7 +51,11 @@ dans chaque langue). La publication vérifie aussi le propriétaire.
   (sélection **stricte** sur les langues : la question doit avoir un contenu dans **toutes** les
   langues demandées ; `difficulties`/`excludeQuestionIds` sont des **préférences de tri**
   best-effort — jamais-jouées &gt; difficulté cible &gt; difficulté inconnue &gt; autres — et la
-  `Question` retournée porte ses contenus localisés, le client choisit le sien)
+  `Question` retournée porte ses contenus localisés, le client choisit le sien). Le tirage
+  **dédoublonne par contenu** (texte + illustration) et sur-échantillonne pour y parvenir : le read
+  model peut porter deux lignes identiques pour un thème (re-seed dont l'URL d'image résolue a
+  changé, ancienne question restée approuvée) et une même partie ne doit jamais proposer deux fois
+  la même question (`QuestionRepositoryAdapterTest`).
 - `quizup-bff` → `QuestionQuery.GetTopicLanguageCoverageQuery(topicId)` → `List<QuestionLanguageCoverage>`
   (couverture de **toutes** les combinaisons non vides de langues, sémantique stricte « contenu dans
   toutes les langues ») : préparée à la création d'un ticket d'appariement et portée par
