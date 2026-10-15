@@ -1,3 +1,9 @@
+## [6.8.0](https://github.com/quizup-organization/quizup-theme/compare/v6.7.0...v6.8.0) (2026-10-15)
+
+### Features
+
+* **seed:** fin de la réécriture durcie + suppression des 5 umbrellas ([9c0ca79](https://github.com/quizup-organization/quizup-theme/commit/9c0ca79a5a2cad648e1a7635cab4a0d73c4fd91a))
+
 ## [6.7.0](https://github.com/quizup-organization/quizup-theme/compare/v6.6.0...v6.7.0) (2026-10-15)
 
 ### Features
