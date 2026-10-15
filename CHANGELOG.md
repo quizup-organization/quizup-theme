@@ -1,3 +1,9 @@
+## [6.4.1](https://github.com/quizup-organization/quizup-theme/compare/v6.4.0...v6.4.1) (2026-10-15)
+
+### Bug Fixes
+
+* **seed:** raccourcissement d'image fiable (prompt json + relance) ([6a8a033](https://github.com/quizup-organization/quizup-theme/commit/6a8a03364a0506375e24a44749e7cd1433fd8296))
+
 ## [6.4.0](https://github.com/quizup-organization/quizup-theme/compare/v6.3.0...v6.4.0) (2026-10-15)
 
 ### Features
