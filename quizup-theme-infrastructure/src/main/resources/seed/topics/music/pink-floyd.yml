@@ -1,0 +1,1608 @@
+topic:
+  id: topic-pink-floyd
+  names:
+    fr: "Pink Floyd"
+    en: "Pink Floyd"
+  description: "Pink Floyd : Syd Barrett, Roger Waters, David Gilmour, albums conceptuels (The Dark Side of the Moon, The Wall, Wish You Were Here), chansons et univers sonore."
+  category: MUSIC
+questions:
+  - text: "En quelle année Syd Barrett a-t-il quitté Pink Floyd ?"
+    answers:
+      A: "1968"
+      B: "1967"
+      C: "1969"
+      D: "1970"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Syd Barrett leave Pink Floyd?"
+        answers:
+          A: "1968"
+          B: "1967"
+          C: "1969"
+          D: "1970"
+    difficulty: MEDIUM
+  - text: "Quel est le dernier album studio de Pink Floyd sorti en 2014 ?"
+    answers:
+      A: "The Endless River"
+      B: "A Momentary Lapse of Reason"
+      C: "The Division Bell"
+      D: "On an Island"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Pink Floyd's last studio album, released in 2014?"
+        answers:
+          A: "The Endless River"
+          B: "A Momentary Lapse of Reason"
+          C: "The Division Bell"
+          D: "On an Island"
+    difficulty: HARD
+  - text: "Qui a réalisé la pochette de The Dark Side of the Moon ?"
+    answers:
+      A: "Storm Thorgerson"
+      B: "Roger Dean"
+      C: "Aubrey Powell"
+      D: "Hipgnosis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who designed the cover of The Dark Side of the Moon?"
+        answers:
+          A: "Storm Thorgerson"
+          B: "Roger Dean"
+          C: "Aubrey Powell"
+          D: "Hipgnosis"
+    difficulty: MEDIUM
+  - text: "Quel membre a composé l'essentiel de Wish You Were Here ?"
+    answers:
+      A: "David Gilmour"
+      B: "Roger Waters"
+      C: "Rick Wright"
+      D: "Nick Mason"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which member composed most of Wish You Were Here?"
+        answers:
+          A: "David Gilmour"
+          B: "Roger Waters"
+          C: "Rick Wright"
+          D: "Nick Mason"
+    difficulty: HARD
+  - text: "Quel album est inspiré par le départ de Syd Barrett ?"
+    answers:
+      A: "Animals"
+      B: "Wish You Were Here"
+      C: "Meddle"
+      D: "The Wall"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which album was inspired by Syd Barrett's departure?"
+        answers:
+          A: "Animals"
+          B: "Wish You Were Here"
+          C: "Meddle"
+          D: "The Wall"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de Syd Barrett ?"
+    answers:
+      A: "Sidney Barrett"
+      B: "George Barrett"
+      C: "John Barrett"
+      D: "Roger Keith Barrett"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Syd Barrett's real name?"
+        answers:
+          A: "Sidney Barrett"
+          B: "George Barrett"
+          C: "John Barrett"
+          D: "Roger Keith Barrett"
+    difficulty: HARD
+  - text: "En quelle année est sorti The Wall ?"
+    answers:
+      A: "1979"
+      B: "1978"
+      C: "1980"
+      D: "1981"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was The Wall released?"
+        answers:
+          A: "1979"
+          B: "1978"
+          C: "1980"
+          D: "1981"
+    difficulty: EASY
+  - text: "Quel personnage principal de The Wall est un alter ego de Roger Waters ?"
+    answers:
+      A: "Floyd"
+      B: "Syd"
+      C: "Pink"
+      D: "Roger"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which main character in The Wall is an alter ego of Roger Waters?"
+        answers:
+          A: "Floyd"
+          B: "Syd"
+          C: "Pink"
+          D: "Roger"
+    difficulty: HARD
+  - text: "Quel instrument est central dans Shine On You Crazy Diamond ?"
+    answers:
+      A: "Saxophone"
+      B: "Piano"
+      C: "Guitare"
+      D: "Orgue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which instrument is central to Shine On You Crazy Diamond?"
+        answers:
+          A: "Saxophone"
+          B: "Piano"
+          C: "Guitar"
+          D: "Organ"
+    difficulty: EASY
+  - text: "Quel album contient le morceau Echoes ?"
+    answers:
+      A: "Atom Heart Mother"
+      B: "Meddle"
+      C: "Obscured by Clouds"
+      D: "The Division Bell"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which album contains the track Echoes?"
+        answers:
+          A: "Atom Heart Mother"
+          B: "Meddle"
+          C: "Obscured by Clouds"
+          D: "The Division Bell"
+    difficulty: MEDIUM
+  - text: "Qui a remplacé Syd Barrett au sein de Pink Floyd ?"
+    answers:
+      A: "David Gilmour"
+      B: "Roger Waters"
+      C: "Rick Wright"
+      D: "Nick Mason"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who replaced Syd Barrett in Pink Floyd?"
+        answers:
+          A: "David Gilmour"
+          B: "Roger Waters"
+          C: "Rick Wright"
+          D: "Nick Mason"
+    difficulty: EASY
+  - text: "Quel album de Pink Floyd est un opéra-rock adapté au cinéma par Alan Parker ?"
+    answers:
+      A: "The Division Bell"
+      B: "The Final Cut"
+      C: "Animals"
+      D: "The Wall"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Pink Floyd album is a rock opera adapted into a film by Alan Parker?"
+        answers:
+          A: "The Division Bell"
+          B: "The Final Cut"
+          C: "Animals"
+          D: "The Wall"
+    difficulty: MEDIUM
+  - text: "Quel est le titre de l'album live sorti en 1988 ?"
+    answers:
+      A: "Is There Anybody Out There?"
+      B: "Pulse"
+      C: "Delicate Sound of Thunder"
+      D: "The Wall Live"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the live album released in 1988?"
+        answers:
+          A: "Is There Anybody Out There?"
+          B: "Pulse"
+          C: "Delicate Sound of Thunder"
+          D: "The Wall Live"
+    difficulty: EXPERT
+  - text: "Quel single de Pink Floyd est sorti en 1979 et dure plus de 6 minutes ?"
+    answers:
+      A: "Another Brick in the Wall Part 2"
+      B: "Comfortably Numb"
+      C: "Hey You"
+      D: "Run Like Hell"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pink Floyd single was released in 1979 and lasts over 6 minutes?"
+        answers:
+          A: "Another Brick in the Wall Part 2"
+          B: "Comfortably Numb"
+          C: "Hey You"
+          D: "Run Like Hell"
+    difficulty: EXPERT
+  - text: "Combien de disques compte l'album The Wall ?"
+    answers:
+      A: "1"
+      B: "2"
+      C: "3"
+      D: "4"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many discs does the album The Wall have?"
+        answers:
+          A: "1"
+          B: "2"
+          C: "3"
+          D: "4"
+    difficulty: MEDIUM
+  - text: "Quel membre a quitté Pink Floyd en 1985 ?"
+    answers:
+      A: "Roger Waters"
+      B: "David Gilmour"
+      C: "Nick Mason"
+      D: "Rick Wright"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which member left Pink Floyd in 1985?"
+        answers:
+          A: "Roger Waters"
+          B: "David Gilmour"
+          C: "Nick Mason"
+          D: "Rick Wright"
+    difficulty: HARD
+  - text: "Quel album est sorti après The Final Cut ?"
+    answers:
+      A: "The Division Bell"
+      B: "A Momentary Lapse of Reason"
+      C: "Animals"
+      D: "The Wall"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which album was released after The Final Cut?"
+        answers:
+          A: "The Division Bell"
+          B: "A Momentary Lapse of Reason"
+          C: "Animals"
+          D: "The Wall"
+    difficulty: HARD
+  - text: "Quel morceau de The Dark Side of the Moon évoque la folie ?"
+    answers:
+      A: "Us and Them"
+      B: "Time"
+      C: "Money"
+      D: "Brain Damage"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which track from The Dark Side of the Moon evokes madness?"
+        answers:
+          A: "Us and Them"
+          B: "Time"
+          C: "Money"
+          D: "Brain Damage"
+    difficulty: HARD
+  - text: "Quel est le titre du premier album de Pink Floyd ?"
+    answers:
+      A: "A Saucerful of Secrets"
+      B: "The Piper at the Gates of Dawn"
+      C: "More"
+      D: "Ummagumma"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's first album?"
+        answers:
+          A: "A Saucerful of Secrets"
+          B: "The Piper at the Gates of Dawn"
+          C: "More"
+          D: "Ummagumma"
+    difficulty: MEDIUM
+  - text: "Qui a écrit les paroles de la plupart des albums de Pink Floyd après 1968 ?"
+    answers:
+      A: "Roger Waters"
+      B: "David Gilmour"
+      C: "Rick Wright"
+      D: "Syd Barrett"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote the lyrics for most of Pink Floyd's albums after 1968?"
+        answers:
+          A: "Roger Waters"
+          B: "David Gilmour"
+          C: "Rick Wright"
+          D: "Syd Barrett"
+    difficulty: MEDIUM
+  - text: "Quel est le titre du double album live de Pink Floyd sorti en 1969, mêlant performances scéniques et expérimentations en studio ?"
+    answers:
+      A: "Atom Heart Mother"
+      B: "Ummagumma"
+      C: "Relics"
+      D: "Works"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's 1969 double live album, mixing stage performances and studio experiments?"
+        answers:
+          A: "Atom Heart Mother"
+          B: "Ummagumma"
+          C: "Relics"
+          D: "Works"
+    difficulty: EXPERT
+  - text: "Quel morceau de l'album Animals est une relecture de la fable de George Orwell 'La Ferme des animaux' ?"
+    answers:
+      A: "Dogs"
+      B: "Pigs (Three Different Ones)"
+      C: "Sheep"
+      D: "Pigs on the Wing"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which track from the album Animals is a reinterpretation of George Orwell's fable 'Animal Farm'?"
+        answers:
+          A: "Dogs"
+          B: "Pigs (Three Different Ones)"
+          C: "Sheep"
+          D: "Pigs on the Wing"
+    difficulty: HARD
+  - text: "Qui a conçu la célèbre pochette de l'album Animals, montrant un cochon gonflable entre deux cheminées de la Battersea Power Station ?"
+    answers:
+      A: "Storm Thorgerson"
+      B: "Gerald Scarfe"
+      C: "Roger Waters"
+      D: "Hipgnosis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who designed the famous cover of the album Animals, showing an inflatable pig between two chimneys of Battersea Power Station?"
+        answers:
+          A: "Storm Thorgerson"
+          B: "Gerald Scarfe"
+          C: "Roger Waters"
+          D: "Hipgnosis"
+    difficulty: EXPERT
+  - text: "En quelle année l'album The Division Bell est-il sorti ?"
+    answers:
+      A: "1994"
+      B: "1992"
+      C: "1991"
+      D: "1996"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the album The Division Bell released?"
+        answers:
+          A: "1994"
+          B: "1992"
+          C: "1991"
+          D: "1996"
+    difficulty: HARD
+  - text: "Quel est le nom du premier single de Pink Floyd sorti en 1967 ?"
+    answers:
+      A: "See Emily Play"
+      B: "It Would Be So Nice"
+      C: "Apples and Oranges"
+      D: "Arnold Layne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Pink Floyd's first single released in 1967?"
+        answers:
+          A: "See Emily Play"
+          B: "It Would Be So Nice"
+          C: "Apples and Oranges"
+          D: "Arnold Layne"
+    difficulty: HARD
+  - text: "Quel morceau de l'album The Wall contient la phrase 'We don't need no education' ?"
+    answers:
+      A: "Another Brick in the Wall, Part 2"
+      B: "The Happiest Days of Our Lives"
+      C: "Mother"
+      D: "Hey You"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which track from the album The Wall contains the line 'We don't need no education'?"
+        answers:
+          A: "Another Brick in the Wall, Part 2"
+          B: "The Happiest Days of Our Lives"
+          C: "Mother"
+          D: "Hey You"
+    difficulty: EASY
+  - text: "Quel album de Pink Floyd est sous-titré 'A Piece for Assorted Lunatics' lors de ses premières performances scéniques ?"
+    answers:
+      A: "Wish You Were Here"
+      B: "The Dark Side of the Moon"
+      C: "Meddle"
+      D: "Atom Heart Mother"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pink Floyd album was subtitled 'A Piece for Assorted Lunatics' during its early stage performances?"
+        answers:
+          A: "Wish You Were Here"
+          B: "The Dark Side of the Moon"
+          C: "Meddle"
+          D: "Atom Heart Mother"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'album de Pink Floyd sorti en 1970, dont la première pièce est une suite instrumentale de plus de 23 minutes ?"
+    answers:
+      A: "Obscured by Clouds"
+      B: "Meddle"
+      C: "More"
+      D: "Atom Heart Mother"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Pink Floyd's 1970 album, whose first piece is an instrumental suite over 23 minutes long?"
+        answers:
+          A: "Obscured by Clouds"
+          B: "Meddle"
+          C: "More"
+          D: "Atom Heart Mother"
+    difficulty: EXPERT
+  - text: "Quel membre de Pink Floyd a composé la majeure partie de la musique de l'album The Endless River ?"
+    answers:
+      A: "Richard Wright"
+      B: "David Gilmour"
+      C: "Nick Mason"
+      D: "Roger Waters"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which member of Pink Floyd composed most of the music for the album The Endless River?"
+        answers:
+          A: "Richard Wright"
+          B: "David Gilmour"
+          C: "Nick Mason"
+          D: "Roger Waters"
+    difficulty: EXPERT
+  - text: "Quel morceau de l'album Wish You Were Here rend hommage à Syd Barrett ?"
+    answers:
+      A: "Welcome to the Machine"
+      B: "Have a Cigar"
+      C: "Shine On You Crazy Diamond"
+      D: "Wish You Were Here"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which track from the album Wish You Were Here pays tribute to Syd Barrett?"
+        answers:
+          A: "Welcome to the Machine"
+          B: "Have a Cigar"
+          C: "Shine On You Crazy Diamond"
+          D: "Wish You Were Here"
+    difficulty: MEDIUM
+  - text: "Quel est le titre du film documentaire de 2014 consacré à la carrière de Pink Floyd, réalisé par Ian Emes ?"
+    answers:
+      A: "The Pink Floyd Story"
+      B: "Pink Floyd: The Endless River"
+      C: "The Story of Pink Floyd"
+      D: "The Making of The Dark Side of the Moon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the 2014 documentary film about Pink Floyd's career, directed by Ian Emes?"
+        answers:
+          A: "The Pink Floyd Story"
+          B: "Pink Floyd: The Endless River"
+          C: "The Story of Pink Floyd"
+          D: "The Making of The Dark Side of the Moon"
+    difficulty: EXPERT
+  - text: "Quel album de Pink Floyd contient le morceau 'Echoes', long de plus de 23 minutes ?"
+    answers:
+      A: "Atom Heart Mother"
+      B: "Obscured by Clouds"
+      C: "Meddle"
+      D: "The Dark Side of the Moon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pink Floyd album contains the track 'Echoes', which is over 23 minutes long?"
+        answers:
+          A: "Atom Heart Mother"
+          B: "Obscured by Clouds"
+          C: "Meddle"
+          D: "The Dark Side of the Moon"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du groupe de blues-rock fondé par Syd Barrett avant Pink Floyd, en 1964 ?"
+    answers:
+      A: "The Tea Set"
+      B: "Sigma 6"
+      C: "Jokers Wild"
+      D: "The Abdabs"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the blues-rock band founded by Syd Barrett before Pink Floyd, in 1964?"
+        answers:
+          A: "The Tea Set"
+          B: "Sigma 6"
+          C: "Jokers Wild"
+          D: "The Abdabs"
+    difficulty: EXPERT
+  - text: "Quel morceau de The Dark Side of the Moon se termine par des battements de cœur ?"
+    answers:
+      A: "Breathe"
+      B: "On the Run"
+      C: "Time"
+      D: "Eclipse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which track from The Dark Side of the Moon ends with heartbeats?"
+        answers:
+          A: "Breathe"
+          B: "On the Run"
+          C: "Time"
+          D: "Eclipse"
+    difficulty: HARD
+  - text: "Quel album de Pink Floyd a été enregistré en partie dans les studios Abbey Road et contient 'Shine On You Crazy Diamond' ?"
+    answers:
+      A: "The Final Cut"
+      B: "Animals"
+      C: "The Wall"
+      D: "Wish You Were Here"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Pink Floyd album was partly recorded at Abbey Road Studios and contains 'Shine On You Crazy Diamond'?"
+        answers:
+          A: "The Final Cut"
+          B: "Animals"
+          C: "The Wall"
+          D: "Wish You Were Here"
+    difficulty: MEDIUM
+  - text: "Quel est le titre du dernier album studio de Pink Floyd avec Roger Waters, sorti en 1983 ?"
+    answers:
+      A: "The Division Bell"
+      B: "A Momentary Lapse of Reason"
+      C: "The Final Cut"
+      D: "The Endless River"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's last studio album with Roger Waters, released in 1983?"
+        answers:
+          A: "The Division Bell"
+          B: "A Momentary Lapse of Reason"
+          C: "The Final Cut"
+          D: "The Endless River"
+    difficulty: HARD
+  - text: "Quel morceau de l'album The Wall met en scène un procès imaginaire du personnage principal ?"
+    answers:
+      A: "The Trial"
+      B: "Waiting for the Worms"
+      C: "The Show Must Go On"
+      D: "Outside the Wall"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which track from the album The Wall features an imaginary trial of the main character?"
+        answers:
+          A: "The Trial"
+          B: "Waiting for the Worms"
+          C: "The Show Must Go On"
+          D: "Outside the Wall"
+    difficulty: HARD
+  - text: "Quel est le nom du batteur de Pink Floyd depuis la formation du groupe ?"
+    answers:
+      A: "Syd Barrett"
+      B: "Richard Wright"
+      C: "Nick Mason"
+      D: "Roger Waters"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Pink Floyd's drummer since the band's formation?"
+        answers:
+          A: "Syd Barrett"
+          B: "Richard Wright"
+          C: "Nick Mason"
+          D: "Roger Waters"
+    difficulty: EASY
+  - text: "Quel album de Pink Floyd a été adapté en ballet par le chorégraphe Roland Petit en 1979 ?"
+    answers:
+      A: "The Dark Side of the Moon"
+      B: "The Wall"
+      C: "Wish You Were Here"
+      D: "Animals"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pink Floyd album was adapted into a ballet by choreographer Roland Petit in 1979?"
+        answers:
+          A: "The Dark Side of the Moon"
+          B: "The Wall"
+          C: "Wish You Were Here"
+          D: "Animals"
+    difficulty: EXPERT
+  - text: "Quel morceau instrumental de l'album Atom Heart Mother occupe toute la première face du disque ?"
+    answers:
+      A: "Summer '68"
+      B: "If"
+      C: "Atom Heart Mother"
+      D: "Fat Old Sun"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which instrumental track from the album Atom Heart Mother occupies the entire first side of the record?"
+        answers:
+          A: "Summer '68"
+          B: "If"
+          C: "Atom Heart Mother"
+          D: "Fat Old Sun"
+    difficulty: HARD
+  - text: "Quel est le titre du premier single de Pink Floyd ?"
+    answers:
+      A: "It Would Be So Nice"
+      B: "See Emily Play"
+      C: "Apples and Oranges"
+      D: "Arnold Layne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's first single?"
+        answers:
+          A: "It Would Be So Nice"
+          B: "See Emily Play"
+          C: "Apples and Oranges"
+          D: "Arnold Layne"
+    difficulty: HARD
+  - text: "Quel est le nom de l'album live de Pink Floyd sorti en 1988 ?"
+    answers:
+      A: "Is There Anybody Out There?"
+      B: "Pulse"
+      C: "Delicate Sound of Thunder"
+      D: "A Momentary Lapse of Reason"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Pink Floyd's live album released in 1988?"
+        answers:
+          A: "Is There Anybody Out There?"
+          B: "Pulse"
+          C: "Delicate Sound of Thunder"
+          D: "A Momentary Lapse of Reason"
+    difficulty: EXPERT
+  - text: "Quel morceau de The Dark Side of the Moon contient la phrase 'I'll see you on the dark side of the moon' ?"
+    answers:
+      A: "Time"
+      B: "Eclipse"
+      C: "Brain Damage"
+      D: "Us and Them"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which track from The Dark Side of the Moon contains the line 'I'll see you on the dark side of the moon'?"
+        answers:
+          A: "Time"
+          B: "Eclipse"
+          C: "Brain Damage"
+          D: "Us and Them"
+    difficulty: HARD
+  - text: "Qui a produit l'album The Dark Side of the Moon ?"
+    answers:
+      A: "Gus Dudgeon"
+      B: "Bob Ezrin"
+      C: "Alan Parsons"
+      D: "George Martin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who produced the album The Dark Side of the Moon?"
+        answers:
+          A: "Gus Dudgeon"
+          B: "Bob Ezrin"
+          C: "Alan Parsons"
+          D: "George Martin"
+    difficulty: HARD
+  - text: "Quel est le titre du premier album studio de Pink Floyd ?"
+    answers:
+      A: "A Saucerful of Secrets"
+      B: "Ummagumma"
+      C: "More"
+      D: "The Piper at the Gates of Dawn"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's first studio album?"
+        answers:
+          A: "A Saucerful of Secrets"
+          B: "Ummagumma"
+          C: "More"
+          D: "The Piper at the Gates of Dawn"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du batteur de Pink Floyd depuis la formation du groupe en 1965 ?"
+    answers:
+      A: "Roger Waters"
+      B: "Richard Wright"
+      C: "Nick Mason"
+      D: "Syd Barrett"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Pink Floyd's drummer since the band formed in 1965?"
+        answers:
+          A: "Roger Waters"
+          B: "Richard Wright"
+          C: "Nick Mason"
+          D: "Syd Barrett"
+    difficulty: EASY
+  - text: "Quel est le titre du premier single de Pink Floyd sorti en 1967 ?"
+    answers:
+      A: "See Emily Play"
+      B: "It Would Be So Nice"
+      C: "Apples and Oranges"
+      D: "Arnold Layne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's first single released in 1967?"
+        answers:
+          A: "See Emily Play"
+          B: "It Would Be So Nice"
+          C: "Apples and Oranges"
+          D: "Arnold Layne"
+    difficulty: HARD
+  - text: "Quel album de Pink Floyd contient le morceau 'Dogs' ?"
+    answers:
+      A: "Wish You Were Here"
+      B: "The Wall"
+      C: "Animals"
+      D: "The Final Cut"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Pink Floyd album contains the track 'Dogs'?"
+        answers:
+          A: "Wish You Were Here"
+          B: "The Wall"
+          C: "Animals"
+          D: "The Final Cut"
+    difficulty: MEDIUM
+  - text: "Quel membre de Pink Floyd a quitté le groupe en 1979 ?"
+    answers:
+      A: "Syd Barrett"
+      B: "Roger Waters"
+      C: "Richard Wright"
+      D: "David Gilmour"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which member of Pink Floyd left the band in 1979?"
+        answers:
+          A: "Syd Barrett"
+          B: "Roger Waters"
+          C: "Richard Wright"
+          D: "David Gilmour"
+    difficulty: HARD
+  - text: "Quel est le titre du morceau de Pink Floyd qui dure plus de 23 minutes et figure sur l'album Meddle ?"
+    answers:
+      A: "Shine On You Crazy Diamond"
+      B: "Atom Heart Mother"
+      C: "Echoes"
+      D: "Dogs"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the Pink Floyd track that lasts over 23 minutes and appears on the album Meddle?"
+        answers:
+          A: "Shine On You Crazy Diamond"
+          B: "Atom Heart Mother"
+          C: "Echoes"
+          D: "Dogs"
+    difficulty: MEDIUM
+  - text: "Quel album de Pink Floyd a été enregistré aux studios Abbey Road et contient 'Shine On You Crazy Diamond' ?"
+    answers:
+      A: "Wish You Were Here"
+      B: "The Dark Side of the Moon"
+      C: "Animals"
+      D: "The Wall"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pink Floyd album was recorded at Abbey Road Studios and contains 'Shine On You Crazy Diamond'?"
+        answers:
+          A: "Wish You Were Here"
+          B: "The Dark Side of the Moon"
+          C: "Animals"
+          D: "The Wall"
+    difficulty: MEDIUM
+  - text: "Quel membre de Pink Floyd a été le premier à quitter le groupe en 1968 ?"
+    answers:
+      A: "Roger Waters"
+      B: "Richard Wright"
+      C: "Syd Barrett"
+      D: "Nick Mason"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which member of Pink Floyd was the first to leave the band in 1968?"
+        answers:
+          A: "Roger Waters"
+          B: "Richard Wright"
+          C: "Syd Barrett"
+          D: "Nick Mason"
+    difficulty: MEDIUM
+  - text: "Quel album de Pink Floyd est sorti en 1977 et contient le morceau 'Dogs' ?"
+    answers:
+      A: "Animals"
+      B: "Wish You Were Here"
+      C: "The Wall"
+      D: "The Division Bell"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Pink Floyd album was released in 1977 and contains the track 'Dogs'?"
+        answers:
+          A: "Animals"
+          B: "Wish You Were Here"
+          C: "The Wall"
+          D: "The Division Bell"
+    difficulty: HARD
+  - text: "Quel est le titre du double album live de Pink Floyd sorti en 1969 ?"
+    answers:
+      A: "Meddle"
+      B: "Atom Heart Mother"
+      C: "Ummagumma"
+      D: "Obscured by Clouds"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's double live album released in 1969?"
+        answers:
+          A: "Meddle"
+          B: "Atom Heart Mother"
+          C: "Ummagumma"
+          D: "Obscured by Clouds"
+    difficulty: HARD
+  - text: "Qui a conçu la pochette de l'album The Dark Side of the Moon représentant un prisme ?"
+    answers:
+      A: "Storm Thorgerson"
+      B: "Roger Waters"
+      C: "Gerald Scarfe"
+      D: "Hipgnosis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who designed the album cover for The Dark Side of the Moon featuring a prism?"
+        answers:
+          A: "Storm Thorgerson"
+          B: "Roger Waters"
+          C: "Gerald Scarfe"
+          D: "Hipgnosis"
+    difficulty: EASY
+  - text: "Quel est le titre du premier album solo de Syd Barrett sorti en 1970 ?"
+    answers:
+      A: "Opel"
+      B: "Barrett"
+      C: "The Madcap Laughs"
+      D: "An Introduction to Syd Barrett"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of Syd Barrett's first solo album released in 1970?"
+        answers:
+          A: "Opel"
+          B: "Barrett"
+          C: "The Madcap Laughs"
+          D: "An Introduction to Syd Barrett"
+    difficulty: HARD
+  - text: "Quel ingénieur du son a conçu les effets spéciaux du morceau 'On the Run' ?"
+    answers:
+      A: "Alan Parsons"
+      B: "Peter James"
+      C: "Brian Humphries"
+      D: "James Guthrie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sound engineer created the special effects for the track 'On the Run'?"
+        answers:
+          A: "Alan Parsons"
+          B: "Peter James"
+          C: "Brian Humphries"
+          D: "James Guthrie"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau instrumental de l'album The Division Bell qui ouvre le disque ?"
+    answers:
+      A: "Marooned"
+      B: "Cluster One"
+      C: "Poles Apart"
+      D: "A Great Day for Freedom"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the instrumental track that opens the album The Division Bell?"
+        answers:
+          A: "Marooned"
+          B: "Cluster One"
+          C: "Poles Apart"
+          D: "A Great Day for Freedom"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti l'album The Endless River ?"
+    answers:
+      A: "2012"
+      B: "2015"
+      C: "2014"
+      D: "2011"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the album The Endless River released?"
+        answers:
+          A: "2012"
+          B: "2015"
+          C: "2014"
+          D: "2011"
+    difficulty: MEDIUM
+  - text: "Quel morceau de l'album The Final Cut fait directement référence à la guerre des Malouines ?"
+    answers:
+      A: "The Fletcher Memorial Home"
+      B: "The Post War Dream"
+      C: "Get Your Filthy Hands Off My Desert"
+      D: "Southampton Dock"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which track on the album The Final Cut directly references the Falklands War?"
+        answers:
+          A: "The Fletcher Memorial Home"
+          B: "The Post War Dream"
+          C: "Get Your Filthy Hands Off My Desert"
+          D: "Southampton Dock"
+    difficulty: HARD
+  - text: "Quel est le nom du studio d'enregistrement personnel de David Gilmour à bord de son bateau ?"
+    answers:
+      A: "Meddle"
+      B: "Britannia Row"
+      C: "Ummagumma"
+      D: "The Astoria"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of David Gilmour's personal recording studio aboard his boat?"
+        answers:
+          A: "Meddle"
+          B: "Britannia Row"
+          C: "Ummagumma"
+          D: "The Astoria"
+    difficulty: EXPERT
+  - text: "Quel morceau de l'album Wish You Were Here comporte un long solo de saxophone ?"
+    answers:
+      A: "Have a Cigar"
+      B: "Welcome to the Machine"
+      C: "Shine On You Crazy Diamond"
+      D: "Wish You Were Here"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which track on the album Wish You Were Here features a long saxophone solo?"
+        answers:
+          A: "Have a Cigar"
+          B: "Welcome to the Machine"
+          C: "Shine On You Crazy Diamond"
+          D: "Wish You Were Here"
+    difficulty: HARD
+  - text: "Quel est le titre du morceau de l'album The Wall qui dure plus de 8 minutes et clôt la première face ?"
+    answers:
+      A: "Another Brick in the Wall, Part 3"
+      B: "Goodbye Cruel World"
+      C: "Hey You"
+      D: "Mother"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the track on The Wall that lasts over 8 minutes and closes the first side?"
+        answers:
+          A: "Another Brick in the Wall, Part 3"
+          B: "Goodbye Cruel World"
+          C: "Hey You"
+          D: "Mother"
+    difficulty: HARD
+  - text: "Quel batteur a enregistré les parties de batterie de l'album The Wall avec Nick Mason ?"
+    answers:
+      A: "Jeff Porcaro"
+      B: "Steve Gadd"
+      C: "Andy Newmark"
+      D: "Carmine Appice"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which drummer recorded the drum parts for The Wall alongside Nick Mason?"
+        answers:
+          A: "Jeff Porcaro"
+          B: "Steve Gadd"
+          C: "Andy Newmark"
+          D: "Carmine Appice"
+    difficulty: EXPERT
+  - text: "Quel est le titre de l'album live de Pink Floyd sorti en 1995 ?"
+    answers:
+      A: "Delicate Sound of Thunder"
+      B: "Is There Anybody Out There?"
+      C: "Pulse"
+      D: "A Momentary Lapse of Reason"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's live album released in 1995?"
+        answers:
+          A: "Delicate Sound of Thunder"
+          B: "Is There Anybody Out There?"
+          C: "Pulse"
+          D: "A Momentary Lapse of Reason"
+    difficulty: HARD
+  - text: "Quel morceau de l'album Obscured by Clouds est chanté par David Gilmour et Roger Waters en duo ?"
+    answers:
+      A: "Stay"
+      B: "Free Four"
+      C: "Childhood's End"
+      D: "Wot's... Uh the Deal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which track on Obscured by Clouds is sung as a duet by David Gilmour and Roger Waters?"
+        answers:
+          A: "Stay"
+          B: "Free Four"
+          C: "Childhood's End"
+          D: "Wot's... Uh the Deal"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau de 1968 présent sur l'album A Saucerful of Secrets et chanté par Richard Wright ?"
+    answers:
+      A: "Remember a Day"
+      B: "It Would Be So Nice"
+      C: "Paintbox"
+      D: "See-Saw"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the 1968 track on A Saucerful of Secrets sung by Richard Wright?"
+        answers:
+          A: "Remember a Day"
+          B: "It Would Be So Nice"
+          C: "Paintbox"
+          D: "See-Saw"
+    difficulty: EXPERT
+  - text: "Quel réalisateur a mis en scène le film Pink Floyd: The Wall en 1982 ?"
+    answers:
+      A: "Gerald Scarfe"
+      B: "Alan Parker"
+      C: "Roger Waters"
+      D: "Bob Geldof"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which director directed the film Pink Floyd: The Wall in 1982?"
+        answers:
+          A: "Gerald Scarfe"
+          B: "Alan Parker"
+          C: "Roger Waters"
+          D: "Bob Geldof"
+    difficulty: MEDIUM
+  - text: "Quel est le titre du morceau de l'album Atom Heart Mother qui ouvre la face B ?"
+    answers:
+      A: "If"
+      B: "Summer '68"
+      C: "Fat Old Sun"
+      D: "Alan's Psychedelic Breakfast"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the track on Atom Heart Mother that opens side B?"
+        answers:
+          A: "If"
+          B: "Summer '68"
+          C: "Fat Old Sun"
+          D: "Alan's Psychedelic Breakfast"
+    difficulty: EXPERT
+  - text: "Quel claviériste a participé aux tournées de Pink Floyd en 1994 et figure sur l'album Pulse ?"
+    answers:
+      A: "Jon Carin"
+      B: "Richard Wright"
+      C: "Michael Kamen"
+      D: "Peter Wood"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which keyboardist joined Pink Floyd's 1994 tours and appears on the album Pulse?"
+        answers:
+          A: "Jon Carin"
+          B: "Richard Wright"
+          C: "Michael Kamen"
+          D: "Peter Wood"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau de l'album More chanté par David Gilmour ?"
+    answers:
+      A: "Green Is the Colour"
+      B: "Cymbaline"
+      C: "Cirrus Minor"
+      D: "The Nile Song"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the track on More sung by David Gilmour?"
+        answers:
+          A: "Green Is the Colour"
+          B: "Cymbaline"
+          C: "Cirrus Minor"
+          D: "The Nile Song"
+    difficulty: EXPERT
+  - text: "Quel est le titre du single de Pink Floyd sorti en 1979 qui a atteint la première place des charts américains ?"
+    answers:
+      A: "Run Like Hell"
+      B: "Hey You"
+      C: "Comfortably Numb"
+      D: "Another Brick in the Wall, Part 2"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's 1979 single that reached number one on the US charts?"
+        answers:
+          A: "Run Like Hell"
+          B: "Hey You"
+          C: "Comfortably Numb"
+          D: "Another Brick in the Wall, Part 2"
+    difficulty: HARD
+  - text: "Quel morceau de l'album Animals est chanté par Roger Waters seul ?"
+    answers:
+      A: "Dogs"
+      B: "Pigs (Three Different Ones)"
+      C: "Sheep"
+      D: "Pigs on the Wing"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which track on Animals is sung by Roger Waters alone?"
+        answers:
+          A: "Dogs"
+          B: "Pigs (Three Different Ones)"
+          C: "Sheep"
+          D: "Pigs on the Wing"
+    difficulty: EXPERT
+  - text: "Quel est le nom du groupe de Roger Waters formé après son départ de Pink Floyd ?"
+    answers:
+      A: "The Bleeding Heart Band"
+      B: "The Pros and Cons of Hitch Hiking"
+      C: "Radio K.A.O.S."
+      D: "Amused to Death"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Roger Waters' band formed after he left Pink Floyd?"
+        answers:
+          A: "The Bleeding Heart Band"
+          B: "The Pros and Cons of Hitch Hiking"
+          C: "Radio K.A.O.S."
+          D: "Amused to Death"
+    difficulty: HARD
+  - text: "Quel morceau de l'album The Division Bell a été écrit en hommage à Richard Wright ?"
+    answers:
+      A: "Cluster One"
+      B: "Marooned"
+      C: "Keep Talking"
+      D: "Wearing the Inside Out"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which track on The Division Bell was written as a tribute to Richard Wright?"
+        answers:
+          A: "Cluster One"
+          B: "Marooned"
+          C: "Keep Talking"
+          D: "Wearing the Inside Out"
+    difficulty: EXPERT
+  - text: "Quel album de Pink Floyd contient le morceau 'Echoes' ?"
+    answers:
+      A: "Atom Heart Mother"
+      B: "Meddle"
+      C: "Obscured by Clouds"
+      D: "More"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pink Floyd album contains the track 'Echoes'?"
+        answers:
+          A: "Atom Heart Mother"
+          B: "Meddle"
+          C: "Obscured by Clouds"
+          D: "More"
+    difficulty: EASY
+  - text: "Quel est le titre de la chanson qui ouvre l'album The Wall ?"
+    answers:
+      A: "In the Flesh?"
+      B: "The Thin Ice"
+      C: "Another Brick in the Wall, Part 1"
+      D: "The Happiest Days of Our Lives"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the song that opens the album The Wall?"
+        answers:
+          A: "In the Flesh?"
+          B: "The Thin Ice"
+          C: "Another Brick in the Wall, Part 1"
+          D: "The Happiest Days of Our Lives"
+    difficulty: MEDIUM
+  - text: "Quel membre de Pink Floyd est crédité comme auteur-compositeur principal de l'album The Final Cut ?"
+    answers:
+      A: "Roger Waters"
+      B: "David Gilmour"
+      C: "Nick Mason"
+      D: "Richard Wright"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which member of Pink Floyd is credited as the main songwriter of the album The Final Cut?"
+        answers:
+          A: "Roger Waters"
+          B: "David Gilmour"
+          C: "Nick Mason"
+          D: "Richard Wright"
+    difficulty: HARD
+  - text: "Quel morceau de l'album Wish You Were Here fait référence à Syd Barrett ?"
+    answers:
+      A: "Welcome to the Machine"
+      B: "Shine On You Crazy Diamond"
+      C: "Have a Cigar"
+      D: "Wish You Were Here"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which track from the album Wish You Were Here refers to Syd Barrett?"
+        answers:
+          A: "Welcome to the Machine"
+          B: "Shine On You Crazy Diamond"
+          C: "Have a Cigar"
+          D: "Wish You Were Here"
+    difficulty: MEDIUM
+  - text: "En quelle année l'album The Dark Side of the Moon est-il sorti ?"
+    answers:
+      A: "1973"
+      B: "1972"
+      C: "1974"
+      D: "1975"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the album The Dark Side of the Moon released?"
+        answers:
+          A: "1973"
+          B: "1972"
+          C: "1974"
+          D: "1975"
+    difficulty: EASY
+  - text: "Quel est le nom du premier batteur de Pink Floyd ?"
+    answers:
+      A: "Roger Waters"
+      B: "Bob Klose"
+      C: "Syd Barrett"
+      D: "Nick Mason"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Pink Floyd's first drummer?"
+        answers:
+          A: "Roger Waters"
+          B: "Bob Klose"
+          C: "Syd Barrett"
+          D: "Nick Mason"
+    difficulty: HARD
+  - text: "Quel morceau de l'album Animals est chanté par Roger Waters et David Gilmour en duo ?"
+    answers:
+      A: "Dogs"
+      B: "Pigs (Three Different Ones)"
+      C: "Sheep"
+      D: "Pigs on the Wing"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which track from the album Animals is sung as a duet by Roger Waters and David Gilmour?"
+        answers:
+          A: "Dogs"
+          B: "Pigs (Three Different Ones)"
+          C: "Sheep"
+          D: "Pigs on the Wing"
+    difficulty: EXPERT
+  - text: "Quel est le titre de l'album live de Pink Floyd sorti en 2000 ?"
+    answers:
+      A: "Delicate Sound of Thunder"
+      B: "Pulse"
+      C: "Is There Anybody Out There? The Wall Live 1980–81"
+      D: "The Division Bell"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of Pink Floyd's live album released in 2000?"
+        answers:
+          A: "Delicate Sound of Thunder"
+          B: "Pulse"
+          C: "Is There Anybody Out There? The Wall Live 1980–81"
+          D: "The Division Bell"
+    difficulty: HARD
+  - text: "Quel membre de Pink Floyd a joué le solo de saxophone sur 'Money' ?"
+    answers:
+      A: "Nick Mason"
+      B: "David Gilmour"
+      C: "Richard Wright"
+      D: "Dick Parry"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which member of Pink Floyd played the saxophone solo on 'Money'?"
+        answers:
+          A: "Nick Mason"
+          B: "David Gilmour"
+          C: "Richard Wright"
+          D: "Dick Parry"
+    difficulty: HARD
+  - text: "Quel est le titre du morceau instrumental qui ouvre l'album The Division Bell ?"
+    answers:
+      A: "Marooned"
+      B: "Cluster One"
+      C: "What Do You Want from Me"
+      D: "Poles Apart"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the instrumental track that opens the album The Division Bell?"
+        answers:
+          A: "Marooned"
+          B: "Cluster One"
+          C: "What Do You Want from Me"
+          D: "Poles Apart"
+    difficulty: EXPERT
+  - text: "Quel album de Pink Floyd contient le morceau 'Careful with That Axe, Eugene' ?"
+    answers:
+      A: "Atom Heart Mother"
+      B: "Ummagumma"
+      C: "Meddle"
+      D: "Obscured by Clouds"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Pink Floyd album contains the track 'Careful with That Axe, Eugene'?"
+        answers:
+          A: "Atom Heart Mother"
+          B: "Ummagumma"
+          C: "Meddle"
+          D: "Obscured by Clouds"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau de l'album The Wall qui contient la phrase 'We don't need no education' ?"
+    answers:
+      A: "The Happiest Days of Our Lives"
+      B: "Another Brick in the Wall, Part 2"
+      C: "Mother"
+      D: "Young Lust"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the track from the album The Wall that contains the line 'We don't need no education'?"
+        answers:
+          A: "The Happiest Days of Our Lives"
+          B: "Another Brick in the Wall, Part 2"
+          C: "Mother"
+          D: "Young Lust"
+    difficulty: EASY
+  - text: "Quel membre de Pink Floyd a quitté le groupe en 1981 ?"
+    answers:
+      A: "Roger Waters"
+      B: "Richard Wright"
+      C: "David Gilmour"
+      D: "Nick Mason"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which member of Pink Floyd left the band in 1981?"
+        answers:
+          A: "Roger Waters"
+          B: "Richard Wright"
+          C: "David Gilmour"
+          D: "Nick Mason"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau de l'album Wish You Were Here qui critique l'industrie musicale ?"
+    answers:
+      A: "Shine On You Crazy Diamond"
+      B: "Welcome to the Machine"
+      C: "Have a Cigar"
+      D: "Wish You Were Here"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the track from the album Wish You Were Here that criticizes the music industry?"
+        answers:
+          A: "Shine On You Crazy Diamond"
+          B: "Welcome to the Machine"
+          C: "Have a Cigar"
+          D: "Wish You Were Here"
+    difficulty: HARD
+  - text: "Quel est le nom du projet solo de David Gilmour sorti en 1978 ?"
+    answers:
+      A: "About Face"
+      B: "David Gilmour"
+      C: "On an Island"
+      D: "Rattle That Lock"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of David Gilmour's solo project released in 1978?"
+        answers:
+          A: "About Face"
+          B: "David Gilmour"
+          C: "On an Island"
+          D: "Rattle That Lock"
+    difficulty: HARD
+  - text: "Quel est le titre du morceau instrumental de l'album Atom Heart Mother qui ouvre la face B ?"
+    answers:
+      A: "Summer '68"
+      B: "If"
+      C: "Alan's Psychedelic Breakfast"
+      D: "Fat Old Sun"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the instrumental track on the album Atom Heart Mother that opens side B?"
+        answers:
+          A: "Summer '68"
+          B: "If"
+          C: "Alan's Psychedelic Breakfast"
+          D: "Fat Old Sun"
+    difficulty: EXPERT
+  - text: "Quel membre de Pink Floyd a composé la chanson 'The Great Gig in the Sky' ?"
+    answers:
+      A: "Roger Waters"
+      B: "Richard Wright"
+      C: "David Gilmour"
+      D: "Nick Mason"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which member of Pink Floyd composed the song 'The Great Gig in the Sky'?"
+        answers:
+          A: "Roger Waters"
+          B: "Richard Wright"
+          C: "David Gilmour"
+          D: "Nick Mason"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau de l'album The Division Bell qui a été écrit en hommage à Richard Wright ?"
+    answers:
+      A: "Wearing the Inside Out"
+      B: "Marooned"
+      C: "Cluster One"
+      D: "Keep Talking"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the track from the album The Division Bell that was written as a tribute to Richard Wright?"
+        answers:
+          A: "Wearing the Inside Out"
+          B: "Marooned"
+          C: "Cluster One"
+          D: "Keep Talking"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau de Pink Floyd qui a été enregistré en une seule prise et qui a été utilisé comme face B du single 'Point Me at the Sky' ?"
+    answers:
+      A: "Embryo"
+      B: "Careful with That Axe, Eugene"
+      C: "Julia Dream"
+      D: "Green Is the Colour"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title of the Pink Floyd track that was recorded in a single take and used as the B-side of the single 'Point Me at the Sky'?"
+        answers:
+          A: "Embryo"
+          B: "Careful with That Axe, Eugene"
+          C: "Julia Dream"
+          D: "Green Is the Colour"
+    difficulty: EXPERT
+  - text: "Quel est le nom du ballet pour lequel Pink Floyd a composé la musique en 1969 ?"
+    answers:
+      A: "The Rite of Spring"
+      B: "Relics"
+      C: "The Ballet of the Red Shoes"
+      D: "The Massed Gadgets of Auximenes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the ballet for which Pink Floyd composed the music in 1969?"
+        answers:
+          A: "The Rite of Spring"
+          B: "Relics"
+          C: "The Ballet of the Red Shoes"
+          D: "The Massed Gadgets of Auximenes"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau inédit de Pink Floyd enregistré en 1967 et finalement inclus dans le coffret 'The Early Years 1965-1972' ?"
+    answers:
+      A: "Vegetable Man"
+      B: "Scream Thy Last Scream"
+      C: "In the Beechwoods"
+      D: "John Latham"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the unreleased Pink Floyd track recorded in 1967 and eventually included in the box set 'The Early Years 1965-1972'?"
+        answers:
+          A: "Vegetable Man"
+          B: "Scream Thy Last Scream"
+          C: "In the Beechwoods"
+          D: "John Latham"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la comédie musicale de 2004 basée sur l'album 'The Wall' ?"
+    answers:
+      A: "The Wall: Live in Berlin"
+      B: "Another Brick in the Wall: The Musical"
+      C: "The Wall: The Opera"
+      D: "The Wall: The Musical"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the 2004 musical based on the album 'The Wall'?"
+        answers:
+          A: "The Wall: Live in Berlin"
+          B: "Another Brick in the Wall: The Musical"
+          C: "The Wall: The Opera"
+          D: "The Wall: The Musical"
+    difficulty: EXPERT
+  - text: "Quel est le titre du morceau de Pink Floyd qui a été utilisé comme indicatif de l'émission de radio 'The Tube' dans les années 1980 ?"
+    answers:
+      A: "One of These Days"
+      B: "Run Like Hell"
+      C: "The Gold It's in the..."
+      D: "When You're In"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the Pink Floyd track that was used as the theme for the radio show 'The Tube' in the 1980s?"
+        answers:
+          A: "One of These Days"
+          B: "Run Like Hell"
+          C: "The Gold It's in the..."
+          D: "When You're In"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier label discographique de Pink Floyd ?"
+    answers:
+      A: "EMI"
+      B: "Columbia"
+      C: "Harvest"
+      D: "Tower"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Pink Floyd's first record label?"
+        answers:
+          A: "EMI"
+          B: "Columbia"
+          C: "Harvest"
+          D: "Tower"
+    difficulty: HARD
+  - text: "Quel est le titre du morceau de Pink Floyd dont les paroles ont été écrites par David Gilmour sur l'album 'The Division Bell' ?"
+    answers:
+      A: "High Hopes"
+      B: "Marooned"
+      C: "Cluster One"
+      D: "Wearing the Inside Out"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the title of the Pink Floyd track whose lyrics were written by David Gilmour on the album 'The Division Bell'?"
+        answers:
+          A: "High Hopes"
+          B: "Marooned"
+          C: "Cluster One"
+          D: "Wearing the Inside Out"
+    difficulty: EXPERT

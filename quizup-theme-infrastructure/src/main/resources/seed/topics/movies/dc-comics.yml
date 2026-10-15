@@ -1,0 +1,1608 @@
+topic:
+  id: topic-dc-comics
+  names:
+    fr: "DC Comics"
+    en: "DC Comics"
+  description: "L'univers DC au cinéma et en comics : Batman, Superman, Wonder Woman, Justice League, Suicide Squad, films, acteurs, réalisateurs et vilains emblématiques (Joker, Lex Luthor, Darkseid)."
+  category: MOVIES
+questions:
+  - text: "Quel acteur incarne Batman dans le film 'The Batman' (2022) ?"
+    answers:
+      A: "Ben Affleck"
+      B: "Christian Bale"
+      C: "Robert Pattinson"
+      D: "Michael Keaton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Batman in the film 'The Batman' (2022)?"
+        answers:
+          A: "Ben Affleck"
+          B: "Christian Bale"
+          C: "Robert Pattinson"
+          D: "Michael Keaton"
+    difficulty: EASY
+  - text: "Quel réalisateur a dirigé 'Man of Steel' (2013) ?"
+    answers:
+      A: "Zack Snyder"
+      B: "Christopher Nolan"
+      C: "Joss Whedon"
+      D: "David Ayer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which director directed 'Man of Steel' (2013)?"
+        answers:
+          A: "Zack Snyder"
+          B: "Christopher Nolan"
+          C: "Joss Whedon"
+          D: "David Ayer"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de famille de Wonder Woman ?"
+    answers:
+      A: "Diana"
+      B: "Prince"
+      C: "Hippolyta"
+      D: "Cassidy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Wonder Woman's real last name?"
+        answers:
+          A: "Diana"
+          B: "Prince"
+          C: "Hippolyta"
+          D: "Cassidy"
+    difficulty: HARD
+  - text: "Dans quel film DC fait-on la première apparition du Joker ?"
+    answers:
+      A: "The Dark Knight"
+      B: "Batman (1989)"
+      C: "Suicide Squad"
+      D: "Joker (2019)"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which DC film does the Joker first appear?"
+        answers:
+          A: "The Dark Knight"
+          B: "Batman (1989)"
+          C: "Suicide Squad"
+          D: "Joker (2019)"
+    difficulty: HARD
+  - text: "Quel acteur a joué le Joker dans 'Suicide Squad' (2016) ?"
+    answers:
+      A: "Heath Ledger"
+      B: "Jared Leto"
+      C: "Joaquin Phoenix"
+      D: "Jack Nicholson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor played the Joker in 'Suicide Squad' (2016)?"
+        answers:
+          A: "Heath Ledger"
+          B: "Jared Leto"
+          C: "Joaquin Phoenix"
+          D: "Jack Nicholson"
+    difficulty: MEDIUM
+  - text: "Qui a réalisé 'Wonder Woman' (2017) ?"
+    answers:
+      A: "Patty Jenkins"
+      B: "Zack Snyder"
+      C: "Joss Whedon"
+      D: "James Wan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed 'Wonder Woman' (2017)?"
+        answers:
+          A: "Patty Jenkins"
+          B: "Zack Snyder"
+          C: "Joss Whedon"
+          D: "James Wan"
+    difficulty: HARD
+  - text: "Quel est le nom de la planète d'origine de Superman ?"
+    answers:
+      A: "Oa"
+      B: "Mars"
+      C: "Apokolips"
+      D: "Krypton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Superman's home planet?"
+        answers:
+          A: "Oa"
+          B: "Mars"
+          C: "Apokolips"
+          D: "Krypton"
+    difficulty: EASY
+  - text: "Combien de films Christopher Nolan a-t-il réalisés dans sa trilogie Batman ?"
+    answers:
+      A: "1"
+      B: "2"
+      C: "4"
+      D: "3"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many films did Christopher Nolan direct in his Batman trilogy?"
+        answers:
+          A: "1"
+          B: "2"
+          C: "4"
+          D: "3"
+    difficulty: EASY
+  - text: "Dans quel film de 2016 Batman et Superman s'affrontent-ils pour la première fois au cinéma en live-action ?"
+    answers:
+      A: "Justice League"
+      B: "Batman v Superman : L'Aube de la justice"
+      C: "Suicide Squad"
+      D: "Man of Steel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In which 2016 film do Batman and Superman face off for the first time in a live-action movie?"
+        answers:
+          A: "Justice League"
+          B: "Batman v Superman: Dawn of Justice"
+          C: "Suicide Squad"
+          D: "Man of Steel"
+    difficulty: MEDIUM
+  - text: "Quel acteur a incarné Batman dans les films de Tim Burton ?"
+    answers:
+      A: "George Clooney"
+      B: "Val Kilmer"
+      C: "Michael Keaton"
+      D: "Christian Bale"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor played Batman in Tim Burton's films?"
+        answers:
+          A: "George Clooney"
+          B: "Val Kilmer"
+          C: "Michael Keaton"
+          D: "Christian Bale"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du scénariste de la trilogie The Dark Knight ?"
+    answers:
+      A: "David S. Goyer"
+      B: "David Benioff"
+      C: "Jonathan Nolan"
+      D: "Chris Terrio"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the screenwriter of The Dark Knight trilogy?"
+        answers:
+          A: "David S. Goyer"
+          B: "David Benioff"
+          C: "Jonathan Nolan"
+          D: "Chris Terrio"
+    difficulty: EXPERT
+  - text: "Dans 'The Dark Knight Rises', quel acteur joue Bane ?"
+    answers:
+      A: "Cillian Murphy"
+      B: "Bane"
+      C: "Liam Neeson"
+      D: "Tom Hardy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'The Dark Knight Rises', which actor plays Bane?"
+        answers:
+          A: "Cillian Murphy"
+          B: "Bane"
+          C: "Liam Neeson"
+          D: "Tom Hardy"
+    difficulty: MEDIUM
+  - text: "Quel artiste a dessiné le roman graphique 'Batman: The Killing Joke' ?"
+    answers:
+      A: "Frank Miller"
+      B: "Jim Lee"
+      C: "Brian Bolland"
+      D: "Greg Capullo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which artist drew the graphic novel 'Batman: The Killing Joke'?"
+        answers:
+          A: "Frank Miller"
+          B: "Jim Lee"
+          C: "Brian Bolland"
+          D: "Greg Capullo"
+    difficulty: EXPERT
+  - text: "Quel est le premier film du DC Extended Universe (DCEU) ?"
+    answers:
+      A: "Batman v Superman"
+      B: "Man of Steel"
+      C: "Suicide Squad"
+      D: "Wonder Woman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first film of the DC Extended Universe (DCEU)?"
+        answers:
+          A: "Batman v Superman"
+          B: "Man of Steel"
+          C: "Suicide Squad"
+          D: "Wonder Woman"
+    difficulty: HARD
+  - text: "Qui a réalisé 'Suicide Squad' (2016) ?"
+    answers:
+      A: "Zack Snyder"
+      B: "David Ayer"
+      C: "Patty Jenkins"
+      D: "James Gunn"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who directed 'Suicide Squad' (2016)?"
+        answers:
+          A: "Zack Snyder"
+          B: "David Ayer"
+          C: "Patty Jenkins"
+          D: "James Gunn"
+    difficulty: HARD
+  - text: "Dans 'Batman Begins', quel acteur joue le rôle de Ra's al Ghul ?"
+    answers:
+      A: "Cillian Murphy"
+      B: "Ken Watanabe"
+      C: "Liam Neeson"
+      D: "Tom Wilkinson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In 'Batman Begins', which actor plays the role of Ra's al Ghul?"
+        answers:
+          A: "Cillian Murphy"
+          B: "Ken Watanabe"
+          C: "Liam Neeson"
+          D: "Tom Wilkinson"
+    difficulty: HARD
+  - text: "Quel est le nom de la ville fictive où vit Batman ?"
+    answers:
+      A: "Metropolis"
+      B: "Star City"
+      C: "Central City"
+      D: "Gotham City"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the fictional city where Batman lives?"
+        answers:
+          A: "Metropolis"
+          B: "Star City"
+          C: "Central City"
+          D: "Gotham City"
+    difficulty: EASY
+  - text: "Quel vilain est le principal antagoniste dans 'Superman II' (1980) ?"
+    answers:
+      A: "Lex Luthor"
+      B: "Brainiac"
+      C: "General Zod"
+      D: "Darkseid"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which villain is the main antagonist in 'Superman II' (1980)?"
+        answers:
+          A: "Lex Luthor"
+          B: "Brainiac"
+          C: "General Zod"
+          D: "Darkseid"
+    difficulty: EXPERT
+  - text: "Qui a réalisé 'Justice League' (2017) après le départ de Zack Snyder ?"
+    answers:
+      A: "David Ayer"
+      B: "Patty Jenkins"
+      C: "James Wan"
+      D: "Joss Whedon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who directed 'Justice League' (2017) after Zack Snyder's departure?"
+        answers:
+          A: "David Ayer"
+          B: "Patty Jenkins"
+          C: "James Wan"
+          D: "Joss Whedon"
+    difficulty: HARD
+  - text: "Dans 'Shazam!' (2019), quel acteur incarne le sorcier Shazam ?"
+    answers:
+      A: "Ron Cephas Jones"
+      B: "Mark Strong"
+      C: "Djimon Hounsou"
+      D: "Ian McShane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In 'Shazam!' (2019), which actor plays the wizard Shazam?"
+        answers:
+          A: "Ron Cephas Jones"
+          B: "Mark Strong"
+          C: "Djimon Hounsou"
+          D: "Ian McShane"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le Riddler dans 'The Batman' (2022) ?"
+    answers:
+      A: "Jonah Hill"
+      B: "Paul Dano"
+      C: "Ezra Miller"
+      D: "Joaquin Phoenix"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays the Riddler in 'The Batman' (2022)?"
+        answers:
+          A: "Jonah Hill"
+          B: "Paul Dano"
+          C: "Ezra Miller"
+          D: "Joaquin Phoenix"
+    difficulty: MEDIUM
+  - text: "Dans la trilogie de Christopher Nolan, quel acteur joue le docteur Jonathan Crane alias l'Épouvantail ?"
+    answers:
+      A: "Cillian Murphy"
+      B: "Tom Hardy"
+      C: "Liam Neeson"
+      D: "Aaron Eckhart"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Christopher Nolan's trilogy, which actor plays Dr. Jonathan Crane aka Scarecrow?"
+        answers:
+          A: "Cillian Murphy"
+          B: "Tom Hardy"
+          C: "Liam Neeson"
+          D: "Aaron Eckhart"
+    difficulty: HARD
+  - text: "Quel comédien prête sa voix au Joker dans le film d'animation 'Batman: The Killing Joke' (2016) ?"
+    answers:
+      A: "John DiMaggio"
+      B: "Kevin Conroy"
+      C: "Troy Baker"
+      D: "Mark Hamill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices the Joker in the animated film 'Batman: The Killing Joke' (2016)?"
+        answers:
+          A: "John DiMaggio"
+          B: "Kevin Conroy"
+          C: "Troy Baker"
+          D: "Mark Hamill"
+    difficulty: EXPERT
+  - text: "Quel est le nom du tout premier long métrage mettant en scène Superman au cinéma, sorti en 1978 ?"
+    answers:
+      A: "Superman: L'Homme d'acier"
+      B: "Superman: The Movie"
+      C: "Superman le film"
+      D: "Superman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the very first feature film starring Superman in cinemas, released in 1978?"
+        answers:
+          A: "Superman: Man of Steel"
+          B: "Superman: The Movie"
+          C: "Superman the Movie"
+          D: "Superman"
+    difficulty: MEDIUM
+  - text: "Quel acteur a incarné Lex Luthor dans 'Superman Returns' (2006) ?"
+    answers:
+      A: "Jesse Eisenberg"
+      B: "Gene Hackman"
+      C: "Michael Rosenbaum"
+      D: "Kevin Spacey"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor played Lex Luthor in 'Superman Returns' (2006)?"
+        answers:
+          A: "Jesse Eisenberg"
+          B: "Gene Hackman"
+          C: "Michael Rosenbaum"
+          D: "Kevin Spacey"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti le film 'Watchmen' réalisé par Zack Snyder ?"
+    answers:
+      A: "2007"
+      B: "2009"
+      C: "2011"
+      D: "2006"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the film 'Watchmen' directed by Zack Snyder released?"
+        answers:
+          A: "2007"
+          B: "2009"
+          C: "2011"
+          D: "2006"
+    difficulty: HARD
+  - text: "Quel membre de la Ligue de Justice est interprété par Jason Momoa ?"
+    answers:
+      A: "Flash"
+      B: "Cyborg"
+      C: "Aquaman"
+      D: "Green Lantern"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which member of the Justice League is played by Jason Momoa?"
+        answers:
+          A: "Flash"
+          B: "Cyborg"
+          C: "Aquaman"
+          D: "Green Lantern"
+    difficulty: EASY
+  - text: "Quel acteur a joué le personnage de Black Manta dans 'Aquaman' (2018) ?"
+    answers:
+      A: "Djimon Hounsou"
+      B: "Michael K. Williams"
+      C: "Yahya Abdul-Mateen II"
+      D: "Winston Duke"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor played the character Black Manta in 'Aquaman' (2018)?"
+        answers:
+          A: "Djimon Hounsou"
+          B: "Michael K. Williams"
+          C: "Yahya Abdul-Mateen II"
+          D: "Winston Duke"
+    difficulty: EXPERT
+  - text: "Quel est le nom du directeur de l'asile d'Arkham dans les comics DC ?"
+    answers:
+      A: "Quincy Sharp"
+      B: "Thomas Wayne"
+      C: "Amadeus Arkham"
+      D: "Jeremiah Arkham"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the director of Arkham Asylum in the DC comics?"
+        answers:
+          A: "Quincy Sharp"
+          B: "Thomas Wayne"
+          C: "Amadeus Arkham"
+          D: "Jeremiah Arkham"
+    difficulty: EXPERT
+  - text: "Quel super-héros est connu comme le 'Détective de l'Espace' ?"
+    answers:
+      A: "Hawkman"
+      B: "Adam Strange"
+      C: "Martian Manhunter"
+      D: "Green Lantern"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which superhero is known as the 'Space Detective'?"
+        answers:
+          A: "Hawkman"
+          B: "Adam Strange"
+          C: "Martian Manhunter"
+          D: "Green Lantern"
+    difficulty: EXPERT
+  - text: "Dans 'Man of Steel' (2013), quel acteur interprète le général Zod ?"
+    answers:
+      A: "Russell Crowe"
+      B: "Terence Stamp"
+      C: "Michael Shannon"
+      D: "Laurence Fishburne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In 'Man of Steel' (2013), which actor plays General Zod?"
+        answers:
+          A: "Russell Crowe"
+          B: "Terence Stamp"
+          C: "Michael Shannon"
+          D: "Laurence Fishburne"
+    difficulty: HARD
+  - text: "Quel film DC de 2019 met en scène le personnage d'Harley Quinn après 'Suicide Squad' ?"
+    answers:
+      A: "Joker"
+      B: "Gotham City Sirens"
+      C: "The Suicide Squad"
+      D: "Birds of Prey"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 2019 DC film features the character Harley Quinn after 'Suicide Squad'?"
+        answers:
+          A: "Joker"
+          B: "Gotham City Sirens"
+          C: "The Suicide Squad"
+          D: "Birds of Prey"
+    difficulty: MEDIUM
+  - text: "Quel acteur a prêté sa voix au Joker dans le jeu vidéo 'Batman: Arkham Asylum' (2009) ?"
+    answers:
+      A: "Cesar Romero"
+      B: "Heath Ledger"
+      C: "Jack Nicholson"
+      D: "Mark Hamill"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voiced the Joker in the video game 'Batman: Arkham Asylum' (2009)?"
+        answers:
+          A: "Cesar Romero"
+          B: "Heath Ledger"
+          C: "Jack Nicholson"
+          D: "Mark Hamill"
+    difficulty: EXPERT
+  - text: "Quel est le vrai nom du super-héros Shazam ?"
+    answers:
+      A: "Victor Vasquez"
+      B: "Freddy Freeman"
+      C: "Billy Batson"
+      D: "Eugene Choi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the real name of the superhero Shazam?"
+        answers:
+          A: "Victor Vasquez"
+          B: "Freddy Freeman"
+          C: "Billy Batson"
+          D: "Eugene Choi"
+    difficulty: MEDIUM
+  - text: "Quel antagoniste principal affronte Wonder Woman dans le film 'Wonder Woman' (2017) ?"
+    answers:
+      A: "Hadès"
+      B: "Poséidon"
+      C: "Arès"
+      D: "Zeus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which main antagonist does Wonder Woman face in the film 'Wonder Woman' (2017)?"
+        answers:
+          A: "Hades"
+          B: "Poseidon"
+          C: "Ares"
+          D: "Zeus"
+    difficulty: HARD
+  - text: "Dans les comics, quel est le nom de la planète natale de Darkseid ?"
+    answers:
+      A: "Apokolips"
+      B: "New Genesis"
+      C: "Oa"
+      D: "Krypton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the comics, what is the name of Darkseid's home planet?"
+        answers:
+          A: "Apokolips"
+          B: "New Genesis"
+          C: "Oa"
+          D: "Krypton"
+    difficulty: EXPERT
+  - text: "Quel acteur a incarné le Pingouin dans 'Batman Returns' (1992) ?"
+    answers:
+      A: "Michael Keaton"
+      B: "Jim Carrey"
+      C: "Christopher Walken"
+      D: "Danny DeVito"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor played the Penguin in 'Batman Returns' (1992)?"
+        answers:
+          A: "Michael Keaton"
+          B: "Jim Carrey"
+          C: "Christopher Walken"
+          D: "Danny DeVito"
+    difficulty: HARD
+  - text: "Quel film DC de 2020 raconte l'histoire d'origine de Diana sur l'île de Themyscira ?"
+    answers:
+      A: "Wonder Woman 1984"
+      B: "Justice League"
+      C: "Aquaman"
+      D: "Shazam!"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 2020 DC film tells the origin story of Diana on the island of Themyscira?"
+        answers:
+          A: "Wonder Woman 1984"
+          B: "Justice League"
+          C: "Aquaman"
+          D: "Shazam!"
+    difficulty: HARD
+  - text: "Quel scénariste a écrit 'Batman: The Dark Knight Returns' ?"
+    answers:
+      A: "Frank Miller"
+      B: "Alan Moore"
+      C: "Grant Morrison"
+      D: "Scott Snyder"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which writer wrote 'Batman: The Dark Knight Returns'?"
+        answers:
+          A: "Frank Miller"
+          B: "Alan Moore"
+          C: "Grant Morrison"
+          D: "Scott Snyder"
+    difficulty: EXPERT
+  - text: "Quelle actrice joue le rôle de Catwoman dans 'The Dark Knight Rises' ?"
+    answers:
+      A: "Halle Berry"
+      B: "Michelle Pfeiffer"
+      C: "Anne Hathaway"
+      D: "Zoë Kravitz"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress plays Catwoman in 'The Dark Knight Rises'?"
+        answers:
+          A: "Halle Berry"
+          B: "Michelle Pfeiffer"
+          C: "Anne Hathaway"
+          D: "Zoë Kravitz"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne Batman dans 'Batman Forever' (1995) ?"
+    answers:
+      A: "George Clooney"
+      B: "Val Kilmer"
+      C: "Michael Keaton"
+      D: "Christian Bale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Batman in 'Batman Forever' (1995)?"
+        answers:
+          A: "George Clooney"
+          B: "Val Kilmer"
+          C: "Michael Keaton"
+          D: "Christian Bale"
+    difficulty: HARD
+  - text: "Qui a réalisé 'Batman & Robin' (1997) ?"
+    answers:
+      A: "Joel Schumacher"
+      B: "Tim Burton"
+      C: "Zack Snyder"
+      D: "Christopher Nolan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed 'Batman & Robin' (1997)?"
+        answers:
+          A: "Joel Schumacher"
+          B: "Tim Burton"
+          C: "Zack Snyder"
+          D: "Christopher Nolan"
+    difficulty: HARD
+  - text: "Quel acteur joue le Joker dans 'The Dark Knight' (2008) ?"
+    answers:
+      A: "Jared Leto"
+      B: "Joaquin Phoenix"
+      C: "Jack Nicholson"
+      D: "Heath Ledger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the Joker in 'The Dark Knight' (2008)?"
+        answers:
+          A: "Jared Leto"
+          B: "Joaquin Phoenix"
+          C: "Jack Nicholson"
+          D: "Heath Ledger"
+    difficulty: EASY
+  - text: "Dans 'Batman v Superman: L'Aube de la Justice', qui incarne Lex Luthor ?"
+    answers:
+      A: "Jesse Eisenberg"
+      B: "Kevin Spacey"
+      C: "Gene Hackman"
+      D: "Michael Rosenbaum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'Batman v Superman: Dawn of Justice', who plays Lex Luthor?"
+        answers:
+          A: "Jesse Eisenberg"
+          B: "Kevin Spacey"
+          C: "Gene Hackman"
+          D: "Michael Rosenbaum"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la mère de Bruce Wayne ?"
+    answers:
+      A: "Harleen"
+      B: "Selina"
+      C: "Martha"
+      D: "Talia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Bruce Wayne's mother?"
+        answers:
+          A: "Harleen"
+          B: "Selina"
+          C: "Martha"
+          D: "Talia"
+    difficulty: HARD
+  - text: "Qui a réalisé 'Watchmen : Les Gardiens' (2009) ?"
+    answers:
+      A: "Zack Snyder"
+      B: "Christopher Nolan"
+      C: "David Ayer"
+      D: "Patty Jenkins"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed 'Watchmen' (2009)?"
+        answers:
+          A: "Zack Snyder"
+          B: "Christopher Nolan"
+          C: "David Ayer"
+          D: "Patty Jenkins"
+    difficulty: HARD
+  - text: "Quel est le vrai nom du Joker dans les comics ?"
+    answers:
+      A: "Jack Napier"
+      B: "Aucune identité confirmée"
+      C: "Arthur Fleck"
+      D: "Jerome Valeska"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the Joker's real name in the comics?"
+        answers:
+          A: "Jack Napier"
+          B: "No confirmed identity"
+          C: "Arthur Fleck"
+          D: "Jerome Valeska"
+    difficulty: EXPERT
+  - text: "Quel acteur prête sa voix à Deathstroke dans 'Justice League' (2017) ?"
+    answers:
+      A: "Ben Affleck"
+      B: "Joe Manganiello"
+      C: "Jason Momoa"
+      D: "Ray Fisher"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor voices Deathstroke in 'Justice League' (2017)?"
+        answers:
+          A: "Ben Affleck"
+          B: "Joe Manganiello"
+          C: "Jason Momoa"
+          D: "Ray Fisher"
+    difficulty: EXPERT
+  - text: "Quel film DC de 2018 a rapporté plus d'un milliard de dollars au box-office mondial ?"
+    answers:
+      A: "Shazam!"
+      B: "Wonder Woman"
+      C: "Aquaman"
+      D: "Suicide Squad"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 2018 DC film grossed over a billion dollars at the worldwide box office?"
+        answers:
+          A: "Shazam!"
+          B: "Wonder Woman"
+          C: "Aquaman"
+          D: "Suicide Squad"
+    difficulty: HARD
+  - text: "Quel acteur interprète Arthur Curry alias Aquaman ?"
+    answers:
+      A: "Jason Momoa"
+      B: "Henry Cavill"
+      C: "Zachary Levi"
+      D: "Ezra Miller"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Arthur Curry aka Aquaman?"
+        answers:
+          A: "Jason Momoa"
+          B: "Henry Cavill"
+          C: "Zachary Levi"
+          D: "Ezra Miller"
+    difficulty: MEDIUM
+  - text: "Qui a réalisé 'Joker' (2019) ?"
+    answers:
+      A: "Todd Phillips"
+      B: "Martin Scorsese"
+      C: "David Fincher"
+      D: "Todd Haynes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed 'Joker' (2019)?"
+        answers:
+          A: "Todd Phillips"
+          B: "Martin Scorsese"
+          C: "David Fincher"
+          D: "Todd Haynes"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la sœur d'Aquaman dans les comics et le film de 2018 ?"
+    answers:
+      A: "Mera"
+      B: "Tula"
+      C: "Orm"
+      D: "Atlanna"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Aquaman's sister in the comics and the 2018 film?"
+        answers:
+          A: "Mera"
+          B: "Tula"
+          C: "Orm"
+          D: "Atlanna"
+    difficulty: HARD
+  - text: "Quel acteur joue Harvey Dent dans 'The Dark Knight' (2008) ?"
+    answers:
+      A: "Eric Roberts"
+      B: "Cillian Murphy"
+      C: "Aaron Eckhart"
+      D: "Anthony Michael Hall"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays Harvey Dent in 'The Dark Knight' (2008)?"
+        answers:
+          A: "Eric Roberts"
+          B: "Cillian Murphy"
+          C: "Aaron Eckhart"
+          D: "Anthony Michael Hall"
+    difficulty: HARD
+  - text: "Quel est le vrai nom du Riddler dans les comics ?"
+    answers:
+      A: "Oswald Cobblepot"
+      B: "Harvey Dent"
+      C: "Jonathan Crane"
+      D: "Edward Nygma"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the Riddler's real name in the comics?"
+        answers:
+          A: "Oswald Cobblepot"
+          B: "Harvey Dent"
+          C: "Jonathan Crane"
+          D: "Edward Nygma"
+    difficulty: HARD
+  - text: "Combien de temps Superman passe-t-il mort dans les comics après son combat contre Doomsday ?"
+    answers:
+      A: "Quelques heures"
+      B: "Environ un an"
+      C: "Un mois"
+      D: "Trois ans"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long does Superman stay dead in the comics after his fight with Doomsday?"
+        answers:
+          A: "A few hours"
+          B: "About a year"
+          C: "One month"
+          D: "Three years"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le personnage de Deadshot dans 'Suicide Squad' (2016) ?"
+    answers:
+      A: "Joel Kinnaman"
+      B: "Jai Courtney"
+      C: "Adewale Akinnuoye-Agbaje"
+      D: "Will Smith"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Deadshot in 'Suicide Squad' (2016)?"
+        answers:
+          A: "Joel Kinnaman"
+          B: "Jai Courtney"
+          C: "Adewale Akinnuoye-Agbaje"
+          D: "Will Smith"
+    difficulty: HARD
+  - text: "Dans la série 'Peacemaker', quel acteur reprend son rôle de 'Suicide Squad' ?"
+    answers:
+      A: "John Cena"
+      B: "Idris Elba"
+      C: "Michael Rooker"
+      D: "Nathan Fillion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the series 'Peacemaker', which actor reprises his 'Suicide Squad' role?"
+        answers:
+          A: "John Cena"
+          B: "Idris Elba"
+          C: "Michael Rooker"
+          D: "Nathan Fillion"
+    difficulty: HARD
+  - text: "Quel est le nom du royaume sous-marin d'Aquaman ?"
+    answers:
+      A: "Xebel"
+      B: "Infernus"
+      C: "Brinedive"
+      D: "Atlantide"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Aquaman's underwater kingdom?"
+        answers:
+          A: "Xebel"
+          B: "Infernus"
+          C: "Brinedive"
+          D: "Atlantis"
+    difficulty: HARD
+  - text: "Quel comédien a joué le rôle du Joker dans la série télévisée 'Batman' des années 1960 ?"
+    answers:
+      A: "Burgess Meredith"
+      B: "Frank Gorshin"
+      C: "Cesar Romero"
+      D: "Julie Newmar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which comedian played the Joker in the 1960s TV series 'Batman'?"
+        answers:
+          A: "Burgess Meredith"
+          B: "Frank Gorshin"
+          C: "Cesar Romero"
+          D: "Julie Newmar"
+    difficulty: HARD
+  - text: "Dans 'Justice League' (2017), qui incarne Barry Allen alias Flash ?"
+    answers:
+      A: "Grant Gustin"
+      B: "Ray Fisher"
+      C: "John Wesley Shipp"
+      D: "Ezra Miller"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'Justice League' (2017), who plays Barry Allen aka Flash?"
+        answers:
+          A: "Grant Gustin"
+          B: "Ray Fisher"
+          C: "John Wesley Shipp"
+          D: "Ezra Miller"
+    difficulty: HARD
+  - text: "Quel acteur incarne Steve Trevor dans le film Wonder Woman de 2017 ?"
+    answers:
+      A: "Chris Evans"
+      B: "Chris Pine"
+      C: "Chris Hemsworth"
+      D: "Chris Pratt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Steve Trevor in the 2017 film Wonder Woman?"
+        answers:
+          A: "Chris Evans"
+          B: "Chris Pine"
+          C: "Chris Hemsworth"
+          D: "Chris Pratt"
+    difficulty: HARD
+  - text: "Dans quelle ville fictive se déroule principalement l'histoire de Batman ?"
+    answers:
+      A: "Gotham City"
+      B: "Metropolis"
+      C: "Star City"
+      D: "Central City"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which fictional city does the Batman story mainly take place?"
+        answers:
+          A: "Gotham City"
+          B: "Metropolis"
+          C: "Star City"
+          D: "Central City"
+    difficulty: EASY
+  - text: "Quel est le nom du fidèle majordome de Bruce Wayne ?"
+    answers:
+      A: "Lucius Fox"
+      B: "Alfred Pennyworth"
+      C: "James Gordon"
+      D: "Harvey Bullock"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Bruce Wayne's loyal butler?"
+        answers:
+          A: "Lucius Fox"
+          B: "Alfred Pennyworth"
+          C: "James Gordon"
+          D: "Harvey Bullock"
+    difficulty: EASY
+  - text: "Quel film de 2017 a été le premier de l'univers cinématographique DC (DCEU) à mettre en scène Wonder Woman ?"
+    answers:
+      A: "Suicide Squad"
+      B: "Batman v Superman : L'Aube de la justice"
+      C: "Wonder Woman"
+      D: "Justice League"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 2017 film was the first in the DC cinematic universe (DCEU) to feature Wonder Woman?"
+        answers:
+          A: "Suicide Squad"
+          B: "Batman v Superman: Dawn of Justice"
+          C: "Wonder Woman"
+          D: "Justice League"
+    difficulty: EXPERT
+  - text: "Qui a réalisé le film « Joker » sorti en 2019 ?"
+    answers:
+      A: "Todd Phillips"
+      B: "Martin Scorsese"
+      C: "David Fincher"
+      D: "Zack Snyder"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed the film \"Joker\" released in 2019?"
+        answers:
+          A: "Todd Phillips"
+          B: "Martin Scorsese"
+          C: "David Fincher"
+          D: "Zack Snyder"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la planète natale de Superman ?"
+    answers:
+      A: "Mars"
+      B: "Krypton"
+      C: "Oa"
+      D: "Apokolips"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Superman's home planet?"
+        answers:
+          A: "Mars"
+          B: "Krypton"
+          C: "Oa"
+          D: "Apokolips"
+    difficulty: EASY
+  - text: "Quel est le vrai nom de Wonder Woman ?"
+    answers:
+      A: "Cassie Sandsmark"
+      B: "Donna Troy"
+      C: "Diana Prince"
+      D: "Artemis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Wonder Woman's real name?"
+        answers:
+          A: "Cassie Sandsmark"
+          B: "Donna Troy"
+          C: "Diana Prince"
+          D: "Artemis"
+    difficulty: MEDIUM
+  - text: "Quel acteur a incarné le Joker dans la série télévisée « Batman » des années 1960 ?"
+    answers:
+      A: "Heath Ledger"
+      B: "Jack Nicholson"
+      C: "Cesar Romero"
+      D: "Mark Hamill"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor played the Joker in the 1960s TV series \"Batman\"?"
+        answers:
+          A: "Heath Ledger"
+          B: "Jack Nicholson"
+          C: "Cesar Romero"
+          D: "Mark Hamill"
+    difficulty: HARD
+  - text: "Dans le film « The Dark Knight » (2008), quel acteur joue Harvey Dent ?"
+    answers:
+      A: "Eric Roberts"
+      B: "Gary Oldman"
+      C: "Cillian Murphy"
+      D: "Aaron Eckhart"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In the film \"The Dark Knight\" (2008), which actor plays Harvey Dent?"
+        answers:
+          A: "Eric Roberts"
+          B: "Gary Oldman"
+          C: "Cillian Murphy"
+          D: "Aaron Eckhart"
+    difficulty: HARD
+  - text: "Quel est le nom du chef de la police de Gotham City, allié de Batman ?"
+    answers:
+      A: "Sarah Essen"
+      B: "Harvey Bullock"
+      C: "Renee Montoya"
+      D: "James Gordon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Gotham City police chief who is Batman's ally?"
+        answers:
+          A: "Sarah Essen"
+          B: "Harvey Bullock"
+          C: "Renee Montoya"
+          D: "James Gordon"
+    difficulty: HARD
+  - text: "Dans les comics, quelle est l'identité secrète de Flash (Barry Allen) ?"
+    answers:
+      A: "Un scientifique de la police de Central City"
+      B: "Un journaliste de Metropolis"
+      C: "Un étudiant en droit de Gotham"
+      D: "Un pilote de course de Coast City"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the comics, what is the secret identity of Flash (Barry Allen)?"
+        answers:
+          A: "A scientist with the Central City police"
+          B: "A journalist from Metropolis"
+          C: "A law student from Gotham"
+          D: "A race car driver from Coast City"
+    difficulty: MEDIUM
+  - text: "Quel vilain est le principal antagoniste du film « Man of Steel » (2013) ?"
+    answers:
+      A: "Lex Luthor"
+      B: "Le général Zod"
+      C: "Brainiac"
+      D: "Doomsday"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which villain is the main antagonist of the film \"Man of Steel\" (2013)?"
+        answers:
+          A: "Lex Luthor"
+          B: "General Zod"
+          C: "Brainiac"
+          D: "Doomsday"
+    difficulty: HARD
+  - text: "Quel acteur a interprété le rôle de Barry Allen (Flash) dans « Justice League » (2017) ?"
+    answers:
+      A: "Ezra Miller"
+      B: "Grant Gustin"
+      C: "John Wesley Shipp"
+      D: "Kyle Gallner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor played the role of Barry Allen (Flash) in \"Justice League\" (2017)?"
+        answers:
+          A: "Ezra Miller"
+          B: "Grant Gustin"
+          C: "John Wesley Shipp"
+          D: "Kyle Gallner"
+    difficulty: HARD
+  - text: "Quel acteur joue le rôle de Rick Flag dans « Suicide Squad » (2016) ?"
+    answers:
+      A: "Scott Eastwood"
+      B: "Will Smith"
+      C: "Jai Courtney"
+      D: "Joel Kinnaman"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the role of Rick Flag in \"Suicide Squad\" (2016)?"
+        answers:
+          A: "Scott Eastwood"
+          B: "Will Smith"
+          C: "Jai Courtney"
+          D: "Joel Kinnaman"
+    difficulty: HARD
+  - text: "Quel est le vrai nom du super-vilain Deadshot ?"
+    answers:
+      A: "Slade Wilson"
+      B: "Floyd Lawton"
+      C: "Roman Sionis"
+      D: "Victor Zsasz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the real name of the supervillain Deadshot?"
+        answers:
+          A: "Slade Wilson"
+          B: "Floyd Lawton"
+          C: "Roman Sionis"
+          D: "Victor Zsasz"
+    difficulty: EXPERT
+  - text: "Quelle actrice incarne Harley Quinn dans « Suicide Squad » (2016) ?"
+    answers:
+      A: "Margot Robbie"
+      B: "Cara Delevingne"
+      C: "Karen Fukuhara"
+      D: "Alicia Silverstone"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actress plays Harley Quinn in \"Suicide Squad\" (2016)?"
+        answers:
+          A: "Margot Robbie"
+          B: "Cara Delevingne"
+          C: "Karen Fukuhara"
+          D: "Alicia Silverstone"
+    difficulty: MEDIUM
+  - text: "Dans les comics, quel est le nom de la femme de Barry Allen (Flash) ?"
+    answers:
+      A: "Iris West"
+      B: "Lois Lane"
+      C: "Linda Park"
+      D: "Carol Ferris"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the comics, what is the name of Barry Allen's (Flash) wife?"
+        answers:
+          A: "Iris West"
+          B: "Lois Lane"
+          C: "Linda Park"
+          D: "Carol Ferris"
+    difficulty: EXPERT
+  - text: "Quel acteur a incarné le personnage de Black Manta dans « Aquaman » (2018) ?"
+    answers:
+      A: "Michael Beach"
+      B: "Yahya Abdul-Mateen II"
+      C: "Djimon Hounsou"
+      D: "Common"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor played Black Manta in \"Aquaman\" (2018)?"
+        answers:
+          A: "Michael Beach"
+          B: "Yahya Abdul-Mateen II"
+          C: "Djimon Hounsou"
+          D: "Common"
+    difficulty: EXPERT
+  - text: "Quel film DC a été le premier à remporter l'Oscar du meilleur acteur ?"
+    answers:
+      A: "Joker"
+      B: "The Dark Knight"
+      C: "Black Panther"
+      D: "Superman"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which DC film was the first to win the Oscar for Best Actor?"
+        answers:
+          A: "Joker"
+          B: "The Dark Knight"
+          C: "Black Panther"
+          D: "Superman"
+    difficulty: EXPERT
+  - text: "Combien de films composent la trilogie du 'Dark Knight' de Christopher Nolan ?"
+    answers:
+      A: "2"
+      B: "4"
+      C: "3"
+      D: "5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many films make up Christopher Nolan's 'Dark Knight' trilogy?"
+        answers:
+          A: "2"
+          B: "4"
+          C: "3"
+          D: "5"
+    difficulty: MEDIUM
+  - text: "Quel acteur a joué le rôle de Batman dans le film 'The Batman' (2022) ?"
+    answers:
+      A: "Ben Affleck"
+      B: "Christian Bale"
+      C: "Michael Keaton"
+      D: "Robert Pattinson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor played Batman in the film 'The Batman' (2022)?"
+        answers:
+          A: "Ben Affleck"
+          B: "Christian Bale"
+          C: "Michael Keaton"
+          D: "Robert Pattinson"
+    difficulty: MEDIUM
+  - text: "Quel est le vrai nom de famille de Batman ?"
+    answers:
+      A: "Wayne"
+      B: "Kent"
+      C: "Prince"
+      D: "Allen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is Batman's real last name?"
+        answers:
+          A: "Wayne"
+          B: "Kent"
+          C: "Prince"
+          D: "Allen"
+    difficulty: EASY
+  - text: "Quel acteur incarne le personnage de Superman dans 'Man of Steel' (2013) ?"
+    answers:
+      A: "Brandon Routh"
+      B: "Henry Cavill"
+      C: "Christopher Reeve"
+      D: "Tyler Hoechlin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays Superman in 'Man of Steel' (2013)?"
+        answers:
+          A: "Brandon Routh"
+          B: "Henry Cavill"
+          C: "Christopher Reeve"
+          D: "Tyler Hoechlin"
+    difficulty: MEDIUM
+  - text: "Dans 'Watchmen : Les Gardiens', qui incarne le Comédien ?"
+    answers:
+      A: "Billy Crudup"
+      B: "Jackie Earle Haley"
+      C: "Patrick Wilson"
+      D: "Jeffrey Dean Morgan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'Watchmen', who plays the Comedian?"
+        answers:
+          A: "Billy Crudup"
+          B: "Jackie Earle Haley"
+          C: "Patrick Wilson"
+          D: "Jeffrey Dean Morgan"
+    difficulty: EXPERT
+  - text: "Quel acteur a joué le rôle de Barry Allen dans la série télévisée 'The Flash' (2014) ?"
+    answers:
+      A: "Kyle Gallner"
+      B: "Ezra Miller"
+      C: "John Wesley Shipp"
+      D: "Grant Gustin"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor played Barry Allen in the TV series 'The Flash' (2014)?"
+        answers:
+          A: "Kyle Gallner"
+          B: "Ezra Miller"
+          C: "John Wesley Shipp"
+          D: "Grant Gustin"
+    difficulty: HARD
+  - text: "Quel est le nom du chien de Superman ?"
+    answers:
+      A: "Rex"
+      B: "Ace"
+      C: "Krypto"
+      D: "Streaky"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Superman's dog?"
+        answers:
+          A: "Rex"
+          B: "Ace"
+          C: "Krypto"
+          D: "Streaky"
+    difficulty: EXPERT
+  - text: "Quel acteur a réalisé et joué dans 'The Suicide Squad' (2021) ?"
+    answers:
+      A: "James Gunn"
+      B: "David Ayer"
+      C: "Zack Snyder"
+      D: "Patty Jenkins"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor directed and starred in 'The Suicide Squad' (2021)?"
+        answers:
+          A: "James Gunn"
+          B: "David Ayer"
+          C: "Zack Snyder"
+          D: "Patty Jenkins"
+    difficulty: HARD
+  - text: "Quel est le nom du tout premier film de super-héros DC au cinéma ?"
+    answers:
+      A: "Batman: The Movie"
+      B: "Superman and the Mole Men"
+      C: "Superman"
+      D: "Wonder Woman"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the very first DC superhero film in cinemas?"
+        answers:
+          A: "Batman: The Movie"
+          B: "Superman and the Mole Men"
+          C: "Superman"
+          D: "Wonder Woman"
+    difficulty: EXPERT
+  - text: "Quel acteur a incarné le personnage de Darkseid dans 'Zack Snyder's Justice League' (2021) ?"
+    answers:
+      A: "Ray Porter"
+      B: "Ciarán Hinds"
+      C: "Michael Ironside"
+      D: "Andre Braugher"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor played Darkseid in 'Zack Snyder's Justice League' (2021)?"
+        answers:
+          A: "Ray Porter"
+          B: "Ciarán Hinds"
+          C: "Michael Ironside"
+          D: "Andre Braugher"
+    difficulty: EXPERT
+  - text: "Quel est le nom du batteur dans le groupe de Joker dans le film 'Joker' (2019) ?"
+    answers:
+      A: "Randall"
+      B: "Murray"
+      C: "Gary"
+      D: "Arthur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the drummer in Joker's band in the film 'Joker' (2019)?"
+        answers:
+          A: "Randall"
+          B: "Murray"
+          C: "Gary"
+          D: "Arthur"
+    difficulty: EXPERT
+  - text: "Qui a réalisé le film 'Superman Returns' (2006) ?"
+    answers:
+      A: "Bryan Singer"
+      B: "Richard Donner"
+      C: "Zack Snyder"
+      D: "James Gunn"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who directed the film 'Superman Returns' (2006)?"
+        answers:
+          A: "Bryan Singer"
+          B: "Richard Donner"
+          C: "Zack Snyder"
+          D: "James Gunn"
+    difficulty: EXPERT
+  - text: "Quelle actrice a joué le rôle de Faora-Ul dans 'Man of Steel' ?"
+    answers:
+      A: "Ayelet Zurer"
+      B: "Diane Lane"
+      C: "Antje Traue"
+      D: "Laurence Fishburne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actress played the role of Faora-Ul in 'Man of Steel'?"
+        answers:
+          A: "Ayelet Zurer"
+          B: "Diane Lane"
+          C: "Antje Traue"
+          D: "Laurence Fishburne"
+    difficulty: EXPERT
+  - text: "Quel personnage DC est connu comme le 'Démon de Tasmanie' ?"
+    answers:
+      A: "Lobo"
+      B: "Tasmanian Devil"
+      C: "Etrigan"
+      D: "Killer Croc"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which DC character is known as the 'Tasmanian Devil'?"
+        answers:
+          A: "Lobo"
+          B: "Tasmanian Devil"
+          C: "Etrigan"
+          D: "Killer Croc"
+    difficulty: EXPERT
+  - text: "Quel est le vrai nom du premier Robin, acolyte de Batman ?"
+    answers:
+      A: "Tim Drake"
+      B: "Jason Todd"
+      C: "Dick Grayson"
+      D: "Damian Wayne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the real name of the first Robin, Batman's sidekick?"
+        answers:
+          A: "Tim Drake"
+          B: "Jason Todd"
+          C: "Dick Grayson"
+          D: "Damian Wayne"
+    difficulty: EXPERT
+  - text: "Quel dieu de la vitesse est l'ennemi juré de Flash ?"
+    answers:
+      A: "Savitar"
+      B: "Reverse-Flash"
+      C: "Zoom"
+      D: "Godspeed"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which speed god is the Flash's sworn enemy?"
+        answers:
+          A: "Savitar"
+          B: "Reverse-Flash"
+          C: "Zoom"
+          D: "Godspeed"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la planète natale de Darkseid ?"
+    answers:
+      A: "Oa"
+      B: "New Genesis"
+      C: "Krypton"
+      D: "Apokolips"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Darkseid's home planet?"
+        answers:
+          A: "Oa"
+          B: "New Genesis"
+          C: "Krypton"
+          D: "Apokolips"
+    difficulty: EXPERT
+  - text: "Quel acteur a prêté sa voix au Joker dans le jeu vidéo 'Batman: Arkham Asylum' ?"
+    answers:
+      A: "Kevin Conroy"
+      B: "Mark Hamill"
+      C: "Troy Baker"
+      D: "John DiMaggio"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor voiced the Joker in the video game 'Batman: Arkham Asylum'?"
+        answers:
+          A: "Kevin Conroy"
+          B: "Mark Hamill"
+          C: "Troy Baker"
+          D: "John DiMaggio"
+    difficulty: EXPERT
+  - text: "Dans le film 'Watchmen : Les Gardiens' (2009), quel acteur incarne Ozymandias ?"
+    answers:
+      A: "Matthew Goode"
+      B: "Patrick Wilson"
+      C: "Malin Akerman"
+      D: "Billy Crudup"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In the film 'Watchmen' (2009), which actor plays Ozymandias?"
+        answers:
+          A: "Matthew Goode"
+          B: "Patrick Wilson"
+          C: "Malin Akerman"
+          D: "Billy Crudup"
+    difficulty: EXPERT
+  - text: "Quel est le véritable nom du super-vilain Darkseid ?"
+    answers:
+      A: "Desaad"
+      B: "Kalibak"
+      C: "Steppenwolf"
+      D: "Uxas"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the real name of the supervillain Darkseid?"
+        answers:
+          A: "Desaad"
+          B: "Kalibak"
+          C: "Steppenwolf"
+          D: "Uxas"
+    difficulty: EXPERT
+  - text: "Quel acteur a joué le rôle de Jonathan Kent dans 'Man of Steel' (2013) ?"
+    answers:
+      A: "Kevin Costner"
+      B: "Russell Crowe"
+      C: "Diane Lane"
+      D: "Laurence Fishburne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor played Jonathan Kent in 'Man of Steel' (2013)?"
+        answers:
+          A: "Kevin Costner"
+          B: "Russell Crowe"
+          C: "Diane Lane"
+          D: "Laurence Fishburne"
+    difficulty: EXPERT

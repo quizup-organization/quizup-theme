@@ -1,0 +1,1608 @@
+topic:
+  id: topic-disney-classiques
+  names:
+    fr: "Disney"
+    en: "Disney"
+  description: "Les grands classiques d'animation Disney : de Blanche-Neige au Roi Lion en passant par La Petite Sirène et La Reine des neiges — princesses, chansons, seconds rôles et méchants cultes."
+  category: MOVIES
+questions:
+  - text: "Quel est le nom du chien dans 'La Belle et le Clochard' ?"
+    answers:
+      A: "Pongo"
+      B: "Rex"
+      C: "Dingo"
+      D: "Clochard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the dog in 'Lady and the Tramp'?"
+        answers:
+          A: "Pongo"
+          B: "Rex"
+          C: "Dingo"
+          D: "Tramp"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du petit frère de Simba ?"
+    answers:
+      A: "Kopa"
+      B: "Nuka"
+      C: "Kion"
+      D: "Kovu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Simba's little brother?"
+        answers:
+          A: "Kopa"
+          B: "Nuka"
+          C: "Kion"
+          D: "Kovu"
+    difficulty: EXPERT
+  - text: "Combien de nains y a-t-il dans 'Blanche-Neige et les Sept Nains' ?"
+    answers:
+      A: "Cinq"
+      B: "Six"
+      C: "Huit"
+      D: "Sept"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many dwarfs are there in 'Snow White and the Seven Dwarfs'?"
+        answers:
+          A: "Five"
+          B: "Six"
+          C: "Eight"
+          D: "Seven"
+    difficulty: EASY
+  - text: "Qui est la voix française de Woody dans 'Toy Story' ?"
+    answers:
+      A: "Jean Reno"
+      B: "Richard Darbois"
+      C: "Gérard Depardieu"
+      D: "Patrick Timsit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the French voice of Woody in 'Toy Story'?"
+        answers:
+          A: "Jean Reno"
+          B: "Richard Darbois"
+          C: "Gérard Depardieu"
+          D: "Patrick Timsit"
+    difficulty: EXPERT
+  - text: "Dans 'Cendrillon', quel est le nom de la fée marraine ?"
+    answers:
+      A: "Fée Clochette"
+      B: "Fée Marraine"
+      C: "Fée Carabosse"
+      D: "Fée Morgane"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'Cinderella', what is the name of the fairy godmother?"
+        answers:
+          A: "Fée Clochette"
+          B: "Fée Marraine"
+          C: "Fée Carabosse"
+          D: "Fée Morgane"
+    difficulty: EXPERT
+  - text: "Quel est le premier long-métrage d'animation des studios Disney ?"
+    answers:
+      A: "Blanche-Neige et les Sept Nains"
+      B: "Dumbo"
+      C: "Pinocchio"
+      D: "Bambi"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the first animated feature film by the Disney studios?"
+        answers:
+          A: "Snow White and the Seven Dwarfs"
+          B: "Dumbo"
+          C: "Pinocchio"
+          D: "Bambi"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du crabe dans 'La Petite Sirène' ?"
+    answers:
+      A: "Bernard"
+      B: "Polochon"
+      C: "Eurêka"
+      D: "Sébastien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the crab in 'The Little Mermaid'?"
+        answers:
+          A: "Bernard"
+          B: "Flounder"
+          C: "Eurêka"
+          D: "Sebastian"
+    difficulty: HARD
+  - text: "Dans 'La Reine des neiges', qui chante la chanson 'Libérée, délivrée' ?"
+    answers:
+      A: "Kristoff"
+      B: "Anna"
+      C: "Olaf"
+      D: "Elsa"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'Frozen', who sings the song 'Let It Go'?"
+        answers:
+          A: "Kristoff"
+          B: "Anna"
+          C: "Olaf"
+          D: "Elsa"
+    difficulty: EASY
+  - text: "Quel est le nom de la méchante dans 'La Belle au bois dormant' ?"
+    answers:
+      A: "Méchante Reine"
+      B: "Maléfique"
+      C: "Dame Trémaine"
+      D: "Ursula"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the villain in 'Sleeping Beauty'?"
+        answers:
+          A: "Evil Queen"
+          B: "Maleficent"
+          C: "Lady Tremaine"
+          D: "Ursula"
+    difficulty: HARD
+  - text: "Combien de frères et sœurs a Ariel dans 'La Petite Sirène' ?"
+    answers:
+      A: "Cinq"
+      B: "Huit"
+      C: "Sept"
+      D: "Six"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many brothers and sisters does Ariel have in 'The Little Mermaid'?"
+        answers:
+          A: "Five"
+          B: "Eight"
+          C: "Seven"
+          D: "Six"
+    difficulty: EXPERT
+  - text: "Quel acteur double le Génie dans 'Aladdin' en version originale ?"
+    answers:
+      A: "Eddie Murphy"
+      B: "Jim Carrey"
+      C: "Robin Williams"
+      D: "Will Smith"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor voices the Genie in 'Aladdin' in the original version?"
+        answers:
+          A: "Eddie Murphy"
+          B: "Jim Carrey"
+          C: "Robin Williams"
+          D: "Will Smith"
+    difficulty: HARD
+  - text: "Dans 'Le Roi Lion', qui tue Mufasa ?"
+    answers:
+      A: "Ed"
+      B: "Banzaï"
+      C: "Shenzi"
+      D: "Scar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'The Lion King', who kills Mufasa?"
+        answers:
+          A: "Ed"
+          B: "Banzai"
+          C: "Shenzi"
+          D: "Scar"
+    difficulty: EASY
+  - text: "Quel est le nom du chien dans 'Cendrillon' ?"
+    answers:
+      A: "Pongo"
+      B: "Lucky"
+      C: "Rex"
+      D: "Perdita"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dog in 'Cinderella'?"
+        answers:
+          A: "Pongo"
+          B: "Lucky"
+          C: "Rex"
+          D: "Perdita"
+    difficulty: EXPERT
+  - text: "Quelle chanson est chantée par Belle dans 'La Belle et la Bête' ?"
+    answers:
+      A: "Tous ensemble"
+      B: "C'est la fête"
+      C: "Je ne savais pas"
+      D: "Histoire éternelle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which song is sung by Belle in 'Beauty and the Beast'?"
+        answers:
+          A: "Tous ensemble"
+          B: "C'est la fête"
+          C: "Je ne savais pas"
+          D: "Histoire éternelle"
+    difficulty: MEDIUM
+  - text: "Dans 'Aladdin', quel est le nom du perroquet ?"
+    answers:
+      A: "Razoul"
+      B: "Zazu"
+      C: "Jafar"
+      D: "Iago"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'Aladdin', what is the name of the parrot?"
+        answers:
+          A: "Razoul"
+          B: "Zazu"
+          C: "Jafar"
+          D: "Iago"
+    difficulty: HARD
+  - text: "Quel est le nom de la princesse dans 'Raiponce' ?"
+    answers:
+      A: "Belle"
+      B: "Aurore"
+      C: "Raiponce"
+      D: "Jasmine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the princess in 'Tangled'?"
+        answers:
+          A: "Belle"
+          B: "Aurora"
+          C: "Rapunzel"
+          D: "Jasmine"
+    difficulty: MEDIUM
+  - text: "Qui est le méchant dans 'Les 101 Dalmatiens' ?"
+    answers:
+      A: "Gaston"
+      B: "Maléfique"
+      C: "Ursula"
+      D: "Cruella d'Enfer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the villain in '101 Dalmatians'?"
+        answers:
+          A: "Gaston"
+          B: "Maleficent"
+          C: "Ursula"
+          D: "Cruella de Vil"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du dragon dans 'Mulan' ?"
+    answers:
+      A: "Shenron"
+      B: "Mushu"
+      C: "Draco"
+      D: "Smaug"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dragon in 'Mulan'?"
+        answers:
+          A: "Shenron"
+          B: "Mushu"
+          C: "Draco"
+          D: "Smaug"
+    difficulty: HARD
+  - text: "Dans 'La Princesse et la Grenouille', quel est le nom du alligator ?"
+    answers:
+      A: "Louis"
+      B: "Ray"
+      C: "Naveen"
+      D: "Lawrence"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'The Princess and the Frog', what is the name of the alligator?"
+        answers:
+          A: "Louis"
+          B: "Ray"
+          C: "Naveen"
+          D: "Lawrence"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la fée dans 'Pinocchio' ?"
+    answers:
+      A: "Fée Clochette"
+      B: "Fée Bleue"
+      C: "Fée Marraine"
+      D: "Fée des bois"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the fairy in 'Pinocchio'?"
+        answers:
+          A: "Tinker Bell"
+          B: "Blue Fairy"
+          C: "Fairy Godmother"
+          D: "Wood Fairy"
+    difficulty: EXPERT
+  - text: "Quel est le deuxième long-métrage d'animation des studios Disney, après Blanche-Neige ?"
+    answers:
+      A: "Bambi"
+      B: "Fantasia"
+      C: "Pinocchio"
+      D: "Dumbo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Disney's second animated feature film, after Snow White?"
+        answers:
+          A: "Bambi"
+          B: "Fantasia"
+          C: "Pinocchio"
+          D: "Dumbo"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti 'La Petite Sirène' ?"
+    answers:
+      A: "1988"
+      B: "1991"
+      C: "1990"
+      D: "1989"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was 'The Little Mermaid' released?"
+        answers:
+          A: "1988"
+          B: "1991"
+          C: "1990"
+          D: "1989"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chien de Pocahontas ?"
+    answers:
+      A: "Miko"
+      B: "Percy"
+      C: "Nakoma"
+      D: "Flit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Pocahontas's dog?"
+        answers:
+          A: "Miko"
+          B: "Percy"
+          C: "Nakoma"
+          D: "Flit"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chef indien, père de Pocahontas ?"
+    answers:
+      A: "Kocoum"
+      B: "Rolfe"
+      C: "Namontack"
+      D: "Powhatan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Native American chief, Pocahontas's father?"
+        answers:
+          A: "Kocoum"
+          B: "Rolfe"
+          C: "Namontack"
+          D: "Powhatan"
+    difficulty: HARD
+  - text: "Dans 'Le Roi Lion', quel est le nom du mandrill qui présente Simba à la fin ?"
+    answers:
+      A: "Zazu"
+      B: "Rafiki"
+      C: "Mufasa"
+      D: "Scar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'The Lion King', what is the name of the mandrill who presents Simba at the end?"
+        answers:
+          A: "Zazu"
+          B: "Rafiki"
+          C: "Mufasa"
+          D: "Scar"
+    difficulty: HARD
+  - text: "Quel est le nom de la sorcière dans 'La Petite Sirène' ?"
+    answers:
+      A: "Maléfique"
+      B: "Cruella"
+      C: "Ursula"
+      D: "Grimhilde"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the witch in 'The Little Mermaid'?"
+        answers:
+          A: "Maleficent"
+          B: "Cruella"
+          C: "Ursula"
+          D: "Grimhilde"
+    difficulty: HARD
+  - text: "Dans 'Aladdin', quel est le nom du singe d'Aladdin ?"
+    answers:
+      A: "Iago"
+      B: "Abu"
+      C: "Rajah"
+      D: "Sultan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'Aladdin', what is the name of Aladdin's monkey?"
+        answers:
+          A: "Iago"
+          B: "Abu"
+          C: "Rajah"
+          D: "Sultan"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cheval de Philippe dans 'La Belle au bois dormant' ?"
+    answers:
+      A: "Samson"
+      B: "Achilles"
+      C: "Philippe"
+      D: "Henri"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Prince Phillip's horse in 'Sleeping Beauty'?"
+        answers:
+          A: "Samson"
+          B: "Achilles"
+          C: "Phillip"
+          D: "Henri"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la fée qui n'a pas été invitée au baptême d'Aurore ?"
+    answers:
+      A: "Flora"
+      B: "Maléfique"
+      C: "Pâquerette"
+      D: "Pimprenelle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the fairy who was not invited to Aurora's christening?"
+        answers:
+          A: "Flora"
+          B: "Maleficent"
+          C: "Daisy"
+          D: "Pimprenelle"
+    difficulty: EXPERT
+  - text: "Dans 'Cendrillon', quel est le nom du roi, père du prince ?"
+    answers:
+      A: "Le Grand-Duc"
+      B: "Le Duc"
+      C: "Le Roi"
+      D: "Le Roi Henri"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In 'Cinderella', what is the name of the king, the prince's father?"
+        answers:
+          A: "The Grand Duke"
+          B: "The Duke"
+          C: "The King"
+          D: "King Henri"
+    difficulty: EXPERT
+  - text: "Quel est le nom du narrateur dans 'La Belle et la Bête' ?"
+    answers:
+      A: "Aucun narrateur"
+      B: "Big Ben"
+      C: "Zip"
+      D: "Mrs. Samovar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the narrator in 'Beauty and the Beast'?"
+        answers:
+          A: "No narrator"
+          B: "Big Ben"
+          C: "Zip"
+          D: "Mrs. Samovar"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chandelier dans 'La Belle et la Bête' ?"
+    answers:
+      A: "Big Ben"
+      B: "Cogsworth"
+      C: "Zip"
+      D: "Lumière"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the candelabra in 'Beauty and the Beast'?"
+        answers:
+          A: "Big Ben"
+          B: "Cogsworth"
+          C: "Zip"
+          D: "Lumière"
+    difficulty: MEDIUM
+  - text: "Dans 'La Reine des neiges', quel est le nom du bonhomme de neige ?"
+    answers:
+      A: "Sven"
+      B: "Olaf"
+      C: "Kristoff"
+      D: "Hans"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'Frozen', what is the name of the snowman?"
+        answers:
+          A: "Sven"
+          B: "Olaf"
+          C: "Kristoff"
+          D: "Hans"
+    difficulty: EASY
+  - text: "Quel est le nom du renne dans 'La Reine des neiges' ?"
+    answers:
+      A: "Kristoff"
+      B: "Olaf"
+      C: "Sven"
+      D: "Hans"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the reindeer in 'Frozen'?"
+        answers:
+          A: "Kristoff"
+          B: "Olaf"
+          C: "Sven"
+          D: "Hans"
+    difficulty: HARD
+  - text: "Dans 'Raiponce', quel est le nom du caméléon ?"
+    answers:
+      A: "Pascal"
+      B: "Maximus"
+      C: "Flynn"
+      D: "Brune"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'Tangled', what is the name of the chameleon?"
+        answers:
+          A: "Pascal"
+          B: "Maximus"
+          C: "Flynn"
+          D: "Brune"
+    difficulty: HARD
+  - text: "Quel est le nom de la méchante dans 'Raiponce' ?"
+    answers:
+      A: "Dame Gertrude"
+      B: "Maléfique"
+      C: "La Reine"
+      D: "Mère Gothel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the villain in 'Tangled'?"
+        answers:
+          A: "Dame Gertrude"
+          B: "Maleficent"
+          C: "The Queen"
+          D: "Mother Gothel"
+    difficulty: HARD
+  - text: "Dans 'Mulan', quel est le nom du cheval de Mulan ?"
+    answers:
+      A: "Mushu"
+      B: "Khan"
+      C: "Cri-Kee"
+      D: "Li Shang"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'Mulan', what is the name of Mulan's horse?"
+        answers:
+          A: "Mushu"
+          B: "Khan"
+          C: "Cri-Kee"
+          D: "Li Shang"
+    difficulty: EXPERT
+  - text: "Quel est le nom du grillon dans 'Mulan' ?"
+    answers:
+      A: "Cri-Kee"
+      B: "Mushu"
+      C: "Khan"
+      D: "Yao"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the cricket in 'Mulan'?"
+        answers:
+          A: "Cri-Kee"
+          B: "Mushu"
+          C: "Khan"
+          D: "Yao"
+    difficulty: EXPERT
+  - text: "En quelle année est sorti 'Blanche-Neige et les Sept Nains' ?"
+    answers:
+      A: "1939"
+      B: "1937"
+      C: "1940"
+      D: "1935"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was 'Snow White and the Seven Dwarfs' released?"
+        answers:
+          A: "1939"
+          B: "1937"
+          C: "1940"
+          D: "1935"
+    difficulty: HARD
+  - text: "Quel est le nom du chat dans 'Cendrillon' ?"
+    answers:
+      A: "Rufus"
+      B: "Lucifer"
+      C: "Grimalkin"
+      D: "Figaro"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the cat in 'Cinderella'?"
+        answers:
+          A: "Rufus"
+          B: "Lucifer"
+          C: "Grimalkin"
+          D: "Figaro"
+    difficulty: EXPERT
+  - text: "Qui chante 'Un jour mon prince viendra' dans 'Blanche-Neige' ?"
+    answers:
+      A: "Les sept nains"
+      B: "La reine"
+      C: "Blanche-Neige"
+      D: "Le prince"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who sings 'Someday My Prince Will Come' in 'Snow White'?"
+        answers:
+          A: "The Seven Dwarfs"
+          B: "The Queen"
+          C: "Snow White"
+          D: "The Prince"
+    difficulty: HARD
+  - text: "Dans 'Pinocchio', comment s'appelle le chat de Geppetto ?"
+    answers:
+      A: "Rufus"
+      B: "Lucifer"
+      C: "Figaro"
+      D: "Gideon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In 'Pinocchio', what is the name of Geppetto's cat?"
+        answers:
+          A: "Rufus"
+          B: "Lucifer"
+          C: "Figaro"
+          D: "Gideon"
+    difficulty: EXPERT
+  - text: "Quel est le nom du poisson dans 'Pinocchio' ?"
+    answers:
+      A: "Marina"
+      B: "Cleo"
+      C: "Coral"
+      D: "Nemo"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the fish in 'Pinocchio'?"
+        answers:
+          A: "Marina"
+          B: "Cleo"
+          C: "Coral"
+          D: "Nemo"
+    difficulty: EXPERT
+  - text: "Dans 'Dumbo', quel est le nom de la souris ?"
+    answers:
+      A: "Timothée"
+      B: "Souris-Malin"
+      C: "Marcel"
+      D: "Roquefort"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'Dumbo', what is the name of the mouse?"
+        answers:
+          A: "Timothy"
+          B: "Souris-Malin"
+          C: "Marcel"
+          D: "Roquefort"
+    difficulty: HARD
+  - text: "Quel est le nom du faon dans 'Bambi' ?"
+    answers:
+      A: "Panpan"
+      B: "Bambi"
+      C: "Faline"
+      D: "Tambour"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the fawn in 'Bambi'?"
+        answers:
+          A: "Thumper"
+          B: "Bambi"
+          C: "Faline"
+          D: "Tambour"
+    difficulty: MEDIUM
+  - text: "Dans 'Bambi', quel est le nom du lapin ?"
+    answers:
+      A: "Fleur"
+      B: "Panpan"
+      C: "Coco"
+      D: "Tambour"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'Bambi', what is the name of the rabbit?"
+        answers:
+          A: "Flower"
+          B: "Panpan"
+          C: "Coco"
+          D: "Thumper"
+    difficulty: HARD
+  - text: "Quel est le nom de la mouflette dans 'Bambi' ?"
+    answers:
+      A: "Fleur"
+      B: "Faline"
+      C: "Coco"
+      D: "Miss Bunny"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the skunk in 'Bambi'?"
+        answers:
+          A: "Flower"
+          B: "Faline"
+          C: "Coco"
+          D: "Miss Bunny"
+    difficulty: EXPERT
+  - text: "Dans 'Alice au pays des merveilles', quel est le nom du chat ?"
+    answers:
+      A: "Dinah"
+      B: "Cheshire"
+      C: "Matou"
+      D: "Minou"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'Alice in Wonderland', what is the name of the cat?"
+        answers:
+          A: "Dinah"
+          B: "Cheshire"
+          C: "Matou"
+          D: "Minou"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la chenille dans 'Alice au pays des merveilles' ?"
+    answers:
+      A: "Chenille"
+      B: "Ver de terre"
+      C: "Absolem"
+      D: "Papillon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the caterpillar in 'Alice in Wonderland'?"
+        answers:
+          A: "Caterpillar"
+          B: "Earthworm"
+          C: "Absolem"
+          D: "Butterfly"
+    difficulty: EXPERT
+  - text: "Dans 'Peter Pan', quel est le nom de la fée ?"
+    answers:
+      A: "Clochette"
+      B: "Fée Clochette"
+      C: "Tinker Bell"
+      D: "Aurore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'Peter Pan', what is the name of the fairy?"
+        answers:
+          A: "Tinker Bell"
+          B: "Fairy Tinker Bell"
+          C: "Tinker Bell"
+          D: "Aurora"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du capitaine pirate dans 'Peter Pan' ?"
+    answers:
+      A: "Barbe-Noire"
+      B: "Crochet"
+      C: "Morgan"
+      D: "Jambe de bois"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the pirate captain in 'Peter Pan'?"
+        answers:
+          A: "Blackbeard"
+          B: "Hook"
+          C: "Morgan"
+          D: "Peg Leg"
+    difficulty: EASY
+  - text: "Dans 'Les 101 Dalmatiens', quel est le nom du méchant ?"
+    answers:
+      A: "Cruella d'Enfer"
+      B: "Cruella Vil"
+      C: "Cruella De Vil"
+      D: "Cruella Diable"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In '101 Dalmatians', what is the name of the villain?"
+        answers:
+          A: "Cruella d'Enfer"
+          B: "Cruella Vil"
+          C: "Cruella De Vil"
+          D: "Cruella Devil"
+    difficulty: EASY
+  - text: "Quel est le nom du perroquet dans 'Les 101 Dalmatiens' ?"
+    answers:
+      A: "Poly"
+      B: "Jasper"
+      C: "Horace"
+      D: "Perroquet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the parrot in '101 Dalmatians'?"
+        answers:
+          A: "Poly"
+          B: "Jasper"
+          C: "Horace"
+          D: "Parrot"
+    difficulty: HARD
+  - text: "Dans 'Le Livre de la jungle', quel est le nom de l'ours ?"
+    answers:
+      A: "Roi Louie"
+      B: "Bagheera"
+      C: "Shere Khan"
+      D: "Baloo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'The Jungle Book', what is the name of the bear?"
+        answers:
+          A: "King Louie"
+          B: "Bagheera"
+          C: "Shere Khan"
+          D: "Baloo"
+    difficulty: EASY
+  - text: "Quel est le nom du tigre dans 'Le Livre de la jungle' ?"
+    answers:
+      A: "Shere Khan"
+      B: "Bagheera"
+      C: "Kaa"
+      D: "Tigre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the tiger in 'The Jungle Book'?"
+        answers:
+          A: "Shere Khan"
+          B: "Bagheera"
+          C: "Kaa"
+          D: "Tiger"
+    difficulty: MEDIUM
+  - text: "Dans 'Les Aristochats', quel est le nom de la chatte ?"
+    answers:
+      A: "Marie"
+      B: "Duchesse"
+      C: "Toulouse"
+      D: "Berlioz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'The Aristocats', what is the name of the female cat?"
+        answers:
+          A: "Marie"
+          B: "Duchess"
+          C: "Toulouse"
+          D: "Berlioz"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chef cuisinier dans 'Les Aristochats' ?"
+    answers:
+      A: "Edgar"
+      B: "Auguste"
+      C: "Gusteau"
+      D: "Pierre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the chef in 'The Aristocats'?"
+        answers:
+          A: "Edgar"
+          B: "Auguste"
+          C: "Gusteau"
+          D: "Pierre"
+    difficulty: HARD
+  - text: "Dans 'Robin des Bois', quel est le nom du roi ?"
+    answers:
+      A: "Richard"
+      B: "Philippe"
+      C: "Henri"
+      D: "Jean"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In 'Robin Hood', what is the name of the king?"
+        answers:
+          A: "Richard"
+          B: "Philip"
+          C: "Henry"
+          D: "John"
+    difficulty: HARD
+  - text: "Quelle chanson est associée au film 'La Petite Sirène' ?"
+    answers:
+      A: "Sous l'océan"
+      B: "Un jour mon prince viendra"
+      C: "L'air du vent"
+      D: "Ce rêve bleu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which song is associated with the film 'The Little Mermaid'?"
+        answers:
+          A: "Under the Sea"
+          B: "Someday My Prince Will Come"
+          C: "Colors of the Wind"
+          D: "A Whole New World"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chasseur dans 'Blanche-Neige et les Sept Nains' ?"
+    answers:
+      A: "Le Grand Chasseur"
+      B: "Humbert"
+      C: "Gaston"
+      D: "Le garde"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hunter in 'Snow White and the Seven Dwarfs'?"
+        answers:
+          A: "The Great Hunter"
+          B: "Humbert"
+          C: "Gaston"
+          D: "The guard"
+    difficulty: HARD
+  - text: "Comment s'appelle la fée bleue dans 'Pinocchio' ?"
+    answers:
+      A: "La Fée Marraine"
+      B: "La Fée Clochette"
+      C: "La Fée Bleue"
+      D: "La Fée Morgane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Blue Fairy in 'Pinocchio'?"
+        answers:
+          A: "The Fairy Godmother"
+          B: "Tinker Bell"
+          C: "The Blue Fairy"
+          D: "Morgan le Fay"
+    difficulty: HARD
+  - text: "Quel est le nom du cheval de guerre dans 'Mulan' ?"
+    answers:
+      A: "Khan"
+      B: "Maximus"
+      C: "Philippe"
+      D: "Samson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the war horse in 'Mulan'?"
+        answers:
+          A: "Khan"
+          B: "Maximus"
+          C: "Philippe"
+          D: "Samson"
+    difficulty: EXPERT
+  - text: "Quelle chanson est tirée de 'La Reine des neiges' ?"
+    answers:
+      A: "Je veux savoir"
+      B: "Le bleu lumière"
+      C: "Libérée, délivrée"
+      D: "Comme un homme"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which song is from 'Frozen'?"
+        answers:
+          A: "I Want to Know"
+          B: "The Blue Light"
+          C: "Let It Go"
+          D: "Like a Man"
+    difficulty: EASY
+  - text: "Dans 'La Belle et la Bête', quelle est la profession de Gaston ?"
+    answers:
+      A: "Chasseur"
+      B: "Boucher"
+      C: "Forgeron"
+      D: "Tanneur"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'Beauty and the Beast', what is Gaston's profession?"
+        answers:
+          A: "Hunter"
+          B: "Butcher"
+          C: "Blacksmith"
+          D: "Tanner"
+    difficulty: HARD
+  - text: "Quel est le nom du prince dans 'La Belle au bois dormant' ?"
+    answers:
+      A: "Adam"
+      B: "Éric"
+      C: "Philippe"
+      D: "Ferdinand"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the prince's name in 'Sleeping Beauty'?"
+        answers:
+          A: "Adam"
+          B: "Eric"
+          C: "Philippe"
+          D: "Ferdinand"
+    difficulty: HARD
+  - text: "Qui est le directeur musical des films Disney des années 1990 ayant travaillé sur 'La Petite Sirène', 'La Belle et la Bête' et 'Aladdin' ?"
+    answers:
+      A: "Phil Collins"
+      B: "Hans Zimmer"
+      C: "Elton John"
+      D: "Alan Menken"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the musical director of the 1990s Disney films who worked on 'The Little Mermaid', 'Beauty and the Beast' and 'Aladdin'?"
+        answers:
+          A: "Phil Collins"
+          B: "Hans Zimmer"
+          C: "Elton John"
+          D: "Alan Menken"
+    difficulty: EXPERT
+  - text: "Quel est le titre du film Disney sorti en 1955 ?"
+    answers:
+      A: "Alice au pays des merveilles"
+      B: "Peter Pan"
+      C: "Cendrillon"
+      D: "La Belle et le Clochard"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the title of the Disney film released in 1955?"
+        answers:
+          A: "Alice in Wonderland"
+          B: "Peter Pan"
+          C: "Cinderella"
+          D: "Lady and the Tramp"
+    difficulty: EXPERT
+  - text: "Dans 'Les 101 Dalmatiens', quel est le nom d'un des chiots principaux ?"
+    answers:
+      A: "Rex"
+      B: "Patou"
+      C: "Dingo"
+      D: "Rolly"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In '101 Dalmatians', what is the name of one of the main puppies?"
+        answers:
+          A: "Rex"
+          B: "Patch"
+          C: "Dingo"
+          D: "Rolly"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chat dans 'Les Aristochats' ?"
+    answers:
+      A: "Toulouse"
+      B: "Marie"
+      C: "Duchesse"
+      D: "Berlioz"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the cat in 'The Aristocats'?"
+        answers:
+          A: "Toulouse"
+          B: "Marie"
+          C: "Duchess"
+          D: "Berlioz"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du roi dans 'Robin des Bois' ?"
+    answers:
+      A: "Richard"
+      B: "Philippe"
+      C: "Henri"
+      D: "Jean"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the king in 'Robin Hood'?"
+        answers:
+          A: "Richard"
+          B: "Philip"
+          C: "Henry"
+          D: "John"
+    difficulty: HARD
+  - text: "Quelle est la première princesse Disney à avoir un film entièrement en images de synthèse ?"
+    answers:
+      A: "Cendrillon"
+      B: "Aurore"
+      C: "Belle"
+      D: "Raiponce"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the first Disney princess to have a fully computer-animated film?"
+        answers:
+          A: "Cinderella"
+          B: "Aurora"
+          C: "Belle"
+          D: "Rapunzel"
+    difficulty: HARD
+  - text: "Quel est le nom du bal donné par le roi dans 'Cendrillon' ?"
+    answers:
+      A: "Le Bal Royal"
+      B: "Le Grand Bal"
+      C: "Le Bal du Prince"
+      D: "Le Bal des Fleurs"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the ball given by the king in 'Cinderella'?"
+        answers:
+          A: "The Royal Ball"
+          B: "The Grand Ball"
+          C: "The Prince's Ball"
+          D: "The Flower Ball"
+    difficulty: EXPERT
+  - text: "Combien de frères et sœurs a Belle dans 'La Belle et la Bête' ?"
+    answers:
+      A: "Un frère"
+      B: "Aucun"
+      C: "Deux sœurs"
+      D: "Trois frères"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many brothers and sisters does Belle have in 'Beauty and the Beast'?"
+        answers:
+          A: "One brother"
+          B: "None"
+          C: "Two sisters"
+          D: "Three brothers"
+    difficulty: EXPERT
+  - text: "Quel est le nom du royaume dans 'La Reine des neiges' ?"
+    answers:
+      A: "Arendelle"
+      B: "Corona"
+      C: "Avalor"
+      D: "Eldorado"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the kingdom in 'Frozen'?"
+        answers:
+          A: "Arendelle"
+          B: "Corona"
+          C: "Avalor"
+          D: "Eldorado"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du chien dans 'Raiponce' ?"
+    answers:
+      A: "Fidèle"
+      B: "Pascal"
+      C: "Maximus"
+      D: "Brutus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the dog in 'Tangled'?"
+        answers:
+          A: "Fidèle"
+          B: "Pascal"
+          C: "Maximus"
+          D: "Brutus"
+    difficulty: EXPERT
+  - text: "Dans 'Le Roi Lion', quel est le nom de la hyène femelle qui aide Scar ?"
+    answers:
+      A: "Ed"
+      B: "Banzaï"
+      C: "Shenzi"
+      D: "Nala"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In 'The Lion King', what is the name of the female hyena who helps Scar?"
+        answers:
+          A: "Ed"
+          B: "Banzai"
+          C: "Shenzi"
+          D: "Nala"
+    difficulty: HARD
+  - text: "Quelle chanson n'est PAS tirée de 'Aladdin' ?"
+    answers:
+      A: "Je suis ton meilleur ami"
+      B: "Prince Ali"
+      C: "Ce rêve bleu"
+      D: "Un monde nouveau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which song is NOT from 'Aladdin'?"
+        answers:
+          A: "You've Got a Friend in Me"
+          B: "Prince Ali"
+          C: "A Whole New World"
+          D: "A Whole New World"
+    difficulty: HARD
+  - text: "Quel comédien double le Génie dans la version française d'« Aladdin » (1992) ?"
+    answers:
+      A: "Patrick Timsit"
+      B: "Michel Leeb"
+      C: "Éric Métayer"
+      D: "Richard Darbois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices the Genie in the French version of 'Aladdin' (1992)?"
+        answers:
+          A: "Patrick Timsit"
+          B: "Michel Leeb"
+          C: "Éric Métayer"
+          D: "Richard Darbois"
+    difficulty: EXPERT
+  - text: "Dans « Aladdin », quel est le nom du perroquet d'Iago ?"
+    answers:
+      A: "Iago"
+      B: "Zazu"
+      C: "Diablo"
+      D: "Archimède"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In 'Aladdin', what is the name of Iago's parrot?"
+        answers:
+          A: "Iago"
+          B: "Zazu"
+          C: "Diablo"
+          D: "Archimedes"
+    difficulty: EXPERT
+  - text: "Quel film d'animation Disney est sorti en 1998 ?"
+    answers:
+      A: "Atlantide, l'empire perdu"
+      B: "Tarzan"
+      C: "Hercule"
+      D: "Mulan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Disney animated film was released in 1998?"
+        answers:
+          A: "Atlantis: The Lost Empire"
+          B: "Tarzan"
+          C: "Hercules"
+          D: "Mulan"
+    difficulty: HARD
+  - text: "Qui compose la musique de « La Petite Sirène » (1989) ?"
+    answers:
+      A: "Stephen Schwartz"
+      B: "Howard Ashman"
+      C: "Alan Menken"
+      D: "Elton John"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who composed the music for 'The Little Mermaid' (1989)?"
+        answers:
+          A: "Stephen Schwartz"
+          B: "Howard Ashman"
+          C: "Alan Menken"
+          D: "Elton John"
+    difficulty: EXPERT
+  - text: "Dans « La Belle au bois dormant », quel est le nom du corbeau de Maléfique ?"
+    answers:
+      A: "Diablo"
+      B: "Vernon"
+      C: "Edgar"
+      D: "Ismaël"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'Sleeping Beauty', what is the name of Maleficent's raven?"
+        answers:
+          A: "Diablo"
+          B: "Vernon"
+          C: "Edgar"
+          D: "Ishmael"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la fée marraine de Cendrillon dans le film de 1950 ?"
+    answers:
+      A: "Fée Bleue"
+      B: "Fée Marraine"
+      C: "Fée Clochette"
+      D: "Fée Printemps"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Cinderella's fairy godmother in the 1950 film?"
+        answers:
+          A: "Blue Fairy"
+          B: "Fairy Godmother"
+          C: "Tinker Bell"
+          D: "Spring Fairy"
+    difficulty: HARD
+  - text: "Combien de nains apparaissent dans « Blanche-Neige et les Sept Nains » ?"
+    answers:
+      A: "7"
+      B: "6"
+      C: "8"
+      D: "9"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many dwarfs appear in 'Snow White and the Seven Dwarfs'?"
+        answers:
+          A: "7"
+          B: "6"
+          C: "8"
+          D: "9"
+    difficulty: EASY
+  - text: "Dans « Le Roi Lion », quel est le nom du mandrill qui présente Simba au rocher des lions ?"
+    answers:
+      A: "Zazu"
+      B: "Rafiki"
+      C: "Mufasa"
+      D: "Banzaï"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'The Lion King', what is the name of the mandrill who presents Simba at Pride Rock?"
+        answers:
+          A: "Zazu"
+          B: "Rafiki"
+          C: "Mufasa"
+          D: "Banzai"
+    difficulty: HARD
+  - text: "Quel est le titre de la chanson interprétée par Scar dans « Le Roi Lion » ?"
+    answers:
+      A: "Je voudrais déjà être roi"
+      B: "L'Histoire de la vie"
+      C: "Soyez prêts"
+      D: "Hakuna Matata"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the song performed by Scar in 'The Lion King'?"
+        answers:
+          A: "I Just Can't Wait to Be King"
+          B: "Circle of Life"
+          C: "Be Prepared"
+          D: "Hakuna Matata"
+    difficulty: HARD
+  - text: "Dans « La Reine des neiges », quel est le nom du bonhomme de neige ?"
+    answers:
+      A: "Sven"
+      B: "Olaf"
+      C: "Kristoff"
+      D: "Marshmallow"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In 'Frozen', what is the name of the snowman?"
+        answers:
+          A: "Sven"
+          B: "Olaf"
+          C: "Kristoff"
+          D: "Marshmallow"
+    difficulty: EASY
+  - text: "Qui prête sa voix à Elsa dans la version originale de « La Reine des neiges » ?"
+    answers:
+      A: "Idina Menzel"
+      B: "Kristen Bell"
+      C: "Mandy Moore"
+      D: "Demi Lovato"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who voices Elsa in the original version of 'Frozen'?"
+        answers:
+          A: "Idina Menzel"
+          B: "Kristen Bell"
+          C: "Mandy Moore"
+          D: "Demi Lovato"
+    difficulty: HARD
+  - text: "Dans « Raiponce », quel est le nom du caméléon de Raiponce ?"
+    answers:
+      A: "Pascal"
+      B: "Maximus"
+      C: "Sven"
+      D: "Bruno"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In 'Tangled', what is the name of Rapunzel's chameleon?"
+        answers:
+          A: "Pascal"
+          B: "Maximus"
+          C: "Sven"
+          D: "Bruno"
+    difficulty: HARD
+  - text: "Quel est le nom du cheval de Flynn Rider dans « Raiponce » ?"
+    answers:
+      A: "Achille"
+      B: "Philippe"
+      C: "Maximus"
+      D: "Angus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Flynn Rider's horse in 'Tangled'?"
+        answers:
+          A: "Achilles"
+          B: "Philippe"
+          C: "Maximus"
+          D: "Angus"
+    difficulty: EXPERT
+  - text: "Dans « La Belle et la Bête », quel est le nom du chandelier ?"
+    answers:
+      A: "Fifi"
+      B: "Big Ben"
+      C: "Zip"
+      D: "Lumière"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Beauty and the Beast\", what is the name of the candelabra?"
+        answers:
+          A: "Fifi"
+          B: "Big Ben"
+          C: "Zip"
+          D: "Lumière"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la théière dans « La Belle et la Bête » ?"
+    answers:
+      A: "Madame Samovar"
+      B: "Fifi"
+      C: "Madame Potts"
+      D: "Babette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the teapot in \"Beauty and the Beast\"?"
+        answers:
+          A: "Madame Samovar"
+          B: "Fifi"
+          C: "Mrs. Potts"
+          D: "Babette"
+    difficulty: MEDIUM
+  - text: "Dans « Mulan », quel est le nom du petit dragon ?"
+    answers:
+      A: "Mushu"
+      B: "Cri-Kee"
+      C: "Khan"
+      D: "Shan Yu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"Mulan\", what is the name of the little dragon?"
+        answers:
+          A: "Mushu"
+          B: "Cri-Kee"
+          C: "Khan"
+          D: "Shan Yu"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du grillon dans « Mulan » ?"
+    answers:
+      A: "Cri-Kee"
+      B: "Mushu"
+      C: "Jiminy"
+      D: "Tito"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the cricket in \"Mulan\"?"
+        answers:
+          A: "Cri-Kee"
+          B: "Mushu"
+          C: "Jiminy"
+          D: "Tito"
+    difficulty: EXPERT
+  - text: "Dans « Pocahontas », quel est le nom du raton laveur ?"
+    answers:
+      A: "Meeko"
+      B: "Flit"
+      C: "Percy"
+      D: "Miko"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"Pocahontas\", what is the name of the raccoon?"
+        answers:
+          A: "Meeko"
+          B: "Flit"
+          C: "Percy"
+          D: "Miko"
+    difficulty: HARD
+  - text: "Quel est le nom du colibri de Pocahontas ?"
+    answers:
+      A: "Zazu"
+      B: "Meeko"
+      C: "Percy"
+      D: "Flit"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Pocahontas's hummingbird?"
+        answers:
+          A: "Zazu"
+          B: "Meeko"
+          C: "Percy"
+          D: "Flit"
+    difficulty: EXPERT
+  - text: "Dans « Hercule », quel est le nom du petit satyre qui entraîne Hercule ?"
+    answers:
+      A: "Phil"
+      B: "Hadès"
+      C: "Pégase"
+      D: "Pain"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"Hercules\", what is the name of the little satyr who trains Hercules?"
+        answers:
+          A: "Phil"
+          B: "Hades"
+          C: "Pegasus"
+          D: "Pain"
+    difficulty: HARD
+  - text: "Quel est le nom du méchant de « Hercule » ?"
+    answers:
+      A: "Jafar"
+      B: "Hadès"
+      C: "Scar"
+      D: "Ursula"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the villain in \"Hercules\"?"
+        answers:
+          A: "Jafar"
+          B: "Hades"
+          C: "Scar"
+          D: "Ursula"
+    difficulty: MEDIUM
+  - text: "Dans « Tarzan », quel est le nom du gorille mâle qui élève Tarzan ?"
+    answers:
+      A: "Tantor"
+      B: "Terk"
+      C: "Kerchak"
+      D: "Kala"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In \"Tarzan\", what is the name of the male gorilla who raises Tarzan?"
+        answers:
+          A: "Tantor"
+          B: "Terk"
+          C: "Kerchak"
+          D: "Kala"
+    difficulty: HARD
+  - text: "Quel est le nom de la femelle gorille qui adopte Tarzan ?"
+    answers:
+      A: "Terk"
+      B: "Kala"
+      C: "Jane"
+      D: "Tantor"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the female gorilla who adopts Tarzan?"
+        answers:
+          A: "Terk"
+          B: "Kala"
+          C: "Jane"
+          D: "Tantor"
+    difficulty: EXPERT

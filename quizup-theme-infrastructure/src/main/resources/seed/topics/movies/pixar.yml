@@ -1,0 +1,1608 @@
+topic:
+  id: topic-pixar
+  names:
+    fr: "Pixar"
+    en: "Pixar"
+  description: "Les films Pixar : Toy Story, 1001 pattes, Monstres & Cie, Le Monde de Nemo, Les Indestructibles, Là-haut, Vice-versa, Coco — personnages, réalisateurs et clins d'œil."
+  category: MOVIES
+questions:
+  - text: "Quel est le nom du restaurant dans Ratatouille ?"
+    answers:
+      A: "Le Rat Gourmet"
+      B: "Chez Auguste"
+      C: "La Ratatouille"
+      D: "Gusteau's"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the restaurant in Ratatouille?"
+        answers:
+          A: "Le Rat Gourmet"
+          B: "Chez Auguste"
+          C: "La Ratatouille"
+          D: "Gusteau's"
+    difficulty: EASY
+  - text: "Dans Monstres & Cie, quel est le nom complet de la petite fille ?"
+    answers:
+      A: "Mary"
+      B: "Boo"
+      C: "Boo Radley"
+      D: "Boo Boo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Monsters, Inc., what is the little girl's full name?"
+        answers:
+          A: "Mary"
+          B: "Boo"
+          C: "Boo Radley"
+          D: "Boo Boo"
+    difficulty: MEDIUM
+  - text: "Qui réalise le film Là-haut ?"
+    answers:
+      A: "Andrew Stanton"
+      B: "Pete Docter"
+      C: "Brad Bird"
+      D: "Lee Unkrich"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who directed the film Up?"
+        answers:
+          A: "Andrew Stanton"
+          B: "Pete Docter"
+          C: "Brad Bird"
+          D: "Lee Unkrich"
+    difficulty: MEDIUM
+  - text: "Quel est le numéro du casier de Bob Parr dans Les Indestructibles ?"
+    answers:
+      A: "12"
+      B: "7"
+      C: "23"
+      D: "5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the number of Bob Parr's locker in The Incredibles?"
+        answers:
+          A: "12"
+          B: "7"
+          C: "23"
+          D: "5"
+    difficulty: EXPERT
+  - text: "Dans Le Monde de Nemo, quel est le nom de la pieuvre ?"
+    answers:
+      A: "Pearl"
+      B: "Hank"
+      C: "Sheldon"
+      D: "Tad"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Finding Nemo, what is the name of the octopus?"
+        answers:
+          A: "Pearl"
+          B: "Hank"
+          C: "Sheldon"
+          D: "Tad"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la petite fille dans Toy Story 3 ?"
+    answers:
+      A: "Emily"
+      B: "Molly"
+      C: "Hannah"
+      D: "Bonnie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the little girl in Toy Story 3?"
+        answers:
+          A: "Emily"
+          B: "Molly"
+          C: "Hannah"
+          D: "Bonnie"
+    difficulty: MEDIUM
+  - text: "Combien de fois le mot 'Nemo' est-il prononcé dans Le Monde de Nemo ?"
+    answers:
+      A: "23"
+      B: "89"
+      C: "57"
+      D: "42"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many times is the word 'Nemo' said in Finding Nemo?"
+        answers:
+          A: "23"
+          B: "89"
+          C: "57"
+          D: "42"
+    difficulty: EXPERT
+  - text: "Quel acteur prête sa voix à Woody dans la version originale de Toy Story ?"
+    answers:
+      A: "Tim Allen"
+      B: "John Ratzenberger"
+      C: "Billy Crystal"
+      D: "Tom Hanks"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices Woody in the original version of Toy Story?"
+        answers:
+          A: "Tim Allen"
+          B: "John Ratzenberger"
+          C: "Billy Crystal"
+          D: "Tom Hanks"
+    difficulty: MEDIUM
+  - text: "Dans Vice-versa, quel est le nom du clown qui fait peur à Riley ?"
+    answers:
+      A: "Riley"
+      B: "Bing Bong"
+      C: "Jangles"
+      D: "Chuckles"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Inside Out, what is the name of the clown that scares Riley?"
+        answers:
+          A: "Riley"
+          B: "Bing Bong"
+          C: "Jangles"
+          D: "Chuckles"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la ville dans Les Indestructibles ?"
+    answers:
+      A: "Municiberg"
+      B: "Metroville"
+      C: "New Urbem"
+      D: "Super City"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the city in The Incredibles?"
+        answers:
+          A: "Municiberg"
+          B: "Metroville"
+          C: "New Urbem"
+          D: "Super City"
+    difficulty: HARD
+  - text: "Dans Coco, quel est le nom du chien de Miguel ?"
+    answers:
+      A: "Pepita"
+      B: "Rex"
+      C: "Dante"
+      D: "Alejandro"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Coco, what is the name of Miguel's dog?"
+        answers:
+          A: "Pepita"
+          B: "Rex"
+          C: "Dante"
+          D: "Alejandro"
+    difficulty: HARD
+  - text: "Quel personnage de Pixar apparaît dans tous les films Pixar ?"
+    answers:
+      A: "Buzz l'Éclair"
+      B: "Woody"
+      C: "Luxo Jr."
+      D: "John Ratzenberger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Pixar character appears in every Pixar film?"
+        answers:
+          A: "Buzz Lightyear"
+          B: "Woody"
+          C: "Luxo Jr."
+          D: "John Ratzenberger"
+    difficulty: HARD
+  - text: "Dans 1001 pattes, quel est le nom de la fourmi protagoniste ?"
+    answers:
+      A: "Dot"
+      B: "Hopper"
+      C: "Flik"
+      D: "Molt"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In A Bug's Life, what is the name of the protagonist ant?"
+        answers:
+          A: "Dot"
+          B: "Hopper"
+          C: "Flik"
+          D: "Molt"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du robot dans WALL-E ?"
+    answers:
+      A: "WALL-E"
+      B: "EVE"
+      C: "AUTO"
+      D: "M-O"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the robot in WALL-E?"
+        answers:
+          A: "WALL-E"
+          B: "EVE"
+          C: "AUTO"
+          D: "M-O"
+    difficulty: EASY
+  - text: "Dans Vice-versa, quelle émotion est représentée par la couleur violette ?"
+    answers:
+      A: "Joie"
+      B: "Peur"
+      C: "Tristesse"
+      D: "Colère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Inside Out, which emotion is represented by the color purple?"
+        answers:
+          A: "Joy"
+          B: "Fear"
+          C: "Sadness"
+          D: "Anger"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du dinosaure dans Le Voyage d'Arlo ?"
+    answers:
+      A: "Ramsey"
+      B: "Spot"
+      C: "Butch"
+      D: "Arlo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the dinosaur in The Good Dinosaur?"
+        answers:
+          A: "Ramsey"
+          B: "Spot"
+          C: "Butch"
+          D: "Arlo"
+    difficulty: MEDIUM
+  - text: "Dans Là-haut, quel est le nom du chien qui parle grâce à un collier ?"
+    answers:
+      A: "Alpha"
+      B: "Dug"
+      C: "Beta"
+      D: "Gamma"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Up, what is the name of the dog that talks thanks to a collar?"
+        answers:
+          A: "Alpha"
+          B: "Dug"
+          C: "Beta"
+          D: "Gamma"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la petite fille dans Monstres & Cie ?"
+    answers:
+      A: "Boo Boo"
+      B: "Mary"
+      C: "Boo Radley"
+      D: "Boo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the little girl in Monsters, Inc.?"
+        answers:
+          A: "Boo Boo"
+          B: "Mary"
+          C: "Boo Radley"
+          D: "Boo"
+    difficulty: EASY
+  - text: "Quel est le nom du poisson chirurgien dans Le Monde de Nemo ?"
+    answers:
+      A: "Marin"
+      B: "Gill"
+      C: "Dory"
+      D: "Bloat"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the surgeonfish in Finding Nemo?"
+        answers:
+          A: "Marin"
+          B: "Gill"
+          C: "Dory"
+          D: "Bloat"
+    difficulty: EASY
+  - text: "Quel est le nom du garçon dans Coco ?"
+    answers:
+      A: "Hector"
+      B: "Miguel"
+      C: "Ernesto"
+      D: "Dante"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the boy in Coco?"
+        answers:
+          A: "Hector"
+          B: "Miguel"
+          C: "Ernesto"
+          D: "Dante"
+    difficulty: EASY
+  - text: "Quel est le premier long métrage entièrement en images de synthèse de l'histoire du cinéma ?"
+    answers:
+      A: "Le Monde de Nemo"
+      B: "1001 pattes"
+      C: "Toy Story"
+      D: "Monstres & Cie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first feature-length film entirely in computer-generated imagery in cinema history?"
+        answers:
+          A: "Finding Nemo"
+          B: "A Bug's Life"
+          C: "Toy Story"
+          D: "Monsters, Inc."
+    difficulty: HARD
+  - text: "Qui a réalisé le film Les Indestructibles ?"
+    answers:
+      A: "Lee Unkrich"
+      B: "Andrew Stanton"
+      C: "Pete Docter"
+      D: "Brad Bird"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who directed The Incredibles?"
+        answers:
+          A: "Lee Unkrich"
+          B: "Andrew Stanton"
+          C: "Pete Docter"
+          D: "Brad Bird"
+    difficulty: HARD
+  - text: "Dans Le Monde de Nemo, quel est le nom du banc de corail où vit Nemo ?"
+    answers:
+      A: "La Grande Barrière de Corail"
+      B: "La barrière de corail"
+      C: "Le récif de corail"
+      D: "Le tombant de corail"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Finding Nemo, what is the name of the coral reef where Nemo lives?"
+        answers:
+          A: "The Great Barrier Reef"
+          B: "The barrier reef"
+          C: "The coral reef"
+          D: "The coral drop-off"
+    difficulty: EXPERT
+  - text: "Quel est le nom du réalisateur de Ratatouille ?"
+    answers:
+      A: "Andrew Stanton"
+      B: "Jan Pinkava"
+      C: "Brad Bird"
+      D: "Pete Docter"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the director of Ratatouille?"
+        answers:
+          A: "Andrew Stanton"
+          B: "Jan Pinkava"
+          C: "Brad Bird"
+          D: "Pete Docter"
+    difficulty: MEDIUM
+  - text: "Dans Là-haut, quel est le prénom du vieil homme qui s'envole avec des ballons ?"
+    answers:
+      A: "Carl"
+      B: "Charles"
+      C: "Russell"
+      D: "Dug"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Up, what is the first name of the old man who flies away with balloons?"
+        answers:
+          A: "Carl"
+          B: "Charles"
+          C: "Russell"
+          D: "Dug"
+    difficulty: EASY
+  - text: "Dans Vice-versa, quelle émotion est représentée par la couleur bleue ?"
+    answers:
+      A: "Dégoût"
+      B: "Peur"
+      C: "Colère"
+      D: "Tristesse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Inside Out, which emotion is represented by the color blue?"
+        answers:
+          A: "Disgust"
+          B: "Fear"
+          C: "Anger"
+          D: "Sadness"
+    difficulty: EASY
+  - text: "Quel est le nom de la pizzeria dans Toy Story ?"
+    answers:
+      A: "Pizza Planet"
+      B: "Pizza Nova"
+      C: "Pizza Galaxie"
+      D: "Pizza Cosmos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the pizzeria in Toy Story?"
+        answers:
+          A: "Pizza Planet"
+          B: "Pizza Nova"
+          C: "Pizza Galaxy"
+          D: "Pizza Cosmos"
+    difficulty: HARD
+  - text: "Dans Coco, quel est le nom de la chanteuse et actrice mexicaine que Miguel admire ?"
+    answers:
+      A: "Dolores del Río"
+      B: "Frida Kahlo"
+      C: "María Félix"
+      D: "El Santo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Coco, what is the name of the Mexican singer and actress that Miguel admires?"
+        answers:
+          A: "Dolores del Río"
+          B: "Frida Kahlo"
+          C: "María Félix"
+          D: "El Santo"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de la chambre d'Andy dans Toy Story ?"
+    answers:
+      A: "237"
+      B: "312"
+      C: "113"
+      D: "42"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the number of Andy's room in Toy Story?"
+        answers:
+          A: "237"
+          B: "312"
+          C: "113"
+          D: "42"
+    difficulty: EXPERT
+  - text: "Dans Monstres & Cie, quel est le nom de la ville où vivent les monstres ?"
+    answers:
+      A: "Monstroville"
+      B: "Monstropolis"
+      C: "Monstrocité"
+      D: "Monster City"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Monsters, Inc., what is the name of the city where the monsters live?"
+        answers:
+          A: "Monstroville"
+          B: "Monstropolis"
+          C: "Monstrosity"
+          D: "Monster City"
+    difficulty: HARD
+  - text: "Quel est le nom du réalisateur de Coco ?"
+    answers:
+      A: "Lee Unkrich"
+      B: "Adrian Molina"
+      C: "Pete Docter"
+      D: "Brad Bird"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the director of Coco?"
+        answers:
+          A: "Lee Unkrich"
+          B: "Adrian Molina"
+          C: "Pete Docter"
+          D: "Brad Bird"
+    difficulty: HARD
+  - text: "Dans Le Monde de Nemo, quel est le nom de la tortue ?"
+    answers:
+      A: "Squirt"
+      B: "Crush"
+      C: "Marlin"
+      D: "Gill"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Finding Nemo, what is the name of the turtle?"
+        answers:
+          A: "Squirt"
+          B: "Crush"
+          C: "Marlin"
+          D: "Gill"
+    difficulty: MEDIUM
+  - text: "Dans Les Indestructibles, quel est le nom de l'île où se trouve la base de Syndrome ?"
+    answers:
+      A: "Syndrome Island"
+      B: "Nomanisan"
+      C: "Isla Nublar"
+      D: "Palm Island"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In The Incredibles, what is the name of the island where Syndrome's base is located?"
+        answers:
+          A: "Syndrome Island"
+          B: "Nomanisan"
+          C: "Isla Nublar"
+          D: "Palm Island"
+    difficulty: EXPERT
+  - text: "Quel est le nom du studio d'animation fondé par John Lasseter et Ed Catmull, racheté par Disney en 2006 ?"
+    answers:
+      A: "DreamWorks Animation"
+      B: "Walt Disney Animation Studios"
+      C: "Pixar Animation Studios"
+      D: "Blue Sky Studios"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the animation studio founded by John Lasseter and Ed Catmull, acquired by Disney in 2006?"
+        answers:
+          A: "DreamWorks Animation"
+          B: "Walt Disney Animation Studios"
+          C: "Pixar Animation Studios"
+          D: "Blue Sky Studios"
+    difficulty: MEDIUM
+  - text: "Dans Là-haut, quel est le nom de l'explorateur que Carl admire enfant ?"
+    answers:
+      A: "Russell"
+      B: "Charles Muntz"
+      C: "Dug"
+      D: "Alpha"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Up, what is the name of the explorer Carl admired as a child?"
+        answers:
+          A: "Russell"
+          B: "Charles Muntz"
+          C: "Dug"
+          D: "Alpha"
+    difficulty: HARD
+  - text: "Dans Vice-versa, quel est le nom de l'amie imaginaire de Riley ?"
+    answers:
+      A: "Bing Bang"
+      B: "Bing Bong"
+      C: "Bong Bing"
+      D: "Jangles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Inside Out, what is the name of Riley's imaginary friend?"
+        answers:
+          A: "Bing Bang"
+          B: "Bing Bong"
+          C: "Bong Bing"
+          D: "Jangles"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage principal de WALL-E ?"
+    answers:
+      A: "AUTO"
+      B: "EVE"
+      C: "WALL-E"
+      D: "M-O"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main character of WALL-E?"
+        answers:
+          A: "AUTO"
+          B: "EVE"
+          C: "WALL-E"
+          D: "M-O"
+    difficulty: EASY
+  - text: "Dans 1001 pattes, quel est le nom de la sauterelle qui terrorise la colonie ?"
+    answers:
+      A: "Thumper"
+      B: "Hopper"
+      C: "Molt"
+      D: "Axel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In A Bug's Life, what is the name of the grasshopper who terrorizes the colony?"
+        answers:
+          A: "Thumper"
+          B: "Hopper"
+          C: "Molt"
+          D: "Axel"
+    difficulty: HARD
+  - text: "Dans Toy Story, quel est le nom du chien d'Andy ?"
+    answers:
+      A: "Scud"
+      B: "Sid"
+      C: "Slinky"
+      D: "Buster"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Toy Story, what is the name of Andy's dog?"
+        answers:
+          A: "Scud"
+          B: "Sid"
+          C: "Slinky"
+          D: "Buster"
+    difficulty: MEDIUM
+  - text: "Dans Le Monde de Nemo, quelle adresse marin donne Dory pour retrouver le bateau de l'Écume ?"
+    answers:
+      A: "Rue de la Barrière de corail 42, Tahiti"
+      B: "Rue du Corail 42, Melbourne"
+      C: "Rue du Récif 42, Sydney"
+      D: "Rue du Port 42, Brisbane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Finding Nemo, what address does Dory give the sailor to find the boat of the EAC?"
+        answers:
+          A: "42 Great Barrier Reef Street, Tahiti"
+          B: "42 Coral Street, Melbourne"
+          C: "42 Reef Street, Sydney"
+          D: "42 Harbor Street, Brisbane"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'école primaire de Riley dans Vice-versa ?"
+    answers:
+      A: "École primaire de San Francisco"
+      B: "École primaire de Long Beach"
+      C: "École primaire de Sacramento"
+      D: "École primaire de Minneapolis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Riley's elementary school in Inside Out?"
+        answers:
+          A: "San Francisco Elementary School"
+          B: "Long Beach Elementary School"
+          C: "Sacramento Elementary School"
+          D: "Minneapolis Elementary School"
+    difficulty: EXPERT
+  - text: "Dans Les Indestructibles 2, quel super-héros est chargé de sauver le train au début du film ?"
+    answers:
+      A: "Frozone"
+      B: "Mr Indestructible"
+      C: "Elastigirl"
+      D: "Violette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Incredibles 2, which superhero is tasked with saving the train at the beginning of the film?"
+        answers:
+          A: "Frozone"
+          B: "Mr. Incredible"
+          C: "Elastigirl"
+          D: "Violet"
+    difficulty: HARD
+  - text: "Quel est le numéro de l'appartement de Dave Thomas dans Le Monde de Nemo ?"
+    answers:
+      A: "42"
+      B: "23"
+      C: "15"
+      D: "37"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the apartment number of Dave Thomas in Finding Nemo?"
+        answers:
+          A: "42"
+          B: "23"
+          C: "15"
+          D: "37"
+    difficulty: EXPERT
+  - text: "Dans Toy Story 4, quel est le nom de la petite fille qui attrape Woody au parc ?"
+    answers:
+      A: "Harmony"
+      B: "Agnes"
+      C: "Bonnie"
+      D: "Maggie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Toy Story 4, what is the name of the little girl who grabs Woody at the park?"
+        answers:
+          A: "Harmony"
+          B: "Agnes"
+          C: "Bonnie"
+          D: "Maggie"
+    difficulty: HARD
+  - text: "Quel est le nom du fantôme de la mariée dans Coco ?"
+    answers:
+      A: "La Llorona"
+      B: "La Calavera"
+      C: "La Catrina"
+      D: "La Muerte"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the bride's ghost in Coco?"
+        answers:
+          A: "La Llorona"
+          B: "La Calavera"
+          C: "La Catrina"
+          D: "La Muerte"
+    difficulty: EXPERT
+  - text: "Dans Monstres & Cie, quel est le type de monstre qui nettoie les portes chez Monstres & Cie ?"
+    answers:
+      A: "Le nettoyeur de portes"
+      B: "Le laveur de portes"
+      C: "Le décontaminateur"
+      D: "Le rabatteur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Monsters, Inc., what type of monster cleans the doors at Monsters, Inc.?"
+        answers:
+          A: "The door cleaner"
+          B: "The door washer"
+          C: "The decontaminator"
+          D: "The scarer"
+    difficulty: EXPERT
+  - text: "Dans Là-haut, quel est le nom du dirigeable de Charles Muntz ?"
+    answers:
+      A: "Le Spirit of Exploration"
+      B: "Le Spirit of Discovery"
+      C: "Le Spirit of Adventure"
+      D: "Le Spirit of Invention"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Up, what is the name of Charles Muntz's airship?"
+        answers:
+          A: "The Spirit of Exploration"
+          B: "The Spirit of Discovery"
+          C: "The Spirit of Adventure"
+          D: "The Spirit of Invention"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la planète d'origine de Buzz l'Éclair dans Toy Story ?"
+    answers:
+      A: "Gamma Quadrant"
+      B: "Zurg"
+      C: "Galaxie"
+      D: "Morph"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Buzz Lightyear's home planet in Toy Story?"
+        answers:
+          A: "Gamma Quadrant"
+          B: "Zurg"
+          C: "Galaxy"
+          D: "Morph"
+    difficulty: MEDIUM
+  - text: "Dans Ratatouille, quel est le nom du restaurant rival de Gusteau ?"
+    answers:
+      A: "Le Chalet"
+      B: "Le Ciel"
+      C: "Le Petit Chef"
+      D: "La Ratatouille"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Ratatouille, what is the name of Gusteau's rival restaurant?"
+        answers:
+          A: "Le Chalet"
+          B: "Le Ciel"
+          C: "Le Petit Chef"
+          D: "La Ratatouille"
+    difficulty: EXPERT
+  - text: "Quel est le nom du réalisateur de Monstres & Cie ?"
+    answers:
+      A: "Brad Bird"
+      B: "Pete Docter"
+      C: "Andrew Stanton"
+      D: "Lee Unkrich"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the director of Monsters, Inc.?"
+        answers:
+          A: "Brad Bird"
+          B: "Pete Docter"
+          C: "Andrew Stanton"
+          D: "Lee Unkrich"
+    difficulty: HARD
+  - text: "Dans 1001 pattes, quel est le nom du cirque où les fourmis trouvent les insectes ?"
+    answers:
+      A: "Le Grand Cirque des Insectes"
+      B: "Le Cirque des Puces"
+      C: "Le Cirque des Fourmis"
+      D: "Le Cirque des Parasols"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In A Bug's Life, what is the name of the circus where the ants find the insects?"
+        answers:
+          A: "The Great Insect Circus"
+          B: "The Flea Circus"
+          C: "The Ant Circus"
+          D: "The Parasol Circus"
+    difficulty: EXPERT
+  - text: "Dans Vice-versa, quel est le nom du metteur en scène de théâtre qui engage Riley ?"
+    answers:
+      A: "Monsieur Andersen"
+      B: "Monsieur Frank"
+      C: "Monsieur Bill"
+      D: "Monsieur Johnson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Inside Out, what is the name of the theater director who hires Riley?"
+        answers:
+          A: "Mr. Andersen"
+          B: "Mr. Frank"
+          C: "Mr. Bill"
+          D: "Mr. Johnson"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chat de Riley dans Vice-versa ?"
+    answers:
+      A: "Milo"
+      B: "Momo"
+      C: "Max"
+      D: "Mia"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Riley's cat in Inside Out?"
+        answers:
+          A: "Milo"
+          B: "Momo"
+          C: "Max"
+          D: "Mia"
+    difficulty: EXPERT
+  - text: "Dans Le Monde de Nemo, combien de tentacules la pieuvre Huit a-t-elle ?"
+    answers:
+      A: "7"
+      B: "8"
+      C: "6"
+      D: "10"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Finding Nemo, how many tentacles does the octopus Huit have?"
+        answers:
+          A: "7"
+          B: "8"
+          C: "6"
+          D: "10"
+    difficulty: HARD
+  - text: "Dans Les Indestructibles, quel est le nom du mari de Edna Mode ?"
+    answers:
+      A: "Bob"
+      B: "Tony"
+      C: "Il n'en a pas"
+      D: "Lucius"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In The Incredibles, what is the name of Edna Mode's husband?"
+        answers:
+          A: "Bob"
+          B: "Tony"
+          C: "She doesn't have one"
+          D: "Lucius"
+    difficulty: EXPERT
+  - text: "Quel est le nom du réalisateur de WALL-E ?"
+    answers:
+      A: "Pete Docter"
+      B: "Andrew Stanton"
+      C: "Brad Bird"
+      D: "John Lasseter"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the director of WALL-E?"
+        answers:
+          A: "Pete Docter"
+          B: "Andrew Stanton"
+          C: "Brad Bird"
+          D: "John Lasseter"
+    difficulty: HARD
+  - text: "Dans Coco, quel est le nom du groupe de mariachis qui joue pour Miguel au début ?"
+    answers:
+      A: "Los Chidos"
+      B: "Los Chavos"
+      C: "Los Campeones"
+      D: "Los Dorados"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Coco, what is the name of the mariachi band that plays for Miguel at the beginning?"
+        answers:
+          A: "Los Chidos"
+          B: "Los Chavos"
+          C: "Los Campeones"
+          D: "Los Dorados"
+    difficulty: EXPERT
+  - text: "Dans Toy Story, quel est le nom du camion de déménagement qui transporte les jouets ?"
+    answers:
+      A: "Pizza Planet"
+      B: "U-Haul"
+      C: "Chevron"
+      D: "Dinoco"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Toy Story, what is the name of the moving truck that transports the toys?"
+        answers:
+          A: "Pizza Planet"
+          B: "U-Haul"
+          C: "Chevron"
+          D: "Dinoco"
+    difficulty: EXPERT
+  - text: "Quel est le nom du personnage principal de Là-haut ?"
+    answers:
+      A: "Russel"
+      B: "Charles Muntz"
+      C: "Carl Fredricksen"
+      D: "Dug"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main character of Up?"
+        answers:
+          A: "Russel"
+          B: "Charles Muntz"
+          C: "Carl Fredricksen"
+          D: "Dug"
+    difficulty: EASY
+  - text: "Quel est le nom du personnage principal de Rebelle (Brave) ?"
+    answers:
+      A: "Elinor"
+      B: "Merida"
+      C: "Mor'du"
+      D: "Ma Dalton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the main character of Brave?"
+        answers:
+          A: "Elinor"
+          B: "Merida"
+          C: "Mor'du"
+          D: "Ma Dalton"
+    difficulty: MEDIUM
+  - text: "Dans Le Monde de Nemo, quel est le nom du poisson jaune et bleu qui aide Marin à retrouver Nemo ?"
+    answers:
+      A: "Dory"
+      B: "Bloat"
+      C: "Gill"
+      D: "Bubbles"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Finding Nemo, what is the name of the yellow and blue fish who helps Marlin find Nemo?"
+        answers:
+          A: "Dory"
+          B: "Bloat"
+          C: "Gill"
+          D: "Bubbles"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du cow-boy dans Toy Story ?"
+    answers:
+      A: "Woody"
+      B: "Buzz"
+      C: "Rex"
+      D: "Jessie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the cowboy in Toy Story?"
+        answers:
+          A: "Woody"
+          B: "Buzz"
+          C: "Rex"
+          D: "Jessie"
+    difficulty: EASY
+  - text: "Quel est le nom du poisson combattant dans Le Monde de Nemo ?"
+    answers:
+      A: "Bloat"
+      B: "Gill"
+      C: "Peach"
+      D: "Gurgle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the fighting fish in Finding Nemo?"
+        answers:
+          A: "Bloat"
+          B: "Gill"
+          C: "Peach"
+          D: "Gurgle"
+    difficulty: HARD
+  - text: "Quel est le nom du réalisateur de Toy Story ?"
+    answers:
+      A: "Pete Docter"
+      B: "Andrew Stanton"
+      C: "John Lasseter"
+      D: "Brad Bird"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the director of Toy Story?"
+        answers:
+          A: "Pete Docter"
+          B: "Andrew Stanton"
+          C: "John Lasseter"
+          D: "Brad Bird"
+    difficulty: HARD
+  - text: "Quel est le nom du réalisateur de Le Monde de Nemo ?"
+    answers:
+      A: "Pete Docter"
+      B: "Lee Unkrich"
+      C: "John Lasseter"
+      D: "Andrew Stanton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the director of Finding Nemo?"
+        answers:
+          A: "Pete Docter"
+          B: "Lee Unkrich"
+          C: "John Lasseter"
+          D: "Andrew Stanton"
+    difficulty: HARD
+  - text: "Quel est le nom du réalisateur de Les Indestructibles ?"
+    answers:
+      A: "Brad Bird"
+      B: "Andrew Stanton"
+      C: "Pete Docter"
+      D: "Lee Unkrich"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the director of The Incredibles?"
+        answers:
+          A: "Brad Bird"
+          B: "Andrew Stanton"
+          C: "Pete Docter"
+          D: "Lee Unkrich"
+    difficulty: HARD
+  - text: "Quel est le nom du réalisateur de Là-haut ?"
+    answers:
+      A: "Bob Peterson"
+      B: "Pete Docter"
+      C: "Andrew Stanton"
+      D: "Brad Bird"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the director of Up?"
+        answers:
+          A: "Bob Peterson"
+          B: "Pete Docter"
+          C: "Andrew Stanton"
+          D: "Brad Bird"
+    difficulty: HARD
+  - text: "Quel est le nom du réalisateur de Rebelle (Brave) ?"
+    answers:
+      A: "Mark Andrews"
+      B: "Brenda Chapman"
+      C: "Steve Purcell"
+      D: "Pete Docter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the director of Brave?"
+        answers:
+          A: "Mark Andrews"
+          B: "Brenda Chapman"
+          C: "Steve Purcell"
+          D: "Pete Docter"
+    difficulty: EXPERT
+  - text: "Quel est le nom du réalisateur de Vice-versa ?"
+    answers:
+      A: "Andrew Stanton"
+      B: "Ronaldo Del Carmen"
+      C: "Lee Unkrich"
+      D: "Pete Docter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the director of Inside Out?"
+        answers:
+          A: "Andrew Stanton"
+          B: "Ronaldo Del Carmen"
+          C: "Lee Unkrich"
+          D: "Pete Docter"
+    difficulty: HARD
+  - text: "Quel est le nom du réalisateur de Toy Story 4 ?"
+    answers:
+      A: "Josh Cooley"
+      B: "John Lasseter"
+      C: "Lee Unkrich"
+      D: "Andrew Stanton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the director of Toy Story 4?"
+        answers:
+          A: "Josh Cooley"
+          B: "John Lasseter"
+          C: "Lee Unkrich"
+          D: "Andrew Stanton"
+    difficulty: EXPERT
+  - text: "Quel est le nom du camion de pizza dans Toy Story ?"
+    answers:
+      A: "Pizza Roma"
+      B: "Pizza Hut"
+      C: "Pizza Planet"
+      D: "Pizza Palace"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the pizza truck in Toy Story?"
+        answers:
+          A: "Pizza Roma"
+          B: "Pizza Hut"
+          C: "Pizza Planet"
+          D: "Pizza Palace"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dinosaure dans Toy Story ?"
+    answers:
+      A: "Dino"
+      B: "Trixie"
+      C: "Squeeze"
+      D: "Rex"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the dinosaur in Toy Story?"
+        answers:
+          A: "Dino"
+          B: "Trixie"
+          C: "Squeeze"
+          D: "Rex"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la vache dans Toy Story ?"
+    answers:
+      A: "Vachette"
+      B: "Clochette"
+      C: "Moo Moo"
+      D: "Mme Moo"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the cow in Toy Story?"
+        answers:
+          A: "Vachette"
+          B: "Clochette"
+          C: "Moo Moo"
+          D: "Mrs. Moo"
+    difficulty: HARD
+  - text: "Quel est le nom du cochon tirelire dans Toy Story ?"
+    answers:
+      A: "Porcinet"
+      B: "Bacon"
+      C: "Tirelire"
+      D: "Groin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the piggy bank in Toy Story?"
+        answers:
+          A: "Porcinet"
+          B: "Bacon"
+          C: "Tirelire"
+          D: "Groin"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du réalisateur de 1001 pattes ?"
+    answers:
+      A: "Pete Docter"
+      B: "Andrew Stanton"
+      C: "Lee Unkrich"
+      D: "John Lasseter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the director of A Bug's Life?"
+        answers:
+          A: "Pete Docter"
+          B: "Andrew Stanton"
+          C: "Lee Unkrich"
+          D: "John Lasseter"
+    difficulty: EXPERT
+  - text: "Quel est le nom du réalisateur des Indestructibles 2 ?"
+    answers:
+      A: "Andrew Stanton"
+      B: "Pete Docter"
+      C: "Lee Unkrich"
+      D: "Brad Bird"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the director of Incredibles 2?"
+        answers:
+          A: "Andrew Stanton"
+          B: "Pete Docter"
+          C: "Lee Unkrich"
+          D: "Brad Bird"
+    difficulty: EXPERT
+  - text: "Dans Vice-versa, quel est le nom de l'ami imaginaire de Riley ?"
+    answers:
+      A: "Bing Bong"
+      B: "Bing Bong Jr."
+      C: "Bong Bing"
+      D: "Bing Bang"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Inside Out, what is the name of Riley's imaginary friend?"
+        answers:
+          A: "Bing Bong"
+          B: "Bing Bong Jr."
+          C: "Bong Bing"
+          D: "Bing Bang"
+    difficulty: HARD
+  - text: "Dans Le Monde de Nemo, quelle est l'adresse donnée par Dory ?"
+    answers:
+      A: "42 Wallaby Avenue, Sydney"
+      B: "42 Wallaby Road, Sydney"
+      C: "42 Wallaby Street, Sydney"
+      D: "42 Wallaby Way, Sydney"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Finding Nemo, what is the address Dory gives?"
+        answers:
+          A: "42 Wallaby Avenue, Sydney"
+          B: "42 Wallaby Road, Sydney"
+          C: "42 Wallaby Street, Sydney"
+          D: "42 Wallaby Way, Sydney"
+    difficulty: EXPERT
+  - text: "Dans 1001 pattes, quel est le nom de la sauterelle ?"
+    answers:
+      A: "Thumper"
+      B: "Hopper"
+      C: "Flik"
+      D: "Dot"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In A Bug's Life, what is the name of the grasshopper?"
+        answers:
+          A: "Thumper"
+          B: "Hopper"
+          C: "Flik"
+          D: "Dot"
+    difficulty: HARD
+  - text: "Dans Là-haut, quel est le nom de l'explorateur ?"
+    answers:
+      A: "Charles Muntz"
+      B: "Carl Fredricksen"
+      C: "Russell"
+      D: "Dug"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Up, what is the name of the explorer?"
+        answers:
+          A: "Charles Muntz"
+          B: "Carl Fredricksen"
+          C: "Russell"
+          D: "Dug"
+    difficulty: HARD
+  - text: "Dans Coco, quel est le nom du fantôme de la mariée ?"
+    answers:
+      A: "Tía Rosita"
+      B: "Mama Imelda"
+      C: "La Llorona"
+      D: "Abuelita"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Coco, what is the name of the bride's ghost?"
+        answers:
+          A: "Tía Rosita"
+          B: "Mama Imelda"
+          C: "La Llorona"
+          D: "Abuelita"
+    difficulty: EXPERT
+  - text: "Dans Monstres & Cie, quel est le type de monstre qui nettoie les portes ?"
+    answers:
+      A: "Le personnel de nettoyage"
+      B: "Les scarificateurs"
+      C: "Les hurleurs"
+      D: "Les camoufleurs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Monsters, Inc., what type of monster cleans the doors?"
+        answers:
+          A: "The cleaning staff"
+          B: "The Scarers"
+          C: "The Howlers"
+          D: "The Camouflagers"
+    difficulty: EXPERT
+  - text: "Dans Les Indestructibles, quel est le nom du mari d'Edna Mode ?"
+    answers:
+      A: "Elle n'a pas de mari"
+      B: "Bob Parr"
+      C: "Lucius Best"
+      D: "Buddy Pine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In The Incredibles, what is the name of Edna Mode's husband?"
+        answers:
+          A: "She has no husband"
+          B: "Bob Parr"
+          C: "Lucius Best"
+          D: "Buddy Pine"
+    difficulty: EXPERT
+  - text: "Dans quel film Pixar trouve-t-on le personnage de « Al McWhiggin » ?"
+    answers:
+      A: "Toy Story"
+      B: "Monstres & Cie"
+      C: "1001 pattes"
+      D: "Toy Story 2"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which Pixar film do we find the character 'Al McWhiggin'?"
+        answers:
+          A: "Toy Story"
+          B: "Monsters, Inc."
+          C: "A Bug's Life"
+          D: "Toy Story 2"
+    difficulty: EXPERT
+  - text: "Quel acteur prête sa voix à Woody en version originale ?"
+    answers:
+      A: "Billy Crystal"
+      B: "Tim Allen"
+      C: "Tom Hanks"
+      D: "John Ratzenberger"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor voices Woody in the original version?"
+        answers:
+          A: "Billy Crystal"
+          B: "Tim Allen"
+          C: "Tom Hanks"
+          D: "John Ratzenberger"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du restaurant où travaille Colette dans Ratatouille ?"
+    answers:
+      A: "Le Bistrot de Paris"
+      B: "La Ratatouille"
+      C: "Chez Auguste"
+      D: "Le Gusteau's"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the restaurant where Colette works in Ratatouille?"
+        answers:
+          A: "Le Bistrot de Paris"
+          B: "La Ratatouille"
+          C: "Chez Auguste"
+          D: "Le Gusteau's"
+    difficulty: HARD
+  - text: "Combien de tentacules la pieuvre Huit a-t-elle dans Le Monde de Nemo ?"
+    answers:
+      A: "6"
+      B: "7"
+      C: "8"
+      D: "9"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many tentacles does the octopus Huit have in Finding Nemo?"
+        answers:
+          A: "6"
+          B: "7"
+          C: "8"
+          D: "9"
+    difficulty: HARD
+  - text: "Quel est le nom de la ville où se déroule principalement l'action de Coco ?"
+    answers:
+      A: "San Juan"
+      B: "Santa Cecilia"
+      C: "Ciudad de México"
+      D: "Santa Fe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the city where most of Coco takes place?"
+        answers:
+          A: "San Juan"
+          B: "Santa Cecilia"
+          C: "Ciudad de México"
+          D: "Santa Fe"
+    difficulty: HARD
+  - text: "Quel est le nom du robot qui nettoie dans WALL-E ?"
+    answers:
+      A: "EVE"
+      B: "M-O"
+      C: "AUTO"
+      D: "GO-4"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the cleaning robot in WALL-E?"
+        answers:
+          A: "EVE"
+          B: "M-O"
+          C: "AUTO"
+          D: "GO-4"
+    difficulty: HARD
+  - text: "Dans Les Indestructibles, quel est le nom de la jeune fille qui aide M. Indestructible ?"
+    answers:
+      A: "Mirage"
+      B: "Kari"
+      C: "Edna"
+      D: "Violette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In The Incredibles, what is the name of the young girl who helps Mr. Incredible?"
+        answers:
+          A: "Mirage"
+          B: "Kari"
+          C: "Edna"
+          D: "Violette"
+    difficulty: HARD
+  - text: "Quel est le nom du tatouage sur le bras de Héctor dans Coco ?"
+    answers:
+      A: "Une guitare"
+      B: "Un crâne"
+      C: "Un serpent"
+      D: "Une rose"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the tattoo on Héctor's arm in Coco?"
+        answers:
+          A: "A guitar"
+          B: "A skull"
+          C: "A snake"
+          D: "A rose"
+    difficulty: EXPERT
+  - text: "Dans Monstres & Cie, quel est le nom du patron de l'usine ?"
+    answers:
+      A: "Bob Razowski"
+      B: "Henry J. Waternoose"
+      C: "Randall Boggs"
+      D: "Celia Mae"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Monsters, Inc., what is the name of the factory boss?"
+        answers:
+          A: "Bob Razowski"
+          B: "Henry J. Waternoose"
+          C: "Randall Boggs"
+          D: "Celia Mae"
+    difficulty: HARD
+  - text: "Quel est le nom du poisson qui se prend pour un requin dans Le Monde de Nemo ?"
+    answers:
+      A: "Bruce"
+      B: "Anchor"
+      C: "Chum"
+      D: "Dory"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the fish who thinks he's a shark in Finding Nemo?"
+        answers:
+          A: "Bruce"
+          B: "Anchor"
+          C: "Chum"
+          D: "Dory"
+    difficulty: HARD
+  - text: "Quel est le nom de la maison de retraite dans Là-haut ?"
+    answers:
+      A: "Sunset Villa"
+      B: "Shady Oaks"
+      C: "Palm Springs"
+      D: "Golden Years"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the retirement home in Up?"
+        answers:
+          A: "Sunset Villa"
+          B: "Shady Oaks"
+          C: "Palm Springs"
+          D: "Golden Years"
+    difficulty: EXPERT
+  - text: "Dans Toy Story 3, quel est le nom de l'ours en peluche ?"
+    answers:
+      A: "Lotso"
+      B: "Teddy"
+      C: "Big Baby"
+      D: "Chuckles"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Toy Story 3, what is the name of the teddy bear?"
+        answers:
+          A: "Lotso"
+          B: "Teddy"
+          C: "Big Baby"
+          D: "Chuckles"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la ville où vit Remy dans Ratatouille ?"
+    answers:
+      A: "Bordeaux"
+      B: "Lyon"
+      C: "Marseille"
+      D: "Paris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the city where Remy lives in Ratatouille?"
+        answers:
+          A: "Bordeaux"
+          B: "Lyon"
+          C: "Marseille"
+          D: "Paris"
+    difficulty: MEDIUM
+  - text: "Dans 1001 pattes, quel est le nom du personnage principal ?"
+    answers:
+      A: "Atta"
+      B: "Hopper"
+      C: "Dot"
+      D: "Flik"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In A Bug's Life, what is the name of the main character?"
+        answers:
+          A: "Atta"
+          B: "Hopper"
+          C: "Dot"
+          D: "Flik"
+    difficulty: HARD
+  - text: "Dans Les Indestructibles, quel super-héros est le mari de Frozone ?"
+    answers:
+      A: "M. Indestructible"
+      B: "Syndrome"
+      C: "Il n'est pas marié"
+      D: "Frozone est marié à un autre super-héros non nommé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In The Incredibles, which superhero is Frozone's husband?"
+        answers:
+          A: "Mr. Incredible"
+          B: "Syndrome"
+          C: "He is not married"
+          D: "Frozone is married to another unnamed superhero"
+    difficulty: EXPERT
+  - text: "Quel acteur double le personnage de Woody en français ?"
+    answers:
+      A: "Jean Reno"
+      B: "Tom Hanks"
+      C: "Richard Darbois"
+      D: "Patrick Timsit"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor voices Woody in French?"
+        answers:
+          A: "Jean Reno"
+          B: "Tom Hanks"
+          C: "Richard Darbois"
+          D: "Patrick Timsit"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la petite fille qui possède Buzz et Woody au début de Toy Story 3 ?"
+    answers:
+      A: "Bonnie"
+      B: "Andy"
+      C: "Molly"
+      D: "Emily"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the little girl who owns Buzz and Woody at the beginning of Toy Story 3?"
+        answers:
+          A: "Bonnie"
+          B: "Andy"
+          C: "Molly"
+          D: "Emily"
+    difficulty: HARD

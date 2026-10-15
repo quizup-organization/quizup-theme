@@ -1,0 +1,1608 @@
+topic:
+  id: topic-gta
+  names:
+    fr: "Grand Theft Auto"
+    en: "Grand Theft Auto"
+  description: "La série Grand Theft Auto : épisodes (III, Vice City, San Andreas, IV, V), villes, protagonistes, missions, radios et humour satirique de Rockstar."
+  category: GAMES
+questions:
+  - text: "Quel est le nom du protagoniste de Grand Theft Auto III ?"
+    answers:
+      A: "Tommy Vercetti"
+      B: "Claude"
+      C: "Carl Johnson"
+      D: "Niko Bellic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the protagonist of Grand Theft Auto III?"
+        answers:
+          A: "Tommy Vercetti"
+          B: "Claude"
+          C: "Carl Johnson"
+          D: "Niko Bellic"
+    difficulty: EASY
+  - text: "Dans Grand Theft Auto: Vice City, quelle est l'année de l'intrigue ?"
+    answers:
+      A: "1984"
+      B: "1988"
+      C: "1986"
+      D: "1990"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Grand Theft Auto: Vice City, what year is the story set in?"
+        answers:
+          A: "1984"
+          B: "1988"
+          C: "1986"
+          D: "1990"
+    difficulty: EASY
+  - text: "Quel acteur prête sa voix à Tommy Vercetti dans GTA: Vice City ?"
+    answers:
+      A: "Dennis Hopper"
+      B: "Burt Reynolds"
+      C: "Ray Liotta"
+      D: "William Fichtner"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor voices Tommy Vercetti in GTA: Vice City?"
+        answers:
+          A: "Dennis Hopper"
+          B: "Burt Reynolds"
+          C: "Ray Liotta"
+          D: "William Fichtner"
+    difficulty: MEDIUM
+  - text: "Quel groupe de rap est le protagoniste de Grand Theft Auto: San Andreas ?"
+    answers:
+      A: "Les Vagos"
+      B: "Les Ballas"
+      C: "Les Grove Street Families"
+      D: "Les Rifa"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which rap group is the protagonist of Grand Theft Auto: San Andreas?"
+        answers:
+          A: "The Vagos"
+          B: "The Ballas"
+          C: "The Grove Street Families"
+          D: "The Rifa"
+    difficulty: EASY
+  - text: "Quelle est la ville fictive principale de Grand Theft Auto IV ?"
+    answers:
+      A: "Los Santos"
+      B: "Vice City"
+      C: "Liberty City"
+      D: "San Fierro"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the main fictional city in Grand Theft Auto IV?"
+        answers:
+          A: "Los Santos"
+          B: "Vice City"
+          C: "Liberty City"
+          D: "San Fierro"
+    difficulty: EASY
+  - text: "Quel est le nom du protagoniste de Grand Theft Auto IV ?"
+    answers:
+      A: "Niko Bellic"
+      B: "Luis Lopez"
+      C: "Johnny Klebitz"
+      D: "Michael De Santa"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the protagonist of Grand Theft Auto IV?"
+        answers:
+          A: "Niko Bellic"
+          B: "Luis Lopez"
+          C: "Johnny Klebitz"
+          D: "Michael De Santa"
+    difficulty: EASY
+  - text: "Dans GTA V, quel personnage est un ancien braqueur de banques vivant à Los Santos ?"
+    answers:
+      A: "Lamar Davis"
+      B: "Franklin Clinton"
+      C: "Trevor Philips"
+      D: "Michael De Santa"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In GTA V, which character is a former bank robber living in Los Santos?"
+        answers:
+          A: "Lamar Davis"
+          B: "Franklin Clinton"
+          C: "Trevor Philips"
+          D: "Michael De Santa"
+    difficulty: MEDIUM
+  - text: "Quelle station de radio de GTA: San Andreas est animée par Axl Rose ?"
+    answers:
+      A: "Radio Los Santos"
+      B: "Radio X"
+      C: "K-DST"
+      D: "Playback FM"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which GTA: San Andreas radio station is hosted by Axl Rose?"
+        answers:
+          A: "Radio Los Santos"
+          B: "Radio X"
+          C: "K-DST"
+          D: "Playback FM"
+    difficulty: HARD
+  - text: "Quel est le nom de la radio de musique classique dans GTA III ?"
+    answers:
+      A: "Head Radio"
+      B: "Double Clef FM"
+      C: "Lips 106"
+      D: "Game FM"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the classical music radio station in GTA III?"
+        answers:
+          A: "Head Radio"
+          B: "Double Clef FM"
+          C: "Lips 106"
+          D: "Game FM"
+    difficulty: HARD
+  - text: "Dans GTA: Vice City, quel bâtiment est le quartier général de Tommy Vercetti ?"
+    answers:
+      A: "Le malibu Club"
+      B: "Le manoir de Vercetti"
+      C: "L'immeuble Ocean View"
+      D: "Le commissariat de police"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA: Vice City, which building is Tommy Vercetti's headquarters?"
+        answers:
+          A: "The Malibu Club"
+          B: "Vercetti Estate"
+          C: "The Ocean View building"
+          D: "The police station"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne le voice-over de Carl Johnson dans GTA: San Andreas ?"
+    answers:
+      A: "Dr. Dre"
+      B: "Ice Cube"
+      C: "Snoop Dogg"
+      D: "Young Maylay"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor provides the voice-over for Carl Johnson in GTA: San Andreas?"
+        answers:
+          A: "Dr. Dre"
+          B: "Ice Cube"
+          C: "Snoop Dogg"
+          D: "Young Maylay"
+    difficulty: MEDIUM
+  - text: "Dans GTA V, quel est le nom du chien de Franklin ?"
+    answers:
+      A: "Rex"
+      B: "Chop"
+      C: "Buddy"
+      D: "Max"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA V, what is the name of Franklin's dog?"
+        answers:
+          A: "Rex"
+          B: "Chop"
+          C: "Buddy"
+          D: "Max"
+    difficulty: HARD
+  - text: "Quel est le nom de la monnaie utilisée dans GTA: Vice City ?"
+    answers:
+      A: "Dollar"
+      B: "Euro"
+      C: "Peso"
+      D: "Livre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the currency used in GTA: Vice City?"
+        answers:
+          A: "Dollar"
+          B: "Euro"
+          C: "Peso"
+          D: "Pound"
+    difficulty: EXPERT
+  - text: "Quel véhicule emblématique peut être conduit dans GTA: San Andreas et est un train ?"
+    answers:
+      A: "Le monorail"
+      B: "Le tramway"
+      C: "Le métro"
+      D: "Le train de marchandises"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which iconic vehicle can be driven in GTA: San Andreas and is a train?"
+        answers:
+          A: "The monorail"
+          B: "The tram"
+          C: "The subway"
+          D: "The freight train"
+    difficulty: EXPERT
+  - text: "Dans GTA IV, quel quartier de Liberty City est inspiré de Times Square ?"
+    answers:
+      A: "Broker"
+      B: "Middle Park"
+      C: "Star Junction"
+      D: "Bohan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA IV, which Liberty City district is inspired by Times Square?"
+        answers:
+          A: "Broker"
+          B: "Middle Park"
+          C: "Star Junction"
+          D: "Bohan"
+    difficulty: HARD
+  - text: "Quel est le nom de la mission finale de GTA III ?"
+    answers:
+      A: "The Chase"
+      B: "The Job"
+      C: "The Getaway"
+      D: "The Exchange"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the final mission in GTA III?"
+        answers:
+          A: "The Chase"
+          B: "The Job"
+          C: "The Getaway"
+          D: "The Exchange"
+    difficulty: HARD
+  - text: "Dans GTA: Vice City, quel personnage est le chef du gang des Vercetti ?"
+    answers:
+      A: "Ricardo Diaz"
+      B: "Lance Vance"
+      C: "Sonny Forelli"
+      D: "Tommy Vercetti"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In GTA: Vice City, which character is the leader of the Vercetti gang?"
+        answers:
+          A: "Ricardo Diaz"
+          B: "Lance Vance"
+          C: "Sonny Forelli"
+          D: "Tommy Vercetti"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la radio de rock dans GTA: Vice City ?"
+    answers:
+      A: "Flash FM"
+      B: "Wave 103"
+      C: "V-Rock"
+      D: "Fever 105"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the rock radio station in GTA: Vice City?"
+        answers:
+          A: "Flash FM"
+          B: "Wave 103"
+          C: "V-Rock"
+          D: "Fever 105"
+    difficulty: HARD
+  - text: "Quel est le nom du protagoniste de GTA V qui vit à Sandy Shores ?"
+    answers:
+      A: "Michael De Santa"
+      B: "Trevor Philips"
+      C: "Franklin Clinton"
+      D: "Lamar Davis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the GTA V protagonist who lives in Sandy Shores?"
+        answers:
+          A: "Michael De Santa"
+          B: "Trevor Philips"
+          C: "Franklin Clinton"
+          D: "Lamar Davis"
+    difficulty: MEDIUM
+  - text: "Quel acteur joue le role de Trevor Philips dans GTA V ?"
+    answers:
+      A: "Steven Ogg"
+      B: "Ned Luke"
+      C: "Shawn Fonteno"
+      D: "Rob Shapiro"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays the role of Trevor Philips in GTA V?"
+        answers:
+          A: "Steven Ogg"
+          B: "Ned Luke"
+          C: "Shawn Fonteno"
+          D: "Rob Shapiro"
+    difficulty: MEDIUM
+  - text: "Dans GTA: San Andreas, quel rappeur incarne le personnage de Ryder ?"
+    answers:
+      A: "MC Eiht"
+      B: "Ice Cube"
+      C: "Snoop Dogg"
+      D: "The Game"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA: San Andreas, which rapper voices the character Ryder?"
+        answers:
+          A: "MC Eiht"
+          B: "Ice Cube"
+          C: "Snoop Dogg"
+          D: "The Game"
+    difficulty: HARD
+  - text: "Quel est le nom de la mission finale de GTA: San Andreas ?"
+    answers:
+      A: "End of the Line"
+      B: "The Last Stand"
+      C: "Final Showdown"
+      D: "Last Mission"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the final mission in GTA: San Andreas?"
+        answers:
+          A: "End of the Line"
+          B: "The Last Stand"
+          C: "Final Showdown"
+          D: "Last Mission"
+    difficulty: EXPERT
+  - text: "Dans GTA IV, quel est le nom du cousin de Niko Bellic ?"
+    answers:
+      A: "Mikhail"
+      B: "Roman"
+      C: "Dimitri"
+      D: "Vlad"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA IV, what is the name of Niko Bellic's cousin?"
+        answers:
+          A: "Mikhail"
+          B: "Roman"
+          C: "Dimitri"
+          D: "Vlad"
+    difficulty: EASY
+  - text: "Quelle station de radio de GTA: Vice City est animée par le DJ Toni ?"
+    answers:
+      A: "Flash FM"
+      B: "Wave 103"
+      C: "V-Rock"
+      D: "Emotion 98.3"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which GTA: Vice City radio station is hosted by DJ Toni?"
+        answers:
+          A: "Flash FM"
+          B: "Wave 103"
+          C: "V-Rock"
+          D: "Emotion 98.3"
+    difficulty: HARD
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier de Los Santos où commence le jeu ?"
+    answers:
+      A: "Grove Street"
+      B: "Idlewood"
+      C: "Jefferson"
+      D: "East Los Santos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the Los Santos neighborhood where the game begins?"
+        answers:
+          A: "Grove Street"
+          B: "Idlewood"
+          C: "Jefferson"
+          D: "East Los Santos"
+    difficulty: MEDIUM
+  - text: "Quel acteur prête sa voix à Salvatore Leone dans GTA III ?"
+    answers:
+      A: "Frank Vincent"
+      B: "Michael Madsen"
+      C: "Ray Liotta"
+      D: "Joe Pantoliano"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices Salvatore Leone in GTA III?"
+        answers:
+          A: "Frank Vincent"
+          B: "Michael Madsen"
+          C: "Ray Liotta"
+          D: "Joe Pantoliano"
+    difficulty: HARD
+  - text: "Dans GTA V, quel est le nom du fils de Michael De Santa ?"
+    answers:
+      A: "Jimmy"
+      B: "Tracey"
+      C: "Franklin"
+      D: "Lamar"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA V, what is the name of Michael De Santa's son?"
+        answers:
+          A: "Jimmy"
+          B: "Tracey"
+          C: "Franklin"
+          D: "Lamar"
+    difficulty: HARD
+  - text: "Quelle est la station de radio de musique électronique dans GTA IV ?"
+    answers:
+      A: "Vladivostok FM"
+      B: "Radio Broker"
+      C: "The Journey"
+      D: "Electro-Choc"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the electronic music radio station in GTA IV?"
+        answers:
+          A: "Vladivostok FM"
+          B: "Radio Broker"
+          C: "The Journey"
+          D: "Electro-Choc"
+    difficulty: HARD
+  - text: "Dans GTA: Vice City, quel est le nom du bar que Tommy Vercetti achète au début du jeu ?"
+    answers:
+      A: "Malibu Club"
+      B: "Pole Position Club"
+      C: "The Greasy Chopper"
+      D: "Ocean View Hotel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In GTA: Vice City, what is the name of the bar Tommy Vercetti buys at the start of the game?"
+        answers:
+          A: "Malibu Club"
+          B: "Pole Position Club"
+          C: "The Greasy Chopper"
+          D: "Ocean View Hotel"
+    difficulty: HARD
+  - text: "Quel est le nom de la radio de talk-show dans GTA: San Andreas ?"
+    answers:
+      A: "Radio Los Santos"
+      B: "K-DST"
+      C: "WCTR"
+      D: "Playback FM"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the talk-show radio station in GTA: San Andreas?"
+        answers:
+          A: "Radio Los Santos"
+          B: "K-DST"
+          C: "WCTR"
+          D: "Playback FM"
+    difficulty: HARD
+  - text: "Dans GTA IV, quel personnage est un trafiquant de drogue et antagoniste principal ?"
+    answers:
+      A: "Jimmy Pegorino"
+      B: "Dimitri Rascalov"
+      C: "Playboy X"
+      D: "Dwayne Forge"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA IV, which character is a drug trafficker and main antagonist?"
+        answers:
+          A: "Jimmy Pegorino"
+          B: "Dimitri Rascalov"
+          C: "Playboy X"
+          D: "Dwayne Forge"
+    difficulty: MEDIUM
+  - text: "Dans GTA V, quelle mission permet de braquer la banque centrale de Los Santos ?"
+    answers:
+      A: "Blitz Play"
+      B: "Paleto Score"
+      C: "The Big Score"
+      D: "The Bureau Raid"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA V, which mission involves robbing the central bank of Los Santos?"
+        answers:
+          A: "Blitz Play"
+          B: "Paleto Score"
+          C: "The Big Score"
+          D: "The Bureau Raid"
+    difficulty: HARD
+  - text: "Quel est le nom de la ville fictive inspirée de Miami dans GTA: Vice City ?"
+    answers:
+      A: "Vice City"
+      B: "Miami"
+      C: "Ocean Beach"
+      D: "Vice Beach"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the fictional city inspired by Miami in GTA: Vice City?"
+        answers:
+          A: "Vice City"
+          B: "Miami"
+          C: "Ocean Beach"
+          D: "Vice Beach"
+    difficulty: EASY
+  - text: "Dans GTA: San Andreas, quel est le nom du gang rival des Grove Street Families ?"
+    answers:
+      A: "Rifa"
+      B: "Vagos"
+      C: "Ballas"
+      D: "Aztecas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the rival gang of the Grove Street Families?"
+        answers:
+          A: "Rifa"
+          B: "Vagos"
+          C: "Ballas"
+          D: "Aztecas"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne le voice-over de Lance Vance dans GTA: Vice City ?"
+    answers:
+      A: "Tom Sizemore"
+      B: "Ray Liotta"
+      C: "William Fichtner"
+      D: "Philip Michael Thomas"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices Lance Vance in GTA: Vice City?"
+        answers:
+          A: "Tom Sizemore"
+          B: "Ray Liotta"
+          C: "William Fichtner"
+          D: "Philip Michael Thomas"
+    difficulty: HARD
+  - text: "Dans GTA V, quel est le nom du quartier de Los Santos où réside Franklin ?"
+    answers:
+      A: "Strawberry"
+      B: "Davis"
+      C: "Vespucci"
+      D: "Chamberlain Hills"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In GTA V, what is the name of the Los Santos neighborhood where Franklin lives?"
+        answers:
+          A: "Strawberry"
+          B: "Davis"
+          C: "Vespucci"
+          D: "Chamberlain Hills"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la mission finale de GTA IV ?"
+    answers:
+      A: "Out of Commission"
+      B: "A Revenger's Tragedy"
+      C: "Mr. & Mrs. Bellic"
+      D: "The Last Enemy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the final mission of GTA IV?"
+        answers:
+          A: "Out of Commission"
+          B: "A Revenger's Tragedy"
+          C: "Mr. & Mrs. Bellic"
+          D: "The Last Enemy"
+    difficulty: EXPERT
+  - text: "Dans GTA III, quel est le nom du chef de la mafia Leone ?"
+    answers:
+      A: "Toni Cipriani"
+      B: "Joey Leone"
+      C: "Salvatore Leone"
+      D: "Vincenzo Cilli"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA III, what is the name of the Leone mafia boss?"
+        answers:
+          A: "Toni Cipriani"
+          B: "Joey Leone"
+          C: "Salvatore Leone"
+          D: "Vincenzo Cilli"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la radio de musique latine dans GTA: Vice City ?"
+    answers:
+      A: "Radio Espantoso"
+      B: "Fever 105"
+      C: "V-Rock"
+      D: "Flash FM"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Latin music radio station in GTA: Vice City?"
+        answers:
+          A: "Radio Espantoso"
+          B: "Fever 105"
+          C: "V-Rock"
+          D: "Flash FM"
+    difficulty: HARD
+  - text: "Quel est le nom du protagoniste de Grand Theft Auto: Vice City Stories ?"
+    answers:
+      A: "Tommy Vercetti"
+      B: "Lance Vance"
+      C: "Victor Vance"
+      D: "Sonny Forelli"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the protagonist of Grand Theft Auto: Vice City Stories?"
+        answers:
+          A: "Tommy Vercetti"
+          B: "Lance Vance"
+          C: "Victor Vance"
+          D: "Sonny Forelli"
+    difficulty: HARD
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier de Los Santos où se trouve la maison de CJ ?"
+    answers:
+      A: "Grove Street"
+      B: "Ganton"
+      C: "Idlewood"
+      D: "Jefferson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the Los Santos neighborhood where CJ's house is located?"
+        answers:
+          A: "Grove Street"
+          B: "Ganton"
+          C: "Idlewood"
+          D: "Jefferson"
+    difficulty: HARD
+  - text: "Quel est le nom du protagoniste de Grand Theft Auto: Liberty City Stories ?"
+    answers:
+      A: "Niko Bellic"
+      B: "Salvatore Leone"
+      C: "Claude"
+      D: "Toni Cipriani"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the protagonist of Grand Theft Auto: Liberty City Stories?"
+        answers:
+          A: "Niko Bellic"
+          B: "Salvatore Leone"
+          C: "Claude"
+          D: "Toni Cipriani"
+    difficulty: HARD
+  - text: "Dans GTA IV, quel est le nom du quartier de Liberty City inspiré de Brooklyn ?"
+    answers:
+      A: "Broker"
+      B: "Bohan"
+      C: "Dukes"
+      D: "Algonquin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA IV, what is the name of the Liberty City neighborhood inspired by Brooklyn?"
+        answers:
+          A: "Broker"
+          B: "Bohan"
+          C: "Dukes"
+          D: "Algonquin"
+    difficulty: HARD
+  - text: "Quelle est l'année de sortie originale de Grand Theft Auto: Vice City ?"
+    answers:
+      A: "2001"
+      B: "2004"
+      C: "2003"
+      D: "2002"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the original release year of Grand Theft Auto: Vice City?"
+        answers:
+          A: "2001"
+          B: "2004"
+          C: "2003"
+          D: "2002"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du gang rival principal des Grove Street Families dans GTA: San Andreas ?"
+    answers:
+      A: "Rifa"
+      B: "Vagos"
+      C: "Ballas"
+      D: "Aztecas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main rival gang of the Grove Street Families in GTA: San Andreas?"
+        answers:
+          A: "Rifa"
+          B: "Vagos"
+          C: "Ballas"
+          D: "Aztecas"
+    difficulty: MEDIUM
+  - text: "Dans GTA V, quel est le nom de la banque braquée lors de la mission 'The Paleto Score' ?"
+    answers:
+      A: "Banque Maze"
+      B: "Banque centrale de Los Santos"
+      C: "Banque Fleeca"
+      D: "Banque de Paleto"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In GTA V, what is the name of the bank robbed during the mission 'The Paleto Score'?"
+        answers:
+          A: "Maze Bank"
+          B: "Central Bank of Los Santos"
+          C: "Fleeca Bank"
+          D: "Bank of Paleto"
+    difficulty: HARD
+  - text: "Quel acteur prête sa voix à Big Smoke dans GTA: San Andreas ?"
+    answers:
+      A: "Ice-T"
+      B: "Samuel L. Jackson"
+      C: "Clifton Powell"
+      D: "Faizon Love"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor voices Big Smoke in GTA: San Andreas?"
+        answers:
+          A: "Ice-T"
+          B: "Samuel L. Jackson"
+          C: "Clifton Powell"
+          D: "Faizon Love"
+    difficulty: HARD
+  - text: "Dans GTA: Vice City, quel est le nom du club que Tommy Vercetti achète après avoir terminé la mission 'The Party' ?"
+    answers:
+      A: "The Greasy Chopper"
+      B: "Pole Position Club"
+      C: "Malibu Club"
+      D: "Ocean View Hotel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA: Vice City, what is the name of the club Tommy Vercetti buys after completing the mission 'The Party'?"
+        answers:
+          A: "The Greasy Chopper"
+          B: "Pole Position Club"
+          C: "Malibu Club"
+          D: "Ocean View Hotel"
+    difficulty: HARD
+  - text: "Quel est le nom de la radio de talk-show dans GTA: San Andreas animée par Maurice Chavez ?"
+    answers:
+      A: "Playback FM"
+      B: "K-Rose"
+      C: "Radio Los Santos"
+      D: "WCTR"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the talk-show radio station in GTA: San Andreas hosted by Maurice Chavez?"
+        answers:
+          A: "Playback FM"
+          B: "K-Rose"
+          C: "Radio Los Santos"
+          D: "WCTR"
+    difficulty: EXPERT
+  - text: "Dans GTA IV, quel personnage est le principal antagoniste et trafiquant de drogue ?"
+    answers:
+      A: "Dimitri Rascalov"
+      B: "Jimmy Pegorino"
+      C: "Ray Bulgarin"
+      D: "Faustin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA IV, which character is the main antagonist and drug trafficker?"
+        answers:
+          A: "Dimitri Rascalov"
+          B: "Jimmy Pegorino"
+          C: "Ray Bulgarin"
+          D: "Faustin"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du protagoniste de Grand Theft Auto: Chinatown Wars ?"
+    answers:
+      A: "Huang Lee"
+      B: "Ling Shan"
+      C: "Kenny Lee"
+      D: "Zhou Ming"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the protagonist of Grand Theft Auto: Chinatown Wars?"
+        answers:
+          A: "Huang Lee"
+          B: "Ling Shan"
+          C: "Kenny Lee"
+          D: "Zhou Ming"
+    difficulty: HARD
+  - text: "Dans GTA: San Andreas, quel est le nom de la mission où CJ doit braquer la banque de Los Santos ?"
+    answers:
+      A: "The Big Score"
+      B: "Breaking the Bank at Caligula's"
+      C: "Three Leaf Clover"
+      D: "The Paleto Score"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the mission where CJ has to rob the bank of Los Santos?"
+        answers:
+          A: "The Big Score"
+          B: "Breaking the Bank at Caligula's"
+          C: "Three Leaf Clover"
+          D: "The Paleto Score"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la radio de musique électronique dans GTA IV ?"
+    answers:
+      A: "The Journey"
+      B: "Electro-Choc"
+      C: "Vladivostok FM"
+      D: "Radio Broker"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the electronic music radio station in GTA IV?"
+        answers:
+          A: "The Journey"
+          B: "Electro-Choc"
+          C: "Vladivostok FM"
+          D: "Radio Broker"
+    difficulty: HARD
+  - text: "Dans GTA III, quel est le nom du cartel de la drogue dirigé par Catalina ?"
+    answers:
+      A: "Cartel de Medellín"
+      B: "Cartel de Cali"
+      C: "Cartel de Sinaloa"
+      D: "Cartel de los Cabrones"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In GTA III, what is the name of the drug cartel led by Catalina?"
+        answers:
+          A: "Medellín Cartel"
+          B: "Cali Cartel"
+          C: "Sinaloa Cartel"
+          D: "Cartel de los Cabrones"
+    difficulty: HARD
+  - text: "Quel est le nom du quartier de Liberty City inspiré de Harlem dans GTA IV ?"
+    answers:
+      A: "Broker"
+      B: "Dukes"
+      C: "Algonquin"
+      D: "Bohan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Liberty City neighborhood inspired by Harlem in GTA IV?"
+        answers:
+          A: "Broker"
+          B: "Dukes"
+          C: "Algonquin"
+          D: "Bohan"
+    difficulty: EXPERT
+  - text: "Dans GTA: Vice City, quel personnage est le propriétaire du club Malibu ?"
+    answers:
+      A: "Ricardo Diaz"
+      B: "Tommy Vercetti"
+      C: "Sonny Forelli"
+      D: "Lance Vance"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: Vice City, which character owns the Malibu Club?"
+        answers:
+          A: "Ricardo Diaz"
+          B: "Tommy Vercetti"
+          C: "Sonny Forelli"
+          D: "Lance Vance"
+    difficulty: HARD
+  - text: "Quel acteur prête sa voix à Carl Johnson dans GTA: San Andreas ?"
+    answers:
+      A: "Ice Cube"
+      B: "Snoop Dogg"
+      C: "The Game"
+      D: "Young Maylay"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices Carl Johnson in GTA: San Andreas?"
+        answers:
+          A: "Ice Cube"
+          B: "Snoop Dogg"
+          C: "The Game"
+          D: "Young Maylay"
+    difficulty: HARD
+  - text: "Quelle station de radio de GTA IV est animée par Lazlow ?"
+    answers:
+      A: "WKTT"
+      B: "Integrity 2.0"
+      C: "Radio Broker"
+      D: "The Journey"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which GTA IV radio station is hosted by Lazlow?"
+        answers:
+          A: "WKTT"
+          B: "Integrity 2.0"
+          C: "Radio Broker"
+          D: "The Journey"
+    difficulty: EXPERT
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier de San Fierro inspiré de Haight-Ashbury ?"
+    answers:
+      A: "Juniper Hill"
+      B: "Hashbury"
+      C: "Doherty"
+      D: "Garcia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the San Fierro neighborhood inspired by Haight-Ashbury?"
+        answers:
+          A: "Juniper Hill"
+          B: "Hashbury"
+          C: "Doherty"
+          D: "Garcia"
+    difficulty: EXPERT
+  - text: "Dans GTA III, quel est le nom du quartier de Liberty City inspiré de Staten Island ?"
+    answers:
+      A: "Staunton Island"
+      B: "Portland"
+      C: "Shoreside Vale"
+      D: "Liberty Campus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA III, what is the name of the Liberty City neighborhood inspired by Staten Island?"
+        answers:
+          A: "Staunton Island"
+          B: "Portland"
+          C: "Shoreside Vale"
+          D: "Liberty Campus"
+    difficulty: EXPERT
+  - text: "Quelle station de radio de GTA V est animée par DJ Pooh ?"
+    answers:
+      A: "Rebel Radio"
+      B: "Radio Los Santos"
+      C: "Non-Stop-Pop FM"
+      D: "West Coast Classics"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which GTA V radio station is hosted by DJ Pooh?"
+        answers:
+          A: "Rebel Radio"
+          B: "Radio Los Santos"
+          C: "Non-Stop-Pop FM"
+          D: "West Coast Classics"
+    difficulty: EXPERT
+  - text: "Dans GTA IV, quel est le nom du quartier de Liberty City inspiré du Queens ?"
+    answers:
+      A: "Dukes"
+      B: "Broker"
+      C: "Bohan"
+      D: "Algonquin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA IV, what is the name of the Liberty City district inspired by Queens?"
+        answers:
+          A: "Dukes"
+          B: "Broker"
+          C: "Bohan"
+          D: "Algonquin"
+    difficulty: EXPERT
+  - text: "Quel acteur prête sa voix à Michael De Santa dans GTA V ?"
+    answers:
+      A: "Shawn Fonteno"
+      B: "Ned Luke"
+      C: "Steven Ogg"
+      D: "Nolan North"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor voices Michael De Santa in GTA V?"
+        answers:
+          A: "Shawn Fonteno"
+          B: "Ned Luke"
+          C: "Steven Ogg"
+          D: "Nolan North"
+    difficulty: MEDIUM
+  - text: "Dans GTA: Vice City, quel est le nom du gang haïtien ?"
+    answers:
+      A: "Les Cubains"
+      B: "Les Haitiens"
+      C: "Les Vagos"
+      D: "Les Cholos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: Vice City, what is the name of the Haitian gang?"
+        answers:
+          A: "Les Cubains"
+          B: "Les Haitiens"
+          C: "Les Vagos"
+          D: "Les Cholos"
+    difficulty: HARD
+  - text: "Quel est le nom de la banque braquée lors de la mission 'The Big Score' dans GTA V ?"
+    answers:
+      A: "Banque centrale de Los Santos"
+      B: "Banque de Liberty City"
+      C: "Banque de Paleto Bay"
+      D: "Banque de Sandy Shores"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the bank robbed during the mission 'The Big Score' in GTA V?"
+        answers:
+          A: "Banque centrale de Los Santos"
+          B: "Banque de Liberty City"
+          C: "Banque de Paleto Bay"
+          D: "Banque de Sandy Shores"
+    difficulty: EXPERT
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier de Las Venturas inspiré de Las Vegas Strip ?"
+    answers:
+      A: "Whitewood Estates"
+      B: "Redsands East"
+      C: "Las Payasadas"
+      D: "The Strip"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the Las Venturas district inspired by the Las Vegas Strip?"
+        answers:
+          A: "Whitewood Estates"
+          B: "Redsands East"
+          C: "Las Payasadas"
+          D: "The Strip"
+    difficulty: EXPERT
+  - text: "Quel acteur prête sa voix à Franklin Clinton dans GTA V ?"
+    answers:
+      A: "Nolan North"
+      B: "Ned Luke"
+      C: "Steven Ogg"
+      D: "Shawn Fonteno"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices Franklin Clinton in GTA V?"
+        answers:
+          A: "Nolan North"
+          B: "Ned Luke"
+          C: "Steven Ogg"
+          D: "Shawn Fonteno"
+    difficulty: HARD
+  - text: "Dans GTA IV, quel est le nom du quartier de Liberty City inspiré du Bronx ?"
+    answers:
+      A: "Bohan"
+      B: "Dukes"
+      C: "Broker"
+      D: "Algonquin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA IV, what is the name of the Liberty City district inspired by the Bronx?"
+        answers:
+          A: "Bohan"
+          B: "Dukes"
+          C: "Broker"
+          D: "Algonquin"
+    difficulty: EXPERT
+  - text: "Quelle station de radio de GTA: San Andreas est animée par Julio G ?"
+    answers:
+      A: "Radio Los Santos"
+      B: "Playback FM"
+      C: "K-DST"
+      D: "Radio X"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which GTA: San Andreas radio station is hosted by Julio G?"
+        answers:
+          A: "Radio Los Santos"
+          B: "Playback FM"
+          C: "K-DST"
+          D: "Radio X"
+    difficulty: EXPERT
+  - text: "Dans GTA: Vice City, quel est le nom du gang cubain ?"
+    answers:
+      A: "Les Haitiens"
+      B: "Les Cubains"
+      C: "Les Vagos"
+      D: "Les Cholos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: Vice City, what is the name of the Cuban gang?"
+        answers:
+          A: "Les Haitiens"
+          B: "Les Cubains"
+          C: "Les Vagos"
+          D: "Les Cholos"
+    difficulty: HARD
+  - text: "Dans GTA V, quel est le nom du quartier de Los Santos où se trouve le garage de Simeon ?"
+    answers:
+      A: "Vinewood"
+      B: "Davis"
+      C: "Strawberry"
+      D: "Rockford Hills"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA V, what is the name of the Los Santos district where Simeon's garage is located?"
+        answers:
+          A: "Vinewood"
+          B: "Davis"
+          C: "Strawberry"
+          D: "Rockford Hills"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la ville fictive inspirée de New York dans GTA IV ?"
+    answers:
+      A: "New York City"
+      B: "Liberty City"
+      C: "Empire Bay"
+      D: "Capital City"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the fictional city inspired by New York in GTA IV?"
+        answers:
+          A: "New York City"
+          B: "Liberty City"
+          C: "Empire Bay"
+          D: "Capital City"
+    difficulty: EASY
+  - text: "Dans GTA V, quel est le nom de la ville fictive inspirée de Los Angeles ?"
+    answers:
+      A: "San Andreas"
+      B: "San Fierro"
+      C: "Los Santos"
+      D: "Las Venturas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA V, what is the name of the fictional city inspired by Los Angeles?"
+        answers:
+          A: "San Andreas"
+          B: "San Fierro"
+          C: "Los Santos"
+          D: "Las Venturas"
+    difficulty: EASY
+  - text: "Combien de protagonistes jouables y a-t-il dans GTA V ?"
+    answers:
+      A: "1"
+      B: "3"
+      C: "2"
+      D: "4"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many playable protagonists are there in GTA V?"
+        answers:
+          A: "1"
+          B: "3"
+          C: "2"
+          D: "4"
+    difficulty: EASY
+  - text: "Quel est le nom du protagoniste principal de GTA IV ?"
+    answers:
+      A: "Huang Lee"
+      B: "Johnny Klebitz"
+      C: "Luis Lopez"
+      D: "Niko Bellic"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main protagonist of GTA IV?"
+        answers:
+          A: "Huang Lee"
+          B: "Johnny Klebitz"
+          C: "Luis Lopez"
+          D: "Niko Bellic"
+    difficulty: MEDIUM
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier fictif inspiré de Compton ?"
+    answers:
+      A: "Jefferson"
+      B: "Idlewood"
+      C: "Ganton"
+      D: "Willowfield"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the fictional neighborhood inspired by Compton?"
+        answers:
+          A: "Jefferson"
+          B: "Idlewood"
+          C: "Ganton"
+          D: "Willowfield"
+    difficulty: EXPERT
+  - text: "Quelle est l'année de sortie originale de Grand Theft Auto: San Andreas ?"
+    answers:
+      A: "2002"
+      B: "2004"
+      C: "2003"
+      D: "2005"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the original release year of Grand Theft Auto: San Andreas?"
+        answers:
+          A: "2002"
+          B: "2004"
+          C: "2003"
+          D: "2005"
+    difficulty: MEDIUM
+  - text: "Dans GTA: Vice City, quel est le nom du manoir que Tommy Vercetti finit par posséder ?"
+    answers:
+      A: "Diaz Mansion"
+      B: "Vercetti Estate"
+      C: "Malibu Club"
+      D: "Ocean View Hotel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA: Vice City, what is the name of the mansion Tommy Vercetti ends up owning?"
+        answers:
+          A: "Diaz Mansion"
+          B: "Vercetti Estate"
+          C: "Malibu Club"
+          D: "Ocean View Hotel"
+    difficulty: HARD
+  - text: "Quel est le nom de la station de radio de musique classique dans GTA: San Andreas ?"
+    answers:
+      A: "Radio Los Santos"
+      B: "Playback FM"
+      C: "K-DST"
+      D: "SF-UR"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the classical music radio station in GTA: San Andreas?"
+        answers:
+          A: "Radio Los Santos"
+          B: "Playback FM"
+          C: "K-DST"
+          D: "SF-UR"
+    difficulty: EXPERT
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier de San Fierro inspiré de Castro ?"
+    answers:
+      A: "Juniper Hollow"
+      B: "Garcia"
+      C: "Queens"
+      D: "Juniper Hill"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the San Fierro neighborhood inspired by Castro?"
+        answers:
+          A: "Juniper Hollow"
+          B: "Garcia"
+          C: "Queens"
+          D: "Juniper Hill"
+    difficulty: EXPERT
+  - text: "Dans GTA V, quel est le nom du quartier de Los Santos inspiré de Beverly Hills ?"
+    answers:
+      A: "Rockford Hills"
+      B: "Vinewood Hills"
+      C: "Richman"
+      D: "Morningwood"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA V, what is the name of the Los Santos neighborhood inspired by Beverly Hills?"
+        answers:
+          A: "Rockford Hills"
+          B: "Vinewood Hills"
+          C: "Richman"
+          D: "Morningwood"
+    difficulty: EXPERT
+  - text: "Quel acteur prête sa voix à Trevor Philips dans GTA V ?"
+    answers:
+      A: "Nolan North"
+      B: "Ned Luke"
+      C: "Shawn Fonteno"
+      D: "Steven Ogg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor voices Trevor Philips in GTA V?"
+        answers:
+          A: "Nolan North"
+          B: "Ned Luke"
+          C: "Shawn Fonteno"
+          D: "Steven Ogg"
+    difficulty: MEDIUM
+  - text: "Dans GTA IV, quel est le nom du quartier de Liberty City inspiré de Manhattan ?"
+    answers:
+      A: "Algonquin"
+      B: "Dukes"
+      C: "Broker"
+      D: "Bohan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA IV, what is the name of the Liberty City neighborhood inspired by Manhattan?"
+        answers:
+          A: "Algonquin"
+          B: "Dukes"
+          C: "Broker"
+          D: "Bohan"
+    difficulty: EXPERT
+  - text: "Quelle station de radio de GTA: Vice City est animée par Fernando Martinez ?"
+    answers:
+      A: "Flash FM"
+      B: "Wave 103"
+      C: "Emotion 98.3"
+      D: "V-Rock"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which GTA: Vice City radio station is hosted by Fernando Martinez?"
+        answers:
+          A: "Flash FM"
+          B: "Wave 103"
+          C: "Emotion 98.3"
+          D: "V-Rock"
+    difficulty: EXPERT
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier de Las Venturas inspiré du Strip ?"
+    answers:
+      A: "The Strip"
+      B: "Las Venturas Boulevard"
+      C: "The Four Dragons"
+      D: "Come-A-Lot"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the Las Venturas neighborhood inspired by the Strip?"
+        answers:
+          A: "The Strip"
+          B: "Las Venturas Boulevard"
+          C: "The Four Dragons"
+          D: "Come-A-Lot"
+    difficulty: EXPERT
+  - text: "Quel est le nom du gang rival des Grove Street Families dans GTA: San Andreas ?"
+    answers:
+      A: "Vagos"
+      B: "Ballas"
+      C: "Rifa"
+      D: "Aztecas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the rival gang of the Grove Street Families in GTA: San Andreas?"
+        answers:
+          A: "Vagos"
+          B: "Ballas"
+          C: "Rifa"
+          D: "Aztecas"
+    difficulty: MEDIUM
+  - text: "Dans GTA III, quel est le nom du quartier de Liberty City inspiré de Long Island ?"
+    answers:
+      A: "Portland"
+      B: "Staunton Island"
+      C: "Shoreside Vale"
+      D: "Liberty Campus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA III, what is the name of the Liberty City neighborhood inspired by Long Island?"
+        answers:
+          A: "Portland"
+          B: "Staunton Island"
+          C: "Shoreside Vale"
+          D: "Liberty Campus"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protagoniste de Grand Theft Auto: The Ballad of Gay Tony ?"
+    answers:
+      A: "Luis Lopez"
+      B: "Johnny Klebitz"
+      C: "Niko Bellic"
+      D: "Tony Prince"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the protagonist of Grand Theft Auto: The Ballad of Gay Tony?"
+        answers:
+          A: "Luis Lopez"
+          B: "Johnny Klebitz"
+          C: "Niko Bellic"
+          D: "Tony Prince"
+    difficulty: HARD
+  - text: "Quelle station de radio de GTA V est animée par Kenny Loggins ?"
+    answers:
+      A: "Los Santos Rock Radio"
+      B: "Non-Stop-Pop FM"
+      C: "Radio Mirror Park"
+      D: "Vinewood Boulevard Radio"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which GTA V radio station is hosted by Kenny Loggins?"
+        answers:
+          A: "Los Santos Rock Radio"
+          B: "Non-Stop-Pop FM"
+          C: "Radio Mirror Park"
+          D: "Vinewood Boulevard Radio"
+    difficulty: EXPERT
+  - text: "Dans GTA IV, quel est le nom du quartier de Liberty City inspiré du New Jersey ?"
+    answers:
+      A: "Dukes"
+      B: "Bohan"
+      C: "Alderney"
+      D: "Broker"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA IV, what is the name of the Liberty City neighborhood inspired by New Jersey?"
+        answers:
+          A: "Dukes"
+          B: "Bohan"
+          C: "Alderney"
+          D: "Broker"
+    difficulty: EXPERT
+  - text: "Dans GTA: Vice City, quelle entreprise possède la mission 'The Chase' ?"
+    answers:
+      A: "Malibu Club"
+      B: "Pole Position Club"
+      C: "Cherry Popper Ice Cream"
+      D: "Kaufman Cabs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: Vice City, which business owns the mission 'The Chase'?"
+        answers:
+          A: "Malibu Club"
+          B: "Pole Position Club"
+          C: "Cherry Popper Ice Cream"
+          D: "Kaufman Cabs"
+    difficulty: EXPERT
+  - text: "Quel est le nom du bateau que Tommy Vercetti utilise pour se rendre à Vice City au début du jeu ?"
+    answers:
+      A: "SS Vice"
+      B: "SS Vercetti"
+      C: "SS Liberty"
+      D: "SS Narcissus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the boat Tommy Vercetti uses to get to Vice City at the start of the game?"
+        answers:
+          A: "SS Vice"
+          B: "SS Vercetti"
+          C: "SS Liberty"
+          D: "SS Narcissus"
+    difficulty: EXPERT
+  - text: "Dans GTA: San Andreas, quel personnage est le propriétaire du garage de San Fierro ?"
+    answers:
+      A: "Zero"
+      B: "Jethro"
+      C: "Wheel Arch Angels"
+      D: "Dwaine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA: San Andreas, which character owns the San Fierro garage?"
+        answers:
+          A: "Zero"
+          B: "Jethro"
+          C: "Wheel Arch Angels"
+          D: "Dwaine"
+    difficulty: HARD
+  - text: "Quel est le nom de l'arme obtenue en terminant toutes les missions de police à Liberty City dans GTA III ?"
+    answers:
+      A: "Minigun"
+      B: "Lance-roquettes"
+      C: "Fusil de sniper"
+      D: "Pistolet Desert Eagle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the weapon obtained by completing all police missions in Liberty City in GTA III?"
+        answers:
+          A: "Minigun"
+          B: "Rocket Launcher"
+          C: "Sniper Rifle"
+          D: "Desert Eagle Pistol"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la radio de talk-show dans GTA: Vice City animée par Maurice Chavez ?"
+    answers:
+      A: "Emotion 98.3"
+      B: "K-Chat"
+      C: "Flash FM"
+      D: "VCPR"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the talk-show radio station in GTA: Vice City hosted by Maurice Chavez?"
+        answers:
+          A: "Emotion 98.3"
+          B: "K-Chat"
+          C: "Flash FM"
+          D: "VCPR"
+    difficulty: EXPERT
+  - text: "Dans GTA: San Andreas, quel est le nom du quartier de Los Santos inspiré de Watts ?"
+    answers:
+      A: "Ganton"
+      B: "Willowfield"
+      C: "Idlewood"
+      D: "Jefferson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In GTA: San Andreas, what is the name of the Los Santos neighborhood inspired by Watts?"
+        answers:
+          A: "Ganton"
+          B: "Willowfield"
+          C: "Idlewood"
+          D: "Jefferson"
+    difficulty: EXPERT
+  - text: "Dans GTA V, quel est le nom de la société de télécommunications dont le logo apparaît sur les cabines téléphoniques ?"
+    answers:
+      A: "Lester's"
+      B: "Fleeca"
+      C: "Badger"
+      D: "Tinkle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In GTA V, what is the name of the telecommunications company whose logo appears on payphones?"
+        answers:
+          A: "Lester's"
+          B: "Fleeca"
+          C: "Badger"
+          D: "Tinkle"
+    difficulty: EXPERT
+  - text: "Quel est le nom du quartier de Liberty City inspiré de Brooklyn dans GTA IV ?"
+    answers:
+      A: "Dukes"
+      B: "Broker"
+      C: "Bohan"
+      D: "Algonquin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Liberty City neighborhood inspired by Brooklyn in GTA IV?"
+        answers:
+          A: "Dukes"
+          B: "Broker"
+          C: "Bohan"
+          D: "Algonquin"
+    difficulty: EXPERT
+  - text: "Quel groupe de rap de la côte ouest incarne le gang des Ballas dans GTA: San Andreas ?"
+    answers:
+      A: "Public Enemy"
+      B: "Bone Thugs-n-Harmony"
+      C: "Wu-Tang Clan"
+      D: "N.W.A"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which West Coast rap group embodies the Ballas gang in GTA: San Andreas?"
+        answers:
+          A: "Public Enemy"
+          B: "Bone Thugs-n-Harmony"
+          C: "Wu-Tang Clan"
+          D: "N.W.A"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la radio de rock classique de GTA: Vice City ?"
+    answers:
+      A: "V-Rock"
+      B: "Wave 103"
+      C: "Flash FM"
+      D: "Emotion 98.3"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of GTA: Vice City's classic rock radio station?"
+        answers:
+          A: "V-Rock"
+          B: "Wave 103"
+          C: "Flash FM"
+          D: "Emotion 98.3"
+    difficulty: HARD
