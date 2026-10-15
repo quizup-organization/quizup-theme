@@ -1,3 +1,9 @@
+## [6.6.0](https://github.com/quizup-organization/quizup-theme/compare/v6.5.0...v6.6.0) (2026-10-15)
+
+### Features
+
+* **theme:** titres personnalisés par grade et par langue ([a47859e](https://github.com/quizup-organization/quizup-theme/commit/a47859e6d8dcd9391a9784df77eb1dc390a5c5ae))
+
 ## [6.5.0](https://github.com/quizup-organization/quizup-theme/compare/v6.4.1...v6.5.0) (2026-10-15)
 
 ### Features
