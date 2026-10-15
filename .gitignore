@@ -96,3 +96,6 @@ nul
 # Python (outils de seed : check-images.py, translate-seed.py)
 __pycache__/
 *.pyc
+
+# État local du runner de production des thèmes (reprise)
+quizup-theme-infrastructure/src/main/resources/seed/.acquisition-state.json

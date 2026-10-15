@@ -324,6 +324,37 @@ def rebalance_only(api_key, args):
     return 0
 
 
+def rewrite(api_key, args):
+    """Régénère les questions d'un thème existant (durci), métadonnées et image conservées."""
+    import yaml  # noqa: PLC0415
+
+    path = Path(args.rewrite)
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    names = data["topic"].get("names") or {}
+    topic = {
+        "id": data["topic"]["id"],
+        "nameFr": names.get("fr"),
+        "nameEn": names.get("en"),
+        "description": data["topic"]["description"],
+        "category": data["topic"]["category"],
+        "imageUrl": data["topic"].get("imageUrl"),
+    }
+    existing = data.get("questions") or []
+    args.count = len(existing) or args.count
+    args.avoid = (
+        (args.avoid + "; " if args.avoid else "")
+        + "réécris entièrement : ne réutilise PAS ces questions existantes — "
+        + " | ".join(q["text"] for q in existing[:25])
+    )
+    log(f"  -> réécriture de {path.name} ({args.count} questions, contenu durci, sans doublon)")
+    questions = generate(api_key, args, topic)
+    text = render(topic, questions)
+    reparsed = yaml.safe_load(text)
+    path.write_text(text, encoding="utf-8")
+    log(f"✓ {path} : {len(reparsed['questions'])} question(s) réécrites")
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--id")
@@ -343,6 +374,8 @@ def main():
                         help="le thème illustre chaque question (le modèle pose des textes ≤ 60 c)")
     parser.add_argument("--rebalance-only", metavar="FILE",
                         help="réaffecte uniquement la difficulté d'un fichier existant")
+    parser.add_argument("--rewrite", metavar="FILE",
+                        help="régénère les questions d'un thème existant (métadonnées conservées)")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -352,6 +385,9 @@ def main():
 
     if args.rebalance_only:
         return rebalance_only(api_key, args)
+
+    if args.rewrite:
+        return rewrite(api_key, args)
 
     if not (args.id and args.name_fr and args.description and args.category and args.out):
         raise SystemExit("--id/--name-fr/--description/--category/--out sont requis")

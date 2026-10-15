@@ -1,0 +1,201 @@
+# Lot « acquisition » — nouveaux thèmes (1 licence / fiction par thème).
+#
+# Consommé par seed/run-acquisition.py (phase `new`). Contenu **durci** (cible de difficulté
+# 10/20/35/35) ; texte des questions imagées ≤ 60 caractères.
+#
+# `image_url` : URL Wikimedia Commons absolue (mirorée ensuite côté workspace par
+# `make seed-images ACTION=fetch|rewrite|check|publish`). Vide = couverture à ajouter plus tard
+# (fallback UI en attendant).
+themes:
+  - id: topic-naruto
+    name_fr: "Naruto"
+    name_en: "Naruto"
+    category: ENTERTAINMENT
+    file: topics/entertainment/naruto.yml
+    description: "Plongez dans l'univers de Naruto : villages ninja, clans et kekkei genkai, techniques et jutsus, Bijuu et démons à queues, Akatsuki, Hokage et grands affrontements. De Konoha à Kaguya, retrouvez les personnages emblématiques (Naruto, Sasuke, Sakura, Kakashi, Itachi, Madara) et les arcs marquants du manga et de l'anime."
+    focus: "villages, clans, kekkei genkai, jutsus, Bijuu, Akatsuki, Hokage, arcs du manga et de l'anime"
+
+  - id: topic-one-piece
+    name_fr: "One Piece"
+    name_en: "One Piece"
+    category: ENTERTAINMENT
+    file: topics/entertainment/one-piece.yml
+    description: "Embarquez sur la Grand Line avec l'équipage de Chapeau de paille : fruits du démon, Haki, équipages rivaux, Yonko, Marines et arcs cultes (Arlong, Alabasta, Enies Lobby, Marineford, Dressrosa, Wano). Personnages, primes et secrets du siècle oublié."
+    focus: "équipage, fruits du démon, Haki, Yonko, Marines, arcs et primes"
+
+  - id: topic-dragon-ball
+    name_fr: "Dragon Ball"
+    name_en: "Dragon Ball"
+    category: ENTERTAINMENT
+    file: topics/entertainment/dragon-ball.yml
+    description: "De Dragon Ball à Dragon Ball Super : Saiyans, Boules de Cristal, transformations, tournois et adversaires emblématiques (Freezer, Cell, Majin Buu, Beerus). Techniques, planètes et sagas de l'œuvre d'Akira Toriyama."
+    focus: "Saiyans, transformations, Boules de Cristal, ennemis, techniques, films et séries"
+
+  - id: topic-studio-ghibli
+    name_fr: "Studio Ghibli"
+    name_en: "Studio Ghibli"
+    category: ENTERTAINMENT
+    file: topics/entertainment/studio-ghibli.yml
+    description: "Les films du studio Ghibli : Mon voisin Totoro, Le Voyage de Chihiro, Princesse Mononoké, Le Château ambulant, réalismes, personnages, réalisateurs (Miyazaki, Takahata) et musiques de Joe Hisaishi."
+    focus: "films, personnages, réalisateurs, musiques, univers et thèmes"
+
+  - id: topic-dc-comics
+    name_fr: "DC Comics"
+    name_en: "DC Comics"
+    category: MOVIES
+    file: topics/movies/dc-comics.yml
+    description: "L'univers DC au cinéma et en comics : Batman, Superman, Wonder Woman, Justice League, Suicide Squad, films, acteurs, réalisateurs et vilains emblématiques (Joker, Lex Luthor, Darkseid)."
+    focus: "personnages, films, acteurs, vilains et sagas DC"
+
+  - id: topic-marvel
+    name_fr: "Marvel"
+    name_en: "Marvel"
+    category: MOVIES
+    file: topics/movies/marvel.yml
+    description: "L'univers Marvel au cinéma : Iron Man, Captain America, Thor, Avengers, Spider-Man, Gardiens de la Galaxie, phases du MCU, acteurs et vilains (Thanos, Loki)."
+    focus: "personnages, films du MCU, phases, acteurs et vilains"
+
+  - id: topic-disney-classiques
+    name_fr: "Disney"
+    name_en: "Disney"
+    category: MOVIES
+    file: topics/movies/disney-classiques.yml
+    description: "Les grands classiques d'animation Disney : de Blanche-Neige au Roi Lion en passant par La Petite Sirène et La Reine des neiges — princesses, chansons, seconds rôles et méchants cultes."
+    focus: "classiques d'animation, princesses, chansons, personnages secondaires et méchants"
+
+  - id: topic-pixar
+    name_fr: "Pixar"
+    name_en: "Pixar"
+    category: MOVIES
+    file: topics/movies/pixar.yml
+    description: "Les films Pixar : Toy Story, 1001 pattes, Monstres & Cie, Le Monde de Nemo, Les Indestructibles, Là-haut, Vice-versa, Coco — personnages, réalisateurs et clins d'œil."
+    focus: "films, personnages, réalisateurs et easter eggs Pixar"
+
+  - id: topic-super-mario
+    name_fr: "Super Mario"
+    name_en: "Super Mario"
+    category: GAMES
+    file: topics/games/super-mario.yml
+    description: "La licence Super Mario : épisodes de plateforme, mondes, power-ups, ennemis (Goomba, Bowser), alliés, spin-offs (Kart, Party) et évolutions de la série."
+    focus: "épisodes, mondes, power-ups, ennemis, personnages et spin-offs"
+
+  - id: topic-zelda
+    name_fr: "The Legend of Zelda"
+    name_en: "The Legend of Zelda"
+    category: GAMES
+    file: topics/games/zelda.yml
+    description: "La saga The Legend of Zelda : Hyrule, Link, Zelda, Ganon, temples et donjons, objets et armes, épisodes majeurs de la chronologie."
+    focus: "épisodes, lieux, objets, personnages et chronologie"
+
+  - id: topic-the-beatles
+    name_fr: "The Beatles"
+    name_en: "The Beatles"
+    category: MUSIC
+    file: topics/music/the-beatles.yml
+    description: "Le groupe The Beatles : John, Paul, George et Ringo, albums studio, chansons cultes, tournées, influences et héritage pop."
+    focus: "membres, albums, chansons, histoire et session de studio"
+
+  - id: topic-queen
+    name_fr: "Queen"
+    name_en: "Queen"
+    category: MUSIC
+    file: topics/music/queen.yml
+    description: "Le groupe Queen : Freddie Mercury, Brian May, Roger Taylor et John Deacon, albums, tubes (Bohemian Rhapsody, We Will Rock You), concerts et Live Aid."
+    focus: "membres, albums, chansons, concerts et clips"
+
+  - id: topic-led-zeppelin
+    name_fr: "Led Zeppelin"
+    name_en: "Led Zeppelin"
+    category: MUSIC
+    file: topics/music/led-zeppelin.yml
+    description: "Le groupe Led Zeppelin : Jimmy Page, Robert Plant, John Paul Jones et John Bonham, albums (I à IV, Physical Graffiti), riffs cultes et influences blues-rock."
+    focus: "membres, albums, riffs, chansons et tournées"
+
+  - id: topic-pink-floyd
+    name_fr: "Pink Floyd"
+    name_en: "Pink Floyd"
+    category: MUSIC
+    file: topics/music/pink-floyd.yml
+    description: "Pink Floyd : Syd Barrett, Roger Waters, David Gilmour, albums conceptuels (The Dark Side of the Moon, The Wall, Wish You Were Here), chansons et univers sonore."
+    focus: "membres, albums conceptuels, chansons et histoire"
+
+  - id: topic-acdc
+    name_fr: "AC/DC"
+    name_en: "AC/DC"
+    category: MUSIC
+    file: topics/music/acdc.yml
+    description: "Le groupe AC/DC : Angus et Malcolm Young, Bon Scott puis Brian Johnson, albums (Highway to Hell, Back in Black), tubes et riffs légendaires."
+    focus: "membres, albums, chansons, riffs et histoire"
+
+  - id: topic-rolling-stones
+    name_fr: "The Rolling Stones"
+    name_en: "The Rolling Stones"
+    category: MUSIC
+    file: topics/music/rolling-stones.yml
+    description: "Les Rolling Stones : Mick Jagger, Keith Richards, Ronnie Wood et Charlie Watts, albums, tubes (Satisfaction, Paint It Black), longévité et tournées."
+    focus: "membres, albums, chansons, tournées et histoire"
+
+  - id: topic-koh-lanta
+    name_fr: "Koh-Lanta"
+    name_en: "Koh-Lanta"
+    category: TELEVISION
+    file: topics/television/koh-lanta.yml
+    description: "L'émission Koh-Lanta : épreuves d'immunité et de confort, colliers, conseils, aventuriers et candidats marquants, saisons et lieux de tournage."
+    focus: "épreuves, colliers, conseils, candidats, saisons et lieux"
+
+  - id: topic-coupe-du-monde
+    name_fr: "Coupe du monde"
+    name_en: "World Cup"
+    category: SPORTS
+    file: topics/sports/coupe-du-monde.yml
+    description: "La Coupe du monde de football : éditions, pays hôtes, vainqueurs et finales, buteurs et joueurs légendaires, sélections et moments de légende."
+    focus: "éditions, vainqueurs, finales, buteurs et sélections"
+
+  - id: topic-legendes-du-football
+    name_fr: "Légendes du football"
+    name_en: "Football Legends"
+    category: SPORTS
+    file: topics/sports/legendes-du-football.yml
+    description: "Les légendes du football : Pelé, Maradona, Cruyff, Zidane, Ronaldo, Messi, clubs, palmarès, Ballons d'or et gestes mythiques."
+    focus: "joueurs légendaires, clubs, palmarès, Ballons d'or et moments cultes"
+
+  - id: topic-rap-francais
+    name_fr: "Rap français"
+    name_en: "French Rap"
+    category: MUSIC
+    file: topics/music/rap-francais.yml
+    description: "Le rap français des années 90 à aujourd'hui : artistes et groupes, albums marquants, tubes, labels, scènes régionales et clashs cultes."
+    focus: "artistes, groupes, albums, tubes et histoire du rap français"
+
+  - id: topic-bts
+    name_fr: "BTS"
+    name_en: "BTS"
+    category: MUSIC
+    file: topics/music/bts.yml
+    description: "Le groupe BTS et la K-pop : membres, albums, titres, fandom ARMY, records, chorégraphies et univers transmédia."
+    focus: "membres, albums, titres, records et fandom"
+
+  - id: topic-annees-2000
+    name_fr: "Années 2000"
+    name_en: "2000s"
+    category: ENTERTAINMENT
+    file: topics/entertainment/annees-2000.yml
+    description: "La décennie 2000 : tubes et artistes, films et sagas, séries, jeux vidéo et consoles, technologies (iPod, MSN, débuts du smartphone), mode et phénomènes cultes."
+    focus: "musique, cinéma, séries, jeux vidéo, technologies et tendances des années 2000"
+
+  - id: topic-gta
+    name_fr: "Grand Theft Auto"
+    name_en: "Grand Theft Auto"
+    category: GAMES
+    file: topics/games/gta.yml
+    description: "La série Grand Theft Auto : épisodes (III, Vice City, San Andreas, IV, V), villes, protagonistes, missions, radios et humour satirique de Rockstar."
+    focus: "épisodes, villes, personnages, missions et radios"
+
+# Thèmes reportés : nécessitent d'abord la collecte des images (fair use assumé, voie manuelle).
+pending:
+  - id: topic-blasons-de-clubs
+    name_fr: "Blasons de clubs"
+    name_en: "Club Crests"
+    category: SPORTS
+    file: topics/sports/blasons-de-clubs.yml
+    note: "> Quiz visuel : ~100 écussons (images par question). Fair use Wikipédia + marques, exception assumée. Ajout manuel des images dans product/wikipedia/sports/ puis génération avec --image-questions."
