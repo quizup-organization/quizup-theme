@@ -1,3 +1,13 @@
+## [6.4.0](https://github.com/quizup-organization/quizup-theme/compare/v6.3.0...v6.4.0) (2026-10-15)
+
+### Features
+
+* **seed:** réécriture hybride (conserve les images par question) ([0694d82](https://github.com/quizup-organization/quizup-theme/commit/0694d822629d745251b71cac31998c7de5b314a6))
+
+### Bug Fixes
+
+* **seed:** restaure les traductions EN de drapeaux-du-monde ([cb9c1af](https://github.com/quizup-organization/quizup-theme/commit/cb9c1afaef1858a185e60b6c9bb6f8761cb840e3))
+
 ## [6.3.0](https://github.com/quizup-organization/quizup-theme/compare/v6.2.1...v6.3.0) (2026-10-15)
 
 ### Features
