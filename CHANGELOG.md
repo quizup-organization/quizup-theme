@@ -1,3 +1,9 @@
+## [6.2.0](https://github.com/quizup-organization/quizup-theme/compare/v6.1.0...v6.2.0) (2026-10-15)
+
+### Features
+
+* **seed:** runner batch d'acquisition + manifeste + thème One Piece ([be943ed](https://github.com/quizup-organization/quizup-theme/commit/be943edf480210f163922be8fc1a973bee111b98))
+
 ## [6.1.0](https://github.com/quizup-organization/quizup-theme/compare/v6.0.0...v6.1.0) (2026-10-15)
 
 ### Features
