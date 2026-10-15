@@ -5,6 +5,23 @@ topic:
     en: "Disney"
   description: "Les grands classiques d'animation Disney : de Blanche-Neige au Roi Lion en passant par La Petite Sirène et La Reine des neiges — princesses, chansons, seconds rôles et méchants cultes."
   category: MOVIES
+  titles:
+    fr:
+      NOVICE: "Souris de bibliothèque"
+      APPRENTI: "Apprenti de l'atelier"
+      PRATIQUANT: "Chanteur de comptines"
+      CONFIRME: "Passager du carrousel"
+      EXPERT: "Conteur d'histoires"
+      MAITRE: "Gardien du royaume"
+      LEGENDE: "Légende des studios"
+    en:
+      NOVICE: "Library Mouse"
+      APPRENTI: "Workshop Apprentice"
+      PRATIQUANT: "Nursery Rhyme Singer"
+      CONFIRME: "Carousel Rider"
+      EXPERT: "Storyteller"
+      MAITRE: "Kingdom Keeper"
+      LEGENDE: "Studio Legend"
 questions:
   - text: "Quel est le nom du chien dans 'La Belle et le Clochard' ?"
     answers:

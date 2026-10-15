@@ -5,6 +5,23 @@ topic:
     en: "Football Legends"
   description: "Les légendes du football : Pelé, Maradona, Cruyff, Zidane, Ronaldo, Messi, clubs, palmarès, Ballons d'or et gestes mythiques."
   category: SPORTS
+  titles:
+    fr:
+      NOVICE: "Banc de touche"
+      APPRENTI: "Titulaire en CFA"
+      PRATIQUANT: "Étoile montante"
+      CONFIRME: "Cadre du vestiaire"
+      EXPERT: "Maestro du milieu"
+      MAITRE: "Ballon d'Or"
+      LEGENDE: "Roi du football"
+    en:
+      NOVICE: "Benchwarmer"
+      APPRENTI: "Reserve Team Starter"
+      PRATIQUANT: "Rising Star"
+      CONFIRME: "First Team Regular"
+      EXPERT: "Midfield Maestro"
+      MAITRE: "Ballon d'Or Winner"
+      LEGENDE: "Football Royalty"
 questions:
   - text: "Quel joueur détient le record du plus grand nombre de Ballons d'or remportés ?"
     answers:

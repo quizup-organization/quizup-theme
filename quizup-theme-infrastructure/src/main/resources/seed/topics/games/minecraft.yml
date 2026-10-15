@@ -5,6 +5,23 @@ topic:
     en: "Minecraft"
   description: "Testez vos connaissances sur Minecraft, le célèbre jeu de construction et de survie. Des blocs et minerais aux mobs, biomes, outils, modes de jeu, faim et cycle jour/nuit, ce quiz de 50 questions couvre les fondamentaux du jeu. Bonne chance à tous les mineurs en herbe !"
   category: GAMES
+  titles:
+    fr:
+      NOVICE: "Bricoleur de blocs"
+      APPRENTI: "Mineur de charbon"
+      PRATIQUANT: "Artisan de pierre"
+      CONFIRME: "Chevalier de diamant"
+      EXPERT: "Seigneur du Nether"
+      MAITRE: "Vainqueur de l'Ender Dragon"
+      LEGENDE: "Bâtisseur d'univers"
+    en:
+      NOVICE: "Block Tinkerer"
+      APPRENTI: "Coal Miner"
+      PRATIQUANT: "Stone Artisan"
+      CONFIRME: "Diamond Knight"
+      EXPERT: "Nether Lord"
+      MAITRE: "Ender Dragon Slayer"
+      LEGENDE: "Universe Builder"
   imageUrl: wikipedia/games/MineCon2015ExpoHall.jpg
 questions:
   - text: "Combien de temps met un four pour cuire un minerai de fer avec du charbon ?"

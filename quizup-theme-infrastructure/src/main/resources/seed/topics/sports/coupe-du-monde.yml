@@ -5,6 +5,23 @@ topic:
     en: "World Cup"
   description: "La Coupe du monde de football : éditions, pays hôtes, vainqueurs et finales, buteurs et joueurs légendaires, sélections et moments de légende."
   category: SPORTS
+  titles:
+    fr:
+      NOVICE: "Remplaçant en tribune"
+      APPRENTI: "Titulaire en amical"
+      PRATIQUANT: "Buteur en phase de poules"
+      CONFIRME: "Homme du match en huitièmes"
+      EXPERT: "Capitaine en demi-finale"
+      MAITRE: "Étoile en finale"
+      LEGENDE: "Légende de la Coupe du monde"
+    en:
+      NOVICE: "Benchwarmer in the stands"
+      APPRENTI: "Friendly match starter"
+      PRATIQUANT: "Group stage goalscorer"
+      CONFIRME: "Round of 16 man of the match"
+      EXPERT: "Semi-final captain"
+      MAITRE: "Final match star"
+      LEGENDE: "World Cup legend"
 questions:
   - text: "Quel pays a accueilli la première Coupe du monde en 1930 ?"
     answers:

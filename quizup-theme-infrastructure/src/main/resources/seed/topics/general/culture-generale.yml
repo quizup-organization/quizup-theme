@@ -5,6 +5,23 @@ topic:
     en: "General Knowledge"
   description: "Géographie, sciences, arts, sport et société : un mélange de questions variées pour tester votre culture générale sur tous les sujets."
   category: GENERAL
+  titles:
+    fr:
+      NOVICE: "Curieux du dimanche"
+      APPRENTI: "Rat de bibliothèque"
+      PRATIQUANT: "Puits de science"
+      CONFIRME: "Cerveau d'élite"
+      EXPERT: "Encyclopédie vivante"
+      MAITRE: "Prix Nobel du quiz"
+      LEGENDE: "Trivial Pursuit ultime"
+    en:
+      NOVICE: "Sunday Trivia Buff"
+      APPRENTI: "Library Mouse"
+      PRATIQUANT: "Knowledge Seeker"
+      CONFIRME: "Brainiac"
+      EXPERT: "Walking Encyclopedia"
+      MAITRE: "Quiz Nobel Laureate"
+      LEGENDE: "Trivial Pursuit Legend"
 questions:
   - text: "Quelle mission spatiale a pris cette photo en 1972 ?"
     imageUrl: wikipedia/general/The_Earth_seen_from_Apollo_17.jpg
