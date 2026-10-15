@@ -1,3 +1,9 @@
+## [6.1.0](https://github.com/quizup-organization/quizup-theme/compare/v6.0.0...v6.1.0) (2026-10-15)
+
+### Features
+
+* **seed:** générateur de thèmes DeepSeek et thème pilote Naruto ([2d1dc0f](https://github.com/quizup-organization/quizup-theme/commit/2d1dc0fdd949992cd81b965ada4bf535103a4d4b))
+
 ## [6.0.0](https://github.com/quizup-organization/quizup-theme/compare/v5.10.0...v6.0.0) (2026-10-14)
 
 ### ⚠ BREAKING CHANGES
