@@ -1,3 +1,9 @@
+## [6.3.0](https://github.com/quizup-organization/quizup-theme/compare/v6.2.1...v6.3.0) (2026-10-15)
+
+### Features
+
+* **seed:** 19 nouveaux thèmes (lot acquisition) ([94770dc](https://github.com/quizup-organization/quizup-theme/commit/94770dc0802fd07961d0de2c14819e771ab507aa))
+
 ## [6.2.1](https://github.com/quizup-organization/quizup-theme/compare/v6.2.0...v6.2.1) (2026-10-15)
 
 ### Bug Fixes
