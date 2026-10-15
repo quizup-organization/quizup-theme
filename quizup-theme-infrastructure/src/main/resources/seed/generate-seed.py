@@ -65,6 +65,7 @@ Exigences :
 - Chaque question a exactement 4 réponses (clés "A","B","C","D"), une seule correcte.
 - Les 3 mauvaises réponses sont plausibles, distinctes et non absurdes ; jamais la réponse dans l'énoncé.
 - Aucun doublon de question ; aucun fait inventé ni approximation ; évite l'actualité datée.
+- Varie la position de la bonne réponse (A/B/C/D) : ne mets PAS systématiquement la bonne en A.
 - Difficulté : bannis le trivia évident, privilégie les détails précis, chiffres, dates, pièges de proximité.
   Répartis globalement selon la cible fournie (peu de EASY, beaucoup de HARD/EXPERT).
 - Champ "difficulty" ∈ {"EASY","MEDIUM","HARD","EXPERT"}.
@@ -257,9 +258,11 @@ def generate(api_key, args, topic):
     seen = set()
     targets = parse_targets(args.targets)
     image_mode = bool(args.image_questions)
+    zero_streak = 0
     while len(questions) < args.count:
         remaining = args.count - len(questions)
-        size = min(args.batch, remaining)
+        # Toujours demander au moins 5 questions (marge pour les doublons/rejets).
+        size = min(args.batch, max(5, remaining))
         log(f"  -> génération de {size} question(s) ({len(questions)}/{args.count})")
         result = call_api(
             api_key,
@@ -284,7 +287,12 @@ def generate(api_key, args, topic):
             if len(questions) >= args.count:
                 break
         if added == 0:
-            raise SystemExit("aucune question valide reçue (arrêt pour éviter la boucle)")
+            zero_streak += 1
+            if zero_streak >= 6:
+                raise SystemExit("aucune question valide reçue après 6 tentatives")
+            log(f"    ! aucune question retenue, nouvelle tentative ({zero_streak}/6)")
+        else:
+            zero_streak = 0
     log("  -> notation de la difficulté (0-100) et affectation aux percentiles de la cible")
     scores = score_difficulty(api_key, args.model, questions)
     expected = assign_difficulty(questions, scores, targets)

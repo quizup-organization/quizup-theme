@@ -72,9 +72,16 @@ def run(command, dry_run):
     if dry_run:
         return 0
     result = subprocess.run(command, cwd=HERE, env=os.environ)
-    if result.returncode != 0:
-        raise SystemExit(f"échec : {' '.join(command)}")
-    return 0
+    return result.returncode
+
+
+def run_steps(steps, dry_run):
+    """Exécute une suite de commandes ; s'arrête à la première en échec (thème non marqué fait)."""
+    for command in steps:
+        if run(command, dry_run) != 0:
+            log(f"  ! échec, thème laissé pour reprise : {' '.join(command[:2])}")
+            return False
+    return True
 
 
 def new_themes(dry_run, only, limit, model, targets):
@@ -85,6 +92,7 @@ def new_themes(dry_run, only, limit, model, targets):
     state = load_state()
     done = set(state["done"])
     processed = 0
+    failures = []
     for theme in themes:
         theme_id = theme["id"]
         if only and theme_id != only and theme.get("file") != only:
@@ -121,14 +129,18 @@ def new_themes(dry_run, only, limit, model, targets):
             generate += ["--avoid", theme["avoid"]]
         if theme.get("count"):
             generate += ["--count", str(theme["count"])]
-        run(generate, dry_run)
+        steps = [generate]
         if theme_id.removeprefix("topic-") not in FR_ONLY:
-            run([PYTHON, "translate-seed.py", theme["file"]], dry_run)
-        run([PYTHON, "rebalance-seed.py", theme["file"]], dry_run)
-        done.add(theme_id)
-        if not dry_run:
-            save_state({"done": sorted(done)})
-    log(f"\nPhase new : {processed} thème(s) traité(s).")
+            steps.append([PYTHON, "translate-seed.py", theme["file"]])
+        steps.append([PYTHON, "rebalance-seed.py", theme["file"]])
+        if run_steps(steps, dry_run):
+            done.add(theme_id)
+            if not dry_run:
+                save_state({"done": sorted(done)})
+        else:
+            failures.append(theme_id)
+    log(f"\nPhase new : {processed} traité(s), {len(failures)} échec(s)"
+        + (f" : {', '.join(failures)}" if failures else "."))
     return 0
 
 
@@ -140,6 +152,7 @@ def rewrite_themes(dry_run, only, limit, model, targets):
         manifest = yaml.safe_load(MANIFEST.read_text(encoding="utf-8")) or {}
     new_files = {t.get("file") for t in (manifest.get("themes") or [])}
     processed = 0
+    failures = []
     for path in sorted(TOPICS.glob("*/*.yml")):
         relative = str(path.relative_to(HERE))
         if relative in new_files:
@@ -154,15 +167,19 @@ def rewrite_themes(dry_run, only, limit, model, targets):
             break
         processed += 1
         log(f"\n== réécriture {relative}")
-        run([PYTHON, "generate-seed.py", "--rewrite", relative,
-             "--model", model, "--targets", targets], dry_run)
+        steps = [[PYTHON, "generate-seed.py", "--rewrite", relative,
+                  "--model", model, "--targets", targets]]
         if path.stem not in FR_ONLY:
-            run([PYTHON, "translate-seed.py", relative], dry_run)
-        run([PYTHON, "rebalance-seed.py", relative], dry_run)
-        done.add(key)
-        if not dry_run:
-            save_state({"done": sorted(done)})
-    log(f"\nPhase rewrite : {processed} thème(s) traité(s).")
+            steps.append([PYTHON, "translate-seed.py", relative])
+        steps.append([PYTHON, "rebalance-seed.py", relative])
+        if run_steps(steps, dry_run):
+            done.add(key)
+            if not dry_run:
+                save_state({"done": sorted(done)})
+        else:
+            failures.append(relative)
+    log(f"\nPhase rewrite : {processed} traité(s), {len(failures)} échec(s)"
+        + (f" : {', '.join(failures)}" if failures else "."))
     return 0
 
 
