@@ -1,3 +1,9 @@
+## [6.10.0](https://github.com/quizup-organization/quizup-theme/compare/v6.9.0...v6.10.0) (2026-10-15)
+
+### Features
+
+* **seed:** couvertures des 25 themes sans visuel ([038974c](https://github.com/quizup-organization/quizup-theme/commit/038974cf0eecad39fdf1c6ec34f68a025699332a))
+
 ## [6.9.0](https://github.com/quizup-organization/quizup-theme/compare/v6.8.0...v6.9.0) (2026-10-15)
 
 ### Features
