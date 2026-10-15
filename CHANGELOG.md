@@ -1,3 +1,9 @@
+## [6.5.0](https://github.com/quizup-organization/quizup-theme/compare/v6.4.1...v6.5.0) (2026-10-15)
+
+### Features
+
+* **seed:** réécriture durcie des thèmes existants (lot 1/2) ([33bc168](https://github.com/quizup-organization/quizup-theme/commit/33bc16818da44055fd7547f59948e831e0886b1b))
+
 ## [6.4.1](https://github.com/quizup-organization/quizup-theme/compare/v6.4.0...v6.4.1) (2026-10-15)
 
 ### Bug Fixes
