@@ -15,7 +15,6 @@ questions:
       C: "Guatemala"
       D: "Mongolie"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -24,6 +23,7 @@ questions:
           B: "Equatorial Guinea"
           C: "Guatemala"
           D: "Mongolia"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Iceland.png
     answers:
@@ -32,7 +32,6 @@ questions:
       C: "Danemark"
       D: "Norvège"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -41,6 +40,7 @@ questions:
           B: "Iceland"
           C: "Denmark"
           D: "Norway"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_the_Czech_Republic.png
     answers:
@@ -49,7 +49,6 @@ questions:
       C: "Barbade"
       D: "République tchèque"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -58,6 +57,7 @@ questions:
           B: "Nicaragua"
           C: "Barbados"
           D: "Czech Republic"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Lebanon.png
     answers:
@@ -66,7 +66,6 @@ questions:
       C: "Chine"
       D: "Soudan du Sud"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -75,6 +74,7 @@ questions:
           B: "Lebanon"
           C: "China"
           D: "South Sudan"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Panama.png
     answers:
@@ -83,7 +83,6 @@ questions:
       C: "Nigeria"
       D: "Danemark"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -92,6 +91,7 @@ questions:
           B: "Azerbaijan"
           C: "Nigeria"
           D: "Denmark"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Japan.png
     answers:
@@ -100,7 +100,6 @@ questions:
       C: "Japon"
       D: "Mauritanie"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -109,6 +108,7 @@ questions:
           B: "Poland"
           C: "Japan"
           D: "Mauritania"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Guatemala.png
     answers:
@@ -117,7 +117,6 @@ questions:
       C: "Pays-Bas"
       D: "Guatemala"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -126,6 +125,7 @@ questions:
           B: "Burkina Faso"
           C: "Netherlands"
           D: "Guatemala"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Liberia.png
     answers:
@@ -134,7 +134,6 @@ questions:
       C: "Malaisie"
       D: "Liberia"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -143,6 +142,7 @@ questions:
           B: "Nicaragua"
           C: "Malaysia"
           D: "Liberia"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Nicaragua.png
     answers:
@@ -151,7 +151,6 @@ questions:
       C: "Israël"
       D: "Nicaragua"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -160,6 +159,7 @@ questions:
           B: "Ghana"
           C: "Israel"
           D: "Nicaragua"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Uzbekistan.png
     answers:
@@ -168,7 +168,6 @@ questions:
       C: "Ouzbékistan"
       D: "Ghana"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -177,6 +176,7 @@ questions:
           B: "Bahrain"
           C: "Uzbekistan"
           D: "Ghana"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Nauru.png
     answers:
@@ -185,7 +185,6 @@ questions:
       C: "Nauru"
       D: "Guinée"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -194,6 +193,7 @@ questions:
           B: "Iran"
           C: "Nauru"
           D: "Guinea"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_South_Africa.png
     answers:
@@ -202,7 +202,6 @@ questions:
       C: "Afrique du Sud"
       D: "Vatican"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -211,6 +210,7 @@ questions:
           B: "Luxembourg"
           C: "South Africa"
           D: "Vatican"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Central_African_Republic.png
     answers:
@@ -219,7 +219,6 @@ questions:
       C: "Costa Rica"
       D: "République centrafricaine"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -228,6 +227,7 @@ questions:
           B: "Sri Lanka"
           C: "Costa Rica"
           D: "Central African Republic"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Madagascar.png
     answers:
@@ -236,7 +236,6 @@ questions:
       C: "Botswana"
       D: "Jordanie"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -245,6 +244,7 @@ questions:
           B: "Madagascar"
           C: "Botswana"
           D: "Jordan"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Myanmar.png
     answers:
@@ -253,7 +253,6 @@ questions:
       C: "Singapour"
       D: "Rwanda"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -262,6 +261,7 @@ questions:
           B: "Bosnia and Herzegovina"
           C: "Singapore"
           D: "Rwanda"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Republic_of_the_Congo.png
     answers:
@@ -270,7 +270,6 @@ questions:
       C: "Ghana"
       D: "Burkina Faso"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country's flag is this?"
@@ -279,6 +278,7 @@ questions:
           B: "Congo"
           C: "Ghana"
           D: "Burkina Faso"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Turkmenistan.png
     answers:
@@ -287,7 +287,6 @@ questions:
       C: "Turkménistan"
       D: "Portugal"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -296,6 +295,7 @@ questions:
           B: "North Korea"
           C: "Turkmenistan"
           D: "Portugal"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Somalia.png
     answers:
@@ -304,7 +304,6 @@ questions:
       C: "Afrique du Sud"
       D: "Somalie"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -313,6 +312,7 @@ questions:
           B: "Sweden"
           C: "South Africa"
           D: "Somalia"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Romania.png
     answers:
@@ -321,7 +321,6 @@ questions:
       C: "Botswana"
       D: "Roumanie"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -330,6 +329,7 @@ questions:
           B: "Belgium"
           C: "Botswana"
           D: "Romania"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Mauritius.png
     answers:
@@ -338,7 +338,6 @@ questions:
       C: "Maurice"
       D: "Pologne"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country's flag is this?"
@@ -347,6 +346,7 @@ questions:
           B: "Suriname"
           C: "Mauritius"
           D: "Poland"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Cote_d'Ivoire.png
     answers:
@@ -355,7 +355,6 @@ questions:
       C: "Inde"
       D: "Côte d'Ivoire"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -363,7 +362,8 @@ questions:
           A: "Ireland"
           B: "Syria"
           C: "India"
-          D: "Ivory Coast"
+          D: "Côte d'Ivoire"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_The_Gambia.png
     answers:
@@ -372,7 +372,6 @@ questions:
       C: "Singapour"
       D: "Kazakhstan"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -381,6 +380,7 @@ questions:
           B: "Australia"
           C: "Singapore"
           D: "Kazakhstan"
+    difficulty: EXPERT
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_the_Dominican_Republic.png
     answers:
@@ -389,7 +389,6 @@ questions:
       C: "Portugal"
       D: "Estonie"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -398,6 +397,7 @@ questions:
           B: "Grenada"
           C: "Portugal"
           D: "Estonia"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Slovakia.png
     answers:
@@ -406,7 +406,6 @@ questions:
       C: "Slovaquie"
       D: "Slovénie"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country's flag is this?"
@@ -415,6 +414,7 @@ questions:
           B: "Luxembourg"
           C: "Slovakia"
           D: "Slovenia"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Solomon_Islands.png
     answers:
@@ -423,7 +423,6 @@ questions:
       C: "Nouvelle-Zélande"
       D: "Salomon"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -432,6 +431,7 @@ questions:
           B: "Tuvalu"
           C: "New Zealand"
           D: "Solomon Islands"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Benin.png
     answers:
@@ -440,7 +440,6 @@ questions:
       C: "Mali"
       D: "Congo"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -449,6 +448,7 @@ questions:
           B: "Benin"
           C: "Mali"
           D: "Congo"
+    difficulty: EXPERT
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Peru.png
     answers:
@@ -457,7 +457,6 @@ questions:
       C: "Autriche"
       D: "Guyana"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -466,6 +465,7 @@ questions:
           B: "Peru"
           C: "Austria"
           D: "Guyana"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Rwanda.png
     answers:
@@ -474,7 +474,6 @@ questions:
       C: "Allemagne"
       D: "Rwanda"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country's flag is this?"
@@ -483,6 +482,7 @@ questions:
           B: "Turkmenistan"
           C: "Germany"
           D: "Rwanda"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Honduras.png
     answers:
@@ -491,7 +491,6 @@ questions:
       C: "Saint-Kitts-et-Nevis"
       D: "Russie"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -500,6 +499,7 @@ questions:
           B: "Honduras"
           C: "Saint Kitts and Nevis"
           D: "Russia"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Malta.png
     answers:
@@ -508,7 +508,6 @@ questions:
       C: "Afghanistan"
       D: "Malte"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -517,6 +516,7 @@ questions:
           B: "Zambia"
           C: "Afghanistan"
           D: "Malta"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Grenada.png
     answers:
@@ -525,7 +525,6 @@ questions:
       C: "Afrique du Sud"
       D: "Érythrée"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -534,6 +533,7 @@ questions:
           B: "Denmark"
           C: "South Africa"
           D: "Eritrea"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Angola.png
     answers:
@@ -542,15 +542,15 @@ questions:
       C: "Angola"
       D: "Samoa"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "This flag belongs to which country?"
+        text: "Which country's flag is this?"
         answers:
           A: "Ethiopia"
           B: "Iran"
           C: "Angola"
           D: "Samoa"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Pakistan.png
     answers:
@@ -559,7 +559,6 @@ questions:
       C: "Pakistan"
       D: "Panama"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -568,6 +567,7 @@ questions:
           B: "Equatorial Guinea"
           C: "Pakistan"
           D: "Panama"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Vietnam.png
     answers:
@@ -576,7 +576,6 @@ questions:
       C: "Vatican"
       D: "Viêt Nam"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -585,6 +584,7 @@ questions:
           B: "Bolivia"
           C: "Vatican"
           D: "Vietnam"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Niger.png
     answers:
@@ -593,7 +593,6 @@ questions:
       C: "Corée du Sud"
       D: "Niger"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -602,6 +601,7 @@ questions:
           B: "Qatar"
           C: "South Korea"
           D: "Niger"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Kuwait.png
     answers:
@@ -610,15 +610,15 @@ questions:
       C: "Koweït"
       D: "Haïti"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "This flag belongs to which country?"
+        text: "Which country's flag is this?"
         answers:
           A: "Lithuania"
           B: "United Arab Emirates"
           C: "Kuwait"
           D: "Haiti"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Thailand.png
     answers:
@@ -627,7 +627,6 @@ questions:
       C: "Thaïlande"
       D: "Croatie"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -636,6 +635,7 @@ questions:
           B: "Pakistan"
           C: "Thailand"
           D: "Croatia"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Bahrain.png
     answers:
@@ -644,7 +644,6 @@ questions:
       C: "Samoa"
       D: "Émirats arabes unis"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -653,6 +652,7 @@ questions:
           B: "Bahrain"
           C: "Samoa"
           D: "United Arab Emirates"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Australia.png
     answers:
@@ -661,7 +661,6 @@ questions:
       C: "Tuvalu"
       D: "Australie"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -670,6 +669,7 @@ questions:
           B: "Fiji"
           C: "Tuvalu"
           D: "Australia"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Guyana.png
     answers:
@@ -678,15 +678,15 @@ questions:
       C: "Salomon"
       D: "Égypte"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
-        text: "This flag belongs to which country?"
+        text: "Which country's flag is this?"
         answers:
           A: "Niger"
           B: "Guyana"
           C: "Solomon"
           D: "Egypt"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Andorra.png
     answers:
@@ -695,7 +695,6 @@ questions:
       C: "Venezuela"
       D: "Colombie"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -704,6 +703,7 @@ questions:
           B: "Andorra"
           C: "Venezuela"
           D: "Colombia"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Colombia.png
     answers:
@@ -712,7 +712,6 @@ questions:
       C: "Équateur"
       D: "Lituanie"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -721,6 +720,7 @@ questions:
           B: "Moldova"
           C: "Ecuador"
           D: "Lithuania"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Dominica.png
     answers:
@@ -729,7 +729,6 @@ questions:
       C: "Indonésie"
       D: "Espagne"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -738,6 +737,7 @@ questions:
           B: "Mauritius"
           C: "Indonesia"
           D: "Spain"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Azerbaijan.png
     answers:
@@ -746,15 +746,15 @@ questions:
       C: "Azerbaïdjan"
       D: "Malaisie"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "This flag belongs to which country?"
+        text: "Which country's flag is this?"
         answers:
           A: "Gambia"
           B: "Sweden"
           C: "Azerbaijan"
           D: "Malaysia"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_North_Macedonia.png
     answers:
@@ -763,7 +763,6 @@ questions:
       C: "Macédoine du Nord"
       D: "Liban"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -772,6 +771,7 @@ questions:
           B: "India"
           C: "North Macedonia"
           D: "Lebanon"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Jamaica.png
     answers:
@@ -780,7 +780,6 @@ questions:
       C: "Oman"
       D: "Nicaragua"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -789,6 +788,7 @@ questions:
           B: "Jamaica"
           C: "Oman"
           D: "Nicaragua"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Algeria.png
     answers:
@@ -797,7 +797,6 @@ questions:
       C: "Pologne"
       D: "Mexique"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -806,6 +805,7 @@ questions:
           B: "Algeria"
           C: "Poland"
           D: "Mexico"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Tunisia.png
     answers:
@@ -814,7 +814,6 @@ questions:
       C: "Tunisie"
       D: "Singapour"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -823,6 +822,7 @@ questions:
           B: "Turkey"
           C: "Tunisia"
           D: "Singapore"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Antigua_and_Barbuda.png
     answers:
@@ -831,15 +831,15 @@ questions:
       C: "Soudan du Sud"
       D: "Antigua-et-Barbuda"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
-        text: "What country is this?"
+        text: "Which country is this?"
         answers:
           A: "Netherlands"
           B: "Malawi"
           C: "South Sudan"
           D: "Antigua and Barbuda"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Tajikistan.png
     answers:
@@ -848,7 +848,6 @@ questions:
       C: "Liban"
       D: "Bénin"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -857,6 +856,7 @@ questions:
           B: "Tajikistan"
           C: "Lebanon"
           D: "Benin"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Guinea.png
     answers:
@@ -865,7 +865,6 @@ questions:
       C: "Cameroun"
       D: "Burkina Faso"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -874,6 +873,7 @@ questions:
           B: "Congo"
           C: "Cameroon"
           D: "Burkina Faso"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Zambia.png
     answers:
@@ -882,7 +882,6 @@ questions:
       C: "Trinité-et-Tobago"
       D: "Zimbabwe"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -891,6 +890,7 @@ questions:
           B: "Zambia"
           C: "Trinidad and Tobago"
           D: "Zimbabwe"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Norway.png
     answers:
@@ -899,15 +899,15 @@ questions:
       C: "Suède"
       D: "Danemark"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "What country is this?"
+        text: "Which country is this?"
         answers:
           A: "Finland"
           B: "Norway"
           C: "Sweden"
           D: "Denmark"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Bolivia.png
     answers:
@@ -916,7 +916,6 @@ questions:
       C: "Italie"
       D: "Bolivie"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -925,6 +924,7 @@ questions:
           B: "Slovenia"
           C: "Italy"
           D: "Bolivia"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Oman.png
     answers:
@@ -933,7 +933,6 @@ questions:
       C: "Oman"
       D: "Finlande"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -942,6 +941,7 @@ questions:
           B: "Uruguay"
           C: "Oman"
           D: "Finland"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Mongolia.png
     answers:
@@ -950,7 +950,6 @@ questions:
       C: "Mongolie"
       D: "Eswatini"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -959,6 +958,7 @@ questions:
           B: "Lesotho"
           C: "Mongolia"
           D: "Eswatini"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Sudan.png
     answers:
@@ -967,15 +967,15 @@ questions:
       C: "Yémen"
       D: "Égypte"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
-        text: "What country is this?"
+        text: "Which country is this?"
         answers:
           A: "Syria"
           B: "Sudan"
           C: "Yemen"
           D: "Egypt"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Albania.png
     answers:
@@ -984,7 +984,6 @@ questions:
       C: "Croatie"
       D: "Somalie"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -993,6 +992,7 @@ questions:
           B: "Albania"
           C: "Croatia"
           D: "Somalia"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Trinidad_and_Tobago.png
     answers:
@@ -1001,7 +1001,6 @@ questions:
       C: "Malaisie"
       D: "Royaume-Uni"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1010,6 +1009,7 @@ questions:
           B: "Somalia"
           C: "Malaysia"
           D: "United Kingdom"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Portugal.png
     answers:
@@ -1018,7 +1018,6 @@ questions:
       C: "Mongolie"
       D: "Salvador"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1027,6 +1026,7 @@ questions:
           B: "Switzerland"
           C: "Mongolia"
           D: "El Salvador"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Lesotho.png
     answers:
@@ -1035,7 +1035,6 @@ questions:
       C: "Vatican"
       D: "Lituanie"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1044,6 +1043,7 @@ questions:
           B: "Bahrain"
           C: "Vatican"
           D: "Lithuania"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Denmark.png
     answers:
@@ -1052,7 +1052,6 @@ questions:
       C: "Norvège"
       D: "Danemark"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1061,6 +1060,7 @@ questions:
           B: "Finland"
           C: "Norway"
           D: "Denmark"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_the_Philippines.png
     answers:
@@ -1069,7 +1069,6 @@ questions:
       C: "Mauritanie"
       D: "Philippines"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1078,6 +1077,7 @@ questions:
           B: "Albania"
           C: "Mauritania"
           D: "Philippines"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Comoros.png
     answers:
@@ -1086,7 +1086,6 @@ questions:
       C: "Moldavie"
       D: "Comores"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1095,6 +1094,7 @@ questions:
           B: "Rwanda"
           C: "Moldova"
           D: "Comoros"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_East_Timor.png
     answers:
@@ -1103,7 +1103,6 @@ questions:
       C: "Portugal"
       D: "Albanie"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -1112,6 +1111,7 @@ questions:
           B: "East Timor"
           C: "Portugal"
           D: "Albania"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Georgia.png
     answers:
@@ -1120,7 +1120,6 @@ questions:
       C: "Géorgie"
       D: "Malte"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1129,6 +1128,7 @@ questions:
           B: "Samoa"
           C: "Georgia"
           D: "Malta"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Lithuania.png
     answers:
@@ -1137,7 +1137,6 @@ questions:
       C: "Moldavie"
       D: "Lituanie"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1146,6 +1145,7 @@ questions:
           B: "Venezuela"
           C: "Moldova"
           D: "Lithuania"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Senegal.png
     answers:
@@ -1154,7 +1154,6 @@ questions:
       C: "Cameroun"
       D: "Sénégal"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1163,6 +1162,7 @@ questions:
           B: "Mali"
           C: "Cameroon"
           D: "Senegal"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Nepal.png
     answers:
@@ -1171,7 +1171,6 @@ questions:
       C: "Finlande"
       D: "Saint-Vincent-et-les-Grenadines"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1180,6 +1179,7 @@ questions:
           B: "Nepal"
           C: "Finland"
           D: "Saint Vincent and the Grenadines"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Brazil.png
     answers:
@@ -1188,7 +1188,6 @@ questions:
       C: "Chine"
       D: "Zimbabwe"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1197,6 +1196,7 @@ questions:
           B: "Guyana"
           C: "China"
           D: "Zimbabwe"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Nigeria.png
     answers:
@@ -1205,7 +1205,6 @@ questions:
       C: "Nigeria"
       D: "Chypre"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -1214,6 +1213,7 @@ questions:
           B: "Yemen"
           C: "Nigeria"
           D: "Cyprus"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Luxembourg.png
     answers:
@@ -1222,7 +1222,6 @@ questions:
       C: "Pays-Bas"
       D: "Slovénie"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1231,6 +1230,7 @@ questions:
           B: "Slovakia"
           C: "Netherlands"
           D: "Slovenia"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Saint_Kitts_and_Nevis.png
     answers:
@@ -1239,7 +1239,6 @@ questions:
       C: "Angola"
       D: "Bolivie"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1248,6 +1247,7 @@ questions:
           B: "Costa Rica"
           C: "Angola"
           D: "Bolivia"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Cambodia.png
     answers:
@@ -1256,7 +1256,6 @@ questions:
       C: "Sainte-Lucie"
       D: "Maurice"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1265,6 +1264,7 @@ questions:
           B: "Ethiopia"
           C: "Saint Lucia"
           D: "Mauritius"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Guinea-Bissau.png
     answers:
@@ -1273,7 +1273,6 @@ questions:
       C: "Guinée-Bissau"
       D: "Guinée"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1282,6 +1281,7 @@ questions:
           B: "Burkina Faso"
           C: "Guinea-Bissau"
           D: "Guinea"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Barbados.png
     answers:
@@ -1290,7 +1290,6 @@ questions:
       C: "Guatemala"
       D: "Barbade"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country's flag is this?"
@@ -1299,6 +1298,7 @@ questions:
           B: "Ireland"
           C: "Guatemala"
           D: "Barbados"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Samoa.png
     answers:
@@ -1307,7 +1307,6 @@ questions:
       C: "Afrique du Sud"
       D: "Gabon"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1316,6 +1315,7 @@ questions:
           B: "Samoa"
           C: "South Africa"
           D: "Gabon"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Indonesia.png
     answers:
@@ -1324,7 +1324,6 @@ questions:
       C: "Monaco"
       D: "Indonésie"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1333,6 +1332,7 @@ questions:
           B: "Poland"
           C: "Monaco"
           D: "Indonesia"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Cyprus.png
     answers:
@@ -1341,7 +1341,6 @@ questions:
       C: "Érythrée"
       D: "Chypre"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1350,6 +1349,7 @@ questions:
           B: "Montenegro"
           C: "Eritrea"
           D: "Cyprus"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Argentina.png
     answers:
@@ -1358,7 +1358,6 @@ questions:
       C: "Uruguay"
       D: "Israël"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
         text: "Which country's flag is this?"
@@ -1367,6 +1366,7 @@ questions:
           B: "Argentina"
           C: "Uruguay"
           D: "Israel"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Federated_States_of_Micronesia.png
     answers:
@@ -1375,7 +1375,6 @@ questions:
       C: "Bangladesh"
       D: "Viêt Nam"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1384,6 +1383,7 @@ questions:
           B: "Slovakia"
           C: "Bangladesh"
           D: "Vietnam"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Ecuador.png
     answers:
@@ -1392,7 +1392,6 @@ questions:
       C: "Venezuela"
       D: "Équateur"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1401,6 +1400,7 @@ questions:
           B: "Andorra"
           C: "Venezuela"
           D: "Ecuador"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Chad.png
     answers:
@@ -1409,7 +1409,6 @@ questions:
       C: "Roumanie"
       D: "Norvège"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1418,6 +1417,7 @@ questions:
           B: "Belgium"
           C: "Romania"
           D: "Norway"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Tuvalu.png
     answers:
@@ -1426,7 +1426,6 @@ questions:
       C: "Australie"
       D: "Fidji"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country's flag is this?"
@@ -1435,6 +1434,7 @@ questions:
           B: "Solomon Islands"
           C: "Australia"
           D: "Fiji"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Finland.png
     answers:
@@ -1443,7 +1443,6 @@ questions:
       C: "Danemark"
       D: "Islande"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -1452,6 +1451,7 @@ questions:
           B: "Norway"
           C: "Denmark"
           D: "Iceland"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Zimbabwe.png
     answers:
@@ -1460,7 +1460,6 @@ questions:
       C: "Zimbabwe"
       D: "Costa Rica"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1469,6 +1468,7 @@ questions:
           B: "Uruguay"
           C: "Zimbabwe"
           D: "Costa Rica"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Venezuela.png
     answers:
@@ -1477,7 +1477,6 @@ questions:
       C: "Colombie"
       D: "Venezuela"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1486,6 +1485,7 @@ questions:
           B: "Moldova"
           C: "Colombia"
           D: "Venezuela"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Mexico.png
     answers:
@@ -1494,7 +1494,6 @@ questions:
       C: "Turkménistan"
       D: "Suisse"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country's flag is this?"
@@ -1503,6 +1502,7 @@ questions:
           B: "Chile"
           C: "Turkmenistan"
           D: "Switzerland"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Saint_Lucia.png
     answers:
@@ -1511,7 +1511,6 @@ questions:
       C: "Bolivie"
       D: "Congo"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1520,6 +1519,7 @@ questions:
           B: "Democratic Republic of the Congo"
           C: "Bolivia"
           D: "Congo"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Latvia.png
     answers:
@@ -1528,7 +1528,6 @@ questions:
       C: "Hongrie"
       D: "Mexique"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1537,6 +1536,7 @@ questions:
           B: "Latvia"
           C: "Hungary"
           D: "Mexico"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Chile.png
     answers:
@@ -1545,7 +1545,6 @@ questions:
       C: "Chili"
       D: "Cuba"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -1554,6 +1553,7 @@ questions:
           B: "Senegal"
           C: "Chile"
           D: "Cuba"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Bosnia_and_Herzegovina.png
     answers:
@@ -1562,7 +1562,6 @@ questions:
       C: "Indonésie"
       D: "Bosnie-Herzégovine"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1571,6 +1570,7 @@ questions:
           B: "Suriname"
           C: "Indonesia"
           D: "Bosnia and Herzegovina"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Qatar.png
     answers:
@@ -1579,7 +1579,6 @@ questions:
       C: "Qatar"
       D: "Albanie"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1588,6 +1587,7 @@ questions:
           B: "Japan"
           C: "Qatar"
           D: "Albania"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Bulgaria.png
     answers:
@@ -1596,7 +1596,6 @@ questions:
       C: "Cameroun"
       D: "Bulgarie"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1605,6 +1604,7 @@ questions:
           B: "Fiji"
           C: "Cameroon"
           D: "Bulgaria"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Costa_Rica.png
     answers:
@@ -1613,7 +1613,6 @@ questions:
       C: "Costa Rica"
       D: "Nigeria"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1622,6 +1621,7 @@ questions:
           B: "Bolivia"
           C: "Costa Rica"
           D: "Nigeria"
+    difficulty: MEDIUM
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Burkina_Faso.png
     answers:
@@ -1630,7 +1630,6 @@ questions:
       C: "Ghana"
       D: "Congo"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1639,6 +1638,7 @@ questions:
           B: "Burkina Faso"
           C: "Ghana"
           D: "Congo"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Moldova.png
     answers:
@@ -1647,7 +1647,6 @@ questions:
       C: "Andorre"
       D: "Moldavie"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -1656,6 +1655,7 @@ questions:
           B: "Armenia"
           C: "Andorra"
           D: "Moldova"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Estonia.png
     answers:
@@ -1664,7 +1664,6 @@ questions:
       C: "Estonie"
       D: "Pologne"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1673,6 +1672,7 @@ questions:
           B: "Hungary"
           C: "Estonia"
           D: "Poland"
+    difficulty: MEDIUM
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Switzerland.png
     answers:
@@ -1681,7 +1681,6 @@ questions:
       C: "Suisse"
       D: "Paraguay"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -1690,6 +1689,7 @@ questions:
           B: "Brazil"
           C: "Switzerland"
           D: "Paraguay"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Taliban.png
     answers:
@@ -1698,7 +1698,6 @@ questions:
       C: "Liberia"
       D: "Afghanistan"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1707,6 +1706,7 @@ questions:
           B: "Benin"
           C: "Liberia"
           D: "Afghanistan"
+    difficulty: MEDIUM
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Belarus.png
     answers:
@@ -1715,7 +1715,6 @@ questions:
       C: "Papouasie-Nouvelle-Guinée"
       D: "Congo"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1724,6 +1723,7 @@ questions:
           B: "Central African Republic"
           C: "Papua New Guinea"
           D: "Congo"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Austria.png
     answers:
@@ -1732,7 +1732,6 @@ questions:
       C: "Autriche"
       D: "République dominicaine"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1741,6 +1740,7 @@ questions:
           B: "Peru"
           C: "Austria"
           D: "Dominican Republic"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Saudi_Arabia.png
     answers:
@@ -1749,7 +1749,6 @@ questions:
       C: "Chypre"
       D: "Arabie saoudite"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -1758,6 +1757,7 @@ questions:
           B: "Saint Kitts and Nevis"
           C: "Cyprus"
           D: "Saudi Arabia"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Mauritania.png
     answers:
@@ -1766,7 +1766,6 @@ questions:
       C: "Mauritanie"
       D: "Bénin"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1775,6 +1774,7 @@ questions:
           B: "Cape Verde"
           C: "Mauritania"
           D: "Benin"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Haiti.png
     answers:
@@ -1783,7 +1783,6 @@ questions:
       C: "Haïti"
       D: "Corée du Nord"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which country is this?"
@@ -1792,6 +1791,7 @@ questions:
           B: "India"
           C: "Haiti"
           D: "North Korea"
+    difficulty: MEDIUM
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Botswana.png
     answers:
@@ -1800,7 +1800,6 @@ questions:
       C: "Hongrie"
       D: "Australie"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1809,6 +1808,7 @@ questions:
           B: "Uruguay"
           C: "Hungary"
           D: "Australia"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Monaco.png
     answers:
@@ -1817,7 +1817,6 @@ questions:
       C: "Libye"
       D: "Indonésie"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1826,6 +1825,7 @@ questions:
           B: "Poland"
           C: "Libya"
           D: "Indonesia"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Bangladesh.png
     answers:
@@ -1834,7 +1834,6 @@ questions:
       C: "Bosnie-Herzégovine"
       D: "Cameroun"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1843,6 +1842,7 @@ questions:
           B: "Bangladesh"
           C: "Bosnia and Herzegovina"
           D: "Cameroon"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Libya.png
     answers:
@@ -1851,7 +1851,6 @@ questions:
       C: "Arménie"
       D: "Mali"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -1860,6 +1859,7 @@ questions:
           B: "Turkmenistan"
           C: "Armenia"
           D: "Mali"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Sierra_Leone.png
     answers:
@@ -1868,7 +1868,6 @@ questions:
       C: "Panama"
       D: "Hongrie"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1877,6 +1876,7 @@ questions:
           B: "Sierra Leone"
           C: "Panama"
           D: "Hungary"
+    difficulty: EXPERT
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Jordan.png
     answers:
@@ -1885,7 +1885,6 @@ questions:
       C: "Jordanie"
       D: "Pakistan"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -1894,6 +1893,7 @@ questions:
           B: "Tonga"
           C: "Jordan"
           D: "Pakistan"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Bhutan.png
     answers:
@@ -1902,7 +1902,6 @@ questions:
       C: "Burkina Faso"
       D: "Luxembourg"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1911,6 +1910,7 @@ questions:
           B: "Bhutan"
           C: "Burkina Faso"
           D: "Luxembourg"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Marshall_Islands.png
     answers:
@@ -1919,7 +1919,6 @@ questions:
       C: "Kazakhstan"
       D: "Îles Marshall"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1928,6 +1927,7 @@ questions:
           B: "Antigua and Barbuda"
           C: "Kazakhstan"
           D: "Marshall Islands"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Suriname.png
     answers:
@@ -1936,7 +1936,6 @@ questions:
       C: "Philippines"
       D: "Suriname"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -1945,6 +1944,7 @@ questions:
           B: "Antigua and Barbuda"
           C: "Philippines"
           D: "Suriname"
+    difficulty: EXPERT
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Kiribati.png
     answers:
@@ -1953,7 +1953,6 @@ questions:
       C: "Nouvelle-Zélande"
       D: "Inde"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -1962,6 +1961,7 @@ questions:
           B: "Kiribati"
           C: "New Zealand"
           D: "India"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Tonga.png
     answers:
@@ -1970,7 +1970,6 @@ questions:
       C: "Tonga"
       D: "Bahamas"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -1979,6 +1978,7 @@ questions:
           B: "Haiti"
           C: "Tonga"
           D: "Bahamas"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_North_Korea.png
     answers:
@@ -1987,7 +1987,6 @@ questions:
       C: "Corée du Nord"
       D: "Hongrie"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -1996,6 +1995,7 @@ questions:
           B: "Sri Lanka"
           C: "North Korea"
           D: "Hungary"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_South_Korea.png
     answers:
@@ -2004,7 +2004,6 @@ questions:
       C: "Zimbabwe"
       D: "Comores"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2013,6 +2012,7 @@ questions:
           B: "Bolivia"
           C: "Zimbabwe"
           D: "Comoros"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Tanzania.png
     answers:
@@ -2021,7 +2021,6 @@ questions:
       C: "Tanzanie"
       D: "Belgique"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2030,6 +2029,7 @@ questions:
           B: "Barbados"
           C: "Tanzania"
           D: "Belgium"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Djibouti.png
     answers:
@@ -2038,7 +2038,6 @@ questions:
       C: "Djibouti"
       D: "Malaisie"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2047,6 +2046,7 @@ questions:
           B: "Lebanon"
           C: "Djibouti"
           D: "Malaysia"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Cameroon.png
     answers:
@@ -2055,7 +2055,6 @@ questions:
       C: "Sénégal"
       D: "Burkina Faso"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2064,6 +2063,7 @@ questions:
           B: "Ethiopia"
           C: "Senegal"
           D: "Burkina Faso"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Belgium.png
     answers:
@@ -2072,7 +2072,6 @@ questions:
       C: "Laos"
       D: "Belgique"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2081,6 +2080,7 @@ questions:
           B: "Romania"
           C: "Laos"
           D: "Belgium"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Iran.png
     answers:
@@ -2089,7 +2089,6 @@ questions:
       C: "Belize"
       D: "Iran"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2098,6 +2097,7 @@ questions:
           B: "Samoa"
           C: "Belize"
           D: "Iran"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Paraguay.png
     answers:
@@ -2106,7 +2106,6 @@ questions:
       C: "Cambodge"
       D: "Sri Lanka"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2115,6 +2114,7 @@ questions:
           B: "Malaysia"
           C: "Cambodia"
           D: "Sri Lanka"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Hungary.png
     answers:
@@ -2123,7 +2123,6 @@ questions:
       C: "Hongrie"
       D: "Corée du Sud"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2132,6 +2131,7 @@ questions:
           B: "Suriname"
           C: "Hungary"
           D: "South Korea"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Gabon.png
     answers:
@@ -2140,7 +2140,6 @@ questions:
       C: "Gambie"
       D: "Chine"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2149,6 +2148,7 @@ questions:
           B: "Kiribati"
           C: "Gambia"
           D: "China"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Cuba.png
     answers:
@@ -2157,7 +2157,6 @@ questions:
       C: "Australie"
       D: "Éthiopie"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2166,6 +2165,7 @@ questions:
           B: "Chile"
           C: "Australia"
           D: "Ethiopia"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Saint_Vincent_and_the_Grenadines.png
     answers:
@@ -2174,7 +2174,6 @@ questions:
       C: "Bahamas"
       D: "Portugal"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2183,6 +2182,7 @@ questions:
           B: "Burundi"
           C: "Bahamas"
           D: "Portugal"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Canada.png
     answers:
@@ -2191,7 +2191,6 @@ questions:
       C: "Maroc"
       D: "Rwanda"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2200,6 +2199,7 @@ questions:
           B: "Palau"
           C: "Morocco"
           D: "Rwanda"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Laos.png
     answers:
@@ -2208,7 +2208,6 @@ questions:
       C: "Yémen"
       D: "Cameroun"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2217,6 +2216,7 @@ questions:
           B: "Laos"
           C: "Yemen"
           D: "Cameroon"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Montenegro.png
     answers:
@@ -2225,7 +2225,6 @@ questions:
       C: "Nouvelle-Zélande"
       D: "Monténégro"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2234,6 +2233,7 @@ questions:
           B: "Somalia"
           C: "New Zealand"
           D: "Montenegro"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Fiji.png
     answers:
@@ -2242,7 +2242,6 @@ questions:
       C: "Fidji"
       D: "Australie"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2251,6 +2250,7 @@ questions:
           B: "New Zealand"
           C: "Fiji"
           D: "Australia"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Ethiopia.png
     answers:
@@ -2259,7 +2259,6 @@ questions:
       C: "Ghana"
       D: "Bénin"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2268,6 +2267,7 @@ questions:
           B: "Ethiopia"
           C: "Ghana"
           D: "Benin"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_San_Marino.png
     answers:
@@ -2276,7 +2276,6 @@ questions:
       C: "Trinité-et-Tobago"
       D: "Syrie"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2285,6 +2284,7 @@ questions:
           B: "San Marino"
           C: "Trinidad and Tobago"
           D: "Syria"
+    difficulty: EXPERT
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Brunei.png
     answers:
@@ -2293,7 +2293,6 @@ questions:
       C: "Ouzbékistan"
       D: "Brunei"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -2302,6 +2301,7 @@ questions:
           B: "Guatemala"
           C: "Uzbekistan"
           D: "Brunei"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Mali.png
     answers:
@@ -2310,7 +2310,6 @@ questions:
       C: "Ghana"
       D: "Éthiopie"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country's flag is this?"
@@ -2319,6 +2318,7 @@ questions:
           B: "Mali"
           C: "Ghana"
           D: "Ethiopia"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_the_United_Kingdom.png
     answers:
@@ -2327,7 +2327,6 @@ questions:
       C: "Royaume-Uni"
       D: "Algérie"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2336,6 +2335,7 @@ questions:
           B: "Djibouti"
           C: "United Kingdom"
           D: "Algeria"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Uganda.png
     answers:
@@ -2344,7 +2344,6 @@ questions:
       C: "Inde"
       D: "Tchad"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2353,6 +2352,7 @@ questions:
           B: "Uganda"
           C: "India"
           D: "Chad"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Ghana.png
     answers:
@@ -2361,7 +2361,6 @@ questions:
       C: "Mali"
       D: "Éthiopie"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2370,6 +2369,7 @@ questions:
           B: "Ghana"
           C: "Mali"
           D: "Ethiopia"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Germany.png
     answers:
@@ -2378,7 +2378,6 @@ questions:
       C: "Sierra Leone"
       D: "Costa Rica"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
         text: "Which country's flag is this?"
@@ -2387,6 +2386,7 @@ questions:
           B: "Germany"
           C: "Sierra Leone"
           D: "Costa Rica"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Eswatini.png
     answers:
@@ -2395,7 +2395,6 @@ questions:
       C: "France"
       D: "Portugal"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -2404,6 +2403,7 @@ questions:
           B: "Eswatini"
           C: "France"
           D: "Portugal"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Armenia.png
     answers:
@@ -2412,7 +2412,6 @@ questions:
       C: "Andorre"
       D: "Venezuela"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2421,6 +2420,7 @@ questions:
           B: "Armenia"
           C: "Andorra"
           D: "Venezuela"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/entertainment/Flag_of_Sweden.png
     answers:
@@ -2429,7 +2429,6 @@ questions:
       C: "Suède"
       D: "Islande"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2438,6 +2437,7 @@ questions:
           B: "Finland"
           C: "Sweden"
           D: "Iceland"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_the_United_States.png
     answers:
@@ -2446,7 +2446,6 @@ questions:
       C: "Malaisie"
       D: "Suriname"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
         text: "Which country's flag is this?"
@@ -2455,6 +2454,7 @@ questions:
           B: "United States"
           C: "Malaysia"
           D: "Suriname"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Yemen.png
     answers:
@@ -2463,7 +2463,6 @@ questions:
       C: "Yémen"
       D: "Syrie"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2472,6 +2471,7 @@ questions:
           B: "Sudan"
           C: "Yemen"
           D: "Syria"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Slovenia.png
     answers:
@@ -2480,7 +2480,6 @@ questions:
       C: "Slovaquie"
       D: "Pays-Bas"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2489,6 +2488,7 @@ questions:
           B: "Russia"
           C: "Slovakia"
           D: "Netherlands"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_the_Democratic_Republic_of_the_Congo.png
     answers:
@@ -2497,7 +2497,6 @@ questions:
       C: "Trinité-et-Tobago"
       D: "République démocratique du Congo"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2506,6 +2505,7 @@ questions:
           B: "United States"
           C: "Trinidad and Tobago"
           D: "Democratic Republic of the Congo"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Ireland.png
     answers:
@@ -2514,7 +2514,6 @@ questions:
       C: "Côte d'Ivoire"
       D: "Suisse"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country's flag is this?"
@@ -2523,6 +2522,7 @@ questions:
           B: "India"
           C: "Ivory Coast"
           D: "Switzerland"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Serbia.png
     answers:
@@ -2531,7 +2531,6 @@ questions:
       C: "Serbie"
       D: "Russie"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2540,6 +2539,7 @@ questions:
           B: "Slovenia"
           C: "Serbia"
           D: "Russia"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Morocco.png
     answers:
@@ -2548,7 +2548,6 @@ questions:
       C: "Philippines"
       D: "Roumanie"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2557,6 +2556,7 @@ questions:
           B: "Barbados"
           C: "Philippines"
           D: "Romania"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_El_Salvador.png
     answers:
@@ -2565,7 +2565,6 @@ questions:
       C: "Mozambique"
       D: "République centrafricaine"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2574,6 +2573,7 @@ questions:
           B: "El Salvador"
           C: "Mozambique"
           D: "Central African Republic"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Vatican_City.png
     answers:
@@ -2582,7 +2582,6 @@ questions:
       C: "Dominique"
       D: "Éthiopie"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2591,6 +2590,7 @@ questions:
           B: "Vatican"
           C: "Dominica"
           D: "Ethiopia"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Kazakhstan.png
     answers:
@@ -2599,7 +2599,6 @@ questions:
       C: "Kazakhstan"
       D: "Finlande"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2608,6 +2607,7 @@ questions:
           B: "Hungary"
           C: "Kazakhstan"
           D: "Finland"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Syria.png
     answers:
@@ -2616,7 +2616,6 @@ questions:
       C: "Syrie"
       D: "Yémen"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2625,6 +2624,7 @@ questions:
           B: "Sudan"
           C: "Syria"
           D: "Yemen"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Liechtenstein.png
     answers:
@@ -2633,7 +2633,6 @@ questions:
       C: "Sao Tomé-et-Principe"
       D: "Malawi"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -2642,6 +2641,7 @@ questions:
           B: "Andorra"
           C: "Sao Tome and Principe"
           D: "Malawi"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Israel.png
     answers:
@@ -2650,7 +2650,6 @@ questions:
       C: "Sao Tomé-et-Principe"
       D: "Belgique"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2659,6 +2658,7 @@ questions:
           B: "Israel"
           C: "Sao Tome and Principe"
           D: "Belgium"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Cape_Verde.png
     answers:
@@ -2667,7 +2667,6 @@ questions:
       C: "Salvador"
       D: "Mongolie"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -2676,6 +2675,7 @@ questions:
           B: "Andorra"
           C: "El Salvador"
           D: "Mongolia"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Burundi.png
     answers:
@@ -2684,7 +2684,6 @@ questions:
       C: "Burundi"
       D: "Saint-Kitts-et-Nevis"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2693,6 +2692,7 @@ questions:
           B: "Gambia"
           C: "Burundi"
           D: "Saint Kitts and Nevis"
+    difficulty: EXPERT
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Sri_Lanka.png
     answers:
@@ -2701,7 +2701,6 @@ questions:
       C: "Azerbaïdjan"
       D: "Sri Lanka"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2710,6 +2709,7 @@ questions:
           B: "Somalia"
           C: "Azerbaijan"
           D: "Sri Lanka"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Togo.png
     answers:
@@ -2718,7 +2718,6 @@ questions:
       C: "Sao Tomé-et-Principe"
       D: "Burkina Faso"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2727,6 +2726,7 @@ questions:
           B: "Togo"
           C: "Sao Tome and Principe"
           D: "Burkina Faso"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Seychelles.png
     answers:
@@ -2735,7 +2735,6 @@ questions:
       C: "Népal"
       D: "Seychelles"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2744,6 +2743,7 @@ questions:
           B: "Kazakhstan"
           C: "Nepal"
           D: "Seychelles"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Kenya.png
     answers:
@@ -2752,7 +2752,6 @@ questions:
       C: "Bulgarie"
       D: "Papouasie-Nouvelle-Guinée"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2761,6 +2760,7 @@ questions:
           B: "Kenya"
           C: "Bulgaria"
           D: "Papua New Guinea"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_the_Bahamas.png
     answers:
@@ -2769,7 +2769,6 @@ questions:
       C: "Guinée"
       D: "Bahamas"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2778,6 +2777,7 @@ questions:
           B: "Indonesia"
           C: "Guinea"
           D: "Bahamas"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Malawi.png
     answers:
@@ -2786,7 +2786,6 @@ questions:
       C: "Madagascar"
       D: "Kazakhstan"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2795,6 +2794,7 @@ questions:
           B: "Liechtenstein"
           C: "Madagascar"
           D: "Kazakhstan"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Eritrea.png
     answers:
@@ -2803,7 +2803,6 @@ questions:
       C: "Afghanistan"
       D: "Mongolie"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2812,6 +2811,7 @@ questions:
           B: "Tunisia"
           C: "Afghanistan"
           D: "Mongolia"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Vanuatu.png
     answers:
@@ -2820,7 +2820,6 @@ questions:
       C: "Israël"
       D: "Autriche"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2829,6 +2828,7 @@ questions:
           B: "Vanuatu"
           C: "Israel"
           D: "Austria"
+    difficulty: EXPERT
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_the_People's_Republic_of_China.png
     answers:
@@ -2837,7 +2837,6 @@ questions:
       C: "Chine"
       D: "Eswatini"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2846,6 +2845,7 @@ questions:
           B: "Haiti"
           C: "China"
           D: "Eswatini"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_South_Sudan.png
     answers:
@@ -2854,7 +2854,6 @@ questions:
       C: "Turkménistan"
       D: "Philippines"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2863,6 +2862,7 @@ questions:
           B: "South Sudan"
           C: "Turkmenistan"
           D: "Philippines"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Mozambique.png
     answers:
@@ -2871,7 +2871,6 @@ questions:
       C: "Vatican"
       D: "Mozambique"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2880,6 +2879,7 @@ questions:
           B: "Mauritius"
           C: "Vatican"
           D: "Mozambique"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_the_United_Arab_Emirates.png
     answers:
@@ -2888,7 +2888,6 @@ questions:
       C: "Saint-Kitts-et-Nevis"
       D: "République dominicaine"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2897,6 +2896,7 @@ questions:
           B: "United Arab Emirates"
           C: "Saint Kitts and Nevis"
           D: "Dominican Republic"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Belize.png
     answers:
@@ -2905,7 +2905,6 @@ questions:
       C: "Népal"
       D: "Émirats arabes unis"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -2914,6 +2913,7 @@ questions:
           B: "Sierra Leone"
           C: "Nepal"
           D: "United Arab Emirates"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Palau.png
     answers:
@@ -2922,7 +2922,6 @@ questions:
       C: "Vatican"
       D: "Monaco"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2931,6 +2930,7 @@ questions:
           B: "Syria"
           C: "Vatican"
           D: "Monaco"
+    difficulty: EXPERT
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Italy.png
     answers:
@@ -2939,7 +2939,6 @@ questions:
       C: "Autriche"
       D: "Italie"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -2948,6 +2947,7 @@ questions:
           B: "Spain"
           C: "Austria"
           D: "Italy"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Poland.png
     answers:
@@ -2956,7 +2956,6 @@ questions:
       C: "Albanie"
       D: "Monaco"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -2965,6 +2964,7 @@ questions:
           B: "Poland"
           C: "Albania"
           D: "Monaco"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Iraq.png
     answers:
@@ -2973,7 +2973,6 @@ questions:
       C: "Égypte"
       D: "Irak"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -2982,6 +2981,7 @@ questions:
           B: "Syria"
           C: "Egypt"
           D: "Iraq"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Spain.png
     answers:
@@ -2990,7 +2990,6 @@ questions:
       C: "Espagne"
       D: "Italie"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -2999,6 +2998,7 @@ questions:
           B: "Bolivia"
           C: "Spain"
           D: "Italy"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Sao_Tome_and_Principe.png
     answers:
@@ -3007,7 +3007,6 @@ questions:
       C: "Sénégal"
       D: "Burkina Faso"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -3016,6 +3015,7 @@ questions:
           B: "Ghana"
           C: "Senegal"
           D: "Burkina Faso"
+    difficulty: EXPERT
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Papua_New_Guinea.png
     answers:
@@ -3024,7 +3024,6 @@ questions:
       C: "États-Unis"
       D: "Autriche"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -3033,6 +3032,7 @@ questions:
           B: "North Macedonia"
           C: "United States"
           D: "Austria"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Maldives.png
     answers:
@@ -3041,7 +3041,6 @@ questions:
       C: "Autriche"
       D: "Madagascar"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "Which country is this?"
@@ -3050,6 +3049,7 @@ questions:
           B: "Nigeria"
           C: "Austria"
           D: "Madagascar"
+    difficulty: EXPERT
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Kyrgyzstan.png
     answers:
@@ -3058,7 +3058,6 @@ questions:
       C: "Kirghizistan"
       D: "Turquie"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -3067,6 +3066,7 @@ questions:
           B: "Bhutan"
           C: "Kyrgyzstan"
           D: "Turkey"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_New_Zealand.png
     answers:
@@ -3075,15 +3075,15 @@ questions:
       C: "Nouvelle-Zélande"
       D: "Fidji"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
-        text: "Which country is this?"
+        text: "What country is this?"
         answers:
           A: "Australia"
           B: "Solomon Islands"
           C: "New Zealand"
           D: "Fiji"
+    difficulty: HARD
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Singapore.png
     answers:
@@ -3092,7 +3092,6 @@ questions:
       C: "Turquie"
       D: "Chypre"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -3101,6 +3100,7 @@ questions:
           B: "Singapore"
           C: "Turkey"
           D: "Cyprus"
+    difficulty: HARD
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_France.png
     answers:
@@ -3109,7 +3109,6 @@ questions:
       C: "Slovaquie"
       D: "Pays-Bas"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -3118,6 +3117,7 @@ questions:
           B: "Luxembourg"
           C: "Slovakia"
           D: "Netherlands"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_the_Netherlands.png
     answers:
@@ -3126,7 +3126,6 @@ questions:
       C: "Pays-Bas"
       D: "France"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -3135,6 +3134,7 @@ questions:
           B: "Russia"
           C: "Netherlands"
           D: "France"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Greece.png
     answers:
@@ -3143,15 +3143,15 @@ questions:
       C: "Jordanie"
       D: "Grèce"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "Which country is this?"
+        text: "What country is this?"
         answers:
           A: "Guinea"
           B: "Burundi"
           C: "Jordan"
           D: "Greece"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Turkey.png
     answers:
@@ -3160,7 +3160,6 @@ questions:
       C: "Tunisie"
       D: "Turquie"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -3169,6 +3168,7 @@ questions:
           B: "Iceland"
           C: "Tunisia"
           D: "Turkey"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Malaysia.png
     answers:
@@ -3177,7 +3177,6 @@ questions:
       C: "Italie"
       D: "Liberia"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
         text: "Which country is this?"
@@ -3186,6 +3185,7 @@ questions:
           B: "United States"
           C: "Italy"
           D: "Liberia"
+    difficulty: HARD
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Ukraine.png
     answers:
@@ -3194,7 +3194,6 @@ questions:
       C: "Somalie"
       D: "Albanie"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -3203,6 +3202,7 @@ questions:
           B: "Uzbekistan"
           C: "Somalia"
           D: "Albania"
+    difficulty: EASY
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Egypt.png
     answers:
@@ -3211,15 +3211,15 @@ questions:
       C: "Irak"
       D: "Soudan"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "Which country is this?"
+        text: "What country is this?"
         answers:
           A: "Syria"
           B: "Egypt"
           C: "Iraq"
           D: "Sudan"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_India.png
     answers:
@@ -3228,7 +3228,6 @@ questions:
       C: "Irlande"
       D: "Bosnie-Herzégovine"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -3237,6 +3236,7 @@ questions:
           B: "Ivory Coast"
           C: "Ireland"
           D: "Bosnia and Herzegovina"
+    difficulty: EASY
   - text: "De quel pays s'agit-il ?"
     imageUrl: wikipedia/world/Flag_of_Russia.png
     answers:
@@ -3245,7 +3245,6 @@ questions:
       C: "France"
       D: "Pays-Bas"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Which country is this?"
@@ -3254,6 +3253,7 @@ questions:
           B: "Slovakia"
           C: "France"
           D: "Netherlands"
+    difficulty: EASY
   - text: "Ce drapeau est celui de quel pays ?"
     imageUrl: wikipedia/world/Flag_of_Uruguay.png
     answers:
@@ -3262,7 +3262,6 @@ questions:
       C: "Ukraine"
       D: "Uruguay"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "This flag belongs to which country?"
@@ -3271,6 +3270,7 @@ questions:
           B: "Central African Republic"
           C: "Ukraine"
           D: "Uruguay"
+    difficulty: HARD
   - text: "Quel est ce pays ?"
     imageUrl: wikipedia/world/Flag_of_Croatia.png
     answers:
@@ -3279,15 +3279,15 @@ questions:
       C: "Bénin"
       D: "Croatie"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "Which country is this?"
+        text: "What country is this?"
         answers:
           A: "Thailand"
           B: "Cambodia"
           C: "Benin"
           D: "Croatia"
+    difficulty: EASY
   - text: "À quel pays appartient ce drapeau ?"
     imageUrl: wikipedia/world/Flag_of_Namibia.png
     answers:
@@ -3296,7 +3296,6 @@ questions:
       C: "Namibie"
       D: "Dominique"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "Which country does this flag belong to?"
@@ -3305,3 +3304,4 @@ questions:
           B: "Guinea"
           C: "Namibia"
           D: "Dominica"
+    difficulty: HARD

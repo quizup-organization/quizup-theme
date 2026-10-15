@@ -7,23 +7,23 @@ topic:
   category: TECHNOLOGY
   imageUrl: wikipedia/technology/BalticServers_data_center.jpg
 questions:
-  - text: "Que signifie le sigle « WWW » ?"
+  - text: "Quel protocole a été développé par Vint Cerf et Bob Kahn en 1974 pour interconnecter des réseaux hétérogènes ?"
     answers:
-      A: "World Web Wide"
-      B: "World Wide Web"
-      C: "Web World Wide"
-      D: "Wide World Web"
+      A: "OSI"
+      B: "TCP/IP"
+      C: "NetBEUI"
+      D: "IPX/SPX"
     correctAnswer: B
     translations:
       en:
-        text: "What does the acronym \"WWW\" stand for?"
+        text: "Which protocol was developed by Vint Cerf and Bob Kahn in 1974 to interconnect heterogeneous networks?"
         answers:
-          A: "World Web Wide"
-          B: "World Wide Web"
-          C: "Web World Wide"
-          D: "Wide World Web"
-    difficulty: EASY
-  - text: "Quel pionnier britannique, photographié ci-dessous, a inventé le World Wide Web au CERN ?"
+          A: "OSI"
+          B: "TCP/IP"
+          C: "NetBEUI"
+          D: "IPX/SPX"
+    difficulty: EXPERT
+  - text: "Qui a inventé le World Wide Web au CERN ?"
     imageUrl: wikipedia/technology/Tim_Berners-Lee.jpg
     answers:
       A: "Tim Berners-Lee"
@@ -33,14 +33,14 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Which British pioneer, pictured below, invented the World Wide Web at CERN?"
+        text: "Who invented the World Wide Web at CERN?"
         answers:
           A: "Tim Berners-Lee"
           B: "Bill Gates"
           C: "Steve Jobs"
           D: "Vint Cerf"
     difficulty: EASY
-  - text: "Qui est le mathématicien britannique représenté sur cette photo, auteur du test éponyme destiné à évaluer la capacité d'une machine à imiter la conversation humaine ?"
+  - text: "Qui a créé le test de Turing ?"
     imageUrl: wikipedia/technology/Alan_Turing_(1951).jpg
     answers:
       A: "Marvin Minsky"
@@ -50,254 +50,254 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Who is the British mathematician shown in this photo, author of the eponymous test designed to assess a machine's ability to imitate human conversation?"
+        text: "Who created the Turing test?"
         answers:
           A: "Marvin Minsky"
           B: "Claude Shannon"
           C: "John McCarthy"
           D: "Alan Turing"
     difficulty: EASY
-  - text: "Que signifie le sigle « IA » ?"
+  - text: "Quel était le nom du premier réseau à commutation de paquets, ancêtre d'ARPANET, développé par Paul Baran et Donald Davies ?"
     answers:
-      A: "Internet augmenté"
-      B: "Interface avancée"
-      C: "Information automatique"
-      D: "Intelligence artificielle"
+      A: "CYCLADES"
+      B: "TELENET"
+      C: "MERIT"
+      D: "NPL Network"
     correctAnswer: D
     translations:
       en:
-        text: "What does the acronym \"AI\" stand for?"
+        text: "What was the name of the first packet-switching network, the ancestor of ARPANET, developed by Paul Baran and Donald Davies?"
         answers:
-          A: "Augmented internet"
-          B: "Advanced interface"
-          C: "Automatic information"
-          D: "Artificial intelligence"
-    difficulty: EASY
-  - text: "Quel navigateur web Google a-t-il lancé en 2008 ?"
+          A: "CYCLADES"
+          B: "TELENET"
+          C: "MERIT"
+          D: "NPL Network"
+    difficulty: EXPERT
+  - text: "Quelle année a vu la première démonstration publique du World Wide Web par Tim Berners-Lee ?"
     answers:
-      A: "Chrome"
-      B: "Safari"
-      C: "Opera"
-      D: "Firefox"
+      A: "1991"
+      B: "1990"
+      C: "1989"
+      D: "1992"
     correctAnswer: A
     translations:
       en:
-        text: "Which web browser did Google launch in 2008?"
+        text: "In which year was the first public demonstration of the World Wide Web by Tim Berners-Lee?"
         answers:
-          A: "Chrome"
-          B: "Safari"
-          C: "Opera"
-          D: "Firefox"
-    difficulty: EASY
-  - text: "Que désigne le mot « e-mail » ?"
+          A: "1991"
+          B: "1990"
+          C: "1989"
+          D: "1992"
+    difficulty: HARD
+  - text: "Quel moteur de recherche a été créé par Larry Page et Sergey Brin en 1998 ?"
     answers:
-      A: "Un réseau social"
-      B: "Un antivirus"
-      C: "Un moteur de recherche"
-      D: "Le courrier électronique"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What does the word \"e-mail\" refer to?"
-        answers:
-          A: "A social network"
-          B: "An antivirus"
-          C: "A search engine"
-          D: "Electronic mail"
-    difficulty: EASY
-  - text: "Quel est le moteur de recherche le plus utilisé dans le monde ?"
-    answers:
-      A: "Bing"
-      B: "Yahoo"
-      C: "Baidu"
+      A: "Yahoo"
+      B: "Bing"
+      C: "Ask Jeeves"
       D: "Google"
     correctAnswer: D
     translations:
       en:
-        text: "What is the most widely used search engine in the world?"
+        text: "Which search engine was created by Larry Page and Sergey Brin in 1998?"
         answers:
-          A: "Bing"
-          B: "Yahoo"
-          C: "Baidu"
+          A: "Yahoo"
+          B: "Bing"
+          C: "Ask Jeeves"
           D: "Google"
     difficulty: EASY
-  - text: "Que signifie le sigle « URL » ?"
+  - text: "Quelle entreprise a développé le premier microprocesseur commercial, l'Intel 4004, en 1971 ?"
     answers:
-      A: "Universal Reference Link"
-      B: "Uniform Retrieval Language"
-      C: "United Resource Locator"
-      D: "Uniform Resource Locator"
+      A: "IBM"
+      B: "AMD"
+      C: "Motorola"
+      D: "Intel"
     correctAnswer: D
     translations:
       en:
-        text: "What does the acronym \"URL\" stand for?"
+        text: "Which company developed the first commercial microprocessor, the Intel 4004, in 1971?"
         answers:
-          A: "Universal Reference Link"
-          B: "Uniform Retrieval Language"
-          C: "United Resource Locator"
-          D: "Uniform Resource Locator"
-    difficulty: EASY
-  - text: "Quel navigateur web est développé par la fondation Mozilla ?"
+          A: "IBM"
+          B: "AMD"
+          C: "Motorola"
+          D: "Intel"
+    difficulty: MEDIUM
+  - text: "Quel langage de programmation a été créé par Guido van Rossum et publié en 1991 ?"
     answers:
-      A: "Edge"
-      B: "Chrome"
-      C: "Firefox"
-      D: "Safari"
+      A: "Java"
+      B: "Perl"
+      C: "Ruby"
+      D: "Python"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which programming language was created by Guido van Rossum and released in 1991?"
+        answers:
+          A: "Java"
+          B: "Perl"
+          C: "Ruby"
+          D: "Python"
+    difficulty: EASY
+  - text: "Quel algorithme de chiffrement asymétrique a été inventé par Rivest, Shamir et Adleman en 1977 ?"
+    answers:
+      A: "AES"
+      B: "DES"
+      C: "RSA"
+      D: "Blowfish"
     correctAnswer: C
     translations:
       en:
-        text: "Which web browser is developed by the Mozilla Foundation?"
+        text: "Which asymmetric encryption algorithm was invented by Rivest, Shamir and Adleman in 1977?"
         answers:
-          A: "Edge"
-          B: "Chrome"
-          C: "Firefox"
-          D: "Safari"
-    difficulty: EASY
-  - text: "Que signifie le sigle « HTTP » ?"
+          A: "AES"
+          B: "DES"
+          C: "RSA"
+          D: "Blowfish"
+    difficulty: MEDIUM
+  - text: "Quel système de noms de domaine a été introduit en 1983 pour remplacer les fichiers hosts centralisés ?"
     answers:
-      A: "High Transfer Text Program"
-      B: "HyperTerminal Transfer Protocol"
-      C: "HyperText Transfer Protocol"
-      D: "Home Tool Transfer Process"
+      A: "LDAP"
+      B: "DHCP"
+      C: "DNS"
+      D: "NIS"
     correctAnswer: C
     translations:
       en:
-        text: "What does the acronym \"HTTP\" stand for?"
+        text: "Which domain name system was introduced in 1983 to replace centralized hosts files?"
         answers:
-          A: "High Transfer Text Program"
-          B: "HyperTerminal Transfer Protocol"
-          C: "HyperText Transfer Protocol"
-          D: "Home Tool Transfer Process"
-    difficulty: EASY
-  - text: "Quel assistant vocal est développé par Apple ?"
+          A: "LDAP"
+          B: "DHCP"
+          C: "DNS"
+          D: "NIS"
+    difficulty: EXPERT
+  - text: "Quel navigateur web a été le premier à populariser le concept d'onglets ?"
     answers:
-      A: "Siri"
-      B: "Cortana"
-      C: "Alexa"
-      D: "Bixby"
+      A: "Opera"
+      B: "Netscape Navigator"
+      C: "Mosaic"
+      D: "Internet Explorer"
     correctAnswer: A
     translations:
       en:
-        text: "Which voice assistant is developed by Apple?"
+        text: "Which web browser was the first to popularize the concept of tabs?"
         answers:
-          A: "Siri"
-          B: "Cortana"
-          C: "Alexa"
-          D: "Bixby"
-    difficulty: EASY
-  - text: "Que produit une intelligence artificielle dite « générative » ?"
+          A: "Opera"
+          B: "Netscape Navigator"
+          C: "Mosaic"
+          D: "Internet Explorer"
+    difficulty: EXPERT
+  - text: "Quel protocole est utilisé pour transférer des fichiers sur Internet et a été standardisé en 1985 ?"
     answers:
-      A: "Des circuits électroniques"
-      B: "Uniquement des calculs numériques"
-      C: "Du texte, des images ou d'autres contenus"
-      D: "Des câbles réseau"
+      A: "HTTP"
+      B: "SMTP"
+      C: "FTP"
+      D: "SSH"
     correctAnswer: C
     translations:
       en:
-        text: "What does so-called \"generative\" artificial intelligence produce?"
+        text: "Which protocol is used to transfer files over the Internet and was standardized in 1985?"
         answers:
-          A: "Electronic circuits"
-          B: "Only numerical calculations"
-          C: "Text, images, or other content"
-          D: "Network cables"
-    difficulty: EASY
-  - text: "Que signifie le sigle « IP » dans l'expression « adresse IP » ?"
+          A: "HTTP"
+          B: "SMTP"
+          C: "FTP"
+          D: "SSH"
+    difficulty: HARD
+  - text: "Qui a proposé le test de Turing en 1950 ?"
     answers:
-      A: "Internet Provider"
-      B: "Internet Protocol"
-      C: "Interconnect Port"
-      D: "Internal Protocol"
+      A: "John McCarthy"
+      B: "Alan Turing"
+      C: "Marvin Minsky"
+      D: "Claude Shannon"
     correctAnswer: B
     translations:
       en:
-        text: "What does the acronym \"IP\" stand for in the phrase \"IP address\"?"
+        text: "Who proposed the Turing test in 1950?"
         answers:
-          A: "Internet Provider"
-          B: "Internet Protocol"
-          C: "Interconnect Port"
-          D: "Internal Protocol"
+          A: "John McCarthy"
+          B: "Alan Turing"
+          C: "Marvin Minsky"
+          D: "Claude Shannon"
     difficulty: EASY
-  - text: "En quelle année les deux premiers nœuds d'ARPANET ont-ils été reliés ?"
+  - text: "Quel programme d'IA a battu le champion du monde d'échecs Garry Kasparov en 1997 ?"
     answers:
-      A: "1959"
-      B: "1989"
-      C: "1979"
-      D: "1969"
+      A: "Stockfish"
+      B: "AlphaGo"
+      C: "Watson"
+      D: "Deep Blue"
     correctAnswer: D
     translations:
       en:
-        text: "In what year were the first two ARPANET nodes connected?"
+        text: "Which AI program beat world chess champion Garry Kasparov in 1997?"
         answers:
-          A: "1959"
-          B: "1989"
-          C: "1979"
-          D: "1969"
-    difficulty: MEDIUM
-  - text: "À quoi sert principalement le DNS ?"
+          A: "Stockfish"
+          B: "AlphaGo"
+          C: "Watson"
+          D: "Deep Blue"
+    difficulty: EASY
+  - text: "Quel réseau de neurones a remporté le concours ImageNet en 2012, marquant le début de l'essor du deep learning ?"
     answers:
-      A: "Chiffrer les communications"
-      B: "Stocker les pages web"
-      C: "Envoyer des e-mails"
-      D: "Traduire les noms de domaine en adresses IP"
+      A: "LeNet"
+      B: "ResNet"
+      C: "VGG"
+      D: "AlexNet"
     correctAnswer: D
     translations:
       en:
-        text: "What is DNS mainly used for?"
+        text: "Which neural network won the ImageNet competition in 2012, marking the beginning of the deep learning boom?"
         answers:
-          A: "Encrypting communications"
-          B: "Storing web pages"
-          C: "Sending e-mails"
-          D: "Translating domain names into IP addresses"
-    difficulty: MEDIUM
-  - text: "Dans quel domaine le programme Deep Blue d'IBM a-t-il battu Garry Kasparov en 1997 ?"
+          A: "LeNet"
+          B: "ResNet"
+          C: "VGG"
+          D: "AlexNet"
+    difficulty: HARD
+  - text: "Quelle entreprise a créé l'assistant vocal Siri, racheté par Apple en 2010 ?"
     answers:
-      A: "Le jeu de go"
-      B: "Les échecs"
-      C: "Le poker"
-      D: "Les dames"
+      A: "Nuance"
+      B: "Siri Inc."
+      C: "Google"
+      D: "Microsoft"
     correctAnswer: B
     translations:
       en:
-        text: "In what field did IBM's Deep Blue program beat Garry Kasparov in 1997?"
+        text: "Which company created the voice assistant Siri, acquired by Apple in 2010?"
         answers:
-          A: "Go"
-          B: "Chess"
-          C: "Poker"
-          D: "Checkers"
-    difficulty: MEDIUM
-  - text: "Qu'est-ce qui a inspiré la conception des réseaux de neurones artificiels ?"
+          A: "Nuance"
+          B: "Siri Inc."
+          C: "Google"
+          D: "Microsoft"
+    difficulty: HARD
+  - text: "Quel modèle de langage a été publié par OpenAI en 2018 ?"
     answers:
-      A: "Le cerveau humain"
-      B: "Les circuits imprimés"
-      C: "Le langage binaire"
-      D: "Les algorithmes génétiques"
+      A: "GPT-1"
+      B: "BERT"
+      C: "ELMo"
+      D: "Transformer"
     correctAnswer: A
     translations:
       en:
-        text: "What inspired the design of artificial neural networks?"
+        text: "Which language model was published by OpenAI in 2018?"
         answers:
-          A: "The human brain"
-          B: "Printed circuits"
-          C: "Binary language"
-          D: "Genetic algorithms"
-    difficulty: MEDIUM
-  - text: "Que signifie l'expression anglaise « machine learning » ?"
+          A: "GPT-1"
+          B: "BERT"
+          C: "ELMo"
+          D: "Transformer"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'algorithme d'apprentissage supervisé utilisé pour la classification et la régression, basé sur la construction d'arbres de décision ?"
     answers:
-      A: "La traduction automatique"
-      B: "La programmation manuelle"
-      C: "L'apprentissage automatique"
-      D: "Le stockage de données"
+      A: "PCA"
+      B: "K-means"
+      C: "Random Forest"
+      D: "Apriori"
     correctAnswer: C
     translations:
       en:
-        text: "What does the English expression 'machine learning' mean?"
+        text: "What is the name of the supervised learning algorithm used for classification and regression, based on building decision trees?"
         answers:
-          A: "Automatic translation"
-          B: "Manual programming"
-          C: "Automatic learning"
-          D: "Data storage"
+          A: "PCA"
+          B: "K-means"
+          C: "Random Forest"
+          D: "Apriori"
     difficulty: MEDIUM
-  - text: "Comme l'illustre ce centre de données, qu'est-ce que le « cloud computing » ?"
+  - text: "Qu'est-ce que le « cloud computing » ?"
     imageUrl: wikipedia/technology/Virginia_Tech_-_data_center.jpg
     answers:
       A: "Un logiciel de retouche photo"
@@ -307,654 +307,654 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "As illustrated by this data center, what is \"cloud computing\"?"
+        text: "What is 'cloud computing'?"
         answers:
           A: "A photo editing software"
           B: "Access to IT services via the Internet"
           C: "A type of network cable"
           D: "An email protocol"
-    difficulty: MEDIUM
-  - text: "Qu'est-ce qu'un chatbot ?"
-    answers:
-      A: "Un site de commerce en ligne"
-      B: "Un robot physique de compagnie"
-      C: "Un programme capable de dialoguer avec un utilisateur"
-      D: "Un moteur de recherche"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is a chatbot?"
-        answers:
-          A: "An online shopping site"
-          B: "A physical companion robot"
-          C: "A program capable of conversing with a user"
-          D: "A search engine"
-    difficulty: MEDIUM
-  - text: "Qui a fondé Facebook ?"
-    answers:
-      A: "Elon Musk"
-      B: "Mark Zuckerberg"
-      C: "Jack Dorsey"
-      D: "Jeff Bezos"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who founded Facebook?"
-        answers:
-          A: "Elon Musk"
-          B: "Mark Zuckerberg"
-          C: "Jack Dorsey"
-          D: "Jeff Bezos"
-    difficulty: MEDIUM
-  - text: "Qu'appelle-t-on un logiciel « open source » ?"
-    answers:
-      A: "Un logiciel payant"
-      B: "Un format de fichier"
-      C: "Un réseau social"
-      D: "Un logiciel dont le code source est accessible"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is 'open source' software?"
-        answers:
-          A: "Paid software"
-          B: "A file format"
-          C: "A social network"
-          D: "Software whose source code is accessible"
-    difficulty: MEDIUM
-  - text: "Sur quelles données repose l'apprentissage supervisé ?"
-    answers:
-      A: "Des données étiquetées"
-      B: "Des données générées au hasard"
-      C: "Des données non structurées uniquement"
-      D: "Des données chiffrées"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What data does supervised learning rely on?"
-        answers:
-          A: "Labeled data"
-          B: "Randomly generated data"
-          C: "Unstructured data only"
-          D: "Encrypted data"
-    difficulty: MEDIUM
-  - text: "Quelle entreprise a créé l'assistant vocal Alexa ?"
-    answers:
-      A: "Amazon"
-      B: "Apple"
-      C: "Microsoft"
-      D: "Meta"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which company created the voice assistant Alexa?"
-        answers:
-          A: "Amazon"
-          B: "Apple"
-          C: "Microsoft"
-          D: "Meta"
-    difficulty: MEDIUM
-  - text: "Qu'apporte le protocole HTTPS par rapport à HTTP ?"
-    answers:
-      A: "Une connexion plus rapide"
-      B: "Une communication chiffrée et sécurisée"
-      C: "Une traduction automatique des pages"
-      D: "Un rendu des images en haute définition"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does the HTTPS protocol provide compared to HTTP?"
-        answers:
-          A: "A faster connection"
-          B: "Encrypted and secure communication"
-          C: "Automatic page translation"
-          D: "High-definition image rendering"
-    difficulty: MEDIUM
-  - text: "Quels caractères ont formé le premier message transmis sur ARPANET en 1969 ?"
-    answers:
-      A: "LO"
-      B: "HI"
-      C: "HELLO"
-      D: "TEST"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What characters formed the first message transmitted on ARPANET in 1969?"
-        answers:
-          A: "LO"
-          B: "HI"
-          C: "HELLO"
-          D: "TEST"
-    difficulty: HARD
-  - text: "En quelle année Tim Berners-Lee a-t-il proposé la création du Web au CERN ?"
-    answers:
-      A: "1979"
-      B: "1989"
-      C: "1994"
-      D: "1999"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year did Tim Berners-Lee propose the creation of the Web at CERN?"
-        answers:
-          A: "1979"
-          B: "1989"
-          C: "1994"
-          D: "1999"
-    difficulty: HARD
-  - text: "Qui a inventé le perceptron, premier modèle de neurone artificiel entraînable ?"
-    answers:
-      A: "Alan Turing"
-      B: "Frank Rosenblatt"
-      C: "Marvin Minsky"
-      D: "John McCarthy"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who invented the perceptron, the first trainable artificial neuron model?"
-        answers:
-          A: "Alan Turing"
-          B: "Frank Rosenblatt"
-          C: "Marvin Minsky"
-          D: "John McCarthy"
-    difficulty: HARD
-  - text: "Qui a forgé l'expression « intelligence artificielle » ?"
-    answers:
-      A: "John McCarthy"
-      B: "Alan Turing"
-      C: "Claude Shannon"
-      D: "Herbert Simon"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who coined the term 'artificial intelligence'?"
-        answers:
-          A: "John McCarthy"
-          B: "Alan Turing"
-          C: "Claude Shannon"
-          D: "Herbert Simon"
-    difficulty: HARD
-  - text: "Qui a créé ELIZA, l'un des premiers programmes de conversation automatique ?"
-    answers:
-      A: "Alan Turing"
-      B: "Terry Winograd"
-      C: "Joseph Weizenbaum"
-      D: "Marvin Minsky"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who created ELIZA, one of the first automatic conversation programs?"
-        answers:
-          A: "Alan Turing"
-          B: "Terry Winograd"
-          C: "Joseph Weizenbaum"
-          D: "Marvin Minsky"
-    difficulty: HARD
-  - text: "Que désigne le sigle « TCP/IP » ?"
-    answers:
-      A: "Transfer Control Process / Internal Protocol"
-      B: "Transmission Control Protocol / Internet Protocol"
-      C: "Terminal Connection Protocol / Internet Port"
-      D: "Transmission Channel Program / Interconnected Ports"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does the acronym \"TCP/IP\" stand for?"
-        answers:
-          A: "Transfer Control Process / Internal Protocol"
-          B: "Transmission Control Protocol / Internet Protocol"
-          C: "Terminal Connection Protocol / Internet Port"
-          D: "Transmission Channel Program / Interconnected Ports"
-    difficulty: HARD
-  - text: "Qui a choisi le symbole « @ » pour séparer l'utilisateur du domaine dans les adresses e-mail ?"
-    answers:
-      A: "Ray Tomlinson"
-      B: "Tim Berners-Lee"
-      C: "Vint Cerf"
-      D: "Steve Crocker"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who chose the \"@\" symbol to separate the user from the domain in email addresses?"
-        answers:
-          A: "Ray Tomlinson"
-          B: "Tim Berners-Lee"
-          C: "Vint Cerf"
-          D: "Steve Crocker"
-    difficulty: HARD
-  - text: "En quelle année Google a-t-il été fondé ?"
-    answers:
-      A: "1998"
-      B: "1996"
-      C: "2000"
-      D: "1994"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year was Google founded?"
-        answers:
-          A: "1998"
-          B: "1996"
-          C: "2000"
-          D: "1994"
-    difficulty: HARD
-  - text: "Comment s'appelait le tout premier navigateur web, créé par Tim Berners-Lee ?"
-    answers:
-      A: "Mosaic"
-      B: "Internet Explorer"
-      C: "Netscape"
-      D: "WorldWideWeb"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What was the name of the very first web browser, created by Tim Berners-Lee?"
-        answers:
-          A: "Mosaic"
-          B: "Internet Explorer"
-          C: "Netscape"
-          D: "WorldWideWeb"
-    difficulty: HARD
-  - text: "Qui a formulé les trois lois de la robotique ?"
-    answers:
-      A: "Arthur C. Clarke"
-      B: "Isaac Asimov"
-      C: "Philip K. Dick"
-      D: "Jules Verne"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who formulated the three laws of robotics?"
-        answers:
-          A: "Arthur C. Clarke"
-          B: "Isaac Asimov"
-          C: "Philip K. Dick"
-          D: "Jules Verne"
-    difficulty: HARD
-  - text: "Qui a introduit la distinction entre IA faible et IA forte ?"
-    answers:
-      A: "Marvin Minsky"
-      B: "Alan Turing"
-      C: "John Searle"
-      D: "John McCarthy"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who introduced the distinction between weak AI and strong AI?"
-        answers:
-          A: "Marvin Minsky"
-          B: "Alan Turing"
-          C: "John Searle"
-          D: "John McCarthy"
-    difficulty: HARD
-  - text: "Quel est le premier moteur de recherche apparu sur Internet, en 1990 ?"
-    answers:
-      A: "Archie"
-      B: "Yahoo"
-      C: "AltaVista"
-      D: "Lycos"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What was the first search engine to appear on the Internet, in 1990?"
-        answers:
-          A: "Archie"
-          B: "Yahoo"
-          C: "AltaVista"
-          D: "Lycos"
-    difficulty: HARD
-  - text: "Quel navigateur, sorti en 1993, a popularisé le Web en affichant les images dans les pages ?"
-    answers:
-      A: "Lynx"
-      B: "Opera"
-      C: "Netscape Navigator"
-      D: "NCSA Mosaic"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which browser, released in 1993, popularized the Web by displaying images within pages?"
-        answers:
-          A: "Lynx"
-          B: "Opera"
-          C: "Netscape Navigator"
-          D: "NCSA Mosaic"
-    difficulty: HARD
-  - text: "En quelle année s'est tenue la conférence de Dartmouth, souvent considérée comme l'acte de naissance de l'intelligence artificielle ?"
-    answers:
-      A: "1956"
-      B: "1950"
-      C: "1962"
-      D: "1969"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year was the Dartmouth conference held, often considered the birth of artificial intelligence?"
-        answers:
-          A: "1956"
-          B: "1950"
-          C: "1962"
-          D: "1969"
-    difficulty: EXPERT
-  - text: "Qui a proposé en 1943, avec Walter Pitts, le premier modèle mathématique du neurone artificiel ?"
-    answers:
-      A: "Warren McCulloch"
-      B: "John von Neumann"
-      C: "Alan Turing"
-      D: "Norbert Wiener"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who proposed, in 1943 with Walter Pitts, the first mathematical model of the artificial neuron?"
-        answers:
-          A: "Warren McCulloch"
-          B: "John von Neumann"
-          C: "Alan Turing"
-          D: "Norbert Wiener"
-    difficulty: EXPERT
-  - text: "Quel essai de Vannevar Bush, publié en 1945, est souvent cité comme une source d'inspiration du Web ?"
-    answers:
-      A: "Computing Machinery and Intelligence"
-      B: "As We May Think"
-      C: "The Computer and the Brain"
-      D: "Cybernetics"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which essay by Vannevar Bush, published in 1945, is often cited as an inspiration for the Web?"
-        answers:
-          A: "Computing Machinery and Intelligence"
-          B: "As We May Think"
-          C: "The Computer and the Brain"
-          D: "Cybernetics"
-    difficulty: EXPERT
-  - text: "Quel document de 1981 (RFC 791) définit le protocole Internet dans sa version 4 ?"
-    answers:
-      A: "Le DNS"
-      B: "Le protocole HTTP"
-      C: "Le protocole IPv4"
-      D: "Le protocole SMTP"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which 1981 document (RFC 791) defines version 4 of the Internet Protocol?"
-        answers:
-          A: "DNS"
-          B: "The HTTP protocol"
-          C: "The IPv4 protocol"
-          D: "The SMTP protocol"
-    difficulty: EXPERT
-  - text: "Qui a conçu en 1997 l'architecture de réseau de neurones dite LSTM ?"
-    answers:
-      A: "Yann LeCun et Geoffrey Hinton"
-      B: "Yoshua Bengio et Ian Goodfellow"
-      C: "Sepp Hochreiter et Jürgen Schmidhuber"
-      D: "Demis Hassabis et David Silver"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who designed the neural network architecture known as LSTM in 1997?"
-        answers:
-          A: "Yann LeCun and Geoffrey Hinton"
-          B: "Yoshua Bengio and Ian Goodfellow"
-          C: "Sepp Hochreiter and Jürgen Schmidhuber"
-          D: "Demis Hassabis and David Silver"
-    difficulty: EXPERT
-  - text: "Quels chercheurs ont popularisé l'algorithme de rétropropagation du gradient en 1986 ?"
-    answers:
-      A: "David Rumelhart, Geoffrey Hinton et Ronald Williams"
-      B: "Bernard Widrow et Marcian Hoff"
-      C: "Marvin Minsky et Seymour Papert"
-      D: "Warren McCulloch et Walter Pitts"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which researchers popularized the gradient backpropagation algorithm in 1986?"
-        answers:
-          A: "David Rumelhart, Geoffrey Hinton and Ronald Williams"
-          B: "Bernard Widrow and Marcian Hoff"
-          C: "Marvin Minsky and Seymour Papert"
-          D: "Warren McCulloch and Walter Pitts"
-    difficulty: EXPERT
-  - text: "Qu'était Creeper, apparu en 1971 ?"
-    answers:
-      A: "Le premier navigateur web"
-      B: "Le premier moteur de recherche"
-      C: "Le premier programme auto-répliquant"
-      D: "Le premier réseau de neurones"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What was Creeper, which appeared in 1971?"
-        answers:
-          A: "The first web browser"
-          B: "The first search engine"
-          C: "The first self-replicating program"
-          D: "The first neural network"
-    difficulty: EXPERT
-  - text: "Quel chercheur est considéré comme le pionnier des réseaux de neurones convolutifs, avec LeNet ?"
-    answers:
-      A: "Yann LeCun"
-      B: "Yoshua Bengio"
-      C: "Jürgen Schmidhuber"
-      D: "Geoffrey Hinton"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which researcher is considered the pioneer of convolutional neural networks, with LeNet?"
-        answers:
-          A: "Yann LeCun"
-          B: "Yoshua Bengio"
-          C: "Jürgen Schmidhuber"
-          D: "Geoffrey Hinton"
-    difficulty: EXPERT
-  - text: "Qu'a démontré l'ouvrage « Perceptrons » de Minsky et Papert, publié en 1969 ?"
-    answers:
-      A: "L'inutilité de l'apprentissage automatique"
-      B: "La supériorité des réseaux profonds"
-      C: "Les limites du perceptron à une seule couche"
-      D: "La fin de l'IA symbolique"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What did the 1969 book \"Perceptrons\" by Minsky and Papert demonstrate?"
-        answers:
-          A: "The uselessness of machine learning"
-          B: "The superiority of deep networks"
-          C: "The limitations of the single-layer perceptron"
-          D: "The end of symbolic AI"
-    difficulty: EXPERT
-  - text: "Qui est considéré comme l'auteur du premier spam, envoyé en 1978 ?"
-    answers:
-      A: "Ray Tomlinson"
-      B: "Gary Thuerk"
-      C: "Vint Cerf"
-      D: "Steve Wozniak"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who is considered the author of the first spam, sent in 1978?"
-        answers:
-          A: "Ray Tomlinson"
-          B: "Gary Thuerk"
-          C: "Vint Cerf"
-          D: "Steve Wozniak"
-    difficulty: EXPERT
-  - text: "Quel article de 2017, intitulé « Attention Is All You Need », a introduit l'architecture Transformer ?"
-    answers:
-      A: "Un article de DeepMind"
-      B: "Un article de chercheurs de Google"
-      C: "Un article d'OpenAI"
-      D: "Un article de Meta"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which 2017 paper, titled \"Attention Is All You Need,\" introduced the Transformer architecture?"
-        answers:
-          A: "A DeepMind paper"
-          B: "A paper by Google researchers"
-          C: "An OpenAI paper"
-          D: "A Meta paper"
-    difficulty: EXPERT
-  - text: "Qui a inventé le terme « hypertexte » en 1965 ?"
-    answers:
-      A: "Ted Nelson"
-      B: "Tim Berners-Lee"
-      C: "Vannevar Bush"
-      D: "Douglas Engelbart"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who coined the term \"hypertext\" in 1965?"
-        answers:
-          A: "Ted Nelson"
-          B: "Tim Berners-Lee"
-          C: "Vannevar Bush"
-          D: "Douglas Engelbart"
-    difficulty: EXPERT
-  - text: "Quel assistant vocal est intégré aux iPhone, iPad et Mac d'Apple ?"
-    answers:
-      A: "Alexa"
-      B: "Siri"
-      C: "Cortana"
-      D: "Bixby"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which voice assistant is built into Apple's iPhone, iPad, and Mac?"
-        answers:
-          A: "Alexa"
-          B: "Siri"
-          C: "Cortana"
-          D: "Bixby"
     difficulty: EASY
-  - text: "Quel est le nom de l'assistant vocal d'Amazon ?"
+  - text: "Quel est le principal composant matériel utilisé pour accélérer l'entraînement des réseaux de neurones profonds ?"
     answers:
-      A: "Alexa"
-      B: "Siri"
-      C: "Google Now"
+      A: "CPU"
+      B: "FPGA"
+      C: "GPU"
+      D: "ASIC"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the main hardware component used to accelerate the training of deep neural networks?"
+        answers:
+          A: "CPU"
+          B: "FPGA"
+          C: "GPU"
+          D: "ASIC"
+    difficulty: EASY
+  - text: "Quel principe énoncé par Gordon Moore en 1965 prédit le doublement du nombre de transistors sur une puce environ tous les deux ans ?"
+    answers:
+      A: "Loi de Metcalfe"
+      B: "Loi de Moore"
+      C: "Loi de Nielsen"
+      D: "Loi de Reed"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which principle stated by Gordon Moore in 1965 predicts the doubling of the number of transistors on a chip about every two years?"
+        answers:
+          A: "Metcalfe's Law"
+          B: "Moore's Law"
+          C: "Nielsen's Law"
+          D: "Reed's Law"
+    difficulty: MEDIUM
+  - text: "Quel pays a lancé le premier satellite de communication géostationnaire, Syncom 2, en 1963 ?"
+    answers:
+      A: "URSS"
+      B: "France"
+      C: "Royaume-Uni"
+      D: "États-Unis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country launched the first geostationary communication satellite, Syncom 2, in 1963?"
+        answers:
+          A: "USSR"
+          B: "France"
+          C: "United Kingdom"
+          D: "United States"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protocole utilisé pour envoyer des courriels, standardisé en 1982 ?"
+    answers:
+      A: "SMTP"
+      B: "IMAP"
+      C: "POP3"
+      D: "HTTP"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the protocol used to send emails, standardized in 1982?"
+        answers:
+          A: "SMTP"
+          B: "IMAP"
+          C: "POP3"
+          D: "HTTP"
+    difficulty: HARD
+  - text: "Quel RFC, publié en 1981, décrit le protocole IP version 4 ?"
+    answers:
+      A: "RFC 791"
+      B: "RFC 793"
+      C: "RFC 768"
+      D: "RFC 959"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which RFC, published in 1981, describes the IP version 4 protocol?"
+        answers:
+          A: "RFC 791"
+          B: "RFC 793"
+          C: "RFC 768"
+          D: "RFC 959"
+    difficulty: EXPERT
+  - text: "Quel algorithme de routage utilise l'algorithme de Dijkstra pour calculer le plus court chemin ?"
+    answers:
+      A: "BGP"
+      B: "OSPF"
+      C: "RIP"
+      D: "EIGRP"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which routing algorithm uses Dijkstra's algorithm to calculate the shortest path?"
+        answers:
+          A: "BGP"
+          B: "OSPF"
+          C: "RIP"
+          D: "EIGRP"
+    difficulty: EXPERT
+  - text: "Quelle entreprise a créé le protocole MQTT, standardisé par l'OASIS en 2014 ?"
+    answers:
+      A: "IBM"
+      B: "Microsoft"
+      C: "Google"
+      D: "Cisco"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which company created the MQTT protocol, standardized by OASIS in 2014?"
+        answers:
+          A: "IBM"
+          B: "Microsoft"
+          C: "Google"
+          D: "Cisco"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier algorithme d'apprentissage profond pour les réseaux de neurones à convolution, publié par Yann LeCun en 1989 ?"
+    answers:
+      A: "AlexNet"
+      B: "LeNet"
+      C: "ResNet"
+      D: "VGG"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first deep learning algorithm for convolutional neural networks, published by Yann LeCun in 1989?"
+        answers:
+          A: "AlexNet"
+          B: "LeNet"
+          C: "ResNet"
+          D: "VGG"
+    difficulty: EXPERT
+  - text: "Quel jeu de données, créé par Fei-Fei Li en 2009, a permis des avancées majeures en vision par ordinateur ?"
+    answers:
+      A: "COCO"
+      B: "ImageNet"
+      C: "MNIST"
+      D: "CIFAR-10"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which dataset, created by Fei-Fei Li in 2009, enabled major advances in computer vision?"
+        answers:
+          A: "COCO"
+          B: "ImageNet"
+          C: "MNIST"
+          D: "CIFAR-10"
+    difficulty: EXPERT
+  - text: "Quel langage de programmation a été créé par Brendan Eich en 1995 ?"
+    answers:
+      A: "JavaScript"
+      B: "Python"
+      C: "Java"
+      D: "Ruby"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which programming language was created by Brendan Eich in 1995?"
+        answers:
+          A: "JavaScript"
+          B: "Python"
+          C: "Java"
+          D: "Ruby"
+    difficulty: MEDIUM
+  - text: "Quel système d'exploitation open source a été créé par Linus Torvalds en 1991 ?"
+    answers:
+      A: "Windows"
+      B: "macOS"
+      C: "Linux"
+      D: "FreeBSD"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which open source operating system was created by Linus Torvalds in 1991?"
+        answers:
+          A: "Windows"
+          B: "macOS"
+          C: "Linux"
+          D: "FreeBSD"
+    difficulty: EASY
+  - text: "Quel est le nom du premier ordinateur électronique programmable, achevé en 1945 ?"
+    answers:
+      A: "Colossus"
+      B: "ENIAC"
+      C: "UNIVAC"
+      D: "EDVAC"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first programmable electronic computer, completed in 1945?"
+        answers:
+          A: "Colossus"
+          B: "ENIAC"
+          C: "UNIVAC"
+          D: "EDVAC"
+    difficulty: HARD
+  - text: "Qui a formulé la loi de Moore en 1965 ?"
+    answers:
+      A: "Gordon Moore"
+      B: "Robert Noyce"
+      C: "Andy Grove"
+      D: "Jack Kilby"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who formulated Moore's law in 1965?"
+        answers:
+          A: "Gordon Moore"
+          B: "Robert Noyce"
+          C: "Andy Grove"
+          D: "Jack Kilby"
+    difficulty: EASY
+  - text: "Quel langage de programmation a été créé par James Gosling en 1995 ?"
+    answers:
+      A: "Java"
+      B: "Python"
+      C: "C++"
+      D: "C#"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which programming language was created by James Gosling in 1995?"
+        answers:
+          A: "Java"
+          B: "Python"
+          C: "C++"
+          D: "C#"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier superordinateur à avoir battu le champion du monde d'échecs Garry Kasparov en 1997 ?"
+    answers:
+      A: "Stockfish"
+      B: "Watson"
+      C: "AlphaGo"
+      D: "Deep Blue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first supercomputer to beat world chess champion Garry Kasparov in 1997?"
+        answers:
+          A: "Stockfish"
+          B: "Watson"
+          C: "AlphaGo"
+          D: "Deep Blue"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du programme d'IA développé par IBM qui a battu les champions du jeu télévisé Jeopardy! en 2011 ?"
+    answers:
+      A: "Deep Blue"
+      B: "Watson"
+      C: "AlphaGo"
+      D: "Siri"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the AI program developed by IBM that beat the champions of the TV game show Jeopardy! in 2011?"
+        answers:
+          A: "Deep Blue"
+          B: "Watson"
+          C: "AlphaGo"
+          D: "Siri"
+    difficulty: HARD
+  - text: "Quel est le nom du programme d'IA développé par DeepMind qui a battu le champion du monde de Go en 2016 ?"
+    answers:
+      A: "Deep Blue"
+      B: "AlphaZero"
+      C: "AlphaGo"
       D: "Watson"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the AI program developed by DeepMind that beat the world Go champion in 2016?"
+        answers:
+          A: "Deep Blue"
+          B: "AlphaZero"
+          C: "AlphaGo"
+          D: "Watson"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la fonction d'activation utilisée dans les réseaux de neurones, définie comme f(x) = max(0, x) ?"
+    answers:
+      A: "ReLU"
+      B: "Tanh"
+      C: "Sigmoïde"
+      D: "Softmax"
     correctAnswer: A
     translations:
       en:
-        text: "What is the name of Amazon's voice assistant?"
+        text: "What is the name of the activation function used in neural networks, defined as f(x) = max(0, x)?"
         answers:
-          A: "Alexa"
-          B: "Siri"
-          C: "Google Now"
-          D: "Watson"
-    difficulty: EASY
-  - text: "Quel service de traduction automatique appartient à Google ?"
+          A: "ReLU"
+          B: "Tanh"
+          C: "Sigmoid"
+          D: "Softmax"
+    difficulty: HARD
+  - text: "Quel est le nom de la technique de régularisation qui consiste à désactiver aléatoirement des neurones pendant l'entraînement ?"
     answers:
-      A: "DeepL"
-      B: "Bing Traducteur"
-      C: "Google Traduction"
-      D: "Reverso"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which machine translation service belongs to Google?"
-        answers:
-          A: "DeepL"
-          B: "Bing Translator"
-          C: "Google Translate"
-          D: "Reverso"
-    difficulty: EASY
-  - text: "Qu'est-ce qu'un cookie déposé par un site web ?"
-    answers:
-      A: "Un virus qui détruit le disque dur"
-      B: "Un petit fichier qui mémorise des informations dans le navigateur"
-      C: "Un logiciel de retouche photo"
-      D: "Une pièce jointe envoyée par courriel"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is a cookie placed by a website?"
-        answers:
-          A: "A virus that destroys the hard drive"
-          B: "A small file that stores information in the browser"
-          C: "Photo editing software"
-          D: "An attachment sent by email"
-    difficulty: EASY
-  - text: "Quel mot de passe figure régulièrement en tête des classements des plus mauvais mots de passe ?"
-    answers:
-      A: "Azerty2024!"
-      B: "Xy!9#Lm2Q"
-      C: "q7$Vp3*Kd"
-      D: "123456"
+      A: "Early stopping"
+      B: "Batch normalization"
+      C: "Data augmentation"
+      D: "Dropout"
     correctAnswer: D
     translations:
       en:
-        text: "Which password regularly tops the rankings of the worst passwords?"
+        text: "What is the name of the regularization technique that consists of randomly deactivating neurons during training?"
         answers:
-          A: "Azerty2024!"
-          B: "Xy!9#Lm2Q"
-          C: "q7$Vp3*Kd"
-          D: "123456"
-    difficulty: EASY
-  - text: "Comment appelle-t-on le stockage de données sur des serveurs distants accessibles par Internet ?"
+          A: "Early stopping"
+          B: "Batch normalization"
+          C: "Data augmentation"
+          D: "Dropout"
+    difficulty: HARD
+  - text: "Quel est le nom de l'algorithme d'optimisation qui adapte le taux d'apprentissage pour chaque paramètre, introduit par Diederik Kingma et Jimmy Ba en 2014 ?"
     answers:
-      A: "Le disque dur local"
-      B: "Le cloud"
-      C: "La mémoire RAM"
-      D: "Le BIOS"
+      A: "Adam"
+      B: "SGD"
+      C: "RMSprop"
+      D: "Adagrad"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the optimization algorithm that adapts the learning rate for each parameter, introduced by Diederik Kingma and Jimmy Ba in 2014?"
+        answers:
+          A: "Adam"
+          B: "SGD"
+          C: "RMSprop"
+          D: "Adagrad"
+    difficulty: EXPERT
+  - text: "Quel est le nom du réseau neuronal génératif introduit par Ian Goodfellow en 2014 ?"
+    answers:
+      A: "GAN"
+      B: "VAE"
+      C: "RNN"
+      D: "CNN"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the generative neural network introduced by Ian Goodfellow in 2014?"
+        answers:
+          A: "GAN"
+          B: "VAE"
+          C: "RNN"
+          D: "CNN"
+    difficulty: HARD
+  - text: "Quel est le nom de la fonction de coût couramment utilisée pour la classification binaire ?"
+    answers:
+      A: "Erreur quadratique moyenne"
+      B: "Entropie croisée"
+      C: "Perte hinge"
+      D: "Kullback-Leibler"
     correctAnswer: B
     translations:
       en:
-        text: "What is the storage of data on remote servers accessible via the Internet called?"
+        text: "What is the name of the loss function commonly used for binary classification?"
         answers:
-          A: "The local hard drive"
-          B: "The cloud"
-          C: "RAM"
-          D: "The BIOS"
-    difficulty: EASY
-  - text: "Quel robot aspirateur est le plus connu du grand public ?"
+          A: "Mean squared error"
+          B: "Cross-entropy"
+          C: "Hinge loss"
+          D: "Kullback-Leibler"
+    difficulty: HARD
+  - text: "Quel est le nom de la méthode d'apprentissage qui combine un modèle génératif et un modèle discriminatif ?"
     answers:
-      A: "Pepper"
-      B: "Roomba"
-      C: "Spot"
-      D: "Nao"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which robot vacuum is the best known to the general public?"
-        answers:
-          A: "Pepper"
-          B: "Roomba"
-          C: "Spot"
-          D: "Nao"
-    difficulty: EASY
-  - text: "Comment appelle-t-on la validation d'un compte avec un code envoyé en plus du mot de passe ?"
-    answers:
-      A: "Le pare-feu"
-      B: "Le mode avion"
-      C: "L'authentification à deux facteurs"
-      D: "Le copier-coller"
+      A: "Apprentissage supervisé"
+      B: "Apprentissage non supervisé"
+      C: "Apprentissage par renforcement"
+      D: "Apprentissage par transfert"
     correctAnswer: C
     translations:
       en:
-        text: "What is verifying an account with a code sent in addition to the password called?"
+        text: "What is the name of the learning method that combines a generative model and a discriminative model?"
         answers:
-          A: "The firewall"
-          B: "Airplane mode"
-          C: "Two-factor authentication"
-          D: "Copy and paste"
-    difficulty: EASY
-  - text: "Sur quel jeu de société AlphaGo s'est-il illustré en battant des champions humains ?"
+          A: "Supervised learning"
+          B: "Unsupervised learning"
+          C: "Reinforcement learning"
+          D: "Transfer learning"
+    difficulty: HARD
+  - text: "Quel est le nom de la bibliothèque open source développée par Google pour le calcul tensoriel et l'apprentissage profond ?"
     answers:
-      A: "Les échecs"
-      B: "Le jeu de Go"
-      C: "Le poker"
-      D: "Les dames"
+      A: "PyTorch"
+      B: "Keras"
+      C: "TensorFlow"
+      D: "Caffe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the open-source library developed by Google for tensor computation and deep learning?"
+        answers:
+          A: "PyTorch"
+          B: "Keras"
+          C: "TensorFlow"
+          D: "Caffe"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du protocole de transfert de fichiers utilisé sur ARPANET avant FTP ?"
+    answers:
+      A: "NCP"
+      B: "TCP"
+      C: "IP"
+      D: "UDP"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the file transfer protocol used on ARPANET before FTP?"
+        answers:
+          A: "NCP"
+          B: "TCP"
+          C: "IP"
+          D: "UDP"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier client de messagerie électronique, développé par Ray Tomlinson en 1971 ?"
+    answers:
+      A: "Outlook"
+      B: "Eudora"
+      C: "SNDMSG"
+      D: "Pine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first email client, developed by Ray Tomlinson in 1971?"
+        answers:
+          A: "Outlook"
+          B: "Eudora"
+          C: "SNDMSG"
+          D: "Pine"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la première version du protocole HTTP, définie dans le RFC 1945 ?"
+    answers:
+      A: "HTTP/0.9"
+      B: "HTTP/1.0"
+      C: "HTTP/1.1"
+      D: "HTTP/2"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first version of the HTTP protocol, defined in RFC 1945?"
+        answers:
+          A: "HTTP/0.9"
+          B: "HTTP/1.0"
+          C: "HTTP/1.1"
+          D: "HTTP/2"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier serveur web, créé par Tim Berners-Lee au CERN ?"
+    answers:
+      A: "Nginx"
+      B: "Apache"
+      C: "CERN httpd"
+      D: "IIS"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first web server, created by Tim Berners-Lee at CERN?"
+        answers:
+          A: "Nginx"
+          B: "Apache"
+          C: "CERN httpd"
+          D: "IIS"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'algorithme de routage utilisé par ARPANET, basé sur le nombre de sauts ?"
+    answers:
+      A: "OSPF"
+      B: "RIP"
+      C: "BGP"
+      D: "IGRP"
     correctAnswer: B
     translations:
       en:
-        text: "In which board game did AlphaGo make its mark by beating human champions?"
+        text: "What is the name of the routing algorithm used by ARPANET, based on the number of hops?"
         answers:
-          A: "Chess"
-          B: "Go"
-          C: "Poker"
-          D: "Checkers"
-    difficulty: EASY
-  - text: "Quel constructeur japonais a développé le robot humanoïde ASIMO, visible sur cette photo ?"
+          A: "OSPF"
+          B: "RIP"
+          C: "BGP"
+          D: "IGRP"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier langage de programmation pour l'IA, développé par John McCarthy en 1958 ?"
+    answers:
+      A: "PROLOG"
+      B: "LISP"
+      C: "FORTRAN"
+      D: "COBOL"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first programming language for AI, developed by John McCarthy in 1958?"
+        answers:
+          A: "PROLOG"
+          B: "LISP"
+          C: "FORTRAN"
+          D: "COBOL"
+    difficulty: HARD
+  - text: "Quel est le nom du premier programme d'IA à avoir battu un champion du monde d'échecs, en 1997 ?"
+    answers:
+      A: "Deep Blue"
+      B: "AlphaGo"
+      C: "Watson"
+      D: "Stockfish"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first AI program to beat a world chess champion, in 1997?"
+        answers:
+          A: "Deep Blue"
+          B: "AlphaGo"
+          C: "Watson"
+          D: "Stockfish"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la conférence fondatrice de l'IA, organisée en 1956 ?"
+    answers:
+      A: "Conférence de Genève"
+      B: "Conférence de Dartmouth"
+      C: "Conférence de Yale"
+      D: "Conférence de Princeton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the founding AI conference, held in 1956?"
+        answers:
+          A: "Geneva Conference"
+          B: "Dartmouth Conference"
+          C: "Yale Conference"
+          D: "Princeton Conference"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier système expert, développé dans les années 1960 ?"
+    answers:
+      A: "DENDRAL"
+      B: "MYCIN"
+      C: "SHRDLU"
+      D: "ELIZA"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first expert system, developed in the 1960s?"
+        answers:
+          A: "DENDRAL"
+          B: "MYCIN"
+          C: "SHRDLU"
+          D: "ELIZA"
+    difficulty: HARD
+  - text: "Quel est le nom de la fonction d'activation qui a permis de résoudre le problème de la disparition du gradient dans les réseaux profonds ?"
+    answers:
+      A: "Tanh"
+      B: "Sigmoid"
+      C: "ReLU"
+      D: "Softmax"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the activation function that helped solve the vanishing gradient problem in deep networks?"
+        answers:
+          A: "Tanh"
+          B: "Sigmoid"
+          C: "ReLU"
+          D: "Softmax"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la technique qui consiste à augmenter artificiellement le nombre d'exemples d'entraînement en appliquant des transformations ?"
+    answers:
+      A: "Dropout"
+      B: "Data augmentation"
+      C: "Batch normalization"
+      D: "Transfer learning"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the technique that artificially increases the number of training examples by applying transformations?"
+        answers:
+          A: "Dropout"
+          B: "Data augmentation"
+          C: "Batch normalization"
+          D: "Transfer learning"
+    difficulty: HARD
+  - text: "Quel est le nom de l'algorithme d'apprentissage non supervisé qui regroupe des données similaires ?"
+    answers:
+      A: "SVM"
+      B: "Régression linéaire"
+      C: "Arbre de décision"
+      D: "K-means"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the unsupervised learning algorithm that groups similar data?"
+        answers:
+          A: "SVM"
+          B: "Linear regression"
+          C: "Decision tree"
+          D: "K-means"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du framework de deep learning développé par Facebook ?"
+    answers:
+      A: "TensorFlow"
+      B: "PyTorch"
+      C: "Keras"
+      D: "Caffe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the deep learning framework developed by Facebook?"
+        answers:
+          A: "TensorFlow"
+          B: "PyTorch"
+          C: "Keras"
+          D: "Caffe"
+    difficulty: HARD
+  - text: "Quel est le nom du modèle de langage de Google publié en 2018 ?"
+    answers:
+      A: "GPT"
+      B: "BERT"
+      C: "ELMo"
+      D: "T5"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Google's language model published in 2018?"
+        answers:
+          A: "GPT"
+          B: "BERT"
+          C: "ELMo"
+          D: "T5"
+    difficulty: HARD
+  - text: "Quel est le nom de l'unité de traitement tensoriel (TPU) développée par Google pour accélérer l'IA ?"
+    answers:
+      A: "CPU"
+      B: "GPU"
+      C: "TPU"
+      D: "FPGA"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the tensor processing unit (TPU) developed by Google to accelerate AI?"
+        answers:
+          A: "CPU"
+          B: "GPU"
+          C: "TPU"
+          D: "FPGA"
+    difficulty: HARD
+  - text: "Quel est le nom du premier réseau de neurones convolutif, développé par Yann LeCun en 1989 ?"
+    answers:
+      A: "AlexNet"
+      B: "LeNet"
+      C: "VGG"
+      D: "ResNet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first convolutional neural network, developed by Yann LeCun in 1989?"
+        answers:
+          A: "AlexNet"
+          B: "LeNet"
+          C: "VGG"
+          D: "ResNet"
+    difficulty: EXPERT
+  - text: "Qui a développé le robot ASIMO ?"
     imageUrl: wikipedia/technology/ASIMO.jpg
     answers:
       A: "Toyota"
@@ -964,350 +964,350 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which Japanese manufacturer developed the humanoid robot ASIMO, visible in this photo?"
+        text: "Who developed the ASIMO robot?"
         answers:
           A: "Toyota"
           B: "Honda"
           C: "Nissan"
           D: "Sony"
-    difficulty: EASY
-  - text: "Quel agent conversationnel d'OpenAI a popularisé l'IA générative fin 2022 ?"
+    difficulty: HARD
+  - text: "Quel est le nom de l'algorithme d'optimisation qui combine l'idée de momentum et de taux d'apprentissage adaptatif ?"
     answers:
-      A: "Cortana"
-      B: "Siri"
-      C: "Alexa"
-      D: "ChatGPT"
+      A: "Adagrad"
+      B: "SGD"
+      C: "RMSprop"
+      D: "Adam"
     correctAnswer: D
     translations:
       en:
-        text: "Which OpenAI conversational agent popularized generative AI in late 2022?"
+        text: "What is the name of the optimization algorithm that combines the idea of momentum and adaptive learning rate?"
         answers:
-          A: "Cortana"
-          B: "Siri"
-          C: "Alexa"
-          D: "ChatGPT"
-    difficulty: EASY
-  - text: "Quelle technologie d'Apple déverrouille l'iPhone en reconnaissant le visage de son propriétaire ?"
+          A: "Adagrad"
+          B: "SGD"
+          C: "RMSprop"
+          D: "Adam"
+    difficulty: HARD
+  - text: "Quel est le nom de la technique qui consiste à réutiliser un modèle pré-entraîné sur une nouvelle tâche ?"
     answers:
-      A: "Face ID"
-      B: "Iris Scan"
-      C: "Touch ID"
-      D: "Empreinte vocale"
+      A: "Transfer learning"
+      B: "Fine-tuning"
+      C: "Data augmentation"
+      D: "Regularisation"
     correctAnswer: A
     translations:
       en:
-        text: "Which Apple technology unlocks the iPhone by recognizing its owner's face?"
+        text: "What is the name of the technique that involves reusing a pre-trained model on a new task?"
         answers:
-          A: "Face ID"
-          B: "Iris Scan"
-          C: "Touch ID"
-          D: "Voiceprint"
-    difficulty: EASY
-  - text: "Quelle entreprise britannique a créé le programme AlphaGo ?"
-    answers:
-      A: "OpenAI"
-      B: "IBM"
-      C: "DeepMind"
-      D: "Microsoft"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which British company created the AlphaGo program?"
-        answers:
-          A: "OpenAI"
-          B: "IBM"
-          C: "DeepMind"
-          D: "Microsoft"
-    difficulty: MEDIUM
-  - text: "De quel pays était Lee Sedol, le champion battu par AlphaGo en 2016 ?"
-    answers:
-      A: "Singapour"
-      B: "La Chine"
-      C: "Le Japon"
-      D: "La Corée du Sud"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which country was Lee Sedol, the champion defeated by AlphaGo in 2016, from?"
-        answers:
-          A: "Singapore"
-          B: "China"
-          C: "Japan"
-          D: "South Korea"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on l'escroquerie qui usurpe l'identité d'un organisme de confiance pour voler des identifiants ?"
-    answers:
-      A: "Le streaming"
-      B: "Le podcast"
-      C: "Le télétravail"
-      D: "Le hameçonnage (phishing)"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the scam called that impersonates a trusted organization to steal credentials?"
-        answers:
-          A: "Streaming"
-          B: "Podcasting"
-          C: "Teleworking"
-          D: "Phishing"
-    difficulty: MEDIUM
-  - text: "Qu'est-ce qu'un rançongiciel (ransomware) ?"
-    answers:
-      A: "Un logiciel qui chiffre les fichiers et exige une rançon"
-      B: "Un jeu vidéo en ligne"
-      C: "Un service de stockage"
-      D: "Un antivirus gratuit"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is ransomware?"
-        answers:
-          A: "Software that encrypts files and demands a ransom"
-          B: "An online video game"
-          C: "A storage service"
-          D: "A free antivirus"
-    difficulty: MEDIUM
-  - text: "Que désigne le sigle AWS chez Amazon ?"
-    answers:
-      A: "Advanced Web Software"
-      B: "Amazon Wireless Store"
-      C: "Amazon Web Services"
-      D: "Amazon Wallet System"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What does the acronym AWS stand for at Amazon?"
-        answers:
-          A: "Advanced Web Software"
-          B: "Amazon Wireless Store"
-          C: "Amazon Web Services"
-          D: "Amazon Wallet System"
-    difficulty: MEDIUM
-  - text: "Quelle autorité française est chargée de la protection des données personnelles ?"
-    answers:
-      A: "L'ARCOM"
-      B: "L'INSEE"
-      C: "La CNIL"
-      D: "La CADA"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which French authority is responsible for protecting personal data?"
-        answers:
-          A: "ARCOM"
-          B: "INSEE"
-          C: "CNIL"
-          D: "CADA"
-    difficulty: MEDIUM
-  - text: "En quelle année le RGPD est-il entré en application dans l'Union européenne ?"
-    answers:
-      A: "2004"
-      B: "2022"
-      C: "2012"
-      D: "2018"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year did the GDPR come into effect in the European Union?"
-        answers:
-          A: "2004"
-          B: "2022"
-          C: "2012"
-          D: "2018"
-    difficulty: MEDIUM
-  - text: "Quel service de traduction automatique, réputé pour sa qualité, a été lancé par une entreprise allemande de Cologne ?"
-    answers:
-      A: "DeepL"
-      B: "Systran"
-      C: "Yahoo Traduction"
-      D: "Babelfish"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which machine translation service, known for its quality, was launched by a German company from Cologne?"
-        answers:
-          A: "DeepL"
-          B: "Systran"
-          C: "Yahoo Translation"
-          D: "Babelfish"
-    difficulty: MEDIUM
-  - text: "Qu'est-ce que la domotique ?"
-    answers:
-      A: "L'étude des volcans"
-      B: "L'automatisation des équipements de la maison"
-      C: "La culture des plantes en serre"
-      D: "La réparation des vélos"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is home automation?"
-        answers:
-          A: "The study of volcanoes"
-          B: "The automation of household equipment"
-          C: "Growing plants in a greenhouse"
-          D: "Bicycle repair"
-    difficulty: MEDIUM
-  - text: "Que signifie la lettre T du sigle GPT ?"
-    answers:
-      A: "Texte"
-      B: "Transfert"
-      C: "Télévision"
-      D: "Transformer"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What does the letter T in the acronym GPT stand for?"
-        answers:
-          A: "Text"
-          B: "Transfer"
-          C: "Television"
-          D: "Transformer"
-    difficulty: MEDIUM
-  - text: "Quel nom porte la société de voitures autonomes issue de Google ?"
-    answers:
-      A: "Tesla"
-      B: "Waymo"
-      C: "Uber"
-      D: "Cruise"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the name of the self-driving car company that came out of Google?"
-        answers:
-          A: "Tesla"
-          B: "Waymo"
-          C: "Uber"
-          D: "Cruise"
-    difficulty: MEDIUM
-  - text: "Quelle société a fait polémique pour sa base de reconnaissance faciale alimentée par des photos trouvées sur Internet ?"
-    answers:
-      A: "Adobe"
-      B: "Spotify"
-      C: "Canon"
-      D: "Clearview AI"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which company caused controversy for its facial recognition database powered by photos found on the Internet?"
-        answers:
-          A: "Adobe"
-          B: "Spotify"
-          C: "Canon"
-          D: "Clearview AI"
-    difficulty: MEDIUM
-  - text: "Quel objet connecté populaire permet de suivre son activité physique et son sommeil ?"
-    answers:
-      A: "La calculatrice"
-      B: "Le grille-pain"
-      C: "Le bracelet connecté"
-      D: "L'imprimante"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which popular connected device allows you to track your physical activity and sleep?"
-        answers:
-          A: "The calculator"
-          B: "The toaster"
-          C: "The fitness tracker"
-          D: "The printer"
-    difficulty: MEDIUM
-  - text: "Quelle particularité distingue AlphaGo Zero des versions précédentes d'AlphaGo ?"
-    answers:
-      A: "Il jouait uniquement en ligne"
-      B: "Il consommait très peu d'électricité"
-      C: "Il a appris sans aucune partie humaine, par auto-apprentissage"
-      D: "Il jouait aussi aux échecs"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What distinctive feature sets AlphaGo Zero apart from previous versions of AlphaGo?"
-        answers:
-          A: "It only played online"
-          B: "It used very little electricity"
-          C: "It learned without any human games, through self-learning"
-          D: "It also played chess"
+          A: "Transfer learning"
+          B: "Fine-tuning"
+          C: "Data augmentation"
+          D: "Regularization"
     difficulty: HARD
-  - text: "Quel article scientifique de 2017 a introduit l'architecture Transformer ?"
+  - text: "Quel est le nom du premier ordinateur à avoir battu le champion du monde de Go, en 2016 ?"
     answers:
-      A: "The Unreasonable Effectiveness of Data"
-      B: "A Mathematical Theory of Communication"
-      C: "Attention Is All You Need"
-      D: "Computing Machinery and Intelligence"
+      A: "Watson"
+      B: "Deep Blue"
+      C: "AlphaGo"
+      D: "Stockfish"
     correctAnswer: C
     translations:
       en:
-        text: "Which 2017 scientific paper introduced the Transformer architecture?"
+        text: "What is the name of the first computer to beat the world champion of Go, in 2016?"
         answers:
-          A: "The Unreasonable Effectiveness of Data"
-          B: "A Mathematical Theory of Communication"
-          C: "Attention Is All You Need"
-          D: "Computing Machinery and Intelligence"
+          A: "Watson"
+          B: "Deep Blue"
+          C: "AlphaGo"
+          D: "Stockfish"
     difficulty: HARD
-  - text: "Quel joueur a remporté la seule partie gagnée par un humain contre AlphaGo lors du match de 2016 ?"
-    answers:
-      A: "Lee Sedol"
-      B: "Fan Hui"
-      C: "Gu Li"
-      D: "Ke Jie"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which player won the only game won by a human against AlphaGo in the 2016 match?"
-        answers:
-          A: "Lee Sedol"
-          B: "Fan Hui"
-          C: "Gu Li"
-          D: "Ke Jie"
-    difficulty: HARD
-  - text: "Quel attribut de cookie empêche son accès par le code JavaScript de la page ?"
-    answers:
-      A: "Secure"
-      B: "Domain"
-      C: "SameSite"
-      D: "HttpOnly"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which cookie attribute prevents its access by the page's JavaScript code?"
-        answers:
-          A: "Secure"
-          B: "Domain"
-          C: "SameSite"
-          D: "HttpOnly"
-    difficulty: HARD
-  - text: "Quel algorithme moderne est recommandé par l'OWASP pour stocker les mots de passe ?"
+  - text: "Quel est le nom de l'algorithme de chiffrement utilisé pour sécuriser les transactions sur Internet ?"
     answers:
       A: "MD5"
-      B: "SHA-1"
-      C: "Argon2"
-      D: "Base64"
-    correctAnswer: C
+      B: "AES"
+      C: "DES"
+      D: "RSA"
+    correctAnswer: D
     translations:
       en:
-        text: "Which modern algorithm is recommended by OWASP for storing passwords?"
+        text: "What is the name of the encryption algorithm used to secure transactions on the Internet?"
         answers:
           A: "MD5"
-          B: "SHA-1"
-          C: "Argon2"
-          D: "Base64"
-    difficulty: HARD
-  - text: "Quel ver informatique a saboté des centrifugeuses d'enrichissement d'uranium en Iran ?"
+          B: "AES"
+          C: "DES"
+          D: "RSA"
+    difficulty: MEDIUM
+  - text: "Quel protocole de la couche application utilise par défaut le port 443 ?"
     answers:
-      A: "Stuxnet"
-      B: "WannaCry"
-      C: "ILOVEYOU"
-      D: "Code Red"
+      A: "DNS"
+      B: "FTP"
+      C: "SMTP"
+      D: "HTTPS"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which application layer protocol uses port 443 by default?"
+        answers:
+          A: "DNS"
+          B: "FTP"
+          C: "SMTP"
+          D: "HTTPS"
+    difficulty: MEDIUM
+  - text: "Quel algorithme de consensus est utilisé par Bitcoin pour valider les blocs ?"
+    answers:
+      A: "Preuve de travail (PoW)"
+      B: "Preuve d'enjeu (PoS)"
+      C: "Preuve d'autorité (PoA)"
+      D: "Practical Byzantine Fault Tolerance (PBFT)"
     correctAnswer: A
     translations:
       en:
-        text: "Which computer worm sabotaged uranium enrichment centrifuges in Iran?"
+        text: "Which consensus algorithm is used by Bitcoin to validate blocks?"
         answers:
-          A: "Stuxnet"
-          B: "WannaCry"
-          C: "ILOVEYOU"
-          D: "Code Red"
+          A: "Proof of Work (PoW)"
+          B: "Proof of Stake (PoS)"
+          C: "Proof of Authority (PoA)"
+          D: "Practical Byzantine Fault Tolerance (PBFT)"
+    difficulty: MEDIUM
+  - text: "Qui a proposé le modèle de l'attention (Transformer) en 2017 ?"
+    answers:
+      A: "Yann LeCun"
+      B: "Geoffrey Hinton"
+      C: "Ashish Vaswani et ses collègues"
+      D: "Yoshua Bengio"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who proposed the attention model (Transformer) in 2017?"
+        answers:
+          A: "Yann LeCun"
+          B: "Geoffrey Hinton"
+          C: "Ashish Vaswani and his colleagues"
+          D: "Yoshua Bengio"
     difficulty: HARD
-  - text: "Quel robot bipède de Boston Dynamics, montré sur cette image, est célèbre pour ses saltations et ses backflips ?"
+  - text: "Quelle version du protocole Internet a été spécifiée dans le RFC 8200 ?"
+    answers:
+      A: "IPv4"
+      B: "IPv5"
+      C: "IPv6"
+      D: "IPv7"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which version of the Internet Protocol was specified in RFC 8200?"
+        answers:
+          A: "IPv4"
+          B: "IPv5"
+          C: "IPv6"
+          D: "IPv7"
+    difficulty: EXPERT
+  - text: "Quel arbre de décision utilise l'indice de Gini pour évaluer les divisions ?"
+    answers:
+      A: "CHAID"
+      B: "ID3"
+      C: "C4.5"
+      D: "CART"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which decision tree uses the Gini index to evaluate splits?"
+        answers:
+          A: "CHAID"
+          B: "ID3"
+          C: "C4.5"
+          D: "CART"
+    difficulty: HARD
+  - text: "Quel langage a été créé par Guido van Rossum en 1991 ?"
+    answers:
+      A: "Python"
+      B: "Perl"
+      C: "Ruby"
+      D: "JavaScript"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which language was created by Guido van Rossum in 1991?"
+        answers:
+          A: "Python"
+          B: "Perl"
+          C: "Ruby"
+          D: "JavaScript"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier réseau de neurones à convolution profonde, développé par Yann LeCun en 1989 ?"
+    answers:
+      A: "AlexNet"
+      B: "LeNet-5"
+      C: "ResNet"
+      D: "VGG-16"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first deep convolutional neural network, developed by Yann LeCun in 1989?"
+        answers:
+          A: "AlexNet"
+          B: "LeNet-5"
+          C: "ResNet"
+          D: "VGG-16"
+    difficulty: EXPERT
+  - text: "Quel protocole de messagerie est utilisé par les serveurs pour transférer les courriels entre eux ?"
+    answers:
+      A: "POP3"
+      B: "IMAP"
+      C: "HTTP"
+      D: "SMTP"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which messaging protocol is used by servers to transfer emails between each other?"
+        answers:
+          A: "POP3"
+          B: "IMAP"
+          C: "HTTP"
+          D: "SMTP"
+    difficulty: HARD
+  - text: "Quel domaine de premier niveau est réservé aux organisations à but non lucratif ?"
+    answers:
+      A: ".com"
+      B: ".org"
+      C: ".net"
+      D: ".int"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which top-level domain is reserved for non-profit organizations?"
+        answers:
+          A: ".com"
+          B: ".org"
+          C: ".net"
+          D: ".int"
+    difficulty: MEDIUM
+  - text: "Quel mécanisme permet à un réseau de neurones de traiter des séquences en tenant compte de l'ordre des éléments ?"
+    answers:
+      A: "Convolution"
+      B: "Pooling"
+      C: "Dropout"
+      D: "Récurrence"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mechanism allows a neural network to process sequences while taking into account the order of elements?"
+        answers:
+          A: "Convolution"
+          B: "Pooling"
+          C: "Dropout"
+          D: "Recurrence"
+    difficulty: HARD
+  - text: "Quel est le nom de l'algorithme de recherche arborescente utilisé dans AlphaGo ?"
+    answers:
+      A: "Minimax"
+      B: "Élagage alpha-bêta"
+      C: "Recherche arborescente Monte-Carlo"
+      D: "A*"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the tree search algorithm used in AlphaGo?"
+        answers:
+          A: "Minimax"
+          B: "Alpha-beta pruning"
+          C: "Monte Carlo tree search"
+          D: "A*"
+    difficulty: EXPERT
+  - text: "Quel langage de programmation a été principalement utilisé pour développer le premier serveur web au CERN ?"
+    answers:
+      A: "Python"
+      B: "Perl"
+      C: "C"
+      D: "Java"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which programming language was mainly used to develop the first web server at CERN?"
+        answers:
+          A: "Python"
+          B: "Perl"
+          C: "C"
+          D: "Java"
+    difficulty: EXPERT
+  - text: "Quel terme désigne l'ensemble des techniques permettant à un modèle d'apprendre à partir de données étiquetées ?"
+    answers:
+      A: "Apprentissage non supervisé"
+      B: "Apprentissage par renforcement"
+      C: "Apprentissage supervisé"
+      D: "Apprentissage par transfert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which term refers to the set of techniques that allow a model to learn from labeled data?"
+        answers:
+          A: "Unsupervised learning"
+          B: "Reinforcement learning"
+          C: "Supervised learning"
+          D: "Transfer learning"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier système expert développé dans les années 1960 ?"
+    answers:
+      A: "DENDRAL"
+      B: "MYCIN"
+      C: "XCON"
+      D: "ELIZA"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first expert system developed in the 1960s?"
+        answers:
+          A: "DENDRAL"
+          B: "MYCIN"
+          C: "XCON"
+          D: "ELIZA"
+    difficulty: HARD
+  - text: "Quel framework de deep learning a été développé par Facebook ?"
+    answers:
+      A: "TensorFlow"
+      B: "Theano"
+      C: "Keras"
+      D: "PyTorch"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which deep learning framework was developed by Facebook?"
+        answers:
+          A: "TensorFlow"
+          B: "Theano"
+          C: "Keras"
+          D: "PyTorch"
+    difficulty: HARD
+  - text: "Quel modèle de langage Google a été publié en 2018 ?"
+    answers:
+      A: "GPT"
+      B: "ELMo"
+      C: "BERT"
+      D: "ULMFiT"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Google language model was published in 2018?"
+        answers:
+          A: "GPT"
+          B: "ELMo"
+          C: "BERT"
+          D: "ULMFiT"
+    difficulty: HARD
+  - text: "Quel RFC, publié en 1981, spécifie le protocole IPv4 ?"
+    answers:
+      A: "RFC 791"
+      B: "RFC 793"
+      C: "RFC 768"
+      D: "RFC 792"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which RFC, published in 1981, specifies the IPv4 protocol?"
+        answers:
+          A: "RFC 791"
+          B: "RFC 793"
+          C: "RFC 768"
+          D: "RFC 792"
+    difficulty: EXPERT
+  - text: "Quel robot de Boston Dynamics fait des backflips ?"
     imageUrl: wikipedia/technology/Atlas_frontview_2013.jpg
     answers:
       A: "Curiosity"
@@ -1317,298 +1317,298 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which bipedal robot from Boston Dynamics, shown in this image, is famous for its jumps and backflips?"
+        text: "Which Boston Dynamics robot does backflips?"
         answers:
           A: "Curiosity"
           B: "Pepper"
           C: "Roomba"
           D: "Atlas"
     difficulty: HARD
-  - text: "Quel droit le RGPD consacre-t-il en permettant de demander l'effacement de ses données ?"
+  - text: "Quel algorithme de routage utilise l'état des liens pour calculer les chemins les plus courts ?"
     answers:
-      A: "Le droit à l'oubli"
-      B: "Le droit d'auteur"
-      C: "Le droit de grève"
-      D: "Le droit de vote"
+      A: "OSPF"
+      B: "RIP"
+      C: "BGP"
+      D: "IGRP"
     correctAnswer: A
     translations:
       en:
-        text: "Which right does the GDPR establish by allowing one to request the erasure of one's data?"
+        text: "Which routing algorithm uses link-state information to calculate shortest paths?"
         answers:
-          A: "The right to be forgotten"
-          B: "Copyright"
-          C: "The right to strike"
-          D: "The right to vote"
+          A: "OSPF"
+          B: "RIP"
+          C: "BGP"
+          D: "IGRP"
     difficulty: HARD
-  - text: "Quel type de chiffrement WhatsApp utilise-t-il pour protéger les conversations ?"
+  - text: "Quelle société a introduit le terme « intelligence artificielle » lors de la conférence de Dartmouth en 1956 ?"
     answers:
-      A: "Le codage binaire"
-      B: "Le chiffrement de bout en bout"
-      C: "La stéganographie"
-      D: "Le chiffrement matériel"
+      A: "IBM"
+      B: "Dartmouth College"
+      C: "MIT"
+      D: "Stanford"
     correctAnswer: B
     translations:
       en:
-        text: "What type of encryption does WhatsApp use to protect conversations?"
+        text: "Which organization introduced the term \"artificial intelligence\" at the Dartmouth conference in 1956?"
         answers:
-          A: "Binary encoding"
-          B: "End-to-end encryption"
-          C: "Steganography"
-          D: "Hardware encryption"
-    difficulty: HARD
-  - text: "Quel rançongiciel a paralysé des milliers d'ordinateurs dans le monde en mai 2017 ?"
+          A: "IBM"
+          B: "Dartmouth College"
+          C: "MIT"
+          D: "Stanford"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier système de messagerie électronique réseau, développé en 1971 par Ray Tomlinson ?"
     answers:
-      A: "Heartbleed"
-      B: "WannaCry"
-      C: "Zeus"
-      D: "Slammer"
+      A: "CPYNET"
+      B: "SNDMSG"
+      C: "EMAIL"
+      D: "NETMAIL"
     correctAnswer: B
     translations:
       en:
-        text: "Which ransomware paralyzed thousands of computers worldwide in May 2017?"
+        text: "What is the name of the first network email system, developed in 1971 by Ray Tomlinson?"
         answers:
-          A: "Heartbleed"
-          B: "WannaCry"
-          C: "Zeus"
-          D: "Slammer"
-    difficulty: HARD
-  - text: "Quel botnet de 2016 a détourné des objets connectés comme des caméras de surveillance ?"
+          A: "CPYNET"
+          B: "SNDMSG"
+          C: "EMAIL"
+          D: "NETMAIL"
+    difficulty: EXPERT
+  - text: "En quelle année le premier nom de domaine symbolique a-t-il été enregistré ?"
     answers:
-      A: "Mirai"
-      B: "Sasser"
-      C: "Gameover Zeus"
-      D: "Conficker"
+      A: "1985"
+      B: "1983"
+      C: "1987"
+      D: "1989"
     correctAnswer: A
     translations:
       en:
-        text: "Which 2016 botnet hijacked connected objects such as surveillance cameras?"
+        text: "In what year was the first symbolic domain name registered?"
         answers:
-          A: "Mirai"
-          B: "Sasser"
-          C: "Gameover Zeus"
-          D: "Conficker"
-    difficulty: HARD
-  - text: "Quelle faille de la bibliothèque OpenSSL a exposé des données sensibles en 2014 ?"
+          A: "1985"
+          B: "1983"
+          C: "1987"
+          D: "1989"
+    difficulty: EXPERT
+  - text: "Quel algorithme d'apprentissage profond a été introduit par Geoffrey Hinton en 2006 pour initialiser les réseaux de neurones couche par couche ?"
     answers:
-      A: "Meltdown"
-      B: "Shellshock"
-      C: "Heartbleed"
-      D: "Spectre"
+      A: "Autoencodeurs empilés"
+      B: "Machines de Boltzmann restreintes"
+      C: "Réseaux de croyance profonds"
+      D: "Réseaux antagonistes génératifs"
     correctAnswer: C
     translations:
       en:
-        text: "Which flaw in the OpenSSL library exposed sensitive data in 2014?"
+        text: "Which deep learning algorithm was introduced by Geoffrey Hinton in 2006 to initialize neural networks layer by layer?"
         answers:
-          A: "Meltdown"
-          B: "Shellshock"
-          C: "Heartbleed"
-          D: "Spectre"
-    difficulty: HARD
-  - text: "Quelles techniques AlphaGo combinait-il pour choisir ses coups ?"
+          A: "Stacked autoencoders"
+          B: "Restricted Boltzmann machines"
+          C: "Deep belief networks"
+          D: "Generative adversarial networks"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier réseau de neurones récurrent, proposé par John Hopfield en 1982 ?"
     answers:
-      A: "Recherche arborescente Monte-Carlo et réseaux de neurones profonds"
-      B: "Algorithmes génétiques et blockchain"
-      C: "Systèmes experts et moteurs de règles"
-      D: "Vision par ordinateur et GPS"
+      A: "Réseau de Hopfield"
+      B: "Perceptron multicouche"
+      C: "Carte auto-organisée"
+      D: "Machine de Boltzmann"
     correctAnswer: A
     translations:
       en:
-        text: "Which techniques did AlphaGo combine to choose its moves?"
+        text: "What is the name of the first recurrent neural network, proposed by John Hopfield in 1982?"
         answers:
-          A: "Monte-Carlo tree search and deep neural networks"
-          B: "Genetic algorithms and blockchain"
-          C: "Expert systems and rule engines"
-          D: "Computer vision and GPS"
+          A: "Hopfield network"
+          B: "Multilayer perceptron"
+          C: "Self-organizing map"
+          D: "Boltzmann machine"
     difficulty: EXPERT
-  - text: "Sur quel score AlphaGo Zero a-t-il battu AlphaGo Lee lors de sa présentation en 2017 ?"
+  - text: "Qui a développé le langage LISP en 1958 ?"
     answers:
-      A: "5 à 0"
-      B: "4 à 1"
-      C: "100 à 0"
-      D: "3 à 2"
+      A: "Marvin Minsky"
+      B: "Allen Newell"
+      C: "John McCarthy"
+      D: "Herbert Simon"
     correctAnswer: C
     translations:
       en:
-        text: "By what score did AlphaGo Zero beat AlphaGo Lee at its 2017 presentation?"
+        text: "Who developed the LISP language in 1958?"
         answers:
-          A: "5 to 0"
-          B: "4 to 1"
-          C: "100 to 0"
-          D: "3 to 2"
-    difficulty: EXPERT
-  - text: "Qu'est-ce que le célèbre coup 37 d'AlphaGo lors de la partie 2 contre Lee Sedol ?"
+          A: "Marvin Minsky"
+          B: "Allen Newell"
+          C: "John McCarthy"
+          D: "Herbert Simon"
+    difficulty: HARD
+  - text: "Quel test, proposé par Alan Turing en 1950, évalue la capacité d'une machine à imiter la conversation humaine ?"
     answers:
-      A: "Le tout premier coup de la partie"
-      B: "Un coup illégal finalement annulé"
-      C: "Un coup inhabituel salué comme créatif par les experts"
-      D: "Le dernier coup de la partie"
+      A: "Test de Searle"
+      B: "Test de Lovelace"
+      C: "Test de Turing"
+      D: "Test de Dartmouth"
     correctAnswer: C
     translations:
       en:
-        text: "What was AlphaGo's famous move 37 in game 2 against Lee Sedol?"
+        text: "Which test, proposed by Alan Turing in 1950, evaluates a machine's ability to imitate human conversation?"
         answers:
-          A: "The very first move of the game"
-          B: "An illegal move that was ultimately annulled"
-          C: "An unusual move praised as creative by experts"
-          D: "The last move of the game"
-    difficulty: EXPERT
-  - text: "Quelle architecture de Google AI, présentée en 2018, a popularisé le pré-entraînement bidirectionnel des modèles de langue ?"
-    answers:
-      A: "VGG"
-      B: "ResNet"
-      C: "BERT"
-      D: "LSTM"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Google AI architecture, introduced in 2018, popularized bidirectional pre-training of language models?"
-        answers:
-          A: "VGG"
-          B: "ResNet"
-          C: "BERT"
-          D: "LSTM"
-    difficulty: EXPERT
-  - text: "Quel concours a désigné Argon2 comme meilleure fonction de hachage de mots de passe en 2015 ?"
-    answers:
-      A: "Le Défi RSA"
-      B: "Le DEF CON CTF"
-      C: "Le concours de l'ANSSI"
-      D: "Le Password Hashing Competition"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which competition named Argon2 the best password hashing function in 2015?"
-        answers:
-          A: "The RSA Challenge"
-          B: "DEF CON CTF"
-          C: "The ANSSI competition"
-          D: "The Password Hashing Competition"
-    difficulty: EXPERT
-  - text: "Quelle autorité de certification délivre gratuitement des certificats TLS depuis 2015 ?"
-    answers:
-      A: "Verisign"
-      B: "Let's Encrypt"
-      C: "GlobalSign"
-      D: "DigiCert"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which certificate authority has issued free TLS certificates since 2015?"
-        answers:
-          A: "Verisign"
-          B: "Let's Encrypt"
-          C: "GlobalSign"
-          D: "DigiCert"
-    difficulty: EXPERT
-  - text: "Quelles vulnérabilités matérielles ont été révélées début 2018 dans de nombreux processeurs ?"
-    answers:
-      A: "BlueKeep et EternalBlue"
-      B: "Log4Shell et Heartbleed"
-      C: "DROWN et BEAST"
-      D: "Meltdown et Spectre"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which hardware vulnerabilities were revealed in early 2018 in many processors?"
-        answers:
-          A: "BlueKeep and EternalBlue"
-          B: "Log4Shell and Heartbleed"
-          C: "DROWN and BEAST"
-          D: "Meltdown and Spectre"
-    difficulty: EXPERT
-  - text: "Quelle société a été condamnée par la CNIL à 150 millions d'euros en 2022 pour sa gestion des cookies ?"
-    answers:
-      A: "Meta"
-      B: "Amazon"
-      C: "Google"
-      D: "Apple"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which company was fined 150 million euros by the CNIL in 2022 for its cookie management?"
-        answers:
-          A: "Meta"
-          B: "Amazon"
-          C: "Google"
-          D: "Apple"
-    difficulty: EXPERT
-  - text: "Quel protocole léger de messagerie est très utilisé par les objets connectés ?"
-    answers:
-      A: "FTP"
-      B: "POP3"
-      C: "SMTP"
-      D: "MQTT"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which lightweight messaging protocol is widely used by connected objects?"
-        answers:
-          A: "FTP"
-          B: "POP3"
-          C: "SMTP"
-          D: "MQTT"
-    difficulty: EXPERT
-  - text: "Combien de paramètres comptait le modèle GPT-3 présenté en 2020 ?"
-    answers:
-      A: "500 milliards"
-      B: "1,5 milliard"
-      C: "10 millions"
-      D: "175 milliards"
-    correctAnswer: D
-    translations:
-      en:
-        text: "How many parameters did the GPT-3 model presented in 2020 have?"
-        answers:
-          A: "500 billion"
-          B: "1.5 billion"
-          C: "10 million"
-          D: "175 billion"
-    difficulty: EXPERT
-  - text: "Quel système d'IA de DeepMind a résolu le problème du repliement des protéines en 2020 ?"
+          A: "Searle test"
+          B: "Lovelace test"
+          C: "Turing test"
+          D: "Dartmouth test"
+    difficulty: HARD
+  - text: "Quel est le nom du premier ordinateur à avoir battu le champion du monde d'échecs Garry Kasparov en 1997 ?"
     answers:
       A: "AlphaGo"
-      B: "AlphaFold"
-      C: "MuZero"
-      D: "AlphaZero"
+      B: "Watson"
+      C: "Deep Blue"
+      D: "Stockfish"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first computer to beat world chess champion Garry Kasparov in 1997?"
+        answers:
+          A: "AlphaGo"
+          B: "Watson"
+          C: "Deep Blue"
+          D: "Stockfish"
+    difficulty: HARD
+  - text: "Quel protocole est utilisé pour attribuer dynamiquement des adresses IP sur un réseau ?"
+    answers:
+      A: "DNS"
+      B: "ICMP"
+      C: "ARP"
+      D: "DHCP"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which protocol is used to dynamically assign IP addresses on a network?"
+        answers:
+          A: "DNS"
+          B: "ICMP"
+          C: "ARP"
+          D: "DHCP"
+    difficulty: MEDIUM
+  - text: "Quel algorithme est utilisé par le protocole de routage OSPF pour calculer les chemins les plus courts ?"
+    answers:
+      A: "Algorithme de Bellman-Ford"
+      B: "Algorithme de Dijkstra"
+      C: "Algorithme de Floyd-Warshall"
+      D: "Algorithme de Prim"
     correctAnswer: B
     translations:
       en:
-        text: "Which DeepMind AI system solved the protein folding problem in 2020?"
+        text: "Which algorithm is used by the OSPF routing protocol to calculate shortest paths?"
         answers:
-          A: "AlphaGo"
-          B: "AlphaFold"
-          C: "MuZero"
-          D: "AlphaZero"
+          A: "Bellman-Ford algorithm"
+          B: "Dijkstra's algorithm"
+          C: "Floyd-Warshall algorithm"
+          D: "Prim's algorithm"
     difficulty: EXPERT
-  - text: "Quelle déclaration de 2017 a énoncé 23 principes pour une intelligence artificielle bénéfique ?"
+  - text: "Quelle entreprise a créé le premier assistant vocal grand public, Siri, en 2011 ?"
     answers:
-      A: "La charte de Kyoto"
-      B: "Les accords de Genève"
-      C: "Le manifeste de Munich"
-      D: "Les principes d'Asilomar"
+      A: "Google"
+      B: "Microsoft"
+      C: "Amazon"
+      D: "Apple"
     correctAnswer: D
     translations:
       en:
-        text: "Which 2017 declaration set out 23 principles for beneficial artificial intelligence?"
+        text: "Which company created the first mainstream voice assistant, Siri, in 2011?"
         answers:
-          A: "The Kyoto Charter"
-          B: "The Geneva Accords"
-          C: "The Munich Manifesto"
-          D: "The Asilomar Principles"
-    difficulty: EXPERT
-  - text: "Sur quelle approche repose le règlement européen sur l'IA adopté en 2024 ?"
+          A: "Google"
+          B: "Microsoft"
+          C: "Amazon"
+          D: "Apple"
+    difficulty: HARD
+  - text: "Quel est le nom du modèle de langage de grande taille publié par OpenAI en 2018 ?"
     answers:
-      A: "L'interdiction totale de l'IA"
-      B: "Une autorégulation sans contrainte"
-      C: "Un quota de robots par entreprise"
-      D: "Une classification par niveaux de risque"
+      A: "ELMo"
+      B: "BERT"
+      C: "GPT-1"
+      D: "Transformer"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the large language model released by OpenAI in 2018?"
+        answers:
+          A: "ELMo"
+          B: "BERT"
+          C: "GPT-1"
+          D: "Transformer"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'algorithme d'apprentissage par renforcement utilisé par AlphaGo pour battre Lee Sedol en 2016 ?"
+    answers:
+      A: "Q-learning"
+      B: "Deep Q-Network"
+      C: "SARSA"
+      D: "Monte Carlo Tree Search"
     correctAnswer: D
     translations:
       en:
-        text: "What approach is the European AI regulation adopted in 2024 based on?"
+        text: "What is the name of the reinforcement learning algorithm used by AlphaGo to beat Lee Sedol in 2016?"
         answers:
-          A: "A total ban on AI"
-          B: "Unrestricted self-regulation"
-          C: "A robot quota per company"
-          D: "A classification by risk levels"
+          A: "Q-learning"
+          B: "Deep Q-Network"
+          C: "SARSA"
+          D: "Monte Carlo Tree Search"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protocole de transfert de fichiers utilisé sur Internet ?"
+    answers:
+      A: "Telnet"
+      B: "SMTP"
+      C: "SNMP"
+      D: "FTP"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the file transfer protocol used on the Internet?"
+        answers:
+          A: "Telnet"
+          B: "SMTP"
+          C: "SNMP"
+          D: "FTP"
+    difficulty: MEDIUM
+  - text: "Quel algorithme de routage utilise le vecteur de distance pour déterminer les chemins ?"
+    answers:
+      A: "OSPF"
+      B: "RIP"
+      C: "BGP"
+      D: "IS-IS"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which routing algorithm uses distance vector to determine paths?"
+        answers:
+          A: "OSPF"
+          B: "RIP"
+          C: "BGP"
+          D: "IS-IS"
+    difficulty: EXPERT
+  - text: "En quelle année le RFC 791, qui spécifie IPv4, a-t-il été publié ?"
+    answers:
+      A: "1983"
+      B: "1974"
+      C: "1989"
+      D: "1981"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was RFC 791, which specifies IPv4, published?"
+        answers:
+          A: "1983"
+          B: "1974"
+          C: "1989"
+          D: "1981"
+    difficulty: EXPERT
+  - text: "Quel concept d'apprentissage profond a été popularisé par le papier « ImageNet Classification with Deep Convolutional Neural Networks » de 2012 ?"
+    answers:
+      A: "ResNet"
+      B: "LeNet-5"
+      C: "VGGNet"
+      D: "AlexNet"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which deep learning concept was popularized by the 2012 paper “ImageNet Classification with Deep Convolutional Neural Networks”?"
+        answers:
+          A: "ResNet"
+          B: "LeNet-5"
+          C: "VGGNet"
+          D: "AlexNet"
     difficulty: EXPERT

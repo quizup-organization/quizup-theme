@@ -7,7 +7,7 @@ topic:
   category: TECHNOLOGY
   imageUrl: wikipedia/technology/Ada_Lovelace_portrait.jpg
 questions:
-  - text: "Quel mathématicien britannique est considéré comme le père de l'informatique ?"
+  - text: "Qui est le père de l'informatique ?"
     imageUrl: wikipedia/technology/Alan_Turing_Aged_16.jpg
     answers:
       A: "Alan Turing"
@@ -15,16 +15,16 @@ questions:
       C: "John von Neumann"
       D: "Blaise Pascal"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which British mathematician is considered the father of computer science?"
+        text: "Who is the father of computer science?"
         answers:
           A: "Alan Turing"
           B: "Charles Babbage"
           C: "John von Neumann"
           D: "Blaise Pascal"
-  - text: "Qui a écrit le premier programme destiné à une machine au XIXe siècle ?"
+    difficulty: EASY
+  - text: "Qui a écrit le premier programme au XIXe siècle ?"
     imageUrl: wikipedia/technology/Ada_Lovelace_portrait.jpg
     answers:
       A: "Grace Hopper"
@@ -32,1582 +32,1582 @@ questions:
       C: "Hedy Lamarr"
       D: "Marie Curie"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
-        text: "Who wrote the first program intended for a machine in the 19th century?"
+        text: "Who wrote the first computer program in the 19th century?"
         answers:
           A: "Grace Hopper"
           B: "Ada Lovelace"
           C: "Hedy Lamarr"
           D: "Marie Curie"
-  - text: "Que signifie le sigle CPU ?"
-    answers:
-      A: "Computer Power Unit"
-      B: "Central Program Utility"
-      C: "Central Processing Unit"
-      D: "Control Processing Unit"
-    correctAnswer: C
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "What does the acronym CPU stand for?"
-        answers:
-          A: "Computer Power Unit"
-          B: "Central Program Utility"
-          C: "Central Processing Unit"
-          D: "Control Processing Unit"
-  - text: "Quelle unité représente 1024 mégaoctets ?"
+  - text: "Quel langage de programmation a été conçu par Bjarne Stroustrup ?"
     answers:
-      A: "Un kilooctet"
-      B: "Un téraoctet"
-      C: "Un pétabyte"
-      D: "Un gigaoctet"
+      A: "C#"
+      B: "Java"
+      C: "Python"
+      D: "C++"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
-        text: "Which unit represents 1024 megabytes?"
+        text: "Which programming language was designed by Bjarne Stroustrup?"
         answers:
-          A: "A kilobyte"
-          B: "A terabyte"
-          C: "A petabyte"
-          D: "A gigabyte"
-  - text: "Quel langage sert à structurer les pages web ?"
+          A: "C#"
+          B: "Java"
+          C: "Python"
+          D: "C++"
+    difficulty: HARD
+  - text: "En quelle année a été publié le premier article décrivant le protocole TCP ?"
+    answers:
+      A: "1969"
+      B: "1974"
+      C: "1981"
+      D: "1983"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the first paper describing the TCP protocol published?"
+        answers:
+          A: "1969"
+          B: "1974"
+          C: "1981"
+          D: "1983"
+    difficulty: EXPERT
+  - text: "Quel algorithme de tri a une complexité temporelle moyenne de O(n log n) et utilise une approche de division ?"
+    answers:
+      A: "Tri à bulles"
+      B: "Tri par insertion"
+      C: "Tri par sélection"
+      D: "Tri fusion"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which sorting algorithm has an average time complexity of O(n log n) and uses a divide-and-conquer approach?"
+        answers:
+          A: "Bubble sort"
+          B: "Insertion sort"
+          C: "Selection sort"
+          D: "Merge sort"
+    difficulty: HARD
+  - text: "Que signifie le sigle 'HTTP' ?"
+    answers:
+      A: "HyperText Transfer Protocol"
+      B: "HyperText Transmission Protocol"
+      C: "High Transfer Text Protocol"
+      D: "Hyper Terminal Transfer Protocol"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the acronym 'HTTP' stand for?"
+        answers:
+          A: "HyperText Transfer Protocol"
+          B: "HyperText Transmission Protocol"
+          C: "High Transfer Text Protocol"
+          D: "Hyper Terminal Transfer Protocol"
+    difficulty: EASY
+  - text: "Quel est le nom du tout premier ordinateur électronique programmable, achevé en 1945 ?"
+    answers:
+      A: "Colossus"
+      B: "EDVAC"
+      C: "UNIVAC"
+      D: "ENIAC"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the very first programmable electronic computer, completed in 1945?"
+        answers:
+          A: "Colossus"
+          B: "EDVAC"
+          C: "UNIVAC"
+          D: "ENIAC"
+    difficulty: HARD
+  - text: "Qui a inventé le langage de programmation Lisp en 1958 ?"
+    answers:
+      A: "Dennis Ritchie"
+      B: "Grace Hopper"
+      C: "Alan Turing"
+      D: "John McCarthy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who invented the Lisp programming language in 1958?"
+        answers:
+          A: "Dennis Ritchie"
+          B: "Grace Hopper"
+          C: "Alan Turing"
+          D: "John McCarthy"
+    difficulty: HARD
+  - text: "Quel protocole est utilisé pour attribuer dynamiquement des adresses IP sur un réseau local ?"
+    answers:
+      A: "DNS"
+      B: "FTP"
+      C: "DHCP"
+      D: "SNMP"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which protocol is used to dynamically assign IP addresses on a local network?"
+        answers:
+          A: "DNS"
+          B: "FTP"
+          C: "DHCP"
+          D: "SNMP"
+    difficulty: HARD
+  - text: "En quelle année a été fondée la société Apple ?"
+    answers:
+      A: "1976"
+      B: "1975"
+      C: "1974"
+      D: "1977"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the company Apple founded?"
+        answers:
+          A: "1976"
+          B: "1975"
+          C: "1974"
+          D: "1977"
+    difficulty: MEDIUM
+  - text: "Quel langage de programmation a été créé par James Gosling chez Sun Microsystems ?"
     answers:
       A: "Python"
-      B: "HTML"
-      C: "Java"
-      D: "SQL"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which language is used to structure web pages?"
-        answers:
-          A: "Python"
-          B: "HTML"
-          C: "Java"
-          D: "SQL"
-  - text: "Que signifie le sigle WWW ?"
-    answers:
-      A: "World Wide Web"
-      B: "Web World Wide"
-      C: "Wide World Web"
-      D: "World Web Wide"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "What does the acronym WWW stand for?"
-        answers:
-          A: "World Wide Web"
-          B: "Web World Wide"
-          C: "Wide World Web"
-          D: "World Web Wide"
-  - text: "Quel langage de programmation a été créé par Guido van Rossum ?"
-    answers:
-      A: "Java"
       B: "C++"
-      C: "Python"
+      C: "Java"
       D: "Ruby"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
-        text: "Which programming language was created by Guido van Rossum?"
+        text: "Which programming language was created by James Gosling at Sun Microsystems?"
         answers:
-          A: "Java"
+          A: "Python"
           B: "C++"
-          C: "Python"
+          C: "Java"
           D: "Ruby"
-  - text: "Dans la plupart des logiciels, que fait le raccourci Ctrl+C ?"
+    difficulty: HARD
+  - text: "Que signifie 'CPU' en informatique ?"
     answers:
-      A: "Coller"
-      B: "Couper"
-      C: "Annuler"
-      D: "Copier"
-    correctAnswer: D
+      A: "Computer Personal Unit"
+      B: "Central Processing Unit"
+      C: "Central Program Utility"
+      D: "Control Processing Unit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does 'CPU' stand for in computing?"
+        answers:
+          A: "Computer Personal Unit"
+          B: "Central Processing Unit"
+          C: "Central Program Utility"
+          D: "Control Processing Unit"
     difficulty: EASY
-    translations:
-      en:
-        text: "In most software, what does the Ctrl+C shortcut do?"
-        answers:
-          A: "Paste"
-          B: "Cut"
-          C: "Undo"
-          D: "Copy"
-  - text: "Qu'est-ce qu'un algorithme ?"
-    answers:
-      A: "Un composant électronique"
-      B: "Une suite finie d'instructions pour résoudre un problème"
-      C: "Un langage de programmation"
-      D: "Un virus informatique"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is an algorithm?"
-        answers:
-          A: "An electronic component"
-          B: "A finite sequence of instructions for solving a problem"
-          C: "A programming language"
-          D: "A computer virus"
-  - text: "Quel système d'exploitation open source repose sur le noyau Linux ?"
-    answers:
-      A: "Windows"
-      B: "macOS"
-      C: "Ubuntu"
-      D: "iOS"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which open-source operating system is based on the Linux kernel?"
-        answers:
-          A: "Windows"
-          B: "macOS"
-          C: "Ubuntu"
-          D: "iOS"
-  - text: "Quel protocole sécurise les échanges sur le Web ?"
-    answers:
-      A: "HTTP"
-      B: "FTP"
-      C: "SMTP"
-      D: "HTTPS"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which protocol secures exchanges on the Web?"
-        answers:
-          A: "HTTP"
-          B: "FTP"
-          C: "SMTP"
-          D: "HTTPS"
-  - text: "Combien de bits contient un octet ?"
-    answers:
-      A: "Quatre"
-      B: "Huit"
-      C: "Seize"
-      D: "Trente-deux"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "How many bits are in a byte?"
-        answers:
-          A: "Four"
-          B: "Eight"
-          C: "Sixteen"
-          D: "Thirty-two"
-  - text: "Comment s'appelait l'un des premiers ordinateurs électroniques, dévoilé en 1946 ?"
+  - text: "Quel ordinateur dévoilé en 1946 ?"
     imageUrl: wikipedia/technology/Eniac.jpg
     answers:
-      A: "ENIAC"
+      A: "ZX Spectrum"
       B: "IBM PC"
       C: "Apple II"
-      D: "ZX Spectrum"
-    correctAnswer: A
-    difficulty: EXPERT
+      D: "ENIAC"
+    correctAnswer: D
     translations:
       en:
-        text: "What was the name of one of the first electronic computers, unveiled in 1946?"
+        text: "Which computer was unveiled in 1946?"
         answers:
-          A: "ENIAC"
+          A: "ZX Spectrum"
           B: "IBM PC"
           C: "Apple II"
-          D: "ZX Spectrum"
-  - text: "Qui a cofondé Microsoft avec Paul Allen ?"
-    answers:
-      A: "Steve Jobs"
-      B: "Steve Wozniak"
-      C: "Larry Page"
-      D: "Bill Gates"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who co-founded Microsoft with Paul Allen?"
-        answers:
-          A: "Steve Jobs"
-          B: "Steve Wozniak"
-          C: "Larry Page"
-          D: "Bill Gates"
-  - text: "Que signifie le sigle IA ?"
-    answers:
-      A: "Intelligence artificielle"
-      B: "Interface avancée"
-      C: "Internet avancé"
-      D: "Information automatique"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "What does the acronym AI stand for?"
-        answers:
-          A: "Artificial intelligence"
-          B: "Advanced interface"
-          C: "Advanced internet"
-          D: "Automatic information"
-  - text: "Quel composant conserve les données même lorsque l'ordinateur est éteint ?"
-    answers:
-      A: "La mémoire RAM"
-      B: "Le processeur"
-      C: "La carte graphique"
-      D: "Le disque dur ou le SSD"
-    correctAnswer: D
+          D: "ENIAC"
     difficulty: HARD
-    translations:
-      en:
-        text: "Which component keeps data even when the computer is turned off?"
-        answers:
-          A: "RAM"
-          B: "The processor"
-          C: "The graphics card"
-          D: "The hard drive or SSD"
-  - text: "Quel système de numération est utilisé en interne par les ordinateurs ?"
+  - text: "Quel est le nom du premier compilateur créé par Grace Hopper ?"
     answers:
-      A: "Le système binaire"
-      B: "Le système décimal"
-      C: "Le système romain"
-      D: "Le système hexadécimal"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which number system is used internally by computers?"
-        answers:
-          A: "The binary system"
-          B: "The decimal system"
-          C: "The Roman system"
-          D: "The hexadecimal system"
-  - text: "Quel réseau social a été fondé par Mark Zuckerberg ?"
-    answers:
-      A: "Twitter"
-      B: "Instagram"
-      C: "Facebook"
-      D: "LinkedIn"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which social network was founded by Mark Zuckerberg?"
-        answers:
-          A: "Twitter"
-          B: "Instagram"
-          C: "Facebook"
-          D: "LinkedIn"
-  - text: "Qu'est-ce qu'un bug informatique ?"
-    answers:
-      A: "Un logiciel antivirus"
-      B: "Une erreur dans un programme"
-      C: "Un composant matériel"
-      D: "Un type de réseau"
+      A: "FORTRAN"
+      B: "A-0"
+      C: "COBOL"
+      D: "ALGOL"
     correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first compiler created by Grace Hopper?"
+        answers:
+          A: "FORTRAN"
+          B: "A-0"
+          C: "COBOL"
+          D: "ALGOL"
+    difficulty: EXPERT
+  - text: "En quelle année le premier disque dur, le RAMAC 305 d'IBM, a-t-il été lancé ?"
+    answers:
+      A: "1956"
+      B: "1960"
+      C: "1965"
+      D: "1970"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the first hard drive, IBM's RAMAC 305, launched?"
+        answers:
+          A: "1956"
+          B: "1960"
+          C: "1965"
+          D: "1970"
+    difficulty: EXPERT
+  - text: "Quel langage de programmation a été créé par Brendan Eich en 1995 ?"
+    answers:
+      A: "PHP"
+      B: "Java"
+      C: "JavaScript"
+      D: "Python"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which programming language was created by Brendan Eich in 1995?"
+        answers:
+          A: "PHP"
+          B: "Java"
+          C: "JavaScript"
+          D: "Python"
+    difficulty: HARD
+  - text: "Quel est le nom du protocole utilisé pour envoyer des courriels ?"
+    answers:
+      A: "POP3"
+      B: "IMAP"
+      C: "SMTP"
+      D: "HTTP"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the protocol used to send emails?"
+        answers:
+          A: "POP3"
+          B: "IMAP"
+          C: "SMTP"
+          D: "HTTP"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is a computer bug?"
-        answers:
-          A: "An antivirus software"
-          B: "An error in a program"
-          C: "A hardware component"
-          D: "A type of network"
-  - text: "Qui a conçu la machine analytique, considérée comme un ancêtre de l'ordinateur ?"
-    imageUrl: wikipedia/technology/Charles_Babbage_1860.jpg
-    answers:
-      A: "Alan Turing"
-      B: "Blaise Pascal"
-      C: "Charles Babbage"
-      D: "Gottfried Leibniz"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who designed the Analytical Engine, considered an ancestor of the computer?"
-        answers:
-          A: "Alan Turing"
-          B: "Blaise Pascal"
-          C: "Charles Babbage"
-          D: "Gottfried Leibniz"
-  - text: "Quel périphérique sert principalement à déplacer le curseur et à cliquer ?"
-    answers:
-      A: "Le clavier"
-      B: "La souris"
-      C: "L'imprimante"
-      D: "Le scanner"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which device is mainly used to move the cursor and click?"
-        answers:
-          A: "The keyboard"
-          B: "The mouse"
-          C: "The printer"
-          D: "The scanner"
-    difficulty: EASY
-  - text: "Quel périphérique affiche l'image produite par l'ordinateur ?"
-    answers:
-      A: "L'écran"
-      B: "Le clavier"
-      C: "La souris"
-      D: "L'enceinte"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which device displays the image produced by the computer?"
-        answers:
-          A: "The screen"
-          B: "The keyboard"
-          C: "The mouse"
-          D: "The speaker"
-    difficulty: EASY
-  - text: "Quel navigateur web a été développé par Google ?"
-    answers:
-      A: "Firefox"
-      B: "Safari"
-      C: "Opera"
-      D: "Chrome"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which web browser was developed by Google?"
-        answers:
-          A: "Firefox"
-          B: "Safari"
-          C: "Opera"
-          D: "Chrome"
-    difficulty: EASY
-  - text: "Comment appelle-t-on un texte cliquable qui mène vers une autre page web ?"
-    answers:
-      A: "Un lien hypertexte"
-      B: "Un fichier texte"
-      C: "Une image"
-      D: "Un formulaire"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What do you call clickable text that leads to another web page?"
-        answers:
-          A: "A hyperlink"
-          B: "A text file"
-          C: "An image"
-          D: "A form"
-    difficulty: EASY
-  - text: "Quel symbole est obligatoire dans une adresse e-mail ?"
-    answers:
-      A: "Le dièse (#)"
-      B: "Le point-virgule (;)"
-      C: "L'arobase (@)"
-      D: "Le point d'interrogation (?)"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which symbol is mandatory in an email address?"
-        answers:
-          A: "The hash sign (#)"
-          B: "The semicolon (;)"
-          C: "The at sign (@)"
-          D: "The question mark (?)"
-    difficulty: EASY
-  - text: "Que signifie le sigle PC en informatique ?"
-    answers:
-      A: "Programme central"
-      B: "Personal Computer"
-      C: "Périphérique connecté"
-      D: "Processeur de calcul"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does the abbreviation PC stand for in computing?"
-        answers:
-          A: "Central Program"
-          B: "Personal Computer"
-          C: "Connected Peripheral"
-          D: "Computing Processor"
-    difficulty: EASY
-  - text: "Quel petit appareil électronique sert à effectuer des calculs ?"
-    answers:
-      A: "Le GPS"
-      B: "Le lecteur MP3"
-      C: "La calculatrice"
-      D: "L'appareil photo"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which small electronic device is used to perform calculations?"
-        answers:
-          A: "The GPS"
-          B: "The MP3 player"
-          C: "The calculator"
-          D: "The camera"
-    difficulty: EASY
-  - text: "Quel type de logiciel sert à rédiger des documents écrits ?"
-    answers:
-      A: "Un logiciel de traitement de texte"
-      B: "Un lecteur vidéo"
-      C: "Un antivirus"
-      D: "Un compilateur"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which type of software is used to write documents?"
-        answers:
-          A: "Word processing software"
-          B: "A video player"
-          C: "An antivirus"
-          D: "A compiler"
-    difficulty: EASY
-  - text: "Quelle touche efface le caractère situé juste à gauche du curseur ?"
-    answers:
-      A: "La touche Entrée"
-      B: "La touche Retour arrière"
-      C: "La touche Maj"
-      D: "La touche Échap"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which key deletes the character just to the left of the cursor?"
-        answers:
-          A: "The Enter key"
-          B: "The Backspace key"
-          C: "The Shift key"
-          D: "The Esc key"
-    difficulty: EASY
-  - text: "Quelle touche du clavier sert généralement à valider une saisie ?"
-    answers:
-      A: "La touche Espace"
-      B: "La touche Maj"
-      C: "La touche Tab"
-      D: "La touche Entrée"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which keyboard key is generally used to confirm an entry?"
-        answers:
-          A: "The Space key"
-          B: "The Shift key"
-          C: "The Tab key"
-          D: "The Enter key"
-    difficulty: EASY
-  - text: "Comment appelle-t-on un téléphone doté de fonctions proches de celles d'un ordinateur ?"
-    answers:
-      A: "Un téléphone fixe"
-      B: "Un fax"
-      C: "Un smartphone"
-      D: "Un répondeur"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What do you call a phone with features similar to those of a computer?"
-        answers:
-          A: "A landline phone"
-          B: "A fax"
-          C: "A smartphone"
-          D: "An answering machine"
-    difficulty: EASY
-  - text: "Dans la plupart des logiciels, que fait le raccourci Ctrl+Z ?"
-    answers:
-      A: "Annuler la dernière action"
-      B: "Enregistrer le fichier"
-      C: "Fermer la fenêtre"
-      D: "Imprimer le document"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In most software, what does the shortcut Ctrl+Z do?"
-        answers:
-          A: "Undo the last action"
-          B: "Save the file"
-          C: "Close the window"
-          D: "Print the document"
-    difficulty: EASY
-  - text: "Quel système d'exploitation est développé par Microsoft ?"
+  - text: "Quel système d'exploitation a été développé par Linus Torvalds en 1991 ?"
     answers:
       A: "Linux"
       B: "macOS"
       C: "Windows"
-      D: "Android"
-    correctAnswer: C
+      D: "Unix"
+    correctAnswer: A
     translations:
       en:
-        text: "Which operating system is developed by Microsoft?"
+        text: "Which operating system was developed by Linus Torvalds in 1991?"
         answers:
           A: "Linux"
           B: "macOS"
           C: "Windows"
-          D: "Android"
-    difficulty: EASY
-  - text: "Quelle plateforme de partage de vidéos appartient à Google ?"
+          D: "Unix"
+    difficulty: MEDIUM
+  - text: "Que signifie le sigle 'SQL' ?"
     answers:
-      A: "Vimeo"
-      B: "Dailymotion"
-      C: "TikTok"
-      D: "YouTube"
+      A: "System Query Language"
+      B: "Standard Query Language"
+      C: "Simple Query Language"
+      D: "Structured Query Language"
     correctAnswer: D
     translations:
       en:
-        text: "Which video-sharing platform belongs to Google?"
+        text: "What does the acronym 'SQL' stand for?"
         answers:
-          A: "Vimeo"
-          B: "Dailymotion"
-          C: "TikTok"
-          D: "YouTube"
+          A: "System Query Language"
+          B: "Standard Query Language"
+          C: "Simple Query Language"
+          D: "Structured Query Language"
     difficulty: EASY
-  - text: "Quel type de logiciel utilise-t-on pour consulter des sites web ?"
+  - text: "Qui a conçu la machine analytique ?"
+    imageUrl: wikipedia/technology/Charles_Babbage_1860.jpg
     answers:
-      A: "Un tableur"
-      B: "Un antivirus"
-      C: "Un navigateur"
-      D: "Un lecteur de musique"
+      A: "Alan Turing"
+      B: "Blaise Pascal"
+      C: "Gottfried Leibniz"
+      D: "Charles Babbage"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who designed the Analytical Engine?"
+        answers:
+          A: "Alan Turing"
+          B: "Blaise Pascal"
+          C: "Gottfried Leibniz"
+          D: "Charles Babbage"
+    difficulty: HARD
+  - text: "Quel est le nom du premier microprocesseur commercialisé par Intel en 1971 ?"
+    answers:
+      A: "8080"
+      B: "4004"
+      C: "8008"
+      D: "8086"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first microprocessor marketed by Intel in 1971?"
+        answers:
+          A: "8080"
+          B: "4004"
+          C: "8008"
+          D: "8086"
+    difficulty: EXPERT
+  - text: "Quel algorithme de chiffrement à clé publique a été inventé par Rivest, Shamir et Adleman ?"
+    answers:
+      A: "DES"
+      B: "AES"
+      C: "RSA"
+      D: "MD5"
     correctAnswer: C
     translations:
       en:
-        text: "Which type of software is used to browse websites?"
+        text: "Which public-key encryption algorithm was invented by Rivest, Shamir, and Adleman?"
         answers:
-          A: "A spreadsheet"
-          B: "An antivirus"
-          C: "A browser"
-          D: "A music player"
-    difficulty: EASY
-  - text: "Quel équipement relie le plus souvent un logement à Internet ?"
+          A: "DES"
+          B: "AES"
+          C: "RSA"
+          D: "MD5"
+    difficulty: HARD
+  - text: "En quelle année a été publié le langage de programmation Python ?"
     answers:
-      A: "L'imprimante"
-      B: "Le scanner"
-      C: "Le vidéoprojecteur"
-      D: "La box Internet"
+      A: "1989"
+      B: "1995"
+      C: "1993"
+      D: "1991"
     correctAnswer: D
     translations:
       en:
-        text: "Which device most often connects a home to the Internet?"
+        text: "In what year was the Python programming language released?"
         answers:
-          A: "The printer"
-          B: "The scanner"
-          C: "The video projector"
-          D: "The Internet box"
-    difficulty: EASY
-  - text: "Que faut-il pour se connecter à un réseau Wi-Fi protégé ?"
+          A: "1989"
+          B: "1995"
+          C: "1993"
+          D: "1991"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier navigateur web, créé par Tim Berners-Lee ?"
     answers:
-      A: "Le mot de passe du réseau"
-      B: "Un câble USB"
-      C: "Une imprimante"
-      D: "Un scanner"
+      A: "WorldWideWeb"
+      B: "Netscape"
+      C: "Mosaic"
+      D: "Internet Explorer"
     correctAnswer: A
     translations:
       en:
-        text: "What is needed to connect to a protected Wi-Fi network?"
+        text: "What is the name of the first web browser, created by Tim Berners-Lee?"
         answers:
-          A: "The network password"
-          B: "A USB cable"
-          C: "A printer"
-          D: "A scanner"
-    difficulty: EASY
-  - text: "Quel appareil lit les disques CD et DVD ?"
+          A: "WorldWideWeb"
+          B: "Netscape"
+          C: "Mosaic"
+          D: "Internet Explorer"
+    difficulty: EXPERT
+  - text: "Quel théorème de Claude Shannon, publié en 1948, a établi la capacité maximale théorique d'un canal de communication en présence de bruit ?"
     answers:
-      A: "Le scanner"
-      B: "Le lecteur de CD/DVD"
-      C: "L'imprimante"
-      D: "Le clavier"
+      A: "Théorème de Nyquist-Shannon"
+      B: "Théorème de Shannon-Hartley"
+      C: "Théorème de Kotelnikov"
+      D: "Théorème de Hamming"
     correctAnswer: B
     translations:
       en:
-        text: "Which device reads CD and DVD discs?"
+        text: "Which theorem by Claude Shannon, published in 1948, established the maximum theoretical capacity of a communication channel in the presence of noise?"
         answers:
-          A: "The scanner"
-          B: "The CD/DVD drive"
-          C: "The printer"
-          D: "The keyboard"
-    difficulty: EASY
-  - text: "Quel support amovible se branche sur un port USB pour stocker des fichiers ?"
+          A: "Nyquist-Shannon theorem"
+          B: "Shannon-Hartley theorem"
+          C: "Kotelnikov theorem"
+          D: "Hamming theorem"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'architecture de processeur à jeu d'instructions réduit développée par ARM Holdings et utilisée dans la majorité des smartphones ?"
     answers:
-      A: "Le disque dur interne"
-      B: "Le lecteur de disquettes"
-      C: "Le câble réseau"
-      D: "La clé USB"
+      A: "x86"
+      B: "ARM"
+      C: "RISC-V"
+      D: "MIPS"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the reduced instruction set processor architecture developed by ARM Holdings and used in the majority of smartphones?"
+        answers:
+          A: "x86"
+          B: "ARM"
+          C: "RISC-V"
+          D: "MIPS"
+    difficulty: EXPERT
+  - text: "En quelle année a été officialisée la première version du langage C par Kernighan et Ritchie ?"
+    answers:
+      A: "1972"
+      B: "1989"
+      C: "1983"
+      D: "1978"
     correctAnswer: D
     translations:
       en:
-        text: "Which removable medium plugs into a USB port to store files?"
+        text: "In what year was the first version of the C language formalized by Kernighan and Ritchie?"
         answers:
-          A: "The internal hard drive"
-          B: "The floppy disk drive"
-          C: "The network cable"
-          D: "The USB flash drive"
-    difficulty: EASY
-  - text: "Que signifie le sigle USB ?"
+          A: "1972"
+          B: "1989"
+          C: "1983"
+          D: "1978"
+    difficulty: EXPERT
+  - text: "Quel est le nom du modèle de calcul formel introduit par Alonzo Church en 1936, équivalent à la machine de Turing ?"
     answers:
-      A: "United Software Base"
-      B: "Universal Serial Bus"
-      C: "Universal System Board"
-      D: "User Serial Bridge"
+      A: "La logique combinatoire"
+      B: "Les réseaux de Petri"
+      C: "Les automates finis"
+      D: "Le lambda-calcul"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the formal model of computation introduced by Alonzo Church in 1936, equivalent to the Turing machine?"
+        answers:
+          A: "Combinatory logic"
+          B: "Petri nets"
+          C: "Finite automata"
+          D: "Lambda calculus"
+    difficulty: EXPERT
+  - text: "Quelle structure de données utilise le principe LIFO (dernier entré, premier sorti) ?"
+    answers:
+      A: "La file"
+      B: "La pile"
+      C: "La liste chaînée"
+      D: "L'arbre binaire"
     correctAnswer: B
     translations:
       en:
-        text: "What does the acronym USB stand for?"
+        text: "Which data structure uses the LIFO (last in, first out) principle?"
         answers:
-          A: "United Software Base"
-          B: "Universal Serial Bus"
-          C: "Universal System Board"
-          D: "User Serial Bridge"
+          A: "Queue"
+          B: "Stack"
+          C: "Linked list"
+          D: "Binary tree"
+    difficulty: MEDIUM
+  - text: "Quel protocole de la suite TCP/IP est responsable de la résolution des noms de domaine en adresses IP ?"
+    answers:
+      A: "DNS"
+      B: "DHCP"
+      C: "ARP"
+      D: "ICMP"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which protocol in the TCP/IP suite is responsible for resolving domain names into IP addresses?"
+        answers:
+          A: "DNS"
+          B: "DHCP"
+          C: "ARP"
+          D: "ICMP"
+    difficulty: HARD
+  - text: "Quel langage de programmation a été créé par Graydon Hoare et sponsorisé par Mozilla ?"
+    answers:
+      A: "D"
+      B: "Rust"
+      C: "Go"
+      D: "Swift"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which programming language was created by Graydon Hoare and sponsored by Mozilla?"
+        answers:
+          A: "D"
+          B: "Rust"
+          C: "Go"
+          D: "Swift"
+    difficulty: EXPERT
+  - text: "Quelle est la complexité temporelle dans le pire cas de l'algorithme de tri rapide (quicksort) ?"
+    answers:
+      A: "O(n log n)"
+      B: "O(n)"
+      C: "O(n^2)"
+      D: "O(log n)"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the worst-case time complexity of the quicksort algorithm?"
+        answers:
+          A: "O(n log n)"
+          B: "O(n)"
+          C: "O(n^2)"
+          D: "O(log n)"
+    difficulty: HARD
+  - text: "Quel est le nom de la première femme à avoir reçu le prix Turing, en 2006 ?"
+    answers:
+      A: "Barbara Liskov"
+      B: "Ada Lovelace"
+      C: "Frances Allen"
+      D: "Grace Hopper"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first woman to receive the Turing Award, in 2006?"
+        answers:
+          A: "Barbara Liskov"
+          B: "Ada Lovelace"
+          C: "Frances Allen"
+          D: "Grace Hopper"
+    difficulty: EXPERT
+  - text: "Quel algorithme de recherche de motif dans une chaîne a une complexité en O(n+m) et utilise un tableau de décalage ?"
+    answers:
+      A: "Boyer-Moore"
+      B: "Rabin-Karp"
+      C: "Knuth-Morris-Pratt"
+      D: "Aho-Corasick"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which string pattern search algorithm has O(n+m) complexity and uses a shift table?"
+        answers:
+          A: "Boyer-Moore"
+          B: "Rabin-Karp"
+          C: "Knuth-Morris-Pratt"
+          D: "Aho-Corasick"
+    difficulty: EXPERT
+  - text: "Combien de bits contient un mot de 32 bits ?"
+    answers:
+      A: "16"
+      B: "8"
+      C: "64"
+      D: "32"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many bits are in a 32-bit word?"
+        answers:
+          A: "16"
+          B: "8"
+          C: "64"
+          D: "32"
     difficulty: EASY
+  - text: "Quel est le nom du système de gestion de versions distribué créé par Linus Torvalds en 2005 ?"
+    answers:
+      A: "Git"
+      B: "SVN"
+      C: "Mercurial"
+      D: "CVS"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the distributed version control system created by Linus Torvalds in 2005?"
+        answers:
+          A: "Git"
+          B: "SVN"
+          C: "Mercurial"
+          D: "CVS"
+    difficulty: HARD
+  - text: "Quel langage de programmation a été conçu par Niklaus Wirth et publié en 1970 ?"
+    answers:
+      A: "Modula-2"
+      B: "Pascal"
+      C: "Oberon"
+      D: "Ada"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which programming language was designed by Niklaus Wirth and released in 1970?"
+        answers:
+          A: "Modula-2"
+          B: "Pascal"
+          C: "Oberon"
+          D: "Ada"
+    difficulty: EXPERT
+  - text: "Quel problème informatique a été prouvé NP-complet par Stephen Cook en 1971 ?"
+    answers:
+      A: "Le problème SAT"
+      B: "Le problème du voyageur de commerce"
+      C: "Le problème du sac à dos"
+      D: "Le problème de la clique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which computer science problem was proven NP-complete by Stephen Cook in 1971?"
+        answers:
+          A: "The SAT problem"
+          B: "The traveling salesman problem"
+          C: "The knapsack problem"
+          D: "The clique problem"
+    difficulty: EXPERT
+  - text: "Que signifie l'acronyme 'RAM' en informatique ?"
+    answers:
+      A: "Random Access Memory"
+      B: "Read Access Memory"
+      C: "Rapid Access Memory"
+      D: "Run Access Memory"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does the acronym 'RAM' stand for in computing?"
+        answers:
+          A: "Random Access Memory"
+          B: "Read Access Memory"
+          C: "Rapid Access Memory"
+          D: "Run Access Memory"
+    difficulty: EASY
+  - text: "Quel protocole de la couche transport utilise une poignée de main en trois étapes pour établir une connexion ?"
+    answers:
+      A: "UDP"
+      B: "SCTP"
+      C: "TCP"
+      D: "ICMP"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which transport layer protocol uses a three-way handshake to establish a connection?"
+        answers:
+          A: "UDP"
+          B: "SCTP"
+          C: "TCP"
+          D: "ICMP"
+    difficulty: HARD
+  - text: "Quel langage de programmation a été créé par Yukihiro Matsumoto en 1995 ?"
+    answers:
+      A: "Perl"
+      B: "Ruby"
+      C: "Python"
+      D: "PHP"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which programming language was created by Yukihiro Matsumoto in 1995?"
+        answers:
+          A: "Perl"
+          B: "Ruby"
+          C: "Python"
+          D: "PHP"
+    difficulty: HARD
+  - text: "Quel est le nom de la loi empirique formulée par Gordon Moore en 1965 concernant l'évolution des circuits intégrés ?"
+    answers:
+      A: "Loi de Moore"
+      B: "Loi de Metcalfe"
+      C: "Loi de Nielsen"
+      D: "Loi de Grosch"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the empirical law formulated by Gordon Moore in 1965 about the evolution of integrated circuits?"
+        answers:
+          A: "Moore's Law"
+          B: "Metcalfe's Law"
+          C: "Nielsen's Law"
+          D: "Grosch's Law"
+    difficulty: HARD
+  - text: "Quel algorithme de chiffrement symétrique a été choisi comme standard par le NIST en 2001 ?"
+    answers:
+      A: "DES"
+      B: "Blowfish"
+      C: "AES"
+      D: "RC4"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which symmetric encryption algorithm was chosen as a standard by NIST in 2001?"
+        answers:
+          A: "DES"
+          B: "Blowfish"
+          C: "AES"
+          D: "RC4"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier système de gestion de bases de données relationnelles, développé par IBM dans les années 1970 ?"
+    answers:
+      A: "Oracle"
+      B: "Ingres"
+      C: "System R"
+      D: "DB2"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first relational database management system, developed by IBM in the 1970s?"
+        answers:
+          A: "Oracle"
+          B: "Ingres"
+          C: "System R"
+          D: "DB2"
+    difficulty: EXPERT
+  - text: "Quel est le nom du langage de programmation fonctionnel créé par John McCarthy en 1958, considéré comme le deuxième plus ancien langage de haut niveau encore utilisé ?"
+    answers:
+      A: "COBOL"
+      B: "FORTRAN"
+      C: "Lisp"
+      D: "ALGOL"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the functional programming language created by John McCarthy in 1958, considered the second-oldest high-level language still in use?"
+        answers:
+          A: "COBOL"
+          B: "FORTRAN"
+          C: "Lisp"
+          D: "ALGOL"
+    difficulty: EXPERT
+  - text: "Quel algorithme de tri, inventé par Tony Hoare en 1960, utilise une stratégie de division pour réorganiser les éléments autour d'un pivot ?"
+    answers:
+      A: "Tri fusion"
+      B: "Tri rapide"
+      C: "Tri par tas"
+      D: "Tri par insertion"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which sorting algorithm, invented by Tony Hoare in 1960, uses a divide strategy to rearrange elements around a pivot?"
+        answers:
+          A: "Merge sort"
+          B: "Quicksort"
+          C: "Heapsort"
+          D: "Insertion sort"
+    difficulty: EXPERT
+  - text: "Quelle est la complexité temporelle de l'algorithme de tri par insertion dans le pire des cas ?"
+    answers:
+      A: "O(n²)"
+      B: "O(n log n)"
+      C: "O(n)"
+      D: "O(log n)"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the worst-case time complexity of the insertion sort algorithm?"
+        answers:
+          A: "O(n²)"
+          B: "O(n log n)"
+          C: "O(n)"
+          D: "O(log n)"
+    difficulty: HARD
+  - text: "Quel est le nom du protocole de la couche transport qui permet une transmission fiable et orientée connexion, utilisé par le Web ?"
+    answers:
+      A: "UDP"
+      B: "IP"
+      C: "ICMP"
+      D: "TCP"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the transport layer protocol that provides reliable, connection-oriented transmission, used by the Web?"
+        answers:
+          A: "UDP"
+          B: "IP"
+          C: "ICMP"
+          D: "TCP"
+    difficulty: MEDIUM
+  - text: "Qui a inventé le langage de programmation C++ ?"
+    answers:
+      A: "James Gosling"
+      B: "Dennis Ritchie"
+      C: "Bjarne Stroustrup"
+      D: "Guido van Rossum"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who invented the C++ programming language?"
+        answers:
+          A: "James Gosling"
+          B: "Dennis Ritchie"
+          C: "Bjarne Stroustrup"
+          D: "Guido van Rossum"
+    difficulty: MEDIUM
+  - text: "Quelle structure de données utilise le principe FIFO (premier entré, premier sorti) ?"
+    answers:
+      A: "Pile"
+      B: "File"
+      C: "Arbre binaire"
+      D: "Graphe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which data structure uses the FIFO (first in, first out) principle?"
+        answers:
+          A: "Stack"
+          B: "Queue"
+          C: "Binary tree"
+          D: "Graph"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier microprocesseur au monde, sorti en 1971 ?"
+    answers:
+      A: "Intel 4004"
+      B: "Intel 8008"
+      C: "Motorola 6800"
+      D: "Zilog Z80"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the world's first microprocessor, released in 1971?"
+        answers:
+          A: "Intel 4004"
+          B: "Intel 8008"
+          C: "Motorola 6800"
+          D: "Zilog Z80"
+    difficulty: MEDIUM
+  - text: "Qui a formulé la loi empirique sur l'évolution du nombre de transistors dans un circuit intégré, énoncée en 1965 ?"
+    answers:
+      A: "Robert Noyce"
+      B: "Andy Grove"
+      C: "Gordon Moore"
+      D: "Jack Kilby"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who formulated the empirical law on the evolution of the number of transistors in an integrated circuit, stated in 1965?"
+        answers:
+          A: "Robert Noyce"
+          B: "Andy Grove"
+          C: "Gordon Moore"
+          D: "Jack Kilby"
+    difficulty: HARD
+  - text: "Quel est le nom du premier compilateur créé par Grace Hopper pour le langage A-0 en 1952 ?"
+    answers:
+      A: "FORTRAN"
+      B: "FLOW-MATIC"
+      C: "COBOL"
+      D: "A-0"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first compiler created by Grace Hopper for the A-0 language in 1952?"
+        answers:
+          A: "FORTRAN"
+          B: "FLOW-MATIC"
+          C: "COBOL"
+          D: "A-0"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier ordinateur électronique numérique programmable, achevé en 1945 ?"
+    answers:
+      A: "Colossus"
+      B: "ENIAC"
+      C: "EDVAC"
+      D: "UNIVAC I"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first programmable digital electronic computer, completed in 1945?"
+        answers:
+          A: "Colossus"
+          B: "ENIAC"
+          C: "EDVAC"
+          D: "UNIVAC I"
+    difficulty: HARD
+  - text: "Qui a proposé le modèle de l'architecture à programme enregistré en 1945 ?"
+    answers:
+      A: "Alan Turing"
+      B: "John von Neumann"
+      C: "Claude Shannon"
+      D: "John Mauchly"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who proposed the stored-program architecture model in 1945?"
+        answers:
+          A: "Alan Turing"
+          B: "John von Neumann"
+          C: "Claude Shannon"
+          D: "John Mauchly"
+    difficulty: HARD
+  - text: "Quel langage a été créé par James Gosling chez Sun Microsystems en 1995 ?"
+    answers:
+      A: "C++"
+      B: "Java"
+      C: "Python"
+      D: "Ruby"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which language was created by James Gosling at Sun Microsystems in 1995?"
+        answers:
+          A: "C++"
+          B: "Java"
+          C: "Python"
+          D: "Ruby"
+    difficulty: MEDIUM
+  - text: "Quel algorithme de routage utilise l'algorithme de Dijkstra pour trouver le plus court chemin ?"
+    answers:
+      A: "RIP"
+      B: "OSPF"
+      C: "BGP"
+      D: "EIGRP"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which routing algorithm uses Dijkstra's algorithm to find the shortest path?"
+        answers:
+          A: "RIP"
+          B: "OSPF"
+          C: "BGP"
+          D: "EIGRP"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier disque dur à tête mobile, lancé par IBM en 1973 ?"
+    answers:
+      A: "IBM 305 RAMAC"
+      B: "IBM 3340"
+      C: "IBM 1311"
+      D: "IBM 2311"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first moving-head hard disk drive, launched by IBM in 1973?"
+        answers:
+          A: "IBM 305 RAMAC"
+          B: "IBM 3340"
+          C: "IBM 1311"
+          D: "IBM 2311"
+    difficulty: EXPERT
+  - text: "Quel langage de programmation a été créé par Bjarne Stroustrup en 1983 ?"
+    answers:
+      A: "C++"
+      B: "C#"
+      C: "Objective-C"
+      D: "D"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which programming language was created by Bjarne Stroustrup in 1983?"
+        answers:
+          A: "C++"
+          B: "C#"
+          C: "Objective-C"
+          D: "D"
+    difficulty: MEDIUM
+  - text: "Quelle est la complexité temporelle de l'algorithme de tri fusion dans le pire des cas ?"
+    answers:
+      A: "O(log n)"
+      B: "O(n^2)"
+      C: "O(n)"
+      D: "O(n log n)"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the worst-case time complexity of the merge sort algorithm?"
+        answers:
+          A: "O(log n)"
+          B: "O(n^2)"
+          C: "O(n)"
+          D: "O(n log n)"
+    difficulty: HARD
+  - text: "Quel protocole est utilisé pour attribuer dynamiquement des adresses IP ?"
+    answers:
+      A: "FTP"
+      B: "DNS"
+      C: "DHCP"
+      D: "SNMP"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which protocol is used to dynamically assign IP addresses?"
+        answers:
+          A: "FTP"
+          B: "DNS"
+          C: "DHCP"
+          D: "SNMP"
+    difficulty: MEDIUM
   - text: "Qui a inventé le World Wide Web en 1989 ?"
     answers:
-      A: "Tim Berners-Lee"
+      A: "Robert Kahn"
       B: "Vint Cerf"
-      C: "Bill Gates"
-      D: "Linus Torvalds"
-    correctAnswer: A
+      C: "Tim Berners-Lee"
+      D: "Marc Andreessen"
+    correctAnswer: C
     translations:
       en:
         text: "Who invented the World Wide Web in 1989?"
         answers:
-          A: "Tim Berners-Lee"
+          A: "Robert Kahn"
           B: "Vint Cerf"
-          C: "Bill Gates"
-          D: "Linus Torvalds"
-    difficulty: MEDIUM
-  - text: "Quel langage de programmation est surtout utilisé pour rendre les pages web interactives côté navigateur ?"
+          C: "Tim Berners-Lee"
+          D: "Marc Andreessen"
+    difficulty: EASY
+  - text: "Quel langage de programmation a été créé par Rasmus Lerdorf en 1994 ?"
     answers:
-      A: "Python"
-      B: "C"
-      C: "JavaScript"
-      D: "Java"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which programming language is mainly used to make web pages interactive in the browser?"
-        answers:
-          A: "Python"
-          B: "C"
-          C: "JavaScript"
-          D: "Java"
-    difficulty: MEDIUM
-  - text: "Quel composant exécute les instructions des programmes ?"
-    answers:
-      A: "La mémoire RAM"
-      B: "Le processeur"
-      C: "Le disque dur"
-      D: "L'alimentation"
+      A: "Perl"
+      B: "PHP"
+      C: "Python"
+      D: "Ruby"
     correctAnswer: B
     translations:
       en:
-        text: "Which component executes program instructions?"
+        text: "Which programming language was created by Rasmus Lerdorf in 1994?"
         answers:
-          A: "RAM"
-          B: "The processor"
-          C: "The hard drive"
-          D: "The power supply"
+          A: "Perl"
+          B: "PHP"
+          C: "Python"
+          D: "Ruby"
     difficulty: MEDIUM
-  - text: "Quel est le rôle du système DNS sur Internet ?"
+  - text: "Quelle structure de données utilise le principe FIFO ?"
     answers:
-      A: "Chiffrer les messages"
-      B: "Compresser les fichiers"
-      C: "Acheminer les e-mails"
-      D: "Associer un nom de domaine à une adresse IP"
+      A: "Graphe"
+      B: "Pile"
+      C: "Arbre"
+      D: "File"
     correctAnswer: D
     translations:
       en:
-        text: "What is the role of the DNS system on the Internet?"
+        text: "Which data structure uses the FIFO principle?"
         answers:
-          A: "Encrypt messages"
-          B: "Compress files"
-          C: "Route emails"
-          D: "Map a domain name to an IP address"
-    difficulty: MEDIUM
-  - text: "Quel langage de programmation utilise l'indentation comme syntaxe de blocs ?"
+          A: "Graph"
+          B: "Stack"
+          C: "Tree"
+          D: "Queue"
+    difficulty: EASY
+  - text: "Quel est le nom du premier microprocesseur 16 bits d'Intel, sorti en 1978 ?"
     answers:
-      A: "Python"
-      B: "C"
-      C: "Java"
-      D: "PHP"
+      A: "8086"
+      B: "8080"
+      C: "4004"
+      D: "80286"
     correctAnswer: A
     translations:
       en:
-        text: "Which programming language uses indentation as its block syntax?"
+        text: "What is the name of Intel's first 16-bit microprocessor, released in 1978?"
         answers:
-          A: "Python"
-          B: "C"
-          C: "Java"
-          D: "PHP"
-    difficulty: MEDIUM
-  - text: "Qui a développé le noyau Linux en 1991 ?"
+          A: "8086"
+          B: "8080"
+          C: "4004"
+          D: "80286"
+    difficulty: EXPERT
+  - text: "Quel algorithme de chiffrement symétrique a été adopté comme standard par le NIST en 1977 ?"
     answers:
-      A: "Richard Stallman"
-      B: "Ken Thompson"
-      C: "Linus Torvalds"
-      D: "Dennis Ritchie"
+      A: "RSA"
+      B: "AES"
+      C: "DES"
+      D: "Blowfish"
     correctAnswer: C
     translations:
       en:
-        text: "Who developed the Linux kernel in 1991?"
+        text: "Which symmetric encryption algorithm was adopted as a standard by NIST in 1977?"
         answers:
-          A: "Richard Stallman"
-          B: "Ken Thompson"
-          C: "Linus Torvalds"
-          D: "Dennis Ritchie"
-    difficulty: MEDIUM
-  - text: "Que signifie le sigle RAM ?"
-    answers:
-      A: "Read Access Memory"
-      B: "Random Access Memory"
-      C: "Rapid Access Module"
-      D: "Runtime Application Memory"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does the acronym RAM stand for?"
-        answers:
-          A: "Read Access Memory"
-          B: "Random Access Memory"
-          C: "Rapid Access Module"
-          D: "Runtime Application Memory"
-    difficulty: MEDIUM
-  - text: "Quelle entreprise a créé le langage Java ?"
-    answers:
-      A: "Microsoft"
-      B: "IBM"
-      C: "Oracle"
-      D: "Sun Microsystems"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which company created the Java language?"
-        answers:
-          A: "Microsoft"
-          B: "IBM"
-          C: "Oracle"
-          D: "Sun Microsystems"
-    difficulty: MEDIUM
-  - text: "Quel protocole historique sert à transférer des fichiers entre ordinateurs ?"
-    answers:
-      A: "FTP"
-      B: "HTTP"
-      C: "SMTP"
-      D: "DNS"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which historical protocol is used to transfer files between computers?"
-        answers:
-          A: "FTP"
-          B: "HTTP"
-          C: "SMTP"
-          D: "DNS"
-    difficulty: MEDIUM
-  - text: "Quel est le rôle principal d'un routeur dans un réseau ?"
-    answers:
-      A: "Stocker les fichiers"
-      B: "Afficher les pages web"
-      C: "Relier plusieurs réseaux entre eux"
-      D: "Imprimer des documents"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the main role of a router in a network?"
-        answers:
-          A: "Store files"
-          B: "Display web pages"
-          C: "Connect multiple networks together"
-          D: "Print documents"
-    difficulty: MEDIUM
-  - text: "Que signifie le sigle HTML ?"
-    answers:
-      A: "HyperText Machine Language"
-      B: "HyperText Markup Language"
-      C: "High Text Markup Language"
-      D: "Hyper Transfer Markup Language"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does the acronym HTML stand for?"
-        answers:
-          A: "HyperText Machine Language"
-          B: "HyperText Markup Language"
-          C: "High Text Markup Language"
-          D: "Hyper Transfer Markup Language"
-    difficulty: MEDIUM
-  - text: "Quel langage de programmation de haut niveau a été créé par John Backus en 1957 ?"
-    answers:
-      A: "COBOL"
-      B: "BASIC"
-      C: "Pascal"
-      D: "FORTRAN"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which high-level programming language was created by John Backus in 1957?"
-        answers:
-          A: "COBOL"
-          B: "BASIC"
-          C: "Pascal"
-          D: "FORTRAN"
-    difficulty: MEDIUM
-  - text: "Quel type de connecteur est couramment utilisé pour un câble réseau Ethernet ?"
-    answers:
-      A: "USB-C"
-      B: "HDMI"
-      C: "RJ45"
-      D: "VGA"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which type of connector is commonly used for an Ethernet network cable?"
-        answers:
-          A: "USB-C"
-          B: "HDMI"
-          C: "RJ45"
-          D: "VGA"
-    difficulty: MEDIUM
-  - text: "Que mesure un hertz (Hz) ?"
-    answers:
-      A: "Le nombre de cycles par seconde"
-      B: "La taille d'un fichier"
-      C: "La puissance d'un écran"
-      D: "Le nombre de pixels"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What does a hertz (Hz) measure?"
-        answers:
-          A: "The number of cycles per second"
-          B: "The size of a file"
-          C: "The power of a screen"
-          D: "The number of pixels"
-    difficulty: MEDIUM
-  - text: "Qui a créé le langage de programmation C ?"
-    answers:
-      A: "Bjarne Stroustrup"
-      B: "Dennis Ritchie"
-      C: "James Gosling"
-      D: "Guido van Rossum"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who created the C programming language?"
-        answers:
-          A: "Bjarne Stroustrup"
-          B: "Dennis Ritchie"
-          C: "James Gosling"
-          D: "Guido van Rossum"
-    difficulty: MEDIUM
-  - text: "Quel est le rôle d'un compilateur ?"
-    answers:
-      A: "Exécuter directement le programme"
-      B: "Dessiner l'interface graphique"
-      C: "Stocker les données"
-      D: "Traduire un code source en langage machine"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the role of a compiler?"
-        answers:
-          A: "Directly execute the program"
-          B: "Draw the graphical interface"
-          C: "Store the data"
-          D: "Translate source code into machine language"
-    difficulty: MEDIUM
-  - text: "À quoi correspond l'adresse IP 127.0.0.1 ?"
-    answers:
-      A: "À un serveur de Google"
-      B: "À une adresse invalide"
-      C: "À la machine locale"
-      D: "À un routeur public"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What does the IP address 127.0.0.1 correspond to?"
-        answers:
-          A: "A Google server"
-          B: "An invalid address"
-          C: "The local machine"
-          D: "A public router"
-    difficulty: MEDIUM
-  - text: "Quel langage est utilisé pour interroger les bases de données relationnelles ?"
-    answers:
-      A: "SQL"
-      B: "HTML"
-      C: "CSS"
-      D: "HTTP"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which language is used to query relational databases?"
-        answers:
-          A: "SQL"
-          B: "HTML"
-          C: "CSS"
-          D: "HTTP"
-    difficulty: MEDIUM
-  - text: "Quelle entreprise a créé l'iPhone ?"
-    answers:
-      A: "Samsung"
-      B: "Apple"
-      C: "Google"
-      D: "Nokia"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which company created the iPhone?"
-        answers:
-          A: "Samsung"
-          B: "Apple"
-          C: "Google"
-          D: "Nokia"
-    difficulty: MEDIUM
-  - text: "Que signifie l'expression open source ?"
-    answers:
-      A: "Un logiciel forcément gratuit"
-      B: "Un logiciel sans virus"
-      C: "Un logiciel utilisé uniquement en ligne"
-      D: "Un logiciel dont le code source est accessible"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What does the term open source mean?"
-        answers:
-          A: "Software that is necessarily free of charge"
-          B: "Software without viruses"
-          C: "Software used only online"
-          D: "Software whose source code is accessible"
-    difficulty: MEDIUM
-  - text: "Quel est le résultat en décimal du nombre binaire 1010 ?"
-    answers:
-      A: "8"
-      B: "10"
-      C: "12"
-      D: "14"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the decimal result of the binary number 1010?"
-        answers:
-          A: "8"
-          B: "10"
-          C: "12"
-          D: "14"
+          A: "RSA"
+          B: "AES"
+          C: "DES"
+          D: "Blowfish"
     difficulty: HARD
-  - text: "Quelle structure de données fonctionne selon le principe dernier entré, premier sorti ?"
+  - text: "Que signifie le sigle 'TCP' ?"
     answers:
-      A: "La file"
-      B: "L'arbre"
-      C: "La pile"
-      D: "Le graphe"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which data structure works on the last in, first out principle?"
-        answers:
-          A: "The queue"
-          B: "The tree"
-          C: "The stack"
-          D: "The graph"
-    difficulty: HARD
-  - text: "Quelle est la complexité temporelle de la recherche dichotomique dans un tableau trié ?"
-    answers:
-      A: "O(log n)"
-      B: "O(n)"
-      C: "O(n²)"
-      D: "O(1)"
+      A: "Transmission Control Protocol"
+      B: "Transfer Control Protocol"
+      C: "Transmission Communication Protocol"
+      D: "Transport Control Protocol"
     correctAnswer: A
     translations:
       en:
-        text: "What is the time complexity of binary search in a sorted array?"
+        text: "What does the acronym 'TCP' stand for?"
         answers:
-          A: "O(log n)"
-          B: "O(n)"
-          C: "O(n²)"
-          D: "O(1)"
-    difficulty: HARD
-  - text: "Quel pionnier a proposé l'architecture d'ordinateur à programme enregistré ?"
-    answers:
-      A: "Alan Turing"
-      B: "Charles Babbage"
-      C: "Claude Shannon"
-      D: "John von Neumann"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which pioneer proposed the stored-program computer architecture?"
-        answers:
-          A: "Alan Turing"
-          B: "Charles Babbage"
-          C: "Claude Shannon"
-          D: "John von Neumann"
-    difficulty: HARD
-  - text: "Quel langage de programmation a été créé par Bjarne Stroustrup ?"
+          A: "Transmission Control Protocol"
+          B: "Transfer Control Protocol"
+          C: "Transmission Communication Protocol"
+          D: "Transport Control Protocol"
+    difficulty: EASY
+  - text: "Quel langage de programmation a été créé par Dennis Ritchie en 1972 ?"
     answers:
       A: "C"
-      B: "Java"
-      C: "C++"
-      D: "C#"
-    correctAnswer: C
+      B: "C++"
+      C: "Java"
+      D: "Pascal"
+    correctAnswer: A
     translations:
       en:
-        text: "Which programming language was created by Bjarne Stroustrup?"
+        text: "Which programming language was created by Dennis Ritchie in 1972?"
         answers:
           A: "C"
-          B: "Java"
-          C: "C++"
-          D: "C#"
-    difficulty: HARD
-  - text: "Que désigne un cookie dans un navigateur web ?"
+          B: "C++"
+          C: "Java"
+          D: "Pascal"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier prototype de souris informatique, inventé par Douglas Engelbart en 1964 ?"
     answers:
-      A: "Un logiciel espion"
-      B: "Un petit fichier déposé par un site sur l'appareil"
-      C: "Une publicité"
-      D: "Un mot de passe enregistré"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does a cookie refer to in a web browser?"
-        answers:
-          A: "Spyware"
-          B: "A small file placed by a site on the device"
-          C: "An advertisement"
-          D: "A saved password"
-    difficulty: HARD
-  - text: "Quel algorithme de tri divise le tableau et a une complexité moyenne en O(n log n) ?"
-    answers:
-      A: "Le tri rapide"
-      B: "Le tri à bulles"
-      C: "Le tri par insertion"
-      D: "Le tri par sélection"
+      A: "X-Y Position Indicator"
+      B: "Mouse"
+      C: "Trackball"
+      D: "Pointing Stick"
     correctAnswer: A
     translations:
       en:
-        text: "Which sorting algorithm divides the array and has an average complexity of O(n log n)?"
+        text: "What is the name of the first computer mouse prototype, invented by Douglas Engelbart in 1964?"
         answers:
-          A: "Quicksort"
-          B: "Bubble sort"
-          C: "Insertion sort"
-          D: "Selection sort"
-    difficulty: HARD
-  - text: "Que signifie le sigle GPU ?"
+          A: "X-Y Position Indicator"
+          B: "Mouse"
+          C: "Trackball"
+          D: "Pointing Stick"
+    difficulty: EXPERT
+  - text: "Quel protocole est utilisé pour transférer des fichiers entre un client et un serveur ?"
     answers:
-      A: "General Processing Unit"
-      B: "Graphics Processing Unit"
-      C: "Global Program Unit"
-      D: "Graphic Power Unit"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does the acronym GPU stand for?"
-        answers:
-          A: "General Processing Unit"
-          B: "Graphics Processing Unit"
-          C: "Global Program Unit"
-          D: "Graphic Power Unit"
-    difficulty: HARD
-  - text: "Quel protocole attribue automatiquement une adresse IP à un appareil du réseau ?"
-    answers:
-      A: "DNS"
-      B: "NAT"
-      C: "DHCP"
+      A: "SSH"
+      B: "SMTP"
+      C: "HTTP"
       D: "FTP"
-    correctAnswer: C
+    correctAnswer: D
     translations:
       en:
-        text: "Which protocol automatically assigns an IP address to a device on the network?"
+        text: "Which protocol is used to transfer files between a client and a server?"
         answers:
-          A: "DNS"
-          B: "NAT"
-          C: "DHCP"
+          A: "SSH"
+          B: "SMTP"
+          C: "HTTP"
           D: "FTP"
-    difficulty: HARD
-  - text: "Quel ordinateur programmable a été construit par Konrad Zuse en 1941 ?"
+    difficulty: MEDIUM
+  - text: "Quel langage de programmation a été créé par Larry Wall en 1987 ?"
     answers:
-      A: "ENIAC"
-      B: "Colossus"
-      C: "Harvard Mark I"
-      D: "Z3"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which programmable computer was built by Konrad Zuse in 1941?"
-        answers:
-          A: "ENIAC"
-          B: "Colossus"
-          C: "Harvard Mark I"
-          D: "Z3"
-    difficulty: HARD
-  - text: "En programmation, que fait une boucle while ?"
-    answers:
-      A: "Elle répète des instructions tant qu'une condition reste vraie"
-      B: "Elle exécute une seule fois les instructions"
-      C: "Elle définit une fonction"
-      D: "Elle stocke des données"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In programming, what does a while loop do?"
-        answers:
-          A: "It repeats instructions as long as a condition remains true"
-          B: "It executes the instructions only once"
-          C: "It defines a function"
-          D: "It stores data"
-    difficulty: HARD
-  - text: "Que signifie le sigle SSD ?"
-    answers:
-      A: "Super Storage Device"
-      B: "Secure System Disk"
-      C: "Static Storage Drive"
-      D: "Solid State Drive"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What does the acronym SSD stand for?"
-        answers:
-          A: "Super Storage Device"
-          B: "Secure System Disk"
-          C: "Static Storage Drive"
-          D: "Solid State Drive"
-    difficulty: HARD
-  - text: "Quelle informaticienne a popularisé le terme bug après la découverte d'un papillon de nuit dans un ordinateur en 1947 ?"
-    answers:
-      A: "Ada Lovelace"
-      B: "Hedy Lamarr"
-      C: "Grace Hopper"
-      D: "Margaret Hamilton"
+      A: "Ruby"
+      B: "Python"
+      C: "Perl"
+      D: "PHP"
     correctAnswer: C
     translations:
       en:
-        text: "Which computer scientist popularized the term bug after discovering a moth in a computer in 1947?"
+        text: "Which programming language was created by Larry Wall in 1987?"
         answers:
-          A: "Ada Lovelace"
-          B: "Hedy Lamarr"
-          C: "Grace Hopper"
-          D: "Margaret Hamilton"
+          A: "Ruby"
+          B: "Python"
+          C: "Perl"
+          D: "PHP"
     difficulty: HARD
-  - text: "Quelle est la base du système de numération hexadécimal ?"
+  - text: "Quel est le nom du premier système d'exploitation graphique grand public développé par Apple en 1984 ?"
     answers:
-      A: "16"
-      B: "8"
-      C: "10"
-      D: "2"
-    correctAnswer: A
+      A: "Lisa OS"
+      B: "Mac OS X"
+      C: "Windows 1.0"
+      D: "System 1"
+    correctAnswer: D
     translations:
       en:
-        text: "What is the base of the hexadecimal numeral system?"
+        text: "What is the name of the first mass-market graphical operating system developed by Apple in 1984?"
         answers:
-          A: "16"
-          B: "8"
-          C: "10"
-          D: "2"
-    difficulty: HARD
-  - text: "Quel langage a été créé par Brendan Eich en 1995 ?"
+          A: "Lisa OS"
+          B: "Mac OS X"
+          C: "Windows 1.0"
+          D: "System 1"
+    difficulty: MEDIUM
+  - text: "Quel langage de programmation a été conçu par Brendan Eich en 1995 en seulement 10 jours ?"
     answers:
       A: "Java"
       B: "JavaScript"
-      C: "PHP"
-      D: "Python"
+      C: "TypeScript"
+      D: "JScript"
     correctAnswer: B
     translations:
       en:
-        text: "Which language was created by Brendan Eich in 1995?"
+        text: "Which programming language was designed by Brendan Eich in 1995 in just 10 days?"
         answers:
           A: "Java"
           B: "JavaScript"
-          C: "PHP"
-          D: "Python"
+          C: "TypeScript"
+          D: "JScript"
     difficulty: HARD
-  - text: "Que signifie le sigle TCP ?"
+  - text: "Quelle est la complexité temporelle de l'algorithme de tri rapide (quicksort) dans le pire des cas ?"
     answers:
-      A: "Transfer Connection Program"
-      B: "Terminal Control Protocol"
-      C: "Transport Communication Program"
-      D: "Transmission Control Protocol"
+      A: "O(n)"
+      B: "O(n log n)"
+      C: "O(log n)"
+      D: "O(n^2)"
     correctAnswer: D
     translations:
       en:
-        text: "What does the acronym TCP stand for?"
+        text: "What is the worst-case time complexity of the quicksort algorithm?"
         answers:
-          A: "Transfer Connection Program"
-          B: "Terminal Control Protocol"
-          C: "Transport Communication Program"
-          D: "Transmission Control Protocol"
+          A: "O(n)"
+          B: "O(n log n)"
+          C: "O(log n)"
+          D: "O(n^2)"
     difficulty: HARD
-  - text: "Quel algorithme parcourt un graphe en explorant le plus loin possible avant de revenir en arrière ?"
+  - text: "En notation CIDR, que représente le suffixe /24 dans une adresse IPv4 ?"
     answers:
-      A: "Le parcours en profondeur"
-      B: "Le parcours en largeur"
-      C: "Le tri topologique"
-      D: "L'algorithme de Dijkstra"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which algorithm traverses a graph by exploring as far as possible before backtracking?"
-        answers:
-          A: "Depth-first search"
-          B: "Breadth-first search"
-          C: "Topological sort"
-          D: "Dijkstra's algorithm"
-    difficulty: HARD
-  - text: "Qui a établi la théorie de la capacité maximale d'un canal de communication ?"
-    answers:
-      A: "Alan Turing"
-      B: "Claude Shannon"
-      C: "John von Neumann"
-      D: "Norbert Wiener"
+      A: "Un masque de sous-réseau de 255.255.0.0"
+      B: "Un masque de sous-réseau de 255.255.255.0"
+      C: "Un masque de sous-réseau de 255.255.255.128"
+      D: "Un masque de sous-réseau de 255.0.0.0"
     correctAnswer: B
     translations:
       en:
-        text: "Who established the theory of the maximum capacity of a communication channel?"
+        text: "In CIDR notation, what does the /24 suffix represent in an IPv4 address?"
         answers:
-          A: "Alan Turing"
-          B: "Claude Shannon"
-          C: "John von Neumann"
-          D: "Norbert Wiener"
+          A: "A subnet mask of 255.255.0.0"
+          B: "A subnet mask of 255.255.255.0"
+          C: "A subnet mask of 255.255.255.128"
+          D: "A subnet mask of 255.0.0.0"
     difficulty: HARD
-  - text: "Que désigne un débordement de tampon (buffer overflow) ?"
+  - text: "Quel est le nom du système de fichiers par défaut de Windows NT et de ses successeurs ?"
     answers:
-      A: "Un écran trop chargé"
-      B: "Une connexion trop lente"
-      C: "Un disque dur plein"
-      D: "L'écriture de données au-delà de la taille d'une zone mémoire"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What does a buffer overflow refer to?"
-        answers:
-          A: "An overloaded screen"
-          B: "A connection that is too slow"
-          C: "A full hard drive"
-          D: "Writing data beyond the size of a memory area"
-    difficulty: HARD
-  - text: "Quel réseau militaire est l'ancêtre d'Internet, créé en 1969 ?"
-    answers:
-      A: "Ethernet"
-      B: "Minitel"
-      C: "ARPANET"
-      D: "NSFNET"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which military network is the ancestor of the Internet, created in 1969?"
-        answers:
-          A: "Ethernet"
-          B: "Minitel"
-          C: "ARPANET"
-          D: "NSFNET"
-    difficulty: HARD
-  - text: "Quel est le résultat en décimal du nombre binaire 11111111 ?"
-    answers:
-      A: "255"
-      B: "256"
-      C: "127"
-      D: "128"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the decimal result of the binary number 11111111?"
-        answers:
-          A: "255"
-          B: "256"
-          C: "127"
-          D: "128"
-    difficulty: EXPERT
-  - text: "Que démontre le problème de l'arrêt formulé par Alan Turing ?"
-    answers:
-      A: "Qu'un programme boucle toujours"
-      B: "Qu'il est impossible de décider en général si un programme s'arrête"
-      C: "Qu'un ordinateur finit par chauffer"
-      D: "Qu'une mémoire finit par être saturée"
+      A: "ext4"
+      B: "NTFS"
+      C: "HFS+"
+      D: "FAT32"
     correctAnswer: B
     translations:
       en:
-        text: "What does the halting problem formulated by Alan Turing demonstrate?"
+        text: "What is the name of the default file system of Windows NT and its successors?"
         answers:
-          A: "That a program always loops"
-          B: "That it is impossible in general to decide whether a program halts"
-          C: "That a computer eventually heats up"
-          D: "That memory eventually becomes saturated"
-    difficulty: EXPERT
-  - text: "Quelle loi empirique prévoit un doublement du nombre de transistors d'une puce environ tous les deux ans ?"
+          A: "ext4"
+          B: "NTFS"
+          C: "HFS+"
+          D: "FAT32"
+    difficulty: HARD
+  - text: "Quel algorithme de chiffrement asymétrique est basé sur la difficulté de factoriser de grands nombres entiers ?"
     answers:
-      A: "La loi de Metcalfe"
-      B: "La loi d'Amdahl"
-      C: "La loi de Moore"
-      D: "La loi de Grosch"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which empirical law predicts that the number of transistors on a chip doubles about every two years?"
-        answers:
-          A: "Metcalfe's law"
-          B: "Amdahl's law"
-          C: "Moore's law"
-          D: "Grosch's law"
-    difficulty: EXPERT
-  - text: "Quel langage de programmation a été conçu par Niklaus Wirth ?"
-    answers:
-      A: "FORTRAN"
-      B: "COBOL"
-      C: "Ada"
-      D: "Pascal"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which programming language was designed by Niklaus Wirth?"
-        answers:
-          A: "FORTRAN"
-          B: "COBOL"
-          C: "Ada"
-          D: "Pascal"
-    difficulty: EXPERT
-  - text: "Que calcule l'algorithme de Dijkstra ?"
-    answers:
-      A: "Le plus court chemin dans un graphe pondéré"
-      B: "Le tri d'un tableau"
-      C: "La compression d'un fichier"
-      D: "Le chiffrement d'un message"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What does Dijkstra's algorithm compute?"
-        answers:
-          A: "The shortest path in a weighted graph"
-          B: "The sorting of an array"
-          C: "The compression of a file"
-          D: "The encryption of a message"
-    difficulty: EXPERT
-  - text: "Qui a coécrit en 1974 l'article fondateur du protocole TCP avec Bob Kahn ?"
-    answers:
-      A: "Tim Berners-Lee"
-      B: "Vint Cerf"
-      C: "Lawrence Roberts"
-      D: "Paul Baran"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who co-wrote the founding paper on the TCP protocol with Bob Kahn in 1974?"
-        answers:
-          A: "Tim Berners-Lee"
-          B: "Vint Cerf"
-          C: "Lawrence Roberts"
-          D: "Paul Baran"
-    difficulty: EXPERT
-  - text: "Quel langage est considéré comme le premier à avoir introduit les concepts de la programmation orientée objet ?"
-    answers:
-      A: "Smalltalk"
-      B: "C++"
-      C: "Simula"
-      D: "Objective-C"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which language is considered the first to introduce the concepts of object-oriented programming?"
-        answers:
-          A: "Smalltalk"
-          B: "C++"
-          C: "Simula"
-          D: "Objective-C"
-    difficulty: EXPERT
-  - text: "Comment s'appelle la calculatrice mécanique conçue par Blaise Pascal au XVIIe siècle ?"
-    answers:
-      A: "La machine analytique"
-      B: "La machine différentielle"
-      C: "L'arithmomètre"
-      D: "La Pascaline"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the name of the mechanical calculator designed by Blaise Pascal in the 17th century?"
-        answers:
-          A: "The Analytical Engine"
-          B: "The Difference Engine"
-          C: "The Arithmometer"
-          D: "The Pascaline"
-    difficulty: EXPERT
-  - text: "Que désigne la notation grand O en algorithmique ?"
-    answers:
-      A: "Un ordre de grandeur de la croissance du temps d'exécution"
-      B: "Une base de numération"
-      C: "Un type de variable"
-      D: "Un protocole réseau"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What does big O notation designate in algorithmics?"
-        answers:
-          A: "An order of magnitude of the growth of execution time"
-          B: "A numeral base"
-          C: "A type of variable"
-          D: "A network protocol"
-    difficulty: EXPERT
-  - text: "En quelle année Richard Stallman a-t-il lancé le projet GNU ?"
-    answers:
-      A: "1976"
-      B: "1980"
-      C: "1983"
-      D: "1991"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In what year did Richard Stallman launch the GNU project?"
-        answers:
-          A: "1976"
-          B: "1980"
-          C: "1983"
-          D: "1991"
-    difficulty: EXPERT
-  - text: "Qui a développé le format de compression ZIP ?"
-    answers:
-      A: "Marc Andreessen"
-      B: "John Carmack"
-      C: "Bram Cohen"
-      D: "Phil Katz"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who developed the ZIP compression format?"
-        answers:
-          A: "Marc Andreessen"
-          B: "John Carmack"
-          C: "Bram Cohen"
-          D: "Phil Katz"
-    difficulty: EXPERT
-  - text: "Dans une file d'attente informatique, quel élément est traité en premier ?"
-    answers:
-      A: "Le premier arrivé"
-      B: "Le dernier arrivé"
-      C: "L'élément le plus grand"
-      D: "Un élément tiré au hasard"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In a computer queue, which element is processed first?"
-        answers:
-          A: "The first one to arrive"
-          B: "The last one to arrive"
-          C: "The largest element"
-          D: "A randomly drawn element"
-    difficulty: EXPERT
-  - text: "Qui a créé le système de gestion de base de données MySQL, à l'origine de MariaDB ?"
-    answers:
-      A: "Linus Torvalds"
-      B: "Michael Widenius"
-      C: "Salvatore Sanfilippo"
-      D: "Guido van Rossum"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who created the MySQL database management system, the origin of MariaDB?"
-        answers:
-          A: "Linus Torvalds"
-          B: "Michael Widenius"
-          C: "Salvatore Sanfilippo"
-          D: "Guido van Rossum"
-    difficulty: EXPERT
-  - text: "Qu'est-ce que la programmation fonctionnelle ?"
-    answers:
-      A: "Un style fondé sur la modification d'état global"
-      B: "Un style centré sur l'héritage de classes"
-      C: "Un style fondé sur l'évaluation de fonctions sans effet de bord"
-      D: "Un style de programmation graphique"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is functional programming?"
-        answers:
-          A: "A style based on modifying global state"
-          B: "A style centered on class inheritance"
-          C: "A style based on evaluating functions without side effects"
-          D: "A graphical programming style"
-    difficulty: EXPERT
-  - text: "Quel ordinateur électronique britannique des années 1940 servait à déchiffrer des messages allemands ?"
-    answers:
-      A: "ENIAC"
-      B: "Z3"
-      C: "Harvard Mark I"
-      D: "Colossus"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which British electronic computer of the 1940s was used to decipher German messages?"
-        answers:
-          A: "ENIAC"
-          B: "Z3"
-          C: "Harvard Mark I"
-          D: "Colossus"
-    difficulty: EXPERT
-  - text: "Quel protocole chiffre les échanges entre un navigateur et un serveur à l'aide de certificats ?"
-    answers:
-      A: "TLS"
-      B: "SSH"
-      C: "SFTP"
-      D: "DNSSEC"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which protocol encrypts exchanges between a browser and a server using certificates?"
-        answers:
-          A: "TLS"
-          B: "SSH"
-          C: "SFTP"
-          D: "DNSSEC"
-    difficulty: EXPERT
-  - text: "Quel algorithme de chiffrement asymétrique a été publié en 1977 par Rivest, Shamir et Adleman ?"
-    answers:
-      A: "DES"
+      A: "AES"
       B: "RSA"
-      C: "AES"
-      D: "MD5"
+      C: "SHA-256"
+      D: "Diffie-Hellman"
     correctAnswer: B
     translations:
       en:
-        text: "Which asymmetric encryption algorithm was published in 1977 by Rivest, Shamir and Adleman?"
+        text: "Which asymmetric encryption algorithm is based on the difficulty of factoring large integers?"
         answers:
-          A: "DES"
+          A: "AES"
           B: "RSA"
-          C: "AES"
-          D: "MD5"
-    difficulty: EXPERT
-  - text: "Quel langage de programmation a été créé par Graydon Hoare avec le soutien de Mozilla ?"
+          C: "SHA-256"
+          D: "Diffie-Hellman"
+    difficulty: HARD
+  - text: "Quelle structure de données est utilisée par un navigateur web pour gérer l'historique des pages visitées (bouton Précédent/Suivant) ?"
     answers:
-      A: "Go"
-      B: "Swift"
-      C: "Rust"
-      D: "Kotlin"
+      A: "File (queue)"
+      B: "Liste chaînée"
+      C: "Pile (stack)"
+      D: "Arbre binaire"
     correctAnswer: C
     translations:
       en:
-        text: "Which programming language was created by Graydon Hoare with Mozilla's support?"
+        text: "Which data structure is used by a web browser to manage the history of visited pages (Back/Forward button)?"
         answers:
-          A: "Go"
-          B: "Swift"
-          C: "Rust"
-          D: "Kotlin"
+          A: "Queue"
+          B: "Linked list"
+          C: "Stack"
+          D: "Binary tree"
     difficulty: EXPERT
-  - text: "Que garantit l'acronyme ACID pour les transactions d'une base de données ?"
+  - text: "Qui a inventé le modèle relationnel de bases de données en 1970 ?"
     answers:
-      A: "Un chiffrement fort"
-      B: "Une sauvegarde automatique"
-      C: "Une réplication synchrone"
-      D: "Atomicité, cohérence, isolation et durabilité"
-    correctAnswer: D
+      A: "Edgar F. Codd"
+      B: "Larry Ellison"
+      C: "Jim Gray"
+      D: "Michael Stonebraker"
+    correctAnswer: A
     translations:
       en:
-        text: "What does the acronym ACID guarantee for database transactions?"
+        text: "Who invented the relational model of databases in 1970?"
         answers:
-          A: "Strong encryption"
-          B: "Automatic backup"
-          C: "Synchronous replication"
-          D: "Atomicity, consistency, isolation and durability"
-    difficulty: EXPERT
-  - text: "Que signifie le sigle ASCII ?"
+          A: "Edgar F. Codd"
+          B: "Larry Ellison"
+          C: "Jim Gray"
+          D: "Michael Stonebraker"
+    difficulty: HARD
+  - text: "Quel composant électronique est utilisé comme interrupteur commandé dans les processeurs modernes ?"
     answers:
-      A: "Advanced Standard Code for Internet Interchange"
-      B: "American Standard Code for Information Interchange"
-      C: "American System Code for Information Interchange"
-      D: "Automatic Standard Code for Integrated Information"
+      A: "Diode"
+      B: "Transistor MOSFET"
+      C: "Condensateur"
+      D: "Résistance"
     correctAnswer: B
     translations:
       en:
-        text: "What does the acronym ASCII stand for?"
+        text: "Which electronic component is used as a controlled switch in modern processors?"
         answers:
-          A: "Advanced Standard Code for Internet Interchange"
-          B: "American Standard Code for Information Interchange"
-          C: "American System Code for Information Interchange"
-          D: "Automatic Standard Code for Integrated Information"
+          A: "Diode"
+          B: "MOSFET transistor"
+          C: "Capacitor"
+          D: "Resistor"
+    difficulty: MEDIUM
+  - text: "Que signifie le sigle « SQL » ?"
+    answers:
+      A: "Simple Query Language"
+      B: "Standard Query Language"
+      C: "Structured Query Language"
+      D: "Sequential Query Language"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does the acronym \"SQL\" stand for?"
+        answers:
+          A: "Simple Query Language"
+          B: "Standard Query Language"
+          C: "Structured Query Language"
+          D: "Sequential Query Language"
+    difficulty: EASY
+  - text: "Quel langage de programmation a été créé par Anders Hejlsberg chez Microsoft et est utilisé avec .NET ?"
+    answers:
+      A: "C#"
+      B: "F#"
+      C: "Visual Basic .NET"
+      D: "C++/CLI"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which programming language was created by Anders Hejlsberg at Microsoft and is used with .NET?"
+        answers:
+          A: "C#"
+          B: "F#"
+          C: "Visual Basic .NET"
+          D: "C++/CLI"
+    difficulty: HARD
+  - text: "Quel algorithme de routage utilise l'état des liens et l'algorithme de Dijkstra pour trouver le plus court chemin ?"
+    answers:
+      A: "RIP"
+      B: "IGRP"
+      C: "BGP"
+      D: "OSPF"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which routing algorithm uses link state and Dijkstra's algorithm to find the shortest path?"
+        answers:
+          A: "RIP"
+          B: "IGRP"
+          C: "BGP"
+          D: "OSPF"
     difficulty: EXPERT
+  - text: "Quel est le nom du premier compilateur pour le langage FORTRAN, développé par IBM en 1957 ?"
+    answers:
+      A: "FORTRAN II"
+      B: "FORTRAN I"
+      C: "FORTRAN 66"
+      D: "FORTRAN 77"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first compiler for the FORTRAN language, developed by IBM in 1957?"
+        answers:
+          A: "FORTRAN II"
+          B: "FORTRAN I"
+          C: "FORTRAN 66"
+          D: "FORTRAN 77"
+    difficulty: EXPERT
+  - text: "Quel langage a été créé par José Valim en 2011 et s'exécute sur la machine virtuelle Erlang ?"
+    answers:
+      A: "Elixir"
+      B: "Clojure"
+      C: "Scala"
+      D: "Haskell"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which language was created by José Valim in 2011 and runs on the Erlang virtual machine?"
+        answers:
+          A: "Elixir"
+          B: "Clojure"
+          C: "Scala"
+          D: "Haskell"
+    difficulty: EXPERT
+  - text: "Quel est le nom du protocole utilisé pour synchroniser les horloges des ordinateurs sur un réseau ?"
+    answers:
+      A: "DNS"
+      B: "DHCP"
+      C: "NTP"
+      D: "SMTP"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the protocol used to synchronize computer clocks on a network?"
+        answers:
+          A: "DNS"
+          B: "DHCP"
+          C: "NTP"
+          D: "SMTP"
+    difficulty: MEDIUM
+  - text: "Quelle est la complexité temporelle de l'algorithme de recherche binaire dans un tableau trié ?"
+    answers:
+      A: "O(n)"
+      B: "O(n log n)"
+      C: "O(log n)"
+      D: "O(1)"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the time complexity of the binary search algorithm in a sorted array?"
+        answers:
+          A: "O(n)"
+          B: "O(n log n)"
+          C: "O(log n)"
+          D: "O(1)"
+    difficulty: MEDIUM
+  - text: "Quel langage de programmation a été conçu par John Backus et son équipe chez IBM en 1957 ?"
+    answers:
+      A: "COBOL"
+      B: "ALGOL"
+      C: "FORTRAN"
+      D: "Lisp"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which programming language was designed by John Backus and his team at IBM in 1957?"
+        answers:
+          A: "COBOL"
+          B: "ALGOL"
+          C: "FORTRAN"
+          D: "Lisp"
+    difficulty: HARD
+  - text: "Quel est le nom de la première spécification de réseau local sans fil, publiée par l'IEEE en 1997 ?"
+    answers:
+      A: "IEEE 802.3"
+      B: "IEEE 802.15"
+      C: "IEEE 802.11"
+      D: "IEEE 802.16"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first wireless local area network specification, published by the IEEE in 1997?"
+        answers:
+          A: "IEEE 802.3"
+          B: "IEEE 802.15"
+          C: "IEEE 802.11"
+          D: "IEEE 802.16"
+    difficulty: EXPERT
+  - text: "Quel algorithme de tri a une complexité temporelle de O(n log n) dans tous les cas et est stable ?"
+    answers:
+      A: "Tri fusion (merge sort)"
+      B: "Tri rapide (quicksort)"
+      C: "Tri par tas (heapsort)"
+      D: "Tri par insertion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sorting algorithm has a time complexity of O(n log n) in all cases and is stable?"
+        answers:
+          A: "Merge sort"
+          B: "Quicksort"
+          C: "Heapsort"
+          D: "Insertion sort"
+    difficulty: EXPERT
+  - text: "Quel langage de programmation a été créé par Rich Hickey en 2007 et est un dialecte de Lisp pour la JVM ?"
+    answers:
+      A: "Kotlin"
+      B: "Scala"
+      C: "Groovy"
+      D: "Clojure"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which programming language was created by Rich Hickey in 2007 and is a dialect of Lisp for the JVM?"
+        answers:
+          A: "Kotlin"
+          B: "Scala"
+          C: "Groovy"
+          D: "Clojure"
+    difficulty: EXPERT
+  - text: "Quel langage, créé en 1991 par Yukihiro Matsumoto, privilégie la joie du programmeur ?"
+    answers:
+      A: "Elixir"
+      B: "Python"
+      C: "Perl"
+      D: "Ruby"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which language, created in 1991 by Yukihiro Matsumoto, prioritizes programmer happiness?"
+        answers:
+          A: "Elixir"
+          B: "Python"
+          C: "Perl"
+          D: "Ruby"
+    difficulty: HARD
+  - text: "Quel algorithme de consensus est utilisé par Bitcoin pour valider les blocs ?"
+    answers:
+      A: "Raft"
+      B: "Paxos"
+      C: "Byzantine fault tolerance"
+      D: "Preuve de travail"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which consensus algorithm is used by Bitcoin to validate blocks?"
+        answers:
+          A: "Raft"
+          B: "Paxos"
+          C: "Byzantine fault tolerance"
+          D: "Proof of work"
+    difficulty: HARD
+  - text: "Quel est le nom du gestionnaire de paquets de Node.js, lancé en 2010 ?"
+    answers:
+      A: "npm"
+      B: "Yarn"
+      C: "pip"
+      D: "Composer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the package manager for Node.js, launched in 2010?"
+        answers:
+          A: "npm"
+          B: "Yarn"
+          C: "pip"
+          D: "Composer"
+    difficulty: MEDIUM
+  - text: "Quel langage a été créé par Simon Peyton Jones et est paresseux par défaut ?"
+    answers:
+      A: "Scala"
+      B: "OCaml"
+      C: "F#"
+      D: "Haskell"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which language was created by Simon Peyton Jones and is lazy by default?"
+        answers:
+          A: "Scala"
+          B: "OCaml"
+          C: "F#"
+          D: "Haskell"
+    difficulty: EXPERT
+  - text: "Quel algorithme de chiffrement asymétrique est basé sur le problème du logarithme discret ?"
+    answers:
+      A: "ElGamal"
+      B: "RSA"
+      C: "ECDSA"
+      D: "Diffie-Hellman"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which asymmetric encryption algorithm is based on the discrete logarithm problem?"
+        answers:
+          A: "ElGamal"
+          B: "RSA"
+          C: "ECDSA"
+          D: "Diffie-Hellman"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier compilateur auto-hébergé, capable de compiler son propre code source ?"
+    answers:
+      A: "Tiny C"
+      B: "LCC"
+      C: "Small-C"
+      D: "GCC"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first self-hosting compiler, capable of compiling its own source code?"
+        answers:
+          A: "Tiny C"
+          B: "LCC"
+          C: "Small-C"
+          D: "GCC"
+    difficulty: EXPERT
+  - text: "Quel langage de programmation a été créé par Graydon Hoare en 2006 chez Mozilla ?"
+    answers:
+      A: "Swift"
+      B: "Zig"
+      C: "Rust"
+      D: "D"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which programming language was created by Graydon Hoare in 2006 at Mozilla?"
+        answers:
+          A: "Swift"
+          B: "Zig"
+          C: "Rust"
+          D: "D"
+    difficulty: HARD
+  - text: "Quel algorithme de tri a une complexité temporelle de O(n log n) dans tous les cas et n'est pas stable ?"
+    answers:
+      A: "Tri par tas"
+      B: "Tri fusion"
+      C: "Tri rapide"
+      D: "Tri par insertion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which sorting algorithm has a time complexity of O(n log n) in all cases and is not stable?"
+        answers:
+          A: "Heap sort"
+          B: "Merge sort"
+          C: "Quick sort"
+          D: "Insertion sort"
+    difficulty: EXPERT
+  - text: "Quel est le nom du format de sérialisation binaire créé par Google en 2008 ?"
+    answers:
+      A: "JSON"
+      B: "MessagePack"
+      C: "BSON"
+      D: "Protocol Buffers"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the binary serialization format created by Google in 2008?"
+        answers:
+          A: "JSON"
+          B: "MessagePack"
+          C: "BSON"
+          D: "Protocol Buffers"
+    difficulty: HARD
