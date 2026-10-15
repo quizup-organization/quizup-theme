@@ -1,3 +1,9 @@
+## [6.9.0](https://github.com/quizup-organization/quizup-theme/compare/v6.8.0...v6.9.0) (2026-10-15)
+
+### Features
+
+* **seed:** titres thématiques des 102 thèmes ([ae9ecf5](https://github.com/quizup-organization/quizup-theme/commit/ae9ecf53e029723dd0abcd97e5cec4c8493fa849))
+
 ## [6.8.0](https://github.com/quizup-organization/quizup-theme/compare/v6.7.0...v6.8.0) (2026-10-15)
 
 ### Features
