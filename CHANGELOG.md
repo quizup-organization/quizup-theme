@@ -1,3 +1,9 @@
+## [6.11.1](https://github.com/quizup-organization/quizup-theme/compare/v6.11.0...v6.11.1) (2026-10-15)
+
+### Bug Fixes
+
+* **theme:** le tirage ne remonte plus deux fois la meme question ([9a31290](https://github.com/quizup-organization/quizup-theme/commit/9a31290aaa8349f9d6d097b62a425720709e95af))
+
 ## [6.11.0](https://github.com/quizup-organization/quizup-theme/compare/v6.10.0...v6.11.0) (2026-10-15)
 
 ### Features
