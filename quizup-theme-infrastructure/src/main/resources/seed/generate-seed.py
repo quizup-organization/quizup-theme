@@ -216,7 +216,8 @@ def score_difficulty(api_key, model, questions, batch=50):
         payload = [{"index": start + i, "text": q["text"]} for i, q in enumerate(chunk)]
         result = call_api(
             api_key, model,
-            "Note ces questions de 0 à 100.\n" + json.dumps(payload, ensure_ascii=False),
+            "Note ces questions de 0 à 100 (réponse en JSON).\n"
+            + json.dumps(payload, ensure_ascii=False),
             system_prompt=SCORE_SYSTEM_PROMPT,
         )
         raw = result.get("scores") or {}
@@ -345,18 +346,21 @@ def shorten_image_texts(api_key, model, questions):
     for question in questions:
         if len(question["text"]) <= MAX_IMAGE_TEXT:
             continue
-        result = call_api(
-            api_key, model,
-            json.dumps({"text": question["text"], "answers": question["answers"],
-                        "correctAnswer": question["correctAnswer"]}, ensure_ascii=False),
-            system_prompt=SHORTEN_SYSTEM_PROMPT,
-        )
-        text = str(result.get("text", "")).strip()
-        if not text or len(text) > MAX_IMAGE_TEXT:
-            log(f"    ! raccourci ignoré (longueur {len(text)}) : {question['text'][:50]}")
-            continue
-        question["text"] = text
-        changed += 1
+        for attempt in range(3):
+            result = call_api(
+                api_key, model,
+                f"Raccourcis cette question illustrée en AU PLUS {MAX_IMAGE_TEXT} caractères "
+                "(réponse en JSON) : "
+                + json.dumps({"text": question["text"], "answers": question["answers"],
+                              "correctAnswer": question["correctAnswer"]}, ensure_ascii=False),
+                system_prompt=SHORTEN_SYSTEM_PROMPT,
+            )
+            text = str(result.get("text", "")).strip()
+            if text and len(text) <= MAX_IMAGE_TEXT:
+                question["text"] = text
+                changed += 1
+                break
+            log(f"    ! raccourci trop long ({len(text)} c), tentative {attempt + 1}/3")
     log(f"  -> texte raccourci pour {changed} question(s) imagée(s)")
     return changed
 
