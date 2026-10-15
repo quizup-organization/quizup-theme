@@ -198,4 +198,4 @@ pending:
     name_en: "Club Crests"
     category: SPORTS
     file: topics/sports/blasons-de-clubs.yml
-    note: "> Quiz visuel : ~100 écussons (images par question). Fair use Wikipédia + marques, exception assumée. Ajout manuel des images dans product/wikipedia/sports/ puis génération avec --image-questions."
+    note: "> LIVRÉ : 288 écussons (une question visuelle par club, distracteurs de la même compétition). Écussons servis par football-data.org (`crests.football-data.org/<id>.png`, identifiants récoltés sur native-stats.org) — marques déposées, exception fair use assumée. Rapatriés par `scripts/crest-theme.py` (workspace), classés EASY/MEDIUM/HARD/EXPERT par palier de compétition (cible 10/20/35/35)."
