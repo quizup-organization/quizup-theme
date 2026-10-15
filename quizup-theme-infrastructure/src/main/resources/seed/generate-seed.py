@@ -332,8 +332,42 @@ def rebalance_only(api_key, args):
     return 0
 
 
+SHORTEN_SYSTEM_PROMPT = """\
+Tu raccourcis le texte d'une question de quiz qui s'appuie sur une image. Le nouveau texte fait
+AU PLUS 60 caractères, ne DÉCRIT PAS l'image et ne la résume pas (ex. « Quel est ce pays ? »,
+« À quel club ? »). Garde le même sens et la même réponse. Réponds UNIQUEMENT par
+{"text": "..."}."""
+
+
+def shorten_image_texts(api_key, model, questions):
+    """Raccourcit (≤ 60 c, non descriptif) le texte des questions imagées ; purge leur `en`."""
+    changed = 0
+    for question in questions:
+        if len(question["text"]) <= MAX_IMAGE_TEXT:
+            continue
+        result = call_api(
+            api_key, model,
+            json.dumps({"text": question["text"], "answers": question["answers"],
+                        "correctAnswer": question["correctAnswer"]}, ensure_ascii=False),
+            system_prompt=SHORTEN_SYSTEM_PROMPT,
+        )
+        text = str(result.get("text", "")).strip()
+        if not text or len(text) > MAX_IMAGE_TEXT:
+            log(f"    ! raccourci ignoré (longueur {len(text)}) : {question['text'][:50]}")
+            continue
+        question["text"] = text
+        changed += 1
+    log(f"  -> texte raccourci pour {changed} question(s) imagée(s)")
+    return changed
+
+
 def rewrite(api_key, args):
-    """Régénère les questions d'un thème existant (durci), métadonnées et image conservées."""
+    """
+    Réécriture **hybride** d'un thème existant :
+    - questions **sans image** → régénérées, plus dures ;
+    - questions **avec image** → conservées (l'image porte l'information), texte raccourci si > 60 c.
+    Métadonnées, couverture et images par question sont préservées.
+    """
     import yaml  # noqa: PLC0415
 
     path = Path(args.rewrite)
@@ -348,18 +382,58 @@ def rewrite(api_key, args):
         "imageUrl": data["topic"].get("imageUrl"),
     }
     existing = data.get("questions") or []
-    args.count = len(existing) or args.count
-    args.avoid = (
-        (args.avoid + "; " if args.avoid else "")
-        + "réécris entièrement : ne réutilise PAS ces questions existantes — "
-        + " | ".join(q["text"] for q in existing[:25])
-    )
-    log(f"  -> réécriture de {path.name} ({args.count} questions, contenu durci, sans doublon)")
-    questions = generate(api_key, args, topic)
-    text = render(topic, questions)
+    kept = [q for q in existing if q.get("imageUrl")]
+    to_replace = len(existing) - len(kept)
+    log(f"  -> réécriture de {path.name} : {to_replace} question(s) régénérée(s), "
+        f"{len(kept)} imagée(s) conservée(s)")
+
+    generated = []
+    if to_replace:
+        args.count = to_replace
+        args.avoid = (
+            (args.avoid + "; " if args.avoid else "")
+            + "ne réutilise PAS ces questions existantes — "
+            + " | ".join(q["text"] for q in existing[:25])
+        )
+        generated = generate(api_key, args, topic)
+    kept = [
+        {
+            "text": str(q["text"]),
+            "answers": {c: str(q["answers"][c]) for c in CHOICES},
+            "correctAnswer": str(q["correctAnswer"]).strip().upper(),
+            "difficulty": q.get("difficulty", "MEDIUM"),
+            "imageUrl": q["imageUrl"],
+        }
+        for q in kept
+    ]
+    kept_count = len(kept)
+    if kept:
+        shorten_image_texts(api_key, model=args.model, questions=kept)
+
+    # Recompose dans l'ordre d'origine (les questions imagées gardent leur place).
+    merged = []
+    queue = list(generated)
+    image_queue = list(kept)
+    for raw in existing:
+        if raw.get("imageUrl"):
+            merged.append(image_queue.pop(0))
+        elif queue:
+            merged.append(queue.pop(0))
+    merged.extend(queue)
+
+    # Difficulté : notation + percentiles sur l'ensemble (cible exacte). Pour un thème
+    # entièrement imagé (rien régénéré), on conserve les niveaux d'origine : le texte court
+    # (« Quel est ce pays ? ») ne permet pas de noter la difficulté réelle.
+    if generated:
+        scores = score_difficulty(api_key, args.model, merged)
+        assign_difficulty(merged, scores, parse_targets(args.targets))
+
+    # `render` n'émet pas `translations` : l'EN est régénéré par translate-seed.py (runner).
+    text = render(topic, merged)
     reparsed = yaml.safe_load(text)
     path.write_text(text, encoding="utf-8")
-    log(f"✓ {path} : {len(reparsed['questions'])} question(s) réécrites")
+    log(f"✓ {path} : {len(reparsed['questions'])} question(s) "
+        f"({len(generated)} régénérée(s), {kept_count} imagée(s) conservée(s))")
     return 0
 
 
