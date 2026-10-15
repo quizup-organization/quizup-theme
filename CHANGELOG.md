@@ -1,3 +1,9 @@
+## [6.7.0](https://github.com/quizup-organization/quizup-theme/compare/v6.6.0...v6.7.0) (2026-10-15)
+
+### Features
+
+* **seed:** mode --titles (titres thématiques à la QuizUp) ([9122e3a](https://github.com/quizup-organization/quizup-theme/commit/9122e3a53633e1d6e539cc8486c9d91d807316c3))
+
 ## [6.6.0](https://github.com/quizup-organization/quizup-theme/compare/v6.5.0...v6.6.0) (2026-10-15)
 
 ### Features
