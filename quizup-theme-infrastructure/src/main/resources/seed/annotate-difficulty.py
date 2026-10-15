@@ -14,7 +14,7 @@ Usage :
     python3 annotate-difficulty.py --template topics/movies/cinema.yml     # questions à classer (JSON)
     python3 annotate-difficulty.py topics/movies/cinema.yml --mapping /tmp/mapping.json
     python3 annotate-difficulty.py --check topics/*/*.yml                  # ratio ±1 par niveau + complétude
-    python3 annotate-difficulty.py --counts topics/movies/cinema.yml       # comptes et déficits vers 25 %
+    python3 annotate-difficulty.py --counts topics/movies/cinema.yml       # comptes et déficits vers 10/20/35/35
 
 Mapping : objet JSON `{"<index>": "EASY|MEDIUM|HARD|EXPERT"}`, index = position de la question
 dans le fichier (0-based), tel que listé par `--template`.
@@ -28,6 +28,13 @@ LEVELS = ("EASY", "MEDIUM", "HARD", "EXPERT")
 START = "  - "
 CORRECT = "    correctAnswer:"
 DIFFICULTY = "    difficulty:"
+
+# Répartitions acceptées (parts par niveau, tolérance en questions). Pendant la migration
+# « contenu plus dur », l'historique 25 % par niveau et la cible 10/20/35/35 coexistent.
+# Cible des thèmes (re)générés : 10/20/35/35 (cf. generate-seed.py --targets).
+LEGACY = ({"EASY": 0.25, "MEDIUM": 0.25, "HARD": 0.25, "EXPERT": 0.25}, 1)
+TARGET = ({"EASY": 0.10, "MEDIUM": 0.20, "HARD": 0.35, "EXPERT": 0.35}, 3)
+DISTRIBUTIONS = (LEGACY, TARGET)
 
 
 def segments(lines):
@@ -109,17 +116,23 @@ def counts_of(path):
     return counts, len(questions), missing
 
 
+def distribution_match(counts, total):
+    """Vrai si les comptes collent à l'une des répartitions acceptées."""
+    for shares, tolerance in DISTRIBUTIONS:
+        if all(abs(counts[level] - total * shares[level]) <= tolerance for level in LEVELS):
+            return True
+    return False
+
+
 def check(paths):
     failures = 0
     for path in paths:
         counts, total, missing = counts_of(path)
-        target = total / len(LEVELS)
         problems = []
         if missing:
             problems.append(f"{missing} question(s) sans difficulté")
-        for level in LEVELS:
-            if abs(counts[level] - target) > 1:
-                problems.append(f"{level}={counts[level]} (cible {target:.2f} ±1)")
+        if not missing and not distribution_match(counts, total):
+            problems.append("répartition hors cible (25%±1 ou 10/20/35/35 ±3)")
         status = "OK" if not problems else "KO"
         print(f"{status} {Path(path).name:32s} n={total:3d} "
               f"A/EASY={counts['EASY']} MEDIUM={counts['MEDIUM']} HARD={counts['HARD']} EXPERT={counts['EXPERT']}"
@@ -145,12 +158,13 @@ def template(path):
 
 
 def show_counts(path):
+    shares, _tolerance = TARGET
     counts, total, missing = counts_of(path)
-    target = max(25, round(total / len(LEVELS)))
-    print(f"{Path(path).name}: n={total} (sans difficulté: {missing}) — cible {target}/niveau")
+    print(f"{Path(path).name}: n={total} (sans difficulté: {missing}) — cible 10/20/35/35")
     for level in LEVELS:
+        target = round(total * shares[level])
         deficit = max(0, target - counts[level])
-        print(f"  {level:6s} présent={counts[level]:3d}  déficit={deficit}")
+        print(f"  {level:6s} présent={counts[level]:3d}  cible={target:3d}  déficit={deficit}")
 
 
 def main():
@@ -159,7 +173,7 @@ def main():
     parser.add_argument("--template", metavar="FILE", help="liste JSON des questions à classer")
     parser.add_argument("--mapping", metavar="FILE", help="mapping JSON index → niveau à appliquer")
     parser.add_argument("--check", action="store_true", help="vérifie complétude et ratio ±1")
-    parser.add_argument("--counts", action="store_true", help="comptes par niveau et déficits vers 25 %")
+    parser.add_argument("--counts", action="store_true", help="comptes par niveau et déficits vers 10/20/35/35")
     args = parser.parse_args()
 
     if args.template:

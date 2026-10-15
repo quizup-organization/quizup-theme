@@ -120,9 +120,13 @@ lorsque la difficulté calculée change, la projection envoie une
 ### Seed initial (YAML)
 
 - **Un fichier par thème**, rangé par catégorie : `src/main/resources/seed/topics/<categorie>/<theme>.yml`
-  (84 thèmes, 100 questions chacun ; 3 thèmes historiques plus fournis conservés tels quels :
+  (100 questions par thème ; 3 thèmes historiques plus fournis conservés tels quels :
   Chefs-d'œuvre 137, Capitales 185, Drapeaux 194). Découverte via `app.seed-data.location`
   (défaut `classpath*:seed/topics/*/*.yml`), activée par `app.seed-data.enabled`.
+  > **Catalogue en réécriture** (lot « acquisition ») : nouveaux thèmes + scission des umbrellas de
+  > licences + durcissement du contenu. Règle de contenu : **1 licence/fiction par thème** (pas
+  > d'umbrella de licences) ; les thèmes factuels (drapeaux, capitales, monuments) et de genre
+  > (années, rap français) restent autorisés.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
   `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
   `correctAnswer`, `imageUrl` optionnelle, `difficulty` optionnelle : `EASY|MEDIUM|HARD|EXPERT`,
@@ -139,8 +143,11 @@ lorsque la difficulté calculée change, la projection envoie une
   `QuestionDifficultyProjection`). Le seed porte une difficulté **initiale optionnelle**, posée par
   le seeder (`UpdateQuestionDifficultyCommand`) **uniquement si la question n'a encore aucune
   difficulté** : elle est remplacée par le calcul réel dès que l'échantillon est suffisant (aucun
-  écrasement d'une classification issue des réponses). Garde-fou : `SeedDifficultyBalanceTest`
-  (25 % ±1 par niveau, proportionnel pour les thèmes > 100 questions).
+  écrasement d'une classification issue des réponses). Garde-fou : `SeedDifficultyBalanceTest` —
+  **deux répartitions acceptées** pendant la migration : historique **25 % ±1** par niveau, et
+  cible **EASY 10 / MEDIUM 20 / HARD 35 / EXPERT 35 (±3)** visée par les thèmes (re)générés
+  (`seed/generate-seed.py`). Retirer l'ancienne une fois le catalogue réécrit.
+  `seed/annotate-difficulty.py --check` tolère les deux mêmes répartitions.
 - **Seeder auto-réparateur** (`DataSeeder`) : thème absent → création + questions + approbation +
   publication ; `PUBLISHED` → complétion sans republication (questions manquantes créées et
   approuvées, traductions et difficultés initiales manquantes ajoutées) ; `DRAFT` → création des
@@ -152,18 +159,35 @@ lorsque la difficulté calculée change, la projection envoie une
   idempotent, un essai ultérieur reprend les questions manquantes. Résultats exposés via
   `quizup_theme_seed_topics_total{outcome}` + `quizup_theme_seed_retries_total` (alerte
   `QuizupThemeSeedFailures` si `outcome="failed"`).
-- **Images libres de droit mirorées** : les binaires (copie **octet-pour-octet** des rendus
-  Wikimedia Commons `Special:FilePath/<fichier>?width=800`) vivent dans le repo
-  **quizup-workspace** : `product/wikipedia/<categorie>/<fichier>` (+ `manifest.json`,
-  + `CREDITS.md` pour l'auteur/licence). Aucun binaire dans ce repo ; aucune image sous
-  copyright (logos, affiches, captures, personnages officiels exclus). Outillage workspace :
+- **Images** : les binaires (copie **octet-pour-octet** des rendus Wikimedia Commons
+  `Special:FilePath/<fichier>?width=800`) vivent dans le repo **quizup-workspace** :
+  `product/wikipedia/<categorie>/<fichier>` (+ `manifest.json`, + `CREDITS.md` pour
+  l'auteur/licence). Aucun binaire dans ce repo. Outillage workspace :
   `python3 scripts/seed-images.py {fetch,normalize,rewrite,check,publish}` (`make seed-images
   ACTION=…`), publié vers MinIO (bucket `quizup-media`, préfixe `wikipedia/`).
+  - **Règle** : images **libres** uniquement (domaine public ou licence libre avec attribution) ;
+    jamais de logo, affiche, capture ou personnage officiel — les visuels des thèmes licences sont
+    des **photos libres évoquant** la licence (cosplay, convention, lieu).
+  - **Questions avec image** : le `text` fait **≤ 60 caractères** et **ne décrit pas** l'image
+    (« Quel est ce pays ? », « À quel club ? ») — l'image porte l'information. Validé à la
+    génération par `generate-seed.py`.
+  - **Exception actée — écussons de clubs de football** (`sports/blasons-de-clubs.yml`) : les
+    écussons ne sont **pas** libres (fair use Wikipédia + marques). Exception **explicitement
+    assumée par le propriétaire** ; ces fichiers ne passent pas par `fetch` (ajout manuel dans
+    `product/wikipedia/sports/`) et `CREDITS.md` les marque « non libre / marque ». Risque :
+    disponibilité et licence non garanties.
 - **Traductions EN** : chaque question porte `translations.en` (les duels bilingues ne sélectionnent
   que les questions disponibles dans **toutes** les langues demandées). Générées via
   `seed/translate-seed.py` (API DeepSeek, validation identique au loader, insertion textuelle à
   diff minimal, modes `--check`/`--dry-run`). Le thème `orthographe-grammaire` est volontairement
   **FR-only** (exercice intraduisible). Garde-fou : `SeedEnTranslationCoverageTest`.
+- **Génération de contenu** : `seed/generate-seed.py` rédige un thème (questions FR) via l'API
+  DeepSeek (JSON strict, validations identiques au loader : texte ≤ 255, texte imagé ≤ 60, 4
+  réponses distinctes, `correctAnswer` A–D, dédoublonnage). La **difficulté** n'est pas demandée au
+  modèle : les questions sont **notées 0–100** puis les niveaux sont affectés **aux percentiles de
+  la cible** (`--targets`, défaut `10/20/35/35`) → distribution exacte garantie ; `--rebalance-only
+  FILE` reclasse un fichier existant. Enchaînement : `generate-seed.py` → `translate-seed.py` →
+  `rebalance-seed.py` (le modèle biaise fortement la lettre A → équilibrage A–D obligatoire).
 
 ### Hygiène du seed (règles vérifiées par tests)
 
