@@ -7,71 +7,71 @@ topic:
   category: HISTORY
   imageUrl: wikipedia/history/'D-Day'_Normandy_Landings,_6_June_1944_(42410920432).jpg
 questions:
-  - text: "En quelle année la Seconde Guerre mondiale a-t-elle commencé en Europe ?"
+  - text: "Quel événement est considéré comme le déclencheur officiel de la Seconde Guerre mondiale en Asie ?"
     answers:
-      A: "1937"
-      B: "1945"
-      C: "1941"
-      D: "1939"
+      A: "L'invasion de la Mandchourie par le Japon en 1931"
+      B: "Le massacre de Nankin en 1937"
+      C: "L'attaque de Pearl Harbor en 1941"
+      D: "L'incident du pont Marco-Polo en 1937"
     correctAnswer: D
     translations:
       en:
-        text: "In what year did World War II begin in Europe?"
+        text: "Which event is considered the official trigger of World War II in Asia?"
         answers:
-          A: "1937"
-          B: "1945"
-          C: "1941"
-          D: "1939"
-    difficulty: EASY
-  - text: "Quel pays a envahi la Pologne le 1er septembre 1939 ?"
+          A: "Japan's invasion of Manchuria in 1931"
+          B: "The Nanjing Massacre in 1937"
+          C: "The attack on Pearl Harbor in 1941"
+          D: "The Marco Polo Bridge Incident in 1937"
+    difficulty: MEDIUM
+  - text: "Quel général américain a commandé les forces alliées dans le Pacifique Sud-Ouest pendant la Seconde Guerre mondiale ?"
     answers:
-      A: "L'Allemagne"
-      B: "L'Italie"
-      C: "L'Union soviétique"
-      D: "Le Japon"
+      A: "Douglas MacArthur"
+      B: "Chester Nimitz"
+      C: "George Marshall"
+      D: "Dwight D. Eisenhower"
     correctAnswer: A
     translations:
       en:
-        text: "Which country invaded Poland on September 1, 1939?"
+        text: "Which American general commanded the Allied forces in the South West Pacific during World War II?"
         answers:
-          A: "Germany"
-          B: "Italy"
-          C: "The Soviet Union"
-          D: "Japan"
-    difficulty: EASY
-  - text: "Qui dirigeait l'Allemagne nazie pendant la Seconde Guerre mondiale ?"
+          A: "Douglas MacArthur"
+          B: "Chester Nimitz"
+          C: "George Marshall"
+          D: "Dwight D. Eisenhower"
+    difficulty: HARD
+  - text: "Quel était le nom de code de l'invasion allemande de l'Union soviétique ?"
     answers:
-      A: "Hermann Göring"
-      B: "Adolf Hitler"
-      C: "Heinrich Himmler"
-      D: "Joseph Goebbels"
+      A: "Opération Overlord"
+      B: "Opération Barbarossa"
+      C: "Opération Market Garden"
+      D: "Opération Torch"
     correctAnswer: B
     translations:
       en:
-        text: "Who led Nazi Germany during World War II?"
+        text: "What was the code name for the German invasion of the Soviet Union?"
         answers:
-          A: "Hermann Göring"
-          B: "Adolf Hitler"
-          C: "Heinrich Himmler"
-          D: "Joseph Goebbels"
-    difficulty: EASY
-  - text: "Quelle attaque a entraîné l'entrée en guerre des États-Unis en décembre 1941 ?"
+          A: "Operation Overlord"
+          B: "Operation Barbarossa"
+          C: "Operation Market Garden"
+          D: "Operation Torch"
+    difficulty: MEDIUM
+  - text: "Quelle bataille a été la première défaite majeure de l'armée japonaise dans le Pacifique ?"
     answers:
-      A: "L'attaque de Pearl Harbor"
-      B: "Le bombardement de Londres"
-      C: "L'invasion de la Pologne"
-      D: "La bataille de Midway"
+      A: "Bataille de la mer de Corail"
+      B: "Bataille de Guadalcanal"
+      C: "Bataille de Midway"
+      D: "Bataille d'Iwo Jima"
     correctAnswer: A
     translations:
       en:
-        text: "Which attack led to the United States entering the war in December 1941?"
+        text: "Which battle was the first major defeat of the Japanese army in the Pacific?"
         answers:
-          A: "The attack on Pearl Harbor"
-          B: "The bombing of London"
-          C: "The invasion of Poland"
-          D: "The Battle of Midway"
-    difficulty: EASY
-  - text: "Cette photographie montre des soldats américains débarquant depuis une barge : en quelle année a eu lieu le débarquement de Normandie ?"
+          A: "Battle of the Coral Sea"
+          B: "Battle of Guadalcanal"
+          C: "Battle of Midway"
+          D: "Battle of Iwo Jima"
+    difficulty: HARD
+  - text: "En quelle année a eu lieu le débarquement de Normandie ?"
     imageUrl: wikipedia/history/Into_the_Jaws_of_Death_23-0455M_edit.jpg
     answers:
       A: "1941"
@@ -81,30 +81,30 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "This photograph shows American soldiers landing from a barge: in what year did the Normandy landings take place?"
+        text: "In what year did the Normandy landings take place?"
         answers:
           A: "1941"
           B: "1942"
           C: "1943"
           D: "1944"
     difficulty: EASY
-  - text: "Dans quel pays se situe Pearl Harbor ?"
+  - text: "Quel pays a été envahi par l'Allemagne le 1er septembre 1939, marquant le début de la guerre en Europe ?"
     answers:
-      A: "Au Japon"
-      B: "En Australie"
-      C: "Aux Philippines"
-      D: "Aux États-Unis"
+      A: "La France"
+      B: "La Tchécoslovaquie"
+      C: "L'Autriche"
+      D: "La Pologne"
     correctAnswer: D
     translations:
       en:
-        text: "In which country is Pearl Harbor located?"
+        text: "Which country was invaded by Germany on September 1, 1939, marking the start of the war in Europe?"
         answers:
-          A: "In Japan"
-          B: "In Australia"
-          C: "In the Philippines"
-          D: "In the United States"
+          A: "France"
+          B: "Czechoslovakia"
+          C: "Austria"
+          D: "Poland"
     difficulty: EASY
-  - text: "Ce portrait représente un dirigeant britannique : qui était le Premier ministre du Royaume-Uni pendant la majeure partie de la guerre ?"
+  - text: "Qui était Premier ministre britannique en 1940-45 ?"
     imageUrl: wikipedia/history/Sir_Winston_S_Churchill.jpg
     answers:
       A: "Winston Churchill"
@@ -114,92 +114,92 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "This portrait shows a British leader: who was the Prime Minister of the United Kingdom for most of the war?"
+        text: "Who was British Prime Minister in 1940-45?"
         answers:
           A: "Winston Churchill"
           B: "Neville Chamberlain"
           C: "Clement Attlee"
           D: "Anthony Eden"
-    difficulty: EASY
-  - text: "En quelle année la Seconde Guerre mondiale s'est-elle terminée en Europe ?"
+    difficulty: MEDIUM
+  - text: "Qui était le commandant en chef des forces armées allemandes (Wehrmacht) pendant la Seconde Guerre mondiale ?"
     answers:
-      A: "1945"
-      B: "1944"
-      C: "1946"
-      D: "1947"
+      A: "Adolf Hitler"
+      B: "Heinrich Himmler"
+      C: "Hermann Göring"
+      D: "Wilhelm Keitel"
     correctAnswer: A
     translations:
       en:
-        text: "In what year did World War II end in Europe?"
+        text: "Who was the commander-in-chief of the German armed forces (Wehrmacht) during World War II?"
         answers:
-          A: "1945"
-          B: "1944"
-          C: "1946"
-          D: "1947"
-    difficulty: EASY
-  - text: "Quel pays a été visé par les bombes atomiques en août 1945 ?"
+          A: "Adolf Hitler"
+          B: "Heinrich Himmler"
+          C: "Hermann Göring"
+          D: "Wilhelm Keitel"
+    difficulty: HARD
+  - text: "Quel traité a mis fin à la Première Guerre mondiale et a imposé des réparations à l'Allemagne ?"
     answers:
-      A: "Le Japon"
-      B: "L'Italie"
-      C: "L'Allemagne"
-      D: "L'Union soviétique"
+      A: "Traité de Versailles"
+      B: "Traité de Trianon"
+      C: "Traité de Saint-Germain"
+      D: "Traité de Rapallo"
     correctAnswer: A
     translations:
       en:
-        text: "Which country was hit by atomic bombs in August 1945?"
+        text: "Which treaty ended World War I and imposed reparations on Germany?"
         answers:
-          A: "Japan"
-          B: "Italy"
-          C: "Germany"
-          D: "The Soviet Union"
-    difficulty: EASY
-  - text: "Qui a dirigé la France libre pendant la Seconde Guerre mondiale ?"
+          A: "Treaty of Versailles"
+          B: "Treaty of Trianon"
+          C: "Treaty of Saint-Germain"
+          D: "Treaty of Rapallo"
+    difficulty: MEDIUM
+  - text: "Quel était le nom de la ligne de défense construite par la France le long de sa frontière avec l'Allemagne ?"
     answers:
-      A: "Philippe Pétain"
-      B: "Maurice Gamelin"
-      C: "Charles de Gaulle"
-      D: "Maxime Weygand"
+      A: "Ligne Mareth"
+      B: "Ligne Siegfried"
+      C: "Ligne Maginot"
+      D: "Ligne Gustav"
     correctAnswer: C
     translations:
       en:
-        text: "Who led Free France during World War II?"
+        text: "What was the name of the defensive line built by France along its border with Germany?"
         answers:
-          A: "Philippe Pétain"
-          B: "Maurice Gamelin"
-          C: "Charles de Gaulle"
-          D: "Maxime Weygand"
-    difficulty: EASY
-  - text: "Comment nommait-on l'alliance entre l'Allemagne, l'Italie et le Japon ?"
+          A: "Mareth Line"
+          B: "Siegfried Line"
+          C: "Maginot Line"
+          D: "Gustav Line"
+    difficulty: MEDIUM
+  - text: "Quel maréchal allemand était surnommé le 'Renard du désert' ?"
     answers:
-      A: "L'Axe"
-      B: "La Triple-Entente"
-      C: "Les Nations unies"
-      D: "Les Alliés"
+      A: "Erwin Rommel"
+      B: "Gerd von Rundstedt"
+      C: "Erich von Manstein"
+      D: "Heinz Guderian"
     correctAnswer: A
     translations:
       en:
-        text: "What was the alliance between Germany, Italy, and Japan called?"
+        text: "Which German field marshal was nicknamed the 'Desert Fox'?"
         answers:
-          A: "The Axis"
-          B: "The Triple Entente"
-          C: "The United Nations"
-          D: "The Allies"
-    difficulty: EASY
-  - text: "Quel dirigeant italien était l'allié d'Hitler pendant la guerre ?"
+          A: "Erwin Rommel"
+          B: "Gerd von Rundstedt"
+          C: "Erich von Manstein"
+          D: "Heinz Guderian"
+    difficulty: MEDIUM
+  - text: "Quel événement a provoqué l'entrée en guerre des États-Unis en décembre 1941 ?"
     answers:
-      A: "Galeazzo Ciano"
-      B: "Pietro Badoglio"
-      C: "Victor-Emmanuel III"
-      D: "Benito Mussolini"
+      A: "L'opération Barbarossa"
+      B: "L'invasion de la Pologne"
+      C: "La bataille d'Angleterre"
+      D: "L'attaque de Pearl Harbor"
     correctAnswer: D
     translations:
       en:
-        text: "Which Italian leader was Hitler's ally during the war?"
+        text: "Which event caused the United States to enter the war in December 1941?"
         answers:
-          A: "Galeazzo Ciano"
-          B: "Pietro Badoglio"
-          C: "Victor Emmanuel III"
-          D: "Benito Mussolini"
+          A: "Operation Barbarossa"
+          B: "The invasion of Poland"
+          C: "The Battle of Britain"
+          D: "The attack on Pearl Harbor"
     difficulty: EASY
   - text: "Cette photographie montre les ruines d'une grande ville soviétique après les combats : quelle bataille de 1942-1943 marque un tournant décisif sur le front de l'Est ?"
     imageUrl: wikipedia/history/RIAN_archive_2383_The_ruins_of_Stalingrad.jpg
@@ -217,872 +217,872 @@ questions:
           B: "The Battle of the Marne"
           C: "The Battle of Sedan"
           D: "The Battle of Stalingrad"
-    difficulty: EASY
+    difficulty: MEDIUM
+  - text: "Quel était le nom du projet américain de recherche sur la bombe atomique ?"
+    answers:
+      A: "Projet Trinity"
+      B: "Projet Manhattan"
+      C: "Projet Alsos"
+      D: "Projet Paperclip"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the American research project on the atomic bomb?"
+        answers:
+          A: "Trinity Project"
+          B: "Manhattan Project"
+          C: "Alsos Project"
+          D: "Paperclip Project"
+    difficulty: MEDIUM
+  - text: "Quelle conférence de 1945 a décidé du partage de l'Allemagne en zones d'occupation ?"
+    answers:
+      A: "Conférence de Yalta"
+      B: "Conférence de Casablanca"
+      C: "Conférence de Téhéran"
+      D: "Conférence de Potsdam"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1945 conference decided the division of Germany into occupation zones?"
+        answers:
+          A: "Yalta Conference"
+          B: "Casablanca Conference"
+          C: "Tehran Conference"
+          D: "Potsdam Conference"
+    difficulty: HARD
+  - text: "Quel pays a été le premier à être envahi par l'Allemagne nazie, avant le début officiel de la guerre ?"
+    answers:
+      A: "L'Autriche"
+      B: "La Tchécoslovaquie"
+      C: "La Pologne"
+      D: "La France"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country was the first to be invaded by Nazi Germany, before the official start of the war?"
+        answers:
+          A: "Austria"
+          B: "Czechoslovakia"
+          C: "Poland"
+          D: "France"
+    difficulty: HARD
+  - text: "Quel général soviétique a dirigé la défense de Stalingrad et plus tard conquis Berlin ?"
+    answers:
+      A: "Nikita Khrouchtchev"
+      B: "Gueorgui Joukov"
+      C: "Ivan Koniev"
+      D: "Semyon Timoshenko"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Soviet general led the defense of Stalingrad and later conquered Berlin?"
+        answers:
+          A: "Nikita Khrushchev"
+          B: "Georgy Zhukov"
+          C: "Ivan Konev"
+          D: "Semyon Timoshenko"
+    difficulty: HARD
   - text: "Quel était le nom de code du débarquement de Normandie ?"
     answers:
-      A: "Opération Torch"
-      B: "Opération Overlord"
-      C: "Opération Barbarossa"
-      D: "Opération Dynamo"
-    correctAnswer: B
+      A: "Opération Avalanche"
+      B: "Opération Neptune"
+      C: "Opération Torch"
+      D: "Opération Overlord"
+    correctAnswer: D
     translations:
       en:
         text: "What was the code name for the Normandy landings?"
         answers:
-          A: "Operation Torch"
-          B: "Operation Overlord"
-          C: "Operation Barbarossa"
-          D: "Operation Dynamo"
-    difficulty: MEDIUM
-  - text: "À quelle date exacte a eu lieu le débarquement de Normandie ?"
-    answers:
-      A: "Le 11 novembre 1943"
-      B: "Le 8 mai 1944"
-      C: "Le 14 juillet 1944"
-      D: "Le 6 juin 1944"
-    correctAnswer: D
-    translations:
-      en:
-        text: "On what exact date did the Normandy landings take place?"
-        answers:
-          A: "November 11, 1943"
-          B: "May 8, 1944"
-          C: "July 14, 1944"
-          D: "June 6, 1944"
-    difficulty: MEDIUM
-  - text: "Quelle bataille aérienne de 1940 a mis en échec l'invasion de la Grande-Bretagne ?"
-    answers:
-      A: "La bataille de Dunkerque"
-      B: "La bataille d'Angleterre"
-      C: "La bataille de l'Atlantique"
-      D: "Le Blitz"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which 1940 air battle thwarted the invasion of Great Britain?"
-        answers:
-          A: "The Battle of Dunkirk"
-          B: "The Battle of Britain"
-          C: "The Battle of the Atlantic"
-          D: "The Blitz"
-    difficulty: MEDIUM
-  - text: "Quel nom porte l'invasion allemande de l'Union soviétique lancée en juin 1941 ?"
-    answers:
-      A: "Opération Sea Lion"
-      B: "Opération Barbarossa"
-      C: "Plan Jaune"
-      D: "Opération Bagration"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What was the name of the German invasion of the Soviet Union launched in June 1941?"
-        answers:
-          A: "Operation Sea Lion"
-          B: "Operation Barbarossa"
-          C: "Case Yellow"
-          D: "Operation Bagration"
-    difficulty: MEDIUM
-  - text: "Quel pacte germano-soviétique a été signé en août 1939 ?"
-    answers:
-      A: "Le pacte de Varsovie"
-      B: "Le pacte de Berlin"
-      C: "Le pacte d'acier"
-      D: "Le pacte Molotov-Ribbentrop"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which German-Soviet pact was signed in August 1939?"
-        answers:
-          A: "The Warsaw Pact"
-          B: "The Berlin Pact"
-          C: "The Pact of Steel"
-          D: "The Molotov-Ribbentrop Pact"
-    difficulty: MEDIUM
-  - text: "Quelle conférence de février 1945 a réuni Roosevelt, Churchill et Staline en Crimée ?"
-    answers:
-      A: "La conférence de Casablanca"
-      B: "La conférence de Potsdam"
-      C: "La conférence de Téhéran"
-      D: "La conférence de Yalta"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which February 1945 conference brought Roosevelt, Churchill and Stalin together in Crimea?"
-        answers:
-          A: "The Casablanca Conference"
-          B: "The Potsdam Conference"
-          C: "The Tehran Conference"
-          D: "The Yalta Conference"
-    difficulty: MEDIUM
-  - text: "Qui commandait les forces alliées en Europe occidentale à partir de 1944 ?"
-    answers:
-      A: "Dwight D. Eisenhower"
-      B: "Bernard Montgomery"
-      C: "George Patton"
-      D: "Omar Bradley"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who commanded the Allied forces in Western Europe from 1944?"
-        answers:
-          A: "Dwight D. Eisenhower"
-          B: "Bernard Montgomery"
-          C: "George Patton"
-          D: "Omar Bradley"
-    difficulty: MEDIUM
-  - text: "Quel était le nom du programme américain de recherche sur la bombe atomique ?"
-    answers:
-      A: "Le projet Mercury"
-      B: "Le projet Trinity"
-      C: "Le projet Overlord"
-      D: "Le projet Manhattan"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What was the name of the American research program on the atomic bomb?"
-        answers:
-          A: "Project Mercury"
-          B: "Project Trinity"
-          C: "Project Overlord"
-          D: "Project Manhattan"
-    difficulty: MEDIUM
-  - text: "Qui a succédé à Franklin D. Roosevelt à la présidence des États-Unis en 1945 ?"
-    answers:
-      A: "Dwight D. Eisenhower"
-      B: "Harry S. Truman"
-      C: "Herbert Hoover"
-      D: "Thomas Dewey"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who succeeded Franklin D. Roosevelt as President of the United States in 1945?"
-        answers:
-          A: "Dwight D. Eisenhower"
-          B: "Harry S. Truman"
-          C: "Herbert Hoover"
-          D: "Thomas Dewey"
-    difficulty: MEDIUM
-  - text: "Quelle ligne de fortifications la France avait-elle construite face à l'Allemagne ?"
-    answers:
-      A: "La ligne Siegfried"
-      B: "La ligne Maginot"
-      C: "La ligne Gustav"
-      D: "Le mur de l'Atlantique"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which line of fortifications had France built facing Germany?"
-        answers:
-          A: "The Siegfried Line"
-          B: "The Maginot Line"
-          C: "The Gustav Line"
-          D: "The Atlantic Wall"
-    difficulty: MEDIUM
-  - text: "Quelle bataille navale de juin 1942 est considérée comme le tournant de la guerre du Pacifique ?"
-    answers:
-      A: "La bataille de Guadalcanal"
-      B: "La bataille de Leyte"
-      C: "La bataille de la mer de Corail"
-      D: "La bataille de Midway"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which June 1942 naval battle is considered the turning point of the Pacific War?"
-        answers:
-          A: "The Battle of Guadalcanal"
-          B: "The Battle of Leyte"
-          C: "The Battle of the Coral Sea"
-          D: "The Battle of Midway"
-    difficulty: MEDIUM
-  - text: "Quel régime français collaborait avec l'Allemagne nazie ?"
-    answers:
-      A: "La Troisième République"
-      B: "Le gouvernement de Bordeaux"
-      C: "Le gouvernement de la France libre"
-      D: "Le régime de Vichy"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which French regime collaborated with Nazi Germany?"
-        answers:
-          A: "The Third Republic"
-          B: "The Bordeaux government"
-          C: "The Free France government"
-          D: "The Vichy regime"
-    difficulty: MEDIUM
-  - text: "Quelle opération a permis l'évacuation de Dunkerque en 1940 ?"
-    answers:
-      A: "Opération Cycle"
-      B: "Opération Ariel"
-      C: "Opération Dynamo"
-      D: "Opération Catapult"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which operation enabled the evacuation of Dunkirk in 1940?"
-        answers:
-          A: "Operation Cycle"
-          B: "Operation Ariel"
-          C: "Operation Dynamo"
-          D: "Operation Catapult"
-    difficulty: HARD
-  - text: "Quelle offensive allemande de décembre 1944 fut la dernière grande contre-attaque à l'Ouest ?"
-    answers:
-      A: "L'opération Market Garden"
-      B: "La bataille de Koursk"
-      C: "La bataille des Ardennes"
-      D: "La bataille de Monte Cassino"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which German offensive of December 1944 was the last major counterattack in the West?"
-        answers:
-          A: "Operation Market Garden"
-          B: "The Battle of Kursk"
-          C: "The Battle of the Bulge"
-          D: "The Battle of Monte Cassino"
-    difficulty: HARD
-  - text: "Quel pays, allié de l'Axe, a signé l'armistice en septembre 1943 ?"
-    answers:
-      A: "La Roumanie"
-      B: "La Hongrie"
-      C: "La Bulgarie"
-      D: "L'Italie"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which country, an Axis ally, signed the armistice in September 1943?"
-        answers:
-          A: "Romania"
-          B: "Hungary"
-          C: "Bulgaria"
-          D: "Italy"
-    difficulty: HARD
-  - text: "Quels accords de 1938 ont cédé les Sudètes à l'Allemagne ?"
-    answers:
-      A: "Les accords de Locarno"
-      B: "Le traité de Versailles"
-      C: "Les accords de Munich"
-      D: "Le pacte de Varsovie"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which 1938 agreements ceded the Sudetenland to Germany?"
-        answers:
-          A: "The Locarno Treaties"
-          B: "The Treaty of Versailles"
-          C: "The Munich Agreement"
-          D: "The Warsaw Pact"
-    difficulty: HARD
-  - text: "Quel maréchal allemand commandait l'Afrikakorps en Afrique du Nord ?"
-    answers:
-      A: "Gerd von Rundstedt"
-      B: "Erwin Rommel"
-      C: "Fedor von Bock"
-      D: "Walther von Brauchitsch"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which German field marshal commanded the Afrika Korps in North Africa?"
-        answers:
-          A: "Gerd von Rundstedt"
-          B: "Erwin Rommel"
-          C: "Fedor von Bock"
-          D: "Walther von Brauchitsch"
-    difficulty: HARD
-  - text: "Quelle bataille de l'été 1943 est la plus grande bataille de blindés de l'Histoire ?"
-    answers:
-      A: "La bataille de Kharkov"
-      B: "La bataille de Koursk"
-      C: "La bataille de Moscou"
-      D: "La bataille de Kiev"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which battle of the summer of 1943 is the largest tank battle in history?"
-        answers:
-          A: "The Battle of Kharkov"
-          B: "The Battle of Kursk"
-          C: "The Battle of Moscow"
-          D: "The Battle of Kiev"
-    difficulty: HARD
-  - text: "Quel général français a libéré Paris en août 1944 à la tête de la 2e DB ?"
-    answers:
-      A: "Jean de Lattre de Tassigny"
-      B: "Philippe Leclerc"
-      C: "Maurice Gamelin"
-      D: "Alphonse Juin"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which French general liberated Paris in August 1944 at the head of the 2nd Armored Division?"
-        answers:
-          A: "Jean de Lattre de Tassigny"
-          B: "Philippe Leclerc"
-          C: "Maurice Gamelin"
-          D: "Alphonse Juin"
-    difficulty: HARD
-  - text: "Quelle conférence de juillet-août 1945 a réuni Truman, Staline et Churchill puis Attlee ?"
-    answers:
-      A: "La conférence de Yalta"
-      B: "La conférence de Potsdam"
-      C: "La conférence de Téhéran"
-      D: "La conférence de Bretton Woods"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which conference in July-August 1945 brought together Truman, Stalin and Churchill, then Attlee?"
-        answers:
-          A: "The Yalta Conference"
-          B: "The Potsdam Conference"
-          C: "The Tehran Conference"
-          D: "The Bretton Woods Conference"
-    difficulty: HARD
-  - text: "Qui était le roi du Royaume-Uni pendant la Seconde Guerre mondiale ?"
-    answers:
-      A: "George V"
-      B: "George VI"
-      C: "Édouard VIII"
-      D: "Édouard VII"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who was the King of the United Kingdom during World War II?"
-        answers:
-          A: "George V"
-          B: "George VI"
-          C: "Edward VIII"
-          D: "Edward VII"
-    difficulty: HARD
-  - text: "Quel était le nom de la bombe atomique larguée sur Hiroshima ?"
-    answers:
-      A: "Little Boy"
-      B: "Fat Man"
-      C: "Thin Man"
-      D: "Enola Gay"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What was the name of the atomic bomb dropped on Hiroshima?"
-        answers:
-          A: "Little Boy"
-          B: "Fat Man"
-          C: "Thin Man"
-          D: "Enola Gay"
-    difficulty: HARD
-  - text: "Quel nom de code désigne le débarquement allié en Afrique du Nord en novembre 1942 ?"
-    answers:
-      A: "Opération Husky"
-      B: "Opération Avalanche"
-      C: "Opération Torch"
-      D: "Opération Shingle"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which code name refers to the Allied landing in North Africa in November 1942?"
-        answers:
-          A: "Operation Husky"
-          B: "Operation Avalanche"
+          A: "Operation Avalanche"
+          B: "Operation Neptune"
           C: "Operation Torch"
-          D: "Operation Shingle"
-    difficulty: HARD
-  - text: "Quelle charte signée en août 1941 par Churchill et Roosevelt fixe des objectifs communs ?"
+          D: "Operation Overlord"
+    difficulty: MEDIUM
+  - text: "Quelle bataille a mis fin à l'avancée japonaise en Nouvelle-Guinée ?"
     answers:
-      A: "La charte de l'Atlantique"
-      B: "La charte des Nations unies"
-      C: "La charte de Yalta"
-      D: "La charte de Londres"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which charter signed in August 1941 by Churchill and Roosevelt set out common goals?"
-        answers:
-          A: "The Atlantic Charter"
-          B: "The United Nations Charter"
-          C: "The Yalta Charter"
-          D: "The London Charter"
-    difficulty: HARD
-  - text: "Quelle opération aéroportée alliée de septembre 1944 visait les ponts des Pays-Bas ?"
-    answers:
-      A: "Opération Varsity"
-      B: "Opération Market Garden"
-      C: "Opération Plunder"
-      D: "Opération Neptune"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which Allied airborne operation in September 1944 targeted the bridges of the Netherlands?"
-        answers:
-          A: "Operation Varsity"
-          B: "Operation Market Garden"
-          C: "Operation Plunder"
-          D: "Operation Neptune"
-    difficulty: HARD
-  - text: "À quelle date exacte a eu lieu l'attaque de Pearl Harbor ?"
-    answers:
-      A: "Le 1er septembre 1941"
-      B: "Le 11 novembre 1941"
-      C: "Le 7 décembre 1941"
-      D: "Le 8 mai 1942"
-    correctAnswer: C
-    translations:
-      en:
-        text: "On what exact date did the attack on Pearl Harbor take place?"
-        answers:
-          A: "September 1, 1941"
-          B: "November 11, 1941"
-          C: "December 7, 1941"
-          D: "May 8, 1942"
-    difficulty: EXPERT
-  - text: "Sur quel navire la capitulation japonaise a-t-elle été signée le 2 septembre 1945 ?"
-    answers:
-      A: "L'USS Missouri"
-      B: "L'USS Arizona"
-      C: "L'USS Enterprise"
-      D: "L'USS Iowa"
-    correctAnswer: A
-    translations:
-      en:
-        text: "On which ship was the Japanese surrender signed on September 2, 1945?"
-        answers:
-          A: "The USS Missouri"
-          B: "The USS Arizona"
-          C: "The USS Enterprise"
-          D: "The USS Iowa"
-    difficulty: EXPERT
-  - text: "Qui était le chef du haut commandement des forces armées allemandes (OKW) ?"
-    answers:
-      A: "Alfred Jodl"
-      B: "Wilhelm Keitel"
-      C: "Hermann Göring"
-      D: "Heinrich Himmler"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who was the head of the German Armed Forces High Command (OKW)?"
-        answers:
-          A: "Alfred Jodl"
-          B: "Wilhelm Keitel"
-          C: "Hermann Göring"
-          D: "Heinrich Himmler"
-    difficulty: EXPERT
-  - text: "Quel amiral japonais a conçu et ordonné l'attaque de Pearl Harbor ?"
-    answers:
-      A: "Chuichi Nagumo"
-      B: "Isoroku Yamamoto"
-      C: "Jisaburō Ozawa"
-      D: "Takeo Kurita"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which Japanese admiral designed and ordered the attack on Pearl Harbor?"
-        answers:
-          A: "Chuichi Nagumo"
-          B: "Isoroku Yamamoto"
-          C: "Jisaburō Ozawa"
-          D: "Takeo Kurita"
-    difficulty: EXPERT
-  - text: "Quel nom porte l'offensive soviétique de l'été 1944 en Biélorussie ?"
-    answers:
-      A: "Opération Koltso"
-      B: "Opération Uranus"
-      C: "Opération Saturne"
-      D: "Opération Bagration"
+      A: "Bataille de Kokoda"
+      B: "Bataille de Guadalcanal"
+      C: "Bataille de la mer de Bismarck"
+      D: "Bataille de Buna-Gona"
     correctAnswer: D
     translations:
       en:
-        text: "What is the name of the Soviet offensive of the summer of 1944 in Belarus?"
+        text: "Which battle ended the Japanese advance in New Guinea?"
         answers:
-          A: "Operation Koltso"
-          B: "Operation Uranus"
-          C: "Operation Saturn"
-          D: "Operation Bagration"
+          A: "Battle of Kokoda"
+          B: "Battle of Guadalcanal"
+          C: "Battle of the Bismarck Sea"
+          D: "Battle of Buna-Gona"
     difficulty: EXPERT
-  - text: "Quel nom porte le plan allemand d'invasion de la France et des Pays-Bas en mai 1940 ?"
+  - text: "Quel dirigeant soviétique a signé le pacte germano-soviétique en 1939 ?"
     answers:
-      A: "Opération Sea Lion"
-      B: "Plan Barbarossa"
-      C: "Fall Gelb (Plan Jaune)"
-      D: "Fall Rot (Plan Rouge)"
-    correctAnswer: C
+      A: "Viatcheslav Molotov"
+      B: "Joseph Staline"
+      C: "Léon Trotski"
+      D: "Nikolaï Boulganine"
+    correctAnswer: A
     translations:
       en:
-        text: "What is the name of the German plan to invade France and the Netherlands in May 1940?"
+        text: "Which Soviet leader signed the German-Soviet pact in 1939?"
         answers:
-          A: "Operation Sea Lion"
-          B: "Plan Barbarossa"
-          C: "Fall Gelb (Case Yellow)"
-          D: "Fall Rot (Case Red)"
-    difficulty: EXPERT
-  - text: "Quel maréchal allemand commandait la 6e armée à Stalingrad ?"
+          A: "Vyacheslav Molotov"
+          B: "Joseph Stalin"
+          C: "Leon Trotsky"
+          D: "Nikolai Bulganin"
+    difficulty: MEDIUM
+  - text: "Quel était le nom de la campagne de bombardement stratégique alliée contre l'Allemagne ?"
     answers:
-      A: "Erich von Manstein"
-      B: "Friedrich Paulus"
-      C: "Walther Model"
-      D: "Gerd von Rundstedt"
+      A: "Opération Argument"
+      B: "Opération Gomorrah"
+      C: "Opération Chastise"
+      D: "Opération Pointblank"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of the Allied strategic bombing campaign against Germany?"
+        answers:
+          A: "Operation Argument"
+          B: "Operation Gomorrah"
+          C: "Operation Chastise"
+          D: "Operation Pointblank"
+    difficulty: HARD
+  - text: "Quel pays a été le premier à utiliser des armes chimiques pendant la Seconde Guerre mondiale ?"
+    answers:
+      A: "L'Allemagne"
+      B: "Le Japon"
+      C: "L'Italie"
+      D: "Aucun pays n'en a utilisé sur le champ de bataille européen"
     correctAnswer: B
     translations:
       en:
-        text: "Which German field marshal commanded the 6th Army at Stalingrad?"
+        text: "Which country was the first to use chemical weapons during World War II?"
         answers:
-          A: "Erich von Manstein"
-          B: "Friedrich Paulus"
-          C: "Walther Model"
-          D: "Gerd von Rundstedt"
+          A: "Germany"
+          B: "Japan"
+          C: "Italy"
+          D: "No country used them on the European battlefield"
     difficulty: EXPERT
-  - text: "Quel nom porte l'invasion aéroportée allemande de la Crète en 1941 ?"
+  - text: "Quel général allemand a planifié l'invasion de la France en 1940 ?"
     answers:
-      A: "Opération Weserübung"
-      B: "Opération Marita"
-      C: "Opération Merkur"
-      D: "Opération Felix"
+      A: "Heinz Guderian"
+      B: "Erich von Manstein"
+      C: "Gerd von Rundstedt"
+      D: "Erwin Rommel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which German general planned the invasion of France in 1940?"
+        answers:
+          A: "Heinz Guderian"
+          B: "Erich von Manstein"
+          C: "Gerd von Rundstedt"
+          D: "Erwin Rommel"
+    difficulty: HARD
+  - text: "Quelle opération fut la première grande contre-offensive allemande en Ardenne en 1944 ?"
+    answers:
+      A: "Opération Nordwind"
+      B: "Opération Bodenplatte"
+      C: "Opération Frühlingserwachen"
+      D: "Opération Wacht am Rhein"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which operation was the first major German counter-offensive in the Ardennes in 1944?"
+        answers:
+          A: "Operation Nordwind"
+          B: "Operation Bodenplatte"
+          C: "Operation Frühlingserwachen"
+          D: "Operation Wacht am Rhein"
+    difficulty: MEDIUM
+  - text: "En quelle année a été créé le Special Air Service (SAS) par David Stirling ?"
+    answers:
+      A: "1940"
+      B: "1943"
+      C: "1942"
+      D: "1941"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Special Air Service (SAS) created by David Stirling?"
+        answers:
+          A: "1940"
+          B: "1943"
+          C: "1942"
+          D: "1941"
+    difficulty: EXPERT
+  - text: "Quel était le nom du char lourd allemand mis en service en 1942 ?"
+    answers:
+      A: "Panther"
+      B: "Jagdpanzer IV"
+      C: "Tiger I"
+      D: "Sturmgeschütz III"
     correctAnswer: C
     translations:
       en:
-        text: "What was the name of the German airborne invasion of Crete in 1941?"
+        text: "What was the name of the German heavy tank put into service in 1942?"
         answers:
-          A: "Operation Weserübung"
-          B: "Operation Marita"
-          C: "Operation Merkur"
-          D: "Operation Felix"
-    difficulty: EXPERT
-  - text: "Quel roi d'Italie a fait arrêter Mussolini en juillet 1943 ?"
+          A: "Panther"
+          B: "Jagdpanzer IV"
+          C: "Tiger I"
+          D: "Sturmgeschütz III"
+    difficulty: HARD
+  - text: "Qui était le chef de la Luftwaffe pendant la Seconde Guerre mondiale ?"
     answers:
-      A: "Victor-Emmanuel III"
-      B: "Umberto Ier"
-      C: "Victor-Emmanuel II"
-      D: "Umberto II"
-    correctAnswer: A
+      A: "Wolfram von Richthofen"
+      B: "Albert Kesselring"
+      C: "Hermann Göring"
+      D: "Robert Ritter von Greim"
+    correctAnswer: C
     translations:
       en:
-        text: "Which King of Italy had Mussolini arrested in July 1943?"
+        text: "Who was the head of the Luftwaffe during World War II?"
         answers:
-          A: "Victor Emmanuel III"
-          B: "Umberto I"
-          C: "Victor Emmanuel II"
-          D: "Umberto II"
-    difficulty: EXPERT
-  - text: "Quel nom de code désigne l'opération de déception alliée visant à faire croire à un débarquement dans le Pas-de-Calais ?"
+          A: "Wolfram von Richthofen"
+          B: "Albert Kesselring"
+          C: "Hermann Göring"
+          D: "Robert Ritter von Greim"
+    difficulty: MEDIUM
+  - text: "Quelle était la principale monnaie d'échange utilisée par les prisonniers de guerre dans les camps allemands ?"
     answers:
-      A: "Opération Fortitude"
-      B: "Opération Overlord"
-      C: "Opération Quicksilver"
-      D: "Opération Bodyguard"
-    correctAnswer: A
+      A: "Tabac"
+      B: "Eau-de-vie"
+      C: "Chocolat"
+      D: "Cigarettes"
+    correctAnswer: D
     translations:
       en:
-        text: "What code name refers to the Allied deception operation intended to make the Germans believe in a landing in the Pas-de-Calais?"
+        text: "What was the main currency used by prisoners of war in German camps?"
         answers:
-          A: "Operation Fortitude"
-          B: "Operation Overlord"
-          C: "Operation Quicksilver"
-          D: "Operation Bodyguard"
+          A: "Tobacco"
+          B: "Brandy"
+          C: "Chocolate"
+          D: "Cigarettes"
     difficulty: EXPERT
-  - text: "Quel général soviétique commandait la 62e armée lors de la bataille de Stalingrad ?"
+  - text: "Quel était le nom de code du programme de V1 utilisé par l'Allemagne ?"
+    answers:
+      A: "Vergeltungswaffe 1"
+      B: "Aggregat 4"
+      C: "Fieseler Fi 103"
+      D: "Heinkel He 111"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the code name of the V1 program used by Germany?"
+        answers:
+          A: "Vergeltungswaffe 1"
+          B: "Aggregat 4"
+          C: "Fieseler Fi 103"
+          D: "Heinkel He 111"
+    difficulty: EXPERT
+  - text: "Quelle division de SS fut impliquée dans le massacre de Malmedy ?"
+    answers:
+      A: "2e division SS Das Reich"
+      B: "1re division SS Leibstandarte Adolf Hitler"
+      C: "3e division SS Totenkopf"
+      D: "5e division SS Wiking"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which SS division was involved in the Malmedy massacre?"
+        answers:
+          A: "2nd SS Division Das Reich"
+          B: "1st SS Division Leibstandarte Adolf Hitler"
+          C: "3rd SS Division Totenkopf"
+          D: "5th SS Division Wiking"
+    difficulty: EXPERT
+  - text: "Combien de pays étaient membres fondateurs de l'ONU en 1945 ?"
+    answers:
+      A: "45"
+      B: "51"
+      C: "50"
+      D: "55"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many countries were founding members of the UN in 1945?"
+        answers:
+          A: "45"
+          B: "51"
+          C: "50"
+          D: "55"
+    difficulty: EXPERT
+  - text: "Quel était le nom du pacte de non-agression entre l'Allemagne et l'URSS signé en 1939 ?"
+    answers:
+      A: "Pacte d'acier"
+      B: "Pacte Molotov-Ribbentrop"
+      C: "Pacte anti-Komintern"
+      D: "Pacte de Varsovie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the non-aggression pact between Germany and the USSR signed in 1939?"
+        answers:
+          A: "Pact of Steel"
+          B: "Molotov-Ribbentrop Pact"
+          C: "Anti-Comintern Pact"
+          D: "Warsaw Pact"
+    difficulty: MEDIUM
+  - text: "Quel maréchal soviétique commandait le front de Voronej pendant la bataille de Koursk ?"
     answers:
       A: "Gueorgui Joukov"
-      B: "Vassili Tchouïkov"
-      C: "Konstantin Rokossovski"
-      D: "Aleksandr Vassilievski"
+      B: "Nikolaï Vatoutine"
+      C: "Ivan Koniev"
+      D: "Constantin Rokossovski"
     correctAnswer: B
     translations:
       en:
-        text: "Which Soviet general commanded the 62nd Army during the Battle of Stalingrad?"
+        text: "Which Soviet marshal commanded the Voronezh Front during the Battle of Kursk?"
         answers:
           A: "Georgy Zhukov"
-          B: "Vasily Chuikov"
-          C: "Konstantin Rokossovsky"
-          D: "Aleksandr Vasilevsky"
+          B: "Nikolai Vatutin"
+          C: "Ivan Konev"
+          D: "Konstantin Rokossovsky"
     difficulty: EXPERT
-  - text: "Quel jour est commémorée la Journée internationale de la mémoire de l'Holocauste, en souvenir de la libération d'Auschwitz-Birkenau en 1945 ?"
+  - text: "Quel était le nom de code de l'invasion japonaise de la Malaisie britannique en 1941 ?"
     answers:
-      A: "Le 27 janvier"
-      B: "Le 8 mai"
-      C: "Le 11 novembre"
-      D: "Le 6 juin"
-    correctAnswer: A
+      A: "Opération I"
+      B: "Opération E"
+      C: "Opération A"
+      D: "Opération B"
+    correctAnswer: B
     translations:
       en:
-        text: "On which day is International Holocaust Remembrance Day commemorated, in memory of the liberation of Auschwitz-Birkenau in 1945?"
+        text: "What was the code name for the Japanese invasion of British Malaya in 1941?"
         answers:
-          A: "January 27"
-          B: "May 8"
-          C: "November 11"
-          D: "June 6"
+          A: "Operation I"
+          B: "Operation E"
+          C: "Operation A"
+          D: "Operation B"
     difficulty: EXPERT
-  - text: "En France occupée, comment les civils se procuraient-ils la plupart des denrées rationnées ?"
+  - text: "Quel était le nom du premier avion à réaction opérationnel allemand ?"
     answers:
-      A: "Avec des cartes de rationnement"
-      B: "Avec des bons de la Banque de France"
-      C: "En payant en dollars"
-      D: "Uniquement au marché noir"
+      A: "Messerschmitt Me 262"
+      B: "Heinkel He 162"
+      C: "Arado Ar 234"
+      D: "Messerschmitt Me 163"
     correctAnswer: A
     translations:
       en:
-        text: "In occupied France, how did civilians obtain most rationed goods?"
+        text: "What was the name of the first operational German jet aircraft?"
         answers:
-          A: "With ration cards"
-          B: "With Banque de France vouchers"
-          C: "By paying in dollars"
-          D: "Only on the black market"
-    difficulty: EASY
-  - text: "Quelle date commémore la capitulation de l'Allemagne nazie en Europe ?"
+          A: "Messerschmitt Me 262"
+          B: "Heinkel He 162"
+          C: "Arado Ar 234"
+          D: "Messerschmitt Me 163"
+    difficulty: HARD
+  - text: "Qui était le commandant du sous-marin U-505 capturé par les Américains en 1944 ?"
     answers:
-      A: "Le 11 novembre 1944"
-      B: "Le 1er septembre 1945"
-      C: "Le 14 juillet 1945"
-      D: "Le 8 mai 1945"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which date commemorates the surrender of Nazi Germany in Europe?"
-        answers:
-          A: "November 11, 1944"
-          B: "September 1, 1945"
-          C: "July 14, 1945"
-          D: "May 8, 1945"
-    difficulty: EASY
-  - text: "Quelle conférence de février 1945 réunit Churchill, Roosevelt et Staline ?"
-    answers:
-      A: "La conférence de Téhéran"
-      B: "La conférence de Potsdam"
-      C: "La conférence de Yalta"
-      D: "La conférence de Versailles"
+      A: "Kptlt. Otto Kretschmer"
+      B: "Kptlt. Erich Topp"
+      C: "Lt. Cdr. Harald Lange"
+      D: "Kptlt. Joachim Schepke"
     correctAnswer: C
     translations:
       en:
-        text: "Which February 1945 conference brought together Churchill, Roosevelt and Stalin?"
+        text: "Who was the commander of the U-boat U-505 captured by the Americans in 1944?"
         answers:
-          A: "The Tehran Conference"
-          B: "The Potsdam Conference"
-          C: "The Yalta Conference"
-          D: "The Versailles Conference"
-    difficulty: EASY
-  - text: "À quoi servait la machine Enigma utilisée par l'armée allemande ?"
+          A: "Kptlt. Otto Kretschmer"
+          B: "Kptlt. Erich Topp"
+          C: "Lt. Cdr. Harald Lange"
+          D: "Kptlt. Joachim Schepke"
+    difficulty: EXPERT
+  - text: "Quelle bataille de 1944 a été la plus grande bataille de chars de la guerre ?"
     answers:
-      A: "À détecter les avions ennemis"
-      B: "À chiffrer les messages"
-      C: "À calculer la trajectoire des fusées"
-      D: "À brouiller les ondes radio"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What was the Enigma machine used by the German army for?"
-        answers:
-          A: "Detecting enemy aircraft"
-          B: "Encrypting messages"
-          C: "Calculating rocket trajectories"
-          D: "Jamming radio waves"
-    difficulty: EASY
-  - text: "Quel char américain fut produit à plus de 49 000 exemplaires durant la guerre ?"
-    answers:
-      A: "Le Tiger"
-      B: "Le T-34"
-      C: "Le Sherman"
-      D: "Le Panther"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which American tank was produced in more than 49,000 units during the war?"
-        answers:
-          A: "The Tiger"
-          B: "The T-34"
-          C: "The Sherman"
-          D: "The Panther"
-    difficulty: EASY
-  - text: "Quel chasseur britannique est resté célèbre pour la bataille d'Angleterre ?"
-    answers:
-      A: "Le Messerschmitt Bf 109"
-      B: "Le P-51 Mustang"
-      C: "Le Spitfire"
-      D: "Le Zero"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which British fighter became famous for the Battle of Britain?"
-        answers:
-          A: "The Messerschmitt Bf 109"
-          B: "The P-51 Mustang"
-          C: "The Spitfire"
-          D: "The Zero"
-    difficulty: EASY
-  - text: "En quoi consistait le black-out imposé aux populations pendant la guerre ?"
-    answers:
-      A: "Suspendre la parution des journaux"
-      B: "Renoncer à utiliser les voitures"
-      C: "Éteindre ou masquer les lumières la nuit"
-      D: "Fermer les écoles"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What did the blackout imposed on populations during the war consist of?"
-        answers:
-          A: "Suspending newspaper publication"
-          B: "Giving up using cars"
-          C: "Turning off or masking lights at night"
-          D: "Closing schools"
-    difficulty: EASY
-  - text: "Qui a été jugé lors du procès de Nuremberg ouvert en novembre 1945 ?"
-    answers:
-      A: "Des dirigeants nazis"
-      B: "Des soldats alliés"
-      C: "Des espions soviétiques"
-      D: "Des généraux japonais"
+      A: "Bataille de Prokhorovka"
+      B: "Bataille de Koursk"
+      C: "Bataille des Ardennes"
+      D: "Bataille de Libération de Paris"
     correctAnswer: A
     translations:
       en:
-        text: "Who was tried at the Nuremberg trials that opened in November 1945?"
+        text: "Which 1944 battle was the largest tank battle of the war?"
         answers:
-          A: "Nazi leaders"
-          B: "Allied soldiers"
-          C: "Soviet spies"
-          D: "Japanese generals"
-    difficulty: EASY
-  - text: "Quels dirigeants participent à la conférence de Potsdam en juillet 1945 ?"
+          A: "Battle of Prokhorovka"
+          B: "Battle of Kursk"
+          C: "Battle of the Bulge"
+          D: "Battle of the Liberation of Paris"
+    difficulty: HARD
+  - text: "Quel était le nom de code du débarquement allié en Afrique du Nord en 1942 ?"
     answers:
-      A: "Roosevelt, Churchill et Staline"
-      B: "Truman, Staline et de Gaulle"
-      C: "De Gaulle, Truman et Staline"
-      D: "Truman, Staline et Churchill"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which leaders took part in the Potsdam Conference in July 1945?"
-        answers:
-          A: "Roosevelt, Churchill and Stalin"
-          B: "Truman, Stalin and de Gaulle"
-          C: "De Gaulle, Truman and Stalin"
-          D: "Truman, Stalin and Churchill"
-    difficulty: EASY
-  - text: "Quel avion a largué la bombe atomique sur Hiroshima le 6 août 1945 ?"
-    answers:
-      A: "Le Liberty Bell"
-      B: "Le Memphis Belle"
-      C: "Le Spirit of St. Louis"
-      D: "L'Enola Gay"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which aircraft dropped the atomic bomb on Hiroshima on August 6, 1945?"
-        answers:
-          A: "The Liberty Bell"
-          B: "The Memphis Belle"
-          C: "The Spirit of St. Louis"
-          D: "The Enola Gay"
-    difficulty: EASY
-  - text: "Qui annonce la capitulation du Japon le 15 août 1945 ?"
-    answers:
-      A: "Le général Tojo"
-      B: "L'amiral Yamamoto"
-      C: "L'empereur Hirohito"
-      D: "Le prince Konoe"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who announced Japan's surrender on August 15, 1945?"
-        answers:
-          A: "General Tojo"
-          B: "Admiral Yamamoto"
-          C: "Emperor Hirohito"
-          D: "Prince Konoe"
-    difficulty: EASY
-  - text: "Où la population se réfugiait-elle lors des alertes de bombardement ?"
-    answers:
-      A: "Dans les gares"
-      B: "Sur les toits"
-      C: "Dans des abris anti-aériens"
-      D: "Dans les champs"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Where did people take refuge during air-raid alerts?"
-        answers:
-          A: "In train stations"
-          B: "On rooftops"
-          C: "In air-raid shelters"
-          D: "In the fields"
-    difficulty: EASY
-  - text: "Qu'était le STO, instauré en France en 1943 ?"
-    answers:
-      A: "Un service militaire pour les femmes"
-      B: "Le départ forcé de travailleurs vers l'Allemagne"
-      C: "Une aide bénévole aux sinistrés"
-      D: "Un programme de travaux publics"
+      A: "Opération Husky"
+      B: "Opération Torch"
+      C: "Opération Avalanche"
+      D: "Opération Shingle"
     correctAnswer: B
     translations:
       en:
-        text: "What was the STO, introduced in France in 1943?"
+        text: "What was the code name for the Allied landings in North Africa in 1942?"
         answers:
-          A: "Military service for women"
-          B: "The forced departure of workers to Germany"
-          C: "Volunteer aid to disaster victims"
-          D: "A public works program"
-    difficulty: MEDIUM
-  - text: "Que cultivait-on dans les Victory Gardens pendant la guerre ?"
+          A: "Operation Husky"
+          B: "Operation Torch"
+          C: "Operation Avalanche"
+          D: "Operation Shingle"
+    difficulty: HARD
+  - text: "Quel traité a établi la frontière entre l'Allemagne et l'URSS en 1939 ?"
     answers:
-      A: "Du coton"
-      B: "Du tabac"
-      C: "Des légumes"
-      D: "Des fleurs"
+      A: "Traité de Versailles"
+      B: "Traité de Rapallo"
+      C: "Traité de Moscou"
+      D: "Traité de Berlin"
     correctAnswer: C
     translations:
       en:
-        text: "What was grown in Victory Gardens during the war?"
+        text: "Which treaty established the border between Germany and the USSR in 1939?"
         answers:
-          A: "Cotton"
-          B: "Tobacco"
-          C: "Vegetables"
-          D: "Flowers"
-    difficulty: MEDIUM
-  - text: "Quel projet de création d'organisation internationale est approuvé à la conférence de Yalta ?"
+          A: "Treaty of Versailles"
+          B: "Treaty of Rapallo"
+          C: "Treaty of Moscow"
+          D: "Treaty of Berlin"
+    difficulty: EXPERT
+  - text: "Quel général allemand a commandé l'Afrika Korps après Rommel ?"
     answers:
-      A: "L'Organisation des Nations unies"
-      B: "L'OTAN"
-      C: "La Société des Nations"
-      D: "Le Conseil de l'Europe"
+      A: "Hans-Jürgen von Arnim"
+      B: "Erwin Rommel"
+      C: "Walter Nehring"
+      D: "Ludwig Crüwell"
     correctAnswer: A
     translations:
       en:
-        text: "Which plan to create an international organization was approved at the Yalta Conference?"
+        text: "Which German general commanded the Afrika Korps after Rommel?"
         answers:
-          A: "The United Nations"
-          B: "NATO"
-          C: "The League of Nations"
-          D: "The Council of Europe"
-    difficulty: MEDIUM
-  - text: "Quel médicament, produit en masse pendant la guerre, a permis de sauver de nombreux blessés ?"
+          A: "Hans-Jürgen von Arnim"
+          B: "Erwin Rommel"
+          C: "Walter Nehring"
+          D: "Ludwig Crüwell"
+    difficulty: EXPERT
+  - text: "Quel était le nom du Premier ministre japonais au moment de l'attaque de Pearl Harbor ?"
     answers:
-      A: "L'aspirine"
-      B: "Le paracétamol"
-      C: "La morphine"
-      D: "La pénicilline"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which drug, mass-produced during the war, saved many wounded people?"
-        answers:
-          A: "Aspirin"
-          B: "Paracetamol"
-          C: "Morphine"
-          D: "Penicillin"
-    difficulty: MEDIUM
-  - text: "Que désignait l'arme allemande appelée V1 ?"
-    answers:
-      A: "Un canon géant"
-      B: "Une bombe volante"
-      C: "Un avion de chasse"
-      D: "Un sous-marin"
+      A: "Fumimaro Konoe"
+      B: "Hideki Tojo"
+      C: "Kuniaki Koiso"
+      D: "Kantaro Suzuki"
     correctAnswer: B
     translations:
       en:
-        text: "What did the German weapon called V1 refer to?"
+        text: "Who was the Japanese Prime Minister at the time of the attack on Pearl Harbor?"
         answers:
-          A: "A giant cannon"
-          B: "A flying bomb"
-          C: "A fighter plane"
-          D: "A submarine"
+          A: "Fumimaro Konoe"
+          B: "Hideki Tojo"
+          C: "Kuniaki Koiso"
+          D: "Kantaro Suzuki"
+    difficulty: HARD
+  - text: "Quel était le nom du plan américain de défense des Philippines en 1941 ?"
+    answers:
+      A: "Plan Orange"
+      B: "Plan Rainbow 5"
+      C: "Plan War Plan Black"
+      D: "Plan Dog"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the American plan for the defense of the Philippines in 1941?"
+        answers:
+          A: "Plan Orange"
+          B: "Plan Rainbow 5"
+          C: "Plan War Plan Black"
+          D: "Plan Dog"
+    difficulty: EXPERT
+  - text: "Quelle unité de l'armée américaine a capturé le pont de Remagen en 1945 ?"
+    answers:
+      A: "1re division d'infanterie"
+      B: "101e division aéroportée"
+      C: "82e division aéroportée"
+      D: "9e division blindée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which US Army unit captured the Remagen bridge in 1945?"
+        answers:
+          A: "1st Infantry Division"
+          B: "101st Airborne Division"
+          C: "82nd Airborne Division"
+          D: "9th Armored Division"
+    difficulty: EXPERT
+  - text: "Quel officier japonais a planifié l'attaque de Pearl Harbor ?"
+    answers:
+      A: "Tomoyuki Yamashita"
+      B: "Chuichi Nagumo"
+      C: "Isoroku Yamamoto"
+      D: "Hideki Tojo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Japanese officer planned the attack on Pearl Harbor?"
+        answers:
+          A: "Tomoyuki Yamashita"
+          B: "Chuichi Nagumo"
+          C: "Isoroku Yamamoto"
+          D: "Hideki Tojo"
+    difficulty: HARD
+  - text: "Quel était le nom de code du projet allemand de bombe atomique ?"
+    answers:
+      A: "Projet Vengeance"
+      B: "Programme Uranium"
+      C: "Opération Paperclip"
+      D: "Plan Heisenberg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the code name of the German atomic bomb project?"
+        answers:
+          A: "Vengeance Project"
+          B: "Uranium Program"
+          C: "Operation Paperclip"
+          D: "Heisenberg Plan"
+    difficulty: EXPERT
+  - text: "En quelle année a eu lieu le massacre de Katyn, perpétré par le NKVD soviétique ?"
+    answers:
+      A: "1939"
+      B: "1941"
+      C: "1940"
+      D: "1942"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year did the Katyn massacre, perpetrated by the Soviet NKVD, take place?"
+        answers:
+          A: "1939"
+          B: "1941"
+          C: "1940"
+          D: "1942"
+    difficulty: EXPERT
+  - text: "Quel maréchal allemand a été contraint au suicide après le complot du 20 juillet 1944 ?"
+    answers:
+      A: "Erwin Rommel"
+      B: "Gerd von Rundstedt"
+      C: "Erich von Manstein"
+      D: "Wilhelm Keitel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which German field marshal was forced to commit suicide after the July 20, 1944 plot?"
+        answers:
+          A: "Erwin Rommel"
+          B: "Gerd von Rundstedt"
+          C: "Erich von Manstein"
+          D: "Wilhelm Keitel"
+    difficulty: EXPERT
+  - text: "Quel navire de guerre britannique a été coulé par le cuirassé allemand Bismarck en mai 1941 ?"
+    answers:
+      A: "HMS Hood"
+      B: "HMS King George V"
+      C: "HMS Prince of Wales"
+      D: "HMS Repulse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which British warship was sunk by the German battleship Bismarck in May 1941?"
+        answers:
+          A: "HMS Hood"
+          B: "HMS King George V"
+          C: "HMS Prince of Wales"
+          D: "HMS Repulse"
+    difficulty: HARD
+  - text: "Quel général américain a été démis de son commandement en Corée par Truman en 1951 ?"
+    answers:
+      A: "Dwight D. Eisenhower"
+      B: "Douglas MacArthur"
+      C: "Omar Bradley"
+      D: "George S. Patton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which American general was relieved of his command in Korea by Truman in 1951?"
+        answers:
+          A: "Dwight D. Eisenhower"
+          B: "Douglas MacArthur"
+          C: "Omar Bradley"
+          D: "George S. Patton"
     difficulty: MEDIUM
-  - text: "Cette photographie montre des chars soviétiques en 1941 : lequel fut l'un des plus produits de la guerre ?"
+  - text: "Quel était le nom du premier camp de concentration nazi ouvert en 1933 ?"
+    answers:
+      A: "Dachau"
+      B: "Auschwitz"
+      C: "Buchenwald"
+      D: "Sachsenhausen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the name of the first Nazi concentration camp opened in 1933?"
+        answers:
+          A: "Dachau"
+          B: "Auschwitz"
+          C: "Buchenwald"
+          D: "Sachsenhausen"
+    difficulty: HARD
+  - text: "Quel roi du Royaume-Uni a régné pendant la Seconde Guerre mondiale ?"
+    answers:
+      A: "George VI"
+      B: "Edward VIII"
+      C: "George V"
+      D: "Elizabeth II"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which King of the United Kingdom reigned during World War II?"
+        answers:
+          A: "George VI"
+          B: "Edward VIII"
+          C: "George V"
+          D: "Elizabeth II"
+    difficulty: EASY
+  - text: "Quel était le nom de code allié pour la campagne d'Italie de 1943 ?"
+    answers:
+      A: "Opération Baytown"
+      B: "Opération Avalanche"
+      C: "Opération Shingle"
+      D: "Opération Husky"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the Allied codename for the 1943 Italian campaign?"
+        answers:
+          A: "Operation Baytown"
+          B: "Operation Avalanche"
+          C: "Operation Shingle"
+          D: "Operation Husky"
+    difficulty: HARD
+  - text: "Quel scientifique a dirigé le projet Manhattan ?"
+    answers:
+      A: "Albert Einstein"
+      B: "Enrico Fermi"
+      C: "J. Robert Oppenheimer"
+      D: "Niels Bohr"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist led the Manhattan Project?"
+        answers:
+          A: "Albert Einstein"
+          B: "Enrico Fermi"
+          C: "J. Robert Oppenheimer"
+          D: "Niels Bohr"
+    difficulty: EASY
+  - text: "Quel pays a été envahi par l'URSS en novembre 1939, déclenchant la guerre d'Hiver ?"
+    answers:
+      A: "Estonie"
+      B: "Finlande"
+      C: "Lituanie"
+      D: "Lettonie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country was invaded by the USSR in November 1939, triggering the Winter War?"
+        answers:
+          A: "Estonia"
+          B: "Finland"
+          C: "Lithuania"
+          D: "Latvia"
+    difficulty: MEDIUM
+  - text: "Quel était le nom du bombardier lourd britannique utilisé lors des raids sur l'Allemagne ?"
+    answers:
+      A: "B-24 Liberator"
+      B: "B-17 Flying Fortress"
+      C: "Avro Lancaster"
+      D: "Handley Page Halifax"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the name of the British heavy bomber used in raids on Germany?"
+        answers:
+          A: "B-24 Liberator"
+          B: "B-17 Flying Fortress"
+          C: "Avro Lancaster"
+          D: "Handley Page Halifax"
+    difficulty: MEDIUM
+  - text: "Quelle bataille a été la première victoire terrestre alliée contre le Japon en 1942 ?"
+    answers:
+      A: "Bataille de Guadalcanal"
+      B: "Bataille de Midway"
+      C: "Bataille de Milne Bay"
+      D: "Bataille de la mer de Corail"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which battle was the first Allied land victory against Japan in 1942?"
+        answers:
+          A: "Battle of Guadalcanal"
+          B: "Battle of Midway"
+          C: "Battle of Milne Bay"
+          D: "Battle of the Coral Sea"
+    difficulty: HARD
+  - text: "Quel agent double britannique a joué un rôle clé dans l'opération Fortitude ?"
+    answers:
+      A: "Eddie Chapman"
+      B: "Kim Philby"
+      C: "Juan Pujol García"
+      D: "Dusan Popov"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which British double agent played a key role in Operation Fortitude?"
+        answers:
+          A: "Eddie Chapman"
+          B: "Kim Philby"
+          C: "Juan Pujol García"
+          D: "Dusan Popov"
+    difficulty: EXPERT
+  - text: "Quel était le nom de code du programme de missiles V2 allemand ?"
+    answers:
+      A: "A4"
+      B: "V1"
+      C: "V3"
+      D: "A10"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the codename of the German V2 missile program?"
+        answers:
+          A: "A4"
+          B: "V1"
+          C: "V3"
+          D: "A10"
+    difficulty: EXPERT
+  - text: "Quel maréchal soviétique a dirigé la défense de Moscou en 1941 ?"
+    answers:
+      A: "Boris Shaposhnikov"
+      B: "Semyon Timoshenko"
+      C: "Kliment Voroshilov"
+      D: "Georgy Zhukov"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Soviet marshal led the defense of Moscow in 1941?"
+        answers:
+          A: "Boris Shaposhnikov"
+          B: "Semyon Timoshenko"
+          C: "Kliment Voroshilov"
+          D: "Georgy Zhukov"
+    difficulty: HARD
+  - text: "Quel était le nom du porte-avions américain coulé à Midway en juin 1942 ?"
+    answers:
+      A: "USS Enterprise"
+      B: "USS Hornet"
+      C: "USS Lexington"
+      D: "USS Yorktown"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of the American aircraft carrier sunk at Midway in June 1942?"
+        answers:
+          A: "USS Enterprise"
+          B: "USS Hornet"
+          C: "USS Lexington"
+          D: "USS Yorktown"
+    difficulty: EXPERT
+  - text: "Quel dirigeant yougoslave a mené la résistance contre l'occupation nazie ?"
+    answers:
+      A: "Milan Nedić"
+      B: "Draža Mihailović"
+      C: "Josip Broz Tito"
+      D: "Ante Pavelić"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Yugoslav leader led the resistance against the Nazi occupation?"
+        answers:
+          A: "Milan Nedić"
+          B: "Draža Mihailović"
+          C: "Josip Broz Tito"
+          D: "Ante Pavelić"
+    difficulty: MEDIUM
+  - text: "Quelle conférence de 1943 a décidé du débarquement en Normandie ?"
+    answers:
+      A: "Conférence du Caire"
+      B: "Conférence de Casablanca"
+      C: "Conférence de Téhéran"
+      D: "Conférence de Québec"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1943 conference decided on the Normandy landings?"
+        answers:
+          A: "Cairo Conference"
+          B: "Casablanca Conference"
+          C: "Tehran Conference"
+          D: "Quebec Conference"
+    difficulty: MEDIUM
+  - text: "Quel était le nom du premier sous-marin nucléaire lancé en 1954 ?"
+    answers:
+      A: "USS Seawolf"
+      B: "USS Nautilus"
+      C: "USS Skate"
+      D: "USS Triton"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the first nuclear submarine launched in 1954?"
+        answers:
+          A: "USS Seawolf"
+          B: "USS Nautilus"
+          C: "USS Skate"
+          D: "USS Triton"
+    difficulty: HARD
+  - text: "Quel était le nom de code de la campagne de bombardement stratégique alliée sur l'Allemagne en 1943 ?"
+    answers:
+      A: "Opération Gomorrhe"
+      B: "Opération Chastise"
+      C: "Opération Pointblank"
+      D: "Opération Millennium"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the code name of the Allied strategic bombing campaign over Germany in 1943?"
+        answers:
+          A: "Operation Gomorrah"
+          B: "Operation Chastise"
+          C: "Operation Pointblank"
+          D: "Operation Millennium"
+    difficulty: EXPERT
+  - text: "Quel général allemand a été limogé par Hitler après la défaite de Stalingrad ?"
+    answers:
+      A: "Friedrich Paulus"
+      B: "Heinz Guderian"
+      C: "Erich von Manstein"
+      D: "Walther von Reichenau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which German general was dismissed by Hitler after the defeat at Stalingrad?"
+        answers:
+          A: "Friedrich Paulus"
+          B: "Heinz Guderian"
+          C: "Erich von Manstein"
+          D: "Walther von Reichenau"
+    difficulty: HARD
+  - text: "Quel était le nom du premier porte-avions japonais coulé à Midway ?"
+    answers:
+      A: "Hiryu"
+      B: "Kaga"
+      C: "Soryu"
+      D: "Akagi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of the first Japanese aircraft carrier sunk at Midway?"
+        answers:
+          A: "Hiryu"
+          B: "Kaga"
+          C: "Soryu"
+          D: "Akagi"
+    difficulty: EXPERT
+  - text: "Quelle était la nationalité du physicien Niels Bohr, qui a fui le Danemark occupé en 1943 ?"
+    answers:
+      A: "Norvégienne"
+      B: "Danoise"
+      C: "Suédoise"
+      D: "Néerlandaise"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the nationality of physicist Niels Bohr, who fled occupied Denmark in 1943?"
+        answers:
+          A: "Norwegian"
+          B: "Danish"
+          C: "Swedish"
+          D: "Dutch"
+    difficulty: EASY
+  - text: "Quel char soviétique fut le plus produit en 1941 ?"
     imageUrl: wikipedia/history/T-34_tanks_of_32nd_tank_brigade_near_Tula.jpg
     answers:
       A: "Le BT-7"
@@ -1092,126 +1092,126 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "This photograph shows Soviet tanks in 1941: which was one of the most produced of the war?"
+        text: "Which Soviet tank was the most produced in 1941?"
         answers:
           A: "The BT-7"
           B: "The KV-2"
           C: "The IS-3"
           D: "The T-34"
-    difficulty: MEDIUM
-  - text: "Qui dirigeait l'équipe scientifique du projet Manhattan ?"
+    difficulty: HARD
+  - text: "Quel maréchal soviétique a commandé la défense de Stalingrad ?"
     answers:
-      A: "Enrico Fermi"
-      B: "Robert Oppenheimer"
-      C: "Niels Bohr"
-      D: "Werner Heisenberg"
+      A: "Gueorgui Joukov"
+      B: "Vassili Tchouïkov"
+      C: "Ivan Koniev"
+      D: "Rodion Malinovski"
     correctAnswer: B
     translations:
       en:
-        text: "Who led the scientific team of the Manhattan Project?"
+        text: "Which Soviet marshal commanded the defense of Stalingrad?"
         answers:
-          A: "Enrico Fermi"
-          B: "Robert Oppenheimer"
-          C: "Niels Bohr"
-          D: "Werner Heisenberg"
-    difficulty: MEDIUM
-  - text: "En quoi consistait le programme américain de prêt-bail (Lend-Lease) ?"
+          A: "Georgy Zhukov"
+          B: "Vasily Chuikov"
+          C: "Ivan Konev"
+          D: "Rodion Malinovsky"
+    difficulty: HARD
+  - text: "Quel était le nom du bombardier lourd allemand utilisé lors du Blitz ?"
     answers:
-      A: "Des prêts immobiliers aux Alliés"
-      B: "Une vente d'armes à crédit à l'Allemagne"
-      C: "Une location de bases navales"
-      D: "Une aide en matériel fournie aux Alliés"
+      A: "Messerschmitt Bf 109"
+      B: "Junkers Ju 87"
+      C: "Dornier Do 17"
+      D: "Heinkel He 111"
     correctAnswer: D
     translations:
       en:
-        text: "What did the American Lend-Lease program consist of?"
+        text: "What was the name of the German heavy bomber used during the Blitz?"
         answers:
-          A: "Real estate loans to the Allies"
-          B: "Credit sales of weapons to Germany"
-          C: "Rental of naval bases"
-          D: "Material aid provided to the Allies"
-    difficulty: MEDIUM
-  - text: "Que désigne le Blitz de 1940-1941 ?"
+          A: "Messerschmitt Bf 109"
+          B: "Junkers Ju 87"
+          C: "Dornier Do 17"
+          D: "Heinkel He 111"
+    difficulty: EXPERT
+  - text: "Quel pays a été le premier à déclarer la guerre à l'Allemagne après l'invasion de la Pologne ?"
     answers:
-      A: "Une offensive terrestre allemande"
-      B: "Un blocus naval britannique"
-      C: "Une campagne de propagande radiophonique"
-      D: "Une campagne de bombardements sur le Royaume-Uni"
+      A: "France"
+      B: "États-Unis"
+      C: "URSS"
+      D: "Royaume-Uni"
     correctAnswer: D
     translations:
       en:
-        text: "What does the Blitz of 1940-1941 refer to?"
+        text: "Which country was the first to declare war on Germany after the invasion of Poland?"
         answers:
-          A: "A German ground offensive"
-          B: "A British naval blockade"
-          C: "A radio propaganda campaign"
-          D: "A bombing campaign on the United Kingdom"
+          A: "France"
+          B: "United States"
+          C: "USSR"
+          D: "United Kingdom"
     difficulty: MEDIUM
-  - text: "Que commémore la journée internationale du 27 janvier, instaurée en 2005 ?"
+  - text: "Quel était le nom de code de l'opération alliée pour la traversée du Rhin en mars 1945 ?"
     answers:
-      A: "La capitulation du Japon"
-      B: "La fin de la guerre en Europe"
-      C: "La libération du camp d'Auschwitz-Birkenau"
-      D: "L'ouverture du procès de Nuremberg"
+      A: "Opération Lumberjack"
+      B: "Opération Varsity"
+      C: "Opération Plunder"
+      D: "Opération Grenade"
     correctAnswer: C
     translations:
       en:
-        text: "What does the international day of January 27, established in 2005, commemorate?"
+        text: "What was the code name of the Allied operation for the crossing of the Rhine in March 1945?"
         answers:
-          A: "The surrender of Japan"
-          B: "The end of the war in Europe"
-          C: "The liberation of Auschwitz-Birkenau"
-          D: "The opening of the Nuremberg trials"
-    difficulty: MEDIUM
-  - text: "Combien de personnes ont perdu la vie durant la Seconde Guerre mondiale, selon les estimations ?"
+          A: "Operation Lumberjack"
+          B: "Operation Varsity"
+          C: "Operation Plunder"
+          D: "Operation Grenade"
+    difficulty: EXPERT
+  - text: "Quelle bataille a été la première défaite majeure de l'Armée rouge face aux Allemands en 1941 ?"
     answers:
-      A: "Environ 6 millions"
-      B: "Entre 70 et 85 millions"
-      C: "Environ 20 millions"
-      D: "Plus de 200 millions"
+      A: "Bataille de Moscou"
+      B: "Bataille de Kiev"
+      C: "Bataille de Smolensk"
+      D: "Bataille de Léningrad"
     correctAnswer: B
     translations:
       en:
-        text: "How many people lost their lives during World War II, according to estimates?"
+        text: "Which battle was the Red Army's first major defeat against the Germans in 1941?"
         answers:
-          A: "About 6 million"
-          B: "Between 70 and 85 million"
-          C: "About 20 million"
-          D: "More than 200 million"
-    difficulty: MEDIUM
-  - text: "Que symbolisait la figure de « Rosie the Riveter » aux États-Unis ?"
+          A: "Battle of Moscow"
+          B: "Battle of Kiev"
+          C: "Battle of Smolensk"
+          D: "Battle of Leningrad"
+    difficulty: HARD
+  - text: "Quel était le nom du camp d'extermination nazi où a été tué le père Maximilien Kolbe ?"
     answers:
-      A: "Une pilote de chasse"
-      B: "Les femmes travaillant dans les usines d'armement"
-      C: "Une infirmière militaire"
-      D: "Une espionne célèbre"
+      A: "Treblinka"
+      B: "Auschwitz"
+      C: "Sobibor"
+      D: "Majdanek"
     correctAnswer: B
     translations:
       en:
-        text: "What did the figure of \"Rosie the Riveter\" symbolize in the United States?"
+        text: "What was the name of the Nazi extermination camp where Father Maximilian Kolbe was killed?"
         answers:
-          A: "A fighter pilot"
-          B: "Women working in armament factories"
-          C: "A military nurse"
-          D: "A famous spy"
-    difficulty: MEDIUM
-  - text: "À quoi est consacré le Mémorial de Caen, inauguré en 1988 ?"
+          A: "Treblinka"
+          B: "Auschwitz"
+          C: "Sobibor"
+          D: "Majdanek"
+    difficulty: HARD
+  - text: "Quel général américain a commandé la 3e armée lors de la bataille des Ardennes ?"
     answers:
-      A: "À la Première Guerre mondiale"
-      B: "À la Seconde Guerre mondiale et à la bataille de Normandie"
-      C: "À la Résistance intérieure"
-      D: "À la guerre froide"
+      A: "Omar Bradley"
+      B: "George Patton"
+      C: "Dwight D. Eisenhower"
+      D: "Courtney Hodges"
     correctAnswer: B
     translations:
       en:
-        text: "What is the Caen Memorial, inaugurated in 1988, dedicated to?"
+        text: "Which American general commanded the 3rd Army during the Battle of the Bulge?"
         answers:
-          A: "World War I"
-          B: "World War II and the Battle of Normandy"
-          C: "The internal Resistance"
-          D: "The Cold War"
-    difficulty: MEDIUM
-  - text: "Cet avion de chasse à réaction est conservé dans un musée : lequel fut le premier chasseur à réaction engagé au combat ?"
+          A: "Omar Bradley"
+          B: "George Patton"
+          C: "Dwight D. Eisenhower"
+          D: "Courtney Hodges"
+    difficulty: HARD
+  - text: "Quel fut le premier chasseur à réaction au combat ?"
     imageUrl: wikipedia/history/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF.jpg
     answers:
       A: "Le Focke-Wulf Fw 190"
@@ -1221,394 +1221,394 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "This jet fighter is kept in a museum: which was the first jet fighter to see combat?"
+        text: "What was the first jet fighter in combat?"
         answers:
           A: "The Focke-Wulf Fw 190"
           B: "The Heinkel He 111"
           C: "The Messerschmitt Me 262"
           D: "The Junkers Ju 87"
     difficulty: HARD
-  - text: "Quelle arme allemande, conçue sous la direction de Wernher von Braun, fut le premier missile balistique de l'histoire ?"
+  - text: "Quel était le nom de code de l'opération allemande de sauvetage de Mussolini en 1943 ?"
     answers:
-      A: "Le Fritz X"
-      B: "Le V1"
-      C: "Le V2"
-      D: "Le Nebelwerfer"
+      A: "Opération Rösselsprung"
+      B: "Opération Merkur"
+      C: "Opération Eiche"
+      D: "Opération Greif"
     correctAnswer: C
     translations:
       en:
-        text: "Which German weapon, designed under the direction of Wernher von Braun, was the first ballistic missile in history?"
+        text: "What was the code name of the German operation to rescue Mussolini in 1943?"
         answers:
-          A: "The Fritz X"
-          B: "The V1"
-          C: "The V2"
-          D: "The Nebelwerfer"
-    difficulty: HARD
-  - text: "Quel réseau radar britannique a joué un rôle clé durant la bataille d'Angleterre ?"
+          A: "Operation Rösselsprung"
+          B: "Operation Merkur"
+          C: "Operation Eiche"
+          D: "Operation Greif"
+    difficulty: EXPERT
+  - text: "Quelle était la principale base navale américaine attaquée à Pearl Harbor ?"
     answers:
-      A: "Le Chain Home"
-      B: "Le projecteur Leigh"
-      C: "Le Huff-Duff"
-      D: "Le sonar ASDIC"
+      A: "Base de Ford Island"
+      B: "Base de Hickam"
+      C: "Base de Schofield"
+      D: "Base de Kaneohe"
     correctAnswer: A
     translations:
       en:
-        text: "Which British radar network played a key role during the Battle of Britain?"
+        text: "What was the main US naval base attacked at Pearl Harbor?"
         answers:
-          A: "Chain Home"
-          B: "The Leigh light"
-          C: "Huff-Duff"
-          D: "ASDIC sonar"
-    difficulty: HARD
-  - text: "Que prévoyait l'opération Paperclip menée par les États-Unis à partir de 1945 ?"
+          A: "Ford Island Base"
+          B: "Hickam Base"
+          C: "Schofield Base"
+          D: "Kaneohe Base"
+    difficulty: EASY
+  - text: "Quel traité a officialisé la reddition du Japon en 1945 ?"
     answers:
-      A: "Le rapatriement des prisonniers allemands"
-      B: "Le déminage des côtes françaises"
-      C: "Le recrutement de scientifiques allemands"
-      D: "La destruction des usines d'armement"
+      A: "Traité de San Francisco"
+      B: "Traité de Tokyo"
+      C: "Acte de capitulation du Japon"
+      D: "Accord de Potsdam"
     correctAnswer: C
     translations:
       en:
-        text: "What did Operation Paperclip, carried out by the United States from 1945, involve?"
+        text: "Which treaty formalized Japan's surrender in 1945?"
         answers:
-          A: "The repatriation of German prisoners"
-          B: "The demining of the French coast"
-          C: "The recruitment of German scientists"
-          D: "The destruction of armament factories"
-    difficulty: HARD
-  - text: "Combien d'accusés principaux ont été jugés lors du procès de Nuremberg (1945-1946) ?"
+          A: "Treaty of San Francisco"
+          B: "Treaty of Tokyo"
+          C: "Japanese Instrument of Surrender"
+          D: "Potsdam Agreement"
+    difficulty: EXPERT
+  - text: "Quel maréchal allemand a été nommé commandant du front de l'Est en 1941 ?"
     answers:
-      A: "34"
-      B: "11"
-      C: "21"
-      D: "50"
+      A: "Gerd von Rundstedt"
+      B: "Wilhelm Ritter von Leeb"
+      C: "Fedor von Bock"
+      D: "Erich von Manstein"
     correctAnswer: C
     translations:
       en:
-        text: "How many main defendants were tried at the Nuremberg trials (1945-1946)?"
+        text: "Which German field marshal was appointed commander of the Eastern Front in 1941?"
         answers:
-          A: "34"
-          B: "11"
-          C: "21"
-          D: "50"
-    difficulty: HARD
-  - text: "Quel tribunal a jugé les dirigeants japonais après la guerre ?"
+          A: "Gerd von Rundstedt"
+          B: "Wilhelm Ritter von Leeb"
+          C: "Fedor von Bock"
+          D: "Erich von Manstein"
+    difficulty: EXPERT
+  - text: "Quel était le nom du projet américain de développement de la bombe atomique ?"
     answers:
-      A: "Le tribunal de La Haye"
-      B: "Le tribunal de Genève"
-      C: "Le Tribunal militaire international pour l'Extrême-Orient"
-      D: "Le tribunal de Manille"
+      A: "Projet Alsos"
+      B: "Projet Trinity"
+      C: "Projet Manhattan"
+      D: "Projet Chicago"
     correctAnswer: C
     translations:
       en:
-        text: "Which court tried Japanese leaders after the war?"
+        text: "What was the name of the American project to develop the atomic bomb?"
         answers:
-          A: "The Hague Tribunal"
-          B: "The Geneva Tribunal"
-          C: "The International Military Tribunal for the Far East"
-          D: "The Manila Tribunal"
-    difficulty: HARD
-  - text: "Que contenait la déclaration de Potsdam publiée le 26 juillet 1945 ?"
+          A: "Alsos Project"
+          B: "Trinity Project"
+          C: "Manhattan Project"
+          D: "Chicago Project"
+    difficulty: EASY
+  - text: "Quel pays a été envahi par l'Allemagne le 1er septembre 1939 ?"
     answers:
-      A: "Un ultimatum au Japon exigeant sa capitulation sans condition"
-      B: "Une offre de paix à l'Italie"
-      C: "Un ultimatum soviétique aux Alliés"
-      D: "Un plan de partage de l'Allemagne"
+      A: "Pologne"
+      B: "Tchécoslovaquie"
+      C: "Autriche"
+      D: "France"
     correctAnswer: A
     translations:
       en:
-        text: "What did the Potsdam Declaration published on July 26, 1945 contain?"
+        text: "Which country was invaded by Germany on September 1, 1939?"
         answers:
-          A: "An ultimatum to Japan demanding unconditional surrender"
-          B: "A peace offer to Italy"
-          C: "A Soviet ultimatum to the Allies"
-          D: "A plan to partition Germany"
-    difficulty: HARD
-  - text: "Où l'Allemagne signe-t-elle une première capitulation le 7 mai 1945 ?"
+          A: "Poland"
+          B: "Czechoslovakia"
+          C: "Austria"
+          D: "France"
+    difficulty: EASY
+  - text: "Quel était le nom de code de l'opération alliée de débarquement en Sicile en 1943 ?"
     answers:
-      A: "À Reims"
-      B: "À Berlin"
-      C: "À Luxembourg"
-      D: "À Nuremberg"
+      A: "Opération Husky"
+      B: "Opération Avalanche"
+      C: "Opération Baytown"
+      D: "Opération Slapstick"
     correctAnswer: A
     translations:
       en:
-        text: "Where did Germany sign a first surrender on May 7, 1945?"
+        text: "What was the code name of the Allied landing operation in Sicily in 1943?"
         answers:
-          A: "In Reims"
-          B: "In Berlin"
-          C: "In Luxembourg"
-          D: "In Nuremberg"
+          A: "Operation Husky"
+          B: "Operation Avalanche"
+          C: "Operation Baytown"
+          D: "Operation Slapstick"
     difficulty: HARD
-  - text: "Quand le rationnement a-t-il pris fin au Royaume-Uni ?"
+  - text: "Quel était le nom de code du plan allemand d'invasion de la France en 1940 ?"
     answers:
-      A: "En 1948"
-      B: "En 1945"
-      C: "En 1954"
-      D: "En 1960"
+      A: "Opération Barbarossa"
+      B: "Opération Lion de mer"
+      C: "Plan Jaune"
+      D: "Plan Bleu"
     correctAnswer: C
     translations:
       en:
-        text: "When did rationing end in the United Kingdom?"
+        text: "What was the code name of the German plan to invade France in 1940?"
         answers:
-          A: "In 1948"
-          B: "In 1945"
-          C: "In 1954"
-          D: "In 1960"
+          A: "Operation Barbarossa"
+          B: "Operation Sea Lion"
+          C: "Case Yellow"
+          D: "Case Blue"
     difficulty: HARD
-  - text: "Quel rôle ont joué les code talkers navajos pendant la guerre du Pacifique ?"
+  - text: "Quel général soviétique a dirigé la défense de Stalingrad et signé la reddition allemande en 1943 ?"
     answers:
-      A: "Ils pilotaient des bombardiers"
-      B: "Ils fabriquaient du matériel de radio"
-      C: "Ils cartographiaient les îles du Pacifique"
-      D: "Ils transmettaient des messages codés en langue navajo"
+      A: "Gueorgui Joukov"
+      B: "Ivan Koniev"
+      C: "Constantin Rokossovski"
+      D: "Nikolaï Vatoutine"
     correctAnswer: D
     translations:
       en:
-        text: "What role did Navajo code talkers play during the Pacific War?"
+        text: "Which Soviet general led the defense of Stalingrad and signed the German surrender in 1943?"
         answers:
-          A: "They piloted bombers"
-          B: "They manufactured radio equipment"
-          C: "They mapped the Pacific islands"
-          D: "They transmitted coded messages in the Navajo language"
+          A: "Georgy Zhukov"
+          B: "Ivan Konev"
+          C: "Konstantin Rokossovsky"
+          D: "Nikolai Vatutin"
     difficulty: HARD
-  - text: "Quel était le but de l'opération Fortitude en 1944 ?"
+  - text: "Quel était le nom du premier grand camp d'extermination nazi ouvert en Pologne occupée ?"
     answers:
-      A: "Tromper les Allemands sur le lieu du débarquement"
-      B: "Bombarder les usines de V2"
-      C: "Saboter les chemins de fer français"
-      D: "Capturer des officiers du renseignement"
+      A: "Chelmno"
+      B: "Treblinka"
+      C: "Belzec"
+      D: "Auschwitz-Birkenau"
     correctAnswer: A
     translations:
       en:
-        text: "What was the purpose of Operation Fortitude in 1944?"
+        text: "What was the name of the first major Nazi extermination camp opened in occupied Poland?"
         answers:
-          A: "To deceive the Germans about the landing site"
-          B: "To bomb V2 factories"
-          C: "To sabotage French railways"
-          D: "To capture intelligence officers"
+          A: "Chelmno"
+          B: "Treblinka"
+          C: "Belzec"
+          D: "Auschwitz-Birkenau"
     difficulty: HARD
-  - text: "Sur quel navire la capitulation du Japon a-t-elle été signée le 2 septembre 1945 ?"
+  - text: "Quel général soviétique a été limogé après la défaite de Kharkov en mai 1942 ?"
     answers:
-      A: "L'USS Missouri"
-      B: "Le HMS Victory"
-      C: "L'USS Enterprise"
-      D: "L'USS Arizona"
+      A: "Semion Timochenko"
+      B: "Semyon Boudionny"
+      C: "Rodion Malinovski"
+      D: "Andreï Ieremenko"
     correctAnswer: A
     translations:
       en:
-        text: "On which ship was Japan's surrender signed on September 2, 1945?"
+        text: "Which Soviet general was dismissed after the defeat at Kharkov in May 1942?"
         answers:
-          A: "The USS Missouri"
-          B: "The HMS Victory"
-          C: "The USS Enterprise"
-          D: "The USS Arizona"
-    difficulty: HARD
-  - text: "Combien de rotors une machine Enigma I de l'armée allemande utilisait-elle en même temps ?"
+          A: "Semyon Timoshenko"
+          B: "Semyon Budyonny"
+          C: "Rodion Malinovsky"
+          D: "Andrey Yeryomenko"
+    difficulty: EXPERT
+  - text: "Quel était le nom de code de l'opération alliée de bombardement de Dresde en février 1945 ?"
     answers:
-      A: "3"
-      B: "2"
-      C: "5"
-      D: "6"
+      A: "Operation Thunderclap"
+      B: "Operation Clarion"
+      C: "Operation Gomorrah"
+      D: "Operation Hurricane"
     correctAnswer: A
     translations:
       en:
-        text: "How many rotors did a German Army Enigma I machine use at the same time?"
+        text: "What was the code name of the Allied bombing operation on Dresden in February 1945?"
         answers:
-          A: "3"
-          B: "2"
-          C: "5"
-          D: "6"
+          A: "Operation Thunderclap"
+          B: "Operation Clarion"
+          C: "Operation Gomorrah"
+          D: "Operation Hurricane"
     difficulty: EXPERT
-  - text: "À quoi servait la « bombe » de Turing utilisée à Bletchley Park ?"
-    answers:
-      A: "À tester automatiquement des réglages d'Enigma"
-      B: "À brouiller les radars allemands"
-      C: "À détruire les sous-marins"
-      D: "À calculer les trajectoires de bombardement"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What was Turing's \"bombe\" used for at Bletchley Park?"
-        answers:
-          A: "To automatically test Enigma settings"
-          B: "To jam German radars"
-          C: "To destroy submarines"
-          D: "To calculate bombing trajectories"
-    difficulty: EXPERT
-  - text: "Quelle machine a été conçue pour déchiffrer les messages allemands codés par la machine Lorenz ?"
-    answers:
-      A: "L'ENIAC"
-      B: "La Z3"
-      C: "Le Colossus"
-      D: "La Mark I"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which machine was designed to decipher German messages encoded by the Lorenz machine?"
-        answers:
-          A: "ENIAC"
-          B: "The Z3"
-          C: "Colossus"
-          D: "The Mark I"
-    difficulty: EXPERT
-  - text: "Quels pays étaient représentés parmi les juges du Tribunal militaire international de Nuremberg ?"
-    answers:
-      A: "États-Unis, Royaume-Uni, URSS, Chine"
-      B: "États-Unis, Royaume-Uni, France, URSS"
-      C: "Royaume-Uni, France, Pologne, États-Unis"
-      D: "États-Unis, France, Italie, URSS"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which countries were represented among the judges of the International Military Tribunal at Nuremberg?"
-        answers:
-          A: "United States, United Kingdom, USSR, China"
-          B: "United States, United Kingdom, France, USSR"
-          C: "United Kingdom, France, Poland, United States"
-          D: "United States, France, Italy, USSR"
-    difficulty: EXPERT
-  - text: "Comment Hermann Göring échappe-t-il à son exécution prévue à Nuremberg ?"
-    answers:
-      A: "Il est gracié"
-      B: "Il s'évade de prison"
-      C: "Il se suicide la veille"
-      D: "Il meurt de maladie avant le verdict"
-    correctAnswer: C
-    translations:
-      en:
-        text: "How did Hermann Göring escape his scheduled execution at Nuremberg?"
-        answers:
-          A: "He was pardoned"
-          B: "He escaped from prison"
-          C: "He committed suicide the day before"
-          D: "He died of illness before the verdict"
-    difficulty: EXPERT
-  - text: "Quel haut dignitaire nazi, emprisonné à Spandau, y est mort en 1987 ?"
-    answers:
-      A: "Albert Speer"
-      B: "Karl Dönitz"
-      C: "Baldur von Schirach"
-      D: "Rudolf Hess"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which high-ranking Nazi official, imprisoned at Spandau, died there in 1987?"
-        answers:
-          A: "Albert Speer"
-          B: "Karl Dönitz"
-          C: "Baldur von Schirach"
-          D: "Rudolf Hess"
-    difficulty: EXPERT
-  - text: "Quelle peine Albert Speer a-t-il purgée après le procès de Nuremberg ?"
-    answers:
-      A: "La perpétuité"
-      B: "Il a été acquitté"
-      C: "Dix ans de prison"
-      D: "Vingt ans de prison"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What sentence did Albert Speer serve after the Nuremberg trial?"
-        answers:
-          A: "Life imprisonment"
-          B: "He was acquitted"
-          C: "Ten years in prison"
-          D: "Twenty years in prison"
-    difficulty: EXPERT
-  - text: "Où se trouve le mémorial Yad Vashem, dédié aux victimes de la Shoah ?"
-    answers:
-      A: "À Varsovie"
-      B: "À Berlin"
-      C: "À Jérusalem"
-      D: "À New York"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Where is the Yad Vashem memorial, dedicated to the victims of the Holocaust?"
-        answers:
-          A: "In Warsaw"
-          B: "In Berlin"
-          C: "In Jerusalem"
-          D: "In New York"
-    difficulty: EXPERT
-  - text: "Quel village français, détruit par une unité SS en juin 1944, est devenu un lieu de mémoire ?"
-    answers:
-      A: "Maillé"
-      B: "Oradour-sur-Glane"
-      C: "Tulle"
-      D: "Ascq"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which French village, destroyed by an SS unit in June 1944, became a place of remembrance?"
-        answers:
-          A: "Maillé"
-          B: "Oradour-sur-Glane"
-          C: "Tulle"
-          D: "Ascq"
-    difficulty: EXPERT
-  - text: "Quand le rationnement alimentaire a-t-il définitivement pris fin en France ?"
-    answers:
-      A: "En 1945"
-      B: "En 1947"
-      C: "En 1952"
-      D: "En 1949"
-    correctAnswer: D
-    translations:
-      en:
-        text: "When did food rationing finally end in France?"
-        answers:
-          A: "In 1945"
-          B: "In 1947"
-          C: "In 1952"
-          D: "In 1949"
-    difficulty: EXPERT
-  - text: "Quel maréchal allemand a signé la capitulation à Berlin le 8 mai 1945 ?"
+  - text: "Quel maréchal allemand a été nommé chef du Haut Commandement de la Wehrmacht (OKW) en 1938 ?"
     answers:
       A: "Wilhelm Keitel"
-      B: "Erwin Rommel"
-      C: "Gerd von Rundstedt"
-      D: "Friedrich Paulus"
+      B: "Erich Raeder"
+      C: "Walther von Brauchitsch"
+      D: "Alfred Jodl"
     correctAnswer: A
     translations:
       en:
-        text: "Which German field marshal signed the surrender in Berlin on May 8, 1945?"
+        text: "Which German field marshal was appointed head of the Wehrmacht High Command (OKW) in 1938?"
         answers:
           A: "Wilhelm Keitel"
-          B: "Erwin Rommel"
-          C: "Gerd von Rundstedt"
-          D: "Friedrich Paulus"
+          B: "Erich Raeder"
+          C: "Walther von Brauchitsch"
+          D: "Alfred Jodl"
     difficulty: EXPERT
-  - text: "En URSS et en Russie, quel jour le Jour de la Victoire est-il célébré ?"
+  - text: "Quel était le nom du premier sous-marin allemand coulé par les Alliés pendant la Seconde Guerre mondiale ?"
     answers:
-      A: "Le 8 mai"
-      B: "Le 2 septembre"
-      C: "Le 22 juin"
-      D: "Le 9 mai"
+      A: "U-30"
+      B: "U-47"
+      C: "U-39"
+      D: "U-48"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the name of the first German submarine sunk by the Allies during World War II?"
+        answers:
+          A: "U-30"
+          B: "U-47"
+          C: "U-39"
+          D: "U-48"
+    difficulty: EXPERT
+  - text: "Quelle organisation de résistance française a été fondée par Jean Moulin en 1943 ?"
+    answers:
+      A: "Les Forces françaises de l'intérieur"
+      B: "Le Conseil national de la Résistance"
+      C: "Le Comité français de libération nationale"
+      D: "Le Front national de lutte pour la liberté"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French resistance organization was founded by Jean Moulin in 1943?"
+        answers:
+          A: "The French Forces of the Interior"
+          B: "The National Council of the Resistance"
+          C: "The French Committee of National Liberation"
+          D: "The National Front for the Struggle for Freedom"
+    difficulty: HARD
+  - text: "Quel était le nom du chasseur à réaction allemand mis en service en 1944 ?"
+    answers:
+      A: "Heinkel He 162"
+      B: "Focke-Wulf Fw 190"
+      C: "Messerschmitt Me 262"
+      D: "Junkers Ju 287"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What was the name of the German jet fighter that entered service in 1944?"
+        answers:
+          A: "Heinkel He 162"
+          B: "Focke-Wulf Fw 190"
+          C: "Messerschmitt Me 262"
+          D: "Junkers Ju 287"
+    difficulty: HARD
+  - text: "Quel pays a été envahi par l'Allemagne en avril 1941, en violation de sa neutralité ?"
+    answers:
+      A: "Yougoslavie"
+      B: "Grèce"
+      C: "Bulgarie"
+      D: "Yougoslavie et Grèce"
     correctAnswer: D
     translations:
       en:
-        text: "In the USSR and Russia, on which day is Victory Day celebrated?"
+        text: "Which country was invaded by Germany in April 1941, in violation of its neutrality?"
         answers:
-          A: "May 8"
-          B: "September 2"
-          C: "June 22"
-          D: "May 9"
-    difficulty: EXPERT
-  - text: "Quel texte issu du procès de Nuremberg a posé les principes de l'éthique médicale ?"
+          A: "Yugoslavia"
+          B: "Greece"
+          C: "Bulgaria"
+          D: "Yugoslavia and Greece"
+    difficulty: MEDIUM
+  - text: "Quel était le nom de code de l'opération allemande de capture de l'île de Crète en 1941 ?"
     answers:
-      A: "Le Code de Nuremberg"
-      B: "La Déclaration de Genève"
-      C: "Le serment d'Hippocrate"
-      D: "La Convention de La Haye"
+      A: "Opération Theseus"
+      B: "Opération Marita"
+      C: "Opération Barbarossa"
+      D: "Opération Merkur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the code name of the German operation to capture the island of Crete in 1941?"
+        answers:
+          A: "Operation Theseus"
+          B: "Operation Marita"
+          C: "Operation Barbarossa"
+          D: "Operation Merkur"
+    difficulty: HARD
+  - text: "Quel général américain a commandé la 1re division d'infanterie lors du débarquement à Omaha Beach ?"
+    answers:
+      A: "Omar Bradley"
+      B: "Leonard Gerow"
+      C: "Clarence Huebner"
+      D: "J. Lawton Collins"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which American general commanded the 1st Infantry Division during the landing at Omaha Beach?"
+        answers:
+          A: "Omar Bradley"
+          B: "Leonard Gerow"
+          C: "Clarence Huebner"
+          D: "J. Lawton Collins"
+    difficulty: EXPERT
+  - text: "Quel était le nom du principal camp de transit nazi en France ?"
+    answers:
+      A: "Compiègne"
+      B: "Drancy"
+      C: "Pithiviers"
+      D: "Beaune-la-Rolande"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the main Nazi transit camp in France?"
+        answers:
+          A: "Compiègne"
+          B: "Drancy"
+          C: "Pithiviers"
+          D: "Beaune-la-Rolande"
+    difficulty: HARD
+  - text: "Quel maréchal soviétique a commandé le 1er front biélorusse lors de la bataille de Berlin ?"
+    answers:
+      A: "Ivan Koniev"
+      B: "Vassili Tchouïkov"
+      C: "Constantin Rokossovski"
+      D: "Georgi Joukov"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Soviet marshal commanded the 1st Belorussian Front during the Battle of Berlin?"
+        answers:
+          A: "Ivan Konev"
+          B: "Vasily Chuikov"
+          C: "Konstantin Rokossovsky"
+          D: "Georgy Zhukov"
+    difficulty: EXPERT
+  - text: "Quel était le nom du bombardier lourd américain qui a largué la bombe atomique sur Hiroshima ?"
+    answers:
+      A: "Enola Gay"
+      B: "Bockscar"
+      C: "The Great Artiste"
+      D: "Necessary Evil"
     correctAnswer: A
     translations:
       en:
-        text: "Which text from the Nuremberg trial established the principles of medical ethics?"
+        text: "What was the name of the American heavy bomber that dropped the atomic bomb on Hiroshima?"
         answers:
-          A: "The Nuremberg Code"
-          B: "The Declaration of Geneva"
-          C: "The Hippocratic Oath"
-          D: "The Hague Convention"
+          A: "Enola Gay"
+          B: "Bockscar"
+          C: "The Great Artiste"
+          D: "Necessary Evil"
+    difficulty: EASY
+  - text: "Quel traité a mis fin à la guerre d'Hiver entre l'URSS et la Finlande en 1940 ?"
+    answers:
+      A: "Traité de Helsinki"
+      B: "Traité de Tartu"
+      C: "Traité de Dorpat"
+      D: "Traité de Moscou"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which treaty ended the Winter War between the USSR and Finland in 1940?"
+        answers:
+          A: "Treaty of Helsinki"
+          B: "Treaty of Tartu"
+          C: "Treaty of Dorpat"
+          D: "Treaty of Moscow"
+    difficulty: EXPERT
+  - text: "Quel était le nom du premier porte-avions japonais coulé lors de la bataille de la mer de Corail en mai 1942 ?"
+    answers:
+      A: "Shōhō"
+      B: "Zuikaku"
+      C: "Shōkaku"
+      D: "Kaga"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the name of the first Japanese aircraft carrier sunk during the Battle of the Coral Sea in May 1942?"
+        answers:
+          A: "Shōhō"
+          B: "Zuikaku"
+          C: "Shōkaku"
+          D: "Kaga"
     difficulty: EXPERT

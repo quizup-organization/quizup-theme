@@ -7,1603 +7,1603 @@ topic:
   category: GAMES
   imageUrl: wikipedia/games/MineCon2015ExpoHall.jpg
 questions:
-  - text: "Quel bloc se forme lorsqu'un flux d'eau entre en contact avec une source de lave ?"
+  - text: "Combien de temps met un four pour cuire un minerai de fer avec du charbon ?"
     answers:
-      A: "De l'obsidienne"
-      B: "Du cobblestone"
-      C: "De la roche-mère"
-      D: "Du basalte"
+      A: "10 secondes"
+      B: "20 secondes"
+      C: "30 secondes"
+      D: "40 secondes"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "What block forms when a flow of water comes into contact with a lava source?"
+        text: "How long does a furnace take to smelt iron ore with coal?"
         answers:
-          A: "Obsidian"
-          B: "Cobblestone"
-          C: "Bedrock"
-          D: "Basalt"
-  - text: "Quelle pioche est nécessaire au minimum pour obtenir du minerai de diamant ?"
-    answers:
-      A: "Une pioche en fer"
-      B: "Une pioche en pierre"
-      C: "Une pioche en bois"
-      D: "Une pioche en or"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the minimum pickaxe needed to obtain diamond ore?"
-        answers:
-          A: "An iron pickaxe"
-          B: "A stone pickaxe"
-          C: "A wooden pickaxe"
-          D: "A golden pickaxe"
-  - text: "Quelle pioche faut-il pour récupérer un bloc d'obsidienne ?"
-    answers:
-      A: "Une hache en diamant"
-      B: "Une pioche en fer"
-      C: "Une pioche en pierre"
-      D: "Une pioche en diamant"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What pickaxe is needed to collect an obsidian block?"
-        answers:
-          A: "A diamond axe"
-          B: "An iron pickaxe"
-          C: "A stone pickaxe"
-          D: "A diamond pickaxe"
-  - text: "Combien de planches obtient-on en transformant une bûche ?"
-    answers:
-      A: "2"
-      B: "4"
-      C: "6"
-      D: "3"
-    correctAnswer: B
+          A: "10 seconds"
+          B: "20 seconds"
+          C: "30 seconds"
+          D: "40 seconds"
     difficulty: EASY
-    translations:
-      en:
-        text: "How many planks do you get from turning a log into planks?"
-        answers:
-          A: "2"
-          B: "4"
-          C: "6"
-          D: "3"
-  - text: "Combien de bâtons obtient-on en craftant deux planches ?"
+  - text: "Quel est le niveau de luminosité minimal pour qu'un monstre hostile apparaisse dans un bloc d'herbe ?"
     answers:
-      A: "2"
-      B: "6"
-      C: "4"
+      A: "0"
+      B: "1"
+      C: "7"
       D: "8"
-    correctAnswer: C
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
-        text: "How many sticks do you get from crafting two planks?"
+        text: "What is the minimum light level for a hostile monster to spawn on a grass block?"
         answers:
-          A: "2"
-          B: "6"
-          C: "4"
+          A: "0"
+          B: "1"
+          C: "7"
           D: "8"
-  - text: "Combien de planches faut-il pour fabriquer un établi ?"
+    difficulty: EASY
+  - text: "Quel est le rendement maximal de la table d'enchantement pour obtenir des enchantements de niveau 30 ?"
+    answers:
+      A: "30 bibliothèques"
+      B: "20 bibliothèques"
+      C: "25 bibliothèques"
+      D: "15 bibliothèques"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum number of bookshelves needed around an enchanting table to get level 30 enchantments?"
+        answers:
+          A: "30 bookshelves"
+          B: "20 bookshelves"
+          C: "25 bookshelves"
+          D: "15 bookshelves"
+    difficulty: MEDIUM
+  - text: "Quel est le seul bois qui ne peut pas être transformé en charbon de bois dans un four ?"
+    answers:
+      A: "Bois de bouleau"
+      B: "Bois de chêne"
+      C: "Bois de sapin"
+      D: "Bois de jungle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which is the only wood that cannot be turned into charcoal in a furnace?"
+        answers:
+          A: "Birch wood"
+          B: "Oak wood"
+          C: "Spruce wood"
+          D: "Jungle wood"
+    difficulty: HARD
+  - text: "Quel est le temps de recharge de la perle de l'Ender après une téléportation ?"
+    answers:
+      A: "3 secondes"
+      B: "2 secondes"
+      C: "1 seconde"
+      D: "5 secondes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the cooldown time for an Ender pearl after teleporting?"
+        answers:
+          A: "3 seconds"
+          B: "2 seconds"
+          C: "1 second"
+          D: "5 seconds"
+    difficulty: HARD
+  - text: "Quel est le niveau de faim minimal pour pouvoir sprinter ?"
+    answers:
+      A: "8 points (4 cuillères)"
+      B: "7 points (3,5 cuillères)"
+      C: "6 points (3 cuillères)"
+      D: "9 points (4,5 cuillères)"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the minimum hunger level required to sprint?"
+        answers:
+          A: "8 points (4 shanks)"
+          B: "7 points (3.5 shanks)"
+          C: "6 points (3 shanks)"
+          D: "9 points (4.5 shanks)"
+    difficulty: EASY
+  - text: "Quel est le seul mob qui peut apparaître dans un biome de champignons ?"
+    answers:
+      A: "Mouton"
+      B: "Vache"
+      C: "Champimeuh"
+      D: "Cochon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only mob that can spawn in a mushroom biome?"
+        answers:
+          A: "Sheep"
+          B: "Cow"
+          C: "Mooshroom"
+          D: "Pig"
+    difficulty: MEDIUM
+  - text: "Quel est le niveau de cercle d'enchantement nécessaire pour obtenir l'enchantement 'Tranchant V' sur une épée en diamant ?"
+    answers:
+      A: "Niveau 1"
+      B: "Niveau 30"
+      C: "Niveau 20"
+      D: "Niveau 10"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What enchantment level is required to get Sharpness V on a diamond sword?"
+        answers:
+          A: "Level 1"
+          B: "Level 30"
+          C: "Level 20"
+          D: "Level 10"
+    difficulty: EXPERT
+  - text: "Quel est le temps exact de combustion d'un bloc de lave dans un four ?"
+    answers:
+      A: "2000 secondes"
+      B: "1500 secondes"
+      C: "1000 secondes"
+      D: "2500 secondes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the exact burn time of a lava block in a furnace?"
+        answers:
+          A: "2000 seconds"
+          B: "1500 seconds"
+          C: "1000 seconds"
+          D: "2500 seconds"
+    difficulty: EXPERT
+  - text: "Quel est le seul poisson qui peut être obtenu en utilisant un seau vide ?"
+    answers:
+      A: "Poisson-clown"
+      B: "Poisson-globe"
+      C: "Poisson tropical"
+      D: "Poisson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the only fish that can be obtained using an empty bucket?"
+        answers:
+          A: "Clownfish"
+          B: "Pufferfish"
+          C: "Tropical fish"
+          D: "Fish"
+    difficulty: EASY
+  - text: "Quel est le niveau de difficulté où les zombies peuvent casser les portes en bois ?"
+    answers:
+      A: "Difficile"
+      B: "Normal"
+      C: "Facile"
+      D: "Hardcore"
+    correctAnswer: A
+    translations:
+      en:
+        text: "On what difficulty level can zombies break wooden doors?"
+        answers:
+          A: "Hard"
+          B: "Normal"
+          C: "Easy"
+          D: "Hardcore"
+    difficulty: EASY
+  - text: "Quel est le seul colorant qui ne peut pas être obtenu à partir d'une fleur ?"
+    answers:
+      A: "Rouge"
+      B: "Jaune"
+      C: "Blanc"
+      D: "Bleu"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only dye that cannot be obtained from a flower?"
+        answers:
+          A: "Red"
+          B: "Yellow"
+          C: "White"
+          D: "Blue"
+    difficulty: HARD
+  - text: "Quel est le temps de croissance d'une pousse d'arbre de sapin plantée sur de la terre ?"
+    answers:
+      A: "1 jour"
+      B: "2 jours"
+      C: "Aléatoire"
+      D: "3 jours"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the growth time of a spruce sapling planted on dirt?"
+        answers:
+          A: "1 day"
+          B: "2 days"
+          C: "Random"
+          D: "3 days"
+    difficulty: HARD
+  - text: "Quel est le seul mob passif qui peut être chevauché sans selle ?"
+    answers:
+      A: "Cheval"
+      B: "Mule"
+      C: "Âne"
+      D: "Cochon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the only passive mob that can be ridden without a saddle?"
+        answers:
+          A: "Horse"
+          B: "Mule"
+          C: "Donkey"
+          D: "Pig"
+    difficulty: MEDIUM
+  - text: "Quel est le niveau de faim nécessaire pour que le joueur puisse se régénérer ?"
+    answers:
+      A: "15 points (7,5 cuillères)"
+      B: "16 points (8 cuillères)"
+      C: "18 points (9 cuillères)"
+      D: "17 points (8,5 cuillères)"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What hunger level is required for the player to regenerate health?"
+        answers:
+          A: "15 points (7.5 shanks)"
+          B: "16 points (8 shanks)"
+          C: "18 points (9 shanks)"
+          D: "17 points (8.5 shanks)"
+    difficulty: EASY
+  - text: "Quel est le seul bloc qui ne peut pas être déplacé par un piston ?"
+    answers:
+      A: "Netherite"
+      B: "Obsidienne"
+      C: "Lit"
+      D: "Coffre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which is the only block that cannot be moved by a piston?"
+        answers:
+          A: "Netherite"
+          B: "Obsidian"
+          C: "Bed"
+          D: "Chest"
+    difficulty: MEDIUM
+  - text: "Quel est le temps exact de fonte d'un bloc de fer dans un four ?"
+    answers:
+      A: "10 secondes"
+      B: "5 secondes"
+      C: "15 secondes"
+      D: "20 secondes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the exact smelting time of an iron block in a furnace?"
+        answers:
+          A: "10 seconds"
+          B: "5 seconds"
+          C: "15 seconds"
+          D: "20 seconds"
+    difficulty: EXPERT
+  - text: "Quel est le seul biome où l'on peut trouver des cactus naturellement ?"
+    answers:
+      A: "Jungle"
+      B: "Mesa"
+      C: "Savane"
+      D: "Désert"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the only biome where cacti can be found naturally?"
+        answers:
+          A: "Jungle"
+          B: "Mesa"
+          C: "Savanna"
+          D: "Desert"
+    difficulty: EASY
+  - text: "Quel est le niveau de durabilité d'une épée en netherite ?"
+    answers:
+      A: "1561"
+      B: "3000"
+      C: "2500"
+      D: "2031"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the durability of a netherite sword?"
+        answers:
+          A: "1561"
+          B: "3000"
+          C: "2500"
+          D: "2031"
+    difficulty: HARD
+  - text: "Quel est le seul mob qui peut être apprivoisé avec des pommes ?"
+    answers:
+      A: "Cheval"
+      B: "Aucun"
+      C: "Ocelot"
+      D: "Loup"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which is the only mob that can be tamed with apples?"
+        answers:
+          A: "Horse"
+          B: "None"
+          C: "Ocelot"
+          D: "Wolf"
+    difficulty: HARD
+  - text: "Quel est le seul minerai qui nécessite une pioche en netherite pour être miné ?"
+    answers:
+      A: "Minerai de diamant"
+      B: "Minerai d'émeraude"
+      C: "Minerai de débris antiques"
+      D: "Minerai de redstone"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only ore that requires a netherite pickaxe to be mined?"
+        answers:
+          A: "Diamond ore"
+          B: "Emerald ore"
+          C: "Ancient debris"
+          D: "Redstone ore"
+    difficulty: EXPERT
+  - text: "Combien de ticks dure l'animation de dégâts d'un joueur ?"
+    answers:
+      A: "5 ticks"
+      B: "10 ticks"
+      C: "15 ticks"
+      D: "20 ticks"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many ticks does a player's damage animation last?"
+        answers:
+          A: "5 ticks"
+          B: "10 ticks"
+          C: "15 ticks"
+          D: "20 ticks"
+    difficulty: EXPERT
+  - text: "Quel est le seul mob qui peut être attiré par une carotte sur un bâton ?"
+    answers:
+      A: "Cheval"
+      B: "Pig"
+      C: "Lama"
+      D: "Âne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which is the only mob that can be attracted by a carrot on a stick?"
+        answers:
+          A: "Horse"
+          B: "Pig"
+          C: "Llama"
+          D: "Donkey"
+    difficulty: EASY
+  - text: "Quel enchantement augmente les dégâts contre les arthropodes ?"
+    answers:
+      A: "Frappe"
+      B: "Tranchant"
+      C: "Châtiment"
+      D: "Fléau des arthropodes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which enchantment increases damage against arthropods?"
+        answers:
+          A: "Impaling"
+          B: "Sharpness"
+          C: "Smite"
+          D: "Bane of Arthropods"
+    difficulty: EASY
+  - text: "Combien de blocs de hauteur maksimale un cactus peut-il atteindre sans support supplémentaire ?"
+    answers:
+      A: "3"
+      B: "2"
+      C: "1"
+      D: "4"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many blocks tall can a cactus grow without additional support?"
+        answers:
+          A: "3"
+          B: "2"
+          C: "1"
+          D: "4"
+    difficulty: MEDIUM
+  - text: "Quel est le seul colorant qui peut être obtenu à partir d'un bloc de lapis-lazuli ?"
+    answers:
+      A: "Bleu clair"
+      B: "Cyan"
+      C: "Bleu"
+      D: "Magenta"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only dye that can be obtained from a block of lapis lazuli?"
+        answers:
+          A: "Light blue"
+          B: "Cyan"
+          C: "Blue"
+          D: "Magenta"
+    difficulty: MEDIUM
+  - text: "Quel est le temps de combustion d'un bloc de charbon dans un four ?"
+    answers:
+      A: "160 secondes"
+      B: "100 secondes"
+      C: "120 secondes"
+      D: "80 secondes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the burn time of a block of coal in a furnace?"
+        answers:
+          A: "160 seconds"
+          B: "100 seconds"
+          C: "120 seconds"
+          D: "80 seconds"
+    difficulty: HARD
+  - text: "Quel est le seul mob passif qui peut être nourri avec des pommes de terre empoisonnées ?"
+    answers:
+      A: "Vache"
+      B: "Poule"
+      C: "Mouton"
+      D: "Lapin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only passive mob that can be fed with poisonous potatoes?"
+        answers:
+          A: "Cow"
+          B: "Chicken"
+          C: "Sheep"
+          D: "Rabbit"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de luminosité minimal pour que le blé puisse pousser ?"
+    answers:
+      A: "4"
+      B: "9"
+      C: "7"
+      D: "12"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum light level for wheat to grow?"
+        answers:
+          A: "4"
+          B: "9"
+          C: "7"
+          D: "12"
+    difficulty: HARD
+  - text: "Quel est le seul outil qui peut être enchanté avec 'Fortune' ?"
+    answers:
+      A: "Hache"
+      B: "Pelle"
+      C: "Faucille"
+      D: "Pioche"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the only tool that can be enchanted with 'Fortune'?"
+        answers:
+          A: "Axe"
+          B: "Shovel"
+          C: "Hoe"
+          D: "Pickaxe"
+    difficulty: MEDIUM
+  - text: "Combien de blocs de distance minimale faut-il pour que les slimes n'apparaissent plus dans un chunk ?"
+    answers:
+      A: "24 blocs"
+      B: "32 blocs"
+      C: "48 blocs"
+      D: "64 blocs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many blocks of minimum distance are needed for slimes to no longer spawn in a chunk?"
+        answers:
+          A: "24 blocks"
+          B: "32 blocks"
+          C: "48 blocks"
+          D: "64 blocks"
+    difficulty: EXPERT
+  - text: "Quel est le seul biotope où les lapins peuvent apparaître avec la couleur 'pinto' ?"
+    answers:
+      A: "Forêt"
+      B: "Désert"
+      C: "Toundra"
+      D: "Savane"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the only biome where rabbits can spawn with the 'pinto' color?"
+        answers:
+          A: "Forest"
+          B: "Desert"
+          C: "Tundra"
+          D: "Savanna"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de cercle d'enchantement nécessaire pour obtenir 'Efficacité V' sur une pioche en diamant ?"
+    answers:
+      A: "15"
+      B: "20"
+      C: "30"
+      D: "25"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What enchantment circle level is required to get 'Efficiency V' on a diamond pickaxe?"
+        answers:
+          A: "15"
+          B: "20"
+          C: "30"
+          D: "25"
+    difficulty: HARD
+  - text: "Quel est le seul aliment qui peut être consommé même avec la barre de faim pleine ?"
+    answers:
+      A: "Gâteau"
+      B: "Pomme dorée"
+      C: "Pain"
+      D: "Carotte dorée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the only food that can be eaten even with a full hunger bar?"
+        answers:
+          A: "Cake"
+          B: "Golden apple"
+          C: "Bread"
+          D: "Golden carrot"
+    difficulty: HARD
+  - text: "Quel est le temps exact de croissance d'une culture de blé sans accélérateur de croissance ?"
+    answers:
+      A: "5 à 10 minutes"
+      B: "10 à 20 minutes"
+      C: "20 à 30 minutes"
+      D: "30 à 40 minutes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the exact growth time of a wheat crop without a growth accelerator?"
+        answers:
+          A: "5 to 10 minutes"
+          B: "10 to 20 minutes"
+          C: "20 to 30 minutes"
+          D: "30 to 40 minutes"
+    difficulty: EXPERT
+  - text: "Quel est le seul mob qui peut être apprivoisé avec des biscuits ?"
+    answers:
+      A: "Perroquet"
+      B: "Loup"
+      C: "Ocelot"
+      D: "Chat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the only mob that can be tamed with cookies?"
+        answers:
+          A: "Parrot"
+          B: "Wolf"
+          C: "Ocelot"
+          D: "Cat"
+    difficulty: HARD
+  - text: "Combien de blocs de sable faut-il pour fabriquer un bloc de grès ?"
     answers:
       A: "2"
       B: "3"
       C: "4"
       D: "6"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "How many planks are needed to craft a crafting table?"
+        text: "How many blocks of sand are needed to craft a block of sandstone?"
         answers:
           A: "2"
           B: "3"
           C: "4"
           D: "6"
-  - text: "Combien de diamants faut-il pour fabriquer une pioche en diamant ?"
-    answers:
-      A: "5"
-      B: "2"
-      C: "3"
-      D: "4"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "How many diamonds are needed to craft a diamond pickaxe?"
-        answers:
-          A: "5"
-          B: "2"
-          C: "3"
-          D: "4"
-  - text: "Combien de diamants faut-il pour fabriquer une armure en diamant complète ?"
-    answers:
-      A: "28"
-      B: "24"
-      C: "16"
-      D: "20"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "How many diamonds are needed to craft a full set of diamond armor?"
-        answers:
-          A: "28"
-          B: "24"
-          C: "16"
-          D: "20"
-  - text: "Combien de blocs d'obsidienne faut-il au minimum pour construire un portail du Nether ?"
-    answers:
-      A: "8"
-      B: "12"
-      C: "10"
-      D: "14"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is the minimum number of obsidian blocks needed to build a Nether portal?"
-        answers:
-          A: "8"
-          B: "12"
-          C: "10"
-          D: "14"
-  - text: "Avec quel objet allume-t-on un portail du Nether ?"
-    answers:
-      A: "Une torche"
-      B: "Un seau de lave"
-      C: "Une boule de feu"
-      D: "Un briquet"
-    correctAnswer: D
     difficulty: EASY
-    translations:
-      en:
-        text: "What item is used to light a Nether portal?"
-        answers:
-          A: "A torch"
-          B: "A bucket of lava"
-          C: "A fireball"
-          D: "A flint and steel"
-  - text: "Avec quoi transforme-t-on une armure en diamant en armure en netherite ?"
+  - text: "Quel est le seul biome où l'on peut trouver des blocs de terre stérile naturellement ?"
     answers:
-      A: "Un lingot de netherite"
-      B: "Un lingot d'or"
-      C: "Une pépite de netherite"
-      D: "Un bloc de diamant"
+      A: "Mesa"
+      B: "Savane"
+      C: "Jungle"
+      D: "Marais"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "What is used to turn diamond armor into netherite armor?"
+        text: "What is the only biome where you can find barren dirt blocks naturally?"
         answers:
-          A: "A netherite ingot"
-          B: "A gold ingot"
-          C: "A netherite nugget"
-          D: "A diamond block"
-  - text: "Que deviennent les objets en netherite qui tombent dans la lave ?"
-    answers:
-      A: "Ils explosent"
-      B: "Ils fondent"
-      C: "Ils flottent sans brûler"
-      D: "Ils brûlent"
-    correctAnswer: C
+          A: "Mesa"
+          B: "Savanna"
+          C: "Jungle"
+          D: "Swamp"
     difficulty: HARD
-    translations:
-      en:
-        text: "What happens to netherite items that fall into lava?"
-        answers:
-          A: "They explode"
-          B: "They melt"
-          C: "They float without burning"
-          D: "They burn"
-  - text: "Quel mob hostile explose en s'approchant du joueur ?"
+  - text: "Quel est le seul mob qui peut être équipé d'une armure en diamant ?"
     answers:
-      A: "Le zombie"
-      B: "Le squelette"
-      C: "Le creeper"
-      D: "L'enderman"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which hostile mob explodes when it approaches the player?"
-        answers:
-          A: "The zombie"
-          B: "The skeleton"
-          C: "The creeper"
-          D: "The enderman"
-  - text: "Quel bruit annonce l'explosion imminente d'un creeper ?"
-    answers:
-      A: "Un rire"
-      B: "Un grognement"
-      C: "Un cliquetis d'os"
-      D: "Un sifflement"
+      A: "Piglin"
+      B: "Squelette"
+      C: "Zombie-villageois"
+      D: "Zombie"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "What sound announces a creeper's imminent explosion?"
+        text: "What is the only mob that can be equipped with diamond armor?"
         answers:
-          A: "A laugh"
-          B: "A grunt"
-          C: "A rattle of bones"
-          D: "A hiss"
-  - text: "Quel mob hostile attaque le joueur à distance avec un arc ?"
-    answers:
-      A: "Le zombie"
-      B: "La sorcière"
-      C: "Le squelette"
-      D: "Le slime"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which hostile mob attacks the player from a distance with a bow?"
-        answers:
-          A: "The zombie"
-          B: "The witch"
-          C: "The skeleton"
-          D: "The slime"
-  - text: "Que devient un zombie qui reste longtemps immergé dans l'eau ?"
-    answers:
-      A: "Un squelette"
-      B: "Un noyé"
-      C: "Un villageois"
-      D: "Un creeper"
-    correctAnswer: B
+          A: "Piglin"
+          B: "Skeleton"
+          C: "Zombie villager"
+          D: "Zombie"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "What does a zombie become after being submerged in water for a long time?"
-        answers:
-          A: "A skeleton"
-          B: "A drowned"
-          C: "A villager"
-          D: "A creeper"
-  - text: "Quel mob devient agressif lorsque le joueur le regarde dans les yeux ?"
-    answers:
-      A: "L'enderman"
-      B: "Le zombie"
-      C: "Le creeper"
-      D: "La sorcière"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which mob becomes aggressive when the player looks it in the eyes?"
-        answers:
-          A: "The enderman"
-          B: "The zombie"
-          C: "The creeper"
-          D: "The witch"
-  - text: "Quel mob hostile est capable de grimper aux murs ?"
-    answers:
-      A: "Le squelette"
-      B: "Le slime"
-      C: "Le zombie"
-      D: "L'araignée"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which hostile mob is able to climb walls?"
-        answers:
-          A: "The skeleton"
-          B: "The slime"
-          C: "The zombie"
-          D: "The spider"
-  - text: "Quel mob hostile lance des potions sur le joueur ?"
-    answers:
-      A: "Le gardien"
-      B: "Le slime"
-      C: "L'enderman"
-      D: "La sorcière"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which hostile mob throws potions at the player?"
-        answers:
-          A: "The guardian"
-          B: "The slime"
-          C: "The enderman"
-          D: "The witch"
-  - text: "Quel mob rebondit et se divise en plusieurs petits lorsqu'on le tue ?"
-    answers:
-      A: "Le creeper"
-      B: "Le slime"
-      C: "Le zombie"
-      D: "L'araignée"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which mob bounces and splits into several small ones when killed?"
-        answers:
-          A: "The creeper"
-          B: "The slime"
-          C: "The zombie"
-          D: "The spider"
-  - text: "Quel mob passif fournit du cuir lorsqu'on le tue ?"
-    answers:
-      A: "Le mouton"
-      B: "Le poulet"
-      C: "La vache"
-      D: "Le cochon"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which passive mob provides leather when killed?"
-        answers:
-          A: "The sheep"
-          B: "The chicken"
-          C: "The cow"
-          D: "The pig"
-  - text: "Quel liquide obtient-on en trayant une vache avec un seau ?"
-    answers:
-      A: "De la crème"
-      B: "Du lait"
-      C: "Du beurre"
-      D: "De l'eau"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "What liquid do you get by milking a cow with a bucket?"
-        answers:
-          A: "Cream"
-          B: "Milk"
-          C: "Butter"
-          D: "Water"
-  - text: "Avec quel objet apprivoise-t-on un loup ?"
-    answers:
-      A: "Une pomme"
-      B: "Un os"
-      C: "Du blé"
-      D: "Un poisson"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "With which item do you tame a wolf?"
-        answers:
-          A: "An apple"
-          B: "A bone"
-          C: "Wheat"
-          D: "A fish"
-  - text: "Avec quel objet apprivoise-t-on un chat ?"
-    answers:
-      A: "Un os"
-      B: "Du blé"
-      C: "Une carotte"
-      D: "Du poisson cru"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "With which item do you tame a cat?"
-        answers:
-          A: "A bone"
-          B: "Wheat"
-          C: "A carrot"
-          D: "Raw fish"
-  - text: "Quel mob passif suit le joueur qui tient des graines de blé ?"
-    answers:
-      A: "Le poulet"
-      B: "La vache"
-      C: "Le mouton"
-      D: "Le cochon"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which passive mob follows the player holding wheat seeds?"
-        answers:
-          A: "The chicken"
-          B: "The cow"
-          C: "The sheep"
-          D: "The pig"
-  - text: "Quel mob peut être dirigé avec une carotte sur un bâton ?"
-    answers:
-      A: "Le poulet"
-      B: "La vache"
-      C: "Le cochon"
-      D: "Le mouton"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which mob can be steered with a carrot on a stick?"
-        answers:
-          A: "The chicken"
-          B: "The cow"
-          C: "The pig"
-          D: "The sheep"
-  - text: "Contre quelle monnaie les villageois échangent-ils leurs marchandises ?"
-    answers:
-      A: "Des diamants"
-      B: "Des pièces d'or"
-      C: "Des rubis"
-      D: "Des émeraudes"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "What currency do villagers trade their goods for?"
-        answers:
-          A: "Diamonds"
-          B: "Gold coins"
-          C: "Rubies"
-          D: "Emeralds"
-  - text: "Quel animal apprivoisé fait fuir les creepers ?"
+  - text: "Quel est le seul mob qui peut être apprivoisé avec des pommes de terre empoisonnées ?"
     answers:
       A: "Le loup"
-      B: "Le cheval"
-      C: "Le chat"
-      D: "Le perroquet"
-    correctAnswer: C
-    difficulty: MEDIUM
+      B: "Aucun mob"
+      C: "Le perroquet"
+      D: "Le chat"
+    correctAnswer: B
     translations:
       en:
-        text: "Which tamed animal scares away creepers?"
+        text: "What is the only mob that can be tamed with poisonous potatoes?"
         answers:
           A: "The wolf"
-          B: "The horse"
-          C: "The cat"
-          D: "The parrot"
-  - text: "Que récupère-t-on en tondant un mouton ?"
+          B: "No mob"
+          C: "The parrot"
+          D: "The cat"
+    difficulty: EXPERT
+  - text: "Combien de blocs de hauteur maximale un cactus peut-il atteindre sans support supplémentaire ?"
     answers:
-      A: "Du cuir"
-      B: "De la laine"
-      C: "Des plumes"
-      D: "Du fil"
-    correctAnswer: B
-    difficulty: EASY
+      A: "2"
+      B: "4"
+      C: "3"
+      D: "5"
+    correctAnswer: C
     translations:
       en:
-        text: "What do you get by shearing a sheep?"
+        text: "How many blocks of maximum height can a cactus reach without additional support?"
         answers:
-          A: "Leather"
-          B: "Wool"
-          C: "Feathers"
-          D: "String"
-  - text: "Quel biome est couvert de sable et de cactus ?"
+          A: "2"
+          B: "4"
+          C: "3"
+          D: "5"
+    difficulty: MEDIUM
+  - text: "Quel mob peut être apprivoisé avec des pommes de terre empoisonnées ?"
     answers:
-      A: "La jungle"
-      B: "La savane"
-      C: "La taïga"
-      D: "Le désert"
+      A: "Loup"
+      B: "Ocelot"
+      C: "Cheval"
+      D: "Aucun"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "Which biome is covered with sand and cacti?"
+        text: "Which mob can be tamed with poisonous potatoes?"
         answers:
-          A: "The jungle"
-          B: "The savanna"
-          C: "The taiga"
-          D: "The desert"
-  - text: "Dans quel biome poussent de grands arbres couverts de vignes ?"
+          A: "Wolf"
+          B: "Ocelot"
+          C: "Horse"
+          D: "None"
+    difficulty: EXPERT
+  - text: "Combien de temps met un bloc de fer à fondre dans un four ?"
+    answers:
+      A: "30 secondes"
+      B: "15 secondes"
+      C: "20 secondes"
+      D: "10 secondes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How long does a block of iron take to smelt in a furnace?"
+        answers:
+          A: "30 seconds"
+          B: "15 seconds"
+          C: "20 seconds"
+          D: "10 seconds"
+    difficulty: EXPERT
+  - text: "Quel est le seul biome où l'on trouve naturellement des cactus ?"
+    answers:
+      A: "Savane"
+      B: "Désert"
+      C: "Badlands"
+      D: "Jungle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the only biome where cacti are found naturally?"
+        answers:
+          A: "Savanna"
+          B: "Desert"
+          C: "Badlands"
+          D: "Jungle"
+    difficulty: MEDIUM
+  - text: "Quel est le seul aliment consommable même avec la barre de faim pleine ?"
+    answers:
+      A: "Pomme dorée"
+      B: "Aucun"
+      C: "Chorus"
+      D: "Gâteau"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the only food that can be eaten even with a full hunger bar?"
+        answers:
+          A: "Golden apple"
+          B: "None"
+          C: "Chorus"
+          D: "Cake"
+    difficulty: HARD
+  - text: "Quel mob peut être équipé d'une armure en diamant ?"
+    answers:
+      A: "Villageois"
+      B: "Squelette"
+      C: "Zombie"
+      D: "Zombie-villageois"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which mob can be equipped with diamond armor?"
+        answers:
+          A: "Villager"
+          B: "Skeleton"
+          C: "Zombie"
+          D: "Zombie villager"
+    difficulty: MEDIUM
+  - text: "Quel outil peut être enchanté avec Fortune ?"
+    answers:
+      A: "Pioche"
+      B: "Tous"
+      C: "Pelle"
+      D: "Hache"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which tool can be enchanted with Fortune?"
+        answers:
+          A: "Pickaxe"
+          B: "All"
+          C: "Shovel"
+          D: "Axe"
+    difficulty: MEDIUM
+  - text: "Quel mob peut être apprivoisé avec des biscuits ?"
+    answers:
+      A: "Perroquet"
+      B: "Ocelot"
+      C: "Chien"
+      D: "Aucun"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mob can be tamed with cookies?"
+        answers:
+          A: "Parrot"
+          B: "Ocelot"
+          C: "Dog"
+          D: "None"
+    difficulty: HARD
+  - text: "Quel est le temps de croissance d'une pousse de sapin plantée sur de la terre ?"
+    answers:
+      A: "1 jour"
+      B: "1 à 2 jours"
+      C: "3 jours"
+      D: "Aléatoire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the growth time of a spruce sapling planted on dirt?"
+        answers:
+          A: "1 day"
+          B: "1 to 2 days"
+          C: "3 days"
+          D: "Random"
+    difficulty: HARD
+  - text: "Quel bloc ne peut pas être déplacé par un piston ?"
+    answers:
+      A: "Obsidienne"
+      B: "Béton"
+      C: "Terre cuite"
+      D: "Pierre moussue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which block cannot be moved by a piston?"
+        answers:
+          A: "Obsidian"
+          B: "Concrete"
+          C: "Terracotta"
+          D: "Mossy stone"
+    difficulty: HARD
+  - text: "Combien de temps met une culture de blé à mûrir sans accélérateur de croissance ?"
+    answers:
+      A: "10 minutes"
+      B: "Variable"
+      C: "30 minutes"
+      D: "20 minutes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long does a wheat crop take to mature without a growth accelerator?"
+        answers:
+          A: "10 minutes"
+          B: "Variable"
+          C: "30 minutes"
+          D: "20 minutes"
+    difficulty: HARD
+  - text: "Combien de blocs de distance de chute faut-il pour qu'un œuf de poule donne naissance à un poussin sans dégâts ?"
+    answers:
+      A: "1 bloc"
+      B: "3 blocs"
+      C: "2 blocs"
+      D: "4 blocs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many blocks of fall distance are needed for a chicken egg to hatch a chick without damage?"
+        answers:
+          A: "1 block"
+          B: "3 blocks"
+          C: "2 blocks"
+          D: "4 blocks"
+    difficulty: EXPERT
+  - text: "Quel est le seul mob passif qui peut être nourri avec des graines de melon pour se reproduire ?"
+    answers:
+      A: "Le lapin"
+      B: "Le perroquet"
+      C: "Le poulet"
+      D: "Le cochon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only passive mob that can be fed melon seeds to breed?"
+        answers:
+          A: "Rabbit"
+          B: "Parrot"
+          C: "Chicken"
+          D: "Pig"
+    difficulty: HARD
+  - text: "Quel enchantement réduit la vitesse de déplacement du joueur lorsqu'il est appliqué sur des bottes ?"
+    answers:
+      A: "Agilité aquatique"
+      B: "Protection contre les explosions"
+      C: "Fouissement"
+      D: "Épines"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which enchantment reduces the player's movement speed when applied to boots?"
+        answers:
+          A: "Depth Strider"
+          B: "Blast Protection"
+          C: "Burrowing"
+          D: "Thorns"
+    difficulty: EXPERT
+  - text: "Quel est le seul colorant qui peut être obtenu en cuisant un cactus dans un four ?"
+    answers:
+      A: "Vert"
+      B: "Jaune"
+      C: "Rouge"
+      D: "Bleu"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which is the only dye that can be obtained by cooking a cactus in a furnace?"
+        answers:
+          A: "Green"
+          B: "Yellow"
+          C: "Red"
+          D: "Blue"
+    difficulty: HARD
+  - text: "Combien de temps (en secondes) faut-il pour qu'un bloc de sable tombe après avoir été placé sans support ?"
+    answers:
+      A: "0,5 seconde"
+      B: "1 seconde"
+      C: "Immédiatement"
+      D: "1,5 seconde"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How long (in seconds) does it take for a sand block to fall after being placed without support?"
+        answers:
+          A: "0.5 seconds"
+          B: "1 second"
+          C: "Immediately"
+          D: "1.5 seconds"
+    difficulty: EXPERT
+  - text: "Quel est le seul aliment qui, lorsqu'il est consommé, restaure également de la saturation ?"
+    answers:
+      A: "La pomme dorée"
+      B: "Le pain"
+      C: "Le steak"
+      D: "La carotte dorée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which is the only food that also restores saturation when consumed?"
+        answers:
+          A: "Golden apple"
+          B: "Bread"
+          C: "Steak"
+          D: "Golden carrot"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de luminosité maximal émis par une torche de redstone ?"
+    answers:
+      A: "15"
+      B: "8"
+      C: "7"
+      D: "0"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the maximum light level emitted by a redstone torch?"
+        answers:
+          A: "15"
+          B: "8"
+          C: "7"
+          D: "0"
+    difficulty: MEDIUM
+  - text: "Quel mob ne peut pas être attiré par une carotte sur un bâton ?"
+    answers:
+      A: "Le cochon"
+      B: "Le lama"
+      C: "L'âne"
+      D: "Le cheval"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mob cannot be attracted by a carrot on a stick?"
+        answers:
+          A: "Pig"
+          B: "Llama"
+          C: "Donkey"
+          D: "Horse"
+    difficulty: HARD
+  - text: "Combien de flèches un carquois (ou son équivalent) peut-il contenir au maximum ?"
+    answers:
+      A: "5 piles de 64"
+      B: "3 piles de 64"
+      C: "1 pile de 64"
+      D: "Illimité"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many arrows can a quiver (or its equivalent) hold at most?"
+        answers:
+          A: "5 stacks of 64"
+          B: "3 stacks of 64"
+          C: "1 stack of 64"
+          D: "Unlimited"
+    difficulty: EXPERT
+  - text: "Quel bloc est nécessaire pour créer un rayon de souffle avec un piston collant ?"
+    answers:
+      A: "Bloc de slime"
+      B: "Bloc de miel"
+      C: "Bloc de laine"
+      D: "Bloc de terre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which block is needed to create a blast radius with a sticky piston?"
+        answers:
+          A: "Slime block"
+          B: "Honey block"
+          C: "Wool block"
+          D: "Dirt block"
+    difficulty: EXPERT
+  - text: "Combien de blocs de hauteur un cactus peut-il atteindre naturellement sans support supplémentaire ?"
+    answers:
+      A: "3"
+      B: "2"
+      C: "1"
+      D: "4"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many blocks tall can a cactus reach naturally without additional support?"
+        answers:
+          A: "3"
+          B: "2"
+          C: "1"
+          D: "4"
+    difficulty: HARD
+  - text: "Quel est le temps de combustion d'un bloc de charbon dans un four (en secondes) ?"
+    answers:
+      A: "80"
+      B: "640"
+      C: "320"
+      D: "160"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the burn time of a coal block in a furnace (in seconds)?"
+        answers:
+          A: "80"
+          B: "640"
+          C: "320"
+          D: "160"
+    difficulty: EXPERT
+  - text: "Quel est le seul mob passif qui peut être équipé d'une armure en diamant ?"
+    answers:
+      A: "Le cheval"
+      B: "Le villageois"
+      C: "Le loup"
+      D: "Le lama"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which is the only passive mob that can be equipped with diamond armor?"
+        answers:
+          A: "The horse"
+          B: "The villager"
+          C: "The wolf"
+          D: "The llama"
+    difficulty: EXPERT
+  - text: "Combien de temps (en secondes) met une culture de blé à mûrir sans accélérateur de croissance ?"
+    answers:
+      A: "20 minutes"
+      B: "15 minutes"
+      C: "5 minutes"
+      D: "10 minutes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How long (in seconds) does a wheat crop take to mature without a growth accelerator?"
+        answers:
+          A: "20 minutes"
+          B: "15 minutes"
+          C: "5 minutes"
+          D: "10 minutes"
+    difficulty: HARD
+  - text: "Quel est le seul biome où l'on peut trouver naturellement des blocs de terre stérile ?"
+    answers:
+      A: "Mesa"
+      B: "Désert"
+      C: "Savane"
+      D: "Jungle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which is the only biome where you can naturally find barren dirt blocks?"
+        answers:
+          A: "Mesa"
+          B: "Desert"
+          C: "Savanna"
+          D: "Jungle"
+    difficulty: EXPERT
+  - text: "Quel est le seul biome où les lapins peuvent apparaître avec la couleur 'pinto' ?"
+    answers:
+      A: "Désert"
+      B: "Forêt"
+      C: "Toundra enneigée"
+      D: "Savane"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which is the only biome where rabbits can spawn with the 'pinto' color?"
+        answers:
+          A: "Desert"
+          B: "Forest"
+          C: "Snowy tundra"
+          D: "Savanna"
+    difficulty: EXPERT
+  - text: "Combien de temps met une culture de blé à mûrir sans accélérateur de croissance (en minutes) ?"
+    answers:
+      A: "10 à 20 minutes"
+      B: "5 à 10 minutes"
+      C: "20 à 30 minutes"
+      D: "30 à 40 minutes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How long does a wheat crop take to mature without a growth accelerator (in minutes)?"
+        answers:
+          A: "10 to 20 minutes"
+          B: "5 to 10 minutes"
+          C: "20 to 30 minutes"
+          D: "30 to 40 minutes"
+    difficulty: HARD
+  - text: "Quel est le niveau de puissance de l'enchantement 'Tranchant' maximal ?"
+    answers:
+      A: "V"
+      B: "IV"
+      C: "III"
+      D: "II"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the maximum power level of the 'Sharpness' enchantment?"
+        answers:
+          A: "V"
+          B: "IV"
+          C: "III"
+          D: "II"
+    difficulty: MEDIUM
+  - text: "Combien de blocs de haut un conduit (bloc de conduit) peut-il affecter ?"
+    answers:
+      A: "32"
+      B: "64"
+      C: "128"
+      D: "96"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many blocks tall can a conduit affect?"
+        answers:
+          A: "32"
+          B: "64"
+          C: "128"
+          D: "96"
+    difficulty: EXPERT
+  - text: "Quel est le temps de recharge de l'attaque après avoir mangé une pomme dorée enchantée ?"
+    answers:
+      A: "0.8 seconde"
+      B: "1.2 secondes"
+      C: "2.0 secondes"
+      D: "1.6 secondes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the attack cooldown after eating an enchanted golden apple?"
+        answers:
+          A: "0.8 seconds"
+          B: "1.2 seconds"
+          C: "2.0 seconds"
+          D: "1.6 seconds"
+    difficulty: EXPERT
+  - text: "Combien de blocs de hauteur maximale un cactus peut-il atteindre s'il est planté sur du sable ?"
+    answers:
+      A: "2"
+      B: "4"
+      C: "3"
+      D: "5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many blocks tall can a cactus reach at maximum if planted on sand?"
+        answers:
+          A: "2"
+          B: "4"
+          C: "3"
+          D: "5"
+    difficulty: HARD
+  - text: "Quel est le niveau de luminosite minimal pour que les araignees deviennent hostiles ?"
+    answers:
+      A: "7"
+      B: "0"
+      C: "8"
+      D: "12"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the minimum light level for spiders to become hostile?"
+        answers:
+          A: "7"
+          B: "0"
+          C: "8"
+          D: "12"
+    difficulty: HARD
+  - text: "Combien de blocs de terre stérile trouve-t-on naturellement dans un biome 'badlands' ?"
+    answers:
+      A: "Aucun"
+      B: "En abondance"
+      C: "Quelques-uns"
+      D: "Uniquement sous terre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many barren dirt blocks are naturally found in a 'badlands' biome?"
+        answers:
+          A: "None"
+          B: "In abundance"
+          C: "A few"
+          D: "Only underground"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de puissance maximal de l'enchantement Efficacité ?"
+    answers:
+      A: "III"
+      B: "V"
+      C: "IV"
+      D: "VI"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the maximum power level of the Efficiency enchantment?"
+        answers:
+          A: "III"
+          B: "V"
+          C: "IV"
+          D: "VI"
+    difficulty: MEDIUM
+  - text: "Combien de blocs de distance faut-il pour qu'un œuf de poule donne un poussin ?"
+    answers:
+      A: "1 bloc"
+      B: "3 blocs"
+      C: "2 blocs"
+      D: "4 blocs"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many blocks of distance are needed for a chicken egg to hatch into a chick?"
+        answers:
+          A: "1 block"
+          B: "3 blocks"
+          C: "2 blocks"
+          D: "4 blocks"
+    difficulty: EXPERT
+  - text: "Quel enchantement permet de marcher sur l'eau en gelant la surface ?"
+    answers:
+      A: "Semelles givrantes"
+      B: "Profondeur"
+      C: "Aqua Affinity"
+      D: "Respiration"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which enchantment lets you walk on water by freezing the surface?"
+        answers:
+          A: "Frost Walker"
+          B: "Depth Strider"
+          C: "Aqua Affinity"
+          D: "Respiration"
+    difficulty: HARD
+  - text: "Quel est le seul mob passif pouvant être équipé d'une armure en diamant ?"
+    answers:
+      A: "Le loup"
+      B: "Le villageois"
+      C: "Le cheval"
+      D: "Le golem de fer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which is the only passive mob that can be equipped with diamond armor?"
+        answers:
+          A: "The wolf"
+          B: "The villager"
+          C: "The horse"
+          D: "The iron golem"
+    difficulty: EXPERT
+  - text: "Quel est le seul biome où l'on trouve naturellement des blocs de terre stérile ?"
     answers:
       A: "Le désert"
-      B: "La jungle"
-      C: "La savane"
-      D: "La taïga"
-    correctAnswer: B
-    difficulty: EASY
+      B: "La savane"
+      C: "La taïga"
+      D: "Le badlands"
+    correctAnswer: D
     translations:
       en:
-        text: "In which biome do tall trees covered in vines grow?"
+        text: "Which is the only biome where coarse dirt blocks are found naturally?"
         answers:
           A: "The desert"
-          B: "The jungle"
-          C: "The savanna"
-          D: "The taiga"
-  - text: "Quel biome froid est dominé par les sapins et la neige ?"
-    answers:
-      A: "La savane"
-      B: "La taïga"
-      C: "Le marais"
-      D: "La jungle"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which cold biome is dominated by fir trees and snow?"
-        answers:
-          A: "The savanna"
-          B: "The taiga"
-          C: "The swamp"
-          D: "The jungle"
-  - text: "Dans quel biome trouve-t-on naturellement des acacias ?"
-    answers:
-      A: "La jungle"
-      B: "La taïga"
-      C: "La savane"
-      D: "Le désert"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "In which biome are acacia trees found naturally?"
-        answers:
-          A: "The jungle"
-          B: "The taiga"
-          C: "The savanna"
-          D: "The desert"
-  - text: "Quel biome est entièrement recouvert d'eau ?"
-    answers:
-      A: "Le marais"
-      B: "L'océan"
-      C: "La taïga"
-      D: "La savane"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which biome is entirely covered in water?"
-        answers:
-          A: "The swamp"
-          B: "The ocean"
+          B: "The savanna"
           C: "The taiga"
-          D: "The savanna"
-  - text: "Quel arbre donne naturellement des pommes ?"
-    answers:
-      A: "Le bouleau"
-      B: "Le chêne"
-      C: "Le sapin"
-      D: "L'acacia"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which tree naturally produces apples?"
-        answers:
-          A: "The birch"
-          B: "The oak"
-          C: "The fir"
-          D: "The acacia"
-  - text: "Sur quel bloc faut-il planter des graines de blé pour qu'elles poussent ?"
-    answers:
-      A: "De la terre labourée"
-      B: "Du sable"
-      C: "De l'herbe"
-      D: "De la pierre"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "On which block must wheat seeds be planted for them to grow?"
-        answers:
-          A: "Tilled soil"
-          B: "Sand"
-          C: "Grass"
-          D: "Stone"
-  - text: "Quel objet accélère la croissance des cultures ?"
-    answers:
-      A: "De la cendre"
-      B: "Du sel"
-      C: "De la poudre d'os"
-      D: "Du charbon"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which item speeds up crop growth?"
-        answers:
-          A: "Ash"
-          B: "Salt"
-          C: "Bone meal"
-          D: "Coal"
-  - text: "Sur quel type de tronc poussent naturellement les cabosses de cacao ?"
-    answers:
-      A: "L'arbre de la jungle"
-      B: "Le bouleau"
-      C: "Le chêne"
-      D: "L'acacia"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "On which type of trunk do cocoa pods grow naturally?"
-        answers:
-          A: "The jungle tree"
-          B: "The birch"
-          C: "The oak"
-          D: "The acacia"
-  - text: "Quel outil est le plus efficace pour creuser de la terre ?"
-    answers:
-      A: "La pioche"
-      B: "L'épée"
-      C: "La hache"
-      D: "La pelle"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which tool is the most effective for digging dirt?"
-        answers:
-          A: "The pickaxe"
-          B: "The sword"
-          C: "The axe"
-          D: "The shovel"
-  - text: "Quel outil coupe le bois le plus rapidement ?"
-    answers:
-      A: "La pioche"
-      B: "La hache"
-      C: "L'épée"
-      D: "La pelle"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which tool cuts wood the fastest?"
-        answers:
-          A: "The pickaxe"
-          B: "The axe"
-          C: "The sword"
-          D: "The shovel"
-  - text: "Dans quel mode de jeu le joueur peut-il voler et est-il invincible ?"
-    answers:
-      A: "La survie"
-      B: "L'aventure"
-      C: "Le créatif"
-      D: "Le hardcore"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "In which game mode can the player fly and is invincible?"
-        answers:
-          A: "Survival"
-          B: "Adventure"
-          C: "Creative"
-          D: "Hardcore"
-  - text: "Dans quel mode de jeu le joueur ne dispose que d'une seule vie ?"
-    answers:
-      A: "L'aventure"
-      B: "La survie"
-      C: "Le créatif"
-      D: "Le hardcore"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "In which game mode does the player have only one life?"
-        answers:
-          A: "Adventure"
-          B: "Survival"
-          C: "Creative"
-          D: "Hardcore"
-  - text: "Dans quel mode de jeu est-il impossible de casser des blocs ?"
-    answers:
-      A: "La survie"
-      B: "Le créatif"
-      C: "Le hardcore"
-      D: "L'aventure"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "In which game mode is it impossible to break blocks?"
-        answers:
-          A: "Survival"
-          B: "Creative"
-          C: "Hardcore"
-          D: "Adventure"
-  - text: "Combien de cœurs de vie un joueur possède-t-il au départ en mode survie ?"
-    answers:
-      A: "5"
-      B: "10"
-      C: "15"
-      D: "20"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "How many hearts of health does a player start with in Survival mode?"
-        answers:
-          A: "5"
-          B: "10"
-          C: "15"
-          D: "20"
-  - text: "Que se passe-t-il lorsque la barre de faim du joueur est vide ?"
-    answers:
-      A: "Il ne peut plus courir"
-      B: "Il perd de la vie"
-      C: "Il devient aveugle"
-      D: "Il perd de l'expérience"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What happens when the player's hunger bar is empty?"
-        answers:
-          A: "They can no longer run"
-          B: "They lose health"
-          C: "They go blind"
-          D: "They lose experience"
-  - text: "Combien de blocs peut-on chuter sans subir de dégâts ?"
-    answers:
-      A: "1"
-      B: "2"
-      C: "3"
-      D: "4"
-    correctAnswer: C
+          D: "The badlands"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "How many blocks can you fall without taking damage?"
-        answers:
-          A: "1"
-          B: "2"
-          C: "3"
-          D: "4"
-  - text: "Quel effet la consommation de poulet cru peut-elle provoquer ?"
+  - text: "Combien de flèches un carquois peut-il contenir au maximum ?"
     answers:
-      A: "La cécité"
-      B: "La faim"
-      C: "La vitesse"
-      D: "La régénération"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "What effect can eating raw chicken cause?"
-        answers:
-          A: "Blindness"
-          B: "Hunger"
-          C: "Speed"
-          D: "Regeneration"
-  - text: "Pendant quelle période les monstres apparaissent-ils le plus souvent en surface ?"
-    answers:
-      A: "La nuit"
-      B: "À midi"
-      C: "Le jour"
-      D: "Pendant la pluie"
+      A: "192"
+      B: "128"
+      C: "64"
+      D: "256"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "During which period do monsters most often appear on the surface?"
+        text: "What is the maximum number of arrows a quiver can hold?"
         answers:
-          A: "Night"
-          B: "Noon"
-          C: "Day"
-          D: "During rain"
-  - text: "Combien de minutes réelles dure un cycle jour/nuit complet ?"
+          A: "192"
+          B: "128"
+          C: "64"
+          D: "256"
+    difficulty: EXPERT
+  - text: "Quel est le seul aliment qui, consommé, restaure également de la saturation ?"
     answers:
-      A: "10"
+      A: "La pomme dorée"
+      B: "Le pain"
+      C: "Le steak"
+      D: "La carotte dorée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which is the only food that, when eaten, also restores saturation?"
+        answers:
+          A: "The golden apple"
+          B: "Bread"
+          C: "Steak"
+          D: "The golden carrot"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de puissance de l'enchantement Tranchant maximal ?"
+    answers:
+      A: "V"
+      B: "IV"
+      C: "III"
+      D: "VI"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the maximum power level of the Sharpness enchantment?"
+        answers:
+          A: "V"
+          B: "IV"
+          C: "III"
+          D: "VI"
+    difficulty: MEDIUM
+  - text: "Combien de blocs de haut un conduit peut-il affecter ?"
+    answers:
+      A: "16"
+      B: "32"
+      C: "64"
+      D: "42"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many blocks high can a conduit affect?"
+        answers:
+          A: "16"
+          B: "32"
+          C: "64"
+          D: "42"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de luminosité minimal pour que les araignées deviennent hostiles ?"
+    answers:
+      A: "11"
+      B: "9"
+      C: "8"
+      D: "10"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the minimum light level for spiders to become hostile?"
+        answers:
+          A: "11"
+          B: "9"
+          C: "8"
+          D: "10"
+    difficulty: HARD
+  - text: "Combien de temps (en secondes) un bloc de charbon brûle-t-il dans un four ?"
+    answers:
+      A: "100"
       B: "60"
-      C: "30"
-      D: "20"
-    correctAnswer: D
-    difficulty: EXPERT
+      C: "80"
+      D: "120"
+    correctAnswer: C
     translations:
       en:
-        text: "How many real minutes does a full day/night cycle last?"
+        text: "How long (in seconds) does a block of coal burn in a furnace?"
         answers:
-          A: "10"
+          A: "100"
           B: "60"
-          C: "30"
-          D: "20"
-  - text: "Quel objet permet de dormir pour passer la nuit ?"
+          C: "80"
+          D: "120"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de puissance maximal de l'enchantement 'Efficacité' ?"
     answers:
-      A: "Un lit"
-      B: "Une tente"
-      C: "Un hamac"
-      D: "Une chaise"
+      A: "IV (4)"
+      B: "VI (6)"
+      C: "III (3)"
+      D: "V (5)"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum power level of the 'Efficiency' enchantment?"
+        answers:
+          A: "IV (4)"
+          B: "VI (6)"
+          C: "III (3)"
+          D: "V (5)"
+    difficulty: MEDIUM
+  - text: "Combien de blocs de haut un conduit activé peut-il affecter ?"
+    answers:
+      A: "96 blocs"
+      B: "64 blocs"
+      C: "32 blocs"
+      D: "128 blocs"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "Which item lets you sleep to skip the night?"
+        text: "How many blocks high can an activated conduit affect?"
         answers:
-          A: "A bed"
-          B: "A tent"
-          C: "A hammock"
-          D: "A chair"
-  - text: "Quel objet permet d'allumer un portail du Nether ?"
+          A: "96 blocks"
+          B: "64 blocks"
+          C: "32 blocks"
+          D: "128 blocks"
+    difficulty: EXPERT
+  - text: "Quel est le seul colorant obtenu en cuisant un cactus dans un four ?"
     answers:
-      A: "Une torche"
-      B: "Un briquet"
-      C: "De la poudre à canon"
-      D: "Une loupe"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which item lets you light a Nether portal?"
-        answers:
-          A: "A torch"
-          B: "A flint and steel"
-          C: "Gunpowder"
-          D: "A magnifying glass"
-  - text: "Quel bloc se forme lorsque de l'eau coule sur une source de lave ?"
-    answers:
-      A: "Le basalte"
-      B: "L'obsidienne"
-      C: "Le gravier"
-      D: "La pierre"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which block forms when water flows onto a lava source?"
-        answers:
-          A: "Basalt"
-          B: "Obsidian"
-          C: "Gravel"
-          D: "Stone"
-  - text: "Quel mob du Nether est un cube de magma qui saute pour attaquer ?"
-    answers:
-      A: "Le Slime"
-      B: "Le Blaze"
-      C: "Le Magma Cube"
-      D: "Le Hoglin"
+      A: "Vert lime"
+      B: "Jaune pissenlit"
+      C: "Vert cactus"
+      D: "Bleu cyan"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which Nether mob is a magma cube that jumps to attack?"
+        text: "Which is the only dye obtained by smelting a cactus in a furnace?"
         answers:
-          A: "The Slime"
-          B: "The Blaze"
-          C: "The Magma Cube"
-          D: "The Hoglin"
-  - text: "Où rencontre-t-on les Blazes dans le Nether ?"
-    answers:
-      A: "Dans les forêts écarlates"
-      B: "Dans les bastions"
-      C: "Dans les forteresses du Nether"
-      D: "Dans les cavernes de quartz"
-    correctAnswer: C
+          A: "Lime Green"
+          B: "Dandelion Yellow"
+          C: "Cactus Green"
+          D: "Cyan Blue"
     difficulty: HARD
+  - text: "Quel mob passif peut être apprivoisé avec des biscuits ?"
+    answers:
+      A: "Loup"
+      B: "Perroquet"
+      C: "Ocelot"
+      D: "Chat"
+    correctAnswer: B
     translations:
       en:
-        text: "Where do you encounter Blazes in the Nether?"
+        text: "Which passive mob can be tamed with cookies?"
         answers:
-          A: "In crimson forests"
-          B: "In bastions"
-          C: "In Nether fortresses"
-          D: "In quartz caverns"
-  - text: "Que laisse tomber un Blaze lorsqu'il est tué ?"
+          A: "Wolf"
+          B: "Parrot"
+          C: "Ocelot"
+          D: "Cat"
+    difficulty: HARD
+  - text: "Quel effet obtient-on en mangeant une pomme dorée enchantée ?"
     answers:
-      A: "Un bâton de Blaze"
-      B: "Une poudre de Blaze"
-      C: "Une perle d'Ender"
-      D: "Une larme de Ghast"
+      A: "Force II pendant 1 minute"
+      B: "Absorption IV pendant 2 minutes"
+      C: "Résistance au feu pendant 5 minutes"
+      D: "Régénération II pendant 20 secondes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What effect do you get from eating an enchanted golden apple?"
+        answers:
+          A: "Strength II for 1 minute"
+          B: "Absorption IV for 2 minutes"
+          C: "Fire Resistance for 5 minutes"
+          D: "Regeneration II for 20 seconds"
+    difficulty: HARD
+  - text: "Quel est le niveau de puissance maximal de l'enchantement 'Résistance au feu' ?"
+    answers:
+      A: "IV"
+      B: "II"
+      C: "III"
+      D: "I"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum power level of the 'Fire Protection' enchantment?"
+        answers:
+          A: "IV"
+          B: "II"
+          C: "III"
+          D: "I"
+    difficulty: HARD
+  - text: "Combien de blocs de distance minimale faut-il pour qu'un bloc de sable tombe lorsqu'il n'a plus de support ?"
+    answers:
+      A: "3 blocs"
+      B: "2 blocs"
+      C: "1 bloc"
+      D: "4 blocs"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many blocks of minimum distance are needed for a sand block to fall when it no longer has support?"
+        answers:
+          A: "3 blocks"
+          B: "2 blocks"
+          C: "1 block"
+          D: "4 blocks"
+    difficulty: EXPERT
+  - text: "Quel enchantement permet de réparer un objet avec de l'expérience ?"
+    answers:
+      A: "Solidité"
+      B: "Récupération"
+      C: "Réparation"
+      D: "Durabilité"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which enchantment allows you to repair an item with experience?"
+        answers:
+          A: "Unbreaking"
+          B: "Mending"
+          C: "Repair"
+          D: "Durability"
+    difficulty: HARD
+  - text: "Quel est le niveau de puissance maximal de l'enchantement 'Chute amortie' ?"
+    answers:
+      A: "III"
+      B: "II"
+      C: "V"
+      D: "IV"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the maximum power level of the 'Feather Falling' enchantment?"
+        answers:
+          A: "III"
+          B: "II"
+          C: "V"
+          D: "IV"
+    difficulty: MEDIUM
+  - text: "Combien de temps (en secondes) met une culture de carotte à mûrir sans accélérateur de croissance ?"
+    answers:
+      A: "20 minutes"
+      B: "40 minutes"
+      C: "80 minutes"
+      D: "60 minutes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How long (in seconds) does a carrot crop take to mature without a growth accelerator?"
+        answers:
+          A: "20 minutes"
+          B: "40 minutes"
+          C: "80 minutes"
+          D: "60 minutes"
+    difficulty: HARD
+  - text: "Quel bloc émet un niveau de lumière de 15 ?"
+    answers:
+      A: "Pierre lumineuse"
+      B: "Torche"
+      C: "Lanterne"
+      D: "Four allumé"
     correctAnswer: A
+    translations:
+      en:
+        text: "Which block emits a light level of 15?"
+        answers:
+          A: "Glowstone"
+          B: "Torch"
+          C: "Lantern"
+          D: "Lit Furnace"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "What does a Blaze drop when killed?"
-        answers:
-          A: "A Blaze rod"
-          B: "Blaze powder"
-          C: "An Ender pearl"
-          D: "A Ghast tear"
-  - text: "Quels objets faut-il assembler pour fabriquer un œil d'Ender ?"
+  - text: "Quel mob peut être apprivoisé avec des pommes ?"
     answers:
-      A: "Une perle d'Ender et une larme de Ghast"
-      B: "Une perle d'Ender et du quartz du Nether"
-      C: "Une perle d'Ender et une poudre de Blaze"
-      D: "Une perle d'Ender et de la redstone"
-    correctAnswer: C
-    difficulty: HARD
+      A: "Cheval"
+      B: "Loup"
+      C: "Ocelot"
+      D: "Perroquet"
+    correctAnswer: A
     translations:
       en:
-        text: "Which items must be combined to craft an Eye of Ender?"
+        text: "Which mob can be tamed with apples?"
         answers:
-          A: "An Ender pearl and a Ghast tear"
-          B: "An Ender pearl and Nether quartz"
-          C: "An Ender pearl and Blaze powder"
-          D: "An Ender pearl and redstone"
-  - text: "Combien d'yeux d'Ender faut-il pour activer complètement un portail de l'End ?"
+          A: "Horse"
+          B: "Wolf"
+          C: "Ocelot"
+          D: "Parrot"
+    difficulty: HARD
+  - text: "Combien de blocs de hauteur maximale un bambou peut-il atteindre ?"
     answers:
       A: "12"
-      B: "8"
-      C: "10"
+      B: "24"
+      C: "20"
       D: "16"
-    correctAnswer: A
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
-        text: "How many Eyes of Ender are needed to fully activate an End portal?"
+        text: "How many blocks of maximum height can bamboo reach?"
         answers:
           A: "12"
-          B: "8"
-          C: "10"
+          B: "24"
+          C: "20"
           D: "16"
-  - text: "Dans quel type de structure trouve-t-on la salle du portail de l'End ?"
+    difficulty: HARD
+  - text: "Combien de blocs de haut un conduit activé affecte-t-il au maximum ?"
     answers:
-      A: "Un monument océanique"
-      B: "Un temple de la jungle"
-      C: "Une forteresse"
-      D: "Une mine abandonnée"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "In which type of structure is the End portal room found?"
-        answers:
-          A: "An ocean monument"
-          B: "A jungle temple"
-          C: "A fortress"
-          D: "An abandoned mine"
-  - text: "Quel mob peuple principalement la dimension de l'End ?"
-    answers:
-      A: "Le Piglin"
-      B: "Le Shulker"
-      C: "Le Wither squelette"
-      D: "L'Enderman"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which mob mainly inhabits the End dimension?"
-        answers:
-          A: "The Piglin"
-          B: "The Shulker"
-          C: "The Wither skeleton"
-          D: "The Enderman"
-  - text: "Combien de points de vie possède l'Ender Dragon ?"
-    answers:
-      A: "200"
-      B: "150"
-      C: "250"
-      D: "100"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How many health points does the Ender Dragon have?"
-        answers:
-          A: "200"
-          B: "150"
-          C: "250"
-          D: "100"
-  - text: "Que faut-il détruire pour empêcher l'Ender Dragon de se soigner ?"
-    answers:
-      A: "Les piliers d'obsidienne"
-      B: "Les cristaux de l'End"
-      C: "Les blocs d'End stone"
-      D: "Les portails de l'End"
+      A: "64 blocs"
+      B: "32 blocs"
+      C: "16 blocs"
+      D: "96 blocs"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
-        text: "What must be destroyed to stop the Ender Dragon from healing?"
+        text: "How many blocks high does an activated conduit affect at maximum?"
         answers:
-          A: "The obsidian pillars"
-          B: "The End crystals"
-          C: "The End stone blocks"
-          D: "The End portals"
-  - text: "Quel objet l'Ender Dragon laisse-t-il après sa défaite ?"
+          A: "64 blocks"
+          B: "32 blocks"
+          C: "16 blocks"
+          D: "96 blocks"
+    difficulty: EXPERT
+  - text: "Quel est le niveau de puissance maximal de l'enchantement 'Fortune' ?"
     answers:
-      A: "Un œuf de dragon"
-      B: "Une élytre"
-      C: "Une tête de dragon"
-      D: "Une perle d'Ender"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "What item does the Ender Dragon leave behind after its defeat?"
-        answers:
-          A: "A dragon egg"
-          B: "An elytra"
-          C: "A dragon head"
-          D: "An Ender pearl"
-  - text: "Comment invoque-t-on le Wither ?"
-    answers:
-      A: "3 blocs de sable des âmes et 4 têtes de Wither squelette"
-      B: "4 blocs de terre et 3 crânes de squelette"
-      C: "4 blocs d'obsidienne et 3 têtes de Wither squelette"
-      D: "4 blocs de sable des âmes et 3 têtes de Wither squelette"
+      A: "II"
+      B: "V"
+      C: "IV"
+      D: "III"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
-        text: "How do you summon the Wither?"
+        text: "What is the maximum power level of the 'Fortune' enchantment?"
         answers:
-          A: "3 soul sand blocks and 4 wither skeleton heads"
-          B: "4 dirt blocks and 3 skeleton skulls"
-          C: "4 obsidian blocks and 3 wither skeleton heads"
-          D: "4 soul sand blocks and 3 wither skeleton heads"
-  - text: "Que laisse tomber le Wither lorsqu'il est vaincu ?"
-    answers:
-      A: "Une tête de Wither"
-      B: "Une étoile du Nether"
-      C: "Un bâton de Blaze"
-      D: "Une pomme dorée enchantée"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does the Wither drop when defeated?"
-        answers:
-          A: "A wither head"
-          B: "A Nether star"
-          C: "A blaze rod"
-          D: "An enchanted golden apple"
-  - text: "Quel objet rare faut-il pour fabriquer une balise ?"
-    answers:
-      A: "Une perle d'Ender"
-      B: "Une étoile du Nether"
-      C: "Un bloc de diamant"
-      D: "Un cœur de la mer"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "What rare item is needed to craft a beacon?"
-        answers:
-          A: "An Ender pearl"
-          B: "A Nether star"
-          C: "A diamond block"
-          D: "A heart of the sea"
-  - text: "Quel composant redstone permet de retarder un signal ?"
-    answers:
-      A: "Le répéteur"
-      B: "Le levier"
-      C: "L'observateur"
-      D: "Le piston collant"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which redstone component can delay a signal?"
-        answers:
-          A: "The repeater"
-          B: "The lever"
-          C: "The observer"
-          D: "The sticky piston"
-  - text: "Quelle est la fonction principale d'un comparateur de redstone ?"
-    answers:
-      A: "Éclairer une zone"
-      B: "Propulser les entités"
-      C: "Comparer l'intensité de deux signaux"
-      D: "Augmenter sans limite la portée d'un signal"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the main function of a redstone comparator?"
-        answers:
-          A: "Lighting up an area"
-          B: "Propelling entities"
-          C: "Comparing the strength of two signals"
-          D: "Increasing a signal's range without limit"
-  - text: "Que détecte un observateur placé dans un circuit redstone ?"
-    answers:
-      A: "Les changements d'état des blocs devant lui"
-      B: "La luminosité ambiante"
-      C: "Les sons des mobs"
-      D: "La présence de joueurs invisibles"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What does an observer placed in a redstone circuit detect?"
-        answers:
-          A: "State changes of the blocks in front of it"
-          B: "Ambient brightness"
-          C: "Mob sounds"
-          D: "The presence of invisible players"
-  - text: "Quelle particularité possède le piston collant par rapport au piston normal ?"
-    answers:
-      A: "Il peut tirer les blocs vers lui"
-      B: "Il pousse deux blocs à la fois"
-      C: "Il fonctionne sans redstone"
-      D: "Il est plus rapide"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "What special feature does the sticky piston have compared to the normal piston?"
-        answers:
-          A: "It can pull blocks toward itself"
-          B: "It pushes two blocks at once"
-          C: "It works without redstone"
-          D: "It is faster"
-  - text: "Combien de blocs un piston peut-il pousser au maximum en une fois ?"
-    answers:
-      A: "8"
-      B: "10"
-      C: "16"
-      D: "12"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How many blocks can a piston push at most at one time?"
-        answers:
-          A: "8"
-          B: "10"
-          C: "16"
-          D: "12"
-  - text: "Quel bloc faut-il installer autour d'une table d'enchantement pour accéder au niveau 30 ?"
-    answers:
-      A: "Des torches"
-      B: "Des coffres"
-      C: "Des blocs de diamant"
-      D: "Des bibliothèques"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which block must be placed around an enchanting table to access level 30?"
-        answers:
-          A: "Torches"
-          B: "Chests"
-          C: "Diamond blocks"
-          D: "Bookshelves"
-  - text: "Que permet l'enchantement Toucher de soie ?"
-    answers:
-      A: "De réparer les outils automatiquement"
-      B: "D'augmenter les dégâts infligés"
-      C: "De récupérer un bloc tel quel, sans le transformer"
-      D: "De multiplier les ressources obtenues"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does the Silk Touch enchantment allow?"
-        answers:
-          A: "Repairing tools automatically"
-          B: "Increasing damage dealt"
-          C: "Collecting a block as is, without transforming it"
-          D: "Multiplying the resources obtained"
-  - text: "Que fait l'enchantement Fortune sur une pioche ?"
-    answers:
-      A: "Il augmente la quantité de ressources récoltées"
-      B: "Il éclaire les tunnels"
-      C: "Il rend la pioche incassable"
-      D: "Il attire les mobs proches"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does the Fortune enchantment do on a pickaxe?"
-        answers:
-          A: "It increases the amount of resources harvested"
-          B: "It lights up tunnels"
-          C: "It makes the pickaxe unbreakable"
-          D: "It attracts nearby mobs"
-  - text: "Comment fonctionne l'enchantement Réparation (Mending) ?"
-    answers:
-      A: "Il double la durabilité maximale"
-      B: "Il répare l'objet avec l'expérience ramassée"
-      C: "Il répare à chaque coup reçu"
-      D: "Il transforme les objets cassés en objets neufs"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "How does the Mending enchantment work?"
-        answers:
-          A: "It doubles the maximum durability"
-          B: "It repairs the item with collected experience"
-          C: "It repairs on every hit taken"
-          D: "It turns broken items into new ones"
-  - text: "Quel ingrédient sert de carburant à l'alambic pour brasser des potions ?"
-    answers:
-      A: "Le charbon"
-      B: "La poudre de Blaze"
-      C: "Le bâton de Blaze"
-      D: "La larme de Ghast"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which ingredient serves as fuel for the brewing stand to brew potions?"
-        answers:
-          A: "Coal"
-          B: "Blaze powder"
-          C: "Blaze rod"
-          D: "Ghast tear"
-  - text: "Sur quel bloc cultive-t-on le wart du Nether ?"
-    answers:
-      A: "La netherrack"
-      B: "Le sable des âmes"
-      C: "La terre"
-      D: "L'argile"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "On which block do you grow Nether wart?"
-        answers:
-          A: "Netherrack"
-          B: "Soul sand"
-          C: "Dirt"
-          D: "Clay"
-  - text: "Quel ingrédient transforme une potion en potion jetable ?"
-    answers:
-      A: "La poudre à canon"
-      B: "La larme de Ghast"
-      C: "La poudre de Blaze"
-      D: "Le sucre"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which ingredient turns a potion into a splash potion?"
-        answers:
-          A: "Gunpowder"
-          B: "Ghast tear"
-          C: "Blaze powder"
-          D: "Sugar"
-  - text: "Quel ingrédient faut-il ajouter à une potion jetable pour obtenir une potion persistante ?"
-    answers:
-      A: "Le souffle de dragon"
-      B: "Le magmacream"
-      C: "La poudre de Blaze"
-      D: "La toile d'araignée"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which ingredient must be added to a splash potion to get a lingering potion?"
-        answers:
-          A: "Dragon's breath"
-          B: "Magma cream"
-          C: "Blaze powder"
-          D: "Spider web"
-  - text: "Quelle est la monnaie utilisée pour commercer avec les villageois ?"
-    answers:
-      A: "L'or"
-      B: "Le cuivre"
-      C: "Le diamant"
-      D: "L'émeraude"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "What currency is used to trade with villagers?"
-        answers:
-          A: "Gold"
-          B: "Copper"
-          C: "Diamond"
-          D: "Emerald"
-  - text: "Quel métier de villageois vend des livres enchantés ?"
-    answers:
-      A: "Le bibliothécaire"
-      B: "Le boucher"
-      C: "Le forgeron"
-      D: "Le fermier"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which villager profession sells enchanted books?"
-        answers:
-          A: "Librarian"
-          B: "Butcher"
-          C: "Blacksmith"
-          D: "Farmer"
-  - text: "Comment guérit-on un villageois zombie ?"
-    answers:
-      A: "Avec une potion de soin et du pain"
-      B: "Avec du lait et une pomme"
-      C: "Avec une pomme d'or et une potion de force"
-      D: "Avec une pomme d'or et une potion de faiblesse"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How do you cure a zombie villager?"
-        answers:
-          A: "With a potion of healing and bread"
-          B: "With milk and an apple"
-          C: "With a golden apple and a potion of strength"
-          D: "With a golden apple and a potion of weakness"
-  - text: "Quel mob attaque les villages lors d'un raid ?"
-    answers:
-      A: "Le Pillager"
-      B: "Le Creeper"
-      C: "L'Enderman"
-      D: "Le Zombie"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which mob attacks villages during a raid?"
-        answers:
-          A: "Pillager"
-          B: "Creeper"
-          C: "Enderman"
-          D: "Zombie"
-  - text: "Quel bloc utilise-t-on souvent pour collecter les objets dans une ferme automatique ?"
-    answers:
-      A: "Le seau"
-      B: "L'aimant"
-      C: "La houe"
-      D: "L'entonnoir (hopper)"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which block is often used to collect items in an automatic farm?"
-        answers:
-          A: "Bucket"
-          B: "Hopper"
-          C: "Hoe"
-          D: "Hopper (hopper)"
-  - text: "Dans une ferme automatique de canne à sucre, quel bloc détecte la croissance et déclenche le piston ?"
-    answers:
-      A: "L'observateur"
-      B: "Le répéteur"
-      C: "Le comparateur"
-      D: "Le levier"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "In an automatic sugar cane farm, which block detects growth and triggers the piston?"
-        answers:
-          A: "Observer"
-          B: "Repeater"
-          C: "Comparator"
-          D: "Lever"
-  - text: "En quelle année la version 1.0 de Minecraft est-elle sortie ?"
-    answers:
-      A: "2009"
-      B: "2010"
-      C: "2011"
-      D: "2013"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "In what year was version 1.0 of Minecraft released?"
-        answers:
-          A: "2009"
-          B: "2010"
-          C: "2011"
-          D: "2013"
-  - text: "Quelle mise à jour a refondu le Nether avec les biomes écarlate et déformé ?"
-    answers:
-      A: "La 1.14"
-      B: "La 1.18"
-      C: "La 1.17"
-      D: "La 1.16"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which update overhauled the Nether with the crimson and warped biomes?"
-        answers:
-          A: "1.14"
-          B: "1.18"
-          C: "1.17"
-          D: "1.16"
-  - text: "Comment s'appelle la mise à jour 1.17/1.18 de Minecraft ?"
-    answers:
-      A: "Caves & Cliffs"
-      B: "Village & Pillage"
-      C: "Aquatic Update"
-      D: "Nether Update"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the 1.17/1.18 Minecraft update called?"
-        answers:
-          A: "Caves & Cliffs"
-          B: "Village & Pillage"
-          C: "Aquatic Update"
-          D: "Nether Update"
-  - text: "Qui a créé le jeu Minecraft ?"
-    answers:
-      A: "Jeb"
-      B: "Dinnerbone"
-      C: "Markus Persson (Notch)"
-      D: "Herobrine"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Who created the game Minecraft?"
-        answers:
-          A: "Jeb"
-          B: "Dinnerbone"
-          C: "Markus Persson (Notch)"
-          D: "Herobrine"
-  - text: "En quelle année Microsoft a-t-elle racheté Mojang ?"
-    answers:
-      A: "2011"
-      B: "2014"
-      C: "2012"
-      D: "2016"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "In what year did Microsoft buy Mojang?"
-        answers:
-          A: "2011"
-          B: "2014"
-          C: "2012"
-          D: "2016"
-  - text: "Quel compositeur a créé la musique originale de Minecraft ?"
-    answers:
-      A: "Martin Garrix"
-      B: "Lena Raine"
-      C: "Hans Zimmer"
-      D: "C418"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which composer created the original Minecraft music?"
-        answers:
-          A: "Martin Garrix"
-          B: "Lena Raine"
-          C: "Hans Zimmer"
-          D: "C418"
-  - text: "Quel record détient Minecraft parmi les jeux vidéo ?"
-    answers:
-      A: "Le jeu le plus joué en e-sport"
-      B: "Le premier jeu en 3D"
-      C: "Le jeu avec le plus de contenus téléchargeables"
-      D: "Le jeu le plus vendu de l'histoire"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "What record does Minecraft hold among video games?"
-        answers:
-          A: "The most played e-sport game"
-          B: "The first 3D game"
-          C: "The game with the most downloadable content"
-          D: "The best-selling game in history"
-  - text: "Sur quel serveur célèbre peut-on jouer au mini-jeu Bedwars ?"
-    answers:
-      A: "2b2t"
-      B: "CubeCraft"
-      C: "Hypixel"
-      D: "Mineplex"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "On which famous server can you play the Bedwars minigame?"
-        answers:
-          A: "2b2t"
-          B: "CubeCraft"
-          C: "Hypixel"
-          D: "Mineplex"
-  - text: "Sur quoi commence le joueur dans le mode de jeu Skyblock ?"
-    answers:
-      A: "Un bateau"
-      B: "Une grande ville"
-      C: "Une île flottante"
-      D: "Une grotte sous-marine"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does the player start on in the Skyblock game mode?"
-        answers:
-          A: "A boat"
-          B: "A large city"
-          C: "A floating island"
-          D: "An underwater cave"
-  - text: "Quel jeu dérivé de Minecraft est un dungeon crawler sorti en 2020 ?"
-    answers:
-      A: "Minecraft Legends"
-      B: "Minecraft Story Mode"
-      C: "Minecraft Earth"
-      D: "Minecraft Dungeons"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which Minecraft spin-off is a dungeon crawler released in 2020?"
-        answers:
-          A: "Minecraft Legends"
-          B: "Minecraft Story Mode"
-          C: "Minecraft Earth"
-          D: "Minecraft Dungeons"
-  - text: "Quel jeu dérivé de Minecraft est un jeu d'action-stratégie sorti en 2023 ?"
-    answers:
-      A: "Minecraft Dungeons"
-      B: "Minecraft Earth"
-      C: "Minecraft Legends"
-      D: "Minecraft Story Mode"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which Minecraft spin-off is an action-strategy game released in 2023?"
-        answers:
-          A: "Minecraft Dungeons"
-          B: "Minecraft Earth"
-          C: "Minecraft Legends"
-          D: "Minecraft Story Mode"
-  - text: "Quel acteur incarne Steve dans le film Minecraft sorti en 2025 ?"
-    answers:
-      A: "Jack Black"
-      B: "Chris Pratt"
-      C: "Dwayne Johnson"
-      D: "Ryan Reynolds"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which actor plays Steve in the Minecraft movie released in 2025?"
-        answers:
-          A: "Jack Black"
-          B: "Chris Pratt"
-          C: "Dwayne Johnson"
-          D: "Ryan Reynolds"
-  - text: "À quoi sert principalement Minecraft Education ?"
-    answers:
-      A: "À apprendre en milieu scolaire"
-      B: "À créer des mods payants"
-      C: "À héberger des serveurs publics"
-      D: "À diffuser des parties en direct"
-    correctAnswer: A
+          A: "II"
+          B: "V"
+          C: "IV"
+          D: "III"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is Minecraft Education mainly used for?"
-        answers:
-          A: "Learning in schools"
-          B: "Creating paid mods"
-          C: "Hosting public servers"
-          D: "Streaming live games"
-  - text: "Comment active-t-on un bloc de commande placé dans le monde ?"
-    answers:
-      A: "En cliquant dessus avec une épée"
-      B: "En dormant à côté"
-      C: "En le poussant avec un piston"
-      D: "En lui envoyant un signal de redstone"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How do you activate a command block placed in the world?"
-        answers:
-          A: "By clicking on it with a sword"
-          B: "By sleeping next to it"
-          C: "By pushing it with a piston"
-          D: "By sending it a redstone signal"
-  - text: "Que se passe-t-il lorsqu'un joueur meurt en mode Hardcore ?"
-    answers:
-      A: "Il réapparaît au point de spawn"
-      B: "Sa partie se termine et il passe en mode Spectateur"
-      C: "Il perd seulement son inventaire"
-      D: "Il ne peut plus jamais jouer à Minecraft"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "What happens when a player dies in Hardcore mode?"
-        answers:
-          A: "They respawn at the spawn point"
-          B: "Their game ends and they switch to Spectator mode"
-          C: "They only lose their inventory"
-          D: "They can never play Minecraft again"
-  - text: "Que cherche à faire un joueur qui pratique le speedrun sur Minecraft ?"
-    answers:
-      A: "Explorer toutes les dimensions"
-      B: "Construire la plus grande maison"
-      C: "Obtenir tous les succès"
-      D: "Terminer le jeu le plus vite possible"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does a player doing a Minecraft speedrun try to do?"
-        answers:
-          A: "Explore all dimensions"
-          B: "Build the biggest house"
-          C: "Get all achievements"
-          D: "Finish the game as fast as possible"

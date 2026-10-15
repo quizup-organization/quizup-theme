@@ -7,23 +7,23 @@ topic:
   category: FOOD_AND_DRINK
   imageUrl: wikipedia/food-and-drink/Coq_au_vin,_Linden.jpg
 questions:
-  - text: "Quelle viande est traditionnellement utilisée dans la blanquette de veau ?"
+  - text: "Quel ingrédient est traditionnellement utilisé pour lier une sauce au beurre blanc ?"
     answers:
-      A: "L'agneau"
-      B: "Le poulet"
-      C: "Le porc"
-      D: "Le veau"
+      A: "Crème fraîche"
+      B: "Jaune d'œuf"
+      C: "Farine"
+      D: "Beurre froid"
     correctAnswer: D
     translations:
       en:
-        text: "Which meat is traditionally used in blanquette de veau?"
+        text: "Which ingredient is traditionally used to bind a beurre blanc sauce?"
         answers:
-          A: "Lamb"
-          B: "Chicken"
-          C: "Pork"
-          D: "Veal"
-    difficulty: EASY
-  - text: "Quel plat traditionnel marseillais est représenté sur cette photographie ?"
+          A: "Crème fraîche"
+          B: "Egg yolk"
+          C: "Flour"
+          D: "Cold butter"
+    difficulty: MEDIUM
+  - text: "Quel plat traditionnel marseillais est-ce ?"
     imageUrl: wikipedia/food-and-drink/Bullabessa.jpg
     answers:
       A: "La quenelle de brochet"
@@ -33,30 +33,30 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which traditional Marseille dish is shown in this photograph?"
+        text: "Which traditional Marseille dish is this?"
         answers:
           A: "Pike quenelle"
           B: "Choucroute"
           C: "Bouillabaisse"
           D: "Pot-au-feu"
     difficulty: EASY
-  - text: "Quel légume fermenté est à la base de la choucroute ?"
+  - text: "Quelle est la particularité du fromage utilisé dans la fondue savoyarde ?"
     answers:
-      A: "Le navet"
-      B: "Le chou"
-      C: "Le poireau"
-      D: "La carotte"
+      A: "Il est fumé"
+      B: "Il doit être de trois variétés différentes"
+      C: "Il est exclusivement de chèvre"
+      D: "Il est affiné en grotte"
     correctAnswer: B
     translations:
       en:
-        text: "Which fermented vegetable is the base of choucroute?"
+        text: "What is special about the cheese used in Savoyard fondue?"
         answers:
-          A: "Turnip"
-          B: "Cabbage"
-          C: "Leek"
-          D: "Carrot"
-    difficulty: EASY
-  - text: "Quel plat de bœuf mijoté au vin rouge est illustré par cette photo ?"
+          A: "It is smoked"
+          B: "It must be three different varieties"
+          C: "It is exclusively goat cheese"
+          D: "It is aged in a cave"
+    difficulty: HARD
+  - text: "Quel plat de bœuf au vin rouge est-ce ?"
     imageUrl: wikipedia/food-and-drink/Beef_bourguignon-01.jpg
     answers:
       A: "Le pot-au-feu"
@@ -66,14 +66,14 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which beef dish simmered in red wine is shown in this photo?"
+        text: "Which beef in red wine dish is this?"
         answers:
           A: "Pot-au-feu"
           B: "Blanquette de veau"
           C: "Cassoulet"
           D: "Beef bourguignon"
     difficulty: EASY
-  - text: "Quel plat de légumes provençal reconnaît-on sur cette image ?"
+  - text: "Quel plat provençal reconnaît-on ?"
     imageUrl: wikipedia/food-and-drink/Ratatouille.jpg
     answers:
       A: "Le gratin dauphinois"
@@ -83,13 +83,13 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which Provençal vegetable dish can be recognized in this image?"
+        text: "Which Provençal dish do you recognize?"
         answers:
           A: "Gratin dauphinois"
           B: "Ratatouille"
           C: "Choucroute"
           D: "French onion soup"
-    difficulty: EASY
+    difficulty: MEDIUM
   - text: "Quelle spécialité lorraine est photographiée ci-dessus ?"
     imageUrl: wikipedia/food-and-drink/Quiche_Lorraine_-_Massachusetts.jpg
     answers:
@@ -100,126 +100,126 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which Lorraine specialty is photographed above?"
+        text: "Which Lorraine specialty is pictured above?"
         answers:
           A: "Tartiflette"
           B: "Pissaladière"
           C: "Quiche lorraine"
           D: "Socca"
-    difficulty: EASY
-  - text: "Quel vin est traditionnellement utilisé pour cuisiner le coq au vin ?"
+    difficulty: MEDIUM
+  - text: "Quel plat régional français est préparé avec des haricots blancs et de la saucisse de Toulouse ?"
     answers:
-      A: "Du vin blanc"
-      B: "Du vin rosé"
-      C: "Du champagne"
-      D: "Du vin rouge"
+      A: "Choucroute"
+      B: "Garbure"
+      C: "Potée auvergnate"
+      D: "Cassoulet"
     correctAnswer: D
     translations:
       en:
-        text: "Which wine is traditionally used to cook coq au vin?"
+        text: "Which French regional dish is made with white beans and Toulouse sausage?"
         answers:
-          A: "White wine"
-          B: "Rosé wine"
-          C: "Champagne"
-          D: "Red wine"
-    difficulty: EASY
-  - text: "Quel fruit est la base de la tarte Tatin ?"
+          A: "Choucroute"
+          B: "Garbure"
+          C: "Potée auvergnate"
+          D: "Cassoulet"
+    difficulty: HARD
+  - text: "Quel ingrédient est indispensable pour réaliser une sauce hollandaise ?"
     answers:
-      A: "La poire"
-      B: "La pomme"
-      C: "L'abricot"
-      D: "La cerise"
+      A: "Échalote"
+      B: "Jaune d'œuf"
+      C: "Moutarde"
+      D: "Crème fraîche"
     correctAnswer: B
     translations:
       en:
-        text: "Which fruit is the base of tarte Tatin?"
+        text: "Which ingredient is essential for making a hollandaise sauce?"
         answers:
-          A: "Pear"
-          B: "Apple"
-          C: "Apricot"
-          D: "Cherry"
-    difficulty: EASY
-  - text: "Quel fromage râpé recouvre traditionnellement la soupe à l'oignon gratinée ?"
+          A: "Shallot"
+          B: "Egg yolk"
+          C: "Mustard"
+          D: "Crème fraîche"
+    difficulty: MEDIUM
+  - text: "Quel fromage est utilisé dans la recette traditionnelle de la tartiflette ?"
     answers:
-      A: "Du gruyère"
-      B: "De la mozzarella"
-      C: "De la feta"
-      D: "De la ricotta"
+      A: "Reblochon"
+      B: "Camembert"
+      C: "Comté"
+      D: "Roquefort"
     correctAnswer: A
     translations:
       en:
-        text: "Which grated cheese traditionally tops French onion soup?"
+        text: "Which cheese is used in the traditional tartiflette recipe?"
         answers:
-          A: "Gruyère"
-          B: "Mozzarella"
-          C: "Feta"
-          D: "Ricotta"
+          A: "Reblochon"
+          B: "Camembert"
+          C: "Comté"
+          D: "Roquefort"
     difficulty: EASY
-  - text: "Quel féculent est l'ingrédient principal du gratin dauphinois ?"
+  - text: "Quel est le nom de la technique culinaire qui consiste à cuire un aliment dans un bouillon aromatisé ?"
     answers:
-      A: "La semoule"
-      B: "Le riz"
-      C: "Les pâtes"
-      D: "La pomme de terre"
+      A: "Poêler"
+      B: "Braiser"
+      C: "Rôtir"
+      D: "Pocher"
     correctAnswer: D
     translations:
       en:
-        text: "Which starchy food is the main ingredient of gratin dauphinois?"
+        text: "What is the name of the cooking technique that involves cooking food in a flavored broth?"
         answers:
-          A: "Semolina"
-          B: "Rice"
-          C: "Pasta"
-          D: "Potato"
-    difficulty: EASY
-  - text: "Qu'est-ce qu'un pot-au-feu ?"
+          A: "Sautéing"
+          B: "Braising"
+          C: "Roasting"
+          D: "Poaching"
+    difficulty: MEDIUM
+  - text: "Quel ingrédient donne à la sauce béarnaise sa saveur caractéristique ?"
     answers:
-      A: "Une soupe de poisson"
-      B: "Un ragoût de mouton"
-      C: "Un dessert aux fruits"
-      D: "Un bouillon de viandes et de légumes"
+      A: "Romarin"
+      B: "Basilic"
+      C: "Thym"
+      D: "Estragon"
     correctAnswer: D
     translations:
       en:
-        text: "What is a pot-au-feu?"
+        text: "Which ingredient gives béarnaise sauce its characteristic flavor?"
         answers:
-          A: "A fish soup"
-          B: "A mutton stew"
-          C: "A fruit dessert"
-          D: "A broth of meats and vegetables"
-    difficulty: EASY
-  - text: "Quel dessert est une crème recouverte de sucre caramélisé ?"
+          A: "Rosemary"
+          B: "Basil"
+          C: "Thyme"
+          D: "Tarragon"
+    difficulty: HARD
+  - text: "Quelle ville est célèbre pour sa moutarde utilisée dans la cuisine française ?"
     answers:
-      A: "La mousse au chocolat"
-      B: "L'île flottante"
-      C: "Le clafoutis"
-      D: "La crème brûlée"
+      A: "Paris"
+      B: "Bordeaux"
+      C: "Lyon"
+      D: "Dijon"
     correctAnswer: D
     translations:
       en:
-        text: "Which dessert is a custard topped with caramelized sugar?"
+        text: "Which city is famous for its mustard used in French cooking?"
         answers:
-          A: "Chocolate mousse"
-          B: "Floating island"
-          C: "Clafoutis"
-          D: "Crème brûlée"
+          A: "Paris"
+          B: "Bordeaux"
+          C: "Lyon"
+          D: "Dijon"
     difficulty: EASY
-  - text: "Quel fromage est traditionnellement utilisé pour la tartiflette ?"
+  - text: "Quel plat traditionnel français est composé de viande de bœuf mijotée avec des carottes et du vin rouge ?"
     answers:
-      A: "Le beaufort"
-      B: "Le reblochon"
-      C: "Le comté"
-      D: "La tomme"
+      A: "Coq au vin"
+      B: "Bœuf bourguignon"
+      C: "Daube provençale"
+      D: "Blanquette de veau"
     correctAnswer: B
     translations:
       en:
-        text: "Which cheese is traditionally used for tartiflette?"
+        text: "Which traditional French dish consists of beef simmered with carrots and red wine?"
         answers:
-          A: "Beaufort"
-          B: "Reblochon"
-          C: "Comté"
-          D: "Tomme"
+          A: "Coq au vin"
+          B: "Beef bourguignon"
+          C: "Daube provençale"
+          D: "Blanquette de veau"
     difficulty: EASY
-  - text: "Quel plat du Sud-Ouest aux haricots blancs voit-on sur cette image ?"
+  - text: "Quel plat du Sud-Ouest aux haricots blancs ?"
     imageUrl: wikipedia/food-and-drink/Cassoulet_toulousain.jpg
     answers:
       A: "La garbure"
@@ -229,1386 +229,1386 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which Southwestern dish with white beans can be seen in this image?"
+        text: "Which Southwestern dish with white beans?"
         answers:
           A: "Garbure"
           B: "Pot-au-feu"
           C: "Bouillabaisse"
           D: "Cassoulet"
     difficulty: MEDIUM
-  - text: "Quelle épice donne sa couleur et son parfum à la bouillabaisse ?"
+  - text: "Quel alcool est traditionnellement utilisé pour flamber le coq au vin ?"
     answers:
-      A: "Le safran"
-      B: "Le curcuma"
-      C: "Le paprika"
-      D: "Le cumin"
+      A: "Cognac"
+      B: "Armagnac"
+      C: "Calvados"
+      D: "Whisky"
     correctAnswer: A
     translations:
       en:
-        text: "Which spice gives bouillabaisse its color and aroma?"
+        text: "Which alcohol is traditionally used to flambé coq au vin?"
         answers:
-          A: "Saffron"
-          B: "Turmeric"
-          C: "Paprika"
-          D: "Cumin"
+          A: "Cognac"
+          B: "Armagnac"
+          C: "Calvados"
+          D: "Whisky"
     difficulty: MEDIUM
-  - text: "Quelles sont les deux bases d'un roux utilisé dans les sauces françaises ?"
+  - text: "Quel poisson est traditionnellement utilisé dans la bouillabaisse ?"
     answers:
-      A: "L'huile et l'œuf"
-      B: "Le beurre et la farine"
-      C: "La crème et la maïzena"
-      D: "Le lait et le beurre"
+      A: "Saumon"
+      B: "Rascasse"
+      C: "Cabillaud"
+      D: "Truite"
     correctAnswer: B
     translations:
       en:
-        text: "What are the two bases of a roux used in French sauces?"
+        text: "Which fish is traditionally used in bouillabaisse?"
         answers:
-          A: "Oil and egg"
-          B: "Butter and flour"
-          C: "Cream and cornstarch"
-          D: "Milk and butter"
-    difficulty: MEDIUM
-  - text: "Quelle plante aromatique caractérise la sauce béarnaise ?"
+          A: "Salmon"
+          B: "Scorpionfish"
+          C: "Cod"
+          D: "Trout"
+    difficulty: HARD
+  - text: "Quel plat français est préparé avec des pommes de terre, des oignons et du reblochon ?"
     answers:
-      A: "L'estragon"
-      B: "Le romarin"
-      C: "La sauge"
-      D: "Le thym"
+      A: "Tartiflette"
+      B: "Gratin dauphinois"
+      C: "Raclette"
+      D: "Fondue savoyarde"
     correctAnswer: A
     translations:
       en:
-        text: "Which aromatic herb characterizes béarnaise sauce?"
+        text: "Which French dish is made with potatoes, onions and reblochon?"
         answers:
-          A: "Tarragon"
-          B: "Rosemary"
-          C: "Sage"
-          D: "Thyme"
-    difficulty: MEDIUM
-  - text: "Avec quel liquide prépare-t-on traditionnellement une sauce bordelaise ?"
-    answers:
-      A: "Du vin blanc"
-      B: "Du cidre"
-      C: "Du vin rouge"
-      D: "De la bière"
-    correctAnswer: C
-    translations:
-      en:
-        text: "With which liquid is a bordelaise sauce traditionally prepared?"
-        answers:
-          A: "White wine"
-          B: "Cider"
-          C: "Red wine"
-          D: "Beer"
-    difficulty: MEDIUM
-  - text: "Quel ingrédient donne son onctuosité à la sauce hollandaise ?"
-    answers:
-      A: "L'huile d'olive"
-      B: "Le beurre clarifié"
-      C: "La crème fraîche"
-      D: "Le saindoux"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which ingredient gives hollandaise sauce its smoothness?"
-        answers:
-          A: "Olive oil"
-          B: "Clarified butter"
-          C: "Crème fraîche"
-          D: "Lard"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on une taille de légumes en fins bâtonnets ?"
-    answers:
-      A: "La brunoise"
-      B: "La julienne"
-      C: "La chiffonnade"
-      D: "La paysanne"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is a cut of vegetables into thin sticks called?"
-        answers:
-          A: "Brunoise"
-          B: "Julienne"
-          C: "Chiffonnade"
-          D: "Paysanne"
-    difficulty: MEDIUM
-  - text: "Quel poisson garnit traditionnellement la quenelle lyonnaise ?"
-    answers:
-      A: "Le cabillaud"
-      B: "Le thon"
-      C: "Le brochet"
-      D: "La sole"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which fish traditionally garnishes the quenelle lyonnaise?"
-        answers:
-          A: "Cod"
-          B: "Tuna"
-          C: "Pike"
-          D: "Sole"
-    difficulty: MEDIUM
-  - text: "Quelle ville est réputée pour son cassoulet, aux côtés de Toulouse et Carcassonne ?"
-    answers:
-      A: "Castelnaudary"
-      B: "Nîmes"
-      C: "Béziers"
-      D: "Perpignan"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which city is famous for its cassoulet, alongside Toulouse and Carcassonne?"
-        answers:
-          A: "Castelnaudary"
-          B: "Nîmes"
-          C: "Béziers"
-          D: "Perpignan"
-    difficulty: MEDIUM
-  - text: "Quel condiment accompagne traditionnellement le pot-au-feu ?"
-    answers:
-      A: "La moutarde"
-      B: "La mayonnaise"
-      C: "La sauce soja"
-      D: "Le ketchup"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which condiment traditionally accompanies pot-au-feu?"
-        answers:
-          A: "Mustard"
-          B: "Mayonnaise"
-          C: "Soy sauce"
-          D: "Ketchup"
-    difficulty: MEDIUM
-  - text: "Qu'est-ce qu'un court-bouillon ?"
-    answers:
-      A: "Un bouillon aromatisé pour cuire poissons et crustacés"
-      B: "Un consommé clarifié"
-      C: "Un fond brun corsé"
-      D: "Une sauce émulsionnée"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is a court-bouillon?"
-        answers:
-          A: "A flavored broth for cooking fish and shellfish"
-          B: "A clarified consommé"
-          C: "A rich brown stock"
-          D: "An emulsified sauce"
-    difficulty: MEDIUM
-  - text: "Quel alcool est traditionnellement utilisé pour préparer une sauce au poivre ?"
-    answers:
-      A: "Le gin"
-      B: "Le rhum"
-      C: "La vodka"
-      D: "Le cognac"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which alcohol is traditionally used to prepare a pepper sauce?"
-        answers:
-          A: "Gin"
-          B: "Rum"
-          C: "Vodka"
-          D: "Cognac"
-    difficulty: MEDIUM
-  - text: "Que ne contient pas la quiche lorraine traditionnelle, contrairement à de nombreuses versions modernes ?"
-    answers:
-      A: "Des œufs"
-      B: "Des lardons"
-      C: "De la crème"
-      D: "Du fromage"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What does traditional quiche lorraine not contain, unlike many modern versions?"
-        answers:
-          A: "Eggs"
-          B: "Bacon bits"
-          C: "Cream"
-          D: "Cheese"
-    difficulty: HARD
-  - text: "Que ne contient pas le gratin dauphinois traditionnel, contrairement à certaines variantes ?"
-    answers:
-      A: "De la crème"
-      B: "Du lait"
-      C: "Du fromage"
-      D: "De l'ail"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What does traditional gratin dauphinois not contain, unlike some variations?"
-        answers:
-          A: "Cream"
-          B: "Milk"
-          C: "Cheese"
-          D: "Garlic"
-    difficulty: HARD
-  - text: "Sur quel fond est élaborée la sauce espagnole, l'une des sauces mères ?"
-    answers:
-      A: "Un fond brun"
-      B: "Un fond blanc"
-      C: "Un fumet de poisson"
-      D: "Un bouillon de légumes"
-    correctAnswer: A
-    translations:
-      en:
-        text: "On which stock is espagnole sauce, one of the mother sauces, based?"
-        answers:
-          A: "A brown stock"
-          B: "A white stock"
-          C: "A fish fumet"
-          D: "A vegetable broth"
-    difficulty: HARD
-  - text: "Sur quel fond est élaborée la sauce velouté ?"
-    answers:
-      A: "Un fond blanc"
-      B: "Un fond brun"
-      C: "Une purée de tomates"
-      D: "Du lait"
-    correctAnswer: A
-    translations:
-      en:
-        text: "On which stock is velouté sauce based?"
-        answers:
-          A: "A white stock"
-          B: "A brown stock"
-          C: "A tomato purée"
-          D: "Milk"
-    difficulty: HARD
-  - text: "Quelle garniture caractérise la sauce Périgueux ?"
-    answers:
-      A: "Les cèpes"
-      B: "Les truffes"
-      C: "Les morilles"
-      D: "Les girolles"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which garnish characterizes Périgueux sauce?"
-        answers:
-          A: "Porcini mushrooms"
-          B: "Truffles"
-          C: "Morel mushrooms"
-          D: "Chanterelle mushrooms"
-    difficulty: HARD
-  - text: "Quel crustacé donne son goût à la sauce Nantua ?"
-    answers:
-      A: "Les crevettes"
-      B: "Les écrevisses"
-      C: "Les langoustines"
-      D: "Le homard"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which crustacean gives its flavor to Nantua sauce?"
-        answers:
-          A: "Shrimp"
-          B: "Crayfish"
-          C: "Langoustines"
-          D: "Lobster"
-    difficulty: HARD
-  - text: "De quelle région le beurre blanc est-il originaire ?"
-    answers:
-      A: "La région nantaise"
-      B: "La Normandie"
-      C: "La Bourgogne"
-      D: "La Provence"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which region does beurre blanc originate from?"
-        answers:
-          A: "The Nantes region"
-          B: "Normandy"
-          C: "Burgundy"
-          D: "Provence"
-    difficulty: HARD
-  - text: "Quels ingrédients composent traditionnellement la rouille servie avec la bouillabaisse ?"
-    answers:
-      A: "Basilic, tomate et huile d'olive"
-      B: "Ail, piment, safran et mie de pain"
-      C: "Moutarde, citron et câpres"
-      D: "Échalote, vin blanc et beurre"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which ingredients traditionally make up the rouille served with bouillabaisse?"
-        answers:
-          A: "Basil, tomato and olive oil"
-          B: "Garlic, chili, saffron and breadcrumbs"
-          C: "Mustard, lemon and capers"
-          D: "Shallot, white wine and butter"
-    difficulty: HARD
-  - text: "De quelle région le confit de canard est-il une spécialité ?"
-    answers:
-      A: "La Gascogne"
-      B: "L'Alsace"
-      C: "La Bretagne"
-      D: "La Normandie"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which region is duck confit a specialty of?"
-        answers:
-          A: "Gascony"
-          B: "Alsace"
-          C: "Brittany"
-          D: "Normandy"
-    difficulty: HARD
-  - text: "Qu'est-ce qu'un beurre maître d'hôtel ?"
-    answers:
-      A: "Un beurre clarifié salé"
-      B: "Une sauce à la crème et aux champignons"
-      C: "Un beurre composé de persil et de citron"
-      D: "Une sauce au vin rouge"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is beurre maître d'hôtel?"
-        answers:
-          A: "A salted clarified butter"
-          B: "A cream and mushroom sauce"
-          C: "A butter made with parsley and lemon"
-          D: "A red wine sauce"
-    difficulty: HARD
-  - text: "Qu'est-ce qu'une mirepoix ?"
-    answers:
-      A: "Un bouquet de thym, de laurier et de persil"
-      B: "Un hachis d'échalotes et de champignons"
-      C: "Une purée d'ail et de persil"
-      D: "Un mélange d'oignons, de carottes et de céleri"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is a mirepoix?"
-        answers:
-          A: "A bouquet of thyme, bay leaf and parsley"
-          B: "A minced mixture of shallots and mushrooms"
-          C: "A puree of garlic and parsley"
-          D: "A mixture of onions, carrots and celery"
-    difficulty: HARD
-  - text: "Quel poisson salé est l'ingrédient principal de la brandade de Nîmes ?"
-    answers:
-      A: "Le hareng"
-      B: "La morue"
-      C: "L'anchois"
-      D: "La sardine"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which salted fish is the main ingredient of brandade de Nîmes?"
-        answers:
-          A: "Herring"
-          B: "Cod"
-          C: "Anchovy"
-          D: "Sardine"
-    difficulty: HARD
-  - text: "Quelle charcuterie alsacienne garnit traditionnellement la choucroute ?"
-    answers:
-      A: "La merguez"
-      B: "La saucisse de Strasbourg"
-      C: "Le chorizo"
-      D: "L'andouille de Vire"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which Alsatian charcuterie traditionally garnishes choucroute?"
-        answers:
-          A: "Merguez"
-          B: "Strasbourg sausage"
-          C: "Chorizo"
-          D: "Andouille de Vire"
-    difficulty: HARD
-  - text: "Quelle liste correspond aux cinq sauces mères définies par Auguste Escoffier ?"
-    answers:
-      A: "Béchamel, espagnole, tomate, pesto et velouté"
-      B: "Mayonnaise, vinaigrette, hollandaise, tomate et béchamel"
-      C: "Béchamel, velouté, espagnole, tomate et hollandaise"
-      D: "Hollandaise, béarnaise, espagnole, velouté et béchamel"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which list corresponds to the five mother sauces defined by Auguste Escoffier?"
-        answers:
-          A: "Béchamel, espagnole, tomato, pesto and velouté"
-          B: "Mayonnaise, vinaigrette, hollandaise, tomato and béchamel"
-          C: "Béchamel, velouté, espagnole, tomato and hollandaise"
-          D: "Hollandaise, béarnaise, espagnole, velouté and béchamel"
-    difficulty: EXPERT
-  - text: "Quelle est la particularité de la sauce Choron ?"
-    answers:
-      A: "C'est une béchamel additionnée de truffe"
-      B: "C'est une hollandaise additionnée de menthe"
-      C: "C'est une béarnaise additionnée de tomate"
-      D: "C'est un velouté additionné de safran"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is special about sauce Choron?"
-        answers:
-          A: "It is a béchamel with truffle added"
-          B: "It is a hollandaise with mint added"
-          C: "It is a béarnaise with tomato added"
-          D: "It is a velouté with saffron added"
-    difficulty: EXPERT
-  - text: "Sur quelle base la sauce Soubise est-elle préparée ?"
-    answers:
-      A: "Un velouté et des champignons"
-      B: "Une espagnole et des truffes"
-      C: "Une béchamel et des oignons"
-      D: "Une tomate et des poivrons"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the base of sauce Soubise?"
-        answers:
-          A: "A velouté and mushrooms"
-          B: "An espagnole and truffles"
-          C: "A béchamel and onions"
-          D: "A tomato and peppers"
-    difficulty: EXPERT
-  - text: "Quel crustacé caractérise la sauce américaine ?"
-    answers:
-      A: "Le homard"
-      B: "Le crabe"
-      C: "La langouste"
-      D: "La crevette"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which crustacean characterizes sauce américaine?"
-        answers:
-          A: "Lobster"
-          B: "Crab"
-          C: "Spiny lobster"
-          D: "Shrimp"
-    difficulty: EXPERT
-  - text: "Quel est l'ingrédient principal d'une duxelles ?"
-    answers:
-      A: "Les oignons"
-      B: "Les échalotes"
-      C: "Les champignons"
-      D: "Les poireaux"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the main ingredient of a duxelles?"
-        answers:
-          A: "Onions"
-          B: "Shallots"
-          C: "Mushrooms"
-          D: "Leeks"
-    difficulty: EXPERT
-  - text: "Quelle sauce est une béarnaise à la menthe ?"
-    answers:
-      A: "La sauce Foyot"
-      B: "La sauce Choron"
-      C: "La sauce paloise"
-      D: "La sauce tyrolienne"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which sauce is a béarnaise with mint?"
-        answers:
-          A: "Sauce Foyot"
-          B: "Sauce Choron"
-          C: "Sauce paloise"
-          D: "Sauce tyrolienne"
-    difficulty: EXPERT
-  - text: "Quel ingrédient, outre le vin rouge, caractérise la sauce bordelaise classique ?"
-    answers:
-      A: "Les câpres"
-      B: "La crème fraîche"
-      C: "Le beurre d'écrevisses"
-      D: "La moelle de bœuf"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Besides red wine, which ingredient characterizes classic sauce bordelaise?"
-        answers:
-          A: "Capers"
-          B: "Crème fraîche"
-          C: "Crayfish butter"
-          D: "Beef marrow"
-    difficulty: EXPERT
-  - text: "Qu'est-ce qu'un beurre manié ?"
-    answers:
-      A: "Un beurre fondu puis clarifié"
-      B: "Un beurre noisette déglacé"
-      C: "Un mélange de beurre et de farine servant à lier les sauces"
-      D: "Un beurre battu avec du sucre"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is a beurre manié?"
-        answers:
-          A: "A melted then clarified butter"
-          B: "A browned butter deglazed"
-          C: "A mixture of butter and flour used to thicken sauces"
-          D: "A butter whipped with sugar"
-    difficulty: EXPERT
-  - text: "Quel fruit caractérise la sauce bigarade, servie traditionnellement avec le canard ?"
-    answers:
-      A: "La cerise"
-      B: "L'orange amère"
-      C: "La framboise"
-      D: "Le cassis"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which fruit characterizes bigarade sauce, traditionally served with duck?"
-        answers:
-          A: "Cherry"
-          B: "Bitter orange"
-          C: "Raspberry"
-          D: "Blackcurrant"
-    difficulty: EXPERT
-  - text: "Quel terme désigne la cuisson douce d'un aliment dans un corps gras, sans coloration ?"
-    answers:
-      A: "Braiser"
-      B: "Rissoler"
-      C: "Poêler"
-      D: "Suer"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which term refers to gently cooking a food in fat, without browning?"
-        answers:
-          A: "Braising"
-          B: "Sautéing"
-          C: "Pan-frying"
-          D: "Sweating"
-    difficulty: EXPERT
-  - text: "Quel terme désigne le fait de saupoudrer de farine un aliment en cours de cuisson ?"
-    answers:
-      A: "Mouiller"
-      B: "Déglacer"
-      C: "Singer"
-      D: "Réduire"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which term refers to sprinkling flour over a food while it is cooking?"
-        answers:
-          A: "Moistening"
-          B: "Deglazing"
-          C: "Singeing"
-          D: "Reducing"
-    difficulty: EXPERT
-  - text: "Qu'est-ce qu'un fumet en cuisine française ?"
-    answers:
-      A: "Un fond réalisé avec des arêtes et des têtes de poisson"
-      B: "Une sauce émulsionnée au beurre"
-      C: "Un fond brun de viande"
-      D: "Un bouillon de légumes clarifié"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is a fumet in French cuisine?"
-        answers:
-          A: "A stock made with fish bones and heads"
-          B: "A butter-emulsified sauce"
-          C: "A brown meat stock"
-          D: "A clarified vegetable broth"
-    difficulty: EXPERT
-  - text: "Quel chef français, surnommé « le pape de la gastronomie », tenait son restaurant à Collonges-au-Mont-d'Or ?"
-    answers:
-      A: "Joël Robuchon"
-      B: "Paul Bocuse"
-      C: "Alain Ducasse"
-      D: "Michel Guérard"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which French chef, nicknamed \"the pope of gastronomy\", ran his restaurant in Collonges-au-Mont-d'Or?"
-        answers:
-          A: "Joël Robuchon"
-          B: "Paul Bocuse"
-          C: "Alain Ducasse"
-          D: "Michel Guérard"
-    difficulty: EASY
-  - text: "En quelle année le repas gastronomique des Français a-t-il été inscrit au patrimoine culturel immatériel de l'UNESCO ?"
-    answers:
-      A: "2010"
-      B: "2003"
-      C: "1998"
-      D: "2016"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year was the French gastronomic meal inscribed on UNESCO's intangible cultural heritage list?"
-        answers:
-          A: "2010"
-          B: "2003"
-          C: "1998"
-          D: "2016"
-    difficulty: MEDIUM
-  - text: "Quel chef français détenait le plus grand nombre d'étoiles Michelin au monde, 31, à son décès en 2018 ?"
-    answers:
-      A: "Paul Bocuse"
-      B: "Alain Ducasse"
-      C: "Joël Robuchon"
-      D: "Guy Savoy"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which French chef held the most Michelin stars in the world, 31, at his death in 2018?"
-        answers:
-          A: "Paul Bocuse"
-          B: "Alain Ducasse"
-          C: "Joël Robuchon"
-          D: "Guy Savoy"
-    difficulty: HARD
-  - text: "Quel chef français était surnommé « le roi des cuisiniers et le cuisinier des rois » ?"
-    answers:
-      A: "Antonin Carême"
-      B: "Paul Bocuse"
-      C: "Auguste Escoffier"
-      D: "Joël Robuchon"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which French chef was nicknamed \"the king of cooks and the cook of kings\"?"
-        answers:
-          A: "Antonin Carême"
-          B: "Paul Bocuse"
-          C: "Auguste Escoffier"
-          D: "Joël Robuchon"
-    difficulty: EXPERT
-  - text: "Combien d'étoiles Michelin un restaurant peut-il obtenir au maximum ?"
-    answers:
-      A: "1"
-      B: "3"
-      C: "2"
-      D: "5"
-    correctAnswer: B
-    translations:
-      en:
-        text: "How many Michelin stars can a restaurant obtain at most?"
-        answers:
-          A: "1"
-          B: "3"
-          C: "2"
-          D: "5"
-    difficulty: EASY
-  - text: "Dans quelle principauté se trouve le restaurant Le Louis XV ouvert par Alain Ducasse en 1987 ?"
-    answers:
-      A: "Genève"
-      B: "Paris"
-      C: "Monaco"
-      D: "Nice"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which principality is the restaurant Le Louis XV, opened by Alain Ducasse in 1987?"
-        answers:
-          A: "Geneva"
-          B: "Paris"
-          C: "Monaco"
-          D: "Nice"
-    difficulty: MEDIUM
-  - text: "Quel ouvrage de référence Auguste Escoffier a-t-il publié en 1903 ?"
-    answers:
-      A: "Le Répertoire de la cuisine"
-      B: "La Physiologie du goût"
-      C: "Le Grand dictionnaire de cuisine"
-      D: "Le Guide culinaire"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which reference work did Auguste Escoffier publish in 1903?"
-        answers:
-          A: "Le Répertoire de la cuisine"
-          B: "La Physiologie du goût"
-          C: "Le Grand dictionnaire de cuisine"
-          D: "Le Guide culinaire"
-    difficulty: HARD
-  - text: "Dans quelle commune des Alpes-Maritimes Auguste Escoffier est-il né en 1846 ?"
-    answers:
-      A: "Nice"
-      B: "Menton"
-      C: "Villeneuve-Loubet"
-      D: "Grasse"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which commune of the Alpes-Maritimes was Auguste Escoffier born in 1846?"
-        answers:
-          A: "Nice"
-          B: "Menton"
-          C: "Villeneuve-Loubet"
-          D: "Grasse"
-    difficulty: EXPERT
-  - text: "La mascotte Bibendum appartient à quelle entreprise, qui publie le célèbre guide gastronomique ?"
-    answers:
-      A: "Gault et Millau"
-      B: "Michel et Augustin"
-      C: "Michelin"
-      D: "Le Guide du Routard"
-    correctAnswer: C
-    translations:
-      en:
-        text: "The mascot Bibendum belongs to which company, which publishes the famous gastronomic guide?"
-        answers:
-          A: "Gault et Millau"
-          B: "Michel et Augustin"
-          C: "Michelin"
-          D: "Le Guide du Routard"
-    difficulty: EASY
-  - text: "En quelle année le Guide Michelin a-t-il publié sa première édition, distribuée gratuitement aux automobilistes ?"
-    answers:
-      A: "1900"
-      B: "1889"
-      C: "1912"
-      D: "1920"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year did the Michelin Guide publish its first edition, distributed free to motorists?"
-        answers:
-          A: "1900"
-          B: "1889"
-          C: "1912"
-          D: "1920"
-    difficulty: MEDIUM
-  - text: "Quelle soupe Paul Bocuse a-t-il créée en 1975 pour le président Valéry Giscard d'Estaing ?"
-    answers:
-      A: "la soupe à l'oignon"
-      B: "la bisque de homard"
-      C: "le velouté de châtaignes"
-      D: "la soupe aux truffes noires"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which soup did Paul Bocuse create in 1975 for President Valéry Giscard d'Estaing?"
-        answers:
-          A: "onion soup"
-          B: "lobster bisque"
-          C: "chestnut velouté"
-          D: "black truffle soup"
-    difficulty: HARD
-  - text: "Quel guide a désigné Paul Bocuse « cuisinier du siècle » en 1989 ?"
-    answers:
-      A: "le Guide Michelin"
-      B: "le Gault et Millau"
-      C: "le Bottin gourmand"
-      D: "le guide Lebey"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which guide named Paul Bocuse \"chef of the century\" in 1989?"
-        answers:
-          A: "the Michelin Guide"
-          B: "Gault et Millau"
-          C: "le Bottin gourmand"
-          D: "the Lebey guide"
-    difficulty: EXPERT
-  - text: "Quelle soupe de poisson marseillaise se sert traditionnellement avec une rouille et des croûtons ?"
-    answers:
-      A: "la garbure"
-      B: "l'aïgo boulido"
-      C: "le pot-au-feu"
-      D: "la bouillabaisse"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which Marseille fish soup is traditionally served with rouille and croutons?"
-        answers:
-          A: "garbure"
-          B: "aïgo boulido"
-          C: "pot-au-feu"
-          D: "bouillabaisse"
-    difficulty: EASY
-  - text: "Quelle distinction du Guide Michelin récompense les restaurants offrant un bon rapport qualité-prix ?"
-    answers:
-      A: "le Bib Gourmand"
-      B: "l'étoile verte"
-      C: "le macaron"
-      D: "la fourchette d'or"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which Michelin Guide distinction rewards restaurants offering good value for money?"
-        answers:
-          A: "the Bib Gourmand"
-          B: "the green star"
-          C: "the macaron"
-          D: "the golden fork"
-    difficulty: MEDIUM
-  - text: "Quel chef a été le premier à détenir trois restaurants trois étoiles Michelin dans trois villes différentes ?"
-    answers:
-      A: "Alain Ducasse"
-      B: "Joël Robuchon"
-      C: "Yannick Alléno"
-      D: "Paul Bocuse"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which chef was the first to hold three three-star Michelin restaurants in three different cities?"
-        answers:
-          A: "Alain Ducasse"
-          B: "Joël Robuchon"
-          C: "Yannick Alléno"
-          D: "Paul Bocuse"
-    difficulty: HARD
-  - text: "Quel chef français a créé la « cuisine minceur » dans les années 1970 ?"
-    answers:
-      A: "Paul Bocuse"
-      B: "Alain Senderens"
-      C: "Michel Troisgros"
-      D: "Michel Guérard"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which French chef created \"cuisine minceur\" in the 1970s?"
-        answers:
-          A: "Paul Bocuse"
-          B: "Alain Senderens"
-          C: "Michel Troisgros"
-          D: "Michel Guérard"
-    difficulty: EXPERT
-  - text: "Quel fromage à pâte persillée, protégé par une AOP, est affiné dans l'Aveyron ?"
-    answers:
-      A: "le roquefort"
-      B: "le comté"
-      C: "le camembert"
-      D: "le brie"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which blue-veined cheese, protected by an AOP, is aged in the Aveyron?"
-        answers:
-          A: "roquefort"
-          B: "comté"
-          C: "camembert"
-          D: "brie"
-    difficulty: EASY
-  - text: "Quelle tarte aux pommes renversée doit son nom à des sœurs hôtelières de Sologne ?"
-    answers:
-      A: "la tarte normande"
-      B: "la tarte aux myrtilles"
-      C: "le clafoutis"
-      D: "la tarte Tatin"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which upside-down apple tart owes its name to hotelier nuns from Sologne?"
-        answers:
-          A: "Normandy tart"
-          B: "blueberry tart"
-          C: "clafoutis"
-          D: "tarte Tatin"
-    difficulty: MEDIUM
-  - text: "En quelle année le Guide Michelin a-t-il introduit la hiérarchie des une, deux et trois étoiles ?"
-    answers:
-      A: "1931"
-      B: "1926"
-      C: "1900"
-      D: "1948"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year did the Michelin Guide introduce the one-, two- and three-star hierarchy?"
-        answers:
-          A: "1931"
-          B: "1926"
-          C: "1900"
-          D: "1948"
-    difficulty: HARD
-  - text: "En quelle année le Guide Michelin a-t-il cessé d'être distribué gratuitement pour être vendu en librairie ?"
-    answers:
-      A: "1900"
-      B: "1920"
-      C: "1914"
-      D: "1933"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year did the Michelin Guide stop being distributed free and start being sold in bookshops?"
-        answers:
-          A: "1900"
-          B: "1920"
-          C: "1914"
-          D: "1933"
-    difficulty: EXPERT
-  - text: "Quel plat savoyard est un gratin de pommes de terre au reblochon ?"
-    answers:
-      A: "la raclette"
-      B: "la croziflette"
-      C: "la tartiflette"
-      D: "la fondue savoyarde"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Savoyard dish is a potato gratin with reblochon?"
-        answers:
-          A: "raclette"
-          B: "croziflette"
-          C: "tartiflette"
+          A: "Tartiflette"
+          B: "Gratin dauphinois"
+          C: "Raclette"
           D: "Savoyard fondue"
     difficulty: EASY
-  - text: "Quel cépage blanc donne les vins de Chablis ?"
+  - text: "Quel est l'ingrédient principal de la quiche lorraine traditionnelle ?"
     answers:
-      A: "le chardonnay"
-      B: "le riesling"
-      C: "le sauvignon"
-      D: "le chenin"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which white grape produces Chablis wines?"
-        answers:
-          A: "chardonnay"
-          B: "riesling"
-          C: "sauvignon"
-          D: "chenin"
-    difficulty: MEDIUM
-  - text: "Quelle distinction créée en 2020 par le Guide Michelin récompense les restaurants engagés dans une gastronomie durable ?"
-    answers:
-      A: "le Bib Gourmand"
-      B: "le label Écotable"
-      C: "le prix de l'innovation"
-      D: "l'étoile verte"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which distinction created in 2020 by the Michelin Guide rewards restaurants committed to sustainable gastronomy?"
-        answers:
-          A: "the Bib Gourmand"
-          B: "the Écotable label"
-          C: "the innovation prize"
-          D: "the green star"
-    difficulty: HARD
-  - text: "Quelles sont les cinq sauces mères codifiées par Auguste Escoffier ?"
-    answers:
-      A: "béchamel, bolognaise, carbonara, tomate, pesto"
-      B: "mayonnaise, aïoli, moutarde, pesto, ketchup"
-      C: "béchamel, velouté, espagnole, hollandaise, tomate"
-      D: "velouté, espagnole, béarnaise, hollandaise, tomate"
+      A: "Épinards"
+      B: "Saumon"
+      C: "Lardons"
+      D: "Champignons"
     correctAnswer: C
     translations:
       en:
-        text: "What are the five mother sauces codified by Auguste Escoffier?"
+        text: "What is the main ingredient of traditional quiche lorraine?"
         answers:
-          A: "béchamel, bolognese, carbonara, tomato, pesto"
-          B: "mayonnaise, aïoli, mustard, pesto, ketchup"
-          C: "béchamel, velouté, espagnole, hollandaise, tomato"
-          D: "velouté, espagnole, béarnaise, hollandaise, tomato"
-    difficulty: EXPERT
-  - text: "Avec quel vin moelleux du Bordelais accompagne-t-on souvent le foie gras ?"
+          A: "Spinach"
+          B: "Salmon"
+          C: "Bacon lardons"
+          D: "Mushrooms"
+    difficulty: MEDIUM
+  - text: "Quel fromage est utilisé dans la recette de la fondue savoyarde ?"
     answers:
-      A: "un chablis"
-      B: "un muscadet"
-      C: "un beaujolais"
-      D: "un sauternes"
-    correctAnswer: D
+      A: "Emmental"
+      B: "Tous ces fromages"
+      C: "Beaufort"
+      D: "Comté"
+    correctAnswer: B
     translations:
       en:
-        text: "With which sweet Bordeaux wine is foie gras often served?"
+        text: "Which cheese is used in the recipe for Savoyard fondue?"
         answers:
-          A: "a chablis"
-          B: "a muscadet"
-          C: "a beaujolais"
-          D: "a sauternes"
+          A: "Emmental"
+          B: "All of these cheeses"
+          C: "Beaufort"
+          D: "Comté"
     difficulty: MEDIUM
-  - text: "Quel plat traditionnel français est un bœuf mijoté au vin rouge avec des carottes et des lardons ?"
+  - text: "Quel est le nom du plat composé de légumes mijotés avec de la viande de mouton, typique du Sud-Ouest ?"
     answers:
-      A: "le pot-au-feu"
-      B: "le cassoulet"
-      C: "le bœuf bourguignon"
-      D: "la blanquette de veau"
+      A: "Cassoulet"
+      B: "Garbure"
+      C: "Pot-au-feu"
+      D: "Ratatouille"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dish made of vegetables simmered with mutton, typical of the Southwest?"
+        answers:
+          A: "Cassoulet"
+          B: "Garbure"
+          C: "Pot-au-feu"
+          D: "Ratatouille"
+    difficulty: HARD
+  - text: "Quel ingrédient est utilisé pour lier une sauce bordelaise ?"
+    answers:
+      A: "Farine"
+      B: "Crème"
+      C: "Beurre"
+      D: "Jaune d'œuf"
     correctAnswer: C
     translations:
       en:
-        text: "Which traditional French dish is beef simmered in red wine with carrots and bacon bits?"
+        text: "Which ingredient is used to thicken a bordelaise sauce?"
         answers:
-          A: "pot-au-feu"
-          B: "cassoulet"
-          C: "beef bourguignon"
-          D: "blanquette de veau"
-    difficulty: EASY
-  - text: "En quelle année Paul Bocuse a-t-il obtenu sa troisième étoile Michelin à Collonges-au-Mont-d'Or ?"
+          A: "Flour"
+          B: "Cream"
+          C: "Butter"
+          D: "Egg yolk"
+    difficulty: HARD
+  - text: "Quel plat traditionnel français est préparé avec des pommes de terre et du fromage, originaire d'Auvergne ?"
     answers:
-      A: "1958"
-      B: "1972"
-      C: "1965"
-      D: "1975"
+      A: "Aligot"
+      B: "Truffade"
+      C: "Gratin dauphinois"
+      D: "Tartiflette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which traditional French dish is made with potatoes and cheese, originally from Auvergne?"
+        answers:
+          A: "Aligot"
+          B: "Truffade"
+          C: "Gratin dauphinois"
+          D: "Tartiflette"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la sauce émulsionnée à base de beurre, d'échalotes et de vin blanc ?"
+    answers:
+      A: "Beurre blanc"
+      B: "Bordelaise"
+      C: "Béarnaise"
+      D: "Hollandaise"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the emulsified sauce made with butter, shallots and white wine?"
+        answers:
+          A: "Beurre blanc"
+          B: "Bordelaise"
+          C: "Béarnaise"
+          D: "Hollandaise"
+    difficulty: HARD
+  - text: "Quel ingrédient est essentiel pour préparer une sauce au poivre ?"
+    answers:
+      A: "Poivre noir"
+      B: "Poivre vert"
+      C: "Poivre blanc"
+      D: "Poivre de Sichuan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which ingredient is essential for making a pepper sauce?"
+        answers:
+          A: "Black pepper"
+          B: "Green peppercorns"
+          C: "White pepper"
+          D: "Sichuan pepper"
+    difficulty: EASY
+  - text: "Quel plat français est composé de crêpes empilées avec une sauce et du fromage, gratiné au four ?"
+    answers:
+      A: "Crêpes Suzette"
+      B: "Gâteau de crêpes"
+      C: "Crêpes farcies"
+      D: "Crêpes gratinées"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French dish consists of stacked crêpes with sauce and cheese, baked au gratin?"
+        answers:
+          A: "Crêpes Suzette"
+          B: "Crêpe cake"
+          C: "Stuffed crêpes"
+          D: "Crêpes au gratin"
+    difficulty: MEDIUM
+  - text: "Quelle est la quantité approximative de beurre nécessaire pour monter un beurre blanc pour 4 personnes selon la recette classique ?"
+    answers:
+      A: "50 g"
+      B: "100 g"
+      C: "500 g"
+      D: "250 g"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Approximately how much butter is needed to make a beurre blanc for 4 people according to the classic recipe?"
+        answers:
+          A: "50 g"
+          B: "100 g"
+          C: "500 g"
+          D: "250 g"
+    difficulty: EXPERT
+  - text: "Quel est le nom exact de la sauce mère à base de roux brun et de fond brun, utilisée pour les sauces brunes ?"
+    answers:
+      A: "Sauce bordelaise"
+      B: "Sauce demi-glace"
+      C: "Sauce espagnole"
+      D: "Sauce chasseur"
     correctAnswer: C
     translations:
       en:
-        text: "In what year did Paul Bocuse earn his third Michelin star in Collonges-au-Mont-d'Or?"
+        text: "What is the exact name of the mother sauce made from brown roux and brown stock, used for brown sauces?"
         answers:
-          A: "1958"
-          B: "1972"
-          C: "1965"
-          D: "1975"
-    difficulty: HARD
-  - text: "Comment appelle-t-on la découpe en petits dés réguliers d'environ 2 mm de côté ?"
-    answers:
-      A: "la julienne"
-      B: "la brunoise"
-      C: "la chiffonnade"
-      D: "la mirepoix"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the term for cutting into small regular dice of about 2 mm per side?"
-        answers:
-          A: "julienne"
-          B: "brunoise"
-          C: "chiffonnade"
-          D: "mirepoix"
+          A: "Bordelaise sauce"
+          B: "Demi-glace sauce"
+          C: "Espagnole sauce"
+          D: "Chasseur sauce"
     difficulty: EXPERT
-  - text: "Quel dessert est une crème renversée nappée de caramel ?"
+  - text: "Combien de temps faut-il traditionnellement laisser mijoter un cassoulet de Castelnaudary ?"
     answers:
-      A: "la crème brûlée"
-      B: "l'île flottante"
-      C: "le clafoutis"
-      D: "la crème caramel"
-    correctAnswer: D
+      A: "Environ 4 heures"
+      B: "Environ 1 heure"
+      C: "Environ 30 minutes"
+      D: "Environ 8 heures"
+    correctAnswer: A
     translations:
       en:
-        text: "Which dessert is a baked custard unmolded and coated with caramel?"
+        text: "How long should a Castelnaudary cassoulet traditionally be left to simmer?"
         answers:
-          A: "crème brûlée"
-          B: "île flottante"
-          C: "clafoutis"
-          D: "crème caramel"
-    difficulty: EASY
-  - text: "Quel fromage de Savoie à pâte pressée cuite entre traditionnellement dans la fondue savoyarde ?"
+          A: "About 4 hours"
+          B: "About 1 hour"
+          C: "About 30 minutes"
+          D: "About 8 hours"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la préparation culinaire à base de crème fraîche et de jaunes d'œufs, utilisée pour lier les sauces ?"
     answers:
-      A: "le roquefort"
-      B: "le beaufort"
-      C: "le reblochon"
-      D: "le camembert"
-    correctAnswer: B
+      A: "Une liaison normande"
+      B: "Une béchamel"
+      C: "Une duxelles"
+      D: "Une matelote"
+    correctAnswer: A
     translations:
       en:
-        text: "Which Savoie pressed cooked cheese is traditionally used in fondue savoyarde?"
+        text: "What is the name of the culinary preparation made from crème fraîche and egg yolks, used to thicken sauces?"
         answers:
-          A: "roquefort"
-          B: "beaufort"
-          C: "reblochon"
-          D: "camembert"
-    difficulty: MEDIUM
-  - text: "Avec quel hôtelier Auguste Escoffier a-t-il ouvert l'hôtel Ritz à Paris en 1898 ?"
-    answers:
-      A: "Louis Cartier"
-      B: "César Ritz"
-      C: "Antonin Carême"
-      D: "Ferdinand de Rothschild"
-    correctAnswer: B
-    translations:
-      en:
-        text: "With which hotelier did Auguste Escoffier open the Hôtel Ritz in Paris in 1898?"
-        answers:
-          A: "Louis Cartier"
-          B: "César Ritz"
-          C: "Antonin Carême"
-          D: "Ferdinand de Rothschild"
+          A: "A Norman liaison"
+          B: "A béchamel"
+          C: "A duxelles"
+          D: "A matelote"
     difficulty: HARD
-  - text: "Qu'appelle-t-on une « duxelles » en cuisine ?"
+  - text: "Quel fromage AOP de Normandie est traditionnellement utilisé dans la recette de la fondue normande ?"
     answers:
-      A: "une pâte à choux salée"
-      B: "une sauce à base de tomates confites"
-      C: "un hachis de champignons revenus au beurre"
-      D: "une préparation de poireaux fondus"
+      A: "Le camembert de Normandie"
+      B: "Le pont-l'évêque"
+      C: "Le livarot"
+      D: "Le neufchâtel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy is traditionally used in the recipe for Norman fondue?"
+        answers:
+          A: "Camembert de Normandie"
+          B: "Pont-l'évêque"
+          C: "Livarot"
+          D: "Neufchâtel"
+    difficulty: EXPERT
+  - text: "Quelle est la technique qui consiste à cuire une volaille en la retournant fréquemment dans un corps gras, sans liquide ?"
+    answers:
+      A: "À la broche"
+      B: "À la poêle"
+      C: "En cocotte"
+      D: "Rôtir à la broche"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the technique that consists of cooking poultry by frequently turning it in fat, without liquid?"
+        answers:
+          A: "On a spit"
+          B: "In a frying pan"
+          C: "In a casserole"
+          D: "Roasted on a spit"
+    difficulty: HARD
+  - text: "Quel est le nom de la garniture classique de la sole normande, composée de moules, crevettes et champignons ?"
+    answers:
+      A: "Garniture à la normande"
+      B: "Garniture à la dieppoise"
+      C: "Garniture à la bordelaise"
+      D: "Garniture à la bretonne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the classic garnish for sole normande, made of mussels, shrimp and mushrooms?"
+        answers:
+          A: "Normande garnish"
+          B: "Dieppoise garnish"
+          C: "Bordelaise garnish"
+          D: "Bretonne garnish"
+    difficulty: EXPERT
+  - text: "Quel est le pourcentage minimal de matière grasse du beurre AOP Charentes-Poitou ?"
+    answers:
+      A: "72 %"
+      B: "85 %"
+      C: "82 %"
+      D: "80 %"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum fat percentage of Charentes-Poitou PDO butter?"
+        answers:
+          A: "72%"
+          B: "85%"
+          C: "82%"
+          D: "80%"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plat traditionnel alsacien composé de poissons cuits au vin blanc et à la crème ?"
+    answers:
+      A: "La matelote"
+      B: "La choucroute de poisson"
+      C: "La carpe frite"
+      D: "Le baeckeoffe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the traditional Alsatian dish made of fish cooked in white wine and cream?"
+        answers:
+          A: "La matelote"
+          B: "Fish choucroute"
+          C: "Fried carp"
+          D: "Baeckeoffe"
+    difficulty: EXPERT
+  - text: "Quelle est la durée de cuisson traditionnelle d'un pot-au-feu à petit feu ?"
+    answers:
+      A: "1 heure"
+      B: "2 heures"
+      C: "4 heures"
+      D: "3 heures"
     correctAnswer: C
     translations:
       en:
-        text: "What is a 'duxelles' in cooking?"
+        text: "What is the traditional cooking time for a pot-au-feu over low heat?"
         answers:
-          A: "a savory choux pastry"
-          B: "a sauce made from confit tomatoes"
-          C: "a hash of mushrooms sautéed in butter"
-          D: "a preparation of softened leeks"
+          A: "1 hour"
+          B: "2 hours"
+          C: "4 hours"
+          D: "3 hours"
     difficulty: EXPERT
-  - text: "Le calvados est une eau-de-vie obtenue à partir de quel fruit ?"
+  - text: "Quel est le nom de la pâte à choux salée utilisée pour les gougères ?"
     answers:
-      A: "la poire"
-      B: "la pomme"
-      C: "le raisin"
-      D: "la prune"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Calvados is a brandy made from which fruit?"
-        answers:
-          A: "pear"
-          B: "apple"
-          C: "grape"
-          D: "plum"
-    difficulty: EASY
-  - text: "Que désigne la « mise en place » dans le travail d'une cuisine professionnelle ?"
-    answers:
-      A: "la préparation des ingrédients avant le service"
-      B: "le nettoyage de fin de service"
-      C: "le rangement de la cave"
-      D: "la décoration de l'assiette"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What does 'mise en place' refer to in a professional kitchen?"
-        answers:
-          A: "preparing ingredients before service"
-          B: "cleaning up after service"
-          C: "organizing the cellar"
-          D: "plating the dish"
-    difficulty: MEDIUM
-  - text: "Quelle pêche pochée servie avec une glace vanille et un coulis de framboise a été créée par Escoffier pour une cantatrice ?"
-    answers:
-      A: "la poire Belle Hélène"
-      B: "la banane flambée"
-      C: "la fraise Romanoff"
-      D: "la pêche Melba"
+      A: "Pâte brisée"
+      B: "Pâte sablée"
+      C: "Pâte feuilletée"
+      D: "Pâte à choux"
     correctAnswer: D
     translations:
       en:
-        text: "Which poached peach served with vanilla ice cream and raspberry coulis was created by Escoffier for a singer?"
+        text: "What is the name of the savory choux pastry used for gougères?"
         answers:
-          A: "poire Belle Hélène"
-          B: "banane flambée"
-          C: "fraise Romanoff"
-          D: "pêche Melba"
-    difficulty: HARD
-  - text: "Quel mélange de beurre et de farine crues sert à lier une sauce en fin de cuisson ?"
+          A: "Shortcrust pastry"
+          B: "Sweet shortcrust pastry"
+          C: "Puff pastry"
+          D: "Choux pastry"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plat de poisson de la cuisine lyonnaise, composé de poissons d'eau douce en sauce au vin rouge ?"
     answers:
-      A: "le roux"
-      B: "le beurre noisette"
-      C: "le beurre manié"
-      D: "le beurre clarifié"
+      A: "La quenelle de brochet"
+      B: "La matelote d'anguilles"
+      C: "Le tablier de sapeur"
+      D: "Le gratin de queues d'écrevisses"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Lyonnaise fish dish made of freshwater fish in red wine sauce?"
+        answers:
+          A: "Pike quenelle"
+          B: "Eel matelote"
+          C: "Tablier de sapeur"
+          D: "Crayfish tail gratin"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sauce émulsionnée froide à base de moutarde ?"
+    answers:
+      A: "La vinaigrette"
+      B: "La mayonnaise"
+      C: "La rémoulade"
+      D: "L'aïoli"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the cold emulsified mustard-based sauce?"
+        answers:
+          A: "Vinaigrette"
+          B: "Mayonnaise"
+          C: "Rémoulade"
+          D: "Aïoli"
+    difficulty: HARD
+  - text: "Quel est le nom du fromage utilisé dans la recette de la gougère bourguignonne ?"
+    answers:
+      A: "L'emmental"
+      B: "Le gruyère"
+      C: "Le comté"
+      D: "Le beaufort"
     correctAnswer: C
     translations:
       en:
-        text: "Which mixture of raw butter and flour is used to thicken a sauce at the end of cooking?"
+        text: "What is the name of the cheese used in the Burgundian gougère recipe?"
         answers:
-          A: "roux"
-          B: "beurre noisette"
-          C: "beurre manié"
-          D: "clarified butter"
+          A: "Emmental"
+          B: "Gruyère"
+          C: "Comté"
+          D: "Beaufort"
     difficulty: EXPERT
-  - text: "Quelle région française est réputée pour son cidre et son calvados ?"
+  - text: "Quel est le nom du plat de légumes provençal composé de tomates, courgettes, aubergines et poivrons cuits séparément puis réunis ?"
     answers:
-      A: "la Provence"
-      B: "la Normandie"
-      C: "l'Alsace"
-      D: "le Bordelais"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which French region is known for its cider and calvados?"
-        answers:
-          A: "Provence"
-          B: "Normandy"
-          C: "Alsace"
-          D: "Bordeaux region"
-    difficulty: EASY
-  - text: "Que signifie « napper » une préparation en cuisine ?"
-    answers:
-      A: "la plonger dans l'eau glacée"
-      B: "la saupoudrer d'épices"
-      C: "la recouvrir de sauce"
-      D: "la découper en tranches fines"
+      A: "La pissaladière"
+      B: "La bohémienne"
+      C: "La ratatouille"
+      D: "La tapenade"
     correctAnswer: C
     translations:
       en:
-        text: "What does 'napper' a preparation mean in cooking?"
+        text: "What is the name of the Provençal vegetable dish made of tomatoes, zucchini, eggplant and peppers cooked separately then combined?"
         answers:
-          A: "plunge it into ice water"
-          B: "sprinkle it with spices"
-          C: "cover it with sauce"
-          D: "cut it into thin slices"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on le mélange de beurre et de farine cuit, base de nombreuses sauces ?"
+          A: "Pissaladière"
+          B: "Bohémienne"
+          C: "Ratatouille"
+          D: "Tapenade"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la technique qui consiste à cuire les aliments dans un sirop de sucre pour les confire ?"
     answers:
-      A: "une liaison"
-      B: "une duxelles"
-      C: "une réduction"
-      D: "un roux"
+      A: "La macération"
+      B: "La confiserie"
+      C: "Le confitage"
+      D: "La cristallisation"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the technique that consists of cooking food in sugar syrup to candy it?"
+        answers:
+          A: "Maceration"
+          B: "Confectionery"
+          C: "Confitage"
+          D: "Crystallization"
+    difficulty: HARD
+  - text: "Quel est le nom du plat traditionnel breton à base de pois cassés et de lard ?"
+    answers:
+      A: "Le kig ha farz"
+      B: "La cotriade"
+      C: "Le far breton"
+      D: "Le galetou"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the traditional Breton dish made with split peas and bacon?"
+        answers:
+          A: "Kig ha farz"
+          B: "Cotriade"
+          C: "Far breton"
+          D: "Galetou"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la préparation à base de champignons hachés et cuits au beurre, utilisée comme garniture ?"
+    answers:
+      A: "Une brunoise"
+      B: "Une salpicon"
+      C: "Une duxelles"
+      D: "Une julienne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the preparation made of chopped mushrooms cooked in butter, used as a garnish?"
+        answers:
+          A: "A brunoise"
+          B: "A salpicon"
+          C: "A duxelles"
+          D: "A julienne"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dessert périgourdin composé de pommes cuites au four avec une pâte brisée ?"
+    answers:
+      A: "La tarte Tatin"
+      B: "Le clafoutis"
+      C: "La flognarde"
+      D: "Le millas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the Périgord dessert made of apples baked with shortcrust pastry?"
+        answers:
+          A: "Tarte Tatin"
+          B: "Clafoutis"
+          C: "Flognarde"
+          D: "Millas"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plat de bœuf braisé à la bière, spécialité du Nord-Pas-de-Calais ?"
+    answers:
+      A: "Le potjevleesch"
+      B: "Le hochepot"
+      C: "Le waterzooi"
+      D: "La carbonnade flamande"
     correctAnswer: D
     translations:
       en:
-        text: "What is the cooked mixture of butter and flour that is the base of many sauces called?"
+        text: "What is the name of the beef braised in beer, a specialty of Nord-Pas-de-Calais?"
         answers:
-          A: "a liaison"
-          B: "a duxelles"
-          C: "a reduction"
-          D: "a roux"
-    difficulty: HARD
-  - text: "Quelle durée minimale d'affinage l'AOP comté impose-t-elle ?"
+          A: "Potjevleesch"
+          B: "Hochepot"
+          C: "Waterzooi"
+          D: "Carbonnade flamande"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sauce mère à base de roux blond et de lait ?"
     answers:
-      A: "2 mois"
-      B: "4 mois"
-      C: "8 mois"
-      D: "12 mois"
+      A: "Sauce espagnole"
+      B: "Sauce velouté"
+      C: "Sauce béchamel"
+      D: "Sauce tomate"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the mother sauce made from blond roux and milk?"
+        answers:
+          A: "Espagnole sauce"
+          B: "Velouté sauce"
+          C: "Béchamel sauce"
+          D: "Tomato sauce"
+    difficulty: HARD
+  - text: "Combien de sauces mères classiques composent la base de la cuisine française selon Escoffier ?"
+    answers:
+      A: "Trois"
+      B: "Cinq"
+      C: "Quatre"
+      D: "Six"
     correctAnswer: B
     translations:
       en:
-        text: "What minimum aging period does the Comté PDO require?"
+        text: "How many classic mother sauces form the basis of French cuisine according to Escoffier?"
         answers:
-          A: "2 months"
-          B: "4 months"
-          C: "8 months"
-          D: "12 months"
+          A: "Three"
+          B: "Five"
+          C: "Four"
+          D: "Six"
     difficulty: EXPERT
-  - text: "Dans quel ordre sont servis les plats d'un repas gastronomique français traditionnel ?"
+  - text: "Quel fromage AOP de Savoie est utilisé dans la fondue savoyarde aux côtés du Beaufort et du Comté ?"
     answers:
-      A: "fromage, entrée, plat, dessert"
-      B: "entrée, fromage, plat, dessert"
-      C: "plat, entrée, dessert, fromage"
-      D: "entrée, plat, fromage, dessert"
+      A: "Tome des Bauges"
+      B: "Reblochon"
+      C: "Tomme de Savoie"
+      D: "Abondance"
     correctAnswer: D
     translations:
       en:
-        text: "In what order are the courses of a traditional French gastronomic meal served?"
+        text: "Which AOP cheese from Savoie is used in fondue savoyarde alongside Beaufort and Comté?"
         answers:
-          A: "cheese, starter, main course, dessert"
-          B: "starter, cheese, main course, dessert"
-          C: "main course, starter, dessert, cheese"
-          D: "starter, main course, cheese, dessert"
+          A: "Tome des Bauges"
+          B: "Reblochon"
+          C: "Tomme de Savoie"
+          D: "Abondance"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la technique qui consiste à cuire une volaille en la retournant fréquemment dans un corps gras, sans liquide ?"
+    answers:
+      A: "Braiser"
+      B: "Rôtir"
+      C: "Poêler"
+      D: "Griller"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the technique that involves cooking poultry by frequently turning it in fat, without liquid?"
+        answers:
+          A: "Braiser"
+          B: "Rôtir"
+          C: "Poêler"
+          D: "Griller"
+    difficulty: HARD
+  - text: "Quel est le nom de la garniture classique de la sole normande ?"
+    answers:
+      A: "Moules, crevettes et champignons"
+      B: "Huîtres, échalotes et persil"
+      C: "Pommes de terre et cidre"
+      D: "Choux et lardons"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the classic garnish for sole normande?"
+        answers:
+          A: "Mussels, shrimp and mushrooms"
+          B: "Oysters, shallots and parsley"
+          C: "Potatoes and cider"
+          D: "Cabbage and bacon"
+    difficulty: EXPERT
+  - text: "Quel plat traditionnel alsacien est composé de poissons cuits au vin blanc et à la crème ?"
+    answers:
+      A: "Matelote"
+      B: "Pauchouse"
+      C: "Baeckeoffe"
+      D: "Choucroute de poisson"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which traditional Alsatian dish is made of fish cooked in white wine and cream?"
+        answers:
+          A: "Matelote"
+          B: "Pauchouse"
+          C: "Baeckeoffe"
+          D: "Fish choucroute"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la sauce mère à base de roux brun et de fond brun, utilisée pour les sauces brunes ?"
+    answers:
+      A: "Sauce espagnole"
+      B: "Sauce velouté"
+      C: "Sauce demi-glace"
+      D: "Sauce bordelaise"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the mother sauce made from brown roux and brown stock, used for brown sauces?"
+        answers:
+          A: "Espagnole sauce"
+          B: "Velouté sauce"
+          C: "Demi-glace sauce"
+          D: "Bordelaise sauce"
+    difficulty: HARD
+  - text: "Quel est le nom exact de la sauce mère à base de roux blond et de fond blanc, utilisée pour les sauces blanches ?"
+    answers:
+      A: "Sauce allemande"
+      B: "Sauce béchamel"
+      C: "Sauce velouté"
+      D: "Sauce suprême"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the exact name of the mother sauce made from blond roux and white stock, used for white sauces?"
+        answers:
+          A: "Allemande sauce"
+          B: "Béchamel sauce"
+          C: "Velouté sauce"
+          D: "Suprême sauce"
+    difficulty: EXPERT
+  - text: "Quel ingrédient entre dans la composition de la sauce Nantua ?"
+    answers:
+      A: "Champignons de Paris"
+      B: "Truffes"
+      C: "Écrevisses"
+      D: "Moules"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ingredient is part of the composition of Nantua sauce?"
+        answers:
+          A: "Button mushrooms"
+          B: "Truffles"
+          C: "Crayfish"
+          D: "Mussels"
+    difficulty: HARD
+  - text: "Quel est le nom du fromage utilisé dans la recette traditionnelle de la sauce Mornay ?"
+    answers:
+      A: "Comté"
+      B: "Gruyère"
+      C: "Emmental"
+      D: "Parmesan"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the cheese used in the traditional recipe for Mornay sauce?"
+        answers:
+          A: "Comté"
+          B: "Gruyère"
+          C: "Emmental"
+          D: "Parmesan"
+    difficulty: MEDIUM
+  - text: "Quelle est la particularité du beurre utilisé dans la sauce hollandaise ?"
+    answers:
+      A: "Il est fondu et mousseux"
+      B: "Il est noisette"
+      C: "Il est clarifié"
+      D: "Il est demi-sel"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is special about the butter used in hollandaise sauce?"
+        answers:
+          A: "It is melted and foamy"
+          B: "It is hazelnut"
+          C: "It is clarified"
+          D: "It is semi-salted"
+    difficulty: HARD
+  - text: "Quel est le nom du plat traditionnel français composé de morue pochée à l'huile et servie avec des pommes de terre et des œufs durs ?"
+    answers:
+      A: "Morue à la lyonnaise"
+      B: "Morue à la provençale"
+      C: "Estouffade de morue"
+      D: "Brandade de morue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the traditional French dish made of cod poached in oil and served with potatoes and hard-boiled eggs?"
+        answers:
+          A: "Morue à la lyonnaise"
+          B: "Morue à la provençale"
+          C: "Estouffade de morue"
+          D: "Brandade de morue"
+    difficulty: HARD
+  - text: "Quel est le nom de la préparation à base de jaunes d'œufs et de beurre clarifié, montée au fouet, utilisée pour la sauce béarnaise ?"
+    answers:
+      A: "Hollandaise"
+      B: "Béchamel"
+      C: "Sabayon"
+      D: "Vinaigrette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the preparation made from egg yolks and clarified butter, whisked, used for béarnaise sauce?"
+        answers:
+          A: "Hollandaise"
+          B: "Béchamel"
+          C: "Sabayon"
+          D: "Vinaigrette"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plat de bœuf braisé à la tomate et aux olives, spécialité de la cuisine niçoise ?"
+    answers:
+      A: "Estouffade"
+      B: "Bœuf à la mode"
+      C: "Daube niçoise"
+      D: "Bœuf bourguignon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the beef dish braised with tomato and olives, a specialty of Niçoise cuisine?"
+        answers:
+          A: "Estouffade"
+          B: "Bœuf à la mode"
+          C: "Daube niçoise"
+          D: "Bœuf bourguignon"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la technique qui consiste à cuire une viande dans un liquide frémissant, sans ébullition, pour la rendre moelleuse ?"
+    answers:
+      A: "Pochage"
+      B: "Mijotage"
+      C: "Braisiage"
+      D: "Rôtissage"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the technique that involves cooking meat in a simmering liquid, without boiling, to make it tender?"
+        answers:
+          A: "Poaching"
+          B: "Stewing"
+          C: "Braising"
+          D: "Roasting"
+    difficulty: MEDIUM
+  - text: "Quel ingrédient est ajouté à la sauce béchamel pour obtenir une sauce Mornay ?"
+    answers:
+      A: "Beurre"
+      B: "Crème fraîche"
+      C: "Jaunes d'œufs"
+      D: "Fromage râpé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which ingredient is added to béchamel sauce to make Mornay sauce?"
+        answers:
+          A: "Butter"
+          B: "Crème fraîche"
+          C: "Egg yolks"
+          D: "Grated cheese"
     difficulty: EASY
-  - text: "Avec quelle sauce la quenelle de brochet lyonnaise est-elle traditionnellement servie ?"
+  - text: "Quel est le nom du plat traditionnel français composé de pommes de terre râpées et cuites à la poêle, spécialité du Massif central ?"
     answers:
-      A: "la sauce hollandaise"
-      B: "la sauce Nantua"
-      C: "la sauce au poivre"
-      D: "la sauce tomate"
+      A: "Aligot"
+      B: "Truffade"
+      C: "Gratin dauphinois"
+      D: "Rösti"
     correctAnswer: B
     translations:
       en:
-        text: "What sauce is Lyon-style pike quenelle traditionally served with?"
+        text: "What is the name of the traditional French dish made of grated potatoes cooked in a pan, a specialty of the Massif Central?"
         answers:
-          A: "hollandaise sauce"
-          B: "Nantua sauce"
-          C: "pepper sauce"
-          D: "tomato sauce"
-    difficulty: MEDIUM
-  - text: "Que signifie « déglacer » une poêle après cuisson d'une viande ?"
+          A: "Aligot"
+          B: "Truffade"
+          C: "Gratin dauphinois"
+          D: "Rösti"
+    difficulty: HARD
+  - text: "Quel est le nom de la sauce émulsionnée chaude à base de beurre, de jaunes d'œufs et de vinaigre, parfois additionnée d'estragon ?"
     answers:
-      A: "refroidir rapidement la poêle"
-      B: "retirer l'excédent de graisse"
-      C: "ajouter de la crème en fin de cuisson"
-      D: "dissoudre les sucs avec un liquide"
+      A: "Choron"
+      B: "Hollandaise"
+      C: "Foyot"
+      D: "Béarnaise"
     correctAnswer: D
     translations:
       en:
-        text: "What does \"deglazing\" a pan after cooking meat mean?"
+        text: "What is the name of the hot emulsified sauce made with butter, egg yolks and vinegar, sometimes with tarragon added?"
         answers:
-          A: "quickly cooling the pan"
-          B: "removing excess fat"
-          C: "adding cream at the end of cooking"
-          D: "dissolving the browned bits with a liquid"
+          A: "Choron"
+          B: "Hollandaise"
+          C: "Foyot"
+          D: "Béarnaise"
     difficulty: HARD
-  - text: "Quel fromage frais corse, obtenu à partir de lactosérum, entre dans la fabrication du fiadone ?"
+  - text: "Quel est le nom du plat traditionnel français composé de poireaux et de pommes de terre cuits dans un bouillon, servi avec une vinaigrette ?"
     answers:
-      A: "le brocciu"
-      B: "le venaco"
-      C: "le calenzana"
-      D: "le sartinesu"
+      A: "Potée"
+      B: "Poule au pot"
+      C: "Pot-au-feu"
+      D: "Garbure"
     correctAnswer: A
     translations:
       en:
-        text: "Which Corsican fresh cheese, made from whey, is used to make fiadone?"
+        text: "What is the name of the traditional French dish made of leeks and potatoes cooked in broth, served with vinaigrette?"
         answers:
-          A: "brocciu"
-          B: "venaco"
-          C: "calenzana"
-          D: "sartinesu"
-    difficulty: EXPERT
-  - text: "Comment appelle-t-on la petite bouchée salée servie au début du repas, avant l'entrée ?"
+          A: "Potée"
+          B: "Poule au pot"
+          C: "Pot-au-feu"
+          D: "Garbure"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du fromage AOP de Corse utilisé dans la recette de la fondue corse ?"
     answers:
-      A: "un digestif"
-      B: "une garniture"
-      C: "un entremets"
-      D: "un amuse-bouche"
+      A: "Brocciu"
+      B: "Tomme"
+      C: "Roquefort"
+      D: "Ossau-Iraty"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Corsican PDO cheese used in the recipe for Corsican fondue?"
+        answers:
+          A: "Brocciu"
+          B: "Tomme"
+          C: "Roquefort"
+          D: "Ossau-Iraty"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plat traditionnel français composé de choux farcis à la viande et au riz, spécialité du Sud-Ouest ?"
+    answers:
+      A: "Caillette"
+      B: "Farcidure"
+      C: "Pounti"
+      D: "Chou farci"
     correctAnswer: D
     translations:
       en:
-        text: "What is the small savory bite served at the start of a meal, before the starter, called?"
+        text: "What is the name of the traditional French dish made of cabbage stuffed with meat and rice, a specialty of the Southwest?"
         answers:
-          A: "a digestif"
-          B: "a garnish"
-          C: "an entremets"
-          D: "an amuse-bouche"
+          A: "Caillette"
+          B: "Farcidure"
+          C: "Pounti"
+          D: "Chou farci"
+    difficulty: HARD
+  - text: "Quel est le nom de la préparation à base de vin rouge, d'échalotes et de beurre, servant à accompagner les viandes rouges ?"
+    answers:
+      A: "Sauce marchand de vin"
+      B: "Sauce bordelaise"
+      C: "Sauce bourguignonne"
+      D: "Sauce Robert"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the preparation made with red wine, shallots and butter, served with red meats?"
+        answers:
+          A: "Sauce marchand de vin"
+          B: "Sauce bordelaise"
+          C: "Sauce bourguignonne"
+          D: "Sauce Robert"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plat traditionnel français composé de tripes cuites au cidre, spécialité normande ?"
+    answers:
+      A: "Tripes à la bourguignonne"
+      B: "Tripes à la lyonnaise"
+      C: "Tripes à la provençale"
+      D: "Tripes à la mode de Caen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the traditional French dish made of tripe cooked in cider, a Norman specialty?"
+        answers:
+          A: "Tripes à la bourguignonne"
+          B: "Tripes à la lyonnaise"
+          C: "Tripes à la provençale"
+          D: "Tripes à la mode de Caen"
+    difficulty: HARD
+  - text: "Quel est le nom de la technique qui consiste à cuire des légumes dans un mélange de beurre et d'eau, à couvert, pour les attendrir ?"
+    answers:
+      A: "Étuvée"
+      B: "Braisiage"
+      C: "Pochage"
+      D: "Glacer"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the technique that involves cooking vegetables in a mixture of butter and water, covered, to soften them?"
+        answers:
+          A: "Étuvée"
+          B: "Braisiage"
+          C: "Pochage"
+          D: "Glacer"
+    difficulty: HARD
+  - text: "Quel est le nom du fromage AOP de Savoie utilisé dans la recette de la raclette ?"
+    answers:
+      A: "Beaufort"
+      B: "Raclette de Savoie"
+      C: "Abondance"
+      D: "Reblochon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Savoy PDO cheese used in the recipe for raclette?"
+        answers:
+          A: "Beaufort"
+          B: "Raclette de Savoie"
+          C: "Abondance"
+          D: "Reblochon"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du plat traditionnel français composé de pommes de terre et de fromage fondu, spécialité de l'Aubrac ?"
+    answers:
+      A: "Gratin dauphinois"
+      B: "Truffade"
+      C: "Aligot"
+      D: "Raclette"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the traditional French dish made of potatoes and melted cheese, a specialty of Aubrac?"
+        answers:
+          A: "Gratin dauphinois"
+          B: "Truffade"
+          C: "Aligot"
+          D: "Raclette"
+    difficulty: HARD
+  - text: "Quel est le nom de la sauce émulsionnée froide à base de jaunes d'œufs, de moutarde et d'huile ?"
+    answers:
+      A: "Mayonnaise"
+      B: "Aïoli"
+      C: "Rouille"
+      D: "Vinaigrette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the cold emulsified sauce made with egg yolks, mustard and oil?"
+        answers:
+          A: "Mayonnaise"
+          B: "Aïoli"
+          C: "Rouille"
+          D: "Vinaigrette"
     difficulty: EASY
-  - text: "Quelle pâtisserie bordelaise est un petit gâteau caramélisé à la forme cannelée ?"
+  - text: "Quel est le nom du plat traditionnel français composé de poissons cuits au vin rouge, spécialité de la cuisine lyonnaise ?"
     answers:
-      A: "le cannelé"
-      B: "le kouign-amann"
-      C: "la tropézienne"
-      D: "le canistrelli"
-    correctAnswer: A
+      A: "Quenelles"
+      B: "Bouillabaisse"
+      C: "Bourride"
+      D: "Matelote"
+    correctAnswer: D
     translations:
       en:
-        text: "Which Bordeaux pastry is a small caramelized cake with a fluted shape?"
+        text: "What is the name of the traditional French dish made of fish cooked in red wine, a specialty of Lyonnaise cuisine?"
         answers:
-          A: "the cannelé"
-          B: "the kouign-amann"
-          C: "the tropézienne"
-          D: "the canistrelli"
-    difficulty: MEDIUM
-  - text: "Selon l'inscription de l'UNESCO, un repas gastronomique français comprend au minimum combien de plats ?"
-    answers:
-      A: "quatre"
-      B: "trois"
-      C: "deux"
-      D: "cinq"
-    correctAnswer: A
-    translations:
-      en:
-        text: "According to the UNESCO inscription, a French gastronomic meal includes a minimum of how many courses?"
-        answers:
-          A: "four"
-          B: "three"
-          C: "two"
-          D: "five"
+          A: "Quenelles"
+          B: "Bouillabaisse"
+          C: "Bourride"
+          D: "Matelote"
     difficulty: HARD
-  - text: "Quelle charcuterie corse est une saucisse de foie de porc séchée, traditionnellement grillée ?"
+  - text: "Quel est le nom de la sauce à base de vin rouge, d'échalotes et de moelle, servie avec le bœuf à la ficelle ?"
     answers:
-      A: "le lonzu"
-      B: "le figatellu"
-      C: "le prisuttu"
-      D: "la coppa"
+      A: "Sauce bourguignonne"
+      B: "Sauce marchand de vin"
+      C: "Sauce bordelaise"
+      D: "Sauce lyonnaise"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the sauce made with red wine, shallots and bone marrow, served with bœuf à la ficelle?"
+        answers:
+          A: "Sauce bourguignonne"
+          B: "Sauce marchand de vin"
+          C: "Sauce bordelaise"
+          D: "Sauce lyonnaise"
+    difficulty: EXPERT
+  - text: "Quel plat traditionnel français est composé de morue pochée à l'huile et servie avec des pommes de terre et des œufs durs ?"
+    answers:
+      A: "Morue à la lyonnaise"
+      B: "Morue à la provençale"
+      C: "Estofinade"
+      D: "Brandade de morue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which traditional French dish is made of cod poached in oil and served with potatoes and hard-boiled eggs?"
+        answers:
+          A: "Morue à la lyonnaise"
+          B: "Morue à la provençale"
+          C: "Estofinade"
+          D: "Brandade de morue"
+    difficulty: HARD
+  - text: "Quel est le nom du plat traditionnel français composé de lamproie cuite au vin rouge, spécialité du Bordelais ?"
+    answers:
+      A: "Lamproie à la provençale"
+      B: "Lamproie à la normande"
+      C: "Lamproie à la bordelaise"
+      D: "Lamproie à la bourguignonne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the traditional French dish made of lamprey cooked in red wine, a specialty of the Bordeaux region?"
+        answers:
+          A: "Lamproie à la provençale"
+          B: "Lamproie à la normande"
+          C: "Lamproie à la bordelaise"
+          D: "Lamproie à la bourguignonne"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fromage AOP de Savoie utilisé dans la recette de la fondue savoyarde aux côtés du Beaufort et du Comté ?"
+    answers:
+      A: "Tomme de Savoie"
+      B: "Reblochon"
+      C: "Abondance"
+      D: "Emmental de Savoie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the AOP cheese from Savoie used in the Savoyard fondue recipe alongside Beaufort and Comté?"
+        answers:
+          A: "Tomme de Savoie"
+          B: "Reblochon"
+          C: "Abondance"
+          D: "Emmental de Savoie"
+    difficulty: HARD
+  - text: "Quelle est la quantité approximative de beurre nécessaire pour réaliser un beurre blanc classique ?"
+    answers:
+      A: "Environ 50 g"
+      B: "Environ 250 g"
+      C: "Environ 100 g"
+      D: "Environ 500 g"
     correctAnswer: B
     translations:
       en:
-        text: "Which Corsican charcuterie is a dried pork liver sausage, traditionally grilled?"
+        text: "What is the approximate amount of butter needed to make a classic beurre blanc?"
         answers:
-          A: "lonzu"
-          B: "figatellu"
-          C: "prisuttu"
-          D: "coppa"
+          A: "About 50 g"
+          B: "About 250 g"
+          C: "About 100 g"
+          D: "About 500 g"
     difficulty: EXPERT
-  - text: "Quelle spécialité niçoise est une galette de farine de pois chiches cuite au four ?"
+  - text: "Quel est le nom de la sauce émulsionnée froide à base d'huile et de jaune d'œuf, parfois additionnée de moutarde ?"
     answers:
-      A: "la socca"
-      B: "la pissaladière"
-      C: "la panisse"
-      D: "la fougasse"
+      A: "Sauce gribiche"
+      B: "Sauce rémoulade"
+      C: "Sauce ravigote"
+      D: "Sauce aïoli"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the cold emulsified sauce made from oil and egg yolk, sometimes with mustard added?"
+        answers:
+          A: "Sauce gribiche"
+          B: "Sauce rémoulade"
+          C: "Sauce ravigote"
+          D: "Sauce aïoli"
+    difficulty: EASY
+  - text: "Quel fromage AOP de Normandie est utilisé dans la recette de la sauce normande ?"
+    answers:
+      A: "Pont-l'Évêque"
+      B: "Camembert de Normandie"
+      C: "Livarot"
+      D: "Neufchâtel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Normandy is used in the recipe for sauce normande?"
+        answers:
+          A: "Pont-l'Évêque"
+          B: "Camembert de Normandie"
+          C: "Livarot"
+          D: "Neufchâtel"
+    difficulty: HARD
+  - text: "Quelle est la particularité de la pâte à choux utilisée pour les gougères ?"
+    answers:
+      A: "Elle est sucrée"
+      B: "Elle est additionnée de fromage râpé"
+      C: "Elle est levée à la levure de boulanger"
+      D: "Elle est feuilletée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is special about the choux pastry used for gougères?"
+        answers:
+          A: "It is sweet"
+          B: "Grated cheese is added to it"
+          C: "It is raised with baker's yeast"
+          D: "It is puff pastry"
+    difficulty: HARD
+  - text: "Quel est le nom du plat traditionnel français composé de morue pochée à l'huile d'olive et servie avec des pommes de terre et des œufs durs ?"
+    answers:
+      A: "Brandade de morue"
+      B: "Morue à la provençale"
+      C: "Estofinado"
+      D: "Morue à la portugaise"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the traditional French dish made of cod poached in olive oil and served with potatoes and hard-boiled eggs?"
+        answers:
+          A: "Brandade de morue"
+          B: "Morue à la provençale"
+          C: "Estofinado"
+          D: "Morue à la portugaise"
+    difficulty: HARD
+  - text: "Quelle est la durée approximative de cuisson d'un pot-au-feu traditionnel ?"
+    answers:
+      A: "1 heure"
+      B: "4 heures"
+      C: "2 heures"
+      D: "8 heures"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate cooking time for a traditional pot-au-feu?"
+        answers:
+          A: "1 hour"
+          B: "4 hours"
+          C: "2 hours"
+          D: "8 hours"
+    difficulty: HARD
+  - text: "Quel fromage AOP de Savoie est utilisé dans la recette de la fondue savoyarde aux côtés du Beaufort et du Comté ?"
+    answers:
+      A: "Abondance"
+      B: "Reblochon"
+      C: "Tomme de Savoie"
+      D: "Emmental de Savoie"
     correctAnswer: A
     translations:
       en:
-        text: "Which Nice specialty is a chickpea flour flatbread baked in the oven?"
+        text: "Which AOP cheese from Savoie is used in the Savoyard fondue recipe alongside Beaufort and Comté?"
         answers:
-          A: "socca"
-          B: "pissaladière"
-          C: "panisse"
-          D: "fougasse"
+          A: "Abondance"
+          B: "Reblochon"
+          C: "Tomme de Savoie"
+          D: "Emmental de Savoie"
+    difficulty: HARD
+  - text: "Quel est le nom de la sauce mère à base de tomates fraîches, de roux et de fond blanc, parfois appelée « sauce brune » ?"
+    answers:
+      A: "Sauce espagnole"
+      B: "Sauce bordelaise"
+      C: "Sauce demi-glace"
+      D: "Sauce tomate"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the mother sauce made from fresh tomatoes, roux and white stock, sometimes called \"brown sauce\"?"
+        answers:
+          A: "Sauce espagnole"
+          B: "Sauce bordelaise"
+          C: "Sauce demi-glace"
+          D: "Sauce tomate"
+    difficulty: EXPERT
+  - text: "Quelle est la particularité de la « sauce vierge » en cuisine française ?"
+    answers:
+      A: "Elle est servie chaude et montée au beurre"
+      B: "Elle est liée au jaune d'œuf et servie tiède"
+      C: "Elle est émulsionnée à l'huile d'olive, citron et tomates concassées, servie froide"
+      D: "Elle est préparée avec un roux et du fond de veau"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is special about \"sauce vierge\" in French cuisine?"
+        answers:
+          A: "It is served hot and finished with butter"
+          B: "It is thickened with egg yolk and served warm"
+          C: "It is emulsified with olive oil, lemon and chopped tomatoes, served cold"
+          D: "It is made with a roux and veal stock"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plat traditionnel français composé de pommes de terre et de tome de Savoie fondue, spécialité de la Maurienne ?"
+    answers:
+      A: "La tartiflette"
+      B: "La croziflette"
+      C: "La raclette"
+      D: "La péla"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the traditional French dish made of potatoes and melted tome de Savoie, a specialty of the Maurienne?"
+        answers:
+          A: "La tartiflette"
+          B: "La croziflette"
+          C: "La raclette"
+          D: "La péla"
+    difficulty: EXPERT
+  - text: "Quel est le nom exact de la sauce émulsionnée chaude à base de beurre clarifié et de jaunes d'œufs, montée au fouet, aromatisée au citron ?"
+    answers:
+      A: "Sauce béarnaise"
+      B: "Sauce mousseline"
+      C: "Sauce hollandaise"
+      D: "Sauce maltaise"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the exact name of the hot emulsified sauce made from clarified butter and egg yolks, whisked, flavored with lemon?"
+        answers:
+          A: "Sauce béarnaise"
+          B: "Sauce mousseline"
+          C: "Sauce hollandaise"
+          D: "Sauce maltaise"
+    difficulty: EXPERT
+  - text: "Quel fromage AOP de Savoie est utilisé dans la recette de la raclette ?"
+    answers:
+      A: "Beaufort"
+      B: "Abondance"
+      C: "Tomme de Savoie"
+      D: "Raclette de Savoie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which AOP cheese from Savoie is used in the raclette recipe?"
+        answers:
+          A: "Beaufort"
+          B: "Abondance"
+          C: "Tomme de Savoie"
+          D: "Raclette de Savoie"
     difficulty: MEDIUM
-  - text: "Quelle crème AOP normande est produite autour d'Isigny-sur-Mer ?"
+  - text: "Quel fromage AOP de Savoie est utilisé dans la recette de la tartiflette ?"
     answers:
-      A: "la crème d'Isigny"
-      B: "la crème de Bresse"
-      C: "la crème de Normandie"
-      D: "la crème de Camembert"
+      A: "Beaufort"
+      B: "Reblochon"
+      C: "Tomme de Savoie"
+      D: "Comté"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which AOP cheese from Savoie is used in the tartiflette recipe?"
+        answers:
+          A: "Beaufort"
+          B: "Reblochon"
+          C: "Tomme de Savoie"
+          D: "Comté"
+    difficulty: MEDIUM
+  - text: "Quelle est la ville d'origine de la sauce Nantua, servie avec des quenelles ?"
+    answers:
+      A: "Lyon"
+      B: "Chambéry"
+      C: "Grenoble"
+      D: "Nantua"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the city of origin of Nantua sauce, served with quenelles?"
+        answers:
+          A: "Lyon"
+          B: "Chambéry"
+          C: "Grenoble"
+          D: "Nantua"
+    difficulty: HARD
+  - text: "Quel est le nom du plat traditionnel périgourdin composé de pommes de terre et de cèpes cuits à la graisse d'oie ?"
+    answers:
+      A: "La truffade"
+      B: "La pomme de terre sarladaise"
+      C: "Le chou farci"
+      D: "Le millas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the traditional Périgord dish made with potatoes and porcini mushrooms cooked in goose fat?"
+        answers:
+          A: "La truffade"
+          B: "La pomme de terre sarladaise"
+          C: "Le chou farci"
+          D: "Le millas"
+    difficulty: EXPERT
+  - text: "Combien de temps faut-il compter approximativement pour la cuisson d'une daube avignonnaise ?"
+    answers:
+      A: "1 heure"
+      B: "20 minutes"
+      C: "30 minutes"
+      D: "6 à 8 heures"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Approximately how long does it take to cook a daube avignonnaise?"
+        answers:
+          A: "1 hour"
+          B: "20 minutes"
+          C: "30 minutes"
+          D: "6 to 8 hours"
+    difficulty: EXPERT
+  - text: "Quel est le nom exact de la sauce à base de beurre, de jaunes d'œufs et de vinaigre de vin, aromatisée à l'estragon et à l'échalote ?"
+    answers:
+      A: "Sauce béarnaise"
+      B: "Sauce hollandaise"
+      C: "Sauce choron"
+      D: "Sauce foyot"
     correctAnswer: A
     translations:
       en:
-        text: "Which Norman AOP cream is produced around Isigny-sur-Mer?"
+        text: "What is the exact name of the sauce made with butter, egg yolks, and wine vinegar, flavored with tarragon and shallot?"
         answers:
-          A: "Isigny cream"
-          B: "Bresse cream"
-          C: "Normandy cream"
-          D: "Camembert cream"
+          A: "Sauce béarnaise"
+          B: "Sauce hollandaise"
+          C: "Sauce choron"
+          D: "Sauce foyot"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sauce dérivée de la béarnaise, additionnée de purée de tomates ?"
+    answers:
+      A: "Sauce tyrolienne"
+      B: "Sauce paloise"
+      C: "Sauce valois"
+      D: "Sauce choron"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the sauce derived from béarnaise, with added tomato purée?"
+        answers:
+          A: "Sauce tyrolienne"
+          B: "Sauce paloise"
+          C: "Sauce valois"
+          D: "Sauce choron"
+    difficulty: HARD
+  - text: "Quel est le nom du plat traditionnel auvergnat composé de pommes de terre et de tome fraîche, généralement servi avec une salade verte ?"
+    answers:
+      A: "La truffade"
+      B: "L'aligot"
+      C: "La patranque"
+      D: "Le pounti"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the traditional Auvergne dish made with potatoes and fresh tome cheese, usually served with a green salad?"
+        answers:
+          A: "La truffade"
+          B: "L'aligot"
+          C: "La patranque"
+          D: "Le pounti"
+    difficulty: HARD
+  - text: "Quelle est la particularité du beurre utilisé pour réaliser un beurre blanc nantais ?"
+    answers:
+      A: "Il doit être froid et coupé en morceaux"
+      B: "Il doit être clarifié"
+      C: "Il doit être salé"
+      D: "Il doit être fondu et chaud"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is special about the butter used to make a beurre blanc nantais?"
+        answers:
+          A: "It must be cold and cut into pieces"
+          B: "It must be clarified"
+          C: "It must be salted"
+          D: "It must be melted and hot"
+    difficulty: EXPERT
+  - text: "Quel est le nom du cépage blanc utilisé pour produire le Muscadet, vin qui accompagne traditionnellement les fruits de mer en Pays nantais ?"
+    answers:
+      A: "Le sauvignon blanc"
+      B: "Le melon de Bourgogne"
+      C: "Le chenin"
+      D: "Le chardonnay"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the white grape variety used to produce Muscadet, a wine traditionally paired with seafood in the Nantes region?"
+        answers:
+          A: "Le sauvignon blanc"
+          B: "Le melon de Bourgogne"
+          C: "Le chenin"
+          D: "Le chardonnay"
+    difficulty: HARD
+  - text: "Quel est le nom de la spécialité lyonnaise composée de saucisson cuit dans un brioché et servi avec une sauce au vin rouge ?"
+    answers:
+      A: "Le saucisson brioché"
+      B: "La rosette"
+      C: "Le sabodet"
+      D: "Le jésus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the Lyonnaise specialty consisting of sausage cooked in brioche and served with a red wine sauce?"
+        answers:
+          A: "Le saucisson brioché"
+          B: "La rosette"
+          C: "Le sabodet"
+          D: "Le jésus"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fromage AOP du Béarn utilisé dans la recette traditionnelle de la garbure ?"
+    answers:
+      A: "L'ossau-iraty"
+      B: "Le brebis des Pyrénées"
+      C: "Le roquefort"
+      D: "Le bleu d'Auvergne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the AOP cheese from Béarn used in the traditional garbure recipe?"
+        answers:
+          A: "L'ossau-iraty"
+          B: "Le brebis des Pyrénées"
+          C: "Le roquefort"
+          D: "Le bleu d'Auvergne"
     difficulty: EXPERT

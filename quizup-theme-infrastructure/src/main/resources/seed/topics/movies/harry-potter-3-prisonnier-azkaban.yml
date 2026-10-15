@@ -1,21 +1,20 @@
 topic:
-  id: "topic-hp3-prisonnier-azkaban"
+  id: topic-hp3-prisonnier-azkaban
   names:
     fr: "Harry Potter et le Prisonnier d'Azkaban"
     en: "Harry Potter and the Prisoner of Azkaban"
   description: "Troisième année : Sirius Black évadé d'Azkaban, les Détraqueurs, le professeur Lupin, Sirius, le Patronus, Buck l'hippogriffe, la Carte du Maraudeur, Pattenrond et le Retourneur de Temps. Réalisé par Alfonso Cuarón en 2004."
-  category: "MOVIES"
-  imageUrl: "wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg"
+  category: MOVIES
+  imageUrl: wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg
 questions:
   - text: "Qui incarne Harry Potter dans Le Prisonnier d'Azkaban ?"
-    imageUrl: "wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg"
+    imageUrl: wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg
     answers:
       A: "Tom Felton"
       B: "Rupert Grint"
       C: "Daniel Radcliffe"
       D: "Matthew Lewis"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Who plays Harry Potter in The Prisoner of Azkaban?"
@@ -24,15 +23,15 @@ questions:
           B: "Rupert Grint"
           C: "Daniel Radcliffe"
           D: "Matthew Lewis"
+    difficulty: EASY
   - text: "Qui joue Hermione Granger dans ce troisième film ?"
-    imageUrl: "wikipedia/movies/Emma_Watson_2013.jpg"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
     answers:
       A: "Evanna Lynch"
       B: "Bonnie Wright"
       C: "Emma Watson"
       D: "Maggie Smith"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Who plays Hermione Granger in this third film?"
@@ -41,15 +40,15 @@ questions:
           B: "Bonnie Wright"
           C: "Emma Watson"
           D: "Maggie Smith"
+    difficulty: EASY
   - text: "Qui incarne Ron Weasley en troisième année ?"
-    imageUrl: "wikipedia/movies/RupertGrint2018.jpg"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
     answers:
       A: "Daniel Radcliffe"
       B: "Tom Felton"
       C: "Rupert Grint"
       D: "Warwick Davis"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Who plays Ron Weasley in his third year?"
@@ -58,49 +57,49 @@ questions:
           B: "Tom Felton"
           C: "Rupert Grint"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui reprend le rôle de Drago Malefoy ici ?"
-    imageUrl: "wikipedia/movies/Tom_Felton_1.jpg"
+    imageUrl: wikipedia/movies/Tom_Felton_1.jpg
     answers:
       A: "Rupert Grint"
       B: "Tom Felton"
       C: "Matthew Lewis"
       D: "Jason Isaacs"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "Who returns as Draco Malfoy here?"
+        text: "Who reprises the role of Draco Malfoy here?"
         answers:
           A: "Rupert Grint"
           B: "Tom Felton"
           C: "Matthew Lewis"
           D: "Jason Isaacs"
+    difficulty: EASY
   - text: "Qui joue le professeur Rogue dans ce volet ?"
-    imageUrl: "wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
     answers:
       A: "Richard Harris"
       B: "Alan Rickman"
       C: "John Cleese"
       D: "Warwick Davis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "Who plays Professor Snape in this instalment?"
+        text: "Who plays Professor Snape in this installment?"
         answers:
           A: "Richard Harris"
           B: "Alan Rickman"
           C: "John Cleese"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui incarne Minerva McGonagall dans ce film ?"
-    imageUrl: "wikipedia/movies/Maggie_Smith_-_Vintage.jpg"
+    imageUrl: wikipedia/movies/Maggie_Smith_-_Vintage.jpg
     answers:
       A: "Emma Thompson"
       B: "Maggie Smith"
       C: "Julie Walters"
       D: "Imelda Staunton"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
         text: "Who plays Minerva McGonagall in this film?"
@@ -109,32 +108,32 @@ questions:
           B: "Maggie Smith"
           C: "Julie Walters"
           D: "Imelda Staunton"
+    difficulty: EASY
   - text: "Quel acteur reprend Hagrid, devenu professeur dans ce film ?"
-    imageUrl: "wikipedia/movies/Robbiecoltrane_(cropped).jpg"
+    imageUrl: wikipedia/movies/Robbiecoltrane_(cropped).jpg
     answers:
       A: "Brendan Gleeson"
       B: "Robbie Coltrane"
       C: "Mark Williams"
       D: "Gary Oldman"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "Which actor returns as Hagrid, now a teacher in this film?"
+        text: "Which actor returns as Hagrid, now a professor in this film?"
         answers:
           A: "Brendan Gleeson"
           B: "Robbie Coltrane"
           C: "Mark Williams"
           D: "Gary Oldman"
+    difficulty: EASY
   - text: "Quel acteur incarne Dumbledore pour la première fois ici ?"
-    imageUrl: "wikipedia/movies/Michael_Gambon_cropped.jpg"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
     answers:
       A: "Alan Rickman"
       B: "Richard Harris"
       C: "Michael Gambon"
       D: "John Cleese"
-    correctAnswer: "C"
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
         text: "Which actor plays Dumbledore for the first time here?"
@@ -143,15 +142,15 @@ questions:
           B: "Richard Harris"
           C: "Michael Gambon"
           D: "John Cleese"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne Sirius Black, évadé d'Azkaban ?"
-    imageUrl: "wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg"
+    imageUrl: wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg
     answers:
       A: "Jason Isaacs"
       B: "David Thewlis"
       C: "Gary Oldman"
       D: "Brendan Gleeson"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
         text: "Which actor plays Sirius Black, escaped from Azkaban?"
@@ -160,15 +159,15 @@ questions:
           B: "David Thewlis"
           C: "Gary Oldman"
           D: "Brendan Gleeson"
+    difficulty: EASY
   - text: "Quel acteur incarne le professeur Remus Lupin ?"
-    imageUrl: "wikipedia/movies/David_Thewlis_2008.jpg"
+    imageUrl: wikipedia/movies/David_Thewlis_2008.jpg
     answers:
       A: "Gary Oldman"
       B: "David Thewlis"
       C: "Brendan Gleeson"
       D: "Jason Isaacs"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "Which actor plays Professor Remus Lupin?"
@@ -177,15 +176,15 @@ questions:
           B: "David Thewlis"
           C: "Brendan Gleeson"
           D: "Jason Isaacs"
+    difficulty: MEDIUM
   - text: "Quelle actrice incarne Sibylle Trelawney ?"
-    imageUrl: "wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg"
+    imageUrl: wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg
     answers:
       A: "Julie Walters"
       B: "Maggie Smith"
       C: "Imelda Staunton"
       D: "Emma Thompson"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
         text: "Which actress plays Sybill Trelawney?"
@@ -194,15 +193,15 @@ questions:
           B: "Maggie Smith"
           C: "Imelda Staunton"
           D: "Emma Thompson"
+    difficulty: MEDIUM
   - text: "Qui réalise Le Prisonnier d'Azkaban ?"
-    imageUrl: "wikipedia/movies/Alfonso_Cuaron_(2013)_cropped.jpg"
+    imageUrl: wikipedia/movies/Alfonso_Cuaron_(2013)_cropped.jpg
     answers:
       A: "Mike Newell"
       B: "Chris Columbus"
       C: "Alfonso Cuarón"
       D: "David Yates"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
         text: "Who directed The Prisoner of Azkaban?"
@@ -211,15 +210,15 @@ questions:
           B: "Chris Columbus"
           C: "Alfonso Cuarón"
           D: "David Yates"
+    difficulty: MEDIUM
   - text: "Qui a écrit le roman adapté dans ce film ?"
-    imageUrl: "wikipedia/literature/J._K._Rowling_2010.jpg"
+    imageUrl: wikipedia/literature/J._K._Rowling_2010.jpg
     answers:
       A: "J. R. R. Tolkien"
       B: "J. K. Rowling"
       C: "Roald Dahl"
       D: "C. S. Lewis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Who wrote the novel adapted in this film?"
@@ -228,15 +227,15 @@ questions:
           B: "J. K. Rowling"
           C: "Roald Dahl"
           D: "C. S. Lewis"
+    difficulty: EASY
   - text: "Quel acteur incarne Arthur Weasley dans ce film ?"
-    imageUrl: "wikipedia/movies/Mark_Williams_at_BBSE.jpg"
+    imageUrl: wikipedia/movies/Mark_Williams_at_BBSE.jpg
     answers:
       A: "Jason Isaacs"
       B: "Brendan Gleeson"
       C: "Mark Williams"
       D: "John Cleese"
-    correctAnswer: "C"
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
         text: "Which actor plays Arthur Weasley in this film?"
@@ -245,32 +244,32 @@ questions:
           B: "Brendan Gleeson"
           C: "Mark Williams"
           D: "John Cleese"
+    difficulty: MEDIUM
   - text: "Quelle actrice joue Ginny dans ce volet ?"
-    imageUrl: "wikipedia/movies/Bonnie_Wright_crop2.jpg"
+    imageUrl: wikipedia/movies/Bonnie_Wright_crop2.jpg
     answers:
       A: "Evanna Lynch"
       B: "Emma Watson"
       C: "Bonnie Wright"
       D: "Helena Bonham Carter"
-    correctAnswer: "C"
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
-        text: "Which actress plays Ginny in this instalment?"
+        text: "Which actress plays Ginny in this installment?"
         answers:
           A: "Evanna Lynch"
           B: "Emma Watson"
           C: "Bonnie Wright"
           D: "Helena Bonham Carter"
+    difficulty: HARD
   - text: "Qui incarne Neville Londubat ici ?"
-    imageUrl: "wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg"
+    imageUrl: wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg
     answers:
       A: "Tom Felton"
       B: "Matthew Lewis"
       C: "Rupert Grint"
       D: "Warwick Davis"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "Who plays Neville Longbottom here?"
@@ -279,15 +278,15 @@ questions:
           B: "Matthew Lewis"
           C: "Rupert Grint"
           D: "Warwick Davis"
+    difficulty: MEDIUM
   - text: "Quel acteur joue Filius Flitwick dans ce film ?"
-    imageUrl: "wikipedia/movies/Warwick_Davis_interviewed_2.jpg"
+    imageUrl: wikipedia/movies/Warwick_Davis_interviewed_2.jpg
     answers:
       A: "Robbie Coltrane"
       B: "John Cleese"
       C: "Mark Williams"
       D: "Warwick Davis"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
         text: "Which actor plays Filius Flitwick in this film?"
@@ -296,15 +295,15 @@ questions:
           B: "John Cleese"
           C: "Mark Williams"
           D: "Warwick Davis"
+    difficulty: HARD
   - text: "Quel acteur reprend Nick Quasi-Sans-Tête ?"
-    imageUrl: "wikipedia/movies/John_Cleese_2008.jpg"
+    imageUrl: wikipedia/movies/John_Cleese_2008.jpg
     answers:
       A: "John Cleese"
       B: "Warwick Davis"
       C: "Richard Harris"
       D: "Robbie Coltrane"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Which actor returns as Nearly Headless Nick?"
@@ -313,15 +312,15 @@ questions:
           B: "Warwick Davis"
           C: "Richard Harris"
           D: "Robbie Coltrane"
+    difficulty: HARD
   - text: "Qui incarne Molly Weasley dans ce film ?"
-    imageUrl: "wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg"
+    imageUrl: wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg
     answers:
       A: "Julie Walters"
       B: "Maggie Smith"
       C: "Emma Thompson"
       D: "Imelda Staunton"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Who plays Molly Weasley in this film?"
@@ -330,32 +329,32 @@ questions:
           B: "Maggie Smith"
           C: "Emma Thompson"
           D: "Imelda Staunton"
+    difficulty: HARD
   - text: "Quel château sert encore de décor à Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Alnwick_Castle_2011.jpg"
+    imageUrl: wikipedia/movies/Alnwick_Castle_2011.jpg
     answers:
       A: "le château de Warwick"
       B: "le château de Windsor"
       C: "le château de Douvres"
       D: "le château d'Alnwick"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
-        text: "Which castle still serves as Hogwarts here?"
+        text: "Which castle again serves as the Hogwarts set here?"
         answers:
           A: "Warwick Castle"
           B: "Windsor Castle"
           C: "Dover Castle"
           D: "Alnwick Castle"
+    difficulty: MEDIUM
   - text: "Quelle cathédrale sert de couloirs dans ce film ?"
-    imageUrl: "wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg"
+    imageUrl: wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg
     answers:
       A: "la cathédrale d'York"
       B: "la cathédrale de Durham"
       C: "l'abbaye de Westminster"
       D: "la cathédrale de Gloucester"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
         text: "Which cathedral serves as the corridors in this film?"
@@ -364,32 +363,32 @@ questions:
           B: "Durham Cathedral"
           C: "Westminster Abbey"
           D: "Gloucester Cathedral"
+    difficulty: HARD
   - text: "Quel escalier d'Oxford apparaît dans ce volet ?"
-    imageUrl: "wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg"
+    imageUrl: wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg
     answers:
       A: "Christ Church"
       B: "la Bodleian Library"
       C: "la Radcliffe Camera"
       D: "Magdalen College"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
-        text: "Which Oxford staircase appears in this instalment?"
+        text: "Which Oxford staircase appears in this installment?"
         answers:
           A: "Christ Church"
           B: "the Bodleian Library"
           C: "the Radcliffe Camera"
           D: "Magdalen College"
+    difficulty: HARD
   - text: "Quelle bibliothèque d'Oxford évoque Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg"
+    imageUrl: wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg
     answers:
       A: "Christ Church"
       B: "la Bodleian Library"
       C: "la Radcliffe Camera"
       D: "le Sheldonian Theatre"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
         text: "Which Oxford library evokes Hogwarts here?"
@@ -398,15 +397,15 @@ questions:
           B: "the Bodleian Library"
           C: "the Radcliffe Camera"
           D: "the Sheldonian Theatre"
+    difficulty: HARD
   - text: "Quelle gare londonienne revient dans ce film ?"
-    imageUrl: "wikipedia/movies/King's_Cross_Western_Concourse.jpg"
+    imageUrl: wikipedia/movies/King's_Cross_Western_Concourse.jpg
     answers:
       A: "Waterloo"
       B: "Paddington"
       C: "Euston"
       D: "King's Cross"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Which London station returns in this film?"
@@ -415,15 +414,15 @@ questions:
           B: "Paddington"
           C: "Euston"
           D: "King's Cross"
+    difficulty: HARD
   - text: "Quel quai mène au Poudlard Express ?"
-    imageUrl: "wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg"
+    imageUrl: wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg
     answers:
       A: "le quai 7"
       B: "le quai 13"
       C: "le quai 9¾"
       D: "le quai 21"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Which platform leads to the Hogwarts Express?"
@@ -432,15 +431,15 @@ questions:
           B: "Platform 13"
           C: "Platform 9¾"
           D: "Platform 21"
+    difficulty: EASY
   - text: "Quel marché évoque le Chemin de Traverse ?"
-    imageUrl: "wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg"
+    imageUrl: wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg
     answers:
       A: "Borough Market"
       B: "Leadenhall Market"
       C: "Camden Market"
       D: "Portobello Road"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
         text: "Which market evokes Diagon Alley?"
@@ -449,32 +448,32 @@ questions:
           B: "Leadenhall Market"
           C: "Camden Market"
           D: "Portobello Road"
+    difficulty: HARD
   - text: "Quel train Harry prend-il pour rentrer à Poudlard ?"
-    imageUrl: "wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg"
+    imageUrl: wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg
     answers:
       A: "l'Orient Express"
       B: "le Transsibérien"
       C: "le Poudlard Express"
       D: "le Flying Scotsman"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
-        text: "Which train does Harry take back to Hogwarts?"
+        text: "Which train does Harry take to return to Hogwarts?"
         answers:
           A: "the Orient Express"
           B: "the Trans-Siberian"
           C: "the Hogwarts Express"
           D: "the Flying Scotsman"
+    difficulty: MEDIUM
   - text: "Quel village Harry découvre-t-il cette année ?"
-    imageUrl: "wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg"
+    imageUrl: wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg
     answers:
       A: "Azkaban"
       B: "Godric's Hollow"
       C: "Pré-au-Lard"
       D: "Le Chemin de Traverse"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Which village does Harry discover this year?"
@@ -483,49 +482,49 @@ questions:
           B: "Godric's Hollow"
           C: "Hogsmeade"
           D: "Diagon Alley"
+    difficulty: MEDIUM
   - text: "Sur quel viaduc le train traverse-t-il l'Écosse ?"
-    imageUrl: "wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg"
+    imageUrl: wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg
     answers:
       A: "le viaduc de Millau"
       B: "le pont de Forth"
       C: "le viaduc de Glenfinnan"
       D: "le pont de Brooklyn"
-    correctAnswer: "C"
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
-        text: "Over which viaduct does the train cross Scotland?"
+        text: "On which viaduct does the train cross Scotland?"
         answers:
           A: "the Millau Viaduct"
           B: "the Forth Bridge"
           C: "the Glenfinnan Viaduct"
           D: "the Brooklyn Bridge"
+    difficulty: EXPERT
   - text: "Quelle cathédrale sert de cloître à Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg"
+    imageUrl: wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg
     answers:
       A: "la cathédrale de Salisbury"
       B: "la cathédrale d'York"
       C: "la cathédrale de Durham"
       D: "la cathédrale de Lincoln"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
-        text: "Which cathedral serves as Hogwarts' cloister here?"
+        text: "Which cathedral serves as the Hogwarts cloister here?"
         answers:
           A: "Salisbury Cathedral"
           B: "York Cathedral"
           C: "Durham Cathedral"
           D: "Lincoln Cathedral"
+    difficulty: HARD
   - text: "Quel acteur incarne le parrain de Harry ?"
-    imageUrl: "wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg"
+    imageUrl: wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg
     answers:
       A: "Jason Isaacs"
       B: "David Thewlis"
       C: "Gary Oldman"
       D: "Brendan Gleeson"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
         text: "Which actor plays Harry's godfather?"
@@ -534,15 +533,15 @@ questions:
           B: "David Thewlis"
           C: "Gary Oldman"
           D: "Brendan Gleeson"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne le professeur qui enseigne le Patronus ?"
-    imageUrl: "wikipedia/movies/David_Thewlis_2008.jpg"
+    imageUrl: wikipedia/movies/David_Thewlis_2008.jpg
     answers:
       A: "Jason Isaacs"
       B: "Gary Oldman"
       C: "Brendan Gleeson"
       D: "David Thewlis"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
         text: "Which actor plays the professor who teaches the Patronus?"
@@ -551,32 +550,32 @@ questions:
           B: "Gary Oldman"
           C: "Brendan Gleeson"
           D: "David Thewlis"
-  - text: "Quel acteur succède à Richard Harris dans le rôle de Dumbledore ?"
-    imageUrl: "wikipedia/movies/Michael_Gambon_cropped.jpg"
+    difficulty: MEDIUM
+  - text: "Qui succède à Richard Harris en Dumbledore ?"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
     answers:
       A: "Alan Rickman"
       B: "Richard Harris"
       C: "Michael Gambon"
       D: "John Cleese"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
-        text: "Which actor succeeds Richard Harris as Dumbledore?"
+        text: "Who succeeds Richard Harris as Dumbledore?"
         answers:
           A: "Alan Rickman"
           B: "Richard Harris"
           C: "Michael Gambon"
           D: "John Cleese"
+    difficulty: HARD
   - text: "Quel réalisateur donne un ton plus sombre à la saga ?"
-    imageUrl: "wikipedia/movies/Alfonso_Cuaron_(2013)_cropped.jpg"
+    imageUrl: wikipedia/movies/Alfonso_Cuaron_(2013)_cropped.jpg
     answers:
       A: "David Yates"
       B: "Chris Columbus"
       C: "Mike Newell"
       D: "Alfonso Cuarón"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+    correctAnswer: D
     translations:
       en:
         text: "Which director gives the saga a darker tone?"
@@ -585,15 +584,15 @@ questions:
           B: "Chris Columbus"
           C: "Mike Newell"
           D: "Alfonso Cuarón"
+    difficulty: MEDIUM
   - text: "Quelle actrice joue la professeure de Divination ?"
-    imageUrl: "wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg"
+    imageUrl: wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg
     answers:
       A: "Emma Thompson"
       B: "Maggie Smith"
       C: "Imelda Staunton"
       D: "Julie Walters"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Which actress plays the Divination professor?"
@@ -602,15 +601,15 @@ questions:
           B: "Maggie Smith"
           C: "Imelda Staunton"
           D: "Julie Walters"
+    difficulty: HARD
   - text: "Quel acteur utilise le Retourneur de Temps à la fin ?"
-    imageUrl: "wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg"
+    imageUrl: wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg
     answers:
       A: "Rupert Grint"
       B: "Daniel Radcliffe"
       C: "Tom Felton"
       D: "Matthew Lewis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Which actor uses the Time-Turner at the end?"
@@ -619,15 +618,15 @@ questions:
           B: "Daniel Radcliffe"
           C: "Tom Felton"
           D: "Matthew Lewis"
+    difficulty: MEDIUM
   - text: "Quelle actrice possède le chat Pattenrond ?"
-    imageUrl: "wikipedia/movies/Emma_Watson_2013.jpg"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
     answers:
       A: "Bonnie Wright"
       B: "Emma Watson"
       C: "Evanna Lynch"
       D: "Maggie Smith"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Which actress owns the cat Crookshanks?"
@@ -636,32 +635,32 @@ questions:
           B: "Emma Watson"
           C: "Evanna Lynch"
           D: "Maggie Smith"
+    difficulty: HARD
   - text: "Quel acteur découvre que son rat est un animagus ?"
-    imageUrl: "wikipedia/movies/RupertGrint2018.jpg"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
     answers:
       A: "Daniel Radcliffe"
       B: "Tom Felton"
       C: "Rupert Grint"
       D: "Warwick Davis"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
-        text: "Which actor discovers his rat is an Animagus?"
+        text: "Which actor discovers that his rat is an Animagus?"
         answers:
           A: "Daniel Radcliffe"
           B: "Tom Felton"
           C: "Rupert Grint"
           D: "Warwick Davis"
+    difficulty: MEDIUM
   - text: "Quelle actrice incarnera Luna Lovegood au film suivant ?"
-    imageUrl: "wikipedia/movies/Evanna_Lynch_(51693246964).jpg"
+    imageUrl: wikipedia/movies/Evanna_Lynch_(51693246964).jpg
     answers:
       A: "Evanna Lynch"
       B: "Bonnie Wright"
       C: "Emma Watson"
       D: "Helena Bonham Carter"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Which actress will play Luna Lovegood in the next film?"
@@ -670,980 +669,981 @@ questions:
           B: "Bonnie Wright"
           C: "Emma Watson"
           D: "Helena Bonham Carter"
-  - text: "Quelle actrice rejoindra la saga plus tard dans le rôle de Bellatrix ?"
-    imageUrl: "wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg"
+    difficulty: HARD
+  - text: "Quelle actrice joue Bellatrix ?"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
     answers:
       A: "Helena Bonham Carter"
       B: "Emma Thompson"
       C: "Imelda Staunton"
       D: "Maggie Smith"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
-        text: "Which actress will later join the saga as Bellatrix?"
+        text: "Which actress plays Bellatrix?"
         answers:
           A: "Helena Bonham Carter"
           B: "Emma Thompson"
           C: "Imelda Staunton"
           D: "Maggie Smith"
-  - text: "D'où Sirius Black s'évade-t-il ?"
-    answers:
-      A: "du Ministère"
-      B: "de Poudlard"
-      C: "de Gringotts"
-      D: "d'Azkaban"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Where does Sirius Black escape from?"
-        answers:
-          A: "the Ministry"
-          B: "Hogwarts"
-          C: "Gringotts"
-          D: "Azkaban"
-  - text: "Quelles créatures gardent la prison d'Azkaban ?"
-    answers:
-      A: "les centaures"
-      B: "les dragons"
-      C: "les trolls"
-      D: "les Détraqueurs"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which creatures guard Azkaban prison?"
-        answers:
-          A: "centaurs"
-          B: "dragons"
-          C: "trolls"
-          D: "Dementors"
-  - text: "Quel animal Hermione adopte-t-elle ?"
-    answers:
-      A: "un chat"
-      B: "un hibou"
-      C: "un rat"
-      D: "un crapaud"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which pet does Hermione adopt?"
-        answers:
-          A: "a cat"
-          B: "an owl"
-          C: "a rat"
-          D: "a toad"
-  - text: "Comment s'appelle le chat d'Hermione ?"
-    answers:
-      A: "Hedwige"
-      B: "Croûtard"
-      C: "Miss Teigne"
-      D: "Pattenrond"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is Hermione's cat called?"
-        answers:
-          A: "Hedwig"
-          B: "Scabbers"
-          C: "Mrs Norris"
-          D: "Crookshanks"
-  - text: "Quel animal blesse Drago Malefoy en classe ?"
-    answers:
-      A: "un loup"
-      B: "un dragon"
-      C: "Buck l'hippogriffe"
-      D: "un aigle"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which animal injures Draco Malfoy in class?"
-        answers:
-          A: "a wolf"
-          B: "a dragon"
-          C: "Buckbeak the hippogriff"
-          D: "an eagle"
-  - text: "Comment s'appelle l'hippogriffe de Hagrid ?"
-    answers:
-      A: "Aragog"
-      B: "Buck"
-      C: "Fumseck"
-      D: "Norbert"
-    correctAnswer: "B"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the name of Hagrid's hippogriff?"
-        answers:
-          A: "Aragog"
-          B: "Buckbeak"
-          C: "Fawkes"
-          D: "Norbert"
-  - text: "Quel balai Harry reçoit-il à Noël anonymement ?"
+  - text: "Quelle est la première créature que Harry fait exploser avec le charme de gonflement dans Le Prisonnier d'Azkaban ?"
     answers:
-      A: "un Nimbus 2000"
-      B: "l'Éclair de Feu"
-      C: "un Comète"
-      D: "un Nimbus 2001"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+      A: "Un elfe de maison"
+      B: "Une mandragore"
+      C: "Un lutin de Cornouailles"
+      D: "Une tante Marge"
+    correctAnswer: D
     translations:
       en:
-        text: "Which broom does Harry receive anonymously at Christmas?"
+        text: "What is the first creature Harry makes explode with the swelling charm in Prisoner of Azkaban?"
         answers:
-          A: "a Nimbus 2000"
-          B: "the Firebolt"
-          C: "a Comet"
-          D: "a Nimbus 2001"
-  - text: "Quel objet magique montre le plan de Poudlard ?"
+          A: "A house-elf"
+          B: "A mandrake"
+          C: "A Cornish pixie"
+          D: "Aunt Marge"
+    difficulty: EXPERT
+  - text: "Quel sort Harry utilise-t-il pour faire gonfler tante Marge ?"
     answers:
-      A: "le Retourneur de Temps"
-      B: "le miroir de Riséd"
-      C: "la Carte du Maraudeur"
-      D: "la Cape"
-    correctAnswer: "C"
-    difficulty: EASY
+      A: "Engorgio"
+      B: "Gonflo"
+      C: "Inflatio"
+      D: "Inflatus"
+    correctAnswer: D
     translations:
       en:
-        text: "Which magical object shows a map of Hogwarts?"
+        text: "Which spell does Harry use to inflate Aunt Marge?"
         answers:
-          A: "the Time-Turner"
-          B: "the Mirror of Erised"
-          C: "the Marauder's Map"
-          D: "the Cloak"
-  - text: "Combien de Maraudeurs ont créé la Carte ?"
-    answers:
-      A: "quatre"
-      B: "deux"
-      C: "trois"
-      D: "cinq"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "How many Marauders created the Map?"
-        answers:
-          A: "four"
-          B: "two"
-          C: "three"
-          D: "five"
-  - text: "Quel est le surnom de Remus Lupin parmi les Maraudeurs ?"
+          A: "Engorgio"
+          B: "Gonflo"
+          C: "Inflatio"
+          D: "Inflatus"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chien noir que Harry voit pour la première fois à Privet Drive ?"
     answers:
       A: "Patmol"
-      B: "Lunard"
-      C: "Cornedrue"
-      D: "Queudver"
-    correctAnswer: "B"
-    difficulty: EXPERT
+      B: "Croûtard"
+      C: "Vif"
+      D: "Fang"
+    correctAnswer: A
     translations:
       en:
-        text: "What is Remus Lupin's Marauder nickname?"
+        text: "What is the name of the black dog Harry first sees at Privet Drive?"
         answers:
           A: "Padfoot"
-          B: "Moony"
-          C: "Prongs"
-          D: "Wormtail"
-  - text: "Quel est le surnom de Sirius Black ?"
-    answers:
-      A: "Lunard"
-      B: "Patmol"
-      C: "Cornedrue"
-      D: "Queudver"
-    correctAnswer: "B"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is Sirius Black's Marauder nickname?"
-        answers:
-          A: "Moony"
-          B: "Padfoot"
-          C: "Prongs"
-          D: "Wormtail"
-  - text: "Quel est le surnom de James Potter ?"
-    answers:
-      A: "Cornedrue"
-      B: "Patmol"
-      C: "Lunard"
-      D: "Queudver"
-    correctAnswer: "A"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is James Potter's Marauder nickname?"
-        answers:
-          A: "Prongs"
-          B: "Padfoot"
-          C: "Moony"
-          D: "Wormtail"
-  - text: "Quel est le surnom de Peter Pettigrew ?"
-    answers:
-      A: "Cornedrue"
-      B: "Patmol"
-      C: "Lunard"
-      D: "Queudver"
-    correctAnswer: "D"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is Peter Pettigrew's Marauder nickname?"
-        answers:
-          A: "Prongs"
-          B: "Padfoot"
-          C: "Moony"
-          D: "Wormtail"
-  - text: "Qui est Croûtard en réalité ?"
-    answers:
-      A: "Sirius Black"
-      B: "Peter Pettigrew"
-      C: "Remus Lupin"
-      D: "James Potter"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who is Scabbers really?"
-        answers:
-          A: "Sirius Black"
-          B: "Peter Pettigrew"
-          C: "Remus Lupin"
-          D: "James Potter"
-  - text: "Quelle forme animale Peter Pettigrew prend-il ?"
-    answers:
-      A: "un cerf"
-      B: "un chien"
-      C: "un rat"
-      D: "un loup"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What animal form does Peter Pettigrew take?"
-        answers:
-          A: "a stag"
-          B: "a dog"
-          C: "a rat"
-          D: "a wolf"
-  - text: "Quelle forme animale Sirius Black prend-il ?"
-    answers:
-      A: "un cerf"
-      B: "un rat"
-      C: "un grand chien noir"
-      D: "un loup"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What animal form does Sirius Black take?"
-        answers:
-          A: "a stag"
-          B: "a rat"
-          C: "a big black dog"
-          D: "a wolf"
-  - text: "Quelle forme animale James Potter prenait-il ?"
-    answers:
-      A: "un loup"
-      B: "un chien"
-      C: "un rat"
-      D: "un cerf"
-    correctAnswer: "D"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What animal form did James Potter take?"
-        answers:
-          A: "a wolf"
-          B: "a dog"
-          C: "a rat"
-          D: "a stag"
-  - text: "Où se termine la confrontation avec Sirius ?"
-    answers:
-      A: "la forêt interdite"
-      B: "la Cabane hurlante"
-      C: "les cachots"
-      D: "le lac"
-    correctAnswer: "B"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Where does the confrontation with Sirius take place?"
-        answers:
-          A: "the Forbidden Forest"
-          B: "the Shrieking Shack"
-          C: "the dungeons"
-          D: "the lake"
-  - text: "Quel sortilège crée un Patronus ?"
-    answers:
-      A: "Riddikulus"
-      B: "Expelliarmus"
-      C: "Lumos Maxima"
-      D: "Expecto Patronum"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which spell creates a Patronus?"
-        answers:
-          A: "Riddikulus"
-          B: "Expelliarmus"
-          C: "Lumos Maxima"
-          D: "Expecto Patronum"
-  - text: "Quelle est la forme du Patronus de Harry ?"
-    answers:
-      A: "un chien"
-      B: "un loup"
-      C: "un aigle"
-      D: "un cerf"
-    correctAnswer: "D"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What shape does Harry's Patronus take?"
-        answers:
-          A: "a dog"
-          B: "a wolf"
-          C: "an eagle"
-          D: "a stag"
-  - text: "Qui enseigne le Patronus à Harry ?"
-    answers:
-      A: "Lupin"
-      B: "Sirius"
-      C: "Dumbledore"
-      D: "Rogue"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Who teaches Harry the Patronus?"
-        answers:
-          A: "Lupin"
-          B: "Sirius"
-          C: "Dumbledore"
-          D: "Snape"
-  - text: "Que devient Lupin à la pleine lune ?"
-    answers:
-      A: "un vampire"
-      B: "un chien"
-      C: "un cerf"
-      D: "un loup-garou"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What does Lupin become at the full moon?"
-        answers:
-          A: "a vampire"
-          B: "a dog"
-          C: "a stag"
-          D: "a werewolf"
-  - text: "Quel est le lien entre Sirius et Harry ?"
-    answers:
-      A: "son parrain"
-      B: "son père"
-      C: "son oncle"
-      D: "son voisin"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is Sirius to Harry?"
-        answers:
-          A: "his godfather"
-          B: "his father"
-          C: "his uncle"
-          D: "his neighbour"
-  - text: "Quel bus magique Harry prend-il au début du film ?"
-    answers:
-      A: "le Sorcièrebus"
-      B: "le Bus de Poudlard"
-      C: "le Magicobus"
-      D: "le Ford Anglia"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which magical bus does Harry take at the start?"
-        answers:
-          A: "the Wizard Bus"
-          B: "the Hogwarts Bus"
-          C: "the Knight Bus"
-          D: "the Ford Anglia"
-  - text: "Qui conduit le Magicobus ?"
-    answers:
-      A: "Tom"
-      B: "Ernie"
-      C: "Stan Rocade"
-      D: "Ron"
-    correctAnswer: "C"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who drives the Knight Bus?"
-        answers:
-          A: "Tom"
-          B: "Ernie"
-          C: "Stan Shunpike"
-          D: "Ron"
-  - text: "Quelle tante de Harry insulte ses parents ?"
-    answers:
-      A: "Tante Marge"
-      B: "Tante Pétunia"
-      C: "Tante Muriel"
-      D: "Tante Bella"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which aunt of Harry insults his parents?"
-        answers:
-          A: "Aunt Marge"
-          B: "Aunt Petunia"
-          C: "Aunt Muriel"
-          D: "Aunt Bella"
-  - text: "Que fait Harry à Tante Marge par magie ?"
-    answers:
-      A: "il la gonfle"
-      B: "il la transforme"
-      C: "il l'endort"
-      D: "il la déplace"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What does Harry magically do to Aunt Marge?"
-        answers:
-          A: "he inflates her"
-          B: "he transforms her"
-          C: "he puts her to sleep"
-          D: "he moves her"
+          B: "Scabbers"
+          C: "Fang"
+          D: "Fang"
+    difficulty: HARD
   - text: "Quel objet Hermione utilise-t-elle pour suivre plusieurs cours en même temps ?"
     answers:
-      A: "une Carte"
-      B: "une Cape"
-      C: "un Miroir"
-      D: "le Retourneur de Temps"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+      A: "Une Plume à papote"
+      B: "Une Cape d'Invisibilité"
+      C: "Un Miroir à double sens"
+      D: "Un Retourneur de Temps"
+    correctAnswer: D
     translations:
       en:
         text: "Which object does Hermione use to attend several classes at once?"
         answers:
-          A: "a Map"
-          B: "a Cloak"
-          C: "a Mirror"
-          D: "the Time-Turner"
-  - text: "Qui confie le Retourneur de Temps à Hermione ?"
-    answers:
-      A: "Dumbledore"
-      B: "McGonagall"
-      C: "Rogue"
-      D: "Lupin"
-    correctAnswer: "B"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who entrusts the Time-Turner to Hermione?"
-        answers:
-          A: "Dumbledore"
-          B: "McGonagall"
-          C: "Snape"
-          D: "Lupin"
-  - text: "Combien d'heures remonte-t-on à la fin du film ?"
-    answers:
-      A: "trois heures"
-      B: "une heure"
-      C: "six heures"
-      D: "douze heures"
-    correctAnswer: "A"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How many hours are rewound at the end of the film?"
-        answers:
-          A: "three hours"
-          B: "one hour"
-          C: "six hours"
-          D: "twelve hours"
-  - text: "Qui sauve Buck de l'exécution ?"
-    answers:
-      A: "Lupin"
-      B: "Dumbledore"
-      C: "Hagrid"
-      D: "Hermione et Harry"
-    correctAnswer: "D"
+          A: "A Quick-Quotes Quill"
+          B: "An Invisibility Cloak"
+          C: "A two-way mirror"
+          D: "A Time-Turner"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who saves Buck from execution?"
-        answers:
-          A: "Lupin"
-          B: "Dumbledore"
-          C: "Hagrid"
-          D: "Hermione and Harry"
-  - text: "Sur quelle créature Sirius s'échappe-t-il ?"
+  - text: "Qui est le professeur de Défense contre les Forces du Mal en troisième année ?"
     answers:
-      A: "Buck l'hippogriffe"
-      B: "un dragon"
-      C: "un cheval"
-      D: "un cerf"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "On which creature does Sirius escape?"
-        answers:
-          A: "Buckbeak the hippogriff"
-          B: "a dragon"
-          C: "a horse"
-          D: "a stag"
-  - text: "Qu'est-ce que le Saule cogneur cache ?"
-    answers:
-      A: "un trésor"
-      B: "un passage secret"
-      C: "une tombe"
-      D: "une bibliothèque"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does the Whomping Willow hide?"
-        answers:
-          A: "a treasure"
-          B: "a secret passage"
-          C: "a grave"
-          D: "a library"
-  - text: "Quel objet Rusard confisque-t-il à Harry ?"
-    answers:
-      A: "l'Éclair de Feu"
-      B: "la Carte du Maraudeur"
-      C: "une baguette"
-      D: "un miroir"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which object does Filch confiscate from Harry?"
-        answers:
-          A: "the Firebolt"
-          B: "the Marauder's Map"
-          C: "a wand"
-          D: "a mirror"
-  - text: "Qui possédait la Carte du Maraudeur avant Harry ?"
-    answers:
-      A: "Charlie"
-      B: "Percy"
-      C: "Bill"
-      D: "Fred et George"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who owned the Marauder's Map before Harry?"
-        answers:
-          A: "Charlie"
-          B: "Percy"
-          C: "Bill"
-          D: "Fred and George"
-  - text: "Qui est le ministre de la Magie dans ce film ?"
-    answers:
-      A: "Cornelius Fudge"
-      B: "Pius Thicknesse"
-      C: "Rufus Scrimgeour"
-      D: "Kingsley"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who is the Minister for Magic in this film?"
-        answers:
-          A: "Cornelius Fudge"
-          B: "Pius Thicknesse"
-          C: "Rufus Scrimgeour"
-          D: "Kingsley"
-  - text: "Quel est le nom de l'exécuteur de Buck ?"
-    answers:
-      A: "Macnair"
-      B: "Fudge"
-      C: "Sinistra"
-      D: "Hooch"
-    correctAnswer: "A"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the name of Buckbeak's executioner?"
-        answers:
-          A: "Macnair"
-          B: "Fudge"
-          C: "Sinistra"
-          D: "Hooch"
-  - text: "Quel aliment Harry découvre-t-il contre les Détraqueurs ?"
-    answers:
-      A: "le chocolat"
-      B: "le pain"
-      C: "le lait"
-      D: "la citrouille"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which food does Harry discover helps against Dementors?"
-        answers:
-          A: "chocolate"
-          B: "bread"
-          C: "milk"
-          D: "pumpkin"
-  - text: "Qui offre du chocolat à Harry après une attaque ?"
-    answers:
-      A: "Rogue"
-      B: "Lupin"
-      C: "Dumbledore"
-      D: "McGonagall"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who gives Harry chocolate after an attack?"
-        answers:
-          A: "Snape"
-          B: "Lupin"
-          C: "Dumbledore"
-          D: "McGonagall"
-  - text: "Quel poste Lupin occupe-t-il à Poudlard ?"
-    answers:
-      A: "professeur de Potions"
-      B: "professeur de DCFM"
-      C: "professeur de Sortilèges"
-      D: "professeur d'Histoire"
-    correctAnswer: "B"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which post does Lupin hold at Hogwarts?"
-        answers:
-          A: "Potions teacher"
-          B: "Defence Against the Dark Arts teacher"
-          C: "Charms teacher"
-          D: "History teacher"
-  - text: "Qui révèle que Lupin est un loup-garou ?"
-    answers:
-      A: "Sirius"
-      B: "Rogue"
-      C: "Dumbledore"
-      D: "Harry"
-    correctAnswer: "B"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who reveals that Lupin is a werewolf?"
-        answers:
-          A: "Sirius"
-          B: "Snape"
-          C: "Dumbledore"
-          D: "Harry"
-  - text: "Qui envoie l'Éclair de Feu à Harry ?"
-    answers:
-      A: "Sirius"
-      B: "Dumbledore"
-      C: "Lupin"
-      D: "Hagrid"
-    correctAnswer: "A"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who sends Harry the Firebolt?"
-        answers:
-          A: "Sirius"
-          B: "Dumbledore"
-          C: "Lupin"
-          D: "Hagrid"
-  - text: "Quelle rumeur accuse Sirius ?"
-    answers:
-      A: "d'avoir tué un elfe"
-      B: "d'avoir volé Gringotts"
-      C: "d'avoir trahi les parents de Harry"
-      D: "d'avoir fui la guerre"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What rumour accuses Sirius?"
-        answers:
-          A: "of killing an elf"
-          B: "of robbing Gringotts"
-          C: "of betraying Harry's parents"
-          D: "of fleeing the war"
-  - text: "Qui a réellement trahi les parents de Harry ?"
-    answers:
-      A: "Rogue"
-      B: "Sirius Black"
+      A: "Gilderoy Lockhart"
+      B: "Alastor Maugrey"
       C: "Remus Lupin"
-      D: "Peter Pettigrew"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+      D: "Dolores Ombrage"
+    correctAnswer: C
     translations:
       en:
-        text: "Who really betrayed Harry's parents?"
+        text: "Who is the Defense Against the Dark Arts professor in third year?"
         answers:
-          A: "Snape"
-          B: "Sirius Black"
+          A: "Gilderoy Lockhart"
+          B: "Alastor Moody"
           C: "Remus Lupin"
-          D: "Peter Pettigrew"
-  - text: "Quelle forme prend le Boggart de Harry ?"
-    answers:
-      A: "un serpent"
-      B: "une araignée"
-      C: "un clown"
-      D: "un Détraqueur"
-    correctAnswer: "D"
+          D: "Dolores Umbridge"
     difficulty: MEDIUM
+  - text: "Quelle créature le professeur Lupin enseigne-t-il à la classe de Harry à repousser ?"
+    answers:
+      A: "Un Détraqueur"
+      B: "Un Épouvantard"
+      C: "Un Strangulot"
+      D: "Un Boursouflet"
+    correctAnswer: B
     translations:
       en:
-        text: "What form does Harry's Boggart take?"
+        text: "Which creature does Professor Lupin teach Harry's class to repel?"
         answers:
-          A: "a snake"
-          B: "a spider"
-          C: "a clown"
-          D: "a Dementor"
-  - text: "Quelle forme prend le Boggart de Ron ?"
-    answers:
-      A: "une araignée"
-      B: "un Détraqueur"
-      C: "un clown"
-      D: "un serpent"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What form does Ron's Boggart take?"
-        answers:
-          A: "a spider"
-          B: "a Dementor"
-          C: "a clown"
-          D: "a snake"
-  - text: "Quel mot repousse un Boggart ?"
-    answers:
-      A: "Expelliarmus"
-      B: "Expecto Patronum"
-      C: "Riddikulus"
-      D: "Lumos"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which word repels a Boggart?"
-        answers:
-          A: "Expelliarmus"
-          B: "Expecto Patronum"
-          C: "Riddikulus"
-          D: "Lumos"
-  - text: "Que faut-il imaginer pour repousser un Boggart ?"
-    answers:
-      A: "une chose drôle"
-      B: "une chose triste"
-      C: "un animal"
-      D: "un souvenir"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What must you picture to repel a Boggart?"
-        answers:
-          A: "something funny"
-          B: "something sad"
-          C: "an animal"
-          D: "a memory"
-  - text: "Quelle professeure enseigne la Divination ?"
-    answers:
-      A: "Trelawney"
-      B: "McGonagall"
-      C: "Chourave"
-      D: "Bibine"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which teacher teaches Divination?"
-        answers:
-          A: "Trelawney"
-          B: "McGonagall"
-          C: "Sprout"
-          D: "Hooch"
-  - text: "Que prédit Trelawney à Harry ?"
-    answers:
-      A: "un mariage"
-      B: "sa réussite"
-      C: "un voyage"
-      D: "sa mort"
-    correctAnswer: "D"
+          A: "A Dementor"
+          B: "A Boggart"
+          C: "A Grindylow"
+          D: "A Puffskein"
     difficulty: HARD
+  - text: "Quelle est la forme du Patronus de Harry ?"
+    answers:
+      A: "Une loutre"
+      B: "Un cerf"
+      C: "Un loup"
+      D: "Une licorne"
+    correctAnswer: B
     translations:
       en:
-        text: "What does Trelawney predict for Harry?"
+        text: "What is the form of Harry's Patronus?"
         answers:
-          A: "a marriage"
-          B: "his success"
-          C: "a journey"
-          D: "his death"
-  - text: "Quel animal livre le cadeau de Sirius à Harry ?"
+          A: "An otter"
+          B: "A stag"
+          C: "A wolf"
+          D: "A unicorn"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'hippogriffe que Hagrid présente lors de son premier cours ?"
     answers:
-      A: "Fumseck"
-      B: "Érulisse"
-      C: "Pattenrond"
-      D: "Hedwige"
-    correctAnswer: "D"
+      A: "Aile-de-Feu"
+      B: "Tonnerre"
+      C: "Buck"
+      D: "Plume"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the hippogriff that Hagrid introduces during his first lesson?"
+        answers:
+          A: "Firewing"
+          B: "Thunder"
+          C: "Buck"
+          D: "Feather"
+    difficulty: MEDIUM
+  - text: "Qui blesse Buck lors du premier cours de Hagrid ?"
+    answers:
+      A: "Drago Malefoy"
+      B: "Harry Potter"
+      C: "Ronald Weasley"
+      D: "Neville Londubat"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who injures Buck during Hagrid's first lesson?"
+        answers:
+          A: "Draco Malfoy"
+          B: "Harry Potter"
+          C: "Ronald Weasley"
+          D: "Neville Longbottom"
+    difficulty: MEDIUM
+  - text: "Quel objet magique permet à Harry de voir tout le château et ses occupants ?"
+    answers:
+      A: "Le Miroir du Riséd"
+      B: "La Carte du Maraudeur"
+      C: "La Pierre de Résurrection"
+      D: "Le Choixpeau magique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which magical object allows Harry to see the entire castle and its occupants?"
+        answers:
+          A: "The Mirror of Erised"
+          B: "The Marauder's Map"
+          C: "The Resurrection Stone"
+          D: "The Sorting Hat"
     difficulty: HARD
+  - text: "Qui sont les quatre Maraudeurs qui ont créé la Carte ?"
+    answers:
+      A: "Harry, Ron, Hermione et Neville"
+      B: "Patmol, Queudver, Lunard et Cornedrue"
+      C: "James, Sirius, Remus et Peter"
+      D: "Dumbledore, McGonagall, Rogue et Hagrid"
+    correctAnswer: B
     translations:
       en:
-        text: "Which animal delivers Sirius's gift to Harry?"
+        text: "Who are the four Marauders who created the Map?"
         answers:
-          A: "Fawkes"
-          B: "Errol"
-          C: "Crookshanks"
-          D: "Hedwig"
-  - text: "Quel personnage apprend que son rat était un sorcier ?"
+          A: "Harry, Ron, Hermione and Neville"
+          B: "Moony, Wormtail, Padfoot and Prongs"
+          C: "James, Sirius, Remus and Peter"
+          D: "Dumbledore, McGonagall, Snape and Hagrid"
+    difficulty: HARD
+  - text: "Quel est le surnom de James Potter dans le groupe des Maraudeurs ?"
     answers:
-      A: "Hermione"
-      B: "Harry"
-      C: "Ron"
-      D: "Neville"
-    correctAnswer: "C"
-    difficulty: EASY
+      A: "Cornedrue"
+      B: "Queudver"
+      C: "Lunard"
+      D: "Patmol"
+    correctAnswer: A
     translations:
       en:
-        text: "Which character learns his rat was a wizard?"
+        text: "What is James Potter's nickname in the Marauders group?"
         answers:
-          A: "Hermione"
-          B: "Harry"
-          C: "Ron"
-          D: "Neville"
-  - text: "Comment Sirius communique-t-il avec Harry ensuite ?"
+          A: "Prongs"
+          B: "Wormtail"
+          C: "Moony"
+          D: "Padfoot"
+    difficulty: HARD
+  - text: "Quel est le surnom de Sirius Black dans le groupe des Maraudeurs ?"
     answers:
-      A: "par lettres"
-      B: "par le feu"
-      C: "par téléphone"
-      D: "par les rêves"
-    correctAnswer: "A"
+      A: "Cornedrue"
+      B: "Queudver"
+      C: "Lunard"
+      D: "Patmol"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Sirius Black's nickname in the Marauders group?"
+        answers:
+          A: "Prongs"
+          B: "Wormtail"
+          C: "Moony"
+          D: "Padfoot"
+    difficulty: HARD
+  - text: "Quel est le surnom de Remus Lupin dans le groupe des Maraudeurs ?"
+    answers:
+      A: "Patmol"
+      B: "Lunard"
+      C: "Queudver"
+      D: "Cornedrue"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Remus Lupin's nickname in the Marauders group?"
+        answers:
+          A: "Padfoot"
+          B: "Moony"
+          C: "Wormtail"
+          D: "Prongs"
+    difficulty: HARD
+  - text: "Quel est le surnom de Peter Pettigrow dans le groupe des Maraudeurs ?"
+    answers:
+      A: "Patmol"
+      B: "Lunard"
+      C: "Queudver"
+      D: "Cornedrue"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Peter Pettigrew's nickname in the Marauders group?"
+        answers:
+          A: "Padfoot"
+          B: "Moony"
+          C: "Wormtail"
+          D: "Prongs"
+    difficulty: HARD
+  - text: "Qui est l'animal de compagnie de Ron qui se révèle être Peter Pettigrow ?"
+    answers:
+      A: "Pattenrond"
+      B: "Hedwige"
+      C: "Croûtard"
+      D: "Arnold"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who is Ron's pet that turns out to be Peter Pettigrew?"
+        answers:
+          A: "Crookshanks"
+          B: "Hedwig"
+          C: "Scabbers"
+          D: "Arnold"
+    difficulty: HARD
+  - text: "Quel est le nom du chat roux et trapu d'Hermione ?"
+    answers:
+      A: "Rusard"
+      B: "Minou"
+      C: "Félix"
+      D: "Pattenrond"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of Hermione's ginger, stocky cat?"
+        answers:
+          A: "Rusard"
+          B: "Kitty"
+          C: "Felix"
+          D: "Crookshanks"
+    difficulty: HARD
+  - text: "Quelle est la véritable identité de Pattenrond, le chat d'Hermione ?"
+    answers:
+      A: "Un elfuron"
+      B: "Un Animagus"
+      C: "Un Metamorphomage"
+      D: "Un Demiguise"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the true identity of Crookshanks, Hermione's cat?"
+        answers:
+          A: "A Kneazle"
+          B: "An Animagus"
+          C: "A Metamorphmagus"
+          D: "A Demiguise"
     difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour réparer la lunette de Harry ?"
+    answers:
+      A: "Reparo"
+      B: "Réparo lunettes"
+      C: "Lunettes Reparo"
+      D: "Oculus Reparo"
+    correctAnswer: D
     translations:
       en:
-        text: "How does Sirius later communicate with Harry?"
+        text: "Which spell does Hermione use to repair Harry's glasses?"
         answers:
-          A: "by letters"
-          B: "by fire"
-          C: "by telephone"
-          D: "through dreams"
-  - text: "Qui est un Animagus non déclaré dans ce film ?"
+          A: "Reparo"
+          B: "Reparo glasses"
+          C: "Glasses Reparo"
+          D: "Oculus Reparo"
+    difficulty: EXPERT
+  - text: "Quel est le nom du magicien qui apparaît dans le Chaudron Baveur dans Le Prisonnier d'Azkaban ?"
+    answers:
+      A: "Dedalus Diggle"
+      B: "Doris Crockford"
+      C: "Bathilda Tourdesac"
+      D: "Cornelius Fudge"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the wizard who appears in the Leaky Cauldron in The Prisoner of Azkaban?"
+        answers:
+          A: "Dedalus Diggle"
+          B: "Doris Crockford"
+          C: "Bathilda Bagshot"
+          D: "Cornelius Fudge"
+    difficulty: EXPERT
+  - text: "En quelle année le film Le Prisonnier d'Azkaban est-il sorti en salles ?"
+    answers:
+      A: "2004"
+      B: "2003"
+      C: "2002"
+      D: "2005"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year was the film The Prisoner of Azkaban released in theaters?"
+        answers:
+          A: "2004"
+          B: "2003"
+          C: "2002"
+          D: "2005"
+    difficulty: EXPERT
+  - text: "Quel est le premier nom du professeur Lupin ?"
+    answers:
+      A: "Rufus"
+      B: "Romulus"
+      C: "Regulus"
+      D: "Remus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Professor Lupin's first name?"
+        answers:
+          A: "Rufus"
+          B: "Romulus"
+          C: "Regulus"
+          D: "Remus"
+    difficulty: HARD
+  - text: "Combien de temps Sirius Black a-t-il passé à Azkaban avant de s'échapper ?"
+    answers:
+      A: "12 ans"
+      B: "10 ans"
+      C: "14 ans"
+      D: "15 ans"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How long did Sirius Black spend in Azkaban before escaping?"
+        answers:
+          A: "12 years"
+          B: "10 years"
+          C: "14 years"
+          D: "15 years"
+    difficulty: EXPERT
+  - text: "Quel numéro de cellule occupait Sirius Black à Azkaban ?"
+    answers:
+      A: "7"
+      B: "13"
+      C: "12"
+      D: "5"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What cell number did Sirius Black occupy in Azkaban?"
+        answers:
+          A: "7"
+          B: "13"
+          C: "12"
+          D: "5"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour allumer les feux follets ?"
+    answers:
+      A: "Incendio"
+      B: "Lumos"
+      C: "Lacarnum Inflamari"
+      D: "Diffindo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell does Hermione use to light the will-o'-the-wisps?"
+        answers:
+          A: "Incendio"
+          B: "Lumos"
+          C: "Lacarnum Inflamari"
+          D: "Diffindo"
+    difficulty: EXPERT
+  - text: "Qui a donné la Carte du Maraudeur à Harry ?"
+    answers:
+      A: "Fred et George Weasley"
+      B: "Remus Lupin"
+      C: "Sirius Black"
+      D: "Peter Pettigrow"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who gave Harry the Marauder's Map?"
+        answers:
+          A: "Fred and George Weasley"
+          B: "Remus Lupin"
+          C: "Sirius Black"
+          D: "Peter Pettigrew"
+    difficulty: HARD
+  - text: "Quelle créature Hermione fait-elle exploser avec un sort dans la cabane hurlante ?"
+    answers:
+      A: "Une chauve-souris"
+      B: "Un loup-garou"
+      C: "Un Détraqueur"
+      D: "Un Rat d'eau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which creature does Hermione blow up with a spell in the Shrieking Shack?"
+        answers:
+          A: "A bat"
+          B: "A werewolf"
+          C: "A Dementor"
+          D: "A water rat"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour révéler que Pattenrond est un Animagus ?"
+    answers:
+      A: "Revelio"
+      B: "Homorphus"
+      C: "Finite Incantatem"
+      D: "Aucun, elle ne le fait pas"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which spell does Hermione use to reveal that Crookshanks is an Animagus?"
+        answers:
+          A: "Revelio"
+          B: "Homorphus"
+          C: "Finite Incantatem"
+          D: "None, she doesn't do it"
+    difficulty: EXPERT
+  - text: "Quel est le nom du magicien qui possède la boutique de balais à Pré-au-Lard ?"
+    answers:
+      A: "Dervish et Banges"
+      B: "Ambrosius Flume"
+      C: "Rogue"
+      D: "Gambol et Japes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the wizard who owns the broom shop in Hogsmeade?"
+        answers:
+          A: "Dervish and Banges"
+          B: "Ambrosius Flume"
+          C: "Snape"
+          D: "Gambol and Japes"
+    difficulty: EXPERT
+  - text: "Quelle boisson Harry, Ron et Hermione commandent-ils à la Tête de Sanglier ?"
+    answers:
+      A: "Bièraubeurre"
+      B: "Hydromel"
+      C: "Jus de citrouille"
+      D: "Feux follets"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What drink do Harry, Ron, and Hermione order at the Hog's Head?"
+        answers:
+          A: "Butterbeer"
+          B: "Mead"
+          C: "Pumpkin juice"
+          D: "Will-o'-the-wisps"
+    difficulty: EXPERT
+  - text: "Qui a donné le Balai Éclair à Harry ?"
     answers:
       A: "Dumbledore"
-      B: "Rogue"
+      B: "McGonagall"
       C: "Lupin"
-      D: "Sirius"
-    correctAnswer: "D"
-    difficulty: EXPERT
+      D: "Sirius Black"
+    correctAnswer: D
     translations:
       en:
-        text: "Who is an unregistered Animagus in this film?"
+        text: "Who gave Harry the Firebolt broom?"
         answers:
           A: "Dumbledore"
-          B: "Snape"
+          B: "McGonagall"
           C: "Lupin"
-          D: "Sirius"
-  - text: "Que fait Peter Pettigrew à la fin ?"
-    answers:
-      A: "il est arrêté"
-      B: "il s'enfuit"
-      C: "il meurt"
-      D: "il est gracié"
-    correctAnswer: "B"
+          D: "Sirius Black"
     difficulty: HARD
+  - text: "Quel est le nom de l'hippogriffe que Buck attaque lors de la démonstration ?"
+    answers:
+      A: "Buck"
+      B: "Talon"
+      C: "Plume"
+      D: "Aile"
+    correctAnswer: A
     translations:
       en:
-        text: "What does Peter Pettigrew do at the end?"
+        text: "What is the name of the hippogriff that Buck attacks during the demonstration?"
         answers:
-          A: "he is arrested"
-          B: "he escapes"
-          C: "he dies"
-          D: "he is pardoned"
-  - text: "Quelle créature Sirius et Harry chevauchent-ils à la fin ?"
+          A: "Buck"
+          B: "Talon"
+          C: "Feather"
+          D: "Wing"
+    difficulty: EXPERT
+  - text: "Quel objet magique Hermione utilise-t-elle pour assister à plusieurs cours simultanément ?"
     answers:
-      A: "un cerf"
-      B: "un dragon"
-      C: "un cheval"
-      D: "Buck"
-    correctAnswer: "D"
+      A: "Une Cape d'invisibilité"
+      B: "Un Retourneur de Temps"
+      C: "Un Miroir à double sens"
+      D: "Une Potion de Polynectar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which magical object does Hermione use to attend several classes at once?"
+        answers:
+          A: "An Invisibility Cloak"
+          B: "A Time-Turner"
+          C: "A two-way mirror"
+          D: "A Polyjuice Potion"
     difficulty: HARD
-    translations:
-      en:
-        text: "Which creature do Sirius and Harry ride at the end?"
-        answers:
-          A: "a stag"
-          B: "a dragon"
-          C: "a horse"
-          D: "Buckbeak"
-  - text: "Où Sirius se cache-t-il lors de la confrontation ?"
+  - text: "Quel est le nom du village où se trouve la Tête de Sanglier ?"
     answers:
-      A: "la forêt interdite"
-      B: "la Cabane hurlante"
-      C: "les cachots"
-      D: "le lac"
-    correctAnswer: "B"
-    difficulty: EXPERT
+      A: "Godric's Hollow"
+      B: "Pré-au-Lard"
+      C: "Le Chemin de Traverse"
+      D: "Little Hangleton"
+    correctAnswer: B
     translations:
       en:
-        text: "Where does Sirius hide during the confrontation?"
+        text: "What is the name of the village where the Hog's Head is located?"
         answers:
-          A: "the Forbidden Forest"
-          B: "the Shrieking Shack"
-          C: "the dungeons"
-          D: "the lake"
-  - text: "Quel groupe d'amis Lupin, Sirius, James et Peter formaient-ils ?"
+          A: "Godric's Hollow"
+          B: "Hogsmeade"
+          C: "Diagon Alley"
+          D: "Little Hangleton"
+    difficulty: HARD
+  - text: "Quel sort Harry utilise-t-il pour repousser les Détraqueurs au bord du lac ?"
     answers:
-      A: "les Maraudeurs"
-      B: "l'Ordre du Phénix"
-      C: "les Aurors"
-      D: "les Serpentards"
-    correctAnswer: "A"
-    difficulty: EXPERT
+      A: "Lumos Maxima"
+      B: "Riddikulus"
+      C: "Expelliarmus"
+      D: "Expecto Patronum"
+    correctAnswer: D
     translations:
       en:
-        text: "What group did Lupin, Sirius, James and Peter form?"
+        text: "Which spell does Harry use to repel the Dementors by the lake?"
         answers:
-          A: "the Marauders"
-          B: "the Order of the Phoenix"
-          C: "the Aurors"
-          D: "the Slytherins"
-  - text: "Qui a insufflé de la magie dans le Saule cogneur ?"
+          A: "Lumos Maxima"
+          B: "Riddikulus"
+          C: "Expelliarmus"
+          D: "Expecto Patronum"
+    difficulty: EXPERT
+  - text: "Quel personnage aide Harry à s'échapper de sa chambre sur Privet Drive ?"
     answers:
-      A: "les Maraudeurs"
-      B: "Hagrid"
-      C: "Dumbledore"
-      D: "Rogue"
-    correctAnswer: "A"
-    difficulty: EXPERT
+      A: "Dobby"
+      B: "Ron"
+      C: "Hedwige"
+      D: "Lupin"
+    correctAnswer: A
     translations:
       en:
-        text: "Who enchanted the Whomping Willow?"
+        text: "Which character helps Harry escape from his room on Privet Drive?"
         answers:
-          A: "the Marauders"
-          B: "Hagrid"
-          C: "Dumbledore"
-          D: "Snape"
-  - text: "Quel sort Hermione apprend-elle pour aider Harry ?"
+          A: "Dobby"
+          B: "Ron"
+          C: "Hedwig"
+          D: "Lupin"
+    difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour réparer les lunettes de Harry dans le train ?"
     answers:
-      A: "la téléportation"
-      B: "un sort de feu"
-      C: "un sort de vol"
-      D: "le Patronus"
-    correctAnswer: "D"
-    difficulty: EXPERT
+      A: "Oculus Reparo"
+      B: "Reparo"
+      C: "Wingardium Leviosa"
+      D: "Diffindo"
+    correctAnswer: A
     translations:
       en:
-        text: "Which spell does Hermione learn to help Harry?"
+        text: "Which spell does Hermione use to repair Harry's glasses on the train?"
         answers:
-          A: "teleportation"
-          B: "a fire spell"
-          C: "a flying spell"
-          D: "the Patronus"
+          A: "Oculus Reparo"
+          B: "Reparo"
+          C: "Wingardium Leviosa"
+          D: "Diffindo"
+    difficulty: EXPERT
+  - text: "Qui a trahi les parents de Harry selon la croyance générale ?"
+    answers:
+      A: "Sirius Black"
+      B: "Peter Pettigrow"
+      C: "Remus Lupin"
+      D: "Severus Rogue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who betrayed Harry's parents according to common belief?"
+        answers:
+          A: "Sirius Black"
+          B: "Peter Pettigrew"
+          C: "Remus Lupin"
+          D: "Severus Snape"
+    difficulty: HARD
+  - text: "Quel personnage a la capacité de se transformer en loup-garou ?"
+    answers:
+      A: "Sirius Black"
+      B: "Remus Lupin"
+      C: "Peter Pettigrow"
+      D: "James Potter"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character has the ability to transform into a werewolf?"
+        answers:
+          A: "Sirius Black"
+          B: "Remus Lupin"
+          C: "Peter Pettigrew"
+          D: "James Potter"
+    difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour réparer la monture des lunettes de Harry dans le train ?"
+    answers:
+      A: "Reparo"
+      B: "Oculus Reparo"
+      C: "Wingardium Leviosa"
+      D: "Accio"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell does Hermione use to repair the frame of Harry's glasses on the train?"
+        answers:
+          A: "Reparo"
+          B: "Oculus Reparo"
+          C: "Wingardium Leviosa"
+          D: "Accio"
+    difficulty: EXPERT
+  - text: "Quel Détraqueur attaque Harry dans le train pour Poudlard, le faisant s'évanouir ?"
+    answers:
+      A: "Il est attaqué près du lac"
+      B: "Dans le compartiment du Poudlard Express"
+      C: "Sur le pont de Poudlard"
+      D: "Dans le couloir du train"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Dementor attacks Harry on the train to Hogwarts, causing him to faint?"
+        answers:
+          A: "He is attacked near the lake"
+          B: "In the Hogwarts Express compartment"
+          C: "On the Hogwarts bridge"
+          D: "In the train corridor"
+    difficulty: EXPERT
+  - text: "Quelle créature Lupin fait-il sortir de la commode avant que Neville ne la repousse ?"
+    answers:
+      A: "Un Boggart"
+      B: "Un Détraqueur"
+      C: "Un Épouvantard"
+      D: "Un Kappa"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which creature does Lupin let out of the wardrobe before Neville repels it?"
+        answers:
+          A: "A Boggart"
+          B: "A Dementor"
+          C: "A Boggart"
+          D: "A Kappa"
+    difficulty: EXPERT
+  - text: "Quelle forme prend le Boggart de Lupin, révélant sa condition ?"
+    answers:
+      A: "Un Détraqueur"
+      B: "Un loup-garou"
+      C: "Une pleine lune"
+      D: "Une araignée géante"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What form does Lupin's Boggart take, revealing his condition?"
+        answers:
+          A: "A Dementor"
+          B: "A werewolf"
+          C: "A full moon"
+          D: "A giant spider"
+    difficulty: EXPERT
+  - text: "Quel sort précis est utilisé pour repousser un Boggart en classe ?"
+    answers:
+      A: "Ridikulus"
+      B: "Patronum"
+      C: "Rictusempra"
+      D: "Riddikulus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which exact spell is used to repel a Boggart in class?"
+        answers:
+          A: "Ridikulus"
+          B: "Patronum"
+          C: "Rictusempra"
+          D: "Riddikulus"
+    difficulty: EXPERT
+  - text: "Qui prononce la célèbre réplique « Tourne, tourne, tourne... » en lisant les feuilles de thé ?"
+    answers:
+      A: "Pomona Chourave"
+      B: "Minerva McGonagall"
+      C: "Hermione Granger"
+      D: "Sibylle Trelawney"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who says the famous line \"Turn, turn, turn...\" while reading tea leaves?"
+        answers:
+          A: "Pomona Sprout"
+          B: "Minerva McGonagall"
+          C: "Hermione Granger"
+          D: "Sybill Trelawney"
+    difficulty: EXPERT
+  - text: "Que lit Sibylle Trelawney dans les feuilles de thé d'Harry lors de leur premier cours ?"
+    answers:
+      A: "Le grand chien noir"
+      B: "La faux"
+      C: "Le sorcier noir"
+      D: "Le cercueil"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What does Sybill Trelawney read in Harry's tea leaves during their first class?"
+        answers:
+          A: "The great black dog"
+          B: "The scythe"
+          C: "The dark wizard"
+          D: "The coffin"
+    difficulty: EXPERT
+  - text: "Quel objet magique Hermione utilise-t-elle pour remonter le temps et assister à ses cours ?"
+    answers:
+      A: "Une Horloge de Poudlard"
+      B: "Un Sablier Temporel"
+      C: "Un Retourneur de Temps"
+      D: "Un chronomètre enchanté"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which magical object does Hermione use to travel back in time and attend her classes?"
+        answers:
+          A: "A Hogwarts Clock"
+          B: "A Temporal Hourglass"
+          C: "A Time-Turner"
+          D: "An enchanted chronometer"
+    difficulty: HARD
+  - text: "Combien de tours comporte le Retourneur de Temps d'Hermione ?"
+    answers:
+      A: "Trois tours"
+      B: "Douze tours"
+      C: "Vingt-quatre tours"
+      D: "Un tour"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many turns does Hermione's Time-Turner have?"
+        answers:
+          A: "Three turns"
+          B: "Twelve turns"
+          C: "Twenty-four turns"
+          D: "One turn"
+    difficulty: EXPERT
+  - text: "Quel nom est inscrit sur la Carte du Maraudeur ?"
+    answers:
+      A: "Carte des Maraudeurs"
+      B: "Carte de Poudlard"
+      C: "Carte de Godric"
+      D: "Carte de l’École"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What name is written on the Marauder's Map?"
+        answers:
+          A: "Marauders' Map"
+          B: "Hogwarts Map"
+          C: "Godric's Map"
+          D: "School Map"
+    difficulty: EXPERT
+  - text: "Quel sort précis ouvre la Carte du Maraudeur ?"
+    answers:
+      A: "Dissendium"
+      B: "Je jure de ne rien faire de bon"
+      C: "Mischief managed"
+      D: "Je jure solennellement que mes intentions sont mauvaises"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which exact spell opens the Marauder's Map?"
+        answers:
+          A: "Dissendium"
+          B: "I swear to do nothing good"
+          C: "Mischief managed"
+          D: "I solemnly swear that I am up to no good"
+    difficulty: EXPERT
+  - text: "Quel est le nom du passage secret que la Carte révèle et qui mène à Pré-au-Lard ?"
+    answers:
+      A: "Le passage de la Sorcière borgne"
+      B: "Le souterrain de Honeydukes"
+      C: "Le passage des cuisines"
+      D: "Le tunnel du Saule cogneur"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the secret passage that the Map reveals and that leads to Hogsmeade?"
+        answers:
+          A: "The One-Eyed Witch passage"
+          B: "The Honeydukes underground passage"
+          C: "The kitchens passage"
+          D: "The Whomping Willow tunnel"
+    difficulty: EXPERT
+  - text: "Qui a donné la Carte du Maraudeur à Harry lors de son premier week-end à Pré-au-Lard ?"
+    answers:
+      A: "Remus Lupin"
+      B: "George Weasley"
+      C: "Fred et George Weasley"
+      D: "Ron Weasley"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who gave the Marauder's Map to Harry during his first weekend in Hogsmeade?"
+        answers:
+          A: "Remus Lupin"
+          B: "George Weasley"
+          C: "Fred and George Weasley"
+          D: "Ron Weasley"
+    difficulty: HARD
+  - text: "Par quelle entrée secrète Harry, Ron et Hermione passent-ils pour aller à Pré-au-Lard dans ce film ?"
+    answers:
+      A: "Le Saule cogneur"
+      B: "La statue de la Sorcière borgne"
+      C: "Le portrait de la Grosse Dame"
+      D: "La cheminée de la Grande Salle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Through which secret entrance do Harry, Ron and Hermione go to Hogsmeade in this film?"
+        answers:
+          A: "The Whomping Willow"
+          B: "The statue of the One-Eyed Witch"
+          C: "The portrait of the Fat Lady"
+          D: "The fireplace of the Great Hall"
+    difficulty: EXPERT
+  - text: "Quel détail du tableau de la Grosse Dame déclenche l’intrigue du film ?"
+    answers:
+      A: "Les raisins"
+      B: "Les citrouilles"
+      C: "Les pommes"
+      D: "Les poires"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which detail of the Fat Lady's painting triggers the film's plot?"
+        answers:
+          A: "The grapes"
+          B: "The pumpkins"
+          C: "The apples"
+          D: "The pears"
+    difficulty: EXPERT
+  - text: "Quel mot de passe donne accès à la tour de Gryffondor après l’attaque de Sirius ?"
+    answers:
+      A: "Tête de lion"
+      B: "Capitaine Fracasse"
+      C: "Mot de passe oublié"
+      D: "Courage de lion"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which password grants access to the Gryffindor tower after Sirius's attack?"
+        answers:
+          A: "Lion's head"
+          B: "Captain Fracasse"
+          C: "Forgotten password"
+          D: "Lion's courage"
+    difficulty: EXPERT
+  - text: "Qui brise le balai Éclair de Harry lors du match de Quidditch contre Serpentard ?"
+    answers:
+      A: "Un Cognard"
+      B: "Un sort de Marcus Flint"
+      C: "Drago Malefoy"
+      D: "Les Détraqueurs"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who breaks Harry's Firebolt broom during the Quidditch match against Slytherin?"
+        answers:
+          A: "A Bludger"
+          B: "A spell from Marcus Flint"
+          C: "Draco Malfoy"
+          D: "The Dementors"
+    difficulty: EXPERT
+  - text: "Quel joueur de Serpentard utilise un balai Nimbus 2001 durant le match ?"
+    answers:
+      A: "Vincent Crabbe"
+      B: "Drago Malefoy"
+      C: "Blaise Zabini"
+      D: "Gregory Goyle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Slytherin player uses a Nimbus 2001 broom during the match?"
+        answers:
+          A: "Vincent Crabbe"
+          B: "Draco Malfoy"
+          C: "Blaise Zabini"
+          D: "Gregory Goyle"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour allumer le feu dans la cabane hurlante ?"
+    answers:
+      A: "Lacarnum Inflamari"
+      B: "Lumos Solem"
+      C: "Incendio"
+      D: "Fumos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell does Hermione use to light the fire in the Shrieking Shack?"
+        answers:
+          A: "Lacarnum Inflamari"
+          B: "Lumos Solem"
+          C: "Incendio"
+          D: "Fumos"
+    difficulty: EXPERT
+  - text: "Comment s’appelle le balai offert à Harry, qui sera détruit par le Saule cogneur ?"
+    answers:
+      A: "Éclair"
+      B: "Éclair de Feu"
+      C: "Comète 260"
+      D: "Nimbus 2000"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the broom given to Harry, which will be destroyed by the Whomping Willow?"
+        answers:
+          A: "Lightning"
+          B: "Firebolt"
+          C: "Comet 260"
+          D: "Nimbus 2000"
+    difficulty: HARD
+  - text: "Qui a réalisé Le Prisonnier d'Azkaban ?"
+    answers:
+      A: "Chris Columbus"
+      B: "Mike Newell"
+      C: "David Yates"
+      D: "Alfonso Cuarón"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who directed The Prisoner of Azkaban?"
+        answers:
+          A: "Chris Columbus"
+          B: "Mike Newell"
+          C: "David Yates"
+          D: "Alfonso Cuarón"
+    difficulty: EXPERT

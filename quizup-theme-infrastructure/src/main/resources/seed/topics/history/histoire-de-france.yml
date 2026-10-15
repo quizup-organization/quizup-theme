@@ -7,7 +7,7 @@ topic:
   category: HISTORY
   imageUrl: wikipedia/history/Prise_de_la_Bastille.jpg
 questions:
-  - text: "Quel chef gaulois a unifié les tribus face à Jules César avant la défaite d'Alésia en 52 av. J.-C. ?"
+  - text: "Quel chef gaulois a affronté César à Alésia ?"
     imageUrl: wikipedia/history/Vercingetorix_statue.jpg
     answers:
       A: "Brennus"
@@ -15,16 +15,16 @@ questions:
       C: "Ambiorix"
       D: "Boduognat"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "Which Gallic chieftain united the tribes against Julius Caesar before the defeat at Alesia in 52 BC?"
+        text: "Which Gallic chieftain faced Caesar at Alesia?"
         answers:
           A: "Brennus"
           B: "Vercingetorix"
           C: "Ambiorix"
           D: "Boduognatus"
-  - text: "Quel roi des Francs est baptisé à Reims par saint Remy, comme le montre cette enluminure ?"
+    difficulty: EASY
+  - text: "Quel roi des Francs fut baptisé à Reims par saint Remy ?"
     imageUrl: wikipedia/history/Bapteme_de_Clovis.jpg
     answers:
       A: "Dagobert Ier"
@@ -32,16 +32,16 @@ questions:
       C: "Chilpéric Ier"
       D: "Clotaire Ier"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which king of the Franks was baptized in Reims by Saint Remy, as shown in this illumination?"
+        text: "Which king of the Franks was baptized in Reims by Saint Remigius?"
         answers:
           A: "Dagobert I"
           B: "Clovis I"
           C: "Chilperic I"
           D: "Chlothar I"
-  - text: "Quelle figure de la guerre de Cent Ans cette statue tenant une bannière représente-t-elle ?"
+    difficulty: EASY
+  - text: "Quelle figure de la guerre de Cent Ans est représentée ?"
     imageUrl: wikipedia/history/Jeanne_d'Arc.jpg
     answers:
       A: "Aliénor d'Aquitaine"
@@ -49,16 +49,16 @@ questions:
       C: "Catherine de Médicis"
       D: "Anne de Bretagne"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "Which figure from the Hundred Years' War does this statue holding a banner represent?"
+        text: "Which figure from the Hundred Years' War is depicted?"
         answers:
           A: "Eleanor of Aquitaine"
           B: "Joan of Arc"
           C: "Catherine de' Medici"
           D: "Anne of Brittany"
-  - text: "Quel roi de France, surnommé le Roi-Soleil, a régné de 1643 à 1715 et fait construire Versailles ?"
+    difficulty: EASY
+  - text: "Quel roi de France a fait construire Versailles ?"
     imageUrl: wikipedia/history/Louis_XIV.jpg
     answers:
       A: "Louis XIII"
@@ -66,16 +66,16 @@ questions:
       C: "Louis XV"
       D: "Louis XIV"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "Which King of France, known as the Sun King, reigned from 1643 to 1715 and built Versailles?"
+        text: "Which king of France had Versailles built?"
         answers:
           A: "Louis XIII"
           B: "Henry IV"
           C: "Louis XV"
           D: "Louis XIV"
-  - text: "Quelle reine de France, épouse de Louis XVI, a été exécutée en 1793 ?"
+    difficulty: EASY
+  - text: "Quelle reine de France fut exécutée en 1793 ?"
     imageUrl: wikipedia/history/Marie_Antoinette.jpg
     answers:
       A: "Joséphine de Beauharnais"
@@ -83,16 +83,16 @@ questions:
       C: "Marie-Antoinette"
       D: "Anne d'Autriche"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
-        text: "Which Queen of France, wife of Louis XVI, was executed in 1793?"
+        text: "Which queen of France was executed in 1793?"
         answers:
           A: "Joséphine de Beauharnais"
           B: "Catherine de' Medici"
           C: "Marie Antoinette"
           D: "Anne of Austria"
-  - text: "Quel empereur des Français a été sacré à Notre-Dame de Paris en 1804 ?"
+    difficulty: EASY
+  - text: "Quel empereur sacré à Notre-Dame en 1804 ?"
     imageUrl: wikipedia/arts/Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg
     answers:
       A: "Napoléon Ier"
@@ -100,448 +100,160 @@ questions:
       C: "Louis XVIII"
       D: "Charles X"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "Which Emperor of the French was crowned at Notre-Dame de Paris in 1804?"
+        text: "Which emperor was crowned at Notre-Dame in 1804?"
         answers:
           A: "Napoleon I"
           B: "Napoleon III"
           C: "Louis XVIII"
           D: "Charles X"
-  - text: "Quel roi a été sacré à Reims en 987, fondant ainsi la dynastie capétienne ?"
+    difficulty: EASY
+  - text: "En quelle année a eu lieu le massacre de la Saint-Barthélemy à Paris ?"
     answers:
-      A: "Philippe Auguste"
-      B: "Louis IX"
-      C: "Hugues Capet"
-      D: "Robert II"
+      A: "1562"
+      B: "1589"
+      C: "1572"
+      D: "1598"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
-        text: "Which king was crowned in Reims in 987, thus founding the Capetian dynasty?"
+        text: "In what year did the St. Bartholomew's Day massacre take place in Paris?"
         answers:
-          A: "Philip Augustus"
-          B: "Louis IX"
-          C: "Hugh Capet"
-          D: "Robert II"
-  - text: "En quelle année Charlemagne a-t-il été couronné empereur par le pape Léon III ?"
-    answers:
-      A: "496"
-      B: "1099"
-      C: "987"
-      D: "800"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "In what year was Charlemagne crowned emperor by Pope Leo III?"
-        answers:
-          A: "496"
-          B: "1099"
-          C: "987"
-          D: "800"
-  - text: "Quel édit signé par Henri IV en 1598 a accordé la liberté de culte aux protestants ?"
-    answers:
-      A: "L'édit de Milan"
-      B: "L'édit de Fontainebleau"
-      C: "L'édit de Nantes"
-      D: "L'édit de Roussillon"
-    correctAnswer: C
+          A: "1562"
+          B: "1589"
+          C: "1572"
+          D: "1598"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which edict signed by Henry IV in 1598 granted freedom of worship to Protestants?"
-        answers:
-          A: "The Edict of Milan"
-          B: "The Edict of Fontainebleau"
-          C: "The Edict of Nantes"
-          D: "The Edict of Roussillon"
-  - text: "Quel roi de France a été guillotiné place de la Révolution à Paris le 21 janvier 1793 ?"
+  - text: "Qui a été le premier président de la IIIe République ?"
     answers:
-      A: "Charles IX"
-      B: "Henri III"
-      C: "Louis XVI"
-      D: "François II"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which King of France was guillotined at the Place de la Révolution in Paris on January 21, 1793?"
-        answers:
-          A: "Charles IX"
-          B: "Henry III"
-          C: "Louis XVI"
-          D: "Francis II"
-  - text: "Après sa défaite à Waterloo en 1815, sur quelle île Napoléon a-t-il été exilé ?"
-    answers:
-      A: "L'île d'Elbe"
-      B: "L'île de Malte"
-      C: "La Corse"
-      D: "L'île de Sainte-Hélène"
+      A: "Sadi Carnot"
+      B: "Jules Grévy"
+      C: "Patrice de Mac Mahon"
+      D: "Adolphe Thiers"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first president of the Third Republic?"
+        answers:
+          A: "Sadi Carnot"
+          B: "Jules Grévy"
+          C: "Patrice de Mac Mahon"
+          D: "Adolphe Thiers"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "After his defeat at Waterloo in 1815, to which island was Napoleon exiled?"
-        answers:
-          A: "Elba"
-          B: "Malta"
-          C: "Corsica"
-          D: "Saint Helena"
-  - text: "Quelle bataille François Ier a-t-il remportée en Italie en 1515 ?"
+  - text: "Quel traité signé en 1763 met fin à la guerre de Sept Ans ?"
     answers:
-      A: "Bouvines"
-      B: "Pavie"
-      C: "Azincourt"
-      D: "Marignan"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which battle did Francis I win in Italy in 1515?"
-        answers:
-          A: "Bouvines"
-          B: "Pavia"
-          C: "Agincourt"
-          D: "Marignano"
-  - text: "Quel ministre de Louis XIV a développé les manufactures et le commerce au XVIIe siècle ?"
-    answers:
-      A: "Jean-Baptiste Colbert"
-      B: "Armand du Plessis de Richelieu"
-      C: "Jules Mazarin"
-      D: "Jacques Necker"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which minister of Louis XIV developed manufacturing and trade in the 17th century?"
-        answers:
-          A: "Jean-Baptiste Colbert"
-          B: "Armand du Plessis de Richelieu"
-          C: "Jules Mazarin"
-          D: "Jacques Necker"
-  - text: "Quelle guerre a opposé la France et l'Angleterre de 1337 à 1453 ?"
-    answers:
-      A: "La guerre de Cent Ans"
-      B: "La guerre de Sept Ans"
-      C: "La guerre de Succession d'Espagne"
-      D: "La guerre de Trente Ans"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which war pitted France against England from 1337 to 1453?"
-        answers:
-          A: "The Hundred Years' War"
-          B: "The Seven Years' War"
-          C: "The War of the Spanish Succession"
-          D: "The Thirty Years' War"
-  - text: "Quel massacre de protestants a eu lieu à Paris le 24 août 1572 ?"
-    answers:
-      A: "Le massacre de la Saint-Michel"
-      B: "Le massacre de la Saint-Barthélemy"
-      C: "La journée des Dupes"
-      D: "La Fronde"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which massacre of Protestants took place in Paris on August 24, 1572?"
-        answers:
-          A: "The St. Michael's Day massacre"
-          B: "The St. Bartholomew's Day massacre"
-          C: "The Day of Dupes"
-          D: "The Fronde"
-  - text: "Quelle république a été proclamée en France en 1870 après la chute de Napoléon III ?"
-    answers:
-      A: "La Troisième République"
-      B: "La Quatrième République"
-      C: "La Deuxième République"
-      D: "La Cinquième République"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which republic was proclaimed in France in 1870 after the fall of Napoleon III?"
-        answers:
-          A: "The Third Republic"
-          B: "The Fourth Republic"
-          C: "The Second Republic"
-          D: "The Fifth Republic"
-  - text: "Quel général a lancé l'appel du 18 juin 1940 depuis Londres ?"
-    answers:
-      A: "Philippe Pétain"
-      B: "Jean Moulin"
-      C: "Philippe Leclerc de Hauteclocque"
-      D: "Charles de Gaulle"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which general launched the appeal of 18 June 1940 from London?"
-        answers:
-          A: "Philippe Pétain"
-          B: "Jean Moulin"
-          C: "Philippe Leclerc de Hauteclocque"
-          D: "Charles de Gaulle"
-  - text: "En quelle année Paris a-t-elle été libérée de l'occupation allemande ?"
-    answers:
-      A: "1943"
-      B: "1944"
-      C: "1945"
-      D: "1946"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "In what year was Paris liberated from German occupation?"
-        answers:
-          A: "1943"
-          B: "1944"
-          C: "1945"
-          D: "1946"
-  - text: "Quel roi de France a été surnommé Saint Louis ?"
-    answers:
-      A: "Charles V"
-      B: "Louis VII"
-      C: "Philippe II Auguste"
-      D: "Louis IX"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which king of France was nicknamed Saint Louis?"
-        answers:
-          A: "Charles V"
-          B: "Louis VII"
-          C: "Philip II Augustus"
-          D: "Louis IX"
-  - text: "Quelle loi de 1905 a établi la séparation des Églises et de l'État en France ?"
-    answers:
-      A: "La loi sur la liberté de la presse"
-      B: "La loi sur les associations"
-      C: "La loi Jules Ferry"
-      D: "La loi de séparation des Églises et de l'État"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which 1905 law established the separation of Church and State in France?"
-        answers:
-          A: "The law on freedom of the press"
-          B: "The law on associations"
-          C: "The Jules Ferry law"
-          D: "The law on the separation of Church and State"
-  - text: "En quelle année a débuté la Révolution française ?"
-    answers:
-      A: "1799"
-      B: "1789"
-      C: "1804"
-      D: "1769"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year did the French Revolution begin?"
-        answers:
-          A: "1799"
-          B: "1789"
-          C: "1804"
-          D: "1769"
-    difficulty: EASY
-  - text: "Qui a été le premier président de la Ve République ?"
-    answers:
-      A: "Georges Pompidou"
-      B: "François Mitterrand"
-      C: "Charles de Gaulle"
-      D: "René Coty"
+      A: "Le traité d'Utrecht"
+      B: "Le traité de Versailles"
+      C: "Le traité de Paris"
+      D: "Le traité de Rastatt"
     correctAnswer: C
     translations:
       en:
-        text: "Who was the first president of the Fifth Republic?"
+        text: "Which treaty signed in 1763 ended the Seven Years' War?"
         answers:
-          A: "Georges Pompidou"
-          B: "François Mitterrand"
-          C: "Charles de Gaulle"
-          D: "René Coty"
-    difficulty: EASY
-  - text: "Quelle fête nationale commémore la prise de la Bastille ?"
-    answers:
-      A: "Le 8 mai"
-      B: "Le 14 juillet"
-      C: "Le 11 novembre"
-      D: "Le 1er mai"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which national holiday commemorates the storming of the Bastille?"
-        answers:
-          A: "May 8"
-          B: "July 14"
-          C: "November 11"
-          D: "May 1"
-    difficulty: EASY
-  - text: "Quel empereur français a été définitivement vaincu à la bataille de Waterloo ?"
-    answers:
-      A: "Napoléon Bonaparte"
-      B: "Louis XVI"
-      C: "Charlemagne"
-      D: "Henri IV"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which French emperor was definitively defeated at the Battle of Waterloo?"
-        answers:
-          A: "Napoleon Bonaparte"
-          B: "Louis XVI"
-          C: "Charlemagne"
-          D: "Henry IV"
-    difficulty: EASY
-  - text: "En quelle année la Première Guerre mondiale a-t-elle pris fin ?"
-    answers:
-      A: "1918"
-      B: "1916"
-      C: "1920"
-      D: "1914"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year did World War I end?"
-        answers:
-          A: "1918"
-          B: "1916"
-          C: "1920"
-          D: "1914"
-    difficulty: EASY
-  - text: "Quelle jeune femme a délivré Orléans en 1429 ?"
-    answers:
-      A: "Anne de Bretagne"
-      B: "Catherine de Médicis"
-      C: "Blanche de Castille"
-      D: "Jeanne d'Arc"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which young woman delivered Orléans in 1429?"
-        answers:
-          A: "Anne of Brittany"
-          B: "Catherine de' Medici"
-          C: "Blanche of Castile"
-          D: "Joan of Arc"
-    difficulty: EASY
-  - text: "Quel est l'hymne national de la France ?"
-    answers:
-      A: "L'Internationale"
-      B: "Le Chant du départ"
-      C: "La Marseillaise"
-      D: "La Brabançonne"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the national anthem of France?"
-        answers:
-          A: "L'Internationale"
-          B: "Le Chant du départ"
-          C: "La Marseillaise"
-          D: "La Brabançonne"
-    difficulty: EASY
-  - text: "Qui a été le premier empereur des Français ?"
-    answers:
-      A: "Napoléon III"
-      B: "Napoléon Ier"
-      C: "Charlemagne"
-      D: "Louis XIV"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who was the first Emperor of the French?"
-        answers:
-          A: "Napoleon III"
-          B: "Napoleon I"
-          C: "Charlemagne"
-          D: "Louis XIV"
-    difficulty: EASY
-  - text: "En quelle année la Seconde Guerre mondiale s'est-elle achevée en Europe ?"
-    answers:
-      A: "1943"
-      B: "1944"
-      C: "1946"
-      D: "1945"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year did World War II end in Europe?"
-        answers:
-          A: "1943"
-          B: "1944"
-          C: "1946"
-          D: "1945"
-    difficulty: EASY
-  - text: "Quel roi de France est traditionnellement associé à la formule « L'État, c'est moi » ?"
+          A: "The Treaty of Utrecht"
+          B: "The Treaty of Versailles"
+          C: "The Treaty of Paris"
+          D: "The Treaty of Rastatt"
+    difficulty: HARD
+  - text: "Quel roi a convoqué les États généraux en 1789 ?"
     answers:
       A: "Louis XV"
-      B: "Louis XIV"
-      C: "François Ier"
-      D: "Henri IV"
-    correctAnswer: B
+      B: "Napoléon III"
+      C: "Louis XVI"
+      D: "Charles X"
+    correctAnswer: C
     translations:
       en:
-        text: "Which King of France is traditionally associated with the phrase \"L'État, c'est moi\"?"
+        text: "Which king convened the Estates General in 1789?"
         answers:
           A: "Louis XV"
+          B: "Napoleon III"
+          C: "Louis XVI"
+          D: "Charles X"
+    difficulty: MEDIUM
+  - text: "Quelle bataille de 1515 a permis à François Ier de reprendre Milan ?"
+    answers:
+      A: "Bataille d'Azincourt"
+      B: "Bataille de Pavie"
+      C: "Bataille de Crécy"
+      D: "Bataille de Marignan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1515 battle allowed Francis I to retake Milan?"
+        answers:
+          A: "Battle of Agincourt"
+          B: "Battle of Pavia"
+          C: "Battle of Crécy"
+          D: "Battle of Marignano"
+    difficulty: HARD
+  - text: "Quel était le nom du régime politique en France de 1940 à 1944 ?"
+    answers:
+      A: "Le Second Empire"
+      B: "La IIIe République"
+      C: "La IVe République"
+      D: "Régime de Vichy"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of the political regime in France from 1940 to 1944?"
+        answers:
+          A: "The Second Empire"
+          B: "The Third Republic"
+          C: "The Fourth Republic"
+          D: "Vichy regime"
+    difficulty: MEDIUM
+  - text: "Qui a été la première femme à devenir Première ministre en France ?"
+    answers:
+      A: "Édith Cresson"
+      B: "Simone Veil"
+      C: "Ségolène Royal"
+      D: "Christine Lagarde"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first woman to become Prime Minister in France?"
+        answers:
+          A: "Édith Cresson"
+          B: "Simone Veil"
+          C: "Ségolène Royal"
+          D: "Christine Lagarde"
+    difficulty: MEDIUM
+  - text: "Quel roi de France était surnommé 'le Philosophe' ?"
+    answers:
+      A: "Louis XVI"
+      B: "Louis XIV"
+      C: "Louis XV"
+      D: "François Ier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which king of France was nicknamed 'the Philosopher'?"
+        answers:
+          A: "Louis XVI"
           B: "Louis XIV"
-          C: "Francis I"
-          D: "Henry IV"
-    difficulty: EASY
-  - text: "Qui a succédé à Charles de Gaulle à la présidence de la République en 1969 ?"
+          C: "Louis XV"
+          D: "Francis I"
+    difficulty: EXPERT
+  - text: "En quelle année la loi sur la séparation des Églises et de l'État a-t-elle été promulguée ?"
     answers:
-      A: "François Mitterrand"
-      B: "Valéry Giscard d'Estaing"
-      C: "Georges Pompidou"
-      D: "Jacques Chirac"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who succeeded Charles de Gaulle as President of the Republic in 1969?"
-        answers:
-          A: "François Mitterrand"
-          B: "Valéry Giscard d'Estaing"
-          C: "Georges Pompidou"
-          D: "Jacques Chirac"
-    difficulty: EASY
-  - text: "Quel roi a lancé la construction du château de Chambord ?"
-    answers:
-      A: "Henri II"
-      B: "Charles IX"
-      C: "François Ier"
-      D: "Louis XIV"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which king initiated the construction of the Château de Chambord?"
-        answers:
-          A: "Henry II"
-          B: "Charles IX"
-          C: "Francis I"
-          D: "Louis XIV"
-    difficulty: EASY
-  - text: "Quelle est la devise de la République française ?"
-    answers:
-      A: "Travail, Famille, Patrie"
-      B: "Liberté, Égalité, Fraternité"
-      C: "Dieu et mon droit"
-      D: "Un pour tous, tous pour un"
+      A: "1901"
+      B: "1905"
+      C: "1880"
+      D: "1910"
     correctAnswer: B
     translations:
       en:
-        text: "What is the motto of the French Republic?"
+        text: "In what year was the law on the separation of Church and State enacted?"
         answers:
-          A: "Work, Family, Fatherland"
-          B: "Liberty, Equality, Fraternity"
-          C: "God and my right"
-          D: "One for all, all for one"
-    difficulty: EASY
-  - text: "Quel général romain a conquis la Gaule au Ier siècle av. J.-C. ?"
+          A: "1901"
+          B: "1905"
+          C: "1880"
+          D: "1910"
+    difficulty: HARD
+  - text: "Quel empereur romain a conquis la Gaule ?"
     answers:
       A: "Jules César"
       B: "Auguste"
@@ -550,1066 +262,1354 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Which Roman general conquered Gaul in the 1st century BC?"
+        text: "Which Roman emperor conquered Gaul?"
         answers:
           A: "Julius Caesar"
           B: "Augustus"
           C: "Nero"
           D: "Trajan"
     difficulty: EASY
-  - text: "En quelle année la Ve République a-t-elle été fondée ?"
+  - text: "Quel traité de 1259 a mis fin au conflit entre Philippe Auguste et Jean sans Terre ?"
     answers:
-      A: "1958"
-      B: "1946"
-      C: "1962"
-      D: "1969"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year was the Fifth Republic founded?"
-        answers:
-          A: "1958"
-          B: "1946"
-          C: "1962"
-          D: "1969"
-    difficulty: EASY
-  - text: "Quelle monnaie était utilisée en France avant l'euro ?"
-    answers:
-      A: "Le louis"
-      B: "L'écu"
-      C: "Le franc"
-      D: "Le denier"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What currency was used in France before the euro?"
-        answers:
-          A: "The louis"
-          B: "The écu"
-          C: "The franc"
-          D: "The denier"
-    difficulty: EASY
-  - text: "Quel pays a offert la statue de la Liberté aux États-Unis ?"
-    answers:
-      A: "Le Royaume-Uni"
-      B: "L'Espagne"
-      C: "La France"
-      D: "Les Pays-Bas"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which country gave the Statue of Liberty to the United States?"
-        answers:
-          A: "The United Kingdom"
-          B: "Spain"
-          C: "France"
-          D: "The Netherlands"
-    difficulty: EASY
-  - text: "Quel roi a fondé la dynastie des Bourbons sur le trône de France ?"
-    answers:
-      A: "Henri IV"
-      B: "Louis XIII"
-      C: "Charles IX"
-      D: "François Ier"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which king founded the Bourbon dynasty on the throne of France?"
-        answers:
-          A: "Henry IV"
-          B: "Louis XIII"
-          C: "Charles IX"
-          D: "Francis I"
-    difficulty: EASY
-  - text: "Qui a été élu président de la République française en 1995 ?"
-    answers:
-      A: "Lionel Jospin"
-      B: "Jacques Chirac"
-      C: "Édouard Balladur"
-      D: "Nicolas Sarkozy"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who was elected President of the French Republic in 1995?"
-        answers:
-          A: "Lionel Jospin"
-          B: "Jacques Chirac"
-          C: "Édouard Balladur"
-          D: "Nicolas Sarkozy"
-    difficulty: EASY
-  - text: "Quel conflit a opposé la France à l'Allemagne de 1914 à 1918 ?"
-    answers:
-      A: "La Première Guerre mondiale"
-      B: "La guerre de Crimée"
-      C: "La Seconde Guerre mondiale"
-      D: "La guerre franco-prussienne"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which conflict pitted France against Germany from 1914 to 1918?"
-        answers:
-          A: "World War I"
-          B: "The Crimean War"
-          C: "World War II"
-          D: "The Franco-Prussian War"
-    difficulty: EASY
-  - text: "En quelle année Jeanne d'Arc a-t-elle été brûlée à Rouen ?"
-    answers:
-      A: "1429"
-      B: "1453"
-      C: "1435"
-      D: "1431"
+      A: "Traité de Brétigny"
+      B: "Traité de Bordeaux"
+      C: "Traité de Troyes"
+      D: "Traité de Paris"
     correctAnswer: D
     translations:
       en:
-        text: "In what year was Joan of Arc burned at Rouen?"
+        text: "Which 1259 treaty ended the conflict between Philip Augustus and John Lackland?"
         answers:
-          A: "1429"
-          B: "1453"
-          C: "1435"
-          D: "1431"
-    difficulty: MEDIUM
-  - text: "Quel traité signé en 1659 a mis fin à la guerre entre la France et l'Espagne ?"
+          A: "Treaty of Brétigny"
+          B: "Treaty of Bordeaux"
+          C: "Treaty of Troyes"
+          D: "Treaty of Paris"
+    difficulty: EXPERT
+  - text: "Qui a été le dernier roi de France ?"
     answers:
-      A: "Le traité de Westphalie"
-      B: "Le traité des Pyrénées"
-      C: "Le traité d'Utrecht"
-      D: "Le traité de Nimègue"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which treaty signed in 1659 ended the war between France and Spain?"
-        answers:
-          A: "The Peace of Westphalia"
-          B: "The Treaty of the Pyrenees"
-          C: "The Treaty of Utrecht"
-          D: "The Treaty of Nijmegen"
-    difficulty: MEDIUM
-  - text: "Quelle dynastie a été fondée par Hugues Capet en 987 ?"
-    answers:
-      A: "Les Mérovingiens"
-      B: "Les Capétiens"
-      C: "Les Carolingiens"
-      D: "Les Valois"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which dynasty was founded by Hugh Capet in 987?"
-        answers:
-          A: "The Merovingians"
-          B: "The Capetians"
-          C: "The Carolingians"
-          D: "The Valois"
-    difficulty: MEDIUM
-  - text: "En quelle année s'est déroulée la bataille de Bouvines ?"
-    answers:
-      A: "1214"
-      B: "1204"
-      C: "1226"
-      D: "1302"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year did the Battle of Bouvines take place?"
-        answers:
-          A: "1214"
-          B: "1204"
-          C: "1226"
-          D: "1302"
-    difficulty: MEDIUM
-  - text: "Quel roi de France a été fait prisonnier à la bataille de Pavie en 1525 ?"
-    answers:
-      A: "François Ier"
-      B: "Louis XII"
-      C: "Henri II"
-      D: "Charles IX"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which King of France was taken prisoner at the Battle of Pavia in 1525?"
-        answers:
-          A: "Francis I"
-          B: "Louis XII"
-          C: "Henry II"
-          D: "Charles IX"
-    difficulty: MEDIUM
-  - text: "Quelle ordonnance de 1539 a imposé l'usage du français dans les actes officiels ?"
-    answers:
-      A: "L'édit de Nantes"
-      B: "Le code Michau"
-      C: "L'édit de Fontainebleau"
-      D: "L'ordonnance de Villers-Cotterêts"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which 1539 ordinance imposed the use of French in official documents?"
-        answers:
-          A: "The Edict of Nantes"
-          B: "The Code Michau"
-          C: "The Edict of Fontainebleau"
-          D: "The Ordinance of Villers-Cotterêts"
-    difficulty: MEDIUM
-  - text: "Quelle reine a joué un rôle central pendant les guerres de Religion au XVIe siècle ?"
-    answers:
-      A: "Louise de Lorraine"
-      B: "Anne d'Autriche"
-      C: "Marie de Médicis"
-      D: "Catherine de Médicis"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which queen played a central role during the Wars of Religion in the 16th century?"
-        answers:
-          A: "Louise of Lorraine"
-          B: "Anne of Austria"
-          C: "Marie de' Medici"
-          D: "Catherine de' Medici"
-    difficulty: MEDIUM
-  - text: "Qui a été le principal ministre de Louis XIII ?"
-    answers:
-      A: "Mazarin"
-      B: "Colbert"
-      C: "Fouquet"
-      D: "Richelieu"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who was the chief minister of Louis XIII?"
-        answers:
-          A: "Mazarin"
-          B: "Colbert"
-          C: "Fouquet"
-          D: "Richelieu"
-    difficulty: MEDIUM
-  - text: "Quels traités de 1648 ont mis fin à la guerre de Trente Ans ?"
-    answers:
-      A: "Le traité de Verdun"
-      B: "Les traités de Westphalie"
-      C: "Le traité d'Arras"
-      D: "Le traité de Cateau-Cambrésis"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which treaties of 1648 ended the Thirty Years' War?"
-        answers:
-          A: "The Treaty of Verdun"
-          B: "The Peace of Westphalia"
-          C: "The Treaty of Arras"
-          D: "The Treaty of Cateau-Cambrésis"
-    difficulty: MEDIUM
-  - text: "Quelle défaite de 1870 a provoqué la chute de Napoléon III ?"
-    answers:
-      A: "La bataille de Waterloo"
-      B: "La bataille de Valmy"
-      C: "La bataille d'Iéna"
-      D: "La bataille de Sedan"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which defeat in 1870 caused the fall of Napoleon III?"
-        answers:
-          A: "The Battle of Waterloo"
-          B: "The Battle of Valmy"
-          C: "The Battle of Jena"
-          D: "The Battle of Sedan"
-    difficulty: MEDIUM
-  - text: "Quel gouvernement insurrectionnel a dirigé Paris en 1871 ?"
-    answers:
-      A: "La Fronde"
-      B: "La Terreur"
-      C: "La Commune de Paris"
-      D: "La Révolution de Juillet"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which insurrectionary government ruled Paris in 1871?"
-        answers:
-          A: "The Fronde"
-          B: "The Terror"
-          C: "The Paris Commune"
-          D: "The July Revolution"
-    difficulty: MEDIUM
-  - text: "Quel ministre a rendu l'école primaire gratuite, obligatoire et laïque sous la IIIe République ?"
-    answers:
-      A: "Jules Ferry"
-      B: "Jean Jaurès"
-      C: "Léon Gambetta"
-      D: "Victor Hugo"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which minister made primary education free, compulsory and secular under the Third Republic?"
-        answers:
-          A: "Jules Ferry"
-          B: "Jean Jaurès"
-          C: "Léon Gambetta"
-          D: "Victor Hugo"
-    difficulty: MEDIUM
-  - text: "En quelle année la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ?"
-    answers:
-      A: "1795"
-      B: "1791"
-      C: "1793"
-      D: "1789"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year was the Declaration of the Rights of Man and of the Citizen adopted?"
-        answers:
-          A: "1795"
-          B: "1791"
-          C: "1793"
-          D: "1789"
-    difficulty: MEDIUM
-  - text: "Quelle bataille de 1805 a vu Napoléon vaincre l'Autriche et la Russie ?"
-    answers:
-      A: "Iéna"
-      B: "Eylau"
-      C: "Wagram"
-      D: "Austerlitz"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which 1805 battle saw Napoleon defeat Austria and Russia?"
-        answers:
-          A: "Jena"
-          B: "Eylau"
-          C: "Wagram"
-          D: "Austerlitz"
-    difficulty: MEDIUM
-  - text: "Quel duc britannique commandait l'armée alliée à la bataille de Waterloo ?"
-    answers:
-      A: "Nelson"
-      B: "Blücher"
-      C: "Wellington"
-      D: "Marlborough"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which British duke commanded the allied army at the Battle of Waterloo?"
-        answers:
-          A: "Nelson"
-          B: "Blücher"
-          C: "Wellington"
-          D: "Marlborough"
-    difficulty: MEDIUM
-  - text: "Quel roi de France a été renversé lors des Trois Glorieuses en 1830 ?"
-    answers:
-      A: "Charles X"
-      B: "Louis XVIII"
-      C: "Louis-Philippe"
-      D: "Henri V"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which King of France was overthrown during the Three Glorious Days in 1830?"
-        answers:
-          A: "Charles X"
-          B: "Louis XVIII"
-          C: "Louis-Philippe"
-          D: "Henri V"
-    difficulty: MEDIUM
-  - text: "Quel roi des Français a régné de 1830 à 1848 ?"
-    answers:
-      A: "Charles X"
-      B: "Louis-Philippe"
+      A: "Louis-Philippe Ier"
+      B: "Charles X"
       C: "Louis XVIII"
       D: "Napoléon III"
     correctAnswer: B
     translations:
       en:
-        text: "Which King of the French reigned from 1830 to 1848?"
+        text: "Who was the last king of France?"
         answers:
-          A: "Charles X"
-          B: "Louis-Philippe"
+          A: "Louis-Philippe I"
+          B: "Charles X"
           C: "Louis XVIII"
           D: "Napoleon III"
     difficulty: MEDIUM
-  - text: "En quelle année la IIe République a-t-elle été proclamée ?"
+  - text: "Quel événement marque le début de la Révolution française ?"
     answers:
-      A: "1830"
-      B: "1852"
-      C: "1848"
-      D: "1870"
+      A: "L'exécution de Louis XVI"
+      B: "Le serment du Jeu de paume"
+      C: "La fuite à Varennes"
+      D: "La prise de la Bastille"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which event marks the beginning of the French Revolution?"
+        answers:
+          A: "The execution of Louis XVI"
+          B: "The Tennis Court Oath"
+          C: "The Flight to Varennes"
+          D: "The storming of the Bastille"
+    difficulty: EASY
+  - text: "Quel roi a régné le plus longtemps sur la France ?"
+    answers:
+      A: "François Ier"
+      B: "Louis XV"
+      C: "Philippe Auguste"
+      D: "Louis XIV"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which king reigned the longest over France?"
+        answers:
+          A: "Francis I"
+          B: "Louis XV"
+          C: "Philip Augustus"
+          D: "Louis XIV"
+    difficulty: HARD
+  - text: "Quel événement a conduit à la chute de la monarchie de Juillet en 1848 ?"
+    answers:
+      A: "La révolution de Juillet"
+      B: "La révolution de Février"
+      C: "Le coup d'État du 2 décembre"
+      D: "La Commune de Paris"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which event led to the fall of the July Monarchy in 1848?"
+        answers:
+          A: "The July Revolution"
+          B: "The February Revolution"
+          C: "The coup of 2 December"
+          D: "The Paris Commune"
+    difficulty: HARD
+  - text: "Quel roi a été exécuté pendant la Révolution française ?"
+    answers:
+      A: "Charles X"
+      B: "Louis XV"
+      C: "Louis XVI"
+      D: "Louis-Philippe Ier"
     correctAnswer: C
     translations:
       en:
-        text: "In what year was the Second Republic proclaimed?"
+        text: "Which king was executed during the French Revolution?"
         answers:
-          A: "1830"
-          B: "1852"
-          C: "1848"
-          D: "1870"
+          A: "Charles X"
+          B: "Louis XV"
+          C: "Louis XVI"
+          D: "Louis-Philippe I"
+    difficulty: EASY
+  - text: "Quel était le nom du parlement français sous l'Ancien Régime ?"
+    answers:
+      A: "Les États généraux"
+      B: "Le Parlement de Paris"
+      C: "L'Assemblée nationale"
+      D: "Le Sénat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What was the name of the French parliament under the Ancien Régime?"
+        answers:
+          A: "The Estates General"
+          B: "The Parlement of Paris"
+          C: "The National Assembly"
+          D: "The Senate"
+    difficulty: HARD
+  - text: "Qui a succédé à Charles de Gaulle à la présidence de la République ?"
+    answers:
+      A: "Georges Pompidou"
+      B: "Valéry Giscard d'Estaing"
+      C: "François Mitterrand"
+      D: "Jacques Chirac"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who succeeded Charles de Gaulle as President of the Republic?"
+        answers:
+          A: "Georges Pompidou"
+          B: "Valéry Giscard d'Estaing"
+          C: "François Mitterrand"
+          D: "Jacques Chirac"
     difficulty: MEDIUM
-  - text: "Qui a été élu premier président de la République française en 1848 ?"
+  - text: "Quel pays a été envahi par la France en 1798 lors de la campagne d'Égypte ?"
+    answers:
+      A: "L'Égypte"
+      B: "La Syrie"
+      C: "La Libye"
+      D: "La Grèce"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country was invaded by France in 1798 during the Egyptian campaign?"
+        answers:
+          A: "Egypt"
+          B: "Syria"
+          C: "Libya"
+          D: "Greece"
+    difficulty: MEDIUM
+  - text: "Quel mur a été construit pour protéger la Chine des invasions, mais quel roi de France a construit une fortification similaire ?"
+    answers:
+      A: "Louis XIV"
+      B: "François Ier"
+      C: "Charles V"
+      D: "Philippe Auguste"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which wall was built to protect China from invasions, but which king of France built a similar fortification?"
+        answers:
+          A: "Louis XIV"
+          B: "Francis I"
+          C: "Charles V"
+          D: "Philip Augustus"
+    difficulty: MEDIUM
+  - text: "Quel événement militaire de 732 a vu Charles Martel repousser les troupes arabo-berbères ?"
+    answers:
+      A: "Siège d'Avignon"
+      B: "Bataille de Roncevaux"
+      C: "Bataille de Poitiers"
+      D: "Siège de Narbonne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which military event in 732 saw Charles Martel repel Arab-Berber troops?"
+        answers:
+          A: "Siege of Avignon"
+          B: "Battle of Roncevaux"
+          C: "Battle of Poitiers"
+          D: "Siege of Narbonne"
+    difficulty: HARD
+  - text: "Quel roi capétien a fait construire la Sainte-Chapelle pour abriter la Couronne d'épines ?"
+    answers:
+      A: "Philippe Auguste"
+      B: "Louis IX"
+      C: "Louis VII"
+      D: "Philippe le Bel"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Capetian king built the Sainte-Chapelle to house the Crown of Thorns?"
+        answers:
+          A: "Philip Augustus"
+          B: "Louis IX"
+          C: "Louis VII"
+          D: "Philip the Fair"
+    difficulty: HARD
+  - text: "En quelle année Louis XIV a-t-il révoqué l'édit de Nantes ?"
+    answers:
+      A: "1643"
+      B: "1598"
+      C: "1715"
+      D: "1685"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did Louis XIV revoke the Edict of Nantes?"
+        answers:
+          A: "1643"
+          B: "1598"
+          C: "1715"
+          D: "1685"
+    difficulty: HARD
+  - text: "Qui a été le principal ministre de Louis XIII de 1624 à 1642 ?"
+    answers:
+      A: "Mazarin"
+      B: "Richelieu"
+      C: "Sully"
+      D: "Colbert"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who was the principal minister of Louis XIII from 1624 to 1642?"
+        answers:
+          A: "Mazarin"
+          B: "Richelieu"
+          C: "Sully"
+          D: "Colbert"
+    difficulty: MEDIUM
+  - text: "Quelle bataille de 1759 a été une défaite navale majeure pour la France face aux Britanniques ?"
+    answers:
+      A: "Trafalgar"
+      B: "Chesapeake"
+      C: "Les Cardinaux"
+      D: "Aboukir"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1759 battle was a major naval defeat for France against the British?"
+        answers:
+          A: "Trafalgar"
+          B: "Chesapeake"
+          C: "Les Cardinaux"
+          D: "Aboukir"
+    difficulty: EXPERT
+  - text: "Quel monarque a convoqué les États généraux en 1614, les derniers avant 1789 ?"
+    answers:
+      A: "Henri IV"
+      B: "Louis XIV"
+      C: "Louis XIII"
+      D: "François Ier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which monarch convened the Estates General in 1614, the last before 1789?"
+        answers:
+          A: "Henri IV"
+          B: "Louis XIV"
+          C: "Louis XIII"
+          D: "François Ier"
+    difficulty: EXPERT
+  - text: "Quel traité de 1659 a mis fin à la guerre franco-espagnole et fixé la frontière des Pyrénées ?"
+    answers:
+      A: "Traité de Westphalie"
+      B: "Traité des Pyrénées"
+      C: "Traité de Nimègue"
+      D: "Traité d'Utrecht"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1659 treaty ended the Franco-Spanish War and set the Pyrenees border?"
+        answers:
+          A: "Treaty of Westphalia"
+          B: "Treaty of the Pyrenees"
+          C: "Treaty of Nijmegen"
+          D: "Treaty of Utrecht"
+    difficulty: EXPERT
+  - text: "Qui a été la première femme à enseigner à la Sorbonne, en 1906 ?"
+    answers:
+      A: "Marie Curie"
+      B: "Simone de Beauvoir"
+      C: "Madeleine Pelletier"
+      D: "Jeanne Chauvin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who was the first woman to teach at the Sorbonne, in 1906?"
+        answers:
+          A: "Marie Curie"
+          B: "Simone de Beauvoir"
+          C: "Madeleine Pelletier"
+          D: "Jeanne Chauvin"
+    difficulty: EXPERT
+  - text: "Quel roi a été sacré à Reims en 1223, poursuivant l'œuvre de son père Philippe Auguste ?"
+    answers:
+      A: "Louis VIII"
+      B: "Louis IX"
+      C: "Philippe III"
+      D: "Louis VII"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which king was crowned at Reims in 1223, continuing his father Philip Augustus's work?"
+        answers:
+          A: "Louis VIII"
+          B: "Louis IX"
+          C: "Philippe III"
+          D: "Louis VII"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chef-lieu du département de la Creuse, créé en 1790 ?"
+    answers:
+      A: "Aubusson"
+      B: "Montluçon"
+      C: "Guéret"
+      D: "Limoges"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the capital of the Creuse department, created in 1790?"
+        answers:
+          A: "Aubusson"
+          B: "Montluçon"
+          C: "Guéret"
+          D: "Limoges"
+    difficulty: EXPERT
+  - text: "Quel président français a été élu en 1848, devenant le premier de la IIe République ?"
     answers:
       A: "Adolphe Thiers"
-      B: "Louis-Napoléon Bonaparte"
-      C: "Victor Hugo"
-      D: "Alphonse de Lamartine"
-    correctAnswer: B
+      B: "Lamartine"
+      C: "Louis-Napoléon Bonaparte"
+      D: "Cavaignac"
+    correctAnswer: C
     translations:
       en:
-        text: "Who was elected the first president of the French Republic in 1848?"
+        text: "Which French president was elected in 1848, becoming the first of the Second Republic?"
         answers:
           A: "Adolphe Thiers"
-          B: "Louis-Napoléon Bonaparte"
-          C: "Victor Hugo"
-          D: "Alphonse de Lamartine"
-    difficulty: MEDIUM
-  - text: "Que symbolise le bonnet phrygien sur les représentations de la République ?"
-    answers:
-      A: "La justice"
-      B: "La royauté"
-      C: "La force"
-      D: "La liberté"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What does the Phrygian cap symbolize in depictions of the Republic?"
-        answers:
-          A: "Justice"
-          B: "Royalty"
-          C: "Strength"
-          D: "Liberty"
-    difficulty: MEDIUM
-  - text: "Quel traité de 843 a partagé l'empire de Charlemagne entre ses petits-fils ?"
-    answers:
-      A: "Le traité de Ribemont"
-      B: "Le traité de Meerssen"
-      C: "Le traité de Verdun"
-      D: "Le traité de Prüm"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which 843 treaty divided Charlemagne's empire among his grandsons?"
-        answers:
-          A: "The Treaty of Ribemont"
-          B: "The Treaty of Meerssen"
-          C: "The Treaty of Verdun"
-          D: "The Treaty of Prüm"
+          B: "Lamartine"
+          C: "Louis-Napoléon Bonaparte"
+          D: "Cavaignac"
     difficulty: HARD
-  - text: "Quelle bataille de 732 a arrêté la progression arabe en Gaule ?"
+  - text: "Quel événement de 1968 a paralysé la France avec des grèves et des manifestations ?"
     answers:
-      A: "La bataille de Roncevaux"
-      B: "La bataille de Poitiers"
-      C: "La bataille de Bouvines"
-      D: "La bataille de Hastings"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which 732 battle halted the Arab advance in Gaul?"
-        answers:
-          A: "The Battle of Roncevaux"
-          B: "The Battle of Poitiers"
-          C: "The Battle of Bouvines"
-          D: "The Battle of Hastings"
-    difficulty: HARD
-  - text: "Quel roi franc a vaincu les Wisigoths à la bataille de Vouillé en 507 ?"
-    answers:
-      A: "Clotaire Ier"
-      B: "Clovis Ier"
-      C: "Childéric Ier"
-      D: "Dagobert Ier"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which Frankish king defeated the Visigoths at the Battle of Vouillé in 507?"
-        answers:
-          A: "Chlothar I"
-          B: "Clovis I"
-          C: "Childeric I"
-          D: "Dagobert I"
-    difficulty: HARD
-  - text: "Quel roi capétien a conquis la Normandie en 1204 ?"
-    answers:
-      A: "Philippe II Auguste"
-      B: "Louis VII"
-      C: "Louis VIII"
-      D: "Philippe IV le Bel"
+      A: "Mai 68"
+      B: "Fronde parlementaire"
+      C: "Révolution de Juillet"
+      D: "Commune de Paris"
     correctAnswer: A
     translations:
       en:
-        text: "Which Capetian king conquered Normandy in 1204?"
+        text: "Which 1968 event paralyzed France with strikes and demonstrations?"
         answers:
-          A: "Philip II Augustus"
-          B: "Louis VII"
-          C: "Louis VIII"
-          D: "Philip IV the Fair"
-    difficulty: HARD
-  - text: "Quel roi de France a envoyé Guillaume de Nogaret arrêter le pape Boniface VIII à Anagni en 1303 ?"
+          A: "Mai 68"
+          B: "Fronde parlementaire"
+          C: "July Revolution"
+          D: "Paris Commune"
+    difficulty: EASY
+  - text: "Quel roi a été excommunié en 1200 par le pape Innocent III après son remariage ?"
     answers:
-      A: "Philippe IV le Bel"
+      A: "Louis VII"
       B: "Philippe Auguste"
-      C: "Louis IX"
-      D: "Charles VII"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which King of France sent Guillaume de Nogaret to arrest Pope Boniface VIII at Anagni in 1303?"
-        answers:
-          A: "Philip IV the Fair"
-          B: "Philip Augustus"
-          C: "Louis IX"
-          D: "Charles VII"
-    difficulty: HARD
-  - text: "Quel roi a été sacré à Reims en 1429 grâce à l'intervention de Jeanne d'Arc ?"
-    answers:
-      A: "Charles VII"
-      B: "Charles V"
-      C: "Charles VI"
-      D: "Louis XI"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which king was crowned at Reims in 1429 thanks to Joan of Arc's intervention?"
-        answers:
-          A: "Charles VII"
-          B: "Charles V"
-          C: "Charles VI"
-          D: "Louis XI"
-    difficulty: HARD
-  - text: "Quel duc de Bourgogne a été tué à la bataille de Nancy en 1477 ?"
-    answers:
-      A: "Philippe le Bon"
-      B: "Jean sans Peur"
-      C: "Charles le Téméraire"
-      D: "Charles Quint"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Duke of Burgundy was killed at the Battle of Nancy in 1477?"
-        answers:
-          A: "Philip the Good"
-          B: "John the Fearless"
-          C: "Charles the Bold"
-          D: "Charles V"
-    difficulty: HARD
-  - text: "Quelle reine a assuré la régence pendant la minorité de Louis IX ?"
-    answers:
-      A: "Anne d'Autriche"
-      B: "Blanche de Castille"
-      C: "Adèle de Champagne"
-      D: "Catherine de Médicis"
+      C: "Jean sans Terre"
+      D: "Henri II"
     correctAnswer: B
     translations:
       en:
-        text: "Which queen served as regent during the minority of Louis IX?"
+        text: "Which king was excommunicated in 1200 by Pope Innocent III after his remarriage?"
         answers:
-          A: "Anne of Austria"
-          B: "Blanche of Castile"
-          C: "Adela of Champagne"
-          D: "Catherine de' Medici"
-    difficulty: HARD
-  - text: "Quel amiral huguenot a été victime du massacre de la Saint-Barthélemy en 1572 ?"
+          A: "Louis VII"
+          B: "Philip Augustus"
+          C: "John Lackland"
+          D: "Henry II"
+    difficulty: EXPERT
+  - text: "Quelle est la dernière bataille napoléonienne remportée en 1814 avant l'abdication ?"
     answers:
-      A: "Henri de Navarre"
-      B: "Maximilien de Sully"
-      C: "Louis de Condé"
-      D: "Gaspard de Coligny"
+      A: "Bataille de Montmirail"
+      B: "Bataille de Waterloo"
+      C: "Bataille de Leipzig"
+      D: "Bataille d'Austerlitz"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the last Napoleonic battle won in 1814 before the abdication?"
+        answers:
+          A: "Battle of Montmirail"
+          B: "Battle of Waterloo"
+          C: "Battle of Leipzig"
+          D: "Battle of Austerlitz"
+    difficulty: EXPERT
+  - text: "Qui a fondé l'ordre des Templiers en 1119 ?"
+    answers:
+      A: "Philippe le Bel"
+      B: "Jacques de Molay"
+      C: "Bernard de Clairvaux"
+      D: "Hugues de Payns"
     correctAnswer: D
     translations:
       en:
-        text: "Which Huguenot admiral was a victim of the St. Bartholomew's Day massacre in 1572?"
+        text: "Who founded the Knights Templar in 1119?"
         answers:
-          A: "Henry of Navarre"
-          B: "Maximilien de Sully"
-          C: "Louis de Condé"
-          D: "Gaspard de Coligny"
-    difficulty: HARD
-  - text: "Quel roi de France a été assassiné par François Ravaillac en 1610 ?"
+          A: "Philip the Fair"
+          B: "Jacques de Molay"
+          C: "Bernard of Clairvaux"
+          D: "Hugues de Payns"
+    difficulty: EXPERT
+  - text: "Quel roi a régné de 987 à 996, fondant la dynastie capétienne ?"
     answers:
-      A: "Henri III"
-      B: "Louis XIII"
-      C: "François Ier"
-      D: "Henri IV"
+      A: "Robert II"
+      B: "Hugues Capet"
+      C: "Louis V"
+      D: "Charles le Simple"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which king reigned from 987 to 996, founding the Capetian dynasty?"
+        answers:
+          A: "Robert II"
+          B: "Hugues Capet"
+          C: "Louis V"
+          D: "Charles the Simple"
+    difficulty: HARD
+  - text: "Quel traité de 1801 a rétabli la paix religieuse entre la France et le Saint-Siège ?"
+    answers:
+      A: "Traité de Campo-Formio"
+      B: "Concordat"
+      C: "Paix d'Amiens"
+      D: "Traité de Tilsit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1801 treaty restored religious peace between France and the Holy See?"
+        answers:
+          A: "Treaty of Campo-Formio"
+          B: "Concordat"
+          C: "Peace of Amiens"
+          D: "Treaty of Tilsit"
+    difficulty: HARD
+  - text: "Quel empereur romain a divisé l'Empire en 286, créant la Tétrarchie ?"
+    answers:
+      A: "Dioclétien"
+      B: "Constantin"
+      C: "Auguste"
+      D: "Trajan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Roman emperor divided the Empire in 286, creating the Tetrarchy?"
+        answers:
+          A: "Diocletian"
+          B: "Constantine"
+          C: "Augustus"
+          D: "Trajan"
+    difficulty: EXPERT
+  - text: "Quel homme politique a été président du Conseil en 1936 et a lancé les réformes du Front populaire ?"
+    answers:
+      A: "Léon Blum"
+      B: "Édouard Daladier"
+      C: "Paul Reynaud"
+      D: "Georges Clemenceau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which politician was President of the Council in 1936 and launched the Popular Front reforms?"
+        answers:
+          A: "Léon Blum"
+          B: "Édouard Daladier"
+          C: "Paul Reynaud"
+          D: "Georges Clemenceau"
+    difficulty: HARD
+  - text: "Quel événement de 1431 a vu Jeanne d'Arc brûlée vive à Rouen ?"
+    answers:
+      A: "Siège d'Orléans"
+      B: "Bataille de Castillon"
+      C: "Traité de Troyes"
+      D: "Procès de Jeanne d'Arc"
     correctAnswer: D
     translations:
       en:
-        text: "Which King of France was assassinated by François Ravaillac in 1610?"
+        text: "Which event of 1431 saw Joan of Arc burned alive at Rouen?"
         answers:
-          A: "Henry III"
-          B: "Louis XIII"
-          C: "Francis I"
-          D: "Henry IV"
-    difficulty: HARD
-  - text: "Quel roi de France a été assassiné par le moine Jacques Clément en 1589 ?"
+          A: "Siege of Orléans"
+          B: "Battle of Castillon"
+          C: "Treaty of Troyes"
+          D: "Trial of Joan of Arc"
+    difficulty: MEDIUM
+  - text: "En quelle année la bataille de Bouvines a-t-elle eu lieu ?"
     answers:
-      A: "Charles IX"
-      B: "Henri IV"
-      C: "Henri III"
-      D: "François II"
-    correctAnswer: C
+      A: "1204"
+      B: "1215"
+      C: "1224"
+      D: "1214"
+    correctAnswer: D
     translations:
       en:
-        text: "Which King of France was assassinated by the monk Jacques Clément in 1589?"
+        text: "In what year did the Battle of Bouvines take place?"
         answers:
-          A: "Charles IX"
-          B: "Henry IV"
-          C: "Henry III"
-          D: "Francis II"
+          A: "1204"
+          B: "1215"
+          C: "1224"
+          D: "1214"
     difficulty: HARD
-  - text: "Quel surintendant des finances de Louis XIV a été arrêté en 1661 et emprisonné à Pignerol ?"
+  - text: "Qui était le roi de France lors de la bataille de Bouvines ?"
+    answers:
+      A: "Philippe III"
+      B: "Louis VIII"
+      C: "Louis IX"
+      D: "Philippe Auguste"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the King of France at the Battle of Bouvines?"
+        answers:
+          A: "Philip III"
+          B: "Louis VIII"
+          C: "Louis IX"
+          D: "Philip Augustus"
+    difficulty: HARD
+  - text: "Quel traité de 1529 a mis fin à la guerre entre François Ier et Charles Quint ?"
+    answers:
+      A: "Traité de Cateau-Cambrésis"
+      B: "Paix des Dames"
+      C: "Traité de Madrid"
+      D: "Traité de Cambrai"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which treaty of 1529 ended the war between Francis I and Charles V?"
+        answers:
+          A: "Treaty of Cateau-Cambrésis"
+          B: "Peace of the Ladies"
+          C: "Treaty of Madrid"
+          D: "Treaty of Cambrai"
+    difficulty: EXPERT
+  - text: "En quelle année a eu lieu la Journée des Dupes, tournant du règne de Louis XIII ?"
+    answers:
+      A: "1628"
+      B: "1629"
+      C: "1631"
+      D: "1630"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Day of the Dupes, a turning point in Louis XIII's reign, take place?"
+        answers:
+          A: "1628"
+          B: "1629"
+          C: "1631"
+          D: "1630"
+    difficulty: EXPERT
+  - text: "Quel intendant des finances de Louis XIV a été disgracié en 1661 ?"
     answers:
       A: "Colbert"
       B: "Louvois"
-      C: "Nicolas Fouquet"
+      C: "Fouquet"
       D: "Vauban"
     correctAnswer: C
     translations:
       en:
-        text: "Which Superintendent of Finances under Louis XIV was arrested in 1661 and imprisoned at Pignerol?"
+        text: "Which finance superintendent of Louis XIV was disgraced in 1661?"
         answers:
           A: "Colbert"
           B: "Louvois"
-          C: "Nicolas Fouquet"
+          C: "Fouquet"
           D: "Vauban"
-    difficulty: HARD
-  - text: "Quel ingénieur militaire de Louis XIV a conçu les fortifications de nombreuses villes du royaume ?"
+    difficulty: MEDIUM
+  - text: "Quel édit de 1685 révoque l'édit de Nantes ?"
     answers:
-      A: "Vauban"
-      B: "Turenne"
-      C: "Condé"
-      D: "Luxembourg"
+      A: "Édit de Fontainebleau"
+      B: "Édit de Nantes"
+      C: "Édit de Versailles"
+      D: "Édit de Paris"
     correctAnswer: A
     translations:
       en:
-        text: "Which military engineer under Louis XIV designed the fortifications of many cities in the kingdom?"
+        text: "Which edict of 1685 revoked the Edict of Nantes?"
         answers:
-          A: "Vauban"
-          B: "Turenne"
-          C: "Condé"
-          D: "Luxembourg"
-    difficulty: HARD
-  - text: "Quel traité de 1713 a mis fin à la guerre de Succession d'Espagne ?"
+          A: "Edict of Fontainebleau"
+          B: "Edict of Nantes"
+          C: "Edict of Versailles"
+          D: "Edict of Paris"
+    difficulty: MEDIUM
+  - text: "Quel traité de 1713 met fin à la guerre de Succession d'Espagne ?"
     answers:
-      A: "Le traité de Rastatt"
-      B: "Le traité d'Aix-la-Chapelle"
-      C: "Le traité de Nimègue"
-      D: "Le traité d'Utrecht"
+      A: "Traité de La Haye"
+      B: "Traité de Rastatt"
+      C: "Traité de Baden"
+      D: "Traité d'Utrecht"
     correctAnswer: D
     translations:
       en:
-        text: "Which 1713 treaty ended the War of the Spanish Succession?"
+        text: "Which treaty of 1713 ended the War of the Spanish Succession?"
         answers:
-          A: "The Treaty of Rastatt"
-          B: "The Treaty of Aix-la-Chapelle"
-          C: "The Treaty of Nijmegen"
-          D: "The Treaty of Utrecht"
+          A: "Treaty of The Hague"
+          B: "Treaty of Rastatt"
+          C: "Treaty of Baden"
+          D: "Treaty of Utrecht"
     difficulty: HARD
-  - text: "Quel vaste territoire Napoléon a-t-il vendu aux États-Unis en 1803 ?"
+  - text: "Qui a été le dernier roi de la dynastie des Valois ?"
     answers:
-      A: "Le Canada"
-      B: "La Louisiane"
-      C: "La Guadeloupe"
-      D: "Saint-Domingue"
+      A: "Henri II"
+      B: "Charles IX"
+      C: "François II"
+      D: "Henri III"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the last king of the Valois dynasty?"
+        answers:
+          A: "Henry II"
+          B: "Charles IX"
+          C: "Francis II"
+          D: "Henry III"
+    difficulty: HARD
+  - text: "En quelle année a été signé l'édit de Nantes ?"
+    answers:
+      A: "1600"
+      B: "1595"
+      C: "1598"
+      D: "1590"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the Edict of Nantes signed?"
+        answers:
+          A: "1600"
+          B: "1595"
+          C: "1598"
+          D: "1590"
+    difficulty: MEDIUM
+  - text: "Quel était le nom du frère de Louis XIV ?"
+    answers:
+      A: "Philippe d'Orléans"
+      B: "Louis de Bourbon"
+      C: "Charles de France"
+      D: "Henri d'Anjou"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What was the name of Louis XIV's brother?"
+        answers:
+          A: "Philippe d'Orléans"
+          B: "Louis de Bourbon"
+          C: "Charles de France"
+          D: "Henri d'Anjou"
+    difficulty: HARD
+  - text: "Quelle bataille de 1709 a été une défaite française lors de la guerre de Succession d'Espagne ?"
+    answers:
+      A: "Ramillies"
+      B: "Malplaquet"
+      C: "Oudenarde"
+      D: "Blenheim"
     correctAnswer: B
     translations:
       en:
-        text: "Which vast territory did Napoleon sell to the United States in 1803?"
+        text: "Which battle of 1709 was a French defeat during the War of the Spanish Succession?"
         answers:
-          A: "Canada"
-          B: "Louisiana"
-          C: "Guadeloupe"
-          D: "Saint-Domingue"
-    difficulty: HARD
-  - text: "Quelle bataille navale de 1805 a anéanti la flotte franco-espagnole ?"
+          A: "Ramillies"
+          B: "Malplaquet"
+          C: "Oudenarde"
+          D: "Blenheim"
+    difficulty: EXPERT
+  - text: "Qui a été le principal ministre de Louis XV de 1726 à 1743 ?"
     answers:
-      A: "La bataille d'Aboukir"
-      B: "La bataille de Chesapeake"
-      C: "La bataille de Lépante"
-      D: "La bataille de Trafalgar"
+      A: "Marquis de Pompadour"
+      B: "Duc de Choiseul"
+      C: "Cardinal de Fleury"
+      D: "Comte de Maurepas"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who was the principal minister of Louis XV from 1726 to 1743?"
+        answers:
+          A: "Marquis de Pompadour"
+          B: "Duc de Choiseul"
+          C: "Cardinal de Fleury"
+          D: "Comte de Maurepas"
+    difficulty: HARD
+  - text: "Quel roi de France a racheté la Corse à Gênes en 1768 ?"
+    answers:
+      A: "Louis XIV"
+      B: "Louis XV"
+      C: "Louis XVI"
+      D: "François Ier"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which King of France bought Corsica from Genoa in 1768?"
+        answers:
+          A: "Louis XIV"
+          B: "Louis XV"
+          C: "Louis XVI"
+          D: "Francis I"
+    difficulty: HARD
+  - text: "Quel événement a conduit à la convocation des États généraux en 1789 ?"
+    answers:
+      A: "La révolte des nobles"
+      B: "La famine"
+      C: "La guerre d'Indépendance américaine"
+      D: "La crise financière"
     correctAnswer: D
     translations:
       en:
-        text: "Which 1805 naval battle annihilated the Franco-Spanish fleet?"
+        text: "Which event led to the convening of the Estates General in 1789?"
         answers:
-          A: "The Battle of Aboukir"
-          B: "The Battle of the Chesapeake"
-          C: "The Battle of Lepanto"
-          D: "The Battle of Trafalgar"
+          A: "The revolt of the nobles"
+          B: "The famine"
+          C: "The American War of Independence"
+          D: "The financial crisis"
     difficulty: HARD
-  - text: "Quel général français commandait le corps expéditionnaire à Yorktown en 1781 ?"
+  - text: "Qui a rédigé 'Qu'est-ce que le tiers état ?' en 1789 ?"
     answers:
-      A: "Rochambeau"
-      B: "De Grasse"
-      C: "La Fayette"
-      D: "Suffren"
+      A: "Lafayette"
+      B: "Mirabeau"
+      C: "Sieyès"
+      D: "Barnave"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote 'What is the Third Estate?' in 1789?"
+        answers:
+          A: "Lafayette"
+          B: "Mirabeau"
+          C: "Sieyès"
+          D: "Barnave"
+    difficulty: HARD
+  - text: "Quel décret de 1793 instaure la levée en masse ?"
+    answers:
+      A: "Décret du 14 février 1793"
+      B: "Décret du 23 août 1793"
+      C: "Décret du 10 juin 1793"
+      D: "Décret du 5 septembre 1793"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1793 decree established the levée en masse?"
+        answers:
+          A: "Decree of 14 February 1793"
+          B: "Decree of 23 August 1793"
+          C: "Decree of 10 June 1793"
+          D: "Decree of 5 September 1793"
+    difficulty: HARD
+  - text: "Quel coup d'État de Napoléon a lieu le 18 brumaire an VIII ?"
+    answers:
+      A: "Coup d'État du 18 Fructidor"
+      B: "Coup d'État du 18 Brumaire"
+      C: "Coup d'État du 22 Floréal"
+      D: "Coup d'État du 30 Prairial"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which coup d'état by Napoleon took place on 18 Brumaire Year VIII?"
+        answers:
+          A: "Coup of 18 Fructidor"
+          B: "Coup of 18 Brumaire"
+          C: "Coup of 22 Floréal"
+          D: "Coup of 30 Prairial"
+    difficulty: MEDIUM
+  - text: "Quelle était la principale réalisation de Napoléon en 1804 ?"
+    answers:
+      A: "Le Code civil"
+      B: "La Banque de France"
+      C: "Le Concordat"
+      D: "La Légion d'honneur"
     correctAnswer: A
     translations:
       en:
-        text: "Which French general commanded the expeditionary force at Yorktown in 1781?"
+        text: "What was Napoleon's main achievement in 1804?"
         answers:
-          A: "Rochambeau"
-          B: "De Grasse"
-          C: "Lafayette"
-          D: "Suffren"
-    difficulty: HARD
-  - text: "Quel révolutionnaire est surnommé « l'Incorruptible » ?"
+          A: "The Civil Code"
+          B: "The Banque de France"
+          C: "The Concordat"
+          D: "The Legion of Honour"
+    difficulty: MEDIUM
+  - text: "Quel roi a été renversé lors des Trois Glorieuses en 1830 ?"
+    answers:
+      A: "Charles X"
+      B: "Louis-Philippe Ier"
+      C: "Louis XVIII"
+      D: "Napoléon III"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which king was overthrown during the Three Glorious Days in 1830?"
+        answers:
+          A: "Charles X"
+          B: "Louis-Philippe I"
+          C: "Louis XVIII"
+          D: "Napoleon III"
+    difficulty: MEDIUM
+  - text: "Qui a proclamé la République à l'Hôtel de Ville de Paris le 4 septembre 1870 ?"
+    answers:
+      A: "Léon Gambetta"
+      B: "Adolphe Thiers"
+      C: "Jules Favre"
+      D: "Jules Grévy"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who proclaimed the Republic at the Hôtel de Ville in Paris on 4 September 1870?"
+        answers:
+          A: "Léon Gambetta"
+          B: "Adolphe Thiers"
+          C: "Jules Favre"
+          D: "Jules Grévy"
+    difficulty: EXPERT
+  - text: "Quel roi de France a été excommunié en 1200 par le pape Innocent III après son remariage ?"
+    answers:
+      A: "Philippe III le Hardi"
+      B: "Louis VII"
+      C: "Philippe Auguste"
+      D: "Louis VIII"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which King of France was excommunicated in 1200 by Pope Innocent III after his remarriage?"
+        answers:
+          A: "Philip III the Bold"
+          B: "Louis VII"
+          C: "Philip Augustus"
+          D: "Louis VIII"
+    difficulty: EXPERT
+  - text: "Quel dirigeant de la Révolution française a été guillotiné le 28 juillet 1794 ?"
     answers:
       A: "Danton"
-      B: "Marat"
-      C: "Robespierre"
-      D: "Saint-Just"
-    correctAnswer: C
+      B: "Robespierre"
+      C: "Saint-Just"
+      D: "Marat"
+    correctAnswer: B
     translations:
       en:
-        text: "Which revolutionary is nicknamed \"the Incorruptible\"?"
+        text: "Which leader of the French Revolution was guillotined on 28 July 1794?"
         answers:
           A: "Danton"
-          B: "Marat"
-          C: "Robespierre"
-          D: "Saint-Just"
+          B: "Robespierre"
+          C: "Saint-Just"
+          D: "Marat"
     difficulty: HARD
-  - text: "Quel révolutionnaire a été assassiné dans sa baignoire par Charlotte Corday en 1793 ?"
+  - text: "Quel événement de 1848 a conduit à l'abdication de Louis-Philippe ?"
     answers:
-      A: "Camille Desmoulins"
-      B: "Georges Danton"
-      C: "Jean-Paul Marat"
-      D: "Maximilien de Robespierre"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which revolutionary was assassinated in his bathtub by Charlotte Corday in 1793?"
-        answers:
-          A: "Camille Desmoulins"
-          B: "Georges Danton"
-          C: "Jean-Paul Marat"
-          D: "Maximilien de Robespierre"
-    difficulty: HARD
-  - text: "Quel ami de Danton a été guillotiné avec lui en avril 1794 ?"
-    answers:
-      A: "Jacques Hébert"
-      B: "Camille Desmoulins"
-      C: "Pierre Vergniaud"
-      D: "Antoine Barnave"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which friend of Danton was guillotined with him in April 1794?"
-        answers:
-          A: "Jacques Hébert"
-          B: "Camille Desmoulins"
-          C: "Pierre Vergniaud"
-          D: "Antoine Barnave"
-    difficulty: HARD
-  - text: "Qui a été le premier maire de Paris après la Révolution de 1789 ?"
-    answers:
-      A: "Jacques Necker"
-      B: "Jérôme Pétion"
-      C: "Jean Sylvain Bailly"
-      D: "Gilbert du Motier de La Fayette"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who was the first mayor of Paris after the Revolution of 1789?"
-        answers:
-          A: "Jacques Necker"
-          B: "Jérôme Pétion"
-          C: "Jean Sylvain Bailly"
-          D: "Gilbert du Motier de La Fayette"
-    difficulty: EXPERT
-  - text: "Quel édit de 1685 a révoqué l'édit de Nantes ?"
-    answers:
-      A: "L'édit de Versailles"
-      B: "L'édit de Rueil"
-      C: "L'édit de Beaulieu"
-      D: "L'édit de Fontainebleau"
+      A: "Les Trois Glorieuses"
+      B: "La Révolution de Juillet"
+      C: "Le coup d'État du 2 décembre"
+      D: "La Révolution de Février"
     correctAnswer: D
     translations:
       en:
-        text: "Which 1685 edict revoked the Edict of Nantes?"
+        text: "Which event of 1848 led to the abdication of Louis-Philippe?"
         answers:
-          A: "The Edict of Versailles"
-          B: "The Edict of Rueil"
-          C: "The Edict of Beaulieu"
-          D: "The Edict of Fontainebleau"
-    difficulty: EXPERT
-  - text: "Quelle guerre a été conclue par le traité de Nimègue en 1678 ?"
-    answers:
-      A: "La guerre de Dévolution"
-      B: "La guerre de Succession d'Espagne"
-      C: "La guerre de Hollande"
-      D: "La guerre de Trente Ans"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which war was concluded by the Treaty of Nijmegen in 1678?"
-        answers:
-          A: "The War of Devolution"
-          B: "The War of the Spanish Succession"
-          C: "The Franco-Dutch War"
-          D: "The Thirty Years' War"
-    difficulty: EXPERT
-  - text: "Qui a rédigé la Déclaration des droits de la femme et de la citoyenne en 1791 ?"
-    answers:
-      A: "Manon Roland"
-      B: "Germaine de Staël"
-      C: "Théroigne de Méricourt"
-      D: "Olympe de Gouges"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote the Declaration of the Rights of Woman and of the Female Citizen in 1791?"
-        answers:
-          A: "Manon Roland"
-          B: "Germaine de Staël"
-          C: "Théroigne de Méricourt"
-          D: "Olympe de Gouges"
-    difficulty: EXPERT
-  - text: "Quel amiral commandait la flotte française à la bataille de Trafalgar ?"
-    answers:
-      A: "Étienne Eustache Bruix"
-      B: "Pierre-Charles Silvestre de Villeneuve"
-      C: "Pierre André de Suffren"
-      D: "Louis-René de Latouche-Tréville"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which admiral commanded the French fleet at the Battle of Trafalgar?"
-        answers:
-          A: "Étienne Eustache Bruix"
-          B: "Pierre-Charles Silvestre de Villeneuve"
-          C: "Pierre André de Suffren"
-          D: "Louis-René de Latouche-Tréville"
-    difficulty: EXPERT
-  - text: "Quel maréchal de Napoléon était surnommé « le Brave des braves » ?"
-    answers:
-      A: "Michel Ney"
-      B: "Louis Nicolas Davout"
-      C: "Joachim Murat"
-      D: "André Masséna"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which of Napoleon's marshals was nicknamed \"the Bravest of the Brave\"?"
-        answers:
-          A: "Michel Ney"
-          B: "Louis Nicolas Davout"
-          C: "Joachim Murat"
-          D: "André Masséna"
-    difficulty: EXPERT
-  - text: "Quel congrès a réorganisé l'Europe après la chute de Napoléon ?"
-    answers:
-      A: "Le congrès d'Aix-la-Chapelle"
-      B: "Le congrès de Berlin"
-      C: "Le congrès de Turin"
-      D: "Le congrès de Vienne"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which congress reorganized Europe after the fall of Napoleon?"
-        answers:
-          A: "The Congress of Aix-la-Chapelle"
-          B: "The Congress of Berlin"
-          C: "The Congress of Turin"
-          D: "The Congress of Vienna"
-    difficulty: EXPERT
-  - text: "Quel roi a été restauré sur le trône de France en 1814 ?"
-    answers:
-      A: "Louis XVIII"
-      B: "Charles X"
-      C: "Louis XVI"
-      D: "Louis-Philippe"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which king was restored to the throne of France in 1814?"
-        answers:
-          A: "Louis XVIII"
-          B: "Charles X"
-          C: "Louis XVI"
-          D: "Louis-Philippe"
-    difficulty: EXPERT
-  - text: "Quel nom donne-t-on aux journées révolutionnaires des 27, 28 et 29 juillet 1830 ?"
-    answers:
-      A: "Les Cent-Jours"
-      B: "La Fronde parlementaire"
-      C: "La Glorieuse Révolution"
-      D: "Les Trois Glorieuses"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What name is given to the revolutionary days of July 27, 28 and 29, 1830?"
-        answers:
-          A: "The Hundred Days"
-          B: "The Parliamentary Fronde"
-          C: "The Glorious Revolution"
-          D: "The Three Glorious Days"
-    difficulty: EXPERT
-  - text: "Qui a été le premier président de la IIIe République ?"
-    answers:
-      A: "Patrice de Mac-Mahon"
-      B: "Jules Grévy"
-      C: "Adolphe Thiers"
-      D: "Léon Gambetta"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who was the first president of the Third Republic?"
-        answers:
-          A: "Patrice de Mac-Mahon"
-          B: "Jules Grévy"
-          C: "Adolphe Thiers"
-          D: "Léon Gambetta"
-    difficulty: EXPERT
-  - text: "Quel président de la République a démissionné en 1887 après le scandale des décorations ?"
-    answers:
-      A: "Jules Grévy"
-      B: "Sadi Carnot"
-      C: "Patrice de Mac-Mahon"
-      D: "Félix Faure"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which president of the Republic resigned in 1887 after the decorations scandal?"
-        answers:
-          A: "Jules Grévy"
-          B: "Sadi Carnot"
-          C: "Patrice de Mac-Mahon"
-          D: "Félix Faure"
-    difficulty: EXPERT
-  - text: "Quel président de la République a été assassiné à Lyon en 1894 ?"
-    answers:
-      A: "Félix Faure"
-      B: "Jean Casimir-Perier"
-      C: "Sadi Carnot"
-      D: "Émile Loubet"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which president of the Republic was assassinated in Lyon in 1894?"
-        answers:
-          A: "Félix Faure"
-          B: "Jean Casimir-Perier"
-          C: "Sadi Carnot"
-          D: "Émile Loubet"
-    difficulty: EXPERT
-  - text: "Qui a publié l'article « J'accuse… ! » dans L'Aurore en 1898 ?"
-    answers:
-      A: "Georges Clemenceau"
-      B: "Émile Zola"
-      C: "Alfred Dreyfus"
-      D: "Maurice Barrès"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who published the article \"J'accuse…!\" in L'Aurore in 1898?"
-        answers:
-          A: "Georges Clemenceau"
-          B: "Émile Zola"
-          C: "Alfred Dreyfus"
-          D: "Maurice Barrès"
-    difficulty: EXPERT
-  - text: "Quel président de la République a promulgué la loi de séparation des Églises et de l'État en 1905 ?"
-    answers:
-      A: "Armand Fallières"
-      B: "Raymond Poincaré"
-      C: "Émile Loubet"
-      D: "Sadi Carnot"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which president of the Republic enacted the 1905 law on the separation of Church and State?"
-        answers:
-          A: "Armand Fallières"
-          B: "Raymond Poincaré"
-          C: "Émile Loubet"
-          D: "Sadi Carnot"
-    difficulty: EXPERT
-  - text: "Quel président du Conseil a signé les accords de Munich en 1938 pour la France ?"
-    answers:
-      A: "Léon Blum"
-      B: "Paul Reynaud"
-      C: "Édouard Daladier"
-      D: "Raymond Poincaré"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which prime minister signed the Munich Agreement in 1938 for France?"
-        answers:
-          A: "Léon Blum"
-          B: "Paul Reynaud"
-          C: "Édouard Daladier"
-          D: "Raymond Poincaré"
-    difficulty: EXPERT
-  - text: "Quel maréchal a signé l'armistice du 22 juin 1940 ?"
+          A: "The Three Glorious Days"
+          B: "The July Revolution"
+          C: "The coup d'état of 2 December"
+          D: "The February Revolution"
+    difficulty: MEDIUM
+  - text: "Quel général français a été fusillé en 1945 pour collaboration avec l'Allemagne nazie ?"
     answers:
       A: "Philippe Pétain"
-      B: "Ferdinand Foch"
-      C: "Maxime Weygand"
-      D: "Joseph Joffre"
-    correctAnswer: A
+      B: "Charles de Gaulle"
+      C: "Jean Moulin"
+      D: "Pierre Laval"
+    correctAnswer: D
     translations:
       en:
-        text: "Which marshal signed the armistice of June 22, 1940?"
+        text: "Which French general was shot in 1945 for collaboration with Nazi Germany?"
         answers:
           A: "Philippe Pétain"
-          B: "Ferdinand Foch"
-          C: "Maxime Weygand"
-          D: "Joseph Joffre"
-    difficulty: EXPERT
-  - text: "Quel préfet a unifié les mouvements de la Résistance au sein du CNR en 1943 ?"
+          B: "Charles de Gaulle"
+          C: "Jean Moulin"
+          D: "Pierre Laval"
+    difficulty: HARD
+  - text: "En quelle année a eu lieu le couronnement de Charlemagne comme empereur ?"
     answers:
-      A: "Lucie Aubrac"
-      B: "Jean Moulin"
-      C: "Henri Frenay"
-      D: "Jean-Pierre Lévy"
+      A: "768"
+      B: "814"
+      C: "800"
+      D: "751"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was Charlemagne crowned emperor?"
+        answers:
+          A: "768"
+          B: "814"
+          C: "800"
+          D: "751"
+    difficulty: MEDIUM
+  - text: "Quel roi de France a régné de 1226 à 1270 et a été canonisé en 1297 ?"
+    answers:
+      A: "Philippe Auguste"
+      B: "Philippe le Bel"
+      C: "Louis IX"
+      D: "Charles V"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which King of France reigned from 1226 to 1270 and was canonized in 1297?"
+        answers:
+          A: "Philip Augustus"
+          B: "Philip the Fair"
+          C: "Louis IX"
+          D: "Charles V"
+    difficulty: HARD
+  - text: "Quelle bataille de 1214 a vu la victoire de Philippe Auguste sur une coalition ?"
+    answers:
+      A: "Bouvines"
+      B: "Azincourt"
+      C: "Crécy"
+      D: "Pavie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1214 battle saw Philip Augustus defeat a coalition?"
+        answers:
+          A: "Bouvines"
+          B: "Agincourt"
+          C: "Crécy"
+          D: "Pavia"
+    difficulty: HARD
+  - text: "Quel ministre de Louis XIV a été disgracié en 1691 et exilé pour avoir critiqué la politique royale ?"
+    answers:
+      A: "Colbert"
+      B: "Louvois"
+      C: "Fouquet"
+      D: "Vauban"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which minister of Louis XIV was disgraced in 1691 and exiled for criticizing royal policy?"
+        answers:
+          A: "Colbert"
+          B: "Louvois"
+          C: "Fouquet"
+          D: "Vauban"
+    difficulty: EXPERT
+  - text: "Quel roi de France a été sacré à Reims en 1223, poursuivant l'œuvre de son père Philippe Auguste ?"
+    answers:
+      A: "Louis IX"
+      B: "Louis VIII"
+      C: "Philippe III"
+      D: "Charles IV"
     correctAnswer: B
     translations:
       en:
-        text: "Which prefect unified the Resistance movements within the CNR in 1943?"
+        text: "Which King of France was crowned at Reims in 1223, continuing his father Philip Augustus's work?"
         answers:
-          A: "Lucie Aubrac"
-          B: "Jean Moulin"
-          C: "Henri Frenay"
-          D: "Jean-Pierre Lévy"
+          A: "Louis IX"
+          B: "Louis VIII"
+          C: "Philip III"
+          D: "Charles IV"
     difficulty: EXPERT
-  - text: "Sur quelle île Napoléon a-t-il été exilé en 1814 ?"
+  - text: "Quel roi capétien a été excommunié en 1200 par le pape Innocent III après son remariage avec Agnès de Méranie ?"
     answers:
-      A: "Sainte-Hélène"
-      B: "L'île d'Elbe"
-      C: "La Corse"
-      D: "Malte"
+      A: "Louis IX"
+      B: "Louis VII"
+      C: "Philippe IV"
+      D: "Philippe Auguste"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Capetian king was excommunicated in 1200 by Pope Innocent III after his remarriage to Agnes of Merania?"
+        answers:
+          A: "Louis IX"
+          B: "Louis VII"
+          C: "Philip IV"
+          D: "Philip Augustus"
+    difficulty: EXPERT
+  - text: "Quelle bataille de 1214 a vu la victoire de Philippe Auguste sur une coalition anglo-germano-flamande ?"
+    answers:
+      A: "Bataille de Bouvines"
+      B: "Bataille de Muret"
+      C: "Bataille de Las Navas de Tolosa"
+      D: "Bataille de Formigny"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1214 battle saw Philip Augustus defeat an Anglo-German-Flemish coalition?"
+        answers:
+          A: "Battle of Bouvines"
+          B: "Battle of Muret"
+          C: "Battle of Las Navas de Tolosa"
+          D: "Battle of Formigny"
+    difficulty: HARD
+  - text: "En quelle année Jeanne d'Arc a-t-elle été brûlée vive à Rouen ?"
+    answers:
+      A: "1435"
+      B: "1429"
+      C: "1431"
+      D: "1453"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was Joan of Arc burned alive at Rouen?"
+        answers:
+          A: "1435"
+          B: "1429"
+          C: "1431"
+          D: "1453"
+    difficulty: MEDIUM
+  - text: "Quel intendant des finances de Louis XIV a été disgracié en 1661 après la mort de Mazarin ?"
+    answers:
+      A: "Jean-Baptiste Colbert"
+      B: "Michel Le Tellier"
+      C: "Nicolas Fouquet"
+      D: "Hugues de Lionne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which finance superintendent of Louis XIV was disgraced in 1661 after Mazarin's death?"
+        answers:
+          A: "Jean-Baptiste Colbert"
+          B: "Michel Le Tellier"
+          C: "Nicolas Fouquet"
+          D: "Hugues de Lionne"
+    difficulty: HARD
+  - text: "Quel roi mérovingien a unifié les Francs après la bataille de Soissons en 486 ?"
+    answers:
+      A: "Clotaire Ier"
+      B: "Clovis Ier"
+      C: "Dagobert Ier"
+      D: "Chilpéric Ier"
     correctAnswer: B
     translations:
       en:
-        text: "On which island was Napoleon exiled in 1814?"
+        text: "Which Merovingian king unified the Franks after the Battle of Soissons in 486?"
         answers:
-          A: "Saint Helena"
-          B: "Elba"
-          C: "Corsica"
-          D: "Malta"
-    difficulty: EXPERT
-  - text: "Quel pape a signé le Concordat de 1801 avec Napoléon Bonaparte ?"
+          A: "Chlothar I"
+          B: "Clovis I"
+          C: "Dagobert I"
+          D: "Chilperic I"
+    difficulty: HARD
+  - text: "Quel traité de 1259 a mis fin au conflit entre Louis IX et Henri III d'Angleterre ?"
     answers:
-      A: "Pie VII"
+      A: "Traité de Brétigny"
+      B: "Traité de Troyes"
+      C: "Traité de Paris"
+      D: "Traité d'Arras"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1259 treaty ended the conflict between Louis IX and Henry III of England?"
+        answers:
+          A: "Treaty of Brétigny"
+          B: "Treaty of Troyes"
+          C: "Treaty of Paris"
+          D: "Treaty of Arras"
+    difficulty: EXPERT
+  - text: "Qui a été le premier président de la IIIe République, élu en 1873 ?"
+    answers:
+      A: "Adolphe Thiers"
+      B: "Sadi Carnot"
+      C: "Jules Grévy"
+      D: "Patrice de Mac-Mahon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first president of the Third Republic, elected in 1873?"
+        answers:
+          A: "Adolphe Thiers"
+          B: "Sadi Carnot"
+          C: "Jules Grévy"
+          D: "Patrice de Mac-Mahon"
+    difficulty: HARD
+  - text: "Quel événement de 1789 a marqué la fin de l'Ancien Régime ?"
+    answers:
+      A: "Le coup d'État du 18 Brumaire"
+      B: "La fuite à Varennes"
+      C: "La prise de la Bastille"
+      D: "La convocation des États généraux"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1789 event marked the end of the Ancien Régime?"
+        answers:
+          A: "The Coup of 18 Brumaire"
+          B: "The Flight to Varennes"
+          C: "The storming of the Bastille"
+          D: "The convening of the Estates General"
+    difficulty: MEDIUM
+  - text: "Quel roi de France a été sacré à Reims en 1223 ?"
+    answers:
+      A: "Philippe II"
+      B: "Louis IX"
+      C: "Philippe III"
+      D: "Louis VIII"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which king of France was crowned at Reims in 1223?"
+        answers:
+          A: "Philip II"
+          B: "Louis IX"
+          C: "Philip III"
+          D: "Louis VIII"
+    difficulty: EXPERT
+  - text: "Quel roi de France a été excommunié en 1200 par le pape Innocent III ?"
+    answers:
+      A: "Louis VII"
+      B: "Philippe Auguste"
+      C: "Philippe III"
+      D: "Louis VIII"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which king of France was excommunicated in 1200 by Pope Innocent III?"
+        answers:
+          A: "Louis VII"
+          B: "Philip Augustus"
+          C: "Philip III"
+          D: "Louis VIII"
+    difficulty: EXPERT
+  - text: "Quel comte de Paris est élu roi des Francs en 888 après la déposition de Charles le Gros ?"
+    answers:
+      A: "Eudes"
+      B: "Robert Ier"
+      C: "Raoul"
+      D: "Hugues Capet"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Count of Paris was elected king of the Franks in 888 after the deposition of Charles the Fat?"
+        answers:
+          A: "Odo"
+          B: "Robert I"
+          C: "Rudolph"
+          D: "Hugh Capet"
+    difficulty: EXPERT
+  - text: "Quel traité de 1493 partage les possessions de Charles le Téméraire après sa mort ?"
+    answers:
+      A: "Traité d'Arras"
+      B: "Traité de Madrid"
+      C: "Traité de Cateau-Cambrésis"
+      D: "Traité de Senlis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1493 treaty divided the possessions of Charles the Bold after his death?"
+        answers:
+          A: "Treaty of Arras"
+          B: "Treaty of Madrid"
+          C: "Treaty of Cateau-Cambrésis"
+          D: "Treaty of Senlis"
+    difficulty: EXPERT
+  - text: "Quelle bataille de 1119 voit la victoire de Louis VI le Gros sur Henri Ier Beauclerc ?"
+    answers:
+      A: "Bataille de Brémule"
+      B: "Bataille de Tinchebray"
+      C: "Bataille de Bouvines"
+      D: "Bataille de Mirebeau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1119 battle saw Louis VI the Fat defeat Henry I Beauclerc?"
+        answers:
+          A: "Battle of Brémule"
+          B: "Battle of Tinchebray"
+          C: "Battle of Bouvines"
+          D: "Battle of Mirebeau"
+    difficulty: EXPERT
+  - text: "Quel connétable de France est exécuté en 1475 pour trahison sous Louis XI ?"
+    answers:
+      A: "Bertrand du Guesclin"
+      B: "Jean II de Bourbon"
+      C: "Arthur de Richemont"
+      D: "Louis de Luxembourg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Constable of France was executed in 1475 for treason under Louis XI?"
+        answers:
+          A: "Bertrand du Guesclin"
+          B: "John II of Bourbon"
+          C: "Arthur de Richemont"
+          D: "Louis of Luxembourg"
+    difficulty: EXPERT
+  - text: "Quel pape couronne Napoléon empereur en 1804 à Notre-Dame de Paris ?"
+    answers:
+      A: "Pie VI"
       B: "Léon XII"
-      C: "Pie VI"
+      C: "Pie VII"
       D: "Grégoire XVI"
-    correctAnswer: A
+    correctAnswer: C
     translations:
       en:
-        text: "Which pope signed the Concordat of 1801 with Napoleon Bonaparte?"
+        text: "Which pope crowned Napoleon emperor in 1804 at Notre-Dame de Paris?"
         answers:
-          A: "Pius VII"
+          A: "Pius VI"
           B: "Leo XII"
-          C: "Pius VI"
+          C: "Pius VII"
           D: "Gregory XVI"
-    difficulty: EXPERT
-  - text: "Quel impôt royal portait sur le sel sous l'Ancien Régime ?"
+    difficulty: HARD
+  - text: "Quel roi de France signe le traité de Paris de 1763 cédant la Nouvelle-France ?"
     answers:
-      A: "La gabelle"
-      B: "La taille"
-      C: "La capitation"
-      D: "Le dixième"
+      A: "Louis XV"
+      B: "Louis XIV"
+      C: "Louis XVI"
+      D: "François Ier"
     correctAnswer: A
     translations:
       en:
-        text: "Which royal tax applied to salt under the Ancien Régime?"
+        text: "Which King of France signed the 1763 Treaty of Paris ceding New France?"
         answers:
-          A: "The gabelle"
-          B: "The taille"
-          C: "The capitation"
-          D: "The dixième"
+          A: "Louis XV"
+          B: "Louis XIV"
+          C: "Louis XVI"
+          D: "Francis I"
+    difficulty: HARD
+  - text: "Quel financier écossais est nommé contrôleur général des finances par Louis XV en 1759 ?"
+    answers:
+      A: "Charles Alexandre de Calonne"
+      B: "Jacques Necker"
+      C: "Étienne de Silhouette"
+      D: "Anne Robert Jacques Turgot"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Scottish financier was appointed Controller-General of Finances by Louis XV in 1759?"
+        answers:
+          A: "Charles Alexandre de Calonne"
+          B: "Jacques Necker"
+          C: "Étienne de Silhouette"
+          D: "Anne Robert Jacques Turgot"
+    difficulty: EXPERT
+  - text: "Quel traité de 1801 met fin à la guerre entre la France et le Saint-Empire ?"
+    answers:
+      A: "Traité d'Amiens"
+      B: "Traité de Lunéville"
+      C: "Traité de Campo-Formio"
+      D: "Traité de Tilsit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1801 treaty ended the war between France and the Holy Roman Empire?"
+        answers:
+          A: "Treaty of Amiens"
+          B: "Treaty of Lunéville"
+          C: "Treaty of Campo Formio"
+          D: "Treaty of Tilsit"
+    difficulty: EXPERT
+  - text: "Quel général français est tué à la bataille de Wagram en 1809 ?"
+    answers:
+      A: "André Masséna"
+      B: "Louis Charles Antoine Desaix"
+      C: "Jean Lannes"
+      D: "Nicolas Jean-de-Dieu Soult"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which French general was killed at the Battle of Wagram in 1809?"
+        answers:
+          A: "André Masséna"
+          B: "Louis Charles Antoine Desaix"
+          C: "Jean Lannes"
+          D: "Nicolas Jean-de-Dieu Soult"
+    difficulty: EXPERT
+  - text: "Quelle loi de 1881 établit la liberté de la presse en France ?"
+    answers:
+      A: "Loi du 21 mars 1884"
+      B: "Loi du 30 juin 1881"
+      C: "Loi du 29 juillet 1881"
+      D: "Loi du 1er juillet 1901"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which 1881 law established freedom of the press in France?"
+        answers:
+          A: "Law of 21 March 1884"
+          B: "Law of 30 June 1881"
+          C: "Law of 29 July 1881"
+          D: "Law of 1 July 1901"
+    difficulty: HARD
+  - text: "Quel président de la République française démissionne en 1920 après le Congrès de Tours ?"
+    answers:
+      A: "Paul Deschanel"
+      B: "Raymond Poincaré"
+      C: "Alexandre Millerand"
+      D: "Gaston Doumergue"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which President of the French Republic resigned in 1920 after the Congress of Tours?"
+        answers:
+          A: "Paul Deschanel"
+          B: "Raymond Poincaré"
+          C: "Alexandre Millerand"
+          D: "Gaston Doumergue"
+    difficulty: EXPERT
+  - text: "Quelle femme est la première à siéger au gouvernement français en 1936 ?"
+    answers:
+      A: "Louise Weiss"
+      B: "Cécile Brunschvicg"
+      C: "Irène Joliot-Curie"
+      D: "Suzanne Lacore"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which woman was the first to serve in the French government in 1936?"
+        answers:
+          A: "Louise Weiss"
+          B: "Cécile Brunschvicg"
+          C: "Irène Joliot-Curie"
+          D: "Suzanne Lacore"
+    difficulty: EXPERT
+  - text: "Quel amiral français est fusillé à Toulon en 1942 après le sabordage de la flotte ?"
+    answers:
+      A: "François Darlan"
+      B: "Jean de Laborde"
+      C: "Émile Muselier"
+      D: "Philippe Auboyneau"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which French admiral was executed by firing squad in Toulon in 1942 after the scuttling of the fleet?"
+        answers:
+          A: "François Darlan"
+          B: "Jean de Laborde"
+          C: "Émile Muselier"
+          D: "Philippe Auboyneau"
+    difficulty: EXPERT
+  - text: "Quel roi de France a régné le plus longtemps après Louis XIV ?"
+    answers:
+      A: "Louis XV"
+      B: "Louis XVI"
+      C: "Louis-Philippe Ier"
+      D: "Charles VII"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which King of France reigned the longest after Louis XIV?"
+        answers:
+          A: "Louis XV"
+          B: "Louis XVI"
+          C: "Louis-Philippe I"
+          D: "Charles VII"
+    difficulty: HARD
+  - text: "Quel événement de 1302 réunit pour la première fois les trois ordres au royaume de France ?"
+    answers:
+      A: "États généraux de 1302"
+      B: "Assemblée de Vincennes"
+      C: "Conseil du roi à Paris"
+      D: "États provinciaux de Languedoc"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which 1302 event brought together the three estates of the Kingdom of France for the first time?"
+        answers:
+          A: "Estates General of 1302"
+          B: "Assembly of Vincennes"
+          C: "King's Council in Paris"
+          D: "Provincial Estates of Languedoc"
     difficulty: EXPERT

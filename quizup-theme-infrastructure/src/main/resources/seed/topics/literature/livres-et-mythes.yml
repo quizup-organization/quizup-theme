@@ -11,37 +11,37 @@ questions:
     imageUrl: wikipedia/literature/Shakespeare.jpg
     answers:
       A: "Molière"
-      B: "William Shakespeare"
-      C: "Christopher Marlowe"
+      B: "Christopher Marlowe"
+      C: "William Shakespeare"
       D: "Jean Racine"
-    correctAnswer: B
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Who wrote the tragedy Romeo and Juliet?"
         answers:
           A: "Molière"
-          B: "William Shakespeare"
-          C: "Christopher Marlowe"
+          B: "Christopher Marlowe"
+          C: "William Shakespeare"
           D: "Jean Racine"
+    difficulty: EASY
   - text: "Qui a écrit le roman Don Quichotte ?"
     imageUrl: wikipedia/literature/Miguel_de_Cervantes_2.jpg
     answers:
-      A: "Lope de Vega"
+      A: "Miguel de Cervantès"
       B: "Federico García Lorca"
       C: "Pablo Neruda"
-      D: "Miguel de Cervantès"
-    correctAnswer: D
-    difficulty: EXPERT
+      D: "Lope de Vega"
+    correctAnswer: A
     translations:
       en:
         text: "Who wrote the novel Don Quixote?"
         answers:
-          A: "Lope de Vega"
+          A: "Miguel de Cervantes"
           B: "Federico García Lorca"
           C: "Pablo Neruda"
-          D: "Miguel de Cervantes"
-  - text: "Quel poète de la Grèce antique est traditionnellement considéré comme l'auteur de l'Odyssée ?"
+          D: "Lope de Vega"
+    difficulty: EASY
+  - text: "Qui a écrit l'Odyssée ?"
     imageUrl: wikipedia/literature/Homer_British_Museum.jpg
     answers:
       A: "Homère"
@@ -49,33 +49,33 @@ questions:
       C: "Euripide"
       D: "Hésiode"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "Which poet of ancient Greece is traditionally considered the author of the Odyssey?"
+        text: "Who wrote the Odyssey?"
         answers:
           A: "Homer"
           B: "Sophocles"
           C: "Euripides"
           D: "Hesiod"
+    difficulty: EASY
   - text: "Qui a peint ce tableau représentant la naissance de Vénus ?"
     imageUrl: wikipedia/arts/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg
     answers:
-      A: "Raphaël"
+      A: "Sandro Botticelli"
       B: "Michel-Ange"
-      C: "Sandro Botticelli"
+      C: "Raphaël"
       D: "Le Titien"
-    correctAnswer: C
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Who painted this painting depicting the birth of Venus?"
         answers:
-          A: "Raphael"
+          A: "Sandro Botticelli"
           B: "Michelangelo"
-          C: "Sandro Botticelli"
+          C: "Raphael"
           D: "Titian"
-  - text: "Dans la mythologie nordique, quel dieu brandit le marteau Mjöllnir ?"
+    difficulty: MEDIUM
+  - text: "Quel dieu nordique brandit Mjöllnir ?"
     imageUrl: wikipedia/literature/Marten_Eskil_Winge_-_Tor's_Fight_with_the_Giants_-_Google_Art_Project.jpg
     answers:
       A: "Odin"
@@ -83,1264 +83,96 @@ questions:
       C: "Loki"
       D: "Freyr"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
-        text: "In Norse mythology, which god wields the hammer Mjöllnir?"
+        text: "Which Norse god wields Mjöllnir?"
         answers:
           A: "Odin"
           B: "Thor"
           C: "Loki"
           D: "Freyr"
-  - text: "Qui a écrit Les Misérables ?"
-    answers:
-      A: "Émile Zola"
-      B: "Honoré de Balzac"
-      C: "Gustave Flaubert"
-      D: "Victor Hugo"
-    correctAnswer: D
     difficulty: EASY
-    translations:
-      en:
-        text: "Who wrote Les Misérables?"
-        answers:
-          A: "Émile Zola"
-          B: "Honoré de Balzac"
-          C: "Gustave Flaubert"
-          D: "Victor Hugo"
-  - text: "Qui a écrit Madame Bovary ?"
+  - text: "Dans l'Iliade, quel guerrier troyen tue Patrocle avant d'être tué par Achille ?"
     answers:
-      A: "Gustave Flaubert"
-      B: "Émile Zola"
-      C: "Guy de Maupassant"
-      D: "Stendhal"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who wrote Madame Bovary?"
-        answers:
-          A: "Gustave Flaubert"
-          B: "Émile Zola"
-          C: "Guy de Maupassant"
-          D: "Stendhal"
-  - text: "Qui a écrit Le Petit Prince ?"
-    answers:
-      A: "Albert Camus"
-      B: "Marcel Pagnol"
-      C: "Antoine de Saint-Exupéry"
-      D: "Jules Renard"
+      A: "Énée"
+      B: "Pâris"
+      C: "Hector"
+      D: "Sarpédon"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
-        text: "Who wrote The Little Prince?"
+        text: "In the Iliad, which Trojan warrior kills Patroclus before being killed by Achilles?"
         answers:
-          A: "Albert Camus"
-          B: "Marcel Pagnol"
-          C: "Antoine de Saint-Exupéry"
-          D: "Jules Renard"
-  - text: "Qui a écrit La Ferme des animaux et 1984 ?"
-    answers:
-      A: "Aldous Huxley"
-      B: "George Orwell"
-      C: "Ray Bradbury"
-      D: "H. G. Wells"
-    correctAnswer: B
+          A: "Aeneas"
+          B: "Paris"
+          C: "Hector"
+          D: "Sarpedon"
     difficulty: HARD
-    translations:
-      en:
-        text: "Who wrote Animal Farm and 1984?"
-        answers:
-          A: "Aldous Huxley"
-          B: "George Orwell"
-          C: "Ray Bradbury"
-          D: "H. G. Wells"
-  - text: "Qui a écrit La Divine Comédie ?"
+  - text: "Quel dieu nordique est borgne et sacrifie un œil pour boire à la source de Mímir ?"
     answers:
-      A: "Pétrarque"
-      B: "Boccace"
-      C: "Virgile"
-      D: "Dante Alighieri"
+      A: "Týr"
+      B: "Heimdall"
+      C: "Loki"
+      D: "Odin"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
-        text: "Who wrote The Divine Comedy?"
+        text: "Which Norse god is one-eyed and sacrifices an eye to drink from Mímir's well?"
         answers:
-          A: "Petrarch"
-          B: "Boccaccio"
-          C: "Virgil"
-          D: "Dante Alighieri"
-  - text: "Dans la mythologie grecque, qui est le roi des dieux ?"
-    answers:
-      A: "Zeus"
-      B: "Poséidon"
-      C: "Hadès"
-      D: "Apollon"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "In Greek mythology, who is the king of the gods?"
-        answers:
-          A: "Zeus"
-          B: "Poseidon"
-          C: "Hades"
-          D: "Apollo"
-  - text: "Quel héros grec a accompli les douze travaux ?"
-    answers:
-      A: "Achille"
-      B: "Ulysse"
-      C: "Héraclès"
-      D: "Persée"
-    correctAnswer: C
+          A: "Týr"
+          B: "Heimdall"
+          C: "Loki"
+          D: "Odin"
     difficulty: HARD
-    translations:
-      en:
-        text: "Which Greek hero performed the twelve labors?"
-        answers:
-          A: "Achilles"
-          B: "Odysseus"
-          C: "Heracles"
-          D: "Perseus"
-  - text: "Quel monstre mi-homme mi-taureau était enfermé dans le labyrinthe de Crète ?"
-    answers:
-      A: "Le Sphinx"
-      B: "Le Minotaure"
-      C: "Le Cyclope"
-      D: "La Chimère"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which monster, half-man and half-bull, was imprisoned in the labyrinth of Crete?"
-        answers:
-          A: "The Sphinx"
-          B: "The Minotaur"
-          C: "The Cyclops"
-          D: "The Chimera"
-  - text: "Comment s'appelle le batelier qui fait traverser les âmes des morts aux Enfers ?"
-    answers:
-      A: "Thanatos"
-      B: "Hadès"
-      C: "Cerbère"
-      D: "Charon"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the name of the ferryman who carries the souls of the dead across to the Underworld?"
-        answers:
-          A: "Thanatos"
-          B: "Hades"
-          C: "Cerberus"
-          D: "Charon"
-  - text: "Dans la mythologie grecque, quel dieu est le messager de l'Olympe ?"
-    answers:
-      A: "Hermès"
-      B: "Apollon"
-      C: "Arès"
-      D: "Héphaïstos"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "In Greek mythology, which god is the messenger of Olympus?"
-        answers:
-          A: "Hermes"
-          B: "Apollo"
-          C: "Ares"
-          D: "Hephaestus"
-  - text: "Dans la mythologie nordique, qui est le roi des dieux et le père de Thor ?"
-    answers:
-      A: "Loki"
-      B: "Baldr"
-      C: "Odin"
-      D: "Tyr"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "In Norse mythology, who is the king of the gods and the father of Thor?"
-        answers:
-          A: "Loki"
-          B: "Baldr"
-          C: "Odin"
-          D: "Tyr"
-  - text: "Quelle créature de la mythologie grecque pétrifie quiconque croise son regard ?"
-    answers:
-      A: "La Gorgone Euryale"
-      B: "Méduse"
-      C: "L'Hydre de Lerne"
-      D: "Circé"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which creature from Greek mythology turns anyone who meets its gaze to stone?"
-        answers:
-          A: "The Gorgon Euryale"
-          B: "Medusa"
-          C: "The Lernaean Hydra"
-          D: "Circe"
-  - text: "Qui a écrit Vingt Mille Lieues sous les mers ?"
-    answers:
-      A: "Alexandre Dumas"
-      B: "Victor Hugo"
-      C: "Émile Zola"
-      D: "Jules Verne"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who wrote Twenty Thousand Leagues Under the Seas?"
-        answers:
-          A: "Alexandre Dumas"
-          B: "Victor Hugo"
-          C: "Émile Zola"
-          D: "Jules Verne"
-  - text: "Dans la mythologie grecque, quel dieu règne sur les mers ?"
-    answers:
-      A: "Poséidon"
-      B: "Zeus"
-      C: "Hadès"
-      D: "Triton"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "In Greek mythology, which god rules the seas?"
-        answers:
-          A: "Poseidon"
-          B: "Zeus"
-          C: "Hades"
-          D: "Triton"
-  - text: "Quelle déesse grecque est associée à la sagesse et à la guerre ?"
-    answers:
-      A: "Héra"
-      B: "Aphrodite"
-      C: "Athéna"
-      D: "Artémis"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which Greek goddess is associated with wisdom and war?"
-        answers:
-          A: "Hera"
-          B: "Aphrodite"
-          C: "Athena"
-          D: "Artemis"
-  - text: "Qui a écrit le roman Orgueil et Préjugés ?"
-    answers:
-      A: "Charlotte Brontë"
-      B: "Jane Austen"
-      C: "Emily Brontë"
-      D: "Mary Shelley"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote the novel Pride and Prejudice?"
-        answers:
-          A: "Charlotte Brontë"
-          B: "Jane Austen"
-          C: "Emily Brontë"
-          D: "Mary Shelley"
-    difficulty: EASY
-  - text: "Qui a écrit Les Trois Mousquetaires ?"
-    answers:
-      A: "Alexandre Dumas"
-      B: "Victor Hugo"
-      C: "Jules Verne"
-      D: "George Sand"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote The Three Musketeers?"
-        answers:
-          A: "Alexandre Dumas"
-          B: "Victor Hugo"
-          C: "Jules Verne"
-          D: "George Sand"
-    difficulty: EASY
-  - text: "Qui a écrit Alice au pays des merveilles ?"
-    answers:
-      A: "J. M. Barrie"
-      B: "C. S. Lewis"
-      C: "Lewis Carroll"
-      D: "Roald Dahl"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote Alice in Wonderland?"
-        answers:
-          A: "J. M. Barrie"
-          B: "C. S. Lewis"
-          C: "Lewis Carroll"
-          D: "Roald Dahl"
-    difficulty: EASY
-  - text: "Qui a écrit Robinson Crusoé ?"
-    answers:
-      A: "Jonathan Swift"
-      B: "Daniel Defoe"
-      C: "Herman Melville"
-      D: "Robert Louis Stevenson"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote Robinson Crusoe?"
-        answers:
-          A: "Jonathan Swift"
-          B: "Daniel Defoe"
-          C: "Herman Melville"
-          D: "Robert Louis Stevenson"
-    difficulty: EASY
-  - text: "Qui a écrit Les Voyages de Gulliver ?"
-    answers:
-      A: "Daniel Defoe"
-      B: "Charles Dickens"
-      C: "Oscar Wilde"
-      D: "Jonathan Swift"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Gulliver's Travels?"
-        answers:
-          A: "Daniel Defoe"
-          B: "Charles Dickens"
-          C: "Oscar Wilde"
-          D: "Jonathan Swift"
-    difficulty: EASY
-  - text: "Qui a écrit Frankenstein, ou le Prométhée moderne ?"
-    answers:
-      A: "Bram Stoker"
-      B: "Edgar Allan Poe"
-      C: "Mary Shelley"
-      D: "Oscar Wilde"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote Frankenstein; or, The Modern Prometheus?"
-        answers:
-          A: "Bram Stoker"
-          B: "Edgar Allan Poe"
-          C: "Mary Shelley"
-          D: "Oscar Wilde"
-    difficulty: EASY
-  - text: "Qui a écrit Dracula ?"
-    answers:
-      A: "Bram Stoker"
-      B: "Mary Shelley"
-      C: "Edgar Allan Poe"
-      D: "Robert Louis Stevenson"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote Dracula?"
-        answers:
-          A: "Bram Stoker"
-          B: "Mary Shelley"
-          C: "Edgar Allan Poe"
-          D: "Robert Louis Stevenson"
-    difficulty: EASY
-  - text: "Qui a écrit L'Île au trésor ?"
-    answers:
-      A: "Mark Twain"
-      B: "Jack London"
-      C: "Jules Verne"
-      D: "Robert Louis Stevenson"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Treasure Island?"
-        answers:
-          A: "Mark Twain"
-          B: "Jack London"
-          C: "Jules Verne"
-          D: "Robert Louis Stevenson"
-    difficulty: EASY
-  - text: "Qui a écrit Le Tour du monde en quatre-vingts jours ?"
-    answers:
-      A: "Jules Verne"
-      B: "Alexandre Dumas"
-      C: "Hector Malot"
-      D: "Émile Zola"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote Around the World in Eighty Days?"
-        answers:
-          A: "Jules Verne"
-          B: "Alexandre Dumas"
-          C: "Hector Malot"
-          D: "Émile Zola"
-    difficulty: EASY
-  - text: "Qui a écrit Oliver Twist ?"
-    answers:
-      A: "Jane Austen"
-      B: "Walter Scott"
-      C: "Charles Dickens"
-      D: "Thomas Hardy"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote Oliver Twist?"
-        answers:
-          A: "Jane Austen"
-          B: "Walter Scott"
-          C: "Charles Dickens"
-          D: "Thomas Hardy"
-    difficulty: EASY
-  - text: "Qui a écrit Les Aventures de Tom Sawyer ?"
-    answers:
-      A: "Herman Melville"
-      B: "Mark Twain"
-      C: "Jack London"
-      D: "Ernest Hemingway"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote The Adventures of Tom Sawyer?"
-        answers:
-          A: "Herman Melville"
-          B: "Mark Twain"
-          C: "Jack London"
-          D: "Ernest Hemingway"
-    difficulty: EASY
-  - text: "Qui a écrit Moby Dick ?"
-    answers:
-      A: "Mark Twain"
-      B: "Daniel Defoe"
-      C: "Nathaniel Hawthorne"
-      D: "Herman Melville"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Moby Dick?"
-        answers:
-          A: "Mark Twain"
-          B: "Daniel Defoe"
-          C: "Nathaniel Hawthorne"
-          D: "Herman Melville"
-    difficulty: EASY
-  - text: "Qui a écrit Peter Pan ?"
-    answers:
-      A: "J. M. Barrie"
-      B: "Lewis Carroll"
-      C: "L. Frank Baum"
-      D: "Rudyard Kipling"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote Peter Pan?"
-        answers:
-          A: "J. M. Barrie"
-          B: "Lewis Carroll"
-          C: "L. Frank Baum"
-          D: "Rudyard Kipling"
-    difficulty: EASY
-  - text: "Qui a écrit Le Magicien d'Oz ?"
-    answers:
-      A: "J. M. Barrie"
-      B: "C. S. Lewis"
-      C: "Roald Dahl"
-      D: "L. Frank Baum"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote The Wizard of Oz?"
-        answers:
-          A: "J. M. Barrie"
-          B: "C. S. Lewis"
-          C: "Roald Dahl"
-          D: "L. Frank Baum"
-    difficulty: EASY
-  - text: "Quel personnage de conte perd une pantoufle de verre au bal ?"
-    answers:
-      A: "Blanche-Neige"
-      B: "Cendrillon"
-      C: "Peau d'Âne"
-      D: "La Belle au bois dormant"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which fairy tale character loses a glass slipper at the ball?"
-        answers:
-          A: "Snow White"
-          B: "Cinderella"
-          C: "Donkeyskin"
-          D: "Sleeping Beauty"
-    difficulty: EASY
-  - text: "Dans Le Livre de la jungle de Kipling, quel ours enseigne la loi de la jungle à Mowgli ?"
-    answers:
-      A: "Baloo"
-      B: "Bagheera"
-      C: "Shere Khan"
-      D: "Kaa"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In Kipling's The Jungle Book, which bear teaches Mowgli the law of the jungle?"
-        answers:
-          A: "Baloo"
-          B: "Bagheera"
-          C: "Shere Khan"
-          D: "Kaa"
-    difficulty: EASY
-  - text: "Dans la version des frères Grimm du Petit Chaperon rouge, qui sauve l'enfant et sa grand-mère ?"
-    answers:
-      A: "Un bûcheron"
-      B: "Un meunier"
-      C: "Un chasseur"
-      D: "Un prince"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In the Brothers Grimm version of Little Red Riding Hood, who saves the child and her grandmother?"
-        answers:
-          A: "A woodcutter"
-          B: "A miller"
-          C: "A huntsman"
-          D: "A prince"
-    difficulty: EASY
-  - text: "Dans la mythologie égyptienne, quel dieu à tête de faucon est le fils d'Osiris et d'Isis ?"
-    answers:
-      A: "Anubis"
-      B: "Horus"
-      C: "Seth"
-      D: "Râ"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In Egyptian mythology, which falcon-headed god is the son of Osiris and Isis?"
-        answers:
-          A: "Anubis"
-          B: "Horus"
-          C: "Set"
-          D: "Ra"
-    difficulty: EASY
-  - text: "Dans la mythologie nordique, quel est le nom de l'arbre-monde ?"
-    answers:
-      A: "Bifröst"
-      B: "Asgard"
-      C: "Yggdrasil"
-      D: "Jötunheim"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In Norse mythology, what is the name of the world tree?"
-        answers:
-          A: "Bifröst"
-          B: "Asgard"
-          C: "Yggdrasil"
-          D: "Jötunheim"
-    difficulty: EASY
-  - text: "Dans la mythologie grecque, quel est le nom du chien à trois têtes qui garde les Enfers ?"
-    answers:
-      A: "Le Sphinx"
-      B: "La Chimère"
-      C: "Le Griffon"
-      D: "Cerbère"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In Greek mythology, what is the name of the three-headed dog that guards the Underworld?"
-        answers:
-          A: "The Sphinx"
-          B: "The Chimera"
-          C: "The Griffin"
-          D: "Cerberus"
-    difficulty: EASY
-  - text: "Qui a écrit le roman Les Hauts de Hurlevent ?"
-    answers:
-      A: "Charlotte Brontë"
-      B: "Emily Brontë"
-      C: "Jane Austen"
-      D: "Mary Shelley"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote the novel Wuthering Heights?"
-        answers:
-          A: "Charlotte Brontë"
-          B: "Emily Brontë"
-          C: "Jane Austen"
-          D: "Mary Shelley"
-    difficulty: MEDIUM
-  - text: "Qui a écrit La Métamorphose, où Gregor Samsa se réveille transformé en insecte ?"
-    answers:
-      A: "Thomas Mann"
-      B: "Stefan Zweig"
-      C: "Franz Kafka"
-      D: "Rainer Maria Rilke"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote The Metamorphosis, in which Gregor Samsa wakes up transformed into an insect?"
-        answers:
-          A: "Thomas Mann"
-          B: "Stefan Zweig"
-          C: "Franz Kafka"
-          D: "Rainer Maria Rilke"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Le Vieil Homme et la Mer ?"
-    answers:
-      A: "John Steinbeck"
-      B: "William Faulkner"
-      C: "Ernest Hemingway"
-      D: "F. Scott Fitzgerald"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote The Old Man and the Sea?"
-        answers:
-          A: "John Steinbeck"
-          B: "William Faulkner"
-          C: "Ernest Hemingway"
-          D: "F. Scott Fitzgerald"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Cent Ans de solitude ?"
-    answers:
-      A: "Jorge Luis Borges"
-      B: "Pablo Neruda"
-      C: "Mario Vargas Llosa"
-      D: "Gabriel García Márquez"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote One Hundred Years of Solitude?"
-        answers:
-          A: "Jorge Luis Borges"
-          B: "Pablo Neruda"
-          C: "Mario Vargas Llosa"
-          D: "Gabriel García Márquez"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Fahrenheit 451 ?"
-    answers:
-      A: "George Orwell"
-      B: "Aldous Huxley"
-      C: "Isaac Asimov"
-      D: "Ray Bradbury"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Fahrenheit 451?"
-        answers:
-          A: "George Orwell"
-          B: "Aldous Huxley"
-          C: "Isaac Asimov"
-          D: "Ray Bradbury"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Le Meilleur des mondes ?"
-    answers:
-      A: "Aldous Huxley"
-      B: "George Orwell"
-      C: "Ray Bradbury"
-      D: "H. G. Wells"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote Brave New World?"
-        answers:
-          A: "Aldous Huxley"
-          B: "George Orwell"
-          C: "Ray Bradbury"
-          D: "H. G. Wells"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Guerre et Paix ?"
-    answers:
-      A: "Fiodor Dostoïevski"
-      B: "Anton Tchekhov"
-      C: "Ivan Tourgueniev"
-      D: "Léon Tolstoï"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote War and Peace?"
-        answers:
-          A: "Fyodor Dostoevsky"
-          B: "Anton Chekhov"
-          C: "Ivan Turgenev"
-          D: "Leo Tolstoy"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Crime et Châtiment ?"
-    answers:
-      A: "Fiodor Dostoïevski"
-      B: "Léon Tolstoï"
-      C: "Ivan Tourgueniev"
-      D: "Anton Tchekhov"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote Crime and Punishment?"
-        answers:
-          A: "Fyodor Dostoevsky"
-          B: "Leo Tolstoy"
-          C: "Ivan Turgenev"
-          D: "Anton Chekhov"
-    difficulty: MEDIUM
-  - text: "Qui a écrit L'Étranger ?"
-    answers:
-      A: "Jean-Paul Sartre"
-      B: "Albert Camus"
-      C: "André Gide"
-      D: "Louis Aragon"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote The Stranger?"
-        answers:
-          A: "Jean-Paul Sartre"
-          B: "Albert Camus"
-          C: "André Gide"
-          D: "Louis Aragon"
-    difficulty: MEDIUM
-  - text: "Qui a écrit À la recherche du temps perdu ?"
-    answers:
-      A: "Marcel Proust"
-      B: "Gustave Flaubert"
-      C: "Stendhal"
-      D: "Honoré de Balzac"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote In Search of Lost Time?"
-        answers:
-          A: "Marcel Proust"
-          B: "Gustave Flaubert"
-          C: "Stendhal"
-          D: "Honoré de Balzac"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Le Rouge et le Noir ?"
-    answers:
-      A: "Honoré de Balzac"
-      B: "Gustave Flaubert"
-      C: "Stendhal"
-      D: "Émile Zola"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote The Red and the Black?"
-        answers:
-          A: "Honoré de Balzac"
-          B: "Gustave Flaubert"
-          C: "Stendhal"
-          D: "Émile Zola"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Le Père Goriot ?"
-    answers:
-      A: "Émile Zola"
-      B: "Guy de Maupassant"
-      C: "Victor Hugo"
-      D: "Honoré de Balzac"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Père Goriot?"
-        answers:
-          A: "Émile Zola"
-          B: "Guy de Maupassant"
-          C: "Victor Hugo"
-          D: "Honoré de Balzac"
-    difficulty: MEDIUM
-  - text: "Qui a écrit Le Comte de Monte-Cristo ?"
-    answers:
-      A: "Alexandre Dumas"
-      B: "Jules Verne"
-      C: "Victor Hugo"
-      D: "Eugène Sue"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote The Count of Monte Cristo?"
-        answers:
-          A: "Alexandre Dumas"
-          B: "Jules Verne"
-          C: "Victor Hugo"
-          D: "Eugène Sue"
-    difficulty: MEDIUM
-  - text: "Qui a écrit le recueil Les Fleurs du mal ?"
-    answers:
-      A: "Arthur Rimbaud"
-      B: "Paul Verlaine"
-      C: "Charles Baudelaire"
-      D: "Alphonse de Lamartine"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote the collection The Flowers of Evil?"
-        answers:
-          A: "Arthur Rimbaud"
-          B: "Paul Verlaine"
-          C: "Charles Baudelaire"
-          D: "Alphonse de Lamartine"
-    difficulty: MEDIUM
-  - text: "Dans la mythologie grecque, quelle déesse est associée à l'amour et à la beauté ?"
-    answers:
-      A: "Athéna"
-      B: "Héra"
-      C: "Déméter"
-      D: "Aphrodite"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In Greek mythology, which goddess is associated with love and beauty?"
-        answers:
-          A: "Athena"
-          B: "Hera"
-          C: "Demeter"
-          D: "Aphrodite"
-    difficulty: MEDIUM
-  - text: "Quel titan de la mythologie grecque est condamné à porter la voûte céleste sur ses épaules ?"
+  - text: "Quel Titan grec est condamné à porter la voûte céleste sur ses épaules ?"
     answers:
       A: "Prométhée"
-      B: "Atlas"
-      C: "Cronos"
+      B: "Cronos"
+      C: "Atlas"
       D: "Épiméthée"
-    correctAnswer: B
+    correctAnswer: C
     translations:
       en:
-        text: "Which Titan in Greek mythology is condemned to hold up the celestial heavens on his shoulders?"
+        text: "Which Greek Titan is condemned to carry the celestial vault on his shoulders?"
         answers:
           A: "Prometheus"
-          B: "Atlas"
-          C: "Cronus"
+          B: "Cronos"
+          C: "Atlas"
           D: "Epimetheus"
     difficulty: MEDIUM
-  - text: "Dans la mythologie égyptienne, quel dieu à tête de chacal préside à la momification ?"
+  - text: "Dans la mythologie nordique, quel loup gigantesque est le fils de Loki et brise ses liens lors du Ragnarök ?"
     answers:
-      A: "Anubis"
-      B: "Horus"
-      C: "Osiris"
-      D: "Thot"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In Egyptian mythology, which jackal-headed god presides over mummification?"
-        answers:
-          A: "Anubis"
-          B: "Horus"
-          C: "Osiris"
-          D: "Thoth"
-    difficulty: MEDIUM
-  - text: "Dans la légende arthurienne, quel est le nom de l'épée du roi Arthur ?"
-    answers:
-      A: "Durendal"
-      B: "Excalibur"
-      C: "Kusanagi"
-      D: "Gram"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In Arthurian legend, what is the name of King Arthur's sword?"
-        answers:
-          A: "Durendal"
-          B: "Excalibur"
-          C: "Kusanagi"
-          D: "Gram"
-    difficulty: MEDIUM
-  - text: "Dans la mythologie nordique, comment s'appelle le cheval à huit jambes d'Odin ?"
-    answers:
-      A: "Fenrir"
-      B: "Jörmungand"
-      C: "Sleipnir"
-      D: "Nidhogg"
+      A: "Sköll"
+      B: "Garm"
+      C: "Fenrir"
+      D: "Hati"
     correctAnswer: C
     translations:
       en:
-        text: "In Norse mythology, what is the name of Odin's eight-legged horse?"
+        text: "In Norse mythology, which gigantic wolf is the son of Loki and breaks his bonds during Ragnarök?"
         answers:
-          A: "Fenrir"
-          B: "Jörmungandr"
-          C: "Sleipnir"
-          D: "Nidhogg"
-    difficulty: MEDIUM
-  - text: "Quel roi de la mythologie grecque transformait en or tout ce qu'il touchait ?"
+          A: "Sköll"
+          B: "Garm"
+          C: "Fenrir"
+          D: "Hati"
+    difficulty: HARD
+  - text: "Qui a écrit le roman 'Moby Dick' ?"
     answers:
-      A: "Crésus"
-      B: "Midas"
-      C: "Œdipe"
-      D: "Tantale"
+      A: "Nathaniel Hawthorne"
+      B: "Herman Melville"
+      C: "Mark Twain"
+      D: "Edgar Allan Poe"
     correctAnswer: B
     translations:
       en:
-        text: "Which king in Greek mythology turned everything he touched into gold?"
+        text: "Who wrote the novel 'Moby Dick'?"
         answers:
-          A: "Croesus"
-          B: "Midas"
-          C: "Oedipus"
-          D: "Tantalus"
-    difficulty: MEDIUM
-  - text: "Qui a écrit le roman épistolaire Les Liaisons dangereuses ?"
-    answers:
-      A: "Denis Diderot"
-      B: "Marivaux"
-      C: "Choderlos de Laclos"
-      D: "Restif de la Bretonne"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote the epistolary novel Les Liaisons dangereuses?"
-        answers:
-          A: "Denis Diderot"
-          B: "Marivaux"
-          C: "Choderlos de Laclos"
-          D: "Restif de la Bretonne"
-    difficulty: HARD
-  - text: "Qui a écrit Le Nom de la rose ?"
-    answers:
-      A: "Italo Calvino"
-      B: "Umberto Eco"
-      C: "Primo Levi"
-      D: "Alberto Moravia"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote The Name of the Rose?"
-        answers:
-          A: "Italo Calvino"
-          B: "Umberto Eco"
-          C: "Primo Levi"
-          D: "Alberto Moravia"
-    difficulty: HARD
-  - text: "Qui a écrit Lolita ?"
-    answers:
-      A: "Boris Pasternak"
-      B: "Alexandre Soljenitsyne"
-      C: "Ivan Bounine"
-      D: "Vladimir Nabokov"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Lolita?"
-        answers:
-          A: "Boris Pasternak"
-          B: "Aleksandr Solzhenitsyn"
-          C: "Ivan Bunin"
-          D: "Vladimir Nabokov"
-    difficulty: HARD
-  - text: "Qui a écrit Ulysse, roman publié en 1922 ?"
-    answers:
-      A: "James Joyce"
-      B: "Virginia Woolf"
-      C: "D. H. Lawrence"
-      D: "Ford Madox Ford"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote Ulysses, a novel published in 1922?"
-        answers:
-          A: "James Joyce"
-          B: "Virginia Woolf"
-          C: "D. H. Lawrence"
-          D: "Ford Madox Ford"
-    difficulty: HARD
-  - text: "Qui a écrit Mrs Dalloway ?"
-    answers:
-      A: "George Eliot"
-      B: "Virginia Woolf"
-      C: "Jane Austen"
-      D: "Elizabeth Gaskell"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote Mrs Dalloway?"
-        answers:
-          A: "George Eliot"
-          B: "Virginia Woolf"
-          C: "Jane Austen"
-          D: "Elizabeth Gaskell"
-    difficulty: HARD
-  - text: "Qui a écrit Le Portrait de Dorian Gray ?"
-    answers:
-      A: "Oscar Wilde"
-      B: "George Bernard Shaw"
-      C: "Bram Stoker"
-      D: "Henry James"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote The Picture of Dorian Gray?"
-        answers:
-          A: "Oscar Wilde"
-          B: "George Bernard Shaw"
-          C: "Bram Stoker"
-          D: "Henry James"
-    difficulty: HARD
-  - text: "Qui a écrit Bel-Ami ?"
-    answers:
-      A: "Émile Zola"
-      B: "Alphonse Daudet"
-      C: "Octave Mirbeau"
-      D: "Guy de Maupassant"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Bel-Ami?"
-        answers:
-          A: "Émile Zola"
-          B: "Alphonse Daudet"
-          C: "Octave Mirbeau"
-          D: "Guy de Maupassant"
-    difficulty: HARD
-  - text: "Qui a écrit Germinal ?"
-    answers:
-      A: "Guy de Maupassant"
-      B: "Honoré de Balzac"
-      C: "Émile Zola"
-      D: "Victor Hugo"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote Germinal?"
-        answers:
-          A: "Guy de Maupassant"
-          B: "Honoré de Balzac"
-          C: "Émile Zola"
-          D: "Victor Hugo"
-    difficulty: HARD
-  - text: "Qui a écrit La Chartreuse de Parme ?"
-    answers:
-      A: "Stendhal"
-      B: "Honoré de Balzac"
-      C: "Gustave Flaubert"
-      D: "Prosper Mérimée"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote The Charterhouse of Parma?"
-        answers:
-          A: "Stendhal"
-          B: "Honoré de Balzac"
-          C: "Gustave Flaubert"
-          D: "Prosper Mérimée"
-    difficulty: HARD
-  - text: "Qui a écrit Gatsby le Magnifique ?"
-    answers:
-      A: "Ernest Hemingway"
-      B: "John Steinbeck"
-      C: "William Faulkner"
-      D: "F. Scott Fitzgerald"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote The Great Gatsby?"
-        answers:
-          A: "Ernest Hemingway"
-          B: "John Steinbeck"
-          C: "William Faulkner"
-          D: "F. Scott Fitzgerald"
-    difficulty: HARD
-  - text: "Qui a écrit Des souris et des hommes ?"
-    answers:
-      A: "John Steinbeck"
-      B: "Ernest Hemingway"
-      C: "Jack London"
-      D: "William Faulkner"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote Of Mice and Men?"
-        answers:
-          A: "John Steinbeck"
-          B: "Ernest Hemingway"
-          C: "Jack London"
-          D: "William Faulkner"
-    difficulty: HARD
-  - text: "Qui a écrit Le Bruit et la Fureur ?"
-    answers:
-      A: "Ernest Hemingway"
-      B: "John Steinbeck"
-      C: "William Faulkner"
-      D: "Tennessee Williams"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote The Sound and the Fury?"
-        answers:
-          A: "Ernest Hemingway"
-          B: "John Steinbeck"
-          C: "William Faulkner"
-          D: "Tennessee Williams"
-    difficulty: HARD
-  - text: "Qui a écrit L'Attrape-cœurs ?"
-    answers:
-      A: "Jack Kerouac"
-      B: "J. D. Salinger"
-      C: "Truman Capote"
-      D: "John Updike"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote The Catcher in the Rye?"
-        answers:
-          A: "Jack Kerouac"
-          B: "J. D. Salinger"
-          C: "Truman Capote"
-          D: "John Updike"
-    difficulty: HARD
-  - text: "Qui a écrit Jane Eyre ?"
-    answers:
-      A: "Emily Brontë"
-      B: "Anne Brontë"
-      C: "George Eliot"
-      D: "Charlotte Brontë"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote Jane Eyre?"
-        answers:
-          A: "Emily Brontë"
-          B: "Anne Brontë"
-          C: "George Eliot"
-          D: "Charlotte Brontë"
-    difficulty: HARD
-  - text: "Dans la mythologie nordique, quel loup monstrueux, fils de Loki, doit tuer Odin au Ragnarök ?"
-    answers:
-      A: "Jörmungand"
-      B: "Fenrir"
-      C: "Sleipnir"
-      D: "Garm"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In Norse mythology, which monstrous wolf, son of Loki, is destined to kill Odin at Ragnarök?"
-        answers:
-          A: "Jörmungand"
-          B: "Fenrir"
-          C: "Sleipnir"
-          D: "Garm"
-    difficulty: HARD
-  - text: "Dans la mythologie égyptienne, quel dieu est le roi des morts et le juge suprême de l'au-delà ?"
-    answers:
-      A: "Anubis"
-      B: "Râ"
-      C: "Osiris"
-      D: "Seth"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In Egyptian mythology, which god is the king of the dead and the supreme judge of the afterlife?"
-        answers:
-          A: "Anubis"
-          B: "Ra"
-          C: "Osiris"
-          D: "Seth"
-    difficulty: HARD
-  - text: "Dans la légende arthurienne, quelle enchanteresse est la demi-sœur du roi Arthur ?"
-    answers:
-      A: "Morgane"
-      B: "Viviane"
-      C: "Guenièvre"
-      D: "Igraine"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In Arthurian legend, which enchantress is King Arthur's half-sister?"
-        answers:
-          A: "Morgan le Fay"
-          B: "Viviane"
-          C: "Guinevere"
-          D: "Igraine"
-    difficulty: HARD
-  - text: "Dans l'Odyssée, quelle magicienne transforme les compagnons d'Ulysse en pourceaux ?"
-    answers:
-      A: "Calypso"
-      B: "Médée"
-      C: "Hécate"
-      D: "Circé"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In the Odyssey, which sorceress turns Odysseus's companions into pigs?"
-        answers:
-          A: "Calypso"
-          B: "Medea"
-          C: "Hecate"
-          D: "Circe"
-    difficulty: HARD
-  - text: "Dans la mythologie nordique, quel héros tue le dragon Fáfnir ?"
-    answers:
-      A: "Beowulf"
-      B: "Sigurd"
-      C: "Ragnar Lodbrok"
-      D: "Starkad"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In Norse mythology, which hero kills the dragon Fáfnir?"
-        answers:
-          A: "Beowulf"
-          B: "Sigurd"
-          C: "Ragnar Lodbrok"
-          D: "Starkad"
-    difficulty: HARD
-  - text: "Dans la mythologie égyptienne, quel dieu à tête d'ibis est le patron des scribes ?"
-    answers:
-      A: "Seth"
-      B: "Anubis"
-      C: "Thot"
-      D: "Horus"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In Egyptian mythology, which ibis-headed god is the patron of scribes?"
-        answers:
-          A: "Seth"
-          B: "Anubis"
-          C: "Thoth"
-          D: "Horus"
-    difficulty: HARD
-  - text: "Qui a écrit le roman épistolaire Clarisse Harlowe ?"
-    answers:
-      A: "Samuel Richardson"
-      B: "Henry Fielding"
-      C: "Laurence Sterne"
-      D: "Daniel Defoe"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who wrote the epistolary novel Clarissa Harlowe?"
-        answers:
-          A: "Samuel Richardson"
-          B: "Henry Fielding"
-          C: "Laurence Sterne"
-          D: "Daniel Defoe"
-    difficulty: EXPERT
-  - text: "Qui a écrit Les Souffrances du jeune Werther ?"
-    answers:
-      A: "Friedrich Schiller"
-      B: "Johann Wolfgang von Goethe"
-      C: "Heinrich Heine"
-      D: "Novalis"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote The Sorrows of Young Werther?"
-        answers:
-          A: "Friedrich Schiller"
-          B: "Johann Wolfgang von Goethe"
-          C: "Heinrich Heine"
-          D: "Novalis"
-    difficulty: EXPERT
-  - text: "Qui a écrit La Vie et les Opinions de Tristram Shandy ?"
-    answers:
-      A: "Samuel Richardson"
-      B: "Henry Fielding"
-      C: "Laurence Sterne"
-      D: "Tobias Smollett"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote The Life and Opinions of Tristram Shandy?"
-        answers:
-          A: "Samuel Richardson"
-          B: "Henry Fielding"
-          C: "Laurence Sterne"
-          D: "Tobias Smollett"
-    difficulty: EXPERT
-  - text: "Qui a écrit Les Frères Karamazov ?"
+          A: "Nathaniel Hawthorne"
+          B: "Herman Melville"
+          C: "Mark Twain"
+          D: "Edgar Allan Poe"
+    difficulty: EASY
+  - text: "Quel auteur russe a écrit 'Crime et Châtiment' ?"
     answers:
       A: "Léon Tolstoï"
       B: "Anton Tchekhov"
@@ -1349,266 +181,1434 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Who wrote The Brothers Karamazov?"
+        text: "Which Russian author wrote 'Crime and Punishment'?"
         answers:
           A: "Leo Tolstoy"
           B: "Anton Chekhov"
           C: "Ivan Turgenev"
           D: "Fyodor Dostoevsky"
-    difficulty: EXPERT
-  - text: "Qui a écrit Le Maître et Marguerite ?"
+    difficulty: MEDIUM
+  - text: "Quel poème épique de Virgile raconte les voyages d'Énée après la chute de Troie ?"
     answers:
-      A: "Mikhaïl Boulgakov"
-      B: "Maxime Gorki"
-      C: "Boris Pasternak"
-      D: "Isaac Babel"
+      A: "L'Énéide"
+      B: "Les Métamorphoses"
+      C: "La Pharsale"
+      D: "Les Argonautiques"
     correctAnswer: A
     translations:
       en:
-        text: "Who wrote The Master and Margarita?"
+        text: "Which epic poem by Virgil tells of Aeneas's travels after the fall of Troy?"
         answers:
-          A: "Mikhail Bulgakov"
-          B: "Maxim Gorky"
-          C: "Boris Pasternak"
-          D: "Isaac Babel"
+          A: "The Aeneid"
+          B: "The Metamorphoses"
+          C: "The Pharsalia"
+          D: "The Argonautica"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, qui est la déesse de la discorde qui lance la pomme d'or ?"
+    answers:
+      A: "Iris"
+      B: "Némésis"
+      C: "Hébé"
+      D: "Éris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Greek mythology, who is the goddess of discord who throws the golden apple?"
+        answers:
+          A: "Iris"
+          B: "Nemesis"
+          C: "Hebe"
+          D: "Eris"
+    difficulty: HARD
+  - text: "Quel frère de Romulus est tué par ce dernier lors de la fondation de Rome ?"
+    answers:
+      A: "Numa"
+      B: "Lucius"
+      C: "Titus"
+      D: "Rémus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which brother of Romulus is killed by him during the founding of Rome?"
+        answers:
+          A: "Numa"
+          B: "Lucius"
+          C: "Titus"
+          D: "Remus"
+    difficulty: HARD
+  - text: "Quel écrivain irlandais a écrit 'Ulysse', roman moderniste publié en 1922 ?"
+    answers:
+      A: "James Joyce"
+      B: "William Butler Yeats"
+      C: "Oscar Wilde"
+      D: "Samuel Beckett"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Irish writer wrote 'Ulysses', a modernist novel published in 1922?"
+        answers:
+          A: "James Joyce"
+          B: "William Butler Yeats"
+          C: "Oscar Wilde"
+          D: "Samuel Beckett"
+    difficulty: MEDIUM
+  - text: "Quel est le véritable nom du monstre de Frankenstein dans le roman de Mary Shelley ?"
+    answers:
+      A: "Igor"
+      B: "Adam"
+      C: "Victor"
+      D: "Le monstre n'a pas de nom"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the real name of Frankenstein's monster in Mary Shelley's novel?"
+        answers:
+          A: "Igor"
+          B: "Adam"
+          C: "Victor"
+          D: "The monster has no name"
     difficulty: EXPERT
-  - text: "Qui a écrit Le Docteur Jivago ?"
+  - text: "Qui a écrit 'Cent Ans de solitude' ?"
+    answers:
+      A: "Jorge Luis Borges"
+      B: "Mario Vargas Llosa"
+      C: "Pablo Neruda"
+      D: "Gabriel García Márquez"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote 'One Hundred Years of Solitude'?"
+        answers:
+          A: "Jorge Luis Borges"
+          B: "Mario Vargas Llosa"
+          C: "Pablo Neruda"
+          D: "Gabriel García Márquez"
+    difficulty: MEDIUM
+  - text: "Quel cheval ailé naît du sang de Méduse décapitée ?"
+    answers:
+      A: "Balios"
+      B: "Arion"
+      C: "Xanthe"
+      D: "Pégase"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which winged horse was born from the blood of the decapitated Medusa?"
+        answers:
+          A: "Balius"
+          B: "Arion"
+          C: "Xanthus"
+          D: "Pegasus"
+    difficulty: HARD
+  - text: "Quel dieu égyptien est représenté avec une tête de chacal et guide les morts ?"
+    answers:
+      A: "Osiris"
+      B: "Horus"
+      C: "Anubis"
+      D: "Seth"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Egyptian god is depicted with a jackal's head and guides the dead?"
+        answers:
+          A: "Osiris"
+          B: "Horus"
+          C: "Anubis"
+          D: "Seth"
+    difficulty: MEDIUM
+  - text: "Quel héros mésopotamien est le protagoniste de la plus ancienne épopée connue ?"
+    answers:
+      A: "Enkidu"
+      B: "Hammurabi"
+      C: "Gilgamesh"
+      D: "Sargon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Mesopotamian hero is the protagonist of the oldest known epic?"
+        answers:
+          A: "Enkidu"
+          B: "Hammurabi"
+          C: "Gilgamesh"
+          D: "Sargon"
+    difficulty: HARD
+  - text: "Quelle créature de la mythologie nordique est un géant qui provoque le Ragnarök en brûlant le monde ?"
+    answers:
+      A: "Ymir"
+      B: "Surt"
+      C: "Thrym"
+      D: "Geirröd"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which creature from Norse mythology is a giant who triggers Ragnarök by burning the world?"
+        answers:
+          A: "Ymir"
+          B: "Surtr"
+          C: "Thrym"
+          D: "Geirrödr"
+    difficulty: EXPERT
+  - text: "Quel écrivain a écrit 'Le Procès', publié à titre posthume en 1925 ?"
+    answers:
+      A: "Hermann Hesse"
+      B: "Robert Musil"
+      C: "Thomas Mann"
+      D: "Franz Kafka"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which writer wrote 'The Trial', published posthumously in 1925?"
+        answers:
+          A: "Hermann Hesse"
+          B: "Robert Musil"
+          C: "Thomas Mann"
+          D: "Franz Kafka"
+    difficulty: HARD
+  - text: "Quel est le nom du géant de glace ancêtre de tous les géants dans la mythologie nordique ?"
+    answers:
+      A: "Aurgelmir"
+      B: "Ymir"
+      C: "Thrúdgelmir"
+      D: "Búri"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the ice giant ancestor of all giants in Norse mythology?"
+        answers:
+          A: "Aurgelmir"
+          B: "Ymir"
+          C: "Thrúdgelmir"
+          D: "Búri"
+    difficulty: EXPERT
+  - text: "Qui a écrit 'Les Liaisons dangereuses' ?"
+    answers:
+      A: "Marquis de Sade"
+      B: "Choderlos de Laclos"
+      C: "Abbé Prévost"
+      D: "Restif de La Bretonne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote 'Les Liaisons dangereuses'?"
+        answers:
+          A: "Marquis de Sade"
+          B: "Choderlos de Laclos"
+          C: "Abbé Prévost"
+          D: "Restif de La Bretonne"
+    difficulty: HARD
+  - text: "Quel poète grec a écrit 'Théogonie', récit de la généalogie des dieux ?"
+    answers:
+      A: "Homère"
+      B: "Pindare"
+      C: "Hésiode"
+      D: "Sappho"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Greek poet wrote 'Theogony', an account of the genealogy of the gods?"
+        answers:
+          A: "Homer"
+          B: "Pindar"
+          C: "Hesiod"
+          D: "Sappho"
+    difficulty: EXPERT
+  - text: "Dans L'Odyssée, quel dieu apparaît en premier dans l'assemblée des dieux et prend la défense d'Ulysse ?"
+    answers:
+      A: "Poséidon"
+      B: "Athéna"
+      C: "Zeus"
+      D: "Hermès"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In the Odyssey, which god appears first in the assembly of the gods and defends Odysseus?"
+        answers:
+          A: "Poseidon"
+          B: "Athena"
+          C: "Zeus"
+          D: "Hermes"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, qui est le frère jumeau d'Artémis ?"
+    answers:
+      A: "Héphaïstos"
+      B: "Arès"
+      C: "Hermès"
+      D: "Apollon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Greek mythology, who is Artemis's twin brother?"
+        answers:
+          A: "Hephaestus"
+          B: "Ares"
+          C: "Hermes"
+          D: "Apollo"
+    difficulty: EASY
+  - text: "Quel poète latin est l'auteur des 'Métamorphoses', recueil de récits mythologiques ?"
+    answers:
+      A: "Ovide"
+      B: "Horace"
+      C: "Virgile"
+      D: "Lucain"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Latin poet is the author of the 'Metamorphoses', a collection of mythological tales?"
+        answers:
+          A: "Ovid"
+          B: "Horace"
+          C: "Virgil"
+          D: "Lucan"
+    difficulty: HARD
+  - text: "Dans la mythologie nordique, quel dieu est le gardien du pont Bifröst ?"
+    answers:
+      A: "Njörd"
+      B: "Týr"
+      C: "Baldr"
+      D: "Heimdall"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Norse mythology, which god is the guardian of the Bifröst bridge?"
+        answers:
+          A: "Njörd"
+          B: "Týr"
+          C: "Baldr"
+          D: "Heimdall"
+    difficulty: HARD
+  - text: "Qui a écrit le roman 'Le Rouge et le Noir' ?"
+    answers:
+      A: "Honoré de Balzac"
+      B: "Gustave Flaubert"
+      C: "Émile Zola"
+      D: "Stendhal"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who wrote the novel 'The Red and the Black'?"
+        answers:
+          A: "Honoré de Balzac"
+          B: "Gustave Flaubert"
+          C: "Émile Zola"
+          D: "Stendhal"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie grecque, quel mortel est transformé en fleur de narcisse après s'être contemplé dans une source ?"
+    answers:
+      A: "Hyacinthe"
+      B: "Narcisse"
+      C: "Adonis"
+      D: "Ganymède"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Greek mythology, which mortal is transformed into a narcissus flower after gazing at himself in a spring?"
+        answers:
+          A: "Hyacinthus"
+          B: "Narcissus"
+          C: "Adonis"
+          D: "Ganymede"
+    difficulty: MEDIUM
+  - text: "Quel écrivain russe est l'auteur de 'Guerre et Paix' ?"
+    answers:
+      A: "Fiodor Dostoïevski"
+      B: "Léon Tolstoï"
+      C: "Anton Tchekhov"
+      D: "Nicolas Gogol"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Russian writer is the author of 'War and Peace'?"
+        answers:
+          A: "Fyodor Dostoevsky"
+          B: "Leo Tolstoy"
+          C: "Anton Chekhov"
+          D: "Nikolai Gogol"
+    difficulty: EASY
+  - text: "Dans la mythologie nordique, quel dieu est appelé 'le dieu borgne' et donne son œil pour la sagesse ?"
+    answers:
+      A: "Odin"
+      B: "Loki"
+      C: "Thor"
+      D: "Freyr"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Norse mythology, which god is called 'the one-eyed god' and gives his eye for wisdom?"
+        answers:
+          A: "Odin"
+          B: "Loki"
+          C: "Thor"
+          D: "Freyr"
+    difficulty: MEDIUM
+  - text: "Quel roman de Franz Kafka met en scène Joseph K., arrêté sans motif ?"
+    answers:
+      A: "Le Château"
+      B: "La Métamorphose"
+      C: "Amérique"
+      D: "Le Procès"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which novel by Franz Kafka features Joseph K., arrested without cause?"
+        answers:
+          A: "The Castle"
+          B: "The Metamorphosis"
+          C: "Amerika"
+          D: "The Trial"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, combien de têtes possède Cerbère, le chien gardien des Enfers ?"
+    answers:
+      A: "Une"
+      B: "Deux"
+      C: "Cinquante"
+      D: "Trois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Greek mythology, how many heads does Cerberus, the dog guarding the Underworld, have?"
+        answers:
+          A: "One"
+          B: "Two"
+          C: "Fifty"
+          D: "Three"
+    difficulty: MEDIUM
+  - text: "Quel auteur a écrit 'Le Vieil Homme et la Mer' ?"
+    answers:
+      A: "Ernest Hemingway"
+      B: "William Faulkner"
+      C: "John Steinbeck"
+      D: "F. Scott Fitzgerald"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which author wrote 'The Old Man and the Sea'?"
+        answers:
+          A: "Ernest Hemingway"
+          B: "William Faulkner"
+          C: "John Steinbeck"
+          D: "F. Scott Fitzgerald"
+    difficulty: EASY
+  - text: "Dans la mythologie grecque, quel Titan est le père de Zeus ?"
+    answers:
+      A: "Océan"
+      B: "Japet"
+      C: "Hypérion"
+      D: "Cronos"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Greek mythology, which Titan is the father of Zeus?"
+        answers:
+          A: "Oceanus"
+          B: "Iapetus"
+          C: "Hyperion"
+          D: "Cronus"
+    difficulty: MEDIUM
+  - text: "Quel écrivain a écrit 'Bel-Ami', roman publié en 1885 ?"
+    answers:
+      A: "Émile Zola"
+      B: "Guy de Maupassant"
+      C: "Alphonse Daudet"
+      D: "Joris-Karl Huysmans"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which writer wrote 'Bel-Ami', a novel published in 1885?"
+        answers:
+          A: "Émile Zola"
+          B: "Guy de Maupassant"
+          C: "Alphonse Daudet"
+          D: "Joris-Karl Huysmans"
+    difficulty: HARD
+  - text: "Dans la mythologie nordique, qui est le père de Loki ?"
+    answers:
+      A: "Odin"
+      B: "Thrym"
+      C: "Fárbauti"
+      D: "Surtr"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, who is the father of Loki?"
+        answers:
+          A: "Odin"
+          B: "Thrym"
+          C: "Fárbauti"
+          D: "Surtr"
+    difficulty: EXPERT
+  - text: "Quel est le prénom du personnage principal de 'Madame Bovary' de Gustave Flaubert ?"
+    answers:
+      A: "Charles"
+      B: "Rodolphe"
+      C: "Emma"
+      D: "Léon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first name of the main character in Gustave Flaubert's 'Madame Bovary'?"
+        answers:
+          A: "Charles"
+          B: "Rodolphe"
+          C: "Emma"
+          D: "Léon"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, quelle divinité est la personnification de la nuit ?"
+    answers:
+      A: "Éris"
+      B: "Héméra"
+      C: "Nyx"
+      D: "Séléné"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Greek mythology, which deity is the personification of night?"
+        answers:
+          A: "Eris"
+          B: "Hemera"
+          C: "Nyx"
+          D: "Selene"
+    difficulty: HARD
+  - text: "Qui a écrit 'Le Comte de Monte-Cristo' ?"
+    answers:
+      A: "Alexandre Dumas"
+      B: "Victor Hugo"
+      C: "Eugène Sue"
+      D: "Jules Verne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote 'The Count of Monte Cristo'?"
+        answers:
+          A: "Alexandre Dumas"
+          B: "Victor Hugo"
+          C: "Eugène Sue"
+          D: "Jules Verne"
+    difficulty: EASY
+  - text: "Dans la mythologie nordique, quel animal est le destrier d'Odin ?"
+    answers:
+      A: "Jörmungandr"
+      B: "Fenrir"
+      C: "Sleipnir"
+      D: "Tanngrisnir"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, which animal is Odin's steed?"
+        answers:
+          A: "Jörmungandr"
+          B: "Fenrir"
+          C: "Sleipnir"
+          D: "Tanngrisnir"
+    difficulty: EXPERT
+  - text: "Quel écrivain irlandais a écrit 'Portrait de l'artiste en jeune homme' ?"
+    answers:
+      A: "Oscar Wilde"
+      B: "W. B. Yeats"
+      C: "Samuel Beckett"
+      D: "James Joyce"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Irish writer wrote 'A Portrait of the Artist as a Young Man'?"
+        answers:
+          A: "Oscar Wilde"
+          B: "W. B. Yeats"
+          C: "Samuel Beckett"
+          D: "James Joyce"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, qui sont les trois Gorgones ?"
+    answers:
+      A: "Méduse, Sthéno et Euryale"
+      B: "Méduse, Échidna et Thétis"
+      C: "Sthéno, Euryale et Lamia"
+      D: "Méduse, Céto et Phorcys"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, who are the three Gorgons?"
+        answers:
+          A: "Medusa, Stheno and Euryale"
+          B: "Medusa, Echidna and Thetis"
+          C: "Stheno, Euryale and Lamia"
+          D: "Medusa, Ceto and Phorcys"
+    difficulty: EXPERT
+  - text: "Quel auteur a écrit 'Les Frères Karamazov' ?"
+    answers:
+      A: "Léon Tolstoï"
+      B: "Fiodor Dostoïevski"
+      C: "Ivan Tourgueniev"
+      D: "Anton Tchekhov"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which author wrote 'The Brothers Karamazov'?"
+        answers:
+          A: "Leo Tolstoy"
+          B: "Fyodor Dostoevsky"
+          C: "Ivan Turgenev"
+          D: "Anton Chekhov"
+    difficulty: MEDIUM
+  - text: "Quel écrivain a écrit le roman épistolaire 'Les Souffrances du jeune Werther' ?"
+    answers:
+      A: "Johann Wolfgang von Goethe"
+      B: "Friedrich Schiller"
+      C: "Heinrich Heine"
+      D: "Thomas Mann"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which writer wrote the epistolary novel 'The Sorrows of Young Werther'?"
+        answers:
+          A: "Johann Wolfgang von Goethe"
+          B: "Friedrich Schiller"
+          C: "Heinrich Heine"
+          D: "Thomas Mann"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, quel roi de Corinthe est condamné à faire rouler éternellement un rocher ?"
+    answers:
+      A: "Sisyphe"
+      B: "Tantale"
+      C: "Ixion"
+      D: "Salmonée"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, which king of Corinth is condemned to roll a boulder forever?"
+        answers:
+          A: "Sisyphus"
+          B: "Tantalus"
+          C: "Ixion"
+          D: "Salmoneus"
+    difficulty: HARD
+  - text: "Qui a écrit le roman 'Le Maître et Marguerite', publié en 1967 ?"
     answers:
       A: "Mikhaïl Boulgakov"
       B: "Boris Pasternak"
       C: "Alexandre Soljenitsyne"
       D: "Vladimir Nabokov"
-    correctAnswer: B
+    correctAnswer: A
     translations:
       en:
-        text: "Who wrote Doctor Zhivago?"
+        text: "Who wrote the novel 'The Master and Margarita', published in 1967?"
         answers:
           A: "Mikhail Bulgakov"
           B: "Boris Pasternak"
           C: "Aleksandr Solzhenitsyn"
           D: "Vladimir Nabokov"
     difficulty: EXPERT
-  - text: "Qui a écrit Vendredi ou les Limbes du Pacifique ?"
+  - text: "Dans la mythologie nordique, quel dieu est tué par Loki lors du Ragnarök ?"
     answers:
-      A: "Marguerite Yourcenar"
-      B: "Claude Simon"
-      C: "Michel Tournier"
-      D: "Patrick Modiano"
-    correctAnswer: C
+      A: "Heimdall"
+      B: "Balder"
+      C: "Tyr"
+      D: "Freyr"
+    correctAnswer: B
     translations:
       en:
-        text: "Who wrote Friday, or, The Other Island?"
+        text: "In Norse mythology, which god is killed by Loki during Ragnarök?"
         answers:
-          A: "Marguerite Yourcenar"
-          B: "Claude Simon"
-          C: "Michel Tournier"
-          D: "Patrick Modiano"
+          A: "Heimdall"
+          B: "Baldr"
+          C: "Tyr"
+          D: "Freyr"
     difficulty: EXPERT
-  - text: "Qui a écrit les Mémoires d'Hadrien ?"
+  - text: "Quel auteur a écrit 'Les Démons', roman publié en 1872 ?"
     answers:
-      A: "Simone de Beauvoir"
-      B: "Nathalie Sarraute"
-      C: "Colette"
-      D: "Marguerite Yourcenar"
+      A: "Fiodor Dostoïevski"
+      B: "Ivan Tourgueniev"
+      C: "Léon Tolstoï"
+      D: "Anton Tchekhov"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which author wrote 'Demons', a novel published in 1872?"
+        answers:
+          A: "Fyodor Dostoevsky"
+          B: "Ivan Turgenev"
+          C: "Leo Tolstoy"
+          D: "Anton Chekhov"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, quelle déesse est la personnification de la discorde ?"
+    answers:
+      A: "Éris"
+      B: "Ényo"
+      C: "Némésis"
+      D: "Hébé"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, which goddess is the personification of discord?"
+        answers:
+          A: "Eris"
+          B: "Enyo"
+          C: "Nemesis"
+          D: "Hebe"
+    difficulty: HARD
+  - text: "Qui a écrit 'La Chartreuse de Parme' ?"
+    answers:
+      A: "Honoré de Balzac"
+      B: "Gustave Flaubert"
+      C: "Émile Zola"
+      D: "Stendhal"
     correctAnswer: D
     translations:
       en:
-        text: "Who wrote Memoirs of Hadrian?"
+        text: "Who wrote 'The Charterhouse of Parma'?"
         answers:
-          A: "Simone de Beauvoir"
-          B: "Nathalie Sarraute"
-          C: "Colette"
-          D: "Marguerite Yourcenar"
-    difficulty: EXPERT
-  - text: "Qui a écrit Le Pavillon des cancéreux ?"
+          A: "Honoré de Balzac"
+          B: "Gustave Flaubert"
+          C: "Émile Zola"
+          D: "Stendhal"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie grecque, quel Titan est le père de Prométhée ?"
     answers:
-      A: "Alexandre Soljenitsyne"
+      A: "Japet"
+      B: "Cronos"
+      C: "Océan"
+      D: "Hypérion"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, which Titan is the father of Prometheus?"
+        answers:
+          A: "Iapetus"
+          B: "Cronus"
+          C: "Oceanus"
+          D: "Hyperion"
+    difficulty: EXPERT
+  - text: "Quel écrivain a écrit 'L'Étranger', publié en 1942 ?"
+    answers:
+      A: "Albert Camus"
+      B: "Jean-Paul Sartre"
+      C: "André Malraux"
+      D: "Louis Aragon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which writer wrote 'The Stranger', published in 1942?"
+        answers:
+          A: "Albert Camus"
+          B: "Jean-Paul Sartre"
+          C: "André Malraux"
+          D: "Louis Aragon"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie nordique, quel objet appartient à Thor et est forgé par les nains ?"
+    answers:
+      A: "Gungnir"
+      B: "Mjöllnir"
+      C: "Draupnir"
+      D: "Skíðblaðnir"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Norse mythology, which object belongs to Thor and was forged by the dwarves?"
+        answers:
+          A: "Gungnir"
+          B: "Mjöllnir"
+          C: "Draupnir"
+          D: "Skíðblaðnir"
+    difficulty: EXPERT
+  - text: "Qui a écrit 'Le Rouge et le Noir', publié en 1830 ?"
+    answers:
+      A: "Flaubert"
+      B: "Balzac"
+      C: "Stendhal"
+      D: "Hugo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote 'The Red and the Black', published in 1830?"
+        answers:
+          A: "Flaubert"
+          B: "Balzac"
+          C: "Stendhal"
+          D: "Hugo"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie grecque, quel mortel est puni dans le Tartare en étant privé de nourriture et de boisson ?"
+    answers:
+      A: "Sisyphe"
+      B: "Tantale"
+      C: "Ixion"
+      D: "Pirithoos"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Greek mythology, which mortal is punished in Tartarus by being deprived of food and drink?"
+        answers:
+          A: "Sisyphus"
+          B: "Tantalus"
+          C: "Ixion"
+          D: "Pirithous"
+    difficulty: EXPERT
+  - text: "Quel roman de Virginia Woolf a été publié en 1925 ?"
+    answers:
+      A: "Les Vagues"
+      B: "La Promenade au phare"
+      C: "Mrs Dalloway"
+      D: "Orlando"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which novel by Virginia Woolf was published in 1925?"
+        answers:
+          A: "The Waves"
+          B: "To the Lighthouse"
+          C: "Mrs Dalloway"
+          D: "Orlando"
+    difficulty: EXPERT
+  - text: "Qui a écrit 'La Nausée', publié en 1938 ?"
+    answers:
+      A: "Albert Camus"
+      B: "Simone de Beauvoir"
+      C: "Jean-Paul Sartre"
+      D: "Maurice Merleau-Ponty"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote 'Nausea', published in 1938?"
+        answers:
+          A: "Albert Camus"
+          B: "Simone de Beauvoir"
+          C: "Jean-Paul Sartre"
+          D: "Maurice Merleau-Ponty"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, quelle créature a le corps d'un lion, une tête de femme et une queue de serpent ?"
+    answers:
+      A: "La Chimère"
+      B: "L'Hydre de Lerne"
+      C: "Le Sphinx"
+      D: "Cerbère"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Greek mythology, which creature has the body of a lion, the head of a woman, and the tail of a serpent?"
+        answers:
+          A: "The Chimera"
+          B: "The Hydra of Lerna"
+          C: "The Sphinx"
+          D: "Cerberus"
+    difficulty: EXPERT
+  - text: "Quel écrivain a écrit 'Les Raisins de la colère', publié en 1939 ?"
+    answers:
+      A: "Ernest Hemingway"
+      B: "John Steinbeck"
+      C: "William Faulkner"
+      D: "F. Scott Fitzgerald"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which writer wrote 'The Grapes of Wrath', published in 1939?"
+        answers:
+          A: "Ernest Hemingway"
+          B: "John Steinbeck"
+          C: "William Faulkner"
+          D: "F. Scott Fitzgerald"
+    difficulty: HARD
+  - text: "Dans la mythologie nordique, quel loup est le fils de Fenrir ?"
+    answers:
+      A: "Garmr"
+      B: "Hati"
+      C: "Sköll"
+      D: "Fenrir lui-même n'a pas de fils"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Norse mythology, which wolf is the son of Fenrir?"
+        answers:
+          A: "Garmr"
+          B: "Hati"
+          C: "Sköll"
+          D: "Fenrir himself has no sons"
+    difficulty: EXPERT
+  - text: "Qui a écrit 'Le Bruit et la Fureur', publié en 1929 ?"
+    answers:
+      A: "John Dos Passos"
+      B: "Ernest Hemingway"
+      C: "William Faulkner"
+      D: "Sinclair Lewis"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who wrote 'The Sound and the Fury', published in 1929?"
+        answers:
+          A: "John Dos Passos"
+          B: "Ernest Hemingway"
+          C: "William Faulkner"
+          D: "Sinclair Lewis"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, quelle divinité est la mère de Persée ?"
+    answers:
+      A: "Alcmène"
+      B: "Danaé"
+      C: "Sémélé"
+      D: "Léto"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Greek mythology, which deity is the mother of Perseus?"
+        answers:
+          A: "Alcmene"
+          B: "Danaë"
+          C: "Semele"
+          D: "Leto"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, combien de têtes possède Cerbère selon la Théogonie d'Hésiode ?"
+    answers:
+      A: "Cent"
+      B: "Trois"
+      C: "Cinquante"
+      D: "Une seule, mais avec une crinière de serpents"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Greek mythology, how many heads does Cerberus have according to Hesiod's Theogony?"
+        answers:
+          A: "One hundred"
+          B: "Three"
+          C: "Fifty"
+          D: "Only one, but with a mane of serpents"
+    difficulty: EXPERT
+  - text: "Quel poète grec est l'auteur de la Théogonie, récit de la genèse des dieux ?"
+    answers:
+      A: "Hésiode"
+      B: "Homère"
+      C: "Pindare"
+      D: "Eschyle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Greek poet is the author of the Theogony, an account of the genesis of the gods?"
+        answers:
+          A: "Hesiod"
+          B: "Homer"
+          C: "Pindar"
+          D: "Aeschylus"
+    difficulty: EXPERT
+  - text: "Dans la mythologie nordique, quel dieu est le gardien du Gjallarhorn, cor qui annonce le Ragnarök ?"
+    answers:
+      A: "Odin"
+      B: "Heimdall"
+      C: "Thor"
+      D: "Týr"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Norse mythology, which god is the guardian of Gjallarhorn, the horn that announces Ragnarök?"
+        answers:
+          A: "Odin"
+          B: "Heimdall"
+          C: "Thor"
+          D: "Týr"
+    difficulty: EXPERT
+  - text: "Quel écrivain russe est l'auteur du roman 'Le Maître et Marguerite', publié en 1967 ?"
+    answers:
+      A: "Léon Tolstoï"
+      B: "Fiodor Dostoïevski"
+      C: "Anton Tchekhov"
+      D: "Mikhaïl Boulgakov"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Russian writer is the author of the novel 'The Master and Margarita', published in 1967?"
+        answers:
+          A: "Leo Tolstoy"
+          B: "Fyodor Dostoevsky"
+          C: "Anton Chekhov"
+          D: "Mikhail Bulgakov"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, quelle divinité est la personnification de la discorde ?"
+    answers:
+      A: "Némésis"
+      B: "Éris"
+      C: "Hébé"
+      D: "Iris"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Greek mythology, which deity is the personification of discord?"
+        answers:
+          A: "Nemesis"
+          B: "Eris"
+          C: "Hebe"
+          D: "Iris"
+    difficulty: HARD
+  - text: "Qui a écrit le roman 'Le Rouge et le Noir', publié en 1830 ?"
+    answers:
+      A: "Honoré de Balzac"
+      B: "Stendhal"
+      C: "Gustave Flaubert"
+      D: "Émile Zola"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote the novel 'The Red and the Black', published in 1830?"
+        answers:
+          A: "Honoré de Balzac"
+          B: "Stendhal"
+          C: "Gustave Flaubert"
+          D: "Émile Zola"
+    difficulty: MEDIUM
+  - text: "Quel écrivain irlandais a écrit 'Portrait de l'artiste en jeune homme', publié en 1916 ?"
+    answers:
+      A: "Oscar Wilde"
+      B: "W. B. Yeats"
+      C: "James Joyce"
+      D: "Samuel Beckett"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Irish writer wrote 'A Portrait of the Artist as a Young Man', published in 1916?"
+        answers:
+          A: "Oscar Wilde"
+          B: "W. B. Yeats"
+          C: "James Joyce"
+          D: "Samuel Beckett"
+    difficulty: EXPERT
+  - text: "Quel auteur a écrit 'Les Frères Karamazov', publié en 1880 ?"
+    answers:
+      A: "Léon Tolstoï"
+      B: "Anton Tchekhov"
+      C: "Ivan Tourgueniev"
+      D: "Fiodor Dostoïevski"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which author wrote 'The Brothers Karamazov', published in 1880?"
+        answers:
+          A: "Leo Tolstoy"
+          B: "Anton Chekhov"
+          C: "Ivan Turgenev"
+          D: "Fyodor Dostoevsky"
+    difficulty: HARD
+  - text: "Dans quelle pièce de Shakespeare le personnage de Caliban apparaît-il ?"
+    answers:
+      A: "Macbeth"
+      B: "Le Roi Lear"
+      C: "La Tempête"
+      D: "Peines d'amour perdues"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In which Shakespeare play does the character Caliban appear?"
+        answers:
+          A: "Macbeth"
+          B: "King Lear"
+          C: "The Tempest"
+          D: "Love's Labour's Lost"
+    difficulty: HARD
+  - text: "Quel écrivain est l'auteur de 'Moby Dick' ?"
+    answers:
+      A: "Nathaniel Hawthorne"
+      B: "Mark Twain"
+      C: "Herman Melville"
+      D: "Edgar Allan Poe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which writer is the author of 'Moby Dick'?"
+        answers:
+          A: "Nathaniel Hawthorne"
+          B: "Mark Twain"
+          C: "Herman Melville"
+          D: "Edgar Allan Poe"
+    difficulty: MEDIUM
+  - text: "En quelle année a été publié 'Cent ans de solitude' de Gabriel García Márquez ?"
+    answers:
+      A: "1977"
+      B: "1957"
+      C: "1967"
+      D: "1982"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was 'One Hundred Years of Solitude' by Gabriel García Márquez published?"
+        answers:
+          A: "1977"
+          B: "1957"
+          C: "1967"
+          D: "1982"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, qui est la mère d'Achille ?"
+    answers:
+      A: "Héra"
+      B: "Thétis"
+      C: "Athéna"
+      D: "Déméter"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Greek mythology, who is the mother of Achilles?"
+        answers:
+          A: "Hera"
+          B: "Thetis"
+          C: "Athena"
+          D: "Demeter"
+    difficulty: HARD
+  - text: "Quel écrivain russe a écrit 'Guerre et Paix' ?"
+    answers:
+      A: "Fiodor Dostoïevski"
+      B: "Anton Tchekhov"
+      C: "Léon Tolstoï"
+      D: "Ivan Tourgueniev"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Russian writer wrote 'War and Peace'?"
+        answers:
+          A: "Fyodor Dostoevsky"
+          B: "Anton Chekhov"
+          C: "Leo Tolstoy"
+          D: "Ivan Turgenev"
+    difficulty: MEDIUM
+  - text: "Dans la mythologie nordique, quel dieu est borgne ?"
+    answers:
+      A: "Thor"
+      B: "Odin"
+      C: "Tyr"
+      D: "Loki"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Norse mythology, which god is one-eyed?"
+        answers:
+          A: "Thor"
+          B: "Odin"
+          C: "Tyr"
+          D: "Loki"
+    difficulty: HARD
+  - text: "Qui a écrit le roman 'Lolita', publié en 1955 ?"
+    answers:
+      A: "Ivan Bounine"
       B: "Boris Pasternak"
-      C: "Vassili Grossman"
-      D: "Ilya Ehrenbourg"
-    correctAnswer: A
+      C: "Alexandre Soljenitsyne"
+      D: "Vladimir Nabokov"
+    correctAnswer: D
     translations:
       en:
-        text: "Who wrote Cancer Ward?"
+        text: "Who wrote the novel 'Lolita', published in 1955?"
         answers:
-          A: "Aleksandr Solzhenitsyn"
+          A: "Ivan Bunin"
           B: "Boris Pasternak"
-          C: "Vasily Grossman"
-          D: "Ilya Ehrenburg"
-    difficulty: EXPERT
-  - text: "Qui a écrit Pedro Páramo ?"
+          C: "Aleksandr Solzhenitsyn"
+          D: "Vladimir Nabokov"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, quel est le nom du fleuve de l'oubli aux Enfers ?"
     answers:
-      A: "Octavio Paz"
-      B: "Juan Rulfo"
-      C: "Carlos Fuentes"
-      D: "Mario Vargas Llosa"
+      A: "Achéron"
+      B: "Léthé"
+      C: "Cocyte"
+      D: "Phlégéthon"
     correctAnswer: B
     translations:
       en:
-        text: "Who wrote Pedro Páramo?"
+        text: "In Greek mythology, what is the name of the river of forgetfulness in the Underworld?"
         answers:
-          A: "Octavio Paz"
-          B: "Juan Rulfo"
-          C: "Carlos Fuentes"
-          D: "Mario Vargas Llosa"
+          A: "Acheron"
+          B: "Lethe"
+          C: "Cocytus"
+          D: "Phlegethon"
     difficulty: EXPERT
-  - text: "Qui a écrit Le Tambour ?"
+  - text: "Quel roman de George Orwell met en scène Big Brother ?"
     answers:
-      A: "Heinrich Böll"
-      B: "Thomas Mann"
-      C: "Günter Grass"
-      D: "Robert Musil"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who wrote The Tin Drum?"
-        answers:
-          A: "Heinrich Böll"
-          B: "Thomas Mann"
-          C: "Günter Grass"
-          D: "Robert Musil"
-    difficulty: EXPERT
-  - text: "Qui a écrit L'Homme sans qualités ?"
-    answers:
-      A: "Hermann Broch"
-      B: "Stefan Zweig"
-      C: "Arthur Schnitzler"
-      D: "Robert Musil"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who wrote The Man Without Qualities?"
-        answers:
-          A: "Hermann Broch"
-          B: "Stefan Zweig"
-          C: "Arthur Schnitzler"
-          D: "Robert Musil"
-    difficulty: EXPERT
-  - text: "Qui a écrit La Montagne magique ?"
-    answers:
-      A: "Thomas Mann"
-      B: "Hermann Hesse"
-      C: "Robert Musil"
-      D: "Stefan Zweig"
+      A: "1984"
+      B: "La Ferme des animaux"
+      C: "Hommage à la Catalogne"
+      D: "Un peu d'air frais"
     correctAnswer: A
     translations:
       en:
-        text: "Who wrote The Magic Mountain?"
+        text: "Which novel by George Orwell features Big Brother?"
         answers:
-          A: "Thomas Mann"
-          B: "Hermann Hesse"
-          C: "Robert Musil"
-          D: "Stefan Zweig"
-    difficulty: EXPERT
-  - text: "Qui a écrit Siddhartha ?"
+          A: "1984"
+          B: "Animal Farm"
+          C: "Homage to Catalonia"
+          D: "Coming Up for Air"
+    difficulty: EASY
+  - text: "Dans la mythologie nordique, quel est le nom du loup gigantesque qui dévore Odin lors du Ragnarök ?"
     answers:
-      A: "Thomas Mann"
-      B: "Hermann Hesse"
-      C: "Rainer Maria Rilke"
-      D: "Stefan Zweig"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who wrote Siddhartha?"
-        answers:
-          A: "Thomas Mann"
-          B: "Hermann Hesse"
-          C: "Rainer Maria Rilke"
-          D: "Stefan Zweig"
-    difficulty: EXPERT
-  - text: "Dans la mythologie nordique, comment s'appelle le serpent de Midgard qui ceinture le monde ?"
-    answers:
-      A: "Nidhogg"
+      A: "Jörmungandr"
       B: "Fenrir"
-      C: "Jörmungand"
-      D: "Garm"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In Norse mythology, what is the name of the Midgard serpent that encircles the world?"
-        answers:
-          A: "Nidhogg"
-          B: "Fenrir"
-          C: "Jörmungandr"
-          D: "Garm"
-    difficulty: EXPERT
-  - text: "Dans la mythologie égyptienne, quelle déesse est l'épouse d'Osiris et la mère d'Horus ?"
-    answers:
-      A: "Nephthys"
-      B: "Hathor"
-      C: "Sekhmet"
-      D: "Isis"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In Egyptian mythology, which goddess is the wife of Osiris and the mother of Horus?"
-        answers:
-          A: "Nephthys"
-          B: "Hathor"
-          C: "Sekhmet"
-          D: "Isis"
-    difficulty: EXPERT
-  - text: "Dans la mythologie celtique irlandaise, quel dieu-druide est le père de la déesse Brigid et le maître du chaudron d'abondance ?"
-    answers:
-      A: "Le Dagda"
-      B: "Lugh"
-      C: "Nuada"
-      D: "Ogma"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In Irish Celtic mythology, which druid god is the father of the goddess Brigid and the master of the cauldron of abundance?"
-        answers:
-          A: "The Dagda"
-          B: "Lugh"
-          C: "Nuada"
-          D: "Ogma"
-    difficulty: EXPERT
-  - text: "Dans la mythologie grecque, quel berger troyen enlevé par Zeus devient l'échanson des dieux ?"
-    answers:
-      A: "Pâris"
-      B: "Ganymède"
-      C: "Anchise"
-      D: "Endymion"
+      C: "Garm"
+      D: "Sköll"
     correctAnswer: B
     translations:
       en:
-        text: "In Greek mythology, which Trojan shepherd abducted by Zeus becomes the cupbearer of the gods?"
+        text: "In Norse mythology, what is the name of the giant wolf that devours Odin during Ragnarök?"
         answers:
-          A: "Paris"
-          B: "Ganymede"
-          C: "Anchises"
-          D: "Endymion"
+          A: "Jörmungandr"
+          B: "Fenrir"
+          C: "Garm"
+          D: "Sköll"
     difficulty: EXPERT
-  - text: "Dans la mythologie nordique, quel dieu garde le pont arc-en-ciel Bifröst ?"
+  - text: "Qui a écrit 'Les Liaisons dangereuses', publié en 1782 ?"
     answers:
-      A: "Tyr"
-      B: "Bragi"
-      C: "Heimdall"
-      D: "Njörd"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In Norse mythology, which god guards the rainbow bridge Bifröst?"
-        answers:
-          A: "Tyr"
-          B: "Bragi"
-          C: "Heimdall"
-          D: "Njörd"
-    difficulty: EXPERT
-  - text: "Dans la mythologie égyptienne, quel dieu à tête de crocodile est associé au Nil et à la fertilité ?"
-    answers:
-      A: "Khnoum"
-      B: "Ptah"
-      C: "Seth"
-      D: "Sobek"
+      A: "Voltaire"
+      B: "Marivaux"
+      C: "L'abbé Prévost"
+      D: "Choderlos de Laclos"
     correctAnswer: D
     translations:
       en:
-        text: "In Egyptian mythology, which crocodile-headed god is associated with the Nile and fertility?"
+        text: "Who wrote 'Les Liaisons dangereuses', published in 1782?"
         answers:
-          A: "Khnum"
-          B: "Ptah"
-          C: "Seth"
-          D: "Sobek"
+          A: "Voltaire"
+          B: "Marivaux"
+          C: "Abbé Prévost"
+          D: "Choderlos de Laclos"
+    difficulty: HARD
+  - text: "Dans la mythologie grecque, quelle déesse est associée à la chasse ?"
+    answers:
+      A: "Artémis"
+      B: "Athéna"
+      C: "Héra"
+      D: "Aphrodite"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, which goddess is associated with hunting?"
+        answers:
+          A: "Artemis"
+          B: "Athena"
+          C: "Hera"
+          D: "Aphrodite"
+    difficulty: MEDIUM
+  - text: "Quel écrivain américain a écrit le roman 'Ulysse', publié en 1922 ?"
+    answers:
+      A: "James Joyce"
+      B: "William Faulkner"
+      C: "Ernest Hemingway"
+      D: "Francis Scott Fitzgerald"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which American writer wrote the novel 'Ulysses', published in 1922?"
+        answers:
+          A: "James Joyce"
+          B: "William Faulkner"
+          C: "Ernest Hemingway"
+          D: "Francis Scott Fitzgerald"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, qui est le dieu du feu et des forges ?"
+    answers:
+      A: "Héphaïstos"
+      B: "Arès"
+      C: "Apollon"
+      D: "Dionysos"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Greek mythology, who is the god of fire and forges?"
+        answers:
+          A: "Hephaestus"
+          B: "Ares"
+          C: "Apollo"
+          D: "Dionysus"
+    difficulty: MEDIUM
+  - text: "Quel poète latin est l'auteur de l'Énéide ?"
+    answers:
+      A: "Ovide"
+      B: "Horace"
+      C: "Lucrèce"
+      D: "Virgile"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Latin poet is the author of the Aeneid?"
+        answers:
+          A: "Ovid"
+          B: "Horace"
+          C: "Lucretius"
+          D: "Virgil"
+    difficulty: HARD
+  - text: "Dans la mythologie nordique, combien de mondes sont reliés par l'arbre Yggdrasil ?"
+    answers:
+      A: "9"
+      B: "7"
+      C: "11"
+      D: "13"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Norse mythology, how many worlds are connected by the tree Yggdrasil?"
+        answers:
+          A: "9"
+          B: "7"
+          C: "11"
+          D: "13"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, quel mortel est condamné à porter éternellement le ciel sur ses épaules ?"
+    answers:
+      A: "Sisyphe"
+      B: "Tantale"
+      C: "Atlas"
+      D: "Ixion"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In Greek mythology, which mortal is condemned to carry the sky on his shoulders forever?"
+        answers:
+          A: "Sisyphus"
+          B: "Tantalus"
+          C: "Atlas"
+          D: "Ixion"
+    difficulty: HARD
+  - text: "Quel écrivain a écrit 'La Métamorphose', publiée en 1915 ?"
+    answers:
+      A: "Hermann Hesse"
+      B: "Thomas Mann"
+      C: "Robert Musil"
+      D: "Franz Kafka"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which writer wrote 'The Metamorphosis', published in 1915?"
+        answers:
+          A: "Hermann Hesse"
+          B: "Thomas Mann"
+          C: "Robert Musil"
+          D: "Franz Kafka"
+    difficulty: HARD
+  - text: "Dans la mythologie nordique, quel est le nom du marteau de Thor ?"
+    answers:
+      A: "Mjöllnir"
+      B: "Gungnir"
+      C: "Gram"
+      D: "Balmung"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Norse mythology, what is the name of Thor's hammer?"
+        answers:
+          A: "Mjöllnir"
+          B: "Gungnir"
+          C: "Gram"
+          D: "Balmung"
+    difficulty: HARD
+  - text: "Quel écrivain a écrit 'Le Rivage des Syrtes', publié en 1951 ?"
+    answers:
+      A: "André Malraux"
+      B: "Julien Gracq"
+      C: "Roger Martin du Gard"
+      D: "Jean Giono"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which writer wrote 'The Opposing Shore', published in 1951?"
+        answers:
+          A: "André Malraux"
+          B: "Julien Gracq"
+          C: "Roger Martin du Gard"
+          D: "Jean Giono"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, quel fils d'Hélios est foudroyé par Zeus après avoir mal conduit le char solaire ?"
+    answers:
+      A: "Absyrtos"
+      B: "Éétès"
+      C: "Céyx"
+      D: "Phaéton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In Greek mythology, which son of Helios is struck by Zeus's thunderbolt after mishandling the sun chariot?"
+        answers:
+          A: "Absyrtus"
+          B: "Aeetes"
+          C: "Ceyx"
+          D: "Phaethon"
+    difficulty: EXPERT
+  - text: "Quel roman de Thomas Mann a été publié en 1924 ?"
+    answers:
+      A: "Tonio Kröger"
+      B: "Le Docteur Faustus"
+      C: "Buddenbrooks"
+      D: "La Montagne magique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which novel by Thomas Mann was published in 1924?"
+        answers:
+          A: "Tonio Kröger"
+          B: "Doctor Faustus"
+          C: "Buddenbrooks"
+          D: "The Magic Mountain"
+    difficulty: EXPERT
+  - text: "Dans la mythologie nordique, qui est la mère de Sleipnir, le cheval à huit jambes d'Odin ?"
+    answers:
+      A: "Freyja"
+      B: "Loki"
+      C: "Hel"
+      D: "Angrboða"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Norse mythology, who is the mother of Sleipnir, Odin's eight-legged horse?"
+        answers:
+          A: "Freyja"
+          B: "Loki"
+          C: "Hel"
+          D: "Angrboða"
+    difficulty: EXPERT
+  - text: "Quel écrivain français a écrit 'Le Désert des Tartares', publié en 1940 ?"
+    answers:
+      A: "André Gide"
+      B: "Albert Camus"
+      C: "Jean-Paul Sartre"
+      D: "Dino Buzzati"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which French writer wrote 'The Tartar Steppe', published in 1940?"
+        answers:
+          A: "André Gide"
+          B: "Albert Camus"
+          C: "Jean-Paul Sartre"
+          D: "Dino Buzzati"
+    difficulty: EXPERT
+  - text: "Dans la mythologie grecque, quel frère de Ménélas est le roi de Mycènes lors de la guerre de Troie ?"
+    answers:
+      A: "Diomède"
+      B: "Agamemnon"
+      C: "Nestor"
+      D: "Idoménée"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In Greek mythology, which brother of Menelaus is king of Mycenae during the Trojan War?"
+        answers:
+          A: "Diomedes"
+          B: "Agamemnon"
+          C: "Nestor"
+          D: "Idomeneus"
+    difficulty: EXPERT
+  - text: "Quel poète latin est l'auteur des 'Métamorphoses' ?"
+    answers:
+      A: "Virgile"
+      B: "Ovide"
+      C: "Horace"
+      D: "Lucain"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Latin poet is the author of the 'Metamorphoses'?"
+        answers:
+          A: "Virgil"
+          B: "Ovid"
+          C: "Horace"
+          D: "Lucan"
+    difficulty: EXPERT
+  - text: "Dans la mythologie nordique, quel objet magique appartient à Freyja et est fait de plumes de faucon ?"
+    answers:
+      A: "Le manteau de plumes"
+      B: "Le collier Brísingamen"
+      C: "Le sanglier Gullinbursti"
+      D: "Le bateau Skíðblaðnir"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In Norse mythology, which magical object belongs to Freyja and is made of falcon feathers?"
+        answers:
+          A: "The feather cloak"
+          B: "The Brísingamen necklace"
+          C: "The boar Gullinbursti"
+          D: "The ship Skíðblaðnir"
     difficulty: EXPERT

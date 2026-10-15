@@ -1,21 +1,20 @@
 topic:
-  id: "topic-hp5-ordre-du-phenix"
+  id: topic-hp5-ordre-du-phenix
   names:
     fr: "Harry Potter et l'Ordre du Phénix"
     en: "Harry Potter and the Order of the Phoenix"
   description: "Cinquième année : le procès de Harry au Ministère, Dolores Ombrage et la Grande Inquisition, l'Armée de Dumbledore, Luna Lovegood, les cours d'Occlumancie avec Rogue, la prophétie, la bataille du Département des Mystères et la mort de Sirius Black. Réalisé par David Yates en 2007."
-  category: "MOVIES"
-  imageUrl: "wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg"
+  category: MOVIES
+  imageUrl: wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg
 questions:
   - text: "Qui incarne Harry Potter dans L'Ordre du Phénix ?"
-    imageUrl: "wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg"
+    imageUrl: wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg
     answers:
       A: "Matthew Lewis"
       B: "Rupert Grint"
       C: "Tom Felton"
       D: "Daniel Radcliffe"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Who plays Harry Potter in The Order of the Phoenix?"
@@ -24,15 +23,15 @@ questions:
           B: "Rupert Grint"
           C: "Tom Felton"
           D: "Daniel Radcliffe"
+    difficulty: EASY
   - text: "Qui joue Hermione Granger dans ce cinquième film ?"
-    imageUrl: "wikipedia/movies/Emma_Watson_2013.jpg"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
     answers:
       A: "Maggie Smith"
       B: "Bonnie Wright"
       C: "Evanna Lynch"
       D: "Emma Watson"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Who plays Hermione Granger in this fifth film?"
@@ -41,32 +40,32 @@ questions:
           B: "Bonnie Wright"
           C: "Evanna Lynch"
           D: "Emma Watson"
+    difficulty: EASY
   - text: "Qui incarne Ron Weasley dans ce volet ?"
-    imageUrl: "wikipedia/movies/RupertGrint2018.jpg"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
     answers:
       A: "Tom Felton"
       B: "Rupert Grint"
       C: "Daniel Radcliffe"
       D: "Warwick Davis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "Who plays Ron Weasley in this instalment?"
+        text: "Who plays Ron Weasley in this installment?"
         answers:
           A: "Tom Felton"
           B: "Rupert Grint"
           C: "Daniel Radcliffe"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui reprend Drago Malefoy dans ce film ?"
-    imageUrl: "wikipedia/movies/Tom_Felton_1.jpg"
+    imageUrl: wikipedia/movies/Tom_Felton_1.jpg
     answers:
       A: "Rupert Grint"
       B: "Tom Felton"
       C: "Matthew Lewis"
       D: "Jason Isaacs"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
         text: "Who returns as Draco Malfoy in this film?"
@@ -75,32 +74,32 @@ questions:
           B: "Tom Felton"
           C: "Matthew Lewis"
           D: "Jason Isaacs"
+    difficulty: EASY
   - text: "Qui joue le professeur Rogue dans ce volet ?"
-    imageUrl: "wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
     answers:
       A: "Alan Rickman"
       B: "Richard Harris"
       C: "John Cleese"
       D: "Warwick Davis"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
-        text: "Who plays Professor Snape in this instalment?"
+        text: "Who plays Professor Snape in this installment?"
         answers:
           A: "Alan Rickman"
           B: "Richard Harris"
           C: "John Cleese"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui incarne Minerva McGonagall dans ce film ?"
-    imageUrl: "wikipedia/movies/Maggie_Smith_-_Vintage.jpg"
+    imageUrl: wikipedia/movies/Maggie_Smith_-_Vintage.jpg
     answers:
       A: "Emma Thompson"
       B: "Maggie Smith"
       C: "Julie Walters"
       D: "Imelda Staunton"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Who plays Minerva McGonagall in this film?"
@@ -109,15 +108,15 @@ questions:
           B: "Maggie Smith"
           C: "Julie Walters"
           D: "Imelda Staunton"
+    difficulty: EASY
   - text: "Quel acteur reprend Hagrid ici ?"
-    imageUrl: "wikipedia/movies/Robbiecoltrane_(cropped).jpg"
+    imageUrl: wikipedia/movies/Robbiecoltrane_(cropped).jpg
     answers:
       A: "Gary Oldman"
       B: "Brendan Gleeson"
       C: "Mark Williams"
       D: "Robbie Coltrane"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+    correctAnswer: D
     translations:
       en:
         text: "Which actor returns as Hagrid here?"
@@ -126,15 +125,15 @@ questions:
           B: "Brendan Gleeson"
           C: "Mark Williams"
           D: "Robbie Coltrane"
+    difficulty: EASY
   - text: "Qui incarne Dumbledore dans ce film ?"
-    imageUrl: "wikipedia/movies/Michael_Gambon_cropped.jpg"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
     answers:
       A: "John Cleese"
       B: "Richard Harris"
       C: "Alan Rickman"
       D: "Michael Gambon"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Who plays Dumbledore in this film?"
@@ -143,66 +142,66 @@ questions:
           B: "Richard Harris"
           C: "Alan Rickman"
           D: "Michael Gambon"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne Lord Voldemort dans ce volet ?"
-    imageUrl: "wikipedia/movies/Ralph_Fiennes_2024.jpg"
+    imageUrl: wikipedia/movies/Ralph_Fiennes_2024.jpg
     answers:
       A: "Jason Isaacs"
       B: "Gary Oldman"
       C: "Ralph Fiennes"
       D: "David Thewlis"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
-        text: "Which actor plays Lord Voldemort in this instalment?"
+        text: "Which actor plays Lord Voldemort in this installment?"
         answers:
           A: "Jason Isaacs"
           B: "Gary Oldman"
           C: "Ralph Fiennes"
           D: "David Thewlis"
-  - text: "Quelle actrice incarne Dolores Ombrage, la Grande Inquisitrice ?"
-    imageUrl: "wikipedia/movies/Imelda_Staunton,_October_2019.jpg"
+    difficulty: EASY
+  - text: "Qui joue Dolores Ombrage ?"
+    imageUrl: wikipedia/movies/Imelda_Staunton,_October_2019.jpg
     answers:
       A: "Emma Thompson"
       B: "Maggie Smith"
       C: "Imelda Staunton"
       D: "Helena Bonham Carter"
-    correctAnswer: "C"
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
-        text: "Which actress plays Dolores Umbridge, the High Inquisitor?"
+        text: "Who plays Dolores Umbridge?"
         answers:
           A: "Emma Thompson"
           B: "Maggie Smith"
           C: "Imelda Staunton"
           D: "Helena Bonham Carter"
+    difficulty: MEDIUM
   - text: "Quelle actrice fait ses débuts en Luna Lovegood ici ?"
-    imageUrl: "wikipedia/movies/Evanna_Lynch_(51693246964).jpg"
+    imageUrl: wikipedia/movies/Evanna_Lynch_(51693246964).jpg
     answers:
       A: "Evanna Lynch"
       B: "Bonnie Wright"
       C: "Emma Watson"
       D: "Helena Bonham Carter"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
-        text: "Which actress debuts as Luna Lovegood here?"
+        text: "Which actress makes her debut as Luna Lovegood here?"
         answers:
           A: "Evanna Lynch"
           B: "Bonnie Wright"
           C: "Emma Watson"
           D: "Helena Bonham Carter"
+    difficulty: MEDIUM
   - text: "Quelle actrice incarne Bellatrix Lestrange dans ce film ?"
-    imageUrl: "wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
     answers:
       A: "Maggie Smith"
       B: "Emma Thompson"
       C: "Imelda Staunton"
       D: "Helena Bonham Carter"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Which actress plays Bellatrix Lestrange in this film?"
@@ -211,32 +210,32 @@ questions:
           B: "Emma Thompson"
           C: "Imelda Staunton"
           D: "Helena Bonham Carter"
+    difficulty: MEDIUM
   - text: "Quel acteur reprend Sirius Black dans ce volet ?"
-    imageUrl: "wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg"
+    imageUrl: wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg
     answers:
       A: "Brendan Gleeson"
       B: "David Thewlis"
       C: "Jason Isaacs"
       D: "Gary Oldman"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
-        text: "Which actor returns as Sirius Black in this instalment?"
+        text: "Which actor returns as Sirius Black in this installment?"
         answers:
           A: "Brendan Gleeson"
           B: "David Thewlis"
           C: "Jason Isaacs"
           D: "Gary Oldman"
+    difficulty: MEDIUM
   - text: "Quel acteur reprend Remus Lupin dans ce film ?"
-    imageUrl: "wikipedia/movies/David_Thewlis_2008.jpg"
+    imageUrl: wikipedia/movies/David_Thewlis_2008.jpg
     answers:
       A: "David Thewlis"
       B: "Gary Oldman"
       C: "Brendan Gleeson"
       D: "Jason Isaacs"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Which actor returns as Remus Lupin in this film?"
@@ -245,15 +244,15 @@ questions:
           B: "Gary Oldman"
           C: "Brendan Gleeson"
           D: "Jason Isaacs"
+    difficulty: MEDIUM
   - text: "Qui réalise L'Ordre du Phénix ?"
-    imageUrl: "wikipedia/movies/David_Yates_2010_Cropped.jpg"
+    imageUrl: wikipedia/movies/David_Yates_2010_Cropped.jpg
     answers:
       A: "David Yates"
       B: "Chris Columbus"
       C: "Alfonso Cuarón"
       D: "Mike Newell"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "Who directed The Order of the Phoenix?"
@@ -262,15 +261,15 @@ questions:
           B: "Chris Columbus"
           C: "Alfonso Cuarón"
           D: "Mike Newell"
+    difficulty: MEDIUM
   - text: "Qui a écrit le roman adapté dans ce film ?"
-    imageUrl: "wikipedia/literature/J._K._Rowling_2010.jpg"
+    imageUrl: wikipedia/literature/J._K._Rowling_2010.jpg
     answers:
       A: "J. R. R. Tolkien"
       B: "J. K. Rowling"
       C: "Roald Dahl"
       D: "C. S. Lewis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Who wrote the novel adapted in this film?"
@@ -279,15 +278,15 @@ questions:
           B: "J. K. Rowling"
           C: "Roald Dahl"
           D: "C. S. Lewis"
+    difficulty: EASY
   - text: "Qui incarne Arthur Weasley ici ?"
-    imageUrl: "wikipedia/movies/Mark_Williams_at_BBSE.jpg"
+    imageUrl: wikipedia/movies/Mark_Williams_at_BBSE.jpg
     answers:
       A: "Jason Isaacs"
       B: "Brendan Gleeson"
       C: "Mark Williams"
       D: "John Cleese"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Who plays Arthur Weasley here?"
@@ -296,15 +295,15 @@ questions:
           B: "Brendan Gleeson"
           C: "Mark Williams"
           D: "John Cleese"
+    difficulty: MEDIUM
   - text: "Qui joue Molly Weasley dans ce film ?"
-    imageUrl: "wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg"
+    imageUrl: wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg
     answers:
       A: "Emma Thompson"
       B: "Maggie Smith"
       C: "Julie Walters"
       D: "Imelda Staunton"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Who plays Molly Weasley in this film?"
@@ -313,32 +312,32 @@ questions:
           B: "Maggie Smith"
           C: "Julie Walters"
           D: "Imelda Staunton"
+    difficulty: MEDIUM
   - text: "Quelle actrice joue Ginny dans ce volet ?"
-    imageUrl: "wikipedia/movies/Bonnie_Wright_crop2.jpg"
+    imageUrl: wikipedia/movies/Bonnie_Wright_crop2.jpg
     answers:
       A: "Emma Watson"
       B: "Bonnie Wright"
       C: "Evanna Lynch"
       D: "Helena Bonham Carter"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
-        text: "Which actress plays Ginny in this instalment?"
+        text: "Which actress plays Ginny in this installment?"
         answers:
           A: "Emma Watson"
           B: "Bonnie Wright"
           C: "Evanna Lynch"
           D: "Helena Bonham Carter"
+    difficulty: MEDIUM
   - text: "Qui incarne Neville Londubat ici ?"
-    imageUrl: "wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg"
+    imageUrl: wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg
     answers:
       A: "Matthew Lewis"
       B: "Tom Felton"
       C: "Rupert Grint"
       D: "Warwick Davis"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "Who plays Neville Longbottom here?"
@@ -347,15 +346,15 @@ questions:
           B: "Tom Felton"
           C: "Rupert Grint"
           D: "Warwick Davis"
+    difficulty: MEDIUM
   - text: "Quel acteur joue Filius Flitwick dans ce film ?"
-    imageUrl: "wikipedia/movies/Warwick_Davis_interviewed_2.jpg"
+    imageUrl: wikipedia/movies/Warwick_Davis_interviewed_2.jpg
     answers:
       A: "John Cleese"
       B: "Warwick Davis"
       C: "Mark Williams"
       D: "Robbie Coltrane"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "Which actor plays Filius Flitwick in this film?"
@@ -364,15 +363,15 @@ questions:
           B: "Warwick Davis"
           C: "Mark Williams"
           D: "Robbie Coltrane"
+    difficulty: HARD
   - text: "Quel acteur reprend Nick Quasi-Sans-Tête ?"
-    imageUrl: "wikipedia/movies/John_Cleese_2008.jpg"
+    imageUrl: wikipedia/movies/John_Cleese_2008.jpg
     answers:
       A: "John Cleese"
       B: "Warwick Davis"
       C: "Richard Harris"
       D: "Robbie Coltrane"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Which actor returns as Nearly Headless Nick?"
@@ -381,15 +380,15 @@ questions:
           B: "Warwick Davis"
           C: "Richard Harris"
           D: "Robbie Coltrane"
+    difficulty: HARD
   - text: "Quelle actrice revient en Sybille Trelawney ?"
-    imageUrl: "wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg"
+    imageUrl: wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg
     answers:
       A: "Emma Thompson"
       B: "Maggie Smith"
       C: "Imelda Staunton"
       D: "Julie Walters"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "Which actress returns as Sybill Trelawney?"
@@ -398,32 +397,32 @@ questions:
           B: "Maggie Smith"
           C: "Imelda Staunton"
           D: "Julie Walters"
+    difficulty: HARD
   - text: "Quel château sert de décor à Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Alnwick_Castle_2011.jpg"
+    imageUrl: wikipedia/movies/Alnwick_Castle_2011.jpg
     answers:
       A: "le château de Warwick"
       B: "le château de Windsor"
       C: "le château de Douvres"
       D: "le château d'Alnwick"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
-        text: "Which castle serves as Hogwarts here?"
+        text: "Which castle serves as the setting for Hogwarts here?"
         answers:
           A: "Warwick Castle"
           B: "Windsor Castle"
           C: "Dover Castle"
           D: "Alnwick Castle"
+    difficulty: MEDIUM
   - text: "Quelle cathédrale sert de couloirs dans ce film ?"
-    imageUrl: "wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg"
+    imageUrl: wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg
     answers:
       A: "la cathédrale de Durham"
       B: "la cathédrale de Gloucester"
       C: "l'abbaye de Westminster"
       D: "la cathédrale d'York"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
         text: "Which cathedral serves as the corridors in this film?"
@@ -431,33 +430,33 @@ questions:
           A: "Durham Cathedral"
           B: "Gloucester Cathedral"
           C: "Westminster Abbey"
-          D: "York Cathedral"
+          D: "York Minster"
+    difficulty: HARD
   - text: "Quel escalier d'Oxford apparaît dans ce volet ?"
-    imageUrl: "wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg"
+    imageUrl: wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg
     answers:
       A: "Magdalen College"
       B: "la Bodleian Library"
       C: "la Radcliffe Camera"
       D: "Christ Church"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
-        text: "Which Oxford staircase appears in this instalment?"
+        text: "Which Oxford staircase appears in this installment?"
         answers:
           A: "Magdalen College"
           B: "the Bodleian Library"
           C: "the Radcliffe Camera"
           D: "Christ Church"
+    difficulty: HARD
   - text: "Quelle bibliothèque d'Oxford évoque Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg"
+    imageUrl: wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg
     answers:
       A: "le Sheldonian Theatre"
       B: "Christ Church"
       C: "la Radcliffe Camera"
       D: "la Bodleian Library"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
         text: "Which Oxford library evokes Hogwarts here?"
@@ -466,15 +465,15 @@ questions:
           B: "Christ Church"
           C: "the Radcliffe Camera"
           D: "the Bodleian Library"
+    difficulty: HARD
   - text: "Quelle gare londonienne revient dans ce film ?"
-    imageUrl: "wikipedia/movies/King's_Cross_Western_Concourse.jpg"
+    imageUrl: wikipedia/movies/King's_Cross_Western_Concourse.jpg
     answers:
       A: "Waterloo"
       B: "Paddington"
       C: "Euston"
       D: "King's Cross"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Which London station returns in this film?"
@@ -483,15 +482,15 @@ questions:
           B: "Paddington"
           C: "Euston"
           D: "King's Cross"
+    difficulty: HARD
   - text: "Quel quai mène au Poudlard Express ?"
-    imageUrl: "wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg"
+    imageUrl: wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg
     answers:
       A: "le quai 7"
       B: "le quai 13"
       C: "le quai 9¾"
       D: "le quai 21"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Which platform leads to the Hogwarts Express?"
@@ -500,15 +499,15 @@ questions:
           B: "Platform 13"
           C: "Platform 9¾"
           D: "Platform 21"
+    difficulty: MEDIUM
   - text: "Quel marché évoque le Chemin de Traverse ?"
-    imageUrl: "wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg"
+    imageUrl: wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg
     answers:
       A: "Leadenhall Market"
       B: "Borough Market"
       C: "Camden Market"
       D: "Portobello Road"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Which market evokes Diagon Alley?"
@@ -517,49 +516,49 @@ questions:
           B: "Borough Market"
           C: "Camden Market"
           D: "Portobello Road"
+    difficulty: HARD
   - text: "Quel train ramène les élèves à Poudlard ?"
-    imageUrl: "wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg"
+    imageUrl: wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg
     answers:
       A: "le Flying Scotsman"
       B: "le Transsibérien"
       C: "l'Orient Express"
       D: "le Poudlard Express"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
-        text: "Which train takes students back to Hogwarts?"
+        text: "Which train brings the students back to Hogwarts?"
         answers:
           A: "the Flying Scotsman"
           B: "the Trans-Siberian"
           C: "the Orient Express"
           D: "the Hogwarts Express"
+    difficulty: MEDIUM
   - text: "Quel village est évoqué cette année ?"
-    imageUrl: "wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg"
+    imageUrl: wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg
     answers:
       A: "Godric's Hollow"
       B: "Pré-au-Lard"
       C: "Azkaban"
       D: "Le Chemin de Traverse"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
-        text: "Which village is evoked this year?"
+        text: "Which village is mentioned this year?"
         answers:
           A: "Godric's Hollow"
           B: "Hogsmeade"
           C: "Azkaban"
           D: "Diagon Alley"
+    difficulty: HARD
   - text: "Sur quel viaduc passe le train des sorciers ?"
-    imageUrl: "wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg"
+    imageUrl: wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg
     answers:
       A: "le viaduc de Glenfinnan"
       B: "le pont de Forth"
       C: "le viaduc de Millau"
       D: "le pont de Brooklyn"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "Over which viaduct does the wizards' train pass?"
@@ -568,49 +567,49 @@ questions:
           B: "the Forth Bridge"
           C: "the Millau Viaduct"
           D: "the Brooklyn Bridge"
+    difficulty: HARD
   - text: "Quelle cathédrale sert de cloître à Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg"
+    imageUrl: wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg
     answers:
       A: "la cathédrale d'York"
       B: "la cathédrale de Durham"
       C: "la cathédrale de Salisbury"
       D: "la cathédrale de Lincoln"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
-        text: "Which cathedral serves as Hogwarts' cloister here?"
+        text: "Which cathedral serves as the cloister for Hogwarts here?"
         answers:
           A: "York Cathedral"
           B: "Durham Cathedral"
           C: "Salisbury Cathedral"
           D: "Lincoln Cathedral"
-  - text: "Quel acteur prête ses traits au professeur Rogue pendant les cours d'Occlumancie ?"
-    imageUrl: "wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg"
+    difficulty: HARD
+  - text: "Qui joue le professeur Rogue ?"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
     answers:
       A: "Brendan Gleeson"
       B: "David Thewlis"
       C: "Gary Oldman"
       D: "Alan Rickman"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
-        text: "Which actor plays Snape during the Occlumency lessons?"
+        text: "Who plays Professor Snape?"
         answers:
           A: "Brendan Gleeson"
           B: "David Thewlis"
           C: "Gary Oldman"
           D: "Alan Rickman"
+    difficulty: EASY
   - text: "Quelle actrice punit Harry avec une plume ensanglantée ?"
-    imageUrl: "wikipedia/movies/Imelda_Staunton,_October_2019.jpg"
+    imageUrl: wikipedia/movies/Imelda_Staunton,_October_2019.jpg
     answers:
       A: "Imelda Staunton"
       B: "Helena Bonham Carter"
       C: "Emma Thompson"
       D: "Maggie Smith"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Which actress punishes Harry with a blood quill?"
@@ -619,15 +618,15 @@ questions:
           B: "Helena Bonham Carter"
           C: "Emma Thompson"
           D: "Maggie Smith"
+    difficulty: MEDIUM
   - text: "Quelle actrice incarne la Mangemort qui tue Sirius ?"
-    imageUrl: "wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
     answers:
       A: "Imelda Staunton"
       B: "Helena Bonham Carter"
       C: "Evanna Lynch"
       D: "Emma Thompson"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
         text: "Which actress plays the Death Eater who kills Sirius?"
@@ -636,15 +635,15 @@ questions:
           B: "Helena Bonham Carter"
           C: "Evanna Lynch"
           D: "Emma Thompson"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne le parrain qui meurt dans ce film ?"
-    imageUrl: "wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg"
+    imageUrl: wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg
     answers:
       A: "Brendan Gleeson"
       B: "David Thewlis"
       C: "Gary Oldman"
       D: "Jason Isaacs"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
         text: "Which actor plays the godfather who dies in this film?"
@@ -653,32 +652,32 @@ questions:
           B: "David Thewlis"
           C: "Gary Oldman"
           D: "Jason Isaacs"
+    difficulty: MEDIUM
   - text: "Quel réalisateur prend les commandes de la saga ici ?"
-    imageUrl: "wikipedia/movies/David_Yates_2010_Cropped.jpg"
+    imageUrl: wikipedia/movies/David_Yates_2010_Cropped.jpg
     answers:
       A: "David Yates"
       B: "Alfonso Cuarón"
       C: "Mike Newell"
       D: "Chris Columbus"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
-        text: "Which director takes over the saga here?"
+        text: "Which director takes the helm of the saga here?"
         answers:
           A: "David Yates"
           B: "Alfonso Cuarón"
           C: "Mike Newell"
           D: "Chris Columbus"
+    difficulty: HARD
   - text: "Quelle actrice incarne l'amie excentrique de Harry ?"
-    imageUrl: "wikipedia/movies/Evanna_Lynch_(51693246964).jpg"
+    imageUrl: wikipedia/movies/Evanna_Lynch_(51693246964).jpg
     answers:
       A: "Emma Watson"
       B: "Bonnie Wright"
       C: "Evanna Lynch"
       D: "Helena Bonham Carter"
-    correctAnswer: "C"
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
         text: "Which actress plays Harry's eccentric friend?"
@@ -687,963 +686,964 @@ questions:
           B: "Bonnie Wright"
           C: "Evanna Lynch"
           D: "Helena Bonham Carter"
-  - text: "Quelle professeure devient Grande Inquisitrice de Poudlard ?"
+    difficulty: MEDIUM
+  - text: "Dans quelle rue se situe le quartier général de l'Ordre du Phénix ?"
     answers:
-      A: "Minerva McGonagall"
+      A: "Rue du Chaudron"
+      B: "Square Grimmaurd"
+      C: "Impasse du Tisserand"
+      D: "Chemin de Traverse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "On which street is the headquarters of the Order of the Phoenix located?"
+        answers:
+          A: "Diagon Alley"
+          B: "Grimmauld Place"
+          C: "Weaver's End"
+          D: "Diagon Alley"
+    difficulty: HARD
+  - text: "Quel est le numéro du square Grimmaurd où se cache l'Ordre ?"
+    answers:
+      A: "10"
+      B: "14"
+      C: "12"
+      D: "11"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the number of Grimmauld Place where the Order hides?"
+        answers:
+          A: "10"
+          B: "14"
+          C: "12"
+          D: "11"
+    difficulty: HARD
+  - text: "Quel sort Harry utilise-t-il pour repousser les Détraqueurs près du square Grimmaurd ?"
+    answers:
+      A: "Expecto Patronum"
+      B: "Spero Patronum"
+      C: "Expelliarmus"
+      D: "Riddikulus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell does Harry use to repel the Dementors near Grimmauld Place?"
+        answers:
+          A: "Expecto Patronum"
+          B: "Spero Patronum"
+          C: "Expelliarmus"
+          D: "Riddikulus"
+    difficulty: HARD
+  - text: "Devant quel tribunal Harry comparaît-il au Ministère ?"
+    answers:
+      A: "Le Magenmagot"
+      B: "La Cour des Aurors"
+      C: "Le Conseil des Sages"
+      D: "La Wizengamot"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Before which court does Harry appear at the Ministry?"
+        answers:
+          A: "The Magenmagot"
+          B: "The Auror Court"
+          C: "The Council of Elders"
+          D: "The Wizengamot"
+    difficulty: HARD
+  - text: "Qui préside l'audience disciplinaire de Harry au Ministère ?"
+    answers:
+      A: "Cornelius Fudge"
       B: "Dolores Ombrage"
-      C: "Sybille Trelawney"
-      D: "Pomona Chourave"
-    correctAnswer: "B"
-    difficulty: EASY
+      C: "Pius Thicknesse"
+      D: "Rufus Scrimgeour"
+    correctAnswer: A
     translations:
       en:
-        text: "Which professor becomes Hogwarts' High Inquisitor?"
+        text: "Who presides over Harry's disciplinary hearing at the Ministry?"
         answers:
-          A: "Minerva McGonagall"
+          A: "Cornelius Fudge"
           B: "Dolores Umbridge"
-          C: "Sybill Trelawney"
-          D: "Pomona Sprout"
-  - text: "Où Harry est-il jugé au début du film ?"
-    answers:
-      A: "à Azkaban"
-      B: "à Poudlard"
-      C: "au Ministère de la Magie"
-      D: "au Magenmagot"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Where is Harry tried at the start of the film?"
-        answers:
-          A: "at Azkaban"
-          B: "at Hogwarts"
-          C: "at the Ministry of Magic"
-          D: "at the Wizengamot"
-  - text: "Pourquoi Harry est-il jugé ?"
-    answers:
-      A: "pour avoir utilisé la magie devant un Moldu"
-      B: "pour avoir volé un balai"
-      C: "pour avoir fui Azkaban"
-      D: "pour un duel illégal"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Why is Harry tried?"
-        answers:
-          A: "for using magic in front of a Muggle"
-          B: "for stealing a broom"
-          C: "for escaping Azkaban"
-          D: "for an illegal duel"
-  - text: "Qui défend Harry lors de son procès ?"
-    answers:
-      A: "Lupin"
-      B: "Sirius"
-      C: "Rogue"
-      D: "Dumbledore"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Who defends Harry at his trial?"
-        answers:
-          A: "Lupin"
-          B: "Sirius"
-          C: "Snape"
-          D: "Dumbledore"
-  - text: "Quel cours Dolores Ombrage enseigne-t-elle ?"
-    answers:
-      A: "la Défense contre les forces du Mal"
-      B: "les Potions"
-      C: "la Métamorphose"
-      D: "la Divination"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which subject does Dolores Umbridge teach?"
-        answers:
-          A: "Defence Against the Dark Arts"
-          B: "Potions"
-          C: "Transfiguration"
-          D: "Divination"
-  - text: "Quel mouvement de résistance Harry fonde-t-il ?"
-    answers:
-      A: "les Aurors"
-      B: "l'Ordre du Phénix"
-      C: "l'Armée de Dumbledore"
-      D: "les Maraudeurs"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which resistance movement does Harry found?"
-        answers:
-          A: "the Aurors"
-          B: "the Order of the Phoenix"
-          C: "Dumbledore's Army"
-          D: "the Marauders"
-  - text: "Où se réunit l'Armée de Dumbledore ?"
-    answers:
-      A: "la bibliothèque"
-      B: "la Grande Salle"
-      C: "les cachots"
-      D: "la Salle sur Demande"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Where does Dumbledore's Army meet?"
-        answers:
-          A: "the library"
-          B: "the Great Hall"
-          C: "the dungeons"
-          D: "the Room of Requirement"
-  - text: "Quel objet Ombrage utilise-t-elle pour punir les élèves ?"
-    answers:
-      A: "une plume qui grave la peau"
-      B: "une baguette"
-      C: "un fouet"
-      D: "un livre"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which object does Umbridge use to punish students?"
-        answers:
-          A: "a quill that carves the skin"
-          B: "a wand"
-          C: "a whip"
-          D: "a book"
-  - text: "Quel groupe surveille les élèves pour Ombrage ?"
-    answers:
-      A: "les Mangemorts"
-      B: "les Aurors"
-      C: "le Magenmagot"
-      D: "l'escouade inquisitoriale"
-    correctAnswer: "D"
+          C: "Pius Thicknesse"
+          D: "Rufus Scrimgeour"
     difficulty: HARD
+  - text: "Quelle créature attaque Harry et Dudley dans le passage souterrain ?"
+    answers:
+      A: "Un Mage noir"
+      B: "Un Loup-garou"
+      C: "Un Détraqueur"
+      D: "Un Strangulot"
+    correctAnswer: C
     translations:
       en:
-        text: "Which group spies on students for Umbridge?"
+        text: "Which creature attacks Harry and Dudley in the underground passage?"
         answers:
-          A: "the Death Eaters"
-          B: "the Aurors"
-          C: "the Wizengamot"
-          D: "the Inquisitorial Squad"
-  - text: "Qui rejoint l'Ordre du Phénix comme Auror ?"
+          A: "A Dark wizard"
+          B: "A Werewolf"
+          C: "A Dementor"
+          D: "A Grindylow"
+    difficulty: HARD
+  - text: "Quel magazine publie l'interview de Harry par Rita Skeeter ?"
     answers:
-      A: "Ron"
-      B: "Kingsley Shacklebolt"
-      C: "Drago"
-      D: "Neville"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who joins the Order of the Phoenix as an Auror?"
-        answers:
-          A: "Ron"
-          B: "Kingsley Shacklebolt"
-          C: "Draco"
-          D: "Neville"
-  - text: "Quel membre de l'Ordre est un métamorphomage ?"
-    answers:
-      A: "Tonks"
-      B: "Lupin"
-      C: "Sirius"
-      D: "Maugrey"
-    correctAnswer: "A"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which Order member is a Metamorphmagus?"
-        answers:
-          A: "Tonks"
-          B: "Lupin"
-          C: "Sirius"
-          D: "Moody"
-  - text: "Où l'Ordre du Phénix se réunit-il ?"
-    answers:
-      A: "au 12, square Grimmaurd"
-      B: "à Poudlard"
-      C: "au Ministère"
-      D: "au Chaudron Baveur"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Where does the Order of the Phoenix meet?"
-        answers:
-          A: "12 Grimmauld Place"
-          B: "at Hogwarts"
-          C: "at the Ministry"
-          D: "at the Leaky Cauldron"
-  - text: "Quel objet Voldemort cherche-t-il au Ministère ?"
-    answers:
-      A: "une baguette"
-      B: "la prophétie"
-      C: "un horcruxe"
-      D: "un miroir"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which object does Voldemort seek at the Ministry?"
-        answers:
-          A: "a wand"
-          B: "the prophecy"
-          C: "a Horcrux"
-          D: "a mirror"
-  - text: "Quelles créatures tirent les calèches de Poudlard ?"
-    answers:
-      A: "les hippogriffes"
-      B: "les abraxans"
-      C: "les sombrals"
-      D: "les centaures"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which creatures pull the Hogwarts carriages?"
-        answers:
-          A: "hippogriffs"
-          B: "abraxans"
-          C: "thestrals"
-          D: "centaurs"
-  - text: "Qui peut voir les sombrals ?"
-    answers:
-      A: "les Mangemorts"
-      B: "les Gryffondor"
-      C: "les professeurs"
-      D: "ceux qui ont vu la mort"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who can see thestrals?"
-        answers:
-          A: "Death Eaters"
-          B: "Gryffindors"
-          C: "the teachers"
-          D: "those who have seen death"
-  - text: "Quelle élève devient une amie proche de Harry ?"
-    answers:
-      A: "Parvati"
-      B: "Cho Chang"
-      C: "Lavande"
-      D: "Luna Lovegood"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which student becomes a close friend of Harry?"
-        answers:
-          A: "Parvati"
-          B: "Cho Chang"
-          C: "Lavender"
-          D: "Luna Lovegood"
-  - text: "Quel magazine lit Luna Lovegood ?"
-    answers:
-      A: "Le Sorcier Quotidien"
+      A: "Le Verbe Enchanté"
       B: "La Gazette du Sorcier"
-      C: "Le Chicaneur"
-      D: "Poudlard Hebdo"
-    correctAnswer: "C"
-    difficulty: HARD
+      C: "Sorcier Hebdo"
+      D: "Le Chicaneur"
+    correctAnswer: D
     translations:
       en:
-        text: "Which magazine does Luna Lovegood read?"
+        text: "Which magazine publishes Rita Skeeter's interview with Harry?"
         answers:
-          A: "the Daily Wizard"
-          B: "the Daily Prophet"
-          C: "the Quibbler"
-          D: "Hogwarts Weekly"
-  - text: "Quel demi-géant Hagrid cache-t-il dans la forêt ?"
+          A: "The Enchanted Word"
+          B: "The Daily Prophet"
+          C: "Wizard Weekly"
+          D: "The Quibbler"
+    difficulty: HARD
+  - text: "Qui devient Grand Inquisiteur de Poudlard ?"
     answers:
-      A: "Norbert"
-      B: "Aragog"
-      C: "Buck"
-      D: "Grawp"
-    correctAnswer: "D"
-    difficulty: HARD
+      A: "Dolores Ombrage"
+      B: "Severus Rogue"
+      C: "Minerva McGonagall"
+      D: "Pius Thicknesse"
+    correctAnswer: A
     translations:
       en:
-        text: "Which half-giant does Hagrid hide in the forest?"
+        text: "Who becomes Hogwarts High Inquisitor?"
         answers:
-          A: "Norbert"
-          B: "Aragog"
-          C: "Buckbeak"
-          D: "Grawp"
-  - text: "Quel professeur enseigne l'Occlumancie à Harry ?"
+          A: "Dolores Umbridge"
+          B: "Severus Snape"
+          C: "Minerva McGonagall"
+          D: "Pius Thicknesse"
+    difficulty: HARD
+  - text: "Quel décret interdit les réunions non autorisées d'élèves ?"
+    answers:
+      A: "Décret d'éducation n°22"
+      B: "Décret d'éducation n°25"
+      C: "Décret d'éducation n°23"
+      D: "Décret d'éducation n°24"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which decree bans unauthorized student gatherings?"
+        answers:
+          A: "Educational Decree No. 22"
+          B: "Educational Decree No. 25"
+          C: "Educational Decree No. 23"
+          D: "Educational Decree No. 24"
+    difficulty: HARD
+  - text: "Combien de marches mène au bureau de Dolores Ombrage ?"
+    answers:
+      A: "100"
+      B: "99"
+      C: "101"
+      D: "98"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many steps lead to Dolores Umbridge's office?"
+        answers:
+          A: "100"
+          B: "99"
+          C: "101"
+          D: "98"
+    difficulty: EXPERT
+  - text: "Quel objet magique Ombrage utilise-t-elle pour punir Harry ?"
+    answers:
+      A: "Une plume de sang"
+      B: "Une baguette de discipline"
+      C: "Un parchemin hurlant"
+      D: "Un fouet enchanté"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which magical object does Umbridge use to punish Harry?"
+        answers:
+          A: "A blood quill"
+          B: "A discipline wand"
+          C: "A howler"
+          D: "An enchanted whip"
+    difficulty: HARD
+  - text: "Comment s'appelle le groupe de défense fondé par Harry, Hermione et Ron ?"
+    answers:
+      A: "L'Armée de Dumbledore"
+      B: "La Ligue des Sorciers"
+      C: "Le Cercle de Feu"
+      D: "Les Défenseurs de Poudlard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the defense group founded by Harry, Hermione, and Ron?"
+        answers:
+          A: "Dumbledore's Army"
+          B: "The Wizards' League"
+          C: "The Circle of Fire"
+          D: "The Defenders of Hogwarts"
+    difficulty: MEDIUM
+  - text: "Qui trahit l'Armée de Dumbledore en révélant son existence à Ombrage ?"
+    answers:
+      A: "Cho Chang"
+      B: "Marietta Edgecombe"
+      C: "Lavande Brown"
+      D: "Parvati Patil"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who betrays Dumbledore's Army by revealing its existence to Umbridge?"
+        answers:
+          A: "Cho Chang"
+          B: "Marietta Edgecombe"
+          C: "Lavender Brown"
+          D: "Parvati Patil"
+    difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour protéger la liste des membres de l'AD ?"
+    answers:
+      A: "Un sortilège de Confusion"
+      B: "Un sortilège de Protection"
+      C: "Un sortilège de Jalousie"
+      D: "Un sortilège de Marqueur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell does Hermione use to protect the DA membership list?"
+        answers:
+          A: "A Confundus Charm"
+          B: "A Protection Charm"
+          C: "A Jealousy Charm"
+          D: "A Marker Charm"
+    difficulty: HARD
+  - text: "Qui enseigne l'Occlumancie à Harry ?"
+    answers:
+      A: "Dumbledore"
+      B: "Chourave"
+      C: "McGonagall"
+      D: "Rogue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who teaches Harry Occlumency?"
+        answers:
+          A: "Dumbledore"
+          B: "Sprout"
+          C: "McGonagall"
+          D: "Snape"
+    difficulty: HARD
+  - text: "Quel souvenir Harry voit-il dans la Pensine de Rogue ?"
+    answers:
+      A: "Son propre baptême"
+      B: "L'attaque de Voldemort"
+      C: "La mort de Lily"
+      D: "James humiliant Rogue"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which memory does Harry see in Snape's Pensieve?"
+        answers:
+          A: "His own christening"
+          B: "Voldemort's attack"
+          C: "Lily's death"
+          D: "James humiliating Snape"
+    difficulty: HARD
+  - text: "Quel animal figure sur le collier de Luna ?"
+    answers:
+      A: "Un hibou"
+      B: "Un chat"
+      C: "Un lièvre"
+      D: "Un phénix"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which animal is on Luna's necklace?"
+        answers:
+          A: "An owl"
+          B: "A cat"
+          C: "A hare"
+          D: "A phoenix"
+    difficulty: EXPERT
+  - text: "Quel est le numéro de la salle où se déroule l'examen de BUSE de Harry ?"
+    answers:
+      A: "Salle 101"
+      B: "Salle 110"
+      C: "Salle 105"
+      D: "Salle 103"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the number of the room where Harry's OWL exam takes place?"
+        answers:
+          A: "Room 101"
+          B: "Room 110"
+          C: "Room 105"
+          D: "Room 103"
+    difficulty: EXPERT
+  - text: "Qui est l'Auror qui escorte Harry au Ministère pour son audience ?"
+    answers:
+      A: "Kingsley Shacklebolt"
+      B: "Nymphadora Tonks"
+      C: "Alastor Maugrey"
+      D: "Remus Lupin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the Auror who escorts Harry to the Ministry for his hearing?"
+        answers:
+          A: "Kingsley Shacklebolt"
+          B: "Nymphadora Tonks"
+          C: "Alastor Moody"
+          D: "Remus Lupin"
+    difficulty: EXPERT
+  - text: "Quel objet magique Kingsley Shacklebolt utilise-t-il pour modifier le souvenir de Marietta Edgecombe ?"
+    answers:
+      A: "Un Sortilège de Désillusion"
+      B: "Un sortilège d'Amnésie"
+      C: "Un Sortilège de Confusion"
+      D: "Un sortilège de Légilimancie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which magical object does Kingsley Shacklebolt use to modify Marietta Edgecombe's memory?"
+        answers:
+          A: "A Disillusionment Charm"
+          B: "A Memory Charm"
+          C: "A Confundus Charm"
+          D: "A Legilimency spell"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione lance-t-elle sur Marietta pour trahir l'AD ?"
+    answers:
+      A: "Le sortilège de Maléfice"
+      B: "Furnunculus"
+      C: "Un sortilège de Stupéfix"
+      D: "Aucun, c'est Cho qui la dénonce"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What spell does Hermione cast on Marietta for betraying the DA?"
+        answers:
+          A: "The Curse spell"
+          B: "Furnunculus"
+          C: "A Stupefy spell"
+          D: "None, it's Cho who turns her in"
+    difficulty: EXPERT
+  - text: "Quelle note Harry obtient-il à son BUSE de Défense contre les Forces du Mal ?"
+    answers:
+      A: "Optimal"
+      B: "Effort exceptionnel"
+      C: "Acceptable"
+      D: "Il ne passe pas cet examen"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What grade does Harry get on his Defense Against the Dark Arts OWL?"
+        answers:
+          A: "Outstanding"
+          B: "Exceeds Expectations"
+          C: "Acceptable"
+          D: "He doesn't take that exam"
+    difficulty: HARD
+  - text: "Combien de membres compte l'Armée de Dumbledore lors de sa première réunion au Cochon Aveugle ?"
+    answers:
+      A: "Vingt-huit"
+      B: "Vingt-sept"
+      C: "Trente"
+      D: "Vingt-neuf"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many members does Dumbledore's Army have at its first meeting at the Hog's Head?"
+        answers:
+          A: "Twenty-eight"
+          B: "Twenty-seven"
+          C: "Thirty"
+          D: "Twenty-nine"
+    difficulty: EXPERT
+  - text: "Quel personnage conduit Harry, Hermione et les Weasley au Ministère par un chemin détourné ?"
     answers:
       A: "Rogue"
-      B: "Dumbledore"
-      C: "McGonagall"
+      B: "Tonks"
+      C: "Kingsley Shacklebolt"
       D: "Lupin"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
-        text: "Which teacher teaches Harry Occlumency?"
+        text: "Which character leads Harry, Hermione and the Weasleys to the Ministry by a roundabout route?"
         answers:
           A: "Snape"
-          B: "Dumbledore"
-          C: "McGonagall"
+          B: "Tonks"
+          C: "Kingsley Shacklebolt"
           D: "Lupin"
-  - text: "Qui devient directrice de Poudlard après la fuite de Dumbledore ?"
+    difficulty: EXPERT
+  - text: "Quel sort Bellatrix utilise-t-elle pour tuer Sirius Black au Département des Mystères ?"
     answers:
-      A: "Trelawney"
-      B: "McGonagall"
-      C: "Ombrage"
-      D: "Chourave"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+      A: "Impero"
+      B: "Sectumsempra"
+      C: "Endoloris"
+      D: "Avada Kedavra"
+    correctAnswer: D
     translations:
       en:
-        text: "Who becomes headmistress after Dumbledore flees?"
+        text: "Which spell does Bellatrix use to kill Sirius Black at the Department of Mysteries?"
         answers:
-          A: "Trelawney"
-          B: "McGonagall"
-          C: "Umbridge"
-          D: "Sprout"
-  - text: "Quelle bataille clôt le film ?"
+          A: "Imperio"
+          B: "Sectumsempra"
+          C: "Crucio"
+          D: "Avada Kedavra"
+    difficulty: HARD
+  - text: "Quel prophète est présent sur la prophétie concernant Harry et Voldemort ?"
     answers:
-      A: "la bataille de Poudlard"
-      B: "la bataille du Département des Mystères"
-      C: "la bataille d'Azkaban"
-      D: "la Coupe du Monde"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+      A: "Albus Dumbledore"
+      B: "Firenze"
+      C: "Sybille Trelawney"
+      D: "Griselda Marchbanks"
+    correctAnswer: C
     translations:
       en:
-        text: "Which battle ends the film?"
+        text: "Which prophet is present on the prophecy about Harry and Voldemort?"
         answers:
-          A: "the Battle of Hogwarts"
-          B: "the Battle of the Department of Mysteries"
-          C: "the Battle of Azkaban"
-          D: "the World Cup"
-  - text: "Qui meurt à la fin du film ?"
+          A: "Albus Dumbledore"
+          B: "Firenze"
+          C: "Sybill Trelawney"
+          D: "Griselda Marchbanks"
+    difficulty: EXPERT
+  - text: "Quel numéro de porte du Département des Mystères Harry et ses amis doivent-ils choisir pour retrouver Sirius ?"
     answers:
-      A: "Sirius Black"
-      B: "Lupin"
-      C: "Tonks"
-      D: "Dumbledore"
-    correctAnswer: "A"
-    difficulty: EASY
+      A: "Douze"
+      B: "Quatre-vingt-dix-sept"
+      C: "Neuf"
+      D: "Onze"
+    correctAnswer: B
     translations:
       en:
-        text: "Who dies at the end of the film?"
+        text: "Which door number in the Department of Mysteries must Harry and his friends choose to find Sirius?"
         answers:
-          A: "Sirius Black"
-          B: "Lupin"
-          C: "Tonks"
-          D: "Dumbledore"
-  - text: "Qui tue Sirius Black ?"
+          A: "Twelve"
+          B: "Ninety-seven"
+          C: "Nine"
+          D: "Eleven"
+    difficulty: EXPERT
+  - text: "Quel objet magique Dumbledore utilise-t-il pour immobiliser Bellatrix à la fin du film ?"
     answers:
-      A: "Lucius"
-      B: "Voldemort"
-      C: "Bellatrix Lestrange"
-      D: "Drago"
-    correctAnswer: "C"
-    difficulty: EASY
+      A: "Une fontaine"
+      B: "Une statue de centaure"
+      C: "Un balai"
+      D: "Un miroir"
+    correctAnswer: A
     translations:
       en:
-        text: "Who kills Sirius Black?"
+        text: "Which magical object does Dumbledore use to immobilize Bellatrix at the end of the film?"
         answers:
-          A: "Lucius"
-          B: "Voldemort"
-          C: "Bellatrix Lestrange"
-          D: "Draco"
-  - text: "Avec quelle élève Harry s'embrasse-t-il ?"
+          A: "A fountain"
+          B: "A centaur statue"
+          C: "A broom"
+          D: "A mirror"
+    difficulty: EXPERT
+  - text: "Quelle créature Voldemort possède-t-il brièvement avant d'être repoussé par Dumbledore ?"
+    answers:
+      A: "Un serpent"
+      B: "Un loup"
+      C: "Un hippogriffe"
+      D: "Un dragon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which creature does Voldemort briefly possess before being repelled by Dumbledore?"
+        answers:
+          A: "A snake"
+          B: "A wolf"
+          C: "A hippogriff"
+          D: "A dragon"
+    difficulty: EXPERT
+  - text: "Quel sort Dumbledore lance-t-il pour créer un anneau de feu dans le Ministère ?"
+    answers:
+      A: "Protego Maxima"
+      B: "Incendio"
+      C: "Fumos"
+      D: "Aguamenti"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell does Dumbledore cast to create a ring of fire in the Ministry?"
+        answers:
+          A: "Protego Maxima"
+          B: "Incendio"
+          C: "Fumos"
+          D: "Aguamenti"
+    difficulty: EXPERT
+  - text: "Quel personnage est blessé par un sort de Bellatrix lors de la bataille du Ministère ?"
     answers:
       A: "Luna"
       B: "Ginny"
-      C: "Cho Chang"
-      D: "Hermione"
-    correctAnswer: "C"
-    difficulty: EASY
+      C: "Neville"
+      D: "Ron"
+    correctAnswer: C
     translations:
       en:
-        text: "Which student does Harry kiss?"
+        text: "Which character is injured by a spell from Bellatrix during the battle at the Ministry?"
         answers:
           A: "Luna"
           B: "Ginny"
-          C: "Cho Chang"
-          D: "Hermione"
-  - text: "Quel sort permet de désarmer un adversaire ?"
+          C: "Neville"
+          D: "Ron"
+    difficulty: EXPERT
+  - text: "Quel objet Harry utilise-t-il pour voir la vision de Sirius en danger ?"
     answers:
-      A: "Accio"
-      B: "Avada Kedavra"
-      C: "Lumos"
+      A: "Le Miroir à double sens"
+      B: "La Pensine"
+      C: "La carte du Maraudeur"
+      D: "Le médaillon de Rogue"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which object does Harry use to see the vision of Sirius in danger?"
+        answers:
+          A: "The two-way mirror"
+          B: "The Pensieve"
+          C: "The Marauder's Map"
+          D: "Snape's locket"
+    difficulty: EXPERT
+  - text: "Quel personnage révèle à Harry que la prophétie existe ?"
+    answers:
+      A: "Dumbledore"
+      B: "Bellatrix"
+      C: "Voldemort"
+      D: "Lucius Malefoy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character reveals to Harry that the prophecy exists?"
+        answers:
+          A: "Dumbledore"
+          B: "Bellatrix"
+          C: "Voldemort"
+          D: "Lucius Malfoy"
+    difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour lier les mains de Ron lors de la bataille au Ministère ?"
+    answers:
+      A: "Incarcerous"
+      B: "Petrificus Totalus"
+      C: "Stupefix"
       D: "Expelliarmus"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
-        text: "Which spell disarms an opponent?"
+        text: "Which spell does Hermione use to bind Ron's hands during the battle at the Ministry?"
         answers:
-          A: "Accio"
-          B: "Avada Kedavra"
-          C: "Lumos"
+          A: "Incarcerous"
+          B: "Petrificus Totalus"
+          C: "Stupefy"
           D: "Expelliarmus"
-  - text: "Quel est le titre français de ce cinquième film ?"
-    answers:
-      A: "Harry Potter et la Coupe de feu"
-      B: "Harry Potter et le Prince de sang-mêlé"
-      C: "Harry Potter et l'Ordre du Phénix"
-      D: "Harry Potter et les Reliques de la Mort"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the French title of this fifth film?"
-        answers:
-          A: "Harry Potter et la Coupe de feu"
-          B: "Harry Potter et le Prince de sang-mêlé"
-          C: "Harry Potter et l'Ordre du Phénix"
-          D: "Harry Potter et les Reliques de la Mort"
-  - text: "Quelle est la maison de Luna Lovegood ?"
-    answers:
-      A: "Gryffondor"
-      B: "Serdaigle"
-      C: "Serpentard"
-      D: "Poufsouffle"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which house is Luna Lovegood in?"
-        answers:
-          A: "Gryffindor"
-          B: "Ravenclaw"
-          C: "Slytherin"
-          D: "Hufflepuff"
-  - text: "Quel sort Harry enseigne-t-il en priorité à l'AD ?"
-    answers:
-      A: "le Patronus"
-      B: "l'Imperium"
-      C: "le Cruciatus"
-      D: "Sectumsempra"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which spell does Harry mainly teach the D.A.?"
-        answers:
-          A: "the Patronus"
-          B: "the Imperius Curse"
-          C: "the Cruciatus Curse"
-          D: "Sectumsempra"
-  - text: "Qui trahit l'Armée de Dumbledore ?"
-    answers:
-      A: "Marietta Edgecombe"
-      B: "Cho Chang"
-      C: "Luna"
-      D: "Neville"
-    correctAnswer: "A"
     difficulty: EXPERT
+  - text: "Quel prophète est tué par Voldemort lors de la bataille du Ministère ?"
+    answers:
+      A: "Firenze"
+      B: "Sybille Trelawney"
+      C: "Un prophète anonyme"
+      D: "Aucun, il s'agit de Sirius"
+    correctAnswer: C
     translations:
       en:
-        text: "Who betrays Dumbledore's Army?"
+        text: "Which prophet is killed by Voldemort during the battle at the Ministry?"
         answers:
-          A: "Marietta Edgecombe"
-          B: "Cho Chang"
-          C: "Luna"
-          D: "Neville"
-  - text: "Qui tente d'expulser Sybille Trelawney ?"
+          A: "Firenze"
+          B: "Sybill Trelawney"
+          C: "An anonymous prophet"
+          D: "None, it's Sirius"
+    difficulty: EXPERT
+  - text: "Quel sort Harry utilise-t-il pour repousser Voldemort à la fin du film ?"
     answers:
-      A: "McGonagall"
-      B: "Ombrage"
-      C: "Dumbledore"
-      D: "Rogue"
-    correctAnswer: "B"
-    difficulty: HARD
+      A: "Protego"
+      B: "Sectumsempra"
+      C: "Stupefix"
+      D: "Expelliarmus"
+    correctAnswer: D
     translations:
       en:
-        text: "Who tries to expel Sybill Trelawney?"
+        text: "What spell does Harry use to repel Voldemort at the end of the film?"
         answers:
-          A: "McGonagall"
-          B: "Umbridge"
-          C: "Dumbledore"
-          D: "Snape"
-  - text: "Qui intervient pour sauver Trelawney ?"
+          A: "Protego"
+          B: "Sectumsempra"
+          C: "Stupefy"
+          D: "Expelliarmus"
+    difficulty: EXPERT
+  - text: "Quel objet magique Rogue utilise-t-il pour soigner les blessures de Harry après l'attaque des Détraqueurs ?"
     answers:
-      A: "McGonagall"
-      B: "Rogue"
-      C: "Dumbledore"
-      D: "Harry"
-    correctAnswer: "C"
-    difficulty: HARD
+      A: "Un sort de guérison"
+      B: "Un phénix"
+      C: "Une potion de Wiggenweld"
+      D: "Une potion d'Occlumancie"
+    correctAnswer: C
     translations:
       en:
-        text: "Who steps in to save Trelawney?"
+        text: "What magical object does Snape use to heal Harry's injuries after the Dementor attack?"
         answers:
-          A: "McGonagall"
-          B: "Snape"
-          C: "Dumbledore"
-          D: "Harry"
-  - text: "Quelles créatures attaquent Ombrage à la fin ?"
+          A: "A healing spell"
+          B: "A phoenix"
+          C: "A Wiggenweld Potion"
+          D: "An Occlumency potion"
+    difficulty: EXPERT
+  - text: "Quel personnage tue Bellatrix Lestrange à la fin du film ?"
     answers:
-      A: "les sombrals"
-      B: "les centaures"
-      C: "les elfes"
-      D: "les géants"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which creatures attack Umbridge at the end?"
-        answers:
-          A: "the thestrals"
-          B: "the centaurs"
-          C: "the elves"
-          D: "the giants"
-  - text: "Qui emmène Ombrage dans la forêt interdite ?"
-    answers:
-      A: "Rogue"
-      B: "Drago"
-      C: "Harry et Hermione"
+      A: "Neville Londubat"
+      B: "Molly Weasley"
+      C: "Harry Potter"
       D: "Dumbledore"
-    correctAnswer: "C"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
-        text: "Who leads Umbridge into the Forbidden Forest?"
+        text: "Which character kills Bellatrix Lestrange at the end of the film?"
         answers:
-          A: "Snape"
-          B: "Draco"
-          C: "Harry and Hermione"
+          A: "Neville Longbottom"
+          B: "Molly Weasley"
+          C: "Harry Potter"
           D: "Dumbledore"
-  - text: "Quel objet Sirius offre-t-il à Harry pour communiquer ?"
+    difficulty: HARD
+  - text: "Quel élément du Ministère Harry et ses amis traversent-ils avant la salle des prophéties ?"
     answers:
-      A: "un miroir à double sens"
-      B: "une bague"
-      C: "un livre"
-      D: "une carte"
-    correctAnswer: "A"
+      A: "La salle de l'amour"
+      B: "La salle du cerveau"
+      C: "La salle de la mort"
+      D: "La salle du temps"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which part of the Ministry do Harry and his friends pass through before the Hall of Prophecy?"
+        answers:
+          A: "The Love Room"
+          B: "The Brain Room"
+          C: "The Death Room"
+          D: "The Time Room"
     difficulty: EXPERT
+  - text: "Quel sort Harry utilise-t-il dans la forêt pour repousser les Détraqueurs ?"
+    answers:
+      A: "Lumos Maxima"
+      B: "Riddikulus"
+      C: "Expelliarmus"
+      D: "Expecto Patronum"
+    correctAnswer: D
     translations:
       en:
-        text: "Which object does Sirius give Harry to communicate?"
+        text: "What spell does Harry use in the forest to repel the Dementors?"
         answers:
-          A: "a two-way mirror"
-          B: "a ring"
-          C: "a book"
-          D: "a map"
-  - text: "Quelle vision Voldemort envoie-t-il à Harry ?"
-    answers:
-      A: "celle de Ron"
-      B: "celle de Dumbledore"
-      C: "celle de Sirius torturé"
-      D: "celle de Hagrid"
-    correctAnswer: "C"
+          A: "Lumos Maxima"
+          B: "Riddikulus"
+          C: "Expelliarmus"
+          D: "Expecto Patronum"
     difficulty: HARD
+  - text: "Quelle créature constitue le Patronus de Harry ?"
+    answers:
+      A: "Un loup"
+      B: "Un cerf"
+      C: "Une loutre"
+      D: "Un phénix"
+    correctAnswer: B
     translations:
       en:
-        text: "Which vision does Voldemort send Harry?"
+        text: "What creature is Harry's Patronus?"
         answers:
-          A: "that of Ron"
-          B: "that of Dumbledore"
-          C: "that of Sirius being tortured"
-          D: "that of Hagrid"
-  - text: "Où Voldemort attire-t-il Harry ?"
-    answers:
-      A: "la Cabane hurlante"
-      B: "la forêt interdite"
-      C: "Azkaban"
-      D: "le Département des Mystères"
-    correctAnswer: "D"
+          A: "A wolf"
+          B: "A stag"
+          C: "An otter"
+          D: "A phoenix"
     difficulty: HARD
+  - text: "Quel emploi Kingsley Shacklebolt occupe-t-il au Ministère ?"
+    answers:
+      A: "Directeur de la police magique"
+      B: "Secrétaire d'État"
+      C: "Auror"
+      D: "Greffier du Magenmagot"
+    correctAnswer: C
     translations:
       en:
-        text: "Where does Voldemort lure Harry?"
+        text: "What position does Kingsley Shacklebolt hold at the Ministry?"
         answers:
-          A: "the Shrieking Shack"
-          B: "the Forbidden Forest"
-          C: "Azkaban"
-          D: "the Department of Mysteries"
-  - text: "Qui brise accidentellement la prophétie ?"
-    answers:
-      A: "Ron"
-      B: "Harry"
-      C: "Neville"
-      D: "Luna"
-    correctAnswer: "C"
+          A: "Head of Magical Law Enforcement"
+          B: "Secretary of State"
+          C: "Auror"
+          D: "Clerk of the Wizengamot"
     difficulty: EXPERT
+  - text: "Quel élève aide Harry à s'entraîner au Patronus dans la salle sur demande ?"
+    answers:
+      A: "Neville Londubat"
+      B: "Ginny Weasley"
+      C: "Ron Weasley"
+      D: "Luna Lovegood"
+    correctAnswer: D
     translations:
       en:
-        text: "Who accidentally shatters the prophecy?"
+        text: "Which student helps Harry practice the Patronus in the Room of Requirement?"
         answers:
-          A: "Ron"
-          B: "Harry"
-          C: "Neville"
-          D: "Luna"
-  - text: "Qui apparaît pour sauver l'AD à la fin ?"
-    answers:
-      A: "l'Ordre du Phénix"
-      B: "le Ministère"
-      C: "les Mangemorts"
-      D: "les centaures"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who appears to save the D.A. at the end?"
-        answers:
-          A: "the Order of the Phoenix"
-          B: "the Ministry"
-          C: "the Death Eaters"
-          D: "the centaurs"
-  - text: "Quel duel clôt le film ?"
-    answers:
-      A: "Neville contre Bellatrix"
-      B: "Harry contre Drago"
-      C: "Rogue contre Sirius"
-      D: "Dumbledore contre Voldemort"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which duel ends the film?"
-        answers:
-          A: "Neville versus Bellatrix"
-          B: "Harry versus Draco"
-          C: "Snape versus Sirius"
-          D: "Dumbledore versus Voldemort"
-  - text: "Que révèle la prophétie ?"
-    answers:
-      A: "que Rogue est un traître"
-      B: "que Harry deviendra ministre"
-      C: "que Sirius est innocent"
-      D: "que Harry et Voldemort sont liés par le destin"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does the prophecy reveal?"
-        answers:
-          A: "that Snape is a traitor"
-          B: "that Harry will become Minister"
-          C: "that Sirius is innocent"
-          D: "that Harry and Voldemort are bound by fate"
-  - text: "Qui démissionne du poste de ministre de la Magie ?"
-    answers:
-      A: "Scrimgeour"
-      B: "Fudge"
-      C: "Kingsley"
-      D: "Shacklebolt"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who resigns as Minister for Magic?"
-        answers:
-          A: "Scrimgeour"
-          B: "Fudge"
-          C: "Kingsley"
-          D: "Shacklebolt"
-  - text: "Qui devient le nouveau ministre de la Magie ?"
-    answers:
-      A: "Kingsley"
-      B: "Fudge"
-      C: "Rufus Scrimgeour"
-      D: "Dumbledore"
-    correctAnswer: "C"
+          A: "Neville Longbottom"
+          B: "Ginny Weasley"
+          C: "Ron Weasley"
+          D: "Luna Lovegood"
     difficulty: EXPERT
+  - text: "Quel Patronus Luna Lovegood réussit-elle à produire ?"
+    answers:
+      A: "Une loutre"
+      B: "Un lynx"
+      C: "Un lièvre"
+      D: "Un aigle"
+    correctAnswer: C
     translations:
       en:
-        text: "Who becomes the new Minister for Magic?"
+        text: "What Patronus does Luna Lovegood manage to produce?"
         answers:
-          A: "Kingsley"
-          B: "Fudge"
-          C: "Rufus Scrimgeour"
-          D: "Dumbledore"
-  - text: "Dans quelle partie du Ministère se trouve la prophétie ?"
-    answers:
-      A: "le Magenmagot"
-      B: "l'atrium"
-      C: "les archives"
-      D: "le Département des Mystères"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "In which part of the Ministry is the prophecy kept?"
-        answers:
-          A: "the Wizengamot"
-          B: "the atrium"
-          C: "the archives"
-          D: "the Department of Mysteries"
-  - text: "Qui tente le sortilège Cruciatus sur Bellatrix ?"
-    answers:
-      A: "Ron"
-      B: "Neville"
-      C: "Harry"
-      D: "Lupin"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who attempts the Cruciatus Curse on Bellatrix?"
-        answers:
-          A: "Ron"
-          B: "Neville"
-          C: "Harry"
-          D: "Lupin"
-  - text: "Quel élève voit les sombrals dès son arrivée ?"
-    answers:
-      A: "Cho"
-      B: "Luna"
-      C: "Ginny"
-      D: "Neville"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which student sees the thestrals from the start?"
-        answers:
-          A: "Cho"
-          B: "Luna"
-          C: "Ginny"
-          D: "Neville"
-  - text: "Quel souvenir de Rogue Harry voit-il dans la Pensine ?"
-    answers:
-      A: "une bataille"
-      B: "James maltraitant Rogue"
-      C: "un mariage"
-      D: "un examen"
-    correctAnswer: "B"
+          A: "An otter"
+          B: "A lynx"
+          C: "A hare"
+          D: "An eagle"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "Which memory of Snape does Harry see in the Pensieve?"
-        answers:
-          A: "a battle"
-          B: "James bullying Snape"
-          C: "a wedding"
-          D: "an exam"
-  - text: "Qui était le père de Harry ?"
+  - text: "Combien de temps dure la punition de Harry par Ombrage ?"
     answers:
-      A: "James Potter"
-      B: "Sirius Black"
-      C: "Remus Lupin"
-      D: "Peter Pettigrew"
-    correctAnswer: "A"
-    difficulty: EASY
+      A: "Une semaine"
+      B: "Chaque soir jusqu'à la fin du trimestre"
+      C: "Un mois"
+      D: "Trois jours"
+    correctAnswer: B
     translations:
       en:
-        text: "Who was Harry's father?"
+        text: "How long does Harry's punishment by Umbridge last?"
         answers:
-          A: "James Potter"
-          B: "Sirius Black"
+          A: "One week"
+          B: "Every evening until the end of term"
+          C: "One month"
+          D: "Three days"
+    difficulty: EXPERT
+  - text: "Quelle phrase Harry doit-il écrire avec la plume d'Ombrage ?"
+    answers:
+      A: "Je dois respecter mes professeurs"
+      B: "Je ne dois pas mentir"
+      C: "Je ne suis pas un héros"
+      D: "Je dois obéir au Ministère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What phrase does Harry have to write with Umbridge's quill?"
+        answers:
+          A: "I must respect my teachers"
+          B: "I must not tell lies"
+          C: "I am not a hero"
+          D: "I must obey the Ministry"
+    difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour jeter un sortilège de confusion sur Dolores Ombrage dans la forêt interdite ?"
+    answers:
+      A: "Confundo"
+      B: "Impedimenta"
+      C: "Stupéfix"
+      D: "Petrificus Totalus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What spell does Hermione use to cast a Confundus Charm on Dolores Umbridge in the Forbidden Forest?"
+        answers:
+          A: "Confundo"
+          B: "Impedimenta"
+          C: "Stupefy"
+          D: "Petrificus Totalus"
+    difficulty: EXPERT
+  - text: "Quelle créature enlève Dolores Ombrage dans la forêt interdite ?"
+    answers:
+      A: "Des hippogriffes"
+      B: "Des acromentules"
+      C: "Des centaures"
+      D: "Des sombrals"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What creature takes Dolores Umbridge away in the Forbidden Forest?"
+        answers:
+          A: "Hippogriffs"
+          B: "Acromantulas"
+          C: "Centaurs"
+          D: "Thestrals"
+    difficulty: HARD
+  - text: "Quel personnage sauve Harry et Hermione des centaures dans la forêt ?"
+    answers:
+      A: "Rubeus Hagrid"
+      B: "Albus Dumbledore"
+      C: "Rémus Lupin"
+      D: "Grawp"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character saves Harry and Hermione from the centaurs in the forest?"
+        answers:
+          A: "Rubeus Hagrid"
+          B: "Albus Dumbledore"
           C: "Remus Lupin"
-          D: "Peter Pettigrew"
-  - text: "Qui Voldemort possède-t-il à la fin du film ?"
+          D: "Grawp"
+    difficulty: EXPERT
+  - text: "Qui est Grawp, le demi-frère de Hagrid ?"
     answers:
-      A: "Bellatrix"
-      B: "Dumbledore"
-      C: "Harry"
-      D: "Neville"
-    correctAnswer: "C"
+      A: "Un elfe de maison"
+      B: "Un géant"
+      C: "Un gobelin"
+      D: "Un centaure"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is Grawp, Hagrid's half-brother?"
+        answers:
+          A: "A house-elf"
+          B: "A giant"
+          C: "A goblin"
+          D: "A centaur"
     difficulty: HARD
+  - text: "Quel sort Bellatrix utilise-t-elle contre Sirius pendant la bataille ?"
+    answers:
+      A: "Endoloris"
+      B: "Sectumsempra"
+      C: "Maléfice de mort subite"
+      D: "Avada Kedavra"
+    correctAnswer: D
     translations:
       en:
-        text: "Whom does Voldemort possess at the end of the film?"
+        text: "Which spell does Bellatrix use against Sirius during the battle?"
         answers:
-          A: "Bellatrix"
-          B: "Dumbledore"
-          C: "Harry"
-          D: "Neville"
-  - text: "Qui aide Harry à résister à la possession ?"
-    answers:
-      A: "Lupin"
-      B: "Sirius"
-      C: "Rogue"
-      D: "Dumbledore"
-    correctAnswer: "D"
+          A: "Crucio"
+          B: "Sectumsempra"
+          C: "Killing Curse"
+          D: "Avada Kedavra"
     difficulty: EXPERT
+  - text: "Que voit Harry dans la Pensine de Rogue qui le choque profondément ?"
+    answers:
+      A: "James et ses amis harceler Rogue"
+      B: "James et Lily se marier"
+      C: "Rogue avouer son amour à Lily"
+      D: "Rogue rejoindre les Mangemorts"
+    correctAnswer: A
     translations:
       en:
-        text: "Who helps Harry resist the possession?"
+        text: "What does Harry see in Snape's Pensieve that deeply shocks him?"
         answers:
-          A: "Lupin"
-          B: "Sirius"
-          C: "Snape"
-          D: "Dumbledore"
-  - text: "Quel est le prénom de Tonks ?"
-    answers:
-      A: "Lily"
-      B: "Nymphadora"
-      C: "Molly"
-      D: "Fleur"
-    correctAnswer: "B"
+          A: "James and his friends bullying Snape"
+          B: "James and Lily getting married"
+          C: "Snape confessing his love to Lily"
+          D: "Snape joining the Death Eaters"
     difficulty: EXPERT
+  - text: "Quel surnom les Maraudeurs donnent-ils à Rogue dans les souvenirs ?"
+    answers:
+      A: "Snivellus"
+      B: "Lunard"
+      C: "Vermicent"
+      D: "Patmol"
+    correctAnswer: A
     translations:
       en:
-        text: "What is Tonks's first name?"
+        text: "What nickname do the Marauders give Snape in the memories?"
         answers:
-          A: "Lily"
-          B: "Nymphadora"
-          C: "Molly"
-          D: "Fleur"
-  - text: "Quel animal est le Patronus de Hermione ?"
-    answers:
-      A: "un cygne"
-      B: "un cerf"
-      C: "un chien"
-      D: "une loutre"
-    correctAnswer: "D"
+          A: "Snivellus"
+          B: "Moony"
+          C: "Wormtail"
+          D: "Padfoot"
     difficulty: EXPERT
+  - text: "Quelle est la première épreuve du Tournoi des Trois Sorciers montrée en souvenir ?"
+    answers:
+      A: "Le lac noir"
+      B: "Les dragons"
+      C: "Le labyrinthe"
+      D: "Les tâches du Tournoi"
+    correctAnswer: B
     translations:
       en:
-        text: "What animal is Hermione's Patronus?"
+        text: "What is the first task of the Triwizard Tournament shown in the memory?"
         answers:
-          A: "a swan"
-          B: "a stag"
-          C: "a dog"
-          D: "an otter"
-  - text: "Quel animal est le Patronus de Ron ?"
-    answers:
-      A: "un chien"
-      B: "une loutre"
-      C: "un cerf"
-      D: "un cygne"
-    correctAnswer: "A"
+          A: "The black lake"
+          B: "The dragons"
+          C: "The maze"
+          D: "The Tournament tasks"
     difficulty: EXPERT
+  - text: "Quel objet magique Dumbledore utilise-t-il pour interroger Harry après la mort de Sirius ?"
+    answers:
+      A: "Un Miroir du Riséd"
+      B: "Un Retourneur de Temps"
+      C: "Une Pensine"
+      D: "Une Baguette de Sureau"
+    correctAnswer: C
     translations:
       en:
-        text: "What animal is Ron's Patronus?"
+        text: "What magical object does Dumbledore use to question Harry after Sirius's death?"
         answers:
-          A: "a dog"
-          B: "an otter"
-          C: "a stag"
-          D: "a swan"
-  - text: "Quel animal est le Patronus de Cho Chang ?"
-    answers:
-      A: "un cygne"
-      B: "une loutre"
-      C: "un chien"
-      D: "un cerf"
-    correctAnswer: "A"
+          A: "A Mirror of Erised"
+          B: "A Time-Turner"
+          C: "A Pensieve"
+          D: "An Elder Wand"
     difficulty: EXPERT
+  - text: "Quelle créature Dumbledore utilise-t-il pour fuir après avoir été renvoyé par Ombrage ?"
+    answers:
+      A: "Un hippogriffe"
+      B: "Un phénix"
+      C: "Un théstral"
+      D: "Un aigle géant"
+    correctAnswer: B
     translations:
       en:
-        text: "What animal is Cho Chang's Patronus?"
+        text: "What creature does Dumbledore use to escape after being dismissed by Umbridge?"
         answers:
-          A: "a swan"
-          B: "an otter"
-          C: "a dog"
-          D: "a stag"
-  - text: "Quel Mangemort est arrêté après la bataille ?"
-    answers:
-      A: "Rogue"
-      B: "Lucius Malefoy"
-      C: "Karkaroff"
-      D: "Drago"
-    correctAnswer: "B"
+          A: "A hippogriff"
+          B: "A phoenix"
+          C: "A thestral"
+          D: "A giant eagle"
     difficulty: EXPERT
+  - text: "Quel personnage Dumbledore charge-t-il de protéger Harry au Département des Mystères ?"
+    answers:
+      A: "Les Aurors"
+      B: "Le Ministère de la Magie"
+      C: "L'Ordre du Phénix"
+      D: "Les Mangemorts"
+    correctAnswer: C
     translations:
       en:
-        text: "Which Death Eater is arrested after the battle?"
+        text: "Which character does Dumbledore assign to protect Harry at the Department of Mysteries?"
         answers:
-          A: "Snape"
-          B: "Lucius Malfoy"
-          C: "Karkaroff"
-          D: "Draco"
-  - text: "Qui accompagne Harry au Département des Mystères ?"
-    answers:
-      A: "les professeurs"
-      B: "le Ministère"
-      C: "ses amis de l'AD"
-      D: "Dumbledore seul"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who accompanies Harry to the Department of Mysteries?"
-        answers:
-          A: "the teachers"
-          B: "the Ministry"
-          C: "his D.A. friends"
-          D: "Dumbledore alone"
-  - text: "Que retrouve le Ministère à la fin ?"
-    answers:
-      A: "un trésor"
-      B: "la preuve du retour de Voldemort"
-      C: "la Pierre"
-      D: "un prisonnier"
-    correctAnswer: "B"
+          A: "The Aurors"
+          B: "The Ministry of Magic"
+          C: "The Order of the Phoenix"
+          D: "The Death Eaters"
     difficulty: EXPERT
+  - text: "Quel sort Dumbledore lance-t-il pour immobiliser Bellatrix à la fin du film ?"
+    answers:
+      A: "Petrificus Totalus"
+      B: "Le sortilège de ligotage"
+      C: "Immobulus"
+      D: "Stupefix"
+    correctAnswer: B
     translations:
       en:
-        text: "What does the Ministry finally accept at the end?"
+        text: "Which spell does Dumbledore cast to immobilize Bellatrix at the end of the film?"
         answers:
-          A: "a treasure"
-          B: "proof of Voldemort's return"
-          C: "the Stone"
-          D: "a prisoner"
-  - text: "Quel membre de l'AD est blessé par Bellatrix ?"
-    answers:
-      A: "Harry"
-      B: "Ron"
-      C: "Neville"
-      D: "Luna"
-    correctAnswer: "C"
+          A: "Petrificus Totalus"
+          B: "The Binding Spell"
+          C: "Immobulus"
+          D: "Stupefy"
     difficulty: EXPERT
+  - text: "Quel est le dernier mot de Dumbledore à Harry dans le film ?"
+    answers:
+      A: "Sirius"
+      B: "Pardon"
+      C: "Prophétie"
+      D: "Espoir"
+    correctAnswer: B
     translations:
       en:
-        text: "Which D.A. member is hurt by Bellatrix?"
+        text: "What is Dumbledore's last word to Harry in the film?"
         answers:
-          A: "Harry"
-          B: "Ron"
-          C: "Neville"
-          D: "Luna"
-  - text: "Quel sort Voldemort tente-t-il sur Dumbledore ?"
-    answers:
-      A: "Expelliarmus"
-      B: "Avada Kedavra"
-      C: "Accio"
-      D: "Lumos"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which curse does Voldemort attempt on Dumbledore?"
-        answers:
-          A: "Expelliarmus"
-          B: "Avada Kedavra"
-          C: "Accio"
-          D: "Lumos"
-  - text: "Qui rejoint l'Ordre et deviendra ministre plus tard ?"
-    answers:
-      A: "Lupin"
-      B: "Kingsley Shacklebolt"
-      C: "Tonks"
-      D: "Maugrey"
-    correctAnswer: "B"
+          A: "Sirius"
+          B: "Forgive"
+          C: "Prophecy"
+          D: "Hope"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "Who joins the Order and later becomes Minister?"
-        answers:
-          A: "Lupin"
-          B: "Kingsley Shacklebolt"
-          C: "Tonks"
-          D: "Moody"
-  - text: "Quel centaure menace Ombrage dans la forêt ?"
+  - text: "Qui est le nouveau professeur de Défense contre les Forces du Mal dans L'Ordre du Phénix ?"
     answers:
-      A: "Ronan"
-      B: "Firenze"
-      C: "Bane"
-      D: "Magorian"
-    correctAnswer: "C"
-    difficulty: EXPERT
+      A: "Alastor Maugrey"
+      B: "Remus Lupin"
+      C: "Dolores Ombrage"
+      D: "Severus Rogue"
+    correctAnswer: C
     translations:
       en:
-        text: "Which centaur threatens Umbridge in the forest?"
+        text: "Who is the new Defense Against the Dark Arts professor in The Order of the Phoenix?"
         answers:
-          A: "Ronan"
-          B: "Firenze"
-          C: "Bane"
-          D: "Magorian"
+          A: "Alastor Moody"
+          B: "Remus Lupin"
+          C: "Dolores Umbridge"
+          D: "Severus Snape"
+    difficulty: MEDIUM

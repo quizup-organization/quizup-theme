@@ -1,21 +1,20 @@
 topic:
-  id: "topic-hp4-coupe-de-feu"
+  id: topic-hp4-coupe-de-feu
   names:
     fr: "Harry Potter et la Coupe de feu"
     en: "Harry Potter and the Goblet of Fire"
   description: "Quatrième année : le Tournoi des Trois Sorciers, Beauxbâtons et Durmstrang, la Coupe de feu, les épreuves du dragon, du lac et du labyrinthe, le bal de Noël, Maugrey, la renaissance de Voldemort au cimetière et la mort de Cedric. Réalisé par Mike Newell en 2005."
-  category: "MOVIES"
-  imageUrl: "wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg"
+  category: MOVIES
+  imageUrl: wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg
 questions:
   - text: "Qui incarne Harry Potter dans La Coupe de feu ?"
-    imageUrl: "wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg"
+    imageUrl: wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg
     answers:
       A: "Daniel Radcliffe"
       B: "Rupert Grint"
       C: "Tom Felton"
       D: "Matthew Lewis"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "Who plays Harry Potter in The Goblet of Fire?"
@@ -24,15 +23,15 @@ questions:
           B: "Rupert Grint"
           C: "Tom Felton"
           D: "Matthew Lewis"
+    difficulty: EASY
   - text: "Qui joue Hermione Granger dans ce film ?"
-    imageUrl: "wikipedia/movies/Emma_Watson_2013.jpg"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
     answers:
       A: "Emma Watson"
       B: "Bonnie Wright"
       C: "Evanna Lynch"
       D: "Maggie Smith"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "Who plays Hermione Granger in this film?"
@@ -41,49 +40,49 @@ questions:
           B: "Bonnie Wright"
           C: "Evanna Lynch"
           D: "Maggie Smith"
+    difficulty: EASY
   - text: "Qui incarne Ron Weasley dans ce volet ?"
-    imageUrl: "wikipedia/movies/RupertGrint2018.jpg"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
     answers:
       A: "Tom Felton"
       B: "Rupert Grint"
       C: "Daniel Radcliffe"
       D: "Warwick Davis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "Who plays Ron Weasley in this instalment?"
+        text: "Who plays Ron Weasley in this installment?"
         answers:
           A: "Tom Felton"
           B: "Rupert Grint"
           C: "Daniel Radcliffe"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui reprend le rôle de Drago Malefoy dans ce film ?"
-    imageUrl: "wikipedia/movies/Tom_Felton_1.jpg"
+    imageUrl: wikipedia/movies/Tom_Felton_1.jpg
     answers:
       A: "Rupert Grint"
       B: "Tom Felton"
       C: "Matthew Lewis"
       D: "Jason Isaacs"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "Who returns as Draco Malfoy in this film?"
+        text: "Who reprises the role of Draco Malfoy in this film?"
         answers:
           A: "Rupert Grint"
           B: "Tom Felton"
           C: "Matthew Lewis"
           D: "Jason Isaacs"
+    difficulty: EASY
   - text: "Qui joue le professeur Rogue dans La Coupe de feu ?"
-    imageUrl: "wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
     answers:
       A: "Richard Harris"
       B: "Alan Rickman"
       C: "John Cleese"
       D: "Warwick Davis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Who plays Professor Snape in The Goblet of Fire?"
@@ -92,49 +91,49 @@ questions:
           B: "Alan Rickman"
           C: "John Cleese"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui incarne Minerva McGonagall dans ce volet ?"
-    imageUrl: "wikipedia/movies/Maggie_Smith_-_Vintage.jpg"
+    imageUrl: wikipedia/movies/Maggie_Smith_-_Vintage.jpg
     answers:
       A: "Julie Walters"
       B: "Emma Thompson"
       C: "Maggie Smith"
       D: "Imelda Staunton"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
-        text: "Who plays Minerva McGonagall in this instalment?"
+        text: "Who plays Minerva McGonagall in this installment?"
         answers:
           A: "Julie Walters"
           B: "Emma Thompson"
           C: "Maggie Smith"
           D: "Imelda Staunton"
+    difficulty: EASY
   - text: "Quel acteur reprend Hagrid ici ?"
-    imageUrl: "wikipedia/movies/Robbiecoltrane_(cropped).jpg"
+    imageUrl: wikipedia/movies/Robbiecoltrane_(cropped).jpg
     answers:
       A: "Robbie Coltrane"
       B: "Brendan Gleeson"
       C: "Mark Williams"
       D: "Gary Oldman"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
-        text: "Which actor returns as Hagrid here?"
+        text: "Which actor reprises Hagrid here?"
         answers:
           A: "Robbie Coltrane"
           B: "Brendan Gleeson"
           C: "Mark Williams"
           D: "Gary Oldman"
+    difficulty: EASY
   - text: "Qui incarne Dumbledore dans ce film ?"
-    imageUrl: "wikipedia/movies/Michael_Gambon_cropped.jpg"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
     answers:
       A: "Richard Harris"
       B: "Michael Gambon"
       C: "Alan Rickman"
       D: "John Cleese"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "Who plays Dumbledore in this film?"
@@ -143,49 +142,49 @@ questions:
           B: "Michael Gambon"
           C: "Alan Rickman"
           D: "John Cleese"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne Voldemort ressuscité dans ce film ?"
-    imageUrl: "wikipedia/movies/Ralph_Fiennes_2024.jpg"
+    imageUrl: wikipedia/movies/Ralph_Fiennes_2024.jpg
     answers:
       A: "Jason Isaacs"
       B: "Gary Oldman"
       C: "Ralph Fiennes"
       D: "David Thewlis"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
-        text: "Which actor plays the reborn Voldemort in this film?"
+        text: "Which actor plays the resurrected Voldemort in this film?"
         answers:
           A: "Jason Isaacs"
           B: "Gary Oldman"
           C: "Ralph Fiennes"
           D: "David Thewlis"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne Alastor Maugrey, le nouvel enquêteur ?"
-    imageUrl: "wikipedia/movies/Brendan_Gleeson.jpg"
+    imageUrl: wikipedia/movies/Brendan_Gleeson.jpg
     answers:
       A: "David Thewlis"
       B: "Brendan Gleeson"
       C: "Gary Oldman"
       D: "Mark Williams"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
-        text: "Which actor plays Alastor Moody, the new teacher?"
+        text: "Which actor plays Alastor Moody, the new investigator?"
         answers:
           A: "David Thewlis"
           B: "Brendan Gleeson"
           C: "Gary Oldman"
           D: "Mark Williams"
+    difficulty: MEDIUM
   - text: "Qui réalise La Coupe de feu ?"
-    imageUrl: "wikipedia/movies/Mike_Newell.jpg"
+    imageUrl: wikipedia/movies/Mike_Newell.jpg
     answers:
       A: "Alfonso Cuarón"
       B: "Chris Columbus"
       C: "Mike Newell"
       D: "David Yates"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Who directed The Goblet of Fire?"
@@ -194,15 +193,15 @@ questions:
           B: "Chris Columbus"
           C: "Mike Newell"
           D: "David Yates"
+    difficulty: HARD
   - text: "Qui a écrit le roman adapté dans ce film ?"
-    imageUrl: "wikipedia/literature/J._K._Rowling_2010.jpg"
+    imageUrl: wikipedia/literature/J._K._Rowling_2010.jpg
     answers:
       A: "C. S. Lewis"
       B: "J. R. R. Tolkien"
       C: "Roald Dahl"
       D: "J. K. Rowling"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Who wrote the novel adapted in this film?"
@@ -211,49 +210,49 @@ questions:
           B: "J. R. R. Tolkien"
           C: "Roald Dahl"
           D: "J. K. Rowling"
+    difficulty: EASY
   - text: "Quel acteur reprend Sirius Black dans ce film ?"
-    imageUrl: "wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg"
+    imageUrl: wikipedia/movies/Gary_Oldman_by_Gage_Skidmore.jpg
     answers:
       A: "Brendan Gleeson"
       B: "David Thewlis"
       C: "Jason Isaacs"
       D: "Gary Oldman"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+    correctAnswer: D
     translations:
       en:
-        text: "Which actor returns as Sirius Black in this film?"
+        text: "Which actor reprises Sirius Black in this film?"
         answers:
           A: "Brendan Gleeson"
           B: "David Thewlis"
           C: "Jason Isaacs"
           D: "Gary Oldman"
+    difficulty: MEDIUM
   - text: "Quel acteur reprend Remus Lupin dans ce volet ?"
-    imageUrl: "wikipedia/movies/David_Thewlis_2008.jpg"
+    imageUrl: wikipedia/movies/David_Thewlis_2008.jpg
     answers:
       A: "Gary Oldman"
       B: "David Thewlis"
       C: "Brendan Gleeson"
       D: "Jason Isaacs"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
-        text: "Which actor returns as Remus Lupin in this instalment?"
+        text: "Which actor reprises Remus Lupin in this installment?"
         answers:
           A: "Gary Oldman"
           B: "David Thewlis"
           C: "Brendan Gleeson"
           D: "Jason Isaacs"
+    difficulty: MEDIUM
   - text: "Qui incarne Arthur Weasley ici ?"
-    imageUrl: "wikipedia/movies/Mark_Williams_at_BBSE.jpg"
+    imageUrl: wikipedia/movies/Mark_Williams_at_BBSE.jpg
     answers:
       A: "Jason Isaacs"
       B: "Brendan Gleeson"
       C: "Mark Williams"
       D: "John Cleese"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Who plays Arthur Weasley here?"
@@ -262,15 +261,15 @@ questions:
           B: "Brendan Gleeson"
           C: "Mark Williams"
           D: "John Cleese"
+    difficulty: MEDIUM
   - text: "Qui joue Molly Weasley dans ce film ?"
-    imageUrl: "wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg"
+    imageUrl: wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg
     answers:
       A: "Imelda Staunton"
       B: "Maggie Smith"
       C: "Emma Thompson"
       D: "Julie Walters"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
         text: "Who plays Molly Weasley in this film?"
@@ -279,32 +278,32 @@ questions:
           B: "Maggie Smith"
           C: "Emma Thompson"
           D: "Julie Walters"
+    difficulty: MEDIUM
   - text: "Quelle actrice joue Ginny dans ce volet ?"
-    imageUrl: "wikipedia/movies/Bonnie_Wright_crop2.jpg"
+    imageUrl: wikipedia/movies/Bonnie_Wright_crop2.jpg
     answers:
       A: "Helena Bonham Carter"
       B: "Emma Watson"
       C: "Evanna Lynch"
       D: "Bonnie Wright"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
-        text: "Which actress plays Ginny in this instalment?"
+        text: "Which actress plays Ginny in this installment?"
         answers:
           A: "Helena Bonham Carter"
           B: "Emma Watson"
           C: "Evanna Lynch"
           D: "Bonnie Wright"
+    difficulty: MEDIUM
   - text: "Qui incarne Neville Londubat ici ?"
-    imageUrl: "wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg"
+    imageUrl: wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg
     answers:
       A: "Rupert Grint"
       B: "Tom Felton"
       C: "Matthew Lewis"
       D: "Warwick Davis"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
         text: "Who plays Neville Longbottom here?"
@@ -313,15 +312,15 @@ questions:
           B: "Tom Felton"
           C: "Matthew Lewis"
           D: "Warwick Davis"
+    difficulty: MEDIUM
   - text: "Quel acteur joue Filius Flitwick dans ce film ?"
-    imageUrl: "wikipedia/movies/Warwick_Davis_interviewed_2.jpg"
+    imageUrl: wikipedia/movies/Warwick_Davis_interviewed_2.jpg
     answers:
       A: "Robbie Coltrane"
       B: "John Cleese"
       C: "Mark Williams"
       D: "Warwick Davis"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
         text: "Which actor plays Filius Flitwick in this film?"
@@ -330,15 +329,15 @@ questions:
           B: "John Cleese"
           C: "Mark Williams"
           D: "Warwick Davis"
+    difficulty: HARD
   - text: "Quel acteur reprend Nick Quasi-Sans-Tête ?"
-    imageUrl: "wikipedia/movies/John_Cleese_2008.jpg"
+    imageUrl: wikipedia/movies/John_Cleese_2008.jpg
     answers:
       A: "Warwick Davis"
       B: "John Cleese"
       C: "Richard Harris"
       D: "Robbie Coltrane"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
         text: "Which actor returns as Nearly Headless Nick?"
@@ -347,15 +346,15 @@ questions:
           B: "John Cleese"
           C: "Richard Harris"
           D: "Robbie Coltrane"
+    difficulty: HARD
   - text: "Quelle actrice revient en Sybille Trelawney ?"
-    imageUrl: "wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg"
+    imageUrl: wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg
     answers:
       A: "Maggie Smith"
       B: "Emma Thompson"
       C: "Imelda Staunton"
       D: "Julie Walters"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "Which actress returns as Sybill Trelawney?"
@@ -364,32 +363,32 @@ questions:
           B: "Emma Thompson"
           C: "Imelda Staunton"
           D: "Julie Walters"
+    difficulty: HARD
   - text: "Quel château sert de décor à Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Alnwick_Castle_2011.jpg"
+    imageUrl: wikipedia/movies/Alnwick_Castle_2011.jpg
     answers:
       A: "le château de Douvres"
       B: "le château de Windsor"
       C: "le château d'Alnwick"
       D: "le château de Warwick"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
-        text: "Which castle serves as Hogwarts here?"
+        text: "Which castle serves as the setting for Hogwarts here?"
         answers:
           A: "Dover Castle"
           B: "Windsor Castle"
           C: "Alnwick Castle"
           D: "Warwick Castle"
+    difficulty: MEDIUM
   - text: "Quelle cathédrale sert de couloirs dans ce film ?"
-    imageUrl: "wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg"
+    imageUrl: wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg
     answers:
       A: "la cathédrale d'York"
       B: "la cathédrale de Durham"
       C: "l'abbaye de Westminster"
       D: "la cathédrale de Gloucester"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
         text: "Which cathedral serves as the corridors in this film?"
@@ -398,32 +397,32 @@ questions:
           B: "Durham Cathedral"
           C: "Westminster Abbey"
           D: "Gloucester Cathedral"
+    difficulty: HARD
   - text: "Quel escalier d'Oxford apparaît dans ce volet ?"
-    imageUrl: "wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg"
+    imageUrl: wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg
     answers:
       A: "Magdalen College"
       B: "la Bodleian Library"
       C: "la Radcliffe Camera"
       D: "Christ Church"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
-        text: "Which Oxford staircase appears in this instalment?"
+        text: "Which Oxford staircase appears in this installment?"
         answers:
           A: "Magdalen College"
           B: "the Bodleian Library"
           C: "the Radcliffe Camera"
           D: "Christ Church"
+    difficulty: EXPERT
   - text: "Quelle bibliothèque d'Oxford évoque Poudlard ?"
-    imageUrl: "wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg"
+    imageUrl: wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg
     answers:
       A: "la Radcliffe Camera"
       B: "Christ Church"
       C: "la Bodleian Library"
       D: "le Sheldonian Theatre"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Which Oxford library evokes Hogwarts?"
@@ -432,15 +431,15 @@ questions:
           B: "Christ Church"
           C: "the Bodleian Library"
           D: "the Sheldonian Theatre"
+    difficulty: HARD
   - text: "Quelle gare londonienne revient dans ce film ?"
-    imageUrl: "wikipedia/movies/King's_Cross_Western_Concourse.jpg"
+    imageUrl: wikipedia/movies/King's_Cross_Western_Concourse.jpg
     answers:
       A: "King's Cross"
       B: "Paddington"
       C: "Euston"
       D: "Waterloo"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "Which London station returns in this film?"
@@ -449,15 +448,15 @@ questions:
           B: "Paddington"
           C: "Euston"
           D: "Waterloo"
+    difficulty: MEDIUM
   - text: "Quel quai mène au Poudlard Express ?"
-    imageUrl: "wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg"
+    imageUrl: wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg
     answers:
       A: "le quai 13"
       B: "le quai 9¾"
       C: "le quai 7"
       D: "le quai 21"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Which platform leads to the Hogwarts Express?"
@@ -466,15 +465,15 @@ questions:
           B: "Platform 9¾"
           C: "Platform 7"
           D: "Platform 21"
+    difficulty: EASY
   - text: "Quel marché évoque le Chemin de Traverse ?"
-    imageUrl: "wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg"
+    imageUrl: wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg
     answers:
       A: "Camden Market"
       B: "Borough Market"
       C: "Leadenhall Market"
       D: "Portobello Road"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Which market evokes Diagon Alley?"
@@ -483,83 +482,83 @@ questions:
           B: "Borough Market"
           C: "Leadenhall Market"
           D: "Portobello Road"
+    difficulty: HARD
   - text: "Quel train ramène les élèves à Poudlard ?"
-    imageUrl: "wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg"
+    imageUrl: wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg
     answers:
       A: "le Transsibérien"
       B: "le Poudlard Express"
       C: "l'Orient Express"
       D: "le Flying Scotsman"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "Which train takes students back to Hogwarts?"
+        text: "Which train brings the students back to Hogwarts?"
         answers:
           A: "the Trans-Siberian"
           B: "the Hogwarts Express"
           C: "the Orient Express"
           D: "the Flying Scotsman"
+    difficulty: EASY
   - text: "Quel village est évoqué cette année ?"
-    imageUrl: "wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg"
+    imageUrl: wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg
     answers:
       A: "Le Chemin de Traverse"
       B: "Godric's Hollow"
       C: "Azkaban"
       D: "Pré-au-Lard"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
-        text: "Which village is evoked this year?"
+        text: "Which village is mentioned this year?"
         answers:
           A: "Diagon Alley"
           B: "Godric's Hollow"
           C: "Azkaban"
           D: "Hogsmeade"
+    difficulty: HARD
   - text: "Sur quel viaduc passe le train des sorciers ?"
-    imageUrl: "wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg"
+    imageUrl: wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg
     answers:
       A: "le viaduc de Glenfinnan"
       B: "le pont de Forth"
       C: "le viaduc de Millau"
       D: "le pont de Brooklyn"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
-        text: "Over which viaduct does the wizards' train pass?"
+        text: "Which viaduct does the wizards' train cross?"
         answers:
           A: "the Glenfinnan Viaduct"
           B: "the Forth Bridge"
           C: "the Millau Viaduct"
           D: "the Brooklyn Bridge"
+    difficulty: HARD
   - text: "Quelle cathédrale sert de cloître à Poudlard ?"
-    imageUrl: "wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg"
+    imageUrl: wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg
     answers:
       A: "la cathédrale de Durham"
       B: "la cathédrale d'York"
       C: "la cathédrale de Salisbury"
       D: "la cathédrale de Lincoln"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
-        text: "Which cathedral serves as Hogwarts' cloister?"
+        text: "Which cathedral serves as the cloister for Hogwarts?"
         answers:
           A: "Durham Cathedral"
           B: "York Cathedral"
           C: "Salisbury Cathedral"
           D: "Lincoln Cathedral"
+    difficulty: HARD
   - text: "Quel acteur affronte le dragon hongrois ?"
-    imageUrl: "wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg"
+    imageUrl: wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg
     answers:
       A: "Matthew Lewis"
       B: "Rupert Grint"
       C: "Tom Felton"
       D: "Daniel Radcliffe"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Which actor faces the Hungarian dragon?"
@@ -568,15 +567,15 @@ questions:
           B: "Rupert Grint"
           C: "Tom Felton"
           D: "Daniel Radcliffe"
+    difficulty: MEDIUM
   - text: "Quel acteur annonce le Tournoi des Trois Sorciers ?"
-    imageUrl: "wikipedia/movies/Michael_Gambon_cropped.jpg"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
     answers:
       A: "John Cleese"
       B: "Richard Harris"
       C: "Alan Rickman"
       D: "Michael Gambon"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+    correctAnswer: D
     translations:
       en:
         text: "Which actor announces the Triwizard Tournament?"
@@ -585,32 +584,32 @@ questions:
           B: "Richard Harris"
           C: "Alan Rickman"
           D: "Michael Gambon"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne le mage noir ressuscité au cimetière ?"
-    imageUrl: "wikipedia/movies/Ralph_Fiennes_2024.jpg"
+    imageUrl: wikipedia/movies/Ralph_Fiennes_2024.jpg
     answers:
       A: "Ralph Fiennes"
       B: "Gary Oldman"
       C: "Jason Isaacs"
       D: "David Thewlis"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
-        text: "Which actor plays the dark wizard reborn in the graveyard?"
+        text: "Which actor plays the dark wizard resurrected in the graveyard?"
         answers:
           A: "Ralph Fiennes"
           B: "Gary Oldman"
           C: "Jason Isaacs"
           D: "David Thewlis"
+    difficulty: MEDIUM
   - text: "Quel acteur joue le faux Maugrey, Barty Crouch Jr ?"
-    imageUrl: "wikipedia/movies/Brendan_Gleeson.jpg"
+    imageUrl: wikipedia/movies/Brendan_Gleeson.jpg
     answers:
       A: "David Thewlis"
       B: "Brendan Gleeson"
       C: "Gary Oldman"
       D: "Mark Williams"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "Which actor plays the fake Moody, Barty Crouch Jr?"
@@ -619,32 +618,32 @@ questions:
           B: "Brendan Gleeson"
           C: "Gary Oldman"
           D: "Mark Williams"
+    difficulty: HARD
   - text: "Quel réalisateur adapte ce quatrième tome ?"
-    imageUrl: "wikipedia/movies/Mike_Newell.jpg"
+    imageUrl: wikipedia/movies/Mike_Newell.jpg
     answers:
       A: "David Yates"
       B: "Chris Columbus"
       C: "Alfonso Cuarón"
       D: "Mike Newell"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
-        text: "Which director adapts this fourth book?"
+        text: "Which director adapted this fourth volume?"
         answers:
           A: "David Yates"
           B: "Chris Columbus"
           C: "Alfonso Cuarón"
           D: "Mike Newell"
+    difficulty: HARD
   - text: "Quelle actrice se rend au bal de Noël avec Viktor Krum ?"
-    imageUrl: "wikipedia/movies/Emma_Watson_2013.jpg"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
     answers:
       A: "Emma Watson"
       B: "Bonnie Wright"
       C: "Evanna Lynch"
       D: "Maggie Smith"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "Which actress goes to the Yule Ball with Viktor Krum?"
@@ -653,15 +652,15 @@ questions:
           B: "Bonnie Wright"
           C: "Evanna Lynch"
           D: "Maggie Smith"
+    difficulty: MEDIUM
   - text: "Quel acteur est jaloux au bal de Noël ?"
-    imageUrl: "wikipedia/movies/RupertGrint2018.jpg"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
     answers:
       A: "Warwick Davis"
       B: "Tom Felton"
       C: "Daniel Radcliffe"
       D: "Rupert Grint"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+    correctAnswer: D
     translations:
       en:
         text: "Which actor is jealous at the Yule Ball?"
@@ -670,15 +669,15 @@ questions:
           B: "Tom Felton"
           C: "Daniel Radcliffe"
           D: "Rupert Grint"
+    difficulty: HARD
   - text: "Quelle actrice rejoindra la saga au film suivant ?"
-    imageUrl: "wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
     answers:
       A: "Helena Bonham Carter"
       B: "Emma Thompson"
       C: "Imelda Staunton"
       D: "Maggie Smith"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Which actress will join the saga in the next film?"
@@ -687,963 +686,964 @@ questions:
           B: "Emma Thompson"
           C: "Imelda Staunton"
           D: "Maggie Smith"
-  - text: "Quel tournoi oppose trois écoles de magie ?"
-    answers:
-      A: "le Tournoi des Trois Sorciers"
-      B: "la Coupe du Monde"
-      C: "le Grand Tournoi"
-      D: "les Jeux Magiques"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which tournament pits three schools against each other?"
-        answers:
-          A: "the Triwizard Tournament"
-          B: "the World Cup"
-          C: "the Great Tournament"
-          D: "the Magical Games"
-  - text: "Quelles écoles participent au tournoi avec Poudlard ?"
-    answers:
-      A: "Beauxbâtons et Durmstrang"
-      B: "Ilvermorny et Uagadou"
-      C: "Castelobruxo et Mahoutokoro"
-      D: "Salem et Koldovstoretz"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which schools join Hogwarts in the tournament?"
-        answers:
-          A: "Beauxbatons and Durmstrang"
-          B: "Ilvermorny and Uagadou"
-          C: "Castelobruxo and Mahoutokoro"
-          D: "Salem and Koldovstoretz"
-  - text: "De quel pays vient l'école de Beauxbâtons ?"
-    answers:
-      A: "l'Espagne"
-      B: "l'Allemagne"
-      C: "la France"
-      D: "l'Italie"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which country is Beauxbatons from?"
-        answers:
-          A: "Spain"
-          B: "Germany"
-          C: "France"
-          D: "Italy"
-  - text: "Qui dirige Beauxbâtons ?"
-    answers:
-      A: "Rogue"
-      B: "Karkaroff"
-      C: "Dumbledore"
-      D: "Madame Maxime"
-    correctAnswer: "D"
     difficulty: HARD
+  - text: "Dans quelle épreuve Harry doit-il affronter un dragon ?"
+    answers:
+      A: "La première tâche"
+      B: "La deuxième tâche"
+      C: "La troisième tâche"
+      D: "La tâche bonus"
+    correctAnswer: A
     translations:
       en:
-        text: "Who runs Beauxbatons?"
+        text: "In which task must Harry face a dragon?"
         answers:
-          A: "Snape"
-          B: "Karkaroff"
-          C: "Dumbledore"
-          D: "Madame Maxime"
-  - text: "Qui dirige Durmstrang ?"
+          A: "The first task"
+          B: "The second task"
+          C: "The third task"
+          D: "The bonus task"
+    difficulty: MEDIUM
+  - text: "Quel objet magique sélectionne les champions du Tournoi des Trois Sorciers ?"
     answers:
-      A: "Dumbledore"
-      B: "Madame Maxime"
-      C: "Igor Karkaroff"
-      D: "Maugrey"
-    correctAnswer: "C"
+      A: "La Coupe de feu"
+      B: "Le Choixpeau magique"
+      C: "La Pierre de Résurrection"
+      D: "Le Miroir du Riséd"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which magical object selects the champions of the Triwizard Tournament?"
+        answers:
+          A: "The Goblet of Fire"
+          B: "The Sorting Hat"
+          C: "The Resurrection Stone"
+          D: "The Mirror of Erised"
+    difficulty: MEDIUM
+  - text: "Quel personnage est tué par Peter Pettigrow sur ordre de Voldemort dans le cimetière ?"
+    answers:
+      A: "Frank Bryce"
+      B: "Barty Crouch Jr"
+      C: "Cedric Diggory"
+      D: "Bertha Jorkins"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character is killed by Peter Pettigrew on Voldemort's orders in the graveyard?"
+        answers:
+          A: "Frank Bryce"
+          B: "Barty Crouch Jr"
+          C: "Cedric Diggory"
+          D: "Bertha Jorkins"
     difficulty: HARD
+  - text: "Quelle créature marine les champions doivent-ils affronter lors de la deuxième tâche ?"
+    answers:
+      A: "Des sirènes"
+      B: "Des Kelpies"
+      C: "Des Hippocampes"
+      D: "Des Grindylows"
+    correctAnswer: D
     translations:
       en:
-        text: "Who runs Durmstrang?"
+        text: "Which sea creature must the champions face during the second task?"
         answers:
-          A: "Dumbledore"
-          B: "Madame Maxime"
-          C: "Igor Karkaroff"
-          D: "Moody"
-  - text: "Quel objet choisit les champions ?"
+          A: "Mermaids"
+          B: "Kelpies"
+          C: "Hippocampi"
+          D: "Grindylows"
+    difficulty: MEDIUM
+  - text: "Qui est révélé être Barty Crouch Jr sous l'apparence de Maugrey ?"
     answers:
-      A: "le Miroir"
-      B: "le Choixpeau"
-      C: "la Coupe de feu"
-      D: "la Baguette"
-    correctAnswer: "C"
-    difficulty: EASY
+      A: "Bartemius Crouch Senior"
+      B: "Lucius Malfoy"
+      C: "Barty Crouch Jr"
+      D: "Igor Karkaroff"
+    correctAnswer: C
     translations:
       en:
-        text: "Which object selects the champions?"
+        text: "Who is revealed to be Barty Crouch Jr in the guise of Moody?"
         answers:
-          A: "the Mirror"
-          B: "the Sorting Hat"
-          C: "the Goblet of Fire"
-          D: "the Wand"
-  - text: "Combien de champions sont normalement choisis ?"
-    answers:
-      A: "deux"
-      B: "quatre"
-      C: "trois"
-      D: "cinq"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "How many champions are normally chosen?"
-        answers:
-          A: "two"
-          B: "four"
-          C: "three"
-          D: "five"
-  - text: "Combien de champions participent finalement ?"
-    answers:
-      A: "cinq"
-      B: "trois"
-      C: "quatre"
-      D: "six"
-    correctAnswer: "C"
+          A: "Bartemius Crouch Senior"
+          B: "Lucius Malfoy"
+          C: "Barty Crouch Jr"
+          D: "Igor Karkaroff"
     difficulty: HARD
-    translations:
-      en:
-        text: "How many champions finally take part?"
-        answers:
-          A: "five"
-          B: "three"
-          C: "four"
-          D: "six"
-  - text: "Qui représente Poudlard avec Harry ?"
+  - text: "Quel sort Harry utilise-t-il pour repousser les Détraqueurs près du lac ?"
     answers:
-      A: "Drago"
-      B: "Cedric Diggory"
-      C: "Neville"
-      D: "Ron"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who represents Hogwarts alongside Harry?"
-        answers:
-          A: "Draco"
-          B: "Cedric Diggory"
-          C: "Neville"
-          D: "Ron"
-  - text: "Quel est le champion de Durmstrang ?"
-    answers:
-      A: "Cedric"
-      B: "Viktor Krum"
-      C: "Harry"
-      D: "Karkaroff"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who is Durmstrang's champion?"
-        answers:
-          A: "Cedric"
-          B: "Viktor Krum"
-          C: "Harry"
-          D: "Karkaroff"
-  - text: "Quelle est la championne de Beauxbâtons ?"
-    answers:
-      A: "Fleur Delacour"
-      B: "Cho Chang"
-      C: "Gabrielle"
-      D: "Madame Maxime"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who is Beauxbatons' champion?"
-        answers:
-          A: "Fleur Delacour"
-          B: "Cho Chang"
-          C: "Gabrielle"
-          D: "Madame Maxime"
-  - text: "Quelle est la première épreuve du tournoi ?"
-    answers:
-      A: "le lac"
-      B: "affronter un dragon"
-      C: "le labyrinthe"
-      D: "un duel"
-    correctAnswer: "B"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the tournament's first task?"
-        answers:
-          A: "the lake"
-          B: "facing a dragon"
-          C: "the maze"
-          D: "a duel"
-  - text: "Que doit récupérer Harry chez le dragon ?"
-    answers:
-      A: "un œuf d'or"
-      B: "une épée"
-      C: "une clé"
-      D: "un livre"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What must Harry retrieve from the dragon?"
-        answers:
-          A: "a golden egg"
-          B: "a sword"
-          C: "a key"
-          D: "a book"
-  - text: "Quel sort Harry utilise-t-il pour appeler son balai ?"
-    answers:
-      A: "Wingardium"
+      A: "Accio"
       B: "Expelliarmus"
-      C: "Lumos"
-      D: "Accio"
-    correctAnswer: "D"
-    difficulty: HARD
+      C: "Expecto Patronum"
+      D: "Riddikulus"
+    correctAnswer: C
     translations:
       en:
-        text: "Which spell does Harry use to summon his broom?"
+        text: "Which spell does Harry use to repel the Dementors near the lake?"
         answers:
-          A: "Wingardium"
+          A: "Accio"
           B: "Expelliarmus"
-          C: "Lumos"
-          D: "Accio"
-  - text: "Quelle est la deuxième épreuve ?"
-    answers:
-      A: "l'épreuve du lac"
-      B: "le labyrinthe"
-      C: "les dragons"
-      D: "le duel"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the second task?"
-        answers:
-          A: "the lake task"
-          B: "the maze"
-          C: "the dragons"
-          D: "the duel"
-  - text: "Qui donne des branchies-aquatiques à Harry ?"
-    answers:
-      A: "Hermione"
-      B: "Ron"
-      C: "Dobby"
-      D: "Neville"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who gives Harry gillyweed?"
-        answers:
-          A: "Hermione"
-          B: "Ron"
-          C: "Dobby"
-          D: "Neville"
-  - text: "Qui sont retenus au fond du lac ?"
-    answers:
-      A: "des personnes chères aux champions"
-      B: "des poissons"
-      C: "des elfes"
-      D: "des dragons"
-    correctAnswer: "A"
+          C: "Expecto Patronum"
+          D: "Riddikulus"
     difficulty: MEDIUM
+  - text: "Quel est le nom du bal auquel Harry invite Cho Chang ?"
+    answers:
+      A: "Le bal des Trois Sorciers"
+      B: "Le bal de fin d'année"
+      C: "Le bal de Noël"
+      D: "Le bal des champions"
+    correctAnswer: C
     translations:
       en:
-        text: "Who is held at the bottom of the lake?"
+        text: "What is the name of the ball to which Harry invites Cho Chang?"
         answers:
-          A: "people dear to the champions"
-          B: "fish"
-          C: "elves"
-          D: "dragons"
-  - text: "Quelle est la troisième épreuve ?"
-    answers:
-      A: "le bal"
-      B: "le lac"
-      C: "les dragons"
-      D: "le labyrinthe"
-    correctAnswer: "D"
+          A: "The Triwizard Ball"
+          B: "The End-of-Year Ball"
+          C: "The Christmas Ball"
+          D: "The Champions' Ball"
     difficulty: MEDIUM
+  - text: "Quel détail morphologique distingue Barty Crouch Jr déguisé en Maugrey ?"
+    answers:
+      A: "Une cicatrice au visage"
+      B: "Une jambe de bois"
+      C: "Un œil magique"
+      D: "Une main en argent"
+    correctAnswer: C
     translations:
       en:
-        text: "What is the third task?"
+        text: "Which physical detail distinguishes Barty Crouch Jr disguised as Moody?"
         answers:
-          A: "the ball"
-          B: "the lake"
-          C: "the dragons"
-          D: "the maze"
-  - text: "Quel objet sert de portoloin à la fin ?"
-    answers:
-      A: "un miroir"
-      B: "un livre"
-      C: "une clé"
-      D: "la Coupe des Trois Sorciers"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which object becomes a Portkey at the end?"
-        answers:
-          A: "a mirror"
-          B: "a book"
-          C: "a key"
-          D: "the Triwizard Cup"
-  - text: "Qui meurt à la fin du film ?"
-    answers:
-      A: "Ron"
-      B: "Cedric Diggory"
-      C: "Harry"
-      D: "Dumbledore"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who dies at the end of the film?"
-        answers:
-          A: "Ron"
-          B: "Cedric Diggory"
-          C: "Harry"
-          D: "Dumbledore"
-  - text: "Qui tue Cedric sur ordre de Voldemort ?"
-    answers:
-      A: "Barty Crouch"
-      B: "Peter Pettigrew"
-      C: "Lucius"
-      D: "Rogue"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who kills Cedric on Voldemort's order?"
-        answers:
-          A: "Barty Crouch"
-          B: "Peter Pettigrew"
-          C: "Lucius"
-          D: "Snape"
-  - text: "Où Voldemort reprend-il corps ?"
-    answers:
-      A: "dans un cimetière"
-      B: "à Poudlard"
-      C: "à Azkaban"
-      D: "au Ministère"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Where does Voldemort regain a body?"
-        answers:
-          A: "in a graveyard"
-          B: "at Hogwarts"
-          C: "in Azkaban"
-          D: "at the Ministry"
-  - text: "Qui aide Voldemort à renaître ?"
-    answers:
-      A: "Barty Crouch Sr"
-      B: "Lucius"
-      C: "Peter Pettigrew"
-      D: "Karkaroff"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who helps Voldemort be reborn?"
-        answers:
-          A: "Barty Crouch Sr"
-          B: "Lucius"
-          C: "Peter Pettigrew"
-          D: "Karkaroff"
-  - text: "Quelle marque apparaît dans le ciel après la Coupe du Monde ?"
-    answers:
-      A: "le sceau de Poudlard"
-      B: "la Marque des Ténèbres"
-      C: "une étoile"
-      D: "un éclair"
-    correctAnswer: "B"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which mark appears in the sky after the World Cup?"
-        answers:
-          A: "the Hogwarts crest"
-          B: "the Dark Mark"
-          C: "a star"
-          D: "a lightning bolt"
-  - text: "Qui est démasqué à la fin du film ?"
-    answers:
-      A: "Rogue"
-      B: "Alastor Maugrey"
-      C: "Dumbledore"
-      D: "Karkaroff"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who is unmasked at the end of the film?"
-        answers:
-          A: "Snape"
-          B: "Alastor Moody"
-          C: "Dumbledore"
-          D: "Karkaroff"
-  - text: "Qui se cachait sous l'apparence de Maugrey ?"
-    answers:
-      A: "Barty Crouch Jr"
-      B: "Lucius"
-      C: "Pettigrew"
-      D: "Karkaroff"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who was hiding as Moody?"
-        answers:
-          A: "Barty Crouch Jr"
-          B: "Lucius"
-          C: "Pettigrew"
-          D: "Karkaroff"
-  - text: "Qui est le père de Barty Crouch Jr ?"
-    answers:
-      A: "Lucius"
-      B: "Barty Crouch Sr"
-      C: "Karkaroff"
-      D: "Fudge"
-    correctAnswer: "B"
+          A: "A scar on his face"
+          B: "A wooden leg"
+          C: "A magical eye"
+          D: "A silver hand"
     difficulty: EXPERT
+  - text: "Quel ingrédient n'entre PAS dans la potion de résurrection de Voldemort ?"
+    answers:
+      A: "L'os du père"
+      B: "Une larme de phénix"
+      C: "Le sang de l'ennemi"
+      D: "La chair du serviteur"
+    correctAnswer: B
     translations:
       en:
-        text: "Who is Barty Crouch Jr's father?"
+        text: "Which ingredient is NOT part of Voldemort's resurrection potion?"
         answers:
-          A: "Lucius"
-          B: "Barty Crouch Sr"
-          C: "Karkaroff"
-          D: "Fudge"
-  - text: "Quel elfe de maison est accusé au début ?"
+          A: "The father's bone"
+          B: "A phoenix tear"
+          C: "The enemy's blood"
+          D: "The servant's flesh"
+    difficulty: EXPERT
+  - text: "Quel personnage aide Harry à décoder l'œuf d'or ?"
     answers:
-      A: "Kreattur"
-      B: "Dobby"
+      A: "Maugrey"
+      B: "Cedric Diggory"
+      C: "Hermione Granger"
+      D: "Dobby"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character helps Harry decode the golden egg?"
+        answers:
+          A: "Moody"
+          B: "Cedric Diggory"
+          C: "Hermione Granger"
+          D: "Dobby"
+    difficulty: HARD
+  - text: "Dans quelle langue est écrit le message que Harry entend en ouvrant l'œuf d'or ?"
+    answers:
+      A: "Le Mermish"
+      B: "Le Fourchelang"
+      C: "Le Gobbledegook"
+      D: "L'Elfique"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which language is the message Harry hears when he opens the golden egg written?"
+        answers:
+          A: "Mermish"
+          B: "Parseltongue"
+          C: "Gobbledegook"
+          D: "Elvish"
+    difficulty: HARD
+  - text: "Quel objet Harry utilise-t-il pour respirer sous l'eau ?"
+    answers:
+      A: "Des branchies de poisson"
+      B: "Un charme de tête de bulle"
+      C: "Des herbes magiques"
+      D: "Une potion de respiration"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which item does Harry use to breathe underwater?"
+        answers:
+          A: "Fish gills"
+          B: "A Bubble-Head Charm"
+          C: "Magical herbs"
+          D: "A breathing potion"
+    difficulty: HARD
+  - text: "Quel sort Voldemort utilise-t-il pour tenter de tuer Harry dans le cimetière ?"
+    answers:
+      A: "Avada Kedavra"
+      B: "Crucio"
+      C: "Imperio"
+      D: "Sectumsempra"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell does Voldemort use to try to kill Harry in the graveyard?"
+        answers:
+          A: "Avada Kedavra"
+          B: "Crucio"
+          C: "Imperio"
+          D: "Sectumsempra"
+    difficulty: HARD
+  - text: "Quel personnage Neville invite-t-il au bal de Noël ?"
+    answers:
+      A: "Cho Chang"
+      B: "Luna Lovegood"
+      C: "Ginny Weasley"
+      D: "Hermione Granger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character does Neville invite to the Christmas Ball?"
+        answers:
+          A: "Cho Chang"
+          B: "Luna Lovegood"
+          C: "Ginny Weasley"
+          D: "Hermione Granger"
+    difficulty: HARD
+  - text: "Quel est le nom du elf de maison qui aide Harry pour la deuxième tâche ?"
+    answers:
+      A: "Dobby"
+      B: "Kreattur"
       C: "Winky"
       D: "Hokey"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
-        text: "Which house-elf is accused at the start?"
+        text: "What is the name of the house-elf who helps Harry for the second task?"
         answers:
-          A: "Kreacher"
-          B: "Dobby"
+          A: "Dobby"
+          B: "Kreacher"
           C: "Winky"
           D: "Hokey"
-  - text: "Quelle journaliste couvre le tournoi ?"
-    answers:
-      A: "Lavande"
-      B: "Bertha Jorkins"
-      C: "Cho Chang"
-      D: "Rita Skeeter"
-    correctAnswer: "D"
     difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour réparer les lunettes de Harry ?"
+    answers:
+      A: "Reparo"
+      B: "Wingardium Leviosa"
+      C: "Oculus Reparo"
+      D: "Finite Incantatem"
+    correctAnswer: C
     translations:
       en:
-        text: "Which journalist covers the tournament?"
+        text: "Which spell does Hermione use to repair Harry's glasses?"
         answers:
-          A: "Lavender"
-          B: "Bertha Jorkins"
-          C: "Cho Chang"
-          D: "Rita Skeeter"
-  - text: "Quel objet magique montre des souvenirs ?"
-    answers:
-      A: "la Carte"
-      B: "le Miroir"
-      C: "la Pensine"
-      D: "le Retourneur"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which magical object shows memories?"
-        answers:
-          A: "the Map"
-          B: "the Mirror"
-          C: "the Pensieve"
-          D: "the Time-Turner"
-  - text: "Combien de Sortilèges Impardonnables existe-t-il ?"
-    answers:
-      A: "cinq"
-      B: "deux"
-      C: "quatre"
-      D: "trois"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "How many Unforgivable Curses are there?"
-        answers:
-          A: "five"
-          B: "two"
-          C: "four"
-          D: "three"
-  - text: "Quel sort contrôle la volonté ?"
-    answers:
-      A: "Expelliarmus"
-      B: "le Cruciatus"
-      C: "Avada Kedavra"
-      D: "l'Imperium"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which curse controls the will?"
-        answers:
-          A: "Expelliarmus"
-          B: "the Cruciatus Curse"
-          C: "Avada Kedavra"
-          D: "the Imperius Curse"
-  - text: "Quel sort fait souffrir atrocement ?"
-    answers:
-      A: "le Cruciatus"
-      B: "l'Imperium"
-      C: "Avada Kedavra"
-      D: "Lumos"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which curse causes terrible pain?"
-        answers:
-          A: "the Cruciatus Curse"
-          B: "the Imperius Curse"
-          C: "Avada Kedavra"
-          D: "Lumos"
-  - text: "Quel sort tue sans laisser de trace ?"
-    answers:
-      A: "l'Imperium"
-      B: "le Cruciatus"
-      C: "Avada Kedavra"
-      D: "Sectumsempra"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which curse kills without a trace?"
-        answers:
-          A: "the Imperius Curse"
-          B: "the Cruciatus Curse"
-          C: "Avada Kedavra"
-          D: "Sectumsempra"
-  - text: "Quelle fête a lieu en hiver dans ce film ?"
-    answers:
-      A: "le bal de Noël"
-      B: "le banquet d'Halloween"
-      C: "la fête des Sorciers"
-      D: "un mariage"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which winter event takes place in this film?"
-        answers:
-          A: "the Yule Ball"
-          B: "the Halloween feast"
-          C: "the Wizards' party"
-          D: "a wedding"
-  - text: "Avec qui Harry va-t-il au bal ?"
-    answers:
-      A: "Parvati Patil"
-      B: "Cho Chang"
-      C: "Hermione"
-      D: "Lavande"
-    correctAnswer: "A"
+          A: "Reparo"
+          B: "Wingardium Leviosa"
+          C: "Oculus Reparo"
+          D: "Finite Incantatem"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "Who does Harry take to the ball?"
-        answers:
-          A: "Parvati Patil"
-          B: "Cho Chang"
-          C: "Hermione"
-          D: "Lavender"
-  - text: "Avec qui Ron va-t-il au bal ?"
-    answers:
-      A: "Padma Patil"
-      B: "Hermione"
-      C: "Lavande"
-      D: "Ginny"
-    correctAnswer: "A"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who does Ron take to the ball?"
-        answers:
-          A: "Padma Patil"
-          B: "Hermione"
-          C: "Lavender"
-          D: "Ginny"
-  - text: "Comment l'école de Beauxbâtons arrive-t-elle ?"
-    answers:
-      A: "par portoloin"
-      B: "par bateau"
-      C: "par train"
-      D: "par une calèche volante"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "How does Beauxbatons arrive?"
-        answers:
-          A: "by Portkey"
-          B: "by boat"
-          C: "by train"
-          D: "by a flying carriage"
-  - text: "Comment l'école de Durmstrang arrive-t-elle ?"
-    answers:
-      A: "par bateau"
-      B: "par calèche"
-      C: "par train"
-      D: "par balai"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "How does Durmstrang arrive?"
-        answers:
-          A: "by boat"
-          B: "by carriage"
-          C: "by train"
-          D: "by broom"
-  - text: "Quelles créatures tirent la calèche de Beauxbâtons ?"
-    answers:
-      A: "des hippogriffes"
-      B: "des abraxans"
-      C: "des dragons"
-      D: "des chevaux ailés magiques"
-    correctAnswer: "B"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which creatures pull Beauxbatons' carriage?"
-        answers:
-          A: "hippogriffs"
-          B: "abraxans"
-          C: "dragons"
-          D: "magical winged horses"
-  - text: "Quel est le titre français du film ?"
-    answers:
-      A: "Harry Potter et l'Ordre du Phénix"
-      B: "Harry Potter et le Prince de sang-mêlé"
-      C: "Harry Potter et la Coupe de feu"
-      D: "Harry Potter et les Reliques de la Mort"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the film's French title?"
-        answers:
-          A: "Harry Potter et l'Ordre du Phénix"
-          B: "Harry Potter et le Prince de sang-mêlé"
-          C: "Harry Potter et la Coupe de feu"
-          D: "Harry Potter et les Reliques de la Mort"
-  - text: "Qui a inscrit le nom de Harry dans la Coupe ?"
-    answers:
-      A: "Rogue"
-      B: "Dumbledore"
-      C: "Barty Crouch Jr"
-      D: "Maugrey lui-même"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who put Harry's name in the Goblet?"
-        answers:
-          A: "Snape"
-          B: "Dumbledore"
-          C: "Barty Crouch Jr"
-          D: "Moody himself"
-  - text: "Quel cours Alastor Maugrey enseigne-t-il ?"
-    answers:
-      A: "les Sortilèges"
-      B: "les Potions"
-      C: "la Métamorphose"
-      D: "la Défense contre les forces du Mal"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which subject does Alastor Moody teach?"
-        answers:
-          A: "Charms"
-          B: "Potions"
-          C: "Transfiguration"
-          D: "Defence Against the Dark Arts"
-  - text: "Avec qui Harry partage-t-il la victoire de la troisième tâche ?"
+  - text: "Quel personnage est tué par Voldemort dans le cimetière ?"
     answers:
       A: "Cedric Diggory"
-      B: "Viktor Krum"
-      C: "Fleur Delacour"
-      D: "Drago"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+      B: "Barty Crouch Sr"
+      C: "Frank Bryce"
+      D: "Bertha Jorkins"
+    correctAnswer: A
     translations:
       en:
-        text: "With whom does Harry share the third task's victory?"
+        text: "Which character is killed by Voldemort in the graveyard?"
+        answers:
+          A: "Cedric Diggory"
+          B: "Barty Crouch Sr"
+          C: "Frank Bryce"
+          D: "Bertha Jorkins"
+    difficulty: HARD
+  - text: "Quel est le nom du journaliste du Daily Prophet qui couvre le Tournoi ?"
+    answers:
+      A: "Katie Bell"
+      B: "Luna Lovegood"
+      C: "Cho Chang"
+      D: "Rita Skeeter"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Daily Prophet journalist covering the Tournament?"
+        answers:
+          A: "Katie Bell"
+          B: "Luna Lovegood"
+          C: "Cho Chang"
+          D: "Rita Skeeter"
+    difficulty: HARD
+  - text: "Quel objet Harry utilise-t-il pour la troisième tâche du labyrinthe ?"
+    answers:
+      A: "Un balai magique"
+      B: "Une carte du Maraudeur"
+      C: "Une cape d'invisibilité"
+      D: "Une baguette magique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which item does Harry use for the third task in the maze?"
+        answers:
+          A: "A magic broom"
+          B: "A Marauder's Map"
+          C: "An Invisibility Cloak"
+          D: "A magic wand"
+    difficulty: HARD
+  - text: "Quel personnage remet la Coupe de feu à Harry après la résurrection ?"
+    answers:
+      A: "Lucius Malfoy"
+      B: "Peter Pettigrow"
+      C: "Barty Crouch Jr"
+      D: "Voldemort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character hands the Triwizard Cup to Harry after the resurrection?"
+        answers:
+          A: "Lucius Malfoy"
+          B: "Peter Pettigrew"
+          C: "Barty Crouch Jr"
+          D: "Voldemort"
+    difficulty: HARD
+  - text: "Quel âge minimum faut-il avoir pour s'inscrire au Tournoi des Trois Sorciers dans le film ?"
+    answers:
+      A: "15 ans"
+      B: "17 ans"
+      C: "16 ans"
+      D: "18 ans"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the minimum age required to enter the Triwizard Tournament in the film?"
+        answers:
+          A: "15 years old"
+          B: "17 years old"
+          C: "16 years old"
+          D: "18 years old"
+    difficulty: EXPERT
+  - text: "Qui prononce le sort qui fait apparaître la Marque des Ténèbres dans le ciel après la Coupe du monde de Quidditch ?"
+    answers:
+      A: "Barty Crouch Jr"
+      B: "Peter Pettigrow"
+      C: "Lucius Malefoy"
+      D: "Bellatrix Lestrange"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who casts the spell that makes the Dark Mark appear in the sky after the Quidditch World Cup?"
+        answers:
+          A: "Barty Crouch Jr"
+          B: "Peter Pettigrew"
+          C: "Lucius Malfoy"
+          D: "Bellatrix Lestrange"
+    difficulty: EXPERT
+  - text: "Quel dragon Harry affronte-t-il lors de la première tâche ?"
+    answers:
+      A: "Le Suédois à museau court"
+      B: "Le Gallois vert commun"
+      C: "Le Magyar à pointes"
+      D: "L'Antipodean Opaleye"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dragon does Harry face in the first task?"
+        answers:
+          A: "The Swedish Short-Snout"
+          B: "The Common Welsh Green"
+          C: "The Hungarian Horntail"
+          D: "The Antipodean Opaleye"
+    difficulty: HARD
+  - text: "Quel objet Harry utilise-t-il pour convoquer son balai pendant l'épreuve du dragon ?"
+    answers:
+      A: "Sa baguette"
+      B: "Un Accio enseigné par Hermione"
+      C: "Un parchemin de Maugrey"
+      D: "Le miroir à double sens"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What does Harry use to summon his broom during the dragon task?"
+        answers:
+          A: "His wand"
+          B: "An Accio taught by Hermione"
+          C: "A parchment from Moody"
+          D: "The two-way mirror"
+    difficulty: HARD
+  - text: "Qui est le champion de Beauxbâtons dans le Tournoi ?"
+    answers:
+      A: "Viktor Krum"
+      B: "Fleur Delacour"
+      C: "Cédric Diggory"
+      D: "Cho Chang"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the Beauxbatons champion in the Tournament?"
+        answers:
+          A: "Viktor Krum"
+          B: "Fleur Delacour"
+          C: "Cedric Diggory"
+          D: "Cho Chang"
+    difficulty: HARD
+  - text: "Quelle créature Krum affronte-t-il et blesse-t-il lors de la première tâche, lui coûtant des points ?"
+    answers:
+      A: "Son propre dragon"
+      B: "Un hippogriffe"
+      C: "Un Basilic"
+      D: "Un Scroutt à pétard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which creature does Krum face and injure in the first task, costing him points?"
+        answers:
+          A: "His own dragon"
+          B: "A hippogriff"
+          C: "A Basilisk"
+          D: "A Blast-Ended Skrewt"
+    difficulty: EXPERT
+  - text: "Quel ingrédient de la potion de résurrection Voldemort ordonne-t-il d'ajouter en premier ?"
+    answers:
+      A: "La chair du serviteur"
+      B: "L'os du père"
+      C: "Le sang de l'ennemi"
+      D: "La corne de licorne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which ingredient of the resurrection potion does Voldemort order to be added first?"
+        answers:
+          A: "The flesh of the servant"
+          B: "The bone of the father"
+          C: "The blood of the enemy"
+          D: "The unicorn horn"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour faire flotter les pages du livre que Harry consulte pour l'œuf ?"
+    answers:
+      A: "Diffindo"
+      B: "Accio"
+      C: "Wingardium Leviosa"
+      D: "Alohomora"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell does Hermione use to make the pages of the book Harry consults for the egg float?"
+        answers:
+          A: "Diffindo"
+          B: "Accio"
+          C: "Wingardium Leviosa"
+          D: "Alohomora"
+    difficulty: EXPERT
+  - text: "Quel personnage fournit à Harry des branchies de poisson-garou pour la deuxième tâche ?"
+    answers:
+      A: "Dobby"
+      B: "Neville"
+      C: "Maître Dumbledore"
+      D: "Dobby et Dumbledore"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character provides Harry with gillyweed for the second task?"
+        answers:
+          A: "Dobby"
+          B: "Neville"
+          C: "Headmaster Dumbledore"
+          D: "Dobby and Dumbledore"
+    difficulty: EXPERT
+  - text: "Dans quel ordre Harry, Ron, Hermione et Cho sont-ils attachés au fond du lac lors de la deuxième tâche ?"
+    answers:
+      A: "Ron, Hermione, Gabrielle, Cho"
+      B: "Hermione, Ron, Cho, Gabrielle"
+      C: "Ron, Hermione, Cho, Gabrielle"
+      D: "Cho, Ron, Hermione, Gabrielle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what order are Harry, Ron, Hermione, and Cho tied at the bottom of the lake during the second task?"
+        answers:
+          A: "Ron, Hermione, Gabrielle, Cho"
+          B: "Hermione, Ron, Cho, Gabrielle"
+          C: "Ron, Hermione, Cho, Gabrielle"
+          D: "Cho, Ron, Hermione, Gabrielle"
+    difficulty: EXPERT
+  - text: "Quel objet Cédric offre-t-il à Harry pour l'aider dans la deuxième tâche ?"
+    answers:
+      A: "Une branche de gui"
+      B: "Un miroir"
+      C: "Un sifflet"
+      D: "Un filet d'or"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What item does Cedric offer Harry to help him in the second task?"
+        answers:
+          A: "A sprig of mistletoe"
+          B: "A mirror"
+          C: "A whistle"
+          D: "A golden net"
+    difficulty: HARD
+  - text: "Quelle créature Harry et Cédric rencontrent-ils dans le labyrinthe et qui attaque Cédric ?"
+    answers:
+      A: "Un hippogriffe"
+      B: "Un Scroutt à pétard"
+      C: "Un Strangulot"
+      D: "Une acromantule"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which creature do Harry and Cedric encounter in the maze that attacks Cedric?"
+        answers:
+          A: "A hippogriff"
+          B: "A Blast-Ended Skrewt"
+          C: "A Grindylow"
+          D: "An acromantula"
+    difficulty: EXPERT
+  - text: "Qui est le premier à toucher la Coupe de feu dans le labyrinthe avec Harry ?"
+    answers:
+      A: "Cédric Diggory"
+      B: "Viktor Krum"
+      C: "Fleur Delacour"
+      D: "Cho Chang"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who is the first to touch the Triwizard Cup in the maze with Harry?"
         answers:
           A: "Cedric Diggory"
           B: "Viktor Krum"
           C: "Fleur Delacour"
-          D: "Draco"
-  - text: "Combien d'épreuves compte le tournoi ?"
-    answers:
-      A: "deux"
-      B: "trois"
-      C: "quatre"
-      D: "cinq"
-    correctAnswer: "B"
-    difficulty: EASY
-    translations:
-      en:
-        text: "How many tasks does the tournament have?"
-        answers:
-          A: "two"
-          B: "three"
-          C: "four"
-          D: "five"
-  - text: "Quel sort Maugrey démontre-t-il sur une araignée ?"
-    answers:
-      A: "Expelliarmus"
-      B: "le Patronus"
-      C: "Lumos"
-      D: "l'Imperium"
-    correctAnswer: "D"
+          D: "Cho Chang"
     difficulty: HARD
+  - text: "Quel sort Voldemort utilise-t-il pour tenter de tuer Harry au cimetière après sa renaissance ?"
+    answers:
+      A: "Crucio"
+      B: "Sectumsempra"
+      C: "Avada Kedavra"
+      D: "Impero"
+    correctAnswer: C
     translations:
       en:
-        text: "Which curse does Moody demonstrate on a spider?"
+        text: "Which spell does Voldemort use to try to kill Harry in the graveyard after his rebirth?"
         answers:
-          A: "Expelliarmus"
-          B: "the Patronus"
-          C: "Lumos"
-          D: "the Imperius Curse"
-  - text: "Quelle sorcière a disparu avant le tournoi après avoir croisé Voldemort ?"
-    answers:
-      A: "Cho Chang"
-      B: "Rita Skeeter"
-      C: "Bertha Jorkins"
-      D: "Lavande"
-    correctAnswer: "C"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which witch vanished before the tournament after meeting Voldemort?"
-        answers:
-          A: "Cho Chang"
-          B: "Rita Skeeter"
-          C: "Bertha Jorkins"
-          D: "Lavender"
-  - text: "Quel elfe est renvoyé à cause de la Marque des Ténèbres ?"
-    answers:
-      A: "Winky"
-      B: "Dobby"
-      C: "Kreattur"
-      D: "Hokey"
-    correctAnswer: "A"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which elf is dismissed over the Dark Mark?"
-        answers:
-          A: "Winky"
-          B: "Dobby"
-          C: "Kreacher"
-          D: "Hokey"
-  - text: "Qui Hermione embrasse-t-elle à la fin du film ?"
-    answers:
-      A: "Viktor Krum"
-      B: "Ron"
-      C: "Harry"
-      D: "Cedric"
-    correctAnswer: "A"
+          A: "Crucio"
+          B: "Sectumsempra"
+          C: "Avada Kedavra"
+          D: "Imperio"
     difficulty: HARD
+  - text: "Quelle bénédiction Dumbledore prononce-t-il lors de l'enterrement de Cédric ?"
+    answers:
+      A: "« Tu n'es pas mort pour rien »"
+      B: "« Que la lumière l'accueille »"
+      C: "« Que son sacrifice nous rappelle la valeur de l'amitié »"
+      D: "« Repose en paix, champion de Poudlard »"
+    correctAnswer: A
     translations:
       en:
-        text: "Whom does Hermione kiss at the end of the film?"
+        text: "What blessing does Dumbledore give at Cedric's funeral?"
         answers:
-          A: "Viktor Krum"
-          B: "Ron"
-          C: "Harry"
-          D: "Cedric"
-  - text: "Quel objet les deux champions attrapent-ils en même temps ?"
-    answers:
-      A: "une clé"
-      B: "un œuf"
-      C: "la Coupe des Trois Sorciers"
-      D: "une épée"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which object do the two champions grab at the same time?"
-        answers:
-          A: "a key"
-          B: "an egg"
-          C: "the Triwizard Cup"
-          D: "a sword"
-  - text: "Que crie Voldemort en voyant Cedric au cimetière ?"
-    answers:
-      A: "Laisse-le"
-      B: "Tue le surplus"
-      C: "Attrape-le"
-      D: "Réveille-le"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does Voldemort shout upon seeing Cedric in the graveyard?"
-        answers:
-          A: "Leave him"
-          B: "Kill the spare"
-          C: "Catch him"
-          D: "Wake him"
-  - text: "Comment appelle-t-on les serviteurs de Voldemort ?"
-    answers:
-      A: "les Maraudeurs"
-      B: "les Aurors"
-      C: "les Mangemorts"
-      D: "les Elfes"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What are Voldemort's servants called?"
-        answers:
-          A: "Marauders"
-          B: "Aurors"
-          C: "Death Eaters"
-          D: "Elves"
-  - text: "Quel champion est en partie vélane ?"
-    answers:
-      A: "Harry"
-      B: "Viktor Krum"
-      C: "Cedric"
-      D: "Fleur Delacour"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which champion is part veela?"
-        answers:
-          A: "Harry"
-          B: "Viktor Krum"
-          C: "Cedric"
-          D: "Fleur Delacour"
-  - text: "Quel champion est un joueur de Quidditch célèbre ?"
-    answers:
-      A: "Cedric"
-      B: "Viktor Krum"
-      C: "Harry"
-      D: "Fleur"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which champion is a famous Quidditch player?"
-        answers:
-          A: "Cedric"
-          B: "Viktor Krum"
-          C: "Harry"
-          D: "Fleur"
-  - text: "Quelle créature géante hante le labyrinthe ?"
-    answers:
-      A: "un troll"
-      B: "un dragon"
-      C: "une acromantule"
-      D: "un loup"
-    correctAnswer: "C"
+          A: "\"You did not die in vain\""
+          B: "\"May the light welcome him\""
+          C: "\"May his sacrifice remind us of the value of friendship\""
+          D: "\"Rest in peace, champion of Hogwarts\""
     difficulty: EXPERT
+  - text: "Quel est le premier nom du professeur Maugrey, sous les traits duquel se cache Barty Crouch Jr ?"
+    answers:
+      A: "Alastor"
+      B: "Albus"
+      C: "Filius"
+      D: "Severus"
+    correctAnswer: A
     translations:
       en:
-        text: "Which giant creature haunts the maze?"
+        text: "What is the first name of Professor Moody, under whose appearance Barty Crouch Jr. is hiding?"
         answers:
-          A: "a troll"
-          B: "a dragon"
-          C: "an acromantula"
-          D: "a wolf"
-  - text: "Qui Harry doit-il sauver au fond du lac ?"
-    answers:
-      A: "Neville"
-      B: "Hermione"
-      C: "Ginny"
-      D: "Ron"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Whom must Harry save at the bottom of the lake?"
-        answers:
-          A: "Neville"
-          B: "Hermione"
-          C: "Ginny"
-          D: "Ron"
-  - text: "Qui est la petite sœur de Fleur ?"
-    answers:
-      A: "Parvati"
-      B: "Cho"
-      C: "Padma"
-      D: "Gabrielle"
-    correctAnswer: "D"
+          A: "Alastor"
+          B: "Albus"
+          C: "Filius"
+          D: "Severus"
     difficulty: EXPERT
+  - text: "Quel objet Maugrey donne-t-il à Neville pour l'aider à comprendre les plantes ?"
+    answers:
+      A: "Un livre de botanique magique"
+      B: "Des branchies de poisson-garou"
+      C: "Un parchemin annoté"
+      D: "Une plante en pot"
+    correctAnswer: A
     translations:
       en:
-        text: "Who is Fleur's little sister?"
+        text: "What object does Moody give Neville to help him understand plants?"
         answers:
-          A: "Parvati"
-          B: "Cho"
-          C: "Padma"
-          D: "Gabrielle"
-  - text: "Qui enseigne les Sortilèges Impardonnables aux élèves ?"
+          A: "A magical botany book"
+          B: "Werewolf fish gills"
+          C: "An annotated parchment"
+          D: "A potted plant"
+    difficulty: EXPERT
+  - text: "Quelle chanson le groupe des Trois Sorcières interprète-t-il lors du bal de Noël ?"
     answers:
-      A: "Rogue"
-      B: "Maugrey"
-      C: "Dumbledore"
+      A: "« Underwater»"
+      B: "« Magic Works »"
+      C: "« This Is the Night »"
+      D: "« Do the Hippogriff »"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which song does the band The Weird Sisters perform at the Yule Ball?"
+        answers:
+          A: "\"Underwater\""
+          B: "\"Magic Works\""
+          C: "\"This Is the Night\""
+          D: "\"Do the Hippogriff\""
+    difficulty: EXPERT
+  - text: "Quel cadeau Dobby offre-t-il à Harry pour Noël dans le film ?"
+    answers:
+      A: "Une chaussette"
+      B: "Une écharpe tricotée"
+      C: "Un livre de sortilèges"
+      D: "Des bonbons au citron"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What gift does Dobby give Harry for Christmas in the film?"
+        answers:
+          A: "A sock"
+          B: "A knitted scarf"
+          C: "A spellbook"
+          D: "Lemon drops"
+    difficulty: EXPERT
+  - text: "Qui remet à Harry la carte du Maraudeur qu'il utilise pour localiser Barty Crouch Sr dans le film ?"
+    answers:
+      A: "Remus Lupin"
+      B: "Les jumeaux Weasley"
+      C: "Sirius Black"
+      D: "Dumbledore"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who gives Harry the Marauder's Map that he uses to locate Barty Crouch Sr. in the film?"
+        answers:
+          A: "Remus Lupin"
+          B: "The Weasley twins"
+          C: "Sirius Black"
+          D: "Dumbledore"
+    difficulty: EXPERT
+  - text: "Quel sort Maugrey utilise-t-il pour faire léviter Drago Malefoy dans la cour ?"
+    answers:
+      A: "LeviCORPUS"
+      B: "Mobiliarbus"
+      C: "Wingardium Leviosa"
+      D: "Locomotor Wibbly"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell does Moody use to levitate Draco Malfoy in the courtyard?"
+        answers:
+          A: "Levicorpus"
+          B: "Mobiliarbus"
+          C: "Wingardium Leviosa"
+          D: "Locomotor Wibbly"
+    difficulty: EXPERT
+  - text: "Que dit Dumbledore pour calmer la foule après la sélection des champions ?"
+    answers:
+      A: "Écoutez-moi !"
+      B: "Asseyez-vous !"
+      C: "Silence !"
+      D: "Calmez-vous !"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does Dumbledore say to calm the crowd after the champions are selected?"
+        answers:
+          A: "Listen to me!"
+          B: "Sit down!"
+          C: "Silence!"
+          D: "Calm down!"
+    difficulty: EXPERT
+  - text: "Quel est le premier nom du chef de la police moldue chez qui Voldemort et Pettigrow se cachent au début du film ?"
+    answers:
+      A: "Bob Ogden"
+      B: "Tom Riddle"
+      C: "John Dawlish"
+      D: "Frank Bryce"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first name of the Muggle police chief with whom Voldemort and Pettigrew hide at the start of the film?"
+        answers:
+          A: "Bob Ogden"
+          B: "Tom Riddle"
+          C: "John Dawlish"
+          D: "Frank Bryce"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dragon que Cédric affronte lors de la première tâche ?"
+    answers:
+      A: "Le Noir des Hébrides"
+      B: "Le Gallois vert"
+      C: "Le Suédois à museau court"
+      D: "Le Magyar à pointes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the dragon Cedric faces in the first task?"
+        answers:
+          A: "The Hebridean Black"
+          B: "The Common Welsh Green"
+          C: "The Swedish Short-Snout"
+          D: "The Hungarian Horntail"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dragon que Fleur affronte lors de la première tâche ?"
+    answers:
+      A: "Un Magyar à pointes"
+      B: "Un Gallois vert"
+      C: "Un Suédois à museau court"
+      D: "Un Roumain à longues cornes"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dragon Fleur faces in the first task?"
+        answers:
+          A: "A Hungarian Horntail"
+          B: "A Common Welsh Green"
+          C: "A Swedish Short-Snout"
+          D: "A Romanian Longhorn"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dragon que Krum affronte lors de la première tâche ?"
+    answers:
+      A: "Un Gallois vert"
+      B: "Un Magyar à pointes"
+      C: "Un Noir des Hébrides"
+      D: "Un Suédois à museau court"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the dragon Krum faces in the first task?"
+        answers:
+          A: "A Common Welsh Green"
+          B: "A Hungarian Horntail"
+          C: "A Hebridean Black"
+          D: "A Swedish Short-Snout"
+    difficulty: EXPERT
+  - text: "Quel est le nom du dragon que Harry affronte lors de la première tâche ?"
+    answers:
+      A: "Le Gallois vert"
+      B: "Le Suédois à museau court"
+      C: "Le Magyar à pointes"
+      D: "Le Noir des Hébrides"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the dragon Harry faces in the first task?"
+        answers:
+          A: "The Common Welsh Green"
+          B: "The Swedish Short-Snout"
+          C: "The Hungarian Horntail"
+          D: "The Hebridean Black"
+    difficulty: HARD
+  - text: "Quel objet précis Harry utilise-t-il pour attirer le dragon et récupérer l'œuf ?"
+    answers:
+      A: "Sa baguette"
+      B: "Une pierre"
+      C: "Son balai"
+      D: "Un miroir"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What specific object does Harry use to lure the dragon and retrieve the egg?"
+        answers:
+          A: "His wand"
+          B: "A stone"
+          C: "His broom"
+          D: "A mirror"
+    difficulty: EXPERT
+  - text: "Combien de points Harry reçoit-il pour avoir attrapé l'œuf lors de la première tâche ?"
+    answers:
+      A: "40 points"
+      B: "45 points"
+      C: "50 points"
+      D: "35 points"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many points does Harry receive for catching the egg in the first task?"
+        answers:
+          A: "40 points"
+          B: "45 points"
+          C: "50 points"
+          D: "35 points"
+    difficulty: EXPERT
+  - text: "Quel est le nom du professeur qui remplace Maugrey pour le cours de Défense contre les forces du Mal après l'attaque du labyrinthe ?"
+    answers:
+      A: "McGonagall"
+      B: "Dumbledore"
+      C: "Rogue"
       D: "Lupin"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
-        text: "Who teaches the Unforgivable Curses to the students?"
+        text: "What is the name of the professor who replaces Moody for the Defense Against the Dark Arts class after the maze attack?"
         answers:
-          A: "Snape"
-          B: "Moody"
-          C: "Dumbledore"
+          A: "McGonagall"
+          B: "Dumbledore"
+          C: "Snape"
           D: "Lupin"
-  - text: "Quel objet permet de respirer sous l'eau lors de la 2e tâche ?"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour réparer les lunettes de Harry après la première tâche ?"
     answers:
-      A: "un sort"
-      B: "une potion"
-      C: "les branchies-aquatiques"
-      D: "une cape"
-    correctAnswer: "C"
-    difficulty: HARD
+      A: "Reparo"
+      B: "Oculus Reparo"
+      C: "Wingardium Leviosa"
+      D: "Accio"
+    correctAnswer: B
     translations:
       en:
-        text: "Which item allows breathing underwater in the second task?"
+        text: "Which spell does Hermione use to repair Harry's glasses after the first task?"
         answers:
-          A: "a spell"
-          B: "a potion"
-          C: "gillyweed"
-          D: "a cloak"
-  - text: "Dans quel journal Rita Skeeter écrit-elle ?"
+          A: "Reparo"
+          B: "Oculus Reparo"
+          C: "Wingardium Leviosa"
+          D: "Accio"
+    difficulty: EXPERT
+  - text: "Quel ingrédient Voldemort ordonne-t-il d'ajouter en deuxième dans la potion de résurrection ?"
     answers:
-      A: "Le Chicaneur"
-      B: "La Gazette du Sorcier"
-      C: "Le Sorcier Quotidien"
-      D: "La Revue de Poudlard"
-    correctAnswer: "B"
-    difficulty: HARD
+      A: "L'os du père"
+      B: "La chair du serviteur"
+      C: "Le sang de l'ennemi"
+      D: "La main de la victime"
+    correctAnswer: C
     translations:
       en:
-        text: "Which newspaper does Rita Skeeter write for?"
+        text: "Which ingredient does Voldemort order to be added second in the resurrection potion?"
         answers:
-          A: "the Quibbler"
-          B: "the Daily Prophet"
-          C: "the Daily Wizard"
-          D: "the Hogwarts Review"
+          A: "The bone of the father"
+          B: "The flesh of the servant"
+          C: "The blood of the enemy"
+          D: "The hand of the victim"
+    difficulty: EXPERT
+  - text: "Quelle est la première phrase que Voldemort prononce après sa renaissance dans le cimetière ?"
+    answers:
+      A: "Harry Potter, je te vois."
+      B: "La magie est puissante."
+      C: "Me voilà."
+      D: "Tu es en vie."
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the first sentence Voldemort says after his rebirth in the graveyard?"
+        answers:
+          A: "Harry Potter, I see you."
+          B: "Magic is powerful."
+          C: "Here I am."
+          D: "You are alive."
+    difficulty: EXPERT
+  - text: "Quel objet Harry utilise-t-il pour échapper à Voldemort dans le cimetière et revenir à Poudlard ?"
+    answers:
+      A: "Le retourneur de temps"
+      B: "Le portoloin"
+      C: "Le miroir"
+      D: "La poudre de cheminette"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which object does Harry use to escape Voldemort in the graveyard and return to Hogwarts?"
+        answers:
+          A: "The Time-Turner"
+          B: "The Portkey"
+          C: "The mirror"
+          D: "Floo powder"
+    difficulty: EXPERT
+  - text: "Quel sort Harry utilise-t-il pour repousser Voldemort au cimetière ?"
+    answers:
+      A: "Sectumsempra"
+      B: "Stupefix"
+      C: "Expelliarmus"
+      D: "Petrificus Totalus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell does Harry use to repel Voldemort in the graveyard?"
+        answers:
+          A: "Sectumsempra"
+          B: "Stupefy"
+          C: "Expelliarmus"
+          D: "Petrificus Totalus"
+    difficulty: HARD
+  - text: "Quel personnage aide Harry à s'entraîner pour la deuxième tâche en lui lançant des sorts ?"
+    answers:
+      A: "Hermione"
+      B: "Ron"
+      C: "Dumbledore"
+      D: "Neville"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character helps Harry train for the second task by casting spells at him?"
+        answers:
+          A: "Hermione"
+          B: "Ron"
+          C: "Dumbledore"
+          D: "Neville"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la plante que Neville donne à Harry pour l'aider à respirer sous l'eau ?"
+    answers:
+      A: "Ellébore"
+      B: "Asphodèle"
+      C: "Mandragore"
+      D: "Branchies de poisson-garou"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the plant Neville gives Harry to help him breathe underwater?"
+        answers:
+          A: "Hellebore"
+          B: "Asphodel"
+          C: "Mandrake"
+          D: "Gillyweed"
+    difficulty: EXPERT
+  - text: "Qui est la personne que Harry doit sauver dans la deuxième tâche ?"
+    answers:
+      A: "Hermione"
+      B: "Ron"
+      C: "Cho"
+      D: "Ginny"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the person Harry must save in the second task?"
+        answers:
+          A: "Hermione"
+          B: "Ron"
+          C: "Cho"
+          D: "Ginny"
+    difficulty: HARD
+  - text: "Quel est le nom de la créature qui attaque Cédric dans le labyrinthe ?"
+    answers:
+      A: "Un strangulot"
+      B: "Un scroutt à pétard"
+      C: "Une acromantule"
+      D: "Un sphinx"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the creature that attacks Cedric in the maze?"
+        answers:
+          A: "A Strangulot"
+          B: "A Blast-Ended Skrewt"
+          C: "An Acromantula"
+          D: "A Sphinx"
+    difficulty: EXPERT
+  - text: "Quel sort Maugrey lance-t-il sur le scroutt à pétard lors du cours ?"
+    answers:
+      A: "Stupéfix"
+      B: "Expelliarmus"
+      C: "Reparo"
+      D: "Accio"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell does Moody cast on the Blast-Ended Skrewt during class?"
+        answers:
+          A: "Stupefy"
+          B: "Expelliarmus"
+          C: "Reparo"
+          D: "Accio"
+    difficulty: EXPERT
