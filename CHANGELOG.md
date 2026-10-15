@@ -1,3 +1,9 @@
+## [6.11.0](https://github.com/quizup-organization/quizup-theme/compare/v6.10.0...v6.11.0) (2026-10-15)
+
+### Features
+
+* **seed:** theme « Blasons de clubs » (288 ecussons fair use) ([c60c7f2](https://github.com/quizup-organization/quizup-theme/commit/c60c7f2bf43342c05fcda9e939994bfe1e4eb71b))
+
 ## [6.10.0](https://github.com/quizup-organization/quizup-theme/compare/v6.9.0...v6.10.0) (2026-10-15)
 
 ### Features
