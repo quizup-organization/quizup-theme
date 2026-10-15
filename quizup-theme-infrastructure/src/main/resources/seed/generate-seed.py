@@ -165,6 +165,8 @@ def render(topic, questions):
         lines.append(f"    en: {yaml_scalar(topic['nameEn'])}\n")
     lines.append(f"  description: {yaml_scalar(topic['description'])}\n")
     lines.append(f"  category: {topic['category']}\n")
+    if topic.get("titles"):
+        lines.extend(titles_block(topic["titles"]))
     if topic.get("imageUrl"):
         lines.append(f"  imageUrl: {topic['imageUrl']}\n")
     lines.append("questions:\n")
@@ -315,6 +317,7 @@ def rebalance_only(api_key, args):
         "description": data["topic"]["description"],
         "category": data["topic"]["category"],
         "imageUrl": data["topic"].get("imageUrl"),
+        "titles": data["topic"].get("titles"),
     }
     questions = []
     for raw in data.get("questions") or []:
@@ -338,6 +341,78 @@ Tu raccourcis le texte d'une question de quiz qui s'appuie sur une image. Le nou
 AU PLUS 60 caractères, ne DÉCRIT PAS l'image et ne la résume pas (ex. « Quel est ce pays ? »,
 « À quel club ? »). Garde le même sens et la même réponse. Réponds UNIQUEMENT par
 {"text": "..."}."""
+
+TITLE_GRADES = ["NOVICE", "APPRENTI", "PRATIQUANT", "CONFIRME", "EXPERT", "MAITRE", "LEGENDE"]
+
+TITLES_SYSTEM_PROMPT = """\
+Tu inventes les 7 PALIERS de maîtrise (titres de progression) d'un thème de quiz, à la manière de
+QuizUp.
+
+Objectif : des titres ORIGINAUX et amusants, avec un CLIN D'ŒIL appuyé à l'univers du thème
+(rangs, grades, personnages, lieux, jargon, private jokes). On doit sourire en les lisant, tout en
+sentant la MONTÉE EN PRESTIGE du palier 1 au palier 7.
+
+Règles :
+- 7 paliers alignés sur l'échelle générique : le 1er est humble (voire un peu autodérisoire), le
+  7e est le sommet mythique de cet univers.
+- Le palier 1 (NOVICE) est un rang TRÈS modeste (débutant, maladroit, apprenti bricoleur) : jamais
+  un titre prestigieux (chevalier, champion, roi, maître…).
+- Varie les formulations : un même mot-clé ne revient PAS d'un palier à l'autre (ex. « Chevalier
+  de … » une seule fois dans toute la liste).
+- PROGRESSION STRICTEMENT CROISSANTE en prestige : chaque palier est UN CRAN au-dessus du
+  précédent. Si l'univers a une hiérarchie officielle, suis-la (ex. Genin → Chūnin → Jōnin →
+  Kage ; Dresseur → Champion d'Arène → Conseil des 4 → Maître). Interdit d'inverser (pas d'écuyer
+  au-dessus d'un chevalier, pas d'activité annexe — chasse au shiny, collection — au-dessus d'un
+  rang de maîtrise).
+- Les honneurs SUPRÊMES de l'univers (Ballon d'Or, champion du monde, titre de légende, trône,
+  divinité, arme mythique…) sont RÉSERVÉS aux paliers 6 (MAITRE) et 7 (LEGENDE). Interdit de les
+  placer avant : le palier 5 (EXPERT) est déjà très haut, mais ce n'est pas l'honneur ultime.
+- Ce sont des RANGS de maîtrise, PAS des métiers ni des rôles professionnels : interdit
+  « éleveur », « chauffeur de salle », « professeur », « entraîneur », « gérant », etc.
+- INTERDIT aussi : les libellés génériques (Novice, Apprenti, Pratiquant, Confirmé, Expert,
+  Maître, Légende), les doublons, le nom du thème seul, les mots « Quiz » et « Fan ».
+- 2 à 4 mots, ≤ 40 caractères, sans ponctuation finale ni point d'exclamation.
+- FR et EN (adaptation culturelle, pas du mot à mot).
+- Réponds UNIQUEMENT par un objet JSON {"fr": {"NOVICE": "…", …}, "en": {…}}."""
+
+
+def generate_titles(api_key, model, topic):
+    """Titres thématiques (7 paliers × FR/EN) pour un sujet, validés (bornes = TopicTitles)."""
+    prompt = json.dumps(
+        {
+            "theme": topic["nameFr"],
+            "category": topic["category"],
+            "description": topic["description"],
+            "grades": TITLE_GRADES,
+        },
+        ensure_ascii=False,
+    )
+    result = call_api(api_key, model, "Génère les 7 titres (réponse en JSON).\n" + prompt,
+                      system_prompt=TITLES_SYSTEM_PROMPT)
+    titles = {}
+    for language in ("fr", "en"):
+        by_grade = result.get(language) or {}
+        clean = {}
+        for grade in TITLE_GRADES:
+            label = str(by_grade.get(grade, "")).strip()
+            if not label:
+                raise RuntimeError(f"titre manquant : {language}/{grade}")
+            if len(label) > 40:
+                raise RuntimeError(f"titre trop long : {language}/{grade} ({len(label)})")
+            clean[grade] = label
+        if len(set(clean.values())) != len(clean):
+            raise RuntimeError(f"titres non distincts en {language}")
+        titles[language] = clean
+    return titles
+
+
+def titles_block(titles):
+    lines = ["  titles:\n"]
+    for language in ("fr", "en"):
+        lines.append(f"    {language}:\n")
+        for grade in TITLE_GRADES:
+            lines.append(f"      {grade}: {yaml_scalar(titles[language][grade])}\n")
+    return lines
 
 
 def shorten_image_texts(api_key, model, questions):
@@ -384,6 +459,7 @@ def rewrite(api_key, args):
         "description": data["topic"]["description"],
         "category": data["topic"]["category"],
         "imageUrl": data["topic"].get("imageUrl"),
+        "titles": data["topic"].get("titles"),
     }
     existing = data.get("questions") or []
     kept = [q for q in existing if q.get("imageUrl")]
@@ -441,6 +517,53 @@ def rewrite(api_key, args):
     return 0
 
 
+def titles_only(api_key, args):
+    """
+    Génère les titres thématiques (7 paliers × FR/EN) d'un thème existant et les **insère**
+    dans le bloc `topic` (ou les affiche avec `--dry-run`, sans écrire).
+    """
+    import yaml  # noqa: PLC0415
+
+    path = Path(args.titles)
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    names = data["topic"].get("names") or {}
+    topic = {
+        "nameFr": names.get("fr"),
+        "category": data["topic"]["category"],
+        "description": data["topic"]["description"],
+    }
+    titles = generate_titles(api_key, args.model, topic)
+
+    if args.dry_run:
+        log(f"== {topic['nameFr']}")
+        for grade in TITLE_GRADES:
+            log(f"  {grade:11s} FR: {titles['fr'][grade]:38s} EN: {titles['en'][grade]}")
+        return 0
+
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    # Retire un éventuel bloc `titles:` existant (lignes indentées de ≥ 4 espaces).
+    start = next((i for i, line in enumerate(lines) if line.startswith("  titles:")), None)
+    if start is not None:
+        end = start + 1
+        while end < len(lines) and (lines[end].startswith("    ") or not lines[end].strip()):
+            end += 1
+        del lines[start:end]
+
+    anchor = next(i for i, line in enumerate(lines) if line.startswith("  category:"))
+    if anchor is not None and not lines[anchor].endswith("\n"):
+        lines[anchor] += "\n"
+    lines[anchor + 1 : anchor + 1] = titles_block(titles)
+
+    new_text = "".join(lines)
+    reparsed = yaml.safe_load(new_text)
+    inserted = (reparsed.get("topic") or {}).get("titles")
+    if not inserted or set(inserted.get("fr", {})) != set(TITLE_GRADES):
+        raise RuntimeError(f"{path}: insertion des titres invalide")
+    path.write_text(new_text, encoding="utf-8")
+    log(f"✓ {path.name} : titres thématiques insérés")
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--id")
@@ -462,6 +585,8 @@ def main():
                         help="réaffecte uniquement la difficulté d'un fichier existant")
     parser.add_argument("--rewrite", metavar="FILE",
                         help="régénère les questions d'un thème existant (métadonnées conservées)")
+    parser.add_argument("--titles", metavar="FILE",
+                        help="génère/insère les titres thématiques d'un thème existant")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -471,6 +596,9 @@ def main():
 
     if args.rebalance_only:
         return rebalance_only(api_key, args)
+
+    if args.titles:
+        return titles_only(api_key, args)
 
     if args.rewrite:
         return rewrite(api_key, args)
