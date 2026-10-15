@@ -1,3 +1,9 @@
+## [6.2.1](https://github.com/quizup-organization/quizup-theme/compare/v6.2.0...v6.2.1) (2026-10-15)
+
+### Bug Fixes
+
+* **seed:** génération robuste et runner non bloquant ([c04375b](https://github.com/quizup-organization/quizup-theme/commit/c04375b7ebe735c4088916ff79da78ea8051afd0))
+
 ## [6.2.0](https://github.com/quizup-organization/quizup-theme/compare/v6.1.0...v6.2.0) (2026-10-15)
 
 ### Features
