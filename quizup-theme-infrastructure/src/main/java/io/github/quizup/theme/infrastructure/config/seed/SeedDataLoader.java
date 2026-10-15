@@ -7,6 +7,7 @@ import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.TopicCategory;
+import io.github.quizup.theme.domain.model.TopicTitles;
 import io.github.quizup.theme.infrastructure.properties.AppProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -175,7 +176,33 @@ public class SeedDataLoader {
             questions.add(new QuestionSeedDefinition(contents, correctAnswer, identity.imageUrl(), difficulty));
         }
 
-        return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl, List.copyOf(questions));
+        return new TopicSeedDefinition(topicId, names, description, category, topicImageUrl,
+                validateTitles(rawTopic.titles()), List.copyOf(questions));
+    }
+
+    /**
+     * Valide les titres personnalisés du seed ({@code topic.titles.<langue>.<GRADE>} : grades
+     * connus, libellés non vides et bornés) ; {@code null} si absents (repli client).
+     */
+    private Map<Language, Map<String, String>> validateTitles(Map<String, Map<String, String>> raw) {
+        if (raw == null || raw.isEmpty()) {
+            return null;
+        }
+        Map<Language, Map<String, String>> byLanguage = new EnumMap<>(Language.class);
+        raw.forEach((code, byGrade) -> {
+            Language language;
+            try {
+                language = Language.fromCode(code);
+            } catch (RuntimeException error) {
+                throw new SeedDataValidationException("topic.titles: unknown language '" + code + "'");
+            }
+            byLanguage.put(language, byGrade);
+        });
+        try {
+            return TopicTitles.normalize(byLanguage);
+        } catch (IllegalArgumentException error) {
+            throw new SeedDataValidationException("topic.titles: " + error.getMessage());
+        }
     }
 
     private Map<Language, QuestionContent> validateTranslations(Map<String, RawSeedTranslation> rawTranslations,
@@ -338,7 +365,8 @@ public class SeedDataLoader {
     record RawSeedFile(RawSeedTopic topic, List<RawSeedQuestion> questions) {
     }
 
-    record RawSeedTopic(String id, Map<String, String> names, String description, String category, String imageUrl) {
+    record RawSeedTopic(String id, Map<String, String> names, String description, String category,
+                        String imageUrl, Map<String, Map<String, String>> titles) {
     }
 
     record RawSeedQuestion(String text,

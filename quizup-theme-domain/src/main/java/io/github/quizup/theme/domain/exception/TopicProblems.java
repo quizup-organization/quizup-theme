@@ -113,4 +113,14 @@ public final class TopicProblems {
                     "The topic banner URL must not exceed " + maxLength + " characters", null);
         }
     }
+
+    /** Titres personnalisés invalides (grade inconnu, libellé vide ou trop long). */
+    public static class InvalidTopicTitlesProblem extends TopicProblem {
+        public InvalidTopicTitlesProblem(String topicId, String detail) {
+            super(topicId, "urn:quizup:topic:invalidTitles",
+                    ProblemCategory.VALIDATION,
+                    "Invalid topic titles",
+                    detail, null);
+        }
+    }
 }

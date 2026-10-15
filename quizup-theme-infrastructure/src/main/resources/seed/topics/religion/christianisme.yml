@@ -7,86 +7,86 @@ topic:
   category: RELIGION
   imageUrl: wikipedia/religion/Jerusalem_Holy_Sepulchre_BW_22.jpg
 questions:
-  - text: "Dans quelle ville Jésus est-il né selon les Évangiles ?"
+  - text: "En quelle année le Concile de Nicée a-t-il été convoqué ?"
     answers:
-      A: "Nazareth"
-      B: "Bethléem"
-      C: "Jérusalem"
-      D: "Capharnaüm"
+      A: "381"
+      B: "325"
+      C: "451"
+      D: "431"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "In which city was Jesus born according to the Gospels?"
+        text: "In what year was the Council of Nicaea convened?"
         answers:
-          A: "Nazareth"
-          B: "Bethlehem"
-          C: "Jerusalem"
-          D: "Capernaum"
-  - text: "Dans quelle ville Jésus a-t-il grandi ?"
+          A: "381"
+          B: "325"
+          C: "451"
+          D: "431"
+    difficulty: HARD
+  - text: "Qui a proclamé le dogme de l'Immaculée Conception en 1854 ?"
     answers:
-      A: "Nazareth"
-      B: "Bethléem"
-      C: "Jéricho"
-      D: "Tibériade"
+      A: "Pie IX"
+      B: "Léon XIII"
+      C: "Pie XII"
+      D: "Grégoire XVI"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "In which city did Jesus grow up?"
+        text: "Who proclaimed the dogma of the Immaculate Conception in 1854?"
         answers:
-          A: "Nazareth"
-          B: "Bethlehem"
-          C: "Jericho"
-          D: "Tiberias"
-  - text: "Combien d'Évangiles sont reconnus dans le Nouveau Testament ?"
+          A: "Pius IX"
+          B: "Leo XIII"
+          C: "Pius XII"
+          D: "Gregory XVI"
+    difficulty: HARD
+  - text: "Quel ordre religieux a été fondé par Ignace de Loyola ?"
     answers:
-      A: "2"
-      B: "3"
-      C: "4"
-      D: "12"
+      A: "Les Dominicains"
+      B: "Les Franciscains"
+      C: "Les Jésuites"
+      D: "Les Bénédictins"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
-        text: "How many Gospels are recognized in the New Testament?"
+        text: "Which religious order was founded by Ignatius of Loyola?"
         answers:
-          A: "2"
-          B: "3"
-          C: "4"
-          D: "12"
-  - text: "Combien d'apôtres Jésus a-t-il choisis ?"
+          A: "The Dominicans"
+          B: "The Franciscans"
+          C: "The Jesuits"
+          D: "The Benedictines"
+    difficulty: MEDIUM
+  - text: "Quel concile a défini la primauté du pape sur toute l'Église en 1870 ?"
     answers:
-      A: "7"
-      B: "12"
-      C: "10"
-      D: "72"
+      A: "Vatican II"
+      B: "Vatican I"
+      C: "Trente"
+      D: "Latran IV"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "How many apostles did Jesus choose?"
+        text: "Which council defined the pope's primacy over the whole Church in 1870?"
         answers:
-          A: "7"
-          B: "12"
-          C: "10"
-          D: "72"
-  - text: "Qui a baptisé Jésus dans le Jourdain ?"
+          A: "Vatican II"
+          B: "Vatican I"
+          C: "Trent"
+          D: "Lateran IV"
+    difficulty: EXPERT
+  - text: "Qui a composé le 'Magnificat' ?"
     answers:
-      A: "Pierre"
-      B: "André"
-      C: "Paul"
-      D: "Jean-Baptiste"
+      A: "Élisabeth"
+      B: "Zacharie"
+      C: "Siméon"
+      D: "Marie"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "Who baptized Jesus in the Jordan?"
+        text: "Who composed the 'Magnificat'?"
         answers:
-          A: "Peter"
-          B: "Andrew"
-          C: "Paul"
-          D: "John the Baptist"
+          A: "Elizabeth"
+          B: "Zechariah"
+          C: "Simeon"
+          D: "Mary"
+    difficulty: MEDIUM
   - text: "Quel fleuve est associé au baptême de Jésus ?"
     imageUrl: wikipedia/religion/Jordan_river_baptism_cue.jpg
     answers:
@@ -95,7 +95,6 @@ questions:
       C: "Le Jourdain"
       D: "Le Tigre"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which river is associated with the baptism of Jesus?"
@@ -104,39 +103,40 @@ questions:
           B: "The Euphrates"
           C: "The Jordan"
           D: "The Tigris"
-  - text: "Quel lieu de Jérusalem est vénéré comme le site de la crucifixion ?"
-    answers:
-      A: "Le Golgotha"
-      B: "Le mont des Oliviers"
-      C: "Le Cénacle"
-      D: "Le mont Sion"
-    correctAnswer: A
     difficulty: HARD
-    translations:
-      en:
-        text: "Which place in Jerusalem is venerated as the site of the crucifixion?"
-        answers:
-          A: "Golgotha"
-          B: "The Mount of Olives"
-          C: "The Cenacle"
-          D: "Mount Zion"
-  - text: "Quelle fête célèbre la résurrection de Jésus ?"
+  - text: "Quel est le premier concile œcuménique de l'histoire ?"
     answers:
-      A: "Noël"
-      B: "L'Épiphanie"
-      C: "Pâques"
-      D: "La Pentecôte"
-    correctAnswer: C
-    difficulty: EASY
+      A: "Nicée I"
+      B: "Constantinople I"
+      C: "Éphèse"
+      D: "Chalcédoine"
+    correctAnswer: A
     translations:
       en:
-        text: "Which holiday celebrates the resurrection of Jesus?"
+        text: "What was the first ecumenical council in history?"
         answers:
-          A: "Christmas"
-          B: "Epiphany"
-          C: "Easter"
-          D: "Pentecost"
-  - text: "Quelle basilique de Jérusalem abrite selon la tradition le tombeau du Christ ?"
+          A: "Nicaea I"
+          B: "Constantinople I"
+          C: "Ephesus"
+          D: "Chalcedon"
+    difficulty: HARD
+  - text: "Qui a traduit la Bible en allemand ?"
+    answers:
+      A: "Ulrich Zwingli"
+      B: "Jean Calvin"
+      C: "Martin Luther"
+      D: "Philippe Mélanchthon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who translated the Bible into German?"
+        answers:
+          A: "Ulrich Zwingli"
+          B: "John Calvin"
+          C: "Martin Luther"
+          D: "Philip Melanchthon"
+    difficulty: MEDIUM
+  - text: "Quelle basilique abrite le tombeau du Christ ?"
     imageUrl: wikipedia/religion/Jerusalem_Holy_Sepulchre_BW_22.jpg
     answers:
       A: "La basilique du Saint-Sépulcre"
@@ -144,15 +144,15 @@ questions:
       C: "La basilique de l'Annonciation"
       D: "La basilique de la Dormition"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
-        text: "Which Jerusalem basilica traditionally houses the tomb of Christ?"
+        text: "Which basilica houses the tomb of Christ?"
         answers:
           A: "The Church of the Holy Sepulchre"
           B: "The Church of the Nativity"
           C: "The Church of the Annunciation"
           D: "The Church of the Dormition"
+    difficulty: MEDIUM
   - text: "Que commémore la basilique de la Nativité à Bethléem ?"
     imageUrl: wikipedia/religion/Church_of_the_Nativity_(Bethlehem)_04.jpg
     answers:
@@ -161,7 +161,6 @@ questions:
       C: "La naissance de Jésus"
       D: "La résurrection"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
         text: "What does the Church of the Nativity in Bethlehem commemorate?"
@@ -170,54 +169,55 @@ questions:
           B: "The baptism of Jesus"
           C: "The birth of Jesus"
           D: "The resurrection"
-  - text: "De combien de livres se compose le Nouveau Testament ?"
+    difficulty: EASY
+  - text: "En quelle année a débuté le concile de Trente ?"
     answers:
-      A: "21"
-      B: "46"
-      C: "39"
-      D: "27"
+      A: "1563"
+      B: "1520"
+      C: "1555"
+      D: "1545"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
-        text: "How many books make up the New Testament?"
+        text: "In what year did the Council of Trent begin?"
         answers:
-          A: "21"
-          B: "46"
-          C: "39"
-          D: "27"
-  - text: "Quelle est la première partie de la Bible chrétienne ?"
+          A: "1563"
+          B: "1520"
+          C: "1555"
+          D: "1545"
+    difficulty: HARD
+  - text: "Quel apôtre a été le premier à voir Jésus ressuscité selon Paul ?"
     answers:
-      A: "L'Ancien Testament"
-      B: "Le Nouveau Testament"
-      C: "Les Évangiles"
-      D: "Les Actes des Apôtres"
+      A: "Pierre"
+      B: "Jean"
+      C: "Jacques"
+      D: "Thomas"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "What is the first part of the Christian Bible?"
+        text: "Which apostle was the first to see the risen Jesus according to Paul?"
         answers:
-          A: "The Old Testament"
-          B: "The New Testament"
-          C: "The Gospels"
-          D: "The Acts of the Apostles"
-  - text: "Qui a traduit la Bible en latin, dans la Vulgate ?"
-    answers:
-      A: "Ambroise"
-      B: "Augustin"
-      C: "Jérôme"
-      D: "Grégoire le Grand"
-    correctAnswer: C
+          A: "Peter"
+          B: "John"
+          C: "James"
+          D: "Thomas"
     difficulty: EXPERT
+  - text: "Qui a institué la fête du Corpus Christi ?"
+    answers:
+      A: "Grégoire IX"
+      B: "Innocent III"
+      C: "Urbain IV"
+      D: "Clément V"
+    correctAnswer: C
     translations:
       en:
-        text: "Who translated the Bible into Latin, in the Vulgate?"
+        text: "Who instituted the feast of Corpus Christi?"
         answers:
-          A: "Ambrose"
-          B: "Augustine"
-          C: "Jerome"
-          D: "Gregory the Great"
+          A: "Gregory IX"
+          B: "Innocent III"
+          C: "Urban IV"
+          D: "Clement V"
+    difficulty: EXPERT
   - text: "Qui a peint le plafond de la chapelle Sixtine ?"
     imageUrl: wikipedia/religion/CAPPELLA_SISTINA_Ceiling.jpg
     answers:
@@ -226,7 +226,6 @@ questions:
       C: "Léonard de Vinci"
       D: "Michel-Ange"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "Who painted the ceiling of the Sistine Chapel?"
@@ -235,6 +234,7 @@ questions:
           B: "Titian"
           C: "Leonardo da Vinci"
           D: "Michelangelo"
+    difficulty: EASY
   - text: "Qui a peint La Cène ?"
     imageUrl: wikipedia/arts/Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg
     answers:
@@ -243,7 +243,6 @@ questions:
       C: "Raphaël"
       D: "Botticelli"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
         text: "Who painted The Last Supper?"
@@ -252,6 +251,7 @@ questions:
           B: "Michelangelo"
           C: "Raphael"
           D: "Botticelli"
+    difficulty: EASY
   - text: "Dans quelle ville se trouve la basilique Saint-Pierre ?"
     imageUrl: wikipedia/religion/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg
     answers:
@@ -260,7 +260,6 @@ questions:
       C: "Milan"
       D: "Naples"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "In which city is St. Peter's Basilica located?"
@@ -269,22 +268,23 @@ questions:
           B: "Rome"
           C: "Milan"
           D: "Naples"
-  - text: "Quel État indépendant entoure la basilique Saint-Pierre ?"
+    difficulty: EASY
+  - text: "En quelle année l'Église anglicane s'est-elle séparée de Rome ?"
     answers:
-      A: "Saint-Marin"
-      B: "Monaco"
-      C: "Le Vatican"
-      D: "Le Liechtenstein"
+      A: "1547"
+      B: "1529"
+      C: "1534"
+      D: "1558"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which independent state surrounds St. Peter's Basilica?"
+        text: "In what year did the Anglican Church separate from Rome?"
         answers:
-          A: "San Marino"
-          B: "Monaco"
-          C: "Vatican City"
-          D: "Liechtenstein"
+          A: "1547"
+          B: "1529"
+          C: "1534"
+          D: "1558"
+    difficulty: EXPERT
   - text: "Dans quelle ville se trouve Notre-Dame de Paris ?"
     imageUrl: wikipedia/religion/NotreDameDeParis.jpg
     answers:
@@ -293,7 +293,6 @@ questions:
       C: "Rouen"
       D: "Paris"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
         text: "In which city is Notre-Dame de Paris located?"
@@ -302,6 +301,7 @@ questions:
           B: "Lyon"
           C: "Rouen"
           D: "Paris"
+    difficulty: EASY
   - text: "Dans quel pays se trouve la cathédrale de Cologne ?"
     imageUrl: wikipedia/religion/Kolner_Dom_nachts_2013.jpg
     answers:
@@ -310,7 +310,6 @@ questions:
       C: "La Belgique"
       D: "L'Autriche"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "In which country is Cologne Cathedral located?"
@@ -319,7 +318,8 @@ questions:
           B: "The Netherlands"
           C: "Belgium"
           D: "Austria"
-  - text: "Qu'est-ce qu'une rosace comme celle de la cathédrale de Chartres ?"
+    difficulty: EASY
+  - text: "Qu'est-ce qu'une rosace de cathédrale ?"
     imageUrl: wikipedia/religion/Cathedrale_de_Chartres_-_rosace_ouest,_exterieur.jpg
     answers:
       A: "Une sculpture"
@@ -327,32 +327,32 @@ questions:
       C: "Une fresque"
       D: "Un portail"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
-        text: "What is a rose window like the one at Chartres Cathedral?"
+        text: "What is a cathedral rose window?"
         answers:
           A: "A sculpture"
-          B: "A large circular stained-glass window"
+          B: "A large circular stained glass window"
           C: "A fresco"
           D: "A portal"
-  - text: "Quel est le principal symbole du christianisme ?"
+    difficulty: MEDIUM
+  - text: "Quel pape a lancé la première croisade ?"
     answers:
-      A: "La croix"
-      B: "La ménorah"
-      C: "L'étoile de David"
-      D: "Le croissant"
+      A: "Urbain II"
+      B: "Grégoire VII"
+      C: "Innocent III"
+      D: "Alexandre III"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "What is the main symbol of Christianity?"
+        text: "Which pope launched the First Crusade?"
         answers:
-          A: "The cross"
-          B: "The menorah"
-          C: "The Star of David"
-          D: "The crescent"
-  - text: "Comment appelle-t-on ce type d'image sacrée, courante dans l'Église orthodoxe ?"
+          A: "Urban II"
+          B: "Gregory VII"
+          C: "Innocent III"
+          D: "Alexander III"
+    difficulty: HARD
+  - text: "Comment nomme-t-on cette image sacrée orthodoxe ?"
     imageUrl: wikipedia/religion/Christ_Pantocrator_in_the.jpg
     answers:
       A: "Une fresque"
@@ -360,16 +360,16 @@ questions:
       C: "Une icône"
       D: "Un vitrail"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "What is this type of sacred image, common in the Orthodox Church, called?"
+        text: "What is this Orthodox sacred image called?"
         answers:
           A: "A fresco"
           B: "A mosaic"
           C: "An icon"
-          D: "A stained-glass window"
-  - text: "Qui est représentée avec l'Enfant sur ce tableau de Bellini ?"
+          D: "A stained glass window"
+    difficulty: MEDIUM
+  - text: "Qui est avec l'Enfant sur ce tableau de Bellini ?"
     imageUrl: wikipedia/religion/Madonna_and_child_with_St_Peter_and_St._Sebastian_by_Giovanni_Bellini_-_Louvre_(MI_231).jpg
     answers:
       A: "Sainte Anne"
@@ -377,16 +377,16 @@ questions:
       C: "Sainte Cécile"
       D: "La Vierge Marie"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Who is depicted with the Child in this painting by Bellini?"
+        text: "Who is with the Child in this painting by Bellini?"
         answers:
           A: "Saint Anne"
           B: "Mary Magdalene"
           C: "Saint Cecilia"
           D: "The Virgin Mary"
-  - text: "Comment appelle-t-on la scène de la Nativité installée à Noël ?"
+    difficulty: EXPERT
+  - text: "Comment nomme-t-on la scène de la Nativité à Noël ?"
     imageUrl: wikipedia/religion/Marktzeuln_Christmas_crib-20190106-RM-164712.jpg
     answers:
       A: "Le calvaire"
@@ -394,80 +394,80 @@ questions:
       C: "La crèche"
       D: "Le ciboire"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
-        text: "What is the Nativity scene set up at Christmas called?"
+        text: "What is the Nativity scene at Christmas called?"
         answers:
           A: "The calvary"
           B: "The altarpiece"
           C: "The crib"
           D: "The ciborium"
-  - text: "Quel jour Noël est-il célébré en Occident ?"
-    answers:
-      A: "Le 25 décembre"
-      B: "Le 24 décembre"
-      C: "Le 6 janvier"
-      D: "Le 1er novembre"
-    correctAnswer: A
     difficulty: EASY
-    translations:
-      en:
-        text: "On which day is Christmas celebrated in the West?"
-        answers:
-          A: "December 25"
-          B: "December 24"
-          C: "January 6"
-          D: "November 1"
-  - text: "Que fête l'Épiphanie ?"
-    answers:
-      A: "La Pentecôte"
-      B: "La résurrection"
-      C: "L'Annonciation"
-      D: "La visite des mages"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does Epiphany celebrate?"
-        answers:
-          A: "Pentecost"
-          B: "The resurrection"
-          C: "The Annunciation"
-          D: "The visit of the Magi"
-  - text: "Combien de jours dure le Carême ?"
+  - text: "Quelle est la durée du Carême en jours, sans les dimanches ?"
     answers:
       A: "40"
-      B: "20"
-      C: "7"
-      D: "50"
+      B: "46"
+      C: "50"
+      D: "30"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "How many days does Lent last?"
+        text: "How long is Lent in days, excluding Sundays?"
         answers:
           A: "40"
-          B: "20"
-          C: "7"
-          D: "50"
-  - text: "Quelle fête suit Pâques cinquante jours plus tard ?"
-    answers:
-      A: "L'Avent"
-      B: "L'Ascension"
-      C: "La Toussaint"
-      D: "La Pentecôte"
-    correctAnswer: D
+          B: "46"
+          C: "50"
+          D: "30"
     difficulty: EXPERT
+  - text: "Combien de commandements compte le Décalogue ?"
+    answers:
+      A: "15"
+      B: "12"
+      C: "7"
+      D: "10"
+    correctAnswer: D
     translations:
       en:
-        text: "Which feast follows Easter fifty days later?"
+        text: "How many commandments are in the Decalogue?"
         answers:
-          A: "Advent"
-          B: "Ascension"
-          C: "All Saints' Day"
-          D: "Pentecost"
-  - text: "Quel apôtre, d'abord persécuteur, a écrit de nombreuses épîtres ?"
+          A: "15"
+          B: "12"
+          C: "7"
+          D: "10"
+    difficulty: EASY
+  - text: "Qui a écrit la 'Somme théologique' ?"
+    answers:
+      A: "Thomas d'Aquin"
+      B: "Augustin d'Hippone"
+      C: "Bonaventure"
+      D: "Albert le Grand"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who wrote the 'Summa Theologica'?"
+        answers:
+          A: "Thomas Aquinas"
+          B: "Augustine of Hippo"
+          C: "Bonaventure"
+          D: "Albert the Great"
+    difficulty: MEDIUM
+  - text: "Quel est le premier pape de l'histoire ?"
+    answers:
+      A: "Anaclet"
+      B: "Linus"
+      C: "Clément"
+      D: "Pierre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first pope in history?"
+        answers:
+          A: "Anacletus"
+          B: "Linus"
+          C: "Clement"
+          D: "Peter"
+    difficulty: HARD
+  - text: "Quel apôtre persécuteur a écrit des épîtres ?"
     imageUrl: wikipedia/religion/Saint_Paul._Detail_of_the_mosaic_in_Arian_Baptistery._Ravenna,_Italy.jpg
     answers:
       A: "Jacques"
@@ -475,16 +475,16 @@ questions:
       C: "Jean"
       D: "Paul"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which apostle, once a persecutor, wrote many epistles?"
+        text: "Which persecuting apostle wrote epistles?"
         answers:
           A: "James"
           B: "Peter"
           C: "John"
           D: "Paul"
-  - text: "Quel apôtre est considéré comme le premier chef de l'Église ?"
+    difficulty: HARD
+  - text: "Quel apôtre fut le premier chef de l'Église ?"
     imageUrl: wikipedia/religion/Saint_Peter's_Statue_Saint_Peter's_Basilica_Vatican_City_cropped.jpg
     answers:
       A: "André"
@@ -492,15 +492,15 @@ questions:
       C: "Pierre"
       D: "Jean"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which apostle is considered the first head of the Church?"
+        text: "Which apostle was the first head of the Church?"
         answers:
           A: "Andrew"
           B: "Paul"
           C: "Peter"
           D: "John"
+    difficulty: MEDIUM
   - text: "Quel Père de l'Église a écrit Les Confessions ?"
     imageUrl: wikipedia/religion/Augustine_Lateran.jpg
     answers:
@@ -509,15 +509,15 @@ questions:
       C: "Ambroise"
       D: "Athanase"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
-        text: "Which Church Father wrote the Confessions?"
+        text: "Which Church Father wrote The Confessions?"
         answers:
           A: "Augustine"
           B: "Jerome"
           C: "Ambrose"
           D: "Athanasius"
+    difficulty: HARD
   - text: "Quel théologien médiéval a écrit la Somme théologique ?"
     imageUrl: wikipedia/religion/St-thomas-aquinas.jpg
     answers:
@@ -526,7 +526,6 @@ questions:
       C: "Bonaventure"
       D: "Anselme"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "Which medieval theologian wrote the Summa Theologica?"
@@ -535,71 +534,72 @@ questions:
           B: "Thomas Aquinas"
           C: "Bonaventure"
           D: "Anselm"
-  - text: "En quelle année le concile de Nicée a-t-il défini le Credo ?"
+    difficulty: MEDIUM
+  - text: "Quel évangile commence par 'Au commencement était le Verbe' ?"
     answers:
-      A: "313"
-      B: "325"
-      C: "381"
-      D: "431"
+      A: "Matthieu"
+      B: "Jean"
+      C: "Luc"
+      D: "Marc"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
-        text: "In which year did the Council of Nicaea define the Creed?"
+        text: "Which Gospel begins with 'In the beginning was the Word'?"
         answers:
-          A: "313"
-          B: "325"
-          C: "381"
-          D: "431"
-  - text: "Quel empereur a légalisé le christianisme par l'édit de Milan ?"
+          A: "Matthew"
+          B: "John"
+          C: "Luke"
+          D: "Mark"
+    difficulty: MEDIUM
+  - text: "Qui a fondé l'ordre des Franciscains ?"
     answers:
-      A: "Néron"
-      B: "Théodose"
-      C: "Trajan"
-      D: "Constantin"
+      A: "Ignace de Loyola"
+      B: "Dominique de Guzmán"
+      C: "Benoît de Nursie"
+      D: "François d'Assise"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
-        text: "Which emperor legalized Christianity through the Edict of Milan?"
+        text: "Who founded the Franciscan order?"
         answers:
-          A: "Nero"
-          B: "Theodosius"
-          C: "Trajan"
-          D: "Constantine"
-  - text: "En quelle année a eu lieu le schisme entre Orient et Occident ?"
+          A: "Ignatius of Loyola"
+          B: "Dominic de Guzmán"
+          C: "Benedict of Nursia"
+          D: "Francis of Assisi"
+    difficulty: MEDIUM
+  - text: "Quel concile a réformé la liturgie catholique dans les années 1960 ?"
     answers:
-      A: "1204"
-      B: "800"
-      C: "1054"
-      D: "1378"
+      A: "Trente"
+      B: "Vatican I"
+      C: "Vatican II"
+      D: "Latran V"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
-        text: "In which year did the East-West Schism take place?"
+        text: "Which council reformed the Catholic liturgy in the 1960s?"
         answers:
-          A: "1204"
-          B: "800"
-          C: "1054"
-          D: "1378"
-  - text: "Qui a lancé la Réforme en publiant ses 95 thèses en 1517 ?"
-    answers:
-      A: "Érasme"
-      B: "Jean Calvin"
-      C: "Henri VIII"
-      D: "Martin Luther"
-    correctAnswer: D
+          A: "Trent"
+          B: "Vatican I"
+          C: "Vatican II"
+          D: "Lateran V"
     difficulty: HARD
+  - text: "Quel est le nombre de sacrements dans l'Église catholique ?"
+    answers:
+      A: "12"
+      B: "5"
+      C: "10"
+      D: "7"
+    correctAnswer: D
     translations:
       en:
-        text: "Who launched the Reformation by publishing his 95 theses in 1517?"
+        text: "How many sacraments are there in the Catholic Church?"
         answers:
-          A: "Erasmus"
-          B: "John Calvin"
-          C: "Henry VIII"
-          D: "Martin Luther"
-  - text: "Quel réformateur est représenté sur ce portrait peint par Cranach ?"
+          A: "12"
+          B: "5"
+          C: "10"
+          D: "7"
+    difficulty: EASY
+  - text: "Quel réformateur est représenté sur ce portrait ?"
     imageUrl: wikipedia/religion/Lucas_Cranach_d.A._-_Martin_Luther,_1528_(Veste_Coburg).jpg
     answers:
       A: "Philippe Mélanchthon"
@@ -607,15 +607,15 @@ questions:
       C: "Ulrich Zwingli"
       D: "Martin Luther"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
-        text: "Which reformer is depicted in this portrait painted by Cranach?"
+        text: "Which reformer is depicted in this portrait?"
         answers:
-          A: "Philip Melanchthon"
+          A: "Philipp Melanchthon"
           B: "John Calvin"
           C: "Ulrich Zwingli"
           D: "Martin Luther"
+    difficulty: HARD
   - text: "Quel réformateur a organisé l'Église à Genève ?"
     imageUrl: wikipedia/religion/John_Calvin_Titian_B.jpg
     answers:
@@ -624,7 +624,6 @@ questions:
       C: "Jean Calvin"
       D: "Menno Simons"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "Which reformer organized the church in Geneva?"
@@ -633,70 +632,71 @@ questions:
           B: "Martin Luther"
           C: "John Calvin"
           D: "Menno Simons"
-  - text: "Quelle Église est née de la rupture d'Henri VIII avec Rome ?"
+    difficulty: HARD
+  - text: "Quel pape a convoqué le concile Vatican II ?"
     answers:
-      A: "L'Église orthodoxe"
-      B: "L'Église anglicane"
-      C: "L'Église calviniste"
-      D: "L'Église luthérienne"
+      A: "Pie XII"
+      B: "Jean XXIII"
+      C: "Paul VI"
+      D: "Benoît XVI"
     correctAnswer: B
+    translations:
+      en:
+        text: "Which pope convened the Second Vatican Council?"
+        answers:
+          A: "Pius XII"
+          B: "John XXIII"
+          C: "Paul VI"
+          D: "Benedict XVI"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which church arose from Henry VIII's break with Rome?"
-        answers:
-          A: "The Orthodox Church"
-          B: "The Anglican Church"
-          C: "The Calvinist Church"
-          D: "The Lutheran Church"
-  - text: "Quels sont les trois grands rameaux du christianisme ?"
+  - text: "En quelle année le mur séparant l'église du Saint-Sépulcre a-t-il été enlevé ?"
     answers:
-      A: "Catholique, juif et musulman"
-      B: "Latin, grec et slave"
-      C: "Catholique, orthodoxe et protestant"
-      D: "Romain, byzantin et copte"
+      A: "1204"
+      B: "1858"
+      C: "1967"
+      D: "1999"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
-        text: "What are the three main branches of Christianity?"
+        text: "In what year was the wall separating the Church of the Holy Sepulchre removed?"
         answers:
-          A: "Catholic, Jewish and Muslim"
-          B: "Latin, Greek and Slavic"
-          C: "Catholic, Orthodox and Protestant"
-          D: "Roman, Byzantine and Coptic"
-  - text: "Quel sacrement marque l'entrée dans la communauté chrétienne ?"
+          A: "1204"
+          B: "1858"
+          C: "1967"
+          D: "1999"
+    difficulty: EXPERT
+  - text: "Quel est le nom du recueil de méditations de Jean de la Croix ?"
     answers:
-      A: "Le baptême"
-      B: "L'eucharistie"
-      C: "Le mariage"
-      D: "L'ordination"
+      A: "La Nuit obscure"
+      B: "L'Imitation de Jésus-Christ"
+      C: "Les Confessions"
+      D: "Le Château intérieur"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "Which sacrament marks entry into the Christian community?"
+        text: "What is the name of John of the Cross's collection of meditations?"
         answers:
-          A: "Baptism"
-          B: "The Eucharist"
-          C: "Marriage"
-          D: "Ordination"
-  - text: "Que commémore l'eucharistie ?"
+          A: "Dark Night"
+          B: "The Imitation of Christ"
+          C: "The Confessions"
+          D: "The Interior Castle"
+    difficulty: EXPERT
+  - text: "Quel patriarche de Constantinople a été excommunié en 1054 ?"
     answers:
-      A: "Le dernier repas de Jésus"
-      B: "La naissance de Jésus"
-      C: "Le baptême de Jésus"
-      D: "La Pentecôte"
+      A: "Michel Cérulaire"
+      B: "Photios"
+      C: "Athanase Ier"
+      D: "Grégoire Palamas"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
-        text: "What does the Eucharist commemorate?"
+        text: "Which Patriarch of Constantinople was excommunicated in 1054?"
         answers:
-          A: "The Last Supper of Jesus"
-          B: "The birth of Jesus"
-          C: "The baptism of Jesus"
-          D: "Pentecost"
+          A: "Michael Cerularius"
+          B: "Photios"
+          C: "Athanasius I"
+          D: "Gregory Palamas"
+    difficulty: EXPERT
   - text: "Comment appelle-t-on ce collier de prière ?"
     imageUrl: wikipedia/religion/Rosary_2006-01-16.jpg
     answers:
@@ -705,7 +705,6 @@ questions:
       C: "Le ciboire"
       D: "Le calice"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
         text: "What is this prayer necklace called?"
@@ -714,7 +713,8 @@ questions:
           B: "The rosary"
           C: "The ciborium"
           D: "The chalice"
-  - text: "Dans quel pays se trouvent ces monastères perchés de Météores ?"
+    difficulty: MEDIUM
+  - text: "Dans quel pays sont ces monastères ?"
     imageUrl: wikipedia/religion/Roussanou_Monastery,_Meteora.jpg
     answers:
       A: "En Grèce"
@@ -722,16 +722,16 @@ questions:
       C: "En Espagne"
       D: "En Égypte"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
-        text: "In which country are these perched Meteora monasteries located?"
+        text: "In which country are these monasteries?"
         answers:
-          A: "Greece"
-          B: "Italy"
-          C: "Spain"
-          D: "Egypt"
-  - text: "Vers quelle ville converge le pèlerinage représenté par cette cathédrale ?"
+          A: "In Greece"
+          B: "In Italy"
+          C: "In Spain"
+          D: "In Egypt"
+    difficulty: HARD
+  - text: "Vers quelle ville mène ce pèlerinage ?"
     imageUrl: wikipedia/religion/2010-Catedral_de_Santiago_de_Compostela-Galicia_(Spain)_3.jpg
     answers:
       A: "Lourdes"
@@ -739,15 +739,15 @@ questions:
       C: "Jérusalem"
       D: "Saint-Jacques-de-Compostelle"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
-        text: "To which city does the pilgrimage represented by this cathedral lead?"
+        text: "To which city does this pilgrimage lead?"
         answers:
           A: "Lourdes"
           B: "Rome"
           C: "Jerusalem"
           D: "Santiago de Compostela"
+    difficulty: HARD
   - text: "Dans quelle ville se trouve la cathédrale Saint-Basile ?"
     imageUrl: wikipedia/religion/St_Basils_Cathedral-500px.jpg
     answers:
@@ -756,15 +756,15 @@ questions:
       C: "Moscou"
       D: "Sofia"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
-        text: "In which city is St. Basil's Cathedral located?"
+        text: "In which city is Saint Basil's Cathedral located?"
         answers:
           A: "Saint Petersburg"
-          B: "Kyiv"
+          B: "Kiev"
           C: "Moscow"
           D: "Sofia"
+    difficulty: EASY
   - text: "Quel livre a été imprimé par Gutenberg au XVe siècle ?"
     imageUrl: wikipedia/religion/Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg
     answers:
@@ -773,15 +773,15 @@ questions:
       C: "Les Métamorphoses"
       D: "La Bible"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which book was printed by Gutenberg in the 15th century?"
         answers:
-          A: "The Summa Theologica"
+          A: "Summa Theologica"
           B: "The Quran"
           C: "The Metamorphoses"
           D: "The Bible"
+    difficulty: MEDIUM
   - text: "Quel compositeur a écrit la Passion selon saint Matthieu ?"
     imageUrl: wikipedia/religion/Johann_Sebastian_Bach_1746.jpg
     answers:
@@ -790,7 +790,6 @@ questions:
       C: "Wolfgang Amadeus Mozart"
       D: "Jean-Sébastien Bach"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which composer wrote the St Matthew Passion?"
@@ -799,455 +798,200 @@ questions:
           B: "George Frideric Handel"
           C: "Wolfgang Amadeus Mozart"
           D: "Johann Sebastian Bach"
-  - text: "Comment appelle-t-on le chant liturgique monodique de l'Église latine ?"
-    answers:
-      A: "Le motet"
-      B: "Le chant grégorien"
-      C: "Le chant byzantin"
-      D: "Le psaume"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the monophonic liturgical chant of the Latin Church called?"
-        answers:
-          A: "The motet"
-          B: "Gregorian chant"
-          C: "Byzantine chant"
-          D: "The psalm"
-  - text: "Quel apôtre est enterré selon la tradition sous la basilique Saint-Pierre ?"
-    answers:
-      A: "Pierre"
-      B: "Paul"
-      C: "Jean"
-      D: "Thomas"
-    correctAnswer: A
     difficulty: HARD
-    translations:
-      en:
-        text: "Which apostle is traditionally buried beneath St. Peter's Basilica?"
-        answers:
-          A: "Peter"
-          B: "Paul"
-          C: "John"
-          D: "Thomas"
-  - text: "Combien de jours Dieu a-t-il mis pour créer le monde selon le livre de la Genèse ?"
+  - text: "Quelle fête chrétienne célèbre la descente du Saint-Esprit sur les apôtres ?"
     answers:
-      A: "Trois jours"
-      B: "Quarante jours"
-      C: "Sept jours"
-      D: "Six jours"
-    correctAnswer: D
-    translations:
-      en:
-        text: "How many days did God take to create the world according to the book of Genesis?"
-        answers:
-          A: "Three days"
-          B: "Forty days"
-          C: "Seven days"
-          D: "Six days"
-    difficulty: EASY
-  - text: "Qui a conduit les Hébreux hors d'Égypte selon le livre de l'Exode ?"
-    answers:
-      A: "Abraham"
-      B: "Moïse"
-      C: "Jacob"
-      D: "Josué"
+      A: "L'Ascension"
+      B: "La Pentecôte"
+      C: "L'Épiphanie"
+      D: "La Trinité"
     correctAnswer: B
     translations:
       en:
-        text: "Who led the Hebrews out of Egypt according to the book of Exodus?"
+        text: "Which Christian feast celebrates the descent of the Holy Spirit upon the apostles?"
         answers:
-          A: "Abraham"
-          B: "Moses"
-          C: "Jacob"
-          D: "Joshua"
-    difficulty: EASY
-  - text: "Quel jeune berger a vaincu le géant Goliath ?"
-    answers:
-      A: "Saül"
-      B: "Jonathan"
-      C: "David"
-      D: "Samuel"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which young shepherd defeated the giant Goliath?"
-        answers:
-          A: "Saul"
-          B: "Jonathan"
-          C: "David"
-          D: "Samuel"
-    difficulty: EASY
-  - text: "Quel est le premier livre de la Bible ?"
-    answers:
-      A: "Les Psaumes"
-      B: "L'Exode"
-      C: "L'Évangile selon Matthieu"
-      D: "La Genèse"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the first book of the Bible?"
-        answers:
-          A: "Psalms"
-          B: "Exodus"
-          C: "The Gospel according to Matthew"
-          D: "Genesis"
-    difficulty: EASY
-  - text: "Comment s'appelle le jardin où vivaient Adam et Ève ?"
-    answers:
-      A: "Le jardin d'Éden"
-      B: "Le jardin de Gethsémani"
-      C: "Le jardin des Oliviers"
-      D: "Le jardin de Canaan"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the name of the garden where Adam and Eve lived?"
-        answers:
-          A: "The Garden of Eden"
-          B: "The Garden of Gethsemane"
-          C: "The Garden of Olives"
-          D: "The Garden of Canaan"
-    difficulty: EASY
-  - text: "Quel oiseau revient vers Noé avec une branche d'olivier ?"
-    answers:
-      A: "La colombe"
-      B: "Le corbeau"
-      C: "L'aigle"
-      D: "Le moineau"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which bird returned to Noah with an olive branch?"
-        answers:
-          A: "The dove"
-          B: "The raven"
-          C: "The eagle"
-          D: "The sparrow"
-    difficulty: EASY
-  - text: "Quel est le nom de la mère de Jésus ?"
-    answers:
-      A: "Marthe"
-      B: "Marie"
-      C: "Élisabeth"
-      D: "Marie-Madeleine"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the name of Jesus' mother?"
-        answers:
-          A: "Martha"
-          B: "Mary"
-          C: "Elizabeth"
-          D: "Mary Magdalene"
-    difficulty: EASY
-  - text: "Quel jour de la semaine les chrétiens célèbrent-ils habituellement la messe ?"
-    answers:
-      A: "Le samedi"
-      B: "Le mercredi"
-      C: "Le vendredi"
-      D: "Le dimanche"
-    correctAnswer: D
-    translations:
-      en:
-        text: "On which day of the week do Christians usually celebrate Mass?"
-        answers:
-          A: "Saturday"
-          B: "Wednesday"
-          C: "Friday"
-          D: "Sunday"
-    difficulty: EASY
-  - text: "Quel est le dernier livre du Nouveau Testament ?"
-    answers:
-      A: "L'Apocalypse"
-      B: "Les Actes des Apôtres"
-      C: "L'Épître aux Romains"
-      D: "L'Évangile selon Jean"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the last book of the New Testament?"
-        answers:
-          A: "Revelation"
-          B: "The Acts of the Apostles"
-          C: "The Epistle to the Romans"
-          D: "The Gospel according to John"
-    difficulty: EASY
-  - text: "Quel symbole les premiers chrétiens utilisaient-ils souvent pour se reconnaître ?"
-    answers:
-      A: "La fleur de lys"
-      B: "Le croissant"
-      C: "L'étoile à cinq branches"
-      D: "Le poisson"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What symbol did early Christians often use to recognize one another?"
-        answers:
-          A: "The fleur-de-lis"
-          B: "The crescent"
-          C: "The five-pointed star"
-          D: "The fish"
-    difficulty: EASY
-  - text: "Combien de jours Jésus a-t-il jeûné dans le désert avant d'être tenté ?"
-    answers:
-      A: "Sept jours"
-      B: "Trente jours"
-      C: "Quarante jours"
-      D: "Cinquante jours"
-    correctAnswer: C
-    translations:
-      en:
-        text: "How many days did Jesus fast in the desert before being tempted?"
-        answers:
-          A: "Seven days"
-          B: "Thirty days"
-          C: "Forty days"
-          D: "Fifty days"
-    difficulty: EASY
-  - text: "Quel roi a ordonné le massacre des Innocents à Bethléem ?"
-    answers:
-      A: "Ponce Pilate"
-      B: "Hérode le Grand"
-      C: "César Auguste"
-      D: "Hérode Antipas"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which king ordered the Massacre of the Innocents in Bethlehem?"
-        answers:
-          A: "Pontius Pilate"
-          B: "Herod the Great"
-          C: "Caesar Augustus"
-          D: "Herod Antipas"
-    difficulty: EASY
-  - text: "Quel diacre est considéré comme le premier martyr chrétien selon les Actes des Apôtres ?"
-    answers:
-      A: "Étienne"
-      B: "Philippe"
-      C: "Nicolas"
-      D: "Barnabé"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which deacon is considered the first Christian martyr according to the Acts of the Apostles?"
-        answers:
-          A: "Stephen"
-          B: "Philip"
-          C: "Nicolas"
-          D: "Barnabas"
-    difficulty: HARD
-  - text: "En quelle année le concile de Trente s'est-il ouvert ?"
-    answers:
-      A: "1517"
-      B: "1545"
-      C: "1529"
-      D: "1563"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year did the Council of Trent open?"
-        answers:
-          A: "1517"
-          B: "1545"
-          C: "1529"
-          D: "1563"
-    difficulty: HARD
-  - text: "Quel pape a proclamé le dogme de l'Immaculée Conception en 1854 ?"
-    answers:
-      A: "Pie XII"
-      B: "Léon XIII"
-      C: "Grégoire XVI"
-      D: "Pie IX"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which pope proclaimed the dogma of the Immaculate Conception in 1854?"
-        answers:
-          A: "Pius XII"
-          B: "Leo XIII"
-          C: "Gregory XVI"
-          D: "Pius IX"
-    difficulty: HARD
-  - text: "Quel pape a convoqué le concile Vatican II ?"
-    answers:
-      A: "Pie XII"
-      B: "Paul VI"
-      C: "Jean XXIII"
-      D: "Pie XI"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which pope convened the Second Vatican Council?"
-        answers:
-          A: "Pius XII"
-          B: "Paul VI"
-          C: "John XXIII"
-          D: "Pius XI"
-    difficulty: HARD
-  - text: "Quel pape a lancé l'appel à la première croisade en 1095 ?"
-    answers:
-      A: "Grégoire VII"
-      B: "Urbain II"
-      C: "Innocent III"
-      D: "Léon IX"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which pope launched the call for the First Crusade in 1095?"
-        answers:
-          A: "Gregory VII"
-          B: "Urban II"
-          C: "Innocent III"
-          D: "Leo IX"
-    difficulty: HARD
-  - text: "Quel saint a fondé la Compagnie de Jésus en 1540 ?"
-    answers:
-      A: "Ignace de Loyola"
-      B: "François Xavier"
-      C: "Pierre Canisius"
-      D: "Philippe Néri"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which saint founded the Society of Jesus in 1540?"
-        answers:
-          A: "Ignatius of Loyola"
-          B: "Francis Xavier"
-          C: "Peter Canisius"
-          D: "Philip Neri"
-    difficulty: HARD
-  - text: "Quel empereur romain a convoqué le concile de Nicée en 325 ?"
-    answers:
-      A: "Théodose"
-      B: "Trajan"
-      C: "Constantin"
-      D: "Dioclétien"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Roman emperor convened the Council of Nicaea in 325?"
-        answers:
-          A: "Theodosius"
-          B: "Trajan"
-          C: "Constantine"
-          D: "Diocletian"
-    difficulty: HARD
-  - text: "Quel évêque de Milan a joué un rôle dans la conversion de saint Augustin ?"
-    answers:
-      A: "Grégoire le Grand"
-      B: "Jérôme"
-      C: "Ambroise"
-      D: "Hilaire"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which bishop of Milan played a role in the conversion of Saint Augustine?"
-        answers:
-          A: "Gregory the Great"
-          B: "Jerome"
-          C: "Ambrose"
-          D: "Hilary"
-    difficulty: HARD
-  - text: "Quel roi franc a été baptisé à Reims par saint Rémi ?"
-    answers:
-      A: "Charlemagne"
-      B: "Clovis"
-      C: "Dagobert"
-      D: "Louis le Pieux"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which Frankish king was baptized in Reims by Saint Remigius?"
-        answers:
-          A: "Charlemagne"
-          B: "Clovis"
-          C: "Dagobert"
-          D: "Louis the Pious"
-    difficulty: HARD
-  - text: "Comment appelle-t-on la traduction grecque de l'Ancien Testament réalisée avant l'ère chrétienne ?"
-    answers:
-      A: "La Septante"
-      B: "La Vulgate"
-      C: "Le Targoum"
-      D: "La Peshitta"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the Greek translation of the Old Testament made before the Christian era called?"
-        answers:
-          A: "The Septuagint"
-          B: "The Vulgate"
-          C: "The Targum"
-          D: "The Peshitta"
-    difficulty: HARD
-  - text: "Quel concile œcuménique de 451 a défini les deux natures du Christ ?"
-    answers:
-      A: "Éphèse"
-      B: "Chalcédoine"
-      C: "Nicée II"
-      D: "Constantinople Ier"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which ecumenical council of 451 defined the two natures of Christ?"
-        answers:
-          A: "Ephesus"
-          B: "Chalcedon"
-          C: "Nicaea II"
-          D: "Constantinople I"
-    difficulty: HARD
-  - text: "Quel ermite égyptien est considéré comme le père du monachisme chrétien ?"
-    answers:
-      A: "Antoine le Grand"
-      B: "Pacôme"
-      C: "Macaire"
-      D: "Paul de Thèbes"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which Egyptian hermit is considered the father of Christian monasticism?"
-        answers:
-          A: "Anthony the Great"
-          B: "Pachomius"
-          C: "Macarius"
-          D: "Paul of Thebes"
-    difficulty: HARD
-  - text: "Quel pape a excommunié Martin Luther en 1521 ?"
-    answers:
-      A: "Clément VII"
-      B: "Jules II"
-      C: "Adrien VI"
-      D: "Léon X"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which pope excommunicated Martin Luther in 1521?"
-        answers:
-          A: "Clement VII"
-          B: "Julius II"
-          C: "Adrian VI"
-          D: "Leo X"
-    difficulty: HARD
-  - text: "Quel disciple a livré Jésus pour trente pièces d'argent ?"
-    answers:
-      A: "Pierre"
-      B: "Thomas"
-      C: "Judas Iscariote"
-      D: "Barabbas"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which disciple handed Jesus over for thirty pieces of silver?"
-        answers:
-          A: "Peter"
-          B: "Thomas"
-          C: "Judas Iscariot"
-          D: "Barabbas"
+          A: "Ascension"
+          B: "Pentecost"
+          C: "Epiphany"
+          D: "Trinity"
     difficulty: MEDIUM
-  - text: "Quel évangéliste est symbolisé par un lion ?"
+  - text: "Quel pape a proclamé le dogme de l'Assomption en 1950 ?"
+    answers:
+      A: "Pie XII"
+      B: "Pie XI"
+      C: "Jean XXIII"
+      D: "Paul VI"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pope proclaimed the dogma of the Assumption in 1950?"
+        answers:
+          A: "Pius XII"
+          B: "Pius XI"
+          C: "John XXIII"
+          D: "Paul VI"
+    difficulty: HARD
+  - text: "Quel concile a mis fin au Grand Schisme d'Occident en 1417 ?"
+    answers:
+      A: "Concile de Trente"
+      B: "Concile de Bâle"
+      C: "Concile de Ferrare"
+      D: "Concile de Constance"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which council ended the Western Schism in 1417?"
+        answers:
+          A: "Council of Trent"
+          B: "Council of Basel"
+          C: "Council of Ferrara"
+          D: "Council of Constance"
+    difficulty: EXPERT
+  - text: "Combien de livres compte l'Ancien Testament dans la Bible catholique ?"
+    answers:
+      A: "39"
+      B: "46"
+      C: "27"
+      D: "50"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many books are in the Old Testament in the Catholic Bible?"
+        answers:
+          A: "39"
+          B: "46"
+          C: "27"
+          D: "50"
+    difficulty: EXPERT
+  - text: "Quel apôtre a été le premier à prêcher aux Gentils selon les Actes ?"
+    answers:
+      A: "Paul"
+      B: "Jacques"
+      C: "Pierre"
+      D: "Jean"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which apostle was the first to preach to the Gentiles according to Acts?"
+        answers:
+          A: "Paul"
+          B: "James"
+          C: "Peter"
+          D: "John"
+    difficulty: EXPERT
+  - text: "Combien de temps Noé est-il resté dans l'arche selon la Genèse ?"
+    answers:
+      A: "40 jours"
+      B: "365 jours"
+      C: "7 jours"
+      D: "150 jours"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How long did Noah stay in the ark according to Genesis?"
+        answers:
+          A: "40 days"
+          B: "365 days"
+          C: "7 days"
+          D: "150 days"
+    difficulty: EXPERT
+  - text: "Quel ordre religieux a été fondé par Benoît de Nursie ?"
+    answers:
+      A: "Les Bénédictins"
+      B: "Les Franciscains"
+      C: "Les Jésuites"
+      D: "Les Dominicains"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which religious order was founded by Benedict of Nursia?"
+        answers:
+          A: "The Benedictines"
+          B: "The Franciscans"
+          C: "The Jesuits"
+          D: "The Dominicans"
+    difficulty: HARD
+  - text: "Quel est le premier des quatre conciles œcuméniques tenus à Constantinople ?"
+    answers:
+      A: "Premier concile de Constantinople"
+      B: "Deuxième concile de Constantinople"
+      C: "Troisième concile de Constantinople"
+      D: "Quatrième concile de Constantinople"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which is the first of the four ecumenical councils held in Constantinople?"
+        answers:
+          A: "First Council of Constantinople"
+          B: "Second Council of Constantinople"
+          C: "Third Council of Constantinople"
+          D: "Fourth Council of Constantinople"
+    difficulty: EXPERT
+  - text: "Qui a écrit 'L'Imitation de Jésus-Christ' ?"
+    answers:
+      A: "Augustin d'Hippone"
+      B: "Thomas a Kempis"
+      C: "Thomas d'Aquin"
+      D: "Bernard de Clairvaux"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who wrote 'The Imitation of Christ'?"
+        answers:
+          A: "Augustine of Hippo"
+          B: "Thomas a Kempis"
+          C: "Thomas Aquinas"
+          D: "Bernard of Clairvaux"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la prière enseignée par Jésus à ses disciples ?"
+    answers:
+      A: "Je vous salue Marie"
+      B: "Gloire au Père"
+      C: "Credo"
+      D: "Notre Père"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the prayer taught by Jesus to his disciples?"
+        answers:
+          A: "Hail Mary"
+          B: "Glory Be"
+          C: "Creed"
+          D: "Our Father"
+    difficulty: MEDIUM
+  - text: "Quel empereur a convoqué le concile de Chalcédoine ?"
+    answers:
+      A: "Marcien"
+      B: "Théodose II"
+      C: "Constantin"
+      D: "Justinien"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which emperor convened the Council of Chalcedon?"
+        answers:
+          A: "Marcian"
+          B: "Theodosius II"
+          C: "Constantine"
+          D: "Justinian"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi d'Israël qui a construit le Temple de Jérusalem ?"
+    answers:
+      A: "Josias"
+      B: "David"
+      C: "Ézéchias"
+      D: "Salomon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the king of Israel who built the Temple in Jerusalem?"
+        answers:
+          A: "Josiah"
+          B: "David"
+          C: "Hezekiah"
+          D: "Solomon"
+    difficulty: MEDIUM
+  - text: "Quel évangile est le plus ancien des quatre ?"
     answers:
       A: "Matthieu"
       B: "Luc"
@@ -1256,378 +1000,634 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "Which evangelist is symbolized by a lion?"
+        text: "Which gospel is the oldest of the four?"
         answers:
           A: "Matthew"
           B: "Luke"
           C: "Mark"
           D: "John"
-    difficulty: MEDIUM
-  - text: "Quel prophète a été avalé par un grand poisson ?"
+    difficulty: EXPERT
+  - text: "Quel pape a initié la réforme grégorienne ?"
     answers:
-      A: "Élie"
-      B: "Amos"
-      C: "Jonas"
-      D: "Osée"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which prophet was swallowed by a great fish?"
-        answers:
-          A: "Elijah"
-          B: "Amos"
-          C: "Jonah"
-          D: "Hosea"
-    difficulty: MEDIUM
-  - text: "Combien d'années les Hébreux ont-ils erré dans le désert après l'Exode ?"
-    answers:
-      A: "Sept ans"
-      B: "Quarante ans"
-      C: "Vingt ans"
-      D: "Soixante-dix ans"
+      A: "Innocent III"
+      B: "Grégoire VII"
+      C: "Boniface VIII"
+      D: "Léon IX"
     correctAnswer: B
     translations:
       en:
-        text: "How many years did the Hebrews wander in the desert after the Exodus?"
+        text: "Which pope initiated the Gregorian Reform?"
         answers:
-          A: "Seven years"
-          B: "Forty years"
-          C: "Twenty years"
-          D: "Seventy years"
-    difficulty: MEDIUM
-  - text: "Dans quelle ville l'apôtre Paul est-il né ?"
+          A: "Innocent III"
+          B: "Gregory VII"
+          C: "Boniface VIII"
+          D: "Leo IX"
+    difficulty: EXPERT
+  - text: "Quel est le nom du traité théologique majeur de saint Augustin ?"
     answers:
-      A: "Damas"
-      B: "Tarse"
-      C: "Antioche"
+      A: "La Cité de Dieu"
+      B: "Somme théologique"
+      C: "Les Confessions"
+      D: "De Trinitate"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Saint Augustine's major theological treatise?"
+        answers:
+          A: "The City of God"
+          B: "Summa Theologica"
+          C: "Confessions"
+          D: "De Trinitate"
+    difficulty: HARD
+  - text: "Combien de papes ont été canonisés entre 1900 et 2000 ?"
+    answers:
+      A: "5"
+      B: "10"
+      C: "15"
+      D: "20"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many popes were canonized between 1900 and 2000?"
+        answers:
+          A: "5"
+          B: "10"
+          C: "15"
+          D: "20"
+    difficulty: EXPERT
+  - text: "Quel est le nom du gouverneur romain de Judée qui a condamné Jésus à mort ?"
+    answers:
+      A: "Hérode Antipas"
+      B: "Félix"
+      C: "Quirinius"
+      D: "Ponce Pilate"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Roman governor of Judea who condemned Jesus to death?"
+        answers:
+          A: "Herod Antipas"
+          B: "Felix"
+          C: "Quirinius"
+          D: "Pontius Pilate"
+    difficulty: HARD
+  - text: "Quel est le nom de la fête qui célèbre l'entrée de Jésus à Jérusalem ?"
+    answers:
+      A: "Pentecôte"
+      B: "Épiphanie"
+      C: "Rameaux"
+      D: "Transfiguration"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the feast that celebrates Jesus' entry into Jerusalem?"
+        answers:
+          A: "Pentecost"
+          B: "Epiphany"
+          C: "Palm Sunday"
+          D: "Transfiguration"
+    difficulty: MEDIUM
+  - text: "Quel concile a défini la consubstantialité du Fils avec le Père ?"
+    answers:
+      A: "Constantinople I"
+      B: "Nicée I"
+      C: "Éphèse"
+      D: "Chalcédoine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which council defined the consubstantiality of the Son with the Father?"
+        answers:
+          A: "Constantinople I"
+          B: "Nicaea I"
+          C: "Ephesus"
+          D: "Chalcedon"
+    difficulty: EXPERT
+  - text: "Quel pape a proclamé le dogme de l'infaillibilité pontificale ?"
+    answers:
+      A: "Pie IX"
+      B: "Léon XIII"
+      C: "Pie X"
+      D: "Grégoire XVI"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which pope proclaimed the dogma of papal infallibility?"
+        answers:
+          A: "Pius IX"
+          B: "Leo XIII"
+          C: "Pius X"
+          D: "Gregory XVI"
+    difficulty: HARD
+  - text: "Qui a fondé l'ordre des Jésuites ?"
+    answers:
+      A: "François d'Assise"
+      B: "Dominique de Guzmán"
+      C: "Ignace de Loyola"
+      D: "Thomas d'Aquin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Who founded the order of the Jesuits?"
+        answers:
+          A: "Francis of Assisi"
+          B: "Dominic de Guzmán"
+          C: "Ignatius of Loyola"
+          D: "Thomas Aquinas"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la prière composée des paroles de l'ange Gabriel à Marie ?"
+    answers:
+      A: "Salve Regina"
+      B: "Magnificat"
+      C: "Je vous salue, Marie"
+      D: "Credo"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the prayer composed of the words of the angel Gabriel to Mary?"
+        answers:
+          A: "Salve Regina"
+          B: "Magnificat"
+          C: "Hail Mary"
+          D: "Credo"
+    difficulty: HARD
+  - text: "Combien de livres compte le canon protestant de l'Ancien Testament ?"
+    answers:
+      A: "46"
+      B: "39"
+      C: "27"
+      D: "50"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many books are in the Protestant canon of the Old Testament?"
+        answers:
+          A: "46"
+          B: "39"
+          C: "27"
+          D: "50"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la première communauté chrétienne de Jérusalem selon les Actes ?"
+    answers:
+      A: "Les Douze"
+      B: "Les Hellénistes"
+      C: "Les Nazaréens"
+      D: "Les Ébionites"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first Christian community in Jerusalem according to Acts?"
+        answers:
+          A: "The Twelve"
+          B: "The Hellenists"
+          C: "The Nazarenes"
+          D: "The Ebionites"
+    difficulty: EXPERT
+  - text: "En quelle année a eu lieu le schisme entre l'Église d'Orient et d'Occident ?"
+    answers:
+      A: "1204"
+      B: "1054"
+      C: "1378"
+      D: "1453"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did the schism between the Eastern and Western Churches occur?"
+        answers:
+          A: "1204"
+          B: "1054"
+          C: "1378"
+          D: "1453"
+    difficulty: HARD
+  - text: "Quel saint est considéré comme le fondateur du monachisme occidental ?"
+    answers:
+      A: "Benoît de Nursie"
+      B: "Pacôme"
+      C: "Antoine le Grand"
+      D: "Colomban"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which saint is considered the founder of Western monasticism?"
+        answers:
+          A: "Benedict of Nursia"
+          B: "Pachomius"
+          C: "Anthony the Great"
+          D: "Columbanus"
+    difficulty: HARD
+  - text: "Quel est le nom du recueil de cantiques attribué au roi Salomon ?"
+    answers:
+      A: "Proverbes"
+      B: "Ecclésiaste"
+      C: "Sagesse"
+      D: "Cantique des Cantiques"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the collection of songs attributed to King Solomon?"
+        answers:
+          A: "Proverbs"
+          B: "Ecclesiastes"
+          C: "Wisdom"
+          D: "Song of Songs"
+    difficulty: HARD
+  - text: "Quel est le nom du concile qui a défini les deux natures du Christ ?"
+    answers:
+      A: "Nicée I"
+      B: "Constantinople I"
+      C: "Chalcédoine"
       D: "Éphèse"
-    correctAnswer: B
+    correctAnswer: C
     translations:
       en:
-        text: "In which city was the apostle Paul born?"
+        text: "What is the name of the council that defined the two natures of Christ?"
         answers:
-          A: "Damascus"
-          B: "Tarsus"
-          C: "Antioch"
+          A: "Nicaea I"
+          B: "Constantinople I"
+          C: "Chalcedon"
           D: "Ephesus"
-    difficulty: MEDIUM
-  - text: "Quel apôtre est appelé le disciple bien-aimé dans l'Évangile selon Jean ?"
+    difficulty: EXPERT
+  - text: "Quelle est la langue liturgique traditionnelle de l'Église catholique romaine ?"
     answers:
-      A: "André"
-      B: "Jacques"
-      C: "Jean"
-      D: "Philippe"
+      A: "Grec"
+      B: "Araméen"
+      C: "Latin"
+      D: "Syriaque"
     correctAnswer: C
     translations:
       en:
-        text: "Which apostle is called the beloved disciple in the Gospel of John?"
+        text: "What is the traditional liturgical language of the Roman Catholic Church?"
         answers:
-          A: "Andrew"
-          B: "James"
-          C: "John"
-          D: "Philip"
-    difficulty: MEDIUM
-  - text: "Quelle jeune paysanne a conduit les armées françaises pendant la guerre de Cent Ans ?"
+          A: "Greek"
+          B: "Aramaic"
+          C: "Latin"
+          D: "Syriac"
+    difficulty: HARD
+  - text: "Quel est le nom du traité de saint Augustin sur la Cité de Dieu ?"
     answers:
-      A: "Jeanne d'Arc"
-      B: "Catherine de Sienne"
-      C: "Thérèse d'Avila"
-      D: "Bernadette Soubirous"
-    correctAnswer: A
+      A: "Confessions"
+      B: "De Trinitate"
+      C: "La Cité de Dieu"
+      D: "Enchiridion"
+    correctAnswer: C
     translations:
       en:
-        text: "Which young peasant girl led the French armies during the Hundred Years' War?"
+        text: "What is the name of Saint Augustine's treatise on the City of God?"
         answers:
-          A: "Joan of Arc"
-          B: "Catherine of Siena"
-          C: "Teresa of Avila"
-          D: "Bernadette Soubirous"
-    difficulty: MEDIUM
-  - text: "Combien de commandements Dieu a-t-il donnés à Moïse sur le mont Sinaï ?"
+          A: "Confessions"
+          B: "De Trinitate"
+          C: "The City of God"
+          D: "Enchiridion"
+    difficulty: HARD
+  - text: "Quel apôtre est considéré comme le premier évêque de Rome ?"
     answers:
-      A: "Sept"
-      B: "Dix"
-      C: "Douze"
-      D: "Quinze"
+      A: "Paul"
+      B: "Pierre"
+      C: "Jean"
+      D: "Jacques"
     correctAnswer: B
     translations:
       en:
-        text: "How many commandments did God give Moses on Mount Sinai?"
+        text: "Which apostle is considered the first bishop of Rome?"
         answers:
-          A: "Seven"
-          B: "Ten"
-          C: "Twelve"
-          D: "Fifteen"
-    difficulty: MEDIUM
-  - text: "Quel est le premier miracle de Jésus lors des noces de Cana ?"
+          A: "Paul"
+          B: "Peter"
+          C: "John"
+          D: "James"
+    difficulty: HARD
+  - text: "Quel est le nom du sacrifice non sanglant au cœur de la messe ?"
     answers:
-      A: "La guérison d'un aveugle"
-      B: "La multiplication des pains"
-      C: "Changer l'eau en vin"
-      D: "La marche sur l'eau"
-    correctAnswer: C
+      A: "Baptême"
+      B: "Eucharistie"
+      C: "Confirmation"
+      D: "Ordre"
+    correctAnswer: B
     translations:
       en:
-        text: "What is Jesus' first miracle at the wedding at Cana?"
+        text: "What is the name of the unbloody sacrifice at the heart of the Mass?"
         answers:
-          A: "Healing a blind man"
-          B: "Multiplying the loaves"
-          C: "Turning water into wine"
-          D: "Walking on water"
-    difficulty: MEDIUM
-  - text: "Quel sacrement l'Église catholique réserve-t-elle aux personnes malades ?"
-    answers:
-      A: "L'onction des malades"
-      B: "Le baptême"
-      C: "La confirmation"
-      D: "L'ordination"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which sacrament does the Catholic Church reserve for the sick?"
-        answers:
-          A: "Anointing of the Sick"
-          B: "Baptism"
+          A: "Baptism"
+          B: "Eucharist"
           C: "Confirmation"
           D: "Ordination"
-    difficulty: MEDIUM
-  - text: "Quel est le nom du père de Jean le Baptiste ?"
+    difficulty: EXPERT
+  - text: "Quel souverain a convoqué le concile de Trente ?"
     answers:
-      A: "Joseph"
-      B: "Éli"
-      C: "Siméon"
+      A: "Charles Quint"
+      B: "François Ier"
+      C: "Paul III"
+      D: "Jules II"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which ruler convened the Council of Trent?"
+        answers:
+          A: "Charles V"
+          B: "Francis I"
+          C: "Paul III"
+          D: "Julius II"
+    difficulty: HARD
+  - text: "Quel est le nom du mont où Jésus a été transfiguré selon la tradition ?"
+    answers:
+      A: "Thabor"
+      B: "Sinaï"
+      C: "Carmel"
+      D: "Nébo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the mountain where Jesus was transfigured according to tradition?"
+        answers:
+          A: "Tabor"
+          B: "Sinai"
+          C: "Carmel"
+          D: "Nebo"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'hymne attribué à Ambroise de Milan ?"
+    answers:
+      A: "Veni Creator"
+      B: "Te Deum"
+      C: "Pange Lingua"
+      D: "Adeste Fideles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the hymn attributed to Ambrose of Milan?"
+        answers:
+          A: "Veni Creator"
+          B: "Te Deum"
+          C: "Pange Lingua"
+          D: "Adeste Fideles"
+    difficulty: EXPERT
+  - text: "Quel concile a condamné le nestorianisme en 431 ?"
+    answers:
+      A: "Concile de Chalcédoine"
+      B: "Concile de Nicée I"
+      C: "Concile d'Éphèse"
+      D: "Concile de Constantinople I"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which council condemned Nestorianism in 431?"
+        answers:
+          A: "Council of Chalcedon"
+          B: "Council of Nicaea I"
+          C: "Council of Ephesus"
+          D: "Council of Constantinople I"
+    difficulty: EXPERT
+  - text: "Quel est le nom du roi de France sacré à Reims en 496 ?"
+    answers:
+      A: "Clovis Ier"
+      B: "Clotaire Ier"
+      C: "Dagobert Ier"
+      D: "Chilpéric Ier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the King of France crowned at Reims in 496?"
+        answers:
+          A: "Clovis I"
+          B: "Chlothar I"
+          C: "Dagobert I"
+          D: "Chilperic I"
+    difficulty: EXPERT
+  - text: "Quelle est la durée du Carême en jours, hors dimanches, dans le rite romain ?"
+    answers:
+      A: "40"
+      B: "46"
+      C: "50"
+      D: "36"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the duration of Lent in days, excluding Sundays, in the Roman rite?"
+        answers:
+          A: "40"
+          B: "46"
+          C: "50"
+          D: "36"
+    difficulty: EXPERT
+  - text: "Quel est le nom du siège épiscopal du pape en tant qu'évêque de Rome ?"
+    answers:
+      A: "Sainte-Marie-Majeure"
+      B: "Saint-Jean-de-Latran"
+      C: "Saint-Paul-hors-les-Murs"
+      D: "Saint-Pierre-aux-Liens"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the pope's episcopal see as Bishop of Rome?"
+        answers:
+          A: "St. Mary Major"
+          B: "St. John Lateran"
+          C: "St. Paul Outside the Walls"
+          D: "St. Peter in Chains"
+    difficulty: HARD
+  - text: "Combien d'années a duré le Concile de Trente ?"
+    answers:
+      A: "32"
+      B: "25"
+      C: "13"
+      D: "18"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many years did the Council of Trent last?"
+        answers:
+          A: "32"
+          B: "25"
+          C: "13"
+          D: "18"
+    difficulty: EXPERT
+  - text: "Quel est le nom du père de Jean-Baptiste selon l'Évangile de Luc ?"
+    answers:
+      A: "Siméon"
+      B: "Joseph"
+      C: "Élisabeth"
       D: "Zacharie"
     correctAnswer: D
     translations:
       en:
-        text: "What is the name of John the Baptist's father?"
+        text: "What is the name of John the Baptist's father according to the Gospel of Luke?"
         answers:
-          A: "Joseph"
-          B: "Eli"
-          C: "Simeon"
+          A: "Simeon"
+          B: "Joseph"
+          C: "Elizabeth"
           D: "Zechariah"
-    difficulty: MEDIUM
-  - text: "Dans quelle langue la majeure partie du Nouveau Testament a-t-elle été écrite ?"
+    difficulty: EXPERT
+  - text: "Quelle est la langue originale du Nouveau Testament ?"
     answers:
-      A: "L'hébreu"
-      B: "Le grec"
-      C: "Le latin"
-      D: "L'araméen"
+      A: "Latin"
+      B: "Grec koïné"
+      C: "Hébreu"
+      D: "Araméen"
     correctAnswer: B
     translations:
       en:
-        text: "In what language was most of the New Testament written?"
+        text: "What is the original language of the New Testament?"
         answers:
-          A: "Hebrew"
-          B: "Greek"
-          C: "Latin"
+          A: "Latin"
+          B: "Koine Greek"
+          C: "Hebrew"
           D: "Aramaic"
-    difficulty: MEDIUM
-  - text: "En quelle année le temple de Jérusalem a-t-il été détruit par les Romains ?"
+    difficulty: HARD
+  - text: "Quel pape a lancé la première croisade en 1095 ?"
     answers:
-      A: "En 313"
-      B: "En 135"
-      C: "En 33"
-      D: "En 70"
+      A: "Grégoire VII"
+      B: "Urbain II"
+      C: "Innocent III"
+      D: "Pascal II"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pope launched the first crusade in 1095?"
+        answers:
+          A: "Gregory VII"
+          B: "Urban II"
+          C: "Innocent III"
+          D: "Paschal II"
+    difficulty: HARD
+  - text: "Quel est le nom de l'ordre fondé par Bernard de Clairvaux ?"
+    answers:
+      A: "Ordre bénédictin"
+      B: "Ordre cistercien"
+      C: "Ordre des Franciscains"
+      D: "Ordre des Dominicains"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the order founded by Bernard of Clairvaux?"
+        answers:
+          A: "Benedictine Order"
+          B: "Cistercian Order"
+          C: "Franciscan Order"
+          D: "Dominican Order"
+    difficulty: EXPERT
+  - text: "Quel évangile contient le récit du Bon Samaritain ?"
+    answers:
+      A: "Matthieu"
+      B: "Marc"
+      C: "Jean"
+      D: "Luc"
     correctAnswer: D
     translations:
       en:
-        text: "In what year was the temple of Jerusalem destroyed by the Romans?"
+        text: "Which gospel contains the story of the Good Samaritan?"
         answers:
-          A: "313"
-          B: "135"
-          C: "33"
-          D: "70"
-    difficulty: EXPERT
-  - text: "Quel pape est mort en 1978 après seulement trente-trois jours de pontificat ?"
+          A: "Matthew"
+          B: "Mark"
+          C: "John"
+          D: "Luke"
+    difficulty: HARD
+  - text: "Quel est le nom du concile qui a proclamé la primauté du pape sur les conciles en 1870 ?"
     answers:
-      A: "Paul VI"
-      B: "Pie XII"
-      C: "Jean XXIII"
-      D: "Jean-Paul Ier"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which pope died in 1978 after only thirty-three days as pontiff?"
-        answers:
-          A: "Paul VI"
-          B: "Pius XII"
-          C: "John XXIII"
-          D: "John Paul I"
-    difficulty: EXPERT
-  - text: "Quel saint a fondé l'ordre des Chartreux au XIe siècle ?"
-    answers:
-      A: "Robert de Molesme"
-      B: "Bruno"
-      C: "Bernard de Clairvaux"
-      D: "Étienne Harding"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which saint founded the Carthusian order in the 11th century?"
-        answers:
-          A: "Robert of Molesme"
-          B: "Bruno"
-          C: "Bernard of Clairvaux"
-          D: "Stephen Harding"
-    difficulty: EXPERT
-  - text: "Quel pape a proclamé le dogme de l'Assomption en 1950 ?"
-    answers:
-      A: "Pie XI"
-      B: "Pie XII"
-      C: "Jean XXIII"
-      D: "Paul VI"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which pope proclaimed the dogma of the Assumption in 1950?"
-        answers:
-          A: "Pius XI"
-          B: "Pius XII"
-          C: "John XXIII"
-          D: "Paul VI"
-    difficulty: EXPERT
-  - text: "Quel réformateur a publié l'Institution de la religion chrétienne ?"
-    answers:
-      A: "Martin Luther"
-      B: "Jean Calvin"
-      C: "Ulrich Zwingli"
-      D: "Philippe Melanchthon"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which reformer published the Institutes of the Christian Religion?"
-        answers:
-          A: "Martin Luther"
-          B: "John Calvin"
-          C: "Ulrich Zwingli"
-          D: "Philip Melanchthon"
-    difficulty: EXPERT
-  - text: "Quel saint est le patron de l'Irlande et est associé au trèfle ?"
-    answers:
-      A: "Colomban"
-      B: "Kilian"
-      C: "Brendan"
-      D: "Patrick"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which saint is the patron of Ireland and is associated with the shamrock?"
-        answers:
-          A: "Columba"
-          B: "Kilian"
-          C: "Brendan"
-          D: "Patrick"
-    difficulty: EXPERT
-  - text: "Comment appelle-t-on le mouvement qui rejetait le culte des images dans l'Empire byzantin ?"
-    answers:
-      A: "L'arianisme"
-      B: "Le nestorianisme"
-      C: "L'iconoclasme"
-      D: "Le monophysisme"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the movement that rejected the veneration of images in the Byzantine Empire called?"
-        answers:
-          A: "Arianism"
-          B: "Nestorianism"
-          C: "Iconoclasm"
-          D: "Monophysitism"
-    difficulty: EXPERT
-  - text: "Quel pape a convoqué le concile de Trente ?"
-    answers:
-      A: "Paul III"
-      B: "Clément VII"
-      C: "Léon X"
-      D: "Pie IV"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which pope convened the Council of Trent?"
-        answers:
-          A: "Paul III"
-          B: "Clement VII"
-          C: "Leo X"
-          D: "Pius IV"
-    difficulty: EXPERT
-  - text: "Quel ouvrage spirituel est traditionnellement attribué à Thomas a Kempis ?"
-    answers:
-      A: "La Nuit obscure"
-      B: "Le Combat spirituel"
-      C: "L'Imitation de Jésus-Christ"
-      D: "Les Exercices spirituels"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which spiritual work is traditionally attributed to Thomas a Kempis?"
-        answers:
-          A: "The Dark Night"
-          B: "The Spiritual Combat"
-          C: "The Imitation of Christ"
-          D: "The Spiritual Exercises"
-    difficulty: EXPERT
-  - text: "En quelle année le pape Paul VI et le patriarche Athénagoras ont-ils levé les excommunications de 1054 ?"
-    answers:
-      A: "En 1962"
-      B: "En 1965"
-      C: "En 1970"
-      D: "En 1958"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year did Pope Paul VI and Patriarch Athenagoras lift the excommunications of 1054?"
-        answers:
-          A: "In 1962"
-          B: "In 1965"
-          C: "In 1970"
-          D: "In 1958"
-    difficulty: EXPERT
-  - text: "Quel saint a fondé l'ordre des Prêcheurs, appelé aussi ordre dominicain ?"
-    answers:
-      A: "François d'Assise"
-      B: "Dominique de Guzmán"
-      C: "Bonaventure"
-      D: "Albert le Grand"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which saint founded the Order of Preachers, also called the Dominican Order?"
-        answers:
-          A: "Francis of Assisi"
-          B: "Dominic de Guzmán"
-          C: "Bonaventure"
-          D: "Albert the Great"
-    difficulty: EXPERT
-  - text: "Quel concile œcuménique s'est tenu au Vatican de 1869 à 1870 ?"
-    answers:
-      A: "Vatican Ier"
+      A: "Trente"
       B: "Vatican II"
-      C: "Latran IV"
-      D: "Trente"
+      C: "Vatican I"
+      D: "Latran V"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the council that proclaimed the pope's primacy over councils in 1870?"
+        answers:
+          A: "Trent"
+          B: "Vatican II"
+          C: "Vatican I"
+          D: "Lateran V"
+    difficulty: EXPERT
+  - text: "Quel est le nombre de stations du Chemin de croix traditionnel ?"
+    answers:
+      A: "14"
+      B: "12"
+      C: "10"
+      D: "15"
     correctAnswer: A
     translations:
       en:
-        text: "Which ecumenical council was held at the Vatican from 1869 to 1870?"
+        text: "What is the number of stations of the traditional Stations of the Cross?"
         answers:
-          A: "Vatican I"
-          B: "Vatican II"
-          C: "Lateran IV"
-          D: "Trent"
-    difficulty: EXPERT
-  - text: "Quel humaniste a publié en 1516 la première édition imprimée du Nouveau Testament en grec ?"
+          A: "14"
+          B: "12"
+          C: "10"
+          D: "15"
+    difficulty: HARD
+  - text: "Quel apôtre a remplacé Judas parmi les Douze selon les Actes ?"
     answers:
-      A: "Guillaume Budé"
-      B: "Thomas More"
-      C: "Lefèvre d'Étaples"
-      D: "Érasme"
+      A: "Silas"
+      B: "Barnabé"
+      C: "Matthias"
+      D: "Étienne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which apostle replaced Judas among the Twelve according to Acts?"
+        answers:
+          A: "Silas"
+          B: "Barnabas"
+          C: "Matthias"
+          D: "Stephen"
+    difficulty: EXPERT
+  - text: "Quel est le nom du traité de Thomas d'Aquin sur la théologie chrétienne ?"
+    answers:
+      A: "Confessions"
+      B: "Somme théologique"
+      C: "Cité de Dieu"
+      D: "De Trinitate"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Thomas Aquinas's treatise on Christian theology?"
+        answers:
+          A: "Confessions"
+          B: "Summa Theologica"
+          C: "City of God"
+          D: "De Trinitate"
+    difficulty: HARD
+  - text: "Quel pape a ouvert le concile Vatican II en 1962 ?"
+    answers:
+      A: "Pie XII"
+      B: "Jean XXIII"
+      C: "Paul VI"
+      D: "Jean-Paul II"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which pope opened the Second Vatican Council in 1962?"
+        answers:
+          A: "Pius XII"
+          B: "John XXIII"
+          C: "Paul VI"
+          D: "John Paul II"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier martyr chrétien selon les Actes ?"
+    answers:
+      A: "Étienne"
+      B: "Jacques"
+      C: "Pierre"
+      D: "Paul"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first Christian martyr according to Acts?"
+        answers:
+          A: "Stephen"
+          B: "James"
+          C: "Peter"
+          D: "Paul"
+    difficulty: HARD
+  - text: "Quel évêque d'Hippone a combattu la doctrine de Pélage sur la grâce ?"
+    answers:
+      A: "Saint Cyprien"
+      B: "Saint Athanase"
+      C: "Saint Jérôme"
+      D: "Saint Augustin"
     correctAnswer: D
     translations:
       en:
-        text: "Which humanist published the first printed edition of the New Testament in Greek in 1516?"
+        text: "Which bishop of Hippo fought Pelagius's doctrine on grace?"
         answers:
-          A: "Guillaume Budé"
-          B: "Thomas More"
-          C: "Lefèvre d'Étaples"
-          D: "Erasmus"
+          A: "Saint Cyprian"
+          B: "Saint Athanasius"
+          C: "Saint Jerome"
+          D: "Saint Augustine"
     difficulty: EXPERT

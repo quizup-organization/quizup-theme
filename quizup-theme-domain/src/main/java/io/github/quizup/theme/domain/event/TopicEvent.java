@@ -20,8 +20,22 @@ public interface TopicEvent {
             String emoji,
             String color,
             String imageUrl,
+            /** Titres personnalisés par grade et par langue (optionnels). */
+            Map<Language, Map<String, String>> titles,
             String creatorId,
             Instant createdAt
+    ) implements TopicEvent {
+    }
+
+    /**
+     * Événement émis lors de la mise à jour des titres personnalisés (propriétaire du thème).
+     */
+    record TopicTitlesUpdatedEvent(
+            String topicId,
+            String updatedBy,
+            /** Nouvelle carte des titres (par grade et par langue), ou `null` pour effacer. */
+            Map<Language, Map<String, String>> titles,
+            Instant updatedAt
     ) implements TopicEvent {
     }
 

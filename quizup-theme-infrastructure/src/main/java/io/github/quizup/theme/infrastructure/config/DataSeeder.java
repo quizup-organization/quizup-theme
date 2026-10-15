@@ -232,6 +232,7 @@ public class DataSeeder {
                         null,
                         null,
                         definition.imageUrl(),
+                        definition.titles(),
                         QuizUpConstants.SYSTEM_USER_ID
                 );
                 createdTopic = true;

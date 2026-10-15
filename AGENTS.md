@@ -128,7 +128,11 @@ lorsque la difficulté calculée change, la projection envoie une
   > d'umbrella de licences) ; les thèmes factuels (drapeaux, capitales, monuments) et de genre
   > (années, rap français) restent autorisés.
 - Schéma d'un fichier : `topic` (`id` déterministe, `name` ≤ 25, `description` ≤ 500, `category`,
-  `imageUrl` optionnelle) + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
+  `imageUrl` optionnelle,
+  `titles` optionnelle — libellés par **grade de maîtrise** et par langue, ex.
+  `titles: { fr: { CONFIRME: "Historien confirmé" }, en: { … } }` : grades ∈
+  `NOVICE…LEGENDE` (miroir de `MasteryGrade`), libellé ≤ 40, langues/grades facultatifs, repli
+  client « grade · nom du sujet ») + `questions` (`text` ≤ 255 — doublons autorisés, `answers` A–D,
   `correctAnswer`, `imageUrl` optionnelle, `difficulty` optionnelle : `EASY|MEDIUM|HARD|EXPERT`,
   `translations` optionnelle : `{ en: { text, answers } }`).
   Le texte de premier niveau est **le contenu français** ; `translations` porte les autres langues

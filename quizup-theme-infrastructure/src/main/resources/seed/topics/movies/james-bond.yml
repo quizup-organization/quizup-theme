@@ -7,55 +7,56 @@ topic:
   category: MOVIES
   imageUrl: wikipedia/movies/1964_Aston_Martin_DB5_4.0_Front.jpg
 questions:
-  - text: "Quel est le célèbre matricule de James Bond ?"
+  - text: "Quel est le premier James Bond à mourir à l'écran ?"
     answers:
-      A: "001"
-      B: "007"
-      C: "006"
-      D: "009"
+      A: "Sean Connery"
+      B: "George Lazenby"
+      C: "Roger Moore"
+      D: "Pierce Brosnan"
     correctAnswer: B
     translations:
       en:
-        text: "What is James Bond's famous code number?"
+        text: "Who is the first James Bond to die on screen?"
         answers:
-          A: "001"
-          B: "007"
-          C: "006"
-          D: "009"
-    difficulty: EASY
-  - text: "Comment s'appelle le service de renseignement britannique pour lequel travaille James Bond ?"
+          A: "Sean Connery"
+          B: "George Lazenby"
+          C: "Roger Moore"
+          D: "Pierce Brosnan"
+    difficulty: EXPERT
+  - text: "Dans quel film Bond affronte-t-il l'assassin connu sous le nom de « Requin » ?"
     answers:
-      A: "MI6"
-      B: "CIA"
-      C: "FBI"
-      D: "KGB"
+      A: "L'Espion qui m'aimait"
+      B: "Moonraker"
+      C: "Dangereusement vôtre"
+      D: "Rien que pour vos yeux"
     correctAnswer: A
     translations:
       en:
-        text: "What is the name of the British intelligence service James Bond works for?"
+        text: "In which film does Bond face the assassin known as \"Jaws\"?"
         answers:
-          A: "MI6"
-          B: "CIA"
-          C: "FBI"
-          D: "KGB"
-    difficulty: EASY
-  - text: "Qui a créé le personnage de James Bond ?"
+          A: "The Spy Who Loved Me"
+          B: "Moonraker"
+          C: "A View to a Kill"
+          D: "For Your Eyes Only"
+    difficulty: HARD
+  - text: "Quel est le véritable nom du méchant Blofeld dans les films ?"
     answers:
-      A: "Arthur Conan Doyle"
-      B: "Agatha Christie"
-      C: "John le Carré"
-      D: "Ian Fleming"
+      A: "Karl Stromberg"
+      B: "Julius No"
+      C: "Auric Goldfinger"
+      D: "Ernst Stavro Blofeld"
     correctAnswer: D
     translations:
       en:
-        text: "Who created the character James Bond?"
+        text: "What is the real name of the villain Blofeld in the films?"
         answers:
-          A: "Arthur Conan Doyle"
-          B: "Agatha Christie"
-          C: "John le Carré"
-          D: "Ian Fleming"
-    difficulty: EASY
-  - text: "Cet acteur incarne James Bond dans le film James Bond 007 contre Dr No (1962) : de qui s'agit-il ?"
+          A: "Karl Stromberg"
+          B: "Julius No"
+          C: "Auric Goldfinger"
+          D: "Ernst Stavro Blofeld"
+    difficulty: EXPERT
+  - text: "Qui incarne James Bond dans Dr No (1962) ?"
+    imageUrl: wikipedia/movies/Sean_Connery_as_James_Bond_at_Switzerland_1964_(two_thirds_crop).jpg
     answers:
       A: "Roger Moore"
       B: "Pierce Brosnan"
@@ -64,239 +65,239 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "This actor plays James Bond in the film Dr. No (1962): who is it?"
+        text: "Who plays James Bond in Dr No (1962)?"
         answers:
           A: "Roger Moore"
           B: "Pierce Brosnan"
           C: "Sean Connery"
           D: "Timothy Dalton"
-    imageUrl: wikipedia/movies/Sean_Connery_as_James_Bond_at_Switzerland_1964_(two_thirds_crop).jpg
     difficulty: EASY
-  - text: "Quelle marque de voiture est emblématique de James Bond ?"
+  - text: "Quel film de James Bond se déroule en grande partie au Japon ?"
     answers:
-      A: "Ferrari"
-      B: "Aston Martin"
-      C: "Porsche"
-      D: "Jaguar"
+      A: "Les diamants sont éternels"
+      B: "On ne vit que deux fois"
+      C: "L'Homme au pistolet d'or"
+      D: "Docteur No"
     correctAnswer: B
     translations:
       en:
-        text: "Which car brand is iconic for James Bond?"
+        text: "Which James Bond film is largely set in Japan?"
         answers:
-          A: "Ferrari"
-          B: "Aston Martin"
-          C: "Porsche"
-          D: "Jaguar"
-    difficulty: EASY
-  - text: "Quel acteur joue James Bond dans Skyfall (2012) ?"
+          A: "Diamonds Are Forever"
+          B: "You Only Live Twice"
+          C: "The Man with the Golden Gun"
+          D: "Dr No"
+    difficulty: MEDIUM
+  - text: "Qui interprète le générique de « Goldfinger » ?"
     answers:
-      A: "Sean Connery"
-      B: "Pierce Brosnan"
-      C: "Daniel Craig"
-      D: "Roger Moore"
+      A: "Nancy Sinatra"
+      B: "Tom Jones"
+      C: "Shirley Bassey"
+      D: "Paul McCartney"
     correctAnswer: C
     translations:
       en:
-        text: "Which actor plays James Bond in Skyfall (2012)?"
+        text: "Who performs the theme song for \"Goldfinger\"?"
         answers:
-          A: "Sean Connery"
-          B: "Pierce Brosnan"
-          C: "Daniel Craig"
-          D: "Roger Moore"
-    difficulty: EASY
-  - text: "Quel est le nom de code du supérieur de James Bond au MI6 ?"
+          A: "Nancy Sinatra"
+          B: "Tom Jones"
+          C: "Shirley Bassey"
+          D: "Paul McCartney"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de l'organisation dirigée par Blofeld dans « Au service secret de Sa Majesté » ?"
     answers:
-      A: "M"
-      B: "Q"
-      C: "Moneypenny"
-      D: "Blofeld"
+      A: "SPECTRE"
+      B: "SMERSH"
+      C: "Le SPECTRE"
+      D: "Le Syndicat"
     correctAnswer: A
     translations:
       en:
-        text: "What is the code name of James Bond's superior at MI6?"
+        text: "What is the name of the organization led by Blofeld in \"On Her Majesty's Secret Service\"?"
         answers:
-          A: "M"
-          B: "Q"
-          C: "Moneypenny"
-          D: "Blofeld"
-    difficulty: EASY
-  - text: "Quelle boisson James Bond commande-t-il souvent dans les films ?"
+          A: "SPECTRE"
+          B: "SMERSH"
+          C: "The SPECTRE"
+          D: "The Syndicate"
+    difficulty: HARD
+  - text: "Combien de fois Sean Connery a-t-il incarné James Bond dans les films officiels de EON ?"
     answers:
-      A: "Un whisky écossais"
-      B: "Du champagne"
-      C: "Du cognac"
-      D: "Un vodka martini"
+      A: "5"
+      B: "6"
+      C: "4"
+      D: "7"
     correctAnswer: D
     translations:
       en:
-        text: "What drink does James Bond often order in the films?"
+        text: "How many times did Sean Connery play James Bond in the official EON films?"
         answers:
-          A: "A Scotch whisky"
-          B: "Champagne"
-          C: "Cognac"
-          D: "A vodka martini"
-    difficulty: EASY
-  - text: "Dans quel pays James Bond est-il un agent secret ?"
+          A: "5"
+          B: "6"
+          C: "4"
+          D: "7"
+    difficulty: HARD
+  - text: "Quel acteur joue le méchant Le Chiffre dans « Casino Royale » (2006) ?"
     answers:
-      A: "Aux États-Unis"
-      B: "En France"
-      C: "Au Royaume-Uni"
-      D: "En Russie"
+      A: "Mathieu Amalric"
+      B: "Javier Bardem"
+      C: "Mads Mikkelsen"
+      D: "Christoph Waltz"
     correctAnswer: C
     translations:
       en:
-        text: "In which country is James Bond a secret agent?"
+        text: "Which actor plays the villain Le Chiffre in \"Casino Royale\" (2006)?"
         answers:
-          A: "In the United States"
-          B: "In France"
-          C: "In the United Kingdom"
-          D: "In Russia"
+          A: "Mathieu Amalric"
+          B: "Javier Bardem"
+          C: "Mads Mikkelsen"
+          D: "Christoph Waltz"
     difficulty: EASY
-  - text: "Quel film de 1964 met en scène un méchant qui recouvre une femme d'or ?"
+  - text: "Quel réalisateur a mis en scène « Skyfall » ?"
+    answers:
+      A: "Sam Mendes"
+      B: "Martin Campbell"
+      C: "Marc Forster"
+      D: "Michael Apted"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which director directed \"Skyfall\"?"
+        answers:
+          A: "Sam Mendes"
+          B: "Martin Campbell"
+          C: "Marc Forster"
+          D: "Michael Apted"
+    difficulty: EASY
+  - text: "Dans « Goldfinger », quel est le nom de la petite amie de Bond qui est tuée au début du film ?"
+    answers:
+      A: "Bonita"
+      B: "Tilly Masterson"
+      C: "Pussy Galore"
+      D: "Jill Masterson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Goldfinger\", what is the name of Bond's girlfriend who is killed at the start of the film?"
+        answers:
+          A: "Bonita"
+          B: "Tilly Masterson"
+          C: "Pussy Galore"
+          D: "Jill Masterson"
+    difficulty: EXPERT
+  - text: "Quel gadget Q remet-il à Bond dans « Goldfinger » ?"
+    answers:
+      A: "Une montre-bombe"
+      B: "Un revolver à rayons"
+      C: "Un talkie-walkie"
+      D: "Une mallette piégée"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What gadget does Q give Bond in \"Goldfinger\"?"
+        answers:
+          A: "An exploding watch"
+          B: "A ray gun"
+          C: "A walkie-talkie"
+          D: "A booby-trapped briefcase"
+    difficulty: MEDIUM
+  - text: "Quel acteur incarne James Bond dans « Au service secret de Sa Majesté » ?"
+    answers:
+      A: "Sean Connery"
+      B: "Roger Moore"
+      C: "George Lazenby"
+      D: "Timothy Dalton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays James Bond in \"On Her Majesty's Secret Service\"?"
+        answers:
+          A: "Sean Connery"
+          B: "Roger Moore"
+          C: "George Lazenby"
+          D: "Timothy Dalton"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du méchant principal dans « Octopussy » ?"
+    answers:
+      A: "Mischka"
+      B: "Général Orlov"
+      C: "Gobinda"
+      D: "Kamal Khan"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main villain in \"Octopussy\"?"
+        answers:
+          A: "Mischka"
+          B: "General Orlov"
+          C: "Gobinda"
+          D: "Kamal Khan"
+    difficulty: HARD
+  - text: "Dans quel film Bond se bat-il contre un certain « Docteur No » ?"
     answers:
       A: "Goldfinger"
-      B: "Dr No"
-      C: "Opération Tonnerre"
-      D: "Skyfall"
-    correctAnswer: A
+      B: "Bons baisers de Russie"
+      C: "James Bond 007 contre Dr No"
+      D: "Opération Tonnerre"
+    correctAnswer: C
     translations:
       en:
-        text: "Which 1964 film features a villain who covers a woman in gold?"
+        text: "In which film does Bond fight a certain \"Dr No\"?"
         answers:
           A: "Goldfinger"
-          B: "Dr. No"
-          C: "Thunderball"
-          D: "Skyfall"
+          B: "From Russia with Love"
+          C: "Dr No"
+          D: "Thunderball"
     difficulty: EASY
-  - text: "Qui interprète James Bond dans Casino Royale (2006) ?"
+  - text: "Quelle actrice incarne Vesper Lynd dans « Casino Royale » (2006) ?"
     answers:
-      A: "Roger Moore"
-      B: "Pierce Brosnan"
-      C: "Sean Connery"
-      D: "Daniel Craig"
+      A: "Bérénice Marlohe"
+      B: "Olga Kurylenko"
+      C: "Gemma Arterton"
+      D: "Eva Green"
     correctAnswer: D
     translations:
       en:
-        text: "Who plays James Bond in Casino Royale (2006)?"
+        text: "Which actress plays Vesper Lynd in \"Casino Royale\" (2006)?"
         answers:
-          A: "Roger Moore"
-          B: "Pierce Brosnan"
-          C: "Sean Connery"
-          D: "Daniel Craig"
+          A: "Bérénice Marlohe"
+          B: "Olga Kurylenko"
+          C: "Gemma Arterton"
+          D: "Eva Green"
     difficulty: EASY
-  - text: "Comment s'appelle l'inventeur de gadgets du MI6 qui équipe James Bond ?"
+  - text: "Quel est le nom du chat blanc de Blofeld ?"
     answers:
-      A: "M"
-      B: "Felix Leiter"
-      C: "Moneypenny"
-      D: "Q"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the name of the MI6 gadget inventor who equips James Bond?"
-        answers:
-          A: "M"
-          B: "Felix Leiter"
-          C: "Moneypenny"
-          D: "Q"
-    difficulty: EASY
-  - text: "Quelle actrice a joué M dans GoldenEye et les films suivants de Pierce Brosnan et Daniel Craig ?"
-    answers:
-      A: "Helen Mirren"
-      B: "Maggie Smith"
-      C: "Judi Dench"
-      D: "Emma Thompson"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which actress played M in GoldenEye and the following Pierce Brosnan and Daniel Craig films?"
-        answers:
-          A: "Helen Mirren"
-          B: "Maggie Smith"
-          C: "Judi Dench"
-          D: "Emma Thompson"
-    difficulty: EASY
-  - text: "Quel acteur incarne James Bond dans Permis de tuer (1989) ?"
-    answers:
-      A: "Sean Connery"
-      B: "Pierce Brosnan"
-      C: "Roger Moore"
-      D: "Timothy Dalton"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which actor plays James Bond in Licence to Kill (1989)?"
-        answers:
-          A: "Sean Connery"
-          B: "Pierce Brosnan"
-          C: "Roger Moore"
-          D: "Timothy Dalton"
-    difficulty: MEDIUM
-  - text: "Combien de films officiels de la série EON Sean Connery a-t-il tournés dans le rôle de James Bond ?"
-    answers:
-      A: "3"
-      B: "4"
-      C: "6"
-      D: "5"
-    correctAnswer: C
-    translations:
-      en:
-        text: "How many official EON series films did Sean Connery make as James Bond?"
-        answers:
-          A: "3"
-          B: "4"
-          C: "6"
-          D: "5"
-    difficulty: MEDIUM
-  - text: "Quel acteur n'a tourné qu'un seul film officiel dans le rôle de James Bond ?"
-    answers:
-      A: "Timothy Dalton"
-      B: "Daniel Craig"
-      C: "Pierce Brosnan"
-      D: "George Lazenby"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which actor has played James Bond in only one official film?"
-        answers:
-          A: "Timothy Dalton"
-          B: "Daniel Craig"
-          C: "Pierce Brosnan"
-          D: "George Lazenby"
-    difficulty: MEDIUM
-  - text: "Quel film marque les débuts de Roger Moore dans le rôle de James Bond ?"
-    answers:
-      A: "Vivre et laisser mourir"
-      B: "L'Homme au pistolet d'or"
-      C: "L'Espion qui m'aimait"
-      D: "Moonraker"
+      A: "Blofeld ne donne pas de nom à son chat"
+      B: "Perla"
+      C: "Mimine"
+      D: "Snowy"
     correctAnswer: A
     translations:
       en:
-        text: "Which film marks Roger Moore's debut as James Bond?"
+        text: "What is the name of Blofeld's white cat?"
         answers:
-          A: "Live and Let Die"
-          B: "The Man with the Golden Gun"
-          C: "The Spy Who Loved Me"
-          D: "Moonraker"
-    difficulty: MEDIUM
-  - text: "Quel est le nom du chef de l'organisation criminelle SPECTRE ?"
+          A: "Blofeld doesn't give his cat a name"
+          B: "Perla"
+          C: "Mimine"
+          D: "Snowy"
+    difficulty: HARD
+  - text: "Dans « On ne vit que deux fois », qui incarne l'astronaute traître ?"
     answers:
-      A: "Le Chiffre"
-      B: "Ernst Stavro Blofeld"
-      C: "Hugo Drax"
-      D: "Francisco Scaramanga"
+      A: "Donald Pleasence"
+      B: "Teru Shimada"
+      C: "Tetsuro Tamba"
+      D: "Charles Gray"
     correctAnswer: B
     translations:
       en:
-        text: "What is the name of the head of the criminal organization SPECTRE?"
+        text: "In \"You Only Live Twice\", who plays the traitorous astronaut?"
         answers:
-          A: "Le Chiffre"
-          B: "Ernst Stavro Blofeld"
-          C: "Hugo Drax"
-          D: "Francisco Scaramanga"
-    difficulty: MEDIUM
-  - text: "Cette Aston Martin DB5, vedette de Goldfinger, est équipée d'un gadget devenu culte : lequel ?"
+          A: "Donald Pleasence"
+          B: "Teru Shimada"
+          C: "Tetsuro Tamba"
+          D: "Charles Gray"
+    difficulty: EXPERT
+  - text: "Quel gadget culte équipe cette Aston Martin ?"
+    imageUrl: wikipedia/movies/Aston_Martin_DB5_(Skyfall).jpg
     answers:
       A: "Un missile sous-marin"
       B: "Un laser"
@@ -305,575 +306,575 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "This Aston Martin DB5, star of Goldfinger, is equipped with a gadget that became iconic: which one?"
+        text: "Which iconic gadget is equipped on this Aston Martin?"
         answers:
           A: "An underwater missile"
           B: "A laser"
           C: "An ejector seat"
           D: "A snow cannon"
-    imageUrl: wikipedia/movies/Aston_Martin_DB5_(Skyfall).jpg
     difficulty: MEDIUM
-  - text: "Quelle actrice joue Moneypenny dans les films de Daniel Craig ?"
+  - text: "Quel film de James Bond met en scène un sous-marin nucléaire volé par SPECTRE ?"
     answers:
-      A: "Eva Green"
-      B: "Judi Dench"
-      C: "Naomie Harris"
-      D: "Monica Bellucci"
+      A: "Au service secret de Sa Majesté"
+      B: "On ne vit que deux fois"
+      C: "Opération Tonnerre"
+      D: "Les diamants sont éternels"
     correctAnswer: C
     translations:
       en:
-        text: "Which actress plays Moneypenny in the Daniel Craig films?"
+        text: "Which James Bond film features a nuclear submarine stolen by SPECTRE?"
         answers:
-          A: "Eva Green"
-          B: "Judi Dench"
-          C: "Naomie Harris"
-          D: "Monica Bellucci"
-    difficulty: MEDIUM
-  - text: "Quel film de 2021 est le dernier de Daniel Craig dans le rôle de James Bond ?"
+          A: "On Her Majesty's Secret Service"
+          B: "You Only Live Twice"
+          C: "Thunderball"
+          D: "Diamonds Are Forever"
+    difficulty: HARD
+  - text: "Qui joue le rôle de M dans « GoldenEye » ?"
     answers:
-      A: "Spectre"
-      B: "Skyfall"
-      C: "Quantum of Solace"
-      D: "Mourir peut attendre"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which 2021 film is Daniel Craig's last as James Bond?"
-        answers:
-          A: "Spectre"
-          B: "Skyfall"
-          C: "Quantum of Solace"
-          D: "No Time to Die"
-    difficulty: MEDIUM
-  - text: "Quel est le nom du principal adversaire de Bond dans Casino Royale (2006) ?"
-    answers:
-      A: "Dominic Greene"
-      B: "Raoul Silva"
-      C: "Le Chiffre"
-      D: "Ernst Stavro Blofeld"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the name of Bond's main adversary in Casino Royale (2006)?"
-        answers:
-          A: "Dominic Greene"
-          B: "Raoul Silva"
-          C: "Le Chiffre"
-          D: "Ernst Stavro Blofeld"
-    difficulty: MEDIUM
-  - text: "Quel acteur joue Q dans les films de Daniel Craig ?"
-    answers:
-      A: "John Cleese"
-      B: "Ben Whishaw"
+      A: "Bernard Lee"
+      B: "Robert Brown"
       C: "Ralph Fiennes"
-      D: "Desmond Llewelyn"
-    correctAnswer: B
+      D: "Judi Dench"
+    correctAnswer: D
     translations:
       en:
-        text: "Which actor plays Q in the Daniel Craig films?"
+        text: "Who plays the role of M in \"GoldenEye\"?"
         answers:
-          A: "John Cleese"
-          B: "Ben Whishaw"
+          A: "Bernard Lee"
+          B: "Robert Brown"
           C: "Ralph Fiennes"
-          D: "Desmond Llewelyn"
+          D: "Judi Dench"
+    difficulty: EASY
+  - text: "Quel est le titre du film de James Bond sorti en 1987 ?"
+    answers:
+      A: "Avec Permis de tuer"
+      B: "Permis de tuer"
+      C: "Tuer n'est pas jouer"
+      D: "Dangereusement vôtre"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the title of the James Bond film released in 1987?"
+        answers:
+          A: "Avec Permis de tuer"
+          B: "Permis de tuer"
+          C: "Tuer n'est pas jouer"
+          D: "Dangereusement vôtre"
     difficulty: MEDIUM
-  - text: "Combien de films Daniel Craig a-t-il tournés dans le rôle de James Bond ?"
+  - text: "Quel est le prénom du « Q » joué par Ben Whishaw ?"
     answers:
-      A: "5"
-      B: "4"
-      C: "6"
-      D: "7"
-    correctAnswer: A
-    translations:
-      en:
-        text: "How many films has Daniel Craig made as James Bond?"
-        answers:
-          A: "5"
-          B: "4"
-          C: "6"
-          D: "7"
-    difficulty: MEDIUM
-  - text: "Qui interprète le thème musical du film Skyfall ?"
-    answers:
-      A: "Adele"
-      B: "Rihanna"
-      C: "Beyoncé"
-      D: "Lady Gaga"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who performs the theme song for the film Skyfall?"
-        answers:
-          A: "Adele"
-          B: "Rihanna"
-          C: "Beyoncé"
-          D: "Lady Gaga"
-    difficulty: MEDIUM
-  - text: "Quel acteur joue le méchant Alec Trevelyan (006) dans GoldenEye ?"
-    answers:
-      A: "Alan Rickman"
-      B: "Sean Bean"
-      C: "Jeremy Irons"
-      D: "Ralph Fiennes"
+      A: "Albert"
+      B: "Percival"
+      C: "Desmond"
+      D: "Geoffrey"
     correctAnswer: B
     translations:
       en:
-        text: "Which actor plays the villain Alec Trevelyan (006) in GoldenEye?"
+        text: "What is the first name of the \"Q\" played by Ben Whishaw?"
         answers:
-          A: "Alan Rickman"
-          B: "Sean Bean"
-          C: "Jeremy Irons"
-          D: "Ralph Fiennes"
-    difficulty: HARD
-  - text: "Qui a réalisé Skyfall (2012) ?"
+          A: "Albert"
+          B: "Percival"
+          C: "Desmond"
+          D: "Geoffrey"
+    difficulty: EXPERT
+  - text: "Dans « Spectre » (2015), quel est le nom complet du méchant principal ?"
     answers:
-      A: "Sam Mendes"
-      B: "Martin Campbell"
-      C: "Christopher Nolan"
-      D: "Danny Boyle"
+      A: "Ernst Stavro Blofeld"
+      B: "Franz Oberhauser"
+      C: "Max Denbigh"
+      D: "Dominic Greene"
     correctAnswer: A
     translations:
       en:
-        text: "Who directed Skyfall (2012)?"
+        text: "In \"Spectre\" (2015), what is the full name of the main villain?"
         answers:
-          A: "Sam Mendes"
-          B: "Martin Campbell"
-          C: "Christopher Nolan"
-          D: "Danny Boyle"
+          A: "Ernst Stavro Blofeld"
+          B: "Franz Oberhauser"
+          C: "Max Denbigh"
+          D: "Dominic Greene"
     difficulty: HARD
-  - text: "Quel compositeur a signé la musique de nombreux films de James Bond, dont Goldfinger et On ne vit que deux fois ?"
+  - text: "Quel réalisateur a mis en scène « Casino Royale » (2006) ?"
     answers:
-      A: "Ennio Morricone"
-      B: "Hans Zimmer"
-      C: "John Barry"
-      D: "Michel Legrand"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which composer wrote the music for many James Bond films, including Goldfinger and You Only Live Twice?"
-        answers:
-          A: "Ennio Morricone"
-          B: "Hans Zimmer"
-          C: "John Barry"
-          D: "Michel Legrand"
-    difficulty: HARD
-  - text: "Qui a composé le thème original James Bond Theme ?"
-    answers:
-      A: "John Barry"
-      B: "Paul McCartney"
-      C: "Quincy Jones"
-      D: "Monty Norman"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who composed the original James Bond Theme?"
-        answers:
-          A: "John Barry"
-          B: "Paul McCartney"
-          C: "Quincy Jones"
-          D: "Monty Norman"
-    difficulty: HARD
-  - text: "Quel acteur interprète Blofeld dans On ne vit que deux fois (1967) ?"
-    answers:
-      A: "Charles Gray"
-      B: "Telly Savalas"
-      C: "Donald Pleasence"
-      D: "Christoph Waltz"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which actor plays Blofeld in You Only Live Twice (1967)?"
-        answers:
-          A: "Charles Gray"
-          B: "Telly Savalas"
-          C: "Donald Pleasence"
-          D: "Christoph Waltz"
-    difficulty: HARD
-  - text: "Quel acteur joue Le Chiffre dans Casino Royale (2006) ?"
-    answers:
-      A: "Javier Bardem"
-      B: "Jesper Christensen"
-      C: "Mathieu Amalric"
-      D: "Mads Mikkelsen"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which actor plays Le Chiffre in Casino Royale (2006)?"
-        answers:
-          A: "Javier Bardem"
-          B: "Jesper Christensen"
-          C: "Mathieu Amalric"
-          D: "Mads Mikkelsen"
-    difficulty: HARD
-  - text: "Quelle actrice est la première à avoir joué Moneypenny au cinéma ?"
-    answers:
-      A: "Lois Maxwell"
-      B: "Naomie Harris"
-      C: "Samantha Bond"
-      D: "Pamela Salem"
+      A: "Martin Campbell"
+      B: "Sam Mendes"
+      C: "Marc Forster"
+      D: "Lee Tamahori"
     correctAnswer: A
     translations:
       en:
-        text: "Which actress was the first to play Moneypenny on film?"
+        text: "Which director directed \"Casino Royale\" (2006)?"
         answers:
-          A: "Lois Maxwell"
-          B: "Naomie Harris"
-          C: "Samantha Bond"
-          D: "Pamela Salem"
-    difficulty: HARD
-  - text: "Quel film de Roger Moore se déroule en partie dans l'espace ?"
+          A: "Martin Campbell"
+          B: "Sam Mendes"
+          C: "Marc Forster"
+          D: "Lee Tamahori"
+    difficulty: EASY
+  - text: "Quel acteur joue le méchant Dominic Greene dans « Quantum of Solace » ?"
     answers:
-      A: "Dangereusement vôtre"
-      B: "Rien que pour vos yeux"
-      C: "Octopussy"
-      D: "Moonraker"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which Roger Moore film is partly set in space?"
-        answers:
-          A: "A View to a Kill"
-          B: "For Your Eyes Only"
-          C: "Octopussy"
-          D: "Moonraker"
-    difficulty: HARD
-  - text: "Qui joue Francisco Scaramanga dans L'Homme au pistolet d'or ?"
-    answers:
-      A: "Christopher Walken"
-      B: "Christopher Lee"
-      C: "Michael Lonsdale"
-      D: "Louis Jourdan"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who plays Francisco Scaramanga in The Man with the Golden Gun?"
-        answers:
-          A: "Christopher Walken"
-          B: "Christopher Lee"
-          C: "Michael Lonsdale"
-          D: "Louis Jourdan"
-    difficulty: HARD
-  - text: "Quel film de 1965 met en scène le SPECTRE et le vol de bombes nucléaires ?"
-    answers:
-      A: "Goldfinger"
-      B: "Opération Tonnerre"
-      C: "On ne vit que deux fois"
-      D: "Docteur No"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which 1965 film features SPECTRE and the theft of nuclear bombs?"
-        answers:
-          A: "Goldfinger"
-          B: "Thunderball"
-          C: "You Only Live Twice"
-          D: "Dr. No"
-    difficulty: HARD
-  - text: "Quel est le nom de famille de M, interprétée par Judi Dench, révélé dans Skyfall ?"
-    answers:
-      A: "Mallory"
-      B: "Moneypenny"
-      C: "Mitchell"
-      D: "Mansfield"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the surname of M, played by Judi Dench, revealed in Skyfall?"
-        answers:
-          A: "Mallory"
-          B: "Moneypenny"
-          C: "Mitchell"
-          D: "Mansfield"
-    difficulty: HARD
-  - text: "Quel acteur incarne James Bond dans Au service secret de Sa Majesté (1969) ?"
-    answers:
-      A: "Roger Moore"
-      B: "Sean Connery"
-      C: "George Lazenby"
-      D: "Timothy Dalton"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which actor plays James Bond in On Her Majesty's Secret Service (1969)?"
-        answers:
-          A: "Roger Moore"
-          B: "Sean Connery"
-          C: "George Lazenby"
-          D: "Timothy Dalton"
-    difficulty: HARD
-  - text: "Dans quel film James Bond se marie-t-il pour la première fois au cinéma ?"
-    answers:
-      A: "Goldfinger"
-      B: "On ne vit que deux fois"
-      C: "Au service secret de Sa Majesté"
-      D: "L'Espion qui m'aimait"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which film does James Bond get married for the first time on screen?"
-        answers:
-          A: "Goldfinger"
-          B: "You Only Live Twice"
-          C: "On Her Majesty's Secret Service"
-          D: "The Spy Who Loved Me"
-    difficulty: HARD
-  - text: "Qui a incarné James Bond dans le Casino Royale parodique de 1967 ?"
-    answers:
-      A: "Peter Sellers"
-      B: "Orson Welles"
-      C: "Woody Allen"
-      D: "David Niven"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who played James Bond in the 1967 parody Casino Royale?"
-        answers:
-          A: "Peter Sellers"
-          B: "Orson Welles"
-          C: "Woody Allen"
-          D: "David Niven"
-    difficulty: EXPERT
-  - text: "Combien de livres (romans et recueils de nouvelles) Ian Fleming a-t-il consacrés à James Bond ?"
-    answers:
-      A: "10"
-      B: "14"
-      C: "16"
-      D: "12"
-    correctAnswer: B
-    translations:
-      en:
-        text: "How many books (novels and short story collections) did Ian Fleming devote to James Bond?"
-        answers:
-          A: "10"
-          B: "14"
-          C: "16"
-          D: "12"
-    difficulty: EXPERT
-  - text: "Quel est le titre du tout premier roman de Ian Fleming mettant en scène James Bond ?"
-    answers:
-      A: "Casino Royale"
-      B: "Vivre et laisser mourir"
-      C: "Docteur No"
-      D: "Bons baisers de Russie"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the title of Ian Fleming's very first novel featuring James Bond?"
-        answers:
-          A: "Casino Royale"
-          B: "Live and Let Die"
-          C: "Dr. No"
-          D: "From Russia with Love"
-    difficulty: EXPERT
-  - text: "Quel acteur joue Blofeld dans Au service secret de Sa Majesté (1969) ?"
-    answers:
-      A: "Donald Pleasence"
-      B: "Charles Gray"
-      C: "Max von Sydow"
-      D: "Telly Savalas"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which actor plays Blofeld in On Her Majesty's Secret Service (1969)?"
-        answers:
-          A: "Donald Pleasence"
-          B: "Charles Gray"
-          C: "Max von Sydow"
-          D: "Telly Savalas"
-    difficulty: EXPERT
-  - text: "Quel acteur incarne Blofeld dans Les Diamants sont éternels (1971) ?"
-    answers:
-      A: "Telly Savalas"
-      B: "Donald Pleasence"
-      C: "Charles Gray"
-      D: "Anthony Hopkins"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which actor plays Blofeld in Diamonds Are Forever (1971)?"
-        answers:
-          A: "Telly Savalas"
-          B: "Donald Pleasence"
-          C: "Charles Gray"
-          D: "Anthony Hopkins"
-    difficulty: EXPERT
-  - text: "Qui était le producteur historique de la saga James Bond aux côtés d'Albert R. Broccoli ?"
-    answers:
-      A: "Kevin McClory"
-      B: "Harry Saltzman"
-      C: "Irving Allen"
-      D: "Michael G. Wilson"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who was the longtime producer of the James Bond saga alongside Albert R. Broccoli?"
-        answers:
-          A: "Kevin McClory"
-          B: "Harry Saltzman"
-          C: "Irving Allen"
-          D: "Michael G. Wilson"
-    difficulty: EXPERT
-  - text: "Quelle actrice joue Vesper Lynd dans Casino Royale (2006) ?"
-    answers:
-      A: "Eva Green"
-      B: "Olga Kurylenko"
-      C: "Caterina Murino"
-      D: "Léa Seydoux"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which actress plays Vesper Lynd in Casino Royale (2006)?"
-        answers:
-          A: "Eva Green"
-          B: "Olga Kurylenko"
-          C: "Caterina Murino"
-          D: "Léa Seydoux"
-    difficulty: EXPERT
-  - text: "Qui interprète le méchant Raoul Silva dans Skyfall ?"
-    answers:
-      A: "Andrew Scott"
-      B: "Christoph Waltz"
-      C: "Dave Bautista"
+      A: "Jesper Christensen"
+      B: "Mathieu Amalric"
+      C: "Mads Mikkelsen"
       D: "Javier Bardem"
-    correctAnswer: D
+    correctAnswer: B
     translations:
       en:
-        text: "Who plays the villain Raoul Silva in Skyfall?"
+        text: "Which actor plays the villain Dominic Greene in \"Quantum of Solace\"?"
         answers:
-          A: "Andrew Scott"
-          B: "Christoph Waltz"
-          C: "Dave Bautista"
+          A: "Jesper Christensen"
+          B: "Mathieu Amalric"
+          C: "Mads Mikkelsen"
           D: "Javier Bardem"
-    difficulty: EXPERT
-  - text: "Quel film marque la dernière apparition officielle de Sean Connery en James Bond pour la série EON ?"
+    difficulty: MEDIUM
+  - text: "Dans « Dr No », quel est le nom du partenaire de bridge de Bond à Kingston ?"
     answers:
-      A: "Les Diamants sont éternels"
-      B: "On ne vit que deux fois"
-      C: "Jamais plus jamais"
-      D: "Opération Tonnerre"
+      A: "Pleydell-Smith"
+      B: "Quarrel"
+      C: "Felix Leiter"
+      D: "Strangways"
     correctAnswer: A
     translations:
       en:
-        text: "Which film marks Sean Connery's last official appearance as James Bond for the EON series?"
+        text: "In \"Dr No\", what is the name of Bond's bridge partner in Kingston?"
         answers:
-          A: "Diamonds Are Forever"
-          B: "You Only Live Twice"
-          C: "Never Say Never Again"
-          D: "Thunderball"
+          A: "Pleydell-Smith"
+          B: "Quarrel"
+          C: "Felix Leiter"
+          D: "Strangways"
     difficulty: EXPERT
-  - text: "Quelle actrice incarne Tracy di Vicenzo dans Au service secret de Sa Majesté (1969) ?"
+  - text: "Quelle actrice joue la princesse Aki dans « On ne vit que deux fois » ?"
     answers:
-      A: "Honor Blackman"
-      B: "Ursula Andress"
-      C: "Diana Rigg"
-      D: "Jane Seymour"
+      A: "Karin Dor"
+      B: "Mie Hama"
+      C: "Akiko Wakabayashi"
+      D: "Lois Maxwell"
     correctAnswer: C
     translations:
       en:
-        text: "Which actress plays Tracy di Vicenzo in On Her Majesty's Secret Service (1969)?"
+        text: "Which actress plays Princess Aki in \"You Only Live Twice\"?"
         answers:
-          A: "Honor Blackman"
-          B: "Ursula Andress"
-          C: "Diana Rigg"
-          D: "Jane Seymour"
+          A: "Karin Dor"
+          B: "Mie Hama"
+          C: "Akiko Wakabayashi"
+          D: "Lois Maxwell"
     difficulty: EXPERT
-  - text: "Quel acteur joue Felix Leiter dans James Bond 007 contre Dr No (1962) ?"
+  - text: "Quel est le nom du navire de guerre dans « Le monde ne suffit pas » ?"
     answers:
-      A: "David Hedison"
-      B: "Jeffrey Wright"
-      C: "Jack Lord"
-      D: "John Terry"
+      A: "HMS Devonshire"
+      B: "HMS Cornwall"
+      C: "HMS Bedford"
+      D: "HMS Chester"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the warship in \"The World Is Not Enough\"?"
+        answers:
+          A: "HMS Devonshire"
+          B: "HMS Cornwall"
+          C: "HMS Bedford"
+          D: "HMS Chester"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne le général Ourumov dans « GoldenEye » ?"
+    answers:
+      A: "Joe Don Baker"
+      B: "Robbie Coltrane"
+      C: "Gottfried John"
+      D: "Alan Cumming"
     correctAnswer: C
     translations:
       en:
-        text: "Which actor plays Felix Leiter in Dr. No (1962)?"
+        text: "Which actor plays General Ourumov in \"GoldenEye\"?"
         answers:
-          A: "David Hedison"
-          B: "Jeffrey Wright"
-          C: "Jack Lord"
-          D: "John Terry"
+          A: "Joe Don Baker"
+          B: "Robbie Coltrane"
+          C: "Gottfried John"
+          D: "Alan Cumming"
     difficulty: EXPERT
-  - text: "Quelle chanteuse interprète la chanson titre de Goldfinger (1964) ?"
+  - text: "Dans « Goldfinger », quel est le nom de la sœur d'Auric Goldfinger ?"
+    answers:
+      A: "Solange"
+      B: "Jill"
+      C: "Maud"
+      D: "Tilly"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Goldfinger\", what is the name of Auric Goldfinger's sister?"
+        answers:
+          A: "Solange"
+          B: "Jill"
+          C: "Maud"
+          D: "Tilly"
+    difficulty: EXPERT
+  - text: "Quel film de James Bond est sorti en 1983 et n'appartient pas à la série officielle EON ?"
+    answers:
+      A: "Jamais plus jamais"
+      B: "Octopussy"
+      C: "Dangereusement vôtre"
+      D: "Rien que pour vos yeux"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which James Bond film was released in 1983 and is not part of the official EON series?"
+        answers:
+          A: "Never Say Never Again"
+          B: "Octopussy"
+          C: "A View to a Kill"
+          D: "For Your Eyes Only"
+    difficulty: HARD
+  - text: "Quel est le nom du volcan dans « On ne vit que deux fois » ?"
+    answers:
+      A: "Mont Fuji"
+      B: "Sakurajima"
+      C: "Mont Aso"
+      D: "Mont Unzen"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the volcano in \"You Only Live Twice\"?"
+        answers:
+          A: "Mount Fuji"
+          B: "Sakurajima"
+          C: "Mount Aso"
+          D: "Mount Unzen"
+    difficulty: EXPERT
+  - text: "Qui interprète la chanson « Diamonds Are Forever » ?"
     answers:
       A: "Nancy Sinatra"
       B: "Shirley Bassey"
-      C: "Tom Jones"
-      D: "Matt Monro"
+      C: "Lulu"
+      D: "Carly Simon"
     correctAnswer: B
     translations:
       en:
-        text: "Which singer performs the title song of Goldfinger (1964)?"
+        text: "Who performs the song \"Diamonds Are Forever\"?"
         answers:
           A: "Nancy Sinatra"
           B: "Shirley Bassey"
-          C: "Tom Jones"
-          D: "Matt Monro"
+          C: "Lulu"
+          D: "Carly Simon"
+    difficulty: MEDIUM
+  - text: "Dans « Skyfall », quel est le nom du tableau représentant un navire de guerre ?"
+    answers:
+      A: "Le Vaisseau de guerre"
+      B: "Le Combat naval"
+      C: "La Bataille navale"
+      D: "Le Cuirassé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"Skyfall\", what is the name of the painting depicting a warship?"
+        answers:
+          A: "The Warship"
+          B: "The Naval Combat"
+          C: "The Naval Battle"
+          D: "The Battleship"
+    difficulty: HARD
+  - text: "Quel acteur joue le rôle de Jack Wade dans « GoldenEye » et « Demain ne meurt jamais » ?"
+    answers:
+      A: "Gottfried John"
+      B: "Robbie Coltrane"
+      C: "Alan Cumming"
+      D: "Joe Don Baker"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays Jack Wade in \"GoldenEye\" and \"Tomorrow Never Dies\"?"
+        answers:
+          A: "Gottfried John"
+          B: "Robbie Coltrane"
+          C: "Alan Cumming"
+          D: "Joe Don Baker"
+    difficulty: HARD
+  - text: "Quel est le nom du méchant principal dans « Dangereusement vôtre » ?"
+    answers:
+      A: "Hugo Drax"
+      B: "Aristotle Kristatos"
+      C: "Max Zorin"
+      D: "Kamal Khan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main villain in \"A View to a Kill\"?"
+        answers:
+          A: "Hugo Drax"
+          B: "Aristotle Kristatos"
+          C: "Max Zorin"
+          D: "Kamal Khan"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du personnage joué par Grace Jones dans « Dangereusement vôtre » ?"
+    answers:
+      A: "Jenny Flex"
+      B: "Aurora"
+      C: "May Day"
+      D: "Pola Ivanova"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the character played by Grace Jones in \"A View to a Kill\"?"
+        answers:
+          A: "Jenny Flex"
+          B: "Aurora"
+          C: "May Day"
+          D: "Pola Ivanova"
+    difficulty: HARD
+  - text: "Dans « Octopussy », quel est le nom du bijou volé ?"
+    answers:
+      A: "Le Collier de perles"
+      B: "Le Diamant bleu"
+      C: "Le Rubis du Cachemire"
+      D: "L'Œuf de Fabergé"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"Octopussy\", what is the name of the stolen jewel?"
+        answers:
+          A: "The Pearl Necklace"
+          B: "The Blue Diamond"
+          C: "The Kashmir Ruby"
+          D: "The Fabergé Egg"
     difficulty: EXPERT
-  - text: "Qui a créé le personnage de James Bond en littérature ?"
+  - text: "Quel est le nom de l'île où se déroule l'affrontement final dans « Le monde ne suffit pas » ?"
     answers:
-      A: "Agatha Christie"
-      B: "Ian Fleming"
-      C: "John le Carré"
-      D: "Arthur Conan Doyle"
+      A: "L'île de Zorin"
+      B: "L'île de Maiden"
+      C: "L'île de Silva"
+      D: "L'île de Blofeld"
     correctAnswer: B
     translations:
       en:
-        text: "Who created the character of James Bond in literature?"
+        text: "What is the name of the island where the final showdown takes place in \"The World Is Not Enough\"?"
         answers:
-          A: "Agatha Christie"
-          B: "Ian Fleming"
-          C: "John le Carré"
-          D: "Arthur Conan Doyle"
-    difficulty: EASY
-  - text: "Quel garde du corps de Goldfinger utilise un chapeau melon comme arme mortelle ?"
+          A: "Zorin's Island"
+          B: "Maiden's Island"
+          C: "Silva's Island"
+          D: "Blofeld's Island"
+    difficulty: EXPERT
+  - text: "Quel acteur incarne James Bond dans « Dangereusement vôtre » ?"
     answers:
-      A: "Nick Nack"
-      B: "Jaws"
-      C: "Oddjob"
-      D: "Tee Hee"
+      A: "Roger Moore"
+      B: "Sean Connery"
+      C: "Pierce Brosnan"
+      D: "Timothy Dalton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays James Bond in \"A View to a Kill\"?"
+        answers:
+          A: "Roger Moore"
+          B: "Sean Connery"
+          C: "Pierce Brosnan"
+          D: "Timothy Dalton"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du personnage joué par Famke Janssen dans « GoldenEye » ?"
+    answers:
+      A: "Jack Wade"
+      B: "Natalya Simonova"
+      C: "Alec Trevelyan"
+      D: "Xenia Onatopp"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the character played by Famke Janssen in \"GoldenEye\"?"
+        answers:
+          A: "Jack Wade"
+          B: "Natalya Simonova"
+          C: "Alec Trevelyan"
+          D: "Xenia Onatopp"
+    difficulty: HARD
+  - text: "Quel est le nom de l'acteur qui incarne James Bond dans le film « James Bond 007 contre Dr No » (1962) ?"
+    answers:
+      A: "George Lazenby"
+      B: "Roger Moore"
+      C: "Sean Connery"
+      D: "David Niven"
     correctAnswer: C
     translations:
       en:
-        text: "Which of Goldfinger's bodyguards uses a bowler hat as a deadly weapon?"
+        text: "What is the name of the actor who plays James Bond in the film \"Dr. No\" (1962)?"
         answers:
-          A: "Nick Nack"
-          B: "Jaws"
-          C: "Oddjob"
-          D: "Tee Hee"
+          A: "George Lazenby"
+          B: "Roger Moore"
+          C: "Sean Connery"
+          D: "David Niven"
     difficulty: EASY
-  - text: "Qui interprète le générique du film Skyfall ?"
+  - text: "Dans « Goldfinger », quel est le nom du laser qui menace James Bond ?"
     answers:
-      A: "Billie Eilish"
-      B: "Adele"
-      C: "Sam Smith"
-      D: "Shirley Bassey"
+      A: "Laser à gaz"
+      B: "Laser à rubis"
+      C: "Laser industriel"
+      D: "Laser à fibre"
     correctAnswer: B
     translations:
       en:
-        text: "Who performs the theme song of the film Skyfall?"
+        text: "In \"Goldfinger\", what is the name of the laser that threatens James Bond?"
         answers:
-          A: "Billie Eilish"
-          B: "Adele"
-          C: "Sam Smith"
-          D: "Shirley Bassey"
-    difficulty: EASY
-  - text: "Quel acteur britannique incarne l'agent secret Johnny English, parodie de James Bond ?"
+          A: "Gas laser"
+          B: "Ruby laser"
+          C: "Industrial laser"
+          D: "Fiber laser"
+    difficulty: EXPERT
+  - text: "Quel est le nom du méchant principal dans « Le monde ne suffit pas » ?"
     answers:
-      A: "Mike Myers"
-      B: "Jean Dujardin"
-      C: "Rowan Atkinson"
-      D: "Leslie Nielsen"
+      A: "Renard"
+      B: "Elektra King"
+      C: "Gustav Graves"
+      D: "Zao"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the main villain in \"The World Is Not Enough\"?"
+        answers:
+          A: "Renard"
+          B: "Elektra King"
+          C: "Gustav Graves"
+          D: "Zao"
+    difficulty: HARD
+  - text: "Quel acteur incarne le méchant Gustav Graves dans « Meurs un autre jour » ?"
+    answers:
+      A: "Robert Carlyle"
+      B: "Sean Bean"
+      C: "Jonathan Pryce"
+      D: "Toby Stephens"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which actor plays the villain Gustav Graves in \"Die Another Day\"?"
+        answers:
+          A: "Robert Carlyle"
+          B: "Sean Bean"
+          C: "Jonathan Pryce"
+          D: "Toby Stephens"
+    difficulty: HARD
+  - text: "Dans « Casino Royale » (2006), quel est le nom du tournoi de poker auquel participe Bond ?"
+    answers:
+      A: "Tournoi de Monténégro"
+      B: "Tournoi de Miami"
+      C: "Tournoi de Bakou"
+      D: "Tournoi de Monte-Carlo"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"Casino Royale\" (2006), what is the name of the poker tournament Bond participates in?"
+        answers:
+          A: "Montenegro Tournament"
+          B: "Miami Tournament"
+          C: "Baku Tournament"
+          D: "Monte Carlo Tournament"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'actrice qui joue Wai Lin dans « Demain ne meurt jamais » ?"
+    answers:
+      A: "Gong Li"
+      B: "Maggie Q"
+      C: "Michelle Yeoh"
+      D: "Zhang Ziyi"
     correctAnswer: C
     translations:
       en:
-        text: "Which British actor plays the secret agent Johnny English, a James Bond parody?"
+        text: "What is the name of the actress who plays Wai Lin in \"Tomorrow Never Dies\"?"
         answers:
-          A: "Mike Myers"
-          B: "Jean Dujardin"
-          C: "Rowan Atkinson"
-          D: "Leslie Nielsen"
-    difficulty: EASY
-  - text: "Cette actrice incarne Honey Ryder dans James Bond contre Dr No (1962) : qui est-ce ?"
+          A: "Gong Li"
+          B: "Maggie Q"
+          C: "Michelle Yeoh"
+          D: "Zhang Ziyi"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage joué par Javier Bardem dans « Skyfall » ?"
+    answers:
+      A: "Le Chiffre"
+      B: "Blofeld"
+      C: "Silva"
+      D: "Greene"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the character played by Javier Bardem in \"Skyfall\"?"
+        answers:
+          A: "Le Chiffre"
+          B: "Blofeld"
+          C: "Silva"
+          D: "Greene"
+    difficulty: MEDIUM
+  - text: "Dans « On ne vit que deux fois », quel est le nom de code du volcan servant de base à Blofeld ?"
+    answers:
+      A: "Volcan de Honshu"
+      B: "Volcan de Kyushu"
+      C: "Volcan de Shikoku"
+      D: "Volcan de Hokkaido"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"You Only Live Twice\", what is the code name of the volcano serving as Blofeld's base?"
+        answers:
+          A: "Honshu Volcano"
+          B: "Kyushu Volcano"
+          C: "Shikoku Volcano"
+          D: "Hokkaido Volcano"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier film de James Bond réalisé par Guy Hamilton ?"
+    answers:
+      A: "Les Diamants sont éternels"
+      B: "Goldfinger"
+      C: "Vivre et laisser mourir"
+      D: "L'Homme au pistolet d'or"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the first James Bond film directed by Guy Hamilton?"
+        answers:
+          A: "Diamonds Are Forever"
+          B: "Goldfinger"
+          C: "Live and Let Die"
+          D: "The Man with the Golden Gun"
+    difficulty: HARD
+  - text: "Quel acteur incarne le méchant Karl Stromberg dans « L'Espion qui m'aimait » ?"
+    answers:
+      A: "Michael Lonsdale"
+      B: "Christopher Lee"
+      C: "Curt Jurgens"
+      D: "Louis Jourdan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which actor plays the villain Karl Stromberg in \"The Spy Who Loved Me\"?"
+        answers:
+          A: "Michael Lonsdale"
+          B: "Christopher Lee"
+          C: "Curt Jurgens"
+          D: "Louis Jourdan"
+    difficulty: HARD
+  - text: "Dans « Octopussy », quel est le nom du général afghan qui aide Bond ?"
+    answers:
+      A: "Général Gogol"
+      B: "Général Orlov"
+      C: "Général Kamal Khan"
+      D: "Général Pushkin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"Octopussy\", what is the name of the Afghan general who helps Bond?"
+        answers:
+          A: "General Gogol"
+          B: "General Orlov"
+          C: "General Kamal Khan"
+          D: "General Pushkin"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'acteur qui joue Max Zorin dans « Dangereusement vôtre » ?"
+    answers:
+      A: "Michael Palin"
+      B: "John Cleese"
+      C: "Christopher Walken"
+      D: "Terry Gilliam"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the actor who plays Max Zorin in \"A View to a Kill\"?"
+        answers:
+          A: "Michael Palin"
+          B: "John Cleese"
+          C: "Christopher Walken"
+          D: "Terry Gilliam"
+    difficulty: HARD
+  - text: "Qui incarne Honey Ryder dans James Bond contre Dr No ?"
+    imageUrl: wikipedia/movies/Ursula_Andress_Cannes_2010.jpg
     answers:
       A: "Ursula Andress"
       B: "Honor Blackman"
@@ -882,239 +883,174 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "This actress plays Honey Ryder in Dr. No (1962): who is she?"
+        text: "Who plays Honey Ryder in Dr. No?"
         answers:
           A: "Ursula Andress"
           B: "Honor Blackman"
           C: "Diana Rigg"
           D: "Britt Ekland"
-    imageUrl: wikipedia/movies/Ursula_Andress_Cannes_2010.jpg
     difficulty: EASY
-  - text: "Quel est le nom du méchant principal de Goldfinger ?"
+  - text: "Dans « Permis de tuer », quel est le nom du baron de la drogue que Bond poursuit ?"
     answers:
-      A: "Ernst Stavro Blofeld"
-      B: "Auric Goldfinger"
-      C: "Hugo Drax"
-      D: "Emilio Largo"
+      A: "Carlos"
+      B: "Franz Sanchez"
+      C: "Milton Krest"
+      D: "Ed Killifer"
     correctAnswer: B
     translations:
       en:
-        text: "What is the name of the main villain in Goldfinger?"
+        text: "In \"Licence to Kill\", what is the name of the drug lord Bond pursues?"
         answers:
-          A: "Ernst Stavro Blofeld"
-          B: "Auric Goldfinger"
-          C: "Hugo Drax"
-          D: "Emilio Largo"
-    difficulty: EASY
-  - text: "Comment s'appelle l'agent de la CIA, allié récurrent de James Bond ?"
+          A: "Carlos"
+          B: "Franz Sanchez"
+          C: "Milton Krest"
+          D: "Ed Killifer"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la compositrice de la bande originale de « Demain ne meurt jamais » ?"
     answers:
-      A: "Jack Wade"
-      B: "Quarrel"
-      C: "René Mathis"
-      D: "Felix Leiter"
+      A: "Éric Serra"
+      B: "John Barry"
+      C: "Michael Kamen"
+      D: "David Arnold"
     correctAnswer: D
     translations:
       en:
-        text: "What is the name of the CIA agent who is James Bond's recurring ally?"
+        text: "What is the name of the composer of the soundtrack for \"Tomorrow Never Dies\"?"
         answers:
-          A: "Jack Wade"
-          B: "Quarrel"
-          C: "René Mathis"
-          D: "Felix Leiter"
-    difficulty: EASY
-  - text: "Qui a joué Q, l'inventeur de gadgets, dans dix-sept films de James Bond ?"
+          A: "Éric Serra"
+          B: "John Barry"
+          C: "Michael Kamen"
+          D: "David Arnold"
+    difficulty: EXPERT
+  - text: "Dans « Quantum of Solace », quel est le nom de l'organisation secrète que Bond infiltre ?"
     answers:
-      A: "John Cleese"
-      B: "Ben Whishaw"
-      C: "Peter Burton"
-      D: "Desmond Llewelyn"
+      A: "KGB"
+      B: "SPECTRE"
+      C: "Le Syndicat"
+      D: "Quantum"
     correctAnswer: D
     translations:
       en:
-        text: "Who played Q, the gadget inventor, in seventeen James Bond films?"
+        text: "In \"Quantum of Solace\", what is the name of the secret organization Bond infiltrates?"
         answers:
-          A: "John Cleese"
-          B: "Ben Whishaw"
-          C: "Peter Burton"
-          D: "Desmond Llewelyn"
-    difficulty: EASY
-  - text: "Quelle actrice française incarne Madeleine Swann dans Spectre et Mourir peut attendre ?"
+          A: "KGB"
+          B: "SPECTRE"
+          C: "The Syndicate"
+          D: "Quantum"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier roman de Ian Fleming mettant en scène James Bond ?"
     answers:
-      A: "Eva Green"
-      B: "Carole Bouquet"
-      C: "Sophie Marceau"
-      D: "Léa Seydoux"
+      A: "Goldfinger"
+      B: "Vivre et laisser mourir"
+      C: "Docteur No"
+      D: "Casino Royale"
     correctAnswer: D
     translations:
       en:
-        text: "Which French actress plays Madeleine Swann in Spectre and No Time to Die?"
+        text: "What is the name of Ian Fleming's first novel featuring James Bond?"
         answers:
-          A: "Eva Green"
-          B: "Carole Bouquet"
-          C: "Sophie Marceau"
-          D: "Léa Seydoux"
+          A: "Goldfinger"
+          B: "Live and Let Die"
+          C: "Dr. No"
+          D: "Casino Royale"
     difficulty: EASY
-  - text: "Quel comédien incarne Austin Powers au cinéma ?"
+  - text: "Quel acteur incarne James Bond dans la parodie « Casino Royale » de 1967 ?"
     answers:
-      A: "Jim Carrey"
-      B: "Will Ferrell"
-      C: "Mike Myers"
-      D: "Ben Stiller"
+      A: "Woody Allen"
+      B: "Peter Sellers"
+      C: "David Niven"
+      D: "Orson Welles"
     correctAnswer: C
     translations:
       en:
-        text: "Which comedian plays Austin Powers in the movies?"
+        text: "Which actor plays James Bond in the 1967 parody \"Casino Royale\"?"
         answers:
-          A: "Jim Carrey"
-          B: "Will Ferrell"
-          C: "Mike Myers"
-          D: "Ben Stiller"
-    difficulty: EASY
-  - text: "Dans quel film Sean Connery reprend-il le rôle de Bond en 1983, hors série officielle ?"
+          A: "Woody Allen"
+          B: "Peter Sellers"
+          C: "David Niven"
+          D: "Orson Welles"
+    difficulty: EXPERT
+  - text: "Dans « Skyfall », quel est le nom du château écossais où Bond se rend ?"
     answers:
-      A: "Octopussy"
-      B: "Dangereusement vôtre"
-      C: "Jamais plus jamais"
-      D: "Rien que pour vos yeux"
+      A: "Balmoral Castle"
+      B: "Glencoe House"
+      C: "Skyfall Lodge"
+      D: "Eilean Donan"
     correctAnswer: C
     translations:
       en:
-        text: "In which film did Sean Connery return as Bond in 1983, outside the official series?"
+        text: "In \"Skyfall\", what is the name of the Scottish castle where Bond goes?"
         answers:
-          A: "Octopussy"
-          B: "Never Say Never Again"
-          C: "Never Say Never Again"
-          D: "For Your Eyes Only"
-    difficulty: EASY
-  - text: "Quel groupe de Paul McCartney interprète la chanson Live and Let Die ?"
+          A: "Balmoral Castle"
+          B: "Glencoe House"
+          C: "Skyfall Lodge"
+          D: "Eilean Donan"
+    difficulty: HARD
+  - text: "Quel est le nom du personnage joué par Léa Seydoux dans « Spectre » ?"
     answers:
-      A: "Wings"
-      B: "Queen"
-      C: "ABBA"
-      D: "The Beatles"
+      A: "Madeleine Swann"
+      B: "Vesper Lynd"
+      C: "Camille Montes"
+      D: "Strawberry Fields"
     correctAnswer: A
     translations:
       en:
-        text: "Which Paul McCartney group performed the song Live and Let Die?"
+        text: "What is the name of the character played by Léa Seydoux in \"Spectre\"?"
         answers:
-          A: "Wings"
-          B: "Queen"
-          C: "ABBA"
-          D: "The Beatles"
-    difficulty: EASY
-  - text: "Qui joue Vesper Lynd dans Casino Royale (2006) ?"
+          A: "Madeleine Swann"
+          B: "Vesper Lynd"
+          C: "Camille Montes"
+          D: "Strawberry Fields"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du réalisateur de « Dr No » ?"
     answers:
-      A: "Caterina Murino"
-      B: "Léa Seydoux"
-      C: "Olga Kurylenko"
-      D: "Eva Green"
+      A: "Peter Hunt"
+      B: "Guy Hamilton"
+      C: "Lewis Gilbert"
+      D: "Terence Young"
     correctAnswer: D
     translations:
       en:
-        text: "Who plays Vesper Lynd in Casino Royale (2006)?"
+        text: "What is the name of the director of \"Dr No\"?"
         answers:
-          A: "Caterina Murino"
-          B: "Léa Seydoux"
-          C: "Olga Kurylenko"
-          D: "Eva Green"
+          A: "Peter Hunt"
+          B: "Guy Hamilton"
+          C: "Lewis Gilbert"
+          D: "Terence Young"
     difficulty: MEDIUM
-  - text: "Quel acteur incarne Le Chiffre dans Casino Royale (2006) ?"
+  - text: "Quel réalisateur a dirigé « On ne vit que deux fois » (1967) ?"
     answers:
-      A: "Jesper Christensen"
-      B: "Mads Mikkelsen"
-      C: "Mikkel Boe Følsgaard"
-      D: "Ulrich Thomsen"
+      A: "Guy Hamilton"
+      B: "Lewis Gilbert"
+      C: "Terence Young"
+      D: "Peter Hunt"
     correctAnswer: B
     translations:
       en:
-        text: "Which actor plays Le Chiffre in Casino Royale (2006)?"
+        text: "Which director directed \"You Only Live Twice\" (1967)?"
         answers:
-          A: "Jesper Christensen"
-          B: "Mads Mikkelsen"
-          C: "Mikkel Boe Følsgaard"
-          D: "Ulrich Thomsen"
-    difficulty: MEDIUM
-  - text: "Qui joue l'ancien agent Raoul Silva dans Skyfall ?"
+          A: "Guy Hamilton"
+          B: "Lewis Gilbert"
+          C: "Terence Young"
+          D: "Peter Hunt"
+    difficulty: HARD
+  - text: "Quel est le nom de la base spatiale dans « Moonraker » ?"
     answers:
-      A: "Joaquín Cosío"
-      B: "Antonio Banderas"
-      C: "Javier Bardem"
-      D: "Benicio del Toro"
+      A: "Drax Industries"
+      B: "Piz Gloria"
+      C: "St. Cyril"
+      D: "Atlantis"
     correctAnswer: C
     translations:
       en:
-        text: "Who plays former agent Raoul Silva in Skyfall?"
+        text: "What is the name of the space station in \"Moonraker\"?"
         answers:
-          A: "Joaquín Cosío"
-          B: "Antonio Banderas"
-          C: "Javier Bardem"
-          D: "Benicio del Toro"
-    difficulty: MEDIUM
-  - text: "Quelle actrice incarne Wai Lin dans Demain ne meurt jamais ?"
-    answers:
-      A: "Michelle Yeoh"
-      B: "Zhang Ziyi"
-      C: "Gong Li"
-      D: "Maggie Cheung"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which actress plays Wai Lin in Tomorrow Never Dies?"
-        answers:
-          A: "Michelle Yeoh"
-          B: "Zhang Ziyi"
-          C: "Gong Li"
-          D: "Maggie Cheung"
-    difficulty: MEDIUM
-  - text: "Quel acteur incarne Requin, alias Jaws, dans L'Espion qui m'aimait ?"
-    answers:
-      A: "Robert Shaw"
-      B: "Richard Kiel"
-      C: "Harold Sakata"
-      D: "Andreas Wisniewski"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which actor plays Jaws in The Spy Who Loved Me?"
-        answers:
-          A: "Robert Shaw"
-          B: "Richard Kiel"
-          C: "Harold Sakata"
-          D: "Andreas Wisniewski"
-    difficulty: MEDIUM
-  - text: "Qui joue Pussy Galore dans Goldfinger ?"
-    answers:
-      A: "Honor Blackman"
-      B: "Ursula Andress"
-      C: "Shirley Eaton"
-      D: "Maud Adams"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who plays Pussy Galore in Goldfinger?"
-        answers:
-          A: "Honor Blackman"
-          B: "Ursula Andress"
-          C: "Shirley Eaton"
-          D: "Maud Adams"
-    difficulty: MEDIUM
-  - text: "Quelle chanteuse a interprété trois génériques de James Bond ?"
-    answers:
-      A: "Tina Turner"
-      B: "Shirley Bassey"
-      C: "Carly Simon"
-      D: "Adele"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which singer performed three James Bond theme songs?"
-        answers:
-          A: "Tina Turner"
-          B: "Shirley Bassey"
-          C: "Carly Simon"
-          D: "Adele"
-    difficulty: MEDIUM
-  - text: "Qui chante Nobody Does It Better, générique de L'Espion qui m'aimait ?"
+          A: "Drax Industries"
+          B: "Piz Gloria"
+          C: "St. Cyril"
+          D: "Atlantis"
+    difficulty: HARD
+  - text: "Qui interprète la chanson du générique de « L'Espion qui m'aimait » ?"
     answers:
       A: "Carly Simon"
       B: "Sheena Easton"
@@ -1123,30 +1059,95 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Who sings Nobody Does It Better, the theme from The Spy Who Loved Me?"
+        text: "Who performs the theme song of \"The Spy Who Loved Me\"?"
         answers:
           A: "Carly Simon"
           B: "Sheena Easton"
           C: "Rita Coolidge"
           D: "Lulu"
-    difficulty: MEDIUM
-  - text: "Qui a composé le thème musical emblématique de James Bond ?"
+    difficulty: HARD
+  - text: "Quel est le nom du méchant principal dans « Permis de tuer » (1989) ?"
     answers:
-      A: "John Barry"
-      B: "Monty Norman"
-      C: "David Arnold"
-      D: "Hans Zimmer"
+      A: "Milton Krest"
+      B: "Franz Sanchez"
+      C: "Ed Killifer"
+      D: "Heller"
     correctAnswer: B
     translations:
       en:
-        text: "Who composed the iconic James Bond theme?"
+        text: "What is the name of the main villain in \"Licence to Kill\" (1989)?"
         answers:
-          A: "John Barry"
-          B: "Monty Norman"
-          C: "David Arnold"
-          D: "Hans Zimmer"
-    difficulty: MEDIUM
-  - text: "Sur cette photo du Piz Gloria, dans quel pays se situe le repaire de Blofeld dans Au service secret de Sa Majesté ?"
+          A: "Milton Krest"
+          B: "Franz Sanchez"
+          C: "Ed Killifer"
+          D: "Heller"
+    difficulty: HARD
+  - text: "Quel acteur joue le rôle de Valentin Zukovsky dans « GoldenEye » ?"
+    answers:
+      A: "Robbie Coltrane"
+      B: "Joe Don Baker"
+      C: "Gottfried John"
+      D: "Alan Cumming"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Valentin Zukovsky in \"GoldenEye\"?"
+        answers:
+          A: "Robbie Coltrane"
+          B: "Joe Don Baker"
+          C: "Gottfried John"
+          D: "Alan Cumming"
+    difficulty: HARD
+  - text: "Dans « Au service secret de Sa Majesté » (1969), quel est le nom de la femme que Bond épouse ?"
+    answers:
+      A: "Irma Bunt"
+      B: "Tracy Di Vicenzo"
+      C: "Ruby Bartlett"
+      D: "Nancy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"On Her Majesty's Secret Service\" (1969), what is the name of the woman Bond marries?"
+        answers:
+          A: "Irma Bunt"
+          B: "Tracy Di Vicenzo"
+          C: "Ruby Bartlett"
+          D: "Nancy"
+    difficulty: HARD
+  - text: "Quel est le nom du yacht de Stromberg dans « L'Espion qui m'aimait » ?"
+    answers:
+      A: "Atlantis"
+      B: "Liparus"
+      C: "Manta"
+      D: "Neptune"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Stromberg's yacht in \"The Spy Who Loved Me\"?"
+        answers:
+          A: "Atlantis"
+          B: "Liparus"
+          C: "Manta"
+          D: "Neptune"
+    difficulty: EXPERT
+  - text: "Quel réalisateur a mis en scène « Quantum of Solace » (2008) ?"
+    answers:
+      A: "Martin Campbell"
+      B: "Marc Forster"
+      C: "Sam Mendes"
+      D: "Lee Tamahori"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which director directed \"Quantum of Solace\" (2008)?"
+        answers:
+          A: "Martin Campbell"
+          B: "Marc Forster"
+          C: "Sam Mendes"
+          D: "Lee Tamahori"
+    difficulty: HARD
+  - text: "Dans quel pays se situe le repaire de Blofeld ?"
+    imageUrl: wikipedia/movies/Piz_Gloria.jpg
     answers:
       A: "Autriche"
       B: "Suisse"
@@ -1155,223 +1156,223 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "In this photo of Piz Gloria, in which country is Blofeld's hideout in On Her Majesty's Secret Service?"
+        text: "In which country is Blofeld's hideout located?"
         answers:
           A: "Austria"
           B: "Switzerland"
           C: "Germany"
           D: "Italy"
-    imageUrl: wikipedia/movies/Piz_Gloria.jpg
-    difficulty: MEDIUM
-  - text: "Qui chante le générique de GoldenEye (1995) ?"
+    difficulty: EXPERT
+  - text: "Quel est le nom du directeur de la CIA dans « Dr No » ?"
     answers:
-      A: "Cher"
-      B: "Madonna"
-      C: "Whitney Houston"
-      D: "Tina Turner"
+      A: "Chuck Lee"
+      B: "Jack Wade"
+      C: "Milton Krest"
+      D: "Felix Leiter"
     correctAnswer: D
     translations:
       en:
-        text: "Who sings the theme song for GoldenEye (1995)?"
+        text: "What is the name of the CIA director in \"Dr No\"?"
         answers:
-          A: "Cher"
-          B: "Madonna"
-          C: "Whitney Houston"
-          D: "Tina Turner"
-    difficulty: MEDIUM
-  - text: "Quel acteur français joue le méchant Dominic Greene dans Quantum of Solace ?"
+          A: "Chuck Lee"
+          B: "Jack Wade"
+          C: "Milton Krest"
+          D: "Felix Leiter"
+    difficulty: EXPERT
+  - text: "Qui interprète la chanson « The Living Daylights » ?"
     answers:
-      A: "Vincent Cassel"
-      B: "Romain Duris"
-      C: "Mathieu Amalric"
-      D: "Guillaume Canet"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which French actor plays the villain Dominic Greene in Quantum of Solace?"
-        answers:
-          A: "Vincent Cassel"
-          B: "Romain Duris"
-          C: "Mathieu Amalric"
-          D: "Guillaume Canet"
-    difficulty: MEDIUM
-  - text: "Sous quel nom se cache Ernst Stavro Blofeld dans Spectre (2015) ?"
-    answers:
-      A: "Franz Oberhauser"
-      B: "Marco Sciarra"
-      C: "Mr. Hinx"
-      D: "Max Denbigh"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Under what name does Ernst Stavro Blofeld hide in Spectre (2015)?"
-        answers:
-          A: "Franz Oberhauser"
-          B: "Marco Sciarra"
-          C: "Mr. Hinx"
-          D: "Max Denbigh"
-    difficulty: MEDIUM
-  - text: "Quelle actrice incarne Tatiana Romanova dans Bons baisers de Russie ?"
-    answers:
-      A: "Claudine Auger"
-      B: "Daniela Bianchi"
-      C: "Luciana Paluzzi"
-      D: "Karin Dor"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which actress plays Tatiana Romanova in From Russia with Love?"
-        answers:
-          A: "Claudine Auger"
-          B: "Daniela Bianchi"
-          C: "Luciana Paluzzi"
-          D: "Karin Dor"
-    difficulty: HARD
-  - text: "Qui joue Tracy di Vicenzo, l'épouse de Bond dans Au service secret de Sa Majesté ?"
-    answers:
-      A: "Honor Blackman"
-      B: "Britt Ekland"
-      C: "Diana Rigg"
-      D: "Jane Seymour"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who plays Tracy di Vicenzo, Bond's wife in On Her Majesty's Secret Service?"
-        answers:
-          A: "Honor Blackman"
-          B: "Britt Ekland"
-          C: "Diana Rigg"
-          D: "Jane Seymour"
-    difficulty: HARD
-  - text: "Quelle actrice incarne l'agent soviétique Anya Amasova dans L'Espion qui m'aimait ?"
-    answers:
-      A: "Barbara Bouchet"
-      B: "Barbara Bach"
-      C: "Lois Chiles"
-      D: "Claudine Auger"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which actress plays Soviet agent Anya Amasova in The Spy Who Loved Me?"
-        answers:
-          A: "Barbara Bouchet"
-          B: "Barbara Bach"
-          C: "Lois Chiles"
-          D: "Claudine Auger"
-    difficulty: HARD
-  - text: "Quelle actrice a joué Octopussy après avoir été Andrea Anders dans L'Homme au pistolet d'or ?"
-    answers:
-      A: "Lois Chiles"
-      B: "Grace Jones"
-      C: "Maud Adams"
-      D: "Barbara Bach"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which actress played Octopussy after being Andrea Anders in The Man with the Golden Gun?"
-        answers:
-          A: "Lois Chiles"
-          B: "Grace Jones"
-          C: "Maud Adams"
-          D: "Barbara Bach"
-    difficulty: HARD
-  - text: "Qui chante le générique de L'Homme au pistolet d'or ?"
-    answers:
-      A: "Lulu"
-      B: "Shirley Bassey"
-      C: "Nancy Sinatra"
-      D: "Tom Jones"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who sings the theme song of The Man with the Golden Gun?"
-        answers:
-          A: "Lulu"
-          B: "Shirley Bassey"
-          C: "Nancy Sinatra"
-          D: "Tom Jones"
-    difficulty: HARD
-  - text: "Qui chante le générique de Rien que pour vos yeux (1981) ?"
-    answers:
-      A: "Carly Simon"
-      B: "Sheena Easton"
-      C: "Rita Coolidge"
-      D: "Lulu"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who sings the theme song of For Your Eyes Only (1981)?"
-        answers:
-          A: "Carly Simon"
-          B: "Sheena Easton"
-          C: "Rita Coolidge"
-          D: "Lulu"
-    difficulty: HARD
-  - text: "Quel groupe norvégien interprète le générique de Tuer n'est pas jouer en 1987 ?"
-    answers:
-      A: "a-ha"
+      A: "The Pretenders"
       B: "Duran Duran"
-      C: "Depeche Mode"
-      D: "ABBA"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which Norwegian band performs the theme song of The Living Daylights in 1987?"
-        answers:
-          A: "a-ha"
-          B: "Duran Duran"
-          C: "Depeche Mode"
-          D: "ABBA"
-    difficulty: HARD
-  - text: "Quel groupe interprète le générique du film Le monde ne suffit pas (1999) ?"
-    answers:
-      A: "The Cardigans"
-      B: "Texas"
-      C: "Garbage"
-      D: "Portishead"
+      C: "a-ha"
+      D: "Gladys Knight"
     correctAnswer: C
     translations:
       en:
-        text: "Which band performs the theme song of The World Is Not Enough (1999)?"
+        text: "Who performs the song \"The Living Daylights\"?"
         answers:
-          A: "The Cardigans"
-          B: "Texas"
-          C: "Garbage"
-          D: "Portishead"
+          A: "The Pretenders"
+          B: "Duran Duran"
+          C: "a-ha"
+          D: "Gladys Knight"
     difficulty: HARD
-  - text: "Qui chante You Know My Name, générique de Casino Royale (2006) ?"
+  - text: "Quel est le nom de l'organisation criminelle dans « Quantum of Solace » ?"
     answers:
-      A: "Eddie Vedder"
-      B: "Lenny Kravitz"
-      C: "Scott Weiland"
-      D: "Chris Cornell"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who sings You Know My Name, the theme song of Casino Royale (2006)?"
-        answers:
-          A: "Eddie Vedder"
-          B: "Lenny Kravitz"
-          C: "Scott Weiland"
-          D: "Chris Cornell"
-    difficulty: HARD
-  - text: "Qui a composé la bande originale de Casino Royale (2006) ?"
-    answers:
-      A: "David Arnold"
-      B: "Michael Giacchino"
-      C: "Hans Zimmer"
-      D: "Thomas Newman"
+      A: "Quantum"
+      B: "SPECTRE"
+      C: "Octopus"
+      D: "KGB"
     correctAnswer: A
     translations:
       en:
-        text: "Who composed the soundtrack for Casino Royale (2006)?"
+        text: "What is the name of the criminal organization in \"Quantum of Solace\"?"
         answers:
-          A: "David Arnold"
-          B: "Michael Giacchino"
-          C: "Hans Zimmer"
-          D: "Thomas Newman"
+          A: "Quantum"
+          B: "SPECTRE"
+          C: "Octopus"
+          D: "KGB"
     difficulty: HARD
-  - text: "Sur ce barrage suisse a été tourné le saut en bungee du pré-générique de quel film de James Bond ?"
+  - text: "Quel acteur incarne James Bond dans « Casino Royale » (1967) ?"
+    answers:
+      A: "Peter Sellers"
+      B: "David Niven"
+      C: "Woody Allen"
+      D: "Terence Cooper"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which actor plays James Bond in \"Casino Royale\" (1967)?"
+        answers:
+          A: "Peter Sellers"
+          B: "David Niven"
+          C: "Woody Allen"
+          D: "Terence Cooper"
+    difficulty: HARD
+  - text: "Quel est le nom du partenaire de Bond joué par Jeffrey Wright dans les films de Daniel Craig ?"
+    answers:
+      A: "Mathis"
+      B: "Jack Wade"
+      C: "Felix Leiter"
+      D: "Tanner"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Bond's partner played by Jeffrey Wright in the Daniel Craig films?"
+        answers:
+          A: "Mathis"
+          B: "Jack Wade"
+          C: "Felix Leiter"
+          D: "Tanner"
+    difficulty: MEDIUM
+  - text: "Dans « Demain ne meurt jamais », quel est le nom du navire de guerre que Carver veut provoquer ?"
+    answers:
+      A: "HMS Chester"
+      B: "HMS Devonshire"
+      C: "HMS Belfast"
+      D: "HMS Ark Royal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In \"Tomorrow Never Dies\", what is the name of the warship Carver wants to provoke?"
+        answers:
+          A: "HMS Chester"
+          B: "HMS Devonshire"
+          C: "HMS Belfast"
+          D: "HMS Ark Royal"
+    difficulty: EXPERT
+  - text: "Quel est le nom du collègue de Bond joué par Colin Salmon dans trois films ?"
+    answers:
+      A: "Jack Wade"
+      B: "Bill Tanner"
+      C: "Charles Robinson"
+      D: "Miles Messervy"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Bond's colleague played by Colin Salmon in three films?"
+        answers:
+          A: "Jack Wade"
+          B: "Bill Tanner"
+          C: "Charles Robinson"
+          D: "Miles Messervy"
+    difficulty: EXPERT
+  - text: "Quel est le nom du chien de Blofeld dans « On ne vit que deux fois » ?"
+    answers:
+      A: "Bobo"
+      B: "Pussy"
+      C: "Tiger"
+      D: "Rex"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of Blofeld's dog in \"You Only Live Twice\"?"
+        answers:
+          A: "Bobo"
+          B: "Pussy"
+          C: "Tiger"
+          D: "Rex"
+    difficulty: EXPERT
+  - text: "Quel réalisateur a dirigé « Docteur No » (1962) ?"
+    answers:
+      A: "Guy Hamilton"
+      B: "Terence Young"
+      C: "Lewis Gilbert"
+      D: "Peter Hunt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which director directed \"Dr. No\" (1962)?"
+        answers:
+          A: "Guy Hamilton"
+          B: "Terence Young"
+          C: "Lewis Gilbert"
+          D: "Peter Hunt"
+    difficulty: MEDIUM
+  - text: "Quel acteur joue le rôle de Max Zorin dans « Dangereusement vôtre » ?"
+    answers:
+      A: "Christopher Walken"
+      B: "Michael Lonsdale"
+      C: "Louis Jourdan"
+      D: "Julian Glover"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which actor plays Max Zorin in \"A View to a Kill\"?"
+        answers:
+          A: "Christopher Walken"
+          B: "Michael Lonsdale"
+          C: "Louis Jourdan"
+          D: "Julian Glover"
+    difficulty: HARD
+  - text: "Quel est le nom de l'île privée de Karl Stromberg dans « L'Espion qui m'aimait » ?"
+    answers:
+      A: "Liparus"
+      B: "Sardinia"
+      C: "Atlantis"
+      D: "Manta"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Karl Stromberg's private island in \"The Spy Who Loved Me\"?"
+        answers:
+          A: "Liparus"
+          B: "Sardinia"
+          C: "Atlantis"
+          D: "Manta"
+    difficulty: EXPERT
+  - text: "Dans « Rien que pour vos yeux », quel est le nom du dispositif de camouflage du navire de guerre ?"
+    answers:
+      A: "Projet Grand Slam"
+      B: "Projet Atlantis"
+      C: "Projet Moonraker"
+      D: "Projet Iceberg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In \"For Your Eyes Only\", what is the name of the warship's camouflage device?"
+        answers:
+          A: "Project Grand Slam"
+          B: "Project Atlantis"
+          C: "Project Moonraker"
+          D: "Project Iceberg"
+    difficulty: EXPERT
+  - text: "Qui joue le rôle de Kara Milovy dans « Tuer n'est pas jouer » ?"
+    answers:
+      A: "Maryam d'Abo"
+      B: "Talisa Soto"
+      C: "Carey Lowell"
+      D: "Fiona Fullerton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who plays Kara Milovy in \"The Living Daylights\"?"
+        answers:
+          A: "Maryam d'Abo"
+          B: "Talisa Soto"
+          C: "Carey Lowell"
+          D: "Fiona Fullerton"
+    difficulty: HARD
+  - text: "Quel James Bond a un saut en bungee sur un barrage ?"
+    imageUrl: wikipedia/movies/Verzasca_Dam_Bungee.jpg
     answers:
       A: "Skyfall"
       B: "Casino Royale"
@@ -1380,235 +1381,234 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "This Swiss dam was used for the bungee jump in the pre-title sequence of which James Bond film?"
+        text: "Which James Bond film features a bungee jump off a dam?"
         answers:
           A: "Skyfall"
           B: "Casino Royale"
           C: "GoldenEye"
           D: "Spectre"
-    imageUrl: wikipedia/movies/Verzasca_Dam_Bungee.jpg
-    difficulty: HARD
-  - text: "Quel acteur joue Francisco Scaramanga dans L'Homme au pistolet d'or ?"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du Premier ministre britannique dans « Quantum of Solace » ?"
     answers:
-      A: "Michael Lonsdale"
-      B: "Julian Glover"
-      C: "Louis Jourdan"
-      D: "Christopher Lee"
+      A: "David Cameron"
+      B: "Tony Blair"
+      C: "Gordon Brown"
+      D: "James Bond ne rencontre pas le Premier ministre"
     correctAnswer: D
     translations:
       en:
-        text: "Which actor plays Francisco Scaramanga in The Man with the Golden Gun?"
+        text: "What is the name of the British Prime Minister in \"Quantum of Solace\"?"
         answers:
-          A: "Michael Lonsdale"
-          B: "Julian Glover"
-          C: "Louis Jourdan"
-          D: "Christopher Lee"
-    difficulty: HARD
-  - text: "Quel acteur incarne James Bond dans le téléfilm Casino Royale de 1954 ?"
+          A: "David Cameron"
+          B: "Tony Blair"
+          C: "Gordon Brown"
+          D: "James Bond does not meet the Prime Minister"
+    difficulty: EXPERT
+  - text: "Dans « Spectre », quel est le nom du centre de contrôle des opérations de Blofeld ?"
     answers:
-      A: "Barry Nelson"
+      A: "Le météore"
+      B: "Le centre de données de Tanger"
+      C: "Le QG du MI6"
+      D: "L'Observatoire de Paris"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In \"Spectre\", what is the name of Blofeld's operations control center?"
+        answers:
+          A: "The meteorite"
+          B: "The Tangier data center"
+          C: "MI6 headquarters"
+          D: "The Paris Observatory"
+    difficulty: EXPERT
+  - text: "Quel réalisateur a dirigé « L'Espion qui m'aimait » (1977) ?"
+    answers:
+      A: "Guy Hamilton"
+      B: "Lewis Gilbert"
+      C: "John Glen"
+      D: "Peter Hunt"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which director directed \"The Spy Who Loved Me\" (1977)?"
+        answers:
+          A: "Guy Hamilton"
+          B: "Lewis Gilbert"
+          C: "John Glen"
+          D: "Peter Hunt"
+    difficulty: HARD
+  - text: "Quel est le nom de la chanson du générique de « Rien que pour vos yeux » ?"
+    answers:
+      A: "For Your Eyes Only"
+      B: "The Man with the Golden Gun"
+      C: "Diamonds Are Forever"
+      D: "Live and Let Die"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the theme song for \"For Your Eyes Only\"?"
+        answers:
+          A: "For Your Eyes Only"
+          B: "The Man with the Golden Gun"
+          C: "Diamonds Are Forever"
+          D: "Live and Let Die"
+    difficulty: HARD
+  - text: "Quel acteur incarne James Bond dans « Jamais plus jamais » (1983) ?"
+    answers:
+      A: "Roger Moore"
       B: "Sean Connery"
       C: "David Niven"
-      D: "Bob Holness"
-    correctAnswer: A
+      D: "George Lazenby"
+    correctAnswer: B
     translations:
       en:
-        text: "Which actor plays James Bond in the 1954 TV film Casino Royale?"
+        text: "Which actor plays James Bond in \"Never Say Never Again\" (1983)?"
         answers:
-          A: "Barry Nelson"
+          A: "Roger Moore"
           B: "Sean Connery"
           C: "David Niven"
-          D: "Bob Holness"
-    difficulty: EXPERT
-  - text: "Quel guitariste a enregistré le riff du thème de James Bond en 1962 ?"
+          D: "George Lazenby"
+    difficulty: MEDIUM
+  - text: "Qui interprète le thème musical du film « Mourir peut attendre » ?"
     answers:
-      A: "Hank Marvin"
-      B: "Vic Flick"
-      C: "George Harrison"
-      D: "Duane Eddy"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which guitarist recorded the James Bond theme riff in 1962?"
-        answers:
-          A: "Hank Marvin"
-          B: "Vic Flick"
-          C: "George Harrison"
-          D: "Duane Eddy"
-    difficulty: EXPERT
-  - text: "Qui a produit et composé la musique de Vivre et laisser mourir (1973) ?"
-    answers:
-      A: "George Martin"
-      B: "John Barry"
-      C: "Marvin Hamlisch"
-      D: "Quincy Jones"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who produced and composed the music for Live and Let Die (1973)?"
-        answers:
-          A: "George Martin"
-          B: "John Barry"
-          C: "Marvin Hamlisch"
-          D: "Quincy Jones"
-    difficulty: EXPERT
-  - text: "Qui a composé la partition de Rien que pour vos yeux (1981) ?"
-    answers:
-      A: "John Barry"
-      B: "Bill Conti"
-      C: "Michael Kamen"
-      D: "Lalo Schifrin"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who composed the score for For Your Eyes Only (1981)?"
-        answers:
-          A: "John Barry"
-          B: "Bill Conti"
-          C: "Michael Kamen"
-          D: "Lalo Schifrin"
-    difficulty: EXPERT
-  - text: "Combien de chansons de James Bond ont remporté l'Oscar de la meilleure chanson originale ?"
-    answers:
-      A: "Une seule"
-      B: "Cinq"
-      C: "Deux"
-      D: "Trois"
+      A: "Madonna"
+      B: "Adele"
+      C: "Sam Smith"
+      D: "Billie Eilish"
     correctAnswer: D
     translations:
       en:
-        text: "How many James Bond songs have won the Oscar for Best Original Song?"
+        text: "Who performs the theme song for the film \"No Time to Die\"?"
         answers:
-          A: "Only one"
-          B: "Five"
-          C: "Two"
-          D: "Three"
-    difficulty: EXPERT
-  - text: "Quel film de James Bond a remporté l'Oscar des meilleurs effets spéciaux en 1966 ?"
+          A: "Madonna"
+          B: "Adele"
+          C: "Sam Smith"
+          D: "Billie Eilish"
+    difficulty: MEDIUM
+  - text: "Dans « Dangereusement vôtre », quel est le nom de la partenaire de Bond jouée par Tanya Roberts ?"
     answers:
-      A: "Opération Tonnerre"
-      B: "On ne vit que deux fois"
-      C: "Goldfinger"
-      D: "James Bond contre Dr No"
+      A: "Stacey Sutton"
+      B: "May Day"
+      C: "Pola Ivanova"
+      D: "Kimberley Jones"
     correctAnswer: A
     translations:
       en:
-        text: "Which James Bond film won the Oscar for Best Special Effects in 1966?"
+        text: "In \"A View to a Kill\", what is the name of Bond's partner played by Tanya Roberts?"
         answers:
-          A: "Thunderball"
-          B: "You Only Live Twice"
-          C: "Goldfinger"
-          D: "Dr. No"
-    difficulty: EXPERT
-  - text: "Quel film de James Bond utilise un thème instrumental comme générique, sans chanson chantée ?"
+          A: "Stacey Sutton"
+          B: "May Day"
+          C: "Pola Ivanova"
+          D: "Kimberley Jones"
+    difficulty: HARD
+  - text: "Dans « Au service secret de Sa Majesté », quel est le nom du méchant principal ?"
     answers:
-      A: "Au service secret de Sa Majesté"
-      B: "Goldfinger"
-      C: "L'Espion qui m'aimait"
-      D: "Skyfall"
+      A: "Ernst Stavro Blofeld"
+      B: "Auric Goldfinger"
+      C: "Julius No"
+      D: "Karl Stromberg"
     correctAnswer: A
     translations:
       en:
-        text: "Which James Bond film uses an instrumental theme as its title sequence, without a sung song?"
+        text: "In \"On Her Majesty's Secret Service\", what is the name of the main villain?"
         answers:
-          A: "On Her Majesty's Secret Service"
-          B: "Goldfinger"
-          C: "The Spy Who Loved Me"
-          D: "Skyfall"
-    difficulty: EXPERT
-  - text: "Quelle actrice japonaise incarne Kissy Suzuki dans On ne vit que deux fois ?"
+          A: "Ernst Stavro Blofeld"
+          B: "Auric Goldfinger"
+          C: "Julius No"
+          D: "Karl Stromberg"
+    difficulty: HARD
+  - text: "Quel était le nom de code du projet spatial dans « Moonraker » ?"
     answers:
-      A: "Mie Hama"
-      B: "Akiko Wakabayashi"
-      C: "Nancy Kwan"
-      D: "France Nuyen"
+      A: "Projet Moonraker"
+      B: "Projet Drax"
+      C: "Projet Gemini"
+      D: "Projet Apollo"
     correctAnswer: A
     translations:
       en:
-        text: "Which Japanese actress plays Kissy Suzuki in You Only Live Twice?"
+        text: "What was the name of the space project in \"Moonraker\"?"
         answers:
-          A: "Mie Hama"
-          B: "Akiko Wakabayashi"
-          C: "Nancy Kwan"
-          D: "France Nuyen"
+          A: "Project Moonraker"
+          B: "Project Drax"
+          C: "Project Gemini"
+          D: "Project Apollo"
     difficulty: EXPERT
-  - text: "Dans quel roman de Ian Fleming l'histoire est-elle racontée par une femme, Vivienne Michel ?"
+  - text: "Dans « Goldfinger », quel est le nom du chef de la mafia tué par Oddjob ?"
     answers:
-      A: "Casino Royale"
-      B: "L'Espion qui m'aimait"
-      C: "Bons baisers de Russie"
-      D: "Au service secret de Sa Majesté"
+      A: "Mr. Big"
+      B: "Mr. Solo"
+      C: "Mr. Kidd"
+      D: "Mr. Wint"
     correctAnswer: B
     translations:
       en:
-        text: "In which Ian Fleming novel is the story told by a woman, Vivienne Michel?"
+        text: "In \"Goldfinger\", what is the name of the mob boss killed by Oddjob?"
         answers:
-          A: "Casino Royale"
-          B: "The Spy Who Loved Me"
-          C: "From Russia with Love"
-          D: "On Her Majesty's Secret Service"
+          A: "Mr. Big"
+          B: "Mr. Solo"
+          C: "Mr. Kidd"
+          D: "Mr. Wint"
     difficulty: EXPERT
-  - text: "Dans quel roman de Ian Fleming l'organisation SPECTRE fait-elle sa première apparition ?"
+  - text: "Quel est le nom du cirque utilis Volker ?"
     answers:
-      A: "Bons baisers de Russie"
-      B: "Opération Tonnerre"
-      C: "Docteur No"
-      D: "Goldfinger"
+      A: "Le Cirque de la Lune"
+      B: "Le Cirque Fantôme"
+      C: "Le Cirque des Étoiles"
+      D: "Le Cirque de l'Aube"
     correctAnswer: B
     translations:
       en:
-        text: "In which Ian Fleming novel does the organization SPECTRE first appear?"
+        text: "What is the name of the circus used by Volker?"
         answers:
-          A: "From Russia with Love"
-          B: "Thunderball"
-          C: "Dr. No"
-          D: "Goldfinger"
+          A: "The Circus of the Moon"
+          B: "The Phantom Circus"
+          C: "The Circus of the Stars"
+          D: "The Circus of Dawn"
     difficulty: EXPERT
-  - text: "Quel est le dernier roman de James Bond publié du vivant de Ian Fleming ?"
+  - text: "Quel acteur incarne James Bond dans « On ne vit que deux fois » ?"
     answers:
-      A: "Au service secret de Sa Majesté"
-      B: "L'Homme au pistolet d'or"
-      C: "Opération Tonnerre"
-      D: "On ne vit que deux fois"
+      A: "David Niven"
+      B: "George Lazenby"
+      C: "Roger Moore"
+      D: "Sean Connery"
     correctAnswer: D
     translations:
       en:
-        text: "What is the last James Bond novel published during Ian Fleming's lifetime?"
+        text: "Which actor plays James Bond in \"You Only Live Twice\"?"
         answers:
-          A: "On Her Majesty's Secret Service"
-          B: "The Man with the Golden Gun"
-          C: "Thunderball"
-          D: "You Only Live Twice"
-    difficulty: EXPERT
-  - text: "Quelle série animée de 1991 met en scène le neveu de James Bond ?"
+          A: "David Niven"
+          B: "George Lazenby"
+          C: "Roger Moore"
+          D: "Sean Connery"
+    difficulty: MEDIUM
+  - text: "Dans « Skyfall », quel est le nom du tableau que Bond et M observent ?"
     answers:
-      A: "Inspector Gadget"
-      B: "Kim Possible"
-      C: "Archer"
-      D: "James Bond Jr."
+      A: "Le Baiser"
+      B: "La Jeune Fille et la Mort"
+      C: "Le Radeau de la Méduse"
+      D: "Le Cuirassé Potemkine"
     correctAnswer: D
     translations:
       en:
-        text: "Which 1991 animated series features James Bond's nephew?"
+        text: "In \"Skyfall\", what is the name of the painting Bond and M look at?"
         answers:
-          A: "Inspector Gadget"
-          B: "Kim Possible"
-          C: "Archer"
-          D: "James Bond Jr."
+          A: "The Kiss"
+          B: "The Maiden and Death"
+          C: "The Raft of the Medusa"
+          D: "The Battleship Potemkin"
     difficulty: EXPERT
-  - text: "Dans la parodie Casino Royale de 1967, quel acteur incarne Sir James Bond ?"
+  - text: "Quel est le nom du bateau de pêche dans « Permis de tuer » ?"
     answers:
-      A: "Sean Connery"
-      B: "Peter Sellers"
-      C: "Woody Allen"
-      D: "David Niven"
+      A: "Le St. Georges"
+      B: "Le Sea Dolphin"
+      C: "Le Flying Fish"
+      D: "Le Wavekrest"
     correctAnswer: D
     translations:
       en:
-        text: "In the 1967 Casino Royale parody, which actor plays Sir James Bond?"
+        text: "What is the name of the fishing boat in \"Licence to Kill\"?"
         answers:
-          A: "Sean Connery"
-          B: "Peter Sellers"
-          C: "Woody Allen"
-          D: "David Niven"
+          A: "The St. Georges"
+          B: "The Sea Dolphin"
+          C: "The Flying Fish"
+          D: "The Wavekrest"
     difficulty: EXPERT

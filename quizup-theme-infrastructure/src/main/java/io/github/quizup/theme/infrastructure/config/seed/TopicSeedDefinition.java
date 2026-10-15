@@ -15,6 +15,8 @@ public record TopicSeedDefinition(
         String description,
         TopicCategory category,
         String imageUrl,
+        /** Titres personnalisés (grade → libellé, par langue), ou {@code null} (repli client). */
+        Map<Language, Map<String, String>> titles,
         List<QuestionSeedDefinition> questions) {
 
     /** Nom d'affichage/robuste pour les logs (FR prioritaire). */

@@ -7,7 +7,7 @@ topic:
   category: SPORTS
   imageUrl: wikipedia/sports/Atlanta,_Olympic_rings_near_stadium.jpg
 questions:
-  - text: "Combien d'anneaux compte l'emblème olympique visible sur cette image ?"
+  - text: "Combien d'anneaux compte l'emblème olympique ?"
     imageUrl: wikipedia/sports/Olympic_Park_with_Olympic_Rings_2012.jpg
     answers:
       A: "4"
@@ -17,1039 +17,94 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "How many rings are on the Olympic emblem shown in this image?"
+        text: "How many rings does the Olympic emblem have?"
         answers:
           A: "4"
           B: "5"
           C: "6"
           D: "7"
     difficulty: EASY
-  - text: "Dans quelle ville se sont déroulés les premiers Jeux olympiques modernes en 1896 ?"
-    answers:
-      A: "Rome"
-      B: "Athènes"
-      C: "Paris"
-      D: "Londres"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In which city were the first modern Olympic Games held in 1896?"
-        answers:
-          A: "Rome"
-          B: "Athens"
-          C: "Paris"
-          D: "London"
-    difficulty: EASY
-  - text: "À quelle fréquence sont organisés les Jeux olympiques d'été ?"
-    answers:
-      A: "Tous les 5 ans"
-      B: "Tous les 4 ans"
-      C: "Tous les 3 ans"
-      D: "Tous les 2 ans"
-    correctAnswer: B
-    translations:
-      en:
-        text: "How often are the Summer Olympic Games held?"
-        answers:
-          A: "Every 5 years"
-          B: "Every 4 years"
-          C: "Every 3 years"
-          D: "Every 2 years"
-    difficulty: EASY
-  - text: "Qui est considéré comme le fondateur des Jeux olympiques modernes ?"
-    answers:
-      A: "Jesse Owens"
-      B: "Carl Lewis"
-      C: "Pierre de Coubertin"
-      D: "Juan Antonio Samaranch"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who is considered the founder of the modern Olympic Games?"
-        answers:
-          A: "Jesse Owens"
-          B: "Carl Lewis"
-          C: "Pierre de Coubertin"
-          D: "Juan Antonio Samaranch"
-    difficulty: EASY
-  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 2016 ?"
-    answers:
-      A: "Rio de Janeiro"
-      B: "Pékin"
-      C: "Londres"
-      D: "Tokyo"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which city hosted the 2016 Summer Olympic Games?"
-        answers:
-          A: "Rio de Janeiro"
-          B: "Beijing"
-          C: "London"
-          D: "Tokyo"
-    difficulty: EASY
-  - text: "Dans quel sport Michael Phelps a-t-il remporté ses nombreuses médailles d'or ?"
-    answers:
-      A: "Athlétisme"
-      B: "Natation"
-      C: "Cyclisme"
-      D: "Gymnastique"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In which sport did Michael Phelps win his many gold medals?"
-        answers:
-          A: "Athletics"
-          B: "Swimming"
-          C: "Cycling"
-          D: "Gymnastics"
-    difficulty: EASY
-  - text: "Quelle est la couleur de l'anneau olympique situé en haut au centre du drapeau ?"
-    answers:
-      A: "Rouge"
-      B: "Bleu"
-      C: "Vert"
-      D: "Noir"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What color is the Olympic ring at the top center of the flag?"
-        answers:
-          A: "Red"
-          B: "Blue"
-          C: "Green"
-          D: "Black"
-    difficulty: EASY
-  - text: "Quel métal symbolise la première place sur le podium olympique ?"
-    answers:
-      A: "Or"
-      B: "Argent"
-      C: "Cuivre"
-      D: "Bronze"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which metal symbolizes first place on the Olympic podium?"
-        answers:
-          A: "Gold"
-          B: "Silver"
-          C: "Copper"
-          D: "Bronze"
-    difficulty: EASY
-  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 2022 ?"
-    answers:
-      A: "Japon"
-      B: "Corée du Sud"
-      C: "Russie"
-      D: "Chine"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which country hosted the 2022 Winter Olympic Games?"
-        answers:
-          A: "Japan"
-          B: "South Korea"
-          C: "Russia"
-          D: "China"
-    difficulty: EASY
-  - text: "Quels Jeux olympiques sont consacrés aux sports de neige et de glace ?"
-    answers:
-      A: "Jeux olympiques d'été"
-      B: "Jeux olympiques d'hiver"
-      C: "Jeux paralympiques"
-      D: "Jeux olympiques de la jeunesse"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which Olympic Games are dedicated to snow and ice sports?"
-        answers:
-          A: "Summer Olympic Games"
-          B: "Winter Olympic Games"
-          C: "Paralympic Games"
-          D: "Youth Olympic Games"
-    difficulty: EASY
-  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 2008 ?"
-    answers:
-      A: "Londres"
-      B: "Sydney"
-      C: "Athènes"
-      D: "Pékin"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which city hosted the 2008 Summer Olympic Games?"
-        answers:
-          A: "London"
-          B: "Sydney"
-          C: "Athens"
-          D: "Beijing"
-    difficulty: EASY
-  - text: "En quel siècle ont été créés les Jeux olympiques modernes ?"
-    answers:
-      A: "XIXe siècle"
-      B: "XVIIIe siècle"
-      C: "XXe siècle"
-      D: "XVIIe siècle"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In which century were the modern Olympic Games created?"
-        answers:
-          A: "19th century"
-          B: "18th century"
-          C: "20th century"
-          D: "17th century"
-    difficulty: EASY
-  - text: "Quel athlète jamaïcain a battu les records olympiques du 100 m et du 200 m ?"
-    answers:
-      A: "Usain Bolt"
-      B: "Linford Christie"
-      C: "Carl Lewis"
-      D: "Jesse Owens"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which Jamaican athlete broke the Olympic records in the 100 m and 200 m?"
-        answers:
-          A: "Usain Bolt"
-          B: "Linford Christie"
-          C: "Carl Lewis"
-          D: "Jesse Owens"
-    difficulty: EASY
-  - text: "En quelle année se sont tenus les premiers Jeux olympiques de l'ère moderne ?"
-    answers:
-      A: "1896"
-      B: "1888"
-      C: "1912"
-      D: "1900"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In what year were the first Olympic Games of the modern era held?"
-        answers:
-          A: "1896"
-          B: "1888"
-          C: "1912"
-          D: "1900"
-    difficulty: MEDIUM
-  - text: "Quel dieu de la mythologie grecque était honoré lors des Jeux olympiques antiques ?"
-    answers:
-      A: "Poséidon"
-      B: "Arès"
-      C: "Apollon"
-      D: "Zeus"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which god from Greek mythology was honored at the ancient Olympic Games?"
-        answers:
-          A: "Poseidon"
-          B: "Ares"
-          C: "Apollo"
-          D: "Zeus"
-    difficulty: MEDIUM
-  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 2000 ?"
-    answers:
-      A: "Atlanta"
-      B: "Séoul"
-      C: "Barcelone"
-      D: "Sydney"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which city hosted the 2000 Summer Olympics?"
-        answers:
-          A: "Atlanta"
-          B: "Seoul"
-          C: "Barcelona"
-          D: "Sydney"
-    difficulty: MEDIUM
-  - text: "Quel pays a accueilli les Jeux olympiques d'été de 2020, reportés en 2021 ?"
-    answers:
-      A: "Chine"
-      B: "Japon"
-      C: "Brésil"
-      D: "Corée du Sud"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which country hosted the 2020 Summer Olympics, postponed to 2021?"
-        answers:
-          A: "China"
-          B: "Japan"
-          C: "Brazil"
-          D: "South Korea"
-    difficulty: MEDIUM
-  - text: "Quel athlète noir américain a remporté quatre médailles d'or d'athlétisme aux Jeux de Berlin en 1936 ?"
-    answers:
-      A: "Usain Bolt"
-      B: "Emil Zátopek"
-      C: "Jesse Owens"
-      D: "Carl Lewis"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Black American athlete won four athletics gold medals at the 1936 Berlin Games?"
-        answers:
-          A: "Usain Bolt"
-          B: "Emil Zátopek"
-          C: "Jesse Owens"
-          D: "Carl Lewis"
-    difficulty: MEDIUM
-  - text: "Quelle discipline olympique enchaîne natation, cyclisme et course à pied ?"
-    answers:
-      A: "Décathlon"
-      B: "Biathlon"
-      C: "Pentathlon"
-      D: "Triathlon"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which Olympic discipline combines swimming, cycling and running?"
-        answers:
-          A: "Decathlon"
-          B: "Biathlon"
-          C: "Pentathlon"
-          D: "Triathlon"
-    difficulty: MEDIUM
-  - text: "Dans quelle ville se trouve le siège du Comité international olympique ?"
-    answers:
-      A: "Genève"
-      B: "Bruxelles"
-      C: "Paris"
-      D: "Lausanne"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In which city is the headquarters of the International Olympic Committee?"
-        answers:
-          A: "Geneva"
-          B: "Brussels"
-          C: "Paris"
-          D: "Lausanne"
-    difficulty: MEDIUM
-  - text: "Quelle ville a accueilli les Jeux olympiques d'hiver de 2010 ?"
-    answers:
-      A: "Turin"
-      B: "Salt Lake City"
-      C: "Sotchi"
-      D: "Vancouver"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which city hosted the 2010 Winter Olympics?"
-        answers:
-          A: "Turin"
-          B: "Salt Lake City"
-          C: "Sochi"
-          D: "Vancouver"
-    difficulty: MEDIUM
-  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1992 ?"
-    answers:
-      A: "Australie"
-      B: "Corée du Sud"
-      C: "États-Unis"
-      D: "Espagne"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which country hosted the 1992 Summer Olympics?"
-        answers:
-          A: "Australia"
-          B: "South Korea"
-          C: "United States"
-          D: "Spain"
-    difficulty: MEDIUM
-  - text: "Quel sport olympique se pratique avec un fleuret, une épée ou un sabre ?"
-    answers:
-      A: "Judo"
-      B: "Haltérophilie"
-      C: "Escrime"
-      D: "Tir à l'arc"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Olympic sport is practiced with a foil, an épée or a sabre?"
-        answers:
-          A: "Judo"
-          B: "Weightlifting"
-          C: "Fencing"
-          D: "Archery"
-    difficulty: MEDIUM
-  - text: "Dans quel sport Nadia Comăneci a-t-elle obtenu un 10 parfait aux Jeux de 1976 ?"
-    answers:
-      A: "Plongeon"
-      B: "Natation"
-      C: "Gymnastique"
-      D: "Athlétisme"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which sport did Nadia Comăneci score a perfect 10 at the 1976 Games?"
-        answers:
-          A: "Diving"
-          B: "Swimming"
-          C: "Gymnastics"
-          D: "Athletics"
-    difficulty: MEDIUM
-  - text: "Quel pays domine le tableau historique des médailles d'or des Jeux olympiques d'été ?"
-    answers:
-      A: "États-Unis"
-      B: "URSS"
-      C: "Chine"
-      D: "Royaume-Uni"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which country tops the all-time Summer Olympics gold medal table?"
-        answers:
-          A: "United States"
-          B: "USSR"
-          C: "China"
-          D: "United Kingdom"
-    difficulty: MEDIUM
-  - text: "Quelle ville a accueilli les premiers Jeux olympiques d'hiver en 1924 ?"
-    answers:
-      A: "Chamonix"
-      B: "Oslo"
-      C: "Saint-Moritz"
-      D: "Grenoble"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which city hosted the first Winter Olympics in 1924?"
-        answers:
-          A: "Chamonix"
-          B: "Oslo"
-          C: "St. Moritz"
-          D: "Grenoble"
-    difficulty: HARD
-  - text: "En quelle année les Jeux olympiques d'été se sont-ils tenus à Mexico ?"
-    answers:
-      A: "1964"
-      B: "1972"
-      C: "1968"
-      D: "1976"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which year were the Summer Olympics held in Mexico City?"
-        answers:
-          A: "1964"
-          B: "1972"
-          C: "1968"
-          D: "1976"
-    difficulty: HARD
-  - text: "Quel athlète a remporté quatre médailles d'or d'athlétisme aux Jeux de Los Angeles en 1984 ?"
-    answers:
-      A: "Ben Johnson"
-      B: "Carl Lewis"
-      C: "Linford Christie"
-      D: "Michael Johnson"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which athlete won four athletics gold medals at the 1984 Los Angeles Games?"
-        answers:
-          A: "Ben Johnson"
-          B: "Carl Lewis"
-          C: "Linford Christie"
-          D: "Michael Johnson"
-    difficulty: HARD
-  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 1988 ?"
-    answers:
-      A: "Barcelone"
-      B: "Séoul"
-      C: "Los Angeles"
-      D: "Moscou"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which city hosted the 1988 Summer Olympics?"
-        answers:
-          A: "Barcelona"
-          B: "Seoul"
-          C: "Los Angeles"
-          D: "Moscow"
-    difficulty: HARD
-  - text: "Quel pays a boycotté les Jeux olympiques d'été de 1984 à Los Angeles ?"
-    answers:
-      A: "France"
-      B: "Royaume-Uni"
-      C: "Canada"
-      D: "URSS"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which country boycotted the 1984 Summer Olympics in Los Angeles?"
-        answers:
-          A: "France"
-          B: "United Kingdom"
-          C: "Canada"
-          D: "USSR"
-    difficulty: HARD
-  - text: "Quel sprinteur détient le record olympique du 100 m avec un temps de 9,63 s ?"
-    answers:
-      A: "Usain Bolt"
-      B: "Yohan Blake"
-      C: "Asafa Powell"
-      D: "Justin Gatlin"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which sprinter holds the Olympic record in the 100 m with a time of 9.63 s?"
-        answers:
-          A: "Usain Bolt"
-          B: "Yohan Blake"
-          C: "Asafa Powell"
-          D: "Justin Gatlin"
-    difficulty: HARD
-  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 1976 ?"
-    answers:
-      A: "Munich"
-      B: "Mexico"
-      C: "Moscou"
-      D: "Montréal"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which city hosted the 1976 Summer Olympics?"
-        answers:
-          A: "Munich"
-          B: "Mexico City"
-          C: "Moscow"
-          D: "Montreal"
-    difficulty: HARD
-  - text: "Dans quelle ville la flamme olympique est-elle allumée avant chaque édition ?"
-    answers:
-      A: "Olympie"
-      B: "Athènes"
-      C: "Delphes"
-      D: "Lausanne"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In which city is the Olympic flame lit before each edition?"
-        answers:
-          A: "Olympia"
-          B: "Athens"
-          C: "Delphi"
-          D: "Lausanne"
-    difficulty: HARD
-  - text: "Quel pays a remporté le plus grand nombre de médailles d'or aux Jeux olympiques d'hiver ?"
-    answers:
-      A: "États-Unis"
-      B: "Allemagne"
-      C: "Norvège"
-      D: "URSS"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which country has won the most gold medals at the Winter Olympics?"
-        answers:
-          A: "United States"
-          B: "Germany"
-          C: "Norway"
-          D: "USSR"
-    difficulty: HARD
-  - text: "En quelle année les Jeux d'été et d'hiver ont-ils été organisés la même année pour la dernière fois ?"
-    answers:
-      A: "1988"
-      B: "1992"
-      C: "1996"
-      D: "1994"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year were the Summer and Winter Games last held in the same year?"
-        answers:
-          A: "1988"
-          B: "1992"
-          C: "1996"
-          D: "1994"
-    difficulty: HARD
-  - text: "Qui a remporté le marathon des premiers Jeux olympiques modernes en 1896 ?"
-    answers:
-      A: "Emil Zátopek"
-      B: "Spyrídon Loúis"
-      C: "Abebe Bikila"
-      D: "Frank Shorter"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who won the marathon at the first modern Olympic Games in 1896?"
-        answers:
-          A: "Emil Zátopek"
-          B: "Spyridon Louis"
-          C: "Abebe Bikila"
-          D: "Frank Shorter"
-    difficulty: HARD
-  - text: "Quel stade, visible sur cette image, a accueilli les épreuves des Jeux olympiques d'Athènes en 1896 ?"
-    imageUrl: wikipedia/sports/Panathenaic_stadium_Athens_Greece.jpg
-    answers:
-      A: "Stade olympique d'Athènes"
-      B: "Stade panathénaïque"
-      C: "Stade Karaïskakis"
-      D: "Stade Spyros Louis"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which stadium, shown in this image, hosted the events of the 1896 Athens Olympic Games?"
-        answers:
-          A: "Athens Olympic Stadium"
-          B: "Panathenaic Stadium"
-          C: "Karaiskakis Stadium"
-          D: "Spyros Louis Stadium"
-    difficulty: HARD
-  - text: "En quelle année les femmes ont-elles participé pour la première fois aux Jeux olympiques modernes ?"
-    answers:
-      A: "1896"
-      B: "1900"
-      C: "1912"
-      D: "1920"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year did women first participate in the modern Olympic Games?"
-        answers:
-          A: "1896"
-          B: "1900"
-          C: "1912"
-          D: "1920"
-    difficulty: HARD
-  - text: "En quelle année le Comité international olympique a-t-il été fondé ?"
-    answers:
-      A: "1892"
-      B: "1894"
-      C: "1900"
-      D: "1896"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In what year was the International Olympic Committee founded?"
-        answers:
-          A: "1892"
-          B: "1894"
-          C: "1900"
-          D: "1896"
-    difficulty: EXPERT
-  - text: "Quel homme a présidé le Comité international olympique de 1980 à 2001 ?"
-    answers:
-      A: "Jacques Rogge"
-      B: "Avery Brundage"
-      C: "Juan Antonio Samaranch"
-      D: "Lord Killanin"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which man presided over the International Olympic Committee from 1980 to 2001?"
-        answers:
-          A: "Jacques Rogge"
-          B: "Avery Brundage"
-          C: "Juan Antonio Samaranch"
-          D: "Lord Killanin"
-    difficulty: EXPERT
-  - text: "Dans quelle ville se sont déroulés les premiers Jeux olympiques d'été organisés en Amérique du Sud ?"
-    answers:
-      A: "Los Angeles"
-      B: "Mexico"
-      C: "São Paulo"
-      D: "Rio de Janeiro"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In which city were the first Summer Olympics held in South America?"
-        answers:
-          A: "Los Angeles"
-          B: "Mexico City"
-          C: "São Paulo"
-          D: "Rio de Janeiro"
-    difficulty: EXPERT
-  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1904 ?"
-    answers:
-      A: "France"
-      B: "États-Unis"
-      C: "Grèce"
-      D: "Royaume-Uni"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which country hosted the 1904 Summer Olympics?"
-        answers:
-          A: "France"
-          B: "United States"
-          C: "Greece"
-          D: "United Kingdom"
-    difficulty: EXPERT
-  - text: "Quelle ville devait accueillir les Jeux olympiques d'été de 1916, annulés à cause de la Première Guerre mondiale ?"
-    answers:
-      A: "Budapest"
-      B: "Anvers"
-      C: "Berlin"
-      D: "Milan"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which city was to host the 1916 Summer Olympics, cancelled due to World War I?"
-        answers:
-          A: "Budapest"
-          B: "Antwerp"
-          C: "Berlin"
-          D: "Milan"
-    difficulty: EXPERT
-  - text: "Qui a été sacré champion olympique du 100 m en 1988 après la disqualification de Ben Johnson ?"
-    answers:
-      A: "Carl Lewis"
-      B: "Linford Christie"
-      C: "Calvin Smith"
-      D: "Dennis Mitchell"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who was crowned Olympic champion in the 100 m in 1988 after Ben Johnson's disqualification?"
-        answers:
-          A: "Carl Lewis"
-          B: "Linford Christie"
-          C: "Calvin Smith"
-          D: "Dennis Mitchell"
-    difficulty: EXPERT
-  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1994 ?"
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1956, avec des épreuves équestres disputées à Stockholm ?"
     answers:
       A: "Suède"
-      B: "Norvège"
-      C: "Finlande"
-      D: "Suisse"
+      B: "Australie"
+      C: "Allemagne"
+      D: "Italie"
     correctAnswer: B
     translations:
       en:
-        text: "Which country hosted the 1994 Winter Olympics?"
+        text: "Which country hosted the 1956 Summer Olympics, with equestrian events held in Stockholm?"
         answers:
           A: "Sweden"
-          B: "Norway"
-          C: "Finland"
-          D: "Switzerland"
+          B: "Australia"
+          C: "Germany"
+          D: "Italy"
     difficulty: EXPERT
-  - text: "Quel conflit mondial a entraîné l'annulation des Jeux olympiques de 1940 et 1944 ?"
+  - text: "Quel village a accueilli les Jeux olympiques d'hiver de 1960 ?"
     answers:
-      A: "La Première Guerre mondiale"
-      B: "La crise de 1929"
-      C: "Une épidémie de grippe"
-      D: "La Seconde Guerre mondiale"
-    correctAnswer: D
+      A: "Grenoble"
+      B: "Squaw Valley"
+      C: "Sapporo"
+      D: "Oslo"
+    correctAnswer: B
     translations:
       en:
-        text: "Which global conflict led to the cancellation of the 1940 and 1944 Olympic Games?"
+        text: "Which village hosted the 1960 Winter Olympics?"
         answers:
-          A: "World War I"
-          B: "The 1929 crash"
-          C: "A flu epidemic"
-          D: "World War II"
-    difficulty: EXPERT
-  - text: "Quel nageur américain a remporté sept médailles d'or aux Jeux de Munich en 1972 ?"
+          A: "Grenoble"
+          B: "Squaw Valley"
+          C: "Sapporo"
+          D: "Oslo"
+    difficulty: HARD
+  - text: "En quelle année les Jeux olympiques d'hiver ont-ils été organisés pour la première fois ?"
     answers:
-      A: "Michael Phelps"
-      B: "Alexander Popov"
-      C: "Mark Spitz"
-      D: "Ian Thorpe"
+      A: "1920"
+      B: "1928"
+      C: "1924"
+      D: "1932"
     correctAnswer: C
     translations:
       en:
-        text: "Which American swimmer won seven gold medals at the 1972 Munich Games?"
+        text: "In what year were the Winter Olympics first held?"
         answers:
-          A: "Michael Phelps"
-          B: "Alexander Popov"
-          C: "Mark Spitz"
-          D: "Ian Thorpe"
-    difficulty: EXPERT
-  - text: "Quel pays a dominé le tableau des médailles d'or des Jeux olympiques de Pékin en 2008 ?"
+          A: "1920"
+          B: "1928"
+          C: "1924"
+          D: "1932"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 2008 ?"
     answers:
       A: "Chine"
       B: "États-Unis"
       C: "Russie"
-      D: "Royaume-Uni"
+      D: "Grande-Bretagne"
     correctAnswer: A
     translations:
       en:
-        text: "Which country topped the gold medal table at the 2008 Beijing Olympic Games?"
+        text: "Which country won the most gold medals at the 2008 Summer Olympics?"
         answers:
           A: "China"
           B: "United States"
           C: "Russia"
-          D: "United Kingdom"
-    difficulty: EXPERT
-  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 1924 ?"
+          D: "Great Britain"
+    difficulty: EASY
+  - text: "Quel athlète a allumé la flamme olympique lors de la cérémonie d'ouverture des Jeux de Barcelone en 1992 ?"
     answers:
-      A: "Paris"
-      B: "Los Angeles"
-      C: "Amsterdam"
-      D: "Berlin"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which city hosted the 1924 Summer Olympic Games?"
-        answers:
-          A: "Paris"
-          B: "Los Angeles"
-          C: "Amsterdam"
-          D: "Berlin"
-    difficulty: EXPERT
-  - text: "Qui a été la première femme à allumer la vasque olympique, aux Jeux de Mexico en 1968 ?"
-    answers:
-      A: "Enriqueta Basilio"
-      B: "Cathy Freeman"
-      C: "Wilma Rudolph"
+      A: "Juan Antonio Samaranch"
+      B: "Antonio Rebollo"
+      C: "Carl Lewis"
       D: "Nadia Comăneci"
-    correctAnswer: A
+    correctAnswer: B
     translations:
       en:
-        text: "Who was the first woman to light the Olympic cauldron, at the 1968 Mexico Games?"
+        text: "Which athlete lit the Olympic flame at the opening ceremony of the 1992 Barcelona Games?"
         answers:
-          A: "Enriqueta Basilio"
-          B: "Cathy Freeman"
-          C: "Wilma Rudolph"
+          A: "Juan Antonio Samaranch"
+          B: "Antonio Rebollo"
+          C: "Carl Lewis"
           D: "Nadia Comăneci"
     difficulty: EXPERT
-  - text: "Combien de joueurs d'une équipe de hockey sur glace sont présents sur la glace en même temps ?"
-    answers:
-      A: "6"
-      B: "5"
-      C: "4"
-      D: "7"
-    correctAnswer: A
-    translations:
-      en:
-        text: "How many players from an ice hockey team are on the ice at the same time?"
-        answers:
-          A: "6"
-          B: "5"
-          C: "4"
-          D: "7"
-    difficulty: EASY
-  - text: "Dans quel sport Nadia Comaneci s'est-elle illustrée ?"
-    answers:
-      A: "Gymnastique artistique"
-      B: "Patinage artistique"
-      C: "Natation"
-      D: "Athlétisme"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In which sport did Nadia Comaneci make her mark?"
-        answers:
-          A: "Artistic gymnastics"
-          B: "Figure skating"
-          C: "Swimming"
-          D: "Athletics"
-    difficulty: EASY
-  - text: "Michael Phelps a remporté ses 23 médailles d'or olympiques dans quel sport ?"
-    answers:
-      A: "Aviron"
-      B: "Athlétisme"
-      C: "Natation"
-      D: "Cyclisme"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which sport did Michael Phelps win his 23 Olympic gold medals?"
-        answers:
-          A: "Rowing"
-          B: "Athletics"
-          C: "Swimming"
-          D: "Cycling"
-    difficulty: EASY
-  - text: "De quel pays Usain Bolt est-il originaire ?"
-    answers:
-      A: "Jamaïque"
-      B: "États-Unis"
-      C: "Trinité-et-Tobago"
-      D: "Kenya"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which country is Usain Bolt from?"
-        answers:
-          A: "Jamaica"
-          B: "United States"
-          C: "Trinidad and Tobago"
-          D: "Kenya"
-    difficulty: EASY
-  - text: "Sous les couleurs de quel pays Marie-José Pérec a-t-elle couru ?"
-    answers:
-      A: "France"
-      B: "Belgique"
-      C: "Suisse"
-      D: "Canada"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Under which country's colors did Marie-José Pérec run?"
-        answers:
-          A: "France"
-          B: "Belgium"
-          C: "Switzerland"
-          D: "Canada"
-    difficulty: EASY
-  - text: "Dans quel sport Jesse Owens a-t-il remporté quatre médailles d'or aux JO de 1936 ?"
-    answers:
-      A: "Athlétisme"
-      B: "Boxe"
-      C: "Escrime"
-      D: "Aviron"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In which sport did Jesse Owens win four gold medals at the 1936 Olympics?"
-        answers:
-          A: "Athletics"
-          B: "Boxing"
-          C: "Fencing"
-          D: "Rowing"
-    difficulty: EASY
-  - text: "Quel sport d'hiver se pratique avec une planche fixée aux pieds sur la neige ?"
-    answers:
-      A: "Le snowboard"
-      B: "Le ski alpin"
-      C: "La luge"
-      D: "Le patinage artistique"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which winter sport is practiced with a board attached to the feet on snow?"
-        answers:
-          A: "Snowboarding"
-          B: "Alpine skiing"
-          C: "Luge"
-          D: "Figure skating"
-    difficulty: EASY
-  - text: "Tous les combien d'années ont lieu les Jeux olympiques d'hiver ?"
-    answers:
-      A: "4 ans"
-      B: "2 ans"
-      C: "3 ans"
-      D: "5 ans"
-    correctAnswer: A
-    translations:
-      en:
-        text: "How often are the Winter Olympic Games held?"
-        answers:
-          A: "4 years"
-          B: "2 years"
-          C: "3 years"
-          D: "5 years"
-    difficulty: EASY
-  - text: "Que combine le biathlon ?"
-    answers:
-      A: "Ski alpin et tir à l'arc"
-      B: "Saut à ski et lancer du poids"
-      C: "Ski de fond et tir à la carabine"
-      D: "Patinage de vitesse et escrime"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What does the biathlon combine?"
-        answers:
-          A: "Alpine skiing and archery"
-          B: "Ski jumping and shot put"
-          C: "Cross-country skiing and rifle shooting"
-          D: "Speed skating and fencing"
-    difficulty: EASY
-  - text: "À quels athlètes sont réservés les Jeux paralympiques ?"
-    answers:
-      A: "Aux athlètes de moins de 25 ans"
-      B: "Aux athlètes en situation de handicap"
-      C: "Aux athlètes amateurs uniquement"
-      D: "Aux athlètes déjà médaillés"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which athletes are the Paralympic Games reserved for?"
-        answers:
-          A: "Athletes under 25"
-          B: "Athletes with disabilities"
-          C: "Amateur athletes only"
-          D: "Athletes who have already won medals"
-    difficulty: EASY
-  - text: "Quelle cérémonie marque la fin des Jeux olympiques ?"
-    answers:
-      A: "La cérémonie d'ouverture"
-      B: "La cérémonie de clôture"
-      C: "La cérémonie des médailles"
-      D: "La cérémonie du flambeau"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which ceremony marks the end of the Olympic Games?"
-        answers:
-          A: "The opening ceremony"
-          B: "The closing ceremony"
-          C: "The medal ceremony"
-          D: "The torch ceremony"
-    difficulty: EASY
-  - text: "Quelle est la devise olympique ?"
-    answers:
-      A: "Un esprit sain dans un corps sain"
-      B: "L'important, c'est de participer"
-      C: "Ensemble, toujours plus loin"
-      D: "Plus vite, plus haut, plus fort"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the Olympic motto?"
-        answers:
-          A: "A sound mind in a sound body"
-          B: "The important thing is to participate"
-          C: "Together, always further"
-          D: "Faster, higher, stronger"
-    difficulty: EASY
-  - text: "Quel est le nom de la mascotte des JO d'hiver d'Albertville 1992 ?"
-    answers:
-      A: "Pingouin"
-      B: "Shuss"
-      C: "Crystal"
-      D: "Magique"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the name of the mascot of the 1992 Albertville Winter Olympics?"
-        answers:
-          A: "Pingouin"
-          B: "Shuss"
-          C: "Crystal"
-          D: "Magique"
-    difficulty: MEDIUM
-  - text: "Dans quelle ville se sont déroulés les JO d'hiver de 1968 ?"
-    answers:
-      A: "Chamonix"
-      B: "Albertville"
-      C: "Grenoble"
-      D: "Oslo"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which city were the 1968 Winter Olympics held?"
-        answers:
-          A: "Chamonix"
-          B: "Albertville"
-          C: "Grenoble"
-          D: "Oslo"
-    difficulty: MEDIUM
-  - text: "Comment se pratique le skeleton ?"
-    answers:
-      A: "Assis sur une luge, les pieds en avant"
-      B: "Debout sur une planche"
-      C: "En descente sur une luge, tête la première"
-      D: "À genoux sur une luge"
-    correctAnswer: C
-    translations:
-      en:
-        text: "How is skeleton practiced?"
-        answers:
-          A: "Sitting on a sled, feet first"
-          B: "Standing on a board"
-          C: "Going down on a sled, head first"
-          D: "Kneeling on a sled"
-    difficulty: MEDIUM
-  - text: "Combien de médailles d'or Michael Phelps a-t-il remportées aux JO de Pékin en 2008 ?"
+  - text: "Combien de médailles d'or Michael Phelps a-t-il remportées aux Jeux olympiques de Pékin en 2008 ?"
     answers:
       A: "6"
       B: "7"
@@ -1065,87 +120,1032 @@ questions:
           C: "9"
           D: "8"
     difficulty: MEDIUM
-  - text: "Dans quelle ville Nadia Comaneci a-t-elle décroché le premier 10 parfait de l'histoire olympique ?"
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1980 ?"
     answers:
-      A: "Moscou"
-      B: "Montréal"
-      C: "Munich"
-      D: "Los Angeles"
-    correctAnswer: B
+      A: "États-Unis"
+      B: "France"
+      C: "Japon"
+      D: "Autriche"
+    correctAnswer: A
     translations:
       en:
-        text: "In which city did Nadia Comaneci achieve the first perfect 10 in Olympic history?"
+        text: "Which country hosted the 1980 Winter Olympics?"
         answers:
-          A: "Moscow"
-          B: "Montreal"
-          C: "Munich"
-          D: "Los Angeles"
-    difficulty: MEDIUM
-  - text: "Quel record du monde du 100 m Usain Bolt a-t-il établi à Berlin en 2009 ?"
+          A: "United States"
+          B: "France"
+          C: "Japan"
+          D: "Austria"
+    difficulty: HARD
+  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 1976 ?"
     answers:
-      A: "9,72 s"
-      B: "9,69 s"
-      C: "9,63 s"
-      D: "9,58 s"
+      A: "Los Angeles"
+      B: "Moscou"
+      C: "Munich"
+      D: "Montréal"
     correctAnswer: D
     translations:
       en:
-        text: "What 100 m world record did Usain Bolt set in Berlin in 2009?"
+        text: "Which city hosted the 1976 Summer Olympics?"
         answers:
-          A: "9.72 s"
-          B: "9.69 s"
-          C: "9.63 s"
-          D: "9.58 s"
+          A: "Los Angeles"
+          B: "Moscow"
+          C: "Munich"
+          D: "Montreal"
     difficulty: MEDIUM
-  - text: "Quel doublé Marie-José Pérec a-t-elle réussi aux JO d'Atlanta en 1996 ?"
+  - text: "Quel est le nom du stade principal des Jeux olympiques d'été de 2012 à Londres ?"
     answers:
-      A: "400 m et 800 m"
-      B: "100 m et 200 m"
-      C: "200 m et 400 m"
-      D: "100 m et 400 m"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which double did Marie-José Pérec achieve at the 1996 Atlanta Olympics?"
-        answers:
-          A: "400 m and 800 m"
-          B: "100 m and 200 m"
-          C: "200 m and 400 m"
-          D: "100 m and 400 m"
-    difficulty: MEDIUM
-  - text: "Combien de joueurs compte une équipe de curling sur la glace ?"
-    answers:
-      A: "3"
-      B: "5"
-      C: "4"
-      D: "6"
-    correctAnswer: C
-    translations:
-      en:
-        text: "How many players are on a curling team on the ice?"
-        answers:
-          A: "3"
-          B: "5"
-          C: "4"
-          D: "6"
-    difficulty: MEDIUM
-  - text: "Quelles disciplines composent le combiné nordique ?"
-    answers:
-      A: "Ski alpin et snowboard"
-      B: "Saut à ski et ski de fond"
-      C: "Biathlon et luge"
-      D: "Patinage et curling"
+      A: "Stade de Wembley"
+      B: "Stade olympique de Londres"
+      C: "Stade de Twickenham"
+      D: "Stade de l'Emirates"
     correctAnswer: B
     translations:
       en:
-        text: "Which disciplines make up Nordic combined?"
+        text: "What is the name of the main stadium of the 2012 Summer Olympics in London?"
         answers:
-          A: "Alpine skiing and snowboarding"
-          B: "Ski jumping and cross-country skiing"
-          C: "Biathlon and luge"
-          D: "Skating and curling"
+          A: "Wembley Stadium"
+          B: "London Olympic Stadium"
+          C: "Twickenham Stadium"
+          D: "Emirates Stadium"
     difficulty: MEDIUM
-  - text: "Dans quel pays se trouve le site de l'allumage de la flamme olympique dont les ruines sont visibles sur cette photo ?"
+  - text: "Quel pays a été exclu des Jeux olympiques d'été de 1920 et 1924 en raison de la Première Guerre mondiale ?"
+    answers:
+      A: "Turquie"
+      B: "Autriche"
+      C: "Hongrie"
+      D: "Allemagne"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country was excluded from the 1920 and 1924 Summer Olympics because of World War I?"
+        answers:
+          A: "Turkey"
+          B: "Austria"
+          C: "Hungary"
+          D: "Germany"
+    difficulty: EXPERT
+  - text: "Quel pays a boycotté les Jeux olympiques d'été de 1980 à Moscou ?"
+    answers:
+      A: "États-Unis"
+      B: "Union soviétique"
+      C: "Chine"
+      D: "Cuba"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country boycotted the 1980 Summer Olympics in Moscow?"
+        answers:
+          A: "United States"
+          B: "Soviet Union"
+          C: "China"
+          D: "Cuba"
+    difficulty: HARD
+  - text: "En quelle année les premiers Jeux olympiques d'hiver ont-ils eu lieu ?"
+    answers:
+      A: "1924"
+      B: "1928"
+      C: "1932"
+      D: "1936"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year were the first Winter Olympics held?"
+        answers:
+          A: "1924"
+          B: "1928"
+          C: "1932"
+          D: "1936"
+    difficulty: EASY
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 2020 ?"
+    answers:
+      A: "États-Unis"
+      B: "Japon"
+      C: "Chine"
+      D: "Grande-Bretagne"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 2020 Summer Olympics?"
+        answers:
+          A: "United States"
+          B: "Japan"
+          C: "China"
+          D: "Great Britain"
+    difficulty: MEDIUM
+  - text: "Quel athlète détient le record du monde du 100 mètres masculin ?"
+    answers:
+      A: "Tyson Gay"
+      B: "Yohan Blake"
+      C: "Justin Gatlin"
+      D: "Usain Bolt"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which athlete holds the men's 100 metres world record?"
+        answers:
+          A: "Tyson Gay"
+          B: "Yohan Blake"
+          C: "Justin Gatlin"
+          D: "Usain Bolt"
+    difficulty: EASY
+  - text: "Quel athlète a remporté quatre médailles d'or aux Jeux olympiques d'été de 1936 à Berlin ?"
+    answers:
+      A: "Emil Zátopek"
+      B: "Carl Lewis"
+      C: "Paavo Nurmi"
+      D: "Jesse Owens"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which athlete won four gold medals at the 1936 Summer Olympics in Berlin?"
+        answers:
+          A: "Emil Zátopek"
+          B: "Carl Lewis"
+          C: "Paavo Nurmi"
+          D: "Jesse Owens"
+    difficulty: EASY
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 2000 ?"
+    answers:
+      A: "Grèce"
+      B: "Australie"
+      C: "Espagne"
+      D: "Chine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 2000 Summer Olympics?"
+        answers:
+          A: "Greece"
+          B: "Australia"
+          C: "Spain"
+          D: "China"
+    difficulty: EASY
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1992 ?"
+    answers:
+      A: "Corée du Sud"
+      B: "États-Unis"
+      C: "Espagne"
+      D: "Australie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1992 Summer Olympics?"
+        answers:
+          A: "South Korea"
+          B: "United States"
+          C: "Spain"
+          D: "Australia"
+    difficulty: MEDIUM
+  - text: "Quel sport olympique se pratique avec un fleuret, une épée ou un sabre ?"
+    answers:
+      A: "Kendo"
+      B: "Tir à l'arc"
+      C: "Pentathlon moderne"
+      D: "Escrime"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Olympic sport is practiced with a foil, épée, or sabre?"
+        answers:
+          A: "Kendo"
+          B: "Archery"
+          C: "Modern pentathlon"
+          D: "Fencing"
+    difficulty: EASY
+  - text: "Dans quel sport Nadia Comăneci a-t-elle obtenu un 10 parfait aux Jeux de 1976 ?"
+    answers:
+      A: "Gymnastique rythmique"
+      B: "Plongeon"
+      C: "Natation synchronisée"
+      D: "Gymnastique artistique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In which sport did Nadia Comăneci score a perfect 10 at the 1976 Games?"
+        answers:
+          A: "Rhythmic gymnastics"
+          B: "Diving"
+          C: "Synchronized swimming"
+          D: "Artistic gymnastics"
+    difficulty: EASY
+  - text: "Quel pays a dominé le tableau des médailles des Jeux olympiques d'été de 1988 ?"
+    answers:
+      A: "Chine"
+      B: "États-Unis"
+      C: "Allemagne de l'Est"
+      D: "Union soviétique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country topped the medal table at the 1988 Summer Olympics?"
+        answers:
+          A: "China"
+          B: "United States"
+          C: "East Germany"
+          D: "Soviet Union"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1900 ?"
+    answers:
+      A: "Grèce"
+      B: "États-Unis"
+      C: "Royaume-Uni"
+      D: "France"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country hosted the 1900 Summer Olympics?"
+        answers:
+          A: "Greece"
+          B: "United States"
+          C: "United Kingdom"
+          D: "France"
+    difficulty: MEDIUM
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 2014 ?"
+    answers:
+      A: "Canada"
+      B: "Norvège"
+      C: "Russie"
+      D: "Corée du Sud"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 2014 Winter Olympics?"
+        answers:
+          A: "Canada"
+          B: "Norway"
+          C: "Russia"
+          D: "South Korea"
+    difficulty: MEDIUM
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1964 ?"
+    answers:
+      A: "Mexique"
+      B: "Allemagne"
+      C: "Japon"
+      D: "Italie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1964 Summer Olympics?"
+        answers:
+          A: "Mexico"
+          B: "Germany"
+          C: "Japan"
+          D: "Italy"
+    difficulty: HARD
+  - text: "Quel athlète a remporté 4 médailles d'or aux Jeux olympiques d'été de 1984 ?"
+    answers:
+      A: "Carl Lewis"
+      B: "Usain Bolt"
+      C: "Jesse Owens"
+      D: "Michael Johnson"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which athlete won 4 gold medals at the 1984 Summer Olympics?"
+        answers:
+          A: "Carl Lewis"
+          B: "Usain Bolt"
+          C: "Jesse Owens"
+          D: "Michael Johnson"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'hiver de 2018 ?"
+    answers:
+      A: "Allemagne"
+      B: "Norvège"
+      C: "Canada"
+      D: "États-Unis"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 2018 Winter Olympics?"
+        answers:
+          A: "Germany"
+          B: "Norway"
+          C: "Canada"
+          D: "United States"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1984 ?"
+    answers:
+      A: "Allemagne de l'Ouest"
+      B: "Union soviétique"
+      C: "États-Unis"
+      D: "Canada"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1984 Summer Olympics?"
+        answers:
+          A: "West Germany"
+          B: "Soviet Union"
+          C: "United States"
+          D: "Canada"
+    difficulty: EASY
+  - text: "Quel athlète a remporté 8 médailles d'or aux Jeux olympiques d'été de 2008 ?"
+    answers:
+      A: "Usain Bolt"
+      B: "Michael Phelps"
+      C: "Carl Lewis"
+      D: "Mark Spitz"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which athlete won 8 gold medals at the 2008 Summer Olympics?"
+        answers:
+          A: "Usain Bolt"
+          B: "Michael Phelps"
+          C: "Carl Lewis"
+          D: "Mark Spitz"
+    difficulty: MEDIUM
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1928 ?"
+    answers:
+      A: "France"
+      B: "Pays-Bas"
+      C: "Belgique"
+      D: "Allemagne"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 1928 Summer Olympics?"
+        answers:
+          A: "France"
+          B: "Netherlands"
+          C: "Belgium"
+          D: "Germany"
+    difficulty: HARD
+  - text: "Quel athlète a remporté 7 médailles d'or lors des Jeux olympiques d'été de 1972 ?"
+    answers:
+      A: "Usain Bolt"
+      B: "Carl Lewis"
+      C: "Michael Phelps"
+      D: "Mark Spitz"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which athlete won 7 gold medals at the 1972 Summer Olympics?"
+        answers:
+          A: "Usain Bolt"
+          B: "Carl Lewis"
+          C: "Michael Phelps"
+          D: "Mark Spitz"
+    difficulty: EXPERT
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 2002 ?"
+    answers:
+      A: "États-Unis"
+      B: "Italie"
+      C: "France"
+      D: "Suisse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country hosted the 2002 Winter Olympics?"
+        answers:
+          A: "United States"
+          B: "Italy"
+          C: "France"
+          D: "Switzerland"
+    difficulty: MEDIUM
+  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 1908 ?"
+    answers:
+      A: "Paris"
+      B: "Stockholm"
+      C: "Berlin"
+      D: "Londres"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which city hosted the 1908 Summer Olympics?"
+        answers:
+          A: "Paris"
+          B: "Stockholm"
+          C: "Berlin"
+          D: "London"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1936 ?"
+    answers:
+      A: "Allemagne"
+      B: "Italie"
+      C: "Japon"
+      D: "France"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country hosted the 1936 Summer Olympics?"
+        answers:
+          A: "Germany"
+          B: "Italy"
+          C: "Japan"
+          D: "France"
+    difficulty: MEDIUM
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1968 ?"
+    answers:
+      A: "Brésil"
+      B: "Argentine"
+      C: "Mexique"
+      D: "Espagne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1968 Summer Olympics?"
+        answers:
+          A: "Brazil"
+          B: "Argentina"
+          C: "Mexico"
+          D: "Spain"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1994 ?"
+    answers:
+      A: "Suède"
+      B: "Norvège"
+      C: "Finlande"
+      D: "Danemark"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 1994 Winter Olympics?"
+        answers:
+          A: "Sweden"
+          B: "Norway"
+          C: "Finland"
+          D: "Denmark"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1952 ?"
+    answers:
+      A: "Suède"
+      B: "Finlande"
+      C: "Norvège"
+      D: "Danemark"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 1952 Summer Olympics?"
+        answers:
+          A: "Sweden"
+          B: "Finland"
+          C: "Norway"
+          D: "Denmark"
+    difficulty: HARD
+  - text: "Quel stade a accueilli les JO d'Athènes en 1896 ?"
+    imageUrl: wikipedia/sports/Panathenaic_stadium_Athens_Greece.jpg
+    answers:
+      A: "Stade olympique d'Athènes"
+      B: "Stade panathénaïque"
+      C: "Stade Karaïskakis"
+      D: "Stade Spyros Louis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which stadium hosted the 1896 Athens Olympics?"
+        answers:
+          A: "Athens Olympic Stadium"
+          B: "Panathenaic Stadium"
+          C: "Karaiskakis Stadium"
+          D: "Spyros Louis Stadium"
+    difficulty: EXPERT
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1924 ?"
+    answers:
+      A: "Suisse"
+      B: "France"
+      C: "Italie"
+      D: "Autriche"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 1924 Winter Olympics?"
+        answers:
+          A: "Switzerland"
+          B: "France"
+          C: "Italy"
+          D: "Austria"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1932 ?"
+    answers:
+      A: "Suisse"
+      B: "États-Unis"
+      C: "Allemagne"
+      D: "France"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 1932 Winter Olympics?"
+        answers:
+          A: "Switzerland"
+          B: "United States"
+          C: "Germany"
+          D: "France"
+    difficulty: EXPERT
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1904 ?"
+    answers:
+      A: "Royaume-Uni"
+      B: "Canada"
+      C: "États-Unis"
+      D: "France"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1904 Summer Olympics?"
+        answers:
+          A: "United Kingdom"
+          B: "Canada"
+          C: "United States"
+          D: "France"
+    difficulty: HARD
+  - text: "Quel athlète a remporté 9 médailles d'or olympiques en athlétisme ?"
+    answers:
+      A: "Usain Bolt"
+      B: "Jesse Owens"
+      C: "Paavo Nurmi"
+      D: "Carl Lewis"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which athlete won 9 Olympic gold medals in athletics?"
+        answers:
+          A: "Usain Bolt"
+          B: "Jesse Owens"
+          C: "Paavo Nurmi"
+          D: "Carl Lewis"
+    difficulty: MEDIUM
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1972 ?"
+    answers:
+      A: "Autriche"
+      B: "Allemagne"
+      C: "Suisse"
+      D: "Pays-Bas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 1972 Summer Olympics?"
+        answers:
+          A: "Austria"
+          B: "Germany"
+          C: "Switzerland"
+          D: "Netherlands"
+    difficulty: MEDIUM
+  - text: "Quel pays a été le premier à remporter une médaille d'or aux Jeux olympiques d'hiver ?"
+    answers:
+      A: "Norvège"
+      B: "Finlande"
+      C: "États-Unis"
+      D: "Suède"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country was the first to win a gold medal at the Winter Olympics?"
+        answers:
+          A: "Norway"
+          B: "Finland"
+          C: "United States"
+          D: "Sweden"
+    difficulty: EXPERT
+  - text: "Quel pays a organisé les Jeux olympiques d'été de 1988 ?"
+    answers:
+      A: "Corée du Sud"
+      B: "Japon"
+      C: "Chine"
+      D: "Australie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country hosted the 1988 Summer Olympics?"
+        answers:
+          A: "South Korea"
+          B: "Japan"
+          C: "China"
+          D: "Australia"
+    difficulty: MEDIUM
+  - text: "En quelle année les Jeux olympiques d'été se sont-ils tenus en Australie pour la première fois ?"
+    answers:
+      A: "2000"
+      B: "1956"
+      C: "1984"
+      D: "1976"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year were the Summer Olympics first held in Australia?"
+        answers:
+          A: "2000"
+          B: "1956"
+          C: "1984"
+          D: "1976"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1952 ?"
+    answers:
+      A: "Suisse"
+      B: "France"
+      C: "Italie"
+      D: "Norvège"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country hosted the 1952 Winter Olympics?"
+        answers:
+          A: "Switzerland"
+          B: "France"
+          C: "Italy"
+          D: "Norway"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 1972 ?"
+    answers:
+      A: "États-Unis"
+      B: "Allemagne de l'Est"
+      C: "Union soviétique"
+      D: "Japon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 1972 Summer Olympics?"
+        answers:
+          A: "United States"
+          B: "East Germany"
+          C: "Soviet Union"
+          D: "Japan"
+    difficulty: EXPERT
+  - text: "Quel athlète a remporté quatre médailles d'or en athlétisme aux Jeux olympiques d'été de 1936 ?"
+    answers:
+      A: "Jesse Owens"
+      B: "Carl Lewis"
+      C: "Paavo Nurmi"
+      D: "Emil Zátopek"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which athlete won four gold medals in athletics at the 1936 Summer Olympics?"
+        answers:
+          A: "Jesse Owens"
+          B: "Carl Lewis"
+          C: "Paavo Nurmi"
+          D: "Emil Zátopek"
+    difficulty: MEDIUM
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1936 ?"
+    answers:
+      A: "Allemagne"
+      B: "Autriche"
+      C: "Suisse"
+      D: "France"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country hosted the 1936 Winter Olympics?"
+        answers:
+          A: "Germany"
+          B: "Austria"
+          C: "Switzerland"
+          D: "France"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 1980 ?"
+    answers:
+      A: "Union soviétique"
+      B: "États-Unis"
+      C: "Allemagne de l'Est"
+      D: "Bulgarie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 1980 Summer Olympics?"
+        answers:
+          A: "Soviet Union"
+          B: "United States"
+          C: "East Germany"
+          D: "Bulgaria"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1920 ?"
+    answers:
+      A: "Belgique"
+      B: "France"
+      C: "Pays-Bas"
+      D: "Suisse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country hosted the 1920 Summer Olympics?"
+        answers:
+          A: "Belgium"
+          B: "France"
+          C: "Netherlands"
+          D: "Switzerland"
+    difficulty: MEDIUM
+  - text: "Quel athlète a remporté quatre médailles d'or en natation aux Jeux olympiques d'été de 1972 ?"
+    answers:
+      A: "Mark Spitz"
+      B: "Michael Phelps"
+      C: "Ian Thorpe"
+      D: "Alexander Popov"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which athlete won four gold medals in swimming at the 1972 Summer Olympics?"
+        answers:
+          A: "Mark Spitz"
+          B: "Michael Phelps"
+          C: "Ian Thorpe"
+          D: "Alexander Popov"
+    difficulty: EXPERT
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1968 ?"
+    answers:
+      A: "Autriche"
+      B: "Suisse"
+      C: "France"
+      D: "Italie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1968 Winter Olympics?"
+        answers:
+          A: "Austria"
+          B: "Switzerland"
+          C: "France"
+          D: "Italy"
+    difficulty: HARD
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 1996 ?"
+    answers:
+      A: "États-Unis"
+      B: "Russie"
+      C: "Allemagne"
+      D: "Chine"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 1996 Summer Olympics?"
+        answers:
+          A: "United States"
+          B: "Russia"
+          C: "Germany"
+          D: "China"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1988 ?"
+    answers:
+      A: "Canada"
+      B: "États-Unis"
+      C: "Japon"
+      D: "France"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country hosted the 1988 Winter Olympics?"
+        answers:
+          A: "Canada"
+          B: "United States"
+          C: "Japan"
+          D: "France"
+    difficulty: HARD
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'hiver de 2010 ?"
+    answers:
+      A: "Canada"
+      B: "États-Unis"
+      C: "Allemagne"
+      D: "Norvège"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 2010 Winter Olympics?"
+        answers:
+          A: "Canada"
+          B: "United States"
+          C: "Germany"
+          D: "Norway"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1912 ?"
+    answers:
+      A: "Suède"
+      B: "Norvège"
+      C: "Danemark"
+      D: "Finlande"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which country hosted the 1912 Summer Olympics?"
+        answers:
+          A: "Sweden"
+          B: "Norway"
+          C: "Denmark"
+          D: "Finland"
+    difficulty: EXPERT
+  - text: "Quel athlète a remporté quatre médailles d'or en gymnastique aux Jeux olympiques d'été de 1984 ?"
+    answers:
+      A: "Ecaterina Szabo"
+      B: "Nadia Comăneci"
+      C: "Simone Biles"
+      D: "Larisa Latynina"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which athlete won four gold medals in gymnastics at the 1984 Summer Olympics?"
+        answers:
+          A: "Ecaterina Szabo"
+          B: "Nadia Comăneci"
+          C: "Simone Biles"
+          D: "Larisa Latynina"
+    difficulty: EXPERT
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1972 ?"
+    answers:
+      A: "France"
+      B: "États-Unis"
+      C: "Japon"
+      D: "Suisse"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1972 Winter Olympics?"
+        answers:
+          A: "France"
+          B: "United States"
+          C: "Japan"
+          D: "Switzerland"
+    difficulty: HARD
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 2004 ?"
+    answers:
+      A: "Chine"
+      B: "États-Unis"
+      C: "Russie"
+      D: "Australie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country won the most gold medals at the 2004 Summer Olympics?"
+        answers:
+          A: "China"
+          B: "United States"
+          C: "Russia"
+          D: "Australia"
+    difficulty: HARD
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1998 ?"
+    answers:
+      A: "Canada"
+      B: "Japon"
+      C: "Norvège"
+      D: "États-Unis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which country hosted the 1998 Winter Olympics?"
+        answers:
+          A: "Canada"
+          B: "Japan"
+          C: "Norway"
+          D: "United States"
+    difficulty: HARD
+  - text: "Quel pays a remporté le relais 4 × 100 m masculin aux JO de 2012 après disqualification du Canada ?"
+    answers:
+      A: "Grande-Bretagne"
+      B: "États-Unis"
+      C: "Jamaïque"
+      D: "Trinité-et-Tobago"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won the men's 4 × 100 m relay at the 2012 Olympics after Canada's disqualification?"
+        answers:
+          A: "Great Britain"
+          B: "United States"
+          C: "Jamaica"
+          D: "Trinidad and Tobago"
+    difficulty: EXPERT
+  - text: "Quel nageur détient le record du monde du 400 m quatre nages individuel depuis 2008 ?"
+    answers:
+      A: "Ryan Lochte"
+      B: "Chad le Clos"
+      C: "László Cseh"
+      D: "Michael Phelps"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which swimmer has held the world record in the 400 m individual medley since 2008?"
+        answers:
+          A: "Ryan Lochte"
+          B: "Chad le Clos"
+          C: "László Cseh"
+          D: "Michael Phelps"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté la première médaille d'or de l'histoire des Jeux olympiques d'hiver ?"
+    answers:
+      A: "Norvège"
+      B: "Suède"
+      C: "États-Unis"
+      D: "Finlande"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country won the first gold medal in Winter Olympics history?"
+        answers:
+          A: "Norway"
+          B: "Sweden"
+          C: "United States"
+          D: "Finland"
+    difficulty: EXPERT
+  - text: "Quel athlète a remporté le marathon des JO 1960 en courant pieds nus ?"
+    answers:
+      A: "Kenenisa Bekele"
+      B: "Mamo Wolde"
+      C: "Abebe Bikila"
+      D: "Haile Gebrselassie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which athlete won the marathon at the 1960 Olympics running barefoot?"
+        answers:
+          A: "Kenenisa Bekele"
+          B: "Mamo Wolde"
+          C: "Abebe Bikila"
+          D: "Haile Gebrselassie"
+    difficulty: EXPERT
+  - text: "Quelle ville a été la première à accueillir deux fois les Jeux olympiques d'été ?"
+    answers:
+      A: "Londres"
+      B: "Athènes"
+      C: "Los Angeles"
+      D: "Paris"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which city was the first to host the Summer Olympics twice?"
+        answers:
+          A: "London"
+          B: "Athens"
+          C: "Los Angeles"
+          D: "Paris"
+    difficulty: EXPERT
+  - text: "Combien de médailles d'or Michael Phelps a-t-il remportées aux JO de 2008 ?"
+    answers:
+      A: "6"
+      B: "8"
+      C: "7"
+      D: "9"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many gold medals did Michael Phelps win at the 2008 Olympics?"
+        answers:
+          A: "6"
+          B: "8"
+          C: "7"
+          D: "9"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté le tournoi de basketball masculin aux JO de 2004 ?"
+    answers:
+      A: "États-Unis"
+      B: "Espagne"
+      C: "Italie"
+      D: "Argentine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which country won the men's basketball tournament at the 2004 Olympics?"
+        answers:
+          A: "United States"
+          B: "Spain"
+          C: "Italy"
+          D: "Argentina"
+    difficulty: EXPERT
+  - text: "Quel athlète a remporté quatre médailles d'or aux JO de 1984, égalant Jesse Owens ?"
+    answers:
+      A: "Michael Johnson"
+      B: "Ben Johnson"
+      C: "Carl Lewis"
+      D: "Usain Bolt"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which athlete won four gold medals at the 1984 Olympics, equaling Jesse Owens?"
+        answers:
+          A: "Michael Johnson"
+          B: "Ben Johnson"
+          C: "Carl Lewis"
+          D: "Usain Bolt"
+    difficulty: EXPERT
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1956 ?"
+    answers:
+      A: "Italie"
+      B: "Suède"
+      C: "Australie"
+      D: "Japon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which country hosted the 1956 Summer Olympics?"
+        answers:
+          A: "Italy"
+          B: "Sweden"
+          C: "Australia"
+          D: "Japan"
+    difficulty: HARD
+  - text: "Quel athlète a remporté le 100 m masculin aux JO de 1996 ?"
+    answers:
+      A: "Carl Lewis"
+      B: "Donovan Bailey"
+      C: "Linford Christie"
+      D: "Ato Boldon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which athlete won the men's 100 m at the 1996 Olympics?"
+        answers:
+          A: "Carl Lewis"
+          B: "Donovan Bailey"
+          C: "Linford Christie"
+          D: "Ato Boldon"
+    difficulty: HARD
+  - text: "Où se trouve ce site antique ?"
     imageUrl: wikipedia/sports/Temple_of_Hera_in_Olympia.jpg
     answers:
       A: "Italie"
@@ -1155,78 +1155,78 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "In which country is the Olympic flame lighting site whose ruins are visible in this photo?"
+        text: "Where is this ancient site located?"
         answers:
           A: "Italy"
           B: "France"
           C: "Switzerland"
           D: "Greece"
-    difficulty: MEDIUM
-  - text: "À quelle discipline Jean-Claude Killy a-t-il été triple champion olympique en 1968 ?"
+    difficulty: EASY
+  - text: "Combien de fois les JO d'été ont-ils été annulés en raison des guerres mondiales ?"
     answers:
-      A: "Ski alpin"
-      B: "Ski de fond"
-      C: "Biathlon"
-      D: "Luge"
+      A: "3"
+      B: "2"
+      C: "1"
+      D: "4"
     correctAnswer: A
     translations:
       en:
-        text: "In which discipline was Jean-Claude Killy a triple Olympic champion in 1968?"
+        text: "How many times have the Summer Olympics been canceled due to world wars?"
         answers:
-          A: "Alpine skiing"
-          B: "Cross-country skiing"
-          C: "Biathlon"
-          D: "Luge"
-    difficulty: MEDIUM
-  - text: "Quel sport d'hiver se joue sur la glace avec une pierre et un balai ?"
+          A: "3"
+          B: "2"
+          C: "1"
+          D: "4"
+    difficulty: HARD
+  - text: "Quelle ville a été la première ville d'Amérique du Sud à accueillir les JO ?"
     answers:
-      A: "Le hockey sur glace"
-      B: "La pétanque sur glace"
-      C: "Le curling"
-      D: "Le bobsleigh"
+      A: "São Paulo"
+      B: "Buenos Aires"
+      C: "Rio de Janeiro"
+      D: "Bogota"
     correctAnswer: C
     translations:
       en:
-        text: "Which winter sport is played on ice with a stone and a broom?"
+        text: "Which city was the first in South America to host the Olympics?"
         answers:
-          A: "Ice hockey"
-          B: "Ice pétanque"
-          C: "Curling"
-          D: "Bobsleigh"
-    difficulty: MEDIUM
-  - text: "Dans quelle discipline la Norvégienne Marit Bjørgen a-t-elle gagné huit médailles d'or olympiques ?"
+          A: "São Paulo"
+          B: "Buenos Aires"
+          C: "Rio de Janeiro"
+          D: "Bogota"
+    difficulty: HARD
+  - text: "Quel pays a remporté le plus de médailles d'or aux JO d'hiver de 1998 ?"
     answers:
-      A: "Biathlon"
-      B: "Patinage de vitesse"
-      C: "Ski alpin"
-      D: "Ski de fond"
+      A: "Norvège"
+      B: "Russie"
+      C: "États-Unis"
+      D: "Allemagne"
     correctAnswer: D
     translations:
       en:
-        text: "In which discipline did Norwegian Marit Bjørgen win eight Olympic gold medals?"
+        text: "Which country won the most gold medals at the 1998 Winter Olympics?"
         answers:
-          A: "Biathlon"
-          B: "Speed skating"
-          C: "Alpine skiing"
-          D: "Cross-country skiing"
-    difficulty: MEDIUM
-  - text: "En quelle année Grenoble a-t-elle accueilli les JO d'hiver ?"
+          A: "Norway"
+          B: "Russia"
+          C: "United States"
+          D: "Germany"
+    difficulty: HARD
+  - text: "Quel athlète a remporté le 100 m et le 200 m aux JO de 1936 ?"
     answers:
-      A: "1964"
-      B: "1972"
-      C: "1968"
-      D: "1960"
+      A: "Ralph Metcalfe"
+      B: "Carl Lewis"
+      C: "Jesse Owens"
+      D: "Eddie Tolan"
     correctAnswer: C
     translations:
       en:
-        text: "In what year did Grenoble host the Winter Olympics?"
+        text: "Which athlete won the 100 m and 200 m at the 1936 Olympics?"
         answers:
-          A: "1964"
-          B: "1972"
-          C: "1968"
-          D: "1960"
-    difficulty: HARD
-  - text: "Comme lors de cette cérémonie d'ouverture, la vasque olympique est allumée : qui a été la première femme à l'allumer ?"
+          A: "Ralph Metcalfe"
+          B: "Carl Lewis"
+          C: "Jesse Owens"
+          D: "Eddie Tolan"
+    difficulty: MEDIUM
+  - text: "Qui fut la 1re femme à allumer la vasque ?"
     imageUrl: wikipedia/sports/Olympic_Cauldron_lit_at_2010_Winter_Olympics_opening_ceremony_2.jpg
     answers:
       A: "Nadia Comaneci"
@@ -1236,190 +1236,190 @@ questions:
     correctAnswer: C
     translations:
       en:
-        text: "As in this opening ceremony, the Olympic cauldron is lit: who was the first woman to light it?"
+        text: "Who was the first woman to light the cauldron?"
         answers:
           A: "Nadia Comaneci"
           B: "Cathy Freeman"
           C: "Enriqueta Basilio"
           D: "Marie-José Pérec"
-    difficulty: HARD
-  - text: "Waldi, la mascotte en forme de teckel, était celle des JO de quelle ville ?"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la mascotte des JO d'été de 2012 ?"
     answers:
-      A: "Montréal"
-      B: "Berlin"
-      C: "Munich"
-      D: "Mexico"
+      A: "Misha"
+      B: "Mandeville"
+      C: "Wenlock"
+      D: "Cobi"
     correctAnswer: C
     translations:
       en:
-        text: "Waldi, the dachshund-shaped mascot, was the mascot for the Olympics in which city?"
+        text: "What is the name of the mascot of the 2012 Summer Olympics?"
         answers:
-          A: "Montreal"
-          B: "Berlin"
-          C: "Munich"
-          D: "Mexico City"
+          A: "Misha"
+          B: "Mandeville"
+          C: "Wenlock"
+          D: "Cobi"
     difficulty: HARD
-  - text: "Quel est le nom de l'ourson mascotte des JO de Moscou 1980 ?"
+  - text: "Quel stade a accueilli les épreuves d'athlétisme des JO de 1992 ?"
     answers:
-      A: "Volodya"
-      B: "Sasha"
-      C: "Misha"
-      D: "Masha"
+      A: "Stade olympique de Rome"
+      B: "Stade olympique de Munich"
+      C: "Stade olympique de Montjuïc"
+      D: "Stade olympique d'Athènes"
     correctAnswer: C
     translations:
       en:
-        text: "What is the name of the bear mascot of the 1980 Moscow Olympics?"
+        text: "Which stadium hosted the athletics events at the 1992 Olympics?"
         answers:
-          A: "Volodya"
-          B: "Sasha"
-          C: "Misha"
-          D: "Masha"
-    difficulty: HARD
-  - text: "Quelle particularité avaient les JO d'hiver d'Albertville en 1992 ?"
+          A: "Rome Olympic Stadium"
+          B: "Munich Olympic Stadium"
+          C: "Montjuïc Olympic Stadium"
+          D: "Athens Olympic Stadium"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté le plus de médailles d'or aux JO d'hiver de 2014 ?"
     answers:
-      A: "Ils ont vu débuter le snowboard"
-      B: "Ce furent les derniers JO d'hiver la même année que les JO d'été"
-      C: "Ils étaient les derniers sans épreuve féminine"
-      D: "Ils étaient ouverts aux professionnels"
+      A: "Canada"
+      B: "Russie"
+      C: "États-Unis"
+      D: "Norvège"
     correctAnswer: B
     translations:
       en:
-        text: "What was special about the 1992 Albertville Winter Olympics?"
+        text: "Which country won the most gold medals at the 2014 Winter Olympics?"
         answers:
-          A: "They saw the debut of snowboarding"
-          B: "They were the last Winter Olympics in the same year as the Summer Olympics"
-          C: "They were the last without women's events"
-          D: "They were open to professionals"
+          A: "Canada"
+          B: "Russia"
+          C: "United States"
+          D: "Norway"
     difficulty: HARD
-  - text: "En quelle année le skeleton est-il revenu au programme olympique ?"
+  - text: "Quel pays a remporté la médaille d'or en hockey sur glace masculin aux JO de 2006 ?"
     answers:
-      A: "2002"
-      B: "1992"
-      C: "1998"
-      D: "2006"
+      A: "Suède"
+      B: "Finlande"
+      C: "Canada"
+      D: "Russie"
     correctAnswer: A
     translations:
       en:
-        text: "In what year did skeleton return to the Olympic program?"
+        text: "Which country won the gold medal in men's ice hockey at the 2006 Olympics?"
         answers:
-          A: "2002"
-          B: "1992"
-          C: "1998"
-          D: "2006"
-    difficulty: HARD
-  - text: "Quel patineur de vitesse américain a remporté les cinq épreuves de son sport à Lake Placid en 1980 ?"
+          A: "Sweden"
+          B: "Finland"
+          C: "Canada"
+          D: "Russia"
+    difficulty: EXPERT
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1976 ?"
     answers:
-      A: "Eric Heiden"
-      B: "Dan Jansen"
-      C: "Bonnie Blair"
-      D: "Chad Hedrick"
+      A: "Canada"
+      B: "États-Unis"
+      C: "Mexique"
+      D: "Allemagne"
     correctAnswer: A
     translations:
       en:
-        text: "Which American speed skater won all five events in his sport at Lake Placid in 1980?"
+        text: "Which country hosted the 1976 Summer Olympics?"
         answers:
-          A: "Eric Heiden"
-          B: "Dan Jansen"
-          C: "Bonnie Blair"
-          D: "Chad Hedrick"
+          A: "Canada"
+          B: "United States"
+          C: "Mexico"
+          D: "Germany"
     difficulty: HARD
-  - text: "Dans quel sport Ole Einar Bjørndalen a-t-il gagné huit médailles d'or olympiques ?"
+  - text: "Quelle ville a accueilli les Jeux olympiques d'été de 1936 ?"
     answers:
-      A: "Ski de fond"
-      B: "Combiné nordique"
-      C: "Biathlon"
-      D: "Tir sportif"
+      A: "Rome"
+      B: "Tokyo"
+      C: "Berlin"
+      D: "Londres"
     correctAnswer: C
     translations:
       en:
-        text: "In which sport did Ole Einar Bjørndalen win eight Olympic gold medals?"
+        text: "Which city hosted the 1936 Summer Olympics?"
         answers:
-          A: "Cross-country skiing"
-          B: "Nordic combined"
-          C: "Biathlon"
-          D: "Shooting"
+          A: "Rome"
+          B: "Tokyo"
+          C: "Berlin"
+          D: "London"
     difficulty: HARD
-  - text: "Comment s'appelait le petit skieur mascotte des JO de Grenoble 1968 ?"
+  - text: "Quel athlète a remporté quatre médailles d'or en athlétisme aux Jeux olympiques d'été de 1984 ?"
     answers:
-      A: "Killy"
-      B: "Yéti"
-      C: "Shuss"
-      D: "Alpin"
+      A: "Linford Christie"
+      B: "Ben Johnson"
+      C: "Carl Lewis"
+      D: "Michael Johnson"
     correctAnswer: C
     translations:
       en:
-        text: "What was the name of the little skier mascot of the 1968 Grenoble Olympics?"
+        text: "Which athlete won four gold medals in athletics at the 1984 Summer Olympics?"
         answers:
-          A: "Killy"
-          B: "Yeti"
-          C: "Shuss"
-          D: "Alpin"
-    difficulty: HARD
-  - text: "En quelle année le snowboard a-t-il fait son apparition aux JO d'hiver ?"
+          A: "Linford Christie"
+          B: "Ben Johnson"
+          C: "Carl Lewis"
+          D: "Michael Johnson"
+    difficulty: EXPERT
+  - text: "Combien de médailles d'or Mark Spitz a-t-il remportées aux Jeux olympiques d'été de 1972 ?"
     answers:
-      A: "1994"
-      B: "1998"
-      C: "2002"
-      D: "1992"
+      A: "5"
+      B: "7"
+      C: "6"
+      D: "8"
     correctAnswer: B
     translations:
       en:
-        text: "In what year did snowboarding make its debut at the Winter Olympics?"
+        text: "How many gold medals did Mark Spitz win at the 1972 Summer Olympics?"
         answers:
-          A: "1994"
-          B: "1998"
-          C: "2002"
-          D: "1992"
+          A: "5"
+          B: "7"
+          C: "6"
+          D: "8"
     difficulty: HARD
-  - text: "Lors du 10 parfait de Nadia Comaneci à Montréal, quel score les tableaux affichaient-ils à cause d'une limitation technique ?"
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 1988 ?"
     answers:
-      A: "10.0"
-      B: "0.10"
-      C: "9.99"
-      D: "1.00"
+      A: "États-Unis"
+      B: "Chine"
+      C: "Allemagne de l'Est"
+      D: "Union soviétique"
     correctAnswer: D
     translations:
       en:
-        text: "During Nadia Comaneci's perfect 10 in Montreal, what score did the scoreboards show due to a technical limitation?"
+        text: "Which country won the most gold medals at the 1988 Summer Olympics?"
         answers:
-          A: "10.0"
-          B: "0.10"
-          C: "9.99"
-          D: "1.00"
+          A: "United States"
+          B: "China"
+          C: "East Germany"
+          D: "Soviet Union"
     difficulty: HARD
-  - text: "Quelle ville suisse a accueilli les JO d'hiver de 1948 ?"
+  - text: "Quelle ville a accueilli les Jeux olympiques d'hiver de 1960 ?"
     answers:
-      A: "Lausanne"
-      B: "Genève"
-      C: "Saint-Moritz"
-      D: "Zurich"
+      A: "Innsbruck"
+      B: "Grenoble"
+      C: "Squaw Valley"
+      D: "Oslo"
     correctAnswer: C
     translations:
       en:
-        text: "Which Swiss city hosted the 1948 Winter Olympics?"
+        text: "Which city hosted the 1960 Winter Olympics?"
         answers:
-          A: "Lausanne"
-          B: "Geneva"
-          C: "St. Moritz"
-          D: "Zurich"
-    difficulty: HARD
-  - text: "Quel médecin est considéré comme le fondateur des Jeux paralympiques ?"
+          A: "Innsbruck"
+          B: "Grenoble"
+          C: "Squaw Valley"
+          D: "Oslo"
+    difficulty: EXPERT
+  - text: "Quel pays a remporté le tournoi de football masculin aux Jeux olympiques d'été de 1996 ?"
     answers:
-      A: "Ludwig Guttmann"
-      B: "Henri Didon"
-      C: "Avery Brundage"
-      D: "Pierre de Coubertin"
+      A: "Nigeria"
+      B: "Argentine"
+      C: "Brésil"
+      D: "France"
     correctAnswer: A
     translations:
       en:
-        text: "Which doctor is considered the founder of the Paralympic Games?"
+        text: "Which country won the men's football tournament at the 1996 Summer Olympics?"
         answers:
-          A: "Ludwig Guttmann"
-          B: "Henri Didon"
-          C: "Avery Brundage"
-          D: "Pierre de Coubertin"
+          A: "Nigeria"
+          B: "Argentina"
+          C: "Brazil"
+          D: "France"
     difficulty: EXPERT
-  - text: "Comment la flamme olympique est-elle allumée lors de la cérémonie visible sur cette image ?"
+  - text: "Comment la flamme olympique est-elle allumée ?"
     imageUrl: wikipedia/sports/Olympic_Torch_2010.jpg
     answers:
       A: "À l'aide d'un éclair capté en altitude"
@@ -1429,186 +1429,186 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "How is the Olympic flame lit during the ceremony shown in this image?"
+        text: "How is the Olympic flame lit?"
         answers:
           A: "Using lightning captured at high altitude"
           B: "With a ceremonial lighter"
-          C: "By friction of two flints"
-          D: "Using the sun's rays concentrated by a parabolic mirror"
-    difficulty: EXPERT
-  - text: "Quel sauteur à ski suédois a popularisé le style en V ?"
+          C: "By friction between two flints"
+          D: "Using sunlight concentrated by a parabolic mirror"
+    difficulty: MEDIUM
+  - text: "Quel athlète a remporté le 100 m masculin aux Jeux olympiques d'été de 2000 ?"
     answers:
-      A: "Matti Nykänen"
-      B: "Simon Ammann"
-      C: "Jan Boklöv"
-      D: "Anders Jacobsen"
+      A: "Obadele Thompson"
+      B: "Ato Boldon"
+      C: "Maurice Greene"
+      D: "Jon Drummond"
     correctAnswer: C
     translations:
       en:
-        text: "Which Swedish ski jumper popularized the V-style?"
+        text: "Which athlete won the men's 100 m at the 2000 Summer Olympics?"
         answers:
-          A: "Matti Nykänen"
-          B: "Simon Ammann"
-          C: "Jan Boklöv"
-          D: "Anders Jacobsen"
+          A: "Obadele Thompson"
+          B: "Ato Boldon"
+          C: "Maurice Greene"
+          D: "Jon Drummond"
     difficulty: EXPERT
-  - text: "À quels JO le relais de la flamme olympique a-t-il été organisé pour la première fois ?"
+  - text: "En quelle année les femmes ont-elles participé pour la première fois aux Jeux olympiques ?"
     answers:
-      A: "Amsterdam 1928"
-      B: "Berlin 1936"
-      C: "Los Angeles 1932"
-      D: "Paris 1924"
+      A: "1896"
+      B: "1900"
+      C: "1904"
+      D: "1908"
     correctAnswer: B
     translations:
       en:
-        text: "At which Olympics was the Olympic torch relay held for the first time?"
+        text: "In what year did women first participate in the Olympic Games?"
         answers:
-          A: "Amsterdam 1928"
-          B: "Berlin 1936"
-          C: "Los Angeles 1932"
-          D: "Paris 1924"
+          A: "1896"
+          B: "1900"
+          C: "1904"
+          D: "1908"
     difficulty: EXPERT
-  - text: "Le patinage artistique a été présent aux JO d'été de 1908 et de quelle autre édition ?"
+  - text: "Quel pays a accueilli les Jeux olympiques d'hiver de 1948 ?"
     answers:
-      A: "1912 Stockholm"
-      B: "1924 Paris"
-      C: "1896 Athènes"
-      D: "1920 Anvers"
+      A: "Autriche"
+      B: "France"
+      C: "Italie"
+      D: "Suisse"
     correctAnswer: D
     translations:
       en:
-        text: "Figure skating was featured at the 1908 Summer Olympics and which other edition?"
+        text: "Which country hosted the 1948 Winter Olympics?"
         answers:
-          A: "1912 Stockholm"
-          B: "1924 Paris"
-          C: "1896 Athens"
-          D: "1920 Antwerp"
+          A: "Austria"
+          B: "France"
+          C: "Italy"
+          D: "Switzerland"
     difficulty: EXPERT
-  - text: "En quelle année le curling a-t-il été réintégré au programme olympique comme sport officiel ?"
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'hiver de 2002 ?"
     answers:
-      A: "1988"
-      B: "1998"
-      C: "1994"
-      D: "2002"
+      A: "États-Unis"
+      B: "Norvège"
+      C: "Allemagne"
+      D: "Canada"
     correctAnswer: B
     translations:
       en:
-        text: "In what year was curling reinstated to the Olympic program as an official sport?"
+        text: "Which country won the most gold medals at the 2002 Winter Olympics?"
         answers:
-          A: "1988"
-          B: "1998"
-          C: "1994"
-          D: "2002"
+          A: "United States"
+          B: "Norway"
+          C: "Germany"
+          D: "Canada"
     difficulty: EXPERT
-  - text: "Quel sport de glace a fait son apparition aux JO d'Albertville 1992 ?"
+  - text: "Quel athlète a remporté le marathon masculin aux Jeux olympiques d'été de 2004 ?"
     answers:
-      A: "Le patinage de vitesse sur piste courte"
-      B: "Le skeleton"
-      C: "Le curling"
-      D: "Le snowboard"
+      A: "Stefano Baldini"
+      B: "Mebrahtom Keflezighi"
+      C: "Vanderlei de Lima"
+      D: "Paul Tergat"
     correctAnswer: A
     translations:
       en:
-        text: "Which ice sport made its debut at the 1992 Albertville Olympics?"
+        text: "Which athlete won the men's marathon at the 2004 Summer Olympics?"
         answers:
-          A: "Short track speed skating"
-          B: "Skeleton"
-          C: "Curling"
-          D: "Snowboarding"
+          A: "Stefano Baldini"
+          B: "Mebrahtom Keflezighi"
+          C: "Vanderlei de Lima"
+          D: "Paul Tergat"
     difficulty: EXPERT
-  - text: "En quelle année les épreuves de bosses du ski acrobatique ont-elles été admises comme discipline officielle ?"
+  - text: "Quel pays a accueilli les Jeux olympiques d'été de 1948 ?"
     answers:
-      A: "1988"
-      B: "1994"
-      C: "1998"
-      D: "1992"
+      A: "États-Unis"
+      B: "Suisse"
+      C: "Suède"
+      D: "Grande-Bretagne"
     correctAnswer: D
     translations:
       en:
-        text: "In what year were freestyle skiing moguls events admitted as an official discipline?"
+        text: "Which country hosted the 1948 Summer Olympics?"
         answers:
-          A: "1988"
-          B: "1994"
-          C: "1998"
-          D: "1992"
-    difficulty: EXPERT
-  - text: "Jusqu'à quels JO le tir à la corde a-t-il été une épreuve olympique ?"
+          A: "United States"
+          B: "Switzerland"
+          C: "Sweden"
+          D: "Great Britain"
+    difficulty: HARD
+  - text: "Quel pays a remporté le plus de médailles d'or aux Jeux olympiques d'été de 1956 ?"
     answers:
-      A: "1896"
-      B: "1908"
-      C: "1936"
-      D: "1920"
+      A: "États-Unis"
+      B: "Grande-Bretagne"
+      C: "Australie"
+      D: "Union soviétique"
     correctAnswer: D
     translations:
       en:
-        text: "Until which Olympics was tug of war an Olympic event?"
+        text: "Which country won the most gold medals at the 1956 Summer Olympics?"
         answers:
-          A: "1896"
-          B: "1908"
-          C: "1936"
-          D: "1920"
+          A: "United States"
+          B: "Great Britain"
+          C: "Australia"
+          D: "Soviet Union"
     difficulty: EXPERT
-  - text: "En quelle année le rugby à XV a-t-il été disputé pour la dernière fois aux JO ?"
+  - text: "Quel athlète a remporté quatre médailles d'or en natation aux Jeux olympiques d'été de 1988 ?"
     answers:
-      A: "1900"
-      B: "1924"
-      C: "1908"
-      D: "1936"
+      A: "Rowdy Gaines"
+      B: "Matt Biondi"
+      C: "Alexander Popov"
+      D: "Vladimir Salnikov"
     correctAnswer: B
     translations:
       en:
-        text: "In what year was rugby union last contested at the Olympics?"
+        text: "Which athlete won four gold medals in swimming at the 1988 Summer Olympics?"
         answers:
-          A: "1900"
-          B: "1924"
-          C: "1908"
-          D: "1936"
+          A: "Rowdy Gaines"
+          B: "Matt Biondi"
+          C: "Alexander Popov"
+          D: "Vladimir Salnikov"
     difficulty: EXPERT
-  - text: "Qui a allumé la flamme olympique de Montréal 1976 ?"
+  - text: "Quelle ville a accueilli les Jeux olympiques d'hiver de 2014 ?"
     answers:
-      A: "Un seul athlète champion du monde"
-      B: "Un enfant choisi par tirage au sort"
-      C: "Un couple de champions olympiques"
-      D: "Deux adolescents, Stéphane Préfontaine et Sandra Henderson"
+      A: "Séoul"
+      B: "Vancouver"
+      C: "PyeongChang"
+      D: "Sotchi"
     correctAnswer: D
     translations:
       en:
-        text: "Who lit the Olympic flame at Montreal 1976?"
+        text: "Which city hosted the 2014 Winter Olympics?"
         answers:
-          A: "A single world champion athlete"
-          B: "A child chosen by lottery"
-          C: "A couple of Olympic champions"
-          D: "Two teenagers, Stéphane Préfontaine and Sandra Henderson"
-    difficulty: EXPERT
-  - text: "Quelle est l'une des trois mascottes des JO d'hiver de Sotchi 2014 ?"
+          A: "Seoul"
+          B: "Vancouver"
+          C: "PyeongChang"
+          D: "Sochi"
+    difficulty: HARD
+  - text: "Combien de médailles d'or Jesse Owens a-t-il remportées aux JO de 1936 ?"
     answers:
-      A: "Le tigre"
-      B: "Le renard"
-      C: "L'ours polaire"
-      D: "Le pingouin"
+      A: "5"
+      B: "3"
+      C: "4"
+      D: "2"
     correctAnswer: C
     translations:
       en:
-        text: "Which is one of the three mascots of the 2014 Sochi Winter Olympics?"
+        text: "How many gold medals did Jesse Owens win at the 1936 Olympics?"
         answers:
-          A: "The tiger"
-          B: "The fox"
-          C: "The polar bear"
-          D: "The penguin"
-    difficulty: EXPERT
-  - text: "Quelle ville a accueilli les JO d'hiver de 1952 ?"
+          A: "5"
+          B: "3"
+          C: "4"
+          D: "2"
+    difficulty: MEDIUM
+  - text: "Quel pays a remporté le plus de médailles d'or aux JO d'été de 1936 ?"
     answers:
-      A: "Helsinki"
-      B: "Oslo"
-      C: "Copenhague"
-      D: "Stockholm"
+      A: "États-Unis"
+      B: "Allemagne"
+      C: "Hongrie"
+      D: "Italie"
     correctAnswer: B
     translations:
       en:
-        text: "Which city hosted the 1952 Winter Olympics?"
+        text: "Which country won the most gold medals at the 1936 Summer Olympics?"
         answers:
-          A: "Helsinki"
-          B: "Oslo"
-          C: "Copenhagen"
-          D: "Stockholm"
+          A: "United States"
+          B: "Germany"
+          C: "Hungary"
+          D: "Italy"
     difficulty: EXPERT

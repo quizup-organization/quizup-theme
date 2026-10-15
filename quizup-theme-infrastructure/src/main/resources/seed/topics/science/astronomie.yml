@@ -12,1095 +12,583 @@ questions:
     answers:
       A: "Jupiter"
       B: "Mars"
-      C: "Vénus"
-      D: "La Terre"
-    correctAnswer: D
-    difficulty: EASY
+      C: "La Terre"
+      D: "Vénus"
+    correctAnswer: C
     translations:
       en:
         text: "Which planet is nicknamed the blue planet?"
         answers:
           A: "Jupiter"
           B: "Mars"
-          C: "Venus"
-          D: "Earth"
-  - text: "Combien de planètes compte le système solaire ?"
-    answers:
-      A: "Huit"
-      B: "Sept"
-      C: "Six"
-      D: "Neuf"
-    correctAnswer: A
+          C: "Earth"
+          D: "Venus"
     difficulty: EASY
-    translations:
-      en:
-        text: "How many planets are in the solar system?"
-        answers:
-          A: "Eight"
-          B: "Seven"
-          C: "Six"
-          D: "Nine"
-  - text: "Quelle est la plus grande planète du système solaire ?"
+  - text: "Quelle exoplanète a été la première découverte autour d'une étoile de type solaire ?"
     answers:
-      A: "Saturne"
-      B: "Neptune"
-      C: "Jupiter"
-      D: "Uranus"
-    correctAnswer: C
-    difficulty: MEDIUM
+      A: "51 Pegasi b"
+      B: "PSR B1257+12 b"
+      C: "HD 209458 b"
+      D: "Gliese 581 g"
+    correctAnswer: A
     translations:
       en:
-        text: "What is the largest planet in the solar system?"
+        text: "Which exoplanet was the first discovered around a Sun-like star?"
         answers:
-          A: "Saturn"
-          B: "Neptune"
-          C: "Jupiter"
-          D: "Uranus"
+          A: "51 Pegasi b"
+          B: "PSR B1257+12 b"
+          C: "HD 209458 b"
+          D: "Gliese 581 g"
+    difficulty: HARD
+  - text: "Quel est le nom du rover qui a découvert la météorite 'Heat Shield Rock' sur Mars ?"
+    answers:
+      A: "Spirit"
+      B: "Opportunity"
+      C: "Curiosity"
+      D: "Perseverance"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the rover that discovered the meteorite 'Heat Shield Rock' on Mars?"
+        answers:
+          A: "Spirit"
+          B: "Opportunity"
+          C: "Curiosity"
+          D: "Perseverance"
+    difficulty: EXPERT
   - text: "Quel est le seul satellite naturel de la Terre ?"
     imageUrl: wikipedia/science/FullMoon2010.jpg
     answers:
       A: "Phobos"
-      B: "La Lune"
+      B: "Europe"
       C: "Titan"
-      D: "Europe"
-    correctAnswer: B
-    difficulty: EASY
+      D: "La Lune"
+    correctAnswer: D
     translations:
       en:
         text: "What is Earth's only natural satellite?"
         answers:
           A: "Phobos"
-          B: "The Moon"
+          B: "Europa"
           C: "Titan"
-          D: "Europa"
-  - text: "Quelle planète est la plus proche du Soleil ?"
+          D: "The Moon"
+    difficulty: EASY
+  - text: "Quelle est la désignation de la nébuleuse du Crabe dans le catalogue Messier ?"
     answers:
-      A: "Mercure"
-      B: "Vénus"
-      C: "Mars"
-      D: "La Terre"
-    correctAnswer: A
-    difficulty: MEDIUM
+      A: "M51"
+      B: "M31"
+      C: "M42"
+      D: "M1"
+    correctAnswer: D
     translations:
       en:
-        text: "Which planet is closest to the Sun?"
+        text: "What is the designation of the Crab Nebula in the Messier catalog?"
         answers:
-          A: "Mercury"
-          B: "Venus"
-          C: "Mars"
-          D: "Earth"
+          A: "M51"
+          B: "M31"
+          C: "M42"
+          D: "M1"
+    difficulty: HARD
   - text: "Quelle planète est surnommée la planète rouge ?"
     imageUrl: wikipedia/science/OSIRIS_Mars_true_color.jpg
     answers:
-      A: "Mars"
-      B: "Jupiter"
+      A: "Jupiter"
+      B: "Mars"
       C: "Vénus"
       D: "Mercure"
-    correctAnswer: A
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Which planet is nicknamed the red planet?"
         answers:
-          A: "Mars"
-          B: "Jupiter"
+          A: "Jupiter"
+          B: "Mars"
           C: "Venus"
           D: "Mercury"
-  - text: "Quel est le nom de notre étoile ?"
-    answers:
-      A: "Sirius"
-      B: "Alpha du Centaure"
-      C: "Proxima du Centaure"
-      D: "Le Soleil"
-    correctAnswer: D
     difficulty: EASY
+  - text: "Quel est le diamètre approximatif de la Terre ?"
+    answers:
+      A: "6 371 km"
+      B: "12 742 km"
+      C: "40 075 km"
+      D: "3 474 km"
+    correctAnswer: B
     translations:
       en:
-        text: "What is the name of our star?"
+        text: "What is the approximate diameter of Earth?"
         answers:
-          A: "Sirius"
-          B: "Alpha Centauri"
-          C: "Proxima Centauri"
-          D: "The Sun"
-  - text: "Quelle mission a permis à l'Homme de marcher sur la Lune pour la première fois ?"
+          A: "6,371 km"
+          B: "12,742 km"
+          C: "40,075 km"
+          D: "3,474 km"
+    difficulty: EASY
+  - text: "Quelle planète a été découverte par William Herschel en 1781 ?"
     answers:
-      A: "Apollo 8"
-      B: "Gemini 4"
-      C: "Apollo 13"
-      D: "Apollo 11"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which mission first allowed humans to walk on the Moon?"
-        answers:
-          A: "Apollo 8"
-          B: "Gemini 4"
-          C: "Apollo 13"
-          D: "Apollo 11"
-  - text: "En quelle année l'Homme a-t-il marché sur la Lune pour la première fois ?"
-    answers:
-      A: "1969"
-      B: "1965"
-      C: "1959"
-      D: "1972"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "In what year did humans first walk on the Moon?"
-        answers:
-          A: "1969"
-          B: "1965"
-          C: "1959"
-          D: "1972"
-  - text: "Combien de temps la Terre met-elle environ pour faire un tour complet du Soleil ?"
-    answers:
-      A: "24 heures"
-      B: "30 jours"
-      C: "365 jours"
-      D: "10 ans"
+      A: "Saturne"
+      B: "Neptune"
+      C: "Uranus"
+      D: "Jupiter"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
-        text: "About how long does Earth take to complete one orbit around the Sun?"
+        text: "Which planet was discovered by William Herschel in 1781?"
         answers:
-          A: "24 hours"
-          B: "30 days"
-          C: "365 days"
-          D: "10 years"
-  - text: "Quelle est cette planète aux anneaux les plus spectaculaires ?"
+          A: "Saturn"
+          B: "Neptune"
+          C: "Uranus"
+          D: "Jupiter"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la plus grande lune de Pluton ?"
+    answers:
+      A: "Hydra"
+      B: "Nix"
+      C: "Charon"
+      D: "Kerberos"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Pluto's largest moon?"
+        answers:
+          A: "Hydra"
+          B: "Nix"
+          C: "Charon"
+          D: "Kerberos"
+    difficulty: MEDIUM
+  - text: "En quelle année la sonde Voyager 1 a-t-elle été lancée ?"
+    answers:
+      A: "1989"
+      B: "1979"
+      C: "1962"
+      D: "1977"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Voyager 1 probe launched?"
+        answers:
+          A: "1989"
+          B: "1979"
+          C: "1962"
+          D: "1977"
+    difficulty: HARD
+  - text: "Quelle planète a les anneaux les plus visibles ?"
     imageUrl: wikipedia/general/Saturn_during_Equinox.jpg
     answers:
       A: "Jupiter"
-      B: "Uranus"
-      C: "Saturne"
+      B: "Saturne"
+      C: "Uranus"
       D: "Neptune"
-    correctAnswer: C
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
-        text: "Which planet has the most spectacular rings?"
+        text: "Which planet has the most visible rings?"
         answers:
           A: "Jupiter"
-          B: "Uranus"
-          C: "Saturn"
+          B: "Saturn"
+          C: "Uranus"
           D: "Neptune"
-  - text: "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?"
+    difficulty: EASY
+  - text: "Quelle est la magnitude apparente approximative de l'étoile Sirius ?"
     answers:
-      A: "8 heures"
-      B: "8 secondes"
-      C: "8 minutes"
-      D: "1 jour"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "About how long does sunlight take to reach Earth?"
-        answers:
-          A: "8 hours"
-          B: "8 seconds"
-          C: "8 minutes"
-          D: "1 day"
-  - text: "Quelle galaxie abrite le système solaire ?"
-    answers:
-      A: "Andromède"
-      B: "La galaxie du Sombrero"
-      C: "Le Grand Nuage de Magellan"
-      D: "La Voie lactée"
+      A: "-0,72"
+      B: "0,03"
+      C: "1,25"
+      D: "-1,46"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which galaxy contains the solar system?"
+        text: "What is the approximate apparent magnitude of the star Sirius?"
         answers:
-          A: "Andromeda"
-          B: "The Sombrero Galaxy"
-          C: "The Large Magellanic Cloud"
-          D: "The Milky Way"
-  - text: "Qui a été la première femme à voyager dans l'espace ?"
+          A: "-0.72"
+          B: "0.03"
+          C: "1.25"
+          D: "-1.46"
+    difficulty: EXPERT
+  - text: "Comment s'appelle la frontière où le vent solaire rencontre le milieu interstellaire ?"
     answers:
-      A: "Valentina Terechkova"
-      B: "Christa McAuliffe"
-      C: "Svetlana Savitskaya"
-      D: "Sally Ride"
+      A: "Héliopause"
+      B: "Héliosphère"
+      C: "Choc terminal"
+      D: "Zone de transition"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
-        text: "Who was the first woman to travel in space?"
+        text: "What is the boundary called where the solar wind meets the interstellar medium?"
         answers:
-          A: "Valentina Tereshkova"
-          B: "Christa McAuliffe"
-          C: "Svetlana Savitskaya"
-          D: "Sally Ride"
-  - text: "Qui a été le premier être humain à voyager dans l'espace ?"
+          A: "Heliopause"
+          B: "Heliosphere"
+          C: "Termination shock"
+          D: "Transition zone"
+    difficulty: HARD
+  - text: "Quelle est la période orbitale de la Lune autour de la Terre ?"
     answers:
-      A: "Neil Armstrong"
-      B: "John Glenn"
-      C: "Alan Shepard"
-      D: "Youri Gagarine"
+      A: "27,3 jours"
+      B: "29,5 jours"
+      C: "28,0 jours"
+      D: "30,1 jours"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the orbital period of the Moon around Earth?"
+        answers:
+          A: "27.3 days"
+          B: "29.5 days"
+          C: "28.0 days"
+          D: "30.1 days"
+    difficulty: MEDIUM
+  - text: "Quel gaz est le plus abondant dans l'atmosphère de Jupiter ?"
+    answers:
+      A: "Hydrogène"
+      B: "Hélium"
+      C: "Méthane"
+      D: "Ammoniac"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which gas is most abundant in Jupiter's atmosphere?"
+        answers:
+          A: "Hydrogen"
+          B: "Helium"
+          C: "Methane"
+          D: "Ammonia"
+    difficulty: MEDIUM
+  - text: "Qui a découvert les lois du mouvement planétaire ?"
+    answers:
+      A: "Copernic"
+      B: "Isaac Newton"
+      C: "Galilée"
+      D: "Johannes Kepler"
     correctAnswer: D
+    translations:
+      en:
+        text: "Who discovered the laws of planetary motion?"
+        answers:
+          A: "Copernicus"
+          B: "Isaac Newton"
+          C: "Galileo"
+          D: "Johannes Kepler"
+    difficulty: EASY
+  - text: "Quelle est la température de surface moyenne de Mars ?"
+    answers:
+      A: "0 °C"
+      B: "-140 °C"
+      C: "-63 °C"
+      D: "15 °C"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the average surface temperature of Mars?"
+        answers:
+          A: "0 °C"
+          B: "-140 °C"
+          C: "-63 °C"
+          D: "15 °C"
     difficulty: HARD
-    translations:
-      en:
-        text: "Who was the first human to travel in space?"
-        answers:
-          A: "Neil Armstrong"
-          B: "John Glenn"
-          C: "Alan Shepard"
-          D: "Yuri Gagarin"
-  - text: "Quelle planète est la plus chaude du système solaire ?"
+  - text: "Quel télescope a pris la première image d'un trou noir en 2019 ?"
     answers:
-      A: "Mercure"
-      B: "Vénus"
-      C: "Mars"
-      D: "Jupiter"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which planet is the hottest in the solar system?"
-        answers:
-          A: "Mercury"
-          B: "Venus"
-          C: "Mars"
-          D: "Jupiter"
-  - text: "Qu'est-ce qu'une comète ?"
-    answers:
-      A: "Une étoile filante"
-      B: "Un corps glacé qui orbite autour du Soleil"
-      C: "Un astéroïde géant"
-      D: "Un satellite de Jupiter"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is a comet?"
-        answers:
-          A: "A shooting star"
-          B: "An icy body that orbits the Sun"
-          C: "A giant asteroid"
-          D: "A moon of Jupiter"
-  - text: "Quel télescope spatial a été lancé en 1990 ?"
-    answers:
-      A: "James Webb"
+      A: "Chandra"
       B: "Hubble"
-      C: "Spitzer"
-      D: "Chandra"
-    correctAnswer: B
-    difficulty: EXPERT
+      C: "James Webb"
+      D: "Event Horizon Telescope"
+    correctAnswer: D
     translations:
       en:
-        text: "Which space telescope was launched in 1990?"
+        text: "Which telescope took the first image of a black hole in 2019?"
         answers:
-          A: "James Webb"
+          A: "Chandra"
           B: "Hubble"
-          C: "Spitzer"
-          D: "Chandra"
-  - text: "Quelle planète est la plus éloignée du Soleil ?"
+          C: "James Webb"
+          D: "Event Horizon Telescope"
+    difficulty: MEDIUM
+  - text: "Quelle est la distance approximative entre la Terre et la Lune ?"
     answers:
-      A: "Uranus"
-      B: "Neptune"
-      C: "Jupiter"
-      D: "Saturne"
+      A: "150 000 000 km"
+      B: "384 400 km"
+      C: "1 000 000 km"
+      D: "225 000 km"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
-        text: "Which planet is farthest from the Sun?"
+        text: "What is the approximate distance between Earth and the Moon?"
         answers:
-          A: "Uranus"
-          B: "Neptune"
-          C: "Jupiter"
-          D: "Saturn"
+          A: "150,000,000 km"
+          B: "384,400 km"
+          C: "1,000,000 km"
+          D: "225,000 km"
+    difficulty: EASY
   - text: "Quelle est cette planète à la Grande Tache rouge ?"
     imageUrl: wikipedia/science/Jupiter_and_its_shrunken_Great_Red_Spot.jpg
     answers:
-      A: "Mars"
+      A: "Jupiter"
       B: "Saturne"
-      C: "Jupiter"
+      C: "Mars"
       D: "Neptune"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Which planet is this with the Great Red Spot?"
         answers:
-          A: "Mars"
+          A: "Jupiter"
           B: "Saturn"
-          C: "Jupiter"
+          C: "Mars"
           D: "Neptune"
-  - text: "Quelle est la plus petite planète du système solaire ?"
+    difficulty: EASY
+  - text: "Quel est le nom de la sonde qui a survolé Pluton en 2015 ?"
     answers:
-      A: "Vénus"
-      B: "Mercure"
-      C: "Mars"
-      D: "La Lune"
-    correctAnswer: B
+      A: "Voyager 2"
+      B: "Cassini"
+      C: "Juno"
+      D: "New Horizons"
+    correctAnswer: D
     translations:
       en:
-        text: "What is the smallest planet in the solar system?"
+        text: "What is the name of the probe that flew by Pluto in 2015?"
         answers:
-          A: "Venus"
-          B: "Mercury"
-          C: "Mars"
-          D: "The Moon"
-    difficulty: EASY
-  - text: "Quel astre se trouve au centre de notre système solaire ?"
+          A: "Voyager 2"
+          B: "Cassini"
+          C: "Juno"
+          D: "New Horizons"
+    difficulty: MEDIUM
+  - text: "Quelle étoile est la plus proche du Soleil ?"
     answers:
-      A: "La Terre"
-      B: "Jupiter"
-      C: "Le Soleil"
-      D: "La Lune"
+      A: "Barnard"
+      B: "Alpha Centauri A"
+      C: "Sirius"
+      D: "Proxima Centauri"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which star is closest to the Sun?"
+        answers:
+          A: "Barnard"
+          B: "Alpha Centauri A"
+          C: "Sirius"
+          D: "Proxima Centauri"
+    difficulty: MEDIUM
+  - text: "Quel type de galaxie est la Voie lactée ?"
+    answers:
+      A: "Irregulière"
+      B: "Elliptique"
+      C: "Spirale barrée"
+      D: "Lenticulaire"
     correctAnswer: C
     translations:
       en:
-        text: "What celestial body is at the center of our solar system?"
+        text: "What type of galaxy is the Milky Way?"
         answers:
-          A: "The Earth"
-          B: "Jupiter"
-          C: "The Sun"
-          D: "The Moon"
-    difficulty: EASY
-  - text: "Comment appelle-t-on un groupe d'étoiles qui dessine une figure dans le ciel ?"
+          A: "Irregular"
+          B: "Elliptical"
+          C: "Barred spiral"
+          D: "Lenticular"
+    difficulty: MEDIUM
+  - text: "Quelle est la vitesse de libération à la surface de la Terre ?"
     answers:
-      A: "Une galaxie"
-      B: "Une nébuleuse"
-      C: "Un amas ouvert"
-      D: "Une constellation"
+      A: "5,0 km/s"
+      B: "7,9 km/s"
+      C: "15,0 km/s"
+      D: "11,2 km/s"
     correctAnswer: D
     translations:
       en:
-        text: "What do you call a group of stars that forms a pattern in the sky?"
+        text: "What is the escape velocity at Earth's surface?"
         answers:
-          A: "A galaxy"
-          B: "A nebula"
-          C: "An open cluster"
-          D: "A constellation"
-    difficulty: EASY
-  - text: "Quelle force maintient les planètes en orbite autour du Soleil ?"
-    answers:
-      A: "La gravité"
-      B: "Le magnétisme"
-      C: "La friction"
-      D: "La pression"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What force keeps the planets in orbit around the Sun?"
-        answers:
-          A: "Gravity"
-          B: "Magnetism"
-          C: "Friction"
-          D: "Pressure"
-    difficulty: EASY
-  - text: "Que se passe-t-il lorsqu'un météore traverse l'atmosphère terrestre ?"
-    answers:
-      A: "Il se transforme en comète"
-      B: "Il brûle et laisse une traînée lumineuse"
-      C: "Il gèle instantanément"
-      D: "Il repart dans l'espace sans changer"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What happens when a meteor passes through Earth's atmosphere?"
-        answers:
-          A: "It turns into a comet"
-          B: "It burns up and leaves a bright trail"
-          C: "It instantly freezes"
-          D: "It leaves space again unchanged"
-    difficulty: EASY
-  - text: "Quelle planète est souvent appelée l'étoile du berger ?"
-    answers:
-      A: "Mars"
-      B: "Jupiter"
-      C: "Saturne"
-      D: "Vénus"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which planet is often called the morning star?"
-        answers:
-          A: "Mars"
-          B: "Jupiter"
-          C: "Saturn"
-          D: "Venus"
-    difficulty: EASY
-  - text: "Combien de satellites naturels Mars possède-t-elle ?"
-    answers:
-      A: "Deux"
-      B: "Aucun"
-      C: "Quatre"
-      D: "Un"
-    correctAnswer: A
-    translations:
-      en:
-        text: "How many natural satellites does Mars have?"
-        answers:
-          A: "Two"
-          B: "None"
-          C: "Four"
-          D: "One"
-    difficulty: EASY
+          A: "5.0 km/s"
+          B: "7.9 km/s"
+          C: "15.0 km/s"
+          D: "11.2 km/s"
+    difficulty: EXPERT
   - text: "Quel est le nom du plus grand volcan du système solaire ?"
     answers:
-      A: "Le Vésuve"
-      B: "L'Everest"
-      C: "Olympus Mons"
-      D: "Le Mauna Kea"
-    correctAnswer: C
+      A: "Olympus Mons"
+      B: "Mauna Kea"
+      C: "Mont Everest"
+      D: "Tharsis Tholus"
+    correctAnswer: A
     translations:
       en:
         text: "What is the name of the largest volcano in the solar system?"
         answers:
-          A: "Vesuvius"
-          B: "Everest"
-          C: "Olympus Mons"
-          D: "Mauna Kea"
-    difficulty: EASY
-  - text: "Sur quelle planète se dresse le volcan Olympus Mons ?"
-    answers:
-      A: "Mars"
-      B: "Vénus"
-      C: "Mercure"
-      D: "La Lune"
-    correctAnswer: A
-    translations:
-      en:
-        text: "On which planet does the volcano Olympus Mons stand?"
-        answers:
-          A: "Mars"
-          B: "Venus"
-          C: "Mercury"
-          D: "The Moon"
-    difficulty: EASY
-  - text: "Quelle est la durée approximative d'une journée sur Terre ?"
-    answers:
-      A: "Six heures"
-      B: "Douze heures"
-      C: "Vingt-quatre heures"
-      D: "Quarante-huit heures"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the approximate length of a day on Earth?"
-        answers:
-          A: "Six hours"
-          B: "Twelve hours"
-          C: "Twenty-four hours"
-          D: "Forty-eight hours"
-    difficulty: EASY
-  - text: "Quelle est la troisième planète à partir du Soleil ?"
-    answers:
-      A: "Mars"
-      B: "Vénus"
-      C: "Mercure"
-      D: "La Terre"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the third planet from the Sun?"
-        answers:
-          A: "Mars"
-          B: "Venus"
-          C: "Mercury"
-          D: "The Earth"
-    difficulty: EASY
-  - text: "De quoi une comète est-elle principalement composée ?"
-    answers:
-      A: "De glace et de poussière"
-      B: "De roche et de métal"
-      C: "De gaz enflammés"
-      D: "D'eau liquide"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is a comet mainly made of?"
-        answers:
-          A: "Ice and dust"
-          B: "Rock and metal"
-          C: "Burning gases"
-          D: "Liquid water"
-    difficulty: EASY
-  - text: "Quelle planète géante est la plus proche du Soleil ?"
-    answers:
-      A: "Saturne"
-      B: "Uranus"
-      C: "Neptune"
-      D: "Jupiter"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which gas giant is closest to the Sun?"
-        answers:
-          A: "Saturn"
-          B: "Uranus"
-          C: "Neptune"
-          D: "Jupiter"
-    difficulty: EASY
-  - text: "Quel phénomène se produit lorsque la Lune passe entre la Terre et le Soleil ?"
-    answers:
-      A: "Une éclipse lunaire"
-      B: "Une éclipse solaire"
-      C: "Une pluie de météores"
-      D: "Une marée basse"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What phenomenon occurs when the Moon passes between the Earth and the Sun?"
-        answers:
-          A: "A lunar eclipse"
-          B: "A solar eclipse"
-          C: "A meteor shower"
-          D: "A low tide"
-    difficulty: EASY
-  - text: "Quelle est la forme de notre galaxie, la Voie lactée ?"
-    answers:
-      A: "Elliptique"
-      B: "Irrégulière"
-      C: "Spirale"
-      D: "Sphérique"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the shape of our galaxy, the Milky Way?"
-        answers:
-          A: "Elliptical"
-          B: "Irregular"
-          C: "Spiral"
-          D: "Spherical"
-    difficulty: EASY
-  - text: "Quel animal a été le premier être vivant à orbiter autour de la Terre ?"
-    answers:
-      A: "La chienne Laïka"
-      B: "Le chimpanzé Ham"
-      C: "Le chat Félicette"
-      D: "La souris Hector"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which animal was the first living being to orbit the Earth?"
-        answers:
-          A: "The dog Laika"
-          B: "The chimpanzee Ham"
-          C: "The cat Félicette"
-          D: "The mouse Hector"
-    difficulty: EASY
-  - text: "Combien de temps la Lune met-elle environ pour faire le tour de la Terre ?"
-    answers:
-      A: "Sept jours"
-      B: "Quinze jours"
-      C: "Vingt-sept jours"
-      D: "Soixante jours"
-    correctAnswer: C
-    translations:
-      en:
-        text: "About how long does the Moon take to go around the Earth?"
-        answers:
-          A: "Seven days"
-          B: "Fifteen days"
-          C: "Twenty-seven days"
-          D: "Sixty days"
-    difficulty: EASY
-  - text: "Quelle planète est la deuxième à partir du Soleil ?"
-    answers:
-      A: "Mercure"
-      B: "Vénus"
-      C: "La Terre"
-      D: "Mars"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which planet is the second from the Sun?"
-        answers:
-          A: "Mercury"
-          B: "Venus"
-          C: "Earth"
-          D: "Mars"
-    difficulty: EASY
-  - text: "Quel instrument permet d'observer les astres de près ?"
-    answers:
-      A: "Le microscope"
-      B: "Le périscope"
-      C: "L'oscilloscope"
-      D: "Le télescope"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which instrument allows you to observe celestial bodies up close?"
-        answers:
-          A: "The microscope"
-          B: "The periscope"
-          C: "The oscilloscope"
-          D: "The telescope"
-    difficulty: EASY
-  - text: "Quel astre fournit à la Terre la lumière et la chaleur ?"
-    answers:
-      A: "La Lune"
-      B: "Le Soleil"
-      C: "Jupiter"
-      D: "Sirius"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which celestial body provides the Earth with light and heat?"
-        answers:
-          A: "The Moon"
-          B: "The Sun"
-          C: "Jupiter"
-          D: "Sirius"
-    difficulty: EASY
-  - text: "Quelle est la distance approximative entre la Terre et la Lune ?"
-    answers:
-      A: "38 000 kilomètres"
-      B: "384 000 kilomètres"
-      C: "3,8 millions de kilomètres"
-      D: "1,5 million de kilomètres"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the approximate distance between the Earth and the Moon?"
-        answers:
-          A: "38,000 kilometers"
-          B: "384,000 kilometers"
-          C: "3.8 million kilometers"
-          D: "1.5 million kilometers"
-    difficulty: MEDIUM
-  - text: "Quelle planète a été découverte en 1846 grâce à des calculs mathématiques ?"
-    answers:
-      A: "Neptune"
-      B: "Uranus"
-      C: "Pluton"
-      D: "Mercure"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which planet was discovered in 1846 thanks to mathematical calculations?"
-        answers:
-          A: "Neptune"
-          B: "Uranus"
-          C: "Pluto"
-          D: "Mercury"
-    difficulty: MEDIUM
-  - text: "Quelle station spatiale est occupée sans interruption depuis novembre 2000 ?"
-    answers:
-      A: "Mir"
-      B: "Skylab"
-      C: "La Station spatiale internationale"
-      D: "Tiangong"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which space station has been continuously occupied since November 2000?"
-        answers:
-          A: "Mir"
-          B: "Skylab"
-          C: "The International Space Station"
-          D: "Tiangong"
-    difficulty: MEDIUM
-  - text: "Combien de temps la lumière de la Lune met-elle environ pour atteindre la Terre ?"
-    answers:
-      A: "1,3 seconde"
-      B: "13 secondes"
-      C: "1,3 minute"
-      D: "Instantanément"
-    correctAnswer: A
-    translations:
-      en:
-        text: "About how long does light from the Moon take to reach the Earth?"
-        answers:
-          A: "1.3 seconds"
-          B: "13 seconds"
-          C: "1.3 minutes"
-          D: "Instantly"
-    difficulty: MEDIUM
-  - text: "Quelle est la température approximative à la surface du Soleil ?"
-    answers:
-      A: "550 degrés Celsius"
-      B: "1 500 degrés Celsius"
-      C: "5 500 degrés Celsius"
-      D: "15 millions de degrés Celsius"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the approximate temperature at the surface of the Sun?"
-        answers:
-          A: "550 degrees Celsius"
-          B: "1,500 degrees Celsius"
-          C: "5,500 degrees Celsius"
-          D: "15 million degrees Celsius"
-    difficulty: MEDIUM
-  - text: "De quoi les anneaux de Saturne sont-ils principalement composés ?"
-    answers:
-      A: "De gaz"
-      B: "De glace et de roche"
-      C: "De métal"
-      D: "De poussière d'étoiles"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What are Saturn's rings mainly composed of?"
-        answers:
-          A: "Gas"
-          B: "Ice and rock"
-          C: "Metal"
-          D: "Stardust"
-    difficulty: MEDIUM
-  - text: "Quel est le plus grand satellite naturel de Jupiter ?"
-    answers:
-      A: "Io"
-      B: "Europe"
-      C: "Callisto"
-      D: "Ganymède"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the largest natural satellite of Jupiter?"
-        answers:
-          A: "Io"
-          B: "Europa"
-          C: "Callisto"
-          D: "Ganymede"
-    difficulty: MEDIUM
-  - text: "Quel satellite naturel de Saturne est célèbre pour ses geysers d'eau ?"
-    answers:
-      A: "Titan"
-      B: "Mimas"
-      C: "Encelade"
-      D: "Rhéa"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which natural satellite of Saturn is famous for its water geysers?"
-        answers:
-          A: "Titan"
-          B: "Mimas"
-          C: "Enceladus"
-          D: "Rhea"
-    difficulty: MEDIUM
-  - text: "Quelle lune de Jupiter abrite un vaste océan sous sa croûte de glace ?"
-    answers:
-      A: "Europe"
-      B: "Io"
-      C: "Callisto"
-      D: "Amalthée"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which moon of Jupiter harbors a vast ocean beneath its icy crust?"
-        answers:
-          A: "Europa"
-          B: "Io"
-          C: "Callisto"
-          D: "Amalthea"
-    difficulty: MEDIUM
-  - text: "Quelle est la plus grande lune de Saturne ?"
-    answers:
-      A: "Encelade"
-      B: "Titan"
-      C: "Rhéa"
-      D: "Mimas"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the largest moon of Saturn?"
-        answers:
-          A: "Enceladus"
-          B: "Titan"
-          C: "Rhea"
-          D: "Mimas"
-    difficulty: MEDIUM
-  - text: "Quelle planète tourne sur elle-même presque couchée sur le côté ?"
-    answers:
-      A: "Neptune"
-      B: "Vénus"
-      C: "Jupiter"
-      D: "Uranus"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which planet rotates almost lying on its side?"
-        answers:
-          A: "Neptune"
-          B: "Venus"
-          C: "Jupiter"
-          D: "Uranus"
-    difficulty: MEDIUM
-  - text: "Qu'est-ce qui explique les phases de la Lune ?"
-    answers:
-      A: "L'ombre de la Terre sur la Lune"
-      B: "Les nuages dans l'atmosphère"
-      C: "La rotation de la Terre"
-      D: "La position de la Lune par rapport au Soleil et à la Terre"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What explains the phases of the Moon?"
-        answers:
-          A: "Earth's shadow on the Moon"
-          B: "Clouds in the atmosphere"
-          C: "Earth's rotation"
-          D: "The Moon's position relative to the Sun and Earth"
-    difficulty: MEDIUM
-  - text: "Qu'est-ce qu'une nébuleuse ?"
-    answers:
-      A: "Un nuage de gaz et de poussière"
-      B: "Une étoile très brillante"
-      C: "Un trou noir"
-      D: "Un amas de planètes"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is a nebula?"
-        answers:
-          A: "A cloud of gas and dust"
-          B: "A very bright star"
-          C: "A black hole"
-          D: "A cluster of planets"
-    difficulty: MEDIUM
-  - text: "Qu'appelle-t-on une supernova ?"
-    answers:
-      A: "La naissance d'une étoile"
-      B: "L'explosion d'une étoile massive en fin de vie"
-      C: "Une collision entre deux galaxies"
-      D: "Un alignement de planètes"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is a supernova?"
-        answers:
-          A: "The birth of a star"
-          B: "The explosion of a massive star at the end of its life"
-          C: "A collision between two galaxies"
-          D: "An alignment of planets"
-    difficulty: MEDIUM
-  - text: "Combien d'étoiles compte approximativement la Voie lactée ?"
-    answers:
-      A: "Quelques millions"
-      B: "500 000"
-      C: "1 milliard"
-      D: "Environ 200 milliards"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Approximately how many stars does the Milky Way contain?"
-        answers:
-          A: "A few million"
-          B: "500,000"
-          C: "1 billion"
-          D: "About 200 billion"
-    difficulty: MEDIUM
-  - text: "Quel est l'âge approximatif de l'Univers ?"
-    answers:
-      A: "4,5 milliards d'années"
-      B: "1 milliard d'années"
-      C: "13,8 milliards d'années"
-      D: "100 milliards d'années"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the approximate age of the Universe?"
-        answers:
-          A: "4.5 billion years"
-          B: "1 billion years"
-          C: "13.8 billion years"
-          D: "100 billion years"
-    difficulty: MEDIUM
-  - text: "Quel a été le premier satellite artificiel placé en orbite autour de la Terre ?"
-    answers:
-      A: "Spoutnik 1"
-      B: "Explorer 1"
-      C: "Vostok 1"
-      D: "Telstar"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What was the first artificial satellite placed in orbit around the Earth?"
-        answers:
-          A: "Sputnik 1"
-          B: "Explorer 1"
-          C: "Vostok 1"
-          D: "Telstar"
-    difficulty: MEDIUM
-  - text: "En quelle année Spoutnik 1 a-t-il été lancé ?"
-    answers:
-      A: "1945"
-      B: "1961"
-      C: "1969"
-      D: "1957"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year was Sputnik 1 launched?"
-        answers:
-          A: "1945"
-          B: "1961"
-          C: "1969"
-          D: "1957"
-    difficulty: MEDIUM
-  - text: "Où se situe principalement la ceinture d'astéroïdes ?"
-    answers:
-      A: "Entre la Terre et Mars"
-      B: "Entre Mars et Jupiter"
-      C: "Entre Jupiter et Saturne"
-      D: "Au-delà de Neptune"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Where is the asteroid belt mainly located?"
-        answers:
-          A: "Between Earth and Mars"
-          B: "Between Mars and Jupiter"
-          C: "Between Jupiter and Saturn"
-          D: "Beyond Neptune"
-    difficulty: MEDIUM
-  - text: "Quelle planète naine était considérée comme la neuvième planète jusqu'en 2006 ?"
-    answers:
-      A: "Cérès"
-      B: "Éris"
-      C: "Pluton"
-      D: "Makémaké"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which dwarf planet was considered the ninth planet until 2006?"
-        answers:
-          A: "Ceres"
-          B: "Eris"
-          C: "Pluto"
-          D: "Makemake"
-    difficulty: MEDIUM
-  - text: "Quelle est la vitesse approximative de la lumière dans le vide ?"
-    answers:
-      A: "300 000 kilomètres par heure"
-      B: "300 000 kilomètres par seconde"
-      C: "3 millions de kilomètres par seconde"
-      D: "30 000 kilomètres par seconde"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the approximate speed of light in a vacuum?"
-        answers:
-          A: "300,000 kilometers per hour"
-          B: "300,000 kilometers per second"
-          C: "3 million kilometers per second"
-          D: "30,000 kilometers per second"
+          A: "Olympus Mons"
+          B: "Mauna Kea"
+          C: "Mount Everest"
+          D: "Tharsis Tholus"
     difficulty: HARD
-  - text: "Combien de temps Vénus met-elle pour effectuer une rotation complète sur elle-même ?"
+  - text: "Quelle est la masse approximative du trou noir supermassif au centre de la Voie lactée, Sagittarius A* ?"
     answers:
-      A: "24 heures"
-      B: "88 jours"
-      C: "243 jours terrestres"
-      D: "1 an terrestre"
+      A: "4 mille masses solaires"
+      B: "4 milliards de masses solaires"
+      C: "4 millions de masses solaires"
+      D: "400 millions de masses solaires"
     correctAnswer: C
     translations:
       en:
-        text: "How long does Venus take to complete one rotation on its axis?"
+        text: "What is the approximate mass of the supermassive black hole at the center of the Milky Way, Sagittarius A*?"
         answers:
-          A: "24 hours"
-          B: "88 days"
-          C: "243 Earth days"
-          D: "1 Earth year"
-    difficulty: HARD
-  - text: "Qui a découvert les quatre plus grandes lunes de Jupiter en 1610 ?"
+          A: "4 thousand solar masses"
+          B: "4 billion solar masses"
+          C: "4 million solar masses"
+          D: "400 million solar masses"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand cratère d'impact sur la Lune ?"
     answers:
-      A: "Galilée"
-      B: "Isaac Newton"
-      C: "Johannes Kepler"
-      D: "Christian Huygens"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who discovered the four largest moons of Jupiter in 1610?"
-        answers:
-          A: "Galileo"
-          B: "Isaac Newton"
-          C: "Johannes Kepler"
-          D: "Christiaan Huygens"
-    difficulty: HARD
-  - text: "Tous les combien d'années environ la comète de Halley repasse-t-elle près de la Terre ?"
-    answers:
-      A: "12 ans"
-      B: "24 ans"
-      C: "50 ans"
-      D: "76 ans"
+      A: "Cratère Tycho"
+      B: "Cratère Copernic"
+      C: "Mare Imbrium"
+      D: "Bassin Pôle Sud-Aitken"
     correctAnswer: D
     translations:
       en:
-        text: "About how often does Halley's Comet pass near the Earth?"
+        text: "What is the name of the largest impact crater on the Moon?"
         answers:
-          A: "12 years"
-          B: "24 years"
-          C: "50 years"
-          D: "76 years"
-    difficulty: HARD
-  - text: "En quelle année la comète de Halley est-elle passée pour la dernière fois près de la Terre ?"
+          A: "Tycho Crater"
+          B: "Copernicus Crater"
+          C: "Mare Imbrium"
+          D: "South Pole–Aitken Basin"
+    difficulty: EXPERT
+  - text: "Quelle est la période de rotation de Vénus sur elle-même ?"
     answers:
-      A: "1910"
-      B: "1986"
-      C: "1997"
-      D: "2004"
+      A: "1 jour vénusien"
+      B: "24,3 heures"
+      C: "58,6 jours terrestres"
+      D: "243 jours terrestres"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is Venus's rotation period on its axis?"
+        answers:
+          A: "1 Venusian day"
+          B: "24.3 hours"
+          C: "58.6 Earth days"
+          D: "243 Earth days"
+    difficulty: EXPERT
+  - text: "Combien de planètes naines sont officiellement reconnues dans le système solaire ?"
+    answers:
+      A: "3"
+      B: "8"
+      C: "5"
+      D: "12"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many dwarf planets are officially recognized in the solar system?"
+        answers:
+          A: "3"
+          B: "8"
+          C: "5"
+          D: "12"
+    difficulty: EXPERT
+  - text: "Quelle est la magnitude apparente approximative de l'étoile Polaris ?"
+    answers:
+      A: "0,0"
+      B: "1,0"
+      C: "3,0"
+      D: "2,0"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the approximate apparent magnitude of the star Polaris?"
+        answers:
+          A: "0.0"
+          B: "1.0"
+          C: "3.0"
+          D: "2.0"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la nébuleuse d'Orion dans le catalogue Messier ?"
+    answers:
+      A: "M31"
+      B: "M42"
+      C: "M45"
+      D: "M57"
     correctAnswer: B
     translations:
       en:
-        text: "In what year did Halley's Comet last pass near the Earth?"
+        text: "What is the name of the Orion Nebula in the Messier catalog?"
         answers:
-          A: "1910"
-          B: "1986"
-          C: "1997"
-          D: "2004"
-    difficulty: HARD
-  - text: "Quel est le nom du trou noir supermassif situé au centre de la Voie lactée ?"
+          A: "M31"
+          B: "M42"
+          C: "M45"
+          D: "M57"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du rover martien qui a découvert la météorite 'Block Island' ?"
     answers:
-      A: "Sagittarius A*"
-      B: "Cygnus X-1"
-      C: "M87*"
-      D: "Gaia BH1"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the name of the supermassive black hole at the center of the Milky Way?"
-        answers:
-          A: "Sagittarius A*"
-          B: "Cygnus X-1"
-          C: "M87*"
-          D: "Gaia BH1"
-    difficulty: HARD
-  - text: "Que peut devenir le cœur d'une étoile très massive après une supernova ?"
-    answers:
-      A: "Une planète"
-      B: "Une comète"
-      C: "Une naine brune"
-      D: "Une étoile à neutrons ou un trou noir"
+      A: "Perseverance"
+      B: "Curiosity"
+      C: "Spirit"
+      D: "Opportunity"
     correctAnswer: D
     translations:
       en:
-        text: "What can the core of a very massive star become after a supernova?"
+        text: "What is the name of the Mars rover that discovered the meteorite 'Block Island'?"
         answers:
-          A: "A planet"
-          B: "A comet"
-          C: "A brown dwarf"
-          D: "A neutron star or a black hole"
-    difficulty: HARD
-  - text: "Qu'est-ce qu'une naine blanche ?"
+          A: "Perseverance"
+          B: "Curiosity"
+          C: "Spirit"
+          D: "Opportunity"
+    difficulty: EXPERT
+  - text: "Quelle est la distance approximative entre la Terre et le Soleil ?"
     answers:
-      A: "Une petite étoile froide"
-      B: "Un trou noir de faible masse"
-      C: "Le cœur dense et chaud d'une étoile de type solaire en fin de vie"
-      D: "Une planète lointaine"
+      A: "150 millions km"
+      B: "1,5 million km"
+      C: "150 000 km"
+      D: "1,5 milliard km"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the approximate distance between Earth and the Sun?"
+        answers:
+          A: "150 million km"
+          B: "1.5 million km"
+          C: "150,000 km"
+          D: "1.5 billion km"
+    difficulty: EASY
+  - text: "Quel est le nom de la mission spatiale qui a découvert les anneaux de Jupiter ?"
+    answers:
+      A: "Cassini"
+      B: "Galileo"
+      C: "Voyager 1"
+      D: "New Horizons"
     correctAnswer: C
     translations:
       en:
-        text: "What is a white dwarf?"
+        text: "What is the name of the space mission that discovered Jupiter's rings?"
         answers:
-          A: "A small cold star"
-          B: "A low-mass black hole"
-          C: "The dense, hot core of a Sun-like star at the end of its life"
-          D: "A distant planet"
+          A: "Cassini"
+          B: "Galileo"
+          C: "Voyager 1"
+          D: "New Horizons"
+    difficulty: EXPERT
+  - text: "Quelle est la température de surface moyenne de Vénus ?"
+    answers:
+      A: "environ 100 °C"
+      B: "environ 300 °C"
+      C: "environ 600 °C"
+      D: "environ 460 °C"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the average surface temperature of Venus?"
+        answers:
+          A: "about 100 °C"
+          B: "about 300 °C"
+          C: "about 600 °C"
+          D: "about 460 °C"
     difficulty: HARD
-  - text: "Quel télescope spatial observe l'Univers principalement dans l'infrarouge depuis 2022 ?"
+  - text: "Quel est le nom de la galaxie naine la plus proche de la Voie lactée ?"
+    answers:
+      A: "Galaxie naine du Sagittaire"
+      B: "Grand Nuage de Magellan"
+      C: "Galaxie d'Andromède"
+      D: "Galaxie du Triangle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the dwarf galaxy closest to the Milky Way?"
+        answers:
+          A: "Sagittarius Dwarf Galaxy"
+          B: "Large Magellanic Cloud"
+          C: "Andromeda Galaxy"
+          D: "Triangulum Galaxy"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand télescope spatial en activité ?"
     answers:
       A: "Hubble"
       B: "James Webb"
@@ -1109,506 +597,1018 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which space telescope has been observing the Universe mainly in infrared since 2022?"
+        text: "What is the name of the largest active space telescope?"
         answers:
           A: "Hubble"
           B: "James Webb"
           C: "Spitzer"
           D: "Chandra"
-    difficulty: HARD
-  - text: "À quelle distance de la Terre se trouve le point de Lagrange L2 ?"
+    difficulty: MEDIUM
+  - text: "En quelle année la sonde New Horizons a-t-elle survolé Pluton ?"
     answers:
-      A: "38 000 kilomètres"
-      B: "384 000 kilomètres"
-      C: "15 millions de kilomètres"
-      D: "1,5 million de kilomètres"
-    correctAnswer: D
-    translations:
-      en:
-        text: "How far from Earth is the L2 Lagrange point?"
-        answers:
-          A: "38,000 kilometers"
-          B: "384,000 kilometers"
-          C: "15 million kilometers"
-          D: "1.5 million kilometers"
-    difficulty: HARD
-  - text: "Quelle mission a envoyé les premiers humains autour de la Lune en 1968 ?"
-    answers:
-      A: "Apollo 8"
-      B: "Apollo 11"
-      C: "Gemini 4"
-      D: "Vostok 1"
+      A: "2015"
+      B: "2012"
+      C: "2018"
+      D: "2020"
     correctAnswer: A
     translations:
       en:
-        text: "Which mission sent the first humans around the Moon in 1968?"
+        text: "In what year did the New Horizons probe fly by Pluto?"
         answers:
-          A: "Apollo 8"
-          B: "Apollo 11"
-          C: "Gemini 4"
-          D: "Vostok 1"
-    difficulty: HARD
-  - text: "Comment appelle-t-on une étoile à neutrons qui émet des impulsions radio très régulières ?"
+          A: "2015"
+          B: "2012"
+          C: "2018"
+          D: "2020"
+    difficulty: MEDIUM
+  - text: "Quelle est la durée approximative d'une année sur Mercure ?"
     answers:
-      A: "Un quasar"
-      B: "Une nova"
-      C: "Un pulsar"
-      D: "Une céphéide"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What do we call a neutron star that emits very regular radio pulses?"
-        answers:
-          A: "A quasar"
-          B: "A nova"
-          C: "A pulsar"
-          D: "A Cepheid"
-    difficulty: HARD
-  - text: "Que représente le fond diffus cosmologique ?"
-    answers:
-      A: "La lumière des premières étoiles"
-      B: "Le rayonnement fossile du Big Bang"
-      C: "La lumière des galaxies lointaines"
-      D: "Le rayonnement des trous noirs"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What does the cosmic microwave background represent?"
-        answers:
-          A: "The light of the first stars"
-          B: "The relic radiation of the Big Bang"
-          C: "The light of distant galaxies"
-          D: "The radiation of black holes"
-    difficulty: HARD
-  - text: "Quelle sonde est devenue le premier objet humain à quitter l'héliosphère en 2012 ?"
-    answers:
-      A: "Voyager 1"
-      B: "Voyager 2"
-      C: "Pioneer 10"
-      D: "New Horizons"
+      A: "88 jours terrestres"
+      B: "225 jours terrestres"
+      C: "365 jours terrestres"
+      D: "687 jours terrestres"
     correctAnswer: A
     translations:
       en:
-        text: "Which probe became the first human-made object to leave the heliosphere in 2012?"
+        text: "What is the approximate length of a year on Mercury?"
         answers:
-          A: "Voyager 1"
-          B: "Voyager 2"
-          C: "Pioneer 10"
-          D: "New Horizons"
-    difficulty: HARD
-  - text: "Sur quelle planète les vents atteignent-ils environ 2 000 kilomètres par heure ?"
-    answers:
-      A: "Jupiter"
-      B: "Saturne"
-      C: "Uranus"
-      D: "Neptune"
-    correctAnswer: D
-    translations:
-      en:
-        text: "On which planet do winds reach about 2,000 kilometers per hour?"
-        answers:
-          A: "Jupiter"
-          B: "Saturn"
-          C: "Uranus"
-          D: "Neptune"
-    difficulty: HARD
-  - text: "Combien de temps la lumière du Soleil met-elle environ pour atteindre Neptune ?"
-    answers:
-      A: "8 minutes"
-      B: "1 heure"
-      C: "4 heures"
-      D: "1 jour"
-    correctAnswer: C
-    translations:
-      en:
-        text: "About how long does sunlight take to reach Neptune?"
-        answers:
-          A: "8 minutes"
-          B: "1 hour"
-          C: "4 hours"
-          D: "1 day"
-    difficulty: HARD
-  - text: "Qu'appelle-t-on un transit planétaire ?"
-    answers:
-      A: "L'explosion d'une planète"
-      B: "Le passage d'une planète devant son étoile"
-      C: "La collision de deux planètes"
-      D: "L'alignement de deux planètes"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is a planetary transit?"
-        answers:
-          A: "The explosion of a planet"
-          B: "The passage of a planet in front of its star"
-          C: "The collision of two planets"
-          D: "The alignment of two planets"
-    difficulty: HARD
-  - text: "Quelle est l'étoile la plus brillante du ciel nocturne ?"
-    answers:
-      A: "Sirius"
-      B: "Vénus"
-      C: "Bételgeuse"
-      D: "L'étoile Polaire"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the brightest star in the night sky?"
-        answers:
-          A: "Sirius"
-          B: "Venus"
-          C: "Betelgeuse"
-          D: "The North Star"
-    difficulty: HARD
-  - text: "Dans quelle constellation se trouve l'étoile Polaire ?"
-    answers:
-      A: "La Grande Ourse"
-      B: "Orion"
-      C: "Cassiopée"
-      D: "La Petite Ourse"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In which constellation is the North Star located?"
-        answers:
-          A: "The Great Bear"
-          B: "Orion"
-          C: "Cassiopeia"
-          D: "The Little Bear"
-    difficulty: HARD
-  - text: "Quelle unité correspond à la distance parcourue par la lumière en une année ?"
-    answers:
-      A: "L'unité astronomique"
-      B: "Le parsec"
-      C: "L'année-lumière"
-      D: "Le kilomètre"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which unit corresponds to the distance light travels in one year?"
-        answers:
-          A: "The astronomical unit"
-          B: "The parsec"
-          C: "The light-year"
-          D: "The kilometer"
+          A: "88 Earth days"
+          B: "225 Earth days"
+          C: "365 Earth days"
+          D: "687 Earth days"
     difficulty: HARD
   - text: "Quel est le nom de la première exoplanète découverte autour d'une étoile de type solaire ?"
     answers:
-      A: "Proxima b"
-      B: "51 Pegasi b"
-      C: "Kepler-186f"
-      D: "HD 209458 b"
-    correctAnswer: B
+      A: "Kepler-22b"
+      B: "HD 209458 b"
+      C: "51 Pegasi b"
+      D: "Proxima Centauri b"
+    correctAnswer: C
     translations:
       en:
         text: "What is the name of the first exoplanet discovered around a Sun-like star?"
         answers:
-          A: "Proxima b"
-          B: "51 Pegasi b"
-          C: "Kepler-186f"
-          D: "HD 209458 b"
-    difficulty: EXPERT
-  - text: "Quelle est la masse approximative du trou noir supermassif au centre de la Voie lactée ?"
+          A: "Kepler-22b"
+          B: "HD 209458 b"
+          C: "51 Pegasi b"
+          D: "Proxima Centauri b"
+    difficulty: HARD
+  - text: "Quel est le nom de l'étoile la plus brillante du ciel nocturne ?"
     answers:
-      A: "Environ 4 millions de masses solaires"
-      B: "Environ 4 milliards de masses solaires"
-      C: "Environ 4 000 masses solaires"
-      D: "Environ 40 masses solaires"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the approximate mass of the supermassive black hole at the center of the Milky Way?"
-        answers:
-          A: "About 4 million solar masses"
-          B: "About 4 billion solar masses"
-          C: "About 4,000 solar masses"
-          D: "About 40 solar masses"
-    difficulty: EXPERT
-  - text: "Qu'appelle-t-on l'horizon des événements d'un trou noir ?"
-    answers:
-      A: "Sa surface solide"
-      B: "Le disque de matière qui l'entoure"
-      C: "La frontière au-delà de laquelle rien ne peut s'échapper"
-      D: "Le jet de particules qu'il émet"
+      A: "Arcturus"
+      B: "Canopus"
+      C: "Sirius"
+      D: "Véga"
     correctAnswer: C
     translations:
       en:
-        text: "What is the event horizon of a black hole?"
+        text: "What is the name of the brightest star in the night sky?"
         answers:
-          A: "Its solid surface"
-          B: "The disk of matter surrounding it"
-          C: "The boundary beyond which nothing can escape"
-          D: "The jet of particles it emits"
-    difficulty: EXPERT
-  - text: "Quelle est la température approximative du fond diffus cosmologique ?"
+          A: "Arcturus"
+          B: "Canopus"
+          C: "Sirius"
+          D: "Vega"
+    difficulty: EASY
+  - text: "Quelle est la composition principale des anneaux de Saturne ?"
     answers:
-      A: "2,7 kelvins"
-      B: "27 kelvins"
-      C: "270 kelvins"
-      D: "0 kelvin"
-    correctAnswer: A
+      A: "Roche et métaux"
+      B: "Glace d'eau et poussières"
+      C: "Gaz et plasma"
+      D: "Hydrogène et hélium"
+    correctAnswer: B
     translations:
       en:
-        text: "What is the approximate temperature of the cosmic microwave background?"
+        text: "What is the main composition of Saturn's rings?"
         answers:
-          A: "2.7 kelvins"
-          B: "27 kelvins"
-          C: "270 kelvins"
-          D: "0 kelvin"
-    difficulty: EXPERT
-  - text: "Combien de temps Neptune met-elle environ pour accomplir une orbite complète autour du Soleil ?"
+          A: "Rock and metals"
+          B: "Water ice and dust"
+          C: "Gas and plasma"
+          D: "Hydrogen and helium"
+    difficulty: HARD
+  - text: "Quel est le nom du trou noir supermassif au centre de la galaxie M87 ?"
     answers:
-      A: "12 ans"
-      B: "29 ans"
-      C: "84 ans"
-      D: "165 ans"
+      A: "Sagittarius A*"
+      B: "V404 Cygni"
+      C: "Cygnus X-1"
+      D: "M87*"
     correctAnswer: D
     translations:
       en:
-        text: "How long does Neptune take to complete one orbit around the Sun?"
+        text: "What is the name of the supermassive black hole at the center of galaxy M87?"
         answers:
-          A: "12 years"
-          B: "29 years"
-          C: "84 years"
-          D: "165 years"
+          A: "Sagittarius A*"
+          B: "V404 Cygni"
+          C: "Cygnus X-1"
+          D: "M87*"
     difficulty: EXPERT
-  - text: "Quel est le plus grand objet de la ceinture d'astéroïdes ?"
+  - text: "Quelle est la période orbitale de la planète Neptune autour du Soleil ?"
+    answers:
+      A: "84 ans"
+      B: "248 ans"
+      C: "165 ans"
+      D: "12 ans"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the orbital period of the planet Neptune around the Sun?"
+        answers:
+          A: "84 years"
+          B: "248 years"
+          C: "165 years"
+          D: "12 years"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand canyon du système solaire, situé sur Mars ?"
+    answers:
+      A: "Valles Marineris"
+      B: "Grand Canyon"
+      C: "Canyon de la Reine"
+      D: "Canyon du Colorado"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the largest canyon in the solar system, located on Mars?"
+        answers:
+          A: "Valles Marineris"
+          B: "Grand Canyon"
+          C: "Queen's Canyon"
+          D: "Colorado Canyon"
+    difficulty: MEDIUM
+  - text: "Quelle est la période de rotation de Jupiter sur elle-même ?"
+    answers:
+      A: "24 heures"
+      B: "16 heures"
+      C: "10 heures"
+      D: "48 heures"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is Jupiter's rotation period on its axis?"
+        answers:
+          A: "24 hours"
+          B: "16 hours"
+          C: "10 hours"
+          D: "48 hours"
+    difficulty: HARD
+  - text: "Quel est le nom de la plus grande lune de Neptune ?"
+    answers:
+      A: "Néréide"
+      B: "Triton"
+      C: "Prothée"
+      D: "Larissa"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of Neptune's largest moon?"
+        answers:
+          A: "Nereid"
+          B: "Triton"
+          C: "Proteus"
+          D: "Larissa"
+    difficulty: HARD
+  - text: "En quelle année Galilée a-t-il découvert les quatre plus grandes lunes de Jupiter ?"
+    answers:
+      A: "1610"
+      B: "1609"
+      C: "1611"
+      D: "1612"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In what year did Galileo discover Jupiter's four largest moons?"
+        answers:
+          A: "1610"
+          B: "1609"
+          C: "1611"
+          D: "1612"
+    difficulty: EXPERT
+  - text: "Quelle est la magnitude absolue approximative du Soleil ?"
+    answers:
+      A: "5,2"
+      B: "3,5"
+      C: "4,83"
+      D: "6,1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate absolute magnitude of the Sun?"
+        answers:
+          A: "5.2"
+          B: "3.5"
+          C: "4.83"
+          D: "6.1"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'étoile la plus brillante de la constellation du Centaure ?"
+    answers:
+      A: "Alpha Centauri A"
+      B: "Proxima Centauri"
+      C: "Beta Centauri"
+      D: "Hadar"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the brightest star in the constellation Centaurus?"
+        answers:
+          A: "Alpha Centauri A"
+          B: "Proxima Centauri"
+          C: "Beta Centauri"
+          D: "Hadar"
+    difficulty: HARD
+  - text: "Quelle est la distance approximative entre le Soleil et Proxima Centauri ?"
+    answers:
+      A: "10,5 années-lumière"
+      B: "2,5 années-lumière"
+      C: "6,8 années-lumière"
+      D: "4,2 années-lumière"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the approximate distance between the Sun and Proxima Centauri?"
+        answers:
+          A: "10.5 light-years"
+          B: "2.5 light-years"
+          C: "6.8 light-years"
+          D: "4.2 light-years"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la mission spatiale qui a cartographié la surface de Vénus par radar dans les années 1990 ?"
+    answers:
+      A: "Venera 15"
+      B: "Magellan"
+      C: "Pioneer Venus"
+      D: "Mariner 10"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the space mission that mapped Venus's surface by radar in the 1990s?"
+        answers:
+          A: "Venera 15"
+          B: "Magellan"
+          C: "Pioneer Venus"
+          D: "Mariner 10"
+    difficulty: HARD
+  - text: "Quelle est la période orbitale de la planète Uranus autour du Soleil ?"
+    answers:
+      A: "84 ans"
+      B: "165 ans"
+      C: "29 ans"
+      D: "12 ans"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the orbital period of the planet Uranus around the Sun?"
+        answers:
+          A: "84 years"
+          B: "165 years"
+          C: "29 years"
+          D: "12 years"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand cratère d'impact sur Mercure ?"
+    answers:
+      A: "Rembrandt"
+      B: "Caloris Basin"
+      C: "Beethoven"
+      D: "Tolstoj"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest impact crater on Mercury?"
+        answers:
+          A: "Rembrandt"
+          B: "Caloris Basin"
+          C: "Beethoven"
+          D: "Tolstoj"
+    difficulty: EXPERT
+  - text: "Quelle est la composition principale de l'atmosphère de Titan, la plus grande lune de Saturne ?"
+    answers:
+      A: "Dioxyde de carbone"
+      B: "Méthane"
+      C: "Azote"
+      D: "Oxygène"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the main composition of the atmosphere of Titan, Saturn's largest moon?"
+        answers:
+          A: "Carbon dioxide"
+          B: "Methane"
+          C: "Nitrogen"
+          D: "Oxygen"
+    difficulty: HARD
+  - text: "En quelle année la sonde Cassini a-t-elle été lancée vers Saturne ?"
+    answers:
+      A: "1995"
+      B: "1997"
+      C: "1999"
+      D: "2001"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Cassini probe launched toward Saturn?"
+        answers:
+          A: "1995"
+          B: "1997"
+          C: "1999"
+          D: "2001"
+    difficulty: HARD
+  - text: "Quel est le nom de la galaxie spirale la plus proche de la Voie lactée ?"
+    answers:
+      A: "Galaxie du Tourbillon"
+      B: "Galaxie du Triangle"
+      C: "Andromède"
+      D: "Galaxie du Sombrero"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the spiral galaxy closest to the Milky Way?"
+        answers:
+          A: "Whirlpool Galaxy"
+          B: "Triangulum Galaxy"
+          C: "Andromeda"
+          D: "Sombrero Galaxy"
+    difficulty: MEDIUM
+  - text: "Quelle est la magnitude apparente approximative de la galaxie d'Andromède ?"
+    answers:
+      A: "5,2"
+      B: "4,5"
+      C: "3,4"
+      D: "6,1"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate apparent magnitude of the Andromeda Galaxy?"
+        answers:
+          A: "5.2"
+          B: "4.5"
+          C: "3.4"
+          D: "6.1"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand volcan de la planète Mars ?"
+    answers:
+      A: "Mauna Kea"
+      B: "Olympus Mons"
+      C: "Mont Everest"
+      D: "Tharsis Tholus"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest volcano on the planet Mars?"
+        answers:
+          A: "Mauna Kea"
+          B: "Olympus Mons"
+          C: "Mount Everest"
+          D: "Tharsis Tholus"
+    difficulty: MEDIUM
+  - text: "Quelle est la température de surface moyenne de Mercure ?"
+    answers:
+      A: "300 °C"
+      B: "100 °C"
+      C: "167 °C"
+      D: "50 °C"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the average surface temperature of Mercury?"
+        answers:
+          A: "300 °C"
+          B: "100 °C"
+          C: "167 °C"
+          D: "50 °C"
+    difficulty: HARD
+  - text: "Quel est le nom de la sonde spatiale qui a survolé Halley en 1986 ?"
+    answers:
+      A: "Vega 1"
+      B: "Giotto"
+      C: "Vega 2"
+      D: "Suisei"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the space probe that flew by Halley in 1986?"
+        answers:
+          A: "Vega 1"
+          B: "Giotto"
+          C: "Vega 2"
+          D: "Suisei"
+    difficulty: HARD
+  - text: "Quelle est la période orbitale de la comète de Halley autour du Soleil ?"
+    answers:
+      A: "100 ans"
+      B: "50 ans"
+      C: "76 ans"
+      D: "25 ans"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the orbital period of Halley's Comet around the Sun?"
+        answers:
+          A: "100 years"
+          B: "50 years"
+          C: "76 years"
+          D: "25 years"
+    difficulty: HARD
+  - text: "Quel est le nom de l'étoile variable qui a servi de référence pour établir l'échelle des distances cosmiques ?"
+    answers:
+      A: "Bételgeuse"
+      B: "Alpha Centauri"
+      C: "Sirius"
+      D: "Delta Cephei"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the variable star used as a reference to establish the cosmic distance scale?"
+        answers:
+          A: "Betelgeuse"
+          B: "Alpha Centauri"
+          C: "Sirius"
+          D: "Delta Cephei"
+    difficulty: EXPERT
+  - text: "Quelle est la magnitude apparente approximative de la nébuleuse d'Orion ?"
+    answers:
+      A: "4,0"
+      B: "2,5"
+      C: "5,5"
+      D: "7,0"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the approximate apparent magnitude of the Orion Nebula?"
+        answers:
+          A: "4.0"
+          B: "2.5"
+          C: "5.5"
+          D: "7.0"
+    difficulty: EXPERT
+  - text: "Quel engin spatial a réalisé le premier alunissage en douceur ?"
+    answers:
+      A: "Luna 9"
+      B: "Surveyor 1"
+      C: "Apollo 11"
+      D: "Luna 2"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spacecraft achieved the first soft landing on the Moon?"
+        answers:
+          A: "Luna 9"
+          B: "Surveyor 1"
+          C: "Apollo 11"
+          D: "Luna 2"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la plus grande structure volcanique de Vénus ?"
+    answers:
+      A: "Maat Mons"
+      B: "Maxwell Montes"
+      C: "Sapas Mons"
+      D: "Theia Mons"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the largest volcanic structure on Venus?"
+        answers:
+          A: "Maat Mons"
+          B: "Maxwell Montes"
+          C: "Sapas Mons"
+          D: "Theia Mons"
+    difficulty: EXPERT
+  - text: "Quel astéroïde a été survolé par la sonde Dawn entre 2011 et 2012 ?"
     answers:
       A: "Vesta"
       B: "Cérès"
       C: "Pallas"
-      D: "Éris"
-    correctAnswer: B
+      D: "Éros"
+    correctAnswer: A
     translations:
       en:
-        text: "What is the largest object in the asteroid belt?"
+        text: "Which asteroid was flown by by the Dawn probe between 2011 and 2012?"
         answers:
           A: "Vesta"
           B: "Ceres"
           C: "Pallas"
-          D: "Eris"
-    difficulty: EXPERT
-  - text: "À quelle catégorie d'étoiles appartient Bételgeuse ?"
+          D: "Eros"
+    difficulty: HARD
+  - text: "Combien de planètes dans le système solaire possèdent des anneaux ?"
     answers:
-      A: "Naine jaune"
-      B: "Naine blanche"
-      C: "Supergéante rouge"
-      D: "Étoile à neutrons"
+      A: "2"
+      B: "3"
+      C: "4"
+      D: "5"
     correctAnswer: C
     translations:
       en:
-        text: "To which category of stars does Betelgeuse belong?"
+        text: "How many planets in the solar system have rings?"
         answers:
-          A: "Yellow dwarf"
+          A: "2"
+          B: "3"
+          C: "4"
+          D: "5"
+    difficulty: EXPERT
+  - text: "Quelle est la galaxie la plus lointaine observable à l'œil nu ?"
+    answers:
+      A: "Sombrero"
+      B: "Triangulum"
+      C: "Grande Ourse"
+      D: "Andromède"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the most distant galaxy observable with the naked eye?"
+        answers:
+          A: "Sombrero"
+          B: "Triangulum"
+          C: "Ursa Major"
+          D: "Andromeda"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la première exoplanète découverte par la méthode des transits ?"
+    answers:
+      A: "HD 209458 b"
+      B: "51 Pegasi b"
+      C: "Kepler-22b"
+      D: "TrES-1b"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first exoplanet discovered by the transit method?"
+        answers:
+          A: "HD 209458 b"
+          B: "51 Pegasi b"
+          C: "Kepler-22b"
+          D: "TrES-1b"
+    difficulty: EXPERT
+  - text: "Quel type d'étoile est au centre de la nébuleuse de l'Œil de Chat ?"
+    answers:
+      A: "Géante rouge"
+      B: "Naine blanche"
+      C: "Naine brune"
+      D: "Étoile à neutrons"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What type of star is at the center of the Cat's Eye Nebula?"
+        answers:
+          A: "Red giant"
           B: "White dwarf"
-          C: "Red supergiant"
+          C: "Brown dwarf"
           D: "Neutron star"
     difficulty: EXPERT
-  - text: "À combien de kilomètres correspond approximativement une année-lumière ?"
+  - text: "Quelle mission a découvert les geysers d'Encelade ?"
     answers:
-      A: "300 000 kilomètres"
-      B: "1 milliard de kilomètres"
-      C: "150 millions de kilomètres"
-      D: "9 460 milliards de kilomètres"
+      A: "Cassini"
+      B: "Voyager 2"
+      C: "Galileo"
+      D: "New Horizons"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which mission discovered the geysers of Enceladus?"
+        answers:
+          A: "Cassini"
+          B: "Voyager 2"
+          C: "Galileo"
+          D: "New Horizons"
+    difficulty: HARD
+  - text: "Quel est l'âge approximatif de l'univers selon le modèle standard ?"
+    answers:
+      A: "100 milliards d'années"
+      B: "4,5 milliards d'années"
+      C: "1 milliard d'années"
+      D: "13,8 milliards d'années"
     correctAnswer: D
     translations:
       en:
-        text: "Approximately how many kilometers is a light-year?"
+        text: "What is the approximate age of the universe according to the standard model?"
         answers:
-          A: "300,000 kilometers"
-          B: "1 billion kilometers"
-          C: "150 million kilometers"
-          D: "9.46 trillion kilometers"
-    difficulty: EXPERT
-  - text: "En quelle année Youri Gagarine a-t-il réalisé le premier vol spatial habité ?"
+          A: "100 billion years"
+          B: "4.5 billion years"
+          C: "1 billion years"
+          D: "13.8 billion years"
+    difficulty: MEDIUM
+  - text: "Quelle est la tempête la plus célèbre de Neptune ?"
     answers:
-      A: "1957"
-      B: "1959"
-      C: "1963"
-      D: "1961"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year did Yuri Gagarin make the first human spaceflight?"
-        answers:
-          A: "1957"
-          B: "1959"
-          C: "1963"
-          D: "1961"
-    difficulty: EXPERT
-  - text: "Quel a été le nom de la première station spatiale, lancée par l'URSS en 1971 ?"
-    answers:
-      A: "Mir"
-      B: "Skylab"
-      C: "Saliout 1"
-      D: "Zarya"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What was the name of the first space station, launched by the USSR in 1971?"
-        answers:
-          A: "Mir"
-          B: "Skylab"
-          C: "Salyut 1"
-          D: "Zarya"
-    difficulty: EXPERT
-  - text: "Quelle mission a réussi le premier atterrissage sur la face cachée de la Lune en 2019 ?"
-    answers:
-      A: "Luna 9"
-      B: "Chang'e 4"
-      C: "Chandrayaan-1"
-      D: "Surveyor 3"
+      A: "Grande Tache Rouge"
+      B: "Grande Tache Sombre"
+      C: "Petite Tache Rouge"
+      D: "Tache Bleue"
     correctAnswer: B
     translations:
       en:
-        text: "Which mission achieved the first landing on the far side of the Moon in 2019?"
+        text: "What is Neptune's most famous storm?"
         answers:
-          A: "Luna 9"
-          B: "Chang'e 4"
-          C: "Chandrayaan-1"
-          D: "Surveyor 3"
-    difficulty: EXPERT
-  - text: "Quel grand radiotélescope s'est effondré en décembre 2020 après 57 ans de service ?"
+          A: "Great Red Spot"
+          B: "Great Dark Spot"
+          C: "Small Red Spot"
+          D: "Blue Spot"
+    difficulty: HARD
+  - text: "Quel observatoire a détecté la première fusion d'étoiles à neutrons en 2017 ?"
     answers:
       A: "Arecibo"
-      B: "Green Bank"
-      C: "FAST"
-      D: "ALMA"
-    correctAnswer: A
+      B: "Hubble"
+      C: "Chandra"
+      D: "LIGO et Virgo"
+    correctAnswer: D
     translations:
       en:
-        text: "Which large radio telescope collapsed in December 2020 after 57 years of service?"
+        text: "Which observatory detected the first neutron star merger in 2017?"
         answers:
           A: "Arecibo"
-          B: "Green Bank"
-          C: "FAST"
-          D: "ALMA"
-    difficulty: EXPERT
-  - text: "En quelle année la première exoplanète autour d'une étoile de type solaire a-t-elle été découverte ?"
+          B: "Hubble"
+          C: "Chandra"
+          D: "LIGO and Virgo"
+    difficulty: HARD
+  - text: "Quelle sonde a découvert les volcans actifs sur Io ?"
     answers:
-      A: "1985"
-      B: "1992"
-      C: "1995"
-      D: "2005"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In what year was the first exoplanet around a Sun-like star discovered?"
-        answers:
-          A: "1985"
-          B: "1992"
-          C: "1995"
-          D: "2005"
-    difficulty: EXPERT
-  - text: "Qui a démontré en 1929 que les galaxies s'éloignent les unes des autres ?"
-    answers:
-      A: "Edwin Hubble"
-      B: "Albert Einstein"
-      C: "Georges Lemaître"
-      D: "Carl Sagan"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who demonstrated in 1929 that galaxies are moving away from each other?"
-        answers:
-          A: "Edwin Hubble"
-          B: "Albert Einstein"
-          C: "Georges Lemaître"
-          D: "Carl Sagan"
-    difficulty: EXPERT
-  - text: "Vers quelle lune de Jupiter se dirige la mission Europa Clipper lancée en 2024 ?"
-    answers:
-      A: "Io"
-      B: "Europe"
-      C: "Ganymède"
-      D: "Callisto"
+      A: "Galileo"
+      B: "Voyager 1"
+      C: "Cassini"
+      D: "New Horizons"
     correctAnswer: B
     translations:
       en:
-        text: "Which moon of Jupiter is the Europa Clipper mission launched in 2024 heading to?"
+        text: "Which probe discovered active volcanoes on Io?"
         answers:
-          A: "Io"
-          B: "Europa"
-          C: "Ganymede"
-          D: "Callisto"
-    difficulty: EXPERT
-  - text: "Quel réseau de radiotélescopes a produit la première image d'un trou noir en 2019 ?"
+          A: "Galileo"
+          B: "Voyager 1"
+          C: "Cassini"
+          D: "New Horizons"
+    difficulty: HARD
+  - text: "Quel est le nom de la première femme à avoir réalisé une sortie extravéhiculaire ?"
     answers:
-      A: "ALMA"
-      B: "VLA"
-      C: "LIGO"
-      D: "L'Event Horizon Telescope"
-    correctAnswer: D
+      A: "Valentina Terechkova"
+      B: "Svetlana Savitskaya"
+      C: "Sally Ride"
+      D: "Kathryn Sullivan"
+    correctAnswer: B
     translations:
       en:
-        text: "Which radio telescope network produced the first image of a black hole in 2019?"
+        text: "What is the name of the first woman to perform a spacewalk?"
         answers:
-          A: "ALMA"
-          B: "VLA"
-          C: "LIGO"
-          D: "The Event Horizon Telescope"
+          A: "Valentina Tereshkova"
+          B: "Svetlana Savitskaya"
+          C: "Sally Ride"
+          D: "Kathryn Sullivan"
     difficulty: EXPERT
-  - text: "Quelle mission a rapporté des échantillons de l'astéroïde Bénou sur Terre en 2023 ?"
+  - text: "Quelle est la magnitude apparente approximative de la planète Vénus à son maximum ?"
     answers:
-      A: "Hayabusa 2"
-      B: "DART"
-      C: "OSIRIS-REx"
-      D: "New Horizons"
+      A: "0"
+      B: "-1,5"
+      C: "-4,6"
+      D: "-12,7"
     correctAnswer: C
     translations:
       en:
-        text: "Which mission brought samples from the asteroid Bennu back to Earth in 2023?"
+        text: "What is the approximate apparent magnitude of the planet Venus at its brightest?"
         answers:
-          A: "Hayabusa 2"
-          B: "DART"
-          C: "OSIRIS-REx"
-          D: "New Horizons"
+          A: "0"
+          B: "-1.5"
+          C: "-4.6"
+          D: "-12.7"
     difficulty: EXPERT
-  - text: "Quel rover chinois s'est posé sur Mars en 2021 ?"
+  - text: "Quel est le nom du plus grand lac de Titan ?"
     answers:
-      A: "Zhurong"
-      B: "Yutu 2"
-      C: "Chang'e 5"
-      D: "Tianwen 1"
+      A: "Ontario Lacus"
+      B: "Ligeia Mare"
+      C: "Punga Mare"
+      D: "Kraken Mare"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the largest lake on Titan?"
+        answers:
+          A: "Ontario Lacus"
+          B: "Ligeia Mare"
+          C: "Punga Mare"
+          D: "Kraken Mare"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand radiotélescope à antenne unique ?"
+    answers:
+      A: "Arecibo"
+      B: "FAST"
+      C: "Green Bank"
+      D: "Effelsberg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest single-dish radio telescope?"
+        answers:
+          A: "Arecibo"
+          B: "FAST"
+          C: "Green Bank"
+          D: "Effelsberg"
+    difficulty: EXPERT
+  - text: "Quelle sonde a été la première à quitter le système solaire ?"
+    answers:
+      A: "Voyager 2"
+      B: "Voyager 1"
+      C: "Pioneer 10"
+      D: "New Horizons"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which probe was the first to leave the solar system?"
+        answers:
+          A: "Voyager 2"
+          B: "Voyager 1"
+          C: "Pioneer 10"
+          D: "New Horizons"
+    difficulty: HARD
+  - text: "Quel est le nom du télescope spatial infrarouge lancé en 2003 ?"
+    answers:
+      A: "Spitzer"
+      B: "Hubble"
+      C: "Chandra"
+      D: "Kepler"
     correctAnswer: A
     translations:
       en:
-        text: "Which Chinese rover landed on Mars in 2021?"
+        text: "What is the name of the infrared space telescope launched in 2003?"
         answers:
-          A: "Zhurong"
-          B: "Yutu 2"
-          C: "Chang'e 5"
-          D: "Tianwen 1"
+          A: "Spitzer"
+          B: "Hubble"
+          C: "Chandra"
+          D: "Kepler"
+    difficulty: HARD
+  - text: "Quelle planète naine a été reclassée en 2006 ?"
+    answers:
+      A: "Cérès"
+      B: "Éris"
+      C: "Pluton"
+      D: "Makémaké"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dwarf planet was reclassified in 2006?"
+        answers:
+          A: "Ceres"
+          B: "Eris"
+          C: "Pluto"
+          D: "Makemake"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la nébuleuse planétaire la plus proche de la Terre ?"
+    answers:
+      A: "Nébuleuse Dumbbell"
+      B: "Nébuleuse de l'Anneau"
+      C: "Nébuleuse de l'Hélice"
+      D: "Nébuleuse de l'Œil de Chat"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the planetary nebula closest to Earth?"
+        answers:
+          A: "Dumbbell Nebula"
+          B: "Ring Nebula"
+          C: "Helix Nebula"
+          D: "Cat's Eye Nebula"
     difficulty: EXPERT
-  - text: "Quelle est la masse estimée du trou noir M87*, photographié en 2019 ?"
+  - text: "Quel est le nom du cratère d'impact le plus récent sur la Lune ?"
+    answers:
+      A: "Cratère Giordano Bruno"
+      B: "Cratère Copernic"
+      C: "Cratère Aristarque"
+      D: "Cratère Tycho"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the most recent impact crater on the Moon?"
+        answers:
+          A: "Giordano Bruno Crater"
+          B: "Copernicus Crater"
+          C: "Aristarchus Crater"
+          D: "Tycho Crater"
+    difficulty: EXPERT
+  - text: "Quelle mission a été la première à se poser sur un astéroïde ?"
+    answers:
+      A: "OSIRIS-REx"
+      B: "Hayabusa"
+      C: "Rosetta"
+      D: "NEAR Shoemaker"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which mission was the first to land on an asteroid?"
+        answers:
+          A: "OSIRIS-REx"
+          B: "Hayabusa"
+          C: "Rosetta"
+          D: "NEAR Shoemaker"
+    difficulty: HARD
+  - text: "Quel est le nom de l'étoile polaire actuelle ?"
+    answers:
+      A: "Polaris"
+      B: "Véga"
+      C: "Sirius"
+      D: "Bételgeuse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the current pole star?"
+        answers:
+          A: "Polaris"
+          B: "Vega"
+          C: "Sirius"
+          D: "Betelgeuse"
+    difficulty: MEDIUM
+  - text: "Quelle est la masse approximative du trou noir au centre de la Voie lactée ?"
     answers:
       A: "4 millions de masses solaires"
-      B: "65 000 masses solaires"
-      C: "6,5 millions de masses solaires"
-      D: "6,5 milliards de masses solaires"
-    correctAnswer: D
+      B: "4 milliards de masses solaires"
+      C: "400 000 masses solaires"
+      D: "40 millions de masses solaires"
+    correctAnswer: A
     translations:
       en:
-        text: "What is the estimated mass of the black hole M87*, photographed in 2019?"
+        text: "What is the approximate mass of the black hole at the center of the Milky Way?"
         answers:
           A: "4 million solar masses"
-          B: "65,000 solar masses"
-          C: "6.5 million solar masses"
-          D: "6.5 billion solar masses"
+          B: "4 billion solar masses"
+          C: "400,000 solar masses"
+          D: "40 million solar masses"
     difficulty: EXPERT
-  - text: "En quelle année les ondes gravitationnelles ont-elles été détectées directement pour la première fois ?"
+  - text: "Quel engin spatial a réalisé le premier survol de Mercure ?"
     answers:
-      A: "2005"
-      B: "2015"
-      C: "2017"
-      D: "2020"
+      A: "Messenger"
+      B: "Mariner 10"
+      C: "BepiColombo"
+      D: "Voyager 1"
     correctAnswer: B
     translations:
       en:
-        text: "In what year were gravitational waves directly detected for the first time?"
+        text: "Which spacecraft made the first flyby of Mercury?"
         answers:
-          A: "2005"
-          B: "2015"
-          C: "2017"
-          D: "2020"
+          A: "Messenger"
+          B: "Mariner 10"
+          C: "BepiColombo"
+          D: "Voyager 1"
+    difficulty: HARD
+  - text: "Quelle est la durée approximative du jour solaire sur Mars ?"
+    answers:
+      A: "25 h 10 min"
+      B: "23 h 56 min"
+      C: "24 h 37 min"
+      D: "24 h 00 min"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate length of a solar day on Mars?"
+        answers:
+          A: "25 h 10 min"
+          B: "23 h 56 min"
+          C: "24 h 37 min"
+          D: "24 h 00 min"
+    difficulty: HARD
+  - text: "Quel est le nom de la mission qui a posé un atterrisseur sur la comète 67P ?"
+    answers:
+      A: "Rosetta"
+      B: "Deep Impact"
+      C: "Hayabusa 2"
+      D: "Philae"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the mission that landed a lander on comet 67P?"
+        answers:
+          A: "Rosetta"
+          B: "Deep Impact"
+          C: "Hayabusa 2"
+          D: "Philae"
+    difficulty: HARD
+  - text: "Quel type d'étoile est Sirius B ?"
+    answers:
+      A: "Naine blanche"
+      B: "Étoile à neutrons"
+      C: "Naine rouge"
+      D: "Géante rouge"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What type of star is Sirius B?"
+        answers:
+          A: "White dwarf"
+          B: "Neutron star"
+          C: "Red dwarf"
+          D: "Red giant"
     difficulty: EXPERT
+  - text: "Quelle est la magnitude apparente approximative de Sirius ?"
+    answers:
+      A: "-2,5"
+      B: "-0,72"
+      C: "0,03"
+      D: "-1,46"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the approximate apparent magnitude of Sirius?"
+        answers:
+          A: "-2.5"
+          B: "-0.72"
+          C: "0.03"
+          D: "-1.46"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand télescope spatial en service ?"
+    answers:
+      A: "Hubble"
+      B: "James Webb"
+      C: "Spitzer"
+      D: "Kepler"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest space telescope in service?"
+        answers:
+          A: "Hubble"
+          B: "James Webb"
+          C: "Spitzer"
+          D: "Kepler"
+    difficulty: HARD
+  - text: "Quelle est la température approximative de la surface du Soleil ?"
+    answers:
+      A: "15 millions °C"
+      B: "5 500 °C"
+      C: "1 000 °C"
+      D: "100 000 °C"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the approximate temperature of the Sun's surface?"
+        answers:
+          A: "15 million °C"
+          B: "5,500 °C"
+          C: "1,000 °C"
+          D: "100,000 °C"
+    difficulty: MEDIUM
+  - text: "Quelle sonde a été la première à se poser sur la face cachée de la Lune ?"
+    answers:
+      A: "Chang'e 4"
+      B: "Luna 9"
+      C: "Surveyor 1"
+      D: "Ranger 4"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which probe was the first to land on the far side of the Moon?"
+        answers:
+          A: "Chang'e 4"
+          B: "Luna 9"
+          C: "Surveyor 1"
+          D: "Ranger 4"
+    difficulty: EXPERT
+  - text: "Quelle est la période de rotation sidérale de Vénus ?"
+    answers:
+      A: "24 h 37 min"
+      B: "9 h 56 min"
+      C: "243 jours"
+      D: "58,6 jours"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the sidereal rotation period of Venus?"
+        answers:
+          A: "24 h 37 min"
+          B: "9 h 56 min"
+          C: "243 days"
+          D: "58.6 days"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus grand cratère d'impact confirmé du système solaire ?"
+    answers:
+      A: "Hellas Planitia"
+      B: "Bassin Pôle Sud-Aitken"
+      C: "Caloris Planitia"
+      D: "Vredefort"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the largest confirmed impact crater in the solar system?"
+        answers:
+          A: "Hellas Planitia"
+          B: "South Pole–Aitken basin"
+          C: "Caloris Planitia"
+          D: "Vredefort"
+    difficulty: EXPERT
+  - text: "Quelle est la masse volumique moyenne de Saturne ?"
+    answers:
+      A: "3,94 g/cm³"
+      B: "1,33 g/cm³"
+      C: "5,51 g/cm³"
+      D: "0,69 g/cm³"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the average density of Saturn?"
+        answers:
+          A: "3.94 g/cm³"
+          B: "1.33 g/cm³"
+          C: "5.51 g/cm³"
+          D: "0.69 g/cm³"
+    difficulty: EXPERT
+  - text: "Quel télescope a réalisé la première image d'un trou noir ?"
+    answers:
+      A: "Hubble"
+      B: "Event Horizon Telescope"
+      C: "Chandra"
+      D: "James Webb"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which telescope took the first image of a black hole?"
+        answers:
+          A: "Hubble"
+          B: "Event Horizon Telescope"
+          C: "Chandra"
+          D: "James Webb"
+    difficulty: HARD

@@ -73,10 +73,18 @@ public class TopicProjection {
                 event.color(),
                 event.imageUrl(),
                 null,
+                event.titles(),
                 event.createdAt(),
                 event.createdAt()
         );
         topicRepositoryPort.save(topic);
+    }
+
+    @EventHandler
+    @Transactional
+    public void on(TopicEvent.TopicTitlesUpdatedEvent event) {
+        updateTopic(event.topicId(), event.updatedBy(), event.updatedAt(),
+                builder -> builder.titles(event.titles()));
     }
 
     @EventHandler

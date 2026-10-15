@@ -7,39 +7,39 @@ topic:
   category: NATURE
   imageUrl: wikipedia/nature/Adalia_bipunctata_(2007-04-08).jpg
 questions:
-  - text: "Combien de pattes possède une araignée ?"
+  - text: "Quel ordre d'insectes regroupe les mouches et les moustiques ?"
     answers:
-      A: "4"
-      B: "6"
-      C: "8"
-      D: "10"
+      A: "Coléoptères"
+      B: "Lépidoptères"
+      C: "Diptères"
+      D: "Hyménoptères"
     correctAnswer: C
     translations:
       en:
-        text: "How many legs does a spider have?"
+        text: "Which order of insects includes flies and mosquitoes?"
         answers:
-          A: "4"
-          B: "6"
-          C: "8"
-          D: "10"
-    difficulty: EASY
-  - text: "Quel insecte est célèbre pour produire du miel ?"
+          A: "Beetles"
+          B: "Lepidoptera"
+          C: "Diptera"
+          D: "Hymenoptera"
+    difficulty: MEDIUM
+  - text: "Quel est le nom scientifique de la mouche domestique ?"
     answers:
-      A: "Guêpe"
-      B: "Abeille"
-      C: "Fourmi"
-      D: "Bourdon"
+      A: "Culex pipiens"
+      B: "Musca domestica"
+      C: "Drosophila melanogaster"
+      D: "Apis mellifera"
     correctAnswer: B
     translations:
       en:
-        text: "Which insect is famous for producing honey?"
+        text: "What is the scientific name of the housefly?"
         answers:
-          A: "Wasp"
-          B: "Bee"
-          C: "Ant"
-          D: "Bumblebee"
-    difficulty: EASY
-  - text: "Quel papillon aux ailes jaunes et noires, posé sur une fleur, voit-on sur cette image ?"
+          A: "Culex pipiens"
+          B: "Musca domestica"
+          C: "Drosophila melanogaster"
+          D: "Apis mellifera"
+    difficulty: HARD
+  - text: "Quel papillon voit-on sur cette image ?"
     imageUrl: wikipedia/nature/Papilio_machaon_Mitterbach_01.jpg
     answers:
       A: "Le machaon"
@@ -49,30 +49,30 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "Which butterfly with yellow and black wings, perched on a flower, can be seen in this image?"
+        text: "Which butterfly is shown in this image?"
         answers:
           A: "The swallowtail"
           B: "The monarch"
           C: "The peacock butterfly"
           D: "The brimstone"
-    difficulty: EASY
-  - text: "Combien de pattes possède un insecte adulte ?"
+    difficulty: EXPERT
+  - text: "Quel insecte est connu pour être le plus grand coléoptère du monde ?"
     answers:
-      A: "6"
-      B: "4"
-      C: "8"
-      D: "12"
+      A: "Le titan"
+      B: "Le lucane cerf-volant"
+      C: "Le scarabée Goliath"
+      D: "Le charançon palmiste"
     correctAnswer: A
     translations:
       en:
-        text: "How many legs does an adult insect have?"
+        text: "Which insect is known as the largest beetle in the world?"
         answers:
-          A: "6"
-          B: "4"
-          C: "8"
-          D: "12"
-    difficulty: EASY
-  - text: "Quel insecte rouge à points noirs est posé sur cette feuille ?"
+          A: "The titan beetle"
+          B: "The stag beetle"
+          C: "The Goliath beetle"
+          D: "The palm weevil"
+    difficulty: HARD
+  - text: "Quel insecte rouge à points noirs est-ce ?"
     imageUrl: wikipedia/nature/Coccinella_septempunctata_Luc_Viatour.jpg
     answers:
       A: "Le doryphore"
@@ -82,142 +82,830 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which red insect with black spots is perched on this leaf?"
+        text: "Which red insect with black spots is this?"
         answers:
           A: "The Colorado potato beetle"
           B: "The stink bug"
           C: "The cockchafer"
           D: "The ladybug"
+    difficulty: MEDIUM
+  - text: "Combien de pattes possède une larve de papillon (chenille) ?"
+    answers:
+      A: "6 pattes"
+      B: "8 pattes"
+      C: "16 pattes"
+      D: "10 pattes"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many legs does a butterfly larva (caterpillar) have?"
+        answers:
+          A: "6 legs"
+          B: "8 legs"
+          C: "16 legs"
+          D: "10 legs"
+    difficulty: HARD
+  - text: "Quel ordre d'insectes est caractérisé par des ailes recouvertes d'écailles ?"
+    answers:
+      A: "Lépidoptères"
+      B: "Diptères"
+      C: "Hyménoptères"
+      D: "Coléoptères"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which order of insects is characterized by wings covered in scales?"
+        answers:
+          A: "Lepidoptera"
+          B: "Diptera"
+          C: "Hymenoptera"
+          D: "Coleoptera"
+    difficulty: MEDIUM
+  - text: "Quel est le principal composant de la soie produite par les vers à soie ?"
+    answers:
+      A: "Chitine"
+      B: "Kératine"
+      C: "Fibroïne"
+      D: "Cellulose"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the main component of the silk produced by silkworms?"
+        answers:
+          A: "Chitin"
+          B: "Keratin"
+          C: "Fibroin"
+          D: "Cellulose"
+    difficulty: EXPERT
+  - text: "Quel insecte est capable de produire un son audible en frottant ses ailes ?"
+    answers:
+      A: "Le grillon"
+      B: "Le criquet"
+      C: "La cigale"
+      D: "Le moustique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which insect can produce an audible sound by rubbing its wings?"
+        answers:
+          A: "The cricket"
+          B: "The grasshopper"
+          C: "The cicada"
+          D: "The mosquito"
+    difficulty: HARD
+  - text: "Quel est le nom de la substance produite par les abeilles pour construire leurs alvéoles ?"
+    answers:
+      A: "Cire"
+      B: "Gelée royale"
+      C: "Propolis"
+      D: "Miel"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the substance produced by bees to build their honeycomb cells?"
+        answers:
+          A: "Wax"
+          B: "Royal jelly"
+          C: "Propolis"
+          D: "Honey"
+    difficulty: MEDIUM
+  - text: "Quel insecte est un parasite externe qui se nourrit du sang des mammifères et peut transmettre la maladie de Lyme ?"
+    answers:
+      A: "Le moustique"
+      B: "La puce"
+      C: "Le pou"
+      D: "La tique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which insect is an external parasite that feeds on mammal blood and can transmit Lyme disease?"
+        answers:
+          A: "The mosquito"
+          B: "The flea"
+          C: "The louse"
+          D: "The tick"
+    difficulty: HARD
+  - text: "Quel est le nom de l'ordre qui comprend les libellules et les demoiselles ?"
+    answers:
+      A: "Plécoptères"
+      B: "Éphéméroptères"
+      C: "Odonates"
+      D: "Mécoptères"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the order that includes dragonflies and damselflies?"
+        answers:
+          A: "Plecoptera"
+          B: "Ephemeroptera"
+          C: "Odonata"
+          D: "Mecoptera"
+    difficulty: HARD
+  - text: "Combien de pattes possède un crabe ?"
+    answers:
+      A: "6 pattes"
+      B: "8 pattes"
+      C: "12 pattes"
+      D: "10 pattes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many legs does a crab have?"
+        answers:
+          A: "6 legs"
+          B: "8 legs"
+          C: "12 legs"
+          D: "10 legs"
+    difficulty: MEDIUM
+  - text: "Quel insecte est célèbre pour son rôle dans la pollinisation du cacaoyer ?"
+    answers:
+      A: "Une abeille"
+      B: "Un papillon"
+      C: "Un coléoptère"
+      D: "Une mouche"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which insect is famous for its role in pollinating the cacao tree?"
+        answers:
+          A: "A bee"
+          B: "A butterfly"
+          C: "A beetle"
+          D: "A fly"
+    difficulty: EXPERT
+  - text: "Quel est le nom du stade de développement entre la larve et l'adulte chez les insectes à métamorphose complète ?"
+    answers:
+      A: "Nymphe"
+      B: "Chrysalide"
+      C: "Cocon"
+      D: "Pupe"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the developmental stage between larva and adult in insects with complete metamorphosis?"
+        answers:
+          A: "Nymph"
+          B: "Chrysalis"
+          C: "Cocoon"
+          D: "Pupa"
+    difficulty: HARD
+  - text: "Quel insecte est capable de marcher sur l'eau grâce à la tension superficielle ?"
+    answers:
+      A: "Le gerris"
+      B: "Le dytique"
+      C: "La notonecte"
+      D: "La libellule"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which insect can walk on water thanks to surface tension?"
+        answers:
+          A: "The water strider"
+          B: "The diving beetle"
+          C: "The backswimmer"
+          D: "The dragonfly"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la glande qui produit la soie chez les araignées ?"
+    answers:
+      A: "Les glandes séricigènes"
+      B: "Les glandes salivaires"
+      C: "Les glandes coxales"
+      D: "Les glandes abdominales"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the gland that produces silk in spiders?"
+        answers:
+          A: "Silk glands"
+          B: "Salivary glands"
+          C: "Coxal glands"
+          D: "Abdominal glands"
+    difficulty: EXPERT
+  - text: "Quel insecte est un prédateur vorace qui consomme des pucerons et dont la larve est appelée \"lion des pucerons\" ?"
+    answers:
+      A: "Le syrphe"
+      B: "La chrysope"
+      C: "La punaise"
+      D: "La coccinelle"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which insect is a voracious predator that feeds on aphids and whose larva is called an \"aphid lion\"?"
+        answers:
+          A: "The hoverfly"
+          B: "The lacewing"
+          C: "The bug"
+          D: "The ladybug"
+    difficulty: HARD
+  - text: "Combien d'ailes possède un papillon de jour (rhopalocère) ?"
+    answers:
+      A: "4 ailes"
+      B: "2 ailes"
+      C: "6 ailes"
+      D: "8 ailes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many wings does a day butterfly (rhopalocera) have?"
+        answers:
+          A: "4 wings"
+          B: "2 wings"
+          C: "6 wings"
+          D: "8 wings"
+    difficulty: MEDIUM
+  - text: "Quel insecte est connu pour avoir la piqûre la plus douloureuse selon l'indice de Schmidt ?"
+    answers:
+      A: "L'abeille africanisée"
+      B: "La guêpe Pepsis"
+      C: "La fourmi Paraponera clavata"
+      D: "La fourmi rouge"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which insect is known for having the most painful sting according to the Schmidt sting pain index?"
+        answers:
+          A: "The Africanized bee"
+          B: "The Pepsis wasp"
+          C: "The Paraponera clavata ant"
+          D: "The red ant"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la structure qui permet aux insectes de respirer ?"
+    answers:
+      A: "Les poumons"
+      B: "Les trachées"
+      C: "Les branchies"
+      D: "Les spiracles"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the structure that allows insects to breathe?"
+        answers:
+          A: "Lungs"
+          B: "Tracheae"
+          C: "Gills"
+          D: "Spiracles"
+    difficulty: HARD
+  - text: "Quel insecte est responsable de la production de la laque utilisée dans les vernis ?"
+    answers:
+      A: "La cochenille"
+      B: "Le kermès"
+      C: "La cire d'abeille"
+      D: "Le ver à soie"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which insect is responsible for producing the lac used in varnishes?"
+        answers:
+          A: "The cochineal"
+          B: "The kermes"
+          C: "Beeswax"
+          D: "The silkworm"
+    difficulty: EXPERT
+  - text: "Quel ordre d'insectes est caractérisé par deux ailes et des haltères ?"
+    answers:
+      A: "Coléoptères"
+      B: "Hyménoptères"
+      C: "Diptères"
+      D: "Lépidoptères"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which order of insects is characterized by two wings and halteres?"
+        answers:
+          A: "Coleoptera"
+          B: "Hymenoptera"
+          C: "Diptera"
+          D: "Lepidoptera"
+    difficulty: HARD
+  - text: "Quel est le nom scientifique de l'abeille domestique ?"
+    answers:
+      A: "Apis cerana"
+      B: "Apis dorsata"
+      C: "Bombus terrestris"
+      D: "Apis mellifera"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the scientific name of the honey bee?"
+        answers:
+          A: "Apis cerana"
+          B: "Apis dorsata"
+          C: "Bombus terrestris"
+          D: "Apis mellifera"
+    difficulty: HARD
+  - text: "Combien d'yeux simples (ocelles) possède généralement une abeille ?"
+    answers:
+      A: "1"
+      B: "3"
+      C: "2"
+      D: "4"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many simple eyes (ocelli) does a bee generally have?"
+        answers:
+          A: "1"
+          B: "3"
+          C: "2"
+          D: "4"
+    difficulty: EXPERT
+  - text: "Quel insecte est le plus grand coléoptère du monde en termes de longueur ?"
+    answers:
+      A: "Le scarabée Goliath"
+      B: "Le titan"
+      C: "Le lucane cerf-volant"
+      D: "Le charançon girafe"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which insect is the largest beetle in the world in terms of length?"
+        answers:
+          A: "The Goliath beetle"
+          B: "The titan"
+          C: "The stag beetle"
+          D: "The giraffe weevil"
+    difficulty: EXPERT
+  - text: "Quel insecte produit la laque utilisée dans les vernis ?"
+    answers:
+      A: "La cochenille"
+      B: "Le kermès"
+      C: "L'abeille"
+      D: "Le ver à soie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which insect produces the lac used in varnishes?"
+        answers:
+          A: "The cochineal"
+          B: "The kermes"
+          C: "The bee"
+          D: "The silkworm"
+    difficulty: EXPERT
+  - text: "Combien de pattes possède une araignée ?"
+    answers:
+      A: "6"
+      B: "10"
+      C: "8"
+      D: "12"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many legs does a spider have?"
+        answers:
+          A: "6"
+          B: "10"
+          C: "8"
+          D: "12"
     difficulty: EASY
+  - text: "Quel insecte est célèbre pour produire du miel ?"
+    answers:
+      A: "L'abeille"
+      B: "Le frelon"
+      C: "La guêpe"
+      D: "Le bourdon"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which insect is famous for producing honey?"
+        answers:
+          A: "The bee"
+          B: "The hornet"
+          C: "The wasp"
+          D: "The bumblebee"
+    difficulty: EASY
+  - text: "Quel papillon aux ailes jaunes et noires, posé sur une fleur, voit-on sur cette image ?"
+    answers:
+      A: "Paon-du-jour"
+      B: "Citron"
+      C: "Vulcain"
+      D: "Flambé"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which butterfly with yellow and black wings, resting on a flower, can be seen in this image?"
+        answers:
+          A: "Peacock"
+          B: "Brimstone"
+          C: "Red admiral"
+          D: "Scarce swallowtail"
+    difficulty: EXPERT
+  - text: "Combien de pattes possède un insecte adulte ?"
+    answers:
+      A: "4"
+      B: "6"
+      C: "8"
+      D: "10"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many legs does an adult insect have?"
+        answers:
+          A: "4"
+          B: "6"
+          C: "8"
+          D: "10"
+    difficulty: EASY
+  - text: "Quel insecte rouge à points noirs est posé sur cette feuille ?"
+    answers:
+      A: "Punaise"
+      B: "Coccinelle"
+      C: "Chrysomèle"
+      D: "Gendarme"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which red insect with black spots is on this leaf?"
+        answers:
+          A: "Stink bug"
+          B: "Ladybug"
+          C: "Leaf beetle"
+          D: "Firebug"
+    difficulty: MEDIUM
   - text: "Quel insecte femelle pique pour sucer le sang ?"
     answers:
-      A: "Papillon"
-      B: "Coccinelle"
-      C: "Moustique"
-      D: "Libellule"
-    correctAnswer: C
+      A: "La mouche"
+      B: "La fourmi"
+      C: "L'abeille"
+      D: "Le moustique"
+    correctAnswer: D
     translations:
       en:
         text: "Which female insect bites to suck blood?"
         answers:
-          A: "Butterfly"
-          B: "Ladybug"
-          C: "Mosquito"
-          D: "Dragonfly"
-    difficulty: EASY
+          A: "The fly"
+          B: "The ant"
+          C: "The bee"
+          D: "The mosquito"
+    difficulty: MEDIUM
   - text: "Quel insecte vit en colonie organisée autour d'une reine ?"
     answers:
-      A: "Fourmi"
-      B: "Sauterelle"
-      C: "Mouche"
-      D: "Papillon"
-    correctAnswer: A
+      A: "Le moustique"
+      B: "Le papillon"
+      C: "La libellule"
+      D: "Le termite"
+    correctAnswer: D
     translations:
       en:
         text: "Which insect lives in a colony organized around a queen?"
         answers:
-          A: "Ant"
-          B: "Grasshopper"
-          C: "Fly"
-          D: "Butterfly"
+          A: "The mosquito"
+          B: "The butterfly"
+          C: "The dragonfly"
+          D: "The termite"
     difficulty: EASY
   - text: "Quel insecte émet une lumière visible la nuit ?"
     answers:
-      A: "Moustique"
-      B: "Grillon"
-      C: "Luciole"
-      D: "Abeille"
-    correctAnswer: C
+      A: "Le ver luisant"
+      B: "La luciole"
+      C: "Le lampyre"
+      D: "Toutes ces réponses"
+    correctAnswer: D
     translations:
       en:
         text: "Which insect emits visible light at night?"
         answers:
-          A: "Mosquito"
-          B: "Cricket"
-          C: "Firefly"
-          D: "Bee"
+          A: "The glowworm"
+          B: "The firefly"
+          C: "The lampyrid"
+          D: "All of these answers"
     difficulty: EASY
   - text: "Quel insecte est réputé pour ses bonds et son chant ?"
     answers:
-      A: "Fourmi"
-      B: "Sauterelle"
-      C: "Mouche"
-      D: "Termite"
-    correctAnswer: B
+      A: "Le grillon"
+      B: "La sauterelle"
+      C: "Toutes ces réponses"
+      D: "Le criquet"
+    correctAnswer: C
     translations:
       en:
-        text: "Which insect is known for its jumps and its song?"
+        text: "Which insect is known for its leaps and its song?"
         answers:
-          A: "Ant"
-          B: "Grasshopper"
-          C: "Fly"
-          D: "Termite"
-    difficulty: EASY
+          A: "The cricket"
+          B: "The bush cricket"
+          C: "All of these answers"
+          D: "The locust"
+    difficulty: MEDIUM
   - text: "Quel animal à huit pattes tisse une toile pour capturer ses proies ?"
     answers:
-      A: "Araignée"
-      B: "Fourmi"
-      C: "Libellule"
-      D: "Mille-pattes"
+      A: "L'araignée"
+      B: "Le scorpion"
+      C: "Le mille-pattes"
+      D: "Le faucheur"
     correctAnswer: A
     translations:
       en:
         text: "Which eight-legged animal weaves a web to catch its prey?"
         answers:
-          A: "Spider"
-          B: "Ant"
-          C: "Dragonfly"
-          D: "Centipede"
+          A: "The spider"
+          B: "The scorpion"
+          C: "The centipede"
+          D: "The harvestman"
     difficulty: EASY
   - text: "À quel groupe d'animaux appartient le scorpion ?"
     answers:
-      A: "Insectes"
-      B: "Crustacés"
-      C: "Myriapodes"
-      D: "Arachnides"
-    correctAnswer: D
+      A: "Les insectes"
+      B: "Les crustacés"
+      C: "Les arachnides"
+      D: "Les myriapodes"
+    correctAnswer: C
     translations:
       en:
         text: "To which group of animals does the scorpion belong?"
         answers:
           A: "Insects"
           B: "Crustaceans"
-          C: "Myriapods"
-          D: "Arachnids"
-    difficulty: EASY
+          C: "Arachnids"
+          D: "Myriapods"
+    difficulty: MEDIUM
   - text: "De quoi se nourrit principalement la coccinelle ?"
     answers:
-      A: "Sang"
-      B: "Nectar"
-      C: "Pucerons"
-      D: "Bois"
-    correctAnswer: C
+      A: "De pucerons"
+      B: "De feuilles"
+      C: "De nectar"
+      D: "D'autres insectes"
+    correctAnswer: A
     translations:
       en:
         text: "What does the ladybug mainly feed on?"
         answers:
-          A: "Blood"
-          B: "Nectar"
-          C: "Aphids"
-          D: "Wood"
-    difficulty: EASY
+          A: "Aphids"
+          B: "Leaves"
+          C: "Nectar"
+          D: "Other insects"
+    difficulty: MEDIUM
   - text: "Quel insecte butine de fleur en fleur pour se nourrir ?"
     answers:
-      A: "Moustique"
-      B: "Punaise"
-      C: "Pou"
-      D: "Papillon"
-    correctAnswer: D
+      A: "Le papillon"
+      B: "La fourmi"
+      C: "La mante religieuse"
+      D: "Le perce-oreille"
+    correctAnswer: A
     translations:
       en:
         text: "Which insect flits from flower to flower to feed?"
         answers:
-          A: "Mosquito"
-          B: "Stink bug"
-          C: "Louse"
-          D: "Butterfly"
+          A: "The butterfly"
+          B: "The ant"
+          C: "The praying mantis"
+          D: "The earwig"
     difficulty: EASY
   - text: "Combien de paires d'ailes possède une abeille ?"
+    answers:
+      A: "2"
+      B: "1"
+      C: "3"
+      D: "4"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many pairs of wings does a bee have?"
+        answers:
+          A: "2"
+          B: "1"
+          C: "3"
+          D: "4"
+    difficulty: HARD
+  - text: "Quel est le nom scientifique de la piqûre de l'abeille qui reste plantée dans la peau ?"
+    answers:
+      A: "Dard"
+      B: "Stylet"
+      C: "Fouet"
+      D: "Aiguillon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the scientific name for the bee's sting that stays stuck in the skin?"
+        answers:
+          A: "Dart"
+          B: "Stylet"
+          C: "Whip"
+          D: "Stinger"
+    difficulty: EXPERT
+  - text: "Combien de segments compte l'abdomen d'un insecte typique ?"
+    answers:
+      A: "5"
+      B: "8"
+      C: "11"
+      D: "15"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many segments does the abdomen of a typical insect have?"
+        answers:
+          A: "5"
+          B: "8"
+          C: "11"
+          D: "15"
+    difficulty: HARD
+  - text: "Quel insecte est capable de produire un jet de liquide chaud à plus de 100 °C pour se défendre ?"
+    answers:
+      A: "Le frelon asiatique"
+      B: "La fourmi rousse"
+      C: "Le bombardier"
+      D: "La punaise verte"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which insect can produce a jet of hot liquid over 100 °C to defend itself?"
+        answers:
+          A: "The Asian hornet"
+          B: "The red ant"
+          C: "The bombardier beetle"
+          D: "The green stink bug"
+    difficulty: EXPERT
+  - text: "Quel ordre d'insectes est caractérisé par des ailes antérieures transformées en élytres ?"
+    answers:
+      A: "Lépidoptères"
+      B: "Coléoptères"
+      C: "Hyménoptères"
+      D: "Diptères"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which order of insects is characterized by forewings modified into elytra?"
+        answers:
+          A: "Lepidoptera"
+          B: "Coleoptera"
+          C: "Hymenoptera"
+          D: "Diptera"
+    difficulty: HARD
+  - text: "Quel est le nom de la structure en forme de tube qui permet à l'araignée de produire sa toile ?"
+    answers:
+      A: "Filament"
+      B: "Glande séricigène"
+      C: "Soie"
+      D: "Filière"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the tube-shaped structure that allows a spider to produce its web?"
+        answers:
+          A: "Filament"
+          B: "Silk gland"
+          C: "Silk"
+          D: "Spinneret"
+    difficulty: HARD
+  - text: "Combien de mues une chenille de papillon effectue-t-elle généralement avant de se transformer en chrysalide ?"
+    answers:
+      A: "4"
+      B: "3"
+      C: "2"
+      D: "6"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many molts does a butterfly caterpillar usually go through before transforming into a chrysalis?"
+        answers:
+          A: "4"
+          B: "3"
+          C: "2"
+          D: "6"
+    difficulty: EXPERT
+  - text: "Quel insecte est connu pour avoir le vol le plus rapide, atteignant jusqu'à 60 km/h ?"
+    answers:
+      A: "L'abeille charpentière"
+      B: "Le papillon monarque"
+      C: "La libellule"
+      D: "Le taon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which insect is known for having the fastest flight, reaching up to 60 km/h?"
+        answers:
+          A: "The carpenter bee"
+          B: "The monarch butterfly"
+          C: "The dragonfly"
+          D: "The horsefly"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'organe sensoriel des insectes qui leur permet de détecter les phéromones ?"
+    answers:
+      A: "Antenne"
+      B: "Sensille"
+      C: "Palpe"
+      D: "Tarse"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the sensory organ of insects that allows them to detect pheromones?"
+        answers:
+          A: "Antenna"
+          B: "Sensillum"
+          C: "Palp"
+          D: "Tarsus"
+    difficulty: EXPERT
+  - text: "Quel insecte est un parasite qui pond ses œufs dans le corps d'autres insectes, souvent des chenilles ?"
+    answers:
+      A: "La guêpe parasitoïde"
+      B: "Le perce-oreille"
+      C: "La mante religieuse"
+      D: "Le carabe"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which insect is a parasite that lays its eggs in the bodies of other insects, often caterpillars?"
+        answers:
+          A: "The parasitoid wasp"
+          B: "The earwig"
+          C: "The praying mantis"
+          D: "The ground beetle"
+    difficulty: HARD
+  - text: "Quel est le nom du stade de repos entre la larve et l'adulte chez les lépidoptères ?"
+    answers:
+      A: "Nymphe"
+      B: "Chrysalide"
+      C: "Pupe"
+      D: "Cocon"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the resting stage between larva and adult in lepidopterans?"
+        answers:
+          A: "Nymph"
+          B: "Chrysalis"
+          C: "Pupa"
+          D: "Cocoon"
+    difficulty: HARD
+  - text: "Combien de pattes possède une mante religieuse ?"
+    answers:
+      A: "4"
+      B: "10"
+      C: "8"
+      D: "6"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many legs does a praying mantis have?"
+        answers:
+          A: "4"
+          B: "10"
+          C: "8"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "Quel insecte est capable de produire un son strident en frottant ses ailes postérieures contre ses ailes antérieures ?"
+    answers:
+      A: "Le grillon"
+      B: "Le criquet"
+      C: "La cigale"
+      D: "La sauterelle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which insect is capable of producing a strident sound by rubbing its hind wings against its forewings?"
+        answers:
+          A: "The cricket"
+          B: "The locust"
+          C: "The cicada"
+          D: "The grasshopper"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la substance blanche et cireuse qui recouvre le corps des pucerons ?"
+    answers:
+      A: "Miellat"
+      B: "Cire"
+      C: "Soie"
+      D: "Chitine"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the white, waxy substance that covers the bodies of aphids?"
+        answers:
+          A: "Honeydew"
+          B: "Wax"
+          C: "Silk"
+          D: "Chitin"
+    difficulty: EXPERT
+  - text: "Quel ordre d'insectes comprend les fourmis, les abeilles et les guêpes ?"
+    answers:
+      A: "Isoptères"
+      B: "Hyménoptères"
+      C: "Diptères"
+      D: "Coléoptères"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which order of insects includes ants, bees, and wasps?"
+        answers:
+          A: "Isoptera"
+          B: "Hymenoptera"
+          C: "Diptera"
+          D: "Coleoptera"
+    difficulty: MEDIUM
+  - text: "Quel insecte est connu pour sa capacité à marcher sur les plafonds grâce à des poils adhésifs ?"
+    answers:
+      A: "La fourmi"
+      B: "Le cafard"
+      C: "La mouche"
+      D: "L'araignée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which insect is known for its ability to walk on ceilings thanks to adhesive hairs?"
+        answers:
+          A: "The ant"
+          B: "The cockroach"
+          C: "The fly"
+          D: "The spider"
+    difficulty: MEDIUM
+  - text: "Combien de paires d'ailes possède un papillon de nuit (hétérocère) ?"
     answers:
       A: "1"
       B: "4"
@@ -226,782 +914,94 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "How many pairs of wings does a bee have?"
+        text: "How many pairs of wings does a moth (heteroceran) have?"
         answers:
           A: "1"
           B: "4"
           C: "3"
           D: "2"
-    difficulty: MEDIUM
-  - text: "Quel insecte est considéré comme le plus rapide en vol ?"
+    difficulty: HARD
+  - text: "Quel est le nom du phénomène où les abeilles dansent pour indiquer la direction et la distance d'une source de nourriture ?"
     answers:
-      A: "Abeille"
-      B: "Papillon"
-      C: "Mouche"
-      D: "Libellule"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect is considered the fastest in flight?"
-        answers:
-          A: "Bee"
-          B: "Butterfly"
-          C: "Fly"
-          D: "Dragonfly"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on la larve du papillon ?"
-    answers:
-      A: "Chenille"
-      B: "Nymphe"
-      C: "Asticot"
-      D: "Têtard"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the larva of a butterfly called?"
-        answers:
-          A: "Caterpillar"
-          B: "Pupa"
-          C: "Maggot"
-          D: "Tadpole"
-    difficulty: MEDIUM
-  - text: "Quel insecte communique principalement par phéromones ?"
-    answers:
-      A: "Fourmi"
-      B: "Libellule"
-      C: "Papillon"
-      D: "Sauterelle"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which insect communicates mainly through pheromones?"
-        answers:
-          A: "Ant"
-          B: "Dragonfly"
-          C: "Butterfly"
-          D: "Grasshopper"
-    difficulty: MEDIUM
-  - text: "Quel insecte vit à l'état adulte seulement quelques heures à quelques jours ?"
-    answers:
-      A: "Abeille"
-      B: "Coccinelle"
-      C: "Fourmi"
-      D: "Éphémère"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect lives as an adult for only a few hours to a few days?"
-        answers:
-          A: "Bee"
-          B: "Ladybug"
-          C: "Ant"
-          D: "Mayfly"
-    difficulty: MEDIUM
-  - text: "À quel ordre appartient la coccinelle ?"
-    answers:
-      A: "Coléoptères"
-      B: "Lépidoptères"
-      C: "Diptères"
-      D: "Hyménoptères"
-    correctAnswer: A
-    translations:
-      en:
-        text: "To which order does the ladybug belong?"
-        answers:
-          A: "Coleoptera"
-          B: "Lepidoptera"
-          C: "Diptera"
-          D: "Hymenoptera"
-    difficulty: MEDIUM
-  - text: "Quel insecte peut se déplacer à la surface de l'eau ?"
-    answers:
-      A: "Fourmi"
-      B: "Abeille"
-      C: "Gerris"
-      D: "Termite"
+      A: "Danse en rond"
+      B: "Danse en huit"
+      C: "Danse frétillante"
+      D: "Danse vibratoire"
     correctAnswer: C
     translations:
       en:
-        text: "Which insect can move on the surface of water?"
+        text: "What is the name of the phenomenon in which bees dance to indicate the direction and distance of a food source?"
         answers:
-          A: "Ant"
-          B: "Bee"
-          C: "Water strider"
-          D: "Termite"
+          A: "Round dance"
+          B: "Figure-eight dance"
+          C: "Waggle dance"
+          D: "Vibratory dance"
+    difficulty: HARD
+  - text: "Quel insecte est un prédateur qui capture ses proies avec ses pattes antérieures repliées comme des lames de couteau ?"
+    answers:
+      A: "La libellule"
+      B: "Le scorpion"
+      C: "La mante religieuse"
+      D: "L'araignée"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which insect is a predator that catches its prey with its front legs folded like knife blades?"
+        answers:
+          A: "The dragonfly"
+          B: "The scorpion"
+          C: "The praying mantis"
+          D: "The spider"
     difficulty: MEDIUM
-  - text: "Quel insecte produit la soie utilisée en textile ?"
+  - text: "Quel est le nom de la cuticule rigide qui recouvre le corps des insectes ?"
     answers:
-      A: "Abeille"
-      B: "Bombyx du mûrier"
-      C: "Fourmi"
-      D: "Araignée"
-    correctAnswer: B
+      A: "Épiderme"
+      B: "Chitine"
+      C: "Exosquelette"
+      D: "Sclérite"
+    correctAnswer: C
     translations:
       en:
-        text: "Which insect produces silk used in textiles?"
+        text: "What is the name of the rigid cuticle that covers the bodies of insects?"
         answers:
-          A: "Bee"
-          B: "Silkworm"
-          C: "Ant"
-          D: "Spider"
+          A: "Epidermis"
+          B: "Chitin"
+          C: "Exoskeleton"
+          D: "Sclerite"
     difficulty: MEDIUM
-  - text: "Combien de pattes possède un mille-pattes ?"
+  - text: "Quel insecte est capable de survivre dans des environnements extrêmes, y compris dans l'espace ?"
     answers:
-      A: "Un nombre pair variable selon les segments"
-      B: "Exactement 1000"
-      C: "Toujours 100"
-      D: "8"
+      A: "Le tardigrade"
+      B: "La fourmi"
+      C: "Le coléoptère"
+      D: "La mouche"
     correctAnswer: A
     translations:
       en:
-        text: "How many legs does a millipede have?"
+        text: "Which insect is capable of surviving in extreme environments, including in space?"
         answers:
-          A: "A variable even number depending on segments"
-          B: "Exactly 1000"
-          C: "Always 100"
-          D: "8"
-    difficulty: MEDIUM
-  - text: "Quel insecte construit de grandes termitières ?"
-    answers:
-      A: "Fourmi"
-      B: "Abeille"
-      C: "Termite"
-      D: "Guêpe"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which insect builds large termite mounds?"
-        answers:
-          A: "Ant"
-          B: "Bee"
-          C: "Termite"
-          D: "Wasp"
-    difficulty: MEDIUM
-  - text: "Combien de parties compte le corps d'un insecte ?"
-    answers:
-      A: "2"
-      B: "5"
-      C: "4"
-      D: "3"
-    correctAnswer: D
-    translations:
-      en:
-        text: "How many parts does an insect's body have?"
-        answers:
-          A: "2"
-          B: "5"
-          C: "4"
-          D: "3"
-    difficulty: MEDIUM
-  - text: "Quel insecte est le principal pollinisateur des cultures ?"
-    answers:
-      A: "Moustique"
-      B: "Abeille"
-      C: "Punaise"
-      D: "Criquet"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which insect is the main pollinator of crops?"
-        answers:
-          A: "Mosquito"
-          B: "Bee"
-          C: "Bug"
-          D: "Locust"
-    difficulty: MEDIUM
-  - text: "À quel ordre appartiennent les abeilles et les guêpes ?"
-    answers:
-      A: "Diptères"
-      B: "Hyménoptères"
-      C: "Lépidoptères"
-      D: "Coléoptères"
-    correctAnswer: B
-    translations:
-      en:
-        text: "To which order do bees and wasps belong?"
-        answers:
-          A: "Diptera"
-          B: "Hymenoptera"
-          C: "Lepidoptera"
-          D: "Coleoptera"
+          A: "The tardigrade"
+          B: "The ant"
+          C: "The beetle"
+          D: "The fly"
     difficulty: HARD
-  - text: "Combien d'yeux possède généralement une araignée ?"
-    answers:
-      A: "2"
-      B: "8"
-      C: "6"
-      D: "4"
-    correctAnswer: B
-    translations:
-      en:
-        text: "How many eyes does a spider generally have?"
-        answers:
-          A: "2"
-          B: "8"
-          C: "6"
-          D: "4"
-    difficulty: HARD
-  - text: "Quel ordre d'insectes possède des élytres ?"
-    answers:
-      A: "Diptères"
-      B: "Lépidoptères"
-      C: "Coléoptères"
-      D: "Odonates"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which order of insects has elytra?"
-        answers:
-          A: "Diptera"
-          B: "Lepidoptera"
-          C: "Coleoptera"
-          D: "Odonata"
-    difficulty: HARD
-  - text: "Quel insecte pratique couramment la parthénogenèse ?"
-    answers:
-      A: "Puceron"
-      B: "Papillon"
-      C: "Libellule"
-      D: "Fourmi"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which insect commonly practices parthenogenesis?"
-        answers:
-          A: "Aphid"
-          B: "Butterfly"
-          C: "Dragonfly"
-          D: "Ant"
-    difficulty: HARD
-  - text: "Comment appelle-t-on le stade de repos des diptères avant l'adulte ?"
-    answers:
-      A: "Nymphe"
-      B: "Pupe"
-      C: "Larve"
-      D: "Imago"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the resting stage of dipterans before adulthood called?"
-        answers:
-          A: "Nymph"
-          B: "Pupa"
-          C: "Larva"
-          D: "Imago"
-    difficulty: HARD
-  - text: "À quel ordre appartient la punaise verte ?"
-    answers:
-      A: "Coléoptères"
-      B: "Hémiptères"
-      C: "Hyménoptères"
-      D: "Diptères"
-    correctAnswer: B
-    translations:
-      en:
-        text: "To which order does the green stink bug belong?"
-        answers:
-          A: "Coleoptera"
-          B: "Hemiptera"
-          C: "Hymenoptera"
-          D: "Diptera"
-    difficulty: HARD
-  - text: "Combien de paires d'ailes fonctionnelles possèdent les diptères ?"
-    answers:
-      A: "0"
-      B: "1"
-      C: "2"
-      D: "3"
-    correctAnswer: B
-    translations:
-      en:
-        text: "How many pairs of functional wings do Diptera have?"
-        answers:
-          A: "0"
-          B: "1"
-          C: "2"
-          D: "3"
-    difficulty: HARD
-  - text: "Comment se nomme la larve aquatique de la libellule ?"
-    answers:
-      A: "Têtard"
-      B: "Asticot"
-      C: "Ver"
-      D: "Naïade"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the aquatic larva of the dragonfly called?"
-        answers:
-          A: "Tadpole"
-          B: "Maggot"
-          C: "Worm"
-          D: "Naiad"
-    difficulty: HARD
-  - text: "Quel type de pièces buccales possède un papillon adulte ?"
-    answers:
-      A: "Broyeur"
-      B: "Piqueur-suceur"
-      C: "Lécheur"
-      D: "Suceur-spiralé"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What type of mouthparts does an adult butterfly have?"
-        answers:
-          A: "Chewing"
-          B: "Piercing-sucking"
-          C: "Sponging"
-          D: "Siphoning"
-    difficulty: HARD
-  - text: "Quel insecte est un hémiptère suceur de sève ?"
-    answers:
-      A: "Mouche"
-      B: "Coccinelle"
-      C: "Abeille"
-      D: "Puceron"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect is a sap-sucking hemipteran?"
-        answers:
-          A: "Fly"
-          B: "Ladybug"
-          C: "Bee"
-          D: "Aphid"
-    difficulty: HARD
-  - text: "Quel est le nom de l'ordre des libellules et des demoiselles ?"
-    answers:
-      A: "Diptères"
-      B: "Orthoptères"
-      C: "Odonates"
-      D: "Hémiptères"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the name of the order of dragonflies and damselflies?"
-        answers:
-          A: "Diptera"
-          B: "Orthoptera"
-          C: "Odonata"
-          D: "Hemiptera"
-    difficulty: HARD
-  - text: "Quel insecte est utilisé par les entomologistes pour estimer l'heure d'un décès ?"
-    answers:
-      A: "Mouche verte"
-      B: "Fourmi"
-      C: "Papillon"
-      D: "Abeille"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which insect is used by entomologists to estimate the time of death?"
-        answers:
-          A: "Green bottle fly"
-          B: "Ant"
-          C: "Butterfly"
-          D: "Bee"
-    difficulty: HARD
-  - text: "Quel organe permet aux grillons de percevoir les sons ?"
-    answers:
-      A: "Les antennes"
-      B: "Les yeux composés"
-      C: "Un tympan sur les pattes avant"
-      D: "Les palpes"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which organ allows crickets to perceive sounds?"
-        answers:
-          A: "Antennae"
-          B: "Compound eyes"
-          C: "A tympanum on the front legs"
-          D: "Palps"
-    difficulty: HARD
-  - text: "Quel organe des diptères remplace la seconde paire d'ailes ?"
-    answers:
-      A: "Haltères"
-      B: "Cerques"
-      C: "Palpes"
-      D: "Élytres"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which organ of Diptera replaces the second pair of wings?"
-        answers:
-          A: "Halteres"
-          B: "Cerci"
-          C: "Palps"
-          D: "Elytra"
-    difficulty: EXPERT
-  - text: "Quelle hormone déclenche la mue chez les insectes ?"
-    answers:
-      A: "Ecdysone"
-      B: "Insuline"
-      C: "Adrénaline"
-      D: "Hormone juvénile"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which hormone triggers molting in insects?"
-        answers:
-          A: "Ecdysone"
-          B: "Insulin"
-          C: "Adrenaline"
-          D: "Juvenile hormone"
-    difficulty: EXPERT
-  - text: "À quel ordre appartiennent les phasmes ?"
-    answers:
-      A: "Phasmatodea"
-      B: "Mantodea"
-      C: "Blattodea"
-      D: "Orthoptères"
-    correctAnswer: A
-    translations:
-      en:
-        text: "To which order do stick insects belong?"
-        answers:
-          A: "Phasmatodea"
-          B: "Mantodea"
-          C: "Blattodea"
-          D: "Orthoptera"
-    difficulty: EXPERT
-  - text: "Quel est l'ordre d'insectes le plus riche en espèces ?"
-    answers:
-      A: "Hyménoptères"
-      B: "Lépidoptères"
-      C: "Diptères"
-      D: "Coléoptères"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect order is the richest in species?"
-        answers:
-          A: "Hymenoptera"
-          B: "Lepidoptera"
-          C: "Diptera"
-          D: "Coleoptera"
-    difficulty: EXPERT
-  - text: "Quel insecte détient le record du saut le plus long par rapport à sa taille ?"
-    answers:
-      A: "Sauterelle"
-      B: "Grillon"
-      C: "Puce"
-      D: "Criquet"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which insect holds the record for the longest jump relative to its size?"
-        answers:
-          A: "Grasshopper"
-          B: "Cricket"
-          C: "Flea"
-          D: "Locust"
-    difficulty: EXPERT
-  - text: "Comment appelle-t-on l'enveloppe protectrice de la nymphe chez les diptères ?"
-    answers:
-      A: "Cocon"
-      B: "Chrysalide"
-      C: "Puparium"
-      D: "Oothèque"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the protective casing of the pupa in Diptera called?"
-        answers:
-          A: "Cocoon"
-          B: "Chrysalis"
-          C: "Puparium"
-          D: "Ootheca"
-    difficulty: EXPERT
-  - text: "Quel insecte donne naissance à des larves déjà formées, sans pondre d'œufs ?"
-    answers:
-      A: "Papillon"
-      B: "Puceron"
-      C: "Libellule"
-      D: "Coccinelle"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which insect gives birth to already formed larvae, without laying eggs?"
-        answers:
-          A: "Butterfly"
-          B: "Aphid"
-          C: "Dragonfly"
-          D: "Ladybug"
-    difficulty: EXPERT
-  - text: "Quelle famille d'araignées chasse sans toile en bondissant sur ses proies ?"
-    answers:
-      A: "Araneidae"
-      B: "Theridiidae"
-      C: "Agelenidae"
-      D: "Salticidae"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which family of spiders hunts without a web by pouncing on its prey?"
-        answers:
-          A: "Araneidae"
-          B: "Theridiidae"
-          C: "Agelenidae"
-          D: "Salticidae"
-    difficulty: EXPERT
-  - text: "Quel est le nom des structures respiratoires internes des insectes ?"
-    answers:
-      A: "Trachées"
-      B: "Branchies"
-      C: "Sacs aériens"
-      D: "Poumons"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the name of the internal respiratory structures of insects?"
-        answers:
-          A: "Tracheae"
-          B: "Gills"
-          C: "Air sacs"
-          D: "Lungs"
-    difficulty: EXPERT
-  - text: "Quel moustique est le principal vecteur du paludisme ?"
-    answers:
-      A: "Culex"
-      B: "Aedes"
-      C: "Anophèle"
-      D: "Culiseta"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which mosquito is the main vector of malaria?"
-        answers:
-          A: "Culex"
-          B: "Aedes"
-          C: "Anopheles"
-          D: "Culiseta"
-    difficulty: EXPERT
-  - text: "Comment nomme-t-on la dernière mue d'un insecte avant l'état adulte ?"
-    answers:
-      A: "Mue larvaire"
-      B: "Mue imaginale"
-      C: "Mue nymphale"
-      D: "Mue embryonnaire"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the final molt of an insect before adulthood called?"
-        answers:
-          A: "Larval molt"
-          B: "Imaginal molt"
-          C: "Nymphal molt"
-          D: "Embryonic molt"
-    difficulty: EXPERT
-  - text: "De quoi est composé l'œil de la libellule, réputé pour sa performance visuelle ?"
-    answers:
-      A: "De plusieurs milliers d'ommatidies"
-      B: "D'un cristallin unique"
-      C: "De 6 ommatidies"
-      D: "De 100 ommatidies"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What makes up the dragonfly's eye, renowned for its visual performance?"
-        answers:
-          A: "Several thousand ommatidia"
-          B: "A single lens"
-          C: "6 ommatidia"
-          D: "100 ommatidia"
-    difficulty: EXPERT
-  - text: "Quel insecte fabrique du miel dans une ruche ?"
+  - text: "Quel insecte possède le plus grand nombre de chromosomes connu chez les animaux ?"
     answers:
       A: "La fourmi"
       B: "L'abeille"
-      C: "Le moustique"
-      D: "La guêpe"
-    correctAnswer: B
+      C: "La mante religieuse"
+      D: "Le papillon Lysandra atlantica"
+    correctAnswer: D
     translations:
       en:
-        text: "Which insect makes honey in a hive?"
+        text: "Which insect has the highest known number of chromosomes among animals?"
         answers:
           A: "The ant"
           B: "The bee"
-          C: "The mosquito"
-          D: "The wasp"
-    difficulty: EASY
-  - text: "Quel insecte vit en colonie dans une fourmilière ?"
-    answers:
-      A: "La sauterelle"
-      B: "Le papillon"
-      C: "La mouche"
-      D: "La fourmi"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect lives in a colony in an anthill?"
-        answers:
-          A: "The grasshopper"
-          B: "The butterfly"
-          C: "The fly"
-          D: "The ant"
-    difficulty: EASY
-  - text: "Quel insecte émet une lumière verte dans la nuit d'été ?"
-    answers:
-      A: "Le grillon"
-      B: "La luciole"
-      C: "La coccinelle"
-      D: "La cigale"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which insect emits a green light on a summer night?"
-        answers:
-          A: "The cricket"
-          B: "The firefly"
-          C: "The ladybug"
-          D: "The cicada"
-    difficulty: EASY
-  - text: "Quel insecte à points noirs sur fond rouge est un allié du jardin ?"
-    answers:
-      A: "Le doryphore"
-      B: "La coccinelle"
-      C: "Le criquet"
-      D: "La punaise"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which insect with black spots on a red background is a garden ally?"
-        answers:
-          A: "The Colorado potato beetle"
-          B: "The ladybug"
-          C: "The locust"
-          D: "The stink bug"
-    difficulty: EASY
-  - text: "Quel insecte pique pour se nourrir de sang, surtout en été ?"
-    answers:
-      A: "Le papillon"
-      B: "Le moustique"
-      C: "La libellule"
-      D: "La fourmi"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which insect bites to feed on blood, especially in summer?"
-        answers:
-          A: "The butterfly"
-          B: "The mosquito"
-          C: "The dragonfly"
-          D: "The ant"
-    difficulty: EASY
-  - text: "Quel insecte méditerranéen fait entendre son chant strident en été ?"
-    answers:
-      A: "Le bourdon"
-      B: "Le phasme"
-      C: "La cigale"
-      D: "Le termite"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Mediterranean insect makes its shrill song heard in summer?"
-        answers:
-          A: "The bumblebee"
-          B: "The stick insect"
-          C: "The cicada"
-          D: "The termite"
-    difficulty: EASY
-  - text: "Quel insecte se rassemble en essaims qui ravagent les cultures ?"
-    answers:
-      A: "La libellule"
-      B: "La luciole"
-      C: "La coccinelle"
-      D: "Le criquet"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect gathers in swarms that devastate crops?"
-        answers:
-          A: "The dragonfly"
-          B: "The firefly"
-          C: "The ladybug"
-          D: "The locust"
-    difficulty: EASY
-  - text: "Quel insecte noir et jaune construit un nid de papier ?"
-    answers:
-      A: "L'abeille"
-      B: "Le moustique"
-      C: "La guêpe"
-      D: "Le puceron"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which black and yellow insect builds a paper nest?"
-        answers:
-          A: "The bee"
-          B: "The mosquito"
-          C: "The wasp"
-          D: "The aphid"
-    difficulty: EASY
-  - text: "D'où vient la soie naturelle utilisée en textile ?"
-    answers:
-      A: "Du nid de guêpes"
-      B: "De la toile d'araignée"
-      C: "Du cocon du ver à soie"
-      D: "De la cire d'abeille"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Where does the natural silk used in textiles come from?"
-        answers:
-          A: "From the wasp's nest"
-          B: "From the spider's web"
-          C: "From the silkworm's cocoon"
-          D: "From beeswax"
-    difficulty: EASY
-  - text: "Quel insecte vert sauteur est très commun dans les prairies ?"
-    answers:
-      A: "La mante"
-      B: "La blatte"
-      C: "La sauterelle"
-      D: "Le perce-oreille"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which green jumping insect is very common in meadows?"
-        answers:
-          A: "The mantis"
-          B: "The cockroach"
-          C: "The grasshopper"
-          D: "The earwig"
-    difficulty: EASY
-  - text: "Quel insecte roule des boules de crottin avec ses pattes arrière ?"
-    answers:
-      A: "Le bousier"
-      B: "Le charançon"
-      C: "Le hanneton"
-      D: "Le lucane"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which insect rolls balls of dung with its hind legs?"
-        answers:
-          A: "The dung beetle"
-          B: "The weevil"
-          C: "The cockchafer"
-          D: "The stag beetle"
-    difficulty: EASY
-  - text: "Quel insecte vit dans une termitière ?"
-    answers:
-      A: "La mouche"
-      B: "Le frelon"
-      C: "Le pou"
-      D: "Le termite"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect lives in a termite mound?"
-        answers:
-          A: "The fly"
-          B: "The hornet"
-          C: "The louse"
-          D: "The termite"
-    difficulty: EASY
-  - text: "Quel insecte vert aux pattes avant repliées comme pour prier est photographié ici ?"
+          C: "The praying mantis"
+          D: "The butterfly Lysandra atlantica"
+    difficulty: EXPERT
+  - text: "Quel insecte vert prie les pattes repliées ?"
     imageUrl: wikipedia/nature/Mante_religieuse_FR_2012.jpg
     answers:
       A: "Le phasme"
@@ -1011,14 +1011,14 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which green insect with its front legs folded as if in prayer is photographed here?"
+        text: "Which green insect prays with its legs folded?"
         answers:
           A: "The stick insect"
           B: "The praying mantis"
           C: "The locust"
           D: "The grasshopper"
-    difficulty: MEDIUM
-  - text: "Quel insecte au corps allongé, visible sur cette image, ressemble à une brindille ?"
+    difficulty: EASY
+  - text: "Quel insecte ressemble à une brindille ?"
     imageUrl: wikipedia/nature/Indische_Stabschrecke_Carausius_morosus_2.jpg
     answers:
       A: "La mante religieuse"
@@ -1028,270 +1028,270 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "Which insect with an elongated body, visible in this image, looks like a twig?"
+        text: "Which insect looks like a twig?"
         answers:
           A: "The praying mantis"
           B: "The stick insect"
           C: "The stag beetle"
           D: "The water strider"
-    difficulty: MEDIUM
-  - text: "Quel coléoptère porte de grandes mandibules en forme de bois de cerf ?"
+    difficulty: EASY
+  - text: "Quel est le nom du stade larvaire des odonates (libellules) ?"
     answers:
-      A: "Le lucane cerf-volant"
-      B: "Le bousier"
-      C: "Le bombardier"
-      D: "Le doryphore"
+      A: "Naïade"
+      B: "Larve"
+      C: "Nymphe"
+      D: "Chenille"
     correctAnswer: A
     translations:
       en:
-        text: "Which beetle has large mandibles shaped like deer antlers?"
+        text: "What is the name of the larval stage of odonates (dragonflies)?"
         answers:
-          A: "The stag beetle"
-          B: "The dung beetle"
-          C: "The bombardier beetle"
-          D: "The Colorado potato beetle"
-    difficulty: MEDIUM
-  - text: "Quelle caste d'abeille pond les œufs dans la ruche ?"
+          A: "Naiad"
+          B: "Larva"
+          C: "Nymph"
+          D: "Caterpillar"
+    difficulty: HARD
+  - text: "Quel insecte possède des halteres, organes en forme de balancier ?"
     answers:
-      A: "La reine"
-      B: "L'ouvrière"
-      C: "Le faux-bourdon"
-      D: "La nourrice"
+      A: "Les diptères"
+      B: "Les coléoptères"
+      C: "Les hyménoptères"
+      D: "Les lépidoptères"
     correctAnswer: A
     translations:
       en:
-        text: "Which caste of bee lays eggs in the hive?"
+        text: "Which insect has halteres, organ shaped like a balancer?"
         answers:
-          A: "The queen"
-          B: "The worker"
-          C: "The drone"
-          D: "The nurse bee"
-    difficulty: MEDIUM
-  - text: "Que récoltent les abeilles sur les fleurs pour élaborer le miel ?"
+          A: "Diptera"
+          B: "Beetles"
+          C: "Hymenoptera"
+          D: "Lepidoptera"
+    difficulty: EXPERT
+  - text: "Combien d'ailes possède une mouche domestique ?"
     answers:
-      A: "Le pollen"
-      B: "La sève"
-      C: "La résine"
-      D: "Le nectar"
+      A: "4"
+      B: "0"
+      C: "6"
+      D: "2"
     correctAnswer: D
     translations:
       en:
-        text: "What do bees collect from flowers to make honey?"
+        text: "How many wings does a housefly have?"
         answers:
-          A: "Pollen"
-          B: "Sap"
-          C: "Resin"
-          D: "Nectar"
+          A: "4"
+          B: "0"
+          C: "6"
+          D: "2"
     difficulty: MEDIUM
-  - text: "Quel insecte glisse sur la surface de l'eau sans couler ?"
+  - text: "Quel est le nom de l'ordre auquel appartiennent les phasmes ?"
     answers:
-      A: "La demoiselle"
-      B: "Le gerris"
-      C: "Le dytique"
-      D: "Le moustique"
+      A: "Orthoptera"
+      B: "Phasmatodea"
+      C: "Mantodea"
+      D: "Blattodea"
     correctAnswer: B
     translations:
       en:
-        text: "Which insect glides on the water's surface without sinking?"
+        text: "What is the name of the order to which stick insects belong?"
         answers:
-          A: "The damselfly"
-          B: "The water strider"
-          C: "The diving beetle"
-          D: "The mosquito"
-    difficulty: MEDIUM
-  - text: "Quel insecte utile aux ailes transparentes et aux yeux dorés dévore les pucerons ?"
-    answers:
-      A: "La blatte"
-      B: "Le forficule"
-      C: "La chrysope"
-      D: "Le taon"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which beneficial insect with transparent wings and golden eyes devours aphids?"
-        answers:
-          A: "The cockroach"
-          B: "The earwig"
-          C: "The lacewing"
-          D: "The horsefly"
-    difficulty: MEDIUM
-  - text: "Quel coléoptère aux très longues antennes perfore le bois des charpentes ?"
-    answers:
-      A: "Le capricorne des maisons"
-      B: "La coccinelle"
-      C: "Le hanneton"
-      D: "Le doryphore"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which beetle with very long antennae bores into roof timbers?"
-        answers:
-          A: "The house longhorn beetle"
-          B: "The ladybug"
-          C: "The cockchafer"
-          D: "The Colorado potato beetle"
-    difficulty: MEDIUM
-  - text: "Quel produit des abeilles sert à colmater et désinfecter la ruche ?"
-    answers:
-      A: "La cire"
-      B: "La propolis"
-      C: "Le miellat"
-      D: "La gelée royale"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which bee product is used to seal and disinfect the hive?"
-        answers:
-          A: "Wax"
-          B: "Propolis"
-          C: "Honeydew"
-          D: "Royal jelly"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on l'endroit où sont installées les ruches ?"
-    answers:
-      A: "Le poulailler"
-      B: "La miellerie"
-      C: "Le rucher"
-      D: "L'écurie"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the place called where beehives are kept?"
-        answers:
-          A: "The chicken coop"
-          B: "The honey house"
-          C: "The apiary"
-          D: "The stable"
-    difficulty: MEDIUM
-  - text: "Quel insecte protège les pucerons pour se nourrir de leur miellat ?"
-    answers:
-      A: "La guêpe"
-      B: "La libellule"
-      C: "Le papillon"
-      D: "La fourmi"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which insect protects aphids to feed on their honeydew?"
-        answers:
-          A: "The wasp"
-          B: "The dragonfly"
-          C: "The butterfly"
-          D: "The ant"
-    difficulty: MEDIUM
-  - text: "Combien de temps vit un éphémère adulte ?"
-    answers:
-      A: "Environ un an"
-      B: "Environ un mois"
-      C: "Quelques heures à quelques jours"
-      D: "Environ dix ans"
-    correctAnswer: C
-    translations:
-      en:
-        text: "How long does an adult mayfly live?"
-        answers:
-          A: "About a year"
-          B: "About a month"
-          C: "A few hours to a few days"
-          D: "About ten years"
-    difficulty: MEDIUM
-  - text: "Quel insecte peut voler en marche arrière et rester sur place ?"
-    answers:
-      A: "La mouche"
-      B: "Le papillon"
-      C: "La libellule"
-      D: "L'abeille"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which insect can fly backwards and hover in place?"
-        answers:
-          A: "The fly"
-          B: "The butterfly"
-          C: "The dragonfly"
-          D: "The bee"
-    difficulty: MEDIUM
-  - text: "Quel insecte projette un jet chimique brûlant pour se défendre ?"
-    answers:
-      A: "Le lucane"
-      B: "Le scarabée bombardier"
-      C: "Le bousier"
-      D: "La mante"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which insect sprays a burning chemical jet to defend itself?"
-        answers:
-          A: "The stag beetle"
-          B: "The bombardier beetle"
-          C: "The dung beetle"
-          D: "The mantis"
+          A: "Orthoptera"
+          B: "Phasmatodea"
+          C: "Mantodea"
+          D: "Blattodea"
     difficulty: HARD
-  - text: "Quel papillon se camoufle en feuille morte, nervures comprises ?"
+  - text: "Quel insecte est capable de produire un son audible à plus de 100 décibels ?"
     answers:
-      A: "Le monarque"
-      B: "Le machaon"
-      C: "Le citron"
-      D: "Le Kallima"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which butterfly camouflages itself as a dead leaf, veins and all?"
-        answers:
-          A: "The monarch"
-          B: "The swallowtail"
-          C: "The brimstone"
-          D: "The Kallima"
-    difficulty: HARD
-  - text: "Quel papillon migre sur plusieurs milliers de kilomètres jusqu'au Mexique ?"
-    answers:
-      A: "Le paon du jour"
-      B: "Le vulcain"
-      C: "Le sphinx"
-      D: "Le monarque"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which butterfly migrates several thousand kilometers to Mexico?"
-        answers:
-          A: "The peacock butterfly"
-          B: "The red admiral"
-          C: "The sphinx moth"
-          D: "The monarch"
-    difficulty: HARD
-  - text: "Quel insecte peut rester jusqu'à dix-sept ans sous terre avant d'émerger ?"
-    answers:
-      A: "Le hanneton"
+      A: "Le criquet"
       B: "Le grillon"
-      C: "La courtilière"
-      D: "La cigale périodique"
-    correctAnswer: D
+      C: "La cigale"
+      D: "La sauterelle"
+    correctAnswer: C
     translations:
       en:
-        text: "Which insect can stay underground for up to seventeen years before emerging?"
+        text: "Which insect is capable of producing a sound audible at over 100 decibels?"
         answers:
-          A: "The cockchafer"
+          A: "The locust"
           B: "The cricket"
-          C: "The mole cricket"
-          D: "The periodical cicada"
-    difficulty: HARD
-  - text: "Comment nomme-t-on le mimétisme d'une espèce inoffensive qui imite une espèce dangereuse ?"
+          C: "The cicada"
+          D: "The grasshopper"
+    difficulty: EXPERT
+  - text: "Quelle est la durée de vie moyenne d'une abeille ouvrière en été ?"
     answers:
-      A: "Le mimétisme müllérien"
-      B: "Le mimétisme batésien"
-      C: "L'homochromie"
-      D: "L'aposématisme"
+      A: "4 à 6 semaines"
+      B: "1 à 2 semaines"
+      C: "2 à 3 jours"
+      D: "6 mois"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the average lifespan of a worker bee in summer?"
+        answers:
+          A: "4 to 6 weeks"
+          B: "1 to 2 weeks"
+          C: "2 to 3 days"
+          D: "6 months"
+    difficulty: HARD
+  - text: "Quel est l'insecte le plus rapide en vol horizontal ?"
+    answers:
+      A: "Le papillon monarque"
+      B: "La libellule"
+      C: "L'abeille"
+      D: "Le taon"
     correctAnswer: B
     translations:
       en:
-        text: "What is the mimicry of a harmless species imitating a dangerous one called?"
+        text: "Which is the fastest insect in horizontal flight?"
         answers:
-          A: "Müllerian mimicry"
-          B: "Batesian mimicry"
-          C: "Homochromy"
-          D: "Aposematism"
+          A: "The monarch butterfly"
+          B: "The dragonfly"
+          C: "The bee"
+          D: "The horsefly"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la substance qui compose principalement l'exosquelette des insectes ?"
+    answers:
+      A: "Cellulose"
+      B: "Kératine"
+      C: "Chitine"
+      D: "Collagène"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the substance that mainly makes up the exoskeleton of insects?"
+        answers:
+          A: "Cellulose"
+          B: "Keratin"
+          C: "Chitin"
+          D: "Collagen"
     difficulty: HARD
-  - text: "Quel insecte aux quatre ailes transparentes, posé sur une tige, est le plus rapide en vol ?"
+  - text: "Chez les abeilles, quel type de danse indique la direction et la distance d'une source de nourriture ?"
+    answers:
+      A: "Danse ronde"
+      B: "Danse en cercle"
+      C: "Danse en huit"
+      D: "Danse frétillante"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In bees, what type of dance indicates the direction and distance of a food source?"
+        answers:
+          A: "Round dance"
+          B: "Circle dance"
+          C: "Figure-eight dance"
+          D: "Waggle dance"
+    difficulty: HARD
+  - text: "Quel insecte est connu pour avoir un stade larvaire appelé \"ver de farine\" ?"
+    answers:
+      A: "Le charançon"
+      B: "Le doryphore"
+      C: "Le ténébrion"
+      D: "Le scarabée rhinocéros"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which insect is known for having a larval stage called \"mealworm\"?"
+        answers:
+          A: "The weevil"
+          B: "The Colorado potato beetle"
+          C: "The mealworm beetle"
+          D: "The rhinoceros beetle"
+    difficulty: HARD
+  - text: "Quel est le plus grand papillon du monde en termes d'envergure ?"
+    answers:
+      A: "Le machaon"
+      B: "Le monarque"
+      C: "L'attacus atlas"
+      D: "Le paon-du-jour"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the largest butterfly in the world in terms of wingspan?"
+        answers:
+          A: "The swallowtail"
+          B: "The monarch"
+          C: "The attacus atlas"
+          D: "The peacock butterfly"
+    difficulty: EXPERT
+  - text: "Quel ordre d'insectes est caractérisé par des ailes couvertes d'écailles ?"
+    answers:
+      A: "Coléoptères"
+      B: "Lépidoptères"
+      C: "Diptères"
+      D: "Hyménoptères"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which order of insects is characterized by wings covered in scales?"
+        answers:
+          A: "Coleoptera"
+          B: "Lepidoptera"
+          C: "Diptera"
+          D: "Hymenoptera"
+    difficulty: MEDIUM
+  - text: "Combien de pattes possède une larve d'insecte ?"
+    answers:
+      A: "6"
+      B: "8"
+      C: "0"
+      D: "Variable selon l'espèce"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many legs does an insect larva have?"
+        answers:
+          A: "6"
+          B: "8"
+          C: "0"
+          D: "Varies by species"
+    difficulty: HARD
+  - text: "Quel insecte possède des yeux composés contenant plus de 30 000 facettes ?"
+    answers:
+      A: "Le papillon"
+      B: "La mouche"
+      C: "L'abeille"
+      D: "La libellule"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which insect has compound eyes containing more than 30,000 facets?"
+        answers:
+          A: "The butterfly"
+          B: "The fly"
+          C: "The bee"
+          D: "The dragonfly"
+    difficulty: EXPERT
+  - text: "Quel est le nom scientifique de la blatte germanique ?"
+    answers:
+      A: "Supella longipalpa"
+      B: "Periplaneta americana"
+      C: "Blatta orientalis"
+      D: "Blattella germanica"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the scientific name of the German cockroach?"
+        answers:
+          A: "Supella longipalpa"
+          B: "Periplaneta americana"
+          C: "Blatta orientalis"
+          D: "Blattella germanica"
+    difficulty: EXPERT
+  - text: "Quel insecte est capable de régénérer ses pattes perdues ?"
+    answers:
+      A: "La mante religieuse"
+      B: "Le phasme"
+      C: "Le grillon"
+      D: "La sauterelle"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which insect is capable of regenerating its lost legs?"
+        answers:
+          A: "The praying mantis"
+          B: "The stick insect"
+          C: "The cricket"
+          D: "The grasshopper"
+    difficulty: HARD
+  - text: "Quel insecte est le plus rapide en vol ?"
     imageUrl: wikipedia/nature/Anax_imperator_qtl2.jpg
     answers:
       A: "La demoiselle"
@@ -1301,314 +1301,314 @@ questions:
     correctAnswer: D
     translations:
       en:
-        text: "Which insect with four transparent wings, perched on a stem, is the fastest in flight?"
+        text: "Which insect is the fastest in flight?"
         answers:
           A: "The damselfly"
           B: "The mayfly"
           C: "The mosquito"
           D: "The dragonfly"
-    difficulty: HARD
-  - text: "Quel insecte social cultive un champignon dans son nid pour se nourrir ?"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'organe qui permet aux insectes de percevoir les vibrations sonores ?"
     answers:
-      A: "L'abeille charpentière"
-      B: "Le frelon"
-      C: "La fourmi rousse"
-      D: "La fourmi coupe-feuille"
+      A: "Cercle"
+      B: "Antenne"
+      C: "Palpe"
+      D: "Tympan"
     correctAnswer: D
     translations:
       en:
-        text: "Which social insect cultivates a fungus in its nest for food?"
+        text: "What is the name of the organ that allows insects to perceive sound vibrations?"
         answers:
-          A: "The carpenter bee"
-          B: "The hornet"
-          C: "The red ant"
-          D: "The leafcutter ant"
+          A: "Cercus"
+          B: "Antenna"
+          C: "Palp"
+          D: "Tympanum"
     difficulty: HARD
-  - text: "Quel insecte est le principal vecteur de la peste bubonique ?"
+  - text: "Quel insecte est un pollinisateur majeur des cultures de cacao ?"
     answers:
-      A: "Le pou"
-      B: "La punaise"
-      C: "Le moustique"
-      D: "La puce"
+      A: "Le papillon"
+      B: "L'abeille domestique"
+      C: "Le bourdon"
+      D: "La mouche des cératopogons"
     correctAnswer: D
     translations:
       en:
-        text: "Which insect is the main vector of bubonic plague?"
+        text: "Which insect is a major pollinator of cacao crops?"
         answers:
-          A: "The louse"
-          B: "The bedbug"
-          C: "The mosquito"
-          D: "The flea"
-    difficulty: HARD
-  - text: "Quel coléoptère ravage les plants de pomme de terre ?"
+          A: "The butterfly"
+          B: "The domestic bee"
+          C: "The bumblebee"
+          D: "The ceratopogonid midge"
+    difficulty: EXPERT
+  - text: "Quel ordre d'insectes compte le plus grand nombre d'espèces décrites ?"
     answers:
-      A: "Le hanneton"
-      B: "Le charançon"
-      C: "Le doryphore"
-      D: "L'altise"
+      A: "Hyménoptères"
+      B: "Lépidoptères"
+      C: "Coléoptères"
+      D: "Diptères"
     correctAnswer: C
     translations:
       en:
-        text: "Which beetle devastates potato plants?"
+        text: "Which order of insects has the largest number of described species?"
         answers:
-          A: "The cockchafer"
-          B: "The weevil"
-          C: "The Colorado potato beetle"
-          D: "The flea beetle"
-    difficulty: HARD
-  - text: "Quel papillon déploie des ocelles imitant les yeux d'un hibou ?"
+          A: "Hymenoptera"
+          B: "Lepidoptera"
+          C: "Coleoptera"
+          D: "Diptera"
+    difficulty: EXPERT
+  - text: "Quel insecte possède des ailes recouvertes d'écailles ?"
     answers:
-      A: "Le monarque"
-      B: "Le flambé"
-      C: "Le caligo"
-      D: "Le sphinx tête de mort"
+      A: "Abeille"
+      B: "Libellule"
+      C: "Papillon"
+      D: "Mouche"
     correctAnswer: C
     translations:
       en:
-        text: "Which butterfly displays eyespots mimicking an owl's eyes?"
+        text: "Which insect has wings covered in scales?"
         answers:
-          A: "The monarch"
-          B: "The scarce swallowtail"
-          C: "The caligo"
-          D: "The death's-head hawkmoth"
-    difficulty: HARD
-  - text: "Quel insecte peut sauter plus de cent fois la longueur de son corps ?"
+          A: "Bee"
+          B: "Dragonfly"
+          C: "Butterfly"
+          D: "Fly"
+    difficulty: MEDIUM
+  - text: "Quel insecte est capable de marcher sur les plafonds grâce à des poils adhésifs ?"
     answers:
-      A: "La sauterelle"
-      B: "Le grillon"
-      C: "La puce"
-      D: "La punaise"
+      A: "Mouche"
+      B: "Fourmi"
+      C: "Araignée"
+      D: "Cafard"
     correctAnswer: C
     translations:
       en:
-        text: "Which insect can jump more than a hundred times its body length?"
+        text: "Which insect is able to walk on ceilings thanks to adhesive hairs?"
         answers:
-          A: "The grasshopper"
-          B: "The cricket"
-          C: "The flea"
-          D: "The bedbug"
+          A: "Fly"
+          B: "Ant"
+          C: "Spider"
+          D: "Cockroach"
     difficulty: HARD
-  - text: "Quelle abeille solitaire tapisse son nid de morceaux de feuilles ?"
+  - text: "Quel insecte est capable de percevoir les ultrasons des chauves-souris pour fuir ?"
     answers:
-      A: "La mégachile"
-      B: "Le bourdon"
-      C: "L'abeille charpentière"
-      D: "La guêpe maçonne"
+      A: "Le papillon de nuit"
+      B: "La teigne de la cire"
+      C: "Le grillon champêtre"
+      D: "La sauterelle verte"
     correctAnswer: A
     translations:
       en:
-        text: "Which solitary bee lines its nest with pieces of leaves?"
+        text: "Which insect is able to perceive bats' ultrasound to escape?"
         answers:
-          A: "The leafcutter bee"
-          B: "The bumblebee"
-          C: "The carpenter bee"
-          D: "The mason wasp"
-    difficulty: HARD
-  - text: "Quel coléoptère du désert de Namib capte l'eau du brouillard sur son dos ?"
+          A: "The moth"
+          B: "The wax moth"
+          C: "The field cricket"
+          D: "The green grasshopper"
+    difficulty: EXPERT
+  - text: "Quel insecte a des ailes postérieures réduites à des haltères ?"
     answers:
-      A: "Le scarabée Goliath"
-      B: "Le scarabée du brouillard (Stenocara)"
-      C: "Le bousier sacré"
-      D: "Le titan"
+      A: "La libellule"
+      B: "La mouche"
+      C: "L'abeille"
+      D: "Le papillon"
     correctAnswer: B
     translations:
       en:
-        text: "Which Namib desert beetle captures water from fog on its back?"
+        text: "Which insect has hind wings reduced to halteres?"
         answers:
-          A: "The Goliath beetle"
-          B: "The fog beetle (Stenocara)"
-          C: "The sacred dung beetle"
-          D: "The titan beetle"
+          A: "The dragonfly"
+          B: "The fly"
+          C: "The bee"
+          D: "The butterfly"
     difficulty: EXPERT
-  - text: "Quel moucheron sans ailes est le plus grand animal purement terrestre d'Antarctique ?"
+  - text: "Quel est le nom de l'ordre des insectes comprenant les phasmes ?"
     answers:
-      A: "Le chironome"
-      B: "La puce des neiges"
-      C: "Belgica antarctica"
-      D: "Le gerris"
+      A: "Les Orthoptères"
+      B: "Les Mantoptères"
+      C: "Les Phasmoptères"
+      D: "Les Blattoptères"
     correctAnswer: C
     translations:
       en:
-        text: "Which wingless midge is the largest purely terrestrial animal of Antarctica?"
+        text: "What is the name of the order of insects that includes stick insects?"
         answers:
-          A: "The chironomid"
-          B: "The snow flea"
-          C: "Belgica antarctica"
-          D: "The water strider"
-    difficulty: EXPERT
-  - text: "Quel est l'insecte le plus long du monde, dépassant 60 cm avec ses pattes ?"
+          A: "Orthoptera"
+          B: "Mantodea"
+          C: "Phasmatodea"
+          D: "Blattodea"
+    difficulty: HARD
+  - text: "Quel insecte est connu pour avoir le plus grand nombre de chromosomes (jusqu'à 450) ?"
     answers:
-      A: "Le scarabée titan"
-      B: "Le weta géant"
-      C: "Le papillon atlas"
-      D: "Le phasme Phryganistria chinensis"
+      A: "La mouche domestique"
+      B: "La fourmi rouge"
+      C: "Le criquet migrateur"
+      D: "Le papillon Lysandra atlantica"
     correctAnswer: D
     translations:
       en:
-        text: "What is the longest insect in the world, exceeding 60 cm with its legs?"
+        text: "Which insect is known for having the highest number of chromosomes (up to 450)?"
         answers:
-          A: "The titan beetle"
-          B: "The giant weta"
-          C: "The atlas moth"
-          D: "The stick insect Phryganistria chinensis"
+          A: "The housefly"
+          B: "The red ant"
+          C: "The migratory locust"
+          D: "The butterfly Lysandra atlantica"
     difficulty: EXPERT
-  - text: "Quel insecte détient le record de poids, avec plus de 70 grammes ?"
+  - text: "Quel est le nom du stade larvaire des libellules ?"
     answers:
-      A: "Le weta géant de Nouvelle-Zélande"
-      B: "Le scarabée Goliath"
-      C: "Le titan"
-      D: "La reine termite"
+      A: "La naïade"
+      B: "La larve"
+      C: "La nymphe"
+      D: "Le têtard"
     correctAnswer: A
     translations:
       en:
-        text: "Which insect holds the weight record, at over 70 grams?"
+        text: "What is the name of the larval stage of dragonflies?"
         answers:
-          A: "The giant weta of New Zealand"
-          B: "The Goliath beetle"
-          C: "The titan beetle"
-          D: "The termite queen"
-    difficulty: EXPERT
-  - text: "Quelle enzyme ajoutée par l'abeille transforme le saccharose du nectar ?"
+          A: "The naiad"
+          B: "The larva"
+          C: "The nymph"
+          D: "The tadpole"
+    difficulty: HARD
+  - text: "Chez les abeilles, quel est le nom du phénomène où les ouvrières émettent des vibrations pour indiquer la distance de la source de nourriture ?"
     answers:
-      A: "L'invertase"
-      B: "L'amylase"
-      C: "La pepsine"
-      D: "La lipase"
+      A: "Danse frétillante"
+      B: "Danse en rond"
+      C: "Danse de recrutement"
+      D: "Danse vibratoire"
     correctAnswer: A
     translations:
       en:
-        text: "Which enzyme added by the bee transforms the sucrose in nectar?"
+        text: "In bees, what is the name of the phenomenon where workers emit vibrations to indicate the distance of the food source?"
         answers:
-          A: "Invertase"
-          B: "Amylase"
-          C: "Pepsin"
-          D: "Lipase"
+          A: "Waggle dance"
+          B: "Round dance"
+          C: "Recruitment dance"
+          D: "Vibratory dance"
     difficulty: EXPERT
-  - text: "Quel insecte aquatique détient le record du son le plus fort rapporté à sa taille ?"
+  - text: "Quel insecte est capable de voler en arrière et de faire du surplace ?"
     answers:
-      A: "La Micronecta scholtzi"
-      B: "Le grillon champêtre"
-      C: "Le moustique"
-      D: "La cigale"
+      A: "Libellule"
+      B: "Papillon"
+      C: "Mouche"
+      D: "Abeille"
     correctAnswer: A
     translations:
       en:
-        text: "Which aquatic insect holds the record for the loudest sound relative to its size?"
+        text: "Which insect is capable of flying backwards and hovering?"
         answers:
-          A: "Micronecta scholtzi"
-          B: "The field cricket"
-          C: "The mosquito"
-          D: "The cicada"
-    difficulty: EXPERT
-  - text: "Quel papillon possède la plus grande surface alaire du monde ?"
+          A: "Dragonfly"
+          B: "Butterfly"
+          C: "Fly"
+          D: "Bee"
+    difficulty: HARD
+  - text: "Quel est le nom de la cellule reproductrice mâle de l'abeille ?"
     answers:
-      A: "Le monarque"
-      B: "Le machaon"
-      C: "Le grand paon de nuit"
-      D: "L'Attacus atlas"
+      A: "Faux-bourdon"
+      B: "Ovule"
+      C: "Fécondateur"
+      D: "Spermatozoïde"
     correctAnswer: D
     translations:
       en:
-        text: "Which butterfly has the largest wing surface area in the world?"
+        text: "What is the name of the male reproductive cell of the bee?"
         answers:
-          A: "The monarch"
-          B: "The swallowtail"
-          C: "The great peacock moth"
-          D: "The Attacus atlas"
+          A: "Drone"
+          B: "Ovule"
+          C: "Fertilizer"
+          D: "Spermatozoon"
     difficulty: EXPERT
-  - text: "Quel coléoptère est le principal ravageur des grains stockés ?"
+  - text: "Quel insecte possède des ailes antérieures dures appelées élytres ?"
     answers:
-      A: "Le charançon"
-      B: "Le doryphore"
-      C: "Le hanneton"
-      D: "Le capricorne"
+      A: "Coléoptère"
+      B: "Lépidoptère"
+      C: "Hyménoptère"
+      D: "Diptère"
     correctAnswer: A
     translations:
       en:
-        text: "Which beetle is the main pest of stored grain?"
+        text: "Which insect has hard forewings called elytra?"
         answers:
-          A: "The weevil"
-          B: "The Colorado potato beetle"
-          C: "The cockchafer"
-          D: "The longhorn beetle"
-    difficulty: EXPERT
-  - text: "Quelle mante se camoufle en fleur d'orchidée pour attirer ses proies ?"
+          A: "Coleoptera"
+          B: "Lepidoptera"
+          C: "Hymenoptera"
+          D: "Diptera"
+    difficulty: HARD
+  - text: "Combien de pattes possède un scorpion ?"
     answers:
-      A: "La mante religieuse européenne"
-      B: "La mante orchidée"
-      C: "La mante fantôme"
-      D: "La mante feuille"
+      A: "6"
+      B: "8"
+      C: "10"
+      D: "12"
     correctAnswer: B
     translations:
       en:
-        text: "Which mantis camouflages itself as an orchid flower to attract its prey?"
+        text: "How many legs does a scorpion have?"
         answers:
-          A: "The European praying mantis"
-          B: "The orchid mantis"
-          C: "The ghost mantis"
-          D: "The leaf mantis"
-    difficulty: EXPERT
-  - text: "Quel termite construit des termitières cathédrales et cultive un champignon ?"
+          A: "6"
+          B: "8"
+          C: "10"
+          D: "12"
+    difficulty: HARD
+  - text: "Quel ordre d'insectes est connu pour pratiquer la parthénogenèse, où les femelles se reproduisent sans mâle ?"
     answers:
-      A: "Le termite champignonniste Macrotermes"
-      B: "Le termite de Formose"
-      C: "Le termite de bois sec"
-      D: "La fourmi rousse"
+      A: "Hyménoptères"
+      B: "Coléoptères"
+      C: "Diptères"
+      D: "Lépidoptères"
     correctAnswer: A
     translations:
       en:
-        text: "Which termite builds cathedral termite mounds and cultivates a fungus?"
+        text: "Which order of insects is known for practicing parthenogenesis, where females reproduce without males?"
         answers:
-          A: "The fungus-growing termite Macrotermes"
-          B: "The Formosan termite"
-          C: "The drywood termite"
-          D: "The red ant"
+          A: "Hymenoptera"
+          B: "Coleoptera"
+          C: "Diptera"
+          D: "Lepidoptera"
     difficulty: EXPERT
-  - text: "Quel insecte femelle attire les mâles à plusieurs kilomètres grâce à une phéromone ?"
+  - text: "Quel insecte est capable de produire un jet de substance chimique à plus de 100 °C pour repousser les prédateurs ?"
     answers:
-      A: "La cigale"
-      B: "Le grand paon de nuit"
-      C: "La blatte"
-      D: "La libellule"
+      A: "Fourmi de feu"
+      B: "Bombardier"
+      C: "Scarabée rhinocéros"
+      D: "Punaise verte"
     correctAnswer: B
     translations:
       en:
-        text: "Which female insect attracts males from several kilometers away using a pheromone?"
+        text: "Which insect is capable of producing a jet of chemical substance at over 100 °C to repel predators?"
         answers:
-          A: "The cicada"
-          B: "The great peacock moth"
-          C: "The cockroach"
-          D: "The dragonfly"
+          A: "Fire ant"
+          B: "Bombardier"
+          C: "Rhinoceros beetle"
+          D: "Green stink bug"
     difficulty: EXPERT
-  - text: "Comment nomme-t-on la reproduction sans fécondation observée chez les pucerons ?"
+  - text: "Quel est le nom du stade larvaire des papillons ?"
     answers:
-      A: "La diapause"
-      B: "La métamorphose"
-      C: "La parthénogenèse"
-      D: "La pollinisation"
+      A: "Nymphe"
+      B: "Chrysalide"
+      C: "Chenille"
+      D: "Asticot"
     correctAnswer: C
     translations:
       en:
-        text: "What is reproduction without fertilization, observed in aphids, called?"
+        text: "What is the name of the larval stage of butterflies?"
         answers:
-          A: "Diapause"
-          B: "Metamorphosis"
-          C: "Parthenogenesis"
-          D: "Pollination"
-    difficulty: EXPERT
-  - text: "Quel insecte géant du Carbonifère, proche de la libellule, avait près de 70 cm d'envergure ?"
+          A: "Nymph"
+          B: "Chrysalis"
+          C: "Caterpillar"
+          D: "Maggot"
+    difficulty: EASY
+  - text: "Quel insecte est connu pour construire des pièges en forme d'entonnoir pour capturer des fourmis ?"
     answers:
-      A: "Le Megalodon"
-      B: "La Meganeura"
-      C: "Le Megatherium"
-      D: "Le Megachile"
+      A: "Araignée argiope"
+      B: "Fourmi-lion"
+      C: "Guêpe maçonne"
+      D: "Scarabée"
     correctAnswer: B
     translations:
       en:
-        text: "Which giant Carboniferous insect, related to the dragonfly, had a wingspan of nearly 70 cm?"
+        text: "Which insect is known for building funnel-shaped traps to capture ants?"
         answers:
-          A: "The Megalodon"
-          B: "The Meganeura"
-          C: "The Megatherium"
-          D: "The Megachile"
+          A: "Argiope spider"
+          B: "Antlion"
+          C: "Mason wasp"
+          D: "Beetle"
     difficulty: EXPERT

@@ -1,38 +1,37 @@
 topic:
-  id: "topic-hp7-reliques-de-la-mort-1"
+  id: topic-hp7-reliques-de-la-mort-1
   names:
     fr: "Harry Potter et les Reliques de la Mort - Partie 1"
     en: "Harry Potter and the Deathly Hallows – Part 1"
   description: "Septième film, première partie : la fuite des sept Potter, le mariage Weasley, l'infiltration du Ministère, le médaillon de Regulus, le conte des Trois Frères, Godric's Hollow, la mort de Dobby et Voldemort qui s'empare de la Baguette de Sureau. Réalisé par David Yates en 2010."
-  category: "MOVIES"
-  imageUrl: "wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg"
+  category: MOVIES
+  imageUrl: wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg
 questions:
-  - text: "Qui incarne Harry Potter dans Les Reliques de la Mort - Partie 1 ?"
-    imageUrl: "wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg"
+  - text: "Qui joue Harry Potter dans ce film ?"
+    imageUrl: wikipedia/movies/Daniel_Radcliffe_in_July_2015.jpg
     answers:
       A: "Tom Felton"
       B: "Rupert Grint"
       C: "Daniel Radcliffe"
       D: "Matthew Lewis"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
-        text: "Who plays Harry Potter in Deathly Hallows - Part 1?"
+        text: "Who plays Harry Potter in this film?"
         answers:
           A: "Tom Felton"
           B: "Rupert Grint"
           C: "Daniel Radcliffe"
           D: "Matthew Lewis"
+    difficulty: EASY
   - text: "Qui joue Hermione Granger dans ce septième film ?"
-    imageUrl: "wikipedia/movies/Emma_Watson_2013.jpg"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
     answers:
       A: "Emma Watson"
       B: "Bonnie Wright"
       C: "Evanna Lynch"
       D: "Maggie Smith"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "Who plays Hermione Granger in this seventh film?"
@@ -41,49 +40,49 @@ questions:
           B: "Bonnie Wright"
           C: "Evanna Lynch"
           D: "Maggie Smith"
+    difficulty: EASY
   - text: "Qui incarne Ron Weasley dans ce volet ?"
-    imageUrl: "wikipedia/movies/RupertGrint2018.jpg"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
     answers:
       A: "Daniel Radcliffe"
       B: "Tom Felton"
       C: "Rupert Grint"
       D: "Warwick Davis"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
-        text: "Who plays Ron Weasley in this instalment?"
+        text: "Who plays Ron Weasley in this installment?"
         answers:
           A: "Daniel Radcliffe"
           B: "Tom Felton"
           C: "Rupert Grint"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui reprend Drago Malefoy dans ce film ?"
-    imageUrl: "wikipedia/movies/Tom_Felton_1.jpg"
+    imageUrl: wikipedia/movies/Tom_Felton_1.jpg
     answers:
       A: "Matthew Lewis"
       B: "Rupert Grint"
       C: "Tom Felton"
       D: "Jason Isaacs"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
-        text: "Who returns as Draco Malfoy in this film?"
+        text: "Who reprises Draco Malfoy in this film?"
         answers:
           A: "Matthew Lewis"
           B: "Rupert Grint"
           C: "Tom Felton"
           D: "Jason Isaacs"
+    difficulty: EASY
   - text: "Qui joue le professeur Rogue, devenu directeur ?"
-    imageUrl: "wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
     answers:
       A: "Richard Harris"
       B: "Alan Rickman"
       C: "John Cleese"
       D: "Warwick Davis"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "Who plays Professor Snape, now headmaster?"
@@ -92,49 +91,49 @@ questions:
           B: "Alan Rickman"
           C: "John Cleese"
           D: "Warwick Davis"
+    difficulty: EASY
   - text: "Qui incarne Minerva McGonagall dans ce volet ?"
-    imageUrl: "wikipedia/movies/Maggie_Smith_-_Vintage.jpg"
+    imageUrl: wikipedia/movies/Maggie_Smith_-_Vintage.jpg
     answers:
       A: "Imelda Staunton"
       B: "Emma Thompson"
       C: "Julie Walters"
       D: "Maggie Smith"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
-        text: "Who plays Minerva McGonagall in this instalment?"
+        text: "Who plays Minerva McGonagall in this installment?"
         answers:
           A: "Imelda Staunton"
           B: "Emma Thompson"
           C: "Julie Walters"
           D: "Maggie Smith"
+    difficulty: EASY
   - text: "Quel acteur reprend Hagrid ici ?"
-    imageUrl: "wikipedia/movies/Robbiecoltrane_(cropped).jpg"
+    imageUrl: wikipedia/movies/Robbiecoltrane_(cropped).jpg
     answers:
       A: "Robbie Coltrane"
       B: "Brendan Gleeson"
       C: "Mark Williams"
       D: "Gary Oldman"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
-        text: "Which actor returns as Hagrid here?"
+        text: "Which actor reprises Hagrid here?"
         answers:
           A: "Robbie Coltrane"
           B: "Brendan Gleeson"
           C: "Mark Williams"
           D: "Gary Oldman"
+    difficulty: EASY
   - text: "Quel acteur incarne Lord Voldemort dans ce film ?"
-    imageUrl: "wikipedia/movies/Ralph_Fiennes_2024.jpg"
+    imageUrl: wikipedia/movies/Ralph_Fiennes_2024.jpg
     answers:
       A: "David Thewlis"
       B: "Gary Oldman"
       C: "Jason Isaacs"
       D: "Ralph Fiennes"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Which actor plays Lord Voldemort in this film?"
@@ -143,15 +142,15 @@ questions:
           B: "Gary Oldman"
           C: "Jason Isaacs"
           D: "Ralph Fiennes"
+    difficulty: EASY
   - text: "Quelle actrice incarne Bellatrix Lestrange ici ?"
-    imageUrl: "wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
     answers:
       A: "Maggie Smith"
       B: "Emma Thompson"
       C: "Imelda Staunton"
       D: "Helena Bonham Carter"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
         text: "Which actress plays Bellatrix Lestrange here?"
@@ -160,49 +159,49 @@ questions:
           B: "Emma Thompson"
           C: "Imelda Staunton"
           D: "Helena Bonham Carter"
+    difficulty: EASY
   - text: "Quel acteur reprend Remus Lupin dans ce volet ?"
-    imageUrl: "wikipedia/movies/David_Thewlis_2008.jpg"
+    imageUrl: wikipedia/movies/David_Thewlis_2008.jpg
     answers:
       A: "Jason Isaacs"
       B: "Gary Oldman"
       C: "Brendan Gleeson"
       D: "David Thewlis"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
-        text: "Which actor returns as Remus Lupin in this instalment?"
+        text: "Which actor reprises Remus Lupin in this installment?"
         answers:
           A: "Jason Isaacs"
           B: "Gary Oldman"
           C: "Brendan Gleeson"
           D: "David Thewlis"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne le faux Harry aux sept Potter ?"
-    imageUrl: "wikipedia/movies/RupertGrint2018.jpg"
+    imageUrl: wikipedia/movies/RupertGrint2018.jpg
     answers:
       A: "Tom Felton"
       B: "Daniel Radcliffe"
       C: "Rupert Grint"
       D: "Matthew Lewis"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
-        text: "Which actor plays a fake Harry among the Seven Potters?"
+        text: "Which actor plays the fake Harry in the seven Potters?"
         answers:
           A: "Tom Felton"
           B: "Daniel Radcliffe"
           C: "Rupert Grint"
           D: "Matthew Lewis"
+    difficulty: HARD
   - text: "Qui réalise Les Reliques de la Mort - Partie 1 ?"
-    imageUrl: "wikipedia/movies/David_Yates_2010_Cropped.jpg"
+    imageUrl: wikipedia/movies/David_Yates_2010_Cropped.jpg
     answers:
       A: "David Yates"
       B: "Chris Columbus"
       C: "Alfonso Cuarón"
       D: "Mike Newell"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "Who directed Deathly Hallows - Part 1?"
@@ -211,15 +210,15 @@ questions:
           B: "Chris Columbus"
           C: "Alfonso Cuarón"
           D: "Mike Newell"
+    difficulty: MEDIUM
   - text: "Qui a écrit le roman adapté dans ce film ?"
-    imageUrl: "wikipedia/literature/J._K._Rowling_2010.jpg"
+    imageUrl: wikipedia/literature/J._K._Rowling_2010.jpg
     answers:
       A: "Roald Dahl"
       B: "J. R. R. Tolkien"
       C: "J. K. Rowling"
       D: "C. S. Lewis"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Who wrote the novel adapted in this film?"
@@ -228,15 +227,15 @@ questions:
           B: "J. R. R. Tolkien"
           C: "J. K. Rowling"
           D: "C. S. Lewis"
+    difficulty: MEDIUM
   - text: "Qui incarne Arthur Weasley ici ?"
-    imageUrl: "wikipedia/movies/Mark_Williams_at_BBSE.jpg"
+    imageUrl: wikipedia/movies/Mark_Williams_at_BBSE.jpg
     answers:
       A: "John Cleese"
       B: "Brendan Gleeson"
       C: "Jason Isaacs"
       D: "Mark Williams"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
         text: "Who plays Arthur Weasley here?"
@@ -245,15 +244,15 @@ questions:
           B: "Brendan Gleeson"
           C: "Jason Isaacs"
           D: "Mark Williams"
+    difficulty: MEDIUM
   - text: "Qui joue Molly Weasley dans ce film ?"
-    imageUrl: "wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg"
+    imageUrl: wikipedia/movies/Julie_Walters_at_the_Paddington_Premiere.jpg
     answers:
       A: "Julie Walters"
       B: "Maggie Smith"
       C: "Emma Thompson"
       D: "Imelda Staunton"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Who plays Molly Weasley in this film?"
@@ -262,32 +261,32 @@ questions:
           B: "Maggie Smith"
           C: "Emma Thompson"
           D: "Imelda Staunton"
+    difficulty: MEDIUM
   - text: "Quelle actrice joue Ginny dans ce volet ?"
-    imageUrl: "wikipedia/movies/Bonnie_Wright_crop2.jpg"
+    imageUrl: wikipedia/movies/Bonnie_Wright_crop2.jpg
     answers:
       A: "Bonnie Wright"
       B: "Emma Watson"
       C: "Evanna Lynch"
       D: "Helena Bonham Carter"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
-        text: "Which actress plays Ginny in this instalment?"
+        text: "Which actress plays Ginny in this installment?"
         answers:
           A: "Bonnie Wright"
           B: "Emma Watson"
           C: "Evanna Lynch"
           D: "Helena Bonham Carter"
+    difficulty: MEDIUM
   - text: "Qui incarne Neville Londubat ici ?"
-    imageUrl: "wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg"
+    imageUrl: wikipedia/movies/Matthew_Lewis_Photo_Op_GalaxyCon_Richmond_2020.jpg
     answers:
       A: "Warwick Davis"
       B: "Tom Felton"
       C: "Rupert Grint"
       D: "Matthew Lewis"
-    correctAnswer: "D"
-    difficulty: HARD
+    correctAnswer: D
     translations:
       en:
         text: "Who plays Neville Longbottom here?"
@@ -296,15 +295,15 @@ questions:
           B: "Tom Felton"
           C: "Rupert Grint"
           D: "Matthew Lewis"
+    difficulty: MEDIUM
   - text: "Quel acteur joue Filius Flitwick dans ce film ?"
-    imageUrl: "wikipedia/movies/Warwick_Davis_interviewed_2.jpg"
+    imageUrl: wikipedia/movies/Warwick_Davis_interviewed_2.jpg
     answers:
       A: "John Cleese"
       B: "Warwick Davis"
       C: "Mark Williams"
       D: "Robbie Coltrane"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
         text: "Which actor plays Filius Flitwick in this film?"
@@ -313,15 +312,15 @@ questions:
           B: "Warwick Davis"
           C: "Mark Williams"
           D: "Robbie Coltrane"
+    difficulty: MEDIUM
   - text: "Quel acteur reprend Nick Quasi-Sans-Tête ?"
-    imageUrl: "wikipedia/movies/John_Cleese_2008.jpg"
+    imageUrl: wikipedia/movies/John_Cleese_2008.jpg
     answers:
       A: "Richard Harris"
       B: "Warwick Davis"
       C: "John Cleese"
       D: "Robbie Coltrane"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Which actor returns as Nearly Headless Nick?"
@@ -330,15 +329,15 @@ questions:
           B: "Warwick Davis"
           C: "John Cleese"
           D: "Robbie Coltrane"
+    difficulty: MEDIUM
   - text: "Quelle actrice revient en Sybille Trelawney ?"
-    imageUrl: "wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg"
+    imageUrl: wikipedia/movies/Emma_Thompson_at_the_78th_Locarno_Film_Festival_photocall_01.jpg
     answers:
       A: "Maggie Smith"
       B: "Emma Thompson"
       C: "Imelda Staunton"
       D: "Julie Walters"
-    correctAnswer: "B"
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
         text: "Which actress returns as Sybill Trelawney?"
@@ -347,15 +346,15 @@ questions:
           B: "Emma Thompson"
           C: "Imelda Staunton"
           D: "Julie Walters"
+    difficulty: MEDIUM
   - text: "Quelle actrice incarne Luna Lovegood dans ce film ?"
-    imageUrl: "wikipedia/movies/Evanna_Lynch_(51693246964).jpg"
+    imageUrl: wikipedia/movies/Evanna_Lynch_(51693246964).jpg
     answers:
       A: "Bonnie Wright"
       B: "Evanna Lynch"
       C: "Emma Watson"
       D: "Helena Bonham Carter"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
         text: "Which actress plays Luna Lovegood in this film?"
@@ -364,15 +363,15 @@ questions:
           B: "Evanna Lynch"
           C: "Emma Watson"
           D: "Helena Bonham Carter"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne Greyback le loup-garou ?"
-    imageUrl: "wikipedia/movies/Brendan_Gleeson.jpg"
+    imageUrl: wikipedia/movies/Brendan_Gleeson.jpg
     answers:
       A: "Brendan Gleeson"
       B: "David Thewlis"
       C: "Jason Isaacs"
       D: "Gary Oldman"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Which actor plays the werewolf Greyback?"
@@ -381,32 +380,32 @@ questions:
           B: "David Thewlis"
           C: "Jason Isaacs"
           D: "Gary Oldman"
+    difficulty: MEDIUM
   - text: "Quel château sert de décor à Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Alnwick_Castle_2011.jpg"
+    imageUrl: wikipedia/movies/Alnwick_Castle_2011.jpg
     answers:
       A: "le château de Windsor"
       B: "le château d'Alnwick"
       C: "le château de Douvres"
       D: "le château de Warwick"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
-        text: "Which castle serves as Hogwarts here?"
+        text: "Which castle serves as the Hogwarts setting here?"
         answers:
           A: "Windsor Castle"
           B: "Alnwick Castle"
           C: "Dover Castle"
           D: "Warwick Castle"
+    difficulty: MEDIUM
   - text: "Quelle cathédrale sert de couloirs dans ce film ?"
-    imageUrl: "wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg"
+    imageUrl: wikipedia/movies/The_Cloisters_at_Gloucester_Cathedral.jpg
     answers:
       A: "la cathédrale d'York"
       B: "la cathédrale de Durham"
       C: "l'abbaye de Westminster"
       D: "la cathédrale de Gloucester"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
         text: "Which cathedral serves as the corridors in this film?"
@@ -415,32 +414,32 @@ questions:
           B: "Durham Cathedral"
           C: "Westminster Abbey"
           D: "Gloucester Cathedral"
+    difficulty: HARD
   - text: "Quel escalier d'Oxford apparaît dans ce volet ?"
-    imageUrl: "wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg"
+    imageUrl: wikipedia/movies/Christ_Church,_Oxford,_The_Grand_Staircase.jpg
     answers:
       A: "Magdalen College"
       B: "la Bodleian Library"
       C: "la Radcliffe Camera"
       D: "Christ Church"
-    correctAnswer: "D"
-    difficulty: EXPERT
+    correctAnswer: D
     translations:
       en:
-        text: "Which Oxford staircase appears in this instalment?"
+        text: "Which Oxford staircase appears in this installment?"
         answers:
           A: "Magdalen College"
           B: "the Bodleian Library"
           C: "the Radcliffe Camera"
           D: "Christ Church"
+    difficulty: HARD
   - text: "Quelle bibliothèque d'Oxford évoque Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg"
+    imageUrl: wikipedia/movies/Divinity_School_Interior_3,_Bodleian_Library,_Oxford,_UK_-_Diliff.jpg
     answers:
       A: "la Bodleian Library"
       B: "Christ Church"
       C: "la Radcliffe Camera"
       D: "le Sheldonian Theatre"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Which Oxford library evokes Hogwarts here?"
@@ -449,15 +448,15 @@ questions:
           B: "Christ Church"
           C: "the Radcliffe Camera"
           D: "the Sheldonian Theatre"
+    difficulty: HARD
   - text: "Quelle gare londonienne revient dans ce film ?"
-    imageUrl: "wikipedia/movies/King's_Cross_Western_Concourse.jpg"
+    imageUrl: wikipedia/movies/King's_Cross_Western_Concourse.jpg
     answers:
       A: "Euston"
       B: "Paddington"
       C: "King's Cross"
       D: "Waterloo"
-    correctAnswer: "C"
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Which London station returns in this film?"
@@ -466,15 +465,15 @@ questions:
           B: "Paddington"
           C: "King's Cross"
           D: "Waterloo"
+    difficulty: MEDIUM
   - text: "Quel quai mène au Poudlard Express ?"
-    imageUrl: "wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg"
+    imageUrl: wikipedia/movies/Platform_9_3-4_(King's_Cross_station,_London,_2014).jpg
     answers:
       A: "le quai 9¾"
       B: "le quai 13"
       C: "le quai 7"
       D: "le quai 21"
-    correctAnswer: "A"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "Which platform leads to the Hogwarts Express?"
@@ -483,15 +482,15 @@ questions:
           B: "Platform 13"
           C: "Platform 7"
           D: "Platform 21"
+    difficulty: MEDIUM
   - text: "Quel marché évoque le Chemin de Traverse ?"
-    imageUrl: "wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg"
+    imageUrl: wikipedia/movies/Leadenhall_Market_In_London_-_Feb_2006.jpg
     answers:
       A: "Camden Market"
       B: "Borough Market"
       C: "Leadenhall Market"
       D: "Portobello Road"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "Which market evokes Diagon Alley?"
@@ -500,117 +499,117 @@ questions:
           B: "Borough Market"
           C: "Leadenhall Market"
           D: "Portobello Road"
+    difficulty: MEDIUM
   - text: "Quel train ramène les élèves à Poudlard ?"
-    imageUrl: "wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg"
+    imageUrl: wikipedia/movies/The_Jacobite_(now_Hogwarts_Express_train,_Loch_Eilt_-_geograph.org.uk_-_607750.jpg
     answers:
       A: "le Flying Scotsman"
       B: "le Transsibérien"
       C: "l'Orient Express"
       D: "le Poudlard Express"
-    correctAnswer: "D"
-    difficulty: EASY
+    correctAnswer: D
     translations:
       en:
-        text: "Which train takes students back to Hogwarts?"
+        text: "Which train brings the students back to Hogwarts?"
         answers:
           A: "the Flying Scotsman"
           B: "the Trans-Siberian"
           C: "the Orient Express"
           D: "the Hogwarts Express"
+    difficulty: MEDIUM
   - text: "Quel village abrite le conte des Trois Frères ?"
-    imageUrl: "wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg"
+    imageUrl: wikipedia/movies/Wizarding_World_of_Harry_Potter_-_Hogsmeade_&_Hogwarts_sign_(5014150830).jpg
     answers:
       A: "Pré-au-Lard"
       B: "Godric's Hollow"
       C: "Azkaban"
       D: "Le Chemin de Traverse"
-    correctAnswer: "A"
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
-        text: "Which village is tied to the Tale of the Three Brothers?"
+        text: "Which village is home to the Tale of the Three Brothers?"
         answers:
           A: "Hogsmeade"
           B: "Godric's Hollow"
           C: "Azkaban"
           D: "Diagon Alley"
+    difficulty: HARD
   - text: "Sur quel viaduc passe le train des sorciers ?"
-    imageUrl: "wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg"
+    imageUrl: wikipedia/movies/Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg
     answers:
       A: "le viaduc de Glenfinnan"
       B: "le pont de Forth"
       C: "le viaduc de Millau"
       D: "le pont de Brooklyn"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
-        text: "Over which viaduct does the wizards' train pass?"
+        text: "Which viaduct does the wizards' train cross?"
         answers:
           A: "the Glenfinnan Viaduct"
           B: "the Forth Bridge"
           C: "the Millau Viaduct"
           D: "the Brooklyn Bridge"
+    difficulty: HARD
   - text: "Quelle cathédrale sert de cloître à Poudlard ici ?"
-    imageUrl: "wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg"
+    imageUrl: wikipedia/movies/Durham_Cathedral_Cloister_(7166957256).jpg
     answers:
       A: "la cathédrale de Salisbury"
       B: "la cathédrale d'York"
       C: "la cathédrale de Durham"
       D: "la cathédrale de Lincoln"
-    correctAnswer: "C"
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
-        text: "Which cathedral serves as Hogwarts' cloister here?"
+        text: "Which cathedral serves as the cloister for Hogwarts here?"
         answers:
           A: "Salisbury Cathedral"
           B: "York Cathedral"
           C: "Durham Cathedral"
           D: "Lincoln Cathedral"
+    difficulty: HARD
   - text: "Quel acteur incarne un des sept Potter en Hermione ?"
-    imageUrl: "wikipedia/movies/Emma_Watson_2013.jpg"
+    imageUrl: wikipedia/movies/Emma_Watson_2013.jpg
     answers:
       A: "Bonnie Wright"
       B: "Emma Watson"
       C: "Evanna Lynch"
       D: "Maggie Smith"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
-        text: "Which actress plays one of the Seven Potters?"
+        text: "Which actress plays one of the seven Potters as Hermione?"
         answers:
           A: "Bonnie Wright"
           B: "Emma Watson"
           C: "Evanna Lynch"
           D: "Maggie Smith"
-  - text: "Quel acteur incarne le mage noir qui vole la Baguette de Sureau ?"
-    imageUrl: "wikipedia/movies/Ralph_Fiennes_2024.jpg"
+    difficulty: HARD
+  - text: "Qui joue Voldemort au cinéma ?"
+    imageUrl: wikipedia/movies/Ralph_Fiennes_2024.jpg
     answers:
       A: "Gary Oldman"
       B: "Ralph Fiennes"
       C: "Jason Isaacs"
       D: "David Thewlis"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
-        text: "Which actor plays the dark wizard who steals the Elder Wand?"
+        text: "Who plays Voldemort in the films?"
         answers:
           A: "Gary Oldman"
           B: "Ralph Fiennes"
           C: "Jason Isaacs"
           D: "David Thewlis"
+    difficulty: EASY
   - text: "Quelle actrice torture Hermione à Malfoy Manor ?"
-    imageUrl: "wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg"
+    imageUrl: wikipedia/movies/Helena_Bonham_Carter_2011_AA.jpg
     answers:
       A: "Imelda Staunton"
       B: "Emma Thompson"
       C: "Helena Bonham Carter"
       D: "Maggie Smith"
-    correctAnswer: "C"
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
         text: "Which actress tortures Hermione at Malfoy Manor?"
@@ -619,15 +618,15 @@ questions:
           B: "Emma Thompson"
           C: "Helena Bonham Carter"
           D: "Maggie Smith"
+    difficulty: MEDIUM
   - text: "Quel acteur incarne le sorcier qui aide le trio au manoir ?"
-    imageUrl: "wikipedia/movies/Tom_Felton_1.jpg"
+    imageUrl: wikipedia/movies/Tom_Felton_1.jpg
     answers:
       A: "Rupert Grint"
       B: "Tom Felton"
       C: "Matthew Lewis"
       D: "Jason Isaacs"
-    correctAnswer: "B"
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "Which actor plays the wizard who helps the trio at the manor?"
@@ -636,15 +635,15 @@ questions:
           B: "Tom Felton"
           C: "Matthew Lewis"
           D: "Jason Isaacs"
+    difficulty: HARD
   - text: "Quel acteur incarne le directeur qui protège les élèves ?"
-    imageUrl: "wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg"
+    imageUrl: wikipedia/movies/Alan_Rickman_by_David_Shankbone_-_2.jpg
     answers:
       A: "David Thewlis"
       B: "Michael Gambon"
       C: "Jim Broadbent"
       D: "Alan Rickman"
-    correctAnswer: "D"
-    difficulty: MEDIUM
+    correctAnswer: D
     translations:
       en:
         text: "Which actor plays the headmaster who protects the students?"
@@ -653,32 +652,32 @@ questions:
           B: "Michael Gambon"
           C: "Jim Broadbent"
           D: "Alan Rickman"
+    difficulty: HARD
   - text: "Quel acteur reprend le rôle de Dumbledore en flashback ?"
-    imageUrl: "wikipedia/movies/Michael_Gambon_cropped.jpg"
+    imageUrl: wikipedia/movies/Michael_Gambon_cropped.jpg
     answers:
       A: "Michael Gambon"
       B: "Richard Harris"
       C: "Alan Rickman"
       D: "John Cleese"
-    correctAnswer: "A"
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
-        text: "Which actor returns as Dumbledore in flashback?"
+        text: "Which actor reprises the role of Dumbledore in flashback?"
         answers:
           A: "Michael Gambon"
           B: "Richard Harris"
           C: "Alan Rickman"
           D: "John Cleese"
+    difficulty: HARD
   - text: "Quel réalisateur conclut la saga en deux parties ?"
-    imageUrl: "wikipedia/movies/David_Yates_2010_Cropped.jpg"
+    imageUrl: wikipedia/movies/David_Yates_2010_Cropped.jpg
     answers:
       A: "David Yates"
       B: "Alfonso Cuarón"
       C: "Mike Newell"
       D: "Chris Columbus"
-    correctAnswer: "A"
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "Which director concludes the saga in two parts?"
@@ -687,963 +686,964 @@ questions:
           B: "Alfonso Cuarón"
           C: "Mike Newell"
           D: "Chris Columbus"
-  - text: "Qui sont les faux Harry lors de la fuite ?"
-    answers:
-      A: "des Mangemorts"
-      B: "des elfes"
-      C: "des Aurors"
-      D: "six alliés transformés"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Who are the fake Harrys during the escape?"
-        answers:
-          A: "Death Eaters"
-          B: "elves"
-          C: "Aurors"
-          D: "six allies transformed"
-  - text: "Quel animal de Harry meurt pendant la fuite ?"
-    answers:
-      A: "Fumseck"
-      B: "Hedwige"
-      C: "Pattenrond"
-      D: "Buck"
-    correctAnswer: "B"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which of Harry's pets dies during the escape?"
-        answers:
-          A: "Fawkes"
-          B: "Hedwig"
-          C: "Crookshanks"
-          D: "Buckbeak"
-  - text: "Quel membre de l'Ordre meurt pendant la fuite ?"
-    answers:
-      A: "Lupin"
-      B: "Maugrey"
-      C: "Tonks"
-      D: "Kingsley"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which Order member dies during the escape?"
-        answers:
-          A: "Lupin"
-          B: "Mad-Eye"
-          C: "Tonks"
-          D: "Kingsley"
-  - text: "Quel jumeau Weasley perd une oreille ?"
-    answers:
-      A: "Fred"
-      B: "George"
-      C: "Percy"
-      D: "Bill"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which Weasley twin loses an ear?"
-        answers:
-          A: "Fred"
-          B: "George"
-          C: "Percy"
-          D: "Bill"
-  - text: "Quel couple se marie au début du film ?"
-    answers:
-      A: "Bill et Fleur"
-      B: "Ron et Hermione"
-      C: "Harry et Ginny"
-      D: "Lupin et Tonks"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which couple marries at the start of the film?"
-        answers:
-          A: "Bill and Fleur"
-          B: "Ron and Hermione"
-          C: "Harry and Ginny"
-          D: "Lupin and Tonks"
-  - text: "Quel objet le trio cherche-t-il dans ce film ?"
-    answers:
-      A: "la bague"
-      B: "la coupe de Poufsouffle"
-      C: "le diadème de Serdaigle"
-      D: "le médaillon de Serpentard"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which object does the trio hunt in this film?"
-        answers:
-          A: "the ring"
-          B: "Hufflepuff's cup"
-          C: "Ravenclaw's diadem"
-          D: "Slytherin's locket"
-  - text: "Chez qui le trio trouve-t-il refuge à Londres ?"
-    answers:
-      A: "à Poudlard"
-      B: "chez les Dursley"
-      C: "au Chaudron Baveur"
-      D: "au 12, square Grimmaurd"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Where do the trio take refuge in London?"
-        answers:
-          A: "Hogwarts"
-          B: "the Dursleys'"
-          C: "the Leaky Cauldron"
-          D: "12 Grimmauld Place"
-  - text: "Quel elfe de maison aide le trio ?"
-    answers:
-      A: "Winky"
-      B: "Dobby"
-      C: "Kreattur"
-      D: "Hokey"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which house-elf helps the trio?"
-        answers:
-          A: "Winky"
-          B: "Dobby"
-          C: "Kreacher"
-          D: "Hokey"
-  - text: "Qui avait caché le médaillon avant le trio ?"
-    answers:
-      A: "Lucius"
-      B: "Sirius"
-      C: "Regulus Black"
-      D: "Dumbledore"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who hid the locket before the trio?"
-        answers:
-          A: "Lucius"
-          B: "Sirius"
-          C: "Regulus Black"
-          D: "Dumbledore"
-  - text: "Comment le trio entre-t-il au Ministère ?"
-    answers:
-      A: "en transplanant"
-      B: "avec du Polynectar"
-      C: "par la cheminée"
-      D: "en volant"
-    correctAnswer: "B"
-    difficulty: EASY
-    translations:
-      en:
-        text: "How does the trio enter the Ministry?"
-        answers:
-          A: "by Apparition"
-          B: "using Polyjuice Potion"
-          C: "through the Floo"
-          D: "by flying"
-  - text: "Qui détient le médaillon au Ministère ?"
-    answers:
-      A: "Fudge"
-      B: "Dolores Ombrage"
-      C: "Scrimgeour"
-      D: "Yaxley"
-    correctAnswer: "B"
     difficulty: MEDIUM
+  - text: "Quel sort Hermione utilise-t-elle pour effacer la mémoire de ses parents ?"
+    answers:
+      A: "Muffliato"
+      B: "Confundus"
+      C: "Fidelitas"
+      D: "Oubliettes"
+    correctAnswer: D
     translations:
       en:
-        text: "Who holds the locket at the Ministry?"
+        text: "Which spell does Hermione use to erase her parents' memory?"
         answers:
-          A: "Fudge"
-          B: "Dolores Umbridge"
-          C: "Scrimgeour"
-          D: "Yaxley"
-  - text: "Quelles créatures gardent le Ministère ?"
-    answers:
-      A: "des trolls"
-      B: "des dragons"
-      C: "des Détraqueurs"
-      D: "des centaures"
-    correctAnswer: "C"
+          A: "Muffliato"
+          B: "Confundus"
+          C: "Fidelius"
+          D: "Obliviate"
     difficulty: HARD
+  - text: "Quel objet magique Mad-Eye Moody donne-t-il à Harry avant la fuite des sept Potter ?"
+    answers:
+      A: "Une cape d'invisibilité"
+      B: "Une baguette de secours"
+      C: "Un miroir à double sens"
+      D: "Un retourneur de temps"
+    correctAnswer: B
     translations:
       en:
-        text: "Which creatures guard the Ministry?"
+        text: "Which magical object does Mad-Eye Moody give Harry before the seven Potters escape?"
         answers:
-          A: "trolls"
-          B: "dragons"
-          C: "Dementors"
-          D: "centaurs"
-  - text: "Qui le trio doit-il affronter pour fuir le Ministère ?"
+          A: "An Invisibility Cloak"
+          B: "A spare wand"
+          C: "A two-way mirror"
+          D: "A Time-Turner"
+    difficulty: HARD
+  - text: "Quel est le Patronus de Luna Lovegood ?"
     answers:
-      A: "Yaxley"
-      B: "Ombrage"
-      C: "Thicknesse"
-      D: "Scrimgeour"
-    correctAnswer: "A"
+      A: "Un loup"
+      B: "Un lièvre"
+      C: "Une loutre"
+      D: "Un phénix"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is Luna Lovegood's Patronus?"
+        answers:
+          A: "A wolf"
+          B: "A hare"
+          C: "An otter"
+          D: "A phoenix"
+    difficulty: HARD
+  - text: "Qui tue Dobby d'un couteau lancé ?"
+    answers:
+      A: "Lucius Malefoy"
+      B: "Bellatrix Lestrange"
+      C: "Fenrir Greyback"
+      D: "Narcissa Malefoy"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who kills Dobby with a thrown knife?"
+        answers:
+          A: "Lucius Malfoy"
+          B: "Bellatrix Lestrange"
+          C: "Fenrir Greyback"
+          D: "Narcissa Malfoy"
+    difficulty: MEDIUM
+  - text: "Quel est le mot de passe pour entrer dans le ministère de la Magie dans le film ?"
+    answers:
+      A: "Sangpur"
+      B: "Fidelitas"
+      C: "Cracbadabum"
+      D: "Pré-au-lard"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the password to enter the Ministry of Magic in the film?"
+        answers:
+          A: "Sangpur"
+          B: "Fidelitas"
+          C: "Cracbadabum"
+          D: "Hogsmeade"
+    difficulty: HARD
+  - text: "Quel personnage prononce le conte des Trois Frères ?"
+    answers:
+      A: "Hermione Granger"
+      B: "Harry Potter"
+      C: "Ron Weasley"
+      D: "Xenophilius Lovegood"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which character tells the Tale of the Three Brothers?"
+        answers:
+          A: "Hermione Granger"
+          B: "Harry Potter"
+          C: "Ron Weasley"
+          D: "Xenophilius Lovegood"
+    difficulty: HARD
+  - text: "Qui est l'auteur du livre 'Les Contes de Beedle le Barde' dans l'univers Harry Potter ?"
+    answers:
+      A: "Gellert Grindelwald"
+      B: "Albus Dumbledore"
+      C: "Bathilda Tourdesac"
+      D: "Beedle le Barde"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the author of the book 'The Tales of Beedle the Bard' in the Harry Potter universe?"
+        answers:
+          A: "Gellert Grindelwald"
+          B: "Albus Dumbledore"
+          C: "Bathilda Bagshot"
+          D: "Beedle the Bard"
+    difficulty: HARD
+  - text: "Quel est le nom du frère de Dumbledore qui apparaît dans le film ?"
+    answers:
+      A: "Aurelius"
+      B: "Alberic"
+      C: "Aberforth"
+      D: "Armando"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Dumbledore's brother who appears in the film?"
+        answers:
+          A: "Aurelius"
+          B: "Alberic"
+          C: "Aberforth"
+          D: "Armando"
+    difficulty: HARD
+  - text: "Quel objet Harry, Ron et Hermione volent-ils dans le bureau d'Ombrage ?"
+    answers:
+      A: "La coupe de Helga Poufsouffle"
+      B: "La bague de Gaunt"
+      C: "Le médaillon de Salazar Serpentard"
+      D: "Le diadème de Rowena Serdaigle"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which object do Harry, Ron and Hermione steal from Umbridge's office?"
+        answers:
+          A: "Helga Hufflepuff's cup"
+          B: "The Gaunt ring"
+          C: "Salazar Slytherin's locket"
+          D: "Rowena Ravenclaw's diadem"
+    difficulty: HARD
+  - text: "Qui ouvre le locket dans la forêt après que Ron l'a détruit ?"
+    answers:
+      A: "Hermione Granger"
+      B: "Ron Weasley"
+      C: "Harry Potter"
+      D: "Dean Thomas"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who opens the locket in the forest after Ron destroys it?"
+        answers:
+          A: "Hermione Granger"
+          B: "Ron Weasley"
+          C: "Harry Potter"
+          D: "Dean Thomas"
+    difficulty: HARD
+  - text: "Quel sort Hermione utilise-t-elle pour cacher le trio dans le café après le mariage ?"
+    answers:
+      A: "Protego Maxima"
+      B: "Muffliato"
+      C: "Confringo"
+      D: "Obliviate"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which spell does Hermione use to hide the trio in the café after the wedding?"
+        answers:
+          A: "Protego Maxima"
+          B: "Muffliato"
+          C: "Confringo"
+          D: "Obliviate"
+    difficulty: HARD
+  - text: "Quel personnage se transforme en Harry Potter grâce au Polynectar au mariage ?"
+    answers:
+      A: "Ron Weasley"
+      B: "George Weasley"
+      C: "Fred Weasley"
+      D: "Bill Weasley"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which character transforms into Harry Potter using Polyjuice Potion at the wedding?"
+        answers:
+          A: "Ron Weasley"
+          B: "George Weasley"
+          C: "Fred Weasley"
+          D: "Bill Weasley"
     difficulty: EXPERT
+  - text: "Qui est le fabricant de la baguette de Sureau ?"
+    answers:
+      A: "Gregorovitch"
+      B: "Ollivander"
+      C: "Griphook"
+      D: "Xenophilius Lovegood"
+    correctAnswer: A
     translations:
       en:
-        text: "Whom must the trio face to flee the Ministry?"
+        text: "Who is the maker of the Elder Wand?"
         answers:
-          A: "Yaxley"
-          B: "Umbridge"
-          C: "Thicknesse"
-          D: "Scrimgeour"
-  - text: "Quel conte le trio découvre-t-il ?"
-    answers:
-      A: "la légende de Merlin"
-      B: "le conte de Beedle"
-      C: "le conte des Trois Frères"
-      D: "le mythe de Salazar"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which tale does the trio discover?"
-        answers:
-          A: "the legend of Merlin"
-          B: "Beedle's tale"
-          C: "the Tale of the Three Brothers"
-          D: "the myth of Salazar"
-  - text: "Combien d'objets composent les Reliques de la Mort ?"
-    answers:
-      A: "trois"
-      B: "deux"
-      C: "quatre"
-      D: "cinq"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "How many objects make up the Deathly Hallows?"
-        answers:
-          A: "three"
-          B: "two"
-          C: "four"
-          D: "five"
-  - text: "Quels sont les trois Reliques ?"
-    answers:
-      A: "le Miroir, la Carte et la Plume"
-      B: "l'Anneau, la Coupe et le Médaillon"
-      C: "l'Épée, le Diadème et le Médaillon"
-      D: "la Baguette, la Pierre et la Cape"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What are the three Hallows?"
-        answers:
-          A: "the Mirror, the Map and the Quill"
-          B: "the Ring, the Cup and the Locket"
-          C: "the Sword, the Diadem and the Locket"
-          D: "the Wand, the Stone and the Cloak"
-  - text: "Comment appelle-t-on la puissante baguette des Reliques ?"
-    answers:
-      A: "la Baguette d'Aubépine"
-      B: "la Baguette de Sureau"
-      C: "la Baguette de Houx"
-      D: "la Baguette de Phoenix"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the powerful Hallow wand called?"
-        answers:
-          A: "the Hawthorn Wand"
-          B: "the Elder Wand"
-          C: "the Holly Wand"
-          D: "the Phoenix Wand"
-  - text: "Qui possédait la Baguette de Sureau avant Voldemort ?"
-    answers:
-      A: "Dumbledore"
-      B: "Harry"
-      C: "Drago"
-      D: "Rogue"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who owned the Elder Wand before Voldemort?"
-        answers:
-          A: "Dumbledore"
-          B: "Harry"
-          C: "Draco"
-          D: "Snape"
-  - text: "Dans quel village le trio cherche-t-il Bathilda ?"
-    answers:
-      A: "Godric's Hollow"
-      B: "Pré-au-Lard"
-      C: "Ottery St Catchpole"
-      D: "Little Whinging"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "In which village does the trio seek Bathilda?"
-        answers:
-          A: "Godric's Hollow"
-          B: "Hogsmeade"
-          C: "Ottery St Catchpole"
-          D: "Little Whinging"
-  - text: "Quel serpent se cache chez Bathilda Bagshot ?"
-    answers:
-      A: "un python"
-      B: "un basilic"
-      C: "un aspic"
-      D: "Nagini"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which snake hides at Bathilda Bagshot's?"
-        answers:
-          A: "a python"
-          B: "a basilisk"
-          C: "an asp"
-          D: "Nagini"
-  - text: "Quel objet de Harry est brisé à Godric's Hollow ?"
-    answers:
-      A: "ses lunettes"
-      B: "sa baguette"
-      C: "son balai"
-      D: "sa cape"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which of Harry's objects breaks at Godric's Hollow?"
-        answers:
-          A: "his glasses"
-          B: "his wand"
-          C: "his broom"
-          D: "his cloak"
-  - text: "Quel objet Ron détruit-il dans la forêt ?"
-    answers:
-      A: "la bague"
-      B: "la coupe"
-      C: "le diadème"
-      D: "le médaillon"
-    correctAnswer: "D"
+          A: "Gregorovitch"
+          B: "Ollivander"
+          C: "Griphook"
+          D: "Xenophilius Lovegood"
     difficulty: HARD
+  - text: "Dans quelle maison Harry et Hermione se cachent-ils à Godric's Hollow ?"
+    answers:
+      A: "L'église du village"
+      B: "La maison de Dumbledore"
+      C: "La maison de Bathilda Tourdesac"
+      D: "L'auberge du village"
+    correctAnswer: C
     translations:
       en:
-        text: "Which object does Ron destroy in the forest?"
+        text: "In which house do Harry and Hermione hide in Godric's Hollow?"
         answers:
-          A: "the ring"
-          B: "the cup"
-          C: "the diadem"
-          D: "the locket"
-  - text: "Qui apparaît en Patronus pour guider Harry vers l'épée ?"
+          A: "The village church"
+          B: "Dumbledore's house"
+          C: "Bathilda Bagshot's house"
+          D: "The village inn"
+    difficulty: EXPERT
+  - text: "Quel animal est Nagini lorsqu'elle attaque Harry à Godric's Hollow ?"
     answers:
-      A: "une loutre"
-      B: "un cerf"
-      C: "une biche (Snape)"
-      D: "un chien"
-    correctAnswer: "C"
+      A: "Une femme âgée"
+      B: "Un serpent géant"
+      C: "Un loup"
+      D: "Un oiseau"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What animal is Nagini when she attacks Harry in Godric's Hollow?"
+        answers:
+          A: "An old woman"
+          B: "A giant serpent"
+          C: "A wolf"
+          D: "A bird"
     difficulty: HARD
+  - text: "Quel sort Ron utilise-t-il pour détruire le médaillon ?"
+    answers:
+      A: "Expelliarmus"
+      B: "Sectumsempra"
+      C: "Glacius"
+      D: "Incendio"
+    correctAnswer: D
     translations:
       en:
-        text: "Whose Patronus guides Harry to the sword?"
+        text: "Which spell does Ron use to destroy the locket?"
         answers:
-          A: "an otter"
-          B: "a stag"
-          C: "a doe (Snape)"
-          D: "a dog"
-  - text: "Quelle arme Harry récupère-t-il dans un lac gelé ?"
+          A: "Expelliarmus"
+          B: "Sectumsempra"
+          C: "Glacius"
+          D: "Incendio"
+    difficulty: HARD
+  - text: "Quel personnage aide le trio à s'échapper du manoir Malefoy ?"
     answers:
-      A: "une baguette"
-      B: "l'épée de Gryffondor"
-      C: "un poignard"
-      D: "un marteau"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+      A: "Kreacher"
+      B: "Dobby"
+      C: "Griphook"
+      D: "Luna Lovegood"
+    correctAnswer: B
     translations:
       en:
-        text: "Which weapon does Harry retrieve from a frozen lake?"
+        text: "Which character helps the trio escape from Malfoy Manor?"
         answers:
-          A: "a wand"
-          B: "the Sword of Gryffindor"
-          C: "a dagger"
-          D: "a hammer"
-  - text: "Qui torture Hermione à Malfoy Manor ?"
+          A: "Kreacher"
+          B: "Dobby"
+          C: "Griphook"
+          D: "Luna Lovegood"
+    difficulty: HARD
+  - text: "Quel est le nom de l'elfe de maison qui trahit le trio au manoir Malefoy ?"
     answers:
-      A: "Greyback"
-      B: "Drago"
-      C: "Lucius"
-      D: "Bellatrix"
-    correctAnswer: "D"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Who tortures Hermione at Malfoy Manor?"
-        answers:
-          A: "Greyback"
-          B: "Draco"
-          C: "Lucius"
-          D: "Bellatrix"
-  - text: "Quel elfe de maison meurt à la fin du film ?"
-    answers:
-      A: "Kreattur"
+      A: "Kreacher"
       B: "Dobby"
       C: "Winky"
       D: "Hokey"
-    correctAnswer: "B"
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
-        text: "Which house-elf dies at the end of the film?"
+        text: "What is the name of the house-elf who betrays the trio at Malfoy Manor?"
         answers:
           A: "Kreacher"
           B: "Dobby"
           C: "Winky"
           D: "Hokey"
-  - text: "Qui secourt le trio à Malfoy Manor ?"
+    difficulty: HARD
+  - text: "Quel objet Harry utilise-t-il pour localiser Voldemort après la mort de Dobby ?"
     answers:
-      A: "Kreattur"
-      B: "Dobby"
-      C: "Lupin"
-      D: "Tonks"
-    correctAnswer: "B"
-    difficulty: MEDIUM
+      A: "Le miroir à double sens"
+      B: "La carte du Maraudeur"
+      C: "Le médaillon"
+      D: "La baguette de Sureau"
+    correctAnswer: A
     translations:
       en:
-        text: "Who rescues the trio at Malfoy Manor?"
+        text: "Which object does Harry use to locate Voldemort after Dobby's death?"
+        answers:
+          A: "The two-way mirror"
+          B: "The Marauder's Map"
+          C: "The locket"
+          D: "The Elder Wand"
+    difficulty: EXPERT
+  - text: "Qui prononce la phrase 'L'aube se lèvera sur un monde sans Harry Potter' ?"
+    answers:
+      A: "Pius Thicknesse"
+      B: "Lucius Malfoy"
+      C: "Bellatrix Lestrange"
+      D: "Lord Voldemort"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who says the line 'Dawn will break on a world without Harry Potter'?"
+        answers:
+          A: "Pius Thicknesse"
+          B: "Lucius Malfoy"
+          C: "Bellatrix Lestrange"
+          D: "Lord Voldemort"
+    difficulty: EXPERT
+  - text: "Combien de Harry Potter apparaissent lors de la fuite des sept Potter ?"
+    answers:
+      A: "Cinq"
+      B: "Sept"
+      C: "Six"
+      D: "Huit"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many Harry Potters appear during the flight of the seven Potters?"
+        answers:
+          A: "Five"
+          B: "Seven"
+          C: "Six"
+          D: "Eight"
+    difficulty: HARD
+  - text: "Qui est tué par Voldemort lors de la fuite des sept Potter ?"
+    answers:
+      A: "Bill Weasley"
+      B: "Kingsley Shacklebolt"
+      C: "Nymphadora Tonks"
+      D: "Alastor Maugrey"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is killed by Voldemort during the flight of the seven Potters?"
+        answers:
+          A: "Bill Weasley"
+          B: "Kingsley Shacklebolt"
+          C: "Nymphadora Tonks"
+          D: "Alastor Moody"
+    difficulty: HARD
+  - text: "Quel objet Mad-Eye Moody donne-t-il à Harry avant la fuite des sept Potter ?"
+    answers:
+      A: "Une baguette"
+      B: "Une cape d'invisibilité"
+      C: "Un miroir"
+      D: "Un médaillon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What object does Mad-Eye Moody give Harry before the flight of the seven Potters?"
+        answers:
+          A: "A wand"
+          B: "An invisibility cloak"
+          C: "A mirror"
+          D: "A locket"
+    difficulty: EXPERT
+  - text: "Qui est le patron de la boutique de baguettes Ollivander ?"
+    answers:
+      A: "Gervaise Ollivander"
+      B: "Garrick Ollivander"
+      C: "Gerbold Ollivander"
+      D: "Gareth Ollivander"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the owner of the Ollivander wand shop?"
+        answers:
+          A: "Gervaise Ollivander"
+          B: "Garrick Ollivander"
+          C: "Gerbold Ollivander"
+          D: "Gareth Ollivander"
+    difficulty: HARD
+  - text: "Quel est le nom du groupe de sorciers qui aide Harry à quitter le 4 Privet Drive ?"
+    answers:
+      A: "Le Ministère de la Magie"
+      B: "L'Armée de Dumbledore"
+      C: "Les Aurors"
+      D: "L'Ordre du Phénix"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the group of wizards who help Harry leave 4 Privet Drive?"
+        answers:
+          A: "The Ministry of Magic"
+          B: "Dumbledore's Army"
+          C: "The Aurors"
+          D: "The Order of the Phoenix"
+    difficulty: HARD
+  - text: "Quel est le nom de l'épée que Harry utilise pour détruire le médaillon ?"
+    answers:
+      A: "L'épée de Gryffondor"
+      B: "L'épée de Godric Gryffondor"
+      C: "L'épée de Godric"
+      D: "L'épée de Dumbledore"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the sword Harry uses to destroy the locket?"
+        answers:
+          A: "The Sword of Gryffindor"
+          B: "The Sword of Godric Gryffindor"
+          C: "Godric's Sword"
+          D: "Dumbledore's Sword"
+    difficulty: HARD
+  - text: "Quel personnage apparaît sous forme de vieille dame à Godric's Hollow ?"
+    answers:
+      A: "Arabella Figg"
+      B: "Bathilda Bagshot"
+      C: "Muriel"
+      D: "Augusta Londubat"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which character appears in the form of an old lady at Godric's Hollow?"
+        answers:
+          A: "Arabella Figg"
+          B: "Bathilda Bagshot"
+          C: "Muriel"
+          D: "Augusta Longbottom"
+    difficulty: EXPERT
+  - text: "Quel est le nom du conte que Xénophilius Lovegood raconte au trio ?"
+    answers:
+      A: "La Légende des Trois Sorciers"
+      B: "Le Conte des Trois Frères"
+      C: "L'Histoire des Trois Frères"
+      D: "Le Mythe des Trois Frères"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the tale Xenophilius Lovegood tells the trio?"
+        answers:
+          A: "The Legend of the Three Wizards"
+          B: "The Tale of the Three Brothers"
+          C: "The Story of the Three Brothers"
+          D: "The Myth of the Three Brothers"
+    difficulty: HARD
+  - text: "Quel est le premier sort lancé par Hermione pour protéger le trio après l'apparition des Mangemorts au mariage ?"
+    answers:
+      A: "Fianto Duri"
+      B: "Salvio Hexia"
+      C: "Protego Maxima"
+      D: "Repello Muggletum"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the first spell Hermione casts to protect the trio after the Death Eaters appear at the wedding?"
+        answers:
+          A: "Fianto Duri"
+          B: "Salvio Hexia"
+          C: "Protego Maxima"
+          D: "Repello Muggletum"
+    difficulty: EXPERT
+  - text: "Quelle est la première destination du trio après avoir quitté le mariage ?"
+    answers:
+      A: "Le Terrier"
+      B: "Le café de Tottenham Court Road"
+      C: "Godric's Hollow"
+      D: "12, square Grimmaurd"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the trio's first destination after leaving the wedding?"
+        answers:
+          A: "The Burrow"
+          B: "The Tottenham Court Road café"
+          C: "Godric's Hollow"
+          D: "12 Grimmauld Place"
+    difficulty: EXPERT
+  - text: "Quel objet Ron utilise-t-il pour blesser le loup-garou Fenrir Greyback lors de la fuite des sept Potter ?"
+    answers:
+      A: "Un sortilège de Stupéfix"
+      B: "Un sortilège de Pétrification"
+      C: "Un sortilège de Lévitation"
+      D: "Un sortilège de Désarmement"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What does Ron use to injure the werewolf Fenrir Greyback during the flight of the seven Potters?"
+        answers:
+          A: "A Stunning Spell"
+          B: "A Petrification Spell"
+          C: "A Levitation Charm"
+          D: "A Disarming Charm"
+    difficulty: EXPERT
+  - text: "Quel personnage est tué par Voldemort lors de la fuite des sept Potter ?"
+    answers:
+      A: "Alastor Maugrey"
+      B: "Kingsley Shacklebolt"
+      C: "Elphias Doge"
+      D: "Dedalus Diggle"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character is killed by Voldemort during the flight of the seven Potters?"
+        answers:
+          A: "Alastor Moody"
+          B: "Kingsley Shacklebolt"
+          C: "Elphias Doge"
+          D: "Dedalus Diggle"
+    difficulty: HARD
+  - text: "Qui prononce la phrase « L'aube se lèvera sur un monde sans Harry Potter » ?"
+    answers:
+      A: "Bellatrix Lestrange"
+      B: "Lucius Malefoy"
+      C: "Severus Rogue"
+      D: "Pius Thicknesse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who says the line \"The dawn will rise on a world without Harry Potter\"?"
+        answers:
+          A: "Bellatrix Lestrange"
+          B: "Lucius Malfoy"
+          C: "Severus Snape"
+          D: "Pius Thicknesse"
+    difficulty: EXPERT
+  - text: "Quel est le mot de passe utilisé par Hermione pour entrer au ministère de la Magie ?"
+    answers:
+      A: "Sorcier Éclair"
+      B: "Ministère Suprême"
+      C: "Magie Éternelle"
+      D: "Poudlard Express"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the password Hermione uses to enter the Ministry of Magic?"
+        answers:
+          A: "Lightning Wizard"
+          B: "Supreme Ministry"
+          C: "Eternal Magic"
+          D: "Hogwarts Express"
+    difficulty: EXPERT
+  - text: "Qui aide le trio à s'échapper du manoir Malefoy en leur lançant un sort de Désarmement ?"
+    answers:
+      A: "Kreacher"
+      B: "Dobby"
+      C: "Luna Lovegood"
+      D: "Griphook"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who helps the trio escape Malfoy Manor by casting a Disarming Charm at them?"
         answers:
           A: "Kreacher"
           B: "Dobby"
-          C: "Lupin"
-          D: "Tonks"
-  - text: "Quel objet Voldemort vole-t-il dans la tombe de Dumbledore ?"
-    answers:
-      A: "une bague"
-      B: "la Baguette de Sureau"
-      C: "un médaillon"
-      D: "un livre"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which object does Voldemort steal from Dumbledore's tomb?"
-        answers:
-          A: "a ring"
-          B: "the Elder Wand"
-          C: "a locket"
-          D: "a book"
-  - text: "Quel est le titre français de ce septième film ?"
-    answers:
-      A: "Harry Potter et l'Ordre du Phénix"
-      B: "Harry Potter et le Prince de sang-mêlé"
-      C: "Harry Potter et les Reliques de la Mort - Partie 1"
-      D: "Harry Potter et la Coupe de feu"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the French title of this seventh film?"
-        answers:
-          A: "Harry Potter et l'Ordre du Phénix"
-          B: "Harry Potter et le Prince de sang-mêlé"
-          C: "Harry Potter et les Reliques de la Mort - Partie 1"
-          D: "Harry Potter et la Coupe de feu"
-  - text: "Quelle est la fonction de Rufus Scrimgeour ?"
-    answers:
-      A: "Directeur de Poudlard"
-      B: "Ministre de la Magie"
-      C: "Chef des Aurors"
-      D: "Juge du Magenmagot"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is Rufus Scrimgeour's role?"
-        answers:
-          A: "Headmaster of Hogwarts"
-          B: "Minister for Magic"
-          C: "Head of the Aurors"
-          D: "Wizengamot judge"
-  - text: "Que veut Scrimgeour de Harry au début ?"
-    answers:
-      A: "sa cape"
-      B: "sa baguette"
-      C: "son balai"
-      D: "qu'il soutienne le Ministère"
-    correctAnswer: "D"
+          C: "Luna Lovegood"
+          D: "Griphook"
     difficulty: EXPERT
+  - text: "Quel objet magique Hermione utilise-t-elle pour contenir la tente pendant le camping ?"
+    answers:
+      A: "Un coffre enchanté"
+      B: "Une valise magique"
+      C: "Un sac en perles"
+      D: "Un sac de toile ordinaire"
+    correctAnswer: C
     translations:
       en:
-        text: "What does Scrimgeour want from Harry at the start?"
+        text: "Which magical object does Hermione use to hold the tent while camping?"
         answers:
-          A: "his cloak"
-          B: "his wand"
-          C: "his broom"
-          D: "that he support the Ministry"
-  - text: "Qui est la taupe de Voldemort au Ministère ?"
-    answers:
-      A: "Yaxley"
-      B: "Thicknesse"
-      C: "Ombrage"
-      D: "Scrimgeour"
-    correctAnswer: "A"
+          A: "An enchanted trunk"
+          B: "A magical suitcase"
+          C: "A beaded bag"
+          D: "An ordinary canvas bag"
     difficulty: EXPERT
+  - text: "Quel sort Hermione lance-t-elle pour cacher la tente après l'attaque des Mangemorts ?"
+    answers:
+      A: "Protégo Maxima"
+      B: "Défenseo"
+      C: "Salvio Hexia"
+      D: "Repello Moldu"
+    correctAnswer: C
     translations:
       en:
-        text: "Who is Voldemort's mole at the Ministry?"
+        text: "Which spell does Hermione cast to hide the tent after the Death Eaters' attack?"
         answers:
-          A: "Yaxley"
-          B: "Thicknesse"
-          C: "Umbridge"
-          D: "Scrimgeour"
-  - text: "Quelle nouvelle interrompt le mariage de Bill et Fleur ?"
-    answers:
-      A: "un incendie"
-      B: "une attaque de dragon"
-      C: "la mort de Hagrid"
-      D: "la chute du Ministère"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which news interrupts Bill and Fleur's wedding?"
-        answers:
-          A: "a fire"
-          B: "a dragon attack"
-          C: "Hagrid's death"
-          D: "the fall of the Ministry"
-  - text: "Quel abri le trio emporte-t-il en voyage ?"
-    answers:
-      A: "une cabane"
-      B: "un château"
-      C: "un bateau"
-      D: "une tente enchantée"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which shelter does the trio take on the run?"
-        answers:
-          A: "a hut"
-          B: "a castle"
-          C: "a boat"
-          D: "an enchanted tent"
-  - text: "Qui devient directeur de Poudlard dans ce film ?"
-    answers:
-      A: "McGonagall"
-      B: "Rogue"
-      C: "Slughorn"
-      D: "Ombrage"
-    correctAnswer: "B"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who becomes Hogwarts' headmaster in this film?"
-        answers:
-          A: "McGonagall"
-          B: "Snape"
-          C: "Slughorn"
-          D: "Umbridge"
-  - text: "Qui dirige le Ministère sous Voldemort ?"
-    answers:
-      A: "Fudge"
-      B: "Yaxley"
-      C: "Pius Thicknesse"
-      D: "Scrimgeour"
-    correctAnswer: "C"
+          A: "Protego Maxima"
+          B: "Defensio"
+          C: "Salvio Hexia"
+          D: "Repello Muggletum"
     difficulty: EXPERT
+  - text: "Avec quel objet Harry, Ron et Hermione s'échappent-ils du ministère de la Magie ?"
+    answers:
+      A: "Une cheminette publique"
+      B: "Un monte-charge de service"
+      C: "Un transplanage non autorisé"
+      D: "Une lettre de feu"
+    correctAnswer: C
     translations:
       en:
-        text: "Who runs the Ministry under Voldemort?"
+        text: "With which object do Harry, Ron and Hermione escape from the Ministry of Magic?"
         answers:
-          A: "Fudge"
-          B: "Yaxley"
-          C: "Pius Thicknesse"
-          D: "Scrimgeour"
-  - text: "Quel objet faut-il pour détruire un Horcruxe ?"
-    answers:
-      A: "du feu"
-      B: "un simple sort"
-      C: "le venin de basilic ou l'épée"
-      D: "de l'eau bénite"
-    correctAnswer: "C"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is needed to destroy a Horcrux?"
-        answers:
-          A: "fire"
-          B: "a simple spell"
-          C: "basilisk venom or the sword"
-          D: "holy water"
-  - text: "Quel effet le médaillon a-t-il sur celui qui le porte ?"
-    answers:
-      A: "il rend fort"
-      B: "il rend invisible"
-      C: "il assombrit l'humeur"
-      D: "il guérit"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "What effect does the locket have on its wearer?"
-        answers:
-          A: "it makes you strong"
-          B: "it turns you invisible"
-          C: "it darkens the mood"
-          D: "it heals"
-  - text: "Qui diffuse des nouvelles de la résistance à la radio ?"
-    answers:
-      A: "les Mangemorts"
-      B: "le Ministère"
-      C: "Poudlard"
-      D: "des sorciers clandestins"
-    correctAnswer: "D"
+          A: "A public Floo"
+          B: "A service lift"
+          C: "An unauthorized Apparition"
+          D: "A Howler"
     difficulty: EXPERT
+  - text: "Quel est le nom de l'elfe de maison de la famille Black qui apparaît brièvement ?"
+    answers:
+      A: "Hokey"
+      B: "Dobby"
+      C: "Winky"
+      D: "Kreattur"
+    correctAnswer: D
     translations:
       en:
-        text: "Who broadcasts resistance news on the radio?"
+        text: "What is the name of the Black family's house-elf who appears briefly?"
         answers:
-          A: "the Death Eaters"
-          B: "the Ministry"
-          C: "Hogwarts"
-          D: "clandestine wizards"
-  - text: "Qui raconte le conte des Trois Frères ?"
+          A: "Hokey"
+          B: "Dobby"
+          C: "Winky"
+          D: "Kreacher"
+    difficulty: HARD
+  - text: "Quel personnage utilise le sortilège de l'Imperium sur Stan Rocade lors de la fuite des sept Potter ?"
     answers:
-      A: "Xenophilius Lovegood"
-      B: "Dumbledore"
-      C: "Rogue"
-      D: "Ollivander"
-    correctAnswer: "A"
+      A: "Voldemort"
+      B: "Lucius Malefoy"
+      C: "Bellatrix Lestrange"
+      D: "Snape"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character uses the Imperius Curse on Stan Shunpike during the flight of the seven Potters?"
+        answers:
+          A: "Voldemort"
+          B: "Lucius Malfoy"
+          C: "Bellatrix Lestrange"
+          D: "Snape"
     difficulty: EXPERT
+  - text: "Quel est le Patronus de Ron Weasley ?"
+    answers:
+      A: "Un chien"
+      B: "Un loup"
+      C: "Une loutre"
+      D: "Un cerf"
+    correctAnswer: A
     translations:
       en:
-        text: "Who tells the Tale of the Three Brothers?"
+        text: "What is Ron Weasley's Patronus?"
         answers:
-          A: "Xenophilius Lovegood"
-          B: "Dumbledore"
-          C: "Snape"
-          D: "Ollivander"
-  - text: "Où vit Xenophilius Lovegood ?"
-    answers:
-      A: "près de Ottery St Catchpole"
-      B: "à Pré-au-Lard"
-      C: "à Godric's Hollow"
-      D: "à Londres"
-    correctAnswer: "A"
+          A: "A dog"
+          B: "A wolf"
+          C: "An otter"
+          D: "A stag"
     difficulty: EXPERT
+  - text: "Quel objet Harry, Ron et Hermione volent-ils dans le bureau de Dumbledore après la mort du directeur ?"
+    answers:
+      A: "Le livre des Contes de Beedle le Barde"
+      B: "Le médaillon de Serpentard"
+      C: "La baguette de Sureau"
+      D: "L'épée de Gryffondor"
+    correctAnswer: D
     translations:
       en:
-        text: "Where does Xenophilius Lovegood live?"
+        text: "Which object do Harry, Ron and Hermione steal from Dumbledore's office after the headmaster's death?"
         answers:
-          A: "near Ottery St Catchpole"
-          B: "in Hogsmeade"
-          C: "in Godric's Hollow"
-          D: "in London"
-  - text: "Quel symbole porte Xenophilius Lovegood ?"
-    answers:
-      A: "un pentacle"
-      B: "la Marque des Ténèbres"
-      C: "les armoiries de Poudlard"
-      D: "celui des Reliques de la Mort"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which symbol does Xenophilius wear?"
-        answers:
-          A: "a pentacle"
-          B: "the Dark Mark"
-          C: "the Hogwarts crest"
-          D: "that of the Deathly Hallows"
-  - text: "Qui a été enlevée chez les Lovegood ?"
-    answers:
-      A: "Ginny"
-      B: "Luna"
-      C: "Hermione"
-      D: "Cho"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who was taken from the Lovegoods?"
-        answers:
-          A: "Ginny"
-          B: "Luna"
-          C: "Hermione"
-          D: "Cho"
-  - text: "Quelle créature se cache sous l'apparence de Bathilda ?"
-    answers:
-      A: "un dragon"
-      B: "Nagini"
-      C: "un loup"
-      D: "un elfe"
-    correctAnswer: "B"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which creature hides as Bathilda?"
-        answers:
-          A: "a dragon"
-          B: "Nagini"
-          C: "a wolf"
-          D: "an elf"
-  - text: "Qui transplane le trio hors de Godric's Hollow ?"
-    answers:
-      A: "Hermione"
-      B: "Harry"
-      C: "Ron"
-      D: "Dobby"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who Apparates the trio out of Godric's Hollow?"
-        answers:
-          A: "Hermione"
-          B: "Harry"
-          C: "Ron"
-          D: "Dobby"
-  - text: "Quelle vision l'Horcruxe montre-t-il à Ron ?"
-    answers:
-      A: "la mort de Dumbledore"
-      B: "une bataille"
-      C: "un mariage"
-      D: "Harry et Hermione ensemble"
-    correctAnswer: "D"
+          A: "The book of The Tales of Beedle the Bard"
+          B: "Slytherin's Locket"
+          C: "The Elder Wand"
+          D: "The Sword of Gryffindor"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "Which vision does the Horcrux show Ron?"
-        answers:
-          A: "Dumbledore's death"
-          B: "a battle"
-          C: "a wedding"
-          D: "Harry and Hermione together"
-  - text: "Qui revient sauver Harry du lac gelé ?"
+  - text: "Quel personnage aide le trio à s'échapper du manoir Malefoy en leur lançant un sort de Désarmement ?"
     answers:
-      A: "Lupin"
-      B: "Hermione"
-      C: "Dobby"
-      D: "Ron"
-    correctAnswer: "D"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who returns to save Harry from the frozen lake?"
-        answers:
-          A: "Lupin"
-          B: "Hermione"
-          C: "Dobby"
-          D: "Ron"
-  - text: "Qui a envoyé le Patronus en forme de biche ?"
-    answers:
-      A: "Dumbledore"
-      B: "Lupin"
-      C: "Rogue"
-      D: "Harry"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who sent the doe Patronus?"
-        answers:
-          A: "Dumbledore"
-          B: "Lupin"
-          C: "Snape"
-          D: "Harry"
-  - text: "Quel objet Hermione modifie-t-elle dans la mémoire de ses parents ?"
-    answers:
-      A: "une lettre"
-      B: "un miroir"
-      C: "un sort d'oubli"
-      D: "une photo"
-    correctAnswer: "C"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which spell does Hermione cast on her parents' memory?"
-        answers:
-          A: "a letter"
-          B: "a mirror"
-          C: "an Obliviation spell"
-          D: "a photo"
-  - text: "Que fait Hermione à ses parents au début du film ?"
-    answers:
-      A: "elle les invite"
-      B: "elle efface leur mémoire"
-      C: "elle les cache"
-      D: "elle les soigne"
-    correctAnswer: "B"
-    difficulty: EASY
-    translations:
-      en:
-        text: "What does Hermione do to her parents at the start?"
-        answers:
-          A: "she invites them"
-          B: "she erases their memory"
-          C: "she hides them"
-          D: "she heals them"
-  - text: "Qui le trio libère-t-il de Malfoy Manor ?"
-    answers:
-      A: "des prisonniers"
-      B: "des elfes"
-      C: "des gobelins"
-      D: "des dragons"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Whom does the trio free from Malfoy Manor?"
-        answers:
-          A: "prisoners"
-          B: "elves"
-          C: "goblins"
-          D: "dragons"
-  - text: "Quel objet Voldemort cherche-t-il dans les tombes ?"
-    answers:
-      A: "la Baguette de Sureau"
-      B: "une bague"
-      C: "un médaillon"
-      D: "une coupe"
-    correctAnswer: "A"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which object does Voldemort seek in the tombs?"
-        answers:
-          A: "the Elder Wand"
-          B: "a ring"
-          C: "a locket"
-          D: "a cup"
-  - text: "Quel objet Hermione porte-t-elle autour du cou ?"
-    answers:
-      A: "un collier"
-      B: "un médaillon"
-      C: "un sac à perles"
-      D: "une montre"
-    correctAnswer: "C"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which object does Hermione wear around her neck?"
-        answers:
-          A: "a necklace"
-          B: "a locket"
-          C: "a beaded bag"
-          D: "a watch"
-  - text: "Où le trio se cache-t-il pendant sa fuite ?"
-    answers:
-      A: "dans des forêts isolées"
-      B: "à Poudlard"
-      C: "au Ministère"
-      D: "chez les Dursley"
-    correctAnswer: "A"
-    difficulty: EASY
-    translations:
-      en:
-        text: "Where does the trio hide while on the run?"
-        answers:
-          A: "in remote forests"
-          B: "at Hogwarts"
-          C: "at the Ministry"
-          D: "at the Dursleys'"
-  - text: "Qui attaque le trio sur le chemin de Godric's Hollow ?"
-    answers:
-      A: "des Mangemorts"
-      B: "des elfes"
-      C: "des centaures"
-      D: "des géants"
-    correctAnswer: "A"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Who attacks the trio on the way to Godric's Hollow?"
-        answers:
-          A: "Death Eaters"
-          B: "elves"
-          C: "centaurs"
-          D: "giants"
-  - text: "Quel objet le trio cherche-t-il après le médaillon ?"
-    answers:
-      A: "le diadème de Serdaigle"
-      B: "la coupe de Poufsouffle"
-      C: "la bague"
-      D: "l'épée"
-    correctAnswer: "B"
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which object does the trio seek after the locket?"
-        answers:
-          A: "Ravenclaw's diadem"
-          B: "Hufflepuff's cup"
-          C: "the ring"
-          D: "the sword"
-  - text: "Qui le trio rencontre-t-il à Malfoy Manor ?"
-    answers:
-      A: "des gobelins"
-      B: "des dragons"
-      C: "des prisonniers"
-      D: "des centaures"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Whom do they find at Malfoy Manor?"
-        answers:
-          A: "goblins"
-          B: "dragons"
-          C: "prisoners"
-          D: "centaurs"
-  - text: "Quel objet Harry brise-t-il par accident à Godric's Hollow ?"
-    answers:
-      A: "son livre"
-      B: "sa cape"
-      C: "son balai"
-      D: "sa baguette"
-    correctAnswer: "D"
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which object does Harry accidentally break at Godric's Hollow?"
-        answers:
-          A: "his book"
-          B: "his cloak"
-          C: "his broom"
-          D: "his wand"
-  - text: "Qui est le fabricant de baguettes retenu prisonnier ?"
-    answers:
-      A: "Gregorovitch"
-      B: "Griphook"
-      C: "Ollivander"
-      D: "Scamander"
-    correctAnswer: "C"
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which wandmaker is held prisoner?"
-        answers:
-          A: "Gregorovitch"
-          B: "Griphook"
-          C: "Ollivander"
-          D: "Scamander"
-  - text: "Quel gobelin apparaît dans ce film ?"
-    answers:
-      A: "Bogrod"
-      B: "Ragnok"
+      A: "Luna Lovegood"
+      B: "Dobby"
       C: "Griphook"
-      D: "Gornuk"
-    correctAnswer: "C"
-    difficulty: EXPERT
+      D: "Mr Ollivander"
+    correctAnswer: B
     translations:
       en:
-        text: "Which goblin appears in this film?"
+        text: "Which character helps the trio escape Malfoy Manor by casting a Disarming Charm?"
         answers:
-          A: "Bogrod"
-          B: "Ragnok"
+          A: "Luna Lovegood"
+          B: "Dobby"
           C: "Griphook"
-          D: "Gornuk"
+          D: "Mr Ollivander"
+    difficulty: EXPERT
+  - text: "Quel est le premier mot de la formule que Hermione utilise pour effacer la mémoire de ses parents ?"
+    answers:
+      A: "Oubliettes"
+      B: "Obliviate"
+      C: "Confundo"
+      D: "Amnésia"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first word of the spell Hermione uses to erase her parents' memory?"
+        answers:
+          A: "Oubliettes"
+          B: "Obliviate"
+          C: "Confundo"
+          D: "Amnesia"
+    difficulty: EXPERT
+  - text: "Quel objet Harry laisse-t-il à Dudley dans la voiture avant de partir ?"
+    answers:
+      A: "Une montre"
+      B: "Une photo"
+      C: "Un livre"
+      D: "Une baguette"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which object does Harry leave with Dudley in the car before leaving?"
+        answers:
+          A: "A watch"
+          B: "A photo"
+          C: "A book"
+          D: "A wand"
+    difficulty: EXPERT
+  - text: "Qui est le premier personnage à boire du Polynectar lors de la fuite des sept Potter ?"
+    answers:
+      A: "Fleur Delacour"
+      B: "Fred Weasley"
+      C: "Ron Weasley"
+      D: "Hermione Granger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who is the first character to drink Polyjuice Potion during the flight of the seven Potters?"
+        answers:
+          A: "Fleur Delacour"
+          B: "Fred Weasley"
+          C: "Ron Weasley"
+          D: "Hermione Granger"
+    difficulty: EXPERT
+  - text: "Quelle créature attaque le trio dans le café après le mariage ?"
+    answers:
+      A: "Un loup-garou"
+      B: "Des Détraqueurs"
+      C: "Un elfe de maison"
+      D: "Des Mangemorts"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which creature attacks the trio in the café after the wedding?"
+        answers:
+          A: "A werewolf"
+          B: "Dementors"
+          C: "A house-elf"
+          D: "Death Eaters"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione lance-t-elle pour effacer la mémoire de ses parents ?"
+    answers:
+      A: "Mimblewimble"
+      B: "Confundo"
+      C: "Oubliettes"
+      D: "Legilimens"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which spell does Hermione cast to erase her parents' memory?"
+        answers:
+          A: "Mimblewimble"
+          B: "Confundo"
+          C: "Oubliettes"
+          D: "Legilimens"
+    difficulty: EXPERT
+  - text: "Quel objet magique permet au trio de porter la tente ?"
+    answers:
+      A: "Un retourneur de temps"
+      B: "Une cape d'invisibilité"
+      C: "Un sac de perles"
+      D: "Un sac à malices"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which magical object allows the trio to carry the tent?"
+        answers:
+          A: "A Time-Turner"
+          B: "An Invisibility Cloak"
+          C: "A beaded bag"
+          D: "A bag of tricks"
+    difficulty: EXPERT
+  - text: "Qui est le premier à boire du Polynectar lors de la fuite des sept Potter ?"
+    answers:
+      A: "Fred Weasley"
+      B: "Mundungus Fletcher"
+      C: "George Weasley"
+      D: "Bill Weasley"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Who is the first to drink Polyjuice Potion during the flight of the seven Potters?"
+        answers:
+          A: "Fred Weasley"
+          B: "Mundungus Fletcher"
+          C: "George Weasley"
+          D: "Bill Weasley"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour cacher le trio dans le café ?"
+    answers:
+      A: "Confundo"
+      B: "Protego Maxima"
+      C: "Fianto Duri"
+      D: "Repello Moldum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which spell does Hermione use to hide the trio in the café?"
+        answers:
+          A: "Confundo"
+          B: "Protego Maxima"
+          C: "Fianto Duri"
+          D: "Repello Muggletum"
+    difficulty: EXPERT
+  - text: "Quel objet Harry, Ron et Hermione volent-ils dans le ministère ?"
+    answers:
+      A: "Le médaillon de Serpentard"
+      B: "La coupe de Poufsouffle"
+      C: "Le diadème de Serdaigle"
+      D: "La bague de Gaunt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which object do Harry, Ron, and Hermione steal from the Ministry?"
+        answers:
+          A: "Slytherin's locket"
+          B: "Hufflepuff's cup"
+          C: "Ravenclaw's diadem"
+          D: "The Gaunt ring"
+    difficulty: EXPERT
+  - text: "Quel objet Harry laisse-t-il à Dudley avant de partir ?"
+    answers:
+      A: "Une lettre"
+      B: "Sa baguette"
+      C: "Rien"
+      D: "Son écharpe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What does Harry leave for Dudley before departing?"
+        answers:
+          A: "A letter"
+          B: "His wand"
+          C: "Nothing"
+          D: "His scarf"
+    difficulty: EXPERT
+  - text: "Quel est le nom de code de l'Opération de la fuite des sept Potter ?"
+    answers:
+      A: "Le Plan des Sept"
+      B: "L'Ordre du Phénix"
+      C: "L'Opération Septuple"
+      D: "La Fuite des Potter"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the code name for the Operation of the flight of the seven Potters?"
+        answers:
+          A: "The Plan of the Seven"
+          B: "The Order of the Phoenix"
+          C: "Operation Septuple"
+          D: "The Flight of the Potters"
+    difficulty: EXPERT
+  - text: "Quel personnage prend l'apparence de Harry lors de la fuite des sept Potter en buvant du Polynectar ?"
+    answers:
+      A: "Mundungus Fletcher"
+      B: "George Weasley"
+      C: "Fred Weasley"
+      D: "Kingsley Shacklebolt"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which character takes on Harry's appearance during the flight of the seven Potters by drinking Polyjuice Potion?"
+        answers:
+          A: "Mundungus Fletcher"
+          B: "George Weasley"
+          C: "Fred Weasley"
+          D: "Kingsley Shacklebolt"
+    difficulty: HARD
+  - text: "Quel bijou appartenant à Bellatrix Lestrange Hermione prend-elle au ministère ?"
+    answers:
+      A: "Un collier"
+      B: "Un ostensoir"
+      C: "Une bague"
+      D: "Un bracelet"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which piece of jewelry belonging to Bellatrix Lestrange does Hermione take from the Ministry?"
+        answers:
+          A: "A necklace"
+          B: "A monstrance"
+          C: "A ring"
+          D: "A bracelet"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'auteur du livre 'La Vie et les Mensonges d'Albus Dumbledore' que Rita Skeeter publie ?"
+    answers:
+      A: "Rita Skeeter"
+      B: "Xénophilius Lovegood"
+      C: "Bathilda Bagshot"
+      D: "Gellert Grindelwald"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the author of the book 'The Life and Lies of Albus Dumbledore' that Rita Skeeter publishes?"
+        answers:
+          A: "Rita Skeeter"
+          B: "Xenophilius Lovegood"
+          C: "Bathilda Bagshot"
+          D: "Gellert Grindelwald"
+    difficulty: EXPERT
+  - text: "Quel sort Hermione utilise-t-elle pour faire léviter la soupe dans la tente ?"
+    answers:
+      A: "Locomotor"
+      B: "Mobilicorpus"
+      C: "Levicorpus"
+      D: "Wingardium Leviosa"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which spell does Hermione use to levitate the soup in the tent?"
+        answers:
+          A: "Locomotor"
+          B: "Mobilicorpus"
+          C: "Levicorpus"
+          D: "Wingardium Leviosa"
+    difficulty: EXPERT
+  - text: "Quel est le nom du frère de Dumbledore qui apparaît dans le conte des Trois Frères ?"
+    answers:
+      A: "Albus"
+      B: "Aurelius"
+      C: "Aberforth"
+      D: "Ariana"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of Dumbledore's brother who appears in the Tale of the Three Brothers?"
+        answers:
+          A: "Albus"
+          B: "Aurelius"
+          C: "Aberforth"
+          D: "Ariana"
+    difficulty: EXPERT
+  - text: "Combien de temps le trio reste-t-il caché au 12, square Grimmaurd avant de partir ?"
+    answers:
+      A: "Un mois"
+      B: "Une semaine"
+      C: "Quelques jours"
+      D: "Deux semaines"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How long does the trio stay hidden at 12 Grimmauld Place before leaving?"
+        answers:
+          A: "One month"
+          B: "One week"
+          C: "A few days"
+          D: "Two weeks"
+    difficulty: EXPERT

@@ -52,6 +52,7 @@ public interface CreateTopicUseCase {
                         emoji,
                         color,
                         imageUrl,
+                        null,
                         creatorId
                 )
         );
@@ -77,6 +78,22 @@ public interface CreateTopicUseCase {
             String imageUrl,
             String creatorId
     ) {
-        create(topicId, names, description, category, emoji, color, imageUrl, creatorId).join();
+        createAndWait(topicId, names, description, category, emoji, color, imageUrl, null, creatorId);
+    }
+
+    /** Variante du seed : titres personnalisés par grade et par langue (optionnels). */
+    default void createAndWait(
+            String topicId,
+            Map<Language, String> names,
+            String description,
+            TopicCategory category,
+            String emoji,
+            String color,
+            String imageUrl,
+            Map<Language, Map<String, String>> titles,
+            String creatorId
+    ) {
+        create(new TopicCommand.CreateTopicCommand(
+                topicId, names, description, category, emoji, color, imageUrl, titles, creatorId)).join();
     }
 }

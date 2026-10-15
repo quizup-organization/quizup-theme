@@ -92,6 +92,10 @@ public class TopicEntity {
     @Column(name = "banner_url", length = 1024)
     private String bannerUrl;
 
+    /** Titres personnalisés par grade et par langue (JSON), ou {@code null} (repli client). */
+    @Column(name = "title_names", columnDefinition = "TEXT")
+    private String titleNames;
+
     @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "topic_questions_counter", joinColumns = @JoinColumn(name = "topic_id"))
     @MapKeyEnumerated(EnumType.STRING)

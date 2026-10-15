@@ -7,6 +7,7 @@ import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.exception.TopicProblems;
 import io.github.quizup.theme.domain.model.TopicCategory;
 import io.github.quizup.theme.domain.model.TopicStatus;
+import io.github.quizup.theme.domain.model.TopicTitles;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
@@ -42,6 +43,7 @@ public class TopicAggregate {
     private String color;
     private String imageUrl;
     private String bannerUrl;
+    private Map<Language, Map<String, String>> titles;
     private TopicStatus status;
     private String creatorId;
     private Instant createdAt;
@@ -76,9 +78,38 @@ public class TopicAggregate {
                 command.emoji(),
                 command.color(),
                 command.imageUrl(),
+                normalizeTitles(command.topicId(), command.titles()),
                 command.creatorId(),
                 Instant.now()
         ));
+    }
+
+    /** Titres personnalisés (propriétaire) : idempotent, `null` efface (repli client). */
+    @CommandHandler
+    public void handle(TopicCommand.UpdateTopicTitlesCommand command) {
+        requireOwner(command.requestedBy());
+
+        Map<Language, Map<String, String>> normalized = normalizeTitles(topicId, command.titles());
+        if (Objects.equals(this.titles, normalized)) {
+            return;
+        }
+
+        AggregateLifecycle.apply(new TopicEvent.TopicTitlesUpdatedEvent(
+                topicId,
+                command.requestedBy(),
+                normalized,
+                Instant.now()
+        ));
+    }
+
+    /** Valide la carte des titres (grade connu, libellé non vide ≤ {@code MAX_LABEL_LENGTH}). */
+    private static Map<Language, Map<String, String>> normalizeTitles(
+            String topicId, Map<Language, Map<String, String>> titles) {
+        try {
+            return TopicTitles.normalize(titles);
+        } catch (IllegalArgumentException error) {
+            throw new TopicProblems.InvalidTopicTitlesProblem(topicId, error.getMessage());
+        }
     }
 
     @CommandHandler
@@ -204,6 +235,7 @@ public class TopicAggregate {
         this.emoji = event.emoji();
         this.color = event.color();
         this.imageUrl = event.imageUrl();
+        this.titles = event.titles();
         this.status = TopicStatus.DRAFT;
         this.creatorId = event.creatorId();
         this.createdAt = event.createdAt();
@@ -216,6 +248,13 @@ public class TopicAggregate {
         this.status = TopicStatus.PUBLISHED;
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.publishedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicTitlesUpdatedEvent event) {
+        this.titles = event.titles();
+        this.updatedBy = event.updatedBy();
+        this.updatedAt = event.updatedAt();
     }
 
     @EventSourcingHandler

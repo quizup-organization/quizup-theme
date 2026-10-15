@@ -7,1603 +7,1603 @@ topic:
   category: SCIENCE
   imageUrl: wikipedia/science/Human_anatomy_planes,_labeled.jpg
 questions:
-  - text: "Combien d'os compte le squelette humain adulte ?"
+  - text: "Quel organe est situé dans le médiastin antérieur, entre les poumons ?"
     answers:
-      A: "206"
-      B: "186"
-      C: "226"
-      D: "246"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "How many bones are in the adult human skeleton?"
-        answers:
-          A: "206"
-          B: "186"
-          C: "226"
-          D: "246"
-  - text: "Quel est l'os le plus long du corps humain ?"
-    answers:
-      A: "Le radius"
-      B: "Le tibia"
-      C: "L'humérus"
-      D: "Le fémur"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the longest bone in the human body?"
-        answers:
-          A: "The radius"
-          B: "The tibia"
-          C: "The humerus"
-          D: "The femur"
-  - text: "Quel organe pompe le sang dans tout le corps ?"
-    answers:
-      A: "Le cœur"
-      B: "Les poumons"
-      C: "Les reins"
+      A: "Le thymus"
+      B: "Le pancréas"
+      C: "La rate"
       D: "Le foie"
     correctAnswer: A
-    difficulty: EASY
     translations:
       en:
-        text: "Which organ pumps blood throughout the body?"
+        text: "Which organ is located in the anterior mediastinum, between the lungs?"
+        answers:
+          A: "The thymus"
+          B: "The pancreas"
+          C: "The spleen"
+          D: "The liver"
+    difficulty: EASY
+  - text: "Quel est le nom du tissu qui relie les os entre eux au niveau des articulations ?"
+    answers:
+      A: "Le cartilage"
+      B: "Le tendon"
+      C: "L'aponévrose"
+      D: "Le ligament"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the tissue that connects bones to each other at joints?"
+        answers:
+          A: "Cartilage"
+          B: "Tendon"
+          C: "Aponeurosis"
+          D: "Ligament"
+    difficulty: EASY
+  - text: "Quelle est la durée moyenne d'un cycle cardiaque au repos chez l'adulte ?"
+    answers:
+      A: "0,8 seconde"
+      B: "1,2 seconde"
+      C: "0,5 seconde"
+      D: "1,5 seconde"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the average duration of a cardiac cycle at rest in an adult?"
+        answers:
+          A: "0.8 seconds"
+          B: "1.2 seconds"
+          C: "0.5 seconds"
+          D: "1.5 seconds"
+    difficulty: EXPERT
+  - text: "Quel nerf est responsable de l'innervation du diaphragme ?"
+    answers:
+      A: "Le nerf vague"
+      B: "Le nerf glossopharyngien"
+      C: "Le nerf sciatique"
+      D: "Le nerf phrénique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which nerve is responsible for the innervation of the diaphragm?"
+        answers:
+          A: "The vagus nerve"
+          B: "The glossopharyngeal nerve"
+          C: "The sciatic nerve"
+          D: "The phrenic nerve"
+    difficulty: HARD
+  - text: "Quelle partie du cerveau est le siège principal de la régulation de la température corporelle ?"
+    answers:
+      A: "L'hippocampe"
+      B: "Le cervelet"
+      C: "Le thalamus"
+      D: "L'hypothalamus"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which part of the brain is the main center for regulating body temperature?"
+        answers:
+          A: "The hippocampus"
+          B: "The cerebellum"
+          C: "The thalamus"
+          D: "The hypothalamus"
+    difficulty: HARD
+  - text: "Combien de paires de côtes compte le squelette humain ?"
+    answers:
+      A: "10 paires"
+      B: "12 paires"
+      C: "14 paires"
+      D: "8 paires"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many pairs of ribs does the human skeleton have?"
+        answers:
+          A: "10 pairs"
+          B: "12 pairs"
+          C: "14 pairs"
+          D: "8 pairs"
+    difficulty: MEDIUM
+  - text: "Quel est le principal composant de la substance blanche du cerveau ?"
+    answers:
+      A: "Les corps cellulaires des neurones"
+      B: "Les axones myélinisés"
+      C: "Les dendrites"
+      D: "Les synapses"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the main component of the brain's white matter?"
+        answers:
+          A: "The cell bodies of neurons"
+          B: "Myelinated axons"
+          C: "Dendrites"
+          D: "Synapses"
+    difficulty: HARD
+  - text: "Quelle valve cardiaque sépare l'oreillette gauche du ventricule gauche ?"
+    answers:
+      A: "La valve tricuspide"
+      B: "La valve pulmonaire"
+      C: "La valve mitrale"
+      D: "La valve aortique"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which heart valve separates the left atrium from the left ventricle?"
+        answers:
+          A: "The tricuspid valve"
+          B: "The pulmonary valve"
+          C: "The mitral valve"
+          D: "The aortic valve"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la membrane qui entoure les poumons ?"
+    answers:
+      A: "La plèvre"
+      B: "Le péritoine"
+      C: "Le péricarde"
+      D: "La méninge"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the membrane that surrounds the lungs?"
+        answers:
+          A: "The pleura"
+          B: "The peritoneum"
+          C: "The pericardium"
+          D: "The meninges"
+    difficulty: EASY
+  - text: "Quelle cellule du foie est responsable de la détoxification et de la production de bile ?"
+    answers:
+      A: "L'hépatocyte"
+      B: "Le néphron"
+      C: "L'alvéole"
+      D: "Le villosité"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which liver cell is responsible for detoxification and bile production?"
+        answers:
+          A: "The hepatocyte"
+          B: "The nephron"
+          C: "The alveolus"
+          D: "The villus"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'enzyme présente dans la salive qui commence la digestion de l'amidon ?"
+    answers:
+      A: "La pepsine"
+      B: "La trypsine"
+      C: "La lipase"
+      D: "L'amylase salivaire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the enzyme in saliva that begins the digestion of starch?"
+        answers:
+          A: "Pepsin"
+          B: "Trypsin"
+          C: "Lipase"
+          D: "Salivary amylase"
+    difficulty: MEDIUM
+  - text: "Quelle structure de l'oreille interne est responsable de l'équilibre ?"
+    answers:
+      A: "Le vestibule"
+      B: "La cochlée"
+      C: "Le marteau"
+      D: "Le tympan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which structure of the inner ear is responsible for balance?"
+        answers:
+          A: "The vestibule"
+          B: "The cochlea"
+          C: "The malleus"
+          D: "The eardrum"
+    difficulty: HARD
+  - text: "Combien de lobes compte le cerveau humain ?"
+    answers:
+      A: "3"
+      B: "5"
+      C: "4"
+      D: "6"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many lobes does the human brain have?"
+        answers:
+          A: "3"
+          B: "5"
+          C: "4"
+          D: "6"
+    difficulty: MEDIUM
+  - text: "Quel est le plus grand organe interne du corps humain ?"
+    answers:
+      A: "Le cœur"
+      B: "Le foie"
+      C: "Les poumons"
+      D: "Les reins"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the largest internal organ of the human body?"
         answers:
           A: "The heart"
-          B: "The lungs"
-          C: "The kidneys"
-          D: "The liver"
-  - text: "Combien de chambres compte le cœur humain ?"
-    answers:
-      A: "Deux"
-      B: "Trois"
-      C: "Six"
-      D: "Quatre"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "How many chambers does the human heart have?"
-        answers:
-          A: "Two"
-          B: "Three"
-          C: "Six"
-          D: "Four"
-  - text: "Quel est le plus grand organe du corps humain ?"
-    answers:
-      A: "Le foie"
-      B: "Le cerveau"
-      C: "Les poumons"
-      D: "La peau"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the largest organ in the human body?"
-        answers:
-          A: "The liver"
-          B: "The brain"
+          B: "The liver"
           C: "The lungs"
-          D: "The skin"
-  - text: "Quel gaz le sang transporte-t-il principalement vers les cellules ?"
-    answers:
-      A: "L'azote"
-      B: "L'oxygène"
-      C: "Le chlore"
-      D: "L'hélium"
-    correctAnswer: B
+          D: "The kidneys"
     difficulty: EASY
+  - text: "Quel type de muscle est le muscle cardiaque ?"
+    answers:
+      A: "Squelettique strié"
+      B: "Lisse"
+      C: "Strié cardiaque"
+      D: "Non strié"
+    correctAnswer: C
     translations:
       en:
-        text: "Which gas does the blood mainly transport to the cells?"
+        text: "What type of muscle is cardiac muscle?"
         answers:
-          A: "Nitrogen"
-          B: "Oxygen"
-          C: "Chlorine"
-          D: "Helium"
-  - text: "Dans quel tissu les globules rouges sont-ils produits chez l'adulte ?"
+          A: "Striated skeletal"
+          B: "Smooth"
+          C: "Striated cardiac"
+          D: "Non-striated"
+    difficulty: MEDIUM
+  - text: "Quelle glande produit l'insuline ?"
+    answers:
+      A: "Le pancréas"
+      B: "La thyroïde"
+      C: "Les surrénales"
+      D: "L'hypophyse"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which gland produces insulin?"
+        answers:
+          A: "The pancreas"
+          B: "The thyroid"
+          C: "The adrenal glands"
+          D: "The pituitary"
+    difficulty: EASY
+  - text: "Quel est le nom de la partie du neurone qui reçoit les signaux des autres neurones ?"
+    answers:
+      A: "La dendrite"
+      B: "L'axone"
+      C: "Le soma"
+      D: "La gaine de myéline"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the part of the neuron that receives signals from other neurons?"
+        answers:
+          A: "The dendrite"
+          B: "The axon"
+          C: "The soma"
+          D: "The myelin sheath"
+    difficulty: MEDIUM
+  - text: "Quel vaisseau sanguin transporte le sang du cœur vers les poumons ?"
+    answers:
+      A: "L'aorte"
+      B: "La veine pulmonaire"
+      C: "La veine cave"
+      D: "L'artère pulmonaire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which blood vessel carries blood from the heart to the lungs?"
+        answers:
+          A: "The aorta"
+          B: "The pulmonary vein"
+          C: "The vena cava"
+          D: "The pulmonary artery"
+    difficulty: MEDIUM
+  - text: "Quelle est la principale fonction des villosités intestinales ?"
+    answers:
+      A: "Absorber les nutriments"
+      B: "Produire des enzymes"
+      C: "Stocker les déchets"
+      D: "Sécréter du mucus"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the main function of the intestinal villi?"
+        answers:
+          A: "Absorb nutrients"
+          B: "Produce enzymes"
+          C: "Store waste"
+          D: "Secrete mucus"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du liquide qui remplit l'espace entre les méninges ?"
+    answers:
+      A: "Le liquide synovial"
+      B: "Le plasma"
+      C: "Le liquide céphalo-rachidien"
+      D: "La lymphe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the fluid that fills the space between the meninges?"
+        answers:
+          A: "Synovial fluid"
+          B: "Plasma"
+          C: "Cerebrospinal fluid"
+          D: "Lymph"
+    difficulty: HARD
+  - text: "Quel élément anatomique forme la partie distale du sternum ?"
+    answers:
+      A: "Le processus xiphoïde"
+      B: "Le manubrium"
+      C: "Le corps du sternum"
+      D: "L'incisure jugulaire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which anatomical element forms the distal part of the sternum?"
+        answers:
+          A: "The xiphoid process"
+          B: "The manubrium"
+          C: "The body of the sternum"
+          D: "The jugular notch"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la membrane qui tapisse l'intérieur de la cavité abdominale ?"
+    answers:
+      A: "Le péricarde"
+      B: "La plèvre"
+      C: "La méninge"
+      D: "Le péritoine"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the membrane that lines the inside of the abdominal cavity?"
+        answers:
+          A: "The pericardium"
+          B: "The pleura"
+          C: "The meninx"
+          D: "The peritoneum"
+    difficulty: HARD
+  - text: "Quelle est la plus grande artère du corps humain ?"
+    answers:
+      A: "L'artère pulmonaire"
+      B: "L'aorte"
+      C: "L'artère carotide"
+      D: "L'artère fémorale"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the largest artery in the human body?"
+        answers:
+          A: "The pulmonary artery"
+          B: "The aorta"
+          C: "The carotid artery"
+          D: "The femoral artery"
+    difficulty: EASY
+  - text: "Quel nerf contrôle la motricité des muscles de la face ?"
+    answers:
+      A: "Le nerf facial (VII)"
+      B: "Le nerf trijumeau (V)"
+      C: "Le nerf glossopharyngien (IX)"
+      D: "Le nerf vague (X)"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which nerve controls the motor function of the facial muscles?"
+        answers:
+          A: "The facial nerve (VII)"
+          B: "The trigeminal nerve (V)"
+          C: "The glossopharyngeal nerve (IX)"
+          D: "The vagus nerve (X)"
+    difficulty: HARD
+  - text: "Quelle glande est responsable de la sécrétion de la mélatonine ?"
+    answers:
+      A: "La thyroïde"
+      B: "L'hypophyse"
+      C: "La glande pinéale (épiphyse)"
+      D: "Les surrénales"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which gland is responsible for the secretion of melatonin?"
+        answers:
+          A: "The thyroid"
+          B: "The pituitary"
+          C: "The pineal gland (epiphysis)"
+          D: "The adrenal glands"
+    difficulty: MEDIUM
+  - text: "Quel vaisseau sanguin relie l'intestin au foie ?"
+    answers:
+      A: "La veine porte hépatique"
+      B: "L'artère hépatique"
+      C: "La veine cave inférieure"
+      D: "L'artère mésentérique supérieure"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which blood vessel connects the intestine to the liver?"
+        answers:
+          A: "The hepatic portal vein"
+          B: "The hepatic artery"
+          C: "The inferior vena cava"
+          D: "The superior mesenteric artery"
+    difficulty: HARD
+  - text: "Quel type de cellule du système nerveux produit la myéline dans le système nerveux périphérique ?"
+    answers:
+      A: "L'astrocyte"
+      B: "L'oligodendrocyte"
+      C: "La cellule de Schwann"
+      D: "La microglie"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which type of nervous system cell produces myelin in the peripheral nervous system?"
+        answers:
+          A: "The astrocyte"
+          B: "The oligodendrocyte"
+          C: "The Schwann cell"
+          D: "The microglia"
+    difficulty: EXPERT
+  - text: "Quel est le nom du liquide qui remplit les ventricules cérébraux ?"
+    answers:
+      A: "La lymphe"
+      B: "Le liquide synovial"
+      C: "Le plasma"
+      D: "Le liquide céphalo-rachidien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the fluid that fills the brain ventricles?"
+        answers:
+          A: "Lymph"
+          B: "Synovial fluid"
+          C: "Plasma"
+          D: "Cerebrospinal fluid"
+    difficulty: HARD
+  - text: "Quelle structure de l'œil permet la vision des couleurs ?"
+    answers:
+      A: "Les cônes"
+      B: "Les bâtonnets"
+      C: "La rétine périphérique"
+      D: "Le cristallin"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which structure of the eye enables color vision?"
+        answers:
+          A: "The cones"
+          B: "The rods"
+          C: "The peripheral retina"
+          D: "The lens"
+    difficulty: MEDIUM
+  - text: "Quel os ne fait pas partie du crâne ?"
+    answers:
+      A: "L'os frontal"
+      B: "L'os pariétal"
+      C: "L'os temporal"
+      D: "L'os hyoïde"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which bone is not part of the skull?"
+        answers:
+          A: "The frontal bone"
+          B: "The parietal bone"
+          C: "The temporal bone"
+          D: "The hyoid bone"
+    difficulty: HARD
+  - text: "Quelle hormone est sécrétée par les cellules bêta des îlots de Langerhans ?"
+    answers:
+      A: "Le glucagon"
+      B: "L'insuline"
+      C: "La somatostatine"
+      D: "Le polypeptide pancréatique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which hormone is secreted by the beta cells of the islets of Langerhans?"
+        answers:
+          A: "Glucagon"
+          B: "Insulin"
+          C: "Somatostatin"
+          D: "Pancreatic polypeptide"
+    difficulty: HARD
+  - text: "Quel est le nom de la valve située entre l'oreillette droite et le ventricule droit ?"
+    answers:
+      A: "La valve mitrale"
+      B: "La valve aortique"
+      C: "La valve tricuspide"
+      D: "La valve pulmonaire"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the valve located between the right atrium and the right ventricle?"
+        answers:
+          A: "The mitral valve"
+          B: "The aortic valve"
+          C: "The tricuspid valve"
+          D: "The pulmonary valve"
+    difficulty: MEDIUM
+  - text: "Quel muscle est responsable de l'extension du genou ?"
+    answers:
+      A: "Le gastrocnémien"
+      B: "Les ischio-jambiers"
+      C: "Le quadriceps fémoral"
+      D: "Le tibial antérieur"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which muscle is responsible for knee extension?"
+        answers:
+          A: "The gastrocnemius"
+          B: "The hamstrings"
+          C: "The quadriceps femoris"
+          D: "The tibialis anterior"
+    difficulty: HARD
+  - text: "Quel est le nom de la partie du cerveau qui relie les hémisphères cérébraux ?"
+    answers:
+      A: "Le thalamus"
+      B: "Le corps calleux"
+      C: "L'hypothalamus"
+      D: "Le tronc cérébral"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the part of the brain that connects the cerebral hemispheres?"
+        answers:
+          A: "The thalamus"
+          B: "The corpus callosum"
+          C: "The hypothalamus"
+          D: "The brainstem"
+    difficulty: HARD
+  - text: "Quelle est la durée de vie moyenne des globules rouges dans la circulation sanguine ?"
+    answers:
+      A: "Environ 30 jours"
+      B: "Environ 365 jours"
+      C: "Environ 180 jours"
+      D: "Environ 120 jours"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the average lifespan of red blood cells in the bloodstream?"
+        answers:
+          A: "About 30 days"
+          B: "About 365 days"
+          C: "About 180 days"
+          D: "About 120 days"
+    difficulty: HARD
+  - text: "Quel organe est le principal site de dégradation des globules rouges usés ?"
     answers:
       A: "Le foie"
       B: "La moelle osseuse"
       C: "La rate"
       D: "Les reins"
-    correctAnswer: B
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
-        text: "In which tissue are red blood cells produced in adults?"
+        text: "Which organ is the main site of breakdown of worn-out red blood cells?"
         answers:
           A: "The liver"
           B: "The bone marrow"
           C: "The spleen"
           D: "The kidneys"
-  - text: "Quelle cellule sanguine transporte l'oxygène ?"
-    answers:
-      A: "La plaquette"
-      B: "Le globule blanc"
-      C: "Le globule rouge"
-      D: "Le plasma"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which blood cell carries oxygen?"
-        answers:
-          A: "The platelet"
-          B: "The white blood cell"
-          C: "The red blood cell"
-          D: "The plasma"
-  - text: "Quel est le rôle principal des plaquettes ?"
-    answers:
-      A: "Coaguler le sang"
-      B: "Transporter l'oxygène"
-      C: "Digérer les graisses"
-      D: "Produire des anticorps"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the main role of platelets?"
-        answers:
-          A: "Clot the blood"
-          B: "Carry oxygen"
-          C: "Digest fats"
-          D: "Produce antibodies"
-  - text: "Combien de litres de sang environ contient le corps d'un adulte ?"
-    answers:
-      A: "5 à 6 litres"
-      B: "3 à 4 litres"
-      C: "1 à 2 litres"
-      D: "8 à 9 litres"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "About how many liters of blood does an adult's body contain?"
-        answers:
-          A: "5 to 6 liters"
-          B: "3 to 4 liters"
-          C: "1 to 2 liters"
-          D: "8 to 9 liters"
-  - text: "Quel organe produit la bile ?"
-    answers:
-      A: "L'estomac"
-      B: "La vésicule biliaire"
-      C: "Le pancréas"
-      D: "Le foie"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which organ produces bile?"
-        answers:
-          A: "The stomach"
-          B: "The gallbladder"
-          C: "The pancreas"
-          D: "The liver"
-  - text: "Quel organe filtre le sang pour produire l'urine ?"
-    answers:
-      A: "Les reins"
-      B: "La rate"
-      C: "Le pancréas"
-      D: "Le foie"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which organ filters the blood to produce urine?"
-        answers:
-          A: "The kidneys"
-          B: "The spleen"
-          C: "The pancreas"
-          D: "The liver"
-  - text: "Quel muscle sépare la cage thoracique de l'abdomen ?"
-    answers:
-      A: "Le deltoïde"
-      B: "Le psoas"
-      C: "Le diaphragme"
-      D: "Le quadriceps"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which muscle separates the chest cavity from the abdomen?"
-        answers:
-          A: "The deltoid"
-          B: "The psoas"
-          C: "The diaphragm"
-          D: "The quadriceps"
-  - text: "Quel est le plus grand muscle du corps humain ?"
-    answers:
-      A: "Le quadriceps"
-      B: "Le grand fessier"
-      C: "Le pectoral"
-      D: "Le biceps"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the largest muscle in the human body?"
-        answers:
-          A: "The quadriceps"
-          B: "The gluteus maximus"
-          C: "The pectoral"
-          D: "The biceps"
-  - text: "Quel acide l'estomac produit-il pour digérer les aliments ?"
-    answers:
-      A: "L'acide citrique"
-      B: "L'acide sulfurique"
-      C: "L'acide chlorhydrique"
-      D: "L'acide acétique"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which acid does the stomach produce to digest food?"
-        answers:
-          A: "Citric acid"
-          B: "Sulfuric acid"
-          C: "Hydrochloric acid"
-          D: "Acetic acid"
-  - text: "Quel tube relie la bouche à l'estomac ?"
-    answers:
-      A: "L'œsophage"
-      B: "Le larynx"
-      C: "L'intestin grêle"
-      D: "La trachée"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which tube connects the mouth to the stomach?"
-        answers:
-          A: "The esophagus"
-          B: "The larynx"
-          C: "The small intestine"
-          D: "The trachea"
-  - text: "Quelle est la longueur approximative de l'intestin grêle chez l'adulte ?"
-    answers:
-      A: "6 mètres"
-      B: "3 mètres"
-      C: "1 mètre"
-      D: "12 mètres"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the approximate length of the small intestine in an adult?"
-        answers:
-          A: "6 meters"
-          B: "3 meters"
-          C: "1 meter"
-          D: "12 meters"
-  - text: "Dans quelle partie du tube digestif l'eau est-elle principalement réabsorbée ?"
-    answers:
-      A: "L'œsophage"
-      B: "La bouche"
-      C: "L'estomac"
-      D: "Le côlon"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "In which part of the digestive tract is water mainly reabsorbed?"
-        answers:
-          A: "The esophagus"
-          B: "The mouth"
-          C: "The stomach"
-          D: "The colon"
-  - text: "Quel organe contrôle les fonctions vitales et les pensées ?"
-    answers:
-      A: "Le cerveau"
-      B: "Le cœur"
-      C: "Le foie"
-      D: "Les poumons"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which organ controls vital functions and thoughts?"
-        answers:
-          A: "The brain"
-          B: "The heart"
-          C: "The liver"
-          D: "The lungs"
-  - text: "Quelle partie du cerveau régule l'équilibre et la coordination des mouvements ?"
-    answers:
-      A: "Le tronc cérébral"
-      B: "L'hypothalamus"
-      C: "Le cervelet"
-      D: "Le cortex cérébral"
-    correctAnswer: C
     difficulty: HARD
-    translations:
-      en:
-        text: "Which part of the brain regulates balance and coordination of movement?"
-        answers:
-          A: "The brainstem"
-          B: "The hypothalamus"
-          C: "The cerebellum"
-          D: "The cerebral cortex"
-  - text: "Quel est le plus petit os du corps humain ?"
+  - text: "Quel est le nom de la structure qui relie le fœtus au placenta ?"
     answers:
-      A: "L'étrier"
-      B: "Le marteau"
-      C: "L'enclume"
-      D: "Le radius"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the smallest bone in the human body?"
-        answers:
-          A: "The stapes"
-          B: "The malleus"
-          C: "The incus"
-          D: "The radius"
-  - text: "Combien de vertèbres compte la colonne vertébrale humaine ?"
-    answers:
-      A: "24"
-      B: "30"
-      C: "40"
-      D: "33"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How many vertebrae does the human spine have?"
-        answers:
-          A: "24"
-          B: "30"
-          C: "40"
-          D: "33"
-  - text: "Quel groupe sanguin est considéré comme donneur universel ?"
-    answers:
-      A: "A positif"
-      B: "O négatif"
-      C: "AB positif"
-      D: "B négatif"
+      A: "L'amnios"
+      B: "Le cordon ombilical"
+      C: "Le chorion"
+      D: "La caduque"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which blood type is considered the universal donor?"
+        text: "What is the name of the structure that connects the fetus to the placenta?"
         answers:
-          A: "A positive"
-          B: "O negative"
-          C: "AB positive"
-          D: "B negative"
-  - text: "Quel groupe sanguin est considéré comme receveur universel ?"
-    answers:
-      A: "AB positif"
-      B: "A positif"
-      C: "O négatif"
-      D: "B positif"
-    correctAnswer: A
+          A: "The amnion"
+          B: "The umbilical cord"
+          C: "The chorion"
+          D: "The decidua"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which blood type is considered the universal recipient?"
-        answers:
-          A: "AB positive"
-          B: "A positive"
-          C: "O negative"
-          D: "B positive"
-  - text: "Quelle structure des poumons permet les échanges gazeux avec le sang ?"
+  - text: "Quel type de cellule osseuse est responsable de la résorption osseuse ?"
     answers:
-      A: "Les bronches"
-      B: "La trachée"
-      C: "Les alvéoles"
-      D: "Le larynx"
+      A: "L'ostéoblaste"
+      B: "L'ostéocyte"
+      C: "L'ostéoclaste"
+      D: "La cellule bordante"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which structure in the lungs allows gas exchange with the blood?"
+        text: "Which type of bone cell is responsible for bone resorption?"
         answers:
-          A: "The bronchi"
-          B: "The trachea"
-          C: "The alveoli"
-          D: "The larynx"
-  - text: "Quel organe est le principal responsable de la détoxification de l'alcool ?"
-    answers:
-      A: "Le foie"
-      B: "L'estomac"
-      C: "La rate"
-      D: "Les reins"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which organ is mainly responsible for detoxifying alcohol?"
-        answers:
-          A: "The liver"
-          B: "The stomach"
-          C: "The spleen"
-          D: "The kidneys"
-  - text: "Combien de lobes compte le poumon droit ?"
-    answers:
-      A: "Un"
-      B: "Deux"
-      C: "Trois"
-      D: "Quatre"
-    correctAnswer: C
+          A: "The osteoblast"
+          B: "The osteocyte"
+          C: "The osteoclast"
+          D: "The lining cell"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "How many lobes does the right lung have?"
-        answers:
-          A: "One"
-          B: "Two"
-          C: "Three"
-          D: "Four"
-  - text: "Quel muscle du bras permet de plier le coude ?"
+  - text: "Quel nerf est le plus long du corps humain ?"
     answers:
-      A: "Le triceps"
-      B: "Le trapèze"
-      C: "Le deltoïde"
-      D: "Le biceps"
+      A: "Le nerf médian"
+      B: "Le nerf vague"
+      C: "Le nerf fémoral"
+      D: "Le nerf sciatique"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "Which arm muscle allows you to bend your elbow?"
+        text: "Which nerve is the longest in the human body?"
         answers:
-          A: "The triceps"
-          B: "The trapezius"
-          C: "The deltoid"
-          D: "The biceps"
-  - text: "Quelle est la plus grande artère du corps humain ?"
-    answers:
-      A: "L'aorte"
-      B: "L'artère pulmonaire"
-      C: "L'artère carotide"
-      D: "La veine cave"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the largest artery in the human body?"
-        answers:
-          A: "The aorta"
-          B: "The pulmonary artery"
-          C: "The carotid artery"
-          D: "The vena cava"
-  - text: "Quel est le composant le plus abondant du plasma sanguin ?"
-    answers:
-      A: "Les protéines"
-      B: "Le glucose"
-      C: "Le sodium"
-      D: "L'eau"
-    correctAnswer: D
+          A: "The median nerve"
+          B: "The vagus nerve"
+          C: "The femoral nerve"
+          D: "The sciatic nerve"
     difficulty: HARD
+  - text: "Quelle est la fonction principale des alvéoles pulmonaires ?"
+    answers:
+      A: "Permettre les échanges gazeux"
+      B: "Filtrer l'air inspiré"
+      C: "Produire du mucus"
+      D: "Réguler le pH sanguin"
+    correctAnswer: A
     translations:
       en:
-        text: "What is the most abundant component of blood plasma?"
+        text: "What is the main function of the pulmonary alveoli?"
         answers:
-          A: "Proteins"
-          B: "Glucose"
-          C: "Sodium"
-          D: "Water"
-  - text: "Combien de temps vit environ un globule rouge ?"
-    answers:
-      A: "12 heures"
-      B: "120 jours"
-      C: "2 ans"
-      D: "7 jours"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How long does a red blood cell live approximately?"
-        answers:
-          A: "12 hours"
-          B: "120 days"
-          C: "2 years"
-          D: "7 days"
-  - text: "Quel organe stocke temporairement l'urine avant son évacuation ?"
-    answers:
-      A: "Le rein"
-      B: "L'uretère"
-      C: "La vessie"
-      D: "L'urètre"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which organ temporarily stores urine before it is expelled?"
-        answers:
-          A: "The kidney"
-          B: "The ureter"
-          C: "The bladder"
-          D: "The urethra"
-  - text: "Quel est le rôle principal des globules blancs ?"
-    answers:
-      A: "Transporter l'oxygène"
-      B: "Coaguler le sang"
-      C: "Défendre l'organisme"
-      D: "Transporter le sucre"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the main role of white blood cells?"
-        answers:
-          A: "Transport oxygen"
-          B: "Clot the blood"
-          C: "Defend the body"
-          D: "Transport sugar"
-  - text: "Quelle partie du système nerveux est protégée par la colonne vertébrale ?"
-    answers:
-      A: "Le cerveau"
-      B: "La moelle épinière"
-      C: "Le cervelet"
-      D: "Le nerf optique"
-    correctAnswer: B
+          A: "Enable gas exchange"
+          B: "Filter inhaled air"
+          C: "Produce mucus"
+          D: "Regulate blood pH"
     difficulty: MEDIUM
+  - text: "Quel est le nom du ligament qui relie le foie à la paroi abdominale antérieure ?"
+    answers:
+      A: "Ligament rond"
+      B: "Ligament falciforme"
+      C: "Ligament coronaire"
+      D: "Ligament triangulaire"
+    correctAnswer: B
     translations:
       en:
-        text: "Which part of the nervous system is protected by the spine?"
+        text: "What is the name of the ligament that connects the liver to the anterior abdominal wall?"
         answers:
-          A: "The brain"
-          B: "The spinal cord"
-          C: "The cerebellum"
-          D: "The optic nerve"
-  - text: "Combien d'os compte la main humaine ?"
+          A: "Round ligament"
+          B: "Falciform ligament"
+          C: "Coronary ligament"
+          D: "Triangular ligament"
+    difficulty: EXPERT
+  - text: "Quelle est la durée moyenne du cycle menstruel chez la femme ?"
     answers:
-      A: "19"
-      B: "23"
-      C: "31"
-      D: "27"
+      A: "21 jours"
+      B: "14 jours"
+      C: "35 jours"
+      D: "28 jours"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is the average length of the menstrual cycle in women?"
+        answers:
+          A: "21 days"
+          B: "14 days"
+          C: "35 days"
+          D: "28 days"
+    difficulty: HARD
+  - text: "Quel est le nom de la cellule qui produit la gaine de myéline dans le système nerveux central ?"
+    answers:
+      A: "Oligodendrocyte"
+      B: "Astrocyte"
+      C: "Microglie"
+      D: "Cellule épendymaire"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the cell that produces the myelin sheath in the central nervous system?"
+        answers:
+          A: "Oligodendrocyte"
+          B: "Astrocyte"
+          C: "Microglia"
+          D: "Ependymal cell"
     difficulty: EXPERT
+  - text: "Quel est le plus petit muscle du corps humain ?"
+    answers:
+      A: "Muscle transverse de l'abdomen"
+      B: "Muscle orbiculaire de l'œil"
+      C: "Muscle arrecteur du poil"
+      D: "Muscle stapédien"
+    correctAnswer: D
     translations:
       en:
-        text: "How many bones does the human hand have?"
+        text: "What is the smallest muscle in the human body?"
         answers:
-          A: "19"
-          B: "23"
-          C: "31"
-          D: "27"
-  - text: "Quel os relie l'épaule au coude ?"
-    answers:
-      A: "Le radius"
-      B: "Le cubitus"
-      C: "L'humérus"
-      D: "L'omoplate"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which bone connects the shoulder to the elbow?"
-        answers:
-          A: "The radius"
-          B: "The ulna"
-          C: "The humerus"
-          D: "The scapula"
-  - text: "Quel est le plus gros organe interne du corps humain ?"
-    answers:
-      A: "Le cœur"
-      B: "Le foie"
-      C: "Le cerveau"
-      D: "L'estomac"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the largest internal organ in the human body?"
-        answers:
-          A: "The heart"
-          B: "The liver"
-          C: "The brain"
-          D: "The stomach"
-  - text: "Quelle enzyme de la salive commence la digestion de l'amidon ?"
-    answers:
-      A: "La pepsine"
-      B: "La lipase"
-      C: "L'amylase"
-      D: "La trypsine"
-    correctAnswer: C
+          A: "Transversus abdominis muscle"
+          B: "Orbicularis oculi muscle"
+          C: "Arrector pili muscle"
+          D: "Stapedius muscle"
     difficulty: EXPERT
+  - text: "Quelle partie du cerveau est responsable de la production de l'hormone mélatonine ?"
+    answers:
+      A: "Hypophyse"
+      B: "Thalamus"
+      C: "Hypothalamus"
+      D: "Épiphyse (glande pinéale)"
+    correctAnswer: D
     translations:
       en:
-        text: "Which enzyme in saliva begins the digestion of starch?"
+        text: "Which part of the brain is responsible for producing the hormone melatonin?"
+        answers:
+          A: "Pituitary gland"
+          B: "Thalamus"
+          C: "Hypothalamus"
+          D: "Pineal gland"
+    difficulty: HARD
+  - text: "Quel est le nom de l'enzyme gastrique qui dégrade les protéines ?"
+    answers:
+      A: "Pepsine"
+      B: "Trypsine"
+      C: "Amylase"
+      D: "Lipase"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the gastric enzyme that breaks down proteins?"
         answers:
           A: "Pepsin"
-          B: "Lipase"
+          B: "Trypsin"
           C: "Amylase"
-          D: "Trypsin"
-  - text: "Quel est le rôle de l'épiglotte ?"
-    answers:
-      A: "Contrôler la miction"
-      B: "Réguler le reflux gastrique"
-      C: "Favoriser la coagulation"
-      D: "Empêcher les aliments d'entrer dans les voies respiratoires"
-    correctAnswer: D
+          D: "Lipase"
     difficulty: HARD
-    translations:
-      en:
-        text: "What is the role of the epiglottis?"
-        answers:
-          A: "Control urination"
-          B: "Regulate gastric reflux"
-          C: "Promote clotting"
-          D: "Prevent food from entering the airways"
-  - text: "Quel type de vaisseau transporte le sang des organes vers le cœur ?"
-    answers:
-      A: "Les veines"
-      B: "Les capillaires"
-      C: "Les alvéoles"
-      D: "Les artères"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which type of vessel carries blood from the organs to the heart?"
-        answers:
-          A: "Veins"
-          B: "Capillaries"
-          C: "Alveoli"
-          D: "Arteries"
-  - text: "Quelle est la principale fonction de l'intestin grêle ?"
-    answers:
-      A: "Stocker les déchets"
-      B: "Absorber les nutriments"
-      C: "Produire la bile"
-      D: "Filtrer le sang"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the main function of the small intestine?"
-        answers:
-          A: "Store waste"
-          B: "Absorb nutrients"
-          C: "Produce bile"
-          D: "Filter blood"
-  - text: "Quel organe produit l'insuline ?"
-    answers:
-      A: "Le foie"
-      B: "Les reins"
-      C: "La thyroïde"
-      D: "Le pancréas"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which organ produces insulin?"
-        answers:
-          A: "The liver"
-          B: "The kidneys"
-          C: "The thyroid"
-          D: "The pancreas"
-  - text: "Quel minéral rend les os durs et solides ?"
-    answers:
-      A: "Le calcium"
-      B: "Le potassium"
-      C: "Le fer"
-      D: "Le zinc"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which mineral makes bones hard and solid?"
-        answers:
-          A: "Calcium"
-          B: "Potassium"
-          C: "Iron"
-          D: "Zinc"
-  - text: "Combien de paires de côtes possède l'être humain ?"
-    answers:
-      A: "10"
-      B: "16"
-      C: "14"
-      D: "12"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "How many pairs of ribs does a human have?"
-        answers:
-          A: "10"
-          B: "16"
-          C: "14"
-          D: "12"
-  - text: "Quelle cloison sépare les ventricules gauche et droit du cœur ?"
-    answers:
-      A: "La valvule mitrale"
-      B: "L'oreillette"
-      C: "Le péricarde"
-      D: "Le septum"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which partition separates the left and right ventricles of the heart?"
-        answers:
-          A: "The mitral valve"
-          B: "The atrium"
-          C: "The pericardium"
-          D: "The septum"
-  - text: "Quel est le plus grand nerf du corps humain ?"
-    answers:
-      A: "Le nerf sciatique"
-      B: "Le nerf optique"
-      C: "Le nerf vague"
-      D: "Le nerf radial"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is the largest nerve in the human body?"
-        answers:
-          A: "The sciatic nerve"
-          B: "The optic nerve"
-          C: "The vagus nerve"
-          D: "The radial nerve"
-  - text: "Quel est le rythme cardiaque moyen d'un adulte au repos ?"
-    answers:
-      A: "20 à 40 battements par minute"
-      B: "60 à 80 battements par minute"
-      C: "100 à 120 battements par minute"
-      D: "140 à 160 battements par minute"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the average resting heart rate of an adult?"
-        answers:
-          A: "20 to 40 beats per minute"
-          B: "60 to 80 beats per minute"
-          C: "100 to 120 beats per minute"
-          D: "140 to 160 beats per minute"
-  - text: "Quel organe est protégé par la boîte crânienne ?"
-    answers:
-      A: "Les poumons"
-      B: "Le cœur"
-      C: "Le cerveau"
-      D: "Le foie"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which organ is protected by the skull?"
-        answers:
-          A: "The lungs"
-          B: "The heart"
-          C: "The brain"
-          D: "The liver"
-  - text: "Quelle protéine du sang fixe l'oxygène ?"
-    answers:
-      A: "La mélanine"
-      B: "La kératine"
-      C: "L'insuline"
-      D: "L'hémoglobine"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which blood protein carries oxygen?"
-        answers:
-          A: "Melanin"
-          B: "Keratin"
-          C: "Insulin"
-          D: "Hemoglobin"
-  - text: "Combien de dents compte un adulte, dents de sagesse incluses ?"
-    answers:
-      A: "28"
-      B: "30"
-      C: "32"
-      D: "34"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "How many teeth does an adult have, including wisdom teeth?"
-        answers:
-          A: "28"
-          B: "30"
-          C: "32"
-          D: "34"
-  - text: "Quel organe est le centre principal du système nerveux chez l'être humain ?"
-    answers:
-      A: "Le foie"
-      B: "Le cerveau"
-      C: "Le cœur"
-      D: "Les poumons"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which organ is the main center of the nervous system in humans?"
-        answers:
-          A: "The liver"
-          B: "The brain"
-          C: "The heart"
-          D: "The lungs"
-  - text: "Comment appelle-t-on les cellules spécialisées dans la transmission de l'influx nerveux ?"
-    answers:
-      A: "Les globules rouges"
-      B: "Les neurones"
-      C: "Les plaquettes"
-      D: "Les hépatocytes"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "What are the specialized cells that transmit nerve impulses called?"
-        answers:
-          A: "Red blood cells"
-          B: "Neurons"
-          C: "Platelets"
-          D: "Hepatocytes"
   - text: "Combien de paires de nerfs crâniens possède l'être humain ?"
     answers:
-      A: "Six paires"
-      B: "Vingt paires"
-      C: "Douze paires"
-      D: "Trente paires"
-    correctAnswer: C
-    difficulty: EXPERT
+      A: "10"
+      B: "12"
+      C: "14"
+      D: "8"
+    correctAnswer: B
     translations:
       en:
         text: "How many pairs of cranial nerves does a human have?"
         answers:
-          A: "Six pairs"
-          B: "Twenty pairs"
-          C: "Twelve pairs"
-          D: "Thirty pairs"
-  - text: "Quel est le plus grand lobe du cerveau humain ?"
+          A: "10"
+          B: "12"
+          C: "14"
+          D: "8"
+    difficulty: HARD
+  - text: "Quel est le nom de la valve qui empêche le reflux du sang entre l'oreillette gauche et le ventricule gauche ?"
     answers:
-      A: "Le lobe occipital"
-      B: "Le lobe frontal"
-      C: "Le lobe pariétal"
-      D: "Le lobe temporal"
-    correctAnswer: B
-    difficulty: EXPERT
+      A: "Valve aortique"
+      B: "Valve tricuspide"
+      C: "Valve mitrale"
+      D: "Valve pulmonaire"
+    correctAnswer: C
     translations:
       en:
-        text: "What is the largest lobe of the human brain?"
+        text: "What is the name of the valve that prevents blood from flowing back between the left atrium and the left ventricle?"
         answers:
-          A: "The occipital lobe"
-          B: "The frontal lobe"
-          C: "The parietal lobe"
-          D: "The temporal lobe"
-  - text: "Avec quel organe la moelle épinière forme-t-elle le système nerveux central ?"
-    answers:
-      A: "Le système nerveux périphérique"
-      B: "Le cerveau"
-      C: "Le système endocrinien"
-      D: "Le système lymphatique"
-    correctAnswer: B
+          A: "Aortic valve"
+          B: "Tricuspid valve"
+          C: "Mitral valve"
+          D: "Pulmonary valve"
     difficulty: MEDIUM
-    translations:
-      en:
-        text: "With which organ does the spinal cord form the central nervous system?"
-        answers:
-          A: "The peripheral nervous system"
-          B: "The brain"
-          C: "The endocrine system"
-          D: "The lymphatic system"
-  - text: "Quel sens repose sur les bâtonnets et les cônes de la rétine ?"
+  - text: "Quel est le nom de la membrane qui tapisse la cavité thoracique et recouvre les poumons ?"
     answers:
-      A: "La vue"
-      B: "L'ouïe"
-      C: "Le goût"
-      D: "L'odorat"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which sense relies on the rods and cones of the retina?"
-        answers:
-          A: "Sight"
-          B: "Hearing"
-          C: "Taste"
-          D: "Smell"
-  - text: "Où se situent les récepteurs responsables de l'odorat ?"
-    answers:
-      A: "Sur la langue"
-      B: "Dans la muqueuse olfactive du nez"
-      C: "Dans le tympan"
-      D: "Dans la cornée"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "Where are the receptors responsible for smell located?"
-        answers:
-          A: "On the tongue"
-          B: "In the olfactory mucosa of the nose"
-          C: "In the eardrum"
-          D: "In the cornea"
-  - text: "Quelle partie de l'oreille est responsable de l'équilibre ?"
-    answers:
-      A: "Le pavillon"
-      B: "Le conduit auditif externe"
-      C: "Le tympan"
-      D: "L'oreille interne"
+      A: "Péritoine"
+      B: "Péricarde"
+      C: "Méninge"
+      D: "Plèvre"
     correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the membrane that lines the thoracic cavity and covers the lungs?"
+        answers:
+          A: "Peritoneum"
+          B: "Pericardium"
+          C: "Meninges"
+          D: "Pleura"
     difficulty: HARD
-    translations:
-      en:
-        text: "Which part of the ear is responsible for balance?"
-        answers:
-          A: "The pinna"
-          B: "The external auditory canal"
-          C: "The eardrum"
-          D: "The inner ear"
-  - text: "Combien de saveurs de base le goût humain distingue-t-il généralement ?"
+  - text: "Quelle structure de l'oreille est responsable de l'équilibre ?"
     answers:
-      A: "Cinq"
-      B: "Trois"
-      C: "Deux"
-      D: "Dix"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "How many basic tastes can human taste generally distinguish?"
-        answers:
-          A: "Five"
-          B: "Three"
-          C: "Two"
-          D: "Ten"
-  - text: "Quel neurotransmetteur est associé à la sensation de récompense ?"
-    answers:
-      A: "La dopamine"
-      B: "L'insuline"
-      C: "L'hémoglobine"
-      D: "La kératine"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which neurotransmitter is associated with the sensation of reward?"
-        answers:
-          A: "Dopamine"
-          B: "Insulin"
-          C: "Hemoglobin"
-          D: "Keratin"
-  - text: "Quel est le rôle principal de la myéline qui entoure les axones ?"
-    answers:
-      A: "Accélérer la conduction de l'influx nerveux"
-      B: "Produire des hormones"
-      C: "Filtrer le sang"
-      D: "Stocker les graisses"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "What is the main role of the myelin that surrounds axons?"
-        answers:
-          A: "Speed up nerve impulse conduction"
-          B: "Produce hormones"
-          C: "Filter blood"
-          D: "Store fats"
-  - text: "Que contrôle le système nerveux autonome ?"
-    answers:
-      A: "Les mouvements volontaires"
-      B: "La pensée logique"
-      C: "Les fonctions involontaires comme la digestion"
-      D: "La vision des couleurs"
+      A: "Cochlée"
+      B: "Tympan"
+      C: "Canaux semicirculaires"
+      D: "Étrier"
     correctAnswer: C
+    translations:
+      en:
+        text: "Which structure of the ear is responsible for balance?"
+        answers:
+          A: "Cochlea"
+          B: "Eardrum"
+          C: "Semicircular canals"
+          D: "Stapes"
     difficulty: HARD
-    translations:
-      en:
-        text: "What does the autonomic nervous system control?"
-        answers:
-          A: "Voluntary movements"
-          B: "Logical thinking"
-          C: "Involuntary functions such as digestion"
-          D: "Color vision"
-  - text: "Le cerveau humain contient environ combien de neurones ?"
+  - text: "Quel est le nom du plus long nerf du corps humain ?"
     answers:
-      A: "Un million"
-      B: "Quatre-vingt-six milliards"
-      C: "Cent mille"
-      D: "Un milliard"
+      A: "Nerf vague"
+      B: "Nerf sciatique"
+      C: "Nerf fémoral"
+      D: "Nerf tibial"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
-        text: "Approximately how many neurons does the human brain contain?"
+        text: "What is the name of the longest nerve in the human body?"
         answers:
-          A: "One million"
-          B: "Eighty-six billion"
-          C: "One hundred thousand"
-          D: "One billion"
-  - text: "Quelle partie du neurone reçoit les signaux venus des autres neurones ?"
+          A: "Vagus nerve"
+          B: "Sciatic nerve"
+          C: "Femoral nerve"
+          D: "Tibial nerve"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la partie du cerveau qui régule la température corporelle ?"
     answers:
-      A: "L'axone"
-      B: "Les dendrites"
-      C: "La gaine de myéline"
-      D: "Le noyau"
+      A: "Cervelet"
+      B: "Hypothalamus"
+      C: "Bulbe rachidien"
+      D: "Thalamus"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
-        text: "Which part of the neuron receives signals from other neurons?"
+        text: "What is the name of the part of the brain that regulates body temperature?"
         answers:
-          A: "The axon"
-          B: "The dendrites"
-          C: "The myelin sheath"
-          D: "The nucleus"
-  - text: "Où est commandé l'arc réflexe qui écarte la main d'une source de chaleur ?"
-    answers:
-      A: "Dans l'estomac"
-      B: "Dans la moelle épinière"
-      C: "Dans le foie"
-      D: "Dans les poumons"
-    correctAnswer: B
+          A: "Cerebellum"
+          B: "Hypothalamus"
+          C: "Medulla oblongata"
+          D: "Thalamus"
     difficulty: EXPERT
-    translations:
-      en:
-        text: "Where is the reflex arc that pulls the hand away from a heat source commanded?"
-        answers:
-          A: "In the stomach"
-          B: "In the spinal cord"
-          C: "In the liver"
-          D: "In the lungs"
-  - text: "Quelle est la durée moyenne d'un cycle de sommeil chez l'adulte ?"
+  - text: "Quel est le nom du muscle qui forme la majeure partie du mollet ?"
     answers:
-      A: "Environ 30 minutes"
-      B: "Environ 3 heures"
-      C: "Environ 90 minutes"
-      D: "Environ 5 heures"
+      A: "Le tibial antérieur"
+      B: "Le soléaire"
+      C: "Le gastrocnémien"
+      D: "Le long fibulaire"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
-        text: "What is the average length of a sleep cycle in adults?"
+        text: "What is the name of the muscle that makes up most of the calf?"
         answers:
-          A: "About 30 minutes"
-          B: "About 3 hours"
-          C: "About 90 minutes"
-          D: "About 5 hours"
-  - text: "Quel est le rôle du liquide céphalo-rachidien ?"
+          A: "Tibialis anterior"
+          B: "Soleus"
+          C: "Gastrocnemius"
+          D: "Fibularis longus"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la membrane séreuse qui enveloppe le cœur ?"
     answers:
-      A: "Transporter l'oxygène"
-      B: "Digérer les aliments"
-      C: "Amortir et protéger le cerveau et la moelle épinière"
-      D: "Produire des anticorps"
-    correctAnswer: C
-    difficulty: EXPERT
+      A: "La plèvre"
+      B: "Le péricarde"
+      C: "Le péritoine"
+      D: "L'endocarde"
+    correctAnswer: B
     translations:
       en:
-        text: "What is the role of cerebrospinal fluid?"
+        text: "What is the name of the serous membrane that surrounds the heart?"
         answers:
-          A: "Transport oxygen"
-          B: "Digest food"
-          C: "Cushion and protect the brain and spinal cord"
-          D: "Produce antibodies"
-  - text: "Quel est le plus long nerf du corps humain ?"
+          A: "Pleura"
+          B: "Pericardium"
+          C: "Peritoneum"
+          D: "Endocardium"
+    difficulty: HARD
+  - text: "Quel est le nom de la valve située entre le ventricule gauche et l'aorte ?"
     answers:
-      A: "Le nerf optique"
-      B: "Le nerf facial"
+      A: "La valve mitrale"
+      B: "La valve aortique"
+      C: "La valve tricuspide"
+      D: "La valve pulmonaire"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the valve located between the left ventricle and the aorta?"
+        answers:
+          A: "Mitral valve"
+          B: "Aortic valve"
+          C: "Tricuspid valve"
+          D: "Pulmonary valve"
+    difficulty: HARD
+  - text: "Quel est le nom du nerf qui innerve le diaphragme ?"
+    answers:
+      A: "Le nerf phrénique"
+      B: "Le nerf vague"
       C: "Le nerf sciatique"
-      D: "Le nerf vague"
-    correctAnswer: C
-    difficulty: HARD
+      D: "Le nerf glossopharyngien"
+    correctAnswer: A
     translations:
       en:
-        text: "What is the longest nerve in the human body?"
+        text: "What is the name of the nerve that innervates the diaphragm?"
         answers:
-          A: "The optic nerve"
-          B: "The facial nerve"
-          C: "The sciatic nerve"
-          D: "The vagus nerve"
-  - text: "Quel sens permet de percevoir la température et la pression ?"
+          A: "Phrenic nerve"
+          B: "Vagus nerve"
+          C: "Sciatic nerve"
+          D: "Glossopharyngeal nerve"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la partie du tube digestif où se trouve le sphincter pylorique ?"
     answers:
-      A: "Le goût"
-      B: "L'odorat"
-      C: "Le toucher"
-      D: "L'ouïe"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which sense allows you to perceive temperature and pressure?"
-        answers:
-          A: "Taste"
-          B: "Smell"
-          C: "Touch"
-          D: "Hearing"
-  - text: "Quelle est la fonction principale du cervelet ?"
-    answers:
-      A: "La production d'hormones"
-      B: "La coordination des mouvements et l'équilibre"
-      C: "La filtration du sang"
-      D: "La production de bile"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is the main function of the cerebellum?"
-        answers:
-          A: "Hormone production"
-          B: "Coordination of movement and balance"
-          C: "Blood filtration"
-          D: "Bile production"
-  - text: "Quelles fonctions vitales le tronc cérébral contrôle-t-il ?"
-    answers:
-      A: "La mémoire des souvenirs"
-      B: "La respiration et le rythme cardiaque"
-      C: "La vision des couleurs"
-      D: "La production d'insuline"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which vital functions does the brainstem control?"
-        answers:
-          A: "Memory of past events"
-          B: "Breathing and heart rate"
-          C: "Color vision"
-          D: "Insulin production"
-  - text: "Quelle structure cérébrale joue un rôle central dans la mémoire ?"
-    answers:
-      A: "La thyroïde"
-      B: "Le tympan"
+      A: "Le duodénum"
+      B: "L'estomac"
       C: "L'œsophage"
-      D: "L'hippocampe"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which brain structure plays a central role in memory?"
-        answers:
-          A: "The thyroid"
-          B: "The eardrum"
-          C: "The esophagus"
-          D: "The hippocampus"
-  - text: "Quelles cellules du système immunitaire produisent les anticorps ?"
-    answers:
-      A: "Les globules rouges"
-      B: "Les plaquettes"
-      C: "Les neurones"
-      D: "Les lymphocytes B"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which immune system cells produce antibodies?"
-        answers:
-          A: "Red blood cells"
-          B: "Platelets"
-          C: "Neurons"
-          D: "B lymphocytes"
-  - text: "Quel gaz le corps humain rejette-t-il principalement en expirant ?"
-    answers:
-      A: "L'oxygène"
-      B: "Le dioxyde de carbone"
-      C: "L'azote"
-      D: "L'hydrogène"
+      D: "Le côlon"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "Which gas does the human body mainly expel when exhaling?"
+        text: "What is the name of the part of the digestive tract where the pyloric sphincter is located?"
         answers:
-          A: "Oxygen"
-          B: "Carbon dioxide"
-          C: "Nitrogen"
-          D: "Hydrogen"
-  - text: "Quel type de lymphocytes détruit les cellules infectées par un virus ?"
-    answers:
-      A: "Les globules rouges"
-      B: "Les lymphocytes B"
-      C: "Les lymphocytes T cytotoxiques"
-      D: "Les ostéocytes"
-    correctAnswer: C
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which type of lymphocyte destroys cells infected by a virus?"
-        answers:
-          A: "Red blood cells"
-          B: "B lymphocytes"
-          C: "Cytotoxic T lymphocytes"
-          D: "Osteocytes"
-  - text: "Dans quel organe les lymphocytes T achèvent-ils leur maturation ?"
-    answers:
-      A: "La rate"
-      B: "Le thymus"
-      C: "Le foie"
-      D: "Les reins"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "In which organ do T lymphocytes complete their maturation?"
-        answers:
-          A: "The spleen"
-          B: "The thymus"
-          C: "The liver"
-          D: "The kidneys"
-  - text: "Qu'est-ce qu'une allergie ?"
-    answers:
-      A: "Une maladie génétique du sang"
-      B: "Une carence en vitamines"
-      C: "Une infection causée par un virus"
-      D: "Une réaction excessive du système immunitaire à une substance inoffensive"
-    correctAnswer: D
+          A: "Duodenum"
+          B: "Stomach"
+          C: "Esophagus"
+          D: "Colon"
     difficulty: HARD
-    translations:
-      en:
-        text: "What is an allergy?"
-        answers:
-          A: "A genetic blood disease"
-          B: "A vitamin deficiency"
-          C: "An infection caused by a virus"
-          D: "An excessive reaction of the immune system to a harmless substance"
-  - text: "Quel est le principe d'un vaccin ?"
-    answers:
-      A: "Stimuler les défenses immunitaires sans provoquer la maladie"
-      B: "Remplacer les globules rouges défectueux"
-      C: "Détruire directement les virus présents dans le corps"
-      D: "Réparer l'ADN des cellules malades"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is the principle of a vaccine?"
-        answers:
-          A: "Stimulating immune defenses without causing the disease"
-          B: "Replacing defective red blood cells"
-          C: "Directly destroying viruses present in the body"
-          D: "Repairing the DNA of diseased cells"
-  - text: "Quelle substance est libérée lors d'une réaction allergique et provoque démangeaisons et gonflements ?"
-    answers:
-      A: "La myéline"
-      B: "L'histamine"
-      C: "La bile"
-      D: "La kératine"
-    correctAnswer: B
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which substance is released during an allergic reaction and causes itching and swelling?"
-        answers:
-          A: "Myelin"
-          B: "Histamine"
-          C: "Bile"
-          D: "Keratin"
-  - text: "Quelle glande régule le métabolisme grâce à ses hormones thyroïdiennes ?"
-    answers:
-      A: "Le pancréas"
-      B: "Les surrénales"
-      C: "La glande pinéale"
-      D: "La thyroïde"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which gland regulates metabolism through its thyroid hormones?"
-        answers:
-          A: "The pancreas"
-          B: "The adrenal glands"
-          C: "The pineal gland"
-          D: "The thyroid"
-  - text: "Quelle vitamine est principalement synthétisée par la peau sous l'effet du soleil ?"
-    answers:
-      A: "La vitamine D"
-      B: "La vitamine C"
-      C: "La vitamine A"
-      D: "La vitamine B12"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which vitamin is mainly synthesized by the skin under the effect of sunlight?"
-        answers:
-          A: "Vitamin D"
-          B: "Vitamin C"
-          C: "Vitamin A"
-          D: "Vitamin B12"
-  - text: "Le diabète de type 1 est lié à un défaut de production de quelle hormone ?"
-    answers:
-      A: "L'adrénaline"
-      B: "L'insuline"
-      C: "La testostérone"
-      D: "La mélatonine"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Type 1 diabetes is linked to a defect in the production of which hormone?"
-        answers:
-          A: "Adrenaline"
-          B: "Insulin"
-          C: "Testosterone"
-          D: "Melatonin"
-  - text: "Quelle glande est souvent appelée la « glande maîtresse » car elle contrôle les autres glandes ?"
-    answers:
-      A: "La thyroïde"
-      B: "Les surrénales"
-      C: "Le thymus"
-      D: "L'hypophyse"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which gland is often called the \"master gland\" because it controls the other glands?"
-        answers:
-          A: "The thyroid"
-          B: "The adrenal glands"
-          C: "The thymus"
-          D: "The pituitary gland"
-  - text: "Quelles glandes sécrètent l'adrénaline ?"
-    answers:
-      A: "Les glandes sudoripares"
-      B: "Les glandes salivaires"
-      C: "Les glandes surrénales"
-      D: "Les glandes lacrymales"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which glands secrete adrenaline?"
-        answers:
-          A: "The sweat glands"
-          B: "The salivary glands"
-          C: "The adrenal glands"
-          D: "The lacrimal glands"
-  - text: "Quelle hormone, sécrétée par la glande pinéale, régule le sommeil ?"
+  - text: "Quelle hormone est sécrétée par la médullosurrénale ?"
     answers:
       A: "Le cortisol"
-      B: "L'œstrogène"
-      C: "L'insuline"
-      D: "La mélatonine"
+      B: "L'aldostérone"
+      C: "La testostérone"
+      D: "L'adrénaline"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which hormone, secreted by the pineal gland, regulates sleep?"
+        text: "Which hormone is secreted by the adrenal medulla?"
         answers:
           A: "Cortisol"
-          B: "Estrogen"
-          C: "Insulin"
-          D: "Melatonin"
-  - text: "Quelle glande sécrète l'hormone de croissance ?"
-    answers:
-      A: "Le pancréas"
-      B: "La thyroïde"
-      C: "L'hypophyse"
-      D: "Les ovaires"
-    correctAnswer: C
+          B: "Aldosterone"
+          C: "Testosterone"
+          D: "Adrenaline"
     difficulty: EXPERT
+  - text: "Quel est le nom de la structure qui relie les côtes au sternum ?"
+    answers:
+      A: "Le cartilage costal"
+      B: "Le ligament costal"
+      C: "Le tendon intercostal"
+      D: "L'aponévrose thoracique"
+    correctAnswer: A
     translations:
       en:
-        text: "Which gland secretes growth hormone?"
+        text: "What is the name of the structure that connects the ribs to the sternum?"
         answers:
-          A: "The pancreas"
+          A: "Costal cartilage"
+          B: "Costal ligament"
+          C: "Intercostal tendon"
+          D: "Thoracic aponeurosis"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la partie du cerveau qui régule la soif et la faim ?"
+    answers:
+      A: "L'hypothalamus"
+      B: "Le thalamus"
+      C: "L'hippocampe"
+      D: "Le striatum"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the part of the brain that regulates thirst and hunger?"
+        answers:
+          A: "Hypothalamus"
+          B: "Thalamus"
+          C: "Hippocampus"
+          D: "Striatum"
+    difficulty: EXPERT
+  - text: "Quel est le nom des cellules qui produisent la matrice extracellulaire du tissu osseux ?"
+    answers:
+      A: "Les ostéoblastes"
+      B: "Les ostéocytes"
+      C: "Les ostéoclastes"
+      D: "Les chondrocytes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the cells that produce the extracellular matrix of bone tissue?"
+        answers:
+          A: "Osteoblasts"
+          B: "Osteocytes"
+          C: "Osteoclasts"
+          D: "Chondrocytes"
+    difficulty: EXPERT
+  - text: "Quel est le nom du segment de l'intestin grêle qui suit immédiatement l'estomac ?"
+    answers:
+      A: "Le jéjunum"
+      B: "L'iléon"
+      C: "Le duodénum"
+      D: "Le cæcum"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the segment of the small intestine that immediately follows the stomach?"
+        answers:
+          A: "The jejunum"
+          B: "The ileum"
+          C: "The duodenum"
+          D: "The cecum"
+    difficulty: HARD
+  - text: "Quel est le nom de la membrane qui tapisse la cavité utérine ?"
+    answers:
+      A: "Le myomètre"
+      B: "L'endomètre"
+      C: "Le périmètre"
+      D: "Le paramètre"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the membrane that lines the uterine cavity?"
+        answers:
+          A: "The myometrium"
+          B: "The endometrium"
+          C: "The perimetrium"
+          D: "The parametrium"
+    difficulty: HARD
+  - text: "Quel est le nom du plus petit os du crâne ?"
+    answers:
+      A: "L'os nasal"
+      B: "L'os lacrymal"
+      C: "Le vomer"
+      D: "L'os palatin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the smallest bone of the skull?"
+        answers:
+          A: "The nasal bone"
+          B: "The lacrimal bone"
+          C: "The vomer"
+          D: "The palatine bone"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la structure qui produit le liquide céphalo-rachidien ?"
+    answers:
+      A: "Les corps mamillaires"
+      B: "Les plexus choroïdes"
+      C: "La dure-mère"
+      D: "Le corps calleux"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the structure that produces cerebrospinal fluid?"
+        answers:
+          A: "The mammillary bodies"
+          B: "The choroid plexuses"
+          C: "The dura mater"
+          D: "The corpus callosum"
+    difficulty: EXPERT
+  - text: "Quel est le nom du principal transporteur d'oxygène dans le sang ?"
+    answers:
+      A: "L'albumine"
+      B: "La transferrine"
+      C: "L'hémoglobine"
+      D: "La ferritine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the main oxygen carrier in the blood?"
+        answers:
+          A: "Albumin"
+          B: "Transferrin"
+          C: "Hemoglobin"
+          D: "Ferritin"
+    difficulty: EASY
+  - text: "Quel est le nom de la partie de l'œil qui contrôle la quantité de lumière entrante ?"
+    answers:
+      A: "La cornée"
+      B: "La rétine"
+      C: "L'iris"
+      D: "Le cristallin"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the part of the eye that controls the amount of incoming light?"
+        answers:
+          A: "The cornea"
+          B: "The retina"
+          C: "The iris"
+          D: "The lens"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la glande qui sécrète la thyroxine ?"
+    answers:
+      A: "L'hypophyse"
+      B: "La parathyroïde"
+      C: "La thyroïde"
+      D: "Le thymus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the gland that secretes thyroxine?"
+        answers:
+          A: "The pituitary"
+          B: "The parathyroid"
+          C: "The thyroid"
+          D: "The thymus"
+    difficulty: EASY
+  - text: "Quel est le nom de la structure qui relie l'ovule à la paroi ovarienne ?"
+    answers:
+      A: "Le ligament utéro-ovarien"
+      B: "Le ligament suspenseur de l'ovaire"
+      C: "Le mésovarium"
+      D: "Le ligament rond"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the structure that connects the ovary to the ovarian wall?"
+        answers:
+          A: "The utero-ovarian ligament"
+          B: "The suspensory ligament of the ovary"
+          C: "The mesovarium"
+          D: "The round ligament"
+    difficulty: EXPERT
+  - text: "Quel est le nom du muscle qui permet l'élévation du bras au-dessus de l'épaule ?"
+    answers:
+      A: "Le deltoïde"
+      B: "Le supra-épineux"
+      C: "Le grand pectoral"
+      D: "Le trapèze"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the muscle that allows raising the arm above the shoulder?"
+        answers:
+          A: "The deltoid"
+          B: "The supraspinatus"
+          C: "The pectoralis major"
+          D: "The trapezius"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la partie du système nerveux qui contrôle les fonctions involontaires ?"
+    answers:
+      A: "Le système nerveux somatique"
+      B: "Le système nerveux autonome"
+      C: "Le système nerveux central"
+      D: "Le système nerveux périphérique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the part of the nervous system that controls involuntary functions?"
+        answers:
+          A: "The somatic nervous system"
+          B: "The autonomic nervous system"
+          C: "The central nervous system"
+          D: "The peripheral nervous system"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la structure qui sépare les ventricules droit et gauche du cœur ?"
+    answers:
+      A: "Valve tricuspide"
+      B: "Septum interauriculaire"
+      C: "Valve mitrale"
+      D: "Septum interventriculaire"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the structure that separates the right and left ventricles of the heart?"
+        answers:
+          A: "Tricuspid valve"
+          B: "Interatrial septum"
+          C: "Mitral valve"
+          D: "Interventricular septum"
+    difficulty: HARD
+  - text: "Quel est le nom du principal muscle inspirateur ?"
+    answers:
+      A: "Muscle intercostal externe"
+      B: "Muscle droit de l'abdomen"
+      C: "Muscle sterno-cléido-mastoïdien"
+      D: "Diaphragme"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the main muscle of inspiration?"
+        answers:
+          A: "External intercostal muscle"
+          B: "Rectus abdominis muscle"
+          C: "Sternocleidomastoid muscle"
+          D: "Diaphragm"
+    difficulty: HARD
+  - text: "Quelle veine transporte le sang du tube digestif vers le foie ?"
+    answers:
+      A: "Veine cave inférieure"
+      B: "Veine porte hépatique"
+      C: "Veine rénale"
+      D: "Veine splénique"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which vein carries blood from the digestive tract to the liver?"
+        answers:
+          A: "Inferior vena cava"
+          B: "Hepatic portal vein"
+          C: "Renal vein"
+          D: "Splenic vein"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'enzyme pancréatique qui digère les graisses ?"
+    answers:
+      A: "Amylase"
+      B: "Trypsine"
+      C: "Lipase"
+      D: "Pepsine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the pancreatic enzyme that digests fats?"
+        answers:
+          A: "Amylase"
+          B: "Trypsin"
+          C: "Lipase"
+          D: "Pepsin"
+    difficulty: EXPERT
+  - text: "Quel os forme la partie postérieure de la voûte crânienne ?"
+    answers:
+      A: "Os frontal"
+      B: "Os occipital"
+      C: "Os temporal"
+      D: "Os pariétal"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which bone forms the posterior part of the cranial vault?"
+        answers:
+          A: "Frontal bone"
+          B: "Occipital bone"
+          C: "Temporal bone"
+          D: "Parietal bone"
+    difficulty: EXPERT
+  - text: "Combien de lobes compte le poumon droit ?"
+    answers:
+      A: "Deux"
+      B: "Un"
+      C: "Quatre"
+      D: "Trois"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many lobes does the right lung have?"
+        answers:
+          A: "Two"
+          B: "One"
+          C: "Four"
+          D: "Three"
+    difficulty: HARD
+  - text: "Quel est le nom de la partie du neurone qui conduit l'influx nerveux vers le corps cellulaire ?"
+    answers:
+      A: "Dendrite"
+      B: "Axone"
+      C: "Synapse"
+      D: "Gaine de myéline"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the part of the neuron that conducts nerve impulses toward the cell body?"
+        answers:
+          A: "Dendrite"
+          B: "Axon"
+          C: "Synapse"
+          D: "Myelin sheath"
+    difficulty: HARD
+  - text: "Quelle hormone est sécrétée par les cellules bêta du pancréas ?"
+    answers:
+      A: "Glucagon"
+      B: "Insuline"
+      C: "Somatostatine"
+      D: "Glycogène"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which hormone is secreted by the beta cells of the pancreas?"
+        answers:
+          A: "Glucagon"
+          B: "Insulin"
+          C: "Somatostatin"
+          D: "Glycogen"
+    difficulty: EXPERT
+  - text: "Quel est le nom du liquide qui remplit la chambre antérieure de l'œil ?"
+    answers:
+      A: "Humeur vitrée"
+      B: "Sérum"
+      C: "Lymphe"
+      D: "Humeur aqueuse"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the fluid that fills the anterior chamber of the eye?"
+        answers:
+          A: "Vitreous humor"
+          B: "Serum"
+          C: "Lymph"
+          D: "Aqueous humor"
+    difficulty: EXPERT
+  - text: "Combien de paires de côtes possède l'être humain ?"
+    answers:
+      A: "12"
+      B: "10"
+      C: "14"
+      D: "16"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many pairs of ribs does a human have?"
+        answers:
+          A: "12"
+          B: "10"
+          C: "14"
+          D: "16"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la structure qui relie le muscle à l'os ?"
+    answers:
+      A: "Ligament"
+      B: "Tendon"
+      C: "Cartilage"
+      D: "Aponévrose"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the structure that connects muscle to bone?"
+        answers:
+          A: "Ligament"
+          B: "Tendon"
+          C: "Cartilage"
+          D: "Aponeurosis"
+    difficulty: EASY
+  - text: "Quelle partie du cerveau est responsable de la régulation de la respiration et du rythme cardiaque ?"
+    answers:
+      A: "Cervelet"
+      B: "Thalamus"
+      C: "Hypothalamus"
+      D: "Bulbe rachidien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which part of the brain is responsible for regulating breathing and heart rate?"
+        answers:
+          A: "Cerebellum"
+          B: "Thalamus"
+          C: "Hypothalamus"
+          D: "Medulla oblongata"
+    difficulty: HARD
+  - text: "Quel type de cellule produit l'histamine lors d'une réaction allergique ?"
+    answers:
+      A: "Macrophage"
+      B: "Lymphocyte B"
+      C: "Mastocyte"
+      D: "Neutrophile"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which type of cell produces histamine during an allergic reaction?"
+        answers:
+          A: "Macrophage"
+          B: "B lymphocyte"
+          C: "Mast cell"
+          D: "Neutrophil"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la partie de l'intestin grêle où se produit la majeure partie de l'absorption des nutriments ?"
+    answers:
+      A: "Duodénum"
+      B: "Côlon"
+      C: "Iléon"
+      D: "Jéjunum"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the part of the small intestine where most nutrient absorption occurs?"
+        answers:
+          A: "Duodenum"
+          B: "Colon"
+          C: "Ileum"
+          D: "Jejunum"
+    difficulty: HARD
+  - text: "Quel est le nom du plus grand os du corps humain ?"
+    answers:
+      A: "Humérus"
+      B: "Tibia"
+      C: "Fémur"
+      D: "Péroné"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the largest bone in the human body?"
+        answers:
+          A: "Humerus"
+          B: "Tibia"
+          C: "Femur"
+          D: "Fibula"
+    difficulty: EASY
+  - text: "Quel est le nom de la structure qui relie l'ovule à la paroi de l'ovaire ?"
+    answers:
+      A: "Ligament suspenseur de l'ovaire"
+      B: "Ligament rond"
+      C: "Ligament large"
+      D: "Ligament utéro-ovarien"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the structure that connects the ovary to the ovarian wall?"
+        answers:
+          A: "Suspensory ligament of the ovary"
+          B: "Round ligament"
+          C: "Broad ligament"
+          D: "Utero-ovarian ligament"
+    difficulty: EXPERT
+  - text: "Quel est le volume approximatif de liquide céphalo-rachidien chez un adulte ?"
+    answers:
+      A: "150 mL"
+      B: "50 mL"
+      C: "500 mL"
+      D: "1000 mL"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the approximate volume of cerebrospinal fluid in an adult?"
+        answers:
+          A: "150 mL"
+          B: "50 mL"
+          C: "500 mL"
+          D: "1000 mL"
+    difficulty: EXPERT
+  - text: "Quel pourcentage du volume sanguin total se trouve dans le système veineux au repos ?"
+    answers:
+      A: "Environ 30 %"
+      B: "Environ 45 %"
+      C: "Environ 60 %"
+      D: "Environ 75 %"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What percentage of total blood volume is in the venous system at rest?"
+        answers:
+          A: "About 30%"
+          B: "About 45%"
+          C: "About 60%"
+          D: "About 75%"
+    difficulty: EXPERT
+  - text: "Quelle est la durée approximative d'un cycle cardiaque complet au repos ?"
+    answers:
+      A: "0,8 seconde"
+      B: "0,5 seconde"
+      C: "0,3 seconde"
+      D: "1,2 seconde"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the approximate duration of a complete cardiac cycle at rest?"
+        answers:
+          A: "0.8 seconds"
+          B: "0.5 seconds"
+          C: "0.3 seconds"
+          D: "1.2 seconds"
+    difficulty: EXPERT
+  - text: "Quel est le pH moyen du sang artériel chez une personne en bonne santé ?"
+    answers:
+      A: "7,00"
+      B: "7,20"
+      C: "7,60"
+      D: "7,40"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the average pH of arterial blood in a healthy person?"
+        answers:
+          A: "7.00"
+          B: "7.20"
+          C: "7.60"
+          D: "7.40"
+    difficulty: EXPERT
+  - text: "Quelle est la capacité vitale moyenne des poumons chez un adulte sain ?"
+    answers:
+      A: "Environ 1,5 litre"
+      B: "Environ 4,8 litres"
+      C: "Environ 3 litres"
+      D: "Environ 7 litres"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the average vital capacity of the lungs in a healthy adult?"
+        answers:
+          A: "About 1.5 liters"
+          B: "About 4.8 liters"
+          C: "About 3 liters"
+          D: "About 7 liters"
+    difficulty: EXPERT
+  - text: "Combien de chromosomes sexuels détermine le sexe masculin chez l'humain ?"
+    answers:
+      A: "Deux chromosomes X"
+      B: "Deux chromosomes Y"
+      C: "Un X et un Y"
+      D: "Un X seulement"
+    correctAnswer: C
+    translations:
+      en:
+        text: "How many sex chromosomes determine male sex in humans?"
+        answers:
+          A: "Two X chromosomes"
+          B: "Two Y chromosomes"
+          C: "One X and one Y"
+          D: "One X only"
+    difficulty: HARD
+  - text: "Quel organe produit l'érythropoïétine (EPO) chez l'adulte ?"
+    answers:
+      A: "Les reins"
+      B: "La moelle osseuse"
+      C: "Le foie"
+      D: "La rate"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which organ produces erythropoietin (EPO) in adults?"
+        answers:
+          A: "The kidneys"
+          B: "The bone marrow"
+          C: "The liver"
+          D: "The spleen"
+    difficulty: EXPERT
+  - text: "Quelle enzyme gastrique commence la digestion des protéines ?"
+    answers:
+      A: "L'amylase"
+      B: "La lipase"
+      C: "La pepsine"
+      D: "La trypsine"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which gastric enzyme begins protein digestion?"
+        answers:
+          A: "Amylase"
+          B: "Lipase"
+          C: "Pepsin"
+          D: "Trypsin"
+    difficulty: EXPERT
+  - text: "Quelle est la longueur moyenne du côlon chez l'adulte ?"
+    answers:
+      A: "Environ 0,5 mètre"
+      B: "Environ 5 mètres"
+      C: "Environ 3 mètres"
+      D: "Environ 1,5 mètre"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the average length of the colon in adults?"
+        answers:
+          A: "About 0.5 meters"
+          B: "About 5 meters"
+          C: "About 3 meters"
+          D: "About 1.5 meters"
+    difficulty: EXPERT
+  - text: "Quel type de cellule du foie est le plus abondant ?"
+    answers:
+      A: "Les hépatocytes"
+      B: "Les cellules de Kupffer"
+      C: "Les cellules étoilées"
+      D: "Les cholangiocytes"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which type of liver cell is the most abundant?"
+        answers:
+          A: "Hepatocytes"
+          B: "Kupffer cells"
+          C: "Stellate cells"
+          D: "Cholangiocytes"
+    difficulty: EXPERT
+  - text: "Quel est le poids moyen du cerveau adulte ?"
+    answers:
+      A: "Environ 800 g"
+      B: "Environ 1,4 kg"
+      C: "Environ 2 kg"
+      D: "Environ 2,5 kg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the average weight of the adult brain?"
+        answers:
+          A: "About 800 g"
+          B: "About 1.4 kg"
+          C: "About 2 kg"
+          D: "About 2.5 kg"
+    difficulty: EXPERT
+  - text: "Quelle structure cérébrale est appelée le 'chef d'orchestre' du système endocrinien ?"
+    answers:
+      A: "L'hypophyse"
+      B: "La thyroïde"
+      C: "L'hypothalamus"
+      D: "La surrénale"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which brain structure is called the 'conductor' of the endocrine system?"
+        answers:
+          A: "The pituitary gland"
           B: "The thyroid"
-          C: "The pituitary gland"
-          D: "The ovaries"
-  - text: "Quel organe produit la testostérone ?"
+          C: "The hypothalamus"
+          D: "The adrenal gland"
+    difficulty: EXPERT
+  - text: "Quel est le rôle principal du liquide synovial dans les articulations ?"
     answers:
-      A: "Les ovaires"
-      B: "Le foie"
-      C: "La rate"
-      D: "Les testicules"
+      A: "Transporter l'oxygène"
+      B: "Stocker le calcium"
+      C: "Produire des anticorps"
+      D: "Lubrifier et nourrir le cartilage"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "Which organ produces testosterone?"
+        text: "What is the main role of synovial fluid in joints?"
         answers:
-          A: "The ovaries"
-          B: "The liver"
-          C: "The spleen"
-          D: "The testicles"
-  - text: "Quels organes produisent principalement les œstrogènes ?"
-    answers:
-      A: "Les ovaires"
-      B: "Les testicules"
-      C: "Les poumons"
-      D: "Les reins"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which organs mainly produce estrogens?"
-        answers:
-          A: "The ovaries"
-          B: "The testicles"
-          C: "The lungs"
-          D: "The kidneys"
-  - text: "Chez la femme, dans quelle structure se produit habituellement la fécondation ?"
-    answers:
-      A: "L'utérus"
-      B: "Le vagin"
-      C: "La trompe de Fallope"
-      D: "L'ovaire"
-    correctAnswer: C
+          A: "Transport oxygen"
+          B: "Store calcium"
+          C: "Produce antibodies"
+          D: "Lubricate and nourish cartilage"
     difficulty: HARD
-    translations:
-      en:
-        text: "In women, in which structure does fertilization usually occur?"
-        answers:
-          A: "The uterus"
-          B: "The vagina"
-          C: "The fallopian tube"
-          D: "The ovary"
-  - text: "Quel phénomène osseux accompagne souvent le vieillissement, surtout après la ménopause ?"
-    answers:
-      A: "L'ostéoporose"
-      B: "L'allongement des os"
-      C: "La multiplication des cartilages"
-      D: "La croissance en taille"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which bone phenomenon often accompanies aging, especially after menopause?"
-        answers:
-          A: "Osteoporosis"
-          B: "Lengthening of the bones"
-          C: "Multiplication of cartilage"
-          D: "Growth in height"
-  - text: "Quels chromosomes sexuels possède une femme ?"
-    answers:
-      A: "XY"
-      B: "XO"
-      C: "YY"
-      D: "XX"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which sex chromosomes does a woman have?"
-        answers:
-          A: "XY"
-          B: "XO"
-          C: "YY"
-          D: "XX"
-  - text: "Dans quelle partie de la cellule se trouve principalement l'ADN ?"
-    answers:
-      A: "La membrane"
-      B: "Le noyau"
-      C: "Le cytoplasme"
-      D: "La paroi"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "In which part of the cell is DNA mainly found?"
-        answers:
-          A: "The membrane"
-          B: "The nucleus"
-          C: "The cytoplasm"
-          D: "The wall"
-  - text: "Qu'est-ce qu'un gène ?"
-    answers:
-      A: "Une cellule du sang"
-      B: "Une hormone digestive"
-      C: "Un segment d'ADN porteur d'une information héréditaire"
-      D: "Un type de globule blanc"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is a gene?"
-        answers:
-          A: "A blood cell"
-          B: "A digestive hormone"
-          C: "A segment of DNA carrying hereditary information"
-          D: "A type of white blood cell"
-  - text: "Combien de paires de chromosomes compte le génome humain ?"
-    answers:
-      A: "23 paires"
-      B: "12 paires"
-      C: "32 paires"
-      D: "46 paires"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "How many pairs of chromosomes does the human genome have?"
-        answers:
-          A: "23 pairs"
-          B: "12 pairs"
-          C: "32 pairs"
-          D: "46 pairs"
-  - text: "Quelle maladie est d'origine génétique ?"
-    answers:
-      A: "L'angine"
-      B: "La grippe"
-      C: "La mucoviscidose"
-      D: "La varicelle"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which disease is genetic in origin?"
-        answers:
-          A: "Tonsillitis"
-          B: "The flu"
-          C: "Cystic fibrosis"
-          D: "Chickenpox"
-  - text: "Contre quel type de micro-organismes les antibiotiques sont-ils efficaces ?"
-    answers:
-      A: "Les virus"
-      B: "Les insectes"
-      C: "Les cellules humaines"
-      D: "Les bactéries"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "Against which type of microorganisms are antibiotics effective?"
-        answers:
-          A: "Viruses"
-          B: "Insects"
-          C: "Human cells"
-          D: "Bacteria"
-  - text: "Quelle technique d'imagerie médicale utilise les rayons X ?"
-    answers:
-      A: "La radiographie"
-      B: "L'IRM"
-      C: "L'électrocardiogramme"
-      D: "L'échographie"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which medical imaging technique uses X-rays?"
-        answers:
-          A: "Radiography"
-          B: "MRI"
-          C: "Electrocardiogram"
-          D: "Ultrasound"
-  - text: "Quelle technique d'imagerie repose sur un champ magnétique et des ondes radio ?"
-    answers:
-      A: "La radiographie"
-      B: "L'IRM"
-      C: "L'échographie"
-      D: "Le scanner"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which imaging technique relies on a magnetic field and radio waves?"
-        answers:
-          A: "Radiography"
-          B: "MRI"
-          C: "Ultrasound"
-          D: "CT scan"
-  - text: "Pourquoi une personne greffée doit-elle prendre des immunosuppresseurs ?"
-    answers:
-      A: "Pour accélérer la cicatrisation"
-      B: "Pour augmenter la pression artérielle"
-      C: "Pour éviter le rejet du greffon"
-      D: "Pour produire plus de globules rouges"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "Why must a transplant recipient take immunosuppressants?"
-        answers:
-          A: "To speed up healing"
-          B: "To increase blood pressure"
-          C: "To prevent rejection of the graft"
-          D: "To produce more red blood cells"
-  - text: "Quelle maladie neurodégénérative touche d'abord la mémoire récente ?"
-    answers:
-      A: "Le diabète"
-      B: "L'asthme"
-      C: "La migraine"
-      D: "La maladie d'Alzheimer"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which neurodegenerative disease first affects recent memory?"
-        answers:
-          A: "Diabetes"
-          B: "Asthma"
-          C: "Migraine"
-          D: "Alzheimer's disease"

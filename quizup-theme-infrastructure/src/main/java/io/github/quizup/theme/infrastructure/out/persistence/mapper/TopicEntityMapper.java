@@ -36,6 +36,7 @@ public final class TopicEntityMapper {
                 entity.getColor(),
                 entity.getImageUrl(),
                 entity.getBannerUrl(),
+                TopicTitlesJson.read(entity.getTitleNames()),
                 entity.getCreatedAt(),
                 entity.getUpdatedAt()
         );
@@ -63,6 +64,7 @@ public final class TopicEntityMapper {
         topicEntity.setColor(topic.color());
         topicEntity.setImageUrl(topic.imageUrl());
         topicEntity.setBannerUrl(topic.bannerUrl());
+        topicEntity.setTitleNames(TopicTitlesJson.write(topic.titles()));
         topicEntity.setCreatedAt(topic.createdAt());
         topicEntity.setUpdatedAt(topic.updatedAt());
         return topicEntity;

@@ -12,69 +12,69 @@ questions:
     answers:
       A: "Le castor"
       B: "Le vison"
-      C: "La loutre"
-      D: "Le phoque"
-    correctAnswer: C
-    difficulty: HARD
+      C: "Le phoque"
+      D: "La loutre"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal?"
         answers:
           A: "The beaver"
           B: "The mink"
-          C: "The otter"
-          D: "The seal"
+          C: "The seal"
+          D: "The otter"
+    difficulty: EASY
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Red-eyed_Tree_Frog_(Agalychnis_callidryas).jpg
     answers:
-      A: "La rainette aux yeux rouges"
+      A: "La grenouille verte"
       B: "Le crapaud"
       C: "La salamandre"
-      D: "La grenouille verte"
-    correctAnswer: A
-    difficulty: HARD
+      D: "La rainette aux yeux rouges"
+    correctAnswer: D
     translations:
       en:
-        text: "Which animal do you see?"
+        text: "Which animal do we see?"
         answers:
-          A: "The red-eyed tree frog"
+          A: "The green frog"
           B: "The toad"
           C: "The salamander"
-          D: "The green frog"
+          D: "The red-eyed tree frog"
+    difficulty: EASY
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Close-up_photograph_of_an_Iguana_iguana.jpg
     answers:
       A: "Le basilic"
-      B: "Le caméléon"
+      B: "L'iguane vert"
       C: "Le gecko"
-      D: "L'iguane vert"
-    correctAnswer: D
-    difficulty: HARD
+      D: "Le caméléon"
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The basilisk"
-          B: "The chameleon"
+          B: "The green iguana"
           C: "The gecko"
-          D: "The green iguana"
+          D: "The chameleon"
+    difficulty: EASY
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Great_spotted_woodpecker_(Dendrocopos_major)_female_Drenthe.jpg
     answers:
-      A: "Le pic épeiche"
+      A: "Le pinson"
       B: "Le geai"
-      C: "Le pinson"
+      C: "Le pic épeiche"
       D: "La mésange"
-    correctAnswer: A
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The great spotted woodpecker"
+          A: "The finch"
           B: "The jay"
-          C: "The finch"
+          C: "The great spotted woodpecker"
           D: "The tit"
+    difficulty: EASY
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/European_praying_mantis_(Mantis_religiosa)_green_female_Dobruja.jpg
     answers:
@@ -83,83 +83,83 @@ questions:
       C: "La sauterelle"
       D: "Le phasme"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which animal do you see?"
+        text: "Which animal do we see?"
         answers:
           A: "The praying mantis"
           B: "The cricket"
           C: "The grasshopper"
           D: "The stick insect"
+    difficulty: EASY
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Mute_swan_(Cygnus_olor)_looking_for_food_in_waves,_Windermere,_England.jpg
     answers:
-      A: "Le cygne"
-      B: "Le pélican"
+      A: "Le pélican"
+      B: "Le cygne"
       C: "Le canard"
       D: "L'oie"
-    correctAnswer: A
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The swan"
-          B: "The pelican"
+          A: "The pelican"
+          B: "The swan"
           C: "The duck"
           D: "The goose"
+    difficulty: EASY
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Sperm_whale_(Physeter_macrocephalus)_diving,_Sao_Miguel_Island,_Azores,_Portugal_(PPL1-Corrected).jpg
     answers:
-      A: "Le cachalot"
+      A: "La baleine à bosse"
       B: "La baleine bleue"
       C: "L'orque"
-      D: "La baleine à bosse"
-    correctAnswer: A
-    difficulty: EXPERT
+      D: "Le cachalot"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The sperm whale"
+          A: "The humpback whale"
           B: "The blue whale"
           C: "The orca"
-          D: "The humpback whale"
+          D: "The sperm whale"
+    difficulty: EASY
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Llama_(Lama_glama),_Tierpark_Hellabrunn,_Munich,_Alemania,_2012-06-17,_DD_01.jpg
     answers:
-      A: "Le mouflon"
-      B: "Le lama"
+      A: "Le lama"
+      B: "Le mouflon"
       C: "Le dromadaire"
       D: "L'alpaga"
-    correctAnswer: B
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
-        text: "Which animal do you see?"
+        text: "Which animal do we see?"
         answers:
-          A: "The mouflon"
-          B: "The llama"
+          A: "The llama"
+          B: "The mouflon"
           C: "The dromedary"
           D: "The alpaca"
+    difficulty: EASY
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Apteryx_mantelli_-Rotorua,_North_Island,_New_Zealand-8a.jpg
     answers:
-      A: "Le kiwi"
+      A: "Le pluvier"
       B: "Le poussin"
       C: "L'autruche"
-      D: "Le pluvier"
-    correctAnswer: A
-    difficulty: HARD
+      D: "Le kiwi"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The kiwi"
+          A: "The plover"
           B: "The chick"
           C: "The ostrich"
-          D: "The plover"
+          D: "The kiwi"
+    difficulty: EASY
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Barn_owl_(Tyto_alba).jpg
     answers:
@@ -168,7 +168,6 @@ questions:
       C: "La chouette harfang"
       D: "L'effraie des clochers"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "What is this animal?"
@@ -177,6 +176,7 @@ questions:
           B: "The buzzard"
           C: "The snowy owl"
           D: "The barn owl"
+    difficulty: EASY
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Puffin_(Fratercula_arctica).jpg
     answers:
@@ -185,134 +185,134 @@ questions:
       C: "Le pingouin"
       D: "Le pigeon"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which animal do you see?"
+        text: "Which animal do we see?"
         answers:
           A: "The puffin"
           B: "The penguin"
           C: "The auk"
           D: "The pigeon"
+    difficulty: MEDIUM
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Blue_Whale_(Balaenoptera_musculus)_(16108163937).jpg
     answers:
-      A: "Le cachalot"
+      A: "La baleine bleue"
       B: "L'orque"
       C: "Le rorqual à bosse"
-      D: "La baleine bleue"
-    correctAnswer: D
-    difficulty: HARD
+      D: "Le cachalot"
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The sperm whale"
+          A: "The blue whale"
           B: "The orca"
           C: "The humpback rorqual"
-          D: "The blue whale"
+          D: "The sperm whale"
+    difficulty: MEDIUM
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/2017-09-09_(140)_Bubo_scandiacus_(Snowy_owl)_at_castle_Oberkapfenberg.jpg
     answers:
       A: "Le hibou grand-duc"
       B: "La chouette effraie"
-      C: "Le faucon"
-      D: "La chouette harfang"
-    correctAnswer: D
-    difficulty: HARD
+      C: "La chouette harfang"
+      D: "Le faucon"
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The eagle owl"
+          A: "The Eurasian eagle-owl"
           B: "The barn owl"
-          C: "The falcon"
-          D: "The snowy owl"
+          C: "The snowy owl"
+          D: "The falcon"
+    difficulty: MEDIUM
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Chimpanzee_(Pan_troglodytes).jpg
     answers:
       A: "L'orang-outan"
-      B: "Le chimpanzé"
+      B: "Le bonobo"
       C: "Le gorille"
-      D: "Le bonobo"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which animal do you see?"
-        answers:
-          A: "The orangutan"
-          B: "The chimpanzee"
-          C: "The gorilla"
-          D: "The bonobo"
-  - text: "Comment s'appelle cet animal ?"
-    imageUrl: wikipedia/nature/Zebra_Botswana_edit02.jpg
-    answers:
-      A: "Le zèbre"
-      B: "Le cheval"
-      C: "L'âne"
-      D: "L'okapi"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is this animal called?"
-        answers:
-          A: "The zebra"
-          B: "The horse"
-          C: "The donkey"
-          D: "The okapi"
-  - text: "Quel est cet animal ?"
-    imageUrl: wikipedia/nature/Lion_waiting_in_Namibia.jpg
-    answers:
-      A: "Le tigre"
-      B: "Le lion"
-      C: "Le guépard"
-      D: "Le puma"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "What animal is this?"
-        answers:
-          A: "Tiger"
-          B: "Lion"
-          C: "Cheetah"
-          D: "Puma"
-  - text: "Quel animal voit-on ?"
-    imageUrl: wikipedia/nature/Komodo_dragon_(Varanus_komodoensis).jpg
-    answers:
-      A: "L'iguane"
-      B: "Le varan du Nil"
-      C: "Le dragon de Komodo"
-      D: "Le crocodile"
-    correctAnswer: C
-    difficulty: HARD
+      D: "Le chimpanzé"
+    correctAnswer: D
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "Iguana"
-          B: "Nile monitor"
-          C: "Komodo dragon"
-          D: "Crocodile"
-  - text: "Comment s'appelle cet animal ?"
-    imageUrl: wikipedia/nature/Platypus.jpg
-    answers:
-      A: "Le castor"
-      B: "L'ornithorynque"
-      C: "Le rat musqué"
-      D: "La loutre"
-    correctAnswer: B
+          A: "The orangutan"
+          B: "The bonobo"
+          C: "The gorilla"
+          D: "The chimpanzee"
     difficulty: MEDIUM
+  - text: "Comment s'appelle cet animal ?"
+    imageUrl: wikipedia/nature/Zebra_Botswana_edit02.jpg
+    answers:
+      A: "Le cheval"
+      B: "Le zèbre"
+      C: "L'âne"
+      D: "L'okapi"
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "Beaver"
-          B: "Platypus"
-          C: "Muskrat"
-          D: "Otter"
+          A: "The horse"
+          B: "The zebra"
+          C: "The donkey"
+          D: "The okapi"
+    difficulty: MEDIUM
+  - text: "Quel est cet animal ?"
+    imageUrl: wikipedia/nature/Lion_waiting_in_Namibia.jpg
+    answers:
+      A: "Le tigre"
+      B: "Le guépard"
+      C: "Le lion"
+      D: "Le puma"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What animal is this?"
+        answers:
+          A: "The tiger"
+          B: "The cheetah"
+          C: "The lion"
+          D: "The puma"
+    difficulty: MEDIUM
+  - text: "Quel animal voit-on ?"
+    imageUrl: wikipedia/nature/Komodo_dragon_(Varanus_komodoensis).jpg
+    answers:
+      A: "Le dragon de Komodo"
+      B: "Le varan du Nil"
+      C: "L'iguane"
+      D: "Le crocodile"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which animal do we see?"
+        answers:
+          A: "The Komodo dragon"
+          B: "The Nile monitor"
+          C: "The iguana"
+          D: "The crocodile"
+    difficulty: MEDIUM
+  - text: "Comment s'appelle cet animal ?"
+    imageUrl: wikipedia/nature/Platypus.jpg
+    answers:
+      A: "Le castor"
+      B: "La loutre"
+      C: "Le rat musqué"
+      D: "L'ornithorynque"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is this animal called?"
+        answers:
+          A: "The beaver"
+          B: "The otter"
+          C: "The muskrat"
+          D: "The platypus"
+    difficulty: MEDIUM
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Trenggiling_Sunda_Sunda_Pangolin_Manis_javanica.jpg
     answers:
@@ -321,100 +321,100 @@ questions:
       C: "Le pangolin"
       D: "Le tamanoir"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "What animal is this?"
         answers:
-          A: "Armadillo"
-          B: "Hedgehog"
-          C: "Pangolin"
-          D: "Anteater"
+          A: "The armadillo"
+          B: "The hedgehog"
+          C: "The pangolin"
+          D: "The anteater"
+    difficulty: MEDIUM
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Clownfish_saying_hello_to_the_camera.jpg
     answers:
       A: "Le poisson-ange"
       B: "L'hippocampe"
-      C: "Le poisson-clown"
-      D: "Le poisson-lune"
-    correctAnswer: C
-    difficulty: EASY
+      C: "Le poisson-lune"
+      D: "Le poisson-clown"
+    correctAnswer: D
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "Angelfish"
-          B: "Seahorse"
-          C: "Clownfish"
-          D: "Ocean sunfish"
+          A: "The angelfish"
+          B: "The seahorse"
+          C: "The sunfish"
+          D: "The clownfish"
+    difficulty: MEDIUM
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Toco_Toucan_(Ramphastos_toco)_-_48153967707.jpg
     answers:
-      A: "Le toucan"
+      A: "L'ara"
       B: "Le perroquet"
       C: "Le calao"
-      D: "L'ara"
-    correctAnswer: A
-    difficulty: MEDIUM
+      D: "Le toucan"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "Toucan"
-          B: "Parrot"
-          C: "Hornbill"
-          D: "Macaw"
+          A: "The macaw"
+          B: "The parrot"
+          C: "The hornbill"
+          D: "The toucan"
+    difficulty: MEDIUM
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Grosser_Panda.jpg
     answers:
-      A: "Le panda géant"
+      A: "Le koala"
       B: "Le raton laveur"
-      C: "Le koala"
+      C: "Le panda géant"
       D: "Le panda roux"
-    correctAnswer: A
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "What animal is this?"
         answers:
-          A: "Giant panda"
-          B: "Raccoon"
-          C: "Koala"
-          D: "Red panda"
+          A: "The koala"
+          B: "The raccoon"
+          C: "The giant panda"
+          D: "The red panda"
+    difficulty: MEDIUM
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/A_domestic_yak_(Bos_grunniens)_captured_in_Sikkim,_India.jpg
     answers:
       A: "La vache"
-      B: "Le yak"
+      B: "Le buffle"
       C: "Le bison"
-      D: "Le buffle"
-    correctAnswer: B
-    difficulty: EXPERT
+      D: "Le yak"
+    correctAnswer: D
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "Cow"
-          B: "Yak"
-          C: "Bison"
-          D: "Buffalo"
+          A: "The cow"
+          B: "The buffalo"
+          C: "The bison"
+          D: "The yak"
+    difficulty: MEDIUM
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Arctic_Wolf_(Canis_lupus_arctos)_2.jpg
     answers:
       A: "Le renard polaire"
       B: "Le chien husky"
-      C: "Le coyote"
-      D: "Le loup arctique"
-    correctAnswer: D
-    difficulty: EXPERT
+      C: "Le loup arctique"
+      D: "Le coyote"
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "Arctic fox"
-          B: "Husky dog"
-          C: "Coyote"
-          D: "Arctic wolf"
+          A: "The Arctic fox"
+          B: "The husky dog"
+          C: "The Arctic wolf"
+          D: "The coyote"
+    difficulty: MEDIUM
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Walrus_(Odobenus_rosmarus)_resting_in_a_crowd_on_Wahlbergya,_Svalbard_(2).jpg
     answers:
@@ -423,83 +423,83 @@ questions:
       C: "L'éléphant de mer"
       D: "Le lion de mer"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "What animal is this?"
         answers:
-          A: "Walrus"
-          B: "Seal"
-          C: "Elephant seal"
-          D: "Sea lion"
+          A: "The walrus"
+          B: "The seal"
+          C: "The elephant seal"
+          D: "The sea lion"
+    difficulty: MEDIUM
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Myrmecophaga_tridactyla_86003248.jpg
     answers:
-      A: "Le tamanoir"
+      A: "Le paresseux"
       B: "Le tatou"
       C: "Le pangolin"
-      D: "Le paresseux"
-    correctAnswer: A
-    difficulty: EXPERT
+      D: "Le tamanoir"
+    correctAnswer: D
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "Anteater"
-          B: "Armadillo"
-          C: "Pangolin"
-          D: "Sloth"
+          A: "The sloth"
+          B: "The armadillo"
+          C: "The pangolin"
+          D: "The anteater"
+    difficulty: MEDIUM
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Honeybee_(Apis_mellifera).jpg
     answers:
-      A: "Le bourdon"
+      A: "L'abeille"
       B: "La guêpe"
-      C: "L'abeille"
+      C: "Le bourdon"
       D: "Le frelon"
-    correctAnswer: C
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "Bumblebee"
-          B: "Wasp"
-          C: "Bee"
-          D: "Hornet"
+          A: "The bee"
+          B: "The wasp"
+          C: "The bumblebee"
+          D: "The hornet"
+    difficulty: MEDIUM
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Common_starfish_IMG_1708.png
     answers:
       A: "Le concombre de mer"
-      B: "L'étoile de mer"
+      B: "L'oursin"
       C: "La méduse"
-      D: "L'oursin"
-    correctAnswer: B
-    difficulty: EASY
+      D: "L'étoile de mer"
+    correctAnswer: D
     translations:
       en:
         text: "What animal is this?"
         answers:
-          A: "Sea cucumber"
-          B: "Starfish"
-          C: "Jellyfish"
-          D: "Sea urchin"
+          A: "The sea cucumber"
+          B: "The sea urchin"
+          C: "The jellyfish"
+          D: "The starfish"
+    difficulty: MEDIUM
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Emperor_scorpion_or_Imperial_scorpion_(Pandinus_imperator).jpg
     answers:
-      A: "Le scorpion"
+      A: "La pince-oreille"
       B: "La mygale"
-      C: "La pince-oreille"
+      C: "Le scorpion"
       D: "Le crabe"
-    correctAnswer: A
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "Scorpion"
-          B: "Tarantula"
-          C: "Earwig"
-          D: "Crab"
+          A: "The earwig"
+          B: "The tarantula"
+          C: "The scorpion"
+          D: "The crab"
+    difficulty: MEDIUM
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Veiled_chameleon_(Chamaeleo_calyptratus),_Entomica_1.jpg
     answers:
@@ -508,15 +508,15 @@ questions:
       C: "Le caméléon"
       D: "Le varan"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "Gecko"
-          B: "Iguana"
-          C: "Chameleon"
-          D: "Monitor lizard"
+          A: "The gecko"
+          B: "The iguana"
+          C: "The chameleon"
+          D: "The monitor lizard"
+    difficulty: MEDIUM
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Orca_Orcinus_orca_sulla_costa_di_Telegraph_Cove_Vancouver_Island_02.jpg
     answers:
@@ -525,7 +525,6 @@ questions:
       C: "Le marsouin"
       D: "Le béluga"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "What is this animal?"
@@ -534,6 +533,7 @@ questions:
           B: "The orca"
           C: "The porpoise"
           D: "The beluga"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Artis_Fennec_fox_(11114753056).jpg
     answers:
@@ -542,49 +542,49 @@ questions:
       C: "Le renard roux"
       D: "Le fennec"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
-        text: "Which animal do we see?"
+        text: "Which animal do you see?"
         answers:
           A: "The rabbit"
           B: "The jackal"
           C: "The red fox"
           D: "The fennec"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Siberian_Tiger_by_Malene_Th.jpg
     answers:
-      A: "Le tigre"
-      B: "Le lion"
+      A: "Le lion"
+      B: "Le tigre"
       C: "Le guépard"
       D: "Le léopard"
-    correctAnswer: A
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The tiger"
-          B: "The lion"
+          A: "The lion"
+          B: "The tiger"
           C: "The cheetah"
           D: "The leopard"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Capybara_(Hydrochoerus_hydrochaeris).jpg
     answers:
       A: "Le rat musqué"
-      B: "Le castor"
-      C: "Le capybara"
+      B: "Le capybara"
+      C: "Le castor"
       D: "Le porc-épic"
-    correctAnswer: C
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal?"
         answers:
           A: "The muskrat"
-          B: "The beaver"
-          C: "The capybara"
+          B: "The capybara"
+          C: "The beaver"
           D: "The porcupine"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Vicugna_pacos_-_Karlsruhe_Zoo.jpg
     answers:
@@ -593,49 +593,49 @@ questions:
       C: "La chèvre"
       D: "Le lama"
     correctAnswer: B
-    difficulty: HARD
     translations:
       en:
-        text: "Which animal do we see?"
+        text: "Which animal do you see?"
         answers:
           A: "The sheep"
           B: "The alpaca"
           C: "The goat"
           D: "The llama"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Manta_birostris-Thailand.jpg
     answers:
       A: "Le requin-baleine"
-      B: "La raie manta"
+      B: "La raie pastenague"
       C: "Le poisson-lune"
-      D: "La raie pastenague"
-    correctAnswer: B
-    difficulty: MEDIUM
+      D: "La raie manta"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The whale shark"
-          B: "The manta ray"
+          B: "The stingray"
           C: "The sunfish"
-          D: "The stingray"
+          D: "The manta ray"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Flamingos_Laguna_Colorada.jpg
     answers:
-      A: "Le flamant rose"
+      A: "Le héron"
       B: "La cigogne"
-      C: "Le héron"
+      C: "Le flamant rose"
       D: "L'ibis"
-    correctAnswer: A
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The flamingo"
+          A: "The heron"
           B: "The stork"
-          C: "The heron"
+          C: "The flamingo"
           D: "The ibis"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Great_white_pelican_(Pelecanus_onocrotalus)_head.jpg
     answers:
@@ -644,32 +644,32 @@ questions:
       C: "Le pélican"
       D: "Le cygne"
     correctAnswer: C
-    difficulty: MEDIUM
     translations:
       en:
-        text: "Which animal do we see?"
+        text: "Which animal do you see?"
         answers:
           A: "The flamingo"
           B: "The stork"
           C: "The pelican"
           D: "The swan"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Harbor_seal_(Phoca_vitulina)_at_Magdalen_fjord,_Svalbard_(2).jpg
     answers:
-      A: "Le morse"
-      B: "Le phoque commun"
+      A: "Le phoque commun"
+      B: "Le morse"
       C: "Le lion de mer"
       D: "La loutre"
-    correctAnswer: B
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The walrus"
-          B: "The harbor seal"
+          A: "The common seal"
+          B: "The walrus"
           C: "The sea lion"
           D: "The otter"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Ailurus_fulgens_(Panda_roux)_-_128.jpg
     answers:
@@ -678,7 +678,6 @@ questions:
       C: "Le panda roux"
       D: "Le renard"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "What is this animal?"
@@ -687,23 +686,24 @@ questions:
           B: "The raccoon"
           C: "The red panda"
           D: "The fox"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Bald_Eagle_Portrait.jpg
     answers:
       A: "Le vautour"
       B: "La buse"
-      C: "Le pygargue à tête blanche"
-      D: "Le faucon"
-    correctAnswer: C
-    difficulty: HARD
+      C: "Le faucon"
+      D: "Le pygargue à tête blanche"
+    correctAnswer: D
     translations:
       en:
-        text: "Which animal do we see?"
+        text: "Which animal do you see?"
         answers:
           A: "The vulture"
           B: "The buzzard"
-          C: "The bald eagle"
-          D: "The falcon"
+          C: "The falcon"
+          D: "The bald eagle"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Griffon_vulture_(Gyps_fulvus).jpg
     answers:
@@ -712,7 +712,6 @@ questions:
       C: "Le faucon"
       D: "L'aigle"
     correctAnswer: A
-    difficulty: EXPERT
     translations:
       en:
         text: "What is this animal called?"
@@ -721,227 +720,228 @@ questions:
           B: "The condor"
           C: "The falcon"
           D: "The eagle"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Orang_Utan,_Semenggok_Forest_Reserve,_Sarawak,_Borneo,_Malaysia.jpg
     answers:
-      A: "Le gibbon"
+      A: "L'orang-outan"
       B: "Le gorille"
-      C: "L'orang-outan"
+      C: "Le gibbon"
       D: "Le chimpanzé"
-    correctAnswer: C
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The gibbon"
+          A: "The orangutan"
           B: "The gorilla"
-          C: "The orangutan"
+          C: "The gibbon"
           D: "The chimpanzee"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Nine-banded_armadillo_(Dasypus_novemcinctus)_(29884473785).jpg
     answers:
-      A: "Le tatou"
-      B: "Le tamanoir"
+      A: "Le tamanoir"
+      B: "Le tatou"
       C: "Le hérisson"
       D: "Le pangolin"
-    correctAnswer: A
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
-        text: "Which animal do we see?"
+        text: "Which animal do you see?"
         answers:
-          A: "The armadillo"
-          B: "The anteater"
+          A: "The anteater"
+          B: "The armadillo"
           C: "The hedgehog"
           D: "The pangolin"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/King_Cobra_(Ophiophagus_hannah)_hunting_Sungei_Buloh_Wetland_Reserve_(Singapore,_May_27,_2023).jpg
     answers:
       A: "La vipère"
-      B: "Le python"
+      B: "Le cobra royal"
       C: "Le mamba noir"
-      D: "Le cobra royal"
-    correctAnswer: D
-    difficulty: MEDIUM
+      D: "Le python"
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The viper"
-          B: "The python"
+          B: "The king cobra"
           C: "The black mamba"
-          D: "The king cobra"
+          D: "The python"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Spotted_seahorse_(Hippocampus_kuda)_(40554459970).jpg
     answers:
       A: "Le poisson-aiguille"
-      B: "Le poisson-lune"
-      C: "L'hippocampe"
+      B: "L'hippocampe"
+      C: "Le poisson-lune"
       D: "Le poisson-clown"
-    correctAnswer: C
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal?"
         answers:
           A: "The needlefish"
-          B: "The sunfish"
-          C: "The seahorse"
+          B: "The seahorse"
+          C: "The sunfish"
           D: "The clownfish"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg
     answers:
-      A: "La tortue luth"
+      A: "La tortue verte"
       B: "La tortue géante"
-      C: "La tortue verte"
+      C: "La tortue luth"
       D: "La tortue de Floride"
-    correctAnswer: C
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "The leatherback turtle"
+          A: "The green turtle"
           B: "The giant tortoise"
-          C: "The green turtle"
+          C: "The leatherback turtle"
           D: "The red-eared slider"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Koala_climbing_tree.jpg
     answers:
       A: "Le panda"
       B: "Le paresseux"
-      C: "Le kangourou"
-      D: "Le koala"
-    correctAnswer: D
-    difficulty: EASY
+      C: "Le koala"
+      D: "Le kangourou"
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The panda"
           B: "The sloth"
-          C: "The kangaroo"
-          D: "The koala"
+          C: "The koala"
+          D: "The kangaroo"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Reno_(Rangifer_tarandus),_Honningsvag,_Noruega,_2019-09-03,_DD_37.jpg
     answers:
-      A: "L'élan"
-      B: "Le renne"
+      A: "Le renne"
+      B: "L'élan"
       C: "Le cerf"
       D: "Le chevreuil"
-    correctAnswer: B
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The moose"
-          B: "The reindeer"
+          A: "The reindeer"
+          B: "The moose"
           C: "The deer"
           D: "The roe deer"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Meerkat_(Suricata_suricatta)_with_3_young.jpg
     answers:
-      A: "L'écureuil"
+      A: "Le suricate"
       B: "La mangouste"
-      C: "Le suricate"
+      C: "L'écureuil"
       D: "Le chien de prairie"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "The squirrel"
+          A: "The meerkat"
           B: "The mongoose"
-          C: "The meerkat"
+          C: "The squirrel"
           D: "The prairie dog"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Pulpo_comun_(Octopus_vulgaris),_Parque_natural_de_la_Arrabida,_Portugal,_2020-07-21,_DD_46.jpg
     answers:
       A: "La méduse"
-      B: "La pieuvre"
-      C: "La seiche"
+      B: "La seiche"
+      C: "La pieuvre"
       D: "Le calmar"
-    correctAnswer: B
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The jellyfish"
-          B: "The octopus"
-          C: "The cuttlefish"
+          B: "The cuttlefish"
+          C: "The octopus"
           D: "The squid"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Gorilla_gorilla_gorilla4.jpg
     answers:
-      A: "Le gorille"
-      B: "Le chimpanzé"
+      A: "Le chimpanzé"
+      B: "Le gorille"
       C: "Le babouin"
       D: "L'orang-outan"
-    correctAnswer: A
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The gorilla"
-          B: "The chimpanzee"
+          A: "The chimpanzee"
+          B: "The gorilla"
           C: "The baboon"
           D: "The orangutan"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Monarch_Butterfly_Danaus_plexippus_Male_3931.jpg
     answers:
-      A: "Le morpho"
+      A: "Le papillon monarque"
       B: "Le paon du jour"
-      C: "Le papillon monarque"
+      C: "Le morpho"
       D: "Le machaon"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "The morpho"
+          A: "The monarch butterfly"
           B: "The peacock butterfly"
-          C: "The monarch butterfly"
+          C: "The morpho"
           D: "The swallowtail"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Moose_(Alces_alces),_Male_-_Algonquin_Provincial_Park,_Ontario.jpg
     answers:
       A: "Le renne"
-      B: "Le cerf"
+      B: "L'élan"
       C: "Le bison"
-      D: "L'élan"
-    correctAnswer: D
-    difficulty: EXPERT
+      D: "Le cerf"
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The reindeer"
-          B: "The deer"
+          B: "The moose"
           C: "The bison"
-          D: "The moose"
+          D: "The deer"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/West_European_Hedgehog_(Erinaceus_europaeus)1.jpg
     answers:
       A: "Le tamanoir"
       B: "Le tatou"
-      C: "Le hérisson"
-      D: "Le porc-épic"
-    correctAnswer: C
-    difficulty: MEDIUM
+      C: "Le porc-épic"
+      D: "Le hérisson"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal?"
         answers:
           A: "The anteater"
           B: "The armadillo"
-          C: "The hedgehog"
-          D: "The porcupine"
+          C: "The porcupine"
+          D: "The hedgehog"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Seven-spotted_ladybug_(Coccinella_septempunctata).jpg
     answers:
@@ -950,49 +950,49 @@ questions:
       C: "La coccinelle"
       D: "Le scarabée"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "The stink bug"
+          A: "The bedbug"
           B: "The cockchafer"
           C: "The ladybug"
           D: "The beetle"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Blue_Morpho.jpg
     answers:
-      A: "Le morpho bleu"
+      A: "Le paon du jour"
       B: "Le papillon monarque"
       C: "Le machaon"
-      D: "Le paon du jour"
-    correctAnswer: A
-    difficulty: EXPERT
+      D: "Le morpho bleu"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The blue morpho"
+          A: "The peacock butterfly"
           B: "The monarch butterfly"
           C: "The swallowtail"
-          D: "The peacock butterfly"
+          D: "The blue morpho"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/African_Bush_Elephant.jpg
     answers:
-      A: "L'éléphant d'Afrique"
+      A: "Le rhinocéros"
       B: "L'éléphant d'Asie"
-      C: "Le rhinocéros"
+      C: "L'éléphant d'Afrique"
       D: "L'hippopotame"
-    correctAnswer: A
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal?"
         answers:
-          A: "The African elephant"
+          A: "The rhinoceros"
           B: "The Asian elephant"
-          C: "The rhinoceros"
+          C: "The African elephant"
           D: "The hippopotamus"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Manatee_trichechus_manatus_latirostris_close_up_underwater_photo.jpg
     answers:
@@ -1001,7 +1001,6 @@ questions:
       C: "Le morse"
       D: "Le lamantin"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
         text: "Which animal do we see?"
@@ -1010,6 +1009,7 @@ questions:
           B: "The seal"
           C: "The walrus"
           D: "The manatee"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Hippopotamus_amphibius_Whipsnade_Zoo.jpg
     answers:
@@ -1018,7 +1018,6 @@ questions:
       C: "Le buffle"
       D: "L'éléphant"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
         text: "What is this animal called?"
@@ -1027,91 +1026,92 @@ questions:
           B: "The hippopotamus"
           C: "The buffalo"
           D: "The elephant"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Emperor_Penguin_Manchot_empereur.jpg
     answers:
       A: "Le manchot Adélie"
-      B: "Le macareux"
-      C: "Le manchot empereur"
+      B: "Le manchot empereur"
+      C: "Le macareux"
       D: "Le pingouin"
-    correctAnswer: C
-    difficulty: EASY
+    correctAnswer: B
     translations:
       en:
-        text: "What is this animal?"
+        text: "What animal is this?"
         answers:
           A: "The Adélie penguin"
-          B: "The puffin"
-          C: "The emperor penguin"
-          D: "The penguin"
+          B: "The emperor penguin"
+          C: "The puffin"
+          D: "The auk"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Decorated_one-humped_Camel,_Camelus_dromedarius,_at_Puri_Sea_Beach,_Odisha,_India.jpg
     answers:
       A: "L'alpaga"
-      B: "Le chameau de Bactriane"
-      C: "Le dromadaire"
+      B: "Le dromadaire"
+      C: "Le chameau de Bactriane"
       D: "Le lama"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
-        text: "What animal do you see?"
+        text: "Which animal do we see?"
         answers:
           A: "The alpaca"
-          B: "The Bactrian camel"
-          C: "The dromedary"
+          B: "The dromedary"
+          C: "The Bactrian camel"
           D: "The llama"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Galapagos_Tortoise.jpg
     answers:
       A: "La tortue de Floride"
-      B: "La tortue géante des Galápagos"
+      B: "La tortue verte"
       C: "La tortue luth"
-      D: "La tortue verte"
-    correctAnswer: B
-    difficulty: EXPERT
+      D: "La tortue géante des Galápagos"
+    correctAnswer: D
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The Florida turtle"
-          B: "The Galápagos giant tortoise"
+          A: "The red-eared slider"
+          B: "The green turtle"
           C: "The leatherback turtle"
-          D: "The green turtle"
+          D: "The Galápagos giant tortoise"
+    difficulty: HARD
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Tapir.jpg
     answers:
-      A: "Le sanglier"
+      A: "Le tapir"
       B: "Le tamanoir"
       C: "Le cochon"
-      D: "Le tapir"
-    correctAnswer: D
-    difficulty: EXPERT
+      D: "Le sanglier"
+    correctAnswer: A
     translations:
       en:
-        text: "What is this animal?"
+        text: "What animal is this?"
         answers:
-          A: "The wild boar"
+          A: "The tapir"
           B: "The anteater"
           C: "The pig"
-          D: "The tapir"
+          D: "The wild boar"
+    difficulty: HARD
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Rhinoceros_blanc_du_Sud_(Ceratotherium_simum_simum)_(1).jpg
     answers:
-      A: "Le rhinocéros"
+      A: "L'hippopotame"
       B: "Le buffle"
       C: "L'éléphant"
-      D: "L'hippopotame"
-    correctAnswer: A
-    difficulty: EASY
+      D: "Le rhinocéros"
+    correctAnswer: D
     translations:
       en:
-        text: "What animal do you see?"
+        text: "Which animal do we see?"
         answers:
-          A: "The rhinoceros"
+          A: "The hippopotamus"
           B: "The buffalo"
           C: "The elephant"
-          D: "The hippopotamus"
+          D: "The rhinoceros"
+    difficulty: HARD
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Macaca_fuscata_juvenile_yawning.jpg
     answers:
@@ -1120,7 +1120,6 @@ questions:
       C: "Le macaque japonais"
       D: "Le mandrill"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "What is this animal called?"
@@ -1129,6 +1128,7 @@ questions:
           B: "The baboon"
           C: "The Japanese macaque"
           D: "The mandrill"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Whale_shark_Georgia_aquarium.jpg
     answers:
@@ -1137,66 +1137,66 @@ questions:
       C: "Le requin-baleine"
       D: "La baleine bleue"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
-        text: "What is this animal?"
+        text: "What animal is this?"
         answers:
           A: "The hammerhead shark"
           B: "The great white shark"
           C: "The whale shark"
           D: "The blue whale"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Bison_bison.jpg
     answers:
-      A: "Le yak"
-      B: "Le bison"
+      A: "Le bison"
+      B: "Le yak"
       C: "Le buffle"
       D: "La vache"
-    correctAnswer: B
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
-        text: "What animal do you see?"
+        text: "Which animal do we see?"
         answers:
-          A: "The yak"
-          B: "The bison"
+          A: "The bison"
+          B: "The yak"
           C: "The buffalo"
           D: "The cow"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Nile_crocodile_head.jpg
     answers:
       A: "Le gavial"
       B: "L'alligator"
-      C: "Le caïman"
-      D: "Le crocodile du Nil"
-    correctAnswer: D
-    difficulty: EXPERT
+      C: "Le crocodile du Nil"
+      D: "Le caïman"
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The gharial"
           B: "The alligator"
-          C: "The caiman"
-          D: "The Nile crocodile"
+          C: "The Nile crocodile"
+          D: "The caiman"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Aurelia_aurita_(Cnidaria)_Luc_Viatour.jpg
     answers:
-      A: "La pieuvre"
+      A: "La méduse"
       B: "Le calmar"
-      C: "La méduse"
+      C: "La pieuvre"
       D: "L'anémone de mer"
-    correctAnswer: C
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
-        text: "What is this animal?"
+        text: "What animal is this?"
         answers:
-          A: "The octopus"
+          A: "The jellyfish"
           B: "The squid"
-          C: "The jellyfish"
+          C: "The octopus"
           D: "The sea anemone"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Peacock_Plumage.jpg
     answers:
@@ -1205,83 +1205,83 @@ questions:
       C: "La dinde"
       D: "Le paon"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "What animal do you see?"
+        text: "Which animal do we see?"
         answers:
           A: "The pheasant"
           B: "The rooster"
           C: "The turkey"
           D: "The peacock"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Giraffe_Mikumi_National_Park.jpg
     answers:
       A: "L'autruche"
       B: "Le dromadaire"
-      C: "L'okapi"
-      D: "La girafe"
-    correctAnswer: D
-    difficulty: EASY
+      C: "La girafe"
+      D: "L'okapi"
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The ostrich"
           B: "The dromedary"
-          C: "The okapi"
-          D: "The giraffe"
+          C: "The giraffe"
+          D: "The okapi"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Greater_Flying_Fox_(Pteropus_vampyrus)_on_the_Elevala_River_(48742819348).jpg
     answers:
-      A: "La roussette"
-      B: "Le lémurien"
+      A: "Le lémurien"
+      B: "La roussette"
       C: "Le hibou"
       D: "L'écureuil volant"
-    correctAnswer: A
-    difficulty: EXPERT
+    correctAnswer: B
     translations:
       en:
-        text: "What is this animal?"
+        text: "What animal is this?"
         answers:
-          A: "The flying fox"
-          B: "The lemur"
+          A: "The lemur"
+          B: "The flying fox"
           C: "The owl"
           D: "The flying squirrel"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/California_sea_lion_in_La_Jolla_(70568).jpg
     answers:
       A: "Le phoque"
-      B: "Le lion de mer"
-      C: "Le morse"
+      B: "Le morse"
+      C: "Le lion de mer"
       D: "La loutre"
-    correctAnswer: B
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
-        text: "What animal do you see?"
+        text: "Which animal do we see?"
         answers:
           A: "The seal"
-          B: "The sea lion"
-          C: "The walrus"
+          B: "The walrus"
+          C: "The sea lion"
           D: "The otter"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Kangaroo_and_joey03.jpg
     answers:
       A: "Le koala"
-      B: "Le wallaby"
+      B: "Le kangourou"
       C: "Le lapin"
-      D: "Le kangourou"
-    correctAnswer: D
-    difficulty: EASY
+      D: "Le wallaby"
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The koala"
-          B: "The wallaby"
+          B: "The kangaroo"
           C: "The rabbit"
-          D: "The kangaroo"
+          D: "The wallaby"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/North_American_Beaver_(Castor_canadensis)_-_Algonquin_Provincial_Park,_Ontario_01.jpg
     answers:
@@ -1290,15 +1290,15 @@ questions:
       C: "La loutre"
       D: "Le castor"
     correctAnswer: D
-    difficulty: MEDIUM
     translations:
       en:
-        text: "What animal is this?"
+        text: "What is this animal?"
         answers:
           A: "The muskrat"
           B: "The coypu"
           C: "The otter"
           D: "The beaver"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Great_White_Shark_(Carcharodon_carcharias)_(32872284396).jpg
     answers:
@@ -1307,7 +1307,6 @@ questions:
       C: "Le requin-marteau"
       D: "Le requin tigre"
     correctAnswer: B
-    difficulty: MEDIUM
     translations:
       en:
         text: "Which animal do we see?"
@@ -1316,193 +1315,194 @@ questions:
           B: "The great white shark"
           C: "The hammerhead shark"
           D: "The tiger shark"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Beluga_or_white_whale,_Delphinapterus_leucas_courtship_(6182461448).jpg
     answers:
       A: "Le narval"
       B: "Le dauphin"
-      C: "L'orque"
-      D: "Le béluga"
-    correctAnswer: D
-    difficulty: MEDIUM
+      C: "Le béluga"
+      D: "L'orque"
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The narwhal"
           B: "The dolphin"
-          C: "The orca"
-          D: "The beluga"
+          C: "The beluga"
+          D: "The orca"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Tarantula_(Theraphosidae)_(27080144695).jpg
     answers:
-      A: "La mygale"
-      B: "La veuve noire"
+      A: "La veuve noire"
+      B: "La mygale"
       C: "L'araignée d'eau"
       D: "Le scorpion"
-    correctAnswer: A
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
-        text: "What animal is this?"
+        text: "What is this animal?"
         answers:
-          A: "The tarantula"
-          B: "The black widow"
+          A: "The black widow"
+          B: "The tarantula"
           C: "The diving bell spider"
           D: "The scorpion"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Bottlenose_Dolphin.jpg
     answers:
       A: "Le marsouin"
       B: "Le béluga"
-      C: "L'orque"
-      D: "Le grand dauphin"
-    correctAnswer: D
-    difficulty: MEDIUM
+      C: "Le grand dauphin"
+      D: "L'orque"
+    correctAnswer: C
     translations:
       en:
         text: "Which animal do we see?"
         answers:
           A: "The porpoise"
           B: "The beluga"
-          C: "The orca"
-          D: "The bottlenose dolphin"
+          C: "The bottlenose dolphin"
+          D: "The orca"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Common_wombat.jpg
     answers:
-      A: "Le blaireau"
-      B: "Le wombat"
+      A: "Le wombat"
+      B: "Le blaireau"
       C: "Le tatou"
       D: "Le castor"
-    correctAnswer: B
-    difficulty: EXPERT
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The badger"
-          B: "The wombat"
+          A: "The wombat"
+          B: "The badger"
           C: "The armadillo"
           D: "The beaver"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Ring-tailed_lemur.jpg
     answers:
       A: "Le suricate"
-      B: "Le lémurien à queue annelée"
-      C: "Le singe capucin"
+      B: "Le singe capucin"
+      C: "Le lémurien à queue annelée"
       D: "Le raton laveur"
-    correctAnswer: B
-    difficulty: HARD
+    correctAnswer: C
     translations:
       en:
-        text: "What animal is this?"
+        text: "What is this animal?"
         answers:
           A: "The meerkat"
-          B: "The ring-tailed lemur"
-          C: "The capuchin monkey"
+          B: "The capuchin monkey"
+          C: "The ring-tailed lemur"
           D: "The raccoon"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Cheetah_(Acinonyx_jubatus)_female_2.jpg
     answers:
-      A: "Le guépard"
-      B: "Le jaguar"
+      A: "Le jaguar"
+      B: "Le guépard"
       C: "Le lynx"
       D: "Le léopard"
-    correctAnswer: A
-    difficulty: MEDIUM
+    correctAnswer: B
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "The cheetah"
-          B: "The jaguar"
+          A: "The jaguar"
+          B: "The cheetah"
           C: "The lynx"
           D: "The leopard"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Kingfisher_(Alcedo_atthis).jpg
     answers:
       A: "Le colibri"
-      B: "Le geai"
+      B: "Le martin-pêcheur"
       C: "Le rouge-gorge"
-      D: "Le martin-pêcheur"
-    correctAnswer: D
-    difficulty: HARD
+      D: "Le geai"
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The hummingbird"
-          B: "The jay"
+          B: "The kingfisher"
           C: "The robin"
-          D: "The kingfisher"
+          D: "The jay"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Scarlet_macaw_(Ara_macao_cyanopterus)_head_Copan.jpg
     answers:
       A: "Le cacatoès"
-      B: "Le perroquet gris"
+      B: "L'ara rouge"
       C: "Le toucan"
-      D: "L'ara rouge"
-    correctAnswer: D
-    difficulty: HARD
+      D: "Le perroquet gris"
+    correctAnswer: B
     translations:
       en:
-        text: "What animal is this?"
+        text: "What is this animal?"
         answers:
           A: "The cockatoo"
-          B: "The African grey parrot"
+          B: "The scarlet macaw"
           C: "The toucan"
-          D: "The scarlet macaw"
+          D: "The African grey parrot"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Lucanus_cervus_male_2017_G1.jpg
     answers:
-      A: "Le hanneton"
+      A: "Le lucane cerf-volant"
       B: "Le cafard"
       C: "Le scarabée rhinocéros"
-      D: "Le lucane cerf-volant"
-    correctAnswer: D
-    difficulty: EXPERT
+      D: "Le hanneton"
+    correctAnswer: A
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "The cockchafer"
+          A: "The stag beetle"
           B: "The cockroach"
           C: "The rhinoceros beetle"
-          D: "The stag beetle"
+          D: "The cockchafer"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Polar_Bear_-_Alaska_(cropped).jpg
     answers:
-      A: "Le renard polaire"
-      B: "L'ours polaire"
+      A: "L'ours polaire"
+      B: "Le renard polaire"
       C: "L'ours brun"
       D: "Le loup arctique"
-    correctAnswer: B
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The Arctic fox"
-          B: "The polar bear"
+          A: "The polar bear"
+          B: "The Arctic fox"
           C: "The brown bear"
           D: "The Arctic wolf"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Red_deer_(Cervus_elaphus).jpg
     answers:
       A: "Le chevreuil"
       B: "Le daim"
-      C: "Le renne"
-      D: "Le cerf élaphe"
-    correctAnswer: D
-    difficulty: EXPERT
+      C: "Le cerf élaphe"
+      D: "Le renne"
+    correctAnswer: C
     translations:
       en:
-        text: "What animal is this?"
+        text: "What is this animal?"
         answers:
           A: "The roe deer"
           B: "The fallow deer"
-          C: "The reindeer"
-          D: "The red deer"
+          C: "The red deer"
+          D: "The reindeer"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Pod_Monodon_monoceros.jpg
     answers:
@@ -1511,7 +1511,6 @@ questions:
       C: "Le béluga"
       D: "Le narval"
     correctAnswer: D
-    difficulty: HARD
     translations:
       en:
         text: "Which animal do we see?"
@@ -1520,183 +1519,184 @@ questions:
           B: "The orca"
           C: "The beluga"
           D: "The narwhal"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Trochilidae_-_Barrancabermeja,_Santander,_Colombia_-_13_Jul_2025_-_Diferoch.jpg
     answers:
-      A: "Le moineau"
-      B: "Le colibri"
+      A: "Le colibri"
+      B: "Le moineau"
       C: "L'hirondelle"
       D: "Le martin-pêcheur"
-    correctAnswer: B
-    difficulty: MEDIUM
+    correctAnswer: A
     translations:
       en:
         text: "What is this animal called?"
         answers:
-          A: "The sparrow"
-          B: "The hummingbird"
+          A: "The hummingbird"
+          B: "The sparrow"
           C: "The swallow"
           D: "The kingfisher"
+    difficulty: EXPERT
   - text: "Quel est cet animal ?"
     imageUrl: wikipedia/nature/Humpback_Whale_Breaching_in_Hervey_Bay,_Alaska.jpg
     answers:
       A: "La baleine bleue"
-      B: "La baleine à bosse"
-      C: "L'orque"
+      B: "L'orque"
+      C: "La baleine à bosse"
       D: "Le cachalot"
-    correctAnswer: B
-    difficulty: EXPERT
+    correctAnswer: C
     translations:
       en:
         text: "What is this animal?"
         answers:
           A: "The blue whale"
-          B: "The humpback whale"
-          C: "The orca"
+          B: "The orca"
+          C: "The humpback whale"
           D: "The sperm whale"
+    difficulty: EXPERT
   - text: "Quel animal voit-on ?"
     imageUrl: wikipedia/nature/Masai_ostrich_(Struthio_camelus_massaicus)_female_Serengeti.jpg
     answers:
-      A: "Le casoar"
-      B: "L'autruche"
+      A: "L'autruche"
+      B: "Le casoar"
       C: "Le nandou"
       D: "L'émeu"
-    correctAnswer: B
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "Which animal do we see?"
         answers:
-          A: "The cassowary"
-          B: "The ostrich"
+          A: "The ostrich"
+          B: "The cassowary"
           C: "The rhea"
           D: "The emu"
+    difficulty: EXPERT
   - text: "Comment s'appelle cet animal ?"
     imageUrl: wikipedia/nature/Mandrillus_sphinx(Mandrill)_side.jpg
     answers:
       A: "Le babouin"
-      B: "Le gorille"
-      C: "Le mandrill"
+      B: "Le mandrill"
+      C: "Le gorille"
       D: "Le macaque"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
         text: "What is this animal called?"
         answers:
           A: "The baboon"
-          B: "The gorilla"
-          C: "The mandrill"
+          B: "The mandrill"
+          C: "The gorilla"
           D: "The macaque"
-  - text: "Quel est le plus grand mammifère vivant sur Terre ?"
+    difficulty: EXPERT
+  - text: "Combien de pattes possède un scorpion ?"
     answers:
-      A: "La baleine bleue"
-      B: "L'éléphant d'Afrique"
-      C: "Le cachalot"
-      D: "La girafe"
+      A: "Six"
+      B: "Douze"
+      C: "Dix"
+      D: "Huit"
+    correctAnswer: D
+    translations:
+      en:
+        text: "How many legs does a scorpion have?"
+        answers:
+          A: "Six"
+          B: "Twelve"
+          C: "Ten"
+          D: "Eight"
+    difficulty: EXPERT
+  - text: "Quel animal possède le plus grand nombre de chromosomes parmi les suivants ?"
+    answers:
+      A: "L'homme"
+      B: "Le chien"
+      C: "Le rat"
+      D: "Le cheval"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which animal has the largest number of chromosomes among the following?"
+        answers:
+          A: "Humans"
+          B: "The dog"
+          C: "The rat"
+          D: "The horse"
+    difficulty: EXPERT
+  - text: "Quel oiseau est capable de voler en marche arrière ?"
+    answers:
+      A: "Le colibri"
+      B: "Le martinet"
+      C: "L'hirondelle"
+      D: "Le faucon crécerelle"
     correctAnswer: A
     translations:
       en:
-        text: "What is the largest mammal living on Earth?"
+        text: "Which bird is capable of flying backwards?"
         answers:
-          A: "The blue whale"
-          B: "The African elephant"
-          C: "The sperm whale"
-          D: "The giraffe"
-    difficulty: EASY
-  - text: "Quel oiseau est le seul capable de voler en arrière ?"
-    answers:
-      A: "Le martinet noir"
-      B: "Le colibri"
-      C: "L'hirondelle rustique"
-      D: "Le faucon crécerelle"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which bird is the only one capable of flying backwards?"
-        answers:
-          A: "The common swift"
-          B: "The hummingbird"
-          C: "The barn swallow"
-          D: "The common kestrel"
-    difficulty: MEDIUM
-  - text: "Combien de pattes possède un insecte ?"
-    answers:
-      A: "Quatre"
-      B: "Huit"
-      C: "Six"
-      D: "Dix"
-    correctAnswer: C
-    translations:
-      en:
-        text: "How many legs does an insect have?"
-        answers:
-          A: "Four"
-          B: "Eight"
-          C: "Six"
-          D: "Ten"
-    difficulty: MEDIUM
-  - text: "Quel est le plus grand lézard vivant ?"
-    answers:
-      A: "L'iguane vert"
-      B: "Le varan du Nil"
-      C: "Le gecko géant"
-      D: "Le dragon de Komodo"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the largest living lizard?"
-        answers:
-          A: "The green iguana"
-          B: "The Nile monitor"
-          C: "The giant gecko"
-          D: "The Komodo dragon"
-    difficulty: HARD
-  - text: "Quel oiseau est l'animal le plus rapide du monde en piqué ?"
-    answers:
-      A: "Le martinet noir"
-      B: "Le faucon pèlerin"
-      C: "L'aigle royal"
-      D: "Le gerfaut"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which bird is the fastest animal in the world in a dive?"
-        answers:
-          A: "The common swift"
-          B: "The peregrine falcon"
-          C: "The golden eagle"
-          D: "The gyrfalcon"
-    difficulty: HARD
-  - text: "Quel mammifère a la plus longue durée de gestation ?"
-    answers:
-      A: "La baleine bleue"
-      B: "La girafe"
-      C: "L'éléphant d'Afrique"
-      D: "L'hippopotame"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which mammal has the longest gestation period?"
-        answers:
-          A: "The blue whale"
-          B: "The giraffe"
-          C: "The African elephant"
-          D: "The hippopotamus"
+          A: "The hummingbird"
+          B: "The swift"
+          C: "The swallow"
+          D: "The kestrel"
     difficulty: EXPERT
-  - text: "Que signifie le nom scientifique du cobra royal, Ophiophagus ?"
+  - text: "Quel est le plus grand poisson osseux du monde ?"
     answers:
-      A: "Mangeur d'oiseaux"
-      B: "Roi de la forêt"
-      C: "Serpent géant"
-      D: "Mangeur de serpents"
+      A: "Le requin-baleine"
+      B: "L'esturgeon beluga"
+      C: "Le mérou géant"
+      D: "Le poisson-lune"
     correctAnswer: D
     translations:
       en:
-        text: "What does the scientific name of the king cobra, Ophiophagus, mean?"
+        text: "What is the largest bony fish in the world?"
         answers:
-          A: "Bird eater"
-          B: "King of the forest"
-          C: "Giant serpent"
-          D: "Snake eater"
+          A: "The whale shark"
+          B: "The beluga sturgeon"
+          C: "The giant grouper"
+          D: "The ocean sunfish"
+    difficulty: EXPERT
+  - text: "Chez quelle espèce de manchot le mâle couve-t-il l'œuf sur ses pieds pendant l'hiver antarctique ?"
+    answers:
+      A: "Le manchot empereur"
+      B: "Le manchot royal"
+      C: "Le manchot Adélie"
+      D: "Le manchot papou"
+    correctAnswer: A
+    translations:
+      en:
+        text: "In which penguin species does the male incubate the egg on its feet during the Antarctic winter?"
+        answers:
+          A: "The emperor penguin"
+          B: "The king penguin"
+          C: "The Adélie penguin"
+          D: "The gentoo penguin"
+    difficulty: EXPERT
+  - text: "Quel est le seul serpent venimeux d'Europe capable de cracher son venin ?"
+    answers:
+      A: "La vipère péliade"
+      B: "La vipère aspic"
+      C: "La vipère du Gabon"
+      D: "Le cobra cracheur"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the only venomous snake in Europe capable of spitting its venom?"
+        answers:
+          A: "The common European adder"
+          B: "The asp viper"
+          C: "The Gaboon viper"
+          D: "The spitting cobra"
+    difficulty: EXPERT
+  - text: "Combien d'espèces de girafes sont actuellement reconnues par la taxonomie traditionnelle ?"
+    answers:
+      A: "Une seule"
+      B: "Deux"
+      C: "Trois"
+      D: "Quatre"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many giraffe species are currently recognized by traditional taxonomy?"
+        answers:
+          A: "Only one"
+          B: "Two"
+          C: "Three"
+          D: "Four"
     difficulty: EXPERT

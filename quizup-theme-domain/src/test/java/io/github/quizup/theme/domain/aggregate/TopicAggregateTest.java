@@ -194,12 +194,12 @@ class TopicAggregateTest {
 
     private TopicCommand.CreateTopicCommand createCommand(String name, String description) {
         return new TopicCommand.CreateTopicCommand(
-                TOPIC_ID, Map.of(Language.FR, name), description, TopicCategory.MOVIES, null, null, null, OWNER);
+                TOPIC_ID, Map.of(Language.FR, name), description, TopicCategory.MOVIES, null, null, null, null, OWNER);
     }
 
     private TopicEvent.TopicCreatedEvent createdTopic() {
         return new TopicEvent.TopicCreatedEvent(
                 TOPIC_ID, Map.of(Language.FR, "Cinéma"), "Tout le cinéma", TopicCategory.MOVIES,
-                null, null, null, OWNER, NOW);
+                null, null, null, null, OWNER, NOW);
     }
 }

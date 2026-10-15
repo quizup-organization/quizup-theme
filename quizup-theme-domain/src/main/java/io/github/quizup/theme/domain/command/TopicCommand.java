@@ -21,7 +21,20 @@ public interface TopicCommand {
             String emoji,
             String color,
             String imageUrl,
+            /** Titres personnalisés par grade et par langue (optionnels). */
+            Map<Language, Map<String, String>> titles,
             String creatorId
+    ) implements TopicCommand {
+    }
+
+    /**
+     * Mise à jour des titres personnalisés (propriétaire du thème uniquement) : une carte de
+     * libellés par grade et par langue, ou {@code null} pour revenir au repli client.
+     */
+    record UpdateTopicTitlesCommand(
+            @TargetAggregateIdentifier String topicId,
+            String requestedBy,
+            Map<Language, Map<String, String>> titles
     ) implements TopicCommand {
     }
 

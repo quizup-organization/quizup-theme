@@ -28,6 +28,8 @@ public record Topic(
         String color,
         String imageUrl,
         String bannerUrl,
+        /** Titres personnalisés par grade et par langue (ex. « Historien confirmé »), ou `null`. */
+        Map<Language, Map<String, String>> titles,
         Instant createdAt,
         Instant updatedAt
 ) {

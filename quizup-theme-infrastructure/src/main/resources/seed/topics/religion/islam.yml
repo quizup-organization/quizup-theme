@@ -7,171 +7,171 @@ topic:
   category: RELIGION
   imageUrl: wikipedia/religion/Kaaba,_Makkah3.jpg
 questions:
-  - text: "Combien de piliers compte l'islam ?"
+  - text: "Quelle est la première mosquée construite par le Prophète Muhammad à Médine ?"
+    answers:
+      A: "Mosquée du Prophète"
+      B: "Mosquée de Quba"
+      C: "Mosquée Al-Aqsa"
+      D: "Mosquée de La Mecque"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the first mosque built by the Prophet Muhammad in Medina?"
+        answers:
+          A: "Prophet's Mosque"
+          B: "Quba Mosque"
+          C: "Al-Aqsa Mosque"
+          D: "Mecca Mosque"
+    difficulty: MEDIUM
+  - text: "Quel calife a fait construire le Dôme du Rocher à Jérusalem ?"
+    answers:
+      A: "Al-Walid Ier"
+      B: "Abd al-Malik"
+      C: "Haroun al-Rachid"
+      D: "Umar ibn al-Khattab"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which caliph built the Dome of the Rock in Jerusalem?"
+        answers:
+          A: "Al-Walid I"
+          B: "Abd al-Malik"
+          C: "Harun al-Rashid"
+          D: "Umar ibn al-Khattab"
+    difficulty: HARD
+  - text: "Quel est le nom de la grotte où le Prophète Muhammad a reçu les premières révélations ?"
+    answers:
+      A: "Grotte de Thawr"
+      B: "Grotte de Hira"
+      C: "Grotte de Safa"
+      D: "Grotte de Uhud"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the cave where the Prophet Muhammad received the first revelations?"
+        answers:
+          A: "Cave of Thawr"
+          B: "Cave of Hira"
+          C: "Cave of Safa"
+          D: "Cave of Uhud"
+    difficulty: EASY
+  - text: "Quel est le nombre exact de piliers de la foi (iman) en islam ?"
     answers:
       A: "5"
-      B: "3"
-      C: "7"
-      D: "10"
-    correctAnswer: A
-    difficulty: EASY
-    translations:
-      en:
-        text: "How many pillars does Islam have?"
-        answers:
-          A: "5"
-          B: "3"
-          C: "7"
-          D: "10"
-  - text: "Quelle est la profession de foi de l'islam ?"
-    answers:
-      A: "Le hajj"
-      B: "La zakât"
-      C: "La chahada"
-      D: "L'adhan"
-    correctAnswer: C
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "What is the profession of faith in Islam?"
-        answers:
-          A: "The hajj"
-          B: "The zakat"
-          C: "The shahada"
-          D: "The adhan"
-  - text: "Combien de prières quotidiennes un musulman doit-il accomplir ?"
-    answers:
-      A: "3"
       B: "4"
-      C: "5"
+      C: "6"
       D: "7"
     correctAnswer: C
-    difficulty: EASY
     translations:
       en:
-        text: "How many daily prayers must a Muslim perform?"
+        text: "What is the exact number of pillars of faith (iman) in Islam?"
         answers:
-          A: "3"
+          A: "5"
           B: "4"
-          C: "5"
+          C: "6"
           D: "7"
-  - text: "Comment appelle-t-on l'aumône obligatoire ?"
-    answers:
-      A: "La sadâqa"
-      B: "La zakât"
-      C: "L'iftar"
-      D: "Le waqf"
-    correctAnswer: B
     difficulty: MEDIUM
+  - text: "Quel est le nom du voyage nocturne du Prophète Muhammad de La Mecque à Jérusalem ?"
+    answers:
+      A: "Hijra"
+      B: "Mi'raj"
+      C: "Isra"
+      D: "Fath"
+    correctAnswer: C
     translations:
       en:
-        text: "What is obligatory almsgiving called?"
+        text: "What is the name of the Prophet Muhammad's night journey from Mecca to Jerusalem?"
         answers:
-          A: "The sadaqa"
-          B: "The zakat"
-          C: "The iftar"
-          D: "The waqf"
-  - text: "Quel est le mois de jeûne dans le calendrier musulman ?"
-    answers:
-      A: "Rajab"
-      B: "Ramadan"
-      C: "Chaabane"
-      D: "Mouharram"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which month is the fasting month in the Muslim calendar?"
-        answers:
-          A: "Rajab"
-          B: "Ramadan"
-          C: "Sha'ban"
-          D: "Muharram"
-  - text: "Quel pèlerinage constitue le cinquième pilier de l'islam ?"
-    answers:
-      A: "La omra à Médine"
-      B: "Le hajj à La Mecque"
-      C: "Le pèlerinage à Al-Aqsa"
-      D: "Le pèlerinage à Kairouan"
-    correctAnswer: B
+          A: "Hijra"
+          B: "Mi'raj"
+          C: "Isra"
+          D: "Fath"
     difficulty: MEDIUM
+  - text: "Quelle est la seule sourate du Coran qui ne commence pas par la Basmala ?"
+    answers:
+      A: "At-Tawba"
+      B: "Al-Baqara"
+      C: "Al-Fatiha"
+      D: "Al-Ikhlas"
+    correctAnswer: A
     translations:
       en:
-        text: "Which pilgrimage is the fifth pillar of Islam?"
+        text: "Which is the only surah of the Quran that does not begin with the Basmala?"
         answers:
-          A: "The umrah to Medina"
-          B: "The hajj to Mecca"
-          C: "The pilgrimage to Al-Aqsa"
-          D: "The pilgrimage to Kairouan"
+          A: "At-Tawba"
+          B: "Al-Baqara"
+          C: "Al-Fatiha"
+          D: "Al-Ikhlas"
+    difficulty: HARD
   - text: "Dans quelle ville se trouve ce monument cubique ?"
     imageUrl: wikipedia/religion/Kaaba,_Makkah3.jpg
     answers:
       A: "Médine"
       B: "Damas"
-      C: "Jérusalem"
-      D: "La Mecque"
-    correctAnswer: D
-    difficulty: EASY
+      C: "La Mecque"
+      D: "Jérusalem"
+    correctAnswer: C
     translations:
       en:
-        text: "In which city is this cube-shaped monument located?"
+        text: "In which city is this cubic monument located?"
         answers:
           A: "Medina"
           B: "Damascus"
-          C: "Jerusalem"
-          D: "Mecca"
+          C: "Mecca"
+          D: "Jerusalem"
+    difficulty: EASY
   - text: "Quel grand sanctuaire entoure la Kaaba ?"
     imageUrl: wikipedia/religion/Supplicating_Pilgrim_at_Masjid_Al_Haram._Mecca,_Saudi_Arabia.jpg
     answers:
       A: "La mosquée du Prophète"
-      B: "La mosquée Al-Aqsa"
-      C: "La Grande Mosquée de La Mecque"
+      B: "La Grande Mosquée de La Mecque"
+      C: "La mosquée Al-Aqsa"
       D: "La mosquée des Omeyyades"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
-        text: "Which great sanctuary surrounds the Kaaba?"
+        text: "Which grand sanctuary surrounds the Kaaba?"
         answers:
           A: "The Prophet's Mosque"
-          B: "The Al-Aqsa Mosque"
-          C: "The Great Mosque of Mecca"
+          B: "The Great Mosque of Mecca"
+          C: "Al-Aqsa Mosque"
           D: "The Umayyad Mosque"
-  - text: "Dans quelle ville se trouve cette mosquée, deuxième lieu saint de l'islam ?"
+    difficulty: EASY
+  - text: "Dans quelle ville se trouve ce lieu saint de l'islam ?"
     imageUrl: wikipedia/religion/Al_Masjid_an_Nabawi_3.jpg
     answers:
-      A: "La Mecque"
+      A: "Médine"
       B: "Fès"
       C: "Kairouan"
-      D: "Médine"
-    correctAnswer: D
-    difficulty: MEDIUM
+      D: "La Mecque"
+    correctAnswer: A
     translations:
       en:
-        text: "In which city is this mosque, the second holiest site in Islam?"
+        text: "In which city is this holy site of Islam located?"
         answers:
-          A: "Mecca"
+          A: "Medina"
           B: "Fez"
           C: "Kairouan"
-          D: "Medina"
+          D: "Mecca"
+    difficulty: EASY
   - text: "Dans quelle ville se trouve la mosquée Al-Aqsa ?"
     imageUrl: wikipedia/religion/Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_01.jpg
     answers:
-      A: "Jérusalem"
+      A: "Beyrouth"
       B: "Bethléem"
       C: "Amman"
-      D: "Beyrouth"
-    correctAnswer: A
-    difficulty: MEDIUM
+      D: "Jérusalem"
+    correctAnswer: D
     translations:
       en:
         text: "In which city is the Al-Aqsa Mosque located?"
         answers:
-          A: "Jerusalem"
+          A: "Beirut"
           B: "Bethlehem"
           C: "Amman"
-          D: "Beirut"
-  - text: "Quel monument de Jérusalem est reconnaissable à son dôme doré ?"
+          D: "Jerusalem"
+    difficulty: EASY
+  - text: "Quel monument a un dôme doré à Jérusalem ?"
     imageUrl: wikipedia/religion/Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg
     answers:
       A: "Le Dôme du Rocher"
@@ -179,15 +179,15 @@ questions:
       C: "La tour de David"
       D: "Le Saint-Sépulcre"
     correctAnswer: A
-    difficulty: HARD
     translations:
       en:
-        text: "Which Jerusalem monument is recognizable by its golden dome?"
+        text: "Which monument has a golden dome in Jerusalem?"
         answers:
           A: "The Dome of the Rock"
-          B: "The Al-Aqsa Mosque"
-          C: "The Tower of David"
+          B: "Al-Aqsa Mosque"
+          C: "Tower of David"
           D: "The Holy Sepulchre"
+    difficulty: MEDIUM
   - text: "Dans quelle ville se trouve la mosquée Bleue ?"
     imageUrl: wikipedia/religion/Blue_Mosque_(Istanbul).jpg
     answers:
@@ -196,7 +196,6 @@ questions:
       C: "Izmir"
       D: "Bursa"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
         text: "In which city is the Blue Mosque located?"
@@ -205,122 +204,123 @@ questions:
           B: "Ankara"
           C: "Izmir"
           D: "Bursa"
+    difficulty: MEDIUM
   - text: "Dans quel pays se trouve la mosquée-cathédrale de Cordoue ?"
     imageUrl: wikipedia/religion/Mosque_of_Cordoba_Spain.jpg
     answers:
-      A: "L'Espagne"
+      A: "Le Portugal"
       B: "Le Maroc"
-      C: "Le Portugal"
+      C: "L'Espagne"
       D: "L'Italie"
-    correctAnswer: A
-    difficulty: MEDIUM
+    correctAnswer: C
     translations:
       en:
-        text: "In which country is the Mosque-Cathedral of Córdoba?"
+        text: "In which country is the Mosque-Cathedral of Cordoba located?"
         answers:
-          A: "Spain"
+          A: "Portugal"
           B: "Morocco"
-          C: "Portugal"
+          C: "Spain"
           D: "Italy"
+    difficulty: MEDIUM
   - text: "Dans quelle ville andalouse se trouve l'Alhambra ?"
     imageUrl: wikipedia/religion/Alhambra_in_the_evening.jpg
     answers:
-      A: "Séville"
+      A: "Grenade"
       B: "Cordoue"
-      C: "Grenade"
+      C: "Séville"
       D: "Tolède"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
         text: "In which Andalusian city is the Alhambra located?"
         answers:
-          A: "Seville"
-          B: "Córdoba"
-          C: "Granada"
+          A: "Granada"
+          B: "Cordoba"
+          C: "Seville"
           D: "Toledo"
-  - text: "Dans quelle langue le Coran a-t-il été révélé ?"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier calife de l'islam après la mort du Prophète ?"
     answers:
-      A: "L'hébreu"
-      B: "Le turc"
-      C: "Le persan"
-      D: "L'arabe"
+      A: "Othman ibn Affan"
+      B: "Omar ibn al-Khattab"
+      C: "Abou Bakr"
+      D: "Ali ibn Abi Talib"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first caliph of Islam after the death of the Prophet?"
+        answers:
+          A: "Uthman ibn Affan"
+          B: "Umar ibn al-Khattab"
+          C: "Abu Bakr"
+          D: "Ali ibn Abi Talib"
+    difficulty: MEDIUM
+  - text: "Quelle dynastie a construit la Grande Mosquée de Kairouan ?"
+    answers:
+      A: "Omeyyades"
+      B: "Abbassides"
+      C: "Fatimides"
+      D: "Aghlabides"
     correctAnswer: D
-    difficulty: EASY
     translations:
       en:
-        text: "In which language was the Quran revealed?"
+        text: "Which dynasty built the Great Mosque of Kairouan?"
         answers:
-          A: "Hebrew"
-          B: "Turkish"
-          C: "Persian"
-          D: "Arabic"
-  - text: "Combien de sourates compte le Coran ?"
-    answers:
-      A: "114"
-      B: "104"
-      C: "99"
-      D: "120"
-    correctAnswer: A
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "How many surahs does the Quran contain?"
-        answers:
-          A: "114"
-          B: "104"
-          C: "99"
-          D: "120"
-  - text: "Quelle est la première sourate du Coran ?"
-    answers:
-      A: "Al-Baqara"
-      B: "Al-Fâtiha"
-      C: "Al-Ikhlâs"
-      D: "Yâ-Sîn"
-    correctAnswer: B
+          A: "Umayyads"
+          B: "Abbasids"
+          C: "Fatimids"
+          D: "Aghlabids"
     difficulty: HARD
-    translations:
-      en:
-        text: "What is the first surah of the Quran?"
-        answers:
-          A: "Al-Baqara"
-          B: "Al-Fatiha"
-          C: "Al-Ikhlas"
-          D: "Ya-Sin"
-  - text: "Quelle est la plus longue sourate du Coran ?"
+  - text: "Quel est le nom de la bataille où le Prophète Muhammad a vaincu les Quraychites en 624 ?"
     answers:
-      A: "Al-Baqara"
-      B: "Al-Fâtiha"
-      C: "An-Nisâ"
-      D: "Al-Kahf"
-    correctAnswer: A
-    difficulty: EXPERT
+      A: "Bataille de Uhud"
+      B: "Bataille de Badr"
+      C: "Bataille de Khandaq"
+      D: "Bataille de Khaybar"
+    correctAnswer: B
     translations:
       en:
-        text: "What is the longest surah of the Quran?"
+        text: "What is the name of the battle where the Prophet Muhammad defeated the Quraysh in 624?"
         answers:
-          A: "Al-Baqara"
-          B: "Al-Fatiha"
-          C: "An-Nisa"
-          D: "Al-Kahf"
-  - text: "Que contient le célèbre manuscrit du Coran conservé à Birmingham ?"
+          A: "Battle of Uhud"
+          B: "Battle of Badr"
+          C: "Battle of Khandaq"
+          D: "Battle of Khaybar"
+    difficulty: MEDIUM
+  - text: "Quel est le titre donné au chef spirituel dans le chiisme duodécimain ?"
+    answers:
+      A: "Calife"
+      B: "Imam"
+      C: "Sultan"
+      D: "Émir"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the title given to the spiritual leader in Twelver Shiism?"
+        answers:
+          A: "Caliph"
+          B: "Imam"
+          C: "Sultan"
+          D: "Emir"
+    difficulty: HARD
+  - text: "Que contient le manuscrit de Birmingham ?"
     imageUrl: wikipedia/religion/Birmingham_Quran_manuscript.jpg
     answers:
-      A: "Des versets du Coran"
+      A: "Les Hadiths"
       B: "La Torah"
       C: "Les Évangiles"
-      D: "Les Hadiths"
-    correctAnswer: A
-    difficulty: EXPERT
+      D: "Des versets du Coran"
+    correctAnswer: D
     translations:
       en:
-        text: "What does the famous Quran manuscript kept in Birmingham contain?"
+        text: "What does the Birmingham manuscript contain?"
         answers:
-          A: "Verses of the Quran"
+          A: "The Hadiths"
           B: "The Torah"
           C: "The Gospels"
-          D: "The Hadiths"
-  - text: "Comment appelle-t-on l'art de la belle écriture dans la culture islamique ?"
+          D: "Verses from the Quran"
+    difficulty: EXPERT
+  - text: "Quel art désigne la belle écriture islamique ?"
     imageUrl: wikipedia/religion/Sulaiman_in_Islamic_calligraphy_(2).png
     answers:
       A: "La mosaïque"
@@ -328,117 +328,117 @@ questions:
       C: "La fresque"
       D: "La gravure"
     correctAnswer: B
-    difficulty: EASY
     translations:
       en:
-        text: "What is the art of beautiful writing called in Islamic culture?"
+        text: "Which art refers to beautiful Islamic writing?"
         answers:
           A: "Mosaic"
           B: "Calligraphy"
           C: "Fresco"
           D: "Engraving"
-  - text: "Quel type de décor orne fréquemment les mosquées et les palais ?"
+    difficulty: EASY
+  - text: "Quel décor orne souvent mosquées et palais ?"
     imageUrl: wikipedia/religion/Islamic_geometric_patterns_(Aydar_kadi_mosque,_Bitola,_Macedonia).jpg
     answers:
       A: "Des scènes de chasse"
-      B: "Des portraits"
-      C: "Des motifs géométriques"
+      B: "Des motifs géométriques"
+      C: "Des portraits"
       D: "Des paysages"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: B
     translations:
       en:
-        text: "What type of decoration frequently adorns mosques and palaces?"
+        text: "Which decoration often adorns mosques and palaces?"
         answers:
           A: "Hunting scenes"
-          B: "Portraits"
-          C: "Geometric patterns"
+          B: "Geometric patterns"
+          C: "Portraits"
           D: "Landscapes"
-  - text: "Quel matériau décoratif recouvre ces murs de la mosquée Wazir Khan ?"
+    difficulty: MEDIUM
+  - text: "Quel matériau décore ces murs ?"
     imageUrl: wikipedia/religion/Wazir_khan_mosque,_tile_art1.jpg
     answers:
-      A: "Des tapisseries"
+      A: "Des carreaux de céramique"
       B: "Des vitraux"
       C: "Du marbre gravé"
-      D: "Des carreaux de céramique"
-    correctAnswer: D
-    difficulty: EXPERT
+      D: "Des tapisseries"
+    correctAnswer: A
     translations:
       en:
-        text: "What decorative material covers these walls of the Wazir Khan Mosque?"
+        text: "Which material decorates these walls?"
         answers:
-          A: "Tapestries"
+          A: "Ceramic tiles"
           B: "Stained glass"
-          C: "Carved marble"
-          D: "Ceramic tiles"
-  - text: "Quel objet illumine les rues et les maisons pendant le Ramadan ?"
+          C: "Engraved marble"
+          D: "Tapestries"
+    difficulty: MEDIUM
+  - text: "Quel objet illumine les rues pendant le Ramadan ?"
     imageUrl: wikipedia/religion/Ramadan_lantern.jpg
     answers:
       A: "La torche"
       B: "Le chandelier"
-      C: "Le brasero"
-      D: "Le fanoûs (lanterne)"
-    correctAnswer: D
-    difficulty: EASY
+      C: "Le fanoûs (lanterne)"
+      D: "Le brasero"
+    correctAnswer: C
     translations:
       en:
-        text: "Which object lights up streets and homes during Ramadan?"
+        text: "Which object lights up the streets during Ramadan?"
         answers:
-          A: "The torch"
-          B: "The candelabra"
-          C: "The brazier"
-          D: "The fanous (lantern)"
+          A: "Torch"
+          B: "Candlestick"
+          C: "Fanoos (lantern)"
+          D: "Brazier"
+    difficulty: MEDIUM
   - text: "Quelle fête marque la fin du mois de Ramadan ?"
     imageUrl: wikipedia/religion/Eid_al-Fitr_prayer_at_the_Al-Hikmah_Kebonsari_Mosque.jpg
     answers:
-      A: "L'Aïd el-Adha"
-      B: "L'Aïd el-Fitr"
+      A: "L'Aïd el-Fitr"
+      B: "L'Aïd el-Adha"
       C: "Le Mawlid"
       D: "Achoura"
-    correctAnswer: B
-    difficulty: EASY
+    correctAnswer: A
     translations:
       en:
         text: "Which holiday marks the end of the month of Ramadan?"
         answers:
-          A: "Eid al-Adha"
-          B: "Eid al-Fitr"
+          A: "Eid al-Fitr"
+          B: "Eid al-Adha"
           C: "Mawlid"
           D: "Ashura"
-  - text: "Quelle fête commémore le sacrifice d'Abraham ?"
+    difficulty: EASY
+  - text: "Quel est le nom de la migration du Prophète Muhammad de La Mecque à Médine ?"
     answers:
-      A: "L'Aïd el-Adha"
-      B: "L'Aïd el-Fitr"
-      C: "Le Mawlid"
-      D: "L'Isrâ"
-    correctAnswer: A
-    difficulty: MEDIUM
+      A: "Fath"
+      B: "Isra"
+      C: "Mi'raj"
+      D: "Hijra"
+    correctAnswer: D
     translations:
       en:
-        text: "Which holiday commemorates Abraham's sacrifice?"
+        text: "What is the name of the Prophet Muhammad's migration from Mecca to Medina?"
         answers:
-          A: "Eid al-Adha"
-          B: "Eid al-Fitr"
-          C: "Mawlid"
-          D: "Isra"
+          A: "Fath"
+          B: "Isra"
+          C: "Mi'raj"
+          D: "Hijra"
+    difficulty: MEDIUM
   - text: "Quel événement rassemble ces pèlerins autour de la Kaaba ?"
     imageUrl: wikipedia/religion/Hajj_pilgrims_-_Flickr_-_Al_Jazeera_English.jpg
     answers:
       A: "La omra"
-      B: "Le hajj"
-      C: "L'Aïd"
+      B: "L'Aïd"
+      C: "Le hajj"
       D: "Le Mawlid"
-    correctAnswer: B
-    difficulty: EASY
+    correctAnswer: C
     translations:
       en:
         text: "Which event gathers these pilgrims around the Kaaba?"
         answers:
-          A: "The umrah"
-          B: "The hajj"
-          C: "Eid"
+          A: "Umrah"
+          B: "Eid"
+          C: "Hajj"
           D: "Mawlid"
-  - text: "Sur quelle montagne les pèlerins se rassemblent-ils pendant le hajj ?"
+    difficulty: MEDIUM
+  - text: "Quelle montagne au hajj ?"
     imageUrl: wikipedia/religion/Jabal-e-Rehmat_Mount_of_Mercy_Mount_Arafat.jpg
     answers:
       A: "Le mont Sinaï"
@@ -446,15 +446,15 @@ questions:
       C: "Le mont des Oliviers"
       D: "Le mont Arafat"
     correctAnswer: D
-    difficulty: EXPERT
     translations:
       en:
-        text: "On which mountain do pilgrims gather during the hajj?"
+        text: "Which mountain at the hajj?"
         answers:
           A: "Mount Sinai"
           B: "Mount Nebo"
-          C: "The Mount of Olives"
+          C: "Mount of Olives"
           D: "Mount Arafat"
+    difficulty: HARD
   - text: "Comment appelle-t-on ce tapis utilisé pour la prière ?"
     imageUrl: wikipedia/religion/Prayer_rug,_moia.jpg
     answers:
@@ -463,32 +463,32 @@ questions:
       C: "Un tapis de prière (sajjâda)"
       D: "Une natte de paille"
     correctAnswer: C
-    difficulty: HARD
     translations:
       en:
         text: "What is this rug used for prayer called?"
         answers:
-          A: "A Persian carpet"
+          A: "A Persian rug"
           B: "A kilim"
-          C: "A prayer rug (sajjadah)"
+          C: "A prayer rug (sajjada)"
           D: "A straw mat"
+    difficulty: EASY
   - text: "Comment appelle-t-on ce chapelet de prière ?"
     imageUrl: wikipedia/religion/Muslim_Prayer_Beads.jpg
     answers:
-      A: "Le scapulaire"
+      A: "Le misbaha"
       B: "Le rosaire"
-      C: "Le misbaha"
+      C: "Le scapulaire"
       D: "Le pendentif"
-    correctAnswer: C
-    difficulty: HARD
+    correctAnswer: A
     translations:
       en:
-        text: "What are these prayer beads called?"
+        text: "What is this prayer bead string called?"
         answers:
-          A: "Scapular"
-          B: "Rosary"
-          C: "Misbaha"
-          D: "Pendant"
+          A: "The misbaha"
+          B: "The rosary"
+          C: "The scapular"
+          D: "The pendant"
+    difficulty: EASY
   - text: "À quel ordre soufi appartiennent les derviches tourneurs ?"
     imageUrl: wikipedia/religion/Whirling_dervish_whirling.jpg
     answers:
@@ -497,16 +497,16 @@ questions:
       C: "Les mevlevis"
       D: "Les mutazilites"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
         text: "To which Sufi order do the whirling dervishes belong?"
         answers:
-          A: "The Salafists"
-          B: "The Shafi'is"
-          C: "The Mevlevis"
-          D: "The Mu'tazilites"
-  - text: "Dans quelle ville se trouve la grande mosquée des Omeyyades ?"
+          A: "Salafists"
+          B: "Shafi'ites"
+          C: "Mevlevis"
+          D: "Mutazilites"
+    difficulty: HARD
+  - text: "Où se trouve la mosquée des Omeyyades ?"
     imageUrl: wikipedia/religion/Umayyad_Mosque,_Damascus.jpg
     answers:
       A: "Bagdad"
@@ -514,1117 +514,1117 @@ questions:
       C: "Le Caire"
       D: "Tunis"
     correctAnswer: B
-    difficulty: EXPERT
     translations:
       en:
-        text: "In which city is the Great Umayyad Mosque located?"
+        text: "Where is the Umayyad Mosque located?"
         answers:
           A: "Baghdad"
           B: "Damascus"
           C: "Cairo"
           D: "Tunis"
-  - text: "Quelle forme caractéristique a le minaret de la grande mosquée de Samarra ?"
+    difficulty: MEDIUM
+  - text: "Quelle forme a le minaret de Samarra ?"
     imageUrl: wikipedia/religion/Great_Mosque_of_Samarra_-_Dec_27,_2017_10.jpg
     answers:
       A: "Un toit de bois"
-      B: "Un octogone"
+      B: "Une spirale"
       C: "Deux tours jumelles"
-      D: "Une spirale"
-    correctAnswer: D
-    difficulty: EXPERT
+      D: "Un octogone"
+    correctAnswer: B
     translations:
       en:
-        text: "What characteristic shape does the minaret of the Great Mosque of Samarra have?"
+        text: "What shape is the minaret of Samarra?"
         answers:
           A: "A wooden roof"
-          B: "An octagon"
-          C: "Twin towers"
-          D: "A spiral"
-  - text: "Qui fut le premier calife après la mort du Prophète ?"
+          B: "A spiral"
+          C: "Two twin towers"
+          D: "An octagon"
+    difficulty: HARD
+  - text: "Quel est le nom de l'ange qui a transmis la révélation au Prophète Muhammad ?"
     answers:
-      A: "Ali"
-      B: "Omar"
-      C: "Othman"
-      D: "Abou Bakr"
-    correctAnswer: D
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who was the first caliph after the Prophet's death?"
-        answers:
-          A: "Ali"
-          B: "Umar"
-          C: "Uthman"
-          D: "Abu Bakr"
-  - text: "Qui fut le quatrième calife, cousin et gendre du Prophète ?"
-    answers:
-      A: "Abou Bakr"
-      B: "Ali"
-      C: "Omar"
-      D: "Othman"
-    correctAnswer: B
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Who was the fourth caliph, the Prophet's cousin and son-in-law?"
-        answers:
-          A: "Abu Bakr"
-          B: "Ali"
-          C: "Umar"
-          D: "Uthman"
-  - text: "Quelle fut la première épouse du Prophète Muhammad ?"
-    answers:
-      A: "Aïcha"
-      B: "Hafsa"
-      C: "Fatima"
-      D: "Khadîja"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Who was the Prophet Muhammad's first wife?"
-        answers:
-          A: "Aisha"
-          B: "Hafsa"
-          C: "Fatima"
-          D: "Khadija"
-  - text: "En quelle année a eu lieu l'Hégire, le départ vers Médine ?"
-    answers:
-      A: "570"
-      B: "610"
-      C: "622"
-      D: "632"
+      A: "Israfil"
+      B: "Michel"
+      C: "Gabriel"
+      D: "Azraël"
     correctAnswer: C
-    difficulty: EXPERT
     translations:
       en:
-        text: "In which year did the Hijra, the departure to Medina, take place?"
+        text: "What is the name of the angel who transmitted the revelation to the Prophet Muhammad?"
         answers:
-          A: "570"
-          B: "610"
-          C: "622"
-          D: "632"
-  - text: "Vers quelle ville le Prophète a-t-il émigré lors de l'Hégire ?"
+          A: "Israfil"
+          B: "Michael"
+          C: "Gabriel"
+          D: "Azrael"
+    difficulty: EASY
+  - text: "Quel calife omeyyade a fait construire la Grande Mosquée de Damas ?"
+    answers:
+      A: "Al-Walid Ier"
+      B: "Yazid Ier"
+      C: "Abd al-Malik"
+      D: "Muawiya Ier"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Umayyad caliph built the Great Mosque of Damascus?"
+        answers:
+          A: "Al-Walid I"
+          B: "Yazid I"
+          C: "Abd al-Malik"
+          D: "Muawiya I"
+    difficulty: HARD
+  - text: "Quel est le nom de la ville sainte où se trouve le tombeau du Prophète Muhammad ?"
     answers:
       A: "Médine"
       B: "La Mecque"
-      C: "Taïf"
-      D: "Jérusalem"
+      C: "Jérusalem"
+      D: "Kairouan"
     correctAnswer: A
-    difficulty: MEDIUM
     translations:
       en:
-        text: "To which city did the Prophet migrate during the Hijra?"
+        text: "What is the name of the holy city where the tomb of the Prophet Muhammad is located?"
         answers:
           A: "Medina"
           B: "Mecca"
-          C: "Taif"
-          D: "Jerusalem"
-  - text: "Sur quel type de calendrier repose l'année musulmane ?"
-    answers:
-      A: "Solaire"
-      B: "Grégorien"
-      C: "Julien"
-      D: "Lunaire"
-    correctAnswer: D
-    difficulty: HARD
-    translations:
-      en:
-        text: "What type of calendar is the Muslim year based on?"
-        answers:
-          A: "Solar"
-          B: "Gregorian"
-          C: "Julian"
-          D: "Lunar"
-  - text: "Comment appelle-t-on la direction de la prière vers La Mecque ?"
-    answers:
-      A: "La sunna"
-      B: "La qibla"
-      C: "La fatwa"
-      D: "La fitna"
-    correctAnswer: B
-    difficulty: HARD
-    translations:
-      en:
-        text: "What is the direction of prayer toward Mecca called?"
-        answers:
-          A: "The sunna"
-          B: "The qibla"
-          C: "The fatwa"
-          D: "The fitna"
-  - text: "Comment nomme-t-on la personne qui appelle à la prière ?"
-    answers:
-      A: "L'imam"
-      B: "Le cheikh"
-      C: "Le mufti"
-      D: "Le muezzin"
-    correctAnswer: D
-    difficulty: EASY
-    translations:
-      en:
-        text: "What is the person who calls to prayer called?"
-        answers:
-          A: "The imam"
-          B: "The sheikh"
-          C: "The mufti"
-          D: "The muezzin"
-  - text: "Le jeûne quotidien du Ramadan s'étend…"
-    answers:
-      A: "Du lever au coucher du soleil"
-      B: "De midi à minuit"
-      C: "De l'aube au coucher du soleil"
-      D: "Du coucher au lever du soleil"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "The daily Ramadan fast lasts…"
-        answers:
-          A: "From sunrise to sunset"
-          B: "From noon to midnight"
-          C: "From dawn to sunset"
-          D: "From sunset to sunrise"
-  - text: "Quelle nuit du Ramadan est considérée comme la plus sacrée ?"
-    answers:
-      A: "La nuit d'Achoura"
-      B: "La nuit de l'Hégire"
-      C: "La nuit du Mi'raj"
-      D: "La nuit du Destin"
-    correctAnswer: D
-    difficulty: EXPERT
-    translations:
-      en:
-        text: "Which night of Ramadan is considered the holiest?"
-        answers:
-          A: "The Night of Ashura"
-          B: "The Night of the Hijra"
-          C: "The Night of Mi'raj"
-          D: "The Night of Destiny"
-  - text: "Quel ange, selon la tradition, a transmis la révélation à Muhammad ?"
-    answers:
-      A: "Mikâïl"
-      B: "Jibrîl"
-      C: "Isrâfîl"
-      D: "Azrâïl"
-    correctAnswer: B
+          C: "Jerusalem"
+          D: "Kairouan"
     difficulty: MEDIUM
+  - text: "Quel est le nombre de califes bien guidés (Rachidun) dans l'islam sunnite ?"
+    answers:
+      A: "6"
+      B: "5"
+      C: "3"
+      D: "4"
+    correctAnswer: D
     translations:
       en:
-        text: "Which angel, according to tradition, brought the revelation to Muhammad?"
+        text: "How many rightly guided caliphs (Rashidun) are there in Sunni Islam?"
+        answers:
+          A: "6"
+          B: "5"
+          C: "3"
+          D: "4"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la dynastie qui a fondé la ville de Bagdad en 762 ?"
+    answers:
+      A: "Omeyyades"
+      B: "Abbassides"
+      C: "Fatimides"
+      D: "Seldjoukides"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dynasty that founded the city of Baghdad in 762?"
+        answers:
+          A: "Umayyads"
+          B: "Abbasids"
+          C: "Fatimids"
+          D: "Seljuks"
+    difficulty: HARD
+  - text: "Quel est le nom de la bataille où le Prophète Muhammad a été blessé en 625 ?"
+    answers:
+      A: "Bataille de Badr"
+      B: "Bataille de Khaybar"
+      C: "Bataille de Khandaq"
+      D: "Bataille de Uhud"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the battle in which the Prophet Muhammad was wounded in 625?"
+        answers:
+          A: "Battle of Badr"
+          B: "Battle of Khaybar"
+          C: "Battle of Khandaq"
+          D: "Battle of Uhud"
+    difficulty: HARD
+  - text: "Quel est le nom du premier muezzin de l'islam ?"
+    answers:
+      A: "Umar ibn al-Khattab"
+      B: "Salman al-Farisi"
+      C: "Abou Dharr"
+      D: "Bilal ibn Rabah"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first muezzin of Islam?"
+        answers:
+          A: "Umar ibn al-Khattab"
+          B: "Salman al-Farisi"
+          C: "Abu Dharr"
+          D: "Bilal ibn Rabah"
+    difficulty: HARD
+  - text: "Quel est le nom de la science de la récitation du Coran ?"
+    answers:
+      A: "Fiqh"
+      B: "Tafsir"
+      C: "Tajwid"
+      D: "Hadith"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the science of reciting the Quran?"
+        answers:
+          A: "Fiqh"
+          B: "Tafsir"
+          C: "Tajwid"
+          D: "Hadith"
+    difficulty: HARD
+  - text: "Quel était le nom de la tente où le Prophète Muhammad recevait les révélations dans la grotte de Hira ?"
+    answers:
+      A: "Dar al-Arqam"
+      B: "Bayt al-Maqdis"
+      C: "Suffa"
+      D: "Aucune tente, c'était une grotte"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What was the name of the tent where the Prophet Muhammad received revelations in the cave of Hira?"
+        answers:
+          A: "Dar al-Arqam"
+          B: "Bayt al-Maqdis"
+          C: "Suffa"
+          D: "No tent, it was a cave"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la première épouse du Prophète Muhammad ?"
+    answers:
+      A: "Khadija"
+      B: "Aïcha"
+      C: "Fatima"
+      D: "Zaynab"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first wife of the Prophet Muhammad?"
+        answers:
+          A: "Khadija"
+          B: "Aisha"
+          C: "Fatima"
+          D: "Zaynab"
+    difficulty: MEDIUM
+  - text: "Combien de fois le mot 'Allah' apparaît-il dans le Coran ?"
+    answers:
+      A: "Environ 1500 fois"
+      B: "Environ 2700 fois"
+      C: "Plus de 5000 fois"
+      D: "Moins de 1000 fois"
+    correctAnswer: B
+    translations:
+      en:
+        text: "How many times does the word 'Allah' appear in the Quran?"
+        answers:
+          A: "About 1500 times"
+          B: "About 2700 times"
+          C: "More than 5000 times"
+          D: "Less than 1000 times"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la sourate la plus courte du Coran ?"
+    answers:
+      A: "Al-Ikhlas"
+      B: "An-Nas"
+      C: "Al-Asr"
+      D: "Al-Kawthar"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the shortest surah in the Quran?"
+        answers:
+          A: "Al-Ikhlas"
+          B: "An-Nas"
+          C: "Al-Asr"
+          D: "Al-Kawthar"
+    difficulty: HARD
+  - text: "Quel calife a ordonné la première compilation du Coran en un seul volume ?"
+    answers:
+      A: "Abou Bakr"
+      B: "Omar"
+      C: "Othman"
+      D: "Ali"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which caliph ordered the first compilation of the Quran into a single volume?"
+        answers:
+          A: "Abu Bakr"
+          B: "Umar"
+          C: "Uthman"
+          D: "Ali"
+    difficulty: HARD
+  - text: "Quel est le nom du roi qui a reconstruit la Kaaba quelques années avant la prophétie de Muhammad ?"
+    answers:
+      A: "Tubba"
+      B: "Chosroès"
+      C: "Hérode"
+      D: "Abraha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the king who rebuilt the Kaaba a few years before Muhammad's prophecy?"
+        answers:
+          A: "Tubba"
+          B: "Khosrow"
+          C: "Herod"
+          D: "Abraha"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la mosquée édifiée à Jérusalem par le calife Omar lors de la conquête de 637 ?"
+    answers:
+      A: "Mosquée Al-Aqsa"
+      B: "Dôme du Rocher"
+      C: "Mosquée Omar"
+      D: "Mosquée Al-Khalil"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the mosque built in Jerusalem by Caliph Omar during the conquest of 637?"
+        answers:
+          A: "Al-Aqsa Mosque"
+          B: "Dome of the Rock"
+          C: "Omar Mosque"
+          D: "Al-Khalil Mosque"
+    difficulty: EXPERT
+  - text: "Quel savant musulman est considéré comme le père de l'algèbre ?"
+    answers:
+      A: "Ibn Sina"
+      B: "Al-Biruni"
+      C: "Ibn Rushd"
+      D: "Al-Khwarizmi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Muslim scholar is considered the father of algebra?"
+        answers:
+          A: "Ibn Sina"
+          B: "Al-Biruni"
+          C: "Ibn Rushd"
+          D: "Al-Khwarizmi"
+    difficulty: HARD
+  - text: "Quel calife abbasside a fondé la Maison de la Sagesse à Bagdad ?"
+    answers:
+      A: "Al-Mansur"
+      B: "Haroun al-Rachid"
+      C: "Al-Mamoun"
+      D: "Al-Mutawakkil"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Abbasid caliph founded the House of Wisdom in Baghdad?"
+        answers:
+          A: "Al-Mansur"
+          B: "Harun al-Rashid"
+          C: "Al-Mamoun"
+          D: "Al-Mutawakkil"
+    difficulty: HARD
+  - text: "Quelle bataille de 732 a stoppé l'expansion musulmane en Europe ?"
+    answers:
+      A: "Bataille de Poitiers"
+      B: "Bataille de Tours"
+      C: "Bataille de Roncevaux"
+      D: "Bataille de Covadonga"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which battle in 732 stopped the Muslim expansion in Europe?"
+        answers:
+          A: "Battle of Poitiers"
+          B: "Battle of Tours"
+          C: "Battle of Roncevaux"
+          D: "Battle of Covadonga"
+    difficulty: HARD
+  - text: "Quel est le nom du traité de 661 qui a mis fin à la première fitna ?"
+    answers:
+      A: "Traité de Hudaybiyya"
+      B: "Traité de Karbala"
+      C: "Traité de Siffin"
+      D: "Traité de l'an 40"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the treaty of 661 that ended the first fitna?"
+        answers:
+          A: "Treaty of Hudaybiyya"
+          B: "Treaty of Karbala"
+          C: "Treaty of Siffin"
+          D: "Treaty of the year 40"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la dynastie qui a fondé la ville de Fès en 789 ?"
+    answers:
+      A: "Mérinides"
+      B: "Almohades"
+      C: "Almoravides"
+      D: "Idrissides"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the dynasty that founded the city of Fez in 789?"
+        answers:
+          A: "Marinids"
+          B: "Almohads"
+          C: "Almoravids"
+          D: "Idrisids"
+    difficulty: EXPERT
+  - text: "Quel est le nom du plus ancien manuscrit du Coran conservé à Istanbul ?"
+    answers:
+      A: "Coran de Topkapi"
+      B: "Coran de Birmingham"
+      C: "Coran de Samarcande"
+      D: "Coran de Kairouan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the oldest manuscript of the Quran preserved in Istanbul?"
+        answers:
+          A: "Topkapi Quran"
+          B: "Birmingham Quran"
+          C: "Samarkand Quran"
+          D: "Kairouan Quran"
+    difficulty: EXPERT
+  - text: "Quel est le nombre de prophètes mentionnés nommément dans le Coran ?"
+    answers:
+      A: "25"
+      B: "40"
+      C: "18"
+      D: "30"
+    correctAnswer: A
+    translations:
+      en:
+        text: "How many prophets are mentioned by name in the Quran?"
+        answers:
+          A: "25"
+          B: "40"
+          C: "18"
+          D: "30"
+    difficulty: EXPERT
+  - text: "Quel est le nom de l'ange chargé de la pluie et de la végétation dans l'islam ?"
+    answers:
+      A: "Mikaïl"
+      B: "Jibril"
+      C: "Israfil"
+      D: "Azraïl"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the angel in charge of rain and vegetation in Islam?"
         answers:
           A: "Mika'il"
           B: "Jibril"
           C: "Israfil"
           D: "Azra'il"
-  - text: "Que signifie le mot « islam » ?"
-    answers:
-      A: "Révélation"
-      B: "Paix seulement"
-      C: "Soumission à Dieu"
-      D: "Communauté"
-    correctAnswer: C
-    difficulty: HARD
-    translations:
-      en:
-        text: "What does the word \"Islam\" mean?"
-        answers:
-          A: "Revelation"
-          B: "Peace only"
-          C: "Submission to God"
-          D: "Community"
-  - text: "Quelles sont les deux grandes branches de l'islam ?"
-    answers:
-      A: "Le soufisme et le chiisme"
-      B: "Le sunnisme et le chiisme"
-      C: "Le kharidjisme et le sunnisme"
-      D: "L'alaouisme et le sunnisme"
-    correctAnswer: B
-    difficulty: EASY
-    translations:
-      en:
-        text: "What are the two main branches of Islam?"
-        answers:
-          A: "Sufi and Shia"
-          B: "Sunni and Shia"
-          C: "Kharijite and Sunni"
-          D: "Alawite and Sunni"
-  - text: "Quel chef militaire est connu pour avoir repris Jérusalem en 1187 ?"
-    answers:
-      A: "Saladin"
-      B: "Baïbars"
-      C: "Haroun al-Rachid"
-      D: "Soliman le Magnifique"
-    correctAnswer: A
-    difficulty: MEDIUM
-    translations:
-      en:
-        text: "Which military leader is known for recapturing Jerusalem in 1187?"
-        answers:
-          A: "Saladin"
-          B: "Baibars"
-          C: "Harun al-Rashid"
-          D: "Suleiman the Magnificent"
-  - text: "Quelle dynastie a fondé Bagdad comme capitale en 762 ?"
-    answers:
-      A: "Les Omeyyades"
-      B: "Les Abbassides"
-      C: "Les Fatimides"
-      D: "Les Ottomans"
-    correctAnswer: B
     difficulty: EXPERT
+  - text: "Quel est le nom du compagnon du Prophète qui a été surnommé 'l'épée de l'islam' ?"
+    answers:
+      A: "Omar ibn al-Khattab"
+      B: "Khalid ibn al-Walid"
+      C: "Ali ibn Abi Talib"
+      D: "Saad ibn Abi Waqqas"
+    correctAnswer: B
     translations:
       en:
-        text: "Which dynasty founded Baghdad as its capital in 762?"
+        text: "What is the name of the companion of the Prophet nicknamed 'the sword of Islam'?"
         answers:
-          A: "The Umayyads"
-          B: "The Abbasids"
-          C: "The Fatimids"
-          D: "The Ottomans"
-  - text: "Quel empire a conquis Constantinople en 1453 ?"
-    answers:
-      A: "Le califat abbasside"
-      B: "Le califat omeyyade"
-      C: "L'Empire ottoman"
-      D: "Les Seldjoukides"
-    correctAnswer: C
-    difficulty: EASY
-    translations:
-      en:
-        text: "Which empire conquered Constantinople in 1453?"
-        answers:
-          A: "The Abbasid Caliphate"
-          B: "The Umayyad Caliphate"
-          C: "The Ottoman Empire"
-          D: "The Seljuks"
-  - text: "Que désigne l'Al-Andalus ?"
-    answers:
-      A: "Les territoires musulmans de la péninsule Ibérique"
-      B: "Le Maghreb"
-      C: "La Sicile"
-      D: "L'Égypte"
-    correctAnswer: A
+          A: "Omar ibn al-Khattab"
+          B: "Khalid ibn al-Walid"
+          C: "Ali ibn Abi Talib"
+          D: "Saad ibn Abi Waqqas"
     difficulty: HARD
+  - text: "Quel est le nom de la bataille de 636 où les musulmans ont conquis la Syrie ?"
+    answers:
+      A: "Bataille de Qadisiyya"
+      B: "Bataille de Yarmouk"
+      C: "Bataille de Nahavand"
+      D: "Bataille d'Ajnadayn"
+    correctAnswer: B
     translations:
       en:
-        text: "What does Al-Andalus refer to?"
+        text: "What is the name of the 636 battle where the Muslims conquered Syria?"
         answers:
-          A: "The Muslim territories of the Iberian Peninsula"
-          B: "The Maghreb"
-          C: "Sicily"
-          D: "Egypt"
-  - text: "Quel livre rapporte les paroles et les actes du Prophète ?"
+          A: "Battle of Qadisiyya"
+          B: "Battle of Yarmouk"
+          C: "Battle of Nahavand"
+          D: "Battle of Ajnadayn"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la femme du Prophète surnommée 'la mère des croyants' et fille d'Abou Bakr ?"
     answers:
-      A: "La Sunna et les hadiths"
-      B: "Le Coran"
-      C: "La Torah"
-      D: "Le Talmud"
-    correctAnswer: A
-    difficulty: HARD
-    translations:
-      en:
-        text: "Which book records the Prophet's words and deeds?"
-        answers:
-          A: "The Sunna and the hadiths"
-          B: "The Quran"
-          C: "The Torah"
-          D: "The Talmud"
-  - text: "Quel est le premier mois du calendrier musulman ?"
-    answers:
-      A: "Ramadan"
-      B: "Rajab"
-      C: "Chaabane"
-      D: "Mouharram"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the first month of the Muslim calendar?"
-        answers:
-          A: "Ramadan"
-          B: "Rajab"
-          C: "Sha'ban"
-          D: "Muharram"
-    difficulty: EASY
-  - text: "Comment s'appelle le lieu de culte des musulmans ?"
-    answers:
-      A: "L'église"
-      B: "La synagogue"
-      C: "La mosquée"
-      D: "Le temple"
+      A: "Khadija"
+      B: "Hafsa"
+      C: "Aïcha"
+      D: "Oum Salama"
     correctAnswer: C
     translations:
       en:
-        text: "What is the place of worship for Muslims called?"
-        answers:
-          A: "The church"
-          B: "The synagogue"
-          C: "The mosque"
-          D: "The temple"
-    difficulty: EASY
-  - text: "Quel est le livre sacré de l'islam ?"
-    answers:
-      A: "Le Coran"
-      B: "La Torah"
-      C: "L'Évangile"
-      D: "Les Psaumes"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the holy book of Islam?"
-        answers:
-          A: "The Quran"
-          B: "The Torah"
-          C: "The Gospel"
-          D: "The Psalms"
-    difficulty: EASY
-  - text: "Quel prophète est considéré comme le dernier prophète de l'islam ?"
-    answers:
-      A: "Moïse"
-      B: "Jésus"
-      C: "Abraham"
-      D: "Muhammad"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which prophet is considered the last prophet of Islam?"
-        answers:
-          A: "Moses"
-          B: "Jesus"
-          C: "Abraham"
-          D: "Muhammad"
-    difficulty: EASY
-  - text: "Dans quelle ville le prophète Muhammad est-il né ?"
-    answers:
-      A: "Médine"
-      B: "La Mecque"
-      C: "Taïf"
-      D: "Jérusalem"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In which city was the prophet Muhammad born?"
-        answers:
-          A: "Medina"
-          B: "Mecca"
-          C: "Taif"
-          D: "Jerusalem"
-    difficulty: EASY
-  - text: "Quel jour de la semaine les musulmans se rassemblent-ils pour la prière communautaire ?"
-    answers:
-      A: "Lundi"
-      B: "Vendredi"
-      C: "Jeudi"
-      D: "Samedi"
-    correctAnswer: B
-    translations:
-      en:
-        text: "On which day of the week do Muslims gather for communal prayer?"
-        answers:
-          A: "Monday"
-          B: "Friday"
-          C: "Thursday"
-          D: "Saturday"
-    difficulty: EASY
-  - text: "Comment appelle-t-on le repas pris avant l'aube pendant le Ramadan ?"
-    answers:
-      A: "Le sohour"
-      B: "L'iftar"
-      C: "Le déjeuner"
-      D: "Le souper"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the meal eaten before dawn during Ramadan called?"
-        answers:
-          A: "Suhoor"
-          B: "Iftar"
-          C: "Lunch"
-          D: "Supper"
-    difficulty: EASY
-  - text: "Comment appelle-t-on le repas qui rompt le jeûne au coucher du soleil ?"
-    answers:
-      A: "Le sohour"
-      B: "Le déjeuner"
-      C: "L'iftar"
-      D: "Le souper"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the meal that breaks the fast at sunset called?"
-        answers:
-          A: "Suhoor"
-          B: "Lunch"
-          C: "Iftar"
-          D: "Supper"
-    difficulty: EASY
-  - text: "Quelle formule les musulmans prononcent-ils avant de commencer un repas ?"
-    answers:
-      A: "Al-hamdulillah"
-      B: "Bismillah"
-      C: "Incha'Allah"
-      D: "Amin"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What phrase do Muslims say before starting a meal?"
-        answers:
-          A: "Al-hamdulillah"
-          B: "Bismillah"
-          C: "Insha'Allah"
-          D: "Amin"
-    difficulty: EASY
-  - text: "Combien de jours compte le mois de Ramadan ?"
-    answers:
-      A: "28 ou 29 jours"
-      B: "29 ou 30 jours"
-      C: "30 ou 31 jours"
-      D: "31 ou 32 jours"
-    correctAnswer: B
-    translations:
-      en:
-        text: "How many days does the month of Ramadan have?"
-        answers:
-          A: "28 or 29 days"
-          B: "29 or 30 days"
-          C: "30 or 31 days"
-          D: "31 or 32 days"
-    difficulty: EASY
-  - text: "Comment s'appelle la prière de l'aube en islam ?"
-    answers:
-      A: "Fajr"
-      B: "Dhuhr"
-      C: "Asr"
-      D: "Icha"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the dawn prayer in Islam called?"
-        answers:
-          A: "Fajr"
-          B: "Dhuhr"
-          C: "Asr"
-          D: "Isha"
-    difficulty: EASY
-  - text: "Comment appelle-t-on la communauté des croyants musulmans ?"
-    answers:
-      A: "La sunna"
-      B: "La fitna"
-      C: "L'oumma"
-      D: "La umra"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the community of Muslim believers called?"
-        answers:
-          A: "The Sunnah"
-          B: "The Fitna"
-          C: "The Ummah"
-          D: "The Umrah"
-    difficulty: EASY
-  - text: "Que signifie le mot « Coran » ?"
-    answers:
-      A: "La récitation"
-      B: "La révélation"
-      C: "Le livre saint"
-      D: "La prophétie"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What does the word \"Quran\" mean?"
-        answers:
-          A: "The recitation"
-          B: "The revelation"
-          C: "The holy book"
-          D: "The prophecy"
-    difficulty: MEDIUM
-  - text: "Dans quelle grotte Muhammad aurait-il reçu les premières révélations ?"
-    answers:
-      A: "La grotte de Thawr"
-      B: "La grotte de Hira"
-      C: "La grotte de Safa"
-      D: "La grotte de Marwa"
-    correctAnswer: B
-    translations:
-      en:
-        text: "In which cave did Muhammad reportedly receive the first revelations?"
-        answers:
-          A: "The cave of Thawr"
-          B: "The cave of Hira"
-          C: "The cave of Safa"
-          D: "The cave of Marwa"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on le voyage nocturne du Prophète de La Mecque à Jérusalem ?"
-    answers:
-      A: "L'Isrâ"
-      B: "L'Hégire"
-      C: "La ridda"
-      D: "La fitna"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the Prophet's night journey from Mecca to Jerusalem called?"
-        answers:
-          A: "The Isra"
-          B: "The Hijra"
-          C: "The Ridda"
-          D: "The Fitna"
-    difficulty: MEDIUM
-  - text: "Quel compagnon fut le deuxième calife de l'islam ?"
-    answers:
-      A: "Abou Bakr"
-      B: "Omar"
-      C: "Othman"
-      D: "Ali"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which companion was the second caliph of Islam?"
-        answers:
-          A: "Abu Bakr"
-          B: "Umar"
-          C: "Uthman"
-          D: "Ali"
-    difficulty: MEDIUM
-  - text: "Quelle épouse du Prophète était la fille d'Abou Bakr ?"
-    answers:
-      A: "Khadîja"
-      B: "Fatima"
-      C: "Hafsa"
-      D: "Aïcha"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which wife of the Prophet was the daughter of Abu Bakr?"
+        text: "What is the name of the Prophet's wife nicknamed 'the mother of the believers' and daughter of Abu Bakr?"
         answers:
           A: "Khadija"
-          B: "Fatima"
-          C: "Hafsa"
-          D: "Aisha"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on le vêtement blanc porté par les hommes pendant le pèlerinage ?"
+          B: "Hafsa"
+          C: "Aisha"
+          D: "Umm Salama"
+    difficulty: HARD
+  - text: "Quel est le nom de la grande mosquée de Samarra construite au IXe siècle ?"
     answers:
-      A: "L'ihrâm"
-      B: "Le qamis"
-      C: "Le burnous"
-      D: "Le taylasân"
+      A: "Grande Mosquée de Samarra"
+      B: "Mosquée de Samarra"
+      C: "Mosquée Al-Askari"
+      D: "Mosquée Al-Mutawakkil"
     correctAnswer: A
     translations:
       en:
-        text: "What is the white garment worn by men during the pilgrimage called?"
+        text: "What is the name of the great mosque of Samarra built in the 9th century?"
         answers:
-          A: "The ihram"
-          B: "The qamis"
-          C: "The burnous"
-          D: "The taylasan"
-    difficulty: MEDIUM
-  - text: "En quelle année le prophète Muhammad est-il mort ?"
+          A: "Great Mosque of Samarra"
+          B: "Samarra Mosque"
+          C: "Al-Askari Mosque"
+          D: "Al-Mutawakkil Mosque"
+    difficulty: EXPERT
+  - text: "Quel est le nom du mausolée où se trouve le tombeau de l'imam Ali ?"
     answers:
-      A: "610"
-      B: "622"
-      C: "630"
-      D: "632"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year did the prophet Muhammad die?"
-        answers:
-          A: "610"
-          B: "622"
-          C: "630"
-          D: "632"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on l'aumône volontaire, non obligatoire ?"
-    answers:
-      A: "La zakât"
-      B: "La jizya"
-      C: "La sadâqa"
-      D: "Le kharâj"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is voluntary, non-obligatory almsgiving called?"
-        answers:
-          A: "Zakat"
-          B: "Jizya"
-          C: "Sadaqa"
-          D: "Kharaj"
-    difficulty: MEDIUM
-  - text: "Quelle fête célèbre la naissance du Prophète ?"
-    answers:
-      A: "L'Aïd el-Fitr"
-      B: "Le Mawlid"
-      C: "Achoura"
-      D: "L'Isrâ"
+      A: "Karbala"
+      B: "Najaf"
+      C: "Qom"
+      D: "Mashhad"
     correctAnswer: B
     translations:
       en:
-        text: "Which festival celebrates the birth of the Prophet?"
-        answers:
-          A: "Eid al-Fitr"
-          B: "Mawlid"
-          C: "Ashura"
-          D: "Isra"
-    difficulty: MEDIUM
-  - text: "Quel sultan ottoman a conquis Constantinople en 1453 ?"
-    answers:
-      A: "Mehmed II"
-      B: "Soliman le Magnifique"
-      C: "Bayézid Ier"
-      D: "Orhan"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which Ottoman sultan conquered Constantinople in 1453?"
-        answers:
-          A: "Mehmed II"
-          B: "Suleiman the Magnificent"
-          C: "Bayezid I"
-          D: "Orhan"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on les ablutions effectuées avant la prière ?"
-    answers:
-      A: "Le ghusl"
-      B: "Le tayammum"
-      C: "Le wudû"
-      D: "L'ihrâm"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What are the ablutions performed before prayer called?"
-        answers:
-          A: "Ghusl"
-          B: "Tayammum"
-          C: "Wudu"
-          D: "Ihram"
-    difficulty: MEDIUM
-  - text: "Quel pèlerinage mineur peut être accompli en dehors du hajj ?"
-    answers:
-      A: "Le hajj"
-      B: "La ziyâra"
-      C: "Le mawsim"
-      D: "La omra"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which minor pilgrimage can be performed outside of the hajj?"
-        answers:
-          A: "Hajj"
-          B: "Ziyara"
-          C: "Mawsim"
-          D: "Umrah"
-    difficulty: MEDIUM
-  - text: "Quelle est la deuxième sourate du Coran ?"
-    answers:
-      A: "Al-Fâtiha"
-      B: "Al-Baqara"
-      C: "Âl-Imrân"
-      D: "An-Nâs"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the second surah of the Quran?"
-        answers:
-          A: "Al-Fatiha"
-          B: "Al-Baqara"
-          C: "Al-Imran"
-          D: "An-Nas"
-    difficulty: HARD
-  - text: "Qui fut le premier calife omeyyade ?"
-    answers:
-      A: "Yazîd Ier"
-      B: "Muawiya"
-      C: "Abd al-Malik"
-      D: "Omar II"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who was the first Umayyad caliph?"
-        answers:
-          A: "Yazid I"
-          B: "Muawiya"
-          C: "Abd al-Malik"
-          D: "Umar II"
-    difficulty: HARD
-  - text: "Quelle bataille de 624 fut la première grande victoire des musulmans ?"
-    answers:
-      A: "Uhud"
-      B: "Khandaq"
-      C: "Hunayn"
-      D: "Badr"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which battle in 624 was the first major victory for the Muslims?"
-        answers:
-          A: "Uhud"
-          B: "Khandaq"
-          C: "Hunayn"
-          D: "Badr"
-    difficulty: HARD
-  - text: "Dans quelle ville se trouve le mausolée de l'imam Ali ?"
-    answers:
-      A: "Kerbala"
-      B: "Qom"
-      C: "Nadjaf"
-      D: "Machhad"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which city is the mausoleum of Imam Ali located?"
+        text: "What is the name of the mausoleum where the tomb of Imam Ali is located?"
         answers:
           A: "Karbala"
-          B: "Qom"
-          C: "Najaf"
+          B: "Najaf"
+          C: "Qom"
           D: "Mashhad"
-    difficulty: HARD
-  - text: "Quelle dynastie a fondé Le Caire en 969 ?"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la dynastie qui a construit la Grande Mosquée de Kairouan ?"
     answers:
-      A: "Les Toulounides"
-      B: "Les Mamelouks"
-      C: "Les Ayyûbides"
-      D: "Les Fatimides"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which dynasty founded Cairo in 969?"
-        answers:
-          A: "The Tulunids"
-          B: "The Mamluks"
-          C: "The Ayyubids"
-          D: "The Fatimids"
-    difficulty: HARD
-  - text: "Quelle dynastie a fait construire le Taj Mahal ?"
-    answers:
-      A: "Les Ottomans"
-      B: "Les Safavides"
-      C: "Les Moghols"
-      D: "Les Abbassides"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which dynasty built the Taj Mahal?"
-        answers:
-          A: "The Ottomans"
-          B: "The Safavids"
-          C: "The Mughals"
-          D: "The Abbasids"
-    difficulty: HARD
-  - text: "Quel savant est considéré comme le père de l'algèbre ?"
-    answers:
-      A: "Ibn Sînâ"
-      B: "Ibn Rushd"
-      C: "Al-Khwârizmî"
-      D: "Al-Bîrûnî"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which scholar is considered the father of algebra?"
-        answers:
-          A: "Ibn Sina"
-          B: "Ibn Rushd"
-          C: "Al-Khwarizmi"
-          D: "Al-Biruni"
-    difficulty: HARD
-  - text: "Lors de quelle bataille le Prophète fut-il blessé en 625 ?"
-    answers:
-      A: "Uhud"
-      B: "Badr"
-      C: "La Tranchée"
-      D: "Tabouk"
+      A: "Dynastie aghlabide"
+      B: "Dynastie abbasside"
+      C: "Dynastie omeyyade"
+      D: "Dynastie fatimide"
     correctAnswer: A
     translations:
       en:
-        text: "At which battle was the Prophet wounded in 625?"
+        text: "What is the name of the dynasty that built the Great Mosque of Kairouan?"
         answers:
-          A: "Uhud"
-          B: "Badr"
-          C: "The Trench"
-          D: "Tabuk"
-    difficulty: HARD
-  - text: "Quelle est la plus ancienne université encore en activité, fondée à Fès en 859 ?"
+          A: "Aghlabid dynasty"
+          B: "Abbasid dynasty"
+          C: "Umayyad dynasty"
+          D: "Fatimid dynasty"
+    difficulty: EXPERT
+  - text: "Qui a été le premier muezzin de l'islam ?"
     answers:
-      A: "Al-Azhar"
-      B: "La Zitouna"
-      C: "Sankoré"
-      D: "Al-Quaraouiyine"
+      A: "Othman ibn Affan"
+      B: "Abou Bakr"
+      C: "Omar ibn al-Khattab"
+      D: "Bilal ibn Rabah"
     correctAnswer: D
-    translations:
-      en:
-        text: "What is the oldest still-operating university, founded in Fes in 859?"
-        answers:
-          A: "Al-Azhar"
-          B: "Al-Zitouna"
-          C: "Sankore"
-          D: "Al-Quaraouiyine"
-    difficulty: HARD
-  - text: "Dans quelle ville se trouve la plus ancienne grande mosquée du Maghreb ?"
-    answers:
-      A: "Tunis"
-      B: "Fès"
-      C: "Kairouan"
-      D: "Alger"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In which city is the oldest great mosque of the Maghreb located?"
-        answers:
-          A: "Tunis"
-          B: "Fes"
-          C: "Kairouan"
-          D: "Algiers"
-    difficulty: HARD
-  - text: "Quel sultanat a régné sur le nord de l'Inde avant les Moghols ?"
-    answers:
-      A: "Les Seldjoukides"
-      B: "Les Safavides"
-      C: "Les Fatimides"
-      D: "Le sultanat de Delhi"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which sultanate ruled northern India before the Mughals?"
-        answers:
-          A: "The Seljuks"
-          B: "The Safavids"
-          C: "The Fatimids"
-          D: "The Delhi Sultanate"
-    difficulty: HARD
-  - text: "Comment appelle-t-on les prières nocturnes spécifiques au Ramadan ?"
-    answers:
-      A: "Le witr"
-      B: "Les tarâwîh"
-      C: "Le tahajjud"
-      D: "Les nafl"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What are the night prayers specific to Ramadan called?"
-        answers:
-          A: "Witr"
-          B: "Tarawih"
-          C: "Tahajjud"
-          D: "Nafl"
-    difficulty: HARD
-  - text: "Qui fut le premier muezzin de l'islam ?"
-    answers:
-      A: "Anas"
-      B: "Zayd"
-      C: "Bilal"
-      D: "Salman"
-    correctAnswer: C
     translations:
       en:
         text: "Who was the first muezzin of Islam?"
         answers:
-          A: "Anas"
-          B: "Zayd"
-          C: "Bilal"
-          D: "Salman"
+          A: "Uthman ibn Affan"
+          B: "Abu Bakr"
+          C: "Omar ibn al-Khattab"
+          D: "Bilal ibn Rabah"
     difficulty: HARD
-  - text: "Combien de versets compte le Coran ?"
+  - text: "Combien de prophètes sont mentionnés nommément dans le Coran ?"
     answers:
-      A: "114"
-      B: "604"
-      C: "3000"
-      D: "6236"
-    correctAnswer: D
+      A: "20"
+      B: "25"
+      C: "30"
+      D: "15"
+    correctAnswer: B
     translations:
       en:
-        text: "How many verses does the Quran contain?"
+        text: "How many prophets are mentioned by name in the Quran?"
         answers:
-          A: "114"
-          B: "604"
-          C: "3000"
-          D: "6236"
+          A: "20"
+          B: "25"
+          C: "30"
+          D: "15"
     difficulty: EXPERT
-  - text: "Quelle est la seule sourate du Coran portant le nom d'une femme ?"
+  - text: "Quel compagnon du Prophète a été surnommé 'l'épée de l'islam' ?"
     answers:
-      A: "Maryam"
-      B: "An-Nisâ"
-      C: "Al-Mâ'ida"
-      D: "Yûsuf"
+      A: "Khalid ibn al-Walid"
+      B: "Sa'd ibn Abi Waqqas"
+      C: "Abou Ubayda ibn al-Jarrah"
+      D: "Zubayr ibn al-Awwam"
     correctAnswer: A
     translations:
       en:
-        text: "Which is the only surah of the Quran named after a woman?"
+        text: "Which companion of the Prophet was nicknamed 'the Sword of Islam'?"
         answers:
-          A: "Maryam"
-          B: "An-Nisa"
-          C: "Al-Ma'ida"
-          D: "Yusuf"
-    difficulty: EXPERT
-  - text: "Pendant combien d'années la révélation du Coran s'est-elle étendue ?"
+          A: "Khalid ibn al-Walid"
+          B: "Sa'd ibn Abi Waqqas"
+          C: "Abu Ubayda ibn al-Jarrah"
+          D: "Zubayr ibn al-Awwam"
+    difficulty: HARD
+  - text: "Quelle femme du Prophète était surnommée 'la mère des croyants' et était fille d'Abou Bakr ?"
     answers:
-      A: "10 ans"
-      B: "13 ans"
-      C: "23 ans"
-      D: "40 ans"
-    correctAnswer: C
+      A: "Aïcha"
+      B: "Khadija"
+      C: "Hafsa"
+      D: "Umm Salama"
+    correctAnswer: A
     translations:
       en:
-        text: "Over how many years was the Quran revealed?"
+        text: "Which wife of the Prophet was nicknamed 'the Mother of the Believers' and was the daughter of Abu Bakr?"
         answers:
-          A: "10 years"
-          B: "13 years"
-          C: "23 years"
-          D: "40 years"
-    difficulty: EXPERT
-  - text: "Quel calife a fait établir la version standardisée du Coran ?"
+          A: "Aisha"
+          B: "Khadija"
+          C: "Hafsa"
+          D: "Umm Salama"
+    difficulty: HARD
+  - text: "En quelle année a eu lieu la bataille de Badr ?"
     answers:
-      A: "Abou Bakr"
+      A: "622"
+      B: "630"
+      C: "632"
+      D: "624"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year did the Battle of Badr take place?"
+        answers:
+          A: "622"
+          B: "630"
+          C: "632"
+          D: "624"
+    difficulty: HARD
+  - text: "Quel est le nom du compagnon du Prophète qui a été le premier calife ?"
+    answers:
+      A: "Othman"
       B: "Omar"
-      C: "Othman"
+      C: "Abou Bakr"
       D: "Ali"
     correctAnswer: C
     translations:
       en:
-        text: "Which caliph established the standardized version of the Quran?"
+        text: "What is the name of the companion of the Prophet who was the first caliph?"
         answers:
-          A: "Abu Bakr"
-          B: "Umar"
-          C: "Uthman"
+          A: "Uthman"
+          B: "Omar"
+          C: "Abu Bakr"
           D: "Ali"
-    difficulty: EXPERT
-  - text: "Comment appelle-t-on l'exégèse savante du Coran ?"
+    difficulty: HARD
+  - text: "Quel calife a ordonné la construction du Dôme du Rocher à Jérusalem ?"
     answers:
-      A: "Le fiqh"
-      B: "L'ijtihâd"
-      C: "La sunna"
-      D: "Le tafsîr"
+      A: "Al-Walid Ier"
+      B: "Abd al-Malik"
+      C: "Omar ibn al-Khattab"
+      D: "Harun al-Rashid"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which caliph ordered the construction of the Dome of the Rock in Jerusalem?"
+        answers:
+          A: "Al-Walid I"
+          B: "Abd al-Malik"
+          C: "Omar ibn al-Khattab"
+          D: "Harun al-Rashid"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la bataille de 636 où les musulmans ont conquis la Perse ?"
+    answers:
+      A: "Bataille de Badr"
+      B: "Bataille de Yarmouk"
+      C: "Bataille de Nahavand"
+      D: "Bataille de Qadisiyya"
     correctAnswer: D
     translations:
       en:
-        text: "What is the scholarly exegesis of the Quran called?"
+        text: "What is the name of the 636 battle where the Muslims conquered Persia?"
         answers:
-          A: "Fiqh"
-          B: "Ijtihad"
-          C: "Sunnah"
-          D: "Tafsir"
+          A: "Battle of Badr"
+          B: "Battle of Yarmouk"
+          C: "Battle of Nahavand"
+          D: "Battle of Qadisiyya"
     difficulty: EXPERT
-  - text: "Quelle bataille de 636 a ouvert la Syrie aux musulmans ?"
+  - text: "Quel savant musulman est l'auteur du 'Canon de la médecine' ?"
     answers:
-      A: "Yarmouk"
-      B: "Al-Qadisiya"
-      C: "Badr"
-      D: "Poitiers"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which 636 battle opened Syria to the Muslims?"
-        answers:
-          A: "Yarmouk"
-          B: "Al-Qadisiyya"
-          C: "Badr"
-          D: "Poitiers"
-    difficulty: EXPERT
-  - text: "Quel petit-fils du Prophète est commémoré à Kerbala ?"
-    answers:
-      A: "Ali"
-      B: "Hassan"
-      C: "Husayn"
-      D: "Jaafar"
+      A: "Al-Kindi"
+      B: "Averroès (Ibn Rushd)"
+      C: "Avicenne (Ibn Sina)"
+      D: "Al-Farabi"
     correctAnswer: C
     translations:
       en:
-        text: "Which grandson of the Prophet is commemorated at Karbala?"
+        text: "Which Muslim scholar is the author of 'The Canon of Medicine'?"
         answers:
-          A: "Ali"
-          B: "Hassan"
-          C: "Husayn"
-          D: "Jaafar"
-    difficulty: EXPERT
-  - text: "Quel savant musulman a écrit le « Canon de la médecine » ?"
-    answers:
-      A: "Averroès"
-      B: "Avicenne"
-      C: "Rhazès"
-      D: "Al-Fârâbî"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which Muslim scholar wrote the 'Canon of Medicine'?"
-        answers:
-          A: "Averroes"
-          B: "Avicenna"
-          C: "Rhazes"
+          A: "Al-Kindi"
+          B: "Averroes (Ibn Rushd)"
+          C: "Avicenna (Ibn Sina)"
           D: "Al-Farabi"
-    difficulty: EXPERT
-  - text: "Quelle dynastie a fait construire l'Alhambra de Grenade ?"
+    difficulty: HARD
+  - text: "Quel calife abbasside a déplacé la capitale de Damas à Bagdad ?"
     answers:
-      A: "Les Omeyyades"
-      B: "Les Almohades"
-      C: "Les Mérinides"
-      D: "Les Nasrides"
+      A: "Al-Ma'mun"
+      B: "Harun al-Rashid"
+      C: "Al-Mansur"
+      D: "Al-Mu'tasim"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Abbasid caliph moved the capital from Damascus to Baghdad?"
+        answers:
+          A: "Al-Ma'mun"
+          B: "Harun al-Rashid"
+          C: "Al-Mansur"
+          D: "Al-Mu'tasim"
+    difficulty: HARD
+  - text: "Quel est le nom du traité qui a divisé l'empire musulman après la bataille de Siffin en 657 ?"
+    answers:
+      A: "Traité de Karbala"
+      B: "Traité de Hudaybiyya"
+      C: "Traité d'Arbitrage"
+      D: "Traité de Fustat"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the treaty that divided the Muslim empire after the Battle of Siffin in 657?"
+        answers:
+          A: "Treaty of Karbala"
+          B: "Treaty of Hudaybiyya"
+          C: "Arbitration Treaty"
+          D: "Treaty of Fustat"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la dynastie qui a construit la mosquée de Cordoue ?"
+    answers:
+      A: "Almoravides"
+      B: "Abbassides"
+      C: "Fatimides"
+      D: "Omeyyades"
     correctAnswer: D
     translations:
       en:
-        text: "Which dynasty built the Alhambra in Granada?"
+        text: "What is the name of the dynasty that built the Mosque of Cordoba?"
         answers:
-          A: "The Umayyads"
-          B: "The Almohads"
-          C: "The Marinids"
-          D: "The Nasrids"
+          A: "Almoravids"
+          B: "Abbasids"
+          C: "Fatimids"
+          D: "Umayyads"
     difficulty: EXPERT
-  - text: "Comment appelle-t-on la chaîne des transmetteurs d'un hadith ?"
+  - text: "Quel est le nom du compagnon du Prophète qui a été surnommé 'le véridique' ?"
     answers:
-      A: "L'isnâd"
-      B: "Le matn"
-      C: "La sunna"
-      D: "Le fiqh"
-    correctAnswer: A
+      A: "Othman ibn Affan"
+      B: "Omar ibn al-Khattab"
+      C: "Abou Bakr"
+      D: "Ali ibn Abi Talib"
+    correctAnswer: C
     translations:
       en:
-        text: "What is the chain of transmitters of a hadith called?"
+        text: "What is the name of the companion of the Prophet who was nicknamed 'the Truthful'?"
         answers:
-          A: "The isnad"
-          B: "The matn"
-          C: "The sunna"
-          D: "The fiqh"
-    difficulty: EXPERT
-  - text: "Comment nomme-t-on la période antéislamique en arabe ?"
+          A: "Uthman ibn Affan"
+          B: "Omar ibn al-Khattab"
+          C: "Abu Bakr"
+          D: "Ali ibn Abi Talib"
+    difficulty: HARD
+  - text: "Quel est le nom de la bataille de 627 où les musulmans ont creusé un fossé défensif ?"
     answers:
-      A: "La fitna"
-      B: "La ridda"
-      C: "La hijra"
-      D: "La jâhiliyya"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the pre-Islamic period called in Arabic?"
-        answers:
-          A: "The fitna"
-          B: "The ridda"
-          C: "The hijra"
-          D: "The jahiliyya"
-    difficulty: EXPERT
-  - text: "Quelle sourate du Coran ne commence pas par la basmala ?"
-    answers:
-      A: "At-Tawba"
-      B: "Al-Fâtiha"
-      C: "Al-Baqara"
-      D: "An-Naml"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which surah of the Quran does not begin with the basmala?"
-        answers:
-          A: "At-Tawba"
-          B: "Al-Fatiha"
-          C: "Al-Baqara"
-          D: "An-Naml"
-    difficulty: EXPERT
-  - text: "Quel calife omeyyade a fait construire le Dôme du Rocher ?"
-    answers:
-      A: "Muawiya"
-      B: "Abd al-Malik"
-      C: "Al-Walîd Ier"
-      D: "Omar II"
+      A: "Bataille de Badr"
+      B: "Bataille du Fossé (Khandaq)"
+      C: "Bataille de Uhud"
+      D: "Bataille de Khaybar"
     correctAnswer: B
     translations:
       en:
-        text: "Which Umayyad caliph built the Dome of the Rock?"
+        text: "What is the name of the 627 battle where the Muslims dug a defensive trench?"
         answers:
-          A: "Muawiya"
-          B: "Abd al-Malik"
-          C: "Al-Walid I"
-          D: "Omar II"
+          A: "Battle of Badr"
+          B: "Battle of the Trench (Khandaq)"
+          C: "Battle of Uhud"
+          D: "Battle of Khaybar"
+    difficulty: HARD
+  - text: "Quel est le nom de la première mosquée construite par le Prophète à Médine ?"
+    answers:
+      A: "Mosquée Al-Aqsa"
+      B: "Masjid al-Nabawi"
+      C: "Mosquée Quba"
+      D: "Mosquée de Kairouan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the first mosque built by the Prophet in Medina?"
+        answers:
+          A: "Al-Aqsa Mosque"
+          B: "Masjid al-Nabawi"
+          C: "Quba Mosque"
+          D: "Mosque of Kairouan"
+    difficulty: HARD
+  - text: "Quel calife omeyyade a fondé la ville de Kairouan en 670 ?"
+    answers:
+      A: "Abd al-Malik"
+      B: "Muawiya Ier"
+      C: "Yazid Ier"
+      D: "Uqba ibn Nafi"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Umayyad caliph founded the city of Kairouan in 670?"
+        answers:
+          A: "Abd al-Malik"
+          B: "Muawiya I"
+          C: "Yazid I"
+          D: "Uqba ibn Nafi"
+    difficulty: EXPERT
+  - text: "Quel est le nom du fleuve qui arrose Bagdad, capitale abbasside ?"
+    answers:
+      A: "Nil"
+      B: "Euphrate"
+      C: "Tigre"
+      D: "Indus"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the river that flows through Baghdad, the Abbasid capital?"
+        answers:
+          A: "Nile"
+          B: "Euphrates"
+          C: "Tigris"
+          D: "Indus"
+    difficulty: HARD
+  - text: "Quel est le nom de la bataille de 1187 où Saladin a repris Jérusalem ?"
+    answers:
+      A: "Bataille de Hattin"
+      B: "Bataille de Montgisard"
+      C: "Bataille d'Acre"
+      D: "Bataille de Mansourah"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the 1187 battle in which Saladin retook Jerusalem?"
+        answers:
+          A: "Battle of Hattin"
+          B: "Battle of Montgisard"
+          C: "Battle of Acre"
+          D: "Battle of Mansurah"
+    difficulty: HARD
+  - text: "Quel savant musulman est considéré comme le père de la sociologie ?"
+    answers:
+      A: "Al-Idrisi"
+      B: "Al-Biruni"
+      C: "Ibn Battuta"
+      D: "Ibn Khaldoun"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which Muslim scholar is considered the father of sociology?"
+        answers:
+          A: "Al-Idrisi"
+          B: "Al-Biruni"
+          C: "Ibn Battuta"
+          D: "Ibn Khaldun"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la dynastie qui a fondé la ville de Marrakech en 1070 ?"
+    answers:
+      A: "Saadiens"
+      B: "Almohades"
+      C: "Mérinides"
+      D: "Almoravides"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the dynasty that founded the city of Marrakech in 1070?"
+        answers:
+          A: "Saadians"
+          B: "Almohads"
+          C: "Marinids"
+          D: "Almoravids"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la bataille de 1453 où les Ottomans ont conquis Constantinople ?"
+    answers:
+      A: "Bataille de Nicopolis"
+      B: "Siège de Constantinople"
+      C: "Bataille de Varna"
+      D: "Bataille de Mohács"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the 1453 battle in which the Ottomans conquered Constantinople?"
+        answers:
+          A: "Battle of Nicopolis"
+          B: "Siege of Constantinople"
+          C: "Battle of Varna"
+          D: "Battle of Mohács"
+    difficulty: HARD
+  - text: "Quel est le nom du calife abbasside qui a fondé la Maison de la Sagesse ?"
+    answers:
+      A: "Al-Mansur"
+      B: "Harun al-Rashid"
+      C: "Al-Ma'mun"
+      D: "Al-Mu'tasim"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the Abbasid caliph who founded the House of Wisdom?"
+        answers:
+          A: "Al-Mansur"
+          B: "Harun al-Rashid"
+          C: "Al-Ma'mun"
+          D: "Al-Mu'tasim"
+    difficulty: EXPERT
+  - text: "Quel est le nom du traité de 628 entre le Prophète et les Quraychites ?"
+    answers:
+      A: "Traité de Ta'if"
+      B: "Traité de Badr"
+      C: "Traité de Khaybar"
+      D: "Traité de Hudaybiyya"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the 628 treaty between the Prophet and the Quraysh?"
+        answers:
+          A: "Treaty of Ta'if"
+          B: "Treaty of Badr"
+          C: "Treaty of Khaybar"
+          D: "Treaty of Hudaybiyyah"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la dynastie chiite qui a fondé Le Caire en 969 ?"
+    answers:
+      A: "Ayyoubides"
+      B: "Abbassides"
+      C: "Omeyyades"
+      D: "Fatimides"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Shia dynasty that founded Cairo in 969?"
+        answers:
+          A: "Ayyubids"
+          B: "Abbasids"
+          C: "Umayyads"
+          D: "Fatimids"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la bataille de 1258 où les Mongols ont détruit Bagdad ?"
+    answers:
+      A: "Bataille de Hattin"
+      B: "Bataille d'Ain Jalut"
+      C: "Siège de Bagdad"
+      D: "Bataille de Manzikert"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the name of the 1258 battle in which the Mongols destroyed Baghdad?"
+        answers:
+          A: "Battle of Hattin"
+          B: "Battle of Ain Jalut"
+          C: "Siege of Baghdad"
+          D: "Battle of Manzikert"
+    difficulty: EXPERT
+  - text: "Quel est le nom du compagnon du Prophète qui a été surnommé 'le lion de Dieu' ?"
+    answers:
+      A: "Khalid ibn al-Walid"
+      B: "Ali ibn Abi Talib"
+      C: "Omar ibn al-Khattab"
+      D: "Hamza ibn Abd al-Muttalib"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the companion of the Prophet who was nicknamed 'the Lion of God'?"
+        answers:
+          A: "Khalid ibn al-Walid"
+          B: "Ali ibn Abi Talib"
+          C: "Omar ibn al-Khattab"
+          D: "Hamza ibn Abd al-Muttalib"
+    difficulty: HARD
+  - text: "Quel est le nom de la première sourate du Coran ?"
+    answers:
+      A: "Al-Ikhlas"
+      B: "Al-Baqara"
+      C: "An-Nas"
+      D: "Al-Fatiha"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first surah of the Quran?"
+        answers:
+          A: "Al-Ikhlas"
+          B: "Al-Baqara"
+          C: "An-Nas"
+          D: "Al-Fatiha"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du premier calife de l'islam ?"
+    answers:
+      A: "Abou Bakr"
+      B: "Ali ibn Abi Talib"
+      C: "Omar ibn al-Khattab"
+      D: "Othman ibn Affan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the first caliph of Islam?"
+        answers:
+          A: "Abu Bakr"
+          B: "Ali ibn Abi Talib"
+          C: "Omar ibn al-Khattab"
+          D: "Uthman ibn Affan"
+    difficulty: MEDIUM
+  - text: "Quel est le nom de la bataille qui a eu lieu en 624 entre les musulmans et les Quraychites ?"
+    answers:
+      A: "Bataille de Uhud"
+      B: "Bataille de Badr"
+      C: "Bataille de Khandaq"
+      D: "Bataille de Khaybar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the battle that took place in 624 between the Muslims and the Quraysh?"
+        answers:
+          A: "Battle of Uhud"
+          B: "Battle of Badr"
+          C: "Battle of Khandaq"
+          D: "Battle of Khaybar"
+    difficulty: HARD
+  - text: "Quel calife omeyyade a fait construire le Dôme du Rocher à Jérusalem ?"
+    answers:
+      A: "Muawiya Ier"
+      B: "Al-Walid Ier"
+      C: "Abd al-Malik"
+      D: "Marwan Ier"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which Umayyad caliph built the Dome of the Rock in Jerusalem?"
+        answers:
+          A: "Muawiya I"
+          B: "Al-Walid I"
+          C: "Abd al-Malik"
+          D: "Marwan I"
+    difficulty: EXPERT
+  - text: "Quel calife abbasside a fondé Bagdad en 762 ?"
+    answers:
+      A: "Harun al-Rashid"
+      B: "Al-Mansur"
+      C: "Al-Mamun"
+      D: "Al-Mutasim"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which Abbasid caliph founded Baghdad in 762?"
+        answers:
+          A: "Harun al-Rashid"
+          B: "Al-Mansur"
+          C: "Al-Mamun"
+          D: "Al-Mutasim"
+    difficulty: EXPERT
+  - text: "Quel est le nom du traité signé en 628 entre le Prophète et les Quraychites ?"
+    answers:
+      A: "Traité de Hudaybiyya"
+      B: "Traité de Tabuk"
+      C: "Traité de Khaybar"
+      D: "Traité de Najran"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the treaty signed in 628 between the Prophet and the Quraysh?"
+        answers:
+          A: "Treaty of Hudaybiyyah"
+          B: "Treaty of Tabuk"
+          C: "Treaty of Khaybar"
+          D: "Treaty of Najran"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la dynastie qui a construit l'Alhambra de Grenade ?"
+    answers:
+      A: "Almohades"
+      B: "Nasrides"
+      C: "Almoravides"
+      D: "Omeyyades"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the name of the dynasty that built the Alhambra in Granada?"
+        answers:
+          A: "Almohads"
+          B: "Nasrids"
+          C: "Almoravids"
+          D: "Umayyads"
+    difficulty: HARD
+  - text: "Quelle dynastie a fondé la ville de Marrakech en 1070 ?"
+    answers:
+      A: "Les Mérinides"
+      B: "Les Saadiens"
+      C: "Les Almoravides"
+      D: "Les Wattassides"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which dynasty founded the city of Marrakech in 1070?"
+        answers:
+          A: "The Marinids"
+          B: "The Saadians"
+          C: "The Almoravids"
+          D: "The Wattasids"
+    difficulty: EXPERT
+  - text: "Quel est le nom du célèbre manuscrit du Coran conservé à Birmingham ?"
+    answers:
+      A: "Manuscrit de Birmingham"
+      B: "Manuscrit de Topkapi"
+      C: "Manuscrit de Sanaa"
+      D: "Manuscrit de Samarcande"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the name of the famous Quran manuscript kept in Birmingham?"
+        answers:
+          A: "Birmingham manuscript"
+          B: "Topkapi manuscript"
+          C: "Sanaa manuscript"
+          D: "Samarkand manuscript"
+    difficulty: EXPERT
+  - text: "Quel savant andalou a rédigé 'Le Collier de la colombe', traité sur l'amour ?"
+    answers:
+      A: "Ibn Hazm"
+      B: "Averroès"
+      C: "Ibn Khaldoun"
+      D: "Al-Ghazali"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which Andalusian scholar wrote 'The Ring of the Dove', a treatise on love?"
+        answers:
+          A: "Ibn Hazm"
+          B: "Averroes"
+          C: "Ibn Khaldun"
+          D: "Al-Ghazali"
+    difficulty: EXPERT
+  - text: "Quelle bataille de 1071 a ouvert l'Anatolie aux Turcs seldjoukides ?"
+    answers:
+      A: "Bataille de Hattin"
+      B: "Bataille de Manzikert"
+      C: "Bataille de Yarmouk"
+      D: "Bataille de Nicopolis"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which 1071 battle opened Anatolia to the Seljuk Turks?"
+        answers:
+          A: "Battle of Hattin"
+          B: "Battle of Manzikert"
+          C: "Battle of Yarmouk"
+          D: "Battle of Nicopolis"
+    difficulty: EXPERT
+  - text: "Quel est le plus ancien manuscrit du Coran conservé à la bibliothèque de Birmingham ?"
+    answers:
+      A: "Coran de Birmingham"
+      B: "Coran de Samarcande"
+      C: "Coran de Topkapi"
+      D: "Coran d'Othman"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the oldest Quran manuscript kept in the Birmingham library?"
+        answers:
+          A: "Birmingham Quran"
+          B: "Samarkand Quran"
+          C: "Topkapi Quran"
+          D: "Uthman Quran"
+    difficulty: EXPERT
+  - text: "Quel savant a écrit 'Le Traité décisif' défendant la philosophie contre les attaques d'al-Ghazali ?"
+    answers:
+      A: "Ibn Taymiyya"
+      B: "Ibn Sina"
+      C: "Al-Farabi"
+      D: "Ibn Rushd"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scholar wrote 'The Decisive Treatise' defending philosophy against al-Ghazali's attacks?"
+        answers:
+          A: "Ibn Taymiyyah"
+          B: "Ibn Sina"
+          C: "Al-Farabi"
+          D: "Ibn Rushd"
     difficulty: EXPERT

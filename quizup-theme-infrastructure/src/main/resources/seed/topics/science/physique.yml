@@ -7,39 +7,39 @@ topic:
   category: SCIENCE
   imageUrl: wikipedia/science/CERN_Large_Hadron_Collider.jpg
 questions:
-  - text: "Que vaut approximativement l'accélération de la pesanteur à la surface de la Terre ?"
+  - text: "Quel physicien a reçu le prix Nobel en 1921 pour l'effet photoélectrique ?"
     answers:
-      A: "3,7 m/s²"
-      B: "1,6 m/s²"
-      C: "15,2 m/s²"
-      D: "9,8 m/s²"
+      A: "Niels Bohr"
+      B: "Werner Heisenberg"
+      C: "Max Planck"
+      D: "Albert Einstein"
     correctAnswer: D
     translations:
       en:
-        text: "What is the approximate acceleration due to gravity at the Earth's surface?"
+        text: "Which physicist received the Nobel Prize in 1921 for the photoelectric effect?"
         answers:
-          A: "3.7 m/s²"
-          B: "1.6 m/s²"
-          C: "15.2 m/s²"
-          D: "9.8 m/s²"
+          A: "Niels Bohr"
+          B: "Werner Heisenberg"
+          C: "Max Planck"
+          D: "Albert Einstein"
     difficulty: EASY
-  - text: "Quelle est l'unité de force du Système international ?"
+  - text: "En quelle année Isaac Newton a-t-il publié ses Principia ?"
     answers:
-      A: "le newton"
-      B: "le watt"
-      C: "le pascal"
-      D: "le joule"
+      A: "1687"
+      B: "1666"
+      C: "1701"
+      D: "1642"
     correctAnswer: A
     translations:
       en:
-        text: "What is the SI unit of force?"
+        text: "In what year did Isaac Newton publish his Principia?"
         answers:
-          A: "the newton"
-          B: "the watt"
-          C: "the pascal"
-          D: "the joule"
-    difficulty: EASY
-  - text: "Ce portrait représente le savant qui a formulé la loi de la gravitation universelle. Qui est-ce ?"
+          A: "1687"
+          B: "1666"
+          C: "1701"
+          D: "1642"
+    difficulty: MEDIUM
+  - text: "Qui a formulé la loi de la gravitation ?"
     imageUrl: wikipedia/science/GodfreyKneller-IsaacNewton-1689.jpg
     answers:
       A: "Isaac Newton"
@@ -49,14 +49,14 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "This portrait shows the scientist who formulated the law of universal gravitation. Who is it?"
+        text: "Who formulated the law of gravitation?"
         answers:
           A: "Isaac Newton"
           B: "Galileo"
           C: "Albert Einstein"
           D: "Johannes Kepler"
     difficulty: EASY
-  - text: "Ce portrait montre le physicien auteur de la célèbre équation E = mc². Qui est-ce ?"
+  - text: "Qui a écrit E = mc² ?"
     imageUrl: wikipedia/science/Albert_Einstein_Head.jpg
     answers:
       A: "Albert Einstein"
@@ -66,94 +66,94 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "This portrait shows the physicist who authored the famous equation E = mc². Who is it?"
+        text: "Who wrote E = mc²?"
         answers:
           A: "Albert Einstein"
           B: "Max Planck"
           C: "Niels Bohr"
           D: "Marie Curie"
     difficulty: EASY
-  - text: "Dans l'équation E = mc², que représente la lettre m ?"
+  - text: "Quelle est l'unité SI de la charge électrique ?"
     answers:
-      A: "la masse"
-      B: "la constante de gravitation"
-      C: "la quantité de mouvement"
-      D: "la distance parcourue"
+      A: "Coulomb"
+      B: "Ampère"
+      C: "Volt"
+      D: "Ohm"
     correctAnswer: A
     translations:
       en:
-        text: "In the equation E = mc², what does the letter m represent?"
+        text: "What is the SI unit of electric charge?"
         answers:
-          A: "mass"
-          B: "the gravitational constant"
-          C: "momentum"
-          D: "the distance traveled"
-    difficulty: EASY
-  - text: "Que se passe-t-il, dans le vide, pour deux objets de masses différentes lâchés en même temps ?"
+          A: "Coulomb"
+          B: "Ampere"
+          C: "Volt"
+          D: "Ohm"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a formulé le principe d'exclusion en 1925 ?"
     answers:
-      A: "Le plus léger tombe plus vite"
-      B: "Le plus lourd tombe plus vite"
-      C: "Ils ne tombent pas"
-      D: "Ils tombent à la même vitesse"
+      A: "Erwin Schrödinger"
+      B: "Max Born"
+      C: "Paul Dirac"
+      D: "Wolfgang Pauli"
     correctAnswer: D
     translations:
       en:
-        text: "In a vacuum, what happens to two objects of different masses dropped at the same time?"
+        text: "Which scientist formulated the exclusion principle in 1925?"
         answers:
-          A: "The lighter one falls faster"
-          B: "The heavier one falls faster"
-          C: "They don't fall"
-          D: "They fall at the same speed"
-    difficulty: EASY
-  - text: "Qui a écrit le livre de vulgarisation « Une brève histoire du temps » ?"
+          A: "Erwin Schrödinger"
+          B: "Max Born"
+          C: "Paul Dirac"
+          D: "Wolfgang Pauli"
+    difficulty: HARD
+  - text: "Quelle particule a été découverte au CERN en 1983 par Carlo Rubbia et Simon van der Meer ?"
     answers:
-      A: "Stephen Hawking"
-      B: "Richard Feynman"
-      C: "Albert Einstein"
-      D: "Carl Sagan"
+      A: "Le boson W"
+      B: "Le quark top"
+      C: "Le neutrino tau"
+      D: "Le boson de Higgs"
     correctAnswer: A
     translations:
       en:
-        text: "Who wrote the popular science book \"A Brief History of Time\"?"
+        text: "Which particle was discovered at CERN in 1983 by Carlo Rubbia and Simon van der Meer?"
         answers:
-          A: "Stephen Hawking"
-          B: "Richard Feynman"
-          C: "Albert Einstein"
-          D: "Carl Sagan"
-    difficulty: EASY
-  - text: "Quelle est l'unité de puissance du Système international ?"
+          A: "The W boson"
+          B: "The top quark"
+          C: "The tau neutrino"
+          D: "The Higgs boson"
+    difficulty: EXPERT
+  - text: "Qui a découvert la loi de l'induction électromagnétique en 1831 ?"
     answers:
-      A: "le joule"
-      B: "le watt"
-      C: "le newton"
-      D: "le hertz"
+      A: "André-Marie Ampère"
+      B: "Michael Faraday"
+      C: "James Clerk Maxwell"
+      D: "Heinrich Hertz"
     correctAnswer: B
     translations:
       en:
-        text: "What is the SI unit of power?"
+        text: "Who discovered the law of electromagnetic induction in 1831?"
         answers:
-          A: "the joule"
-          B: "the watt"
-          C: "the newton"
-          D: "the hertz"
-    difficulty: EASY
-  - text: "Quelle force fait tomber un objet lâché près du sol ?"
+          A: "André-Marie Ampère"
+          B: "Michael Faraday"
+          C: "James Clerk Maxwell"
+          D: "Heinrich Hertz"
+    difficulty: MEDIUM
+  - text: "Quelle est la valeur approximative de la constante gravitationnelle G ?"
     answers:
-      A: "la poussée d'Archimède"
-      B: "la force électrique"
-      C: "la force magnétique"
-      D: "la gravité"
+      A: "9,81 × 10^0 m³·kg⁻¹·s⁻²"
+      B: "1,38 × 10^-23 m³·kg⁻¹·s⁻²"
+      C: "3,00 × 10^8 m³·kg⁻¹·s⁻²"
+      D: "6,67 × 10^-11 m³·kg⁻¹·s⁻²"
     correctAnswer: D
     translations:
       en:
-        text: "What force makes an object dropped near the ground fall?"
+        text: "What is the approximate value of the gravitational constant G?"
         answers:
-          A: "Archimedes' buoyancy"
-          B: "electric force"
-          C: "magnetic force"
-          D: "gravity"
-    difficulty: EASY
-  - text: "Ce portrait montre la scientifique qui a reçu deux prix Nobel, l'un de physique et l'autre de chimie. Qui est-ce ?"
+          A: "9.81 × 10^0 m³·kg⁻¹·s⁻²"
+          B: "1.38 × 10^-23 m³·kg⁻¹·s⁻²"
+          C: "3.00 × 10^8 m³·kg⁻¹·s⁻²"
+          D: "6.67 × 10^-11 m³·kg⁻¹·s⁻²"
+    difficulty: HARD
+  - text: "Qui a reçu deux prix Nobel, physique et chimie ?"
     imageUrl: wikipedia/science/Marie_Curie_c._1920s.jpg
     answers:
       A: "Marie Curie"
@@ -163,1134 +163,1134 @@ questions:
     correctAnswer: A
     translations:
       en:
-        text: "This portrait shows the scientist who received two Nobel Prizes, one in physics and one in chemistry. Who is it?"
+        text: "Who received two Nobel Prizes, in physics and chemistry?"
         answers:
           A: "Marie Curie"
           B: "Albert Einstein"
           C: "Niels Bohr"
           D: "Linus Pauling"
-    difficulty: EASY
-  - text: "Quelle est l'unité d'énergie du Système international ?"
+    difficulty: MEDIUM
+  - text: "Quel physicien a proposé en 1900 la quantification de l'énergie pour expliquer le rayonnement du corps noir ?"
     answers:
-      A: "le newton"
-      B: "le watt"
-      C: "l'ampère"
-      D: "le joule"
+      A: "Albert Einstein"
+      B: "Niels Bohr"
+      C: "Louis de Broglie"
+      D: "Max Planck"
     correctAnswer: D
     translations:
       en:
-        text: "What is the SI unit of energy?"
+        text: "Which physicist proposed in 1900 the quantization of energy to explain black-body radiation?"
         answers:
-          A: "the newton"
-          B: "the watt"
-          C: "the ampere"
-          D: "the joule"
-    difficulty: EASY
-  - text: "Quelle est la vitesse approximative de la lumière dans le vide ?"
+          A: "Albert Einstein"
+          B: "Niels Bohr"
+          C: "Louis de Broglie"
+          D: "Max Planck"
+    difficulty: HARD
+  - text: "Quelle expérience a confirmé la relativité générale en mesurant la déviation de la lumière par le Soleil en 1919 ?"
     answers:
-      A: "30 000 km/s"
-      B: "300 000 km/s"
-      C: "3 000 km/s"
-      D: "3 millions de km/s"
+      A: "Expérience de Michelson-Morley"
+      B: "Expérience d'Eddington"
+      C: "Expérience de Pound-Rebka"
+      D: "Expérience de Cavendish"
     correctAnswer: B
     translations:
       en:
-        text: "What is the approximate speed of light in a vacuum?"
+        text: "Which experiment confirmed general relativity by measuring the deflection of light by the Sun in 1919?"
         answers:
-          A: "30,000 km/s"
-          B: "300,000 km/s"
-          C: "3,000 km/s"
-          D: "3 million km/s"
-    difficulty: EASY
-  - text: "Quelle loi de Newton décrit l'inertie ?"
+          A: "Michelson-Morley experiment"
+          B: "Eddington experiment"
+          C: "Pound-Rebka experiment"
+          D: "Cavendish experiment"
+    difficulty: HARD
+  - text: "Qui a formulé les équations de champ de la relativité générale en 1915 ?"
     answers:
-      A: "la deuxième loi"
-      B: "la première loi"
-      C: "la troisième loi"
-      D: "la loi de la gravitation"
+      A: "Hendrik Lorentz"
+      B: "Albert Einstein"
+      C: "Hermann Minkowski"
+      D: "David Hilbert"
     correctAnswer: B
     translations:
       en:
-        text: "Which of Newton's laws describes inertia?"
+        text: "Who formulated the field equations of general relativity in 1915?"
         answers:
-          A: "the second law"
-          B: "the first law"
-          C: "the third law"
-          D: "the law of gravitation"
+          A: "Hendrik Lorentz"
+          B: "Albert Einstein"
+          C: "Hermann Minkowski"
+          D: "David Hilbert"
     difficulty: EASY
-  - text: "En quelle année Albert Einstein a-t-il publié la théorie de la relativité restreinte ?"
+  - text: "Quelle particule a été découverte en 1932 par Carl David Anderson ?"
     answers:
-      A: "1895"
-      B: "1905"
-      C: "1915"
-      D: "1925"
+      A: "Le muon"
+      B: "Le positron"
+      C: "Le neutron"
+      D: "Le proton"
     correctAnswer: B
     translations:
       en:
-        text: "In what year did Albert Einstein publish the theory of special relativity?"
+        text: "Which particle was discovered in 1932 by Carl David Anderson?"
         answers:
-          A: "1895"
-          B: "1905"
-          C: "1915"
-          D: "1925"
+          A: "The muon"
+          B: "The positron"
+          C: "The neutron"
+          D: "The proton"
+    difficulty: HARD
+  - text: "Quel scientifique a découvert le neutron en 1932 ?"
+    answers:
+      A: "Ernest Rutherford"
+      B: "Niels Bohr"
+      C: "James Chadwick"
+      D: "Enrico Fermi"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist discovered the neutron in 1932?"
+        answers:
+          A: "Ernest Rutherford"
+          B: "Niels Bohr"
+          C: "James Chadwick"
+          D: "Enrico Fermi"
     difficulty: MEDIUM
-  - text: "Qui a découvert la radioactivité naturelle en 1896 ?"
+  - text: "Quelle est l'unité SI de la fréquence ?"
     answers:
-      A: "Marie Curie"
+      A: "Hertz"
+      B: "Joule"
+      C: "Watt"
+      D: "Newton"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the SI unit of frequency?"
+        answers:
+          A: "Hertz"
+          B: "Joule"
+          C: "Watt"
+          D: "Newton"
+    difficulty: EASY
+  - text: "Quel physicien a proposé le modèle de l'atome avec un noyau central en 1911 ?"
+    answers:
+      A: "J.J. Thomson"
+      B: "Niels Bohr"
+      C: "Ernest Rutherford"
+      D: "John Dalton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which physicist proposed the model of the atom with a central nucleus in 1911?"
+        answers:
+          A: "J.J. Thomson"
+          B: "Niels Bohr"
+          C: "Ernest Rutherford"
+          D: "John Dalton"
+    difficulty: MEDIUM
+  - text: "En quelle année le prix Nobel de physique a-t-il été décerné à Marie Curie ?"
+    answers:
+      A: "1911"
+      B: "1903"
+      C: "1898"
+      D: "1921"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year was the Nobel Prize in Physics awarded to Marie Curie?"
+        answers:
+          A: "1911"
+          B: "1903"
+          C: "1898"
+          D: "1921"
+    difficulty: EXPERT
+  - text: "Quel scientifique a formulé le principe de relativité restreinte en 1905 ?"
+    answers:
+      A: "Albert Einstein"
+      B: "Hendrik Lorentz"
+      C: "Henri Poincaré"
+      D: "Hermann Minkowski"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scientist formulated the principle of special relativity in 1905?"
+        answers:
+          A: "Albert Einstein"
+          B: "Hendrik Lorentz"
+          C: "Henri Poincaré"
+          D: "Hermann Minkowski"
+    difficulty: EASY
+  - text: "Quelle particule a été découverte en 2012 au LHC ?"
+    answers:
+      A: "Le neutrino muonique"
+      B: "Le quark top"
+      C: "Le boson de Higgs"
+      D: "Le boson Z"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which particle was discovered in 2012 at the LHC?"
+        answers:
+          A: "The muon neutrino"
+          B: "The top quark"
+          C: "The Higgs boson"
+          D: "The Z boson"
+    difficulty: EASY
+  - text: "Qui a découvert la radioactivité de l'uranium en 1896 ?"
+    answers:
+      A: "Henri Becquerel"
       B: "Pierre Curie"
+      C: "Marie Curie"
+      D: "Ernest Rutherford"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who discovered the radioactivity of uranium in 1896?"
+        answers:
+          A: "Henri Becquerel"
+          B: "Pierre Curie"
+          C: "Marie Curie"
+          D: "Ernest Rutherford"
+    difficulty: HARD
+  - text: "Quel physicien a prédit l'existence des ondes gravitationnelles en 1916 ?"
+    answers:
+      A: "Stephen Hawking"
+      B: "Isaac Newton"
+      C: "Albert Einstein"
+      D: "Kip Thorne"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which physicist predicted the existence of gravitational waves in 1916?"
+        answers:
+          A: "Stephen Hawking"
+          B: "Isaac Newton"
+          C: "Albert Einstein"
+          D: "Kip Thorne"
+    difficulty: MEDIUM
+  - text: "Quelle est l'unité SI de la résistance électrique ?"
+    answers:
+      A: "Volt"
+      B: "Ampère"
+      C: "Ohm"
+      D: "Watt"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the SI unit of electrical resistance?"
+        answers:
+          A: "Volt"
+          B: "Ampere"
+          C: "Ohm"
+          D: "Watt"
+    difficulty: MEDIUM
+  - text: "Quelle est la première femme à avoir obtenu un poste de professeure à la Sorbonne ?"
+    answers:
+      A: "Irène Joliot-Curie"
+      B: "Rosalind Franklin"
+      C: "Lise Meitner"
+      D: "Marie Curie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who was the first woman to obtain a professorship at the Sorbonne?"
+        answers:
+          A: "Irène Joliot-Curie"
+          B: "Rosalind Franklin"
+          C: "Lise Meitner"
+          D: "Marie Curie"
+    difficulty: EXPERT
+  - text: "Quel scientifique a introduit le concept de 'quantum d'action' en 1900 ?"
+    answers:
+      A: "Max Planck"
+      B: "Niels Bohr"
+      C: "Albert Einstein"
+      D: "Werner Heisenberg"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scientist introduced the concept of the 'quantum of action' in 1900?"
+        answers:
+          A: "Max Planck"
+          B: "Niels Bohr"
+          C: "Albert Einstein"
+          D: "Werner Heisenberg"
+    difficulty: HARD
+  - text: "Quelle particule a été postulée par Wolfgang Pauli en 1930 pour expliquer la conservation de l'énergie dans la désintégration bêta ?"
+    answers:
+      A: "Photon"
+      B: "Neutron"
+      C: "Positron"
+      D: "Neutrino"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which particle was postulated by Wolfgang Pauli in 1930 to explain energy conservation in beta decay?"
+        answers:
+          A: "Photon"
+          B: "Neutron"
+          C: "Positron"
+          D: "Neutrino"
+    difficulty: HARD
+  - text: "Quel physicien a formulé les équations de Maxwell en 1865 ?"
+    answers:
+      A: "Michael Faraday"
+      B: "James Clerk Maxwell"
+      C: "Heinrich Hertz"
+      D: "André-Marie Ampère"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which physicist formulated Maxwell's equations in 1865?"
+        answers:
+          A: "Michael Faraday"
+          B: "James Clerk Maxwell"
+          C: "Heinrich Hertz"
+          D: "André-Marie Ampère"
+    difficulty: MEDIUM
+  - text: "Quel est le nom du prix Nobel de physique décerné à Albert Einstein en 1921 ?"
+    answers:
+      A: "Pour sa contribution à la mécanique quantique"
+      B: "Pour sa théorie de la relativité restreinte"
+      C: "Pour sa théorie de la relativité générale"
+      D: "Pour sa découverte de la loi de l'effet photoélectrique"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the Nobel Prize in Physics awarded to Albert Einstein in 1921?"
+        answers:
+          A: "For his contribution to quantum mechanics"
+          B: "For his theory of special relativity"
+          C: "For his theory of general relativity"
+          D: "For his discovery of the law of the photoelectric effect"
+    difficulty: EXPERT
+  - text: "Quel scientifique a découvert la fission nucléaire en 1938 ?"
+    answers:
+      A: "Irène et Frédéric Joliot-Curie"
+      B: "Lise Meitner et Otto Frisch"
+      C: "Enrico Fermi et Emilio Segrè"
+      D: "Otto Hahn et Fritz Strassmann"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist discovered nuclear fission in 1938?"
+        answers:
+          A: "Irène and Frédéric Joliot-Curie"
+          B: "Lise Meitner and Otto Frisch"
+          C: "Enrico Fermi and Emilio Segrè"
+          D: "Otto Hahn and Fritz Strassmann"
+    difficulty: HARD
+  - text: "Quelle est l'unité SI de la capacité électrique ?"
+    answers:
+      A: "Henry"
+      B: "Tesla"
+      C: "Farad"
+      D: "Weber"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the SI unit of electrical capacitance?"
+        answers:
+          A: "Henry"
+          B: "Tesla"
+          C: "Farad"
+          D: "Weber"
+    difficulty: MEDIUM
+  - text: "Quel physicien a proposé le modèle de l'atome 'en pudding' en 1904 ?"
+    answers:
+      A: "Ernest Rutherford"
+      B: "Niels Bohr"
+      C: "J.J. Thomson"
+      D: "James Chadwick"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which physicist proposed the 'plum pudding' model of the atom in 1904?"
+        answers:
+          A: "Ernest Rutherford"
+          B: "Niels Bohr"
+          C: "J.J. Thomson"
+          D: "James Chadwick"
+    difficulty: HARD
+  - text: "Quel scientifique a formulé le principe de complémentarité en mécanique quantique ?"
+    answers:
+      A: "Werner Heisenberg"
+      B: "Niels Bohr"
+      C: "Erwin Schrödinger"
+      D: "Max Born"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist formulated the principle of complementarity in quantum mechanics?"
+        answers:
+          A: "Werner Heisenberg"
+          B: "Niels Bohr"
+          C: "Erwin Schrödinger"
+          D: "Max Born"
+    difficulty: HARD
+  - text: "Quelle est la valeur approximative de la vitesse de la lumière dans le vide en m/s ?"
+    answers:
+      A: "3 × 10^6"
+      B: "3 × 10^12"
+      C: "3 × 10^10"
+      D: "3 × 10^8"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the approximate value of the speed of light in a vacuum in m/s?"
+        answers:
+          A: "3 × 10^6"
+          B: "3 × 10^12"
+          C: "3 × 10^10"
+          D: "3 × 10^8"
+    difficulty: EASY
+  - text: "Quel physicien a découvert la supraconductivité en 1911 ?"
+    answers:
+      A: "Richard Feynman"
+      B: "Albert Einstein"
+      C: "Niels Bohr"
+      D: "Heike Kamerlingh Onnes"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which physicist discovered superconductivity in 1911?"
+        answers:
+          A: "Richard Feynman"
+          B: "Albert Einstein"
+          C: "Niels Bohr"
+          D: "Heike Kamerlingh Onnes"
+    difficulty: EXPERT
+  - text: "Quel scientifique a prédit l'existence des trous noirs en 1916 ?"
+    answers:
+      A: "Albert Einstein"
+      B: "Karl Schwarzschild"
+      C: "Stephen Hawking"
+      D: "Subrahmanyan Chandrasekhar"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist predicted the existence of black holes in 1916?"
+        answers:
+          A: "Albert Einstein"
+          B: "Karl Schwarzschild"
+          C: "Stephen Hawking"
+          D: "Subrahmanyan Chandrasekhar"
+    difficulty: EXPERT
+  - text: "Quelle particule a été découverte en 1936 par Carl David Anderson ?"
+    answers:
+      A: "Proton"
+      B: "Pion"
+      C: "Kaon"
+      D: "Muon"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which particle was discovered in 1936 by Carl David Anderson?"
+        answers:
+          A: "Proton"
+          B: "Pion"
+          C: "Kaon"
+          D: "Muon"
+    difficulty: EXPERT
+  - text: "Quel physicien a proposé le principe d'incertitude en 1927 ?"
+    answers:
+      A: "Werner Heisenberg"
+      B: "Niels Bohr"
+      C: "Max Born"
+      D: "Paul Dirac"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist proposed the uncertainty principle in 1927?"
+        answers:
+          A: "Werner Heisenberg"
+          B: "Niels Bohr"
+          C: "Max Born"
+          D: "Paul Dirac"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a formulé la loi de la gravitation universelle en 1687 ?"
+    answers:
+      A: "Galilée"
+      B: "Isaac Newton"
+      C: "Johannes Kepler"
+      D: "Nicolas Copernic"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist formulated the law of universal gravitation in 1687?"
+        answers:
+          A: "Galileo"
+          B: "Isaac Newton"
+          C: "Johannes Kepler"
+          D: "Nicolaus Copernicus"
+    difficulty: EASY
+  - text: "Quel physicien a découvert l'électron en 1897 ?"
+    answers:
+      A: "J.J. Thomson"
+      B: "Ernest Rutherford"
+      C: "Niels Bohr"
+      D: "Robert Millikan"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist discovered the electron in 1897?"
+        answers:
+          A: "J.J. Thomson"
+          B: "Ernest Rutherford"
+          C: "Niels Bohr"
+          D: "Robert Millikan"
+    difficulty: MEDIUM
+  - text: "Quelle scientifique a découvert le polonium et le radium avec Pierre Curie ?"
+    answers:
+      A: "Lise Meitner"
+      B: "Marie Curie"
+      C: "Irène Joliot-Curie"
+      D: "Rosalind Franklin"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist discovered polonium and radium with Pierre Curie?"
+        answers:
+          A: "Lise Meitner"
+          B: "Marie Curie"
+          C: "Irène Joliot-Curie"
+          D: "Rosalind Franklin"
+    difficulty: EASY
+  - text: "Quel physicien a formulé l'équation de Schrödinger en 1926 ?"
+    answers:
+      A: "Werner Heisenberg"
+      B: "Erwin Schrödinger"
+      C: "Paul Dirac"
+      D: "Max Planck"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which physicist formulated the Schrödinger equation in 1926?"
+        answers:
+          A: "Werner Heisenberg"
+          B: "Erwin Schrödinger"
+          C: "Paul Dirac"
+          D: "Max Planck"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a découvert le positon en 1932 ?"
+    answers:
+      A: "James Chadwick"
+      B: "Paul Dirac"
+      C: "Ernest Rutherford"
+      D: "Carl David Anderson"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist discovered the positron in 1932?"
+        answers:
+          A: "James Chadwick"
+          B: "Paul Dirac"
+          C: "Ernest Rutherford"
+          D: "Carl David Anderson"
+    difficulty: HARD
+  - text: "Quel physicien a proposé la théorie de l'électrodynamique quantique ?"
+    answers:
+      A: "Werner Heisenberg et Erwin Schrödinger"
+      B: "Albert Einstein et Niels Bohr"
+      C: "Richard Feynman, Julian Schwinger et Sin-Itiro Tomonaga"
+      D: "Max Planck et Paul Dirac"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which physicist proposed the theory of quantum electrodynamics?"
+        answers:
+          A: "Werner Heisenberg and Erwin Schrödinger"
+          B: "Albert Einstein and Niels Bohr"
+          C: "Richard Feynman, Julian Schwinger and Sin-Itiro Tomonaga"
+          D: "Max Planck and Paul Dirac"
+    difficulty: HARD
+  - text: "En quelle année Hendrik Lorentz a-t-il introduit les transformations qui portent son nom ?"
+    answers:
+      A: "1892"
+      B: "1904"
+      C: "1905"
+      D: "1887"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Hendrik Lorentz introduce the transformations that bear his name?"
+        answers:
+          A: "1892"
+          B: "1904"
+          C: "1905"
+          D: "1887"
+    difficulty: EXPERT
+  - text: "Quel physicien a formulé le théorème de Noether liant symétries et lois de conservation ?"
+    answers:
+      A: "Albert Einstein"
+      B: "Emmy Noether"
+      C: "Hermann Weyl"
+      D: "David Hilbert"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which physicist formulated Noether's theorem linking symmetries and conservation laws?"
+        answers:
+          A: "Albert Einstein"
+          B: "Emmy Noether"
+          C: "Hermann Weyl"
+          D: "David Hilbert"
+    difficulty: EXPERT
+  - text: "Quel scientifique a découvert l'effet Raman en 1928 ?"
+    answers:
+      A: "C. V. Raman"
+      B: "Satyendra Nath Bose"
+      C: "Meghnad Saha"
+      D: "Homi J. Bhabha"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which scientist discovered the Raman effect in 1928?"
+        answers:
+          A: "C. V. Raman"
+          B: "Satyendra Nath Bose"
+          C: "Meghnad Saha"
+          D: "Homi J. Bhabha"
+    difficulty: HARD
+  - text: "Quelle est la valeur de la constante de structure fine α ?"
+    answers:
+      A: "1/180"
+      B: "1/100"
+      C: "1/137"
+      D: "1/200"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the value of the fine-structure constant α?"
+        answers:
+          A: "1/180"
+          B: "1/100"
+          C: "1/137"
+          D: "1/200"
+    difficulty: EXPERT
+  - text: "Quel physicien a introduit le concept de fonction d'onde en 1926 ?"
+    answers:
+      A: "Werner Heisenberg"
+      B: "Erwin Schrödinger"
+      C: "Paul Dirac"
+      D: "Max Born"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which physicist introduced the concept of the wave function in 1926?"
+        answers:
+          A: "Werner Heisenberg"
+          B: "Erwin Schrödinger"
+          C: "Paul Dirac"
+          D: "Max Born"
+    difficulty: HARD
+  - text: "Quel scientifique a proposé le principe d'exclusion en 1925 ?"
+    answers:
+      A: "Niels Bohr"
+      B: "Werner Heisenberg"
+      C: "Wolfgang Pauli"
+      D: "Max Planck"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist proposed the exclusion principle in 1925?"
+        answers:
+          A: "Niels Bohr"
+          B: "Werner Heisenberg"
+          C: "Wolfgang Pauli"
+          D: "Max Planck"
+    difficulty: HARD
+  - text: "En quelle année le positon a-t-il été découvert par Carl David Anderson ?"
+    answers:
+      A: "1935"
+      B: "1930"
+      C: "1932"
+      D: "1928"
+    correctAnswer: C
+    translations:
+      en:
+        text: "In what year was the positron discovered by Carl David Anderson?"
+        answers:
+          A: "1935"
+          B: "1930"
+          C: "1932"
+          D: "1928"
+    difficulty: HARD
+  - text: "Quel physicien a formulé l'équation d'onde relativiste pour l'électron en 1928 ?"
+    answers:
+      A: "Werner Heisenberg"
+      B: "Erwin Schrödinger"
+      C: "Paul Dirac"
+      D: "Max Born"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which physicist formulated the relativistic wave equation for the electron in 1928?"
+        answers:
+          A: "Werner Heisenberg"
+          B: "Erwin Schrödinger"
+          C: "Paul Dirac"
+          D: "Max Born"
+    difficulty: HARD
+  - text: "Quel scientifique a découvert la radioactivité de l'uranium en 1896 ?"
+    answers:
+      A: "Pierre Curie"
+      B: "Marie Curie"
       C: "Henri Becquerel"
       D: "Ernest Rutherford"
     correctAnswer: C
     translations:
       en:
-        text: "Who discovered natural radioactivity in 1896?"
+        text: "Which scientist discovered the radioactivity of uranium in 1896?"
         answers:
-          A: "Marie Curie"
-          B: "Pierre Curie"
+          A: "Pierre Curie"
+          B: "Marie Curie"
           C: "Henri Becquerel"
           D: "Ernest Rutherford"
-    difficulty: MEDIUM
-  - text: "Qui a formulé le principe d'incertitude en mécanique quantique ?"
-    answers:
-      A: "Werner Heisenberg"
-      B: "Albert Einstein"
-      C: "Erwin Schrödinger"
-      D: "Niels Bohr"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who formulated the uncertainty principle in quantum mechanics?"
-        answers:
-          A: "Werner Heisenberg"
-          B: "Albert Einstein"
-          C: "Erwin Schrödinger"
-          D: "Niels Bohr"
-    difficulty: MEDIUM
-  - text: "Quel physicien est l'auteur du recueil « Surely You're Joking, Mr. Feynman! » ?"
-    answers:
-      A: "Richard Dawkins"
-      B: "Stephen Hawking"
-      C: "Richard Feynman"
-      D: "Murray Gell-Mann"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which physicist wrote the book \"Surely You're Joking, Mr. Feynman!\"?"
-        answers:
-          A: "Richard Dawkins"
-          B: "Stephen Hawking"
-          C: "Richard Feynman"
-          D: "Murray Gell-Mann"
-    difficulty: MEDIUM
-  - text: "Quelle expérience a permis à Robert Millikan de mesurer la charge de l'électron ?"
-    answers:
-      A: "l'expérience de la double fente"
-      B: "l'expérience de la goutte d'huile"
-      C: "l'expérience du pendule"
-      D: "l'expérience de la feuille d'or"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which experiment allowed Robert Millikan to measure the charge of the electron?"
-        answers:
-          A: "the double-slit experiment"
-          B: "the oil drop experiment"
-          C: "the pendulum experiment"
-          D: "the gold foil experiment"
-    difficulty: MEDIUM
-  - text: "En 2012, le boson de Higgs a été découvert grâce à quel laboratoire ?"
-    answers:
-      A: "le CERN"
-      B: "la NASA"
-      C: "le MIT"
-      D: "l'ESA"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In 2012, the Higgs boson was discovered thanks to which laboratory?"
-        answers:
-          A: "CERN"
-          B: "NASA"
-          C: "MIT"
-          D: "ESA"
-    difficulty: MEDIUM
-  - text: "Qui a proposé le modèle planétaire de l'atome en 1911 ?"
-    answers:
-      A: "Niels Bohr"
-      B: "J.J. Thomson"
-      C: "Ernest Rutherford"
-      D: "James Chadwick"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who proposed the planetary model of the atom in 1911?"
-        answers:
-          A: "Niels Bohr"
-          B: "J.J. Thomson"
-          C: "Ernest Rutherford"
-          D: "James Chadwick"
-    difficulty: MEDIUM
-  - text: "Que vaut approximativement la constante de Planck ?"
-    answers:
-      A: "6,63 × 10⁻³⁴ J·s"
-      B: "6,67 × 10⁻¹¹ N·m²/kg²"
-      C: "3,00 × 10⁸ m/s"
-      D: "1,38 × 10⁻²³ J/K"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the approximate value of Planck's constant?"
-        answers:
-          A: "6.63 × 10⁻³⁴ J·s"
-          B: "6.67 × 10⁻¹¹ N·m²/kg²"
-          C: "3.00 × 10⁸ m/s"
-          D: "1.38 × 10⁻²³ J/K"
-    difficulty: MEDIUM
-  - text: "En quelle année Einstein a-t-il achevé la théorie de la relativité générale ?"
-    answers:
-      A: "1900"
-      B: "1905"
-      C: "1915"
-      D: "1930"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In what year did Einstein complete the theory of general relativity?"
-        answers:
-          A: "1900"
-          B: "1905"
-          C: "1915"
-          D: "1930"
-    difficulty: MEDIUM
-  - text: "Qui a formulé les trois lois décrivant le mouvement des planètes ?"
-    answers:
-      A: "Galilée"
-      B: "Nicolas Copernic"
-      C: "Johannes Kepler"
-      D: "Tycho Brahe"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who formulated the three laws describing the motion of the planets?"
-        answers:
-          A: "Galileo"
-          B: "Nicolaus Copernicus"
-          C: "Johannes Kepler"
-          D: "Tycho Brahe"
-    difficulty: MEDIUM
-  - text: "Qui a proposé en 1913 le modèle de l'atome avec des orbites quantifiées ?"
-    answers:
-      A: "Ernest Rutherford"
-      B: "Werner Heisenberg"
-      C: "Max Planck"
-      D: "Niels Bohr"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who proposed in 1913 the model of the atom with quantized orbits?"
-        answers:
-          A: "Ernest Rutherford"
-          B: "Werner Heisenberg"
-          C: "Max Planck"
-          D: "Niels Bohr"
-    difficulty: MEDIUM
-  - text: "Quel physicien a mesuré la vitesse de la lumière avec un miroir rotatif en 1926 ?"
-    answers:
-      A: "Albert Michelson"
-      B: "Hendrik Lorentz"
-      C: "Galilée"
-      D: "Ole Rømer"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which physicist measured the speed of light with a rotating mirror in 1926?"
-        answers:
-          A: "Albert Michelson"
-          B: "Hendrik Lorentz"
-          C: "Galileo"
-          D: "Ole Rømer"
-    difficulty: MEDIUM
-  - text: "En quelle année Isaac Newton a-t-il publié les « Principia » ?"
-    answers:
-      A: "1665"
-      B: "1672"
-      C: "1684"
-      D: "1687"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year did Isaac Newton publish the \"Principia\"?"
-        answers:
-          A: "1665"
-          B: "1672"
-          C: "1684"
-          D: "1687"
     difficulty: HARD
-  - text: "Que vaut approximativement la constante gravitationnelle G ?"
-    answers:
-      A: "9,81 m/s²"
-      B: "6,67 × 10⁻¹¹ N·m²/kg²"
-      C: "1,60 × 10⁻¹⁹ C"
-      D: "8,31 J/(mol·K)"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the approximate value of the gravitational constant G?"
-        answers:
-          A: "9.81 m/s²"
-          B: "6.67 × 10⁻¹¹ N·m²/kg²"
-          C: "1.60 × 10⁻¹⁹ C"
-          D: "8.31 J/(mol·K)"
-    difficulty: HARD
-  - text: "Que cherchait à mettre en évidence l'expérience de Michelson et Morley en 1887 ?"
-    answers:
-      A: "l'existence du boson de Higgs"
-      B: "la rotation de la Terre"
-      C: "la gravité quantique"
-      D: "l'éther luminifère"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What did the Michelson and Morley experiment of 1887 seek to demonstrate?"
-        answers:
-          A: "the existence of the Higgs boson"
-          B: "the rotation of the Earth"
-          C: "quantum gravity"
-          D: "the luminiferous ether"
-    difficulty: HARD
-  - text: "Pour quel travail Albert Einstein a-t-il reçu le prix Nobel de physique 1921 ?"
-    answers:
-      A: "la relativité restreinte"
-      B: "l'équation E = mc²"
-      C: "la relativité générale"
-      D: "l'effet photoélectrique"
-    correctAnswer: D
-    translations:
-      en:
-        text: "For which work did Albert Einstein receive the 1921 Nobel Prize in Physics?"
-        answers:
-          A: "special relativity"
-          B: "the equation E = mc²"
-          C: "general relativity"
-          D: "the photoelectric effect"
-    difficulty: HARD
-  - text: "En quelle année Stephen Hawking a-t-il publié sa théorie du rayonnement des trous noirs ?"
-    answers:
-      A: "1988"
-      B: "1964"
-      C: "1974"
-      D: "1995"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In what year did Stephen Hawking publish his theory of black hole radiation?"
-        answers:
-          A: "1988"
-          B: "1964"
-          C: "1974"
-          D: "1995"
-    difficulty: HARD
-  - text: "Qui a partagé le prix Nobel de physique 1965 pour l'électrodynamique quantique avec Feynman et Tomonaga ?"
+  - text: "Quel physicien a introduit la constante cosmologique dans ses équations en 1917 ?"
     answers:
       A: "Albert Einstein"
-      B: "Niels Bohr"
-      C: "Julian Schwinger"
-      D: "Erwin Schrödinger"
-    correctAnswer: C
+      B: "Isaac Newton"
+      C: "Edwin Hubble"
+      D: "Alexander Friedmann"
+    correctAnswer: A
     translations:
       en:
-        text: "Who shared the 1965 Nobel Prize in Physics for quantum electrodynamics with Feynman and Tomonaga?"
+        text: "Which physicist introduced the cosmological constant into his equations in 1917?"
         answers:
           A: "Albert Einstein"
-          B: "Niels Bohr"
-          C: "Julian Schwinger"
-          D: "Erwin Schrödinger"
+          B: "Isaac Newton"
+          C: "Edwin Hubble"
+          D: "Alexander Friedmann"
     difficulty: HARD
-  - text: "Quel nom porte la transformation qui décrit le changement de référentiel en relativité restreinte ?"
+  - text: "Quelle est la valeur de l'unité de masse atomique unifiée (u) en kg ?"
     answers:
-      A: "la transformation de Galilée"
-      B: "la transformation de Lorentz"
-      C: "la transformation de Fourier"
-      D: "la transformation de Laplace"
+      A: "6,02214 × 10⁻²⁶ kg"
+      B: "9,10938 × 10⁻³¹ kg"
+      C: "1,67262 × 10⁻²⁷ kg"
+      D: "1,66054 × 10⁻²⁷ kg"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the value of the unified atomic mass unit (u) in kg?"
+        answers:
+          A: "6.02214 × 10⁻²⁶ kg"
+          B: "9.10938 × 10⁻³¹ kg"
+          C: "1.67262 × 10⁻²⁷ kg"
+          D: "1.66054 × 10⁻²⁷ kg"
+    difficulty: EXPERT
+  - text: "Quel scientifique a introduit le concept d'« atome » en tant qu'entité insécable dans l'Antiquité ?"
+    answers:
+      A: "Aristote"
+      B: "Platon"
+      C: "Thalès"
+      D: "Démocrite"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist introduced the concept of the \"atom\" as an indivisible entity in antiquity?"
+        answers:
+          A: "Aristotle"
+          B: "Plato"
+          C: "Thales"
+          D: "Democritus"
+    difficulty: HARD
+  - text: "Quelle est la valeur de la constante de gravitation universelle G ?"
+    answers:
+      A: "8,85419 × 10⁻¹² m³·kg⁻¹·s⁻²"
+      B: "6,62607 × 10⁻³⁴ m³·kg⁻¹·s⁻²"
+      C: "6,67430 × 10⁻¹¹ m³·kg⁻¹·s⁻²"
+      D: "1,38065 × 10⁻²³ m³·kg⁻¹·s⁻²"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the value of the universal gravitational constant G?"
+        answers:
+          A: "8.85419 × 10⁻¹² m³·kg⁻¹·s⁻²"
+          B: "6.62607 × 10⁻³⁴ m³·kg⁻¹·s⁻²"
+          C: "6.67430 × 10⁻¹¹ m³·kg⁻¹·s⁻²"
+          D: "1.38065 × 10⁻²³ m³·kg⁻¹·s⁻²"
+    difficulty: EXPERT
+  - text: "Quel physicien a découvert la radioactivité artificielle en 1934 ?"
+    answers:
+      A: "Ernest Rutherford"
+      B: "Marie Curie"
+      C: "Enrico Fermi"
+      D: "Frédéric et Irène Joliot-Curie"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which physicist discovered artificial radioactivity in 1934?"
+        answers:
+          A: "Ernest Rutherford"
+          B: "Marie Curie"
+          C: "Enrico Fermi"
+          D: "Frédéric and Irène Joliot-Curie"
+    difficulty: EXPERT
+  - text: "Quelle particule a été postulée par Hideki Yukawa en 1935 pour expliquer l'interaction forte ?"
+    answers:
+      A: "Le gluon"
+      B: "Le muon"
+      C: "Le pion"
+      D: "Le kaon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which particle was postulated by Hideki Yukawa in 1935 to explain the strong interaction?"
+        answers:
+          A: "The gluon"
+          B: "The muon"
+          C: "The pion"
+          D: "The kaon"
+    difficulty: EXPERT
+  - text: "Quel est le nom du premier satellite artificiel lancé en 1957 ?"
+    answers:
+      A: "Explorer 1"
+      B: "Spoutnik 1"
+      C: "Vostok 1"
+      D: "Sputnik 2"
     correctAnswer: B
     translations:
       en:
-        text: "What is the name of the transformation that describes the change of reference frame in special relativity?"
+        text: "What is the name of the first artificial satellite launched in 1957?"
         answers:
-          A: "the Galilean transformation"
-          B: "the Lorentz transformation"
-          C: "the Fourier transform"
-          D: "the Laplace transform"
-    difficulty: HARD
-  - text: "Qui a mesuré pour la première fois la constante gravitationnelle G en 1798 ?"
+          A: "Explorer 1"
+          B: "Sputnik 1"
+          C: "Vostok 1"
+          D: "Sputnik 2"
+    difficulty: MEDIUM
+  - text: "Qui a formulé la loi de la conservation de l'énergie en 1842 ?"
+    answers:
+      A: "Sadi Carnot"
+      B: "James Prescott Joule"
+      C: "Hermann von Helmholtz"
+      D: "Julius Robert von Mayer"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Who formulated the law of conservation of energy in 1842?"
+        answers:
+          A: "Sadi Carnot"
+          B: "James Prescott Joule"
+          C: "Hermann von Helmholtz"
+          D: "Julius Robert von Mayer"
+    difficulty: EXPERT
+  - text: "Quel instrument a permis à Galilée d'observer les quatre plus grandes lunes de Jupiter ?"
+    answers:
+      A: "Le télescope"
+      B: "Le microscope"
+      C: "La lunette astronomique"
+      D: "Le astrolabe"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which instrument allowed Galileo to observe the four largest moons of Jupiter?"
+        answers:
+          A: "The telescope"
+          B: "The microscope"
+          C: "The astronomical telescope"
+          D: "The astrolabe"
+    difficulty: MEDIUM
+  - text: "Quelle est la valeur de la constante de Boltzmann k ?"
+    answers:
+      A: "1,380649 × 10⁻²³ J/K"
+      B: "6,626070 × 10⁻³⁴ J/K"
+      C: "8,314462 J/K"
+      D: "2,897771 × 10⁻³ J/K"
+    correctAnswer: A
+    translations:
+      en:
+        text: "What is the value of the Boltzmann constant k?"
+        answers:
+          A: "1.380649 × 10⁻²³ J/K"
+          B: "6.626070 × 10⁻³⁴ J/K"
+          C: "8.314462 J/K"
+          D: "2.897771 × 10⁻³ J/K"
+    difficulty: EXPERT
+  - text: "Quel scientifique a découvert la loi de la chute des corps en utilisant des plans inclinés ?"
     answers:
       A: "Isaac Newton"
-      B: "Pierre-Simon de Laplace"
+      B: "Aristote"
       C: "Galilée"
-      D: "Henry Cavendish"
-    correctAnswer: D
+      D: "Johannes Kepler"
+    correctAnswer: C
     translations:
       en:
-        text: "Who first measured the gravitational constant G in 1798?"
+        text: "Which scientist discovered the law of falling bodies using inclined planes?"
         answers:
           A: "Isaac Newton"
-          B: "Pierre-Simon de Laplace"
+          B: "Aristotle"
           C: "Galileo"
-          D: "Henry Cavendish"
+          D: "Johannes Kepler"
     difficulty: HARD
-  - text: "Quelle observation de l'éclipse solaire de 1919 a confirmé la relativité générale ?"
+  - text: "Quel physicien a développé la théorie de l'électrodynamique quantique avec Julian Schwinger et Sin-Itiro Tomonaga ?"
     answers:
-      A: "la vitesse de rotation du Soleil"
-      B: "la couleur de la couronne"
-      C: "la forme de la Lune"
-      D: "la déviation de la lumière des étoiles"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which observation of the 1919 solar eclipse confirmed general relativity?"
-        answers:
-          A: "the Sun's rotation speed"
-          B: "the color of the corona"
-          C: "the shape of the Moon"
-          D: "the deflection of starlight"
-    difficulty: HARD
-  - text: "Quelle anomalie de Mercure la relativité générale explique-t-elle ?"
-    answers:
-      A: "sa couleur rouge"
-      B: "la précession de son périhélie"
-      C: "ses volcans"
-      D: "sa rotation rapide"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which anomaly of Mercury does general relativity explain?"
-        answers:
-          A: "its red color"
-          B: "the precession of its perihelion"
-          C: "its volcanoes"
-          D: "its rapid rotation"
-    difficulty: HARD
-  - text: "Comment appelle-t-on le paradoxe relativiste où un jumeau voyageur vieillit moins ?"
-    answers:
-      A: "le paradoxe de Fermi"
-      B: "le paradoxe d'Olbers"
-      C: "le paradoxe de Zénon"
-      D: "le paradoxe des jumeaux"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the relativistic paradox called in which a traveling twin ages less?"
-        answers:
-          A: "the Fermi paradox"
-          B: "Olbers' paradox"
-          C: "Zeno's paradox"
-          D: "the twin paradox"
-    difficulty: HARD
-  - text: "Comment nomme-t-on le facteur 1/√(1 − v²/c²) en relativité restreinte ?"
-    answers:
-      A: "le facteur de Lorentz"
-      B: "le facteur de Boltzmann"
-      C: "le facteur de Planck"
-      D: "le facteur de Hubble"
+      A: "Richard Feynman"
+      B: "Willis Lamb"
+      C: "Paul Dirac"
+      D: "Freeman Dyson"
     correctAnswer: A
     translations:
       en:
-        text: "What is the factor 1/√(1 − v²/c²) called in special relativity?"
+        text: "Which physicist developed the theory of quantum electrodynamics with Julian Schwinger and Sin-Itiro Tomonaga?"
         answers:
-          A: "the Lorentz factor"
-          B: "the Boltzmann factor"
-          C: "the Planck factor"
-          D: "the Hubble factor"
-    difficulty: HARD
-  - text: "Quelle est la vitesse de libération à la surface de la Terre ?"
+          A: "Richard Feynman"
+          B: "Willis Lamb"
+          C: "Paul Dirac"
+          D: "Freeman Dyson"
+    difficulty: EXPERT
+  - text: "Quelle est l'unité SI de l'inductance ?"
     answers:
-      A: "environ 3,0 km/s"
-      B: "environ 11,2 km/s"
-      C: "environ 300 000 km/s"
-      D: "environ 340 m/s"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the escape velocity at the Earth's surface?"
-        answers:
-          A: "about 3.0 km/s"
-          B: "about 11.2 km/s"
-          C: "about 300,000 km/s"
-          D: "about 340 m/s"
-    difficulty: HARD
-  - text: "Que représente la constante cosmologique Λ dans l'équation d'Einstein ?"
-    answers:
-      A: "une énergie du vide accélérant l'expansion"
-      B: "la courbure locale de l'espace"
-      C: "la constante de Planck"
-      D: "la vitesse de la lumière"
+      A: "Le henry"
+      B: "Le tesla"
+      C: "Le weber"
+      D: "Le siemens"
     correctAnswer: A
     translations:
       en:
-        text: "What does the cosmological constant Λ represent in Einstein's equation?"
+        text: "What is the SI unit of inductance?"
         answers:
-          A: "a vacuum energy accelerating the expansion"
-          B: "the local curvature of space"
-          C: "the Planck constant"
-          D: "the speed of light"
-    difficulty: EXPERT
-  - text: "En 1908, quel mathématicien a introduit la notion d'espace-temps à quatre dimensions ?"
+          A: "The henry"
+          B: "The tesla"
+          C: "The weber"
+          D: "The siemens"
+    difficulty: HARD
+  - text: "Quel scientifique a proposé le modèle de l'atome « en pudding » en 1904 ?"
     answers:
-      A: "Hendrik Lorentz"
-      B: "Hermann Minkowski"
-      C: "Henri Poincaré"
-      D: "David Hilbert"
+      A: "Ernest Rutherford"
+      B: "Niels Bohr"
+      C: "Joseph John Thomson"
+      D: "John Dalton"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist proposed the \"plum pudding\" model of the atom in 1904?"
+        answers:
+          A: "Ernest Rutherford"
+          B: "Niels Bohr"
+          C: "Joseph John Thomson"
+          D: "John Dalton"
+    difficulty: HARD
+  - text: "En quelle année le prix Nobel de physique a-t-il été décerné à Albert Einstein ?"
+    answers:
+      A: "1919"
+      B: "1922"
+      C: "1905"
+      D: "1921"
+    correctAnswer: D
+    translations:
+      en:
+        text: "In what year was the Nobel Prize in Physics awarded to Albert Einstein?"
+        answers:
+          A: "1919"
+          B: "1922"
+          C: "1905"
+          D: "1921"
+    difficulty: EXPERT
+  - text: "Quel physicien a introduit la constante cosmologique dans ses équations de champ en 1917 ?"
+    answers:
+      A: "Albert Einstein"
+      B: "Alexandre Friedmann"
+      C: "Willem de Sitter"
+      D: "Georges Lemaître"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist introduced the cosmological constant into his field equations in 1917?"
+        answers:
+          A: "Albert Einstein"
+          B: "Alexandre Friedmann"
+          C: "Willem de Sitter"
+          D: "Georges Lemaître"
+    difficulty: EXPERT
+  - text: "Quel est le nom de la particule médiatrice de l'interaction électromagnétique ?"
+    answers:
+      A: "Le gluon"
+      B: "Le photon"
+      C: "Le boson W"
+      D: "Le graviton"
     correctAnswer: B
     translations:
       en:
-        text: "In 1908, which mathematician introduced the notion of four-dimensional spacetime?"
+        text: "What is the name of the force carrier particle of the electromagnetic interaction?"
         answers:
-          A: "Hendrik Lorentz"
-          B: "Hermann Minkowski"
-          C: "Henri Poincaré"
-          D: "David Hilbert"
-    difficulty: EXPERT
-  - text: "En 1935, quel article d'Einstein, Podolsky et Rosen a mis en doute le caractère complet de la mécanique quantique ?"
+          A: "The gluon"
+          B: "The photon"
+          C: "The W boson"
+          D: "The graviton"
+    difficulty: MEDIUM
+  - text: "Qui a découvert la supraconductivité en 1911 ?"
     answers:
-      A: "le paradoxe des jumeaux"
-      B: "le paradoxe EPR"
-      C: "le chat de Schrödinger"
-      D: "le principe d'incertitude"
+      A: "Heike Kamerlingh Onnes"
+      B: "John Bardeen"
+      C: "Lev Landau"
+      D: "Walther Meissner"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Who discovered superconductivity in 1911?"
+        answers:
+          A: "Heike Kamerlingh Onnes"
+          B: "John Bardeen"
+          C: "Lev Landau"
+          D: "Walther Meissner"
+    difficulty: EXPERT
+  - text: "Quel scientifique a reçu le prix Nobel de physique en 1921 pour sa découverte de l'effet photoélectrique ?"
+    answers:
+      A: "Max Planck"
+      B: "Niels Bohr"
+      C: "Louis de Broglie"
+      D: "Albert Einstein"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist received the Nobel Prize in Physics in 1921 for his discovery of the photoelectric effect?"
+        answers:
+          A: "Max Planck"
+          B: "Niels Bohr"
+          C: "Louis de Broglie"
+          D: "Albert Einstein"
+    difficulty: HARD
+  - text: "Quelle particule a été découverte en 1932 par James Chadwick ?"
+    answers:
+      A: "Le proton"
+      B: "L'électron"
+      C: "Le neutron"
+      D: "Le positon"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which particle was discovered in 1932 by James Chadwick?"
+        answers:
+          A: "The proton"
+          B: "The electron"
+          C: "The neutron"
+          D: "The positron"
+    difficulty: HARD
+  - text: "Quel scientifique a formulé la loi de l'action et de la réaction ?"
+    answers:
+      A: "Galilée"
+      B: "Einstein"
+      C: "Kepler"
+      D: "Newton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist formulated the law of action and reaction?"
+        answers:
+          A: "Galileo"
+          B: "Einstein"
+          C: "Kepler"
+          D: "Newton"
+    difficulty: MEDIUM
+  - text: "Quel physicien a proposé le modèle de l'atome de « plum pudding » ?"
+    answers:
+      A: "Ernest Rutherford"
+      B: "J.J. Thomson"
+      C: "Niels Bohr"
+      D: "James Chadwick"
     correctAnswer: B
     translations:
       en:
-        text: "In 1935, which paper by Einstein, Podolsky and Rosen questioned the completeness of quantum mechanics?"
+        text: "Which physicist proposed the \"plum pudding\" model of the atom?"
         answers:
-          A: "the twin paradox"
-          B: "the EPR paradox"
-          C: "Schrödinger's cat"
-          D: "the uncertainty principle"
-    difficulty: EXPERT
-  - text: "Quel physicien a prédit l'existence du positron avec son équation en 1928 ?"
+          A: "Ernest Rutherford"
+          B: "J.J. Thomson"
+          C: "Niels Bohr"
+          D: "James Chadwick"
+    difficulty: HARD
+  - text: "En quelle année Ernest Rutherford a-t-il proposé son modèle nucléaire de l'atome ?"
     answers:
-      A: "Max Born"
+      A: "1905"
+      B: "1911"
+      C: "1909"
+      D: "1913"
+    correctAnswer: B
+    translations:
+      en:
+        text: "In what year did Ernest Rutherford propose his nuclear model of the atom?"
+        answers:
+          A: "1905"
+          B: "1911"
+          C: "1909"
+          D: "1913"
+    difficulty: EXPERT
+  - text: "Quel physicien a découvert le neutron en 1932 ?"
+    answers:
+      A: "Werner Heisenberg"
+      B: "Enrico Fermi"
+      C: "James Chadwick"
+      D: "Otto Hahn"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which physicist discovered the neutron in 1932?"
+        answers:
+          A: "Werner Heisenberg"
+          B: "Enrico Fermi"
+          C: "James Chadwick"
+          D: "Otto Hahn"
+    difficulty: HARD
+  - text: "Quelle est la valeur approximative de la constante de Hubble H₀ en km/s/Mpc ?"
+    answers:
+      A: "10"
+      B: "300"
+      C: "70"
+      D: "1000"
+    correctAnswer: C
+    translations:
+      en:
+        text: "What is the approximate value of the Hubble constant H₀ in km/s/Mpc?"
+        answers:
+          A: "10"
+          B: "300"
+          C: "70"
+          D: "1000"
+    difficulty: EXPERT
+  - text: "Quel scientifique a reçu le prix Nobel de physique 1921 ?"
+    answers:
+      A: "Niels Bohr"
+      B: "Albert Einstein"
+      C: "Max Planck"
+      D: "Werner Heisenberg"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist received the 1921 Nobel Prize in Physics?"
+        answers:
+          A: "Niels Bohr"
+          B: "Albert Einstein"
+          C: "Max Planck"
+          D: "Werner Heisenberg"
+    difficulty: HARD
+  - text: "Quel physicien a formulé le principe d'exclusion en 1925 ?"
+    answers:
+      A: "Erwin Schrödinger"
       B: "Werner Heisenberg"
-      C: "Erwin Schrödinger"
+      C: "Wolfgang Pauli"
       D: "Paul Dirac"
-    correctAnswer: D
+    correctAnswer: C
     translations:
       en:
-        text: "Which physicist predicted the existence of the positron with his equation in 1928?"
+        text: "Which physicist formulated the exclusion principle in 1925?"
         answers:
-          A: "Max Born"
+          A: "Erwin Schrödinger"
           B: "Werner Heisenberg"
-          C: "Erwin Schrödinger"
+          C: "Wolfgang Pauli"
           D: "Paul Dirac"
     difficulty: EXPERT
-  - text: "Selon la théorie de Hawking, la température d'un trou noir est inversement proportionnelle à quoi ?"
+  - text: "Quel scientifique a découvert la radioactivité induite en 1934 ?"
     answers:
-      A: "sa charge électrique"
-      B: "sa vitesse de rotation"
-      C: "sa masse"
-      D: "son âge"
-    correctAnswer: C
-    translations:
-      en:
-        text: "According to Hawking's theory, the temperature of a black hole is inversely proportional to what?"
-        answers:
-          A: "its electric charge"
-          B: "its rotation speed"
-          C: "its mass"
-          D: "its age"
-    difficulty: EXPERT
-  - text: "Que vaut approximativement la longueur de Planck ?"
-    answers:
-      A: "1,6 × 10⁻¹⁹ m"
-      B: "1,6 × 10⁻³⁵ m"
-      C: "9,1 × 10⁻³¹ m"
-      D: "6,6 × 10⁻³⁴ m"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the approximate value of the Planck length?"
-        answers:
-          A: "1.6 × 10⁻¹⁹ m"
-          B: "1.6 × 10⁻³⁵ m"
-          C: "9.1 × 10⁻³¹ m"
-          D: "6.6 × 10⁻³⁴ m"
-    difficulty: EXPERT
-  - text: "Qu'ont mesuré Pound et Rebka en 1959 à l'université Harvard ?"
-    answers:
-      A: "la charge de l'électron"
-      B: "le décalage gravitationnel de la lumière"
-      C: "la constante de Hubble"
-      D: "le rayonnement cosmologique"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What did Pound and Rebka measure in 1959 at Harvard University?"
-        answers:
-          A: "the charge of the electron"
-          B: "the gravitational redshift of light"
-          C: "the Hubble constant"
-          D: "the cosmic radiation"
-    difficulty: EXPERT
-  - text: "Dans l'équation d'Einstein, que représente le tenseur T_μν ?"
-    answers:
-      A: "la distribution d'énergie et d'impulsion"
-      B: "la courbure de l'espace-temps"
-      C: "la constante cosmologique"
-      D: "la métrique de l'espace-temps"
-    correctAnswer: A
-    translations:
-      en:
-        text: "In Einstein's equation, what does the tensor T_μν represent?"
-        answers:
-          A: "the distribution of energy and momentum"
-          B: "the curvature of spacetime"
-          C: "the cosmological constant"
-          D: "the metric of spacetime"
-    difficulty: EXPERT
-  - text: "Quelle est la valeur approximative de la limite de Chandrasekhar pour une naine blanche ?"
-    answers:
-      A: "0,1 masse solaire"
-      B: "10 masses solaires"
-      C: "1,4 masse solaire"
-      D: "100 masses solaires"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the approximate value of the Chandrasekhar limit for a white dwarf?"
-        answers:
-          A: "0.1 solar mass"
-          B: "10 solar masses"
-          C: "1.4 solar mass"
-          D: "100 solar masses"
-    difficulty: EXPERT
-  - text: "Selon la formule de Bekenstein-Hawking, l'entropie d'un trou noir est proportionnelle à quoi ?"
-    answers:
-      A: "son volume"
-      B: "l'aire de son horizon"
-      C: "sa masse au carré"
-      D: "sa température"
-    correctAnswer: B
-    translations:
-      en:
-        text: "According to the Bekenstein-Hawking formula, the entropy of a black hole is proportional to what?"
-        answers:
-          A: "its volume"
-          B: "the area of its horizon"
-          C: "its mass squared"
-          D: "its temperature"
-    difficulty: EXPERT
-  - text: "En 2015, quel observatoire a détecté pour la première fois des ondes gravitationnelles ?"
-    answers:
-      A: "le LHC"
-      B: "Hubble"
-      C: "LIGO"
-      D: "le VLT"
-    correctAnswer: C
-    translations:
-      en:
-        text: "In 2015, which observatory detected gravitational waves for the first time?"
-        answers:
-          A: "the LHC"
-          B: "Hubble"
-          C: "LIGO"
-          D: "the VLT"
-    difficulty: EXPERT
-  - text: "Quelle approche Richard Feynman a-t-il développée pour la mécanique quantique ?"
-    answers:
-      A: "la théorie des cordes"
-      B: "la gravité quantique à boucles"
-      C: "l'intégrale de chemin"
-      D: "la renormalisation"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which approach did Richard Feynman develop for quantum mechanics?"
-        answers:
-          A: "string theory"
-          B: "loop quantum gravity"
-          C: "the path integral"
-          D: "renormalization"
-    difficulty: EXPERT
-  - text: "Quelle est l'unité de mesure de la tension électrique ?"
-    answers:
-      A: "L'ampère"
-      B: "L'ohm"
-      C: "Le volt"
-      D: "Le watt"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the unit of measurement for electrical voltage?"
-        answers:
-          A: "The ampere"
-          B: "The ohm"
-          C: "The volt"
-          D: "The watt"
-    difficulty: EASY
-  - text: "Quel est le symbole de l'ohm, l'unité de résistance électrique ?"
-    answers:
-      A: "Oh"
-      B: "O"
-      C: "Ω"
-      D: "ω"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the symbol for the ohm, the unit of electrical resistance?"
-        answers:
-          A: "Oh"
-          B: "O"
-          C: "Ω"
-          D: "ω"
-    difficulty: EASY
-  - text: "Quelle particule porte une charge électrique négative ?"
-    answers:
-      A: "L'électron"
-      B: "Le neutron"
-      C: "Le photon"
-      D: "Le proton"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which particle carries a negative electric charge?"
-        answers:
-          A: "The electron"
-          B: "The neutron"
-          C: "The photon"
-          D: "The proton"
-    difficulty: EASY
-  - text: "Quel métal est fortement attiré par un aimant ?"
-    answers:
-      A: "Le cuivre"
-      B: "L'aluminium"
-      C: "Le plomb"
-      D: "Le fer"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which metal is strongly attracted by a magnet?"
-        answers:
-          A: "Copper"
-          B: "Aluminum"
-          C: "Lead"
-          D: "Iron"
-    difficulty: EASY
-  - text: "À quelle température l'eau pure bout-elle sous une pression atmosphérique normale ?"
-    answers:
-      A: "0 °C"
-      B: "50 °C"
-      C: "150 °C"
-      D: "100 °C"
-    correctAnswer: D
-    translations:
-      en:
-        text: "At what temperature does pure water boil under normal atmospheric pressure?"
-        answers:
-          A: "0 °C"
-          B: "50 °C"
-          C: "150 °C"
-          D: "100 °C"
-    difficulty: EASY
-  - text: "Quel appareil sert à mesurer la tension électrique ?"
-    answers:
-      A: "L'ampèremètre"
-      B: "L'ohmmètre"
-      C: "Le voltmètre"
-      D: "Le wattmètre"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which device is used to measure electrical voltage?"
-        answers:
-          A: "The ammeter"
-          B: "The ohmmeter"
-          C: "The voltmeter"
-          D: "The wattmeter"
-    difficulty: EASY
-  - text: "Combien de couleurs distingue-t-on traditionnellement dans un arc-en-ciel ?"
-    answers:
-      A: "Cinq"
-      B: "Six"
-      C: "Huit"
-      D: "Sept"
-    correctAnswer: D
-    translations:
-      en:
-        text: "How many colors are traditionally distinguished in a rainbow?"
-        answers:
-          A: "Five"
-          B: "Six"
-          C: "Eight"
-          D: "Seven"
-    difficulty: EASY
-  - text: "Quelle est la valeur approximative de la vitesse de la lumière dans le vide ?"
-    answers:
-      A: "30 000 km/s"
-      B: "300 000 m/s"
-      C: "300 000 km/s"
-      D: "3 000 000 km/s"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the approximate value of the speed of light in a vacuum?"
-        answers:
-          A: "30,000 km/s"
-          B: "300,000 m/s"
-          C: "300,000 km/s"
-          D: "3,000,000 km/s"
-    difficulty: MEDIUM
-  - text: "Qui a démontré que la lumière blanche se décompose en couleurs à travers un prisme ?"
-    answers:
-      A: "Christian Huygens"
-      B: "Isaac Newton"
-      C: "Galilée"
-      D: "Augustin Fresnel"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Who demonstrated that white light decomposes into colors through a prism?"
-        answers:
-          A: "Christiaan Huygens"
-          B: "Isaac Newton"
-          C: "Galileo"
-          D: "Augustin Fresnel"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on le point où une lentille convergente fait converger des rayons parallèles à son axe ?"
-    answers:
-      A: "Le centre optique"
-      B: "Le point nodal"
-      C: "L'axe principal"
-      D: "Le foyer"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the point called where a converging lens brings rays parallel to its axis to a focus?"
-        answers:
-          A: "The optical center"
-          B: "The nodal point"
-          C: "The principal axis"
-          D: "The focal point"
-    difficulty: MEDIUM
-  - text: "Quelle loi relie la tension, l'intensité et la résistance dans un conducteur ohmique ?"
-    answers:
-      A: "La loi de Joule"
-      B: "La loi de Coulomb"
-      C: "La loi d'Ohm"
-      D: "La loi de Faraday"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which law relates voltage, current, and resistance in an ohmic conductor?"
-        answers:
-          A: "Joule's law"
-          B: "Coulomb's law"
-          C: "Ohm's law"
-          D: "Faraday's law"
-    difficulty: MEDIUM
-  - text: "Qui a formulé en 1785 la loi de l'attraction entre charges électriques ?"
-    answers:
-      A: "Charles-Augustin de Coulomb"
-      B: "André-Marie Ampère"
-      C: "Alessandro Volta"
-      D: "Georg Ohm"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who formulated in 1785 the law of attraction between electric charges?"
-        answers:
-          A: "Charles-Augustin de Coulomb"
-          B: "André-Marie Ampère"
-          C: "Alessandro Volta"
-          D: "Georg Ohm"
-    difficulty: MEDIUM
-  - text: "Quelle échelle de température prend le zéro absolu comme origine ?"
-    answers:
-      A: "L'échelle Celsius"
-      B: "L'échelle Fahrenheit"
-      C: "L'échelle Kelvin"
-      D: "L'échelle Réaumur"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which temperature scale takes absolute zero as its origin?"
-        answers:
-          A: "The Celsius scale"
-          B: "The Fahrenheit scale"
-          C: "The Kelvin scale"
-          D: "The Réaumur scale"
-    difficulty: MEDIUM
-  - text: "Quel physicien a unifié l'électricité et le magnétisme dans quatre équations célèbres ?"
-    answers:
-      A: "James Clerk Maxwell"
-      B: "Michael Faraday"
-      C: "André-Marie Ampère"
-      D: "Heinrich Hertz"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which physicist unified electricity and magnetism in four famous equations?"
-        answers:
-          A: "James Clerk Maxwell"
-          B: "Michael Faraday"
-          C: "André-Marie Ampère"
-          D: "Heinrich Hertz"
-    difficulty: HARD
-  - text: "Quelle expérience de 1911 a révélé l'existence d'un noyau atomique dense et chargé positivement ?"
-    answers:
-      A: "L'expérience de la feuille d'or"
-      B: "L'expérience des fentes de Young"
-      C: "L'expérience de Michelson-Morley"
-      D: "L'expérience de la goutte d'huile"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which 1911 experiment revealed the existence of a dense, positively charged atomic nucleus?"
-        answers:
-          A: "The gold foil experiment"
-          B: "Young's double-slit experiment"
-          C: "The Michelson-Morley experiment"
-          D: "The oil drop experiment"
-    difficulty: HARD
-  - text: "Quel scientifique a expliqué la couleur bleue du ciel par la diffusion de la lumière ?"
-    answers:
-      A: "Christiaan Huygens"
-      B: "Thomas Young"
-      C: "Lord Rayleigh"
-      D: "Pierre-Simon de Laplace"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which scientist explained the blue color of the sky through light scattering?"
-        answers:
-          A: "Christiaan Huygens"
-          B: "Thomas Young"
-          C: "Lord Rayleigh"
-          D: "Pierre-Simon de Laplace"
-    difficulty: HARD
-  - text: "En quelle année Albert Einstein a-t-il publié son article expliquant l'effet photoélectrique ?"
-    answers:
-      A: "1887"
-      B: "1899"
-      C: "1912"
-      D: "1905"
-    correctAnswer: D
-    translations:
-      en:
-        text: "In what year did Albert Einstein publish his paper explaining the photoelectric effect?"
-        answers:
-          A: "1887"
-          B: "1899"
-          C: "1912"
-          D: "1905"
-    difficulty: HARD
-  - text: "Quel boson est le médiateur de l'interaction électromagnétique ?"
-    answers:
-      A: "Le photon"
-      B: "Le boson W"
-      C: "Le gluon"
-      D: "Le graviton"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which boson mediates the electromagnetic interaction?"
-        answers:
-          A: "The photon"
-          B: "The W boson"
-          C: "The gluon"
-          D: "The graviton"
-    difficulty: HARD
-  - text: "À quelle valeur se situe le zéro absolu sur l'échelle Celsius ?"
-    answers:
-      A: "-173,15 °C"
-      B: "-273,15 °C"
-      C: "-373,15 °C"
-      D: "0 °C"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What is the value of absolute zero on the Celsius scale?"
-        answers:
-          A: "-173.15 °C"
-          B: "-273.15 °C"
-          C: "-373.15 °C"
-          D: "0 °C"
-    difficulty: HARD
-  - text: "Quelle est la valeur approximative de la constante de Planck ?"
-    answers:
-      A: "6,63 × 10⁻³⁴ J·s"
-      B: "9,81 × 10⁻³⁴ J·s"
-      C: "1,60 × 10⁻¹⁹ J·s"
-      D: "3,00 × 10⁸ m/s"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the approximate value of Planck's constant?"
-        answers:
-          A: "6.63 × 10⁻³⁴ J·s"
-          B: "9.81 × 10⁻³⁴ J·s"
-          C: "1.60 × 10⁻¹⁹ J·s"
-          D: "3.00 × 10⁸ m/s"
-    difficulty: EXPERT
-  - text: "Pour quels travaux Albert Einstein a-t-il reçu le prix Nobel de physique 1921 ?"
-    answers:
-      A: "La relativité restreinte"
-      B: "La relativité générale"
-      C: "Le mouvement brownien"
-      D: "L'effet photoélectrique"
-    correctAnswer: D
-    translations:
-      en:
-        text: "For which work did Albert Einstein receive the 1921 Nobel Prize in Physics?"
-        answers:
-          A: "Special relativity"
-          B: "General relativity"
-          C: "Brownian motion"
-          D: "The photoelectric effect"
-    difficulty: EXPERT
-  - text: "Qui a découvert le positron en 1932 ?"
-    answers:
-      A: "Paul Dirac"
-      B: "Ernest Lawrence"
-      C: "Carl David Anderson"
-      D: "Victor Hess"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Who discovered the positron in 1932?"
-        answers:
-          A: "Paul Dirac"
-          B: "Ernest Lawrence"
-          C: "Carl David Anderson"
-          D: "Victor Hess"
-    difficulty: EXPERT
-  - text: "Quel principe interdit de connaître simultanément et précisément la position et l'impulsion d'une particule ?"
-    answers:
-      A: "Le principe d'exclusion de Pauli"
-      B: "Le principe de correspondance"
-      C: "Le principe de superposition"
-      D: "Le principe d'incertitude"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which principle forbids knowing both the position and momentum of a particle simultaneously and precisely?"
-        answers:
-          A: "The Pauli exclusion principle"
-          B: "The correspondence principle"
-          C: "The superposition principle"
-          D: "The uncertainty principle"
-    difficulty: EXPERT
-  - text: "À quelle énergie de collision le LHC a-t-il découvert le boson de Higgs en 2012 ?"
-    answers:
-      A: "1 TeV"
-      B: "8 TeV"
-      C: "14 TeV"
-      D: "500 GeV"
-    correctAnswer: B
-    translations:
-      en:
-        text: "At what collision energy did the LHC discover the Higgs boson in 2012?"
-        answers:
-          A: "1 TeV"
-          B: "8 TeV"
-          C: "14 TeV"
-          D: "500 GeV"
-    difficulty: EXPERT
-  - text: "Qui a mesuré la charge élémentaire avec l'expérience de la goutte d'huile en 1909 ?"
-    answers:
-      A: "Joseph John Thomson"
-      B: "Robert Millikan"
+      A: "Marie Curie et Pierre Curie"
+      B: "Irène Joliot-Curie et Frédéric Joliot"
       C: "Ernest Rutherford"
-      D: "Niels Bohr"
+      D: "Enrico Fermi"
     correctAnswer: B
     translations:
       en:
-        text: "Who measured the elementary charge with the oil drop experiment in 1909?"
+        text: "Which scientist discovered induced radioactivity in 1934?"
         answers:
-          A: "Joseph John Thomson"
-          B: "Robert Millikan"
+          A: "Marie Curie and Pierre Curie"
+          B: "Irène Joliot-Curie and Frédéric Joliot"
           C: "Ernest Rutherford"
-          D: "Niels Bohr"
+          D: "Enrico Fermi"
     difficulty: EXPERT
-  - text: "Quelle particule est le quantum de la lumière ?"
-    answers:
-      A: "L'électron"
-      B: "Le neutron"
-      C: "Le photon"
-      D: "Le neutrino"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which particle is the quantum of light?"
-        answers:
-          A: "The electron"
-          B: "The neutron"
-          C: "The photon"
-          D: "The neutrino"
-    difficulty: EASY
-  - text: "Quelle est l'unité d'intensité du courant électrique ?"
-    answers:
-      A: "Le volt"
-      B: "L'ohm"
-      C: "L'ampère"
-      D: "Le coulomb"
-    correctAnswer: C
-    translations:
-      en:
-        text: "What is the unit of electric current intensity?"
-        answers:
-          A: "The volt"
-          B: "The ohm"
-          C: "The ampere"
-          D: "The coulomb"
-    difficulty: EASY
-  - text: "Que se passe-t-il lorsqu'on approche le pôle nord d'un aimant du pôle nord d'un autre aimant ?"
-    answers:
-      A: "Ils s'attirent"
-      B: "Ils se repoussent"
-      C: "Ils ne réagissent pas"
-      D: "Ils perdent leur magnétisme"
-    correctAnswer: B
-    translations:
-      en:
-        text: "What happens when you bring the north pole of one magnet near the north pole of another magnet?"
-        answers:
-          A: "They attract each other"
-          B: "They repel each other"
-          C: "They do not react"
-          D: "They lose their magnetism"
-    difficulty: EASY
-  - text: "La foudre est une décharge de quelle nature ?"
-    answers:
-      A: "Chimique"
-      B: "Magnétique"
-      C: "Électrique"
-      D: "Nucléaire"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Lightning is a discharge of what nature?"
-        answers:
-          A: "Chemical"
-          B: "Magnetic"
-          C: "Electrical"
-          D: "Nuclear"
-    difficulty: EASY
-  - text: "Quel instrument à lentilles permet d'observer des objets célestes lointains ?"
-    answers:
-      A: "Le microscope"
-      B: "Le télescope"
-      C: "Le périscope"
-      D: "L'endoscope"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which lens-based instrument allows observing distant celestial objects?"
-        answers:
-          A: "The microscope"
-          B: "The telescope"
-          C: "The periscope"
-          D: "The endoscope"
-    difficulty: EASY
-  - text: "Cette radiographie de la main d'Anna Bertha Röntgen, datée de 1895, est la première jamais réalisée. Qui a découvert les rayons X cette année-là ?"
+  - text: "Qui a découvert les rayons X en 1895 ?"
     imageUrl: wikipedia/science/First_medical_X-ray_by_Wilhelm_Rontgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg
     answers:
       A: "Marie Curie"
@@ -1300,301 +1300,301 @@ questions:
     correctAnswer: B
     translations:
       en:
-        text: "This X-ray of Anna Bertha Röntgen's hand, dated 1895, is the first ever taken. Who discovered X-rays that year?"
+        text: "Who discovered X-rays in 1895?"
         answers:
           A: "Marie Curie"
           B: "Wilhelm Röntgen"
           C: "Joseph John Thomson"
           D: "Max Planck"
     difficulty: MEDIUM
-  - text: "Quelle est l'unité de charge électrique du Système international ?"
-    answers:
-      A: "Le coulomb"
-      B: "Le volt"
-      C: "Le farad"
-      D: "L'ampère"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What is the SI unit of electric charge?"
-        answers:
-          A: "The coulomb"
-          B: "The volt"
-          C: "The farad"
-          D: "The ampere"
-    difficulty: MEDIUM
-  - text: "Que se passe-t-il lors d'une réaction de fusion nucléaire ?"
-    answers:
-      A: "Des noyaux légers s'assemblent pour former un noyau plus lourd"
-      B: "Un noyau lourd se scinde en deux"
-      C: "Des électrons sont arrachés aux atomes"
-      D: "Un noyau capture un électron"
-    correctAnswer: A
-    translations:
-      en:
-        text: "What happens during a nuclear fusion reaction?"
-        answers:
-          A: "Light nuclei combine to form a heavier nucleus"
-          B: "A heavy nucleus splits in two"
-          C: "Electrons are stripped from atoms"
-          D: "A nucleus captures an electron"
-    difficulty: MEDIUM
-  - text: "Quel principe de la thermodynamique affirme que l'entropie d'un système isolé ne peut qu'augmenter ?"
-    answers:
-      A: "Le premier principe"
-      B: "Le troisième principe"
-      C: "Le deuxième principe"
-      D: "Le principe zéro"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which law of thermodynamics states that the entropy of an isolated system can only increase?"
-        answers:
-          A: "The first law"
-          B: "The third law"
-          C: "The second law"
-          D: "The zeroth law"
-    difficulty: MEDIUM
-  - text: "Sur quel site se trouve le Grand collisionneur de hadrons (LHC) ?"
-    answers:
-      A: "Le Fermilab, près de Chicago"
-      B: "Le CERN, près de Genève"
-      C: "Le SLAC, en Californie"
-      D: "Le KEK, au Japon"
-    correctAnswer: B
-    translations:
-      en:
-        text: "At which site is the Large Hadron Collider (LHC) located?"
-        answers:
-          A: "Fermilab, near Chicago"
-          B: "CERN, near Geneva"
-          C: "SLAC, in California"
-          D: "KEK, in Japan"
-    difficulty: MEDIUM
-  - text: "Quel physicien belge a partagé le prix Nobel de physique 2013 avec Peter Higgs ?"
-    answers:
-      A: "Leon Lederman"
-      B: "Steven Weinberg"
-      C: "François Englert"
-      D: "Gerard 't Hooft"
-    correctAnswer: C
-    translations:
-      en:
-        text: "Which Belgian physicist shared the 2013 Nobel Prize in Physics with Peter Higgs?"
-        answers:
-          A: "Leon Lederman"
-          B: "Steven Weinberg"
-          C: "François Englert"
-          D: "Gerard 't Hooft"
-    difficulty: MEDIUM
-  - text: "Quelle particule est composée de deux quarks up et d'un quark down ?"
-    answers:
-      A: "Le neutron"
-      B: "Le méson"
-      C: "L'électron"
-      D: "Le proton"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which particle is made of two up quarks and one down quark?"
-        answers:
-          A: "The neutron"
-          B: "The meson"
-          C: "The electron"
-          D: "The proton"
-    difficulty: MEDIUM
-  - text: "Comment appelle-t-on l'expérience de Thomas Young réalisée en 1801 pour mettre en évidence les interférences lumineuses ?"
-    answers:
-      A: "L'expérience de Stern et Gerlach"
-      B: "L'expérience de la feuille d'or"
-      C: "L'expérience de la goutte d'huile"
-      D: "L'expérience des fentes de Young"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the name of Thomas Young's 1801 experiment demonstrating light interference?"
-        answers:
-          A: "The Stern-Gerlach experiment"
-          B: "The gold foil experiment"
-          C: "The oil drop experiment"
-          D: "Young's double-slit experiment"
-    difficulty: HARD
-  - text: "Qui a découvert l'induction électromagnétique en 1831 ?"
-    answers:
-      A: "Michael Faraday"
-      B: "James Clerk Maxwell"
-      C: "André-Marie Ampère"
-      D: "Alessandro Volta"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Who discovered electromagnetic induction in 1831?"
-        answers:
-          A: "Michael Faraday"
-          B: "James Clerk Maxwell"
-          C: "André-Marie Ampère"
-          D: "Alessandro Volta"
-    difficulty: HARD
-  - text: "Quel phénomène permet à une onde lumineuse de contourner partiellement un obstacle ?"
-    answers:
-      A: "La réfraction"
-      B: "La dispersion"
-      C: "La réflexion"
-      D: "La diffraction"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Which phenomenon allows a light wave to partially bend around an obstacle?"
-        answers:
-          A: "Refraction"
-          B: "Dispersion"
-          C: "Reflection"
-          D: "Diffraction"
-    difficulty: HARD
-  - text: "Qui a décrit en 1824 le cycle théorique du moteur thermique idéal ?"
-    answers:
-      A: "James Watt"
-      B: "Rudolf Clausius"
-      C: "Ludwig Boltzmann"
-      D: "Sadi Carnot"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who described the theoretical cycle of the ideal heat engine in 1824?"
-        answers:
-          A: "James Watt"
-          B: "Rudolf Clausius"
-          C: "Ludwig Boltzmann"
-          D: "Sadi Carnot"
-    difficulty: HARD
-  - text: "Quel physicien a introduit en 1900 l'hypothèse des quanta d'énergie ?"
+  - text: "Quel physicien a proposé le modèle de l'atome avec des orbites quantifiées en 1913 ?"
     answers:
       A: "Niels Bohr"
-      B: "Max Planck"
-      C: "Louis de Broglie"
-      D: "Albert Einstein"
-    correctAnswer: B
+      B: "Ernest Rutherford"
+      C: "Max Planck"
+      D: "Louis de Broglie"
+    correctAnswer: A
     translations:
       en:
-        text: "Which physicist introduced the hypothesis of energy quanta in 1900?"
+        text: "Which physicist proposed the model of the atom with quantized orbits in 1913?"
         answers:
           A: "Niels Bohr"
-          B: "Max Planck"
-          C: "Louis de Broglie"
-          D: "Albert Einstein"
+          B: "Ernest Rutherford"
+          C: "Max Planck"
+          D: "Louis de Broglie"
     difficulty: HARD
-  - text: "Quelle particule Joseph John Thomson a-t-il découverte en 1897 ?"
+  - text: "Quelle particule a été découverte au CERN en 1983 ?"
     answers:
-      A: "Le proton"
-      B: "L'électron"
-      C: "Le neutron"
-      D: "Le photon"
-    correctAnswer: B
-    translations:
-      en:
-        text: "Which particle did Joseph John Thomson discover in 1897?"
-        answers:
-          A: "The proton"
-          B: "The electron"
-          C: "The neutron"
-          D: "The photon"
-    difficulty: HARD
-  - text: "Quelle est la valeur approximative de la charge élémentaire ?"
-    answers:
-      A: "1,602 × 10⁻¹⁹ C"
-      B: "6,626 × 10⁻³⁴ C"
-      C: "9,109 × 10⁻³¹ C"
-      D: "1,381 × 10⁻²³ C"
+      A: "Boson W et Z"
+      B: "Quark top"
+      C: "Neutrino tau"
+      D: "Boson de Higgs"
     correctAnswer: A
     translations:
       en:
-        text: "What is the approximate value of the elementary charge?"
+        text: "Which particle was discovered at CERN in 1983?"
         answers:
-          A: "1.602 × 10⁻¹⁹ C"
-          B: "6.626 × 10⁻³⁴ C"
-          C: "9.109 × 10⁻³¹ C"
-          D: "1.381 × 10⁻²³ C"
+          A: "W and Z bosons"
+          B: "Top quark"
+          C: "Tau neutrino"
+          D: "Higgs boson"
     difficulty: EXPERT
-  - text: "Quelle est la valeur approximative de la constante de Boltzmann ?"
+  - text: "Quel physicien a formulé les équations de la relativité générale en 1915 ?"
     answers:
-      A: "8,314 J/K"
-      B: "2,898 × 10⁻³ J/K"
-      C: "6,022 × 10²³ J/K"
-      D: "1,381 × 10⁻²³ J/K"
-    correctAnswer: D
-    translations:
-      en:
-        text: "What is the approximate value of the Boltzmann constant?"
-        answers:
-          A: "8.314 J/K"
-          B: "2.898 × 10⁻³ J/K"
-          C: "6.022 × 10²³ J/K"
-          D: "1.381 × 10⁻²³ J/K"
-    difficulty: EXPERT
-  - text: "Quelle particule Wolfgang Pauli a-t-il postulée en 1930 pour expliquer la désintégration bêta ?"
-    answers:
-      A: "Le neutrino"
-      B: "Le muon"
-      C: "Le positron"
-      D: "Le neutron"
-    correctAnswer: A
-    translations:
-      en:
-        text: "Which particle did Wolfgang Pauli postulate in 1930 to explain beta decay?"
-        answers:
-          A: "The neutrino"
-          B: "The muon"
-          C: "The positron"
-          D: "The neutron"
-    difficulty: EXPERT
-  - text: "Qui a découvert la supraconductivité en 1911 ?"
-    answers:
-      A: "John Bardeen"
-      B: "Walther Meissner"
-      C: "Lev Landau"
-      D: "Heike Kamerlingh Onnes"
-    correctAnswer: D
-    translations:
-      en:
-        text: "Who discovered superconductivity in 1911?"
-        answers:
-          A: "John Bardeen"
-          B: "Walther Meissner"
-          C: "Lev Landau"
-          D: "Heike Kamerlingh Onnes"
-    difficulty: EXPERT
-  - text: "Quelle expérience de 1887 a montré que la vitesse de la lumière ne dépend pas du mouvement de la Terre ?"
-    answers:
-      A: "L'expérience de Stern et Gerlach"
-      B: "L'expérience de Compton"
-      C: "L'expérience de Michelson et Morley"
-      D: "L'expérience de Franck et Hertz"
+      A: "Hendrik Lorentz"
+      B: "Isaac Newton"
+      C: "Albert Einstein"
+      D: "Hermann Minkowski"
     correctAnswer: C
     translations:
       en:
-        text: "Which 1887 experiment showed that the speed of light does not depend on the Earth's motion?"
+        text: "Which physicist formulated the equations of general relativity in 1915?"
         answers:
-          A: "The Stern-Gerlach experiment"
-          B: "The Compton experiment"
-          C: "The Michelson-Morley experiment"
-          D: "The Franck-Hertz experiment"
-    difficulty: EXPERT
-  - text: "Quelle est la longueur d'onde approximative d'une lumière verte visible ?"
+          A: "Hendrik Lorentz"
+          B: "Isaac Newton"
+          C: "Albert Einstein"
+          D: "Hermann Minkowski"
+    difficulty: HARD
+  - text: "Quel scientifique a découvert la loi de la chute des corps ?"
     answers:
-      A: "550 nm"
-      B: "450 nm"
-      C: "650 nm"
-      D: "750 nm"
+      A: "Newton"
+      B: "Galilée"
+      C: "Aristote"
+      D: "Kepler"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which scientist discovered the law of falling bodies?"
+        answers:
+          A: "Newton"
+          B: "Galileo"
+          C: "Aristotle"
+          D: "Kepler"
+    difficulty: MEDIUM
+  - text: "Quel scientifique a découvert la supraconductivité en 1911 ?"
+    answers:
+      A: "Niels Bohr"
+      B: "Albert Einstein"
+      C: "Heike Kamerlingh Onnes"
+      D: "Werner Heisenberg"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which scientist discovered superconductivity in 1911?"
+        answers:
+          A: "Niels Bohr"
+          B: "Albert Einstein"
+          C: "Heike Kamerlingh Onnes"
+          D: "Werner Heisenberg"
+    difficulty: EXPERT
+  - text: "Quel scientifique a découvert la radioactivité naturelle en 1896 ?"
+    answers:
+      A: "Ernest Rutherford"
+      B: "Marie Curie"
+      C: "Pierre Curie"
+      D: "Henri Becquerel"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist discovered natural radioactivity in 1896?"
+        answers:
+          A: "Ernest Rutherford"
+          B: "Marie Curie"
+          C: "Pierre Curie"
+          D: "Henri Becquerel"
+    difficulty: HARD
+  - text: "Quel scientifique a découvert la loi de la gravitation universelle ?"
+    answers:
+      A: "Johannes Kepler"
+      B: "Albert Einstein"
+      C: "Galilée"
+      D: "Isaac Newton"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist discovered the law of universal gravitation?"
+        answers:
+          A: "Johannes Kepler"
+          B: "Albert Einstein"
+          C: "Galileo"
+          D: "Isaac Newton"
+    difficulty: MEDIUM
+  - text: "Quelle particule a été postulée par Hideki Yukawa en 1935 ?"
+    answers:
+      A: "Méson pi"
+      B: "Neutrino"
+      C: "Positron"
+      D: "Quark"
     correctAnswer: A
     translations:
       en:
-        text: "What is the approximate wavelength of visible green light?"
+        text: "Which particle was postulated by Hideki Yukawa in 1935?"
         answers:
-          A: "550 nm"
-          B: "450 nm"
-          C: "650 nm"
-          D: "750 nm"
+          A: "Pion"
+          B: "Neutrino"
+          C: "Positron"
+          D: "Quark"
     difficulty: EXPERT
+  - text: "Quel physicien a partagé le prix Nobel de physique 1965 avec Feynman et Tomonaga ?"
+    answers:
+      A: "Freeman Dyson"
+      B: "Murray Gell-Mann"
+      C: "Robert Oppenheimer"
+      D: "Julian Schwinger"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which physicist shared the 1965 Nobel Prize in Physics with Feynman and Tomonaga?"
+        answers:
+          A: "Freeman Dyson"
+          B: "Murray Gell-Mann"
+          C: "Robert Oppenheimer"
+          D: "Julian Schwinger"
+    difficulty: EXPERT
+  - text: "Quelle expérience de 1887 a tenté de détecter le vent d'éther et a inspiré Einstein ?"
+    answers:
+      A: "Young-Fresnel"
+      B: "Rutherford-Geiger"
+      C: "Fizeau-Foucault"
+      D: "Michelson-Morley"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which 1887 experiment attempted to detect the ether wind and inspired Einstein?"
+        answers:
+          A: "Young-Fresnel"
+          B: "Rutherford-Geiger"
+          C: "Fizeau-Foucault"
+          D: "Michelson-Morley"
+    difficulty: EXPERT
+  - text: "Quel physicien a prédit en 1924 l'existence de l'effet qui porte son nom sur la diffusion des photons par les électrons ?"
+    answers:
+      A: "Niels Bohr"
+      B: "Arthur Compton"
+      C: "Max Planck"
+      D: "Louis de Broglie"
+    correctAnswer: B
+    translations:
+      en:
+        text: "Which physicist predicted in 1924 the existence of the effect named after him on the scattering of photons by electrons?"
+        answers:
+          A: "Niels Bohr"
+          B: "Arthur Compton"
+          C: "Max Planck"
+          D: "Louis de Broglie"
+    difficulty: EXPERT
+  - text: "Quelle est la valeur de la constante de Rydberg R∞ en m⁻¹ ?"
+    answers:
+      A: "6,626 × 10⁻³⁴"
+      B: "1,097 × 10⁷"
+      C: "3,289 × 10¹⁵"
+      D: "9,109 × 10⁻³¹"
+    correctAnswer: B
+    translations:
+      en:
+        text: "What is the value of the Rydberg constant R∞ in m⁻¹?"
+        answers:
+          A: "6.626 × 10⁻³⁴"
+          B: "1.097 × 10⁷"
+          C: "3.289 × 10¹⁵"
+          D: "9.109 × 10⁻³¹"
+    difficulty: EXPERT
+  - text: "Quel physicien a proposé en 1928 l'équation d'onde relativiste de l'électron qui porte son nom ?"
+    answers:
+      A: "Paul Dirac"
+      B: "Erwin Schrödinger"
+      C: "Werner Heisenberg"
+      D: "Wolfgang Pauli"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist proposed in 1928 the relativistic wave equation of the electron that bears his name?"
+        answers:
+          A: "Paul Dirac"
+          B: "Erwin Schrödinger"
+          C: "Werner Heisenberg"
+          D: "Wolfgang Pauli"
+    difficulty: HARD
+  - text: "Quel est le nom du premier réacteur nucléaire à avoir réalisé une réaction en chaîne contrôlée en 1942 ?"
+    answers:
+      A: "Obninsk"
+      B: "Calder Hall"
+      C: "Shippingport"
+      D: "Chicago Pile-1"
+    correctAnswer: D
+    translations:
+      en:
+        text: "What is the name of the first nuclear reactor to achieve a controlled chain reaction in 1942?"
+        answers:
+          A: "Obninsk"
+          B: "Calder Hall"
+          C: "Shippingport"
+          D: "Chicago Pile-1"
+    difficulty: EXPERT
+  - text: "Quel physicien a reçu le prix Nobel de physique 1933 avec Erwin Schrödinger ?"
+    answers:
+      A: "Paul Dirac"
+      B: "Werner Heisenberg"
+      C: "Max Born"
+      D: "Niels Bohr"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist received the 1933 Nobel Prize in Physics with Erwin Schrödinger?"
+        answers:
+          A: "Paul Dirac"
+          B: "Werner Heisenberg"
+          C: "Max Born"
+          D: "Niels Bohr"
+    difficulty: EXPERT
+  - text: "Quel scientifique a découvert l'effet photoélectrique expérimentalement en 1887 ?"
+    answers:
+      A: "Philipp Lenard"
+      B: "Wilhelm Hallwachs"
+      C: "Aleksandr Stoletov"
+      D: "Heinrich Hertz"
+    correctAnswer: D
+    translations:
+      en:
+        text: "Which scientist discovered the photoelectric effect experimentally in 1887?"
+        answers:
+          A: "Philipp Lenard"
+          B: "Wilhelm Hallwachs"
+          C: "Aleksandr Stoletov"
+          D: "Heinrich Hertz"
+    difficulty: EXPERT
+  - text: "Quel physicien a proposé en 1957 la théorie de l'interaction faible avec la violation de parité ?"
+    answers:
+      A: "Abdus Salam et John Ward"
+      B: "Sheldon Glashow et Steven Weinberg"
+      C: "Chen Ning Yang et Tsung-Dao Lee"
+      D: "Robert Marshak et George Sudarshan"
+    correctAnswer: C
+    translations:
+      en:
+        text: "Which physicist proposed in 1957 the theory of the weak interaction with parity violation?"
+        answers:
+          A: "Abdus Salam and John Ward"
+          B: "Sheldon Glashow and Steven Weinberg"
+          C: "Chen Ning Yang and Tsung-Dao Lee"
+          D: "Robert Marshak and George Sudarshan"
+    difficulty: EXPERT
+  - text: "Quel physicien a introduit en 1900 le quantum d'action pour expliquer le rayonnement du corps noir ?"
+    answers:
+      A: "Max Planck"
+      B: "Ludwig Boltzmann"
+      C: "Wilhelm Wien"
+      D: "Josiah Willard Gibbs"
+    correctAnswer: A
+    translations:
+      en:
+        text: "Which physicist introduced in 1900 the quantum of action to explain black-body radiation?"
+        answers:
+          A: "Max Planck"
+          B: "Ludwig Boltzmann"
+          C: "Wilhelm Wien"
+          D: "Josiah Willard Gibbs"
+    difficulty: HARD
   - text: "Ce détecteur géant, installé sur le LHC, a découvert le boson de Higgs en 2012 aux côtés de CMS. De quel détecteur s'agit-il ?"
     imageUrl: wikipedia/science/ATLAS.jpg
     answers:
@@ -1611,4 +1611,4 @@ questions:
           B: "ATLAS"
           C: "DELPHI"
           D: "LHCb"
-    difficulty: EXPERT
+    difficulty: HARD

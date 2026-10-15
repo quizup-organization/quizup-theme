@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS topic_entry (
 	emoji VARCHAR(16),
 	color VARCHAR(16),
 	image_url VARCHAR(1024),
+	title_names TEXT,
 	created_at TIMESTAMP NOT NULL,
 	updated_by VARCHAR(255),
 	updated_at TIMESTAMP,
