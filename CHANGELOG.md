@@ -1,3 +1,9 @@
+## [6.12.0](https://github.com/quizup-organization/quizup-theme/compare/v6.11.1...v6.12.0) (2026-10-17)
+
+### Features
+
+* **theme:** ajoute les signalements et la moderation des questions ([9a04e7f](https://github.com/quizup-organization/quizup-theme/commit/9a04e7f93c756b497a232b94e9c752fc739a6ca3))
+
 ## [6.11.1](https://github.com/quizup-organization/quizup-theme/compare/v6.11.0...v6.11.1) (2026-10-15)
 
 ### Bug Fixes
