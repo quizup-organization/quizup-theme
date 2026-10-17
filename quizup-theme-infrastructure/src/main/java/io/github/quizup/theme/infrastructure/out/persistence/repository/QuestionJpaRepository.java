@@ -21,13 +21,19 @@ import java.util.List;
 @Repository
 public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, String>, JpaSpecificationExecutor<QuestionEntity> {
 
-    @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = io.github.quizup.theme.domain.model.QuestionStatus.APPROVED")
+    @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = io.github.quizup.theme.domain.model.QuestionStatus.APPROVED AND q.suspended = false AND q.archived = false")
     int countApprovedByTopicId(@Param("topicId") String topicId);
 
     @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.topicId = :topicId AND q.status = :status")
     int countByTopicIdAndStatus(@Param("topicId") String topicId, @Param("status") QuestionStatus status);
 
     List<QuestionEntity> findByTopicId(String topicId);
+
+    @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.suspended = true AND q.archived = false")
+    int countSuspended();
+
+    @Query("SELECT COUNT(q) FROM QuestionEntity q WHERE q.archived = true")
+    int countArchived();
 
     /**
      * Tirage best-effort : langues strictes, puis préférences de tri — jamais jouées d'abord,
@@ -38,6 +44,8 @@ public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, Str
             SELECT q.* FROM question_entry q
             WHERE q.topic_id = :topicId
               AND q.status = 'APPROVED'
+              AND q.suspended = FALSE
+              AND q.archived = FALSE
               AND q.question_id IN (
                   SELECT c.question_id FROM question_content c
                   WHERE c.language IN (:languages)
@@ -67,6 +75,8 @@ public interface QuestionJpaRepository extends JpaRepository<QuestionEntity, Str
             SELECT COUNT(*) FROM question_entry q
             WHERE q.topic_id = :topicId
               AND q.status = 'APPROVED'
+              AND q.suspended = FALSE
+              AND q.archived = FALSE
               AND q.question_id IN (
                   SELECT c.question_id FROM question_content c
                   WHERE c.language IN (:languages)

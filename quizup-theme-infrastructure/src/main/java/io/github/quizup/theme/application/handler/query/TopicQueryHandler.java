@@ -66,6 +66,11 @@ public class TopicQueryHandler {
     }
 
     @QueryHandler
+    public List<Topic> handle(TopicQuery.GetAdminTopicOptionsQuery query) {
+        return topicRepositoryPort.findAllForAdmin();
+    }
+
+    @QueryHandler
     public TopicPage handle(TopicQuery.GetTopicsByCreatorQuery query) {
         return topicRepositoryPort.findByCreatorId(query.creatorId(), query.page(), query.size());
     }

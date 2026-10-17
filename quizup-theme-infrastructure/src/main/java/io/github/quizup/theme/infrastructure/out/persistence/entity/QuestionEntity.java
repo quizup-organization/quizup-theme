@@ -5,6 +5,7 @@ import io.github.quizup.microservice.core.domain.model.search.Searchable;
 import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.QuestionStatus;
+import io.github.quizup.theme.domain.model.QuestionSuspensionReason;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -68,5 +69,39 @@ public class QuestionEntity {
     @Searchable(type = FieldType.DATE)
     @Column(name = "updated_at")
     private Instant updatedAt;
+
+    @Column(name = "suspended", nullable = false)
+    private boolean suspended;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "suspension_reason", length = 40)
+    private QuestionSuspensionReason suspensionReason;
+
+    @Column(name = "suspension_note", length = 500)
+    private String suspensionNote;
+
+    @Column(name = "suspended_at")
+    private Instant suspendedAt;
+
+    @Column(name = "suspended_by", length = 255)
+    private String suspendedBy;
+
+    @Column(name = "reinstated_at")
+    private Instant reinstatedAt;
+
+    @Column(name = "archived", nullable = false)
+    private boolean archived;
+
+    @Column(name = "archive_note", length = 500)
+    private String archiveNote;
+
+    @Column(name = "archived_at")
+    private Instant archivedAt;
+
+    @Column(name = "archived_by", length = 255)
+    private String archivedBy;
+
+    @Column(name = "restored_at")
+    private Instant restoredAt;
 
 }

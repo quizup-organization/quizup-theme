@@ -143,6 +143,55 @@ public class QuestionProjection {
                 ));
     }
 
+    @EventHandler
+    public void on(QuestionEvent.QuestionSuspendedEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> questionRepositoryPort.save(
+                        question.toBuilder()
+                                .suspended(true)
+                                .suspensionReason(event.reason())
+                                .suspensionNote(event.note())
+                                .suspendedAt(event.suspendedAt())
+                                .suspendedBy(event.requestedBy())
+                                .build()
+                ));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionReinstatedEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> questionRepositoryPort.save(
+                        question.toBuilder()
+                                .suspended(false)
+                                .reinstatedAt(event.reinstatedAt())
+                                .build()
+                ));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionArchivedEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> questionRepositoryPort.save(
+                        question.toBuilder()
+                                .archived(true)
+                                .archiveNote(event.note())
+                                .archivedAt(event.archivedAt())
+                                .archivedBy(event.requestedBy())
+                                .build()
+                ));
+    }
+
+    @EventHandler
+    public void on(QuestionEvent.QuestionRestoredEvent event) {
+        questionRepositoryPort.findById(event.questionId())
+                .ifPresent(question -> questionRepositoryPort.save(
+                        question.toBuilder()
+                                .archived(false)
+                                .restoredAt(event.restoredAt())
+                                .build()
+                ));
+    }
+
     private void updateContent(String questionId,
                                Language language,
                                String updatedBy,

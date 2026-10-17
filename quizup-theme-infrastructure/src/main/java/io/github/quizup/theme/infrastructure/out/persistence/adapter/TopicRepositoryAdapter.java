@@ -156,4 +156,13 @@ public class TopicRepositoryAdapter implements TopicRepositoryPort {
                 .filter(Objects::nonNull)
                 .toList();
     }
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<Topic> findAllForAdmin() {
+        return topicJpaRepository.findAll(Sort.by(Sort.Order.asc("nameFr")))
+                .stream()
+                .map(TopicEntityMapper::toDomain)
+                .toList();
+    }
 }

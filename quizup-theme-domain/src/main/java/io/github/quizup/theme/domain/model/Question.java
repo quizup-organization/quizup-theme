@@ -24,7 +24,18 @@ public record Question(
         String creatorId,
         String updatedBy,
         Instant createdAt,
-        Instant updatedAt
+        Instant updatedAt,
+        boolean suspended,
+        QuestionSuspensionReason suspensionReason,
+        String suspensionNote,
+        Instant suspendedAt,
+        String suspendedBy,
+        Instant reinstatedAt,
+        boolean archived,
+        String archiveNote,
+        Instant archivedAt,
+        String archivedBy,
+        Instant restoredAt
 ) {
 
     /** Langues pour lesquelles un contenu est disponible. */

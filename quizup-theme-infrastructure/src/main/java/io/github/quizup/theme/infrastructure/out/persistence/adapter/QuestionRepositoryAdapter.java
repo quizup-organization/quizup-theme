@@ -6,21 +6,37 @@ import io.github.quizup.microservice.core.infrastructure.adapter.JpaSearchAdapte
 import io.github.quizup.microservice.core.infrastructure.in.api.request.SearchRequest;
 import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.model.Question;
+import io.github.quizup.theme.domain.model.QuestionAdminFilter;
+import io.github.quizup.theme.domain.model.QuestionAdminPage;
+import io.github.quizup.theme.domain.model.QuestionAdminSort;
 import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
+import io.github.quizup.theme.domain.model.QuestionModerationFilter;
+import io.github.quizup.theme.domain.model.QuestionReportStatus;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 import io.github.quizup.theme.domain.port.out.QuestionRepositoryPort;
 import io.github.quizup.theme.infrastructure.out.persistence.entity.QuestionContentEntity;
 import io.github.quizup.theme.infrastructure.out.persistence.entity.QuestionEntity;
+import io.github.quizup.theme.infrastructure.out.persistence.entity.QuestionReportEntity;
 import io.github.quizup.theme.infrastructure.out.persistence.mapper.QuestionEntityMapper;
 import io.github.quizup.theme.infrastructure.out.persistence.repository.QuestionContentJpaRepository;
 import io.github.quizup.theme.infrastructure.out.persistence.repository.QuestionJpaRepository;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import jakarta.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Root;
+import jakarta.persistence.criteria.Subquery;
+
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -77,6 +93,104 @@ public class QuestionRepositoryAdapter implements QuestionRepositoryPort {
     @Transactional(readOnly = true)
     public List<Question> findByTopicId(String topicId) {
         return withContents(questionJpaRepository.findByTopicId(topicId));
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<Question> findByIds(List<String> questionIds) {
+        if (questionIds == null || questionIds.isEmpty()) {
+            return List.of();
+        }
+        Map<String, Question> byId = withContents(questionJpaRepository.findAllById(questionIds)).stream()
+                .collect(Collectors.toMap(Question::questionId, question -> question, (first, _) -> first));
+        return questionIds.stream()
+                .map(byId::get)
+                .filter(java.util.Objects::nonNull)
+                .toList();
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public QuestionAdminPage findAdminPage(QuestionAdminFilter filter,
+                                           QuestionAdminSort sort,
+                                           int page,
+                                           int size) {
+        Page<QuestionEntity> result = questionJpaRepository.findAll(
+                adminFilter(filter),
+                PageRequest.of(page, size, adminSort(sort)));
+        return new QuestionAdminPage(
+                withContents(result.getContent()),
+                result.getTotalElements());
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public int countSuspended() {
+        return questionJpaRepository.countSuspended();
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public int countArchived() {
+        return questionJpaRepository.countArchived();
+    }
+
+    private static Specification<QuestionEntity> adminFilter(QuestionAdminFilter filter) {
+        QuestionAdminFilter effective = filter == null
+                ? new QuestionAdminFilter(null, null, null, null, QuestionModerationFilter.ALL, null)
+                : filter;
+        return (root, query, cb) -> {
+            List<Predicate> predicates = new ArrayList<>();
+            if (effective.text() != null && !effective.text().isBlank()) {
+                String pattern = "%" + effective.text().toLowerCase(Locale.ROOT) + "%";
+                Subquery<String> textSubquery = query.subquery(String.class);
+                Root<QuestionContentEntity> content = textSubquery.from(QuestionContentEntity.class);
+                textSubquery.select(content.get("questionId"))
+                        .where(cb.like(cb.lower(content.get("text")), pattern));
+                predicates.add(cb.or(
+                        cb.like(cb.lower(root.get("questionId")), pattern),
+                        root.get("questionId").in(textSubquery)));
+            }
+            if (effective.topicId() != null && !effective.topicId().isBlank()) {
+                predicates.add(cb.equal(root.get("topicId"), effective.topicId()));
+            }
+            if (effective.status() != null) {
+                predicates.add(cb.equal(root.get("status"), effective.status()));
+            }
+            if (effective.difficulty() != null) {
+                predicates.add(cb.equal(root.get("difficulty"), effective.difficulty()));
+            }
+            QuestionModerationFilter moderation = effective.moderation() == null
+                    ? QuestionModerationFilter.ALL
+                    : effective.moderation();
+            switch (moderation) {
+                case ACTIVE -> {
+                    predicates.add(cb.isFalse(root.<Boolean>get("suspended")));
+                    predicates.add(cb.isFalse(root.<Boolean>get("archived")));
+                }
+                case SUSPENDED -> {
+                    predicates.add(cb.isTrue(root.<Boolean>get("suspended")));
+                    predicates.add(cb.isFalse(root.<Boolean>get("archived")));
+                }
+                case ARCHIVED -> predicates.add(cb.isTrue(root.<Boolean>get("archived")));
+                case ALL -> predicates.add(cb.isFalse(root.<Boolean>get("archived")));
+            }
+            if (Boolean.TRUE.equals(effective.reportedOnly())) {
+                Subquery<String> reportSubquery = query.subquery(String.class);
+                Root<QuestionReportEntity> report = reportSubquery.from(QuestionReportEntity.class);
+                reportSubquery.select(report.get("questionId"))
+                        .where(cb.equal(report.get("status"), QuestionReportStatus.OPEN));
+                predicates.add(root.get("questionId").in(reportSubquery));
+            }
+            return cb.and(predicates.toArray(Predicate[]::new));
+        };
+    }
+
+    private static Sort adminSort(QuestionAdminSort sort) {
+        if (sort == QuestionAdminSort.OLDEST_UPDATED) {
+            return Sort.by(Sort.Order.asc("updatedAt"), Sort.Order.asc("questionId"));
+        }
+        return Sort.by(Sort.Order.desc("updatedAt"), Sort.Order.asc("questionId"));
     }
 
     @Override

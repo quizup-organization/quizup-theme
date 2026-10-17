@@ -2,8 +2,11 @@ package io.github.quizup.theme.domain.query;
 
 import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.microservice.core.infrastructure.in.api.request.SearchRequest;
+import io.github.quizup.theme.domain.model.QuestionAdminFilter;
+import io.github.quizup.theme.domain.model.QuestionAdminSort;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 
+import java.util.List;
 import java.util.Set;
 
 public interface QuestionQuery {
@@ -24,6 +27,21 @@ public interface QuestionQuery {
      */
     record GetQuestionsByTopicIdQuery(
             String topicId
+    ) {
+    }
+
+    /** Récupération batch ; l'ordre demandé est préservé, les ids inconnus sont ignorés. */
+    record GetQuestionsByIdsQuery(
+            List<String> questionIds
+    ) {
+    }
+
+    /** Catalogue admin filtré (tous statuts, flags de modération, texte). */
+    record GetQuestionAdminPageQuery(
+            QuestionAdminFilter filter,
+            QuestionAdminSort sort,
+            int page,
+            int size
     ) {
     }
 

@@ -24,4 +24,11 @@ app:
   seed-data:
     enabled: true
 
+quizup:
+  question-report:
+    auto-suspension:
+      enabled: true
+      threshold: 3
+      window: P7D
+
 

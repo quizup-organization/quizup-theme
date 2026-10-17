@@ -49,6 +49,10 @@ public interface TopicQuery {
     record GetTopicsByIdsQuery(List<String> topicIds) implements TopicQuery {
     }
 
+    /** Tous les thèmes (brouillons et archivés compris), triés par nom — options admin. */
+    record GetAdminTopicOptionsQuery() implements TopicQuery {
+    }
+
     /**
      * Comptage, pour chaque URL demandée, des références dans le read model theme :
      * couverture et bannière de sujet, illustration de question (tous statuts confondus).

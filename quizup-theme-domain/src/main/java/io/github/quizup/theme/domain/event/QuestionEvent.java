@@ -6,6 +6,7 @@ import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.QuestionStatus;
+import io.github.quizup.theme.domain.model.QuestionSuspensionReason;
 
 import java.time.Instant;
 import java.util.Map;
@@ -129,6 +130,43 @@ public interface QuestionEvent {
             String questionId,
             QuestionDifficulty difficulty,
             Instant updatedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionSuspendedEvent(
+            String questionId,
+            QuestionSuspensionReason reason,
+            String note,
+            String requestedBy,
+            String triggerReportId,
+            Instant triggerReportedAt,
+            int distinctReporters,
+            int windowDays,
+            Instant suspendedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionReinstatedEvent(
+            String questionId,
+            String requestedBy,
+            String note,
+            Instant reinstatedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionArchivedEvent(
+            String questionId,
+            String requestedBy,
+            String note,
+            Instant archivedAt
+    ) implements QuestionEvent {
+    }
+
+    record QuestionRestoredEvent(
+            String questionId,
+            String requestedBy,
+            String note,
+            Instant restoredAt
     ) implements QuestionEvent {
     }
 }

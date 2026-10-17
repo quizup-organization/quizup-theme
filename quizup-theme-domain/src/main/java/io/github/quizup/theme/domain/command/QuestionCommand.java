@@ -4,8 +4,10 @@ import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
+import io.github.quizup.theme.domain.model.QuestionSuspensionReason;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
+import java.time.Instant;
 import java.util.Map;
 
 public interface QuestionCommand {
@@ -116,6 +118,51 @@ public interface QuestionCommand {
     record UpdateQuestionDifficultyCommand(
             @TargetAggregateIdentifier String questionId,
             QuestionDifficulty difficulty
+    ) implements QuestionCommand {
+    }
+
+    /**
+     * Suspend une question : elle reste éditorialement approuvée mais n'est plus tirée dans les
+     * parties. {@code triggerReportedAt} permet d'ignorer un rejeu de signalement antérieur à la
+     * dernière réactivation.
+     */
+    record SuspendQuestionCommand(
+            @TargetAggregateIdentifier String questionId,
+            QuestionSuspensionReason reason,
+            String note,
+            String requestedBy,
+            String triggerReportId,
+            Instant triggerReportedAt,
+            int distinctReporters,
+            int windowDays,
+            Instant suspendedAt
+    ) implements QuestionCommand {
+    }
+
+    /** Réactive une question suspendue. */
+    record ReinstateQuestionCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            String note,
+            Instant reinstatedAt
+    ) implements QuestionCommand {
+    }
+
+    /** Archive une question (soft delete) : elle reste consultable mais n'est plus jouée. */
+    record ArchiveQuestionCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            String note,
+            Instant archivedAt
+    ) implements QuestionCommand {
+    }
+
+    /** Restaure une question archivée. */
+    record RestoreQuestionCommand(
+            @TargetAggregateIdentifier String questionId,
+            String requestedBy,
+            String note,
+            Instant restoredAt
     ) implements QuestionCommand {
     }
 }

@@ -4,6 +4,9 @@ import io.github.quizup.microservice.core.domain.model.i18n.Language;
 import io.github.quizup.microservice.core.infrastructure.in.api.request.SearchRequest;
 import io.github.quizup.microservice.core.infrastructure.in.api.response.SearchResponse;
 import io.github.quizup.theme.domain.model.Question;
+import io.github.quizup.theme.domain.model.QuestionAdminFilter;
+import io.github.quizup.theme.domain.model.QuestionAdminPage;
+import io.github.quizup.theme.domain.model.QuestionAdminSort;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
 import io.github.quizup.theme.domain.model.QuestionStatus;
 
@@ -18,6 +21,17 @@ public interface QuestionRepositoryPort {
     Optional<Question> findById(String questionId);
 
     List<Question> findByTopicId(String topicId);
+
+    List<Question> findByIds(List<String> questionIds);
+
+    QuestionAdminPage findAdminPage(QuestionAdminFilter filter,
+                                    QuestionAdminSort sort,
+                                    int page,
+                                    int size);
+
+    int countSuspended();
+
+    int countArchived();
 
     int countApprovedByTopicId(String topicId);
 

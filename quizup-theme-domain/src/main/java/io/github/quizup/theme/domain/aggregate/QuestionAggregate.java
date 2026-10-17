@@ -7,8 +7,10 @@ import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
+import io.github.quizup.theme.domain.model.QuestionReportRules;
 import io.github.quizup.theme.domain.model.QuestionRules;
 import io.github.quizup.theme.domain.model.QuestionStatus;
+import io.github.quizup.theme.domain.model.QuestionSuspensionReason;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
@@ -43,6 +45,17 @@ public class QuestionAggregate {
     private Instant createdAt;
     private String updatedBy;
     private Instant updatedAt;
+    private boolean suspended;
+    private QuestionSuspensionReason suspensionReason;
+    private String suspensionNote;
+    private Instant suspendedAt;
+    private String suspendedBy;
+    private Instant reinstatedAt;
+    private boolean archived;
+    private String archiveNote;
+    private Instant archivedAt;
+    private String archivedBy;
+    private Instant restoredAt;
 
     // Constructeur par défaut requis par Axon
     protected QuestionAggregate() {
@@ -247,6 +260,82 @@ public class QuestionAggregate {
                 ));
     }
 
+    @CommandHandler
+    public void handle(QuestionCommand.SuspendQuestionCommand command) {
+        if (this.status != QuestionStatus.APPROVED || this.suspended || this.archived) {
+            return;
+        }
+        Instant resetAt = lastModerationResetAt();
+        if (command.triggerReportedAt() != null
+                && resetAt != null
+                && !command.triggerReportedAt().isAfter(resetAt)) {
+            // Rejeu d'un signalement antérieur à la dernière réactivation : ne pas re-suspendre.
+            return;
+        }
+        validateNote(command.questionId(), command.note());
+
+        AggregateLifecycle.apply(
+                new QuestionEvent.QuestionSuspendedEvent(
+                        command.questionId(),
+                        command.reason(),
+                        command.note(),
+                        command.requestedBy(),
+                        command.triggerReportId(),
+                        command.triggerReportedAt(),
+                        command.distinctReporters(),
+                        command.windowDays(),
+                        command.suspendedAt()
+                ));
+    }
+
+    @CommandHandler
+    public void handle(QuestionCommand.ReinstateQuestionCommand command) {
+        if (!this.suspended) {
+            return;
+        }
+        validateNote(command.questionId(), command.note());
+
+        AggregateLifecycle.apply(
+                new QuestionEvent.QuestionReinstatedEvent(
+                        command.questionId(),
+                        command.requestedBy(),
+                        command.note(),
+                        command.reinstatedAt()
+                ));
+    }
+
+    @CommandHandler
+    public void handle(QuestionCommand.ArchiveQuestionCommand command) {
+        if (this.archived) {
+            return;
+        }
+        validateNote(command.questionId(), command.note());
+
+        AggregateLifecycle.apply(
+                new QuestionEvent.QuestionArchivedEvent(
+                        command.questionId(),
+                        command.requestedBy(),
+                        command.note(),
+                        command.archivedAt()
+                ));
+    }
+
+    @CommandHandler
+    public void handle(QuestionCommand.RestoreQuestionCommand command) {
+        if (!this.archived) {
+            return;
+        }
+        validateNote(command.questionId(), command.note());
+
+        AggregateLifecycle.apply(
+                new QuestionEvent.QuestionRestoredEvent(
+                        command.questionId(),
+                        command.requestedBy(),
+                        command.note(),
+                        command.restoredAt()
+                ));
+    }
+
     @EventSourcingHandler
     public void on(QuestionEvent.QuestionCreatedEvent event) {
         this.questionId = event.questionId();
@@ -260,6 +349,8 @@ public class QuestionAggregate {
         this.createdAt = event.createdAt();
         this.updatedBy = event.creatorId();
         this.updatedAt = event.createdAt();
+        this.suspended = false;
+        this.archived = false;
     }
 
     @EventSourcingHandler
@@ -330,6 +421,52 @@ public class QuestionAggregate {
     public void on(QuestionEvent.QuestionDifficultyUpdatedEvent event) {
         this.difficulty = event.difficulty();
         this.updatedAt = event.updatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(QuestionEvent.QuestionSuspendedEvent event) {
+        this.suspended = true;
+        this.suspensionReason = event.reason();
+        this.suspensionNote = event.note();
+        this.suspendedAt = event.suspendedAt();
+        this.suspendedBy = event.requestedBy();
+    }
+
+    @EventSourcingHandler
+    public void on(QuestionEvent.QuestionReinstatedEvent event) {
+        this.suspended = false;
+        this.reinstatedAt = event.reinstatedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(QuestionEvent.QuestionArchivedEvent event) {
+        this.archived = true;
+        this.archiveNote = event.note();
+        this.archivedAt = event.archivedAt();
+        this.archivedBy = event.requestedBy();
+    }
+
+    @EventSourcingHandler
+    public void on(QuestionEvent.QuestionRestoredEvent event) {
+        this.archived = false;
+        this.restoredAt = event.restoredAt();
+    }
+
+    private Instant lastModerationResetAt() {
+        if (reinstatedAt == null) {
+            return restoredAt;
+        }
+        if (restoredAt == null) {
+            return reinstatedAt;
+        }
+        return reinstatedAt.isAfter(restoredAt) ? reinstatedAt : restoredAt;
+    }
+
+    private static void validateNote(String questionId, String note) {
+        if (note != null && note.length() > QuestionReportRules.MAX_NOTE_LENGTH) {
+            throw new QuestionProblems.QuestionNoteTooLongProblem(
+                    questionId, QuestionReportRules.MAX_NOTE_LENGTH);
+        }
     }
 
     private QuestionContent requireContent(String questionId, Language language) {

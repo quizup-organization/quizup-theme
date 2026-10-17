@@ -40,6 +40,31 @@ inchangée) et validées par les règles (`TopicRules` : nom ≤ 25, description
 ≤ 16, URL ≤ 1024 ; `QuestionRules` : texte ≤ 255, URL ≤ 1024, 4 réponses, bonne réponse présente
 dans chaque langue). La publication vérifie aussi le propriétaire.
 
+### Signalements et modération des questions
+
+- **`QuestionReportThreadAggregate`** : thread déterministe (`threadId = UUID(questionId|reporterId)`),
+  un seul signalement `OPEN` à la fois, historique conservé. `ReportQuestionCommand` est
+  idempotent et retourne `QuestionReportResult(reportId, created)` ; après clôture, un nouveau
+  signalement ouvre un nouveau `reportId`.
+- **Snapshot** : `QuestionReportSnapshot` (texte, image, réponses, traductions, bonne réponse,
+  langue, source `PLAYED|CURRENT`) figé au dépôt. Le BFF l'extrait de l'historique de partie
+  (`RoundStarted`/`RoundClosed`) et retombe sur la question courante si nécessaire.
+- **Modération** : flags `suspended` (raison `AUTO_REPORT_THRESHOLD|MANUAL`, note, dates, acteur)
+  et `archived` (soft delete) sur la question ; `QuestionStatus` reste `PENDING|APPROVED|REJECTED`.
+  Le tirage, le comptage de couverture langues et la garde de publication excluent les questions
+  suspendues/archivées. Commandes : `Suspend|Reinstate|Archive|RestoreQuestionCommand`.
+- **Suspension automatique** : `QuestionReportProjection` compte les **signaleurs distincts**
+  encore ouverts dans la fenêtre `quizup.question-report.auto-suspension.window` (défaut `P7D`),
+  à partir de `max(now - window, reinstatedAt, restoredAt)`. Seuil par défaut `3`, activé par
+  défaut (`enabled=true`). Garde de rejeu : une suspension n'est appliquée que si le signalement
+  déclencheur est postérieur à la dernière réactivation/restauration.
+- **Migration** : `V6__question_reports_and_moderation.sql` (`question_report`,
+  `question_report_reason`, colonnes de modération sur `question_entry`, index unique partiel
+  `(thread_id) WHERE status='OPEN'`).
+- **Queries** : `QuestionReportQuery.*` (détail, liste par question, compteurs, file agrégée,
+  stats), `QuestionQuery.GetQuestionsByIdsQuery`, `GetQuestionAdminPageQuery`,
+  `TopicQuery.GetAdminTopicOptionsQuery`.
+
 ---
 
 ## 4. Dépendances inter-services

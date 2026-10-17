@@ -8,6 +8,7 @@ import io.github.quizup.theme.domain.exception.QuestionProblems;
 import io.github.quizup.theme.domain.model.QuestionChoice;
 import io.github.quizup.theme.domain.model.QuestionContent;
 import io.github.quizup.theme.domain.model.QuestionDifficulty;
+import io.github.quizup.theme.domain.model.QuestionSuspensionReason;
 import org.axonframework.test.aggregate.AggregateTestFixture;
 import org.junit.jupiter.api.Test;
 
@@ -257,10 +258,87 @@ class QuestionAggregateTest {
                 .expectException(QuestionProblems.QuestionImageUrlTooLongProblem.class);
     }
 
+    @Test
+    void suspend_approvedQuestion_appliesEvent() {
+        fixture.given(createdQuestion(), approvedQuestion())
+                .when(new QuestionCommand.SuspendQuestionCommand(
+                        "q-1", QuestionSuspensionReason.MANUAL, "Contenu douteux",
+                        "admin-1", null, null, 0, 0, NOW.plusSeconds(30)))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionSuspendedEvent.class,
+                        e -> "admin-1".equals(
+                                ((QuestionEvent.QuestionSuspendedEvent) e).requestedBy())));
+    }
+
+    @Test
+    void suspend_pendingQuestion_isIgnored() {
+        fixture.given(createdQuestion())
+                .when(new QuestionCommand.SuspendQuestionCommand(
+                        "q-1", QuestionSuspensionReason.MANUAL, null,
+                        "admin-1", null, null, 0, 0, NOW))
+                .expectNoEvents();
+    }
+
+    @Test
+    void suspend_afterReinstatement_ignoresOlderReportReplay() {
+        fixture.given(
+                        createdQuestion(),
+                        approvedQuestion(),
+                        new QuestionEvent.QuestionSuspendedEvent(
+                                "q-1", QuestionSuspensionReason.AUTO_REPORT_THRESHOLD,
+                                null, "system", "report-1", NOW.plusSeconds(10),
+                                3, 7, NOW.plusSeconds(10)),
+                        new QuestionEvent.QuestionReinstatedEvent(
+                                "q-1", "admin-1", null, NOW.plusSeconds(20)))
+                .when(new QuestionCommand.SuspendQuestionCommand(
+                        "q-1", QuestionSuspensionReason.AUTO_REPORT_THRESHOLD,
+                        null, "system", "report-1", NOW.plusSeconds(10),
+                        3, 7, NOW.plusSeconds(30)))
+                .expectNoEvents();
+    }
+
+    @Test
+    void reinstate_suspendedQuestion_appliesEvent() {
+        fixture.given(
+                        createdQuestion(),
+                        approvedQuestion(),
+                        new QuestionEvent.QuestionSuspendedEvent(
+                                "q-1", QuestionSuspensionReason.MANUAL,
+                                null, "admin-1", null, null, 0, 0, NOW.plusSeconds(10)))
+                .when(new QuestionCommand.ReinstateQuestionCommand(
+                        "q-1", "admin-1", null, NOW.plusSeconds(20)))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionReinstatedEvent.class,
+                        e -> "admin-1".equals(
+                                ((QuestionEvent.QuestionReinstatedEvent) e).requestedBy())));
+    }
+
+    @Test
+    void archive_thenRestore_appliesEvents() {
+        fixture.given(createdQuestion(), archivedQuestion())
+                .when(new QuestionCommand.RestoreQuestionCommand(
+                        "q-1", "admin-1", null, NOW.plusSeconds(20)))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        QuestionEvent.QuestionRestoredEvent.class,
+                        e -> "admin-1".equals(
+                                ((QuestionEvent.QuestionRestoredEvent) e).requestedBy())));
+    }
+
     private QuestionEvent.QuestionCreatedEvent createdQuestion() {
         return new QuestionEvent.QuestionCreatedEvent(
                 "q-1", "topic-1", frenchContents(), QuestionChoice.A,
                 null, "creator-1", NOW);
+    }
+
+    private QuestionEvent.QuestionApprovedEvent approvedQuestion() {
+        return new QuestionEvent.QuestionApprovedEvent(
+                "q-1", "topic-1", io.github.quizup.theme.domain.model.QuestionStatus.PENDING,
+                "moderator-1", NOW.plusSeconds(1));
+    }
+
+    private QuestionEvent.QuestionArchivedEvent archivedQuestion() {
+        return new QuestionEvent.QuestionArchivedEvent(
+                "q-1", "admin-1", null, NOW.plusSeconds(10));
     }
 
     private Map<Language, QuestionContent> frenchContents() {

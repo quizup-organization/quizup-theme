@@ -41,6 +41,17 @@ public final class QuestionEntityMapper {
                 .updatedBy(entity.getUpdatedBy())
                 .createdAt(entity.getCreatedAt())
                 .updatedAt(entity.getUpdatedAt())
+                .suspended(entity.isSuspended())
+                .suspensionReason(entity.getSuspensionReason())
+                .suspensionNote(entity.getSuspensionNote())
+                .suspendedAt(entity.getSuspendedAt())
+                .suspendedBy(entity.getSuspendedBy())
+                .reinstatedAt(entity.getReinstatedAt())
+                .archived(entity.isArchived())
+                .archiveNote(entity.getArchiveNote())
+                .archivedAt(entity.getArchivedAt())
+                .archivedBy(entity.getArchivedBy())
+                .restoredAt(entity.getRestoredAt())
                 .build();
     }
 
@@ -59,6 +70,17 @@ public final class QuestionEntityMapper {
         entity.setUpdatedBy(question.updatedBy());
         entity.setCreatedAt(question.createdAt());
         entity.setUpdatedAt(question.updatedAt());
+        entity.setSuspended(question.suspended());
+        entity.setSuspensionReason(question.suspensionReason());
+        entity.setSuspensionNote(question.suspensionNote());
+        entity.setSuspendedAt(question.suspendedAt());
+        entity.setSuspendedBy(question.suspendedBy());
+        entity.setReinstatedAt(question.reinstatedAt());
+        entity.setArchived(question.archived());
+        entity.setArchiveNote(question.archiveNote());
+        entity.setArchivedAt(question.archivedAt());
+        entity.setArchivedBy(question.archivedBy());
+        entity.setRestoredAt(question.restoredAt());
         return entity;
     }
 

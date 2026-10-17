@@ -135,5 +135,14 @@ public final class QuestionProblems {
                     "The question image URL must not exceed " + maxLength + " characters", null);
         }
     }
+
+    public static class QuestionNoteTooLongProblem extends QuestionProblem {
+        public QuestionNoteTooLongProblem(String questionId, int maxLength) {
+            super(questionId, "urn:quizup:question:noteTooLong",
+                    ProblemCategory.VALIDATION,
+                    "Question moderation note too long",
+                    "The moderation note must not exceed " + maxLength + " characters", null);
+        }
+    }
 }
 

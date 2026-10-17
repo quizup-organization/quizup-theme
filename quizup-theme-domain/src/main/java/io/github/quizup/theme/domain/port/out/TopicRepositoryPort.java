@@ -44,4 +44,7 @@ public interface TopicRepositoryPort {
      * Récupération batch ; l'ordre demandé est préservé, les ids inconnus sont ignorés.
      */
     List<Topic> findAllByIds(List<String> topicIds);
+
+    /** Tous les thèmes, triés par nom FR — options de la console d'administration. */
+    List<Topic> findAllForAdmin();
 }

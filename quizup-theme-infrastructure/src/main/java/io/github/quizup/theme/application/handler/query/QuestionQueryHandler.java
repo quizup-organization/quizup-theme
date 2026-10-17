@@ -36,6 +36,18 @@ public class QuestionQueryHandler {
     }
 
     @QueryHandler
+    public List<Question> handle(QuestionQuery.GetQuestionsByIdsQuery query) {
+        return questionRepositoryPort.findByIds(query.questionIds());
+    }
+
+    @QueryHandler
+    public io.github.quizup.theme.domain.model.QuestionAdminPage handle(
+            QuestionQuery.GetQuestionAdminPageQuery query) {
+        return questionRepositoryPort.findAdminPage(
+                query.filter(), query.sort(), query.page(), query.size());
+    }
+
+    @QueryHandler
     public List<Question> handle(QuestionQuery.GetRandomApprovedQuestionsQuery query) {
         return questionRepositoryPort.findRandomApprovedByTopicId(
                 query.topicId(), query.count(), query.languages(),
