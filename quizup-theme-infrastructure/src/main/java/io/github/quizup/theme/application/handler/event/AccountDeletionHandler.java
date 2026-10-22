@@ -2,8 +2,8 @@ package io.github.quizup.theme.application.handler.event;
 
 import io.github.quizup.axon.autoconfigure.erasure.AxonEventStoreErasureService;
 import io.github.quizup.theme.domain.command.TopicCommand;
-import io.github.quizup.microservice.core.domain.event.TopicUnpublishedAfterAccountDeletionEvent;
-import io.github.quizup.microservice.core.domain.event.UserAccountDeletedEvent;
+import io.github.quizup.identity.domain.event.UserEvent.UserAccountDeletedEvent;
+import io.github.quizup.theme.domain.event.TopicEvent.TopicUnpublishedAfterAccountDeletionEvent;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.eventhandling.gateway.EventGateway;
 import org.axonframework.config.ProcessingGroup;

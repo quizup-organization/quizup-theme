@@ -60,6 +60,19 @@ public interface TopicEvent {
     }
 
     /**
+     * Événement de notification : un sujet publié est repassé en brouillon après la suppression
+     * d'un compte. Il porte le propriétaire pour que notification n'ait aucune I/O à faire.
+     */
+    record TopicUnpublishedAfterAccountDeletionEvent(
+            String topicId,
+            String ownerId,
+            String deletedUserId,
+            int remainingApprovedQuestions,
+            Instant occurredAt
+    ) implements TopicEvent {
+    }
+
+    /**
      * Événement émis lors du changement du nom d'une langue du thème.
      */
     record TopicNameUpdatedEvent(
