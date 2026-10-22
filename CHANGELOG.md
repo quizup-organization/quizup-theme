@@ -1,3 +1,9 @@
+## [6.13.0](https://github.com/quizup-organization/quizup-theme/compare/v6.12.0...v6.13.0) (2026-10-22)
+
+### Features
+
+* **account:** supprime les contenus du compte et repasse les sujets impactés en brouillon ([3e90aa5](https://github.com/quizup-organization/quizup-theme/commit/3e90aa5898c1d4c2594c4ca5bef948cd5c8e34cb))
+
 ## [6.12.0](https://github.com/quizup-organization/quizup-theme/compare/v6.11.1...v6.12.0) (2026-10-17)
 
 ### Features
