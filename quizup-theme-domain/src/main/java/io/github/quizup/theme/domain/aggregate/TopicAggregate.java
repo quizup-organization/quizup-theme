@@ -138,6 +138,15 @@ public class TopicAggregate {
     }
 
     @CommandHandler
+    public void handle(TopicCommand.DraftTopicCommand command) {
+        if (this.status != TopicStatus.PUBLISHED) {
+            return;
+        }
+        AggregateLifecycle.apply(new TopicEvent.TopicDraftedEvent(
+                this.topicId, command.reason(), Instant.now()));
+    }
+
+    @CommandHandler
     public void handle(TopicCommand.UpdateTopicNameCommand command) {
         requireOwner(command.requestedBy());
         if (command.language() == null) {
@@ -248,6 +257,12 @@ public class TopicAggregate {
         this.status = TopicStatus.PUBLISHED;
         this.updatedBy = event.updatedBy();
         this.updatedAt = event.publishedAt();
+    }
+
+    @EventSourcingHandler
+    public void on(TopicEvent.TopicDraftedEvent event) {
+        this.status = TopicStatus.DRAFT;
+        this.updatedAt = event.draftedAt();
     }
 
     @EventSourcingHandler

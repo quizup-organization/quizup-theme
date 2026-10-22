@@ -81,6 +81,24 @@ class TopicAggregateTest {
     }
 
     @Test
+    void draftTopic_whenPublished_appliesTopicDraftedEvent() {
+        fixture.given(createdTopic(), new TopicEvent.TopicPublishedEvent(TOPIC_ID, OWNER, NOW))
+                .when(new TopicCommand.DraftTopicCommand(TOPIC_ID, "ACCOUNT_DELETED"))
+                .expectEventsMatching(QuizUpAxonMatchers.singlePayloadMatching(
+                        TopicEvent.TopicDraftedEvent.class,
+                        e -> TOPIC_ID.equals(((TopicEvent.TopicDraftedEvent) e).topicId())
+                                && "ACCOUNT_DELETED".equals(
+                                        ((TopicEvent.TopicDraftedEvent) e).reason())));
+    }
+
+    @Test
+    void draftTopic_whenAlreadyDraft_emitsNoEvent() {
+        fixture.given(createdTopic())
+                .when(new TopicCommand.DraftTopicCommand(TOPIC_ID, "ACCOUNT_DELETED"))
+                .expectNoEvents();
+    }
+
+    @Test
     void publishTopic_byNonOwner_rejects() {
         fixture.given(createdTopic())
                 .when(new TopicCommand.PublishTopicCommand(TOPIC_ID, "intruder"))

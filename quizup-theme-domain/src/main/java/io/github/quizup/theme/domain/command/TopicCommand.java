@@ -49,6 +49,15 @@ public interface TopicCommand {
     }
 
     /**
+     * Repasse un sujet publié en brouillon (suppression d'un compte ayant retiré des questions).
+     */
+    record DraftTopicCommand(
+            @TargetAggregateIdentifier String topicId,
+            String reason
+    ) implements TopicCommand {
+    }
+
+    /**
      * Mise à jour du nom d'une langue (propriétaire du thème uniquement).
      */
     record UpdateTopicNameCommand(

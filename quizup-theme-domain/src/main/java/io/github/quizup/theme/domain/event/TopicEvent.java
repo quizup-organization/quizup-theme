@@ -50,6 +50,16 @@ public interface TopicEvent {
     }
 
     /**
+     * Le sujet repasse en brouillon car il ne reste plus assez de questions approuvées.
+     */
+    record TopicDraftedEvent(
+            String topicId,
+            String reason,
+            Instant draftedAt
+    ) implements TopicEvent {
+    }
+
+    /**
      * Événement émis lors du changement du nom d'une langue du thème.
      */
     record TopicNameUpdatedEvent(

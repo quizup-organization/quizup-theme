@@ -103,6 +103,17 @@ public class TopicProjection {
 
     @EventHandler
     @Transactional
+    public void on(TopicEvent.TopicDraftedEvent event) {
+        topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> topicRepositoryPort.save(
+                topic.toBuilder()
+                        .status(TopicStatus.DRAFT)
+                        .updatedAt(event.draftedAt())
+                        .build()
+        ));
+    }
+
+    @EventHandler
+    @Transactional
     public void on(TopicEvent.TopicNameUpdatedEvent event) {
         topicRepositoryPort.findById(event.topicId()).ifPresent(topic -> {
             Map<Language, String> names = new EnumMap<>(Language.class);
