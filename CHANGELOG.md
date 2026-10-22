@@ -1,3 +1,9 @@
+## [6.14.0](https://github.com/quizup-organization/quizup-theme/compare/v6.13.1...v6.14.0) (2026-10-22)
+
+### Features
+
+* **theme:** expose l'événement de sujet dépublié pour notification ([99784d2](https://github.com/quizup-organization/quizup-theme/commit/99784d201e8eb24539f2030d840a39a6a1d4094d))
+
 ## [6.13.1](https://github.com/quizup-organization/quizup-theme/compare/v6.13.0...v6.13.1) (2026-10-22)
 
 ### Bug Fixes
