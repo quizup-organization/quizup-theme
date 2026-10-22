@@ -1,3 +1,9 @@
+## [6.13.1](https://github.com/quizup-organization/quizup-theme/compare/v6.13.0...v6.13.1) (2026-10-22)
+
+### Bug Fixes
+
+* **theme:** aligne les contrats social et game sur les releases disponibles ([4994bff](https://github.com/quizup-organization/quizup-theme/commit/4994bff25185ed67274d892b98873e5797044eae))
+
 ## [6.13.0](https://github.com/quizup-organization/quizup-theme/compare/v6.12.0...v6.13.0) (2026-10-22)
 
 ### Features
